@@ -933,6 +933,8 @@
   PerimDateTime: null
 2018-ORMED-000395:
   Source_NFSA_Join:
+    Lon: -123.57151386494839
+    Lat: 42.52811668293095
     id: 99582
     Name: Taylor Creek
     Fire_Name: Taylor Creek
@@ -953,16 +955,17 @@
     LocalIncidentIdentifier: 000395
     POOCounty: Josephine
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-21T01:21Z'
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2018-09-26T17:51Z'
+    ModifiedBySystem: firecode
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#TaylorCreekFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -123.57151405626468
     Lat: 42.528115195837906
-    objectid: 25
+    objectid: 49
     latitude: 42.52811
     longitude: -123.5715
     acres: 52839
@@ -973,7 +976,7 @@
     status: U
     firecause: Natural
     FireCause: Natural
-    reportdatetime: '2018-09-14T01:00Z'
+    reportdatetime: '2018-09-21T01:00Z'
     percentcontained: 95
     PercentContained: 95
     uniquefireidentifier: 2018-ORMED-000395
@@ -986,10 +989,10 @@
     Fire_Name: Taylor Creek
     iscomplex: 'false'
     irwinid: '{2447C010-33EC-4EE7-A2BC-CB0931FAE494}'
-    irwinmodifiedon: '2018-09-14T02:15Z'
-    ModifiedOnDateTime: '2018-09-14T02:15Z'
+    irwinmodifiedon: '2018-09-26T17:51Z'
+    ModifiedOnDateTime: '2018-09-26T17:51Z'
     mapsymbol: '4'
-    datecurrent: '2018-09-20T19:00Z'
+    datecurrent: '2018-09-26T12:00Z'
     pooownerunit: ORMED
     fireyear: 2018
     localincidentidentifier: 000395
@@ -1000,9 +1003,9 @@
     Name: Taylor Creek
     Source: GEOMAC
     Hashtag: '#TaylorCreekFire'
-  Lat: 42.528115195837906
-  Lon: -123.57151405626468
-  objectid: 25
+  Lon: -123.57151386494839
+  Lat: 42.52811668293095
+  objectid: 49
   latitude: 42.52811
   longitude: -123.5715
   acres: 52839
@@ -1013,7 +1016,7 @@
   status: U
   firecause: Natural
   FireCause: Natural
-  reportdatetime: '2018-09-14T01:00Z'
+  reportdatetime: '2018-09-21T01:00Z'
   percentcontained: 95
   PercentContained: 95
   uniquefireidentifier: 2018-ORMED-000395
@@ -1026,10 +1029,10 @@
   Fire_Name: Taylor Creek
   iscomplex: 'false'
   irwinid: '{2447C010-33EC-4EE7-A2BC-CB0931FAE494}'
-  irwinmodifiedon: '2018-09-14T02:15Z'
-  ModifiedOnDateTime: '2018-09-21T01:21Z'
+  irwinmodifiedon: '2018-09-26T17:51Z'
+  ModifiedOnDateTime: '2018-09-26T17:51Z'
   mapsymbol: '4'
-  datecurrent: '2018-09-20T19:00Z'
+  datecurrent: '2018-09-26T12:00Z'
   pooownerunit: ORMED
   fireyear: 2018
   localincidentidentifier: 000395
@@ -1053,9 +1056,10 @@
   LocalIncidentIdentifier: 000395
   POOCounty: Josephine
   POOLandownerKind: Federal
-  ModifiedBySystem: ics209
+  ModifiedBySystem: firecode
   popupinfo: null
   calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-25T22:26Z'
 2018-MTCGF-000095:
   Source_NFSA_Join:
@@ -2403,8 +2407,8 @@
     LocalIncidentIdentifier: '000161'
     POOCounty: Lincoln
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-20T20:51Z'
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2018-09-26T17:46Z'
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -2413,7 +2417,7 @@
   Source_GEOMAC:
     Lon: -115.93001407920488
     Lat: 48.960006398370965
-    objectid: 33
+    objectid: 5
     latitude: 48.96
     longitude: -115.93
     acres: 6614
@@ -2437,10 +2441,10 @@
     Fire_Name: Davis
     iscomplex: 'false'
     irwinid: '{7C240472-358B-4599-BFC8-4A887F6F63F3}'
-    irwinmodifiedon: '2018-09-26T16:29Z'
-    ModifiedOnDateTime: '2018-09-26T16:29Z'
+    irwinmodifiedon: '2018-09-26T17:46Z'
+    ModifiedOnDateTime: '2018-09-26T17:46Z'
     mapsymbol: '1'
-    datecurrent: '2018-09-26T10:30Z'
+    datecurrent: '2018-09-26T12:00Z'
     pooownerunit: MTKNF
     fireyear: 2018
     localincidentidentifier: '000161'
@@ -2451,54 +2455,36 @@
     Name: Davis
     Source: GEOMAC
     Hashtag: '#DavisFire'
-  Lon: -115.93001407920488
-  Lat: 48.960006398370965
-  id: 101463
-  Name: Davis
-  Fire_Name: Davis
-  UniqueFireIdentifier: 2018-MTKNF-000161
-  DailyAcres: 6614
-  PercentContained: 50
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-20T20:00Z'
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  FireCause: Natural
-  FireDiscoveryDateTime: '2018-07-29T18:51Z'
-  DispatchCenterID: MTKDC
-  LocalIncidentIdentifier: '000161'
-  POOCounty: Lincoln
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T16:29Z'
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: GEOMAC
-  Hashtag: '#DavisFire'
-  NFSAType: Large WF
-  objectid: 33
+  Lon: -115.93061473813174
+  Lat: 48.957894563988205
+  objectid: 5
   latitude: 48.96
   longitude: -115.93
   acres: 6614
+  DailyAcres: 6614
   gacc: NRCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: MT
   status: U
   firecause: Natural
+  FireCause: Natural
   reportdatetime: '2018-09-20T20:00Z'
   percentcontained: 50
+  PercentContained: 50
   uniquefireidentifier: 2018-MTKNF-000161
+  UniqueFireIdentifier: 2018-MTKNF-000161
   firediscoverydatetime: '2018-07-29T18:51Z'
+  FireDiscoveryDateTime: '2018-07-29T18:51Z'
   complexparentirwinid: null
   pooresponsibleunit: MTKNF
   incidentname: Davis
+  Fire_Name: Davis
   iscomplex: 'false'
   irwinid: '{7C240472-358B-4599-BFC8-4A887F6F63F3}'
-  irwinmodifiedon: '2018-09-26T16:29Z'
+  irwinmodifiedon: '2018-09-26T17:46Z'
+  ModifiedOnDateTime: '2018-09-26T17:46Z'
   mapsymbol: '1'
-  datecurrent: '2018-09-26T10:30Z'
+  datecurrent: '2018-09-26T12:00Z'
   pooownerunit: MTKNF
   fireyear: 2018
   localincidentidentifier: '000161'
@@ -2506,6 +2492,26 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  Name: Davis
+  Source: NFSA
+  Hashtag: '#DavisFire'
+  id: 101463
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-20T20:00Z'
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 13200000
+  TotalIncidentPersonnel: 8
+  DispatchCenterID: MTKDC
+  LocalIncidentIdentifier: '000161'
+  POOCounty: Lincoln
+  POOLandownerKind: Federal
+  ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-02T22:23Z'
 2018-COWRF-000411:
   Source_NFSA_Join:
@@ -15179,7 +15185,7 @@
     LocalIncidentIdentifier: '002175'
     POOCounty: Spokane
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-26T16:32Z'
+    ModifiedOnDateTime: '2018-09-26T17:30Z'
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#HawthornPitFire'
@@ -15208,7 +15214,7 @@
   LocalIncidentIdentifier: '002175'
   POOCounty: Spokane
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-26T16:32Z'
+  ModifiedOnDateTime: '2018-09-26T17:30Z'
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#HawthornPitFire'
@@ -15850,7 +15856,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: King
     UniqueFireIdentifier: 2018-IDSTF-000369
-    DailyAcres: 0.1
+    DailyAcres: 0.2
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -15866,8 +15872,8 @@
     LocalIncidentIdentifier: 000369
     POOCounty: Blaine
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T17:20Z'
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2018-09-26T17:55Z'
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#KingFire'
     NFSAType: Emerging WF < 24 hours
@@ -15879,7 +15885,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: King
   UniqueFireIdentifier: 2018-IDSTF-000369
-  DailyAcres: 0.1
+  DailyAcres: 0.2
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -15895,9 +15901,131 @@
   LocalIncidentIdentifier: 000369
   POOCounty: Blaine
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T17:20Z'
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2018-09-26T17:55Z'
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#KingFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-WANES-002177:
+  Source_NFSA_Join:
+    Lon: -117.20871077491846
+    Lat: 48.26017890591744
+    Name: HOPE
+    popupinfo: null
+    id: 107473
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: HOPE
+    UniqueFireIdentifier: 2018-WANES-002177
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-26T02:30Z'
+    DispatchCenterID: WANEC
+    LocalIncidentIdentifier: '002177'
+    POOCounty: Pend Oreille
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2018-09-26T17:55Z'
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#HopeFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -117.20871077491846
+  Lat: 48.26017890591744
+  Name: HOPE
+  popupinfo: null
+  id: 107473
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: HOPE
+  UniqueFireIdentifier: 2018-WANES-002177
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-26T02:30Z'
+  DispatchCenterID: WANEC
+  LocalIncidentIdentifier: '002177'
+  POOCounty: Pend Oreille
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2018-09-26T17:55Z'
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#HopeFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-AZHOA-000106:
+  Source_NFSA_Join:
+    Lon: -110.41307243154122
+    Lat: 35.83306777769927
+    Name: PIT
+    popupinfo: null
+    id: 107474
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: PIT
+    UniqueFireIdentifier: 2018-AZHOA-000106
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: null
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-26T15:45Z'
+    DispatchCenterID: null
+    LocalIncidentIdentifier: '000106'
+    POOCounty: Navajo
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-26T17:47Z'
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#PitFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -110.41307243154122
+  Lat: 35.83306777769927
+  Name: PIT
+  popupinfo: null
+  id: 107474
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: PIT
+  UniqueFireIdentifier: 2018-AZHOA-000106
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: null
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-26T15:45Z'
+  DispatchCenterID: null
+  LocalIncidentIdentifier: '000106'
+  POOCounty: Navajo
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-26T17:47Z'
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#PitFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
