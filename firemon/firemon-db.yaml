@@ -2381,6 +2381,8 @@
   PerimDateTime: null
 2018-MTKNF-000161:
   Source_NFSA_Join:
+    Lon: -115.93061473813174
+    Lat: 48.957894563988205
     id: 101463
     Name: Davis
     Fire_Name: Davis
@@ -2407,10 +2409,11 @@
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#DavisFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -115.93001407920488
     Lat: 48.960006398370965
-    objectid: 19
+    objectid: 33
     latitude: 48.96
     longitude: -115.93
     acres: 6614
@@ -2434,10 +2437,10 @@
     Fire_Name: Davis
     iscomplex: 'false'
     irwinid: '{7C240472-358B-4599-BFC8-4A887F6F63F3}'
-    irwinmodifiedon: '2018-09-20T20:51Z'
-    ModifiedOnDateTime: '2018-09-20T20:51Z'
+    irwinmodifiedon: '2018-09-26T16:29Z'
+    ModifiedOnDateTime: '2018-09-26T16:29Z'
     mapsymbol: '1'
-    datecurrent: '2018-09-20T15:00Z'
+    datecurrent: '2018-09-26T10:30Z'
     pooownerunit: MTKNF
     fireyear: 2018
     localincidentidentifier: '000161'
@@ -2448,36 +2451,54 @@
     Name: Davis
     Source: GEOMAC
     Hashtag: '#DavisFire'
-  Lat: 48.960006398370965
   Lon: -115.93001407920488
-  objectid: 19
+  Lat: 48.960006398370965
+  id: 101463
+  Name: Davis
+  Fire_Name: Davis
+  UniqueFireIdentifier: 2018-MTKNF-000161
+  DailyAcres: 6614
+  PercentContained: 50
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-20T20:00Z'
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  FireCause: Natural
+  FireDiscoveryDateTime: '2018-07-29T18:51Z'
+  DispatchCenterID: MTKDC
+  LocalIncidentIdentifier: '000161'
+  POOCounty: Lincoln
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-26T16:29Z'
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: GEOMAC
+  Hashtag: '#DavisFire'
+  NFSAType: Large WF
+  objectid: 33
   latitude: 48.96
   longitude: -115.93
   acres: 6614
-  DailyAcres: 6614
   gacc: NRCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: MT
   status: U
   firecause: Natural
-  FireCause: Natural
   reportdatetime: '2018-09-20T20:00Z'
   percentcontained: 50
-  PercentContained: 50
   uniquefireidentifier: 2018-MTKNF-000161
-  UniqueFireIdentifier: 2018-MTKNF-000161
   firediscoverydatetime: '2018-07-29T18:51Z'
-  FireDiscoveryDateTime: '2018-07-29T18:51Z'
   complexparentirwinid: null
   pooresponsibleunit: MTKNF
   incidentname: Davis
-  Fire_Name: Davis
   iscomplex: 'false'
   irwinid: '{7C240472-358B-4599-BFC8-4A887F6F63F3}'
-  irwinmodifiedon: '2018-09-20T20:51Z'
-  ModifiedOnDateTime: '2018-09-20T20:51Z'
+  irwinmodifiedon: '2018-09-26T16:29Z'
   mapsymbol: '1'
-  datecurrent: '2018-09-20T15:00Z'
+  datecurrent: '2018-09-26T10:30Z'
   pooownerunit: MTKNF
   fireyear: 2018
   localincidentidentifier: '000161'
@@ -2485,25 +2506,6 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
-  Name: Davis
-  Source: NFSA
-  Hashtag: Davis Fire
-  id: 101463
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-20T20:00Z'
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 13200000
-  TotalIncidentPersonnel: 8
-  DispatchCenterID: MTKDC
-  LocalIncidentIdentifier: '000161'
-  POOCounty: Lincoln
-  POOLandownerKind: Federal
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
   PerimDateTime: '2018-09-02T22:23Z'
 2018-COWRF-000411:
   Source_NFSA_Join:
@@ -4664,6 +4666,8 @@
   PerimDateTime: '2018-09-23T21:46Z'
 2018-MTKNF-000195:
   Source_NFSA_Join:
+    Lon: -115.5265165907234
+    Lat: 48.5767767120531
     id: 103322
     Name: Gold Hill
     Fire_Name: Gold Hill
@@ -4690,10 +4694,11 @@
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#GoldHillFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -115.52651390478839
     Lat: 48.57677641493967
-    objectid: 47
+    objectid: 19
     latitude: 48.57677
     longitude: -115.5265
     acres: 6602
@@ -4704,7 +4709,7 @@
     status: U
     firecause: Natural
     FireCause: Natural
-    reportdatetime: '2018-09-24T19:50Z'
+    reportdatetime: '2018-09-25T21:00Z'
     percentcontained: 55
     PercentContained: 55
     uniquefireidentifier: 2018-MTKNF-000195
@@ -4717,10 +4722,10 @@
     Fire_Name: Gold Hill
     iscomplex: 'false'
     irwinid: '{CDA8E136-0C16-4662-8660-BBDD858896B5}'
-    irwinmodifiedon: '2018-09-24T20:04Z'
-    ModifiedOnDateTime: '2018-09-24T20:04Z'
+    irwinmodifiedon: '2018-09-26T16:29Z'
+    ModifiedOnDateTime: '2018-09-26T16:29Z'
     mapsymbol: '1'
-    datecurrent: '2018-09-25T17:00Z'
+    datecurrent: '2018-09-26T10:30Z'
     pooownerunit: MTKNF
     fireyear: 2018
     localincidentidentifier: 000195
@@ -4731,36 +4736,54 @@
     Name: Gold Hill
     Source: GEOMAC
     Hashtag: '#GoldHillFire'
-  Lat: 48.57677641493967
   Lon: -115.52651390478839
-  objectid: 47
+  Lat: 48.57677641493967
+  id: 103322
+  Name: Gold Hill
+  Fire_Name: Gold Hill
+  UniqueFireIdentifier: 2018-MTKNF-000195
+  DailyAcres: 6602
+  PercentContained: 55
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-25T21:00Z'
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  FireCause: Natural
+  FireDiscoveryDateTime: '2018-08-11T22:24Z'
+  DispatchCenterID: MTKDC
+  LocalIncidentIdentifier: 000195
+  POOCounty: Lincoln
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-26T16:29Z'
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: GEOMAC
+  Hashtag: '#GoldHillFire'
+  NFSAType: Large WF
+  objectid: 19
   latitude: 48.57677
   longitude: -115.5265
   acres: 6602
-  DailyAcres: 6602
   gacc: NRCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: MT
   status: U
   firecause: Natural
-  FireCause: Natural
-  reportdatetime: '2018-09-24T19:50Z'
+  reportdatetime: '2018-09-25T21:00Z'
   percentcontained: 55
-  PercentContained: 55
   uniquefireidentifier: 2018-MTKNF-000195
-  UniqueFireIdentifier: 2018-MTKNF-000195
   firediscoverydatetime: '2018-08-11T22:24Z'
-  FireDiscoveryDateTime: '2018-08-11T22:24Z'
   complexparentirwinid: null
   pooresponsibleunit: MTKNF
   incidentname: Gold Hill
-  Fire_Name: Gold Hill
   iscomplex: 'false'
   irwinid: '{CDA8E136-0C16-4662-8660-BBDD858896B5}'
-  irwinmodifiedon: '2018-09-24T20:04Z'
-  ModifiedOnDateTime: '2018-09-25T23:16Z'
+  irwinmodifiedon: '2018-09-26T16:29Z'
   mapsymbol: '1'
-  datecurrent: '2018-09-25T17:00Z'
+  datecurrent: '2018-09-26T10:30Z'
   pooownerunit: MTKNF
   fireyear: 2018
   localincidentidentifier: 000195
@@ -4768,25 +4791,6 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
-  Name: Gold Hill
-  Source: NFSA
-  Hashtag: '#GoldHillFire'
-  id: 103322
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-25T21:00Z'
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 15590000
-  TotalIncidentPersonnel: 16
-  DispatchCenterID: MTKDC
-  LocalIncidentIdentifier: 000195
-  POOCounty: Lincoln
-  POOLandownerKind: Federal
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
   PerimDateTime: '2018-09-16T20:45Z'
 2018-MTBDF-003308:
   Source_NFSA_Join:
