@@ -7966,6 +7966,8 @@
   PerimDateTime: null
 2018-UTBRP-000743:
   Source_NFSA_Join:
+    Lon: -112.226914720624
+    Lat: 37.47661758802549
     id: 106168
     Name: Lonely
     Fire_Name: Lonely
@@ -7986,16 +7988,17 @@
     LocalIncidentIdentifier: '000743'
     POOCounty: Kane
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-25T22:48Z'
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2018-09-26T19:06Z'
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#LonelyFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -112.21861140783543
     Lat: 37.482385630161744
-    objectid: 11
+    objectid: 60
     latitude: 37.48238
     longitude: -112.2186
     acres: 872
@@ -8019,10 +8022,10 @@
     Fire_Name: Lonely
     iscomplex: 'false'
     irwinid: '{9A4C97A0-5BD0-441A-8D36-C91D198057CA}'
-    irwinmodifiedon: '2018-09-25T22:48Z'
-    ModifiedOnDateTime: '2018-09-25T22:48Z'
+    irwinmodifiedon: '2018-09-26T19:07Z'
+    ModifiedOnDateTime: '2018-09-26T19:07Z'
     mapsymbol: '1'
-    datecurrent: '2018-09-25T17:00Z'
+    datecurrent: '2018-09-26T13:30Z'
     pooownerunit: UTBRP
     fireyear: 2018
     localincidentidentifier: '000743'
@@ -8033,36 +8036,54 @@
     Name: Lonely
     Source: GEOMAC
     Hashtag: '#LonelyFire'
-  Lat: 37.482385630161744
   Lon: -112.21861140783543
-  objectid: 11
+  Lat: 37.482385630161744
+  id: 106168
+  Name: Lonely
+  Fire_Name: Lonely
+  UniqueFireIdentifier: 2018-UTBRP-000743
+  DailyAcres: 872
+  PercentContained: 0
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2018-09-25T22:30Z'
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  FireCause: Natural
+  FireDiscoveryDateTime: '2018-09-06T20:04Z'
+  DispatchCenterID: UTCDC
+  LocalIncidentIdentifier: '000743'
+  POOCounty: Kane
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-26T19:07Z'
+  ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: GEOMAC
+  Hashtag: '#LonelyFire'
+  NFSAType: Large WF
+  objectid: 60
   latitude: 37.48238
   longitude: -112.2186
   acres: 872
-  DailyAcres: 872
   gacc: GBCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: UT
   status: U
   firecause: Natural
-  FireCause: Natural
   reportdatetime: '2018-09-25T22:30Z'
   percentcontained: 0
-  PercentContained: 0
   uniquefireidentifier: 2018-UTBRP-000743
-  UniqueFireIdentifier: 2018-UTBRP-000743
   firediscoverydatetime: '2018-09-06T20:04Z'
-  FireDiscoveryDateTime: '2018-09-06T20:04Z'
   complexparentirwinid: null
   pooresponsibleunit: UTBRP
   incidentname: Lonely
-  Fire_Name: Lonely
   iscomplex: 'false'
   irwinid: '{9A4C97A0-5BD0-441A-8D36-C91D198057CA}'
-  irwinmodifiedon: '2018-09-25T22:48Z'
-  ModifiedOnDateTime: '2018-09-25T22:48Z'
+  irwinmodifiedon: '2018-09-26T19:07Z'
   mapsymbol: '1'
-  datecurrent: '2018-09-25T17:00Z'
+  datecurrent: '2018-09-26T13:30Z'
   pooownerunit: UTBRP
   fireyear: 2018
   localincidentidentifier: '000743'
@@ -8070,25 +8091,6 @@
   owneragency: NPS
   perimexist: 'Y'
   complexname: null
-  Name: Lonely
-  Source: NFSA
-  Hashtag: '#LonelyFire'
-  id: 106168
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2018-09-25T22:30Z'
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 60000
-  TotalIncidentPersonnel: 1
-  DispatchCenterID: UTCDC
-  LocalIncidentIdentifier: '000743'
-  POOCounty: Kane
-  POOLandownerKind: Federal
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
   PerimDateTime: '2018-09-23T00:00Z'
 2018-IDBOF-001019:
   Source_NFSA_Join:
@@ -14620,7 +14622,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Prospect
     UniqueFireIdentifier: 2018-IDSCF-018300
-    DailyAcres: 3
+    DailyAcres: 30
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -14636,7 +14638,7 @@
     LocalIncidentIdentifier: 018300
     POOCounty: Valley
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T14:32Z'
+    ModifiedOnDateTime: '2018-09-26T19:10Z'
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#ProspectFire'
@@ -14649,7 +14651,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Prospect
   UniqueFireIdentifier: 2018-IDSCF-018300
-  DailyAcres: 3
+  DailyAcres: 30
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -14665,7 +14667,7 @@
   LocalIncidentIdentifier: 018300
   POOCounty: Valley
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T14:32Z'
+  ModifiedOnDateTime: '2018-09-26T19:10Z'
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#ProspectFire'
@@ -15307,7 +15309,7 @@
     LocalIncidentIdentifier: '001214'
     POOCounty: Deschutes
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T18:39Z'
+    ModifiedOnDateTime: '2018-09-26T19:11Z'
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#1214NwFire'
@@ -15336,7 +15338,7 @@
   LocalIncidentIdentifier: '001214'
   POOCounty: Deschutes
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T18:39Z'
+  ModifiedOnDateTime: '2018-09-26T19:11Z'
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#1214NwFire'
@@ -16177,7 +16179,7 @@
     LocalIncidentIdentifier: 013913
     POOCounty: San Bernardino
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-26T18:22Z'
+    ModifiedOnDateTime: '2018-09-26T19:00Z'
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#KenbrookFire'
@@ -16206,7 +16208,7 @@
   LocalIncidentIdentifier: 013913
   POOCounty: San Bernardino
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-26T18:22Z'
+  ModifiedOnDateTime: '2018-09-26T19:00Z'
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#KenbrookFire'
@@ -16299,7 +16301,7 @@
     LocalIncidentIdentifier: '000304'
     POOCounty: Bingham
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-26T18:55Z'
+    ModifiedOnDateTime: '2018-09-26T18:58Z'
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BinghamCountyAssist9Fire'
@@ -16328,7 +16330,7 @@
   LocalIncidentIdentifier: '000304'
   POOCounty: Bingham
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-26T18:55Z'
+  ModifiedOnDateTime: '2018-09-26T18:58Z'
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BinghamCountyAssist9Fire'
@@ -16360,8 +16362,8 @@
     LocalIncidentIdentifier: '001217'
     POOCounty: Crook
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T18:44Z'
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2018-09-26T19:18Z'
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#1217PrFire'
     NFSAType: Emerging WF < 24 hours
@@ -16389,8 +16391,8 @@
   LocalIncidentIdentifier: '001217'
   POOCounty: Crook
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T18:44Z'
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2018-09-26T19:18Z'
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#1217PrFire'
   NFSAType: Emerging WF < 24 hours
@@ -16454,5 +16456,66 @@
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BeartrackFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-WYBTF-001832:
+  Source_NFSA_Join:
+    Lon: -110.60891414663212
+    Lat: 43.24772857446598
+    Name: Buck Creek
+    popupinfo: null
+    id: 107481
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Buck Creek
+    UniqueFireIdentifier: 2018-WYBTF-001832
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-26T18:07Z'
+    DispatchCenterID: WYTDC
+    LocalIncidentIdentifier: 001832
+    POOCounty: Teton
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-26T19:14Z'
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#BuckCreekFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -110.60891414663212
+  Lat: 43.24772857446598
+  Name: Buck Creek
+  popupinfo: null
+  id: 107481
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Buck Creek
+  UniqueFireIdentifier: 2018-WYBTF-001832
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-26T18:07Z'
+  DispatchCenterID: WYTDC
+  LocalIncidentIdentifier: 001832
+  POOCounty: Teton
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-26T19:14Z'
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#BuckCreekFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
