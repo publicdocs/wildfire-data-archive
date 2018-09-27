@@ -904,6 +904,8 @@
   PerimDateTime: '2018-08-24T03:05Z'
 2018-IDCTF-000110:
   Source_NFSA_Join:
+    Lon: -111.19600810056842
+    Lat: 42.83310414908296
     id: 99363
     Name: Diamond Flat
     Fire_Name: Diamond Flat
@@ -912,24 +914,30 @@
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-20T20:30Z'
+    ICS209ReportDateTime: '2018-09-27T19:30Z'
+    ICS209ReportDateTimeEpoch: 1538076600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 140000
+    EstimatedCostToDate: 150000
     FireCause: Natural
     TotalIncidentPersonnel: 2
     FireDiscoveryDateTime: '2018-07-17T23:33Z'
+    FireDiscoveryDateTimeEpoch: 1531870395000
     DispatchCenterID: IDEIC
     LocalIncidentIdentifier: '000110'
     POOCounty: Caribou
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-20T21:32Z'
+    ModifiedOnDateTime: '2018-09-27T20:44Z'
+    ModifiedOnDateTimeEpoch: 1538081075000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     Hashtag: '#DiamondFlatFire'
+    NFSAType: Large WF
+  Lon: -111.19600810056842
+  Lat: 42.83310414908296
   id: 99363
   Name: Diamond Flat
   Fire_Name: Diamond Flat
@@ -938,24 +946,28 @@
   PercentContained: 0
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-20T20:30Z'
+  ICS209ReportDateTime: '2018-09-27T19:30Z'
+  ICS209ReportDateTimeEpoch: 1538076600000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 140000
+  EstimatedCostToDate: 150000
   FireCause: Natural
   TotalIncidentPersonnel: 2
   FireDiscoveryDateTime: '2018-07-17T23:33Z'
+  FireDiscoveryDateTimeEpoch: 1531870395000
   DispatchCenterID: IDEIC
   LocalIncidentIdentifier: '000110'
   POOCounty: Caribou
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-20T21:32Z'
+  ModifiedOnDateTime: '2018-09-27T20:44Z'
+  ModifiedOnDateTimeEpoch: 1538081075000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: NonImsr
   Source: NFSA
   Hashtag: '#DiamondFlatFire'
+  NFSAType: Large WF
   PerimDateTime: null
 2018-ORMED-000395:
   Source_NFSA_Join:
@@ -4919,7 +4931,8 @@
     PercentContained: 50
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-26T20:00Z'
+    ICS209ReportDateTime: '2018-09-27T20:00Z'
+    ICS209ReportDateTimeEpoch: 1538078400000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -4927,11 +4940,13 @@
     FireCause: Natural
     TotalIncidentPersonnel: 4
     FireDiscoveryDateTime: '2018-08-11T22:24Z'
+    FireDiscoveryDateTimeEpoch: 1534026240000
     DispatchCenterID: MTKDC
     LocalIncidentIdentifier: 000195
     POOCounty: Lincoln
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T22:30Z'
+    ModifiedOnDateTime: '2018-09-27T20:44Z'
+    ModifiedOnDateTimeEpoch: 1538081071000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
@@ -4941,34 +4956,31 @@
   Source_GEOMAC:
     Lon: -115.52651390478839
     Lat: 48.57677641493967
-    objectid: 32
+    objectid: 10
     latitude: 48.57677
     longitude: -115.5265
     acres: 6602
-    DailyAcres: 6602
     gacc: NRCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: MT
     status: U
     firecause: Natural
-    FireCause: Natural
-    reportdatetime: '2018-09-26T20:00Z'
+    reportdatetime: '2018-09-27T20:00Z'
+    reportdatetimeEpoch: 1538078400000
     percentcontained: 50
-    PercentContained: 50
     uniquefireidentifier: 2018-MTKNF-000195
-    UniqueFireIdentifier: 2018-MTKNF-000195
     firediscoverydatetime: '2018-08-11T22:24Z'
-    FireDiscoveryDateTime: '2018-08-11T22:24Z'
+    firediscoverydatetimeEpoch: 1534026240000
     complexparentirwinid: null
     pooresponsibleunit: MTKNF
     incidentname: Gold Hill
-    Fire_Name: Gold Hill
     iscomplex: 'false'
     irwinid: '{CDA8E136-0C16-4662-8660-BBDD858896B5}'
-    irwinmodifiedon: '2018-09-26T22:30Z'
-    ModifiedOnDateTime: '2018-09-26T22:30Z'
+    irwinmodifiedon: '2018-09-27T20:44Z'
+    irwinmodifiedonEpoch: 1538081072000
     mapsymbol: '1'
-    datecurrent: '2018-09-26T17:00Z'
+    datecurrent: '2018-09-27T15:00Z'
+    datecurrentEpoch: 1538060411000
     pooownerunit: MTKNF
     fireyear: 2018
     localincidentidentifier: 000195
@@ -4976,39 +4988,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 6602
+    FireCause: Natural
+    PercentContained: 50
+    UniqueFireIdentifier: 2018-MTKNF-000195
+    FireDiscoveryDateTime: '2018-08-11T22:24Z'
+    Fire_Name: Gold Hill
+    ModifiedOnDateTime: '2018-09-27T20:44Z'
     Name: Gold Hill
     Source: GEOMAC
     Hashtag: '#GoldHillFire'
   Lon: -115.5265165907234
   Lat: 48.5767767120531
-  objectid: 32
+  objectid: 10
   latitude: 48.57677
   longitude: -115.5265
   acres: 6602
-  DailyAcres: 6602
   gacc: NRCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: MT
   status: U
   firecause: Natural
-  FireCause: Natural
-  reportdatetime: '2018-09-26T20:00Z'
+  reportdatetime: '2018-09-27T20:00Z'
+  reportdatetimeEpoch: 1538078400000
   percentcontained: 50
-  PercentContained: 50
   uniquefireidentifier: 2018-MTKNF-000195
-  UniqueFireIdentifier: 2018-MTKNF-000195
   firediscoverydatetime: '2018-08-11T22:24Z'
-  FireDiscoveryDateTime: '2018-08-11T22:24Z'
+  firediscoverydatetimeEpoch: 1534026240000
   complexparentirwinid: null
   pooresponsibleunit: MTKNF
   incidentname: Gold Hill
-  Fire_Name: Gold Hill
   iscomplex: 'false'
   irwinid: '{CDA8E136-0C16-4662-8660-BBDD858896B5}'
-  irwinmodifiedon: '2018-09-26T22:30Z'
-  ModifiedOnDateTime: '2018-09-26T22:30Z'
+  irwinmodifiedon: '2018-09-27T20:44Z'
+  irwinmodifiedonEpoch: 1538081072000
   mapsymbol: '1'
-  datecurrent: '2018-09-26T17:00Z'
+  datecurrent: '2018-09-27T15:00Z'
+  datecurrentEpoch: 1538060411000
   pooownerunit: MTKNF
   fireyear: 2018
   localincidentidentifier: 000195
@@ -5016,22 +5032,32 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 6602
+  FireCause: Natural
+  PercentContained: 50
+  UniqueFireIdentifier: 2018-MTKNF-000195
+  FireDiscoveryDateTime: '2018-08-11T22:24Z'
+  Fire_Name: Gold Hill
+  ModifiedOnDateTime: '2018-09-27T20:44Z'
   Name: Gold Hill
   Source: NFSA
   Hashtag: '#GoldHillFire'
   id: 103322
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-26T20:00Z'
+  ICS209ReportDateTime: '2018-09-27T20:00Z'
+  ICS209ReportDateTimeEpoch: 1538078400000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 15900000
   TotalIncidentPersonnel: 4
+  FireDiscoveryDateTimeEpoch: 1534026240000
   DispatchCenterID: MTKDC
   LocalIncidentIdentifier: 000195
   POOCounty: Lincoln
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538081071000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
@@ -5811,19 +5837,22 @@
     PercentContained: 99
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-25T23:45Z'
+    ICS209ReportDateTime: '2018-09-27T20:45Z'
+    ICS209ReportDateTimeEpoch: 1538081100000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 12850000
+    EstimatedCostToDate: 1285000
     FireCause: Natural
     TotalIncidentPersonnel: 8
     FireDiscoveryDateTime: '2018-08-17T22:47Z'
+    FireDiscoveryDateTimeEpoch: 1534546020000
     DispatchCenterID: NVEIC
     LocalIncidentIdentifier: 010299
     POOCounty: Elko
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-26T00:00Z'
+    ModifiedOnDateTime: '2018-09-27T20:57Z'
+    ModifiedOnDateTimeEpoch: 1538081826000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
@@ -5833,34 +5862,31 @@
   Source_GEOMAC:
     Lon: -116.3239127423559
     Lat: 41.811755782598134
-    objectid: 29
+    objectid: 47
     latitude: 41.81175
     longitude: -116.3239
     acres: 233462
-    DailyAcres: 233462
     gacc: GBCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: NV
     status: U
     firecause: Natural
-    FireCause: Natural
-    reportdatetime: '2018-09-26T23:15Z'
+    reportdatetime: '2018-09-27T20:45Z'
+    reportdatetimeEpoch: 1538081100000
     percentcontained: 99
-    PercentContained: 99
     uniquefireidentifier: 2018-NVECFX-010299
-    UniqueFireIdentifier: 2018-NVECFX-010299
     firediscoverydatetime: '2018-08-17T22:47Z'
-    FireDiscoveryDateTime: '2018-08-17T22:47Z'
+    firediscoverydatetimeEpoch: 1534546020000
     complexparentirwinid: null
     pooresponsibleunit: NVECFX
     incidentname: South Sugarloaf
-    Fire_Name: South Sugarloaf
     iscomplex: 'false'
     irwinid: '{A86E6F46-C43E-49AA-90E2-64C52F31739B}'
-    irwinmodifiedon: '2018-09-26T23:28Z'
-    ModifiedOnDateTime: '2018-09-26T23:28Z'
+    irwinmodifiedon: '2018-09-27T20:57Z'
+    irwinmodifiedonEpoch: 1538081826000
     mapsymbol: '5'
-    datecurrent: '2018-09-26T17:30Z'
+    datecurrent: '2018-09-27T15:00Z'
+    datecurrentEpoch: 1538060411000
     pooownerunit: NVECFX
     fireyear: 2018
     localincidentidentifier: 010299
@@ -5868,37 +5894,19 @@
     owneragency: ''
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 233462
+    FireCause: Natural
+    PercentContained: 99
+    UniqueFireIdentifier: 2018-NVECFX-010299
+    FireDiscoveryDateTime: '2018-08-17T22:47Z'
+    Fire_Name: South Sugarloaf
+    ModifiedOnDateTime: '2018-09-27T20:57Z'
     Name: South Sugarloaf
     Source: GEOMAC
     Hashtag: '#SouthSugarloafFire'
-  Lon: -116.3239127423559
-  Lat: 41.811755782598134
-  id: 104194
-  Name: South Sugarloaf
-  Fire_Name: South Sugarloaf
-  UniqueFireIdentifier: 2018-NVECFX-010299
-  DailyAcres: 233462
-  PercentContained: 99
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-25T23:45Z'
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  FireCause: Natural
-  FireDiscoveryDateTime: '2018-08-17T22:47Z'
-  DispatchCenterID: NVEIC
-  LocalIncidentIdentifier: 010299
-  POOCounty: Elko
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-26T23:28Z'
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: GEOMAC
-  Hashtag: '#SouthSugarloafFire'
-  NFSAType: Large WF
-  objectid: 29
+  Lon: -116.32391513582493
+  Lat: 41.81175612256562
+  objectid: 47
   latitude: 41.81175
   longitude: -116.3239
   acres: 233462
@@ -5907,18 +5915,22 @@
   state: NV
   status: U
   firecause: Natural
-  reportdatetime: '2018-09-26T23:15Z'
+  reportdatetime: '2018-09-27T20:45Z'
+  reportdatetimeEpoch: 1538081100000
   percentcontained: 99
   uniquefireidentifier: 2018-NVECFX-010299
   firediscoverydatetime: '2018-08-17T22:47Z'
+  firediscoverydatetimeEpoch: 1534546020000
   complexparentirwinid: null
   pooresponsibleunit: NVECFX
   incidentname: South Sugarloaf
   iscomplex: 'false'
   irwinid: '{A86E6F46-C43E-49AA-90E2-64C52F31739B}'
-  irwinmodifiedon: '2018-09-26T23:28Z'
+  irwinmodifiedon: '2018-09-27T20:57Z'
+  irwinmodifiedonEpoch: 1538081826000
   mapsymbol: '5'
-  datecurrent: '2018-09-26T17:30Z'
+  datecurrent: '2018-09-27T15:00Z'
+  datecurrentEpoch: 1538060411000
   pooownerunit: NVECFX
   fireyear: 2018
   localincidentidentifier: 010299
@@ -5926,6 +5938,36 @@
   owneragency: ''
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 233462
+  FireCause: Natural
+  PercentContained: 99
+  UniqueFireIdentifier: 2018-NVECFX-010299
+  FireDiscoveryDateTime: '2018-08-17T22:47Z'
+  Fire_Name: South Sugarloaf
+  ModifiedOnDateTime: '2018-09-27T20:57Z'
+  Name: South Sugarloaf
+  Source: NFSA
+  Hashtag: '#SouthSugarloafFire'
+  id: 104194
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-27T20:45Z'
+  ICS209ReportDateTimeEpoch: 1538081100000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 1285000
+  TotalIncidentPersonnel: 8
+  FireDiscoveryDateTimeEpoch: 1534546020000
+  DispatchCenterID: NVEIC
+  LocalIncidentIdentifier: 010299
+  POOCounty: Elko
+  POOLandownerKind: null
+  ModifiedOnDateTimeEpoch: 1538081826000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-03T21:30Z'
 2018-IDSTF-000299:
   Source_NFSA_Join:
@@ -6055,58 +6097,70 @@
   PerimDateTime: '2018-09-21T06:00Z'
 2018-IDNCF-000592:
   Source_NFSA_Join:
+    Lon: -114.9919111988382
+    Lat: 46.054617269409455
     id: 104302
     Name: Martin
     Fire_Name: Martin
     UniqueFireIdentifier: 2018-IDNCF-000592
     DailyAcres: 7
-    PercentContained: 1
+    PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-23T19:00Z'
+    ICS209ReportDateTime: '2018-09-27T20:00Z'
+    ICS209ReportDateTimeEpoch: 1538078400000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 1000
+    EstimatedCostToDate: 2000
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-08-18T21:56Z'
+    FireDiscoveryDateTimeEpoch: 1534629378000
     DispatchCenterID: IDGVC
     LocalIncidentIdentifier: 000592
     POOCounty: Idaho
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-23T19:16Z'
+    ModifiedOnDateTime: '2018-09-27T20:35Z'
+    ModifiedOnDateTimeEpoch: 1538080528000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     Hashtag: '#MartinFire'
+    NFSAType: Large WF
+  Lon: -114.9919111988382
+  Lat: 46.054617269409455
   id: 104302
   Name: Martin
   Fire_Name: Martin
   UniqueFireIdentifier: 2018-IDNCF-000592
   DailyAcres: 7
-  PercentContained: 1
+  PercentContained: 0
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-23T19:00Z'
+  ICS209ReportDateTime: '2018-09-27T20:00Z'
+  ICS209ReportDateTimeEpoch: 1538078400000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 1000
+  EstimatedCostToDate: 2000
   FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-08-18T21:56Z'
+  FireDiscoveryDateTimeEpoch: 1534629378000
   DispatchCenterID: IDGVC
   LocalIncidentIdentifier: 000592
   POOCounty: Idaho
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-23T19:16Z'
+  ModifiedOnDateTime: '2018-09-27T20:35Z'
+  ModifiedOnDateTimeEpoch: 1538080528000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: NonImsr
   Source: NFSA
   Hashtag: '#MartinFire'
+  NFSAType: Large WF
   PerimDateTime: null
 2018-MTBRF-018168:
   Source_NFSA_Join:
@@ -12114,8 +12168,8 @@
     LocalIncidentIdentifier: 000971
     POOCounty: Juab
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T02:48Z'
-    ModifiedOnDateTimeEpoch: 1538016494000
+    ModifiedOnDateTime: '2018-09-27T20:37Z'
+    ModifiedOnDateTimeEpoch: 1538080656000
     ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrType1
@@ -12125,7 +12179,7 @@
   Source_GEOMAC:
     Lon: -111.6605115644416
     Lat: 39.80574594623216
-    objectid: 24
+    objectid: 51
     latitude: 39.80574
     longitude: -111.6605
     acres: 101895
@@ -12145,11 +12199,11 @@
     incidentname: Pole Creek
     iscomplex: 'false'
     irwinid: '{E2C9AC9D-6591-4065-865C-0B6E760A6DAF}'
-    irwinmodifiedon: '2018-09-27T02:48Z'
-    irwinmodifiedonEpoch: 1538016495000
+    irwinmodifiedon: '2018-09-27T20:37Z'
+    irwinmodifiedonEpoch: 1538080656000
     mapsymbol: '5'
-    datecurrent: '2018-09-26T22:00Z'
-    datecurrentEpoch: 1537999211000
+    datecurrent: '2018-09-27T15:00Z'
+    datecurrentEpoch: 1538060411000
     pooownerunit: UTUWF
     fireyear: 2018
     localincidentidentifier: 000971
@@ -12163,13 +12217,13 @@
     UniqueFireIdentifier: 2018-UTUWF-000971
     FireDiscoveryDateTime: '2018-09-06T16:39Z'
     Fire_Name: Pole Creek
-    ModifiedOnDateTime: '2018-09-27T02:48Z'
+    ModifiedOnDateTime: '2018-09-27T20:37Z'
     Name: Pole Creek
     Source: GEOMAC
     Hashtag: '#PoleCreekFire'
   Lon: -111.66050896768095
   Lat: 39.80574709900321
-  objectid: 24
+  objectid: 51
   latitude: 39.80574
   longitude: -111.6605
   acres: 101895
@@ -12189,11 +12243,11 @@
   incidentname: Pole Creek
   iscomplex: 'false'
   irwinid: '{E2C9AC9D-6591-4065-865C-0B6E760A6DAF}'
-  irwinmodifiedon: '2018-09-27T02:48Z'
-  irwinmodifiedonEpoch: 1538016495000
+  irwinmodifiedon: '2018-09-27T20:37Z'
+  irwinmodifiedonEpoch: 1538080656000
   mapsymbol: '5'
-  datecurrent: '2018-09-26T22:00Z'
-  datecurrentEpoch: 1537999211000
+  datecurrent: '2018-09-27T15:00Z'
+  datecurrentEpoch: 1538060411000
   pooownerunit: UTUWF
   fireyear: 2018
   localincidentidentifier: 000971
@@ -12207,7 +12261,7 @@
   UniqueFireIdentifier: 2018-UTUWF-000971
   FireDiscoveryDateTime: '2018-09-06T16:39Z'
   Fire_Name: Pole Creek
-  ModifiedOnDateTime: '2018-09-27T02:48Z'
+  ModifiedOnDateTime: '2018-09-27T20:37Z'
   Name: Pole Creek
   Source: NFSA
   Hashtag: '#PoleCreekFire'
@@ -12226,7 +12280,7 @@
   LocalIncidentIdentifier: 000971
   POOCounty: Juab
   POOLandownerKind: Federal
-  ModifiedOnDateTimeEpoch: 1538016494000
+  ModifiedOnDateTimeEpoch: 1538080656000
   ModifiedBySystem: wfdss
   popupinfo: null
   calc_symboltype: ImsrType1
@@ -13542,12 +13596,12 @@
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-24T20:00Z'
-    ICS209ReportDateTimeEpoch: 1537819200000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2018-09-27T20:00Z'
+    ICS209ReportDateTimeEpoch: 1538078400000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 500
+    EstimatedCostToDate: 1500
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-18T14:41Z'
@@ -13556,45 +13610,122 @@
     LocalIncidentIdentifier: '000776'
     POOCounty: Idaho
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T18:20Z'
-    ModifiedOnDateTimeEpoch: 1538072441000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T20:39Z'
+    ModifiedOnDateTimeEpoch: 1538080781000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#BearCreekFire'
     NFSAType: Large WF
+  Source_GEOMAC:
+    Lon: -114.74921318969938
+    Lat: 46.04865629941334
+    objectid: 16
+    latitude: 46.04865
+    longitude: -114.7492
+    acres: 147
+    gacc: NRCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: ID
+    status: U
+    firecause: Natural
+    reportdatetime: '2018-09-27T20:00Z'
+    reportdatetimeEpoch: 1538078400000
+    percentcontained: 0
+    uniquefireidentifier: 2018-IDNCF-000776
+    firediscoverydatetime: '2018-09-18T14:41Z'
+    firediscoverydatetimeEpoch: 1537281676000
+    complexparentirwinid: null
+    pooresponsibleunit: IDNCF
+    incidentname: Bear Creek
+    iscomplex: 'false'
+    irwinid: '{1720F2A6-4B24-4DAC-B614-719B6F632791}'
+    irwinmodifiedon: '2018-09-27T20:39Z'
+    irwinmodifiedonEpoch: 1538080782000
+    mapsymbol: '1'
+    datecurrent: '2018-09-27T15:00Z'
+    datecurrentEpoch: 1538060411000
+    pooownerunit: IDNCF
+    fireyear: 2018
+    localincidentidentifier: '000776'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 147
+    FireCause: Natural
+    PercentContained: 0
+    UniqueFireIdentifier: 2018-IDNCF-000776
+    FireDiscoveryDateTime: '2018-09-18T14:41Z'
+    Fire_Name: Bear Creek
+    ModifiedOnDateTime: '2018-09-27T20:39Z'
+    Name: Bear Creek
+    Source: GEOMAC
+    Hashtag: '#BearCreekFire'
   Lon: -114.74921335852763
   Lat: 46.0486571868182
-  id: 107087
-  Name: Bear Creek
-  Fire_Name: Bear Creek
-  UniqueFireIdentifier: 2018-IDNCF-000776
+  objectid: 16
+  latitude: 46.04865
+  longitude: -114.7492
+  acres: 147
+  gacc: NRCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: ID
+  status: U
+  firecause: Natural
+  reportdatetime: '2018-09-27T20:00Z'
+  reportdatetimeEpoch: 1538078400000
+  percentcontained: 0
+  uniquefireidentifier: 2018-IDNCF-000776
+  firediscoverydatetime: '2018-09-18T14:41Z'
+  firediscoverydatetimeEpoch: 1537281676000
+  complexparentirwinid: null
+  pooresponsibleunit: IDNCF
+  incidentname: Bear Creek
+  iscomplex: 'false'
+  irwinid: '{1720F2A6-4B24-4DAC-B614-719B6F632791}'
+  irwinmodifiedon: '2018-09-27T20:39Z'
+  irwinmodifiedonEpoch: 1538080782000
+  mapsymbol: '1'
+  datecurrent: '2018-09-27T15:00Z'
+  datecurrentEpoch: 1538060411000
+  pooownerunit: IDNCF
+  fireyear: 2018
+  localincidentidentifier: '000776'
+  incidenttypecategory: WF
+  owneragency: USFS
+  perimexist: 'Y'
+  complexname: null
   DailyAcres: 147
+  FireCause: Natural
   PercentContained: 0
+  UniqueFireIdentifier: 2018-IDNCF-000776
+  FireDiscoveryDateTime: '2018-09-18T14:41Z'
+  Fire_Name: Bear Creek
+  ModifiedOnDateTime: '2018-09-27T20:39Z'
+  Name: Bear Creek
+  Source: NFSA
+  Hashtag: '#BearCreekFire'
+  id: 107087
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-24T20:00Z'
-  ICS209ReportDateTimeEpoch: 1537819200000
-  ICS209ReportStatus: I
+  ICS209ReportDateTime: '2018-09-27T20:00Z'
+  ICS209ReportDateTimeEpoch: 1538078400000
+  ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 500
-  FireCause: Natural
+  EstimatedCostToDate: 1500
   TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2018-09-18T14:41Z'
   FireDiscoveryDateTimeEpoch: 1537281676000
   DispatchCenterID: IDGVC
   LocalIncidentIdentifier: '000776'
   POOCounty: Idaho
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T18:20Z'
-  ModifiedOnDateTimeEpoch: 1538072441000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTimeEpoch: 1538080781000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
-  Source: NFSA
-  Hashtag: '#BearCreekFire'
   NFSAType: Large WF
   PerimDateTime: null
 2018-CAHIA-000144:
@@ -19454,9 +19585,9 @@
     LocalIncidentIdentifier: '000414'
     POOCounty: Klamath
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T19:18Z'
-    ModifiedOnDateTimeEpoch: 1538075903000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2018-09-27T20:52Z'
+    ModifiedOnDateTimeEpoch: 1538081559000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BeattyFire'
     NFSAType: Emerging WF < 24 hours
@@ -19486,9 +19617,9 @@
   LocalIncidentIdentifier: '000414'
   POOCounty: Klamath
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T19:18Z'
-  ModifiedOnDateTimeEpoch: 1538075903000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2018-09-27T20:52Z'
+  ModifiedOnDateTimeEpoch: 1538081559000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BeattyFire'
   NFSAType: Emerging WF < 24 hours
@@ -19521,8 +19652,8 @@
     LocalIncidentIdentifier: 000782
     POOCounty: Mohave
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T18:45Z'
-    ModifiedOnDateTimeEpoch: 1538073936000
+    ModifiedOnDateTime: '2018-09-27T20:35Z'
+    ModifiedOnDateTimeEpoch: 1538080514000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#GorgeFire'
@@ -19553,8 +19684,8 @@
   LocalIncidentIdentifier: 000782
   POOCounty: Mohave
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T18:45Z'
-  ModifiedOnDateTimeEpoch: 1538073936000
+  ModifiedOnDateTime: '2018-09-27T20:35Z'
+  ModifiedOnDateTimeEpoch: 1538080514000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#GorgeFire'
@@ -19625,5 +19756,72 @@
   ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#CottonwoodFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-WYWRA-000596:
+  Source_NFSA_Join:
+    Lon: -108.78571141228882
+    Lat: 43.02550648345578
+    Name: 461 ethete
+    popupinfo: null
+    id: 107543
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: 461 ethete
+    UniqueFireIdentifier: 2018-WYWRA-000596
+    DailyAcres: 1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-27T20:31Z'
+    FireDiscoveryDateTimeEpoch: 1538080277000
+    DispatchCenterID: WYCDC
+    LocalIncidentIdentifier: 000596
+    POOCounty: Fremont
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-27T20:45Z'
+    ModifiedOnDateTimeEpoch: 1538081140000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#461EtheteFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -108.78571141228882
+  Lat: 43.02550648345578
+  Name: 461 ethete
+  popupinfo: null
+  id: 107543
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: 461 ethete
+  UniqueFireIdentifier: 2018-WYWRA-000596
+  DailyAcres: 1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-27T20:31Z'
+  FireDiscoveryDateTimeEpoch: 1538080277000
+  DispatchCenterID: WYCDC
+  LocalIncidentIdentifier: 000596
+  POOCounty: Fremont
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-27T20:45Z'
+  ModifiedOnDateTimeEpoch: 1538081140000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#461EtheteFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
