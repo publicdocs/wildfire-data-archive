@@ -1847,6 +1847,8 @@
   PerimDateTime: null
 2018-WAMSF-000154:
   Source_NFSA_Join:
+    Lon: -121.70941407880274
+    Lat: 47.02744533013308
     id: 100405
     Name: Wrong Creek
     Fire_Name: Wrong Creek
@@ -1856,6 +1858,7 @@
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
     ICS209ReportDateTime: '2018-09-20T22:30Z'
+    ICS209ReportDateTimeEpoch: 1537482600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -1863,47 +1866,47 @@
     FireCause: Natural
     TotalIncidentPersonnel: 1
     FireDiscoveryDateTime: '2018-07-24T21:28Z'
+    FireDiscoveryDateTimeEpoch: 1532467680000
     DispatchCenterID: WAPSC
     LocalIncidentIdentifier: '000154'
     POOCounty: King
     POOLandownerKind: Federal
     ModifiedOnDateTime: '2018-09-21T20:09Z'
+    ModifiedOnDateTimeEpoch: 1537560553000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#WrongCreekFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -121.6387147354337
     Lat: 47.413785681835314
-    objectid: 43
+    objectid: 14
     latitude: 47.41378
     longitude: -121.6387
-    acres: 310
-    DailyAcres: 310
+    acres: 423
     gacc: NWCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: WA
     status: U
     firecause: Natural
-    FireCause: Natural
-    reportdatetime: '2018-09-20T22:30Z'
+    reportdatetime: '2018-09-27T20:00Z'
+    reportdatetimeEpoch: 1538078400000
     percentcontained: 0
-    PercentContained: 0
     uniquefireidentifier: 2018-WAMSF-000154
-    UniqueFireIdentifier: 2018-WAMSF-000154
     firediscoverydatetime: '2018-07-24T21:28Z'
-    FireDiscoveryDateTime: '2018-07-24T21:28Z'
+    firediscoverydatetimeEpoch: 1532467680000
     complexparentirwinid: null
     pooresponsibleunit: WAMSF
     incidentname: Wrong Creek
-    Fire_Name: Wrong Creek
     iscomplex: 'false'
     irwinid: '{BFA8D1F6-D197-481B-8D92-219AC779C06D}'
-    irwinmodifiedon: '2018-09-21T20:09Z'
-    ModifiedOnDateTime: '2018-09-21T20:09Z'
+    irwinmodifiedon: '2018-09-27T20:29Z'
+    irwinmodifiedonEpoch: 1538080152000
     mapsymbol: '1'
-    datecurrent: '2018-09-21T16:30Z'
+    datecurrent: '2018-09-27T14:30Z'
+    datecurrentEpoch: 1538058610000
     pooownerunit: WAMSF
     fireyear: 2018
     localincidentidentifier: '000154'
@@ -1911,39 +1914,71 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 423
+    FireCause: Natural
+    PercentContained: 0
+    UniqueFireIdentifier: 2018-WAMSF-000154
+    FireDiscoveryDateTime: '2018-07-24T21:28Z'
+    Fire_Name: Wrong Creek
+    ModifiedOnDateTime: '2018-09-27T20:29Z'
     Name: Wrong Creek
     Source: GEOMAC
     Hashtag: '#WrongCreekFire'
-  Lat: 47.413785681835314
   Lon: -121.6387147354337
-  objectid: 43
+  Lat: 47.413785681835314
+  id: 100405
+  Name: Wrong Creek
+  Fire_Name: Wrong Creek
+  UniqueFireIdentifier: 2018-WAMSF-000154
+  DailyAcres: 423
+  PercentContained: 0
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-20T22:30Z'
+  ICS209ReportDateTimeEpoch: 1537482600000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  FireCause: Natural
+  FireDiscoveryDateTime: '2018-07-24T21:28Z'
+  FireDiscoveryDateTimeEpoch: 1532467680000
+  DispatchCenterID: WAPSC
+  LocalIncidentIdentifier: '000154'
+  POOCounty: King
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-27T20:29Z'
+  ModifiedOnDateTimeEpoch: 1537560553000
+  ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: GEOMAC
+  Hashtag: '#WrongCreekFire'
+  NFSAType: Large WF
+  objectid: 14
   latitude: 47.41378
   longitude: -121.6387
-  acres: 310
-  DailyAcres: 310
+  acres: 423
   gacc: NWCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: WA
   status: U
   firecause: Natural
-  FireCause: Natural
-  reportdatetime: '2018-09-20T22:30Z'
+  reportdatetime: '2018-09-27T20:00Z'
+  reportdatetimeEpoch: 1538078400000
   percentcontained: 0
-  PercentContained: 0
   uniquefireidentifier: 2018-WAMSF-000154
-  UniqueFireIdentifier: 2018-WAMSF-000154
   firediscoverydatetime: '2018-07-24T21:28Z'
-  FireDiscoveryDateTime: '2018-07-24T21:28Z'
+  firediscoverydatetimeEpoch: 1532467680000
   complexparentirwinid: null
   pooresponsibleunit: WAMSF
   incidentname: Wrong Creek
-  Fire_Name: Wrong Creek
   iscomplex: 'false'
   irwinid: '{BFA8D1F6-D197-481B-8D92-219AC779C06D}'
-  irwinmodifiedon: '2018-09-21T20:09Z'
-  ModifiedOnDateTime: '2018-09-21T20:09Z'
+  irwinmodifiedon: '2018-09-27T20:29Z'
+  irwinmodifiedonEpoch: 1538080152000
   mapsymbol: '1'
-  datecurrent: '2018-09-21T16:30Z'
+  datecurrent: '2018-09-27T14:30Z'
+  datecurrentEpoch: 1538058610000
   pooownerunit: WAMSF
   fireyear: 2018
   localincidentidentifier: '000154'
@@ -1951,25 +1986,6 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
-  Name: Wrong Creek
-  Source: NFSA
-  Hashtag: '#WrongCreekFire'
-  id: 100405
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-20T22:30Z'
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 709000
-  TotalIncidentPersonnel: 1
-  DispatchCenterID: WAPSC
-  LocalIncidentIdentifier: '000154'
-  POOCounty: King
-  POOLandownerKind: Federal
-  ModifiedBySystem: wildcad
-  popupinfo: null
-  calc_symboltype: ImsrOther
   PerimDateTime: null
 2018-AKUYD-000370:
   Source_NFSA_Join:
@@ -5468,9 +5484,9 @@
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2018-09-20T22:30Z'
-    ICS209ReportDateTimeEpoch: 1537482600000
-    ICS209ReportStatus: U
+    ICS209ReportDateTime: '2018-09-27T19:00Z'
+    ICS209ReportDateTimeEpoch: 1538074800000
+    ICS209ReportStatus: F
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 2500
@@ -5482,122 +5498,45 @@
     LocalIncidentIdentifier: '000265'
     POOCounty: Snohomish
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T19:56Z'
-    ModifiedOnDateTimeEpoch: 1538078169000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T20:27Z'
+    ModifiedOnDateTimeEpoch: 1538080032000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#FlowerFire'
     NFSAType: Large WF
-  Source_GEOMAC:
-    Lon: -120.98521480551014
-    Lat: 48.15530579446764
-    objectid: 45
-    latitude: 48.1553
-    longitude: -120.9852
-    acres: 150
-    gacc: NWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: WA
-    status: U
-    firecause: Natural
-    reportdatetime: '2018-09-20T22:30Z'
-    reportdatetimeEpoch: 1537482600000
-    percentcontained: 0
-    uniquefireidentifier: 2018-WAMSF-000265
-    firediscoverydatetime: '2018-08-18T01:09Z'
-    firediscoverydatetimeEpoch: 1534554593000
-    complexparentirwinid: null
-    pooresponsibleunit: WAMSF
-    incidentname: Flower
-    iscomplex: 'false'
-    irwinid: '{65C1E218-BEF3-4C97-889B-664EC6D8CFCF}'
-    irwinmodifiedon: '2018-09-21T04:59Z'
-    irwinmodifiedonEpoch: 1537505977000
-    mapsymbol: '1'
-    datecurrent: '2018-09-27T13:30Z'
-    datecurrentEpoch: 1538055010000
-    pooownerunit: WAMSF
-    fireyear: 2018
-    localincidentidentifier: '000265'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 150
-    FireCause: Natural
-    PercentContained: 0
-    UniqueFireIdentifier: 2018-WAMSF-000265
-    FireDiscoveryDateTime: '2018-08-18T01:09Z'
-    Fire_Name: Flower
-    ModifiedOnDateTime: '2018-09-21T04:59Z'
-    Name: Flower
-    Source: GEOMAC
-    Hashtag: '#FlowerFire'
   Lon: -120.9852192462041
   Lat: 48.155304679921585
-  objectid: 45
-  latitude: 48.1553
-  longitude: -120.9852
-  acres: 150
-  gacc: NWCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: WA
-  status: U
-  firecause: Natural
-  reportdatetime: '2018-09-20T22:30Z'
-  reportdatetimeEpoch: 1537482600000
-  percentcontained: 0
-  uniquefireidentifier: 2018-WAMSF-000265
-  firediscoverydatetime: '2018-08-18T01:09Z'
-  firediscoverydatetimeEpoch: 1534554593000
-  complexparentirwinid: null
-  pooresponsibleunit: WAMSF
-  incidentname: Flower
-  iscomplex: 'false'
-  irwinid: '{65C1E218-BEF3-4C97-889B-664EC6D8CFCF}'
-  irwinmodifiedon: '2018-09-21T04:59Z'
-  irwinmodifiedonEpoch: 1537505977000
-  mapsymbol: '1'
-  datecurrent: '2018-09-27T13:30Z'
-  datecurrentEpoch: 1538055010000
-  pooownerunit: WAMSF
-  fireyear: 2018
-  localincidentidentifier: '000265'
-  incidenttypecategory: WF
-  owneragency: USFS
-  perimexist: 'Y'
-  complexname: null
-  DailyAcres: 150
-  FireCause: Natural
-  PercentContained: 0
-  UniqueFireIdentifier: 2018-WAMSF-000265
-  FireDiscoveryDateTime: '2018-08-18T01:09Z'
-  Fire_Name: Flower
-  ModifiedOnDateTime: '2018-09-27T19:56Z'
-  Name: Flower
-  Source: NFSA
-  Hashtag: '#FlowerFire'
   id: 104170
+  Name: Flower
+  Fire_Name: Flower
+  UniqueFireIdentifier: 2018-WAMSF-000265
+  DailyAcres: 150
+  PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: Type 5 IC
-  ICS209ReportDateTime: '2018-09-20T22:30Z'
-  ICS209ReportDateTimeEpoch: 1537482600000
-  ICS209ReportStatus: U
+  ICS209ReportDateTime: '2018-09-27T19:00Z'
+  ICS209ReportDateTimeEpoch: 1538074800000
+  ICS209ReportStatus: F
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 2500
+  FireCause: Natural
   TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-08-18T01:09Z'
   FireDiscoveryDateTimeEpoch: 1534554593000
   DispatchCenterID: WAPSC
   LocalIncidentIdentifier: '000265'
   POOCounty: Snohomish
   POOLandownerKind: Federal
-  ModifiedOnDateTimeEpoch: 1538078169000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2018-09-27T20:27Z'
+  ModifiedOnDateTimeEpoch: 1538080032000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#FlowerFire'
   NFSAType: Large WF
   PerimDateTime: '2018-08-23T00:00Z'
 2018-WAMSF-000263:
@@ -5612,9 +5551,9 @@
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2018-09-20T22:30Z'
-    ICS209ReportDateTimeEpoch: 1537482600000
-    ICS209ReportStatus: U
+    ICS209ReportDateTime: '2018-09-27T19:00Z'
+    ICS209ReportDateTimeEpoch: 1538074800000
+    ICS209ReportStatus: F
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 1500
@@ -5626,122 +5565,45 @@
     LocalIncidentIdentifier: '000263'
     POOCounty: Skagit
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T19:55Z'
-    ModifiedOnDateTimeEpoch: 1538078103000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T20:09Z'
+    ModifiedOnDateTimeEpoch: 1538078975000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#BuckindyFire'
     NFSAType: Large WF
-  Source_GEOMAC:
-    Lon: -121.1825148940467
-    Lat: 48.37756578471988
-    objectid: 46
-    latitude: 48.37756
-    longitude: -121.1825
-    acres: 105
-    gacc: NWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: WA
-    status: U
-    firecause: Natural
-    reportdatetime: '2018-09-20T22:30Z'
-    reportdatetimeEpoch: 1537482600000
-    percentcontained: 0
-    uniquefireidentifier: 2018-WAMSF-000263
-    firediscoverydatetime: '2018-08-18T01:03Z'
-    firediscoverydatetimeEpoch: 1534554203000
-    complexparentirwinid: null
-    pooresponsibleunit: WAMSF
-    incidentname: Buckindy
-    iscomplex: 'false'
-    irwinid: '{53D0F8B5-23F3-4B38-A719-6A9F5B6DFCCA}'
-    irwinmodifiedon: '2018-09-21T04:58Z'
-    irwinmodifiedonEpoch: 1537505886000
-    mapsymbol: '1'
-    datecurrent: '2018-09-27T13:30Z'
-    datecurrentEpoch: 1538055010000
-    pooownerunit: WAMSF
-    fireyear: 2018
-    localincidentidentifier: '000263'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 105
-    FireCause: Natural
-    PercentContained: 0
-    UniqueFireIdentifier: 2018-WAMSF-000263
-    FireDiscoveryDateTime: '2018-08-18T01:03Z'
-    Fire_Name: Buckindy
-    ModifiedOnDateTime: '2018-09-21T04:58Z'
-    Name: Buckindy
-    Source: GEOMAC
-    Hashtag: '#BuckindyFire'
   Lon: -121.18251623205525
   Lat: 48.37756715372937
-  objectid: 46
-  latitude: 48.37756
-  longitude: -121.1825
-  acres: 105
-  gacc: NWCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: WA
-  status: U
-  firecause: Natural
-  reportdatetime: '2018-09-20T22:30Z'
-  reportdatetimeEpoch: 1537482600000
-  percentcontained: 0
-  uniquefireidentifier: 2018-WAMSF-000263
-  firediscoverydatetime: '2018-08-18T01:03Z'
-  firediscoverydatetimeEpoch: 1534554203000
-  complexparentirwinid: null
-  pooresponsibleunit: WAMSF
-  incidentname: Buckindy
-  iscomplex: 'false'
-  irwinid: '{53D0F8B5-23F3-4B38-A719-6A9F5B6DFCCA}'
-  irwinmodifiedon: '2018-09-21T04:58Z'
-  irwinmodifiedonEpoch: 1537505886000
-  mapsymbol: '1'
-  datecurrent: '2018-09-27T13:30Z'
-  datecurrentEpoch: 1538055010000
-  pooownerunit: WAMSF
-  fireyear: 2018
-  localincidentidentifier: '000263'
-  incidenttypecategory: WF
-  owneragency: USFS
-  perimexist: 'Y'
-  complexname: null
-  DailyAcres: 105
-  FireCause: Natural
-  PercentContained: 0
-  UniqueFireIdentifier: 2018-WAMSF-000263
-  FireDiscoveryDateTime: '2018-08-18T01:03Z'
-  Fire_Name: Buckindy
-  ModifiedOnDateTime: '2018-09-27T19:55Z'
-  Name: Buckindy
-  Source: NFSA
-  Hashtag: '#BuckindyFire'
   id: 104171
+  Name: Buckindy
+  Fire_Name: Buckindy
+  UniqueFireIdentifier: 2018-WAMSF-000263
+  DailyAcres: 105
+  PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: Type 5 IC
-  ICS209ReportDateTime: '2018-09-20T22:30Z'
-  ICS209ReportDateTimeEpoch: 1537482600000
-  ICS209ReportStatus: U
+  ICS209ReportDateTime: '2018-09-27T19:00Z'
+  ICS209ReportDateTimeEpoch: 1538074800000
+  ICS209ReportStatus: F
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 1500
+  FireCause: Natural
   TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-08-18T01:03Z'
   FireDiscoveryDateTimeEpoch: 1534554203000
   DispatchCenterID: WAPSC
   LocalIncidentIdentifier: '000263'
   POOCounty: Skagit
   POOLandownerKind: Federal
-  ModifiedOnDateTimeEpoch: 1538078103000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2018-09-27T20:09Z'
+  ModifiedOnDateTimeEpoch: 1538078975000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#BuckindyFire'
   NFSAType: Large WF
   PerimDateTime: '2018-08-23T00:00Z'
 2018-WAMSF-000264:
@@ -5756,9 +5618,9 @@
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2018-09-20T22:30Z'
-    ICS209ReportDateTimeEpoch: 1537482600000
-    ICS209ReportStatus: U
+    ICS209ReportDateTime: '2018-09-27T19:00Z'
+    ICS209ReportDateTimeEpoch: 1538074800000
+    ICS209ReportStatus: F
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 4000
@@ -5770,9 +5632,9 @@
     LocalIncidentIdentifier: '000264'
     POOCounty: Skagit
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T19:55Z'
-    ModifiedOnDateTimeEpoch: 1538078138000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T20:11Z'
+    ModifiedOnDateTimeEpoch: 1538079071000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
@@ -5788,9 +5650,9 @@
   PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: Type 5 IC
-  ICS209ReportDateTime: '2018-09-20T22:30Z'
-  ICS209ReportDateTimeEpoch: 1537482600000
-  ICS209ReportStatus: U
+  ICS209ReportDateTime: '2018-09-27T19:00Z'
+  ICS209ReportDateTimeEpoch: 1538074800000
+  ICS209ReportStatus: F
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 4000
@@ -5802,9 +5664,9 @@
   LocalIncidentIdentifier: '000264'
   POOCounty: Skagit
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T19:55Z'
-  ModifiedOnDateTimeEpoch: 1538078138000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2018-09-27T20:11Z'
+  ModifiedOnDateTimeEpoch: 1538079071000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: NonImsr
   Source: NFSA
@@ -17880,62 +17742,68 @@
   Source_NFSA_Join:
     Lon: -109.29281039017428
     Lat: 43.66327352798535
-    Name: PINE CREEK
-    popupinfo: null
     id: 107504
-    calc_symboltype: NewIrwinOnly
+    Name: PINE CREEK
     Fire_Name: PINE CREEK
     UniqueFireIdentifier: 2018-WYWRA-000594
     DailyAcres: 10
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2018-09-27T18:30Z'
+    ICS209ReportDateTimeEpoch: 1538073000000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 50000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 39
     FireDiscoveryDateTime: '2018-09-26T21:36Z'
+    FireDiscoveryDateTimeEpoch: 1537997760000
     DispatchCenterID: WYCDC
     LocalIncidentIdentifier: 000594
     POOCounty: Fremont
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T00:22Z'
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T20:16Z'
+    ModifiedOnDateTimeEpoch: 1538079375000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
     Source: NFSA
     Hashtag: '#PineCreekFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
   Lon: -109.29281039017428
   Lat: 43.66327352798535
-  Name: PINE CREEK
-  popupinfo: null
   id: 107504
-  calc_symboltype: NewIrwinOnly
+  Name: PINE CREEK
   Fire_Name: PINE CREEK
   UniqueFireIdentifier: 2018-WYWRA-000594
   DailyAcres: 10
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportStatus: null
+  PercentContained: 0
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-27T18:30Z'
+  ICS209ReportDateTimeEpoch: 1538073000000
+  ICS209ReportStatus: I
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  EstimatedCostToDate: 50000
   FireCause: Unknown
-  TotalIncidentPersonnel: null
+  TotalIncidentPersonnel: 39
   FireDiscoveryDateTime: '2018-09-26T21:36Z'
+  FireDiscoveryDateTimeEpoch: 1537997760000
   DispatchCenterID: WYCDC
   LocalIncidentIdentifier: 000594
   POOCounty: Fremont
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T00:22Z'
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2018-09-27T20:16Z'
+  ModifiedOnDateTimeEpoch: 1538079375000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: NonImsr
   Source: NFSA
   Hashtag: '#PineCreekFire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
 2018-MTKNF-000254:
   Source_NFSA_Join:
@@ -19690,5 +19558,72 @@
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#GorgeFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-CASLU-010480:
+  Source_NFSA_Join:
+    Lon: -120.1944592510522
+    Lat: 35.7788938322679
+    Name: COTTONWOOD
+    popupinfo: null
+    id: 107542
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: COTTONWOOD
+    UniqueFireIdentifier: 2018-CASLU-010480
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: null
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-27T19:35Z'
+    FireDiscoveryDateTimeEpoch: 1538076900000
+    DispatchCenterID: null
+    LocalIncidentIdentifier: 010480
+    POOCounty: San Luis Obispo
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2018-09-27T20:23Z'
+    ModifiedOnDateTimeEpoch: 1538079796000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#CottonwoodFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -120.1944592510522
+  Lat: 35.7788938322679
+  Name: COTTONWOOD
+  popupinfo: null
+  id: 107542
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: COTTONWOOD
+  UniqueFireIdentifier: 2018-CASLU-010480
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: null
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-27T19:35Z'
+  FireDiscoveryDateTimeEpoch: 1538076900000
+  DispatchCenterID: null
+  LocalIncidentIdentifier: 010480
+  POOCounty: San Luis Obispo
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2018-09-27T20:23Z'
+  ModifiedOnDateTimeEpoch: 1538079796000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#CottonwoodFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
