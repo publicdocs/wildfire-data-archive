@@ -760,6 +760,8 @@
   PerimDateTime: '2018-08-07T21:52Z'
 2018-IDSCF-018113:
   Source_NFSA_Join:
+    Lon: -115.28641488158394
+    Lat: 44.82277465418911
     id: 99333
     Name: Kiwah
     Fire_Name: Kiwah
@@ -768,7 +770,8 @@
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2018-09-20T23:30Z'
+    ICS209ReportDateTime: '2018-09-27T18:30Z'
+    ICS209ReportDateTimeEpoch: 1538073000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -776,47 +779,47 @@
     FireCause: Natural
     TotalIncidentPersonnel: 1
     FireDiscoveryDateTime: '2018-07-18T23:28Z'
+    FireDiscoveryDateTimeEpoch: 1531956480000
     DispatchCenterID: IDCIC
     LocalIncidentIdentifier: 018113
     POOCounty: Valley
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-21T00:06Z'
+    ModifiedOnDateTime: '2018-09-27T19:19Z'
+    ModifiedOnDateTimeEpoch: 1538075978000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#KiwahFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -115.28641305610391
     Lat: 44.82277614426853
-    objectid: 51
+    objectid: 2
     latitude: 44.82277
     longitude: -115.2864
     acres: 14603
-    DailyAcres: 14603
     gacc: GBCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: ID
     status: U
     firecause: Natural
-    FireCause: Natural
     reportdatetime: '2018-09-20T23:30Z'
+    reportdatetimeEpoch: 1537486200000
     percentcontained: 0
-    PercentContained: 0
     uniquefireidentifier: 2018-IDSCF-018113
-    UniqueFireIdentifier: 2018-IDSCF-018113
     firediscoverydatetime: '2018-07-18T23:28Z'
-    FireDiscoveryDateTime: '2018-07-18T23:28Z'
+    firediscoverydatetimeEpoch: 1531956480000
     complexparentirwinid: null
     pooresponsibleunit: IDSCF
     incidentname: Kiwah
-    Fire_Name: Kiwah
     iscomplex: 'false'
     irwinid: '{93C57FDF-BBC6-4A00-A527-CF76B06CFDBD}'
     irwinmodifiedon: '2018-09-21T00:06Z'
-    ModifiedOnDateTime: '2018-09-21T00:06Z'
+    irwinmodifiedonEpoch: 1537488373000
     mapsymbol: '2'
-    datecurrent: '2018-09-20T18:30Z'
+    datecurrent: '2018-09-27T13:00Z'
+    datecurrentEpoch: 1538053211000
     pooownerunit: IDSCF
     fireyear: 2018
     localincidentidentifier: 018113
@@ -824,39 +827,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 14603
+    FireCause: Natural
+    PercentContained: 0
+    UniqueFireIdentifier: 2018-IDSCF-018113
+    FireDiscoveryDateTime: '2018-07-18T23:28Z'
+    Fire_Name: Kiwah
+    ModifiedOnDateTime: '2018-09-21T00:06Z'
     Name: Kiwah
     Source: GEOMAC
     Hashtag: '#KiwahFire'
-  Lat: 44.82277614426853
-  Lon: -115.28641305610391
-  objectid: 51
+  Lon: -115.28641488158394
+  Lat: 44.82277465418911
+  objectid: 2
   latitude: 44.82277
   longitude: -115.2864
   acres: 14603
-  DailyAcres: 14603
   gacc: GBCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: ID
   status: U
   firecause: Natural
-  FireCause: Natural
   reportdatetime: '2018-09-20T23:30Z'
+  reportdatetimeEpoch: 1537486200000
   percentcontained: 0
-  PercentContained: 0
   uniquefireidentifier: 2018-IDSCF-018113
-  UniqueFireIdentifier: 2018-IDSCF-018113
   firediscoverydatetime: '2018-07-18T23:28Z'
-  FireDiscoveryDateTime: '2018-07-18T23:28Z'
+  firediscoverydatetimeEpoch: 1531956480000
   complexparentirwinid: null
   pooresponsibleunit: IDSCF
   incidentname: Kiwah
-  Fire_Name: Kiwah
   iscomplex: 'false'
   irwinid: '{93C57FDF-BBC6-4A00-A527-CF76B06CFDBD}'
   irwinmodifiedon: '2018-09-21T00:06Z'
-  ModifiedOnDateTime: '2018-09-21T00:06Z'
+  irwinmodifiedonEpoch: 1537488373000
   mapsymbol: '2'
-  datecurrent: '2018-09-20T18:30Z'
+  datecurrent: '2018-09-27T13:00Z'
+  datecurrentEpoch: 1538053211000
   pooownerunit: IDSCF
   fireyear: 2018
   localincidentidentifier: 018113
@@ -864,25 +871,36 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 14603
+  FireCause: Natural
+  PercentContained: 0
+  UniqueFireIdentifier: 2018-IDSCF-018113
+  FireDiscoveryDateTime: '2018-07-18T23:28Z'
+  Fire_Name: Kiwah
+  ModifiedOnDateTime: '2018-09-27T19:19Z'
   Name: Kiwah
   Source: NFSA
   Hashtag: '#KiwahFire'
   id: 99333
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2018-09-20T23:30Z'
+  ICS209ReportDateTime: '2018-09-27T18:30Z'
+  ICS209ReportDateTimeEpoch: 1538073000000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 535000
   TotalIncidentPersonnel: 1
+  FireDiscoveryDateTimeEpoch: 1531956480000
   DispatchCenterID: IDCIC
   LocalIncidentIdentifier: 018113
   POOCounty: Valley
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538075978000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-08-24T03:05Z'
 2018-IDCTF-000110:
   Source_NFSA_Join:
@@ -18633,8 +18651,8 @@
     LocalIncidentIdentifier: '180636'
     POOCounty: Custer
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T18:58Z'
-    ModifiedOnDateTimeEpoch: 1538074680000
+    ModifiedOnDateTime: '2018-09-27T19:24Z'
+    ModifiedOnDateTimeEpoch: 1538076267000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BluebirdFire'
@@ -18665,8 +18683,8 @@
   LocalIncidentIdentifier: '180636'
   POOCounty: Custer
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T18:58Z'
-  ModifiedOnDateTimeEpoch: 1538074680000
+  ModifiedOnDateTime: '2018-09-27T19:24Z'
+  ModifiedOnDateTimeEpoch: 1538076267000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BluebirdFire'
@@ -19035,9 +19053,9 @@
     LocalIncidentIdentifier: '001070'
     POOCounty: Utah
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T18:48Z'
-    ModifiedOnDateTimeEpoch: 1538074135000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T19:00Z'
+    ModifiedOnDateTimeEpoch: 1538074841000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#CowboyFire'
     NFSAType: Emerging WF < 24 hours
@@ -19067,9 +19085,9 @@
   LocalIncidentIdentifier: '001070'
   POOCounty: Utah
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T18:48Z'
-  ModifiedOnDateTimeEpoch: 1538074135000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2018-09-27T19:00Z'
+  ModifiedOnDateTimeEpoch: 1538074841000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#CowboyFire'
   NFSAType: Emerging WF < 24 hours
@@ -19145,11 +19163,11 @@
   Source_NFSA_Join:
     Lon: -107.34840695769758
     Lat: 39.55471427814175
-    Name: Fawn Hill
+    Name: Bong Hill
     popupinfo: null
     id: 107529
     calc_symboltype: NewIrwinOnly
-    Fire_Name: Fawn Hill
+    Fire_Name: Bong Hill
     UniqueFireIdentifier: 2018-COGFX-000655
     DailyAcres: 0.1
     PercentContained: null
@@ -19169,19 +19187,19 @@
     LocalIncidentIdentifier: '000655'
     POOCounty: Garfield
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T18:56Z'
-    ModifiedOnDateTimeEpoch: 1538074580000
+    ModifiedOnDateTime: '2018-09-27T19:14Z'
+    ModifiedOnDateTimeEpoch: 1538075666000
     ModifiedBySystem: wildcad
     Source: NFSA
-    Hashtag: '#FawnHillFire'
+    Hashtag: '#BongHillFire'
     NFSAType: Emerging WF < 24 hours
   Lon: -107.34840695769758
   Lat: 39.55471427814175
-  Name: Fawn Hill
+  Name: Bong Hill
   popupinfo: null
   id: 107529
   calc_symboltype: NewIrwinOnly
-  Fire_Name: Fawn Hill
+  Fire_Name: Bong Hill
   UniqueFireIdentifier: 2018-COGFX-000655
   DailyAcres: 0.1
   PercentContained: null
@@ -19201,11 +19219,11 @@
   LocalIncidentIdentifier: '000655'
   POOCounty: Garfield
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T18:56Z'
-  ModifiedOnDateTimeEpoch: 1538074580000
+  ModifiedOnDateTime: '2018-09-27T19:14Z'
+  ModifiedOnDateTimeEpoch: 1538075666000
   ModifiedBySystem: wildcad
   Source: NFSA
-  Hashtag: '#FawnHillFire'
+  Hashtag: '#BongHillFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
 2018-WANES-002182:
@@ -19370,9 +19388,9 @@
     LocalIncidentIdentifier: '000414'
     POOCounty: Klamath
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T18:56Z'
-    ModifiedOnDateTimeEpoch: 1538074570000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T19:18Z'
+    ModifiedOnDateTimeEpoch: 1538075903000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#BeattyFire'
     NFSAType: Emerging WF < 24 hours
@@ -19402,9 +19420,9 @@
   LocalIncidentIdentifier: '000414'
   POOCounty: Klamath
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T18:56Z'
-  ModifiedOnDateTimeEpoch: 1538074570000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2018-09-27T19:18Z'
+  ModifiedOnDateTimeEpoch: 1538075903000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#BeattyFire'
   NFSAType: Emerging WF < 24 hours
