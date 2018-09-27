@@ -2228,6 +2228,8 @@
   PerimDateTime: null
 2018-IDIPF-000357:
   Source_NFSA_Join:
+    Lon: -116.3247146364278
+    Lat: 47.92612828053629
     id: 101374
     Name: Surprise Creek
     Fire_Name: Surprise Creek
@@ -2237,6 +2239,7 @@
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
     ICS209ReportDateTime: '2018-09-21T15:00Z'
+    ICS209ReportDateTimeEpoch: 1537542000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -2244,16 +2247,21 @@
     FireCause: Unknown
     TotalIncidentPersonnel: 2
     FireDiscoveryDateTime: '2018-07-28T02:11Z'
+    FireDiscoveryDateTimeEpoch: 1532743860000
     DispatchCenterID: IDCDC
     LocalIncidentIdentifier: '000357'
     POOCounty: Shoshone
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-21T16:54Z'
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2018-09-27T16:39Z'
+    ModifiedOnDateTimeEpoch: 1538066391000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#SurpriseCreekFire'
+    NFSAType: Large WF
+  Lon: -116.3247146364278
+  Lat: 47.92612828053629
   id: 101374
   Name: Surprise Creek
   Fire_Name: Surprise Creek
@@ -2263,6 +2271,7 @@
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
   ICS209ReportDateTime: '2018-09-21T15:00Z'
+  ICS209ReportDateTimeEpoch: 1537542000000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -2270,16 +2279,19 @@
   FireCause: Unknown
   TotalIncidentPersonnel: 2
   FireDiscoveryDateTime: '2018-07-28T02:11Z'
+  FireDiscoveryDateTimeEpoch: 1532743860000
   DispatchCenterID: IDCDC
   LocalIncidentIdentifier: '000357'
   POOCounty: Shoshone
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-21T16:54Z'
-  ModifiedBySystem: ics209
+  ModifiedOnDateTime: '2018-09-27T16:39Z'
+  ModifiedOnDateTimeEpoch: 1538066391000
+  ModifiedBySystem: wildcad
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
-  Hashtag: Surprise Creek Fire
+  Hashtag: '#SurpriseCreekFire'
+  NFSAType: Large WF
   PerimDateTime: null
 2018-AZASF-000996:
   Source_NFSA_Join:
@@ -2655,6 +2667,8 @@
   PerimDateTime: '2018-08-21T15:22Z'
 2018-IDIPF-000402:
   Source_NFSA_Join:
+    Lon: -116.70131535298923
+    Lat: 48.789398596941204
     id: 101531
     Name: Smith Creek
     Fire_Name: Smith Creek
@@ -2663,121 +2677,60 @@
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-20T16:00Z'
+    ICS209ReportDateTime: '2018-09-27T16:00Z'
+    ICS209ReportDateTimeEpoch: 1538064000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 298900
+    EstimatedCostToDate: 299700
     FireCause: Natural
-    TotalIncidentPersonnel: 11
+    TotalIncidentPersonnel: 1
     FireDiscoveryDateTime: '2018-07-29T02:14Z'
+    FireDiscoveryDateTimeEpoch: 1532830440000
     DispatchCenterID: IDCDC
     LocalIncidentIdentifier: '000402'
     POOCounty: Boundary
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-22T19:39Z'
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-09-27T16:38Z'
+    ModifiedOnDateTimeEpoch: 1538066315000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#SmithCreekFire'
-  Source_GEOMAC:
-    Lon: -116.69891419082279
-    Lat: 48.80520630436166
-    objectid: 5
-    latitude: 48.8052
-    longitude: -116.6989
-    acres: 998
-    DailyAcres: 998
-    gacc: NRCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: ID
-    status: U
-    firecause: Natural
-    FireCause: Natural
-    reportdatetime: '2018-09-20T16:00Z'
-    percentcontained: 0
-    PercentContained: 0
-    uniquefireidentifier: 2018-IDIPF-000402
-    UniqueFireIdentifier: 2018-IDIPF-000402
-    firediscoverydatetime: '2018-07-29T02:14Z'
-    FireDiscoveryDateTime: '2018-07-29T02:14Z'
-    complexparentirwinid: null
-    pooresponsibleunit: IDIPF
-    incidentname: Smith Creek
-    Fire_Name: Smith Creek
-    iscomplex: 'false'
-    irwinid: '{6A552391-2FBE-4058-8C90-0251AAEDD1F8}'
-    irwinmodifiedon: '2018-09-20T16:41Z'
-    ModifiedOnDateTime: '2018-09-20T16:41Z'
-    mapsymbol: '1'
-    datecurrent: '2018-09-22T13:30Z'
-    pooownerunit: IDIPF
-    fireyear: 2018
-    localincidentidentifier: '000402'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    Name: Smith Creek
-    Source: GEOMAC
-    Hashtag: '#SmithCreekFire'
-  Lat: 48.80520630436166
-  Lon: -116.69891419082279
-  objectid: 5
-  latitude: 48.8052
-  longitude: -116.6989
-  acres: 998
-  DailyAcres: 1113
-  gacc: NRCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: ID
-  status: U
-  firecause: Natural
-  FireCause: Natural
-  reportdatetime: '2018-09-20T16:00Z'
-  percentcontained: 0
-  PercentContained: 0
-  uniquefireidentifier: 2018-IDIPF-000402
-  UniqueFireIdentifier: 2018-IDIPF-000402
-  firediscoverydatetime: '2018-07-29T02:14Z'
-  FireDiscoveryDateTime: '2018-07-29T02:14Z'
-  complexparentirwinid: null
-  pooresponsibleunit: IDIPF
-  incidentname: Smith Creek
-  Fire_Name: Smith Creek
-  iscomplex: 'false'
-  irwinid: '{6A552391-2FBE-4058-8C90-0251AAEDD1F8}'
-  irwinmodifiedon: '2018-09-20T16:41Z'
-  ModifiedOnDateTime: '2018-09-22T19:39Z'
-  mapsymbol: '1'
-  datecurrent: '2018-09-22T13:30Z'
-  pooownerunit: IDIPF
-  fireyear: 2018
-  localincidentidentifier: '000402'
-  incidenttypecategory: WF
-  owneragency: USFS
-  perimexist: 'Y'
-  complexname: null
-  Name: Smith Creek
-  Source: NFSA
-  Hashtag: '#SmithCreekFire'
+    NFSAType: Large WF
+  Lon: -116.70131535298923
+  Lat: 48.789398596941204
   id: 101531
+  Name: Smith Creek
+  Fire_Name: Smith Creek
+  UniqueFireIdentifier: 2018-IDIPF-000402
+  DailyAcres: 1113
+  PercentContained: 0
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-20T16:00Z'
+  ICS209ReportDateTime: '2018-09-27T16:00Z'
+  ICS209ReportDateTimeEpoch: 1538064000000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 298900
-  TotalIncidentPersonnel: 11
+  EstimatedCostToDate: 299700
+  FireCause: Natural
+  TotalIncidentPersonnel: 1
+  FireDiscoveryDateTime: '2018-07-29T02:14Z'
+  FireDiscoveryDateTimeEpoch: 1532830440000
   DispatchCenterID: IDCDC
   LocalIncidentIdentifier: '000402'
   POOCounty: Boundary
   POOLandownerKind: Federal
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2018-09-27T16:38Z'
+  ModifiedOnDateTimeEpoch: 1538066315000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#SmithCreekFire'
+  NFSAType: Large WF
   PerimDateTime: '2018-08-29T23:16Z'
 2018-IDIPF-000392:
   Source_NFSA_Join:
@@ -18085,8 +18038,8 @@
     LocalIncidentIdentifier: '000757'
     POOCounty: Benewah
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T15:59Z'
-    ModifiedOnDateTimeEpoch: 1538063943000
+    ModifiedOnDateTime: '2018-09-27T16:44Z'
+    ModifiedOnDateTimeEpoch: 1538066678000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#HixsonLaneFire'
@@ -18117,8 +18070,8 @@
   LocalIncidentIdentifier: '000757'
   POOCounty: Benewah
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T15:59Z'
-  ModifiedOnDateTimeEpoch: 1538063943000
+  ModifiedOnDateTime: '2018-09-27T16:44Z'
+  ModifiedOnDateTimeEpoch: 1538066678000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#HixsonLaneFire'
@@ -19064,7 +19017,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Human
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-26T23:26Z'
     FireDiscoveryDateTimeEpoch: 1538004360000
@@ -19072,8 +19025,8 @@
     LocalIncidentIdentifier: '000655'
     POOCounty: Garfield
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T16:18Z'
-    ModifiedOnDateTimeEpoch: 1538065133000
+    ModifiedOnDateTime: '2018-09-27T16:53Z'
+    ModifiedOnDateTimeEpoch: 1538067237000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#FawnHillFire'
@@ -19096,7 +19049,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Human
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-26T23:26Z'
   FireDiscoveryDateTimeEpoch: 1538004360000
@@ -19104,8 +19057,8 @@
   LocalIncidentIdentifier: '000655'
   POOCounty: Garfield
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T16:18Z'
-  ModifiedOnDateTimeEpoch: 1538065133000
+  ModifiedOnDateTime: '2018-09-27T16:53Z'
+  ModifiedOnDateTimeEpoch: 1538067237000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#FawnHillFire'
