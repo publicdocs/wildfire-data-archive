@@ -11411,6 +11411,8 @@
   PerimDateTime: null
 2018-WAOWF-000419:
   Source_NFSA_Join:
+    Lon: -120.54691325277648
+    Lat: 47.86978515826459
     id: 101415
     Name: COUGAR CREEK
     Fire_Name: COUGAR CREEK
@@ -11419,28 +11421,29 @@
     PercentContained: 79
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2018-09-26T00:45Z'
+    ICS209ReportDateTime: '2018-09-26T23:00Z'
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 41487082
+    EstimatedCostToDate: 41567082
     FireCause: Natural
-    TotalIncidentPersonnel: 47
+    TotalIncidentPersonnel: 48
     FireDiscoveryDateTime: '2018-07-29T02:21Z'
     DispatchCenterID: WACWC
     LocalIncidentIdentifier: 000419
     POOCounty: Chelan
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T01:07Z'
+    ModifiedOnDateTime: '2018-09-27T01:56Z'
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#CougarCreekFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -120.54931465746367
     Lat: 47.85139582514747
-    objectid: 24
+    objectid: 4
     latitude: 47.85139
     longitude: -120.5493
     acres: 42712
@@ -11467,7 +11470,7 @@
     irwinmodifiedon: '2018-09-26T01:07Z'
     ModifiedOnDateTime: '2018-09-26T01:07Z'
     mapsymbol: '3'
-    datecurrent: '2018-09-25T19:30Z'
+    datecurrent: '2018-09-26T19:30Z'
     pooownerunit: WAOWF
     fireyear: 2018
     localincidentidentifier: 000419
@@ -11478,9 +11481,9 @@
     Name: COUGAR CREEK
     Source: GEOMAC
     Hashtag: '#CougarCreekFire'
-  Lat: 47.85139582514747
-  Lon: -120.54931465746367
-  objectid: 24
+  Lon: -120.54691325277648
+  Lat: 47.86978515826459
+  objectid: 4
   latitude: 47.85139
   longitude: -120.5493
   acres: 42712
@@ -11505,9 +11508,9 @@
   iscomplex: 'false'
   irwinid: '{B9198717-3BB9-427D-825B-2C6A86A73308}'
   irwinmodifiedon: '2018-09-26T01:07Z'
-  ModifiedOnDateTime: '2018-09-26T01:07Z'
+  ModifiedOnDateTime: '2018-09-27T01:56Z'
   mapsymbol: '3'
-  datecurrent: '2018-09-25T19:30Z'
+  datecurrent: '2018-09-26T19:30Z'
   pooownerunit: WAOWF
   fireyear: 2018
   localincidentidentifier: 000419
@@ -11521,12 +11524,12 @@
   id: 101415
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 Team
-  ICS209ReportDateTime: '2018-09-26T00:45Z'
+  ICS209ReportDateTime: '2018-09-26T23:00Z'
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 41487082
-  TotalIncidentPersonnel: 47
+  EstimatedCostToDate: 41567082
+  TotalIncidentPersonnel: 48
   DispatchCenterID: WACWC
   LocalIncidentIdentifier: 000419
   POOCounty: Chelan
@@ -11534,6 +11537,7 @@
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-11T12:32Z'
 2018-CABEU-004537:
   Source_NFSA_Join:
@@ -16864,14 +16868,14 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Human
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-26T20:42Z'
     DispatchCenterID: IDCDC
     LocalIncidentIdentifier: '000754'
     POOCounty: Latah
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-26T23:06Z'
+    ModifiedOnDateTime: '2018-09-27T01:45Z'
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#GoldHillFire'
@@ -16893,14 +16897,14 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Human
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-26T20:42Z'
   DispatchCenterID: IDCDC
   LocalIncidentIdentifier: '000754'
   POOCounty: Latah
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-26T23:06Z'
+  ModifiedOnDateTime: '2018-09-27T01:45Z'
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#GoldHillFire'
@@ -17786,8 +17790,8 @@
     LocalIncidentIdentifier: '002143'
     POOCounty: Plumas
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T01:04Z'
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2018-09-27T01:48Z'
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#DawnFire'
     NFSAType: Emerging WF < 24 hours
@@ -17815,8 +17819,8 @@
   LocalIncidentIdentifier: '002143'
   POOCounty: Plumas
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T01:04Z'
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2018-09-27T01:48Z'
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#DawnFire'
   NFSAType: Emerging WF < 24 hours
@@ -17941,5 +17945,127 @@
   ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#LongIslandFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-IDSJS-000757:
+  Source_NFSA_Join:
+    Lon: -116.92990964333912
+    Lat: 47.34996787590945
+    Name: Hixson Lane
+    popupinfo: null
+    id: 107513
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Hixson Lane
+    UniqueFireIdentifier: 2018-IDSJS-000757
+    DailyAcres: 0.25
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-27T00:26Z'
+    DispatchCenterID: IDCDC
+    LocalIncidentIdentifier: '000757'
+    POOCounty: Benewah
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-27T01:49Z'
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#HixsonLaneFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -116.92990964333912
+  Lat: 47.34996787590945
+  Name: Hixson Lane
+  popupinfo: null
+  id: 107513
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Hixson Lane
+  UniqueFireIdentifier: 2018-IDSJS-000757
+  DailyAcres: 0.25
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-27T00:26Z'
+  DispatchCenterID: IDCDC
+  LocalIncidentIdentifier: '000757'
+  POOCounty: Benewah
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-27T01:49Z'
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#HixsonLaneFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-ORMHF-000839:
+  Source_NFSA_Join:
+    Lon: -121.86721214161116
+    Lat: 45.30524654413688
+    Name: CAMP CREEK
+    popupinfo: null
+    id: 107514
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: CAMP CREEK
+    UniqueFireIdentifier: 2018-ORMHF-000839
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-27T00:15Z'
+    DispatchCenterID: WACCC
+    LocalIncidentIdentifier: 000839
+    POOCounty: Clackamas
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-27T01:56Z'
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#CampCreekFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -121.86721214161116
+  Lat: 45.30524654413688
+  Name: CAMP CREEK
+  popupinfo: null
+  id: 107514
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: CAMP CREEK
+  UniqueFireIdentifier: 2018-ORMHF-000839
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-27T00:15Z'
+  DispatchCenterID: WACCC
+  LocalIncidentIdentifier: 000839
+  POOCounty: Clackamas
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-27T01:56Z'
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#CampCreekFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
