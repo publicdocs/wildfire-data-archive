@@ -11914,6 +11914,7 @@
     FireMgmtComplexity: Type 1 Incident
     IncidentManagementOrganization: Type 1 Team
     ICS209ReportDateTime: '2018-09-26T21:00Z'
+    ICS209ReportDateTimeEpoch: 1537995600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -11921,12 +11922,14 @@
     FireCause: Natural
     TotalIncidentPersonnel: 986
     FireDiscoveryDateTime: '2018-09-06T16:39Z'
+    FireDiscoveryDateTimeEpoch: 1536251940000
     DispatchCenterID: UTNUC
     LocalIncidentIdentifier: 000971
     POOCounty: Juab
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T00:41Z'
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2018-09-27T02:48Z'
+    ModifiedOnDateTimeEpoch: 1538016494000
+    ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrType1
     Source: NFSA
@@ -11935,34 +11938,31 @@
   Source_GEOMAC:
     Lon: -111.6605115644416
     Lat: 39.80574594623216
-    objectid: 60
+    objectid: 24
     latitude: 39.80574
     longitude: -111.6605
-    acres: 101843
-    DailyAcres: 101843
+    acres: 101895
     gacc: GBCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: UT
     status: U
     firecause: Natural
-    FireCause: Natural
-    reportdatetime: '2018-09-25T22:00Z'
-    percentcontained: 56
-    PercentContained: 56
+    reportdatetime: '2018-09-26T21:00Z'
+    reportdatetimeEpoch: 1537995600000
+    percentcontained: 65
     uniquefireidentifier: 2018-UTUWF-000971
-    UniqueFireIdentifier: 2018-UTUWF-000971
     firediscoverydatetime: '2018-09-06T16:39Z'
-    FireDiscoveryDateTime: '2018-09-06T16:39Z'
+    firediscoverydatetimeEpoch: 1536251940000
     complexparentirwinid: null
     pooresponsibleunit: UTUWF
     incidentname: Pole Creek
-    Fire_Name: Pole Creek
     iscomplex: 'false'
     irwinid: '{E2C9AC9D-6591-4065-865C-0B6E760A6DAF}'
-    irwinmodifiedon: '2018-09-26T01:29Z'
-    ModifiedOnDateTime: '2018-09-26T01:29Z'
+    irwinmodifiedon: '2018-09-27T02:48Z'
+    irwinmodifiedonEpoch: 1538016495000
     mapsymbol: '5'
-    datecurrent: '2018-09-26T18:30Z'
+    datecurrent: '2018-09-26T22:00Z'
+    datecurrentEpoch: 1537999211000
     pooownerunit: UTUWF
     fireyear: 2018
     localincidentidentifier: 000971
@@ -11970,39 +11970,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 101895
+    FireCause: Natural
+    PercentContained: 65
+    UniqueFireIdentifier: 2018-UTUWF-000971
+    FireDiscoveryDateTime: '2018-09-06T16:39Z'
+    Fire_Name: Pole Creek
+    ModifiedOnDateTime: '2018-09-27T02:48Z'
     Name: Pole Creek
     Source: GEOMAC
     Hashtag: '#PoleCreekFire'
   Lon: -111.66050896768095
   Lat: 39.80574709900321
-  objectid: 60
+  objectid: 24
   latitude: 39.80574
   longitude: -111.6605
-  acres: 101843
-  DailyAcres: 101895
+  acres: 101895
   gacc: GBCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: UT
   status: U
   firecause: Natural
-  FireCause: Natural
-  reportdatetime: '2018-09-25T22:00Z'
-  percentcontained: 56
-  PercentContained: 65
+  reportdatetime: '2018-09-26T21:00Z'
+  reportdatetimeEpoch: 1537995600000
+  percentcontained: 65
   uniquefireidentifier: 2018-UTUWF-000971
-  UniqueFireIdentifier: 2018-UTUWF-000971
   firediscoverydatetime: '2018-09-06T16:39Z'
-  FireDiscoveryDateTime: '2018-09-06T16:39Z'
+  firediscoverydatetimeEpoch: 1536251940000
   complexparentirwinid: null
   pooresponsibleunit: UTUWF
   incidentname: Pole Creek
-  Fire_Name: Pole Creek
   iscomplex: 'false'
   irwinid: '{E2C9AC9D-6591-4065-865C-0B6E760A6DAF}'
-  irwinmodifiedon: '2018-09-26T01:29Z'
-  ModifiedOnDateTime: '2018-09-27T00:41Z'
+  irwinmodifiedon: '2018-09-27T02:48Z'
+  irwinmodifiedonEpoch: 1538016495000
   mapsymbol: '5'
-  datecurrent: '2018-09-26T18:30Z'
+  datecurrent: '2018-09-26T22:00Z'
+  datecurrentEpoch: 1537999211000
   pooownerunit: UTUWF
   fireyear: 2018
   localincidentidentifier: 000971
@@ -12010,6 +12014,13 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 101895
+  FireCause: Natural
+  PercentContained: 65
+  UniqueFireIdentifier: 2018-UTUWF-000971
+  FireDiscoveryDateTime: '2018-09-06T16:39Z'
+  Fire_Name: Pole Creek
+  ModifiedOnDateTime: '2018-09-27T02:48Z'
   Name: Pole Creek
   Source: NFSA
   Hashtag: '#PoleCreekFire'
@@ -12017,16 +12028,19 @@
   FireMgmtComplexity: Type 1 Incident
   IncidentManagementOrganization: Type 1 Team
   ICS209ReportDateTime: '2018-09-26T21:00Z'
+  ICS209ReportDateTimeEpoch: 1537995600000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 21162200
   TotalIncidentPersonnel: 986
+  FireDiscoveryDateTimeEpoch: 1536251940000
   DispatchCenterID: UTNUC
   LocalIncidentIdentifier: 000971
   POOCounty: Juab
   POOLandownerKind: Federal
-  ModifiedBySystem: ics209
+  ModifiedOnDateTimeEpoch: 1538016494000
+  ModifiedBySystem: wfdss
   popupinfo: null
   calc_symboltype: ImsrType1
   NFSAType: Large WF
@@ -15949,6 +15963,7 @@
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
     ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
     ICS209ReportStatus: null
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -15956,11 +15971,13 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-26T16:08Z'
+    FireDiscoveryDateTimeEpoch: 1537978080000
     DispatchCenterID: IDSCC
     LocalIncidentIdentifier: 000369
     POOCounty: Blaine
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T22:52Z'
+    ModifiedOnDateTime: '2018-09-27T03:22Z'
+    ModifiedOnDateTimeEpoch: 1538018527000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#KingFire'
@@ -15978,6 +15995,7 @@
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
   ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
   ICS209ReportStatus: null
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -15985,11 +16003,13 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-26T16:08Z'
+  FireDiscoveryDateTimeEpoch: 1537978080000
   DispatchCenterID: IDSCC
   LocalIncidentIdentifier: 000369
   POOCounty: Blaine
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T22:52Z'
+  ModifiedOnDateTime: '2018-09-27T03:22Z'
+  ModifiedOnDateTimeEpoch: 1538018527000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#KingFire'
@@ -16859,11 +16879,12 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Gold Hill
     UniqueFireIdentifier: 2018-IDPDS-000754
-    DailyAcres: 3
+    DailyAcres: 40
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
     ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
     ICS209ReportStatus: null
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -16871,11 +16892,13 @@
     FireCause: Human
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-26T20:42Z'
+    FireDiscoveryDateTimeEpoch: 1537994520000
     DispatchCenterID: IDCDC
     LocalIncidentIdentifier: '000754'
     POOCounty: Latah
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T01:45Z'
+    ModifiedOnDateTime: '2018-09-27T02:41Z'
+    ModifiedOnDateTimeEpoch: 1538016116000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#GoldHillFire'
@@ -16888,11 +16911,12 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Gold Hill
   UniqueFireIdentifier: 2018-IDPDS-000754
-  DailyAcres: 3
+  DailyAcres: 40
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
   ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
   ICS209ReportStatus: null
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -16900,11 +16924,13 @@
   FireCause: Human
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-26T20:42Z'
+  FireDiscoveryDateTimeEpoch: 1537994520000
   DispatchCenterID: IDCDC
   LocalIncidentIdentifier: '000754'
   POOCounty: Latah
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T01:45Z'
+  ModifiedOnDateTime: '2018-09-27T02:41Z'
+  ModifiedOnDateTimeEpoch: 1538016116000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#GoldHillFire'
@@ -17097,62 +17123,68 @@
   Source_NFSA_Join:
     Lon: -118.97828408679982
     Lat: 48.20872649328203
-    Name: Little Snake River
-    popupinfo: null
     id: 107497
-    calc_symboltype: NewIrwinOnly
+    Name: Little Snake River
     Fire_Name: Little Snake River
     UniqueFireIdentifier: 2018-WACOA-180169
     DailyAcres: 2
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2018-09-27T02:30Z'
+    ICS209ReportDateTimeEpoch: 1538015400000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 200000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 52
     FireDiscoveryDateTime: '2018-09-26T20:57Z'
+    FireDiscoveryDateTimeEpoch: 1537995420000
     DispatchCenterID: WACOA
     LocalIncidentIdentifier: '180169'
     POOCounty: Okanogan
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T23:12Z'
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2018-09-27T03:45Z'
+    ModifiedOnDateTimeEpoch: 1538019927000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
     Source: NFSA
     Hashtag: '#LittleSnakeRiverFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
   Lon: -118.97828408679982
   Lat: 48.20872649328203
-  Name: Little Snake River
-  popupinfo: null
   id: 107497
-  calc_symboltype: NewIrwinOnly
+  Name: Little Snake River
   Fire_Name: Little Snake River
   UniqueFireIdentifier: 2018-WACOA-180169
   DailyAcres: 2
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportStatus: null
+  PercentContained: 0
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2018-09-27T02:30Z'
+  ICS209ReportDateTimeEpoch: 1538015400000
+  ICS209ReportStatus: I
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  EstimatedCostToDate: 200000
   FireCause: Unknown
-  TotalIncidentPersonnel: null
+  TotalIncidentPersonnel: 52
   FireDiscoveryDateTime: '2018-09-26T20:57Z'
+  FireDiscoveryDateTimeEpoch: 1537995420000
   DispatchCenterID: WACOA
   LocalIncidentIdentifier: '180169'
   POOCounty: Okanogan
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T23:12Z'
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2018-09-27T03:45Z'
+  ModifiedOnDateTimeEpoch: 1538019927000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: NonImsr
   Source: NFSA
   Hashtag: '#LittleSnakeRiverFire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
 2018-CAAEU-028200:
   Source_NFSA_Join:
@@ -17530,11 +17562,12 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Seventeen Mile
     UniqueFireIdentifier: 2018-MTKNF-000254
-    DailyAcres: 6
+    DailyAcres: 15
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
     ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
     ICS209ReportStatus: null
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -17542,11 +17575,13 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-26T22:39Z'
+    FireDiscoveryDateTimeEpoch: 1538001540000
     DispatchCenterID: MTKDC
     LocalIncidentIdentifier: '000254'
     POOCounty: Lincoln
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T01:16Z'
+    ModifiedOnDateTime: '2018-09-27T03:29Z'
+    ModifiedOnDateTimeEpoch: 1538018949000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#SeventeenMileFire'
@@ -17559,11 +17594,12 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Seventeen Mile
   UniqueFireIdentifier: 2018-MTKNF-000254
-  DailyAcres: 6
+  DailyAcres: 15
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
   ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
   ICS209ReportStatus: null
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -17571,11 +17607,13 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-26T22:39Z'
+  FireDiscoveryDateTimeEpoch: 1538001540000
   DispatchCenterID: MTKDC
   LocalIncidentIdentifier: '000254'
   POOCounty: Lincoln
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T01:16Z'
+  ModifiedOnDateTime: '2018-09-27T03:29Z'
+  ModifiedOnDateTimeEpoch: 1538018949000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#SeventeenMileFire'
@@ -17962,18 +18000,21 @@
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
     ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
     ICS209ReportStatus: null
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Human
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-27T00:26Z'
+    FireDiscoveryDateTimeEpoch: 1538007960000
     DispatchCenterID: IDCDC
     LocalIncidentIdentifier: '000757'
     POOCounty: Benewah
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T02:13Z'
+    ModifiedOnDateTime: '2018-09-27T03:37Z'
+    ModifiedOnDateTimeEpoch: 1538019441000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#HixsonLaneFire'
@@ -17991,18 +18032,21 @@
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
   ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
   ICS209ReportStatus: null
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Human
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-27T00:26Z'
+  FireDiscoveryDateTimeEpoch: 1538007960000
   DispatchCenterID: IDCDC
   LocalIncidentIdentifier: '000757'
   POOCounty: Benewah
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-27T02:13Z'
+  ModifiedOnDateTime: '2018-09-27T03:37Z'
+  ModifiedOnDateTimeEpoch: 1538019441000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#HixsonLaneFire'
@@ -18206,6 +18250,7 @@
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
     ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
     ICS209ReportStatus: null
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -18213,11 +18258,13 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-27T00:49Z'
+    FireDiscoveryDateTimeEpoch: 1538009340000
     DispatchCenterID: WYCPC
     LocalIncidentIdentifier: 018626
     POOCounty: Sweetwater
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T02:20Z'
+    ModifiedOnDateTime: '2018-09-27T03:04Z'
+    ModifiedOnDateTimeEpoch: 1538017474000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#RockyCrossingFire'
@@ -18235,6 +18282,7 @@
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
   ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
   ICS209ReportStatus: null
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -18242,13 +18290,82 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-27T00:49Z'
+  FireDiscoveryDateTimeEpoch: 1538009340000
   DispatchCenterID: WYCPC
   LocalIncidentIdentifier: 018626
   POOCounty: Sweetwater
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T02:20Z'
+  ModifiedOnDateTime: '2018-09-27T03:04Z'
+  ModifiedOnDateTimeEpoch: 1538017474000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#RockyCrossingFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-WANES-002181:
+  Source_NFSA_Join:
+    Lon: -118.91661474254502
+    Lat: 48.16661781093093
+    Name: LITTLE SNAKE RIVER
+    popupinfo: null
+    id: 107518
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LITTLE SNAKE RIVER
+    UniqueFireIdentifier: 2018-WANES-002181
+    DailyAcres: 263
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-26T21:23Z'
+    FireDiscoveryDateTimeEpoch: 1537996986000
+    DispatchCenterID: WANEC
+    LocalIncidentIdentifier: 002181
+    POOCounty: Okanogan
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-27T03:09Z'
+    ModifiedOnDateTimeEpoch: 1538017770000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#LittleSnakeRiverFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -118.91661474254502
+  Lat: 48.16661781093093
+  Name: LITTLE SNAKE RIVER
+  popupinfo: null
+  id: 107518
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LITTLE SNAKE RIVER
+  UniqueFireIdentifier: 2018-WANES-002181
+  DailyAcres: 263
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-26T21:23Z'
+  FireDiscoveryDateTimeEpoch: 1537996986000
+  DispatchCenterID: WANEC
+  LocalIncidentIdentifier: 002181
+  POOCounty: Okanogan
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-27T03:09Z'
+  ModifiedOnDateTimeEpoch: 1538017770000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#LittleSnakeRiverFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
