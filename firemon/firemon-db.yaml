@@ -2894,63 +2894,66 @@
   PerimDateTime: null
 2018-WAOWF-000428:
   Source_NFSA_Join:
+    Lon: -120.57931548507469
+    Lat: 48.45127506213791
     id: 101564
     Name: CRESCENT MOUNTAIN
     Fire_Name: CRESCENT MOUNTAIN
     UniqueFireIdentifier: 2018-WAOWF-000428
-    DailyAcres: 52711
+    DailyAcres: 52609
     PercentContained: 86
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2018-09-24T18:15Z'
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2018-09-27T14:30Z'
+    ICS209ReportDateTimeEpoch: 1538058600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 40700000
     FireCause: Unknown
-    TotalIncidentPersonnel: 290
+    TotalIncidentPersonnel: 69
     FireDiscoveryDateTime: '2018-07-29T16:56Z'
+    FireDiscoveryDateTimeEpoch: 1532883360000
     DispatchCenterID: WACWC
     LocalIncidentIdentifier: 000428
     POOCounty: Okanogan
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-24T18:16Z'
+    ModifiedOnDateTime: '2018-09-27T18:17Z'
+    ModifiedOnDateTimeEpoch: 1538072267000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: ImsrType1
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#CrescentMountainFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -120.57931481012535
     Lat: 48.45127585586575
-    objectid: 47
+    objectid: 27
     latitude: 48.45127
     longitude: -120.5793
-    acres: 52609
-    DailyAcres: 52609
+    acres: 52711
     gacc: NWCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: WA
     status: U
     firecause: Unknown
-    FireCause: Unknown
-    reportdatetime: '2018-09-24T00:15Z'
+    reportdatetime: '2018-09-24T18:15Z'
+    reportdatetimeEpoch: 1537812900000
     percentcontained: 86
-    PercentContained: 86
     uniquefireidentifier: 2018-WAOWF-000428
-    UniqueFireIdentifier: 2018-WAOWF-000428
     firediscoverydatetime: '2018-07-29T16:56Z'
-    FireDiscoveryDateTime: '2018-07-29T16:56Z'
+    firediscoverydatetimeEpoch: 1532883360000
     complexparentirwinid: null
     pooresponsibleunit: WAOWF
     incidentname: CRESCENT MOUNTAIN
-    Fire_Name: CRESCENT MOUNTAIN
     iscomplex: 'false'
     irwinid: '{E5D5F4DC-C2AB-425E-8DAF-D93B78D046BF}'
-    irwinmodifiedon: '2018-09-24T00:49Z'
-    ModifiedOnDateTime: '2018-09-24T00:49Z'
+    irwinmodifiedon: '2018-09-24T18:16Z'
+    irwinmodifiedonEpoch: 1537813016000
     mapsymbol: '4'
-    datecurrent: '2018-09-24T12:00Z'
+    datecurrent: '2018-09-27T12:00Z'
+    datecurrentEpoch: 1538049611000
     pooownerunit: WAOWF
     fireyear: 2018
     localincidentidentifier: 000428
@@ -2958,39 +2961,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 52711
+    FireCause: Unknown
+    PercentContained: 86
+    UniqueFireIdentifier: 2018-WAOWF-000428
+    FireDiscoveryDateTime: '2018-07-29T16:56Z'
+    Fire_Name: CRESCENT MOUNTAIN
+    ModifiedOnDateTime: '2018-09-24T18:16Z'
     Name: CRESCENT MOUNTAIN
     Source: GEOMAC
     Hashtag: '#CrescentMountainFire'
-  Lat: 48.45127585586575
-  Lon: -120.57931481012535
-  objectid: 47
+  Lon: -120.57931548507469
+  Lat: 48.45127506213791
+  objectid: 27
   latitude: 48.45127
   longitude: -120.5793
-  acres: 52609
-  DailyAcres: 52711
+  acres: 52711
   gacc: NWCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: WA
   status: U
   firecause: Unknown
-  FireCause: Unknown
-  reportdatetime: '2018-09-24T00:15Z'
+  reportdatetime: '2018-09-24T18:15Z'
+  reportdatetimeEpoch: 1537812900000
   percentcontained: 86
-  PercentContained: 86
   uniquefireidentifier: 2018-WAOWF-000428
-  UniqueFireIdentifier: 2018-WAOWF-000428
   firediscoverydatetime: '2018-07-29T16:56Z'
-  FireDiscoveryDateTime: '2018-07-29T16:56Z'
+  firediscoverydatetimeEpoch: 1532883360000
   complexparentirwinid: null
   pooresponsibleunit: WAOWF
   incidentname: CRESCENT MOUNTAIN
-  Fire_Name: CRESCENT MOUNTAIN
   iscomplex: 'false'
   irwinid: '{E5D5F4DC-C2AB-425E-8DAF-D93B78D046BF}'
-  irwinmodifiedon: '2018-09-24T00:49Z'
-  ModifiedOnDateTime: '2018-09-24T18:16Z'
+  irwinmodifiedon: '2018-09-24T18:16Z'
+  irwinmodifiedonEpoch: 1537813016000
   mapsymbol: '4'
-  datecurrent: '2018-09-24T12:00Z'
+  datecurrent: '2018-09-27T12:00Z'
+  datecurrentEpoch: 1538049611000
   pooownerunit: WAOWF
   fireyear: 2018
   localincidentidentifier: 000428
@@ -2998,25 +3005,36 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 52609
+  FireCause: Unknown
+  PercentContained: 86
+  UniqueFireIdentifier: 2018-WAOWF-000428
+  FireDiscoveryDateTime: '2018-07-29T16:56Z'
+  Fire_Name: CRESCENT MOUNTAIN
+  ModifiedOnDateTime: '2018-09-27T18:17Z'
   Name: CRESCENT MOUNTAIN
   Source: NFSA
   Hashtag: '#CrescentMountainFire'
   id: 101564
-  FireMgmtComplexity: Type 1 Incident
-  IncidentManagementOrganization: Type 1 Team
-  ICS209ReportDateTime: '2018-09-24T18:15Z'
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-27T14:30Z'
+  ICS209ReportDateTimeEpoch: 1538058600000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 40700000
-  TotalIncidentPersonnel: 290
+  TotalIncidentPersonnel: 69
+  FireDiscoveryDateTimeEpoch: 1532883360000
   DispatchCenterID: WACWC
   LocalIncidentIdentifier: 000428
   POOCounty: Okanogan
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538072267000
   ModifiedBySystem: ics209
   popupinfo: null
-  calc_symboltype: ImsrType1
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-19T22:23Z'
 2018-WAMSF-000173:
   Source_NFSA_Join:
@@ -4636,63 +4654,66 @@
   PerimDateTime: null
 2018-WAOWF-000522:
   Source_NFSA_Join:
+    Lon: -120.3721190647925
+    Lat: 48.7075164980616
     id: 103296
     Name: MCLEOD
     Fire_Name: MCLEOD
     UniqueFireIdentifier: 2018-WAOWF-000522
-    DailyAcres: 24429
+    DailyAcres: 24411
     PercentContained: 91
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2018-09-24T18:15Z'
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2018-09-27T14:30Z'
+    ICS209ReportDateTimeEpoch: 1538058600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 14200000
     FireCause: Unknown
-    TotalIncidentPersonnel: 285
+    TotalIncidentPersonnel: 10
     FireDiscoveryDateTime: '2018-08-11T19:54Z'
+    FireDiscoveryDateTimeEpoch: 1534017240000
     DispatchCenterID: WACWC
     LocalIncidentIdentifier: '000522'
     POOCounty: Okanogan
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-24T18:19Z'
+    ModifiedOnDateTime: '2018-09-27T18:22Z'
+    ModifiedOnDateTimeEpoch: 1538072543000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: ImsrType1
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#McleodFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -120.37211483928424
     Lat: 48.70751589320697
-    objectid: 51
+    objectid: 30
     latitude: 48.70751
     longitude: -120.3721
-    acres: 24411
-    DailyAcres: 24411
+    acres: 24429
     gacc: NWCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: WA
     status: U
     firecause: Unknown
-    FireCause: Unknown
-    reportdatetime: '2018-09-24T00:45Z'
+    reportdatetime: '2018-09-24T18:15Z'
+    reportdatetimeEpoch: 1537812900000
     percentcontained: 91
-    PercentContained: 91
     uniquefireidentifier: 2018-WAOWF-000522
-    UniqueFireIdentifier: 2018-WAOWF-000522
     firediscoverydatetime: '2018-08-11T19:54Z'
-    FireDiscoveryDateTime: '2018-08-11T19:54Z'
+    firediscoverydatetimeEpoch: 1534017240000
     complexparentirwinid: null
     pooresponsibleunit: WAOWF
     incidentname: MCLEOD
-    Fire_Name: MCLEOD
     iscomplex: 'false'
     irwinid: '{9A513089-37EB-4794-B670-9C08C792CF34}'
-    irwinmodifiedon: '2018-09-24T00:50Z'
-    ModifiedOnDateTime: '2018-09-24T00:50Z'
+    irwinmodifiedon: '2018-09-24T18:19Z'
+    irwinmodifiedonEpoch: 1537813196000
     mapsymbol: '2'
-    datecurrent: '2018-09-24T12:00Z'
+    datecurrent: '2018-09-27T12:00Z'
+    datecurrentEpoch: 1538049611000
     pooownerunit: WAOWF
     fireyear: 2018
     localincidentidentifier: '000522'
@@ -4700,39 +4721,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 24429
+    FireCause: Unknown
+    PercentContained: 91
+    UniqueFireIdentifier: 2018-WAOWF-000522
+    FireDiscoveryDateTime: '2018-08-11T19:54Z'
+    Fire_Name: MCLEOD
+    ModifiedOnDateTime: '2018-09-24T18:19Z'
     Name: MCLEOD
     Source: GEOMAC
     Hashtag: '#McleodFire'
-  Lat: 48.70751589320697
-  Lon: -120.37211483928424
-  objectid: 51
+  Lon: -120.3721190647925
+  Lat: 48.7075164980616
+  objectid: 30
   latitude: 48.70751
   longitude: -120.3721
-  acres: 24411
-  DailyAcres: 24429
+  acres: 24429
   gacc: NWCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: WA
   status: U
   firecause: Unknown
-  FireCause: Unknown
-  reportdatetime: '2018-09-24T00:45Z'
+  reportdatetime: '2018-09-24T18:15Z'
+  reportdatetimeEpoch: 1537812900000
   percentcontained: 91
-  PercentContained: 91
   uniquefireidentifier: 2018-WAOWF-000522
-  UniqueFireIdentifier: 2018-WAOWF-000522
   firediscoverydatetime: '2018-08-11T19:54Z'
-  FireDiscoveryDateTime: '2018-08-11T19:54Z'
+  firediscoverydatetimeEpoch: 1534017240000
   complexparentirwinid: null
   pooresponsibleunit: WAOWF
   incidentname: MCLEOD
-  Fire_Name: MCLEOD
   iscomplex: 'false'
   irwinid: '{9A513089-37EB-4794-B670-9C08C792CF34}'
-  irwinmodifiedon: '2018-09-24T00:50Z'
-  ModifiedOnDateTime: '2018-09-24T18:19Z'
+  irwinmodifiedon: '2018-09-24T18:19Z'
+  irwinmodifiedonEpoch: 1537813196000
   mapsymbol: '2'
-  datecurrent: '2018-09-24T12:00Z'
+  datecurrent: '2018-09-27T12:00Z'
+  datecurrentEpoch: 1538049611000
   pooownerunit: WAOWF
   fireyear: 2018
   localincidentidentifier: '000522'
@@ -4740,25 +4765,36 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 24411
+  FireCause: Unknown
+  PercentContained: 91
+  UniqueFireIdentifier: 2018-WAOWF-000522
+  FireDiscoveryDateTime: '2018-08-11T19:54Z'
+  Fire_Name: MCLEOD
+  ModifiedOnDateTime: '2018-09-27T18:22Z'
   Name: MCLEOD
   Source: NFSA
   Hashtag: '#McleodFire'
   id: 103296
-  FireMgmtComplexity: Type 1 Incident
-  IncidentManagementOrganization: Type 1 Team
-  ICS209ReportDateTime: '2018-09-24T18:15Z'
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-27T14:30Z'
+  ICS209ReportDateTimeEpoch: 1538058600000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 14200000
-  TotalIncidentPersonnel: 285
+  TotalIncidentPersonnel: 10
+  FireDiscoveryDateTimeEpoch: 1534017240000
   DispatchCenterID: WACWC
   LocalIncidentIdentifier: '000522'
   POOCounty: Okanogan
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538072543000
   ModifiedBySystem: ics209
   popupinfo: null
-  calc_symboltype: ImsrType1
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-23T21:46Z'
 2018-MTKNF-000195:
   Source_NFSA_Join:
@@ -5183,15 +5219,18 @@
   PerimDateTime: null
 2018-WAOWF-000543:
   Source_NFSA_Join:
+    Lon: -120.7468153529516
+    Lat: 48.830277790465836
     id: 104108
     Name: HOLMAN
     Fire_Name: HOLMAN
     UniqueFireIdentifier: 2018-WAOWF-000543
     DailyAcres: 302
     PercentContained: 0
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2018-09-24T18:15Z'
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2018-09-27T18:15Z'
+    ICS209ReportDateTimeEpoch: 1538072100000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -5199,47 +5238,47 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-08-16T21:42Z'
+    FireDiscoveryDateTimeEpoch: 1534455720000
     DispatchCenterID: WACWC
     LocalIncidentIdentifier: '000543'
     POOCounty: Whatcom
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-24T18:22Z'
+    ModifiedOnDateTime: '2018-09-27T18:25Z'
+    ModifiedOnDateTimeEpoch: 1538072734000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: ImsrType1
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#HolmanFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -120.74681493533382
     Lat: 48.83027585789944
-    objectid: 20
+    objectid: 16
     latitude: 48.83027
     longitude: -120.7468
     acres: 302
-    DailyAcres: 302
     gacc: NWCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: WA
     status: U
     firecause: Unknown
-    FireCause: Unknown
-    reportdatetime: '2018-09-24T00:15Z'
+    reportdatetime: '2018-09-24T18:15Z'
+    reportdatetimeEpoch: 1537812900000
     percentcontained: 0
-    PercentContained: 0
     uniquefireidentifier: 2018-WAOWF-000543
-    UniqueFireIdentifier: 2018-WAOWF-000543
     firediscoverydatetime: '2018-08-16T21:42Z'
-    FireDiscoveryDateTime: '2018-08-16T21:42Z'
+    firediscoverydatetimeEpoch: 1534455720000
     complexparentirwinid: null
     pooresponsibleunit: WAOWF
     incidentname: HOLMAN
-    Fire_Name: HOLMAN
     iscomplex: 'false'
     irwinid: '{55AAFF53-35AC-4FDC-81BB-8C838986DCD0}'
-    irwinmodifiedon: '2018-09-24T00:53Z'
-    ModifiedOnDateTime: '2018-09-24T00:53Z'
+    irwinmodifiedon: '2018-09-24T18:22Z'
+    irwinmodifiedonEpoch: 1537813334000
     mapsymbol: '1'
-    datecurrent: '2018-09-24T12:00Z'
+    datecurrent: '2018-09-27T12:00Z'
+    datecurrentEpoch: 1538049611000
     pooownerunit: WAOWF
     fireyear: 2018
     localincidentidentifier: '000543'
@@ -5247,39 +5286,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 302
+    FireCause: Unknown
+    PercentContained: 0
+    UniqueFireIdentifier: 2018-WAOWF-000543
+    FireDiscoveryDateTime: '2018-08-16T21:42Z'
+    Fire_Name: HOLMAN
+    ModifiedOnDateTime: '2018-09-24T18:22Z'
     Name: HOLMAN
     Source: GEOMAC
     Hashtag: '#HolmanFire'
-  Lat: 48.83027585789944
-  Lon: -120.74681493533382
-  objectid: 20
+  Lon: -120.7468153529516
+  Lat: 48.830277790465836
+  objectid: 16
   latitude: 48.83027
   longitude: -120.7468
   acres: 302
-  DailyAcres: 302
   gacc: NWCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: WA
   status: U
   firecause: Unknown
-  FireCause: Unknown
-  reportdatetime: '2018-09-24T00:15Z'
+  reportdatetime: '2018-09-24T18:15Z'
+  reportdatetimeEpoch: 1537812900000
   percentcontained: 0
-  PercentContained: 0
   uniquefireidentifier: 2018-WAOWF-000543
-  UniqueFireIdentifier: 2018-WAOWF-000543
   firediscoverydatetime: '2018-08-16T21:42Z'
-  FireDiscoveryDateTime: '2018-08-16T21:42Z'
+  firediscoverydatetimeEpoch: 1534455720000
   complexparentirwinid: null
   pooresponsibleunit: WAOWF
   incidentname: HOLMAN
-  Fire_Name: HOLMAN
   iscomplex: 'false'
   irwinid: '{55AAFF53-35AC-4FDC-81BB-8C838986DCD0}'
-  irwinmodifiedon: '2018-09-24T00:53Z'
-  ModifiedOnDateTime: '2018-09-24T18:22Z'
+  irwinmodifiedon: '2018-09-24T18:22Z'
+  irwinmodifiedonEpoch: 1537813334000
   mapsymbol: '1'
-  datecurrent: '2018-09-24T12:00Z'
+  datecurrent: '2018-09-27T12:00Z'
+  datecurrentEpoch: 1538049611000
   pooownerunit: WAOWF
   fireyear: 2018
   localincidentidentifier: '000543'
@@ -5287,25 +5330,36 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 302
+  FireCause: Unknown
+  PercentContained: 0
+  UniqueFireIdentifier: 2018-WAOWF-000543
+  FireDiscoveryDateTime: '2018-08-16T21:42Z'
+  Fire_Name: HOLMAN
+  ModifiedOnDateTime: '2018-09-27T18:25Z'
   Name: HOLMAN
   Source: NFSA
   Hashtag: '#HolmanFire'
   id: 104108
-  FireMgmtComplexity: Type 1 Incident
-  IncidentManagementOrganization: Type 1 Team
-  ICS209ReportDateTime: '2018-09-24T18:15Z'
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2018-09-27T18:15Z'
+  ICS209ReportDateTimeEpoch: 1538072100000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 0
   TotalIncidentPersonnel: null
+  FireDiscoveryDateTimeEpoch: 1534455720000
   DispatchCenterID: WACWC
   LocalIncidentIdentifier: '000543'
   POOCounty: Whatcom
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538072734000
   ModifiedBySystem: ics209
   popupinfo: null
-  calc_symboltype: ImsrType1
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-13T10:18Z'
 2018-WAMSF-000265:
   Source_NFSA_Join:
@@ -9128,129 +9182,70 @@
   PerimDateTime: null
 2018-AZKNF-000806:
   Source_NFSA_Join:
+    Lon: -112.3073139385527
+    Lat: 36.3690454509338
     id: 100979
     Name: STINA
     Fire_Name: STINA
     UniqueFireIdentifier: 2018-AZKNF-000806
     DailyAcres: 2600
-    PercentContained: 72
+    PercentContained: 75
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-20T22:00Z'
+    ICS209ReportDateTime: '2018-09-27T17:45Z'
+    ICS209ReportDateTimeEpoch: 1538070300000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 1000000
+    EstimatedCostToDate: 1000500
     FireCause: Natural
     TotalIncidentPersonnel: 5
     FireDiscoveryDateTime: '2018-07-27T01:31Z'
+    FireDiscoveryDateTimeEpoch: 1532655060000
     DispatchCenterID: AZWDC
     LocalIncidentIdentifier: 000806
     POOCounty: Coconino
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-20T22:21Z'
+    ModifiedOnDateTime: '2018-09-27T18:01Z'
+    ModifiedOnDateTimeEpoch: 1538071262000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#StinaFire'
-  Source_GEOMAC:
-    Lon: -112.30731131291498
-    Lat: 36.36904548645348
-    objectid: 6
-    latitude: 36.36904
-    longitude: -112.3073
-    acres: 2600
-    DailyAcres: 2600
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: U
-    firecause: Natural
-    FireCause: Natural
-    reportdatetime: '2018-09-20T22:00Z'
-    percentcontained: 72
-    PercentContained: 72
-    uniquefireidentifier: 2018-AZKNF-000806
-    UniqueFireIdentifier: 2018-AZKNF-000806
-    firediscoverydatetime: '2018-07-27T01:31Z'
-    FireDiscoveryDateTime: '2018-07-27T01:31Z'
-    complexparentirwinid: null
-    pooresponsibleunit: AZKNF
-    incidentname: STINA
-    Fire_Name: STINA
-    iscomplex: 'false'
-    irwinid: '{05B7C1F3-50D4-4106-889C-3AB036F8B0AB}'
-    irwinmodifiedon: '2018-09-20T22:21Z'
-    ModifiedOnDateTime: '2018-09-20T22:21Z'
-    mapsymbol: '1'
-    datecurrent: '2018-09-20T16:30Z'
-    pooownerunit: AZKNF
-    fireyear: 2018
-    localincidentidentifier: 000806
-    incidenttypecategory: WF
-    owneragency: NPS
-    perimexist: 'Y'
-    complexname: null
-    Name: STINA
-    Source: GEOMAC
-    Hashtag: '#StinaFire'
-  Lat: 36.36904548645348
-  Lon: -112.30731131291498
-  objectid: 6
-  latitude: 36.36904
-  longitude: -112.3073
-  acres: 2600
-  DailyAcres: 2600
-  gacc: SWCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: AZ
-  status: U
-  firecause: Natural
-  FireCause: Natural
-  reportdatetime: '2018-09-20T22:00Z'
-  percentcontained: 72
-  PercentContained: 72
-  uniquefireidentifier: 2018-AZKNF-000806
-  UniqueFireIdentifier: 2018-AZKNF-000806
-  firediscoverydatetime: '2018-07-27T01:31Z'
-  FireDiscoveryDateTime: '2018-07-27T01:31Z'
-  complexparentirwinid: null
-  pooresponsibleunit: AZKNF
-  incidentname: STINA
-  Fire_Name: STINA
-  iscomplex: 'false'
-  irwinid: '{05B7C1F3-50D4-4106-889C-3AB036F8B0AB}'
-  irwinmodifiedon: '2018-09-20T22:21Z'
-  ModifiedOnDateTime: '2018-09-20T22:21Z'
-  mapsymbol: '1'
-  datecurrent: '2018-09-20T16:30Z'
-  pooownerunit: AZKNF
-  fireyear: 2018
-  localincidentidentifier: 000806
-  incidenttypecategory: WF
-  owneragency: NPS
-  perimexist: 'Y'
-  complexname: null
-  Name: STINA
-  Source: NFSA
-  Hashtag: Stina Fire
+    NFSAType: Large WF
+  Lon: -112.3073139385527
+  Lat: 36.3690454509338
   id: 100979
+  Name: STINA
+  Fire_Name: STINA
+  UniqueFireIdentifier: 2018-AZKNF-000806
+  DailyAcres: 2600
+  PercentContained: 75
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-20T22:00Z'
+  ICS209ReportDateTime: '2018-09-27T17:45Z'
+  ICS209ReportDateTimeEpoch: 1538070300000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 1000000
+  EstimatedCostToDate: 1000500
+  FireCause: Natural
   TotalIncidentPersonnel: 5
+  FireDiscoveryDateTime: '2018-07-27T01:31Z'
+  FireDiscoveryDateTimeEpoch: 1532655060000
   DispatchCenterID: AZWDC
   LocalIncidentIdentifier: 000806
   POOCounty: Coconino
   POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-27T18:01Z'
+  ModifiedOnDateTimeEpoch: 1538071262000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#StinaFire'
+  NFSAType: Large WF
   PerimDateTime: null
 2018-CAMEU-008646:
   Source_GEOMAC:
@@ -13427,11 +13422,12 @@
     Name: Bear Creek
     Fire_Name: Bear Creek
     UniqueFireIdentifier: 2018-IDNCF-000776
-    DailyAcres: 80
+    DailyAcres: 147
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
     ICS209ReportDateTime: '2018-09-24T20:00Z'
+    ICS209ReportDateTimeEpoch: 1537819200000
     ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -13439,14 +13435,16 @@
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-18T14:41Z'
+    FireDiscoveryDateTimeEpoch: 1537281676000
     DispatchCenterID: IDGVC
     LocalIncidentIdentifier: '000776'
     POOCounty: Idaho
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-26T14:45Z'
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2018-09-27T18:20Z'
+    ModifiedOnDateTimeEpoch: 1538072441000
+    ModifiedBySystem: wildcad
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#BearCreekFire'
     NFSAType: Large WF
@@ -13456,11 +13454,12 @@
   Name: Bear Creek
   Fire_Name: Bear Creek
   UniqueFireIdentifier: 2018-IDNCF-000776
-  DailyAcres: 80
+  DailyAcres: 147
   PercentContained: 0
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
   ICS209ReportDateTime: '2018-09-24T20:00Z'
+  ICS209ReportDateTimeEpoch: 1537819200000
   ICS209ReportStatus: I
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -13468,14 +13467,16 @@
   FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-18T14:41Z'
+  FireDiscoveryDateTimeEpoch: 1537281676000
   DispatchCenterID: IDGVC
   LocalIncidentIdentifier: '000776'
   POOCounty: Idaho
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-26T14:45Z'
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2018-09-27T18:20Z'
+  ModifiedOnDateTimeEpoch: 1538072441000
+  ModifiedBySystem: wildcad
   popupinfo: null
-  calc_symboltype: NonImsr
+  calc_symboltype: ImsrOther
   Source: NFSA
   Hashtag: '#BearCreekFire'
   NFSAType: Large WF
@@ -19264,8 +19265,8 @@
     LocalIncidentIdentifier: 002148
     POOCounty: Plumas
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-27T17:09Z'
-    ModifiedOnDateTimeEpoch: 1538068193000
+    ModifiedOnDateTime: '2018-09-27T18:05Z'
+    ModifiedOnDateTimeEpoch: 1538071529000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#Rocky2Fire'
@@ -19296,8 +19297,8 @@
   LocalIncidentIdentifier: 002148
   POOCounty: Plumas
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-27T17:09Z'
-  ModifiedOnDateTimeEpoch: 1538068193000
+  ModifiedOnDateTime: '2018-09-27T18:05Z'
+  ModifiedOnDateTimeEpoch: 1538071529000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#Rocky2Fire'
