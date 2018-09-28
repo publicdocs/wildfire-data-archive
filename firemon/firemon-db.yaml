@@ -3358,6 +3358,8 @@
   PerimDateTime: null
 2018-WAOWF-000443:
   Source_NFSA_Join:
+    Lon: -121.34881235745146
+    Lat: 46.609846548387935
     id: 101671
     Name: MIRIAM
     Fire_Name: MIRIAM
@@ -3366,7 +3368,8 @@
     PercentContained: 50
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-21T01:00Z'
+    ICS209ReportDateTime: '2018-09-28T01:30Z'
+    ICS209ReportDateTimeEpoch: 1538098200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -3374,47 +3377,47 @@
     FireCause: Unknown
     TotalIncidentPersonnel: 4
     FireDiscoveryDateTime: '2018-07-30T18:04Z'
+    FireDiscoveryDateTimeEpoch: 1532973840000
     DispatchCenterID: WACWC
     LocalIncidentIdentifier: '000443'
     POOCounty: Yakima
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-21T01:06Z'
+    ModifiedOnDateTime: '2018-09-28T01:53Z'
+    ModifiedOnDateTimeEpoch: 1538099604000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#MiriamFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -121.34961450410958
     Lat: 46.60984566673146
-    objectid: 43
+    objectid: 42
     latitude: 46.60984
     longitude: -121.3496
     acres: 5400
-    DailyAcres: 5400
     gacc: NWCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: WA
     status: U
     firecause: Unknown
-    FireCause: Unknown
-    reportdatetime: '2018-09-20T01:00Z'
+    reportdatetime: '2018-09-28T01:30Z'
+    reportdatetimeEpoch: 1538098200000
     percentcontained: 50
-    PercentContained: 50
     uniquefireidentifier: 2018-WAOWF-000443
-    UniqueFireIdentifier: 2018-WAOWF-000443
     firediscoverydatetime: '2018-07-30T18:04Z'
-    FireDiscoveryDateTime: '2018-07-30T18:04Z'
+    firediscoverydatetimeEpoch: 1532973840000
     complexparentirwinid: null
     pooresponsibleunit: WAOWF
     incidentname: MIRIAM
-    Fire_Name: MIRIAM
     iscomplex: 'false'
     irwinid: '{3FD05AC8-AF59-4642-A804-455564F37641}'
-    irwinmodifiedon: '2018-09-20T01:11Z'
-    ModifiedOnDateTime: '2018-09-20T01:11Z'
+    irwinmodifiedon: '2018-09-28T01:53Z'
+    irwinmodifiedonEpoch: 1538099604000
     mapsymbol: '1'
-    datecurrent: '2018-09-20T19:00Z'
+    datecurrent: '2018-09-27T20:00Z'
+    datecurrentEpoch: 1538078410000
     pooownerunit: WAOWF
     fireyear: 2018
     localincidentidentifier: '000443'
@@ -3422,39 +3425,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 5400
+    FireCause: Unknown
+    PercentContained: 50
+    UniqueFireIdentifier: 2018-WAOWF-000443
+    FireDiscoveryDateTime: '2018-07-30T18:04Z'
+    Fire_Name: MIRIAM
+    ModifiedOnDateTime: '2018-09-28T01:53Z'
     Name: MIRIAM
     Source: GEOMAC
     Hashtag: '#MiriamFire'
-  Lat: 46.60984566673146
-  Lon: -121.34961450410958
-  objectid: 43
+  Lon: -121.34881235745146
+  Lat: 46.609846548387935
+  objectid: 42
   latitude: 46.60984
   longitude: -121.3496
   acres: 5400
-  DailyAcres: 5400
   gacc: NWCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: WA
   status: U
   firecause: Unknown
-  FireCause: Unknown
-  reportdatetime: '2018-09-20T01:00Z'
+  reportdatetime: '2018-09-28T01:30Z'
+  reportdatetimeEpoch: 1538098200000
   percentcontained: 50
-  PercentContained: 50
   uniquefireidentifier: 2018-WAOWF-000443
-  UniqueFireIdentifier: 2018-WAOWF-000443
   firediscoverydatetime: '2018-07-30T18:04Z'
-  FireDiscoveryDateTime: '2018-07-30T18:04Z'
+  firediscoverydatetimeEpoch: 1532973840000
   complexparentirwinid: null
   pooresponsibleunit: WAOWF
   incidentname: MIRIAM
-  Fire_Name: MIRIAM
   iscomplex: 'false'
   irwinid: '{3FD05AC8-AF59-4642-A804-455564F37641}'
-  irwinmodifiedon: '2018-09-20T01:11Z'
-  ModifiedOnDateTime: '2018-09-21T01:06Z'
+  irwinmodifiedon: '2018-09-28T01:53Z'
+  irwinmodifiedonEpoch: 1538099604000
   mapsymbol: '1'
-  datecurrent: '2018-09-20T19:00Z'
+  datecurrent: '2018-09-27T20:00Z'
+  datecurrentEpoch: 1538078410000
   pooownerunit: WAOWF
   fireyear: 2018
   localincidentidentifier: '000443'
@@ -3462,25 +3469,36 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 5400
+  FireCause: Unknown
+  PercentContained: 50
+  UniqueFireIdentifier: 2018-WAOWF-000443
+  FireDiscoveryDateTime: '2018-07-30T18:04Z'
+  Fire_Name: MIRIAM
+  ModifiedOnDateTime: '2018-09-28T01:53Z'
   Name: MIRIAM
   Source: NFSA
   Hashtag: '#MiriamFire'
   id: 101671
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-21T01:00Z'
+  ICS209ReportDateTime: '2018-09-28T01:30Z'
+  ICS209ReportDateTimeEpoch: 1538098200000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 14196784.4
   TotalIncidentPersonnel: 4
+  FireDiscoveryDateTimeEpoch: 1532973840000
   DispatchCenterID: WACWC
   LocalIncidentIdentifier: '000443'
   POOCounty: Yakima
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538099604000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2018-09-09T20:56Z'
 2018-IDIPF-000455:
   Source_NFSA_Join:
@@ -3610,6 +3628,8 @@
   PerimDateTime: '2018-08-28T22:26Z'
 2018-WAOWF-000415:
   Source_NFSA_Join:
+    Lon: -120.94391470944026
+    Lat: 48.250776654465504
     id: 101848
     Name: Bannock Lakes
     Fire_Name: Bannock Lakes
@@ -3617,8 +3637,9 @@
     DailyAcres: 497
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2018-09-12T01:00Z'
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2018-09-27T23:00Z'
+    ICS209ReportDateTimeEpoch: 1538089200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -3626,47 +3647,47 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-07-29T01:49Z'
+    FireDiscoveryDateTimeEpoch: 1532828940000
     DispatchCenterID: WACWC
     LocalIncidentIdentifier: '000415'
     POOCounty: Chelan
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-12T03:06Z'
+    ModifiedOnDateTime: '2018-09-28T01:37Z'
+    ModifiedOnDateTimeEpoch: 1538098650000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#BannockLakesFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -120.94391482216444
     Lat: 48.250775804307416
-    objectid: 38
+    objectid: 4
     latitude: 48.25077
     longitude: -120.9439
     acres: 497
-    DailyAcres: 497
     gacc: NWCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: WA
     status: U
     firecause: Unknown
-    FireCause: Unknown
-    reportdatetime: '2018-09-14T23:00Z'
+    reportdatetime: '2018-09-27T23:00Z'
+    reportdatetimeEpoch: 1538089200000
     percentcontained: 0
-    PercentContained: 0
     uniquefireidentifier: 2018-WAOWF-000415
-    UniqueFireIdentifier: 2018-WAOWF-000415
     firediscoverydatetime: '2018-07-29T01:49Z'
-    FireDiscoveryDateTime: '2018-07-29T01:49Z'
+    firediscoverydatetimeEpoch: 1532828940000
     complexparentirwinid: null
     pooresponsibleunit: WAOWF
     incidentname: Bannock Lakes
-    Fire_Name: Bannock Lakes
     iscomplex: 'false'
     irwinid: '{C6F778D4-83B3-4DDD-A65B-EF096508D2A1}'
-    irwinmodifiedon: '2018-09-14T23:45Z'
-    ModifiedOnDateTime: '2018-09-14T23:45Z'
+    irwinmodifiedon: '2018-09-28T01:37Z'
+    irwinmodifiedonEpoch: 1538098650000
     mapsymbol: '1'
-    datecurrent: '2018-09-16T15:30Z'
+    datecurrent: '2018-09-27T20:00Z'
+    datecurrentEpoch: 1538078410000
     pooownerunit: WAOWF
     fireyear: 2018
     localincidentidentifier: '000415'
@@ -3674,36 +3695,19 @@
     owneragency: ''
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 497
+    FireCause: Unknown
+    PercentContained: 0
+    UniqueFireIdentifier: 2018-WAOWF-000415
+    FireDiscoveryDateTime: '2018-07-29T01:49Z'
+    Fire_Name: Bannock Lakes
+    ModifiedOnDateTime: '2018-09-28T01:37Z'
     Name: Bannock Lakes
     Source: GEOMAC
     Hashtag: '#BannockLakesFire'
-  Lat: 48.250775804307416
-  Lon: -120.94391482216444
-  id: 101848
-  Name: Bannock Lakes
-  Fire_Name: Bannock Lakes
-  UniqueFireIdentifier: 2018-WAOWF-000415
-  DailyAcres: 497
-  PercentContained: 0
-  FireMgmtComplexity: Type 5 Incident
-  IncidentManagementOrganization: Type 2 Team
-  ICS209ReportDateTime: '2018-09-12T01:00Z'
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  FireCause: Unknown
-  FireDiscoveryDateTime: '2018-07-29T01:49Z'
-  DispatchCenterID: WACWC
-  LocalIncidentIdentifier: '000415'
-  POOCounty: Chelan
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-14T23:45Z'
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: GEOMAC
-  Hashtag: '#BannockLakesFire'
-  objectid: 38
+  Lon: -120.94391470944026
+  Lat: 48.250776654465504
+  objectid: 4
   latitude: 48.25077
   longitude: -120.9439
   acres: 497
@@ -3712,18 +3716,22 @@
   state: WA
   status: U
   firecause: Unknown
-  reportdatetime: '2018-09-14T23:00Z'
+  reportdatetime: '2018-09-27T23:00Z'
+  reportdatetimeEpoch: 1538089200000
   percentcontained: 0
   uniquefireidentifier: 2018-WAOWF-000415
   firediscoverydatetime: '2018-07-29T01:49Z'
+  firediscoverydatetimeEpoch: 1532828940000
   complexparentirwinid: null
   pooresponsibleunit: WAOWF
   incidentname: Bannock Lakes
   iscomplex: 'false'
   irwinid: '{C6F778D4-83B3-4DDD-A65B-EF096508D2A1}'
-  irwinmodifiedon: '2018-09-14T23:45Z'
+  irwinmodifiedon: '2018-09-28T01:37Z'
+  irwinmodifiedonEpoch: 1538098650000
   mapsymbol: '1'
-  datecurrent: '2018-09-16T15:30Z'
+  datecurrent: '2018-09-27T20:00Z'
+  datecurrentEpoch: 1538078410000
   pooownerunit: WAOWF
   fireyear: 2018
   localincidentidentifier: '000415'
@@ -3731,6 +3739,36 @@
   owneragency: ''
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 497
+  FireCause: Unknown
+  PercentContained: 0
+  UniqueFireIdentifier: 2018-WAOWF-000415
+  FireDiscoveryDateTime: '2018-07-29T01:49Z'
+  Fire_Name: Bannock Lakes
+  ModifiedOnDateTime: '2018-09-28T01:37Z'
+  Name: Bannock Lakes
+  Source: NFSA
+  Hashtag: '#BannockLakesFire'
+  id: 101848
+  FireMgmtComplexity: Type 5 Incident
+  IncidentManagementOrganization: Type 5 IC
+  ICS209ReportDateTime: '2018-09-27T23:00Z'
+  ICS209ReportDateTimeEpoch: 1538089200000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 43500
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTimeEpoch: 1532828940000
+  DispatchCenterID: WACWC
+  LocalIncidentIdentifier: '000415'
+  POOCounty: Chelan
+  POOLandownerKind: null
+  ModifiedOnDateTimeEpoch: 1538098650000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: null
 2018-WAMSF-000197:
   Source_NFSA_Join:
@@ -10165,23 +10203,26 @@
     Name: RYAN
     Fire_Name: RYAN
     UniqueFireIdentifier: 2018-WYMRF-000598
-    DailyAcres: 21085
+    DailyAcres: 21631
     PercentContained: 35
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2018-09-27T00:00Z'
+    ICS209ReportDateTime: '2018-09-28T00:00Z'
+    ICS209ReportDateTimeEpoch: 1538092800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 3000000
+    EstimatedCostToDate: 3400000
     FireCause: Unknown
-    TotalIncidentPersonnel: 287
+    TotalIncidentPersonnel: 321
     FireDiscoveryDateTime: '2018-09-16T01:36Z'
+    FireDiscoveryDateTimeEpoch: 1537061760000
     DispatchCenterID: COCRC
     LocalIncidentIdentifier: 000598
     POOCounty: Jackson
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-27T01:01Z'
+    ModifiedOnDateTime: '2018-09-28T01:30Z'
+    ModifiedOnDateTimeEpoch: 1538098244000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
@@ -10191,34 +10232,31 @@
   Source_GEOMAC:
     Lon: -106.74711066220654
     Lat: 40.97783645668928
-    objectid: 63
+    objectid: 68
     latitude: 40.97783
     longitude: -106.7471
-    acres: 21085
-    DailyAcres: 21085
+    acres: 21631
     gacc: RMCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: CO
     status: U
     firecause: Unknown
-    FireCause: Unknown
-    reportdatetime: '2018-09-27T00:00Z'
+    reportdatetime: '2018-09-28T00:00Z'
+    reportdatetimeEpoch: 1538092800000
     percentcontained: 35
-    PercentContained: 35
     uniquefireidentifier: 2018-WYMRF-000598
-    UniqueFireIdentifier: 2018-WYMRF-000598
     firediscoverydatetime: '2018-09-16T01:36Z'
-    FireDiscoveryDateTime: '2018-09-16T01:36Z'
+    firediscoverydatetimeEpoch: 1537061760000
     complexparentirwinid: null
     pooresponsibleunit: WYMRF
     incidentname: RYAN
-    Fire_Name: RYAN
     iscomplex: 'false'
     irwinid: '{806D3E5D-9E17-49BC-A071-D50122176112}'
-    irwinmodifiedon: '2018-09-27T01:01Z'
-    ModifiedOnDateTime: '2018-09-27T01:01Z'
+    irwinmodifiedon: '2018-09-28T01:30Z'
+    irwinmodifiedonEpoch: 1538098245000
     mapsymbol: '2'
-    datecurrent: '2018-09-26T19:30Z'
+    datecurrent: '2018-09-27T20:00Z'
+    datecurrentEpoch: 1538078410000
     pooownerunit: WYMRF
     fireyear: 2018
     localincidentidentifier: 000598
@@ -10226,39 +10264,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 21631
+    FireCause: Unknown
+    PercentContained: 35
+    UniqueFireIdentifier: 2018-WYMRF-000598
+    FireDiscoveryDateTime: '2018-09-16T01:36Z'
+    Fire_Name: RYAN
+    ModifiedOnDateTime: '2018-09-28T01:30Z'
     Name: RYAN
     Source: GEOMAC
     Hashtag: '#RyanFire'
   Lon: -106.85141402675845
   Lat: 40.97902942015846
-  objectid: 63
+  objectid: 68
   latitude: 40.97783
   longitude: -106.7471
-  acres: 21085
-  DailyAcres: 21085
+  acres: 21631
   gacc: RMCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: CO
   status: U
   firecause: Unknown
-  FireCause: Unknown
-  reportdatetime: '2018-09-27T00:00Z'
+  reportdatetime: '2018-09-28T00:00Z'
+  reportdatetimeEpoch: 1538092800000
   percentcontained: 35
-  PercentContained: 35
   uniquefireidentifier: 2018-WYMRF-000598
-  UniqueFireIdentifier: 2018-WYMRF-000598
   firediscoverydatetime: '2018-09-16T01:36Z'
-  FireDiscoveryDateTime: '2018-09-16T01:36Z'
+  firediscoverydatetimeEpoch: 1537061760000
   complexparentirwinid: null
   pooresponsibleunit: WYMRF
   incidentname: RYAN
-  Fire_Name: RYAN
   iscomplex: 'false'
   irwinid: '{806D3E5D-9E17-49BC-A071-D50122176112}'
-  irwinmodifiedon: '2018-09-27T01:01Z'
-  ModifiedOnDateTime: '2018-09-27T01:01Z'
+  irwinmodifiedon: '2018-09-28T01:30Z'
+  irwinmodifiedonEpoch: 1538098245000
   mapsymbol: '2'
-  datecurrent: '2018-09-26T19:30Z'
+  datecurrent: '2018-09-27T20:00Z'
+  datecurrentEpoch: 1538078410000
   pooownerunit: WYMRF
   fireyear: 2018
   localincidentidentifier: 000598
@@ -10266,22 +10308,32 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 21631
+  FireCause: Unknown
+  PercentContained: 35
+  UniqueFireIdentifier: 2018-WYMRF-000598
+  FireDiscoveryDateTime: '2018-09-16T01:36Z'
+  Fire_Name: RYAN
+  ModifiedOnDateTime: '2018-09-28T01:30Z'
   Name: RYAN
   Source: NFSA
   Hashtag: '#RyanFire'
   id: 106883
   FireMgmtComplexity: Type 2 Incident
   IncidentManagementOrganization: Type 2 Team
-  ICS209ReportDateTime: '2018-09-27T00:00Z'
+  ICS209ReportDateTime: '2018-09-28T00:00Z'
+  ICS209ReportDateTimeEpoch: 1538092800000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 3000000
-  TotalIncidentPersonnel: 287
+  EstimatedCostToDate: 3400000
+  TotalIncidentPersonnel: 321
+  FireDiscoveryDateTimeEpoch: 1537061760000
   DispatchCenterID: COCRC
   LocalIncidentIdentifier: 000598
   POOCounty: Jackson
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538098244000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrType2
@@ -20822,8 +20874,8 @@
     LocalIncidentIdentifier: '001105'
     POOCounty: Wallowa
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-28T01:24Z'
-    ModifiedOnDateTimeEpoch: 1538097874000
+    ModifiedOnDateTime: '2018-09-28T01:33Z'
+    ModifiedOnDateTimeEpoch: 1538098432000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#HowardFire'
@@ -20854,8 +20906,8 @@
   LocalIncidentIdentifier: '001105'
   POOCounty: Wallowa
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-28T01:24Z'
-  ModifiedOnDateTimeEpoch: 1538097874000
+  ModifiedOnDateTime: '2018-09-28T01:33Z'
+  ModifiedOnDateTimeEpoch: 1538098432000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#HowardFire'
@@ -21529,5 +21581,72 @@
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BuckRoadFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-CALAC-293774:
+  Source_NFSA_Join:
+    Lon: -118.0584451684728
+    Lat: 34.542698116342024
+    Name: LAC-293774
+    popupinfo: null
+    id: 107572
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LAC-293774
+    UniqueFireIdentifier: 2018-CALAC-293774
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-27T18:39Z'
+    FireDiscoveryDateTimeEpoch: 1538073555000
+    DispatchCenterID: CALACC
+    LocalIncidentIdentifier: '293774'
+    POOCounty: Los Angeles
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2018-09-28T01:45Z'
+    ModifiedOnDateTimeEpoch: 1538099102000
+    ModifiedBySystem: lacocad
+    Source: NFSA
+    Hashtag: LAC-293774
+    NFSAType: Emerging WF < 24 hours
+  Lon: -118.0584451684728
+  Lat: 34.542698116342024
+  Name: LAC-293774
+  popupinfo: null
+  id: 107572
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LAC-293774
+  UniqueFireIdentifier: 2018-CALAC-293774
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-27T18:39Z'
+  FireDiscoveryDateTimeEpoch: 1538073555000
+  DispatchCenterID: CALACC
+  LocalIncidentIdentifier: '293774'
+  POOCounty: Los Angeles
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2018-09-28T01:45Z'
+  ModifiedOnDateTimeEpoch: 1538099102000
+  ModifiedBySystem: lacocad
+  Source: NFSA
+  Hashtag: LAC-293774
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
