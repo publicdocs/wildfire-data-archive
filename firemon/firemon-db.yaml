@@ -3502,6 +3502,8 @@
   PerimDateTime: '2018-09-09T20:56Z'
 2018-IDIPF-000455:
   Source_NFSA_Join:
+    Lon: -115.9666102315664
+    Lat: 47.84866554635264
     id: 101847
     Name: Rampike
     Fire_Name: Rampike
@@ -3510,55 +3512,56 @@
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2018-09-21T00:00Z'
+    ICS209ReportDateTime: '2018-09-28T16:30Z'
+    ICS209ReportDateTimeEpoch: 1538152200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 1010000
+    EstimatedCostToDate: 1030000
     FireCause: Natural
     TotalIncidentPersonnel: 15
     FireDiscoveryDateTime: '2018-07-31T19:13Z'
+    FireDiscoveryDateTimeEpoch: 1533064380000
     DispatchCenterID: IDCDC
     LocalIncidentIdentifier: '000455'
     POOCounty: Shoshone
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-21T00:20Z'
+    ModifiedOnDateTime: '2018-09-28T17:10Z'
+    ModifiedOnDateTimeEpoch: 1538154603000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#RampikeFire'
+    NFSAType: Large WF
   Source_GEOMAC:
     Lon: -115.96661381875018
     Lat: 47.848666315852014
-    objectid: 41
+    objectid: 59
     latitude: 47.84866
     longitude: -115.9666
     acres: 3100
-    DailyAcres: 3100
     gacc: NRCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: ID
     status: U
     firecause: Natural
-    FireCause: Natural
-    reportdatetime: '2018-09-21T00:00Z'
+    reportdatetime: '2018-09-28T16:30Z'
+    reportdatetimeEpoch: 1538152200000
     percentcontained: 0
-    PercentContained: 0
     uniquefireidentifier: 2018-IDIPF-000455
-    UniqueFireIdentifier: 2018-IDIPF-000455
     firediscoverydatetime: '2018-07-31T19:13Z'
-    FireDiscoveryDateTime: '2018-07-31T19:13Z'
+    firediscoverydatetimeEpoch: 1533064380000
     complexparentirwinid: null
     pooresponsibleunit: IDIPF
     incidentname: Rampike
-    Fire_Name: Rampike
     iscomplex: 'false'
     irwinid: '{86E5C09B-C32D-488F-8902-B7504EBB1A48}'
-    irwinmodifiedon: '2018-09-21T00:20Z'
-    ModifiedOnDateTime: '2018-09-21T00:20Z'
+    irwinmodifiedon: '2018-09-28T17:10Z'
+    irwinmodifiedonEpoch: 1538154603000
     mapsymbol: '1'
-    datecurrent: '2018-09-20T18:30Z'
+    datecurrent: '2018-09-28T11:30Z'
+    datecurrentEpoch: 1538134210000
     pooownerunit: IDIPF
     fireyear: 2018
     localincidentidentifier: '000455'
@@ -3566,39 +3569,43 @@
     owneragency: USFS
     perimexist: 'Y'
     complexname: null
+    DailyAcres: 3100
+    FireCause: Natural
+    PercentContained: 0
+    UniqueFireIdentifier: 2018-IDIPF-000455
+    FireDiscoveryDateTime: '2018-07-31T19:13Z'
+    Fire_Name: Rampike
+    ModifiedOnDateTime: '2018-09-28T17:10Z'
     Name: Rampike
     Source: GEOMAC
     Hashtag: '#RampikeFire'
-  Lat: 47.848666315852014
-  Lon: -115.96661381875018
-  objectid: 41
+  Lon: -115.9666102315664
+  Lat: 47.84866554635264
+  objectid: 59
   latitude: 47.84866
   longitude: -115.9666
   acres: 3100
-  DailyAcres: 3100
   gacc: NRCC
   hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
   state: ID
   status: U
   firecause: Natural
-  FireCause: Natural
-  reportdatetime: '2018-09-21T00:00Z'
+  reportdatetime: '2018-09-28T16:30Z'
+  reportdatetimeEpoch: 1538152200000
   percentcontained: 0
-  PercentContained: 0
   uniquefireidentifier: 2018-IDIPF-000455
-  UniqueFireIdentifier: 2018-IDIPF-000455
   firediscoverydatetime: '2018-07-31T19:13Z'
-  FireDiscoveryDateTime: '2018-07-31T19:13Z'
+  firediscoverydatetimeEpoch: 1533064380000
   complexparentirwinid: null
   pooresponsibleunit: IDIPF
   incidentname: Rampike
-  Fire_Name: Rampike
   iscomplex: 'false'
   irwinid: '{86E5C09B-C32D-488F-8902-B7504EBB1A48}'
-  irwinmodifiedon: '2018-09-21T00:20Z'
-  ModifiedOnDateTime: '2018-09-21T00:20Z'
+  irwinmodifiedon: '2018-09-28T17:10Z'
+  irwinmodifiedonEpoch: 1538154603000
   mapsymbol: '1'
-  datecurrent: '2018-09-20T18:30Z'
+  datecurrent: '2018-09-28T11:30Z'
+  datecurrentEpoch: 1538134210000
   pooownerunit: IDIPF
   fireyear: 2018
   localincidentidentifier: '000455'
@@ -3606,25 +3613,36 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 3100
+  FireCause: Natural
+  PercentContained: 0
+  UniqueFireIdentifier: 2018-IDIPF-000455
+  FireDiscoveryDateTime: '2018-07-31T19:13Z'
+  Fire_Name: Rampike
+  ModifiedOnDateTime: '2018-09-28T17:10Z'
   Name: Rampike
   Source: NFSA
   Hashtag: '#RampikeFire'
   id: 101847
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2018-09-21T00:00Z'
+  ICS209ReportDateTime: '2018-09-28T16:30Z'
+  ICS209ReportDateTimeEpoch: 1538152200000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 1010000
+  EstimatedCostToDate: 1030000
   TotalIncidentPersonnel: 15
+  FireDiscoveryDateTimeEpoch: 1533064380000
   DispatchCenterID: IDCDC
   LocalIncidentIdentifier: '000455'
   POOCounty: Shoshone
   POOLandownerKind: Federal
+  ModifiedOnDateTimeEpoch: 1538154603000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: null
 2018-WAOWF-000415:
   Source_NFSA_Join:
@@ -22218,5 +22236,273 @@
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#CarrotFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-MTLNF-005289:
+  Source_NFSA_Join:
+    Lon: -114.92471721558607
+    Lat: 47.19336821454979
+    Name: Thompson Creek
+    popupinfo: null
+    id: 107579
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Thompson Creek
+    UniqueFireIdentifier: 2018-MTLNF-005289
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-28T16:00Z'
+    FireDiscoveryDateTimeEpoch: 1538150400000
+    DispatchCenterID: MTPDC
+    LocalIncidentIdentifier: 005289
+    POOCounty: Mineral
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2018-09-28T17:09Z'
+    ModifiedOnDateTimeEpoch: 1538154555000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#ThompsonCreekFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -114.92471721558607
+  Lat: 47.19336821454979
+  Name: Thompson Creek
+  popupinfo: null
+  id: 107579
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Thompson Creek
+  UniqueFireIdentifier: 2018-MTLNF-005289
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Human
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-28T16:00Z'
+  FireDiscoveryDateTimeEpoch: 1538150400000
+  DispatchCenterID: MTPDC
+  LocalIncidentIdentifier: 005289
+  POOCounty: Mineral
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2018-09-28T17:09Z'
+  ModifiedOnDateTimeEpoch: 1538154555000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#ThompsonCreekFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-NMSNF-000750:
+  Source_NFSA_Join:
+    Lon: -105.82370540911435
+    Lat: 35.592515316629225
+    Name: Cougar Ridge
+    popupinfo: null
+    id: 107580
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Cougar Ridge
+    UniqueFireIdentifier: 2018-NMSNF-000750
+    DailyAcres: 0.3
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-28T00:33Z'
+    FireDiscoveryDateTimeEpoch: 1538094825000
+    DispatchCenterID: NMSFC
+    LocalIncidentIdentifier: '000750'
+    POOCounty: Santa Fe
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-28T17:19Z'
+    ModifiedOnDateTimeEpoch: 1538155156000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#CougarRidgeFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -105.82370540911435
+  Lat: 35.592515316629225
+  Name: Cougar Ridge
+  popupinfo: null
+  id: 107580
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Cougar Ridge
+  UniqueFireIdentifier: 2018-NMSNF-000750
+  DailyAcres: 0.3
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Natural
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-28T00:33Z'
+  FireDiscoveryDateTimeEpoch: 1538094825000
+  DispatchCenterID: NMSFC
+  LocalIncidentIdentifier: '000750'
+  POOCounty: Santa Fe
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-28T17:19Z'
+  ModifiedOnDateTimeEpoch: 1538155156000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#CougarRidgeFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-WYCAX-018627:
+  Source_NFSA_Join:
+    Lon: -106.09521222058665
+    Lat: 41.86528431502235
+    Name: ROBBERS ROOST
+    popupinfo: null
+    id: 107581
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: ROBBERS ROOST
+    UniqueFireIdentifier: 2018-WYCAX-018627
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-28T15:31Z'
+    FireDiscoveryDateTimeEpoch: 1538148660000
+    DispatchCenterID: WYCPC
+    LocalIncidentIdentifier: 018627
+    POOCounty: Carbon
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2018-09-28T17:21Z'
+    ModifiedOnDateTimeEpoch: 1538155278000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#RobbersRoostFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -106.09521222058665
+  Lat: 41.86528431502235
+  Name: ROBBERS ROOST
+  popupinfo: null
+  id: 107581
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: ROBBERS ROOST
+  UniqueFireIdentifier: 2018-WYCAX-018627
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Human
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-28T15:31Z'
+  FireDiscoveryDateTimeEpoch: 1538148660000
+  DispatchCenterID: WYCPC
+  LocalIncidentIdentifier: 018627
+  POOCounty: Carbon
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2018-09-28T17:21Z'
+  ModifiedOnDateTimeEpoch: 1538155278000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#RobbersRoostFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-CABDF-013975:
+  Source_NFSA_Join:
+    Lon: -116.9737114965928
+    Lat: 34.20817342163848
+    Name: LOOKOUT/MC/PT16
+    popupinfo: null
+    id: 107582
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LOOKOUT/MC/PT16
+    UniqueFireIdentifier: 2018-CABDF-013975
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-28T15:38Z'
+    FireDiscoveryDateTimeEpoch: 1538149080000
+    DispatchCenterID: CASBCC
+    LocalIncidentIdentifier: 013975
+    POOCounty: San Bernardino
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-28T17:24Z'
+    ModifiedOnDateTimeEpoch: 1538155461000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#LookoutMcPt16Fire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -116.9737114965928
+  Lat: 34.20817342163848
+  Name: LOOKOUT/MC/PT16
+  popupinfo: null
+  id: 107582
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LOOKOUT/MC/PT16
+  UniqueFireIdentifier: 2018-CABDF-013975
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Human
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-28T15:38Z'
+  FireDiscoveryDateTimeEpoch: 1538149080000
+  DispatchCenterID: CASBCC
+  LocalIncidentIdentifier: 013975
+  POOCounty: San Bernardino
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-28T17:24Z'
+  ModifiedOnDateTimeEpoch: 1538155461000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#LookoutMcPt16Fire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
