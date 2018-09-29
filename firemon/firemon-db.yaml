@@ -17966,15 +17966,15 @@
     EstimatedCostToDate: 265522
     FireCause: Unknown
     TotalIncidentPersonnel: 88
-    FireDiscoveryDateTime: '2018-09-27T20:57Z'
-    FireDiscoveryDateTimeEpoch: 1538081820000
+    FireDiscoveryDateTime: '2018-09-28T20:57Z'
+    FireDiscoveryDateTimeEpoch: 1538168220000
     DispatchCenterID: WACOA
     LocalIncidentIdentifier: '180169'
     POOCounty: Okanogan
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-29T03:03Z'
-    ModifiedOnDateTimeEpoch: 1538190218000
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2018-09-29T16:46Z'
+    ModifiedOnDateTimeEpoch: 1538239598000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
@@ -17998,15 +17998,15 @@
   EstimatedCostToDate: 265522
   FireCause: Unknown
   TotalIncidentPersonnel: 88
-  FireDiscoveryDateTime: '2018-09-27T20:57Z'
-  FireDiscoveryDateTimeEpoch: 1538081820000
+  FireDiscoveryDateTime: '2018-09-28T20:57Z'
+  FireDiscoveryDateTimeEpoch: 1538168220000
   DispatchCenterID: WACOA
   LocalIncidentIdentifier: '180169'
   POOCounty: Okanogan
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-29T03:03Z'
-  ModifiedOnDateTimeEpoch: 1538190218000
-  ModifiedBySystem: ics209
+  ModifiedOnDateTime: '2018-09-29T16:46Z'
+  ModifiedOnDateTimeEpoch: 1538239598000
+  ModifiedBySystem: wildcad
   popupinfo: null
   calc_symboltype: NonImsr
   Source: NFSA
@@ -23475,7 +23475,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Human
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-09-28T19:28Z'
     FireDiscoveryDateTimeEpoch: 1538162880000
@@ -23483,8 +23483,8 @@
     LocalIncidentIdentifier: 000759
     POOCounty: Bonner
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-29T01:01Z'
-    ModifiedOnDateTimeEpoch: 1538182880000
+    ModifiedOnDateTime: '2018-09-29T16:43Z'
+    ModifiedOnDateTimeEpoch: 1538239383000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#TanglewoodFire'
@@ -23507,7 +23507,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Human
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-09-28T19:28Z'
   FireDiscoveryDateTimeEpoch: 1538162880000
@@ -23515,8 +23515,8 @@
   LocalIncidentIdentifier: 000759
   POOCounty: Bonner
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-29T01:01Z'
-  ModifiedOnDateTimeEpoch: 1538182880000
+  ModifiedOnDateTime: '2018-09-29T16:43Z'
+  ModifiedOnDateTimeEpoch: 1538239383000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#TanglewoodFire'
@@ -24809,13 +24809,11 @@
   Source_NFSA_Join:
     Lon: -116.5975150219092
     Lat: 44.19810664020392
-    Name: PADDOCK
-    popupinfo: null
     id: 107629
-    calc_symboltype: NewIrwinOnly
+    Name: PADDOCK
     Fire_Name: PADDOCK
     UniqueFireIdentifier: 2018-IDBOD-001127
-    DailyAcres: 200
+    DailyAcres: 950
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -24833,21 +24831,21 @@
     LocalIncidentIdentifier: '001127'
     POOCounty: Washington
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-29T09:14Z'
-    ModifiedOnDateTimeEpoch: 1538212477000
+    ModifiedOnDateTime: '2018-09-29T16:54Z'
+    ModifiedOnDateTimeEpoch: 1538240060000
     ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#PaddockFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
   Lon: -116.5975150219092
   Lat: 44.19810664020392
-  Name: PADDOCK
-  popupinfo: null
   id: 107629
-  calc_symboltype: NewIrwinOnly
+  Name: PADDOCK
   Fire_Name: PADDOCK
   UniqueFireIdentifier: 2018-IDBOD-001127
-  DailyAcres: 200
+  DailyAcres: 950
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -24865,12 +24863,14 @@
   LocalIncidentIdentifier: '001127'
   POOCounty: Washington
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-29T09:14Z'
-  ModifiedOnDateTimeEpoch: 1538212477000
+  ModifiedOnDateTime: '2018-09-29T16:54Z'
+  ModifiedOnDateTimeEpoch: 1538240060000
   ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
   Source: NFSA
   Hashtag: '#PaddockFire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
 2018-WYBTF-001823:
   Source_NFSA_Join:
@@ -25148,5 +25148,139 @@
   ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#LittlePatchFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-AZASF-001349:
+  Source_NFSA_Join:
+    Lon: -110.88501134920624
+    Lat: 34.30844327967629
+    Name: Sink Hole
+    popupinfo: null
+    id: 107632
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Sink Hole
+    UniqueFireIdentifier: 2018-AZASF-001349
+    DailyAcres: 0.2
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-29T15:45Z'
+    FireDiscoveryDateTimeEpoch: 1538235900000
+    DispatchCenterID: AZSDC
+    LocalIncidentIdentifier: 001349
+    POOCounty: Coconino
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-09-29T16:56Z'
+    ModifiedOnDateTimeEpoch: 1538240171000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#SinkHoleFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -110.88501134920624
+  Lat: 34.30844327967629
+  Name: Sink Hole
+  popupinfo: null
+  id: 107632
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Sink Hole
+  UniqueFireIdentifier: 2018-AZASF-001349
+  DailyAcres: 0.2
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Human
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-29T15:45Z'
+  FireDiscoveryDateTimeEpoch: 1538235900000
+  DispatchCenterID: AZSDC
+  LocalIncidentIdentifier: 001349
+  POOCounty: Coconino
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-09-29T16:56Z'
+  ModifiedOnDateTimeEpoch: 1538240171000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#SinkHoleFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-UTRFC-180591:
+  Source_NFSA_Join:
+    Lon: -112.57290983545546
+    Lat: 38.748155895760426
+    Name: FA 180591 I-15 Baker Cyn
+    popupinfo: null
+    id: 107633
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: FA 180591 I-15 Baker Cyn
+    UniqueFireIdentifier: 2018-UTRFC-180591
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: FA
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-09-29T01:52Z'
+    FireDiscoveryDateTimeEpoch: 1538185920000
+    DispatchCenterID: UTRFC
+    LocalIncidentIdentifier: '180591'
+    POOCounty: Millard
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2018-09-29T16:57Z'
+    ModifiedOnDateTimeEpoch: 1538240248000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#Fa180591I15BakerCynFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -112.57290983545546
+  Lat: 38.748155895760426
+  Name: FA 180591 I-15 Baker Cyn
+  popupinfo: null
+  id: 107633
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: FA 180591 I-15 Baker Cyn
+  UniqueFireIdentifier: 2018-UTRFC-180591
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: FA
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-09-29T01:52Z'
+  FireDiscoveryDateTimeEpoch: 1538185920000
+  DispatchCenterID: UTRFC
+  LocalIncidentIdentifier: '180591'
+  POOCounty: Millard
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2018-09-29T16:57Z'
+  ModifiedOnDateTimeEpoch: 1538240248000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#Fa180591I15BakerCynFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
