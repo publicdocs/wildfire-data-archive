@@ -6129,8 +6129,8 @@
     PercentContained: 99
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2018-09-30T01:00Z'
-    ICS209ReportDateTimeEpoch: 1538269200000
+    ICS209ReportDateTime: '2018-10-01T01:30Z'
+    ICS209ReportDateTimeEpoch: 1538357400000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -6143,8 +6143,8 @@
     LocalIncidentIdentifier: 010299
     POOCounty: Elko
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-30T01:02Z'
-    ModifiedOnDateTimeEpoch: 1538269365000
+    ModifiedOnDateTime: '2018-10-01T01:56Z'
+    ModifiedOnDateTimeEpoch: 1538359018000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
@@ -6154,7 +6154,7 @@
   Source_GEOMAC:
     Lon: -116.3239127423559
     Lat: 41.811755782598134
-    objectid: 16
+    objectid: 25
     latitude: 41.81175
     longitude: -116.3239
     acres: 233458.32
@@ -6163,8 +6163,8 @@
     state: NV
     status: U
     firecause: Natural
-    reportdatetime: '2018-09-28T22:15Z'
-    reportdatetimeEpoch: 1538172900000
+    reportdatetime: '2018-10-01T01:30Z'
+    reportdatetimeEpoch: 1538357400000
     percentcontained: 99
     uniquefireidentifier: 2018-NVECFX-010299
     firediscoverydatetime: '2018-08-17T22:47Z'
@@ -6174,11 +6174,11 @@
     incidentname: South Sugarloaf
     iscomplex: 'false'
     irwinid: '{A86E6F46-C43E-49AA-90E2-64C52F31739B}'
-    irwinmodifiedon: '2018-09-28T22:21Z'
-    irwinmodifiedonEpoch: 1538173317000
+    irwinmodifiedon: '2018-10-01T01:56Z'
+    irwinmodifiedonEpoch: 1538359019000
     mapsymbol: '5'
-    datecurrent: '2018-09-29T19:00Z'
-    datecurrentEpoch: 1538247611000
+    datecurrent: '2018-09-30T20:00Z'
+    datecurrentEpoch: 1538337610000
     pooownerunit: NVECFX
     fireyear: 2018
     localincidentidentifier: 010299
@@ -6192,13 +6192,13 @@
     UniqueFireIdentifier: 2018-NVECFX-010299
     FireDiscoveryDateTime: '2018-08-17T22:47Z'
     Fire_Name: South Sugarloaf
-    ModifiedOnDateTime: '2018-09-28T22:21Z'
+    ModifiedOnDateTime: '2018-10-01T01:56Z'
     Name: South Sugarloaf
     Source: GEOMAC
     Hashtag: '#SouthSugarloafFire'
   Lon: -116.32391513582493
   Lat: 41.81175612256562
-  objectid: 16
+  objectid: 25
   latitude: 41.81175
   longitude: -116.3239
   acres: 233458.32
@@ -6207,8 +6207,8 @@
   state: NV
   status: U
   firecause: Natural
-  reportdatetime: '2018-09-28T22:15Z'
-  reportdatetimeEpoch: 1538172900000
+  reportdatetime: '2018-10-01T01:30Z'
+  reportdatetimeEpoch: 1538357400000
   percentcontained: 99
   uniquefireidentifier: 2018-NVECFX-010299
   firediscoverydatetime: '2018-08-17T22:47Z'
@@ -6218,11 +6218,11 @@
   incidentname: South Sugarloaf
   iscomplex: 'false'
   irwinid: '{A86E6F46-C43E-49AA-90E2-64C52F31739B}'
-  irwinmodifiedon: '2018-09-28T22:21Z'
-  irwinmodifiedonEpoch: 1538173317000
+  irwinmodifiedon: '2018-10-01T01:56Z'
+  irwinmodifiedonEpoch: 1538359019000
   mapsymbol: '5'
-  datecurrent: '2018-09-29T19:00Z'
-  datecurrentEpoch: 1538247611000
+  datecurrent: '2018-09-30T20:00Z'
+  datecurrentEpoch: 1538337610000
   pooownerunit: NVECFX
   fireyear: 2018
   localincidentidentifier: 010299
@@ -6236,15 +6236,15 @@
   UniqueFireIdentifier: 2018-NVECFX-010299
   FireDiscoveryDateTime: '2018-08-17T22:47Z'
   Fire_Name: South Sugarloaf
-  ModifiedOnDateTime: '2018-09-30T01:02Z'
+  ModifiedOnDateTime: '2018-10-01T01:56Z'
   Name: South Sugarloaf
   Source: NFSA
   Hashtag: '#SouthSugarloafFire'
   id: 104194
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2018-09-30T01:00Z'
-  ICS209ReportDateTimeEpoch: 1538269200000
+  ICS209ReportDateTime: '2018-10-01T01:30Z'
+  ICS209ReportDateTimeEpoch: 1538357400000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -6255,7 +6255,7 @@
   LocalIncidentIdentifier: 010299
   POOCounty: Elko
   POOLandownerKind: null
-  ModifiedOnDateTimeEpoch: 1538269365000
+  ModifiedOnDateTimeEpoch: 1538359018000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
@@ -29070,68 +29070,145 @@
   Source_NFSA_Join:
     Lon: -115.51021216831663
     Lat: 40.67385689182945
-    Name: Range Two
-    popupinfo: null
     id: 107689
-    calc_symboltype: NewIrwinOnly
+    Name: Range Two
     Fire_Name: Range Two
     UniqueFireIdentifier: 2018-NVECFX-010400
-    DailyAcres: 2
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 5000
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2018-10-01T01:45Z'
+    ICS209ReportDateTimeEpoch: 1538358300000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 250000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 184
     FireDiscoveryDateTime: '2018-09-30T15:40Z'
     FireDiscoveryDateTimeEpoch: 1538322000000
     DispatchCenterID: NVEIC
     LocalIncidentIdentifier: '010400'
     POOCounty: Elko
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-09-30T23:21Z'
-    ModifiedOnDateTimeEpoch: 1538349713000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2018-10-01T01:48Z'
+    ModifiedOnDateTimeEpoch: 1538358494000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#RangeTwoFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
+  Source_GEOMAC:
+    Lon: -115.5102124269188
+    Lat: 40.67385574078774
+    objectid: 46
+    latitude: 40.67385
+    longitude: -115.5102
+    acres: 5000
+    gacc: GBCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NV
+    status: I
+    firecause: Unknown
+    reportdatetime: '2018-10-01T01:45Z'
+    reportdatetimeEpoch: 1538358300000
+    percentcontained: 0
+    uniquefireidentifier: 2018-NVECFX-010400
+    firediscoverydatetime: '2018-09-30T15:40Z'
+    firediscoverydatetimeEpoch: 1538322000000
+    complexparentirwinid: null
+    pooresponsibleunit: NVECFX
+    incidentname: Range Two
+    iscomplex: 'false'
+    irwinid: '{D4442381-8688-4108-B509-0636BC2ACBFF}'
+    irwinmodifiedon: '2018-10-01T01:48Z'
+    irwinmodifiedonEpoch: 1538358495000
+    mapsymbol: '1'
+    datecurrent: '2018-09-30T20:00Z'
+    datecurrentEpoch: 1538337610000
+    pooownerunit: NVEKD
+    fireyear: 2018
+    localincidentidentifier: '010400'
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 5000
+    FireCause: Unknown
+    PercentContained: 0
+    UniqueFireIdentifier: 2018-NVECFX-010400
+    FireDiscoveryDateTime: '2018-09-30T15:40Z'
+    Fire_Name: Range Two
+    ModifiedOnDateTime: '2018-10-01T01:48Z'
+    Name: Range Two
+    Source: GEOMAC
+    Hashtag: '#RangeTwoFire'
   Lon: -115.51021216831663
   Lat: 40.67385689182945
-  Name: Range Two
-  popupinfo: null
-  id: 107689
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Range Two
+  objectid: 46
+  latitude: 40.67385
+  longitude: -115.5102
+  acres: 5000
+  gacc: GBCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: NV
+  status: I
+  firecause: Unknown
+  reportdatetime: '2018-10-01T01:45Z'
+  reportdatetimeEpoch: 1538358300000
+  percentcontained: 0
+  uniquefireidentifier: 2018-NVECFX-010400
+  firediscoverydatetime: '2018-09-30T15:40Z'
+  firediscoverydatetimeEpoch: 1538322000000
+  complexparentirwinid: null
+  pooresponsibleunit: NVECFX
+  incidentname: Range Two
+  iscomplex: 'false'
+  irwinid: '{D4442381-8688-4108-B509-0636BC2ACBFF}'
+  irwinmodifiedon: '2018-10-01T01:48Z'
+  irwinmodifiedonEpoch: 1538358495000
+  mapsymbol: '1'
+  datecurrent: '2018-09-30T20:00Z'
+  datecurrentEpoch: 1538337610000
+  pooownerunit: NVEKD
+  fireyear: 2018
+  localincidentidentifier: '010400'
+  incidenttypecategory: WF
+  owneragency: ''
+  perimexist: 'N'
+  complexname: null
+  DailyAcres: 5000
+  FireCause: Unknown
+  PercentContained: 0
   UniqueFireIdentifier: 2018-NVECFX-010400
-  DailyAcres: 2
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
+  FireDiscoveryDateTime: '2018-09-30T15:40Z'
+  Fire_Name: Range Two
+  ModifiedOnDateTime: '2018-10-01T01:48Z'
+  Name: Range Two
+  Source: NFSA
+  Hashtag: '#RangeTwoFire'
+  id: 107689
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2018-10-01T01:45Z'
+  ICS209ReportDateTimeEpoch: 1538358300000
+  ICS209ReportStatus: I
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2018-09-30T15:40Z'
+  EstimatedCostToDate: 250000
+  TotalIncidentPersonnel: 184
   FireDiscoveryDateTimeEpoch: 1538322000000
   DispatchCenterID: NVEIC
   LocalIncidentIdentifier: '010400'
   POOCounty: Elko
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-09-30T23:21Z'
-  ModifiedOnDateTimeEpoch: 1538349713000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  Hashtag: '#RangeTwoFire'
-  NFSAType: Emerging WF < 24 hours
+  ModifiedOnDateTimeEpoch: 1538358494000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: null
 2018-UTNWS-001078:
   Source_NFSA_Join:
@@ -29429,8 +29506,8 @@
     LocalIncidentIdentifier: '000763'
     POOCounty: Shoshone
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-10-01T00:44Z'
-    ModifiedOnDateTimeEpoch: 1538354661000
+    ModifiedOnDateTime: '2018-10-01T01:53Z'
+    ModifiedOnDateTimeEpoch: 1538358817000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#JackFire'
@@ -29461,8 +29538,8 @@
   LocalIncidentIdentifier: '000763'
   POOCounty: Shoshone
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-10-01T00:44Z'
-  ModifiedOnDateTimeEpoch: 1538354661000
+  ModifiedOnDateTime: '2018-10-01T01:53Z'
+  ModifiedOnDateTimeEpoch: 1538358817000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#JackFire'
@@ -30635,8 +30712,8 @@
     LocalIncidentIdentifier: '000662'
     POOCounty: Kittitas
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-10-01T01:23Z'
-    ModifiedOnDateTimeEpoch: 1538356983000
+    ModifiedOnDateTime: '2018-10-01T01:43Z'
+    ModifiedOnDateTimeEpoch: 1538358207000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#SlabFire'
@@ -30667,8 +30744,8 @@
   LocalIncidentIdentifier: '000662'
   POOCounty: Kittitas
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-10-01T01:23Z'
-  ModifiedOnDateTimeEpoch: 1538356983000
+  ModifiedOnDateTime: '2018-10-01T01:43Z'
+  ModifiedOnDateTimeEpoch: 1538358207000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#SlabFire'
