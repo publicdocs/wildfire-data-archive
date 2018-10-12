@@ -12371,6 +12371,8 @@
   PerimDateTime: null
 2018-WAMRP-000247:
   Source_NFSA_Join:
+    Lon: -121.66741783927014
+    Lat: 46.796643165954656
     id: 103335
     Name: Cowlitz
     Fire_Name: Cowlitz
@@ -12379,7 +12381,8 @@
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2018-09-22T16:00Z'
+    ICS209ReportDateTime: '2018-10-12T16:00Z'
+    ICS209ReportDateTimeEpoch: 1539360000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -12387,16 +12390,21 @@
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2018-08-11T23:10Z'
+    FireDiscoveryDateTimeEpoch: 1534029000000
     DispatchCenterID: WAPSC
     LocalIncidentIdentifier: '000247'
     POOCounty: Pierce
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2018-09-22T18:30Z'
+    ModifiedOnDateTime: '2018-10-12T18:16Z'
+    ModifiedOnDateTimeEpoch: 1539368166000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     Hashtag: '#CowlitzFire'
+    NFSAType: Large WF
+  Lon: -121.66741783927014
+  Lat: 46.796643165954656
   id: 103335
   Name: Cowlitz
   Fire_Name: Cowlitz
@@ -12405,7 +12413,8 @@
   PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: Type 5 IC
-  ICS209ReportDateTime: '2018-09-22T16:00Z'
+  ICS209ReportDateTime: '2018-10-12T16:00Z'
+  ICS209ReportDateTimeEpoch: 1539360000000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -12413,16 +12422,19 @@
   FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2018-08-11T23:10Z'
+  FireDiscoveryDateTimeEpoch: 1534029000000
   DispatchCenterID: WAPSC
   LocalIncidentIdentifier: '000247'
   POOCounty: Pierce
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2018-09-22T18:30Z'
+  ModifiedOnDateTime: '2018-10-12T18:16Z'
+  ModifiedOnDateTimeEpoch: 1539368166000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: NonImsr
   Source: NFSA
   Hashtag: '#CowlitzFire'
+  NFSAType: Large WF
   PerimDateTime: null
 2018-ID2BN-000293:
   Source_NFSA_Join:
@@ -46959,9 +46971,9 @@
     LocalIncidentIdentifier: '020372'
     POOCounty: Humboldt
     POOLandownerKind: null
-    ModifiedOnDateTime: '2018-10-11T22:29Z'
-    ModifiedOnDateTimeEpoch: 1539296958000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2018-10-12T18:16Z'
+    ModifiedOnDateTimeEpoch: 1539368202000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BraytonFire'
     NFSAType: Emerging WF < 24 hours
@@ -46991,9 +47003,9 @@
   LocalIncidentIdentifier: '020372'
   POOCounty: Humboldt
   POOLandownerKind: null
-  ModifiedOnDateTime: '2018-10-11T22:29Z'
-  ModifiedOnDateTimeEpoch: 1539296958000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2018-10-12T18:16Z'
+  ModifiedOnDateTimeEpoch: 1539368202000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BraytonFire'
   NFSAType: Emerging WF < 24 hours
@@ -47733,5 +47745,139 @@
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#AshFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-COGMF-000360:
+  Source_NFSA_Join:
+    Lon: -107.52330894351564
+    Lat: 38.704509180223035
+    Name: South Saddle
+    popupinfo: null
+    id: 108138
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: South Saddle
+    UniqueFireIdentifier: 2018-COGMF-000360
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-10-11T22:41Z'
+    FireDiscoveryDateTimeEpoch: 1539297660000
+    DispatchCenterID: COMTC
+    LocalIncidentIdentifier: '000360'
+    POOCounty: Delta
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2018-10-12T18:03Z'
+    ModifiedOnDateTimeEpoch: 1539367409000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#SouthSaddleFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -107.52330894351564
+  Lat: 38.704509180223035
+  Name: South Saddle
+  popupinfo: null
+  id: 108138
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: South Saddle
+  UniqueFireIdentifier: 2018-COGMF-000360
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-10-11T22:41Z'
+  FireDiscoveryDateTimeEpoch: 1539297660000
+  DispatchCenterID: COMTC
+  LocalIncidentIdentifier: '000360'
+  POOCounty: Delta
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2018-10-12T18:03Z'
+  ModifiedOnDateTimeEpoch: 1539367409000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#SouthSaddleFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+2018-CALAC-309199:
+  Source_NFSA_Join:
+    Lon: -118.25484383903985
+    Lat: 34.721077520469066
+    Name: LAC-309199
+    popupinfo: null
+    id: 108140
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LAC-309199
+    UniqueFireIdentifier: 2018-CALAC-309199
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2018-10-12T11:13Z'
+    FireDiscoveryDateTimeEpoch: 1539342792000
+    DispatchCenterID: CALACC
+    LocalIncidentIdentifier: '309199'
+    POOCounty: Los Angeles
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2018-10-12T18:20Z'
+    ModifiedOnDateTimeEpoch: 1539368403000
+    ModifiedBySystem: lacocad
+    Source: NFSA
+    Hashtag: LAC-309199
+    NFSAType: Emerging WF < 24 hours
+  Lon: -118.25484383903985
+  Lat: 34.721077520469066
+  Name: LAC-309199
+  popupinfo: null
+  id: 108140
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LAC-309199
+  UniqueFireIdentifier: 2018-CALAC-309199
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2018-10-12T11:13Z'
+  FireDiscoveryDateTimeEpoch: 1539342792000
+  DispatchCenterID: CALACC
+  LocalIncidentIdentifier: '309199'
+  POOCounty: Los Angeles
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2018-10-12T18:20Z'
+  ModifiedOnDateTimeEpoch: 1539368403000
+  ModifiedBySystem: lacocad
+  Source: NFSA
+  Hashtag: LAC-309199
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
