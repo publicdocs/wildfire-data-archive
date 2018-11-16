@@ -1,60 +1,106 @@
-# See the LICENSE file in the root of the repository.
+# See the LICENSE file in the root of the repository (the "License").
 # Best guesses of social media accounts for various fire units - no guarantee these are correct.
 
+# Contributor rules:
+# - You hereby license all contributions to this file and all associated commits, pull requests, and
+#     comments (and the metadata for all of those items) under the License, and you represent and
+#     warrant that you have all neccessary rights to do so.
+# - Do not create duplicate entries. Search for your unit, add if it doesn't exist, or modify the
+#     entry if it does exist.
+# - For each item you add or change,
+#     (1) the social media account must be officially verified (ex. Twitter blue check), or
+#     (2) you must provide URL(s) of the agency's government website stating
+#         that the social media account is their's.
+
 _DEFINITIONS:
-  twitter: Best guess for official twitter (for the fire unit)
+  twitter: Best guess for official twitter (if unspecified, all fields are for the fire unit)
   twitter2: Best guess for secondary official twitter (incl. parent agencies like a city if the fire unit has no separate account)
   leo_twitter: Best guess for corresponding law enforcement agency twitter
+  url: Best guess for govt url (use HTTPS urls, if they are valid)
+  leo_url: Best guess for govt url of corresponding law enforcement agency
 
 CACNF:
   twitter: ClevelandNF
+  url: https://www.fs.usda.gov/cleveland
 CABTU:
   twitter: CALFIRE_ButteCo
+  url: http://www.buttecounty.net/fire
+  leo_twitter: ButteSheriff
+  leo_url: http://www.buttecounty.net/sheriffcoroner
 CAVNC:
   twitter: VCFD
   twitter2: VCFD_PIO
+  url: http://www.vcfd.org/
   leo_twitter: VENTURASHERIFF
+  leo_url: http://www.vcsd.org/
 CALSN:
   twitter2: CtyLakeElsinore
+  url: http://www.lake-elsinore.org/city-hall/public-safety/fire
 CAORC:
   twitter: OCFA_PIO
+  url: https://www.ocfa.org/
   leo_twitter: OCSheriff
+  leo_url: https://www.ocsd.org/
 CACNT:
   twitter: SCCFireDept
+  url: http://www.sccfd.org/
+  leo_twitter: SCCoSheriff
+  leo_url: https://www.sccgov.org/sites/sheriff/
 CALAC:
   twitter: LACoFDPIO
   twitter2: LACoFD
+  url: https://www.fire.lacounty.gov/
   leo_twitter: LASDHQ
+  leo_url: http://www.lasd.org/
 CALFD:
   twitter: LAFD
   twitter2: LAFDtalk
+  url: https://www.lafd.org/
   leo_twitter: LAPDHQ
+  leo_url: http://www.lapdonline.org/
 CASHF:
   twitter: ShastaTrinityNF
+  url: https://www.fs.usda.gov/stnf
 CASHU:
   twitter: CALFIRESHU
+  url: http://shastacountyfire.org/
+  leo_twitter: shastasheriff
+  leo_url: https://www.co.shasta.ca.us/index/sheriff_index.aspx
 CAANA:
   twitter: AnaheimFire
+  url: https://www.anaheim.net/613/Fire-Rescue
   leo_twitter: AnaheimPD
+  leo_url: https://www.anaheim.net/171/Police-Department
 CASQF:
   twitter: SequoiaForest
+  url: https://www.fs.usda.gov/sequoia/
 CABDC:
   twitter: SBCountyFire
+  url: https://www.sbcfire.org/
   leo_twitter: SBCountySheriff
+  leo_url: https://www.sbsheriff.org/
 IDBOD:
   twitter: BLMIdaho
   twitter2: BLMIdahoFire
+  url: https://www.blm.gov/idaho
 IDSCF:
   twitter: SalmonChallisNF
-AZA1S:
-  twitter: AZStateForestry
-AZA2S:
-  twitter: AZStateForestry
-AZA3S:
-  twitter: AZStateForestry
-AZA4S:
-  twitter: AZStateForestry
-AZA5S:
-  twitter: AZStateForestry
+  url: https://www.fs.usda.gov/scnf
 AZAZS:
   twitter: AZStateForestry
+  url: https://dffm.az.gov/
+AZA1S:
+  twitter: AZStateForestry
+  url: https://dffm.az.gov/
+AZA2S:
+  twitter: AZStateForestry
+  url: https://dffm.az.gov/
+AZA3S:
+  twitter: AZStateForestry
+  url: https://dffm.az.gov/
+AZA4S:
+  twitter: AZStateForestry
+  url: https://dffm.az.gov/
+AZA5S:
+  twitter: AZStateForestry
+  url: https://dffm.az.gov/
