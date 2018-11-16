@@ -31,6 +31,15 @@ _DEFINITIONS:
   url: Best guess for govt url (use HTTPS urls, if they are valid)
   leo_url: Best guess for govt url of corresponding law enforcement agency
 
+# The key used is the middle segment in fire identifiers.
+# For example the Woolsey Fire is 2018-CAVNC-091023, and CAVNC for Ventura County FD is the key used below.
+
+CAVNC:
+  twitter: VCFD
+  twitter2: VCFD_PIO
+  url: http://www.vcfd.org/
+  leo_twitter: VENTURASHERIFF
+  leo_url: http://www.vcsd.org/
 CACNF:
   twitter: ClevelandNF
   url: https://www.fs.usda.gov/cleveland
@@ -39,12 +48,6 @@ CABTU:
   url: http://www.buttecounty.net/fire
   leo_twitter: ButteSheriff
   leo_url: http://www.buttecounty.net/sheriffcoroner
-CAVNC:
-  twitter: VCFD
-  twitter2: VCFD_PIO
-  url: http://www.vcfd.org/
-  leo_twitter: VENTURASHERIFF
-  leo_url: http://www.vcsd.org/
 CALSN:
   twitter2: CtyLakeElsinore
   url: http://www.lake-elsinore.org/city-hall/public-safety/fire
