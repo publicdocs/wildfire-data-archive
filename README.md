@@ -4,7 +4,7 @@ Archives of data from wildfire sites
 
 ## Notice
 
-See the [LICENSE](LICENSE) and [NOTICE](NOTICE) files.
+See the [LICENSE](LICENSE), [INBOUND-LICENSE](INBOUND-LICENSE) and [NOTICE](NOTICE) files.
 
 ````
 https://github.com/publicdocs/wildfire-data-archive/
@@ -40,5 +40,8 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+NOTE: Contributions you make to this project are under the INBOUND-LICENSE
+(CC0 1.0 Universal), which supersedes Section 5 of the License.
 
 ````
