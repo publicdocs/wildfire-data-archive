@@ -1,6 +1,6 @@
 **NOTE: 
 By submitting this pull request, you release all content you contribute to this
-repository (including but not limited to this issue and all bugs, commits,
+repository (including but not limited to this pull request and all bugs, commits,
 pull requests, feature requests, and suggestions) under the repository's
 [INBOUND-LICENSE (CC0 1.0 Universal)](https://github.com/publicdocs/wildfire-data-archive/blob/master/INBOUND-LICENSE).
 You also represent and warrant that you have all necessary rights to do so,

@@ -22,7 +22,8 @@ USE AT YOUR OWN RISK.  FIRES MAY BE CLOSER THAN THEY APPEAR.
 See the disclaimers of warranties and limitations of liability below.
 
 Most of the data generated here is from various government sources,
-as modified by the FireMon software (https://github.com/publicdocs-platform/firemon),
+as modified by the Fire Monitor Bot software
+(https://github.com/publicdocs-platform/fire-monitor-bot),
 and automatically pushed to this repository.
 
 =====
