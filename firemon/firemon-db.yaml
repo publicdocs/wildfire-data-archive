@@ -3334,68 +3334,68 @@
   Source_NFSA_Join:
     Lon: -82.25528103613355
     Lat: 31.0552847208349
-    Name: COMPARTMENT 1 FIRE
-    popupinfo: null
     id: 116718
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: COMPARTMENT 1 FIRE
+    Name: COMPARTMENT 1
+    Fire_Name: COMPARTMENT 1
     UniqueFireIdentifier: 2019-GAOKR-019003
-    DailyAcres: null
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 185
+    PercentContained: 90
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-05-22T14:45Z'
+    ICS209ReportDateTimeEpoch: 1558536300000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: null
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-05-19T17:00Z'
-    FireDiscoveryDateTimeEpoch: 1558285200000
+    EstimatedCostToDate: 200000
+    FireCause: Natural
+    TotalIncidentPersonnel: 17
+    FireDiscoveryDateTime: '2019-05-19T16:00Z'
+    FireDiscoveryDateTimeEpoch: 1558281600000
     DispatchCenterID: GAGIC
     LocalIncidentIdentifier: 019003
     POOCounty: Ware
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-05-19T22:37Z'
-    ModifiedOnDateTimeEpoch: 1558305440000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-05-22T16:09Z'
+    ModifiedOnDateTimeEpoch: 1558541352000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
     Source: NFSA
     Hashtag: '#Compartment1Fire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
   Lon: -82.25528103613355
   Lat: 31.0552847208349
-  Name: COMPARTMENT 1 FIRE
-  popupinfo: null
   id: 116718
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: COMPARTMENT 1 FIRE
+  Name: COMPARTMENT 1
+  Fire_Name: COMPARTMENT 1
   UniqueFireIdentifier: 2019-GAOKR-019003
-  DailyAcres: null
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
+  DailyAcres: 185
+  PercentContained: 90
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2019-05-22T14:45Z'
+  ICS209ReportDateTimeEpoch: 1558536300000
+  ICS209ReportStatus: I
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: null
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-05-19T17:00Z'
-  FireDiscoveryDateTimeEpoch: 1558285200000
+  EstimatedCostToDate: 200000
+  FireCause: Natural
+  TotalIncidentPersonnel: 17
+  FireDiscoveryDateTime: '2019-05-19T16:00Z'
+  FireDiscoveryDateTimeEpoch: 1558281600000
   DispatchCenterID: GAGIC
   LocalIncidentIdentifier: 019003
   POOCounty: Ware
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-05-19T22:37Z'
-  ModifiedOnDateTimeEpoch: 1558305440000
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2019-05-22T16:09Z'
+  ModifiedOnDateTimeEpoch: 1558541352000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: NonImsr
   Source: NFSA
   Hashtag: '#Compartment1Fire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: GAOKR
   unitMention: Okefenokee NWR
@@ -7429,8 +7429,8 @@
     LocalIncidentIdentifier: '190060'
     POOCounty: Okanogan
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-05-21T23:18Z'
-    ModifiedOnDateTimeEpoch: 1558480692000
+    ModifiedOnDateTime: '2019-05-22T16:08Z'
+    ModifiedOnDateTimeEpoch: 1558541307000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#MalottFire'
@@ -7461,8 +7461,8 @@
   LocalIncidentIdentifier: '190060'
   POOCounty: Okanogan
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-05-21T23:18Z'
-  ModifiedOnDateTimeEpoch: 1558480692000
+  ModifiedOnDateTime: '2019-05-22T16:08Z'
+  ModifiedOnDateTimeEpoch: 1558541307000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#MalottFire'
@@ -8377,7 +8377,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: McArthur Creek
     UniqueFireIdentifier: 2019-AKTAS-913133
-    DailyAcres: 3
+    DailyAcres: 150
     PercentContained: null
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: null
@@ -8395,8 +8395,8 @@
     LocalIncidentIdentifier: '913133'
     POOCounty: Southeast Fairbanks
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-05-22T04:16Z'
-    ModifiedOnDateTimeEpoch: 1558498600000
+    ModifiedOnDateTime: '2019-05-22T16:22Z'
+    ModifiedOnDateTimeEpoch: 1558542124000
     ModifiedBySystem: ifm
     Source: NFSA
     Hashtag: '#McArthurCreekFire'
@@ -8409,7 +8409,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: McArthur Creek
   UniqueFireIdentifier: 2019-AKTAS-913133
-  DailyAcres: 3
+  DailyAcres: 150
   PercentContained: null
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: null
@@ -8427,8 +8427,8 @@
   LocalIncidentIdentifier: '913133'
   POOCounty: Southeast Fairbanks
   POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-05-22T04:16Z'
-  ModifiedOnDateTimeEpoch: 1558498600000
+  ModifiedOnDateTime: '2019-05-22T16:22Z'
+  ModifiedOnDateTimeEpoch: 1558542124000
   ModifiedBySystem: ifm
   Source: NFSA
   Hashtag: '#McArthurCreekFire'
@@ -8671,8 +8671,8 @@
     LocalIncidentIdentifier: '000422'
     POOCounty: Gila
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-05-22T13:25Z'
-    ModifiedOnDateTimeEpoch: 1558531525000
+    ModifiedOnDateTime: '2019-05-22T16:14Z'
+    ModifiedOnDateTimeEpoch: 1558541681000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#SisqoFire'
@@ -8703,8 +8703,8 @@
   LocalIncidentIdentifier: '000422'
   POOCounty: Gila
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-05-22T13:25Z'
-  ModifiedOnDateTimeEpoch: 1558531525000
+  ModifiedOnDateTime: '2019-05-22T16:14Z'
+  ModifiedOnDateTimeEpoch: 1558541681000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#SisqoFire'
