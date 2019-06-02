@@ -10,23 +10,23 @@
     PercentContained: 37
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-06-01T02:00Z'
-    ICS209ReportDateTimeEpoch: 1559354400000
+    ICS209ReportDateTime: '2019-06-02T02:00Z'
+    ICS209ReportDateTimeEpoch: 1559440800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 3864065
-    FireCause: Human
-    TotalIncidentPersonnel: 124
+    EstimatedCostToDate: 3936532
+    FireCause: Unknown
+    TotalIncidentPersonnel: 71
     FireDiscoveryDateTime: '2019-04-30T20:59Z'
     FireDiscoveryDateTimeEpoch: 1556657940000
     DispatchCenterID: AKYTDC
     LocalIncidentIdentifier: '000077'
     POOCounty: Southeast Fairbanks
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-01T16:09Z'
-    ModifiedOnDateTimeEpoch: 1559405347000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-02T02:09Z'
+    ModifiedOnDateTimeEpoch: 1559441366000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -44,8 +44,8 @@
     state: AK
     status: U
     firecause: Unknown
-    reportdatetime: '2019-06-01T02:00Z'
-    reportdatetimeEpoch: 1559354400000
+    reportdatetime: '2019-06-02T02:00Z'
+    reportdatetimeEpoch: 1559440800000
     percentcontained: 37
     uniquefireidentifier: 2019-AKMID-000077
     firediscoverydatetime: '2019-04-30T20:59Z'
@@ -55,11 +55,11 @@
     incidentname: Oregon Lakes
     iscomplex: 'false'
     irwinid: '{44C8E90C-98D1-490F-A7DE-D74F0C3D3AD0}'
-    irwinmodifiedon: '2019-06-01T12:01Z'
-    irwinmodifiedonEpoch: 1559390475000
+    irwinmodifiedon: '2019-06-02T02:09Z'
+    irwinmodifiedonEpoch: 1559441366000
     mapsymbol: '3'
-    datecurrent: '2019-06-01T10:00Z'
-    datecurrentEpoch: 1559383207000
+    datecurrent: '2019-06-01T20:30Z'
+    datecurrentEpoch: 1559421005000
     pooownerunit: AKFWQ
     fireyear: 2019
     localincidentidentifier: '000077'
@@ -74,8 +74,8 @@
     FireDiscoveryDateTime: '2019-04-30T20:59Z'
     FireDiscoveryDateTimeEpoch: 1556657940000
     Fire_Name: Oregon Lakes
-    ModifiedOnDateTime: '2019-06-01T12:01Z'
-    ModifiedOnDateTimeEpoch: 1559390475000
+    ModifiedOnDateTime: '2019-06-02T02:09Z'
+    ModifiedOnDateTimeEpoch: 1559441366000
     Name: Oregon Lakes
     Source: GEOMAC
     Hashtag: '#OregonLakesFire'
@@ -90,8 +90,8 @@
   state: AK
   status: U
   firecause: Unknown
-  reportdatetime: '2019-06-01T02:00Z'
-  reportdatetimeEpoch: 1559354400000
+  reportdatetime: '2019-06-02T02:00Z'
+  reportdatetimeEpoch: 1559440800000
   percentcontained: 37
   uniquefireidentifier: 2019-AKMID-000077
   firediscoverydatetime: '2019-04-30T20:59Z'
@@ -101,11 +101,11 @@
   incidentname: Oregon Lakes
   iscomplex: 'false'
   irwinid: '{44C8E90C-98D1-490F-A7DE-D74F0C3D3AD0}'
-  irwinmodifiedon: '2019-06-01T12:01Z'
-  irwinmodifiedonEpoch: 1559390475000
+  irwinmodifiedon: '2019-06-02T02:09Z'
+  irwinmodifiedonEpoch: 1559441366000
   mapsymbol: '3'
-  datecurrent: '2019-06-01T10:00Z'
-  datecurrentEpoch: 1559383207000
+  datecurrent: '2019-06-01T20:30Z'
+  datecurrentEpoch: 1559421005000
   pooownerunit: AKFWQ
   fireyear: 2019
   localincidentidentifier: '000077'
@@ -114,32 +114,32 @@
   perimexist: 'Y'
   complexname: null
   DailyAcres: 31850
-  FireCause: Human
+  FireCause: Unknown
   PercentContained: 37
   UniqueFireIdentifier: 2019-AKMID-000077
   FireDiscoveryDateTime: '2019-04-30T20:59Z'
   FireDiscoveryDateTimeEpoch: 1556657940000
   Fire_Name: Oregon Lakes
-  ModifiedOnDateTime: '2019-06-01T16:09Z'
-  ModifiedOnDateTimeEpoch: 1559405347000
+  ModifiedOnDateTime: '2019-06-02T02:09Z'
+  ModifiedOnDateTimeEpoch: 1559441366000
   Name: Oregon Lakes
   Source: NFSA
   Hashtag: '#OregonLakesFire'
   id: 114881
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-01T02:00Z'
-  ICS209ReportDateTimeEpoch: 1559354400000
+  ICS209ReportDateTime: '2019-06-02T02:00Z'
+  ICS209ReportDateTimeEpoch: 1559440800000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 3864065
-  TotalIncidentPersonnel: 124
+  EstimatedCostToDate: 3936532
+  TotalIncidentPersonnel: 71
   DispatchCenterID: AKYTDC
   LocalIncidentIdentifier: '000077'
   POOCounty: Southeast Fairbanks
   POOLandownerKind: Federal
-  ModifiedBySystem: wildcad
+  ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrOther
   NFSAType: Large WF
@@ -915,75 +915,6 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
-2019-AZA3S-000522:
-  Source_NFSA_Join:
-    Lon: -111.51471239706835
-    Lat: 32.86435373299788
-    Name: EARLY
-    popupinfo: null
-    id: 116914
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: EARLY
-    UniqueFireIdentifier: 2019-AZA3S-000522
-    DailyAcres: 0.1
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Human
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-05-22T23:35Z'
-    FireDiscoveryDateTimeEpoch: 1558568100000
-    DispatchCenterID: AZADC
-    LocalIncidentIdentifier: '000522'
-    POOCounty: Pinal
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-05-23T02:30Z'
-    ModifiedOnDateTimeEpoch: 1558578621000
-    ModifiedBySystem: firecode
-    Source: NFSA
-    Hashtag: '#EarlyFire'
-    NFSAType: Emerging WF < 24 hours
-  Lon: -111.51471239706835
-  Lat: 32.86435373299788
-  Name: EARLY
-  popupinfo: null
-  id: 116914
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: EARLY
-  UniqueFireIdentifier: 2019-AZA3S-000522
-  DailyAcres: 0.1
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Human
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-05-22T23:35Z'
-  FireDiscoveryDateTimeEpoch: 1558568100000
-  DispatchCenterID: AZADC
-  LocalIncidentIdentifier: '000522'
-  POOCounty: Pinal
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-05-23T02:30Z'
-  ModifiedOnDateTimeEpoch: 1558578621000
-  ModifiedBySystem: firecode
-  Source: NFSA
-  Hashtag: '#EarlyFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: AZA3S
-  unitMention: '@AZStateForestry'
 2019-AKUYD-000138:
   Source_NFSA_Join:
     Lon: -144.35822411227753
@@ -34184,3 +34115,141 @@
   PerimDateTime: null
   unitId: CAKRN
   unitMention: '@kerncountyfire'
+2019-CALAC-163996:
+  Source_NFSA_Join:
+    Lon: -118.79730948966112
+    Lat: 34.762274919371464
+    Name: LAC-163996
+    popupinfo: null
+    id: 117621
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LAC-163996
+    UniqueFireIdentifier: 2019-CALAC-163996
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-02T02:01Z'
+    FireDiscoveryDateTimeEpoch: 1559440907000
+    DispatchCenterID: CALACC
+    LocalIncidentIdentifier: '163996'
+    POOCounty: Los Angeles
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-02T02:12Z'
+    ModifiedOnDateTimeEpoch: 1559441555000
+    ModifiedBySystem: lacocad
+    Source: NFSA
+    Hashtag: LAC-163996
+    NFSAType: Emerging WF < 24 hours
+  Lon: -118.79730948966112
+  Lat: 34.762274919371464
+  Name: LAC-163996
+  popupinfo: null
+  id: 117621
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LAC-163996
+  UniqueFireIdentifier: 2019-CALAC-163996
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-02T02:01Z'
+  FireDiscoveryDateTimeEpoch: 1559440907000
+  DispatchCenterID: CALACC
+  LocalIncidentIdentifier: '163996'
+  POOCounty: Los Angeles
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-02T02:12Z'
+  ModifiedOnDateTimeEpoch: 1559441555000
+  ModifiedBySystem: lacocad
+  Source: NFSA
+  Hashtag: LAC-163996
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: CALAC
+  unitMention: '@LACoFDPIO'
+2019-WANES-001345:
+  Source_NFSA_Join:
+    Lon: -117.31271771851382
+    Lat: 48.4083285409816
+    Name: FOUNTAIN
+    popupinfo: null
+    id: 117622
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: FOUNTAIN
+    UniqueFireIdentifier: 2019-WANES-001345
+    DailyAcres: 0.5
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-02T00:30Z'
+    FireDiscoveryDateTimeEpoch: 1559435420000
+    DispatchCenterID: WANEC
+    LocalIncidentIdentifier: '001345'
+    POOCounty: Pend Oreille
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-02T02:26Z'
+    ModifiedOnDateTimeEpoch: 1559442404000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#FountainFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -117.31271771851382
+  Lat: 48.4083285409816
+  Name: FOUNTAIN
+  popupinfo: null
+  id: 117622
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: FOUNTAIN
+  UniqueFireIdentifier: 2019-WANES-001345
+  DailyAcres: 0.5
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-02T00:30Z'
+  FireDiscoveryDateTimeEpoch: 1559435420000
+  DispatchCenterID: WANEC
+  LocalIncidentIdentifier: '001345'
+  POOCounty: Pend Oreille
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-02T02:26Z'
+  ModifiedOnDateTimeEpoch: 1559442404000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#FountainFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: WANES
+  unitMention: Northeast Region-Department of Natural Resources
