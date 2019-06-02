@@ -24370,68 +24370,147 @@
   Source_NFSA_Join:
     Lon: -111.30220693345703
     Lat: 34.492026017372226
-    Name: Coldwater
-    popupinfo: null
     id: 117416
-    calc_symboltype: NewIrwinOnly
+    Name: Coldwater
     Fire_Name: Coldwater
     UniqueFireIdentifier: 2019-AZCOF-000299
-    DailyAcres: 0.25
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 140
+    PercentContained: 1
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-06-02T00:00Z'
+    ICS209ReportDateTimeEpoch: 1559433600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 50000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 25
     FireDiscoveryDateTime: '2019-05-30T13:50Z'
     FireDiscoveryDateTimeEpoch: 1559224200000
     DispatchCenterID: AZFDC
     LocalIncidentIdentifier: 000299
     POOCounty: Coconino
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-05-31T00:50Z'
-    ModifiedOnDateTimeEpoch: 1559263844000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-02T00:21Z'
+    ModifiedOnDateTimeEpoch: 1559434913000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#ColdwaterFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
+  Source_GEOMAC:
+    Lon: -111.3022109475488
+    Lat: 34.49202530079833
+    objectid: 9
+    latitude: 34.49202
+    longitude: -111.3022
+    acres: 140
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AZ
+    status: I
+    firecause: Natural
+    reportdatetime: '2019-06-02T00:00Z'
+    reportdatetimeEpoch: 1559433600000
+    percentcontained: 1
+    uniquefireidentifier: 2019-AZCOF-000299
+    firediscoverydatetime: '2019-05-30T13:50Z'
+    firediscoverydatetimeEpoch: 1559224200000
+    complexparentirwinid: null
+    pooresponsibleunit: AZCOF
+    incidentname: Coldwater
+    iscomplex: 'false'
+    irwinid: '{F38E0F73-6A5D-4EF5-A7F9-EF006DBFF7A6}'
+    irwinmodifiedon: '2019-06-02T00:21Z'
+    irwinmodifiedonEpoch: 1559434913000
+    mapsymbol: '1'
+    datecurrent: '2019-06-01T18:30Z'
+    datecurrentEpoch: 1559413805000
+    pooownerunit: AZCOF
+    fireyear: 2019
+    localincidentidentifier: 000299
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 140
+    FireCause: Natural
+    PercentContained: 1
+    UniqueFireIdentifier: 2019-AZCOF-000299
+    FireDiscoveryDateTime: '2019-05-30T13:50Z'
+    FireDiscoveryDateTimeEpoch: 1559224200000
+    Fire_Name: Coldwater
+    ModifiedOnDateTime: '2019-06-02T00:21Z'
+    ModifiedOnDateTimeEpoch: 1559434913000
+    Name: Coldwater
+    Source: GEOMAC
+    Hashtag: '#ColdwaterFire'
   Lon: -111.30220693345703
   Lat: 34.492026017372226
-  Name: Coldwater
-  popupinfo: null
-  id: 117416
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Coldwater
-  UniqueFireIdentifier: 2019-AZCOF-000299
-  DailyAcres: 0.25
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  objectid: 9
+  latitude: 34.49202
+  longitude: -111.3022
+  acres: 140
+  gacc: SWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: AZ
+  status: I
+  firecause: Natural
+  reportdatetime: '2019-06-02T00:00Z'
+  reportdatetimeEpoch: 1559433600000
+  percentcontained: 1
+  uniquefireidentifier: 2019-AZCOF-000299
+  firediscoverydatetime: '2019-05-30T13:50Z'
+  firediscoverydatetimeEpoch: 1559224200000
+  complexparentirwinid: null
+  pooresponsibleunit: AZCOF
+  incidentname: Coldwater
+  iscomplex: 'false'
+  irwinid: '{F38E0F73-6A5D-4EF5-A7F9-EF006DBFF7A6}'
+  irwinmodifiedon: '2019-06-02T00:21Z'
+  irwinmodifiedonEpoch: 1559434913000
+  mapsymbol: '1'
+  datecurrent: '2019-06-01T18:30Z'
+  datecurrentEpoch: 1559413805000
+  pooownerunit: AZCOF
+  fireyear: 2019
+  localincidentidentifier: 000299
+  incidenttypecategory: WF
+  owneragency: USFS
+  perimexist: 'N'
+  complexname: null
+  DailyAcres: 140
   FireCause: Natural
-  TotalIncidentPersonnel: null
+  PercentContained: 1
+  UniqueFireIdentifier: 2019-AZCOF-000299
   FireDiscoveryDateTime: '2019-05-30T13:50Z'
   FireDiscoveryDateTimeEpoch: 1559224200000
+  Fire_Name: Coldwater
+  ModifiedOnDateTime: '2019-06-02T00:21Z'
+  ModifiedOnDateTimeEpoch: 1559434913000
+  Name: Coldwater
+  Source: NFSA
+  Hashtag: '#ColdwaterFire'
+  id: 117416
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2019-06-02T00:00Z'
+  ICS209ReportDateTimeEpoch: 1559433600000
+  ICS209ReportStatus: I
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 50000
+  TotalIncidentPersonnel: 25
   DispatchCenterID: AZFDC
   LocalIncidentIdentifier: 000299
   POOCounty: Coconino
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-05-31T00:50Z'
-  ModifiedOnDateTimeEpoch: 1559263844000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  Hashtag: '#ColdwaterFire'
-  NFSAType: Emerging WF < 24 hours
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: AZCOF
   unitMention: '@CoconinoNF'
@@ -33090,17 +33169,17 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Human
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-01T20:09Z'
-    FireDiscoveryDateTimeEpoch: 1559419758000
+    FireDiscoveryDateTimeEpoch: 1559419740000
     DispatchCenterID: AZADC
     LocalIncidentIdentifier: '000607'
     POOCounty: Pinal
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-01T22:08Z'
-    ModifiedOnDateTimeEpoch: 1559426883000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-02T00:04Z'
+    ModifiedOnDateTimeEpoch: 1559433897000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#MonkFire'
     NFSAType: Emerging WF < 24 hours
@@ -33122,17 +33201,17 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Human
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-01T20:09Z'
-  FireDiscoveryDateTimeEpoch: 1559419758000
+  FireDiscoveryDateTimeEpoch: 1559419740000
   DispatchCenterID: AZADC
   LocalIncidentIdentifier: '000607'
   POOCounty: Pinal
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-01T22:08Z'
-  ModifiedOnDateTimeEpoch: 1559426883000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-02T00:04Z'
+  ModifiedOnDateTimeEpoch: 1559433897000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#MonkFire'
   NFSAType: Emerging WF < 24 hours
@@ -33719,9 +33798,9 @@
     LocalIncidentIdentifier: '000121'
     POOCounty: Bonner
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-01T23:46Z'
-    ModifiedOnDateTimeEpoch: 1559432781000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-02T00:12Z'
+    ModifiedOnDateTimeEpoch: 1559434333000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#ButlerCreekFire'
     NFSAType: Emerging WF < 24 hours
@@ -33751,12 +33830,219 @@
   LocalIncidentIdentifier: '000121'
   POOCounty: Bonner
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-01T23:46Z'
-  ModifiedOnDateTimeEpoch: 1559432781000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-02T00:12Z'
+  ModifiedOnDateTimeEpoch: 1559434333000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#ButlerCreekFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
   unitId: IDPOS
   unitMention: Pend Oreille Area Office
+2019-IDPLS-000122:
+  Source_NFSA_Join:
+    Lon: -116.84641123768021
+    Lat: 48.636953405013514
+    Name: Addy
+    popupinfo: null
+    id: 117612
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Addy
+    UniqueFireIdentifier: 2019-IDPLS-000122
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-01T22:03Z'
+    FireDiscoveryDateTimeEpoch: 1559426580000
+    DispatchCenterID: IDCDC
+    LocalIncidentIdentifier: '000122'
+    POOCounty: Bonner
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-02T00:20Z'
+    ModifiedOnDateTimeEpoch: 1559434811000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#AddyFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -116.84641123768021
+  Lat: 48.636953405013514
+  Name: Addy
+  popupinfo: null
+  id: 117612
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Addy
+  UniqueFireIdentifier: 2019-IDPLS-000122
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-01T22:03Z'
+  FireDiscoveryDateTimeEpoch: 1559426580000
+  DispatchCenterID: IDCDC
+  LocalIncidentIdentifier: '000122'
+  POOCounty: Bonner
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-02T00:20Z'
+  ModifiedOnDateTimeEpoch: 1559434811000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#AddyFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: IDPLS
+  unitMention: Priest Lake Area Office
+2019-FLFNF-000436:
+  Source_NFSA_Join:
+    Lon: -81.60499060195944
+    Lat: 29.086906956035453
+    Name: Billies Bay
+    popupinfo: null
+    id: 117613
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Billies Bay
+    UniqueFireIdentifier: 2019-FLFNF-000436
+    DailyAcres: 1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-01T19:23Z'
+    FireDiscoveryDateTimeEpoch: 1559417011000
+    DispatchCenterID: FLFIC
+    LocalIncidentIdentifier: '000436'
+    POOCounty: Lake
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-02T00:15Z'
+    ModifiedOnDateTimeEpoch: 1559434540000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#BilliesBayFire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -81.60499060195944
+  Lat: 29.086906956035453
+  Name: Billies Bay
+  popupinfo: null
+  id: 117613
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Billies Bay
+  UniqueFireIdentifier: 2019-FLFNF-000436
+  DailyAcres: 1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-01T19:23Z'
+  FireDiscoveryDateTimeEpoch: 1559417011000
+  DispatchCenterID: FLFIC
+  LocalIncidentIdentifier: '000436'
+  POOCounty: Lake
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-02T00:15Z'
+  ModifiedOnDateTimeEpoch: 1559434540000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#BilliesBayFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: FLFNF
+  unitMention: NFs in Florida
+2019-MNRLA-000342:
+  Source_NFSA_Join:
+    Lon: -95.02141021866007
+    Lat: 47.87100843377916
+    Name: '19'
+    popupinfo: null
+    id: 117614
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: '19'
+    UniqueFireIdentifier: 2019-MNRLA-000342
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-02T00:21Z'
+    FireDiscoveryDateTimeEpoch: 1559434897000
+    DispatchCenterID: MNRLA
+    LocalIncidentIdentifier: '000342'
+    POOCounty: Beltrami
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-02T00:22Z'
+    ModifiedOnDateTimeEpoch: 1559434964000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#19Fire'
+    NFSAType: Emerging WF < 24 hours
+  Lon: -95.02141021866007
+  Lat: 47.87100843377916
+  Name: '19'
+  popupinfo: null
+  id: 117614
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: '19'
+  UniqueFireIdentifier: 2019-MNRLA-000342
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-02T00:21Z'
+  FireDiscoveryDateTimeEpoch: 1559434897000
+  DispatchCenterID: MNRLA
+  LocalIncidentIdentifier: '000342'
+  POOCounty: Beltrami
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-02T00:22Z'
+  ModifiedOnDateTimeEpoch: 1559434964000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#19Fire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: MNRLA
+  unitMention: Red Lake Agency
