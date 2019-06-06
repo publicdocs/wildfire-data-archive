@@ -1536,75 +1536,6 @@
   PerimDateTime: null
   unitId: AZA5S
   unitMention: '@AZStateForestry'
-2019-NMSNF-000106:
-  Source_NFSA_Join:
-    Lon: -106.7754075705691
-    Lat: 35.85050834911813
-    Name: 'NonStat FR 376 #13'
-    popupinfo: null
-    id: 117191
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: 'NonStat FR 376 #13'
-    UniqueFireIdentifier: 2019-NMSNF-000106
-    DailyAcres: 0.1
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-05-27T21:40Z'
-    FireDiscoveryDateTimeEpoch: 1558993250000
-    DispatchCenterID: NMSFC
-    LocalIncidentIdentifier: '000106'
-    POOCounty: Sandoval
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-05-27T21:48Z'
-    ModifiedOnDateTimeEpoch: 1558993713000
-    ModifiedBySystem: wfdss
-    Source: NFSA
-    Hashtag: '#NonStatFr37613Fire'
-    NFSAType: Emerging WF < 24 hours
-  Lon: -106.7754075705691
-  Lat: 35.85050834911813
-  Name: 'NonStat FR 376 #13'
-  popupinfo: null
-  id: 117191
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: 'NonStat FR 376 #13'
-  UniqueFireIdentifier: 2019-NMSNF-000106
-  DailyAcres: 0.1
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-05-27T21:40Z'
-  FireDiscoveryDateTimeEpoch: 1558993250000
-  DispatchCenterID: NMSFC
-  LocalIncidentIdentifier: '000106'
-  POOCounty: Sandoval
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-05-27T21:48Z'
-  ModifiedOnDateTimeEpoch: 1558993713000
-  ModifiedBySystem: wfdss
-  Source: NFSA
-  Hashtag: '#NonStatFr37613Fire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: NMSNF
-  unitMention: Santa Fe NF
 2019-NMSNF-000107:
   Source_NFSA_Join:
     Lon: -105.41151344099612
@@ -11477,14 +11408,61 @@
     Source: NFSA
     Hashtag: '#ColdwaterFire'
     NFSAType: Large WF
-  Lon: -111.30220693345703
-  Lat: 34.492026017372226
+  Source_GEOMAC:
+    Lon: -111.3022109475488
+    Lat: 34.49202530079833
+    objectid: 6
+    latitude: 34.49202
+    longitude: -111.3022
+    acres: 140
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AZ
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-06T21:30Z'
+    reportdatetimeEpoch: 1559856600000
+    percentcontained: 4
+    uniquefireidentifier: 2019-AZCOF-000299
+    firediscoverydatetime: '2019-05-30T13:50Z'
+    firediscoverydatetimeEpoch: 1559224200000
+    complexparentirwinid: null
+    pooresponsibleunit: AZCOF
+    incidentname: Coldwater
+    iscomplex: 'false'
+    irwinid: '{F38E0F73-6A5D-4EF5-A7F9-EF006DBFF7A6}'
+    irwinmodifiedon: '2019-06-06T21:54Z'
+    irwinmodifiedonEpoch: 1559858057000
+    mapsymbol: '1'
+    datecurrent: '2019-06-06T16:00Z'
+    datecurrentEpoch: 1559836806000
+    pooownerunit: AZCOF
+    fireyear: 2019
+    localincidentidentifier: 000299
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 140
+    FireCause: Natural
+    PercentContained: 4
+    UniqueFireIdentifier: 2019-AZCOF-000299
+    FireDiscoveryDateTime: '2019-05-30T13:50Z'
+    FireDiscoveryDateTimeEpoch: 1559224200000
+    Fire_Name: Coldwater
+    ModifiedOnDateTime: '2019-06-06T21:54Z'
+    ModifiedOnDateTimeEpoch: 1559858057000
+    Name: Coldwater
+    Source: GEOMAC
+    Hashtag: '#ColdwaterFire'
+  Lon: -111.3022109475488
+  Lat: 34.49202530079833
   id: 117416
   Name: Coldwater
   Fire_Name: Coldwater
   UniqueFireIdentifier: 2019-AZCOF-000299
   DailyAcres: 140
-  PercentContained: 0
+  PercentContained: 4
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 Team
   ICS209ReportDateTime: '2019-06-05T23:00Z'
@@ -11492,23 +11470,53 @@
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 300000
   FireCause: Natural
-  TotalIncidentPersonnel: 120
   FireDiscoveryDateTime: '2019-05-30T13:50Z'
   FireDiscoveryDateTimeEpoch: 1559224200000
   DispatchCenterID: AZFDC
   LocalIncidentIdentifier: 000299
   POOCounty: Coconino
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-05T23:52Z'
-  ModifiedOnDateTimeEpoch: 1559778753000
+  ModifiedOnDateTime: '2019-06-06T21:54Z'
+  ModifiedOnDateTimeEpoch: 1559858057000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
-  Source: NFSA
+  Source: GEOMAC
   Hashtag: '#ColdwaterFire'
   NFSAType: Large WF
+  objectid: 6
+  latitude: 34.49202
+  longitude: -111.3022
+  acres: 140
+  gacc: SWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: AZ
+  status: U
+  firecause: Natural
+  reportdatetime: '2019-06-06T21:30Z'
+  reportdatetimeEpoch: 1559856600000
+  percentcontained: 4
+  uniquefireidentifier: 2019-AZCOF-000299
+  firediscoverydatetime: '2019-05-30T13:50Z'
+  firediscoverydatetimeEpoch: 1559224200000
+  complexparentirwinid: null
+  pooresponsibleunit: AZCOF
+  incidentname: Coldwater
+  iscomplex: 'false'
+  irwinid: '{F38E0F73-6A5D-4EF5-A7F9-EF006DBFF7A6}'
+  irwinmodifiedon: '2019-06-06T21:54Z'
+  irwinmodifiedonEpoch: 1559858057000
+  mapsymbol: '1'
+  datecurrent: '2019-06-06T16:00Z'
+  datecurrentEpoch: 1559836806000
+  pooownerunit: AZCOF
+  fireyear: 2019
+  localincidentidentifier: 000299
+  incidenttypecategory: WF
+  owneragency: USFS
+  perimexist: 'N'
+  complexname: null
   PerimDateTime: null
   unitId: AZCOF
   unitMention: '@CoconinoNF'
