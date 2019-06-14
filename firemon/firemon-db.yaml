@@ -32,9 +32,9 @@
     Source: NFSA
     Hashtag: '#OregonLakesFire'
     NFSAType: Large WF
-    _Provenance: &ref_0
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T07:54:55.934Z'
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -111,7 +111,16 @@
     Source: NFSA
     Hashtag: '#MaroonFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -111.40751103746896
     Lat: 35.3088954043779
@@ -138,8 +147,8 @@
     irwinmodifiedon: '2019-06-10T14:52Z'
     irwinmodifiedonEpoch: 1560178359000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AZCOF
     fireyear: 2019
     localincidentidentifier: 000198
@@ -159,9 +168,9 @@
     Name: Maroon
     Source: GEOMAC
     Hashtag: '#MaroonFire'
-    _Provenance: &ref_1
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T07:54:56.663Z'
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -201,8 +210,8 @@
   irwinmodifiedon: '2019-06-10T14:52Z'
   irwinmodifiedonEpoch: 1560178359000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AZCOF
   fireyear: 2019
   localincidentidentifier: 000198
@@ -277,7 +286,16 @@
     Source: NFSA
     Hashtag: '#MelozitnaFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -154.58962197336817
   Lat: 65.38766120321665
   id: 116825
@@ -347,7 +365,16 @@
     Source: NFSA
     Hashtag: '#LoneMountainFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -105.73861972222127
     Lat: 33.808065496741946
@@ -374,8 +401,8 @@
     irwinmodifiedon: '2019-06-14T00:12Z'
     irwinmodifiedonEpoch: 1560471138000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: NMLNF
     fireyear: 2019
     localincidentidentifier: 000184
@@ -395,7 +422,23 @@
     Name: LONE MOUNTAIN
     Source: GEOMAC
     Hashtag: '#LoneMountainFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -105.73880563161221
   Lat: 33.8094169740097
   objectid: 2
@@ -421,8 +464,8 @@
   irwinmodifiedon: '2019-06-14T00:12Z'
   irwinmodifiedonEpoch: 1560471138000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: NMLNF
   fireyear: 2019
   localincidentidentifier: 000184
@@ -497,7 +540,16 @@
     Source: NFSA
     Hashtag: '#DeerFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -109.13362154681428
     Lat: 33.735283110995546
@@ -524,8 +576,8 @@
     irwinmodifiedon: '2019-06-14T01:00Z'
     irwinmodifiedonEpoch: 1560474013000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AZASF
     fireyear: 2019
     localincidentidentifier: '000204'
@@ -545,7 +597,23 @@
     Name: Deer
     Source: GEOMAC
     Hashtag: '#DeerFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.13291026960101
   Lat: 33.732614904405644
   objectid: 3
@@ -571,8 +639,8 @@
   irwinmodifiedon: '2019-06-14T01:00Z'
   irwinmodifiedonEpoch: 1560474013000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AZASF
   fireyear: 2019
   localincidentidentifier: '000204'
@@ -647,7 +715,16 @@
     Source: NFSA
     Hashtag: '#ColdwaterFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -111.30223314754706
     Lat: 34.49194970078683
@@ -674,8 +751,8 @@
     irwinmodifiedon: '2019-06-14T00:31Z'
     irwinmodifiedonEpoch: 1560472268000
     mapsymbol: '2'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AZCOF
     fireyear: 2019
     localincidentidentifier: 000299
@@ -695,7 +772,23 @@
     Name: Coldwater
     Source: GEOMAC
     Hashtag: '#ColdwaterFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.30220693345703
   Lat: 34.492026017372226
   objectid: 4
@@ -721,8 +814,8 @@
   irwinmodifiedon: '2019-06-14T00:31Z'
   irwinmodifiedonEpoch: 1560472268000
   mapsymbol: '2'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AZCOF
   fireyear: 2019
   localincidentidentifier: 000299
@@ -797,7 +890,16 @@
     Source: NFSA
     Hashtag: '#SmithStillFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -82.56745458051793
   Lat: 30.366224615785168
   id: 117496
@@ -867,7 +969,16 @@
     Source: NFSA
     Hashtag: '#ReveilleFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -105.02560617809121
   Lat: 37.91804655618473
   id: 117812
@@ -937,7 +1048,16 @@
     Source: NFSA
     Hashtag: '#OldGrouchTopFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -157.38791001601183
   Lat: 63.30754893883378
   id: 118004
@@ -1007,7 +1127,16 @@
     Source: NFSA
     Hashtag: '#RoaringFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -108.99601043002387
     Lat: 33.893505341329124
@@ -1034,8 +1163,8 @@
     irwinmodifiedon: '2019-06-13T22:55Z'
     irwinmodifiedonEpoch: 1560466537000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: NMGNF
     fireyear: 2019
     localincidentidentifier: '000166'
@@ -1055,7 +1184,23 @@
     Name: Roaring
     Source: GEOMAC
     Hashtag: '#RoaringFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -108.99600702030119
   Lat: 33.89350278092442
   objectid: 5
@@ -1081,8 +1226,8 @@
   irwinmodifiedon: '2019-06-13T22:55Z'
   irwinmodifiedonEpoch: 1560466537000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: NMGNF
   fireyear: 2019
   localincidentidentifier: '000166'
@@ -1157,7 +1302,16 @@
     Source: NFSA
     Hashtag: '#OngivinukRiverFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -159.58269188447835
   Lat: 59.402002239413996
   id: 118011
@@ -1227,7 +1381,16 @@
     Source: NFSA
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -150.4376895785433
   Lat: 60.63051903798901
   id: 118050
@@ -1297,7 +1460,16 @@
     Source: NFSA
     Hashtag: '#ElkFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -108.25071028127604
     Lat: 33.998895396060924
@@ -1324,8 +1496,8 @@
     irwinmodifiedon: '2019-06-14T01:08Z'
     irwinmodifiedonEpoch: 1560474525000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: NMGNF
     fireyear: 2019
     localincidentidentifier: 000178
@@ -1345,7 +1517,23 @@
     Name: Elk
     Source: GEOMAC
     Hashtag: '#ElkFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -108.25080957635984
   Lat: 33.998994404299786
   objectid: 6
@@ -1371,8 +1559,8 @@
   irwinmodifiedon: '2019-06-14T01:08Z'
   irwinmodifiedonEpoch: 1560474525000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: NMGNF
   fireyear: 2019
   localincidentidentifier: 000178
@@ -1447,7 +1635,16 @@
     Source: NFSA
     Hashtag: '#JordanFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -108.24860870391375
   Lat: 33.30000764254062
   id: 118185
@@ -1517,7 +1714,16 @@
     Source: NFSA
     Hashtag: '#MountainFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -111.75417768790318
     Lat: 33.870838491588955
@@ -1544,8 +1750,8 @@
     irwinmodifiedon: '2019-06-13T21:47Z'
     irwinmodifiedonEpoch: 1560462426000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AZTNF
     fireyear: 2019
     localincidentidentifier: '000566'
@@ -1565,7 +1771,23 @@
     Name: Mountain
     Source: GEOMAC
     Hashtag: '#MountainFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.75421223496745
   Lat: 33.87083887359426
   objectid: 7
@@ -1591,8 +1813,8 @@
   irwinmodifiedon: '2019-06-13T21:47Z'
   irwinmodifiedonEpoch: 1560462426000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AZTNF
   fireyear: 2019
   localincidentidentifier: '000566'
@@ -1667,9 +1889,9 @@
     Source: NFSA
     Hashtag: '#GuruleFire'
     NFSAType: Large WF
-    _Provenance: &ref_9
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T11:31:20.987Z'
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1746,7 +1968,16 @@
     Source: NFSA
     Hashtag: '#WoodburyFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -111.20973304520871
     Lat: 33.40778295636467
@@ -1773,8 +2004,8 @@
     irwinmodifiedon: '2019-06-14T00:44Z'
     irwinmodifiedonEpoch: 1560473091000
     mapsymbol: '2'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AZTNF
     fireyear: 2019
     localincidentidentifier: 000579
@@ -1794,7 +2025,23 @@
     Name: Woodbury
     Source: GEOMAC
     Hashtag: '#WoodburyFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.19921508613274
   Lat: 33.409445736565466
   objectid: 8
@@ -1820,8 +2067,8 @@
   irwinmodifiedon: '2019-06-14T00:44Z'
   irwinmodifiedonEpoch: 1560473091000
   mapsymbol: '2'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AZTNF
   fireyear: 2019
   localincidentidentifier: 000579
@@ -1896,7 +2143,16 @@
     Source: NFSA
     Hashtag: '#LittleEastForkFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -156.7033578369014
   Lat: 62.40249956804048
   id: 118323
@@ -1966,10 +2222,10 @@
     Source: NFSA
     Hashtag: '#SandFire'
     NFSAType: Large WF
-    _Provenance: &ref_10
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T13:31:04.488Z'
-        Request: &ref_2
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
           headers:
@@ -2045,7 +2301,16 @@
     Source: NFSA
     Hashtag: '#KipchukRiverFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -159.33968931174638
     Lat: 60.8318331474136
@@ -2072,8 +2337,8 @@
     irwinmodifiedon: '2019-06-13T07:18Z'
     irwinmodifiedonEpoch: 1560410329000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AKAKS
     fireyear: 2019
     localincidentidentifier: '904198'
@@ -2093,7 +2358,23 @@
     Name: Kipchuk River
     Source: GEOMAC
     Hashtag: '#KipchukRiverFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -158.96669014469904
   Lat: 60.93333515113109
   objectid: 9
@@ -2119,8 +2400,8 @@
   irwinmodifiedon: '2019-06-13T07:18Z'
   irwinmodifiedonEpoch: 1560410329000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AKAKS
   fireyear: 2019
   localincidentidentifier: '904198'
@@ -2195,7 +2476,16 @@
     Source: NFSA
     Hashtag: '#BylasFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -110.1243106072168
     Lat: 33.13854517344512
@@ -2222,8 +2512,8 @@
     irwinmodifiedon: '2019-06-14T00:09Z'
     irwinmodifiedonEpoch: 1560470947000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AZSCA
     fireyear: 2019
     localincidentidentifier: 000587
@@ -2243,7 +2533,23 @@
     Name: Bylas
     Source: GEOMAC
     Hashtag: '#BylasFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -110.12430898346099
   Lat: 33.13854525084961
   objectid: 10
@@ -2269,8 +2575,8 @@
   irwinmodifiedon: '2019-06-14T00:09Z'
   irwinmodifiedonEpoch: 1560470947000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AZSCA
   fireyear: 2019
   localincidentidentifier: 000587
@@ -2337,18 +2643,23 @@
     LocalIncidentIdentifier: 000903
     POOCounty: Tulare
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T12:53Z'
-    ModifiedOnDateTimeEpoch: 1560516781000
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2019-06-14T14:54Z'
+    ModifiedOnDateTimeEpoch: 1560524074000
+    ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#JordanFire'
     NFSAType: Large WF
-    _Provenance: &ref_3
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T15:00:25.813Z'
-        Request: *ref_2
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Source_GEOMAC:
     Lon: -118.30807239466243
@@ -2397,13 +2708,13 @@
     Name: JORDAN
     Source: GEOMAC
     Hashtag: '#JordanFire'
-    _Provenance: &ref_4
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T15:00:26.520Z'
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs: &ref_5
+          qs:
             outFields: '*'
             returnGeometry: true
             outSR: '{"wkid": 4326}'
@@ -2414,36 +2725,8 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -118.30807239466243
-  Lat: 36.22722508471204
-  id: 118450
-  Name: JORDAN
-  Fire_Name: JORDAN
-  UniqueFireIdentifier: 2019-CAINF-000903
-  DailyAcres: 485
-  PercentContained: 20
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-14T12:45Z'
-  ICS209ReportDateTimeEpoch: 1560516300000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  FireCause: Unknown
-  FireDiscoveryDateTime: '2019-06-09T22:32Z'
-  FireDiscoveryDateTimeEpoch: 1560119520000
-  DispatchCenterID: CAOVCC
-  LocalIncidentIdentifier: 000903
-  POOCounty: Tulare
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T14:54Z'
-  ModifiedOnDateTimeEpoch: 1560524075000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: GEOMAC
-  Hashtag: '#JordanFire'
-  NFSAType: Large WF
+  Lon: -118.3036133758147
+  Lat: 36.22899752142698
   objectid: 11
   latitude: 36.22722
   longitude: -118.30806
@@ -2476,6 +2759,36 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
+  DailyAcres: 485
+  FireCause: Unknown
+  PercentContained: 20
+  UniqueFireIdentifier: 2019-CAINF-000903
+  FireDiscoveryDateTime: '2019-06-09T22:32Z'
+  FireDiscoveryDateTimeEpoch: 1560119520000
+  Fire_Name: JORDAN
+  ModifiedOnDateTime: '2019-06-14T14:54Z'
+  ModifiedOnDateTimeEpoch: 1560524074000
+  Name: JORDAN
+  Source: NFSA
+  Hashtag: '#JordanFire'
+  id: 118450
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2019-06-14T12:45Z'
+  ICS209ReportDateTimeEpoch: 1560516300000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 654632
+  TotalIncidentPersonnel: 288
+  DispatchCenterID: CAOVCC
+  LocalIncidentIdentifier: 000903
+  POOCounty: Tulare
+  POOLandownerKind: Federal
+  ModifiedBySystem: wfdss
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: '2019-06-12T23:03Z'
   unitId: CAINF
   unitMention: '@InyoInfo'
@@ -2487,7 +2800,7 @@
     Name: North River
     Fire_Name: North River
     UniqueFireIdentifier: 2019-AKGAD-000218
-    DailyAcres: 1368.6
+    DailyAcres: 5000
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
@@ -2505,15 +2818,24 @@
     LocalIncidentIdentifier: 000218
     POOCounty: Nome
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T12:17Z'
-    ModifiedOnDateTimeEpoch: 1560514654000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-06-14T14:31Z'
+    ModifiedOnDateTimeEpoch: 1560522696000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#NorthRiverFire'
     NFSAType: Large WF
-    _Provenance: *ref_3
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -160.10182577255347
     Lat: 65.24376961569864
@@ -2561,37 +2883,25 @@
     Name: North River
     Source: GEOMAC
     Hashtag: '#NorthRiverFire'
-    _Provenance: *ref_4
-  Lon: -160.10182577255347
-  Lat: 65.24376961569864
-  id: 118559
-  Name: North River
-  Fire_Name: North River
-  UniqueFireIdentifier: 2019-AKGAD-000218
-  DailyAcres: 5000
-  PercentContained: 0
-  FireMgmtComplexity: Type 5 Incident
-  IncidentManagementOrganization: Type 5 IC
-  ICS209ReportDateTime: '2019-06-14T02:45Z'
-  ICS209ReportDateTimeEpoch: 1560480300000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  FireCause: Natural
-  FireDiscoveryDateTime: '2019-06-10T17:11Z'
-  FireDiscoveryDateTimeEpoch: 1560186660000
-  DispatchCenterID: AKGADC
-  LocalIncidentIdentifier: 000218
-  POOCounty: Nome
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T14:31Z'
-  ModifiedOnDateTimeEpoch: 1560522697000
-  ModifiedBySystem: ifm
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: GEOMAC
-  Hashtag: '#NorthRiverFire'
-  NFSAType: Large WF
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -160.10012148813118
+  Lat: 65.24376809695534
   objectid: 12
   latitude: 65.24377
   longitude: -160.1018
@@ -2624,6 +2934,36 @@
   owneragency: BLM
   perimexist: 'N'
   complexname: null
+  DailyAcres: 5000
+  FireCause: Natural
+  PercentContained: 0
+  UniqueFireIdentifier: 2019-AKGAD-000218
+  FireDiscoveryDateTime: '2019-06-10T17:11Z'
+  FireDiscoveryDateTimeEpoch: 1560186660000
+  Fire_Name: North River
+  ModifiedOnDateTime: '2019-06-14T14:31Z'
+  ModifiedOnDateTimeEpoch: 1560522696000
+  Name: North River
+  Source: NFSA
+  Hashtag: '#NorthRiverFire'
+  id: 118559
+  FireMgmtComplexity: Type 5 Incident
+  IncidentManagementOrganization: Type 5 IC
+  ICS209ReportDateTime: '2019-06-14T02:45Z'
+  ICS209ReportDateTimeEpoch: 1560480300000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 5000
+  TotalIncidentPersonnel: null
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: 000218
+  POOCounty: Nome
+  POOLandownerKind: Federal
+  ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
@@ -2661,7 +3001,16 @@
     Source: NFSA
     Hashtag: '#HellsGateFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.15190980327101
   Lat: 31.492406699170022
   id: 118618
@@ -2731,7 +3080,16 @@
     Source: NFSA
     Hashtag: '186'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -107.79971157328639
   Lat: 37.40069751320609
   id: 118645
@@ -2793,9 +3151,9 @@
     LocalIncidentIdentifier: '000224'
     POOCounty: Kusilvak
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T02:23Z'
-    ModifiedOnDateTimeEpoch: 1560479007000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-14T12:30Z'
+    ModifiedOnDateTimeEpoch: 1560515444000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -2803,8 +3161,13 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T13:00:13.264Z'
-        Request: *ref_2
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Source_GEOMAC:
     Lon: -161.55132292716573
@@ -2832,8 +3195,8 @@
     irwinmodifiedon: '2019-06-14T12:30Z'
     irwinmodifiedonEpoch: 1560515444000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T07:00Z'
-    datecurrentEpoch: 1560495610000
+    datecurrent: '2019-06-14T09:00Z'
+    datecurrentEpoch: 1560502809000
     pooownerunit: AKADD
     fireyear: 2019
     localincidentidentifier: '000224'
@@ -2855,45 +3218,23 @@
     Hashtag: '#KuyukutukRiverFire'
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T13:00:13.815Z'
+        RetrievedOn: '2019-06-14T15:24:33.206Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs: *ref_5
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
           headers:
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -161.55132292716573
-  Lat: 62.02800968285215
-  id: 118662
-  Name: Kuyukutuk River
-  Fire_Name: Kuyukutuk River
-  UniqueFireIdentifier: 2019-AKGAD-000224
-  DailyAcres: 1772.9
-  PercentContained: 60
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2019-06-13T23:00Z'
-  ICS209ReportDateTimeEpoch: 1560466800000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  FireCause: Natural
-  FireDiscoveryDateTime: '2019-06-11T18:25Z'
-  FireDiscoveryDateTimeEpoch: 1560277500000
-  DispatchCenterID: AKGADC
-  LocalIncidentIdentifier: '000224'
-  POOCounty: Kusilvak
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T12:30Z'
-  ModifiedOnDateTimeEpoch: 1560515444000
-  ModifiedBySystem: wildcad
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: GEOMAC
-  Hashtag: '#KuyukutukRiverFire'
-  NFSAType: Large WF
+  Lon: -161.55132288016776
+  Lat: 62.02800792986189
   objectid: 13
   latitude: 62.02801
   longitude: -161.5513
@@ -2917,8 +3258,8 @@
   irwinmodifiedon: '2019-06-14T12:30Z'
   irwinmodifiedonEpoch: 1560515444000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T07:00Z'
-  datecurrentEpoch: 1560495610000
+  datecurrent: '2019-06-14T09:00Z'
+  datecurrentEpoch: 1560502809000
   pooownerunit: AKADD
   fireyear: 2019
   localincidentidentifier: '000224'
@@ -2926,6 +3267,36 @@
   owneragency: BLM
   perimexist: 'N'
   complexname: null
+  DailyAcres: 1772.9
+  FireCause: Natural
+  PercentContained: 60
+  UniqueFireIdentifier: 2019-AKGAD-000224
+  FireDiscoveryDateTime: '2019-06-11T18:25Z'
+  FireDiscoveryDateTimeEpoch: 1560277500000
+  Fire_Name: Kuyukutuk River
+  ModifiedOnDateTime: '2019-06-14T12:30Z'
+  ModifiedOnDateTimeEpoch: 1560515444000
+  Name: Kuyukutuk River
+  Source: NFSA
+  Hashtag: '#KuyukutukRiverFire'
+  id: 118662
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2019-06-13T23:00Z'
+  ICS209ReportDateTimeEpoch: 1560466800000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 250000
+  TotalIncidentPersonnel: 34
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: '000224'
+  POOCounty: Kusilvak
+  POOLandownerKind: Federal
+  ModifiedBySystem: ifm
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
@@ -2963,10 +3334,10 @@
     Source: NFSA
     Hashtag: '#ShoeleatherCreekFire'
     NFSAType: Large WF
-    _Provenance: &ref_8
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T08:03:46.381Z'
-        Request: &ref_7
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
           headers:
@@ -3008,286 +3379,6 @@
   PerimDateTime: null
   unitId: AKSWS
   unitMention: Southwest Area Forestry
-2019-CASLU-007684:
-  Source_NFSA_Join:
-    Lon: -120.40445841502083
-    Lat: 35.66194738463071
-    id: 118749
-    Name: MCMILLAN
-    Fire_Name: MCMILLAN
-    UniqueFireIdentifier: 2019-CASLU-007684
-    DailyAcres: 1764
-    PercentContained: 95
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-06-13T23:30Z'
-    ICS209ReportDateTimeEpoch: 1560468600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 312000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 61
-    FireDiscoveryDateTime: '2019-06-12T19:48Z'
-    FireDiscoveryDateTimeEpoch: 1560368880000
-    DispatchCenterID: CASLCC
-    LocalIncidentIdentifier: 007684
-    POOCounty: San Luis Obispo
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-14T00:45Z'
-    ModifiedOnDateTimeEpoch: 1560473156000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    Hashtag: '#McmillanFire'
-    NFSAType: Large WF
-    _Provenance: *ref_0
-  Lon: -120.40445841502083
-  Lat: 35.66194738463071
-  id: 118749
-  Name: MCMILLAN
-  Fire_Name: MCMILLAN
-  UniqueFireIdentifier: 2019-CASLU-007684
-  DailyAcres: 1764
-  PercentContained: 95
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-13T23:30Z'
-  ICS209ReportDateTimeEpoch: 1560468600000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 312000
-  FireCause: Unknown
-  TotalIncidentPersonnel: 61
-  FireDiscoveryDateTime: '2019-06-12T19:48Z'
-  FireDiscoveryDateTimeEpoch: 1560368880000
-  DispatchCenterID: CASLCC
-  LocalIncidentIdentifier: 007684
-  POOCounty: San Luis Obispo
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-14T00:45Z'
-  ModifiedOnDateTimeEpoch: 1560473156000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  Hashtag: '#McmillanFire'
-  NFSAType: Large WF
-  PerimDateTime: null
-  unitId: CASLU
-  unitMention: San Luis Obispo Unit
-2019-CALAC-177138:
-  Source_NFSA_Join:
-    Lon: -117.7907292474995
-    Lat: 34.05773453022669
-    Name: POMONA
-    popupinfo: null
-    id: 118812
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: POMONA
-    UniqueFireIdentifier: 2019-CALAC-177138
-    DailyAcres: null
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T09:24Z'
-    FireDiscoveryDateTimeEpoch: 1560417870000
-    DispatchCenterID: CALACC
-    LocalIncidentIdentifier: '177138'
-    POOCounty: Los Angeles
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-13T09:36Z'
-    ModifiedOnDateTimeEpoch: 1560418596000
-    ModifiedBySystem: lacocad
-    Source: NFSA
-    Hashtag: '#PomonaFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -117.7907292474995
-  Lat: 34.05773453022669
-  Name: POMONA
-  popupinfo: null
-  id: 118812
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: POMONA
-  UniqueFireIdentifier: 2019-CALAC-177138
-  DailyAcres: null
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T09:24Z'
-  FireDiscoveryDateTimeEpoch: 1560417870000
-  DispatchCenterID: CALACC
-  LocalIncidentIdentifier: '177138'
-  POOCounty: Los Angeles
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-13T09:36Z'
-  ModifiedOnDateTimeEpoch: 1560418596000
-  ModifiedBySystem: lacocad
-  Source: NFSA
-  Hashtag: '#PomonaFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: CALAC
-  unitMention: '@LACoFDPIO'
-2019-ORFWF-000153:
-  Source_NFSA_Join:
-    Lon: -120.76821322301933
-    Lat: 42.70943532662813
-    Name: Kate%27s Dary
-    popupinfo: null
-    id: 118818
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: Kate%27s Dary
-    UniqueFireIdentifier: 2019-ORFWF-000153
-    DailyAcres: 0.1
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T14:10Z'
-    FireDiscoveryDateTimeEpoch: 1560435035000
-    DispatchCenterID: ORLFC
-    LocalIncidentIdentifier: '000153'
-    POOCounty: Lake
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-13T14:44Z'
-    ModifiedOnDateTimeEpoch: 1560437067000
-    ModifiedBySystem: wfdss
-    Source: NFSA
-    Hashtag: '#Kate27sDaryFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -120.76821322301933
-  Lat: 42.70943532662813
-  Name: Kate%27s Dary
-  popupinfo: null
-  id: 118818
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Kate%27s Dary
-  UniqueFireIdentifier: 2019-ORFWF-000153
-  DailyAcres: 0.1
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T14:10Z'
-  FireDiscoveryDateTimeEpoch: 1560435035000
-  DispatchCenterID: ORLFC
-  LocalIncidentIdentifier: '000153'
-  POOCounty: Lake
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-13T14:44Z'
-  ModifiedOnDateTimeEpoch: 1560437067000
-  ModifiedBySystem: wfdss
-  Source: NFSA
-  Hashtag: '#Kate27sDaryFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: ORFWF
-  unitMention: Fremont-Winema NF
-2019-OR982S-000152:
-  Source_NFSA_Join:
-    Lon: -121.10461433061641
-    Lat: 42.41232339287615
-    Name: Pine Crest
-    popupinfo: null
-    id: 118819
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: Pine Crest
-    UniqueFireIdentifier: 2019-OR982S-000152
-    DailyAcres: 0.1
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T14:09Z'
-    FireDiscoveryDateTimeEpoch: 1560434940000
-    DispatchCenterID: ORLFC
-    LocalIncidentIdentifier: '000152'
-    POOCounty: Klamath
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-13T18:13Z'
-    ModifiedOnDateTimeEpoch: 1560449595000
-    ModifiedBySystem: wildcad
-    Source: NFSA
-    Hashtag: '#PineCrestFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -121.10461433061641
-  Lat: 42.41232339287615
-  Name: Pine Crest
-  popupinfo: null
-  id: 118819
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Pine Crest
-  UniqueFireIdentifier: 2019-OR982S-000152
-  DailyAcres: 0.1
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Natural
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T14:09Z'
-  FireDiscoveryDateTimeEpoch: 1560434940000
-  DispatchCenterID: ORLFC
-  LocalIncidentIdentifier: '000152'
-  POOCounty: Klamath
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-13T18:13Z'
-  ModifiedOnDateTimeEpoch: 1560449595000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  Hashtag: '#PineCrestFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: OR982S
-  unitMention: Lake Unit
 2019-CALAC-177250:
   Source_NFSA_Join:
     Lon: -118.82805882183652
@@ -3322,7 +3413,16 @@
     Source: NFSA
     Hashtag: LAC-177250
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.82805882183652
   Lat: 34.09445434997337
   Name: LAC-177250
@@ -3358,216 +3458,6 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
-2019-OR982S-000154:
-  Source_NFSA_Join:
-    Lon: -120.97770933042885
-    Lat: 42.468924868420515
-    Name: Fritz
-    popupinfo: null
-    id: 118824
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: Fritz
-    UniqueFireIdentifier: 2019-OR982S-000154
-    DailyAcres: 0.1
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T14:32Z'
-    FireDiscoveryDateTimeEpoch: 1560436320000
-    DispatchCenterID: ORLFC
-    LocalIncidentIdentifier: '000154'
-    POOCounty: Klamath
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-13T18:11Z'
-    ModifiedOnDateTimeEpoch: 1560449489000
-    ModifiedBySystem: wildcad
-    Source: NFSA
-    Hashtag: '#FritzFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -120.97770933042885
-  Lat: 42.468924868420515
-  Name: Fritz
-  popupinfo: null
-  id: 118824
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Fritz
-  UniqueFireIdentifier: 2019-OR982S-000154
-  DailyAcres: 0.1
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Natural
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T14:32Z'
-  FireDiscoveryDateTimeEpoch: 1560436320000
-  DispatchCenterID: ORLFC
-  LocalIncidentIdentifier: '000154'
-  POOCounty: Klamath
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-13T18:11Z'
-  ModifiedOnDateTimeEpoch: 1560449489000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  Hashtag: '#FritzFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: OR982S
-  unitMention: Lake Unit
-2019-NDFBA-000035:
-  Source_NFSA_Join:
-    Lon: -102.1363996455418
-    Lat: 47.94250475932243
-    Name: CEDAR
-    popupinfo: null
-    id: 118826
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: CEDAR
-    UniqueFireIdentifier: 2019-NDFBA-000035
-    DailyAcres: null
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: null
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T15:00Z'
-    FireDiscoveryDateTimeEpoch: 1560438000000
-    DispatchCenterID: NDNDC
-    LocalIncidentIdentifier: '000035'
-    POOCounty: Mountrail
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-13T15:59Z'
-    ModifiedOnDateTimeEpoch: 1560441550000
-    ModifiedBySystem: wfdss
-    Source: NFSA
-    Hashtag: '#CedarFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -102.1363996455418
-  Lat: 47.94250475932243
-  Name: CEDAR
-  popupinfo: null
-  id: 118826
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: CEDAR
-  UniqueFireIdentifier: 2019-NDFBA-000035
-  DailyAcres: null
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: null
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T15:00Z'
-  FireDiscoveryDateTimeEpoch: 1560438000000
-  DispatchCenterID: NDNDC
-  LocalIncidentIdentifier: '000035'
-  POOCounty: Mountrail
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-13T15:59Z'
-  ModifiedOnDateTimeEpoch: 1560441550000
-  ModifiedBySystem: wfdss
-  Source: NFSA
-  Hashtag: '#CedarFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: NDFBA
-  unitMention: Fort Berthold Agency
-2019-AZCRD-000607:
-  Source_NFSA_Join:
-    Lon: -114.11460750921424
-    Lat: 35.7057339705065
-    Name: Almond Tree
-    popupinfo: null
-    id: 118830
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: Almond Tree
-    UniqueFireIdentifier: 2019-AZCRD-000607
-    DailyAcres: 0.5
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T14:58Z'
-    FireDiscoveryDateTimeEpoch: 1560437880000
-    DispatchCenterID: AZPDC
-    LocalIncidentIdentifier: '000607'
-    POOCounty: Mohave
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-13T17:32Z'
-    ModifiedOnDateTimeEpoch: 1560447179000
-    ModifiedBySystem: wildcad
-    Source: NFSA
-    Hashtag: '#AlmondTreeFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -114.11460750921424
-  Lat: 35.7057339705065
-  Name: Almond Tree
-  popupinfo: null
-  id: 118830
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Almond Tree
-  UniqueFireIdentifier: 2019-AZCRD-000607
-  DailyAcres: 0.5
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T14:58Z'
-  FireDiscoveryDateTimeEpoch: 1560437880000
-  DispatchCenterID: AZPDC
-  LocalIncidentIdentifier: '000607'
-  POOCounty: Mohave
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-13T17:32Z'
-  ModifiedOnDateTimeEpoch: 1560447179000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  Hashtag: '#AlmondTreeFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: AZCRD
-  unitMention: Colorado River District
 2019-ORMAF-019045:
   Source_NFSA_Join:
     Lon: -118.57423983830854
@@ -3602,7 +3492,16 @@
     Source: NFSA
     Hashtag: 045 OR-MAF-19045
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.57423983830854
   Lat: 44.311752280217284
   Name: 045 OR-MAF-19045
@@ -3672,7 +3571,16 @@
     Source: NFSA
     Hashtag: '#BoxSpringsFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.76161060568107
   Lat: 42.47408659437739
   Name: Box Springs
@@ -3742,7 +3650,16 @@
     Source: NFSA
     Hashtag: '#TubFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.0317160453101
   Lat: 42.3361643168602
   Name: Tub
@@ -3812,7 +3729,16 @@
     Source: NFSA
     Hashtag: '#HorseFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.80421246368155
   Lat: 33.53472681513544
   Name: Horse
@@ -3882,7 +3808,16 @@
     Source: NFSA
     Hashtag: '#SouthFourCornersFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.85851545719571
   Lat: 40.22800586383337
   Name: SOUTH FOUR CORNERS
@@ -3952,7 +3887,16 @@
     Source: NFSA
     Hashtag: '#SawtoothFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.18880884791508
   Lat: 39.30711413371393
   Name: Sawtooth
@@ -4022,7 +3966,16 @@
     Source: NFSA
     Hashtag: '#BowmanFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -122.45029062622744
   Lat: 40.31528519735677
   Name: BOWMAN
@@ -4092,7 +4045,16 @@
     Source: NFSA
     Hashtag: '#HollandRoadFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -123.07364956818368
   Lat: 48.101479241928445
   Name: HOLLAND ROAD
@@ -4162,7 +4124,16 @@
     Source: NFSA
     Hashtag: '#HammersleyRanchFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.48341134534208
   Lat: 42.27337456638587
   Name: Hammersley Ranch
@@ -4198,76 +4169,6 @@
   PerimDateTime: null
   unitId: OR982S
   unitMention: Lake Unit
-2019-TXTXF-000192:
-  Source_NFSA_Join:
-    Lon: -94.26106717902846
-    Lat: 31.089831676070006
-    Name: Brushy Creek
-    popupinfo: null
-    id: 118853
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: Brushy Creek
-    UniqueFireIdentifier: 2019-TXTXF-000192
-    DailyAcres: 0.5
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Human
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T13:58Z'
-    FireDiscoveryDateTimeEpoch: 1560434280000
-    DispatchCenterID: TXTIC
-    LocalIncidentIdentifier: 000192
-    POOCounty: Angelina
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-13T19:16Z'
-    ModifiedOnDateTimeEpoch: 1560453397000
-    ModifiedBySystem: wfdss
-    Source: NFSA
-    Hashtag: '#BrushyCreekFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -94.26106717902846
-  Lat: 31.089831676070006
-  Name: Brushy Creek
-  popupinfo: null
-  id: 118853
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Brushy Creek
-  UniqueFireIdentifier: 2019-TXTXF-000192
-  DailyAcres: 0.5
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Human
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T13:58Z'
-  FireDiscoveryDateTimeEpoch: 1560434280000
-  DispatchCenterID: TXTIC
-  LocalIncidentIdentifier: 000192
-  POOCounty: Angelina
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-13T19:16Z'
-  ModifiedOnDateTimeEpoch: 1560453397000
-  ModifiedBySystem: wfdss
-  Source: NFSA
-  Hashtag: '#BrushyCreekFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: TXTXF
-  unitMention: NFs And Grasslands In Texas
 2019-CALAC-177519:
   Source_NFSA_Join:
     Lon: -118.09524016251034
@@ -4302,7 +4203,16 @@
     Source: NFSA
     Hashtag: LAC-177519
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.09524016251034
   Lat: 34.68457251058982
   Name: LAC-177519
@@ -4372,7 +4282,16 @@
     Source: NFSA
     Hashtag: '#SlimLakeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -91.99516568951822
   Lat: 48.01678070229154
   Name: Slim Lake
@@ -4442,7 +4361,16 @@
     Source: NFSA
     Hashtag: '#DesotoFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -114.5976136711796
   Lat: 34.90160733507946
   Name: DESOTO
@@ -4512,7 +4440,16 @@
     Source: NFSA
     Hashtag: 047 OR-MAF-19047
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.66028047622152
   Lat: 44.25974047801433
   Name: 047 OR-MAF-19047
@@ -4582,7 +4519,16 @@
     Source: NFSA
     Hashtag: '#BdcAssistFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -116.2491124221163
   Lat: 34.15876305803416
   Name: BDC ASSIST
@@ -4652,7 +4598,16 @@
     Source: NFSA
     Hashtag: '#JuniperFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -116.33200895653486
   Lat: 34.19650154331211
   Name: JUNIPER
@@ -4722,7 +4677,16 @@
     Source: NFSA
     Hashtag: '#BuckFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.36040878071513
   Lat: 32.631217981273835
   Name: BUCK
@@ -4792,7 +4756,16 @@
     Source: NFSA
     Hashtag: '#FalseAlarm10Fire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -148.54102262026473
   Lat: 64.03100137560612
   Name: 'False Alarm #10'
@@ -4828,76 +4801,6 @@
   PerimDateTime: null
   unitId: AKFAS
   unitMention: Fairbanks Area Forestry
-2019-AZA5S-000730:
-  Source_NFSA_Join:
-    Lon: -113.65970963248894
-    Lat: 35.161962194157546
-    Name: HIGHWIRE
-    popupinfo: null
-    id: 118870
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: HIGHWIRE
-    UniqueFireIdentifier: 2019-AZA5S-000730
-    DailyAcres: 0.1
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Human
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T10:54Z'
-    FireDiscoveryDateTimeEpoch: 1560423240000
-    DispatchCenterID: AZADC
-    LocalIncidentIdentifier: '000730'
-    POOCounty: Mohave
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-13T21:38Z'
-    ModifiedOnDateTimeEpoch: 1560461895000
-    ModifiedBySystem: firecode
-    Source: NFSA
-    Hashtag: '#HighwireFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
-  Lon: -113.65970963248894
-  Lat: 35.161962194157546
-  Name: HIGHWIRE
-  popupinfo: null
-  id: 118870
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: HIGHWIRE
-  UniqueFireIdentifier: 2019-AZA5S-000730
-  DailyAcres: 0.1
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Human
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T10:54Z'
-  FireDiscoveryDateTimeEpoch: 1560423240000
-  DispatchCenterID: AZADC
-  LocalIncidentIdentifier: '000730'
-  POOCounty: Mohave
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-13T21:38Z'
-  ModifiedOnDateTimeEpoch: 1560461895000
-  ModifiedBySystem: firecode
-  Source: NFSA
-  Hashtag: '#HighwireFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: AZA5S
-  unitMention: '@AZStateForestry'
 2019-CACDD-009862:
   Source_NFSA_Join:
     Lon: -117.32611159940002
@@ -4932,7 +4835,16 @@
     Source: NFSA
     Hashtag: FA CA-CDD-009862
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -117.32611159940002
   Lat: 34.92434736633474
   Name: FA CA-CDD-009862
@@ -5002,7 +4914,16 @@
     Source: NFSA
     Hashtag: '#GilesConnectionFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -116.33555730190713
   Lat: 48.84539050733212
   Name: Giles Connection
@@ -5072,7 +4993,16 @@
     Source: NFSA
     Hashtag: '#JohnnyGulchFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.65171446104941
   Lat: 46.160289268198525
   Name: Johnny Gulch
@@ -5142,7 +5072,16 @@
     Source: NFSA
     Hashtag: '#MayFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -122.40473705816974
   Lat: 41.61056295243435
   Name: MAY
@@ -5212,7 +5151,16 @@
     Source: NFSA
     Hashtag: '#DownpourFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -108.31031398077992
   Lat: 40.59127863790615
   Name: DOWNPOUR
@@ -5282,7 +5230,16 @@
     Source: NFSA
     Hashtag: '#LoneFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -108.45121473309406
   Lat: 40.57007393073326
   Name: LONE
@@ -5352,7 +5309,16 @@
     Source: NFSA
     Hashtag: '#CherryCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.50210986068646
   Lat: 42.4122570692991
   Name: Cherry Creek
@@ -5422,7 +5388,16 @@
     Source: NFSA
     Hashtag: LAC-177604
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.3259454937779
   Lat: 33.73473656623321
   Name: LAC-177604
@@ -5492,7 +5467,16 @@
     Source: NFSA
     Hashtag: MP 170
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -112.2978097628467
   Lat: 39.03425851781979
   Name: MP 170
@@ -5564,8 +5548,13 @@
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T14:01:30.413Z'
-        Request: *ref_2
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Lon: -116.3221185052567
   Lat: 48.727122535933816
@@ -5636,7 +5625,16 @@
     Source: NFSA
     Hashtag: '516'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.29711332038522
   Lat: 41.39011534147506
   Name: '516'
@@ -5706,7 +5704,16 @@
     Source: NFSA
     Hashtag: '#CoyoteFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.33141199039808
   Lat: 42.27633242440628
   Name: Coyote
@@ -5776,7 +5783,16 @@
     Source: NFSA
     Hashtag: '#0295NeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.29331443919855
   Lat: 43.972024949789464
   Name: 0295 NE
@@ -5846,7 +5862,16 @@
     Source: NFSA
     Hashtag: '#FlatTopFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.3345101856631
   Lat: 41.35166925588621
   Name: FLAT TOP
@@ -5916,7 +5941,16 @@
     Source: NFSA
     Hashtag: '#Fa4Fire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -113.01451264597578
   Lat: 42.19984883875436
   Name: FA 4
@@ -5986,7 +6020,16 @@
     Source: NFSA
     Hashtag: '#FlumeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.24991682782274
   Lat: 42.40262614150556
   Name: Flume
@@ -6056,7 +6099,16 @@
     Source: NFSA
     Hashtag: '#ElRanchoFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.57161692308978
   Lat: 34.83877619377675
   Name: El Rancho
@@ -6126,7 +6178,16 @@
     Source: NFSA
     Hashtag: '#BranchWhiskeyFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.31781149699651
   Lat: 42.388203517076576
   Name: Branch Whiskey
@@ -6196,7 +6257,16 @@
     Source: NFSA
     Hashtag: '#BrownleeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -116.8991153953995
   Lat: 44.84650422371072
   Name: Brownlee
@@ -6266,10 +6336,15 @@
     Source: NFSA
     Hashtag: '#JungleFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: &ref_6
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T14:31:34.592Z'
-        Request: *ref_2
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Lon: -115.98771165759037
   Lat: 45.83580634389586
@@ -6340,7 +6415,16 @@
     Source: NFSA
     Hashtag: '#OldBelfairHwyFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -122.82531929104168
   Lat: 47.48400520901672
   Name: OLD BELFAIR HWY FIRE
@@ -6410,7 +6494,16 @@
     Source: NFSA
     Hashtag: '#GerkinFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.77251615323026
   Lat: 43.36396407627694
   Name: Gerkin
@@ -6480,7 +6573,16 @@
     Source: NFSA
     Hashtag: '#DeschutesRiverFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.22585096136119
   Lat: 44.76945103217817
   Name: DESCHUTES RIVER FIRE
@@ -6550,7 +6652,16 @@
     Source: NFSA
     Hashtag: '#R2Fire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.41751093609906
   Lat: 40.608337132929194
   Name: R-2
@@ -6620,7 +6731,16 @@
     Source: NFSA
     Hashtag: '#MattawaFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -119.94831188005061
   Lat: 46.72991368093129
   Name: MATTAWA
@@ -6690,7 +6810,16 @@
     Source: NFSA
     Hashtag: '#R1Fire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.25557163983086
   Lat: 40.56111380933388
   Name: R-1
@@ -6760,7 +6889,16 @@
     Source: NFSA
     Hashtag: '#0296OdFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.17381596582314
   Lat: 44.378172608566175
   Name: 0296 OD
@@ -6830,7 +6968,16 @@
     Source: NFSA
     Hashtag: '#Fa190064DryWashFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.97691357705352
   Lat: 38.139137753665864
   Name: FA 190064 Dry Wash
@@ -6900,7 +7047,16 @@
     Source: NFSA
     Hashtag: '#SwallowFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -122.61529317761453
   Lat: 41.70889111029164
   Name: SWALLOW
@@ -6970,7 +7126,16 @@
     Source: NFSA
     Hashtag: '#Fa000162SpanishForkIncorporatedFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -111.62870860662312
   Lat: 40.10023592476022
   Name: FA000162 Spanish Fork Incorporated
@@ -7040,7 +7205,16 @@
     Source: NFSA
     Hashtag: '#PattersonSideFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -119.21661611482956
   Lat: 48.64739430834827
   Name: PATTERSON SIDE
@@ -7110,7 +7284,16 @@
     Source: NFSA
     Hashtag: '#RamelliFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.22091463616951
   Lat: 40.00157392065874
   Name: Ramelli
@@ -7180,7 +7363,16 @@
     Source: NFSA
     Hashtag: '#WhiteSageFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -115.19184923162467
   Lat: 39.612786593168785
   Name: White Sage
@@ -7250,7 +7442,16 @@
     Source: NFSA
     Hashtag: '#ChanceFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.24251013559974
   Lat: 40.02060504209776
   Name: Chance
@@ -7320,7 +7521,16 @@
     Source: NFSA
     Hashtag: '#KennyFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -110.47670908626824
   Lat: 33.35403480815848
   Name: Kenny
@@ -7390,7 +7600,16 @@
     Source: NFSA
     Hashtag: '#Fa9Fire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.9038095062862
   Lat: 42.293624806189136
   Name: 'FA #9'
@@ -7460,7 +7679,16 @@
     Source: NFSA
     Hashtag: '#MinniesGapFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.38821147334778
   Lat: 41.03125592946691
   Name: MINNIES GAP
@@ -7530,10 +7758,15 @@
     Source: NFSA
     Hashtag: '#BalzacFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: &ref_11
+    _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T15:01:38.968Z'
-        Request: *ref_2
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Lon: -107.98472858920364
   Lat: 39.50972813344481
@@ -7604,7 +7837,16 @@
     Source: NFSA
     Hashtag: LAC-177821
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -117.85831848947664
   Lat: 34.634962534646284
   Name: LAC-177821
@@ -7674,7 +7916,16 @@
     Source: NFSA
     Hashtag: '#MissFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -110.10351298463362
   Lat: 33.11649534370517
   Name: Miss
@@ -7744,7 +7995,16 @@
     Source: NFSA
     Hashtag: '#Cottonwood1Fire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.87056186515576
   Lat: 36.06750546558345
   Name: COTTONWOOD 1
@@ -7814,7 +8074,16 @@
     Source: NFSA
     Hashtag: '#RiverSpringsFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.17821330184434
   Lat: 42.45038818004234
   Name: River Springs
@@ -7884,7 +8153,16 @@
     Source: NFSA
     Hashtag: '#KittFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -117.73711779134325
   Lat: 48.51180340484281
   Name: KITT
@@ -7954,7 +8232,16 @@
     Source: NFSA
     Hashtag: '#ChamberlinFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.12361794233567
   Lat: 48.47303547054346
   Name: CHAMBERLIN
@@ -8024,7 +8311,16 @@
     Source: NFSA
     Hashtag: '#PeakFaFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -117.11945416828833
   Lat: 39.70222974383274
   Name: PEAK FA
@@ -8094,7 +8390,16 @@
     Source: NFSA
     Hashtag: '#ArborFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.51941042059343
   Lat: 38.553495822471696
   Name: Arbor
@@ -8164,7 +8469,16 @@
     Source: NFSA
     Hashtag: '#ScowHarryCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -154.43618972284057
   Lat: 63.203000262007585
   Name: Scow Harry Creek
@@ -8234,7 +8548,16 @@
     Source: NFSA
     Hashtag: '#BosieCascadeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.91821374375074
   Lat: 46.10348312662037
   Name: BOSIE CASCADE
@@ -8304,7 +8627,16 @@
     Source: NFSA
     Hashtag: '#RossGulchFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -113.05301443905314
   Lat: 45.68740888650473
   Name: Ross Gulch
@@ -8376,8 +8708,13 @@
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T12:30:49.631Z'
-        Request: *ref_2
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Lon: -114.3178154096349
   Lat: 45.363154074336535
@@ -8448,7 +8785,16 @@
     Source: NFSA
     Hashtag: '#MackAssistFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -112.48951024447781
   Lat: 40.60712319759733
   Name: Mack Assist
@@ -8518,7 +8864,16 @@
     Source: NFSA
     Hashtag: '#BurnPileFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -100.80695590711478
   Lat: 42.999173197361834
   Name: BURN PILE FIRE
@@ -8588,7 +8943,16 @@
     Source: NFSA
     Hashtag: '#CedarFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.52051160116535
   Lat: 41.185564262952106
   Name: Cedar
@@ -8658,7 +9022,16 @@
     Source: NFSA
     Hashtag: '#11Fire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.76834797031194
   Lat: 40.770002180201104
   Name: 1-1
@@ -8728,7 +9101,16 @@
     Source: NFSA
     Hashtag: LAC-177979
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -118.0584451684728
   Lat: 34.542698116342024
   Name: LAC-177979
@@ -8798,7 +9180,16 @@
     Source: NFSA
     Hashtag: '#Fa000163MackCanyonFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -112.58921425786222
   Lat: 40.608732680128135
   Name: FA000163 Mack Canyon
@@ -8870,8 +9261,13 @@
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T08:30:09.842Z'
-        Request: *ref_7
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Lon: -162.84763675091642
   Lat: 60.84521697584341
@@ -8942,7 +9338,16 @@
     Source: NFSA
     Hashtag: '#HardestryFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -117.32321004103234
   Lat: 47.90427888516139
   Name: HARDESTRY
@@ -9012,7 +9417,16 @@
     Source: NFSA
     Hashtag: '#KisarlikRiverFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -160.95673697676187
   Lat: 60.95325175612983
   Name: Kisarlik River
@@ -9045,76 +9459,6 @@
   Source: NFSA
   Hashtag: '#KisarlikRiverFire'
   NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: AKSWS
-  unitMention: Southwest Area Forestry
-2019-AKSWS-904240:
-  Source_NFSA_Join:
-    Lon: -160.74601916056596
-    Lat: 60.69049956384477
-    id: 118810
-    Name: Little Kasigluk
-    Fire_Name: Little Kasigluk
-    UniqueFireIdentifier: 2019-AKSWS-904240
-    DailyAcres: 500
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T02:28Z'
-    FireDiscoveryDateTimeEpoch: 1560392925000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904240'
-    POOCounty: Bethel
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T07:45Z'
-    ModifiedOnDateTimeEpoch: 1560498312000
-    ModifiedBySystem: ifm
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    Hashtag: '#LittleKasiglukFire'
-    NFSAType: Large WF
-    _Provenance: *ref_8
-  Lon: -160.74601916056596
-  Lat: 60.69049956384477
-  id: 118810
-  Name: Little Kasigluk
-  Fire_Name: Little Kasigluk
-  UniqueFireIdentifier: 2019-AKSWS-904240
-  DailyAcres: 500
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Natural
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T02:28Z'
-  FireDiscoveryDateTimeEpoch: 1560392925000
-  DispatchCenterID: AKMSSC
-  LocalIncidentIdentifier: '904240'
-  POOCounty: Bethel
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T07:45Z'
-  ModifiedOnDateTimeEpoch: 1560498312000
-  ModifiedBySystem: ifm
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  Hashtag: '#LittleKasiglukFire'
-  NFSAType: Large WF
   PerimDateTime: null
   unitId: AKSWS
   unitMention: Southwest Area Forestry
@@ -9154,8 +9498,13 @@
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T09:01:07.980Z'
-        Request: *ref_7
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
       Modified: true
   Lon: -118.07337516849486
   Lat: 33.90708779760555
@@ -9226,7 +9575,16 @@
     Source: NFSA
     Hashtag: '#ChurchCampFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -112.33481136939959
   Lat: 33.84654250848205
   Name: Church Camp
@@ -9262,76 +9620,6 @@
   PerimDateTime: null
   unitId: AZPHD
   unitMention: Phoenix District Office
-2019-ORBUD-009025:
-  Source_NFSA_Join:
-    Lon: -119.16461264303189
-    Lat: 43.764227195175096
-    Name: Burpee
-    popupinfo: null
-    id: 118942
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: Burpee
-    UniqueFireIdentifier: 2019-ORBUD-009025
-    DailyAcres: 0.25
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-13T14:05Z'
-    FireDiscoveryDateTimeEpoch: 1560434700000
-    DispatchCenterID: ORBIC
-    LocalIncidentIdentifier: 009025
-    POOCounty: Harney
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T11:02Z'
-    ModifiedOnDateTimeEpoch: 1560510120000
-    ModifiedBySystem: wfdss
-    Source: NFSA
-    Hashtag: '#BurpeeFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_9
-  Lon: -119.16461264303189
-  Lat: 43.764227195175096
-  Name: Burpee
-  popupinfo: null
-  id: 118942
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Burpee
-  UniqueFireIdentifier: 2019-ORBUD-009025
-  DailyAcres: 0.25
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-13T14:05Z'
-  FireDiscoveryDateTimeEpoch: 1560434700000
-  DispatchCenterID: ORBIC
-  LocalIncidentIdentifier: 009025
-  POOCounty: Harney
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T11:02Z'
-  ModifiedOnDateTimeEpoch: 1560510120000
-  ModifiedBySystem: wfdss
-  Source: NFSA
-  Hashtag: '#BurpeeFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  unitId: ORBUD
-  unitMention: Burns District
 2019-AZPMA-000632:
   Source_NFSA_Join:
     Lon: -112.21600917307478
@@ -9366,7 +9654,16 @@
     Source: NFSA
     Hashtag: '#MagdalenaFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_10
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -112.21600917307478
   Lat: 33.370315946697836
   Name: Magdalena
@@ -9436,7 +9733,16 @@
     Source: NFSA
     Hashtag: '#SharpshooterFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_11
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -110.05380919996328
   Lat: 31.52780460381686
   Name: SHARPSHOOTER
@@ -9506,7 +9812,16 @@
     Source: NFSA
     Hashtag: '#PlumFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_11
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -109.48295678636386
   Lat: 47.32250565129551
   Name: Plum
@@ -9576,7 +9891,16 @@
     Source: NFSA
     Hashtag: '#0297RsFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_11
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -121.23851720686727
   Lat: 44.327543481392986
   Name: 0297 RS
@@ -9646,7 +9970,16 @@
     Source: NFSA
     Hashtag: '#LowdownFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_11
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -93.94835464547361
   Lat: 47.337039093177346
   Name: Lowdown
