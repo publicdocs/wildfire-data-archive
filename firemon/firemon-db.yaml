@@ -2917,10 +2917,10 @@
     Source: NFSA
     Hashtag: '#ShoeleatherCreekFire'
     NFSAType: Large WF
-    _Provenance: &ref_2
+    _Provenance: &ref_4
       OriginalSource:
         RetrievedOn: '2019-06-14T08:03:46.381Z'
-        Request:
+        Request: &ref_2
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
           headers:
@@ -8082,7 +8082,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Scow Harry Creek
     UniqueFireIdentifier: 2019-AKSWS-904243
-    DailyAcres: 40
+    DailyAcres: 18.9
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -8100,13 +8100,17 @@
     LocalIncidentIdentifier: '904243'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-06-14T01:32Z'
-    ModifiedOnDateTimeEpoch: 1560475975000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-14T08:29Z'
+    ModifiedOnDateTimeEpoch: 1560500982000
+    ModifiedBySystem: ifm
     Source: NFSA
     Hashtag: '#ScowHarryCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance: &ref_3
+      OriginalSource:
+        RetrievedOn: '2019-06-14T08:30:09.842Z'
+        Request: *ref_2
+      Modified: true
   Lon: -154.43618972284057
   Lat: 63.203000262007585
   Name: Scow Harry Creek
@@ -8115,7 +8119,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Scow Harry Creek
   UniqueFireIdentifier: 2019-AKSWS-904243
-  DailyAcres: 40
+  DailyAcres: 18.9
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -8133,9 +8137,9 @@
   LocalIncidentIdentifier: '904243'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: Private
-  ModifiedOnDateTime: '2019-06-14T01:32Z'
-  ModifiedOnDateTimeEpoch: 1560475975000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-14T08:29Z'
+  ModifiedOnDateTimeEpoch: 1560500982000
+  ModifiedBySystem: ifm
   Source: NFSA
   Hashtag: '#ScowHarryCreekFire'
   NFSAType: Emerging WF < 24 hours
@@ -8800,13 +8804,13 @@
     LocalIncidentIdentifier: '904244'
     POOCounty: Bethel
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-06-14T05:22Z'
-    ModifiedOnDateTimeEpoch: 1560489779000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-14T08:04Z'
+    ModifiedOnDateTimeEpoch: 1560499462000
+    ModifiedBySystem: ifm
     Source: NFSA
     Hashtag: '#NunavakpakLakeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance: *ref_3
   Lon: -162.84763675091642
   Lat: 60.84521697584341
   Name: Nunavakpak Lake
@@ -8833,9 +8837,9 @@
   LocalIncidentIdentifier: '904244'
   POOCounty: Bethel
   POOLandownerKind: Private
-  ModifiedOnDateTime: '2019-06-14T05:22Z'
-  ModifiedOnDateTimeEpoch: 1560489779000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-14T08:04Z'
+  ModifiedOnDateTimeEpoch: 1560499462000
+  ModifiedBySystem: ifm
   Source: NFSA
   Hashtag: '#NunavakpakLakeFire'
   NFSAType: Emerging WF < 24 hours
@@ -9016,7 +9020,7 @@
     Source: NFSA
     Hashtag: '#LittleKasiglukFire'
     NFSAType: Large WF
-    _Provenance: *ref_2
+    _Provenance: *ref_4
   Lon: -160.74601916056596
   Lat: 60.69049956384477
   id: 118810
