@@ -1667,10 +1667,10 @@
     Source: NFSA
     Hashtag: '#GuruleFire'
     NFSAType: Large WF
-    _Provenance: &ref_11
+    _Provenance: &ref_12
       OriginalSource:
         RetrievedOn: '2019-06-14T11:31:20.987Z'
-        Request: &ref_10
+        Request: &ref_11
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
           headers:
@@ -1966,7 +1966,7 @@
     Source: NFSA
     Hashtag: '#SandFire'
     NFSAType: Large WF
-    _Provenance: &ref_12
+    _Provenance: &ref_13
       OriginalSource:
         RetrievedOn: '2019-06-14T13:31:04.488Z'
         Request: &ref_2
@@ -2513,7 +2513,7 @@
     Source: NFSA
     Hashtag: '#NorthRiverFire'
     NFSAType: Large WF
-    _Provenance: &ref_7
+    _Provenance: &ref_8
       OriginalSource:
         RetrievedOn: '2019-06-14T12:30:49.631Z'
         Request: *ref_2
@@ -2965,7 +2965,7 @@
     Source: NFSA
     Hashtag: '#ShoeleatherCreekFire'
     NFSAType: Large WF
-    _Provenance: &ref_9
+    _Provenance: &ref_10
       OriginalSource:
         RetrievedOn: '2019-06-14T08:03:46.381Z'
         Request: &ref_6
@@ -5558,13 +5558,17 @@
     LocalIncidentIdentifier: '000155'
     POOCounty: Boundary
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-14T04:48Z'
-    ModifiedOnDateTimeEpoch: 1560487720000
+    ModifiedOnDateTime: '2019-06-14T13:56Z'
+    ModifiedOnDateTimeEpoch: 1560520599000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#MoonShadowFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance: &ref_7
+      OriginalSource:
+        RetrievedOn: '2019-06-14T14:01:30.413Z'
+        Request: *ref_2
+      Modified: true
   Lon: -116.3221185052567
   Lat: 48.727122535933816
   Name: Moon Shadow
@@ -5591,8 +5595,8 @@
   LocalIncidentIdentifier: '000155'
   POOCounty: Boundary
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-14T04:48Z'
-  ModifiedOnDateTimeEpoch: 1560487720000
+  ModifiedOnDateTime: '2019-06-14T13:56Z'
+  ModifiedOnDateTimeEpoch: 1560520599000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#MoonShadowFire'
@@ -8154,7 +8158,7 @@
     Source: NFSA
     Hashtag: '#ScowHarryCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: &ref_8
+    _Provenance: &ref_9
       OriginalSource:
         RetrievedOn: '2019-06-14T09:30:53.084Z'
         Request: *ref_6
@@ -8292,13 +8296,13 @@
     LocalIncidentIdentifier: '006116'
     POOCounty: Beaverhead
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T02:10Z'
-    ModifiedOnDateTimeEpoch: 1560478226000
+    ModifiedOnDateTime: '2019-06-14T14:00Z'
+    ModifiedOnDateTimeEpoch: 1560520818000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#RossGulchFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance: *ref_7
   Lon: -113.05301443905314
   Lat: 45.68740888650473
   Name: Ross Gulch
@@ -8325,8 +8329,8 @@
   LocalIncidentIdentifier: '006116'
   POOCounty: Beaverhead
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T02:10Z'
-  ModifiedOnDateTimeEpoch: 1560478226000
+  ModifiedOnDateTime: '2019-06-14T14:00Z'
+  ModifiedOnDateTimeEpoch: 1560520818000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#RossGulchFire'
@@ -8368,7 +8372,7 @@
     Source: NFSA
     Hashtag: '#PineCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_7
+    _Provenance: *ref_8
   Lon: -114.3178154096349
   Lat: 45.363154074336535
   Name: Pine Creek
@@ -9002,7 +9006,7 @@
     Source: NFSA
     Hashtag: '#KisarlikRiverFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_8
+    _Provenance: *ref_9
   Lon: -160.95673697676187
   Lat: 60.95325175612983
   Name: Kisarlik River
@@ -9072,7 +9076,7 @@
     Source: NFSA
     Hashtag: '#LittleKasiglukFire'
     NFSAType: Large WF
-    _Provenance: *ref_9
+    _Provenance: *ref_10
   Lon: -160.74601916056596
   Lat: 60.69049956384477
   id: 118810
@@ -9219,7 +9223,7 @@
     _Provenance:
       OriginalSource:
         RetrievedOn: '2019-06-14T10:30:33.121Z'
-        Request: *ref_10
+        Request: *ref_11
       Modified: true
   Lon: -112.33481136939959
   Lat: 33.84654250848205
@@ -9290,7 +9294,7 @@
     Source: NFSA
     Hashtag: '#BurpeeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_11
+    _Provenance: *ref_12
   Lon: -119.16461264303189
   Lat: 43.764227195175096
   Name: Burpee
@@ -9360,7 +9364,7 @@
     Source: NFSA
     Hashtag: '#MagdalenaFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_12
+    _Provenance: *ref_13
   Lon: -112.21600917307478
   Lat: 33.370315946697836
   Name: Magdalena
