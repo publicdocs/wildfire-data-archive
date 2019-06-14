@@ -8100,15 +8100,15 @@
     LocalIncidentIdentifier: '904243'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-06-14T08:29Z'
-    ModifiedOnDateTimeEpoch: 1560500982000
+    ModifiedOnDateTime: '2019-06-14T09:09Z'
+    ModifiedOnDateTimeEpoch: 1560503392000
     ModifiedBySystem: ifm
     Source: NFSA
     Hashtag: '#ScowHarryCreekFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance: &ref_3
       OriginalSource:
-        RetrievedOn: '2019-06-14T08:30:09.842Z'
+        RetrievedOn: '2019-06-14T09:30:53.084Z'
         Request: *ref_2
       Modified: true
   Lon: -154.43618972284057
@@ -8137,8 +8137,8 @@
   LocalIncidentIdentifier: '904243'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: Private
-  ModifiedOnDateTime: '2019-06-14T08:29Z'
-  ModifiedOnDateTimeEpoch: 1560500982000
+  ModifiedOnDateTime: '2019-06-14T09:09Z'
+  ModifiedOnDateTimeEpoch: 1560503392000
   ModifiedBySystem: ifm
   Source: NFSA
   Hashtag: '#ScowHarryCreekFire'
@@ -8810,7 +8810,11 @@
     Source: NFSA
     Hashtag: '#NunavakpakLakeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_3
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T08:30:09.842Z'
+        Request: *ref_2
+      Modified: true
   Lon: -162.84763675091642
   Lat: 60.84521697584341
   Name: Nunavakpak Lake
@@ -8944,13 +8948,13 @@
     LocalIncidentIdentifier: '904245'
     POOCounty: Bethel
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-06-14T05:27Z'
-    ModifiedOnDateTimeEpoch: 1560490031000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-14T09:13Z'
+    ModifiedOnDateTimeEpoch: 1560503582000
+    ModifiedBySystem: ifm
     Source: NFSA
     Hashtag: '#KisarlikRiverFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance: *ref_3
   Lon: -160.95673697676187
   Lat: 60.95325175612983
   Name: Kisarlik River
@@ -8977,9 +8981,9 @@
   LocalIncidentIdentifier: '904245'
   POOCounty: Bethel
   POOLandownerKind: Private
-  ModifiedOnDateTime: '2019-06-14T05:27Z'
-  ModifiedOnDateTimeEpoch: 1560490031000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-14T09:13Z'
+  ModifiedOnDateTimeEpoch: 1560503582000
+  ModifiedBySystem: ifm
   Source: NFSA
   Hashtag: '#KisarlikRiverFire'
   NFSAType: Emerging WF < 24 hours
@@ -9130,3 +9134,73 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+2019-AZPHD-000611:
+  Source_NFSA_Join:
+    Lon: -112.33481136939959
+    Lat: 33.84654250848205
+    Name: Churchcamp
+    popupinfo: null
+    id: 118940
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Churchcamp
+    UniqueFireIdentifier: 2019-AZPHD-000611
+    DailyAcres: 0.3
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-14T07:31Z'
+    FireDiscoveryDateTimeEpoch: 1560497505000
+    DispatchCenterID: AZPDC
+    LocalIncidentIdentifier: '000611'
+    POOCounty: Maricopa
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-14T09:29Z'
+    ModifiedOnDateTimeEpoch: 1560504578000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#ChurchcampFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance: *ref_3
+  Lon: -112.33481136939959
+  Lat: 33.84654250848205
+  Name: Churchcamp
+  popupinfo: null
+  id: 118940
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Churchcamp
+  UniqueFireIdentifier: 2019-AZPHD-000611
+  DailyAcres: 0.3
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-14T07:31Z'
+  FireDiscoveryDateTimeEpoch: 1560497505000
+  DispatchCenterID: AZPDC
+  LocalIncidentIdentifier: '000611'
+  POOCounty: Maricopa
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-14T09:29Z'
+  ModifiedOnDateTimeEpoch: 1560504578000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#ChurchcampFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AZPHD
+  unitMention: Phoenix District Office
