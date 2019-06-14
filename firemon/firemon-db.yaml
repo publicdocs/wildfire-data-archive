@@ -9161,14 +9161,23 @@
     DispatchCenterID: AZPDC
     LocalIncidentIdentifier: '000611'
     POOCounty: Maricopa
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-14T09:29Z'
-    ModifiedOnDateTimeEpoch: 1560504578000
-    ModifiedBySystem: wildcad
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-14T09:30Z'
+    ModifiedOnDateTimeEpoch: 1560504613000
+    ModifiedBySystem: wfdss
     Source: NFSA
     Hashtag: '#ChurchcampFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_3
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T09:46:58.891Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -112.33481136939959
   Lat: 33.84654250848205
   Name: Churchcamp
@@ -9194,10 +9203,10 @@
   DispatchCenterID: AZPDC
   LocalIncidentIdentifier: '000611'
   POOCounty: Maricopa
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-14T09:29Z'
-  ModifiedOnDateTimeEpoch: 1560504578000
-  ModifiedBySystem: wildcad
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-14T09:30Z'
+  ModifiedOnDateTimeEpoch: 1560504613000
+  ModifiedBySystem: wfdss
   Source: NFSA
   Hashtag: '#ChurchcampFire'
   NFSAType: Emerging WF < 24 hours
