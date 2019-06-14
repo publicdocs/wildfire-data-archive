@@ -2891,7 +2891,7 @@
     Name: Shoeleather Creek
     Fire_Name: Shoeleather Creek
     UniqueFireIdentifier: 2019-AKSWS-904226
-    DailyAcres: 100
+    DailyAcres: 150
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: null
@@ -2909,22 +2909,31 @@
     LocalIncidentIdentifier: '904226'
     POOCounty: Bethel
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-13T08:09Z'
-    ModifiedOnDateTimeEpoch: 1560413359000
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2019-06-14T07:51Z'
+    ModifiedOnDateTimeEpoch: 1560498671000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#ShoeleatherCreekFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance: &ref_2
+      OriginalSource:
+        RetrievedOn: '2019-06-14T08:03:46.381Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -155.49002134894684
   Lat: 61.86000215921486
   id: 118680
   Name: Shoeleather Creek
   Fire_Name: Shoeleather Creek
   UniqueFireIdentifier: 2019-AKSWS-904226
-  DailyAcres: 100
+  DailyAcres: 150
   PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: null
@@ -2942,9 +2951,9 @@
   LocalIncidentIdentifier: '904226'
   POOCounty: Bethel
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-13T08:09Z'
-  ModifiedOnDateTimeEpoch: 1560413359000
-  ModifiedBySystem: ics209
+  ModifiedOnDateTime: '2019-06-14T07:51Z'
+  ModifiedOnDateTimeEpoch: 1560498671000
+  ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
@@ -8970,6 +8979,76 @@
   Source: NFSA
   Hashtag: '#KisarlikRiverFire'
   NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AKSWS
+  unitMention: Southwest Area Forestry
+2019-AKSWS-904240:
+  Source_NFSA_Join:
+    Lon: -160.74601916056596
+    Lat: 60.69049956384477
+    id: 118810
+    Name: Little Kasigluk
+    Fire_Name: Little Kasigluk
+    UniqueFireIdentifier: 2019-AKSWS-904240
+    DailyAcres: 500
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-13T02:28Z'
+    FireDiscoveryDateTimeEpoch: 1560392925000
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '904240'
+    POOCounty: Bethel
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-14T07:45Z'
+    ModifiedOnDateTimeEpoch: 1560498312000
+    ModifiedBySystem: ifm
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    Hashtag: '#LittleKasiglukFire'
+    NFSAType: Large WF
+    _Provenance: *ref_2
+  Lon: -160.74601916056596
+  Lat: 60.69049956384477
+  id: 118810
+  Name: Little Kasigluk
+  Fire_Name: Little Kasigluk
+  UniqueFireIdentifier: 2019-AKSWS-904240
+  DailyAcres: 500
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Natural
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-13T02:28Z'
+  FireDiscoveryDateTimeEpoch: 1560392925000
+  DispatchCenterID: AKMSSC
+  LocalIncidentIdentifier: '904240'
+  POOCounty: Bethel
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-14T07:45Z'
+  ModifiedOnDateTimeEpoch: 1560498312000
+  ModifiedBySystem: ifm
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#LittleKasiglukFire'
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: AKSWS
   unitMention: Southwest Area Forestry
