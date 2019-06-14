@@ -1667,10 +1667,10 @@
     Source: NFSA
     Hashtag: '#GuruleFire'
     NFSAType: Large WF
-    _Provenance: &ref_7
+    _Provenance: &ref_11
       OriginalSource:
         RetrievedOn: '2019-06-14T11:31:20.987Z'
-        Request: &ref_6
+        Request: &ref_10
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
           headers:
@@ -2336,7 +2336,16 @@
     Source: NFSA
     Hashtag: '#JordanFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance: &ref_4
+      OriginalSource:
+        RetrievedOn: '2019-06-14T13:00:13.264Z'
+        Request: &ref_2
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -118.30807239466243
     Lat: 36.22722508471204
@@ -2349,9 +2358,9 @@
     state: CA
     status: U
     firecause: Unknown
-    reportdatetime: '2019-06-13T23:45Z'
-    reportdatetimeEpoch: 1560469500000
-    percentcontained: 15
+    reportdatetime: '2019-06-14T12:45Z'
+    reportdatetimeEpoch: 1560516300000
+    percentcontained: 20
     uniquefireidentifier: 2019-CAINF-000903
     firediscoverydatetime: '2019-06-09T22:32Z'
     firediscoverydatetimeEpoch: 1560119520000
@@ -2360,11 +2369,11 @@
     incidentname: JORDAN
     iscomplex: 'false'
     irwinid: '{92B298F6-8D26-4A12-A53B-B2BAF83A5821}'
-    irwinmodifiedon: '2019-06-13T23:57Z'
-    irwinmodifiedonEpoch: 1560470264000
+    irwinmodifiedon: '2019-06-14T12:53Z'
+    irwinmodifiedonEpoch: 1560516782000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T07:00Z'
+    datecurrentEpoch: 1560495610000
     pooownerunit: CAINF
     fireyear: 2019
     localincidentidentifier: 000903
@@ -2374,19 +2383,63 @@
     complexname: null
     DailyAcres: 485
     FireCause: Unknown
-    PercentContained: 15
+    PercentContained: 20
     UniqueFireIdentifier: 2019-CAINF-000903
     FireDiscoveryDateTime: '2019-06-09T22:32Z'
     FireDiscoveryDateTimeEpoch: 1560119520000
     Fire_Name: JORDAN
-    ModifiedOnDateTime: '2019-06-13T23:57Z'
-    ModifiedOnDateTimeEpoch: 1560470264000
+    ModifiedOnDateTime: '2019-06-14T12:53Z'
+    ModifiedOnDateTimeEpoch: 1560516782000
     Name: JORDAN
     Source: GEOMAC
     Hashtag: '#JordanFire'
-    _Provenance: *ref_1
-  Lon: -118.3036133758147
-  Lat: 36.22899752142698
+    _Provenance: &ref_5
+      OriginalSource:
+        RetrievedOn: '2019-06-14T13:00:13.815Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs: &ref_3
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -118.30807239466243
+  Lat: 36.22722508471204
+  id: 118450
+  Name: JORDAN
+  Fire_Name: JORDAN
+  UniqueFireIdentifier: 2019-CAINF-000903
+  DailyAcres: 485
+  PercentContained: 20
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2019-06-13T23:45Z'
+  ICS209ReportDateTimeEpoch: 1560469500000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  FireCause: Unknown
+  FireDiscoveryDateTime: '2019-06-09T22:32Z'
+  FireDiscoveryDateTimeEpoch: 1560119520000
+  DispatchCenterID: CAOVCC
+  LocalIncidentIdentifier: 000903
+  POOCounty: Tulare
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-14T12:53Z'
+  ModifiedOnDateTimeEpoch: 1560516782000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: GEOMAC
+  Hashtag: '#JordanFire'
+  NFSAType: Large WF
   objectid: 11
   latitude: 36.22722
   longitude: -118.30806
@@ -2396,9 +2449,9 @@
   state: CA
   status: U
   firecause: Unknown
-  reportdatetime: '2019-06-13T23:45Z'
-  reportdatetimeEpoch: 1560469500000
-  percentcontained: 15
+  reportdatetime: '2019-06-14T12:45Z'
+  reportdatetimeEpoch: 1560516300000
+  percentcontained: 20
   uniquefireidentifier: 2019-CAINF-000903
   firediscoverydatetime: '2019-06-09T22:32Z'
   firediscoverydatetimeEpoch: 1560119520000
@@ -2407,11 +2460,11 @@
   incidentname: JORDAN
   iscomplex: 'false'
   irwinid: '{92B298F6-8D26-4A12-A53B-B2BAF83A5821}'
-  irwinmodifiedon: '2019-06-13T23:57Z'
-  irwinmodifiedonEpoch: 1560470264000
+  irwinmodifiedon: '2019-06-14T12:53Z'
+  irwinmodifiedonEpoch: 1560516782000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T07:00Z'
+  datecurrentEpoch: 1560495610000
   pooownerunit: CAINF
   fireyear: 2019
   localincidentidentifier: 000903
@@ -2419,36 +2472,6 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
-  DailyAcres: 485
-  FireCause: Unknown
-  PercentContained: 15
-  UniqueFireIdentifier: 2019-CAINF-000903
-  FireDiscoveryDateTime: '2019-06-09T22:32Z'
-  FireDiscoveryDateTimeEpoch: 1560119520000
-  Fire_Name: JORDAN
-  ModifiedOnDateTime: '2019-06-13T23:57Z'
-  ModifiedOnDateTimeEpoch: 1560470264000
-  Name: JORDAN
-  Source: NFSA
-  Hashtag: '#JordanFire'
-  id: 118450
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-13T23:45Z'
-  ICS209ReportDateTimeEpoch: 1560469500000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 654850
-  TotalIncidentPersonnel: 288
-  DispatchCenterID: CAOVCC
-  LocalIncidentIdentifier: 000903
-  POOCounty: Tulare
-  POOLandownerKind: Federal
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  NFSAType: Large WF
   PerimDateTime: '2019-06-11T22:59Z'
   unitId: CAINF
   unitMention: '@InyoInfo'
@@ -2486,15 +2509,10 @@
     Source: NFSA
     Hashtag: '#NorthRiverFire'
     NFSAType: Large WF
-    _Provenance: &ref_3
+    _Provenance: &ref_7
       OriginalSource:
         RetrievedOn: '2019-06-14T12:30:49.631Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
+        Request: *ref_2
       Modified: true
   Source_GEOMAC:
     Lon: -160.10182577255347
@@ -2549,13 +2567,7 @@
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
+          qs: *ref_3
           headers:
             User-Agent: Request-Promise; Bot
           json: true
@@ -2801,7 +2813,7 @@
     Source: NFSA
     Hashtag: '#KuyukutukRiverFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance: *ref_4
   Source_GEOMAC:
     Lon: -161.55132292716573
     Lat: 62.02800968285215
@@ -2825,11 +2837,11 @@
     incidentname: Kuyukutuk River
     iscomplex: 'false'
     irwinid: '{B3DBFAAC-4026-4467-B0D6-8235EAECFB1B}'
-    irwinmodifiedon: '2019-06-14T02:23Z'
-    irwinmodifiedonEpoch: 1560479007000
+    irwinmodifiedon: '2019-06-14T12:30Z'
+    irwinmodifiedonEpoch: 1560515444000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T07:00Z'
+    datecurrentEpoch: 1560495610000
     pooownerunit: AKADD
     fireyear: 2019
     localincidentidentifier: '000224'
@@ -2844,14 +2856,42 @@
     FireDiscoveryDateTime: '2019-06-11T18:25Z'
     FireDiscoveryDateTimeEpoch: 1560277500000
     Fire_Name: Kuyukutuk River
-    ModifiedOnDateTime: '2019-06-14T02:23Z'
-    ModifiedOnDateTimeEpoch: 1560479007000
+    ModifiedOnDateTime: '2019-06-14T12:30Z'
+    ModifiedOnDateTimeEpoch: 1560515444000
     Name: Kuyukutuk River
     Source: GEOMAC
     Hashtag: '#KuyukutukRiverFire'
-    _Provenance: *ref_1
-  Lon: -161.55132288016776
-  Lat: 62.02800792986189
+    _Provenance: *ref_5
+  Lon: -161.55132292716573
+  Lat: 62.02800968285215
+  id: 118662
+  Name: Kuyukutuk River
+  Fire_Name: Kuyukutuk River
+  UniqueFireIdentifier: 2019-AKGAD-000224
+  DailyAcres: 1772.9
+  PercentContained: 60
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2019-06-13T23:00Z'
+  ICS209ReportDateTimeEpoch: 1560466800000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  FireCause: Natural
+  FireDiscoveryDateTime: '2019-06-11T18:25Z'
+  FireDiscoveryDateTimeEpoch: 1560277500000
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: '000224'
+  POOCounty: Kusilvak
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-14T12:30Z'
+  ModifiedOnDateTimeEpoch: 1560515444000
+  ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: GEOMAC
+  Hashtag: '#KuyukutukRiverFire'
+  NFSAType: Large WF
   objectid: 13
   latitude: 62.02801
   longitude: -161.5513
@@ -2872,11 +2912,11 @@
   incidentname: Kuyukutuk River
   iscomplex: 'false'
   irwinid: '{B3DBFAAC-4026-4467-B0D6-8235EAECFB1B}'
-  irwinmodifiedon: '2019-06-14T02:23Z'
-  irwinmodifiedonEpoch: 1560479007000
+  irwinmodifiedon: '2019-06-14T12:30Z'
+  irwinmodifiedonEpoch: 1560515444000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T07:00Z'
+  datecurrentEpoch: 1560495610000
   pooownerunit: AKADD
   fireyear: 2019
   localincidentidentifier: '000224'
@@ -2884,36 +2924,6 @@
   owneragency: BLM
   perimexist: 'N'
   complexname: null
-  DailyAcres: 1772.9
-  FireCause: Natural
-  PercentContained: 60
-  UniqueFireIdentifier: 2019-AKGAD-000224
-  FireDiscoveryDateTime: '2019-06-11T18:25Z'
-  FireDiscoveryDateTimeEpoch: 1560277500000
-  Fire_Name: Kuyukutuk River
-  ModifiedOnDateTime: '2019-06-14T02:23Z'
-  ModifiedOnDateTimeEpoch: 1560479007000
-  Name: Kuyukutuk River
-  Source: NFSA
-  Hashtag: '#KuyukutukRiverFire'
-  id: 118662
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2019-06-13T23:00Z'
-  ICS209ReportDateTimeEpoch: 1560466800000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 250000
-  TotalIncidentPersonnel: 34
-  DispatchCenterID: AKGADC
-  LocalIncidentIdentifier: '000224'
-  POOCounty: Kusilvak
-  POOLandownerKind: Federal
-  ModifiedBySystem: wildcad
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  NFSAType: Large WF
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
@@ -2951,10 +2961,10 @@
     Source: NFSA
     Hashtag: '#ShoeleatherCreekFire'
     NFSAType: Large WF
-    _Provenance: &ref_5
+    _Provenance: &ref_9
       OriginalSource:
         RetrievedOn: '2019-06-14T08:03:46.381Z'
-        Request: &ref_2
+        Request: &ref_6
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
           headers:
@@ -8140,10 +8150,10 @@
     Source: NFSA
     Hashtag: '#ScowHarryCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: &ref_4
+    _Provenance: &ref_8
       OriginalSource:
         RetrievedOn: '2019-06-14T09:30:53.084Z'
-        Request: *ref_2
+        Request: *ref_6
       Modified: true
   Lon: -154.43618972284057
   Lat: 63.203000262007585
@@ -8354,7 +8364,7 @@
     Source: NFSA
     Hashtag: '#PineCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_3
+    _Provenance: *ref_7
   Lon: -114.3178154096349
   Lat: 45.363154074336535
   Name: Pine Creek
@@ -8847,7 +8857,7 @@
     _Provenance:
       OriginalSource:
         RetrievedOn: '2019-06-14T08:30:09.842Z'
-        Request: *ref_2
+        Request: *ref_6
       Modified: true
   Lon: -162.84763675091642
   Lat: 60.84521697584341
@@ -8988,7 +8998,7 @@
     Source: NFSA
     Hashtag: '#KisarlikRiverFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_4
+    _Provenance: *ref_8
   Lon: -160.95673697676187
   Lat: 60.95325175612983
   Name: Kisarlik River
@@ -9058,7 +9068,7 @@
     Source: NFSA
     Hashtag: '#LittleKasiglukFire'
     NFSAType: Large WF
-    _Provenance: *ref_5
+    _Provenance: *ref_9
   Lon: -160.74601916056596
   Lat: 60.69049956384477
   id: 118810
@@ -9131,7 +9141,7 @@
     _Provenance:
       OriginalSource:
         RetrievedOn: '2019-06-14T09:01:07.980Z'
-        Request: *ref_2
+        Request: *ref_6
       Modified: true
   Lon: -118.07337516849486
   Lat: 33.90708779760555
@@ -9205,7 +9215,7 @@
     _Provenance:
       OriginalSource:
         RetrievedOn: '2019-06-14T10:30:33.121Z'
-        Request: *ref_6
+        Request: *ref_10
       Modified: true
   Lon: -112.33481136939959
   Lat: 33.84654250848205
@@ -9276,7 +9286,7 @@
     Source: NFSA
     Hashtag: '#BurpeeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_7
+    _Provenance: *ref_11
   Lon: -119.16461264303189
   Lat: 43.764227195175096
   Name: Burpee
@@ -9346,7 +9356,7 @@
     Source: NFSA
     Hashtag: '#MagdalenaFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_3
+    _Provenance: *ref_7
   Lon: -112.21600917307478
   Lat: 33.370315946697836
   Name: Magdalena
