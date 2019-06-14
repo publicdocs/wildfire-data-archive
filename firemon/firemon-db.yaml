@@ -1941,32 +1941,41 @@
     Fire_Name: SAND
     UniqueFireIdentifier: 2019-CALNU-009880
     DailyAcres: 2512
-    PercentContained: 95
+    PercentContained: 98
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-06-13T13:00Z'
-    ICS209ReportDateTimeEpoch: 1560430800000
+    ICS209ReportDateTime: '2019-06-14T13:00Z'
+    ICS209ReportDateTimeEpoch: 1560517200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 5000000
+    EstimatedCostToDate: 10000000
     FireCause: Unknown
-    TotalIncidentPersonnel: 1067
+    TotalIncidentPersonnel: 289
     FireDiscoveryDateTime: '2019-06-08T23:26Z'
     FireDiscoveryDateTimeEpoch: 1560036360000
     DispatchCenterID: CALNCC
     LocalIncidentIdentifier: 009880
     POOCounty: Colusa
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-13T13:40Z'
-    ModifiedOnDateTimeEpoch: 1560433230000
+    ModifiedOnDateTime: '2019-06-14T13:02Z'
+    ModifiedOnDateTimeEpoch: 1560517343000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#SandFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance: &ref_12
+      OriginalSource:
+        RetrievedOn: '2019-06-14T13:31:04.488Z'
+        Request: &ref_2
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -122.26640548756818
   Lat: 38.92778034580425
   id: 118331
@@ -1974,25 +1983,25 @@
   Fire_Name: SAND
   UniqueFireIdentifier: 2019-CALNU-009880
   DailyAcres: 2512
-  PercentContained: 95
+  PercentContained: 98
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 Team
-  ICS209ReportDateTime: '2019-06-13T13:00Z'
-  ICS209ReportDateTimeEpoch: 1560430800000
+  ICS209ReportDateTime: '2019-06-14T13:00Z'
+  ICS209ReportDateTimeEpoch: 1560517200000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 5000000
+  EstimatedCostToDate: 10000000
   FireCause: Unknown
-  TotalIncidentPersonnel: 1067
+  TotalIncidentPersonnel: 289
   FireDiscoveryDateTime: '2019-06-08T23:26Z'
   FireDiscoveryDateTimeEpoch: 1560036360000
   DispatchCenterID: CALNCC
   LocalIncidentIdentifier: 009880
   POOCounty: Colusa
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-13T13:40Z'
-  ModifiedOnDateTimeEpoch: 1560433230000
+  ModifiedOnDateTime: '2019-06-14T13:02Z'
+  ModifiedOnDateTimeEpoch: 1560517343000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
@@ -2339,12 +2348,7 @@
     _Provenance: &ref_4
       OriginalSource:
         RetrievedOn: '2019-06-14T13:00:13.264Z'
-        Request: &ref_2
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
+        Request: *ref_2
       Modified: true
   Source_GEOMAC:
     Lon: -118.30807239466243
@@ -9345,18 +9349,18 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-14T07:30Z'
-    FireDiscoveryDateTimeEpoch: 1560497432000
+    FireDiscoveryDateTimeEpoch: 1560497400000
     DispatchCenterID: AZPHC
     LocalIncidentIdentifier: '000632'
     POOCounty: Maricopa
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T12:10Z'
-    ModifiedOnDateTimeEpoch: 1560514216000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-06-14T13:18Z'
+    ModifiedOnDateTimeEpoch: 1560518319000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#MagdalenaFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_7
+    _Provenance: *ref_12
   Lon: -112.21600917307478
   Lat: 33.370315946697836
   Name: Magdalena
@@ -9378,14 +9382,14 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-14T07:30Z'
-  FireDiscoveryDateTimeEpoch: 1560497432000
+  FireDiscoveryDateTimeEpoch: 1560497400000
   DispatchCenterID: AZPHC
   LocalIncidentIdentifier: '000632'
   POOCounty: Maricopa
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T12:10Z'
-  ModifiedOnDateTimeEpoch: 1560514216000
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2019-06-14T13:18Z'
+  ModifiedOnDateTimeEpoch: 1560518319000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#MagdalenaFire'
   NFSAType: Emerging WF < 24 hours
