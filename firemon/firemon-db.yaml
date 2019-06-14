@@ -1667,10 +1667,10 @@
     Source: NFSA
     Hashtag: '#GuruleFire'
     NFSAType: Large WF
-    _Provenance: &ref_6
+    _Provenance: &ref_7
       OriginalSource:
         RetrievedOn: '2019-06-14T11:31:20.987Z'
-        Request: &ref_5
+        Request: &ref_6
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
           headers:
@@ -2478,15 +2478,24 @@
     LocalIncidentIdentifier: 000218
     POOCounty: Nome
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T04:26Z'
-    ModifiedOnDateTimeEpoch: 1560486377000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-14T12:17Z'
+    ModifiedOnDateTimeEpoch: 1560514654000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#NorthRiverFire'
     NFSAType: Large WF
-    _Provenance: *ref_0
+    _Provenance: &ref_3
+      OriginalSource:
+        RetrievedOn: '2019-06-14T12:30:49.631Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Source_GEOMAC:
     Lon: -160.10182577255347
     Lat: 65.24376961569864
@@ -2510,11 +2519,11 @@
     incidentname: North River
     iscomplex: 'false'
     irwinid: '{DE7F7137-3514-4B13-8665-405EE4E748CC}'
-    irwinmodifiedon: '2019-06-14T04:26Z'
-    irwinmodifiedonEpoch: 1560486377000
+    irwinmodifiedon: '2019-06-14T12:17Z'
+    irwinmodifiedonEpoch: 1560514654000
     mapsymbol: '1'
-    datecurrent: '2019-06-14T01:30Z'
-    datecurrentEpoch: 1560475808000
+    datecurrent: '2019-06-14T06:30Z'
+    datecurrentEpoch: 1560493812000
     pooownerunit: AKADD
     fireyear: 2019
     localincidentidentifier: 000218
@@ -2529,12 +2538,28 @@
     FireDiscoveryDateTime: '2019-06-10T17:11Z'
     FireDiscoveryDateTimeEpoch: 1560186660000
     Fire_Name: North River
-    ModifiedOnDateTime: '2019-06-14T04:26Z'
-    ModifiedOnDateTimeEpoch: 1560486377000
+    ModifiedOnDateTime: '2019-06-14T12:17Z'
+    ModifiedOnDateTimeEpoch: 1560514654000
     Name: North River
     Source: GEOMAC
     Hashtag: '#NorthRiverFire'
-    _Provenance: *ref_1
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-14T12:30:50.183Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -160.10012148813118
   Lat: 65.24376809695534
   objectid: 12
@@ -2557,11 +2582,11 @@
   incidentname: North River
   iscomplex: 'false'
   irwinid: '{DE7F7137-3514-4B13-8665-405EE4E748CC}'
-  irwinmodifiedon: '2019-06-14T04:26Z'
-  irwinmodifiedonEpoch: 1560486377000
+  irwinmodifiedon: '2019-06-14T12:17Z'
+  irwinmodifiedonEpoch: 1560514654000
   mapsymbol: '1'
-  datecurrent: '2019-06-14T01:30Z'
-  datecurrentEpoch: 1560475808000
+  datecurrent: '2019-06-14T06:30Z'
+  datecurrentEpoch: 1560493812000
   pooownerunit: AKADD
   fireyear: 2019
   localincidentidentifier: 000218
@@ -2576,8 +2601,8 @@
   FireDiscoveryDateTime: '2019-06-10T17:11Z'
   FireDiscoveryDateTimeEpoch: 1560186660000
   Fire_Name: North River
-  ModifiedOnDateTime: '2019-06-14T04:26Z'
-  ModifiedOnDateTimeEpoch: 1560486377000
+  ModifiedOnDateTime: '2019-06-14T12:17Z'
+  ModifiedOnDateTimeEpoch: 1560514654000
   Name: North River
   Source: NFSA
   Hashtag: '#NorthRiverFire'
@@ -2595,7 +2620,7 @@
   LocalIncidentIdentifier: 000218
   POOCounty: Nome
   POOLandownerKind: Federal
-  ModifiedBySystem: wildcad
+  ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrOther
   NFSAType: Large WF
@@ -2926,7 +2951,7 @@
     Source: NFSA
     Hashtag: '#ShoeleatherCreekFire'
     NFSAType: Large WF
-    _Provenance: &ref_4
+    _Provenance: &ref_5
       OriginalSource:
         RetrievedOn: '2019-06-14T08:03:46.381Z'
         Request: &ref_2
@@ -8115,7 +8140,7 @@
     Source: NFSA
     Hashtag: '#ScowHarryCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: &ref_3
+    _Provenance: &ref_4
       OriginalSource:
         RetrievedOn: '2019-06-14T09:30:53.084Z'
         Request: *ref_2
@@ -8323,13 +8348,13 @@
     LocalIncidentIdentifier: 019069
     POOCounty: Lemhi
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-14T01:54Z'
-    ModifiedOnDateTimeEpoch: 1560477242000
+    ModifiedOnDateTime: '2019-06-14T12:02Z'
+    ModifiedOnDateTimeEpoch: 1560513766000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#PineCreekFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_0
+    _Provenance: *ref_3
   Lon: -114.3178154096349
   Lat: 45.363154074336535
   Name: Pine Creek
@@ -8356,8 +8381,8 @@
   LocalIncidentIdentifier: 019069
   POOCounty: Lemhi
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-14T01:54Z'
-  ModifiedOnDateTimeEpoch: 1560477242000
+  ModifiedOnDateTime: '2019-06-14T12:02Z'
+  ModifiedOnDateTimeEpoch: 1560513766000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#PineCreekFire'
@@ -8963,7 +8988,7 @@
     Source: NFSA
     Hashtag: '#KisarlikRiverFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_3
+    _Provenance: *ref_4
   Lon: -160.95673697676187
   Lat: 60.95325175612983
   Name: Kisarlik River
@@ -9033,7 +9058,7 @@
     Source: NFSA
     Hashtag: '#LittleKasiglukFire'
     NFSAType: Large WF
-    _Provenance: *ref_4
+    _Provenance: *ref_5
   Lon: -160.74601916056596
   Lat: 60.69049956384477
   id: 118810
@@ -9180,7 +9205,7 @@
     _Provenance:
       OriginalSource:
         RetrievedOn: '2019-06-14T10:30:33.121Z'
-        Request: *ref_5
+        Request: *ref_6
       Modified: true
   Lon: -112.33481136939959
   Lat: 33.84654250848205
@@ -9251,7 +9276,7 @@
     Source: NFSA
     Hashtag: '#BurpeeFire'
     NFSAType: Emerging WF < 24 hours
-    _Provenance: *ref_6
+    _Provenance: *ref_7
   Lon: -119.16461264303189
   Lat: 43.764227195175096
   Name: Burpee
@@ -9287,3 +9312,73 @@
   PerimDateTime: null
   unitId: ORBUD
   unitMention: Burns District
+2019-AZPMA-000632:
+  Source_NFSA_Join:
+    Lon: -112.21600917307478
+    Lat: 33.370315946697836
+    Name: Magdalena
+    popupinfo: null
+    id: 118944
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Magdalena
+    UniqueFireIdentifier: 2019-AZPMA-000632
+    DailyAcres: 1.7
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-14T07:30Z'
+    FireDiscoveryDateTimeEpoch: 1560497432000
+    DispatchCenterID: AZPHC
+    LocalIncidentIdentifier: '000632'
+    POOCounty: Maricopa
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-14T12:10Z'
+    ModifiedOnDateTimeEpoch: 1560514216000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#MagdalenaFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance: *ref_3
+  Lon: -112.21600917307478
+  Lat: 33.370315946697836
+  Name: Magdalena
+  popupinfo: null
+  id: 118944
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Magdalena
+  UniqueFireIdentifier: 2019-AZPMA-000632
+  DailyAcres: 1.7
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-14T07:30Z'
+  FireDiscoveryDateTimeEpoch: 1560497432000
+  DispatchCenterID: AZPHC
+  LocalIncidentIdentifier: '000632'
+  POOCounty: Maricopa
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-14T12:10Z'
+  ModifiedOnDateTimeEpoch: 1560514216000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#MagdalenaFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AZPMA
+  unitMention: '@pimaarizona'
