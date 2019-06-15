@@ -1441,7 +1441,7 @@
     ICS209ReportDateTime: '2019-06-14T12:30Z'
     ICS209ReportDateTimeEpoch: 1560515400000
     ICS209ReportStatus: U
-    IncidentTypeCategory: FA
+    IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 1638000
     FireCause: Natural
@@ -1452,8 +1452,8 @@
     LocalIncidentIdentifier: 000178
     POOCounty: Catron
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-15T03:13Z'
-    ModifiedOnDateTimeEpoch: 1560568437000
+    ModifiedOnDateTime: '2019-06-15T13:53Z'
+    ModifiedOnDateTimeEpoch: 1560606782000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrType2
@@ -1462,7 +1462,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-15T03:30:39.581Z'
+        RetrievedOn: '2019-06-15T14:00:25.230Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1470,37 +1470,133 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
+  Source_GEOMAC:
+    Lon: -108.25071028127604
+    Lat: 33.998895396060924
+    objectid: 6
+    latitude: 33.99889
+    longitude: -108.2507
+    acres: 1158
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NM
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-14T12:30Z'
+    reportdatetimeEpoch: 1560515400000
+    percentcontained: 48
+    uniquefireidentifier: 2019-NMGNF-000178
+    firediscoverydatetime: '2019-06-06T18:31Z'
+    firediscoverydatetimeEpoch: 1559845860000
+    complexparentirwinid: null
+    pooresponsibleunit: NMGNF
+    incidentname: Elk
+    iscomplex: 'false'
+    irwinid: '{917FD9EC-ACAE-4D9B-9934-57ABE27B564B}'
+    irwinmodifiedon: '2019-06-15T13:53Z'
+    irwinmodifiedonEpoch: 1560606783000
+    mapsymbol: '1'
+    datecurrent: '2019-06-15T08:00Z'
+    datecurrentEpoch: 1560585610000
+    pooownerunit: NMGNF
+    fireyear: 2019
+    localincidentidentifier: 000178
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 1158
+    FireCause: Natural
+    PercentContained: 48
+    UniqueFireIdentifier: 2019-NMGNF-000178
+    FireDiscoveryDateTime: '2019-06-06T18:31Z'
+    FireDiscoveryDateTimeEpoch: 1559845860000
+    Fire_Name: Elk
+    ModifiedOnDateTime: '2019-06-15T13:53Z'
+    ModifiedOnDateTimeEpoch: 1560606783000
+    Name: Elk
+    Source: GEOMAC
+    Hashtag: '#ElkFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-15T14:00:25.779Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -108.25080957635984
   Lat: 33.998994404299786
-  id: 118144
-  Name: Elk
-  Fire_Name: Elk
-  UniqueFireIdentifier: 2019-NMGNF-000178
+  objectid: 6
+  latitude: 33.99889
+  longitude: -108.2507
+  acres: 1158
+  gacc: SWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: NM
+  status: U
+  firecause: Natural
+  reportdatetime: '2019-06-14T12:30Z'
+  reportdatetimeEpoch: 1560515400000
+  percentcontained: 48
+  uniquefireidentifier: 2019-NMGNF-000178
+  firediscoverydatetime: '2019-06-06T18:31Z'
+  firediscoverydatetimeEpoch: 1559845860000
+  complexparentirwinid: null
+  pooresponsibleunit: NMGNF
+  incidentname: Elk
+  iscomplex: 'false'
+  irwinid: '{917FD9EC-ACAE-4D9B-9934-57ABE27B564B}'
+  irwinmodifiedon: '2019-06-15T13:53Z'
+  irwinmodifiedonEpoch: 1560606783000
+  mapsymbol: '1'
+  datecurrent: '2019-06-15T08:00Z'
+  datecurrentEpoch: 1560585610000
+  pooownerunit: NMGNF
+  fireyear: 2019
+  localincidentidentifier: 000178
+  incidenttypecategory: WF
+  owneragency: USFS
+  perimexist: 'Y'
+  complexname: null
   DailyAcres: 1158
+  FireCause: Natural
   PercentContained: 48
+  UniqueFireIdentifier: 2019-NMGNF-000178
+  FireDiscoveryDateTime: '2019-06-06T18:31Z'
+  FireDiscoveryDateTimeEpoch: 1559845860000
+  Fire_Name: Elk
+  ModifiedOnDateTime: '2019-06-15T13:53Z'
+  ModifiedOnDateTimeEpoch: 1560606782000
+  Name: Elk
+  Source: NFSA
+  Hashtag: '#ElkFire'
+  id: 118144
   FireMgmtComplexity: Type 2 Incident
   IncidentManagementOrganization: Type 2 Team
   ICS209ReportDateTime: '2019-06-14T12:30Z'
   ICS209ReportDateTimeEpoch: 1560515400000
   ICS209ReportStatus: U
-  IncidentTypeCategory: FA
+  IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: 1638000
-  FireCause: Natural
   TotalIncidentPersonnel: 188
-  FireDiscoveryDateTime: '2019-06-06T18:31Z'
-  FireDiscoveryDateTimeEpoch: 1559845860000
   DispatchCenterID: NMSDC
   LocalIncidentIdentifier: 000178
   POOCounty: Catron
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-15T03:13Z'
-  ModifiedOnDateTimeEpoch: 1560568437000
   ModifiedBySystem: wildcad
   popupinfo: null
   calc_symboltype: ImsrType2
-  Source: NFSA
-  Hashtag: '#ElkFire'
   NFSAType: Large WF
   PerimDateTime: '2019-06-14T00:50Z'
   unitId: NMGNF
@@ -13952,11 +14048,11 @@
   Source_NFSA_Join:
     Lon: -112.11281071323513
     Lat: 36.05643847029272
-    Name: '#1 YAVAPAI'
+    Name: YAVAPAI
     popupinfo: null
     id: 119032
     calc_symboltype: NewIrwinOnly
-    Fire_Name: '#1 YAVAPAI'
+    Fire_Name: YAVAPAI
     UniqueFireIdentifier: 2019-AZGCP-000026
     DailyAcres: 0.25
     PercentContained: null
@@ -13976,15 +14072,15 @@
     LocalIncidentIdentifier: '000026'
     POOCounty: Coconino
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-15T03:17Z'
-    ModifiedOnDateTimeEpoch: 1560568633000
+    ModifiedOnDateTime: '2019-06-15T13:45Z'
+    ModifiedOnDateTimeEpoch: 1560606329000
     ModifiedBySystem: wildcad
     Source: NFSA
-    Hashtag: '#1YavapaiFire'
+    Hashtag: '#YavapaiFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-15T03:30:39.581Z'
+        RetrievedOn: '2019-06-15T14:00:25.230Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -13994,11 +14090,11 @@
       Modified: true
   Lon: -112.11281071323513
   Lat: 36.05643847029272
-  Name: '#1 YAVAPAI'
+  Name: YAVAPAI
   popupinfo: null
   id: 119032
   calc_symboltype: NewIrwinOnly
-  Fire_Name: '#1 YAVAPAI'
+  Fire_Name: YAVAPAI
   UniqueFireIdentifier: 2019-AZGCP-000026
   DailyAcres: 0.25
   PercentContained: null
@@ -14018,11 +14114,11 @@
   LocalIncidentIdentifier: '000026'
   POOCounty: Coconino
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-15T03:17Z'
-  ModifiedOnDateTimeEpoch: 1560568633000
+  ModifiedOnDateTime: '2019-06-15T13:45Z'
+  ModifiedOnDateTimeEpoch: 1560606329000
   ModifiedBySystem: wildcad
   Source: NFSA
-  Hashtag: '#1YavapaiFire'
+  Hashtag: '#YavapaiFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
   unitId: AZGCP
