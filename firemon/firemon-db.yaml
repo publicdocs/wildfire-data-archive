@@ -3128,15 +3128,15 @@
     Fire_Name: Kuyukutuk River
     UniqueFireIdentifier: 2019-AKGAD-000224
     DailyAcres: 5332
-    PercentContained: 60
+    PercentContained: 90
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-06-13T23:00Z'
-    ICS209ReportDateTimeEpoch: 1560466800000
+    ICS209ReportDateTime: '2019-06-15T22:00Z'
+    ICS209ReportDateTimeEpoch: 1560636000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 250000
+    EstimatedCostToDate: 400000
     FireCause: Natural
     TotalIncidentPersonnel: 34
     FireDiscoveryDateTime: '2019-06-11T18:25Z'
@@ -3145,9 +3145,9 @@
     LocalIncidentIdentifier: '000224'
     POOCounty: Kusilvak
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-16T00:47Z'
-    ModifiedOnDateTimeEpoch: 1560646031000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-16T04:42Z'
+    ModifiedOnDateTimeEpoch: 1560660161000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -3155,7 +3155,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T01:01:05.182Z'
+        RetrievedOn: '2019-06-16T05:02:07.014Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -3163,133 +3163,37 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Source_GEOMAC:
-    Lon: -161.55132292716573
-    Lat: 62.02800968285215
-    objectid: 13
-    latitude: 62.02801
-    longitude: -161.5513
-    acres: 5332
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-06-13T23:00Z'
-    reportdatetimeEpoch: 1560466800000
-    percentcontained: 60
-    uniquefireidentifier: 2019-AKGAD-000224
-    firediscoverydatetime: '2019-06-11T18:25Z'
-    firediscoverydatetimeEpoch: 1560277500000
-    complexparentirwinid: null
-    pooresponsibleunit: AKGAD
-    incidentname: Kuyukutuk River
-    iscomplex: 'false'
-    irwinid: '{B3DBFAAC-4026-4467-B0D6-8235EAECFB1B}'
-    irwinmodifiedon: '2019-06-16T00:47Z'
-    irwinmodifiedonEpoch: 1560646032000
-    mapsymbol: '1'
-    datecurrent: '2019-06-15T19:00Z'
-    datecurrentEpoch: 1560625212000
-    pooownerunit: AKADD
-    fireyear: 2019
-    localincidentidentifier: '000224'
-    incidenttypecategory: WF
-    owneragency: BLM
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 5332
-    FireCause: Natural
-    PercentContained: 60
-    UniqueFireIdentifier: 2019-AKGAD-000224
-    FireDiscoveryDateTime: '2019-06-11T18:25Z'
-    FireDiscoveryDateTimeEpoch: 1560277500000
-    Fire_Name: Kuyukutuk River
-    ModifiedOnDateTime: '2019-06-16T00:47Z'
-    ModifiedOnDateTimeEpoch: 1560646032000
-    Name: Kuyukutuk River
-    Source: GEOMAC
-    Hashtag: '#KuyukutukRiverFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-16T01:01:05.915Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
   Lon: -161.55132288016776
   Lat: 62.02800792986189
-  objectid: 13
-  latitude: 62.02801
-  longitude: -161.5513
-  acres: 5332
-  gacc: AKCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: AK
-  status: U
-  firecause: Natural
-  reportdatetime: '2019-06-13T23:00Z'
-  reportdatetimeEpoch: 1560466800000
-  percentcontained: 60
-  uniquefireidentifier: 2019-AKGAD-000224
-  firediscoverydatetime: '2019-06-11T18:25Z'
-  firediscoverydatetimeEpoch: 1560277500000
-  complexparentirwinid: null
-  pooresponsibleunit: AKGAD
-  incidentname: Kuyukutuk River
-  iscomplex: 'false'
-  irwinid: '{B3DBFAAC-4026-4467-B0D6-8235EAECFB1B}'
-  irwinmodifiedon: '2019-06-16T00:47Z'
-  irwinmodifiedonEpoch: 1560646032000
-  mapsymbol: '1'
-  datecurrent: '2019-06-15T19:00Z'
-  datecurrentEpoch: 1560625212000
-  pooownerunit: AKADD
-  fireyear: 2019
-  localincidentidentifier: '000224'
-  incidenttypecategory: WF
-  owneragency: BLM
-  perimexist: 'Y'
-  complexname: null
-  DailyAcres: 5332
-  FireCause: Natural
-  PercentContained: 60
-  UniqueFireIdentifier: 2019-AKGAD-000224
-  FireDiscoveryDateTime: '2019-06-11T18:25Z'
-  FireDiscoveryDateTimeEpoch: 1560277500000
-  Fire_Name: Kuyukutuk River
-  ModifiedOnDateTime: '2019-06-16T00:47Z'
-  ModifiedOnDateTimeEpoch: 1560646031000
-  Name: Kuyukutuk River
-  Source: NFSA
-  Hashtag: '#KuyukutukRiverFire'
   id: 118662
+  Name: Kuyukutuk River
+  Fire_Name: Kuyukutuk River
+  UniqueFireIdentifier: 2019-AKGAD-000224
+  DailyAcres: 5332
+  PercentContained: 90
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2019-06-13T23:00Z'
-  ICS209ReportDateTimeEpoch: 1560466800000
+  ICS209ReportDateTime: '2019-06-15T22:00Z'
+  ICS209ReportDateTimeEpoch: 1560636000000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 250000
+  EstimatedCostToDate: 400000
+  FireCause: Natural
   TotalIncidentPersonnel: 34
+  FireDiscoveryDateTime: '2019-06-11T18:25Z'
+  FireDiscoveryDateTimeEpoch: 1560277500000
   DispatchCenterID: AKGADC
   LocalIncidentIdentifier: '000224'
   POOCounty: Kusilvak
   POOLandownerKind: Federal
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-16T04:42Z'
+  ModifiedOnDateTimeEpoch: 1560660161000
+  ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#KuyukutukRiverFire'
   NFSAType: Large WF
   PerimDateTime: '2019-06-12T14:45Z'
   unitId: AKGAD
@@ -20307,15 +20211,15 @@
     LocalIncidentIdentifier: 009029
     POOCounty: Harney
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-16T02:18Z'
-    ModifiedOnDateTimeEpoch: 1560651480000
+    ModifiedOnDateTime: '2019-06-16T04:36Z'
+    ModifiedOnDateTimeEpoch: 1560659779000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#MyrtleFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T02:31:25.037Z'
+        RetrievedOn: '2019-06-16T05:02:07.014Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -20349,8 +20253,8 @@
   LocalIncidentIdentifier: 009029
   POOCounty: Harney
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-16T02:18Z'
-  ModifiedOnDateTimeEpoch: 1560651480000
+  ModifiedOnDateTime: '2019-06-16T04:36Z'
+  ModifiedOnDateTimeEpoch: 1560659779000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#MyrtleFire'
@@ -20544,15 +20448,15 @@
     LocalIncidentIdentifier: 000590
     POOCounty: Trinity
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-16T03:00Z'
-    ModifiedOnDateTimeEpoch: 1560654017000
+    ModifiedOnDateTime: '2019-06-16T04:36Z'
+    ModifiedOnDateTimeEpoch: 1560659782000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BowermanFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T03:01:30.839Z'
+        RetrievedOn: '2019-06-16T05:02:07.014Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -20586,8 +20490,8 @@
   LocalIncidentIdentifier: 000590
   POOCounty: Trinity
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-16T03:00Z'
-  ModifiedOnDateTimeEpoch: 1560654017000
+  ModifiedOnDateTime: '2019-06-16T04:36Z'
+  ModifiedOnDateTimeEpoch: 1560659782000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BowermanFire'
