@@ -1357,23 +1357,23 @@
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-06-16T04:15Z'
-    ICS209ReportDateTimeEpoch: 1560658500000
+    ICS209ReportDateTime: '2019-06-17T03:00Z'
+    ICS209ReportDateTimeEpoch: 1560740400000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 523255
+    EstimatedCostToDate: 623255
     FireCause: Natural
-    TotalIncidentPersonnel: 94
+    TotalIncidentPersonnel: 118
     FireDiscoveryDateTime: '2019-06-06T02:52Z'
     FireDiscoveryDateTimeEpoch: 1559789537000
     DispatchCenterID: AKKIDC
     LocalIncidentIdentifier: '903181'
     POOCounty: Kenai Peninsula
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-17T00:36Z'
-    ModifiedOnDateTimeEpoch: 1560731791000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-06-17T03:43Z'
+    ModifiedOnDateTimeEpoch: 1560742980000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -1381,7 +1381,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-17T01:01:05.700Z'
+        RetrievedOn: '2019-06-17T04:00:50.772Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1399,23 +1399,23 @@
   PercentContained: 0
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-16T04:15Z'
-  ICS209ReportDateTimeEpoch: 1560658500000
+  ICS209ReportDateTime: '2019-06-17T03:00Z'
+  ICS209ReportDateTimeEpoch: 1560740400000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 523255
+  EstimatedCostToDate: 623255
   FireCause: Natural
-  TotalIncidentPersonnel: 94
+  TotalIncidentPersonnel: 118
   FireDiscoveryDateTime: '2019-06-06T02:52Z'
   FireDiscoveryDateTimeEpoch: 1559789537000
   DispatchCenterID: AKKIDC
   LocalIncidentIdentifier: '903181'
   POOCounty: Kenai Peninsula
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-17T00:36Z'
-  ModifiedOnDateTimeEpoch: 1560731791000
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2019-06-17T03:43Z'
+  ModifiedOnDateTimeEpoch: 1560742980000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
@@ -3149,9 +3149,9 @@
     LocalIncidentIdentifier: '000224'
     POOCounty: Kusilvak
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-17T01:37Z'
-    ModifiedOnDateTimeEpoch: 1560735438000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-06-17T03:51Z'
+    ModifiedOnDateTimeEpoch: 1560743503000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -3159,7 +3159,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-17T02:00:45.405Z'
+        RetrievedOn: '2019-06-17T04:00:50.772Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -3191,9 +3191,9 @@
   LocalIncidentIdentifier: '000224'
   POOCounty: Kusilvak
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-17T01:37Z'
-  ModifiedOnDateTimeEpoch: 1560735438000
-  ModifiedBySystem: ifm
+  ModifiedOnDateTime: '2019-06-17T03:51Z'
+  ModifiedOnDateTimeEpoch: 1560743503000
+  ModifiedBySystem: wildcad
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
@@ -27175,13 +27175,11 @@
   Source_NFSA_Join:
     Lon: -120.2024183244695
     Lat: 46.94277811014914
-    Name: YTC Rye Grass
-    popupinfo: null
     id: 119222
-    calc_symboltype: NewIrwinOnly
+    Name: YTC Rye Grass
     Fire_Name: YTC Rye Grass
     UniqueFireIdentifier: 2019-WASES-000162
-    DailyAcres: 0.1
+    DailyAcres: 500
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -27199,15 +27197,17 @@
     LocalIncidentIdentifier: '000162'
     POOCounty: Kittitas
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-17T02:11Z'
-    ModifiedOnDateTimeEpoch: 1560737469000
+    ModifiedOnDateTime: '2019-06-17T03:56Z'
+    ModifiedOnDateTimeEpoch: 1560743810000
     ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#YtcRyeGrassFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-17T02:30:43.839Z'
+        RetrievedOn: '2019-06-17T04:00:50.772Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -27217,13 +27217,11 @@
       Modified: true
   Lon: -120.2024183244695
   Lat: 46.94277811014914
-  Name: YTC Rye Grass
-  popupinfo: null
   id: 119222
-  calc_symboltype: NewIrwinOnly
+  Name: YTC Rye Grass
   Fire_Name: YTC Rye Grass
   UniqueFireIdentifier: 2019-WASES-000162
-  DailyAcres: 0.1
+  DailyAcres: 500
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -27241,12 +27239,14 @@
   LocalIncidentIdentifier: '000162'
   POOCounty: Kittitas
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-17T02:11Z'
-  ModifiedOnDateTimeEpoch: 1560737469000
+  ModifiedOnDateTime: '2019-06-17T03:56Z'
+  ModifiedOnDateTimeEpoch: 1560743810000
   ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
   Source: NFSA
   Hashtag: '#YtcRyeGrassFire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
@@ -27645,3 +27645,82 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+2019-AKGAD-555099:
+  Source_NFSA_Join:
+    Lon: -164.29972747508427
+    Lat: 65.34995953650095
+    Name: North of Nome
+    popupinfo: null
+    id: 119231
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: North of Nome
+    UniqueFireIdentifier: 2019-AKGAD-555099
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: FA
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-16T22:46Z'
+    FireDiscoveryDateTimeEpoch: 1560725215000
+    DispatchCenterID: AKGADC
+    LocalIncidentIdentifier: '555099'
+    POOCounty: Nome
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-17T03:30Z'
+    ModifiedOnDateTimeEpoch: 1560742249000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#NorthOfNomeFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-17T04:00:50.772Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -164.29972747508427
+  Lat: 65.34995953650095
+  Name: North of Nome
+  popupinfo: null
+  id: 119231
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: North of Nome
+  UniqueFireIdentifier: 2019-AKGAD-555099
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: FA
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-16T22:46Z'
+  FireDiscoveryDateTimeEpoch: 1560725215000
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: '555099'
+  POOCounty: Nome
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-17T03:30Z'
+  ModifiedOnDateTimeEpoch: 1560742249000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#NorthOfNomeFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AKGAD
+  unitMention: Alaska Fire Service - Galena Zone
