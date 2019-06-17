@@ -2977,8 +2977,8 @@
     PercentContained: 90
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-06-16T00:00Z'
-    ICS209ReportDateTimeEpoch: 1560643200000
+    ICS209ReportDateTime: '2019-06-16T23:30Z'
+    ICS209ReportDateTimeEpoch: 1560727800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -2991,8 +2991,8 @@
     LocalIncidentIdentifier: '000252'
     POOCounty: Santa Cruz
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-16T01:59Z'
-    ModifiedOnDateTimeEpoch: 1560650341000
+    ModifiedOnDateTime: '2019-06-16T23:39Z'
+    ModifiedOnDateTimeEpoch: 1560728358000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
@@ -3001,7 +3001,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T02:01:18.632Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -3019,8 +3019,8 @@
   PercentContained: 90
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: Type 5 IC
-  ICS209ReportDateTime: '2019-06-16T00:00Z'
-  ICS209ReportDateTimeEpoch: 1560643200000
+  ICS209ReportDateTime: '2019-06-16T23:30Z'
+  ICS209ReportDateTimeEpoch: 1560727800000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
@@ -3033,8 +3033,8 @@
   LocalIncidentIdentifier: '000252'
   POOCounty: Santa Cruz
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-16T01:59Z'
-  ModifiedOnDateTimeEpoch: 1560650341000
+  ModifiedOnDateTime: '2019-06-16T23:39Z'
+  ModifiedOnDateTimeEpoch: 1560728358000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
@@ -18058,39 +18058,39 @@
   Source_NFSA_Join:
     Lon: -120.75541223022063
     Lat: 42.47870461992911
-    Name: Dairy
-    popupinfo: null
     id: 119094
-    calc_symboltype: NewIrwinOnly
+    Name: Dairy
     Fire_Name: Dairy
     UniqueFireIdentifier: 2019-ORFWF-000169
-    DailyAcres: 110
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 107
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-06-16T23:00Z'
+    ICS209ReportDateTimeEpoch: 1560726000000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 40000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 42
     FireDiscoveryDateTime: '2019-06-15T20:08Z'
     FireDiscoveryDateTimeEpoch: 1560629280000
     DispatchCenterID: ORLFC
     LocalIncidentIdentifier: 000169
     POOCounty: Lake
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-16T14:26Z'
-    ModifiedOnDateTimeEpoch: 1560695169000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-16T23:43Z'
+    ModifiedOnDateTimeEpoch: 1560728582000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#DairyFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T14:30:54.377Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -18098,38 +18098,134 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
+  Source_GEOMAC:
+    Lon: -120.75541361283626
+    Lat: 42.478705449458865
+    objectid: 13
+    latitude: 42.4787
+    longitude: -120.7554
+    acres: 107
+    gacc: NWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: OR
+    status: I
+    firecause: Natural
+    reportdatetime: '2019-06-16T23:00Z'
+    reportdatetimeEpoch: 1560726000000
+    percentcontained: 0
+    uniquefireidentifier: 2019-ORFWF-000169
+    firediscoverydatetime: '2019-06-15T20:08Z'
+    firediscoverydatetimeEpoch: 1560629280000
+    complexparentirwinid: null
+    pooresponsibleunit: ORFWF
+    incidentname: Dairy
+    iscomplex: 'false'
+    irwinid: '{EB65FF7D-6E17-4F20-BAB5-E93F6BAD3787}'
+    irwinmodifiedon: '2019-06-16T23:43Z'
+    irwinmodifiedonEpoch: 1560728583000
+    mapsymbol: '1'
+    datecurrent: '2019-06-16T18:00Z'
+    datecurrentEpoch: 1560708008000
+    pooownerunit: ORFWF
+    fireyear: 2019
+    localincidentidentifier: 000169
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 107
+    FireCause: Natural
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-ORFWF-000169
+    FireDiscoveryDateTime: '2019-06-15T20:08Z'
+    FireDiscoveryDateTimeEpoch: 1560629280000
+    Fire_Name: Dairy
+    ModifiedOnDateTime: '2019-06-16T23:43Z'
+    ModifiedOnDateTimeEpoch: 1560728583000
+    Name: Dairy
+    Source: GEOMAC
+    Hashtag: '#DairyFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-17T00:00:28.304Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -120.75541223022063
   Lat: 42.47870461992911
-  Name: Dairy
-  popupinfo: null
-  id: 119094
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Dairy
-  UniqueFireIdentifier: 2019-ORFWF-000169
-  DailyAcres: 110
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  objectid: 13
+  latitude: 42.4787
+  longitude: -120.7554
+  acres: 107
+  gacc: NWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: OR
+  status: I
+  firecause: Natural
+  reportdatetime: '2019-06-16T23:00Z'
+  reportdatetimeEpoch: 1560726000000
+  percentcontained: 0
+  uniquefireidentifier: 2019-ORFWF-000169
+  firediscoverydatetime: '2019-06-15T20:08Z'
+  firediscoverydatetimeEpoch: 1560629280000
+  complexparentirwinid: null
+  pooresponsibleunit: ORFWF
+  incidentname: Dairy
+  iscomplex: 'false'
+  irwinid: '{EB65FF7D-6E17-4F20-BAB5-E93F6BAD3787}'
+  irwinmodifiedon: '2019-06-16T23:43Z'
+  irwinmodifiedonEpoch: 1560728583000
+  mapsymbol: '1'
+  datecurrent: '2019-06-16T18:00Z'
+  datecurrentEpoch: 1560708008000
+  pooownerunit: ORFWF
+  fireyear: 2019
+  localincidentidentifier: 000169
+  incidenttypecategory: WF
+  owneragency: USFS
+  perimexist: 'N'
+  complexname: null
+  DailyAcres: 107
   FireCause: Natural
-  TotalIncidentPersonnel: null
+  PercentContained: 0
+  UniqueFireIdentifier: 2019-ORFWF-000169
   FireDiscoveryDateTime: '2019-06-15T20:08Z'
   FireDiscoveryDateTimeEpoch: 1560629280000
+  Fire_Name: Dairy
+  ModifiedOnDateTime: '2019-06-16T23:43Z'
+  ModifiedOnDateTimeEpoch: 1560728582000
+  Name: Dairy
+  Source: NFSA
+  Hashtag: '#DairyFire'
+  id: 119094
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2019-06-16T23:00Z'
+  ICS209ReportDateTimeEpoch: 1560726000000
+  ICS209ReportStatus: I
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 40000
+  TotalIncidentPersonnel: 42
   DispatchCenterID: ORLFC
   LocalIncidentIdentifier: 000169
   POOCounty: Lake
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-16T14:26Z'
-  ModifiedOnDateTimeEpoch: 1560695169000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  Hashtag: '#DairyFire'
-  NFSAType: Emerging WF < 24 hours
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: ORFWF
   unitMention: Fremont-Winema NF
@@ -23548,15 +23644,15 @@
     LocalIncidentIdentifier: 000439
     POOCounty: Coconino
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-16T22:37Z'
-    ModifiedOnDateTimeEpoch: 1560724651000
+    ModifiedOnDateTime: '2019-06-16T23:43Z'
+    ModifiedOnDateTimeEpoch: 1560728581000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BurroFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T23:00:11.718Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -23590,8 +23686,8 @@
   LocalIncidentIdentifier: 000439
   POOCounty: Coconino
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-16T22:37Z'
-  ModifiedOnDateTimeEpoch: 1560724651000
+  ModifiedOnDateTime: '2019-06-16T23:43Z'
+  ModifiedOnDateTimeEpoch: 1560728581000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BurroFire'
@@ -24417,15 +24513,15 @@
     LocalIncidentIdentifier: 001419
     POOCounty: Stevens
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-16T23:09Z'
-    ModifiedOnDateTimeEpoch: 1560726593000
+    ModifiedOnDateTime: '2019-06-16T23:49Z'
+    ModifiedOnDateTimeEpoch: 1560728956000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#MantzFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T23:31:07.637Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -24459,8 +24555,8 @@
   LocalIncidentIdentifier: 001419
   POOCounty: Stevens
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-16T23:09Z'
-  ModifiedOnDateTimeEpoch: 1560726593000
+  ModifiedOnDateTime: '2019-06-16T23:49Z'
+  ModifiedOnDateTimeEpoch: 1560728956000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#MantzFire'
@@ -24733,15 +24829,15 @@
     LocalIncidentIdentifier: 000596
     POOCounty: Trinity
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-16T22:39Z'
-    ModifiedOnDateTimeEpoch: 1560724798000
+    ModifiedOnDateTime: '2019-06-16T23:59Z'
+    ModifiedOnDateTimeEpoch: 1560729577000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BoulderFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T23:00:11.718Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -24775,8 +24871,8 @@
   LocalIncidentIdentifier: 000596
   POOCounty: Trinity
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-16T22:39Z'
-  ModifiedOnDateTimeEpoch: 1560724798000
+  ModifiedOnDateTime: '2019-06-16T23:59Z'
+  ModifiedOnDateTimeEpoch: 1560729577000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BoulderFire'
@@ -24886,20 +24982,20 @@
     FireCause: Human
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-16T16:29Z'
-    FireDiscoveryDateTimeEpoch: 1560702568000
+    FireDiscoveryDateTimeEpoch: 1560702540000
     DispatchCenterID: AZADC
     LocalIncidentIdentifier: '000764'
     POOCounty: Cochise
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-16T23:29Z'
-    ModifiedOnDateTimeEpoch: 1560727786000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-16T23:32Z'
+    ModifiedOnDateTimeEpoch: 1560727966000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#LittleGuyFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T23:31:07.637Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -24928,14 +25024,14 @@
   FireCause: Human
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-16T16:29Z'
-  FireDiscoveryDateTimeEpoch: 1560702568000
+  FireDiscoveryDateTimeEpoch: 1560702540000
   DispatchCenterID: AZADC
   LocalIncidentIdentifier: '000764'
   POOCounty: Cochise
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-16T23:29Z'
-  ModifiedOnDateTimeEpoch: 1560727786000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-16T23:32Z'
+  ModifiedOnDateTimeEpoch: 1560727966000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#LittleGuyFire'
   NFSAType: Emerging WF < 24 hours
@@ -25128,15 +25224,15 @@
     LocalIncidentIdentifier: '000240'
     POOCounty: Otero
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-16T23:15Z'
-    ModifiedOnDateTimeEpoch: 1560726904000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-16T23:36Z'
+    ModifiedOnDateTimeEpoch: 1560728162000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#D2Campfire24Fire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T23:31:07.637Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -25170,9 +25266,9 @@
   LocalIncidentIdentifier: '000240'
   POOCounty: Otero
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-16T23:15Z'
-  ModifiedOnDateTimeEpoch: 1560726904000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-16T23:36Z'
+  ModifiedOnDateTimeEpoch: 1560728162000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#D2Campfire24Fire'
   NFSAType: Emerging WF < 24 hours
@@ -25207,15 +25303,15 @@
     LocalIncidentIdentifier: '000241'
     POOCounty: Otero
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-16T23:18Z'
-    ModifiedOnDateTimeEpoch: 1560727081000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-06-16T23:35Z'
+    ModifiedOnDateTimeEpoch: 1560728143000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#D2Campfire25Fire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-16T23:31:07.637Z'
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -25249,9 +25345,9 @@
   LocalIncidentIdentifier: '000241'
   POOCounty: Otero
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-16T23:18Z'
-  ModifiedOnDateTimeEpoch: 1560727081000
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2019-06-16T23:35Z'
+  ModifiedOnDateTimeEpoch: 1560728143000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#D2Campfire25Fire'
   NFSAType: Emerging WF < 24 hours
@@ -25337,3 +25433,319 @@
   PerimDateTime: null
   unitId: UTCCD
   unitMention: Cedar City Field Office
+2019-UTCCD-000172:
+  Source_NFSA_Join:
+    Lon: -112.87170746525929
+    Lat: 37.010977358975666
+    Name: Sandstone
+    popupinfo: null
+    id: 119201
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Sandstone
+    UniqueFireIdentifier: 2019-UTCCD-000172
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-16T21:30Z'
+    FireDiscoveryDateTimeEpoch: 1560720600000
+    DispatchCenterID: UTCDC
+    LocalIncidentIdentifier: '000172'
+    POOCounty: Kane
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-16T23:53Z'
+    ModifiedOnDateTimeEpoch: 1560729223000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#SandstoneFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -112.87170746525929
+  Lat: 37.010977358975666
+  Name: Sandstone
+  popupinfo: null
+  id: 119201
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Sandstone
+  UniqueFireIdentifier: 2019-UTCCD-000172
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Natural
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-16T21:30Z'
+  FireDiscoveryDateTimeEpoch: 1560720600000
+  DispatchCenterID: UTCDC
+  LocalIncidentIdentifier: '000172'
+  POOCounty: Kane
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-16T23:53Z'
+  ModifiedOnDateTimeEpoch: 1560729223000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#SandstoneFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: UTCCD
+  unitMention: Cedar City Field Office
+2019-UTCCD-000171:
+  Source_NFSA_Join:
+    Lon: -112.58031195339662
+    Lat: 37.1402578763578
+    Name: Hancock
+    popupinfo: null
+    id: 119202
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Hancock
+    UniqueFireIdentifier: 2019-UTCCD-000171
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-16T21:12Z'
+    FireDiscoveryDateTimeEpoch: 1560719520000
+    DispatchCenterID: UTCDC
+    LocalIncidentIdentifier: '000171'
+    POOCounty: Kane
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-16T23:39Z'
+    ModifiedOnDateTimeEpoch: 1560728364000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#HancockFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -112.58031195339662
+  Lat: 37.1402578763578
+  Name: Hancock
+  popupinfo: null
+  id: 119202
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Hancock
+  UniqueFireIdentifier: 2019-UTCCD-000171
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Natural
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-16T21:12Z'
+  FireDiscoveryDateTimeEpoch: 1560719520000
+  DispatchCenterID: UTCDC
+  LocalIncidentIdentifier: '000171'
+  POOCounty: Kane
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-16T23:39Z'
+  ModifiedOnDateTimeEpoch: 1560728364000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#HancockFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: UTCCD
+  unitMention: Cedar City Field Office
+2019-CALAC-181002:
+  Source_NFSA_Join:
+    Lon: -118.14340782804483
+    Lat: 34.677591669260956
+    Name: LAC-181002
+    popupinfo: null
+    id: 119203
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LAC-181002
+    UniqueFireIdentifier: 2019-CALAC-181002
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-16T23:34Z'
+    FireDiscoveryDateTimeEpoch: 1560728090000
+    DispatchCenterID: CALACC
+    LocalIncidentIdentifier: '181002'
+    POOCounty: Los Angeles
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-16T23:42Z'
+    ModifiedOnDateTimeEpoch: 1560728554000
+    ModifiedBySystem: lacocad
+    Source: NFSA
+    Hashtag: LAC-181002
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -118.14340782804483
+  Lat: 34.677591669260956
+  Name: LAC-181002
+  popupinfo: null
+  id: 119203
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LAC-181002
+  UniqueFireIdentifier: 2019-CALAC-181002
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-16T23:34Z'
+  FireDiscoveryDateTimeEpoch: 1560728090000
+  DispatchCenterID: CALACC
+  LocalIncidentIdentifier: '181002'
+  POOCounty: Los Angeles
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-16T23:42Z'
+  ModifiedOnDateTimeEpoch: 1560728554000
+  ModifiedBySystem: lacocad
+  Source: NFSA
+  Hashtag: LAC-181002
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: CALAC
+  unitMention: '@LACoFDPIO'
+2019-AZSCA-000667:
+  Source_NFSA_Join:
+    Lon: -110.42680767223541
+    Lat: 33.299196754833005
+    Name: Jackrabbit
+    popupinfo: null
+    id: 119204
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Jackrabbit
+    UniqueFireIdentifier: 2019-AZSCA-000667
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-16T06:11Z'
+    FireDiscoveryDateTimeEpoch: 1560665497000
+    DispatchCenterID: AZPHC
+    LocalIncidentIdentifier: '000667'
+    POOCounty: Graham
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-16T23:54Z'
+    ModifiedOnDateTimeEpoch: 1560729258000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#JackrabbitFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-17T00:00:27.682Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -110.42680767223541
+  Lat: 33.299196754833005
+  Name: Jackrabbit
+  popupinfo: null
+  id: 119204
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Jackrabbit
+  UniqueFireIdentifier: 2019-AZSCA-000667
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-16T06:11Z'
+  FireDiscoveryDateTimeEpoch: 1560665497000
+  DispatchCenterID: AZPHC
+  LocalIncidentIdentifier: '000667'
+  POOCounty: Graham
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-16T23:54Z'
+  ModifiedOnDateTimeEpoch: 1560729258000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#JackrabbitFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AZSCA
+  unitMention: San Carlos Agency
