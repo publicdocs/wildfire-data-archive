@@ -27016,25 +27016,25 @@
     Fire_Name: Caribou Creek
     UniqueFireIdentifier: 2019-AKFAS-911255
     DailyAcres: 426.3
-    PercentContained: null
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 10
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-06-18T02:00Z'
+    ICS209ReportDateTimeEpoch: 1560823200000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 256900
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 95
     FireDiscoveryDateTime: '2019-06-17T01:49Z'
     FireDiscoveryDateTimeEpoch: 1560736164000
     DispatchCenterID: AKFASC
     LocalIncidentIdentifier: '911255'
     POOCounty: Fairbanks North Star
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-17T23:49Z'
-    ModifiedOnDateTimeEpoch: 1560815393000
+    ModifiedOnDateTime: '2019-06-18T03:55Z'
+    ModifiedOnDateTimeEpoch: 1560830115000
     ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
@@ -27043,7 +27043,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-18T00:00:41.986Z'
+        RetrievedOn: '2019-06-18T04:01:12.977Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -27051,37 +27051,133 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
+  Source_GEOMAC:
+    Lon: -146.9654461648569
+    Lat: 64.99000189561416
+    objectid: 12
+    latitude: 64.99
+    longitude: -146.96542
+    acres: 426.3
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: I
+    firecause: Natural
+    reportdatetime: '2019-06-18T02:00Z'
+    reportdatetimeEpoch: 1560823200000
+    percentcontained: 10
+    uniquefireidentifier: 2019-AKFAS-911255
+    firediscoverydatetime: '2019-06-17T01:49Z'
+    firediscoverydatetimeEpoch: 1560736164000
+    complexparentirwinid: null
+    pooresponsibleunit: AKFAS
+    incidentname: Caribou Creek
+    iscomplex: 'false'
+    irwinid: '{95D4806B-F683-4F5C-9722-864587E3585E}'
+    irwinmodifiedon: '2019-06-18T03:55Z'
+    irwinmodifiedonEpoch: 1560830116000
+    mapsymbol: '1'
+    datecurrent: '2019-06-17T22:00Z'
+    datecurrentEpoch: 1560808811000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '911255'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 426.3
+    FireCause: Natural
+    PercentContained: 10
+    UniqueFireIdentifier: 2019-AKFAS-911255
+    FireDiscoveryDateTime: '2019-06-17T01:49Z'
+    FireDiscoveryDateTimeEpoch: 1560736164000
+    Fire_Name: Caribou Creek
+    ModifiedOnDateTime: '2019-06-18T03:55Z'
+    ModifiedOnDateTimeEpoch: 1560830116000
+    Name: Caribou Creek
+    Source: GEOMAC
+    Hashtag: '#CaribouCreekFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-18T04:01:13.500Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -147.04009947725214
   Lat: 68.8612820893738
-  id: 119220
-  Name: Caribou Creek
-  Fire_Name: Caribou Creek
-  UniqueFireIdentifier: 2019-AKFAS-911255
+  objectid: 12
+  latitude: 64.99
+  longitude: -146.96542
+  acres: 426.3
+  gacc: AKCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: AK
+  status: I
+  firecause: Natural
+  reportdatetime: '2019-06-18T02:00Z'
+  reportdatetimeEpoch: 1560823200000
+  percentcontained: 10
+  uniquefireidentifier: 2019-AKFAS-911255
+  firediscoverydatetime: '2019-06-17T01:49Z'
+  firediscoverydatetimeEpoch: 1560736164000
+  complexparentirwinid: null
+  pooresponsibleunit: AKFAS
+  incidentname: Caribou Creek
+  iscomplex: 'false'
+  irwinid: '{95D4806B-F683-4F5C-9722-864587E3585E}'
+  irwinmodifiedon: '2019-06-18T03:55Z'
+  irwinmodifiedonEpoch: 1560830116000
+  mapsymbol: '1'
+  datecurrent: '2019-06-17T22:00Z'
+  datecurrentEpoch: 1560808811000
+  pooownerunit: AKAKS
+  fireyear: 2019
+  localincidentidentifier: '911255'
+  incidenttypecategory: WF
+  owneragency: State
+  perimexist: 'N'
+  complexname: null
   DailyAcres: 426.3
-  PercentContained: null
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
   FireCause: Natural
-  TotalIncidentPersonnel: null
+  PercentContained: 10
+  UniqueFireIdentifier: 2019-AKFAS-911255
   FireDiscoveryDateTime: '2019-06-17T01:49Z'
   FireDiscoveryDateTimeEpoch: 1560736164000
+  Fire_Name: Caribou Creek
+  ModifiedOnDateTime: '2019-06-18T03:55Z'
+  ModifiedOnDateTimeEpoch: 1560830115000
+  Name: Caribou Creek
+  Source: NFSA
+  Hashtag: '#CaribouCreekFire'
+  id: 119220
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2019-06-18T02:00Z'
+  ICS209ReportDateTimeEpoch: 1560823200000
+  ICS209ReportStatus: I
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 256900
+  TotalIncidentPersonnel: 95
   DispatchCenterID: AKFASC
   LocalIncidentIdentifier: '911255'
   POOCounty: Fairbanks North Star
   POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-06-17T23:49Z'
-  ModifiedOnDateTimeEpoch: 1560815393000
   ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrOther
-  Source: NFSA
-  Hashtag: '#CaribouCreekFire'
   NFSAType: Large WF
   PerimDateTime: null
   unitId: AKFAS
@@ -33750,15 +33846,15 @@
     LocalIncidentIdentifier: 000168
     POOCounty: Grant
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-18T02:17Z'
-    ModifiedOnDateTimeEpoch: 1560824245000
+    ModifiedOnDateTime: '2019-06-18T03:43Z'
+    ModifiedOnDateTimeEpoch: 1560829382000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#LicensePlateFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-18T02:31:42.376Z'
+        RetrievedOn: '2019-06-18T04:01:12.977Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -33792,8 +33888,8 @@
   LocalIncidentIdentifier: 000168
   POOCounty: Grant
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-18T02:17Z'
-  ModifiedOnDateTimeEpoch: 1560824245000
+  ModifiedOnDateTime: '2019-06-18T03:43Z'
+  ModifiedOnDateTimeEpoch: 1560829382000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#LicensePlateFire'
@@ -34382,15 +34478,15 @@
     LocalIncidentIdentifier: '000260'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-18T03:21Z'
-    ModifiedOnDateTimeEpoch: 1560828065000
+    ModifiedOnDateTime: '2019-06-18T03:50Z'
+    ModifiedOnDateTimeEpoch: 1560829853000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#StinkCreekFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-18T03:30:56.476Z'
+        RetrievedOn: '2019-06-18T04:01:12.977Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -34424,8 +34520,8 @@
   LocalIncidentIdentifier: '000260'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-18T03:21Z'
-  ModifiedOnDateTimeEpoch: 1560828065000
+  ModifiedOnDateTime: '2019-06-18T03:50Z'
+  ModifiedOnDateTimeEpoch: 1560829853000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#StinkCreekFire'
@@ -35172,15 +35268,15 @@
     LocalIncidentIdentifier: '000222'
     POOCounty: Montezuma
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-18T03:19Z'
-    ModifiedOnDateTimeEpoch: 1560827960000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-18T03:31Z'
+    ModifiedOnDateTimeEpoch: 1560828663000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#TripleDeuceFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-18T03:30:56.476Z'
+        RetrievedOn: '2019-06-18T04:01:12.977Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -35214,9 +35310,9 @@
   LocalIncidentIdentifier: '000222'
   POOCounty: Montezuma
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-18T03:19Z'
-  ModifiedOnDateTimeEpoch: 1560827960000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-18T03:31Z'
+  ModifiedOnDateTimeEpoch: 1560828663000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#TripleDeuceFire'
   NFSAType: Emerging WF < 24 hours
