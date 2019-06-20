@@ -1433,34 +1433,34 @@
     Fire_Name: Elk
     UniqueFireIdentifier: 2019-NMGNF-000178
     DailyAcres: 1819
-    PercentContained: 89
-    FireMgmtComplexity: Type 2 Incident
-    IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-06-17T22:00Z'
-    ICS209ReportDateTimeEpoch: 1560808800000
+    PercentContained: 95
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-06-20T19:00Z'
+    ICS209ReportDateTimeEpoch: 1561057200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 2100128
+    EstimatedCostToDate: 2110128
     FireCause: Natural
-    TotalIncidentPersonnel: 125
+    TotalIncidentPersonnel: 5
     FireDiscoveryDateTime: '2019-06-06T18:31Z'
     FireDiscoveryDateTimeEpoch: 1559845860000
     DispatchCenterID: NMSDC
     LocalIncidentIdentifier: 000178
     POOCounty: Catron
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-18T12:05Z'
-    ModifiedOnDateTimeEpoch: 1560859508000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-20T19:27Z'
+    ModifiedOnDateTimeEpoch: 1561058835000
+    ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: ImsrType2
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#ElkFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-19T00:30:11.988Z'
+        RetrievedOn: '2019-06-20T19:31:29.365Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1468,132 +1468,38 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Source_GEOMAC:
-    Lon: -108.25071028127604
-    Lat: 33.998895396060924
-    objectid: 5
-    latitude: 33.99889
-    longitude: -108.2507
-    acres: 1819
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: NM
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-06-18T22:00Z'
-    reportdatetimeEpoch: 1560895200000
-    percentcontained: 89
-    uniquefireidentifier: 2019-NMGNF-000178
-    firediscoverydatetime: '2019-06-06T18:31Z'
-    firediscoverydatetimeEpoch: 1559845860000
-    complexparentirwinid: null
-    pooresponsibleunit: NMGNF
-    incidentname: Elk
-    iscomplex: 'false'
-    irwinid: '{917FD9EC-ACAE-4D9B-9934-57ABE27B564B}'
-    irwinmodifiedon: '2019-06-19T00:26Z'
-    irwinmodifiedonEpoch: 1560904007000
-    mapsymbol: '1'
-    datecurrent: '2019-06-18T18:30Z'
-    datecurrentEpoch: 1560882609000
-    pooownerunit: NMGNF
-    fireyear: 2019
-    localincidentidentifier: 000178
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 1819
-    FireCause: Natural
-    PercentContained: 89
-    UniqueFireIdentifier: 2019-NMGNF-000178
-    FireDiscoveryDateTime: '2019-06-06T18:31Z'
-    FireDiscoveryDateTimeEpoch: 1559845860000
-    Fire_Name: Elk
-    ModifiedOnDateTime: '2019-06-19T00:26Z'
-    ModifiedOnDateTimeEpoch: 1560904007000
-    Name: Elk
-    Source: GEOMAC
-    Hashtag: '#ElkFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-19T00:30:12.621Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -108.25071028127604
-  Lat: 33.998895396060924
+  Lon: -108.25080957635984
+  Lat: 33.998994404299786
   id: 118144
   Name: Elk
   Fire_Name: Elk
   UniqueFireIdentifier: 2019-NMGNF-000178
   DailyAcres: 1819
-  PercentContained: 89
-  FireMgmtComplexity: Type 2 Incident
-  IncidentManagementOrganization: Type 2 Team
-  ICS209ReportDateTime: '2019-06-17T22:00Z'
-  ICS209ReportDateTimeEpoch: 1560808800000
+  PercentContained: 95
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2019-06-20T19:00Z'
+  ICS209ReportDateTimeEpoch: 1561057200000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
+  EstimatedCostToDate: 2110128
   FireCause: Natural
+  TotalIncidentPersonnel: 5
   FireDiscoveryDateTime: '2019-06-06T18:31Z'
   FireDiscoveryDateTimeEpoch: 1559845860000
   DispatchCenterID: NMSDC
   LocalIncidentIdentifier: 000178
   POOCounty: Catron
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-19T00:26Z'
-  ModifiedOnDateTimeEpoch: 1560904007000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-20T19:27Z'
+  ModifiedOnDateTimeEpoch: 1561058835000
+  ModifiedBySystem: ics209
   popupinfo: null
-  calc_symboltype: ImsrType2
-  Source: GEOMAC
+  calc_symboltype: ImsrOther
+  Source: NFSA
   Hashtag: '#ElkFire'
   NFSAType: Large WF
-  objectid: 5
-  latitude: 33.99889
-  longitude: -108.2507
-  acres: 1819
-  gacc: SWCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: NM
-  status: U
-  firecause: Natural
-  reportdatetime: '2019-06-18T22:00Z'
-  reportdatetimeEpoch: 1560895200000
-  percentcontained: 89
-  uniquefireidentifier: 2019-NMGNF-000178
-  firediscoverydatetime: '2019-06-06T18:31Z'
-  firediscoverydatetimeEpoch: 1559845860000
-  complexparentirwinid: null
-  pooresponsibleunit: NMGNF
-  incidentname: Elk
-  iscomplex: 'false'
-  irwinid: '{917FD9EC-ACAE-4D9B-9934-57ABE27B564B}'
-  irwinmodifiedon: '2019-06-19T00:26Z'
-  irwinmodifiedonEpoch: 1560904007000
-  mapsymbol: '1'
-  datecurrent: '2019-06-18T18:30Z'
-  datecurrentEpoch: 1560882609000
-  pooownerunit: NMGNF
-  fireyear: 2019
-  localincidentidentifier: 000178
-  incidenttypecategory: WF
-  owneragency: USFS
-  perimexist: 'Y'
-  complexname: null
   PerimDateTime: '2019-06-17T00:00Z'
   unitId: NMGNF
   unitMention: Gila NF
@@ -46675,7 +46581,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Big Springs
     UniqueFireIdentifier: 2019-NMN6S-000104
-    DailyAcres: 2
+    DailyAcres: 2.46
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -46693,15 +46599,15 @@
     LocalIncidentIdentifier: '000104'
     POOCounty: Cibola
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-20T17:31Z'
-    ModifiedOnDateTimeEpoch: 1561051862000
+    ModifiedOnDateTime: '2019-06-20T19:16Z'
+    ModifiedOnDateTimeEpoch: 1561058185000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BigSpringsFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T18:01:07.606Z'
+        RetrievedOn: '2019-06-20T19:31:29.365Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -46717,7 +46623,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Big Springs
   UniqueFireIdentifier: 2019-NMN6S-000104
-  DailyAcres: 2
+  DailyAcres: 2.46
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -46735,8 +46641,8 @@
   LocalIncidentIdentifier: '000104'
   POOCounty: Cibola
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-20T17:31Z'
-  ModifiedOnDateTimeEpoch: 1561051862000
+  ModifiedOnDateTime: '2019-06-20T19:16Z'
+  ModifiedOnDateTimeEpoch: 1561058185000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BigSpringsFire'
@@ -50480,20 +50386,20 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-20T12:31Z'
-    FireDiscoveryDateTimeEpoch: 1561033867000
+    FireDiscoveryDateTimeEpoch: 1561033860000
     DispatchCenterID: ORBMC
     LocalIncidentIdentifier: '000243'
     POOCounty: Asotin
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-20T17:57Z'
-    ModifiedOnDateTimeEpoch: 1561053420000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-20T19:28Z'
+    ModifiedOnDateTimeEpoch: 1561058920000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#LittleFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T18:01:07.606Z'
+        RetrievedOn: '2019-06-20T19:31:29.365Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -50522,14 +50428,14 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-20T12:31Z'
-  FireDiscoveryDateTimeEpoch: 1561033867000
+  FireDiscoveryDateTimeEpoch: 1561033860000
   DispatchCenterID: ORBMC
   LocalIncidentIdentifier: '000243'
   POOCounty: Asotin
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-20T17:57Z'
-  ModifiedOnDateTimeEpoch: 1561053420000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-20T19:28Z'
+  ModifiedOnDateTimeEpoch: 1561058920000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#LittleFire'
   NFSAType: Emerging WF < 24 hours
@@ -50783,7 +50689,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Ghost
     UniqueFireIdentifier: 2019-NMSNF-000162
-    DailyAcres: 0.1
+    DailyAcres: 1
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -50801,15 +50707,15 @@
     LocalIncidentIdentifier: '000162'
     POOCounty: Santa Fe
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-20T18:18Z'
-    ModifiedOnDateTimeEpoch: 1561054700000
+    ModifiedOnDateTime: '2019-06-20T19:16Z'
+    ModifiedOnDateTimeEpoch: 1561058187000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#GhostFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T18:31:08.118Z'
+        RetrievedOn: '2019-06-20T19:31:29.365Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -50825,7 +50731,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Ghost
   UniqueFireIdentifier: 2019-NMSNF-000162
-  DailyAcres: 0.1
+  DailyAcres: 1
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -50843,8 +50749,8 @@
   LocalIncidentIdentifier: '000162'
   POOCounty: Santa Fe
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-20T18:18Z'
-  ModifiedOnDateTimeEpoch: 1561054700000
+  ModifiedOnDateTime: '2019-06-20T19:16Z'
+  ModifiedOnDateTimeEpoch: 1561058187000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#GhostFire'
@@ -51020,7 +50926,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Largo
     UniqueFireIdentifier: 2019-AZFTA-000335
-    DailyAcres: 0.1
+    DailyAcres: 12.8
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -51038,15 +50944,15 @@
     LocalIncidentIdentifier: '000335'
     POOCounty: Apache
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-20T18:31Z'
-    ModifiedOnDateTimeEpoch: 1561055505000
+    ModifiedOnDateTime: '2019-06-20T19:09Z'
+    ModifiedOnDateTimeEpoch: 1561057792000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#LargoFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T19:00:32.820Z'
+        RetrievedOn: '2019-06-20T19:31:29.365Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -51062,7 +50968,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Largo
   UniqueFireIdentifier: 2019-AZFTA-000335
-  DailyAcres: 0.1
+  DailyAcres: 12.8
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -51080,8 +50986,8 @@
   LocalIncidentIdentifier: '000335'
   POOCounty: Apache
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-20T18:31Z'
-  ModifiedOnDateTimeEpoch: 1561055505000
+  ModifiedOnDateTime: '2019-06-20T19:09Z'
+  ModifiedOnDateTimeEpoch: 1561057792000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#LargoFire'
