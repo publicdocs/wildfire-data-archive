@@ -3037,12 +3037,12 @@
     PercentContained: 90
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-06-19T02:00Z'
-    ICS209ReportDateTimeEpoch: 1560909600000
+    ICS209ReportDateTime: '2019-06-20T01:00Z'
+    ICS209ReportDateTimeEpoch: 1560992400000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 800000
+    EstimatedCostToDate: 830000
     FireCause: Natural
     TotalIncidentPersonnel: 26
     FireDiscoveryDateTime: '2019-06-11T18:25Z'
@@ -3051,9 +3051,9 @@
     LocalIncidentIdentifier: '000224'
     POOCounty: Kusilvak
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-19T15:48Z'
-    ModifiedOnDateTimeEpoch: 1560959322000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-20T06:38Z'
+    ModifiedOnDateTimeEpoch: 1561012730000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -3061,7 +3061,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-19T16:01:19.496Z'
+        RetrievedOn: '2019-06-20T07:00:34.795Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -3079,12 +3079,12 @@
   PercentContained: 90
   FireMgmtComplexity: Type 4 Incident
   IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2019-06-19T02:00Z'
-  ICS209ReportDateTimeEpoch: 1560909600000
+  ICS209ReportDateTime: '2019-06-20T01:00Z'
+  ICS209ReportDateTimeEpoch: 1560992400000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 800000
+  EstimatedCostToDate: 830000
   FireCause: Natural
   TotalIncidentPersonnel: 26
   FireDiscoveryDateTime: '2019-06-11T18:25Z'
@@ -3093,9 +3093,9 @@
   LocalIncidentIdentifier: '000224'
   POOCounty: Kusilvak
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-19T15:48Z'
-  ModifiedOnDateTimeEpoch: 1560959322000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-20T06:38Z'
+  ModifiedOnDateTimeEpoch: 1561012730000
+  ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
@@ -49618,15 +49618,15 @@
     LocalIncidentIdentifier: 000291
     POOCounty: Northwest Arctic
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-20T05:21Z'
-    ModifiedOnDateTimeEpoch: 1561008104000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-20T06:35Z'
+    ModifiedOnDateTimeEpoch: 1561012552000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#ClemMountainFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T05:30:39.163Z'
+        RetrievedOn: '2019-06-20T07:00:34.795Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -49660,11 +49660,248 @@
   LocalIncidentIdentifier: 000291
   POOCounty: Northwest Arctic
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-20T05:21Z'
-  ModifiedOnDateTimeEpoch: 1561008104000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-20T06:35Z'
+  ModifiedOnDateTimeEpoch: 1561012552000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#ClemMountainFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AKGAD
+  unitMention: Alaska Fire Service - Galena Zone
+2019-AKGAD-000292:
+  Source_NFSA_Join:
+    Lon: -161.24022731412433
+    Lat: 66.15999943226127
+    Name: Buckland 1
+    popupinfo: null
+    id: 119631
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Buckland 1
+    UniqueFireIdentifier: 2019-AKGAD-000292
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-20T06:44Z'
+    FireDiscoveryDateTimeEpoch: 1561013049000
+    DispatchCenterID: AKGADC
+    LocalIncidentIdentifier: 000292
+    POOCounty: Northwest Arctic
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-20T06:51Z'
+    ModifiedOnDateTimeEpoch: 1561013462000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#Buckland1Fire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-20T07:00:34.795Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -161.24022731412433
+  Lat: 66.15999943226127
+  Name: Buckland 1
+  popupinfo: null
+  id: 119631
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Buckland 1
+  UniqueFireIdentifier: 2019-AKGAD-000292
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-20T06:44Z'
+  FireDiscoveryDateTimeEpoch: 1561013049000
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: 000292
+  POOCounty: Northwest Arctic
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-20T06:51Z'
+  ModifiedOnDateTimeEpoch: 1561013462000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#Buckland1Fire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AKGAD
+  unitMention: Alaska Fire Service - Galena Zone
+2019-AKGAD-000293:
+  Source_NFSA_Join:
+    Lon: -160.89102521372854
+    Lat: 66.19701061495627
+    Name: Buckland 2
+    popupinfo: null
+    id: 119632
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Buckland 2
+    UniqueFireIdentifier: 2019-AKGAD-000293
+    DailyAcres: 0.4
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-20T06:46Z'
+    FireDiscoveryDateTimeEpoch: 1561013164000
+    DispatchCenterID: AKGADC
+    LocalIncidentIdentifier: 000293
+    POOCounty: Northwest Arctic
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-20T06:55Z'
+    ModifiedOnDateTimeEpoch: 1561013730000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#Buckland2Fire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-20T07:00:34.795Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -160.89102521372854
+  Lat: 66.19701061495627
+  Name: Buckland 2
+  popupinfo: null
+  id: 119632
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Buckland 2
+  UniqueFireIdentifier: 2019-AKGAD-000293
+  DailyAcres: 0.4
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-20T06:46Z'
+  FireDiscoveryDateTimeEpoch: 1561013164000
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: 000293
+  POOCounty: Northwest Arctic
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-20T06:55Z'
+  ModifiedOnDateTimeEpoch: 1561013730000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#Buckland2Fire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: AKGAD
+  unitMention: Alaska Fire Service - Galena Zone
+2019-AKGAD-555125:
+  Source_NFSA_Join:
+    Lon: -160.46052558011996
+    Lat: 66.02084031685527
+    Name: Buckland 3
+    popupinfo: null
+    id: 119633
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Buckland 3
+    UniqueFireIdentifier: 2019-AKGAD-555125
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-20T06:45Z'
+    FireDiscoveryDateTimeEpoch: 1561013130000
+    DispatchCenterID: AKGADC
+    LocalIncidentIdentifier: '555125'
+    POOCounty: Northwest Arctic
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-20T06:53Z'
+    ModifiedOnDateTimeEpoch: 1561013591000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#Buckland3Fire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-20T07:00:34.795Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -160.46052558011996
+  Lat: 66.02084031685527
+  Name: Buckland 3
+  popupinfo: null
+  id: 119633
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Buckland 3
+  UniqueFireIdentifier: 2019-AKGAD-555125
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-20T06:45Z'
+  FireDiscoveryDateTimeEpoch: 1561013130000
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: '555125'
+  POOCounty: Northwest Arctic
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-20T06:53Z'
+  ModifiedOnDateTimeEpoch: 1561013591000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#Buckland3Fire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
   unitId: AKGAD
