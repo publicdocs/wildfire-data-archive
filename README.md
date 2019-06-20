@@ -1,6 +1,7 @@
 # wildfire-data-archive
 Archives of data from wildfire sites
 
+Most of the data is compiled by https://github.com/publicdocs-platform/fire-monitor-bot
 
 ## Notice
 
