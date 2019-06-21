@@ -4406,39 +4406,39 @@
   Source_NFSA_Join:
     Lon: -108.68220752525255
     Lat: 37.72019635569585
-    Name: Doe Canyon
-    popupinfo: null
     id: 119672
-    calc_symboltype: NewIrwinOnly
+    Name: Doe Canyon
     Fire_Name: Doe Canyon
     UniqueFireIdentifier: 2019-COSJF-000243
-    DailyAcres: 15
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 20
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-06-21T22:00Z'
+    ICS209ReportDateTimeEpoch: 1561154400000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 10000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 21
     FireDiscoveryDateTime: '2019-06-20T19:41Z'
     FireDiscoveryDateTimeEpoch: 1561059675000
     DispatchCenterID: CODRC
     LocalIncidentIdentifier: '000243'
     POOCounty: Dolores
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-21T17:04Z'
-    ModifiedOnDateTimeEpoch: 1561136670000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-06-21T22:53Z'
+    ModifiedOnDateTimeEpoch: 1561157601000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
     Source: NFSA
     Hashtag: '#DoeCanyonFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T17:31:04.064Z'
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -4448,36 +4448,36 @@
       Modified: true
   Lon: -108.68220752525255
   Lat: 37.72019635569585
-  Name: Doe Canyon
-  popupinfo: null
   id: 119672
-  calc_symboltype: NewIrwinOnly
+  Name: Doe Canyon
   Fire_Name: Doe Canyon
   UniqueFireIdentifier: 2019-COSJF-000243
-  DailyAcres: 15
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
+  DailyAcres: 20
+  PercentContained: 0
+  FireMgmtComplexity: Type 4 Incident
+  IncidentManagementOrganization: Type 4 IC
+  ICS209ReportDateTime: '2019-06-21T22:00Z'
+  ICS209ReportDateTimeEpoch: 1561154400000
+  ICS209ReportStatus: I
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  EstimatedCostToDate: 10000
   FireCause: Natural
-  TotalIncidentPersonnel: null
+  TotalIncidentPersonnel: 21
   FireDiscoveryDateTime: '2019-06-20T19:41Z'
   FireDiscoveryDateTimeEpoch: 1561059675000
   DispatchCenterID: CODRC
   LocalIncidentIdentifier: '000243'
   POOCounty: Dolores
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-21T17:04Z'
-  ModifiedOnDateTimeEpoch: 1561136670000
-  ModifiedBySystem: wfdss
+  ModifiedOnDateTime: '2019-06-21T22:53Z'
+  ModifiedOnDateTimeEpoch: 1561157601000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: NonImsr
   Source: NFSA
   Hashtag: '#DoeCanyonFire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
   PerimeterData:
     DateTime: null
@@ -10066,7 +10066,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-21T15:49Z'
     FireDiscoveryDateTimeEpoch: 1561132170000
@@ -10074,15 +10074,15 @@
     LocalIncidentIdentifier: '000644'
     POOCounty: Plumas
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-21T21:11Z'
-    ModifiedOnDateTimeEpoch: 1561151462000
+    ModifiedOnDateTime: '2019-06-21T22:59Z'
+    ModifiedOnDateTimeEpoch: 1561157999000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#SnakeFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T21:30:49.801Z'
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -10108,7 +10108,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-21T15:49Z'
   FireDiscoveryDateTimeEpoch: 1561132170000
@@ -10116,8 +10116,8 @@
   LocalIncidentIdentifier: '000644'
   POOCounty: Plumas
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-21T21:11Z'
-  ModifiedOnDateTimeEpoch: 1561151462000
+  ModifiedOnDateTime: '2019-06-21T22:59Z'
+  ModifiedOnDateTimeEpoch: 1561157999000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#SnakeFire'
@@ -10816,20 +10816,20 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-21T19:12Z'
-    FireDiscoveryDateTimeEpoch: 1561144329000
+    FireDiscoveryDateTimeEpoch: 1561144320000
     DispatchCenterID: WACWC
     LocalIncidentIdentifier: 000182
     POOCounty: Klickitat
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-21T20:52Z'
-    ModifiedOnDateTimeEpoch: 1561150329000
+    ModifiedOnDateTime: '2019-06-21T22:42Z'
+    ModifiedOnDateTimeEpoch: 1561156973000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#ChainFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T21:01:10.096Z'
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -10858,13 +10858,13 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-21T19:12Z'
-  FireDiscoveryDateTimeEpoch: 1561144329000
+  FireDiscoveryDateTimeEpoch: 1561144320000
   DispatchCenterID: WACWC
   LocalIncidentIdentifier: 000182
   POOCounty: Klickitat
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-21T20:52Z'
-  ModifiedOnDateTimeEpoch: 1561150329000
+  ModifiedOnDateTime: '2019-06-21T22:42Z'
+  ModifiedOnDateTimeEpoch: 1561156973000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#ChainFire'
@@ -11052,7 +11052,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Bergman Creek
     UniqueFireIdentifier: 2019-AKUYD-000312
-    DailyAcres: 0.1
+    DailyAcres: 20
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -11070,15 +11070,15 @@
     LocalIncidentIdentifier: '000312'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-21T20:06Z'
-    ModifiedOnDateTimeEpoch: 1561147596000
+    ModifiedOnDateTime: '2019-06-21T22:49Z'
+    ModifiedOnDateTimeEpoch: 1561157393000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#BergmanCreekFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T20:31:48.101Z'
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -11094,7 +11094,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Bergman Creek
   UniqueFireIdentifier: 2019-AKUYD-000312
-  DailyAcres: 0.1
+  DailyAcres: 20
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -11112,8 +11112,8 @@
   LocalIncidentIdentifier: '000312'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-21T20:06Z'
-  ModifiedOnDateTimeEpoch: 1561147596000
+  ModifiedOnDateTime: '2019-06-21T22:49Z'
+  ModifiedOnDateTimeEpoch: 1561157393000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#BergmanCreekFire'
@@ -12061,20 +12061,20 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-21T21:25Z'
-    FireDiscoveryDateTimeEpoch: 1561152337000
+    FireDiscoveryDateTimeEpoch: 1561152300000
     DispatchCenterID: AZPHC
     LocalIncidentIdentifier: 000749
     POOCounty: Graham
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-21T22:19Z'
-    ModifiedOnDateTimeEpoch: 1561155555000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-21T22:31Z'
+    ModifiedOnDateTimeEpoch: 1561156267000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#PieFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T22:31:10.949Z'
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -12103,14 +12103,14 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-21T21:25Z'
-  FireDiscoveryDateTimeEpoch: 1561152337000
+  FireDiscoveryDateTimeEpoch: 1561152300000
   DispatchCenterID: AZPHC
   LocalIncidentIdentifier: 000749
   POOCounty: Graham
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-21T22:19Z'
-  ModifiedOnDateTimeEpoch: 1561155555000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-21T22:31Z'
+  ModifiedOnDateTimeEpoch: 1561156267000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#PieFire'
   NFSAType: Emerging WF < 24 hours
@@ -12297,7 +12297,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: KOSKI
     UniqueFireIdentifier: 2019-WANES-001445
-    DailyAcres: 0.1
+    DailyAcres: 0.7
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -12315,15 +12315,15 @@
     LocalIncidentIdentifier: '001445'
     POOCounty: Spokane
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-21T22:29Z'
-    ModifiedOnDateTimeEpoch: 1561156169000
+    ModifiedOnDateTime: '2019-06-21T22:52Z'
+    ModifiedOnDateTimeEpoch: 1561157547000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#KoskiFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T22:31:10.949Z'
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -12339,7 +12339,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: KOSKI
   UniqueFireIdentifier: 2019-WANES-001445
-  DailyAcres: 0.1
+  DailyAcres: 0.7
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -12357,8 +12357,8 @@
   LocalIncidentIdentifier: '001445'
   POOCounty: Spokane
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-21T22:29Z'
-  ModifiedOnDateTimeEpoch: 1561156169000
+  ModifiedOnDateTime: '2019-06-21T22:52Z'
+  ModifiedOnDateTimeEpoch: 1561157547000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#KoskiFire'
@@ -12370,3 +12370,501 @@
     _Provenance: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+2019-AZA3S-000825:
+  Source_NFSA_Join:
+    Lon: -111.45101286027143
+    Lat: 32.68592819092636
+    Name: CAMINO
+    popupinfo: null
+    id: 119795
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: CAMINO
+    UniqueFireIdentifier: 2019-AZA3S-000825
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-21T21:22Z'
+    FireDiscoveryDateTimeEpoch: 1561152120000
+    DispatchCenterID: AZADC
+    LocalIncidentIdentifier: 000825
+    POOCounty: Pinal
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-21T22:45Z'
+    ModifiedOnDateTimeEpoch: 1561157101000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#CaminoFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -111.45101286027143
+  Lat: 32.68592819092636
+  Name: CAMINO
+  popupinfo: null
+  id: 119795
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: CAMINO
+  UniqueFireIdentifier: 2019-AZA3S-000825
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Human
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-21T21:22Z'
+  FireDiscoveryDateTimeEpoch: 1561152120000
+  DispatchCenterID: AZADC
+  LocalIncidentIdentifier: 000825
+  POOCounty: Pinal
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-21T22:45Z'
+  ModifiedOnDateTimeEpoch: 1561157101000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#CaminoFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: AZA3S
+  unitMention: '@AZStateForestry'
+2019-AKTAD-000316:
+  Source_NFSA_Join:
+    Lon: -153.2420232830491
+    Lat: 64.8180023606172
+    Name: Little Mud River
+    popupinfo: null
+    id: 119796
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Little Mud River
+    UniqueFireIdentifier: 2019-AKTAD-000316
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-21T22:31Z'
+    FireDiscoveryDateTimeEpoch: 1561156260000
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: '000316'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-21T22:53Z'
+    ModifiedOnDateTimeEpoch: 1561157635000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#LittleMudRiverFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -153.2420232830491
+  Lat: 64.8180023606172
+  Name: Little Mud River
+  popupinfo: null
+  id: 119796
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Little Mud River
+  UniqueFireIdentifier: 2019-AKTAD-000316
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-21T22:31Z'
+  FireDiscoveryDateTimeEpoch: 1561156260000
+  DispatchCenterID: AKYTDC
+  LocalIncidentIdentifier: '000316'
+  POOCounty: Yukon-Koyukuk
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-21T22:53Z'
+  ModifiedOnDateTimeEpoch: 1561157635000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#LittleMudRiverFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: AKTAD
+  unitMention: Alaska Fire Service - Tanana Zone
+2019-CALAC-186251:
+  Source_NFSA_Join:
+    Lon: -118.18765883894056
+    Lat: 33.968782139088844
+    Name: LAC-186251
+    popupinfo: null
+    id: 119797
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LAC-186251
+    UniqueFireIdentifier: 2019-CALAC-186251
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-21T22:36Z'
+    FireDiscoveryDateTimeEpoch: 1561156599000
+    DispatchCenterID: CALACC
+    LocalIncidentIdentifier: '186251'
+    POOCounty: Los Angeles
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-21T22:42Z'
+    ModifiedOnDateTimeEpoch: 1561156955000
+    ModifiedBySystem: lacocad
+    Source: NFSA
+    Hashtag: LAC-186251
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -118.18765883894056
+  Lat: 33.968782139088844
+  Name: LAC-186251
+  popupinfo: null
+  id: 119797
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LAC-186251
+  UniqueFireIdentifier: 2019-CALAC-186251
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-21T22:36Z'
+  FireDiscoveryDateTimeEpoch: 1561156599000
+  DispatchCenterID: CALACC
+  LocalIncidentIdentifier: '186251'
+  POOCounty: Los Angeles
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-21T22:42Z'
+  ModifiedOnDateTimeEpoch: 1561156955000
+  ModifiedBySystem: lacocad
+  Source: NFSA
+  Hashtag: LAC-186251
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: CALAC
+  unitMention: '@LACoFDPIO'
+2019-FLEVP-019040:
+  Source_NFSA_Join:
+    Lon: -80.8586163649959
+    Lat: 25.52889010886801
+    Name: CANE MILL HAMMOCK
+    popupinfo: null
+    id: 119798
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: CANE MILL HAMMOCK
+    UniqueFireIdentifier: 2019-FLEVP-019040
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: null
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-21T21:00Z'
+    FireDiscoveryDateTimeEpoch: 1561150800000
+    DispatchCenterID: FLFIC
+    LocalIncidentIdentifier: 019040
+    POOCounty: Miami-Dade
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-21T22:49Z'
+    ModifiedOnDateTimeEpoch: 1561157344000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#CaneMillHammockFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -80.8586163649959
+  Lat: 25.52889010886801
+  Name: CANE MILL HAMMOCK
+  popupinfo: null
+  id: 119798
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: CANE MILL HAMMOCK
+  UniqueFireIdentifier: 2019-FLEVP-019040
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: null
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-21T21:00Z'
+  FireDiscoveryDateTimeEpoch: 1561150800000
+  DispatchCenterID: FLFIC
+  LocalIncidentIdentifier: 019040
+  POOCounty: Miami-Dade
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-21T22:49Z'
+  ModifiedOnDateTimeEpoch: 1561157344000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#CaneMillHammockFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: FLEVP
+  unitMention: Everglades NP
+2019-FLEVP-019041:
+  Source_NFSA_Join:
+    Lon: -80.97611600415873
+    Lat: 25.542783177623026
+    Name: WILLY WILLY
+    popupinfo: null
+    id: 119799
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: WILLY WILLY
+    UniqueFireIdentifier: 2019-FLEVP-019041
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: null
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-21T22:00Z'
+    FireDiscoveryDateTimeEpoch: 1561154400000
+    DispatchCenterID: FLFIC
+    LocalIncidentIdentifier: 019041
+    POOCounty: Monroe
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-21T22:54Z'
+    ModifiedOnDateTimeEpoch: 1561157652000
+    ModifiedBySystem: wfdss
+    Source: NFSA
+    Hashtag: '#WillyWillyFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -80.97611600415873
+  Lat: 25.542783177623026
+  Name: WILLY WILLY
+  popupinfo: null
+  id: 119799
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: WILLY WILLY
+  UniqueFireIdentifier: 2019-FLEVP-019041
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: null
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-21T22:00Z'
+  FireDiscoveryDateTimeEpoch: 1561154400000
+  DispatchCenterID: FLFIC
+  LocalIncidentIdentifier: 019041
+  POOCounty: Monroe
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-21T22:54Z'
+  ModifiedOnDateTimeEpoch: 1561157652000
+  ModifiedBySystem: wfdss
+  Source: NFSA
+  Hashtag: '#WillyWillyFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: FLEVP
+  unitMention: Everglades NP
+2019-CALAC-186266:
+  Source_NFSA_Join:
+    Lon: -118.50678534362402
+    Lat: 34.338556554874195
+    Name: LAC-186266
+    popupinfo: null
+    id: 119800
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: LAC-186266
+    UniqueFireIdentifier: 2019-CALAC-186266
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-21T22:49Z'
+    FireDiscoveryDateTimeEpoch: 1561157389000
+    DispatchCenterID: CALACC
+    LocalIncidentIdentifier: '186266'
+    POOCounty: Los Angeles
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-21T22:57Z'
+    ModifiedOnDateTimeEpoch: 1561157854000
+    ModifiedBySystem: lacocad
+    Source: NFSA
+    Hashtag: LAC-186266
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T23:00:40.655Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -118.50678534362402
+  Lat: 34.338556554874195
+  Name: LAC-186266
+  popupinfo: null
+  id: 119800
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: LAC-186266
+  UniqueFireIdentifier: 2019-CALAC-186266
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-21T22:49Z'
+  FireDiscoveryDateTimeEpoch: 1561157389000
+  DispatchCenterID: CALACC
+  LocalIncidentIdentifier: '186266'
+  POOCounty: Los Angeles
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-21T22:57Z'
+  ModifiedOnDateTimeEpoch: 1561157854000
+  ModifiedBySystem: lacocad
+  Source: NFSA
+  Hashtag: LAC-186266
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: CALAC
+  unitMention: '@LACoFDPIO'
