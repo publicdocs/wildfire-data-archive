@@ -1765,35 +1765,35 @@
     Name: Gurule
     Fire_Name: Gurule
     UniqueFireIdentifier: 2019-NMCAF-000148
-    DailyAcres: 9
+    DailyAcres: 2360
     PercentContained: 25
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-06-19T22:45Z'
-    ICS209ReportDateTimeEpoch: 1560984300000
+    ICS209ReportDateTime: '2019-06-20T23:00Z'
+    ICS209ReportDateTimeEpoch: 1561071600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 321000
+    EstimatedCostToDate: 355000
     FireCause: Natural
-    TotalIncidentPersonnel: 34
+    TotalIncidentPersonnel: 65
     FireDiscoveryDateTime: '2019-06-07T22:03Z'
     FireDiscoveryDateTimeEpoch: 1559944980000
     DispatchCenterID: NMTDC
     LocalIncidentIdentifier: 000148
     POOCounty: Rio Arriba
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-19T23:41Z'
-    ModifiedOnDateTimeEpoch: 1560987664000
+    ModifiedOnDateTime: '2019-06-20T23:50Z'
+    ModifiedOnDateTimeEpoch: 1561074615000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#GuruleFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T00:01:02.531Z'
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1801,37 +1801,133 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
+  Source_GEOMAC:
+    Lon: -106.26945446166535
+    Lat: 36.50222807658928
+    objectid: 3
+    latitude: 36.5022222
+    longitude: -106.2694444
+    acres: 2360
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NM
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-20T23:00Z'
+    reportdatetimeEpoch: 1561071600000
+    percentcontained: 25
+    uniquefireidentifier: 2019-NMCAF-000148
+    firediscoverydatetime: '2019-06-07T22:03Z'
+    firediscoverydatetimeEpoch: 1559944980000
+    complexparentirwinid: null
+    pooresponsibleunit: NMCAF
+    incidentname: Gurule
+    iscomplex: 'false'
+    irwinid: '{FB3F20DF-FEAE-4083-A73A-B10C3B869117}'
+    irwinmodifiedon: '2019-06-20T23:50Z'
+    irwinmodifiedonEpoch: 1561074616000
+    mapsymbol: '1'
+    datecurrent: '2019-06-20T18:00Z'
+    datecurrentEpoch: 1561053610000
+    pooownerunit: NMCAF
+    fireyear: 2019
+    localincidentidentifier: 000148
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 2360
+    FireCause: Natural
+    PercentContained: 25
+    UniqueFireIdentifier: 2019-NMCAF-000148
+    FireDiscoveryDateTime: '2019-06-07T22:03Z'
+    FireDiscoveryDateTimeEpoch: 1559944980000
+    Fire_Name: Gurule
+    ModifiedOnDateTime: '2019-06-20T23:50Z'
+    ModifiedOnDateTimeEpoch: 1561074616000
+    Name: Gurule
+    Source: GEOMAC
+    Hashtag: '#GuruleFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T00:00:44.763Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
   Lon: -106.26944046994163
   Lat: 36.50227094745603
-  id: 118292
-  Name: Gurule
-  Fire_Name: Gurule
-  UniqueFireIdentifier: 2019-NMCAF-000148
-  DailyAcres: 9
+  objectid: 3
+  latitude: 36.5022222
+  longitude: -106.2694444
+  acres: 2360
+  gacc: SWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: NM
+  status: U
+  firecause: Natural
+  reportdatetime: '2019-06-20T23:00Z'
+  reportdatetimeEpoch: 1561071600000
+  percentcontained: 25
+  uniquefireidentifier: 2019-NMCAF-000148
+  firediscoverydatetime: '2019-06-07T22:03Z'
+  firediscoverydatetimeEpoch: 1559944980000
+  complexparentirwinid: null
+  pooresponsibleunit: NMCAF
+  incidentname: Gurule
+  iscomplex: 'false'
+  irwinid: '{FB3F20DF-FEAE-4083-A73A-B10C3B869117}'
+  irwinmodifiedon: '2019-06-20T23:50Z'
+  irwinmodifiedonEpoch: 1561074616000
+  mapsymbol: '1'
+  datecurrent: '2019-06-20T18:00Z'
+  datecurrentEpoch: 1561053610000
+  pooownerunit: NMCAF
+  fireyear: 2019
+  localincidentidentifier: 000148
+  incidenttypecategory: WF
+  owneragency: USFS
+  perimexist: 'N'
+  complexname: null
+  DailyAcres: 2360
+  FireCause: Natural
   PercentContained: 25
+  UniqueFireIdentifier: 2019-NMCAF-000148
+  FireDiscoveryDateTime: '2019-06-07T22:03Z'
+  FireDiscoveryDateTimeEpoch: 1559944980000
+  Fire_Name: Gurule
+  ModifiedOnDateTime: '2019-06-20T23:50Z'
+  ModifiedOnDateTimeEpoch: 1561074615000
+  Name: Gurule
+  Source: NFSA
+  Hashtag: '#GuruleFire'
+  id: 118292
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 Team
-  ICS209ReportDateTime: '2019-06-19T22:45Z'
-  ICS209ReportDateTimeEpoch: 1560984300000
+  ICS209ReportDateTime: '2019-06-20T23:00Z'
+  ICS209ReportDateTimeEpoch: 1561071600000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 321000
-  FireCause: Natural
-  TotalIncidentPersonnel: 34
-  FireDiscoveryDateTime: '2019-06-07T22:03Z'
-  FireDiscoveryDateTimeEpoch: 1559944980000
+  EstimatedCostToDate: 355000
+  TotalIncidentPersonnel: 65
   DispatchCenterID: NMTDC
   LocalIncidentIdentifier: 000148
   POOCounty: Rio Arriba
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-19T23:41Z'
-  ModifiedOnDateTimeEpoch: 1560987664000
   ModifiedBySystem: ics209
   popupinfo: null
-  calc_symboltype: NonImsr
-  Source: NFSA
-  Hashtag: '#GuruleFire'
+  calc_symboltype: ImsrOther
   NFSAType: Large WF
   PerimDateTime: null
   unitId: NMCAF
@@ -38581,22 +38677,20 @@
   Source_NFSA_Join:
     Lon: -142.20352507178842
     Lat: 66.06886134150359
-    Name: Black River
-    popupinfo: null
     id: 119469
-    calc_symboltype: NewIrwinOnly
+    Name: Black River
     Fire_Name: Black River
     UniqueFireIdentifier: 2019-AKUYD-000262
-    DailyAcres: 15
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '1970-01-01T00:00Z'
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 711.4
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-06-20T22:15Z'
+    ICS209ReportDateTimeEpoch: 1561068900000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 0
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-18T21:20Z'
@@ -38605,15 +38699,17 @@
     LocalIncidentIdentifier: '000262'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-19T00:28Z'
-    ModifiedOnDateTimeEpoch: 1560904124000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-20T23:38Z'
+    ModifiedOnDateTimeEpoch: 1561073888000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
     Source: NFSA
     Hashtag: '#BlackRiverFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-19T00:31:25.707Z'
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -38623,22 +38719,20 @@
       Modified: true
   Lon: -142.20352507178842
   Lat: 66.06886134150359
-  Name: Black River
-  popupinfo: null
   id: 119469
-  calc_symboltype: NewIrwinOnly
+  Name: Black River
   Fire_Name: Black River
   UniqueFireIdentifier: 2019-AKUYD-000262
-  DailyAcres: 15
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '1970-01-01T00:00Z'
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
+  DailyAcres: 711.4
+  PercentContained: 0
+  FireMgmtComplexity: Type 5 Incident
+  IncidentManagementOrganization: Type 5 IC
+  ICS209ReportDateTime: '2019-06-20T22:15Z'
+  ICS209ReportDateTimeEpoch: 1561068900000
+  ICS209ReportStatus: I
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  EstimatedCostToDate: 0
   FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-18T21:20Z'
@@ -38647,12 +38741,14 @@
   LocalIncidentIdentifier: '000262'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-19T00:28Z'
-  ModifiedOnDateTimeEpoch: 1560904124000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-20T23:38Z'
+  ModifiedOnDateTimeEpoch: 1561073888000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
   Source: NFSA
   Hashtag: '#BlackRiverFire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
   unitId: AKUYD
   unitMention: Alaska Fire Service - Upper Yukon Zone
@@ -51087,15 +51183,15 @@
     LocalIncidentIdentifier: '001001'
     POOCounty: Mono
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-20T22:22Z'
-    ModifiedOnDateTimeEpoch: 1561069368000
+    ModifiedOnDateTime: '2019-06-20T23:48Z'
+    ModifiedOnDateTimeEpoch: 1561074537000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#LeVerneFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T22:33:01.283Z'
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -51129,8 +51225,8 @@
   LocalIncidentIdentifier: '001001'
   POOCounty: Mono
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-20T22:22Z'
-  ModifiedOnDateTimeEpoch: 1561069368000
+  ModifiedOnDateTime: '2019-06-20T23:48Z'
+  ModifiedOnDateTimeEpoch: 1561074537000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#LeVerneFire'
@@ -52272,15 +52368,15 @@
     LocalIncidentIdentifier: 030259
     POOCounty: Washoe
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-20T21:55Z'
-    ModifiedOnDateTimeEpoch: 1561067709000
+    ModifiedOnDateTime: '2019-06-20T23:37Z'
+    ModifiedOnDateTimeEpoch: 1561073858000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#HeartpineFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T22:01:20.314Z'
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -52314,8 +52410,8 @@
   LocalIncidentIdentifier: 030259
   POOCounty: Washoe
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-20T21:55Z'
-  ModifiedOnDateTimeEpoch: 1561067709000
+  ModifiedOnDateTime: '2019-06-20T23:37Z'
+  ModifiedOnDateTimeEpoch: 1561073858000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#HeartpineFire'
@@ -53079,15 +53175,15 @@
     LocalIncidentIdentifier: 000088
     POOCounty: Garfield
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-20T23:18Z'
-    ModifiedOnDateTimeEpoch: 1561072684000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-20T23:53Z'
+    ModifiedOnDateTimeEpoch: 1561074781000
+    ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#MitchellFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T23:30:58.377Z'
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -53121,9 +53217,9 @@
   LocalIncidentIdentifier: 000088
   POOCounty: Garfield
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-20T23:18Z'
-  ModifiedOnDateTimeEpoch: 1561072684000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-20T23:53Z'
+  ModifiedOnDateTimeEpoch: 1561074781000
+  ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#MitchellFire'
   NFSAType: Emerging WF < 24 hours
@@ -53153,20 +53249,20 @@
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-20T23:02Z'
-    FireDiscoveryDateTimeEpoch: 1561071758000
+    FireDiscoveryDateTimeEpoch: 1561071720000
     DispatchCenterID: AZPHC
     LocalIncidentIdentifier: '000737'
     POOCounty: Graham
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-20T23:28Z'
-    ModifiedOnDateTimeEpoch: 1561073280000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-06-20T23:34Z'
+    ModifiedOnDateTimeEpoch: 1561073692000
+    ModifiedBySystem: firecode
     Source: NFSA
     Hashtag: '#ApacheFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-20T23:30:58.377Z'
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -53195,17 +53291,254 @@
   FireCause: Unknown
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-20T23:02Z'
-  FireDiscoveryDateTimeEpoch: 1561071758000
+  FireDiscoveryDateTimeEpoch: 1561071720000
   DispatchCenterID: AZPHC
   LocalIncidentIdentifier: '000737'
   POOCounty: Graham
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-20T23:28Z'
-  ModifiedOnDateTimeEpoch: 1561073280000
-  ModifiedBySystem: wildcad
+  ModifiedOnDateTime: '2019-06-20T23:34Z'
+  ModifiedOnDateTimeEpoch: 1561073692000
+  ModifiedBySystem: firecode
   Source: NFSA
   Hashtag: '#ApacheFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+2019-UTSWS-000191:
+  Source_NFSA_Join:
+    Lon: -112.51731310252131
+    Lat: 37.451504872308846
+    Name: Star
+    popupinfo: null
+    id: 119695
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Star
+    UniqueFireIdentifier: 2019-UTSWS-000191
+    DailyAcres: 0.25
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-20T21:19Z'
+    FireDiscoveryDateTimeEpoch: 1561065540000
+    DispatchCenterID: UTCDC
+    LocalIncidentIdentifier: 000191
+    POOCounty: Kane
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-20T23:31Z'
+    ModifiedOnDateTimeEpoch: 1561073488000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#StarFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -112.51731310252131
+  Lat: 37.451504872308846
+  Name: Star
+  popupinfo: null
+  id: 119695
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Star
+  UniqueFireIdentifier: 2019-UTSWS-000191
+  DailyAcres: 0.25
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Natural
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-20T21:19Z'
+  FireDiscoveryDateTimeEpoch: 1561065540000
+  DispatchCenterID: UTCDC
+  LocalIncidentIdentifier: 000191
+  POOCounty: Kane
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-20T23:31Z'
+  ModifiedOnDateTimeEpoch: 1561073488000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#StarFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: UTSWS
+  unitMention: Southwest Area
+2019-WAOLS-000023:
+  Source_NFSA_Join:
+    Lon: -124.43001581567574
+    Lat: 47.75910711148449
+    Name: OIL CITY ROAD
+    popupinfo: null
+    id: 119696
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: OIL CITY ROAD
+    UniqueFireIdentifier: 2019-WAOLS-000023
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-20T20:47Z'
+    FireDiscoveryDateTimeEpoch: 1561063660000
+    DispatchCenterID: WAOLC
+    LocalIncidentIdentifier: '000023'
+    POOCounty: Jefferson
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-20T23:39Z'
+    ModifiedOnDateTimeEpoch: 1561073952000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    Hashtag: '#OilCityRoadFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -124.43001581567574
+  Lat: 47.75910711148449
+  Name: OIL CITY ROAD
+  popupinfo: null
+  id: 119696
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: OIL CITY ROAD
+  UniqueFireIdentifier: 2019-WAOLS-000023
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-20T20:47Z'
+  FireDiscoveryDateTimeEpoch: 1561063660000
+  DispatchCenterID: WAOLC
+  LocalIncidentIdentifier: '000023'
+  POOCounty: Jefferson
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-20T23:39Z'
+  ModifiedOnDateTimeEpoch: 1561073952000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  Hashtag: '#OilCityRoadFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: WAOLS
+  unitMention: Olympic Region-Department of Natural Resources
+2019-CAMVU-008711:
+  Source_NFSA_Join:
+    Lon: -117.28806794711758
+    Lat: 33.3988943537105
+    Name: WISEGARBER
+    popupinfo: null
+    id: 119698
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: WISEGARBER
+    UniqueFireIdentifier: 2019-CAMVU-008711
+    DailyAcres: null
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: null
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-20T21:35Z'
+    FireDiscoveryDateTimeEpoch: 1561066500000
+    DispatchCenterID: CAMVIC
+    LocalIncidentIdentifier: 008711
+    POOCounty: San Diego
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-20T23:59Z'
+    ModifiedOnDateTimeEpoch: 1561075178000
+    ModifiedBySystem: firecode
+    Source: NFSA
+    Hashtag: '#WisegarberFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T00:00:43.913Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -117.28806794711758
+  Lat: 33.3988943537105
+  Name: WISEGARBER
+  popupinfo: null
+  id: 119698
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: WISEGARBER
+  UniqueFireIdentifier: 2019-CAMVU-008711
+  DailyAcres: null
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: null
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-20T21:35Z'
+  FireDiscoveryDateTimeEpoch: 1561066500000
+  DispatchCenterID: CAMVIC
+  LocalIncidentIdentifier: 008711
+  POOCounty: San Diego
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-20T23:59Z'
+  ModifiedOnDateTimeEpoch: 1561075178000
+  ModifiedBySystem: firecode
+  Source: NFSA
+  Hashtag: '#WisegarberFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  unitId: CAMVU
+  unitMention: Monte Vista Unit
