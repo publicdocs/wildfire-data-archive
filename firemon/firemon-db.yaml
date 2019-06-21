@@ -74,9 +74,30 @@
   Source: NFSA
   Hashtag: '#OregonLakesFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-06T00:00Z'
   unitId: AKMID
   unitMention: Alaska Fire Service - Military Zone
+  PerimeterData:
+    DateTime: '2019-06-06T00:00Z'
+    Acres: 34499.3234596
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-AZCOF-000198:
   Source_NFSA_Join:
     Lon: -111.40761524889562
@@ -249,9 +270,30 @@
   popupinfo: null
   calc_symboltype: ImsrOther
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-03T07:00Z'
   unitId: AZCOF
   unitMention: '@CoconinoNF'
+  PerimeterData:
+    DateTime: '2019-06-03T07:00Z'
+    Acres: 8608.23566514
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-AKTAD-000132:
   Source_NFSA_Join:
     Lon: -154.58962197336817
@@ -328,9 +370,30 @@
   Source: NFSA
   Hashtag: '#MelozitnaFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-05-24T00:00Z'
   unitId: AKTAD
   unitMention: Alaska Fire Service - Tanana Zone
+  PerimeterData:
+    DateTime: '2019-05-24T00:00Z'
+    Acres: 1295.62868492
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-NMLNF-000184:
   Source_NFSA_Join:
     Lon: -105.73880563161221
@@ -676,9 +739,30 @@
   owneragency: USFS
   perimexist: 'Y'
   complexname: null
-  PerimDateTime: null
+  PerimDateTime: '2019-06-12T16:00Z'
   unitId: AZASF
   unitMention: Apache-Sitgreaves NF
+  PerimeterData:
+    DateTime: '2019-06-12T16:00Z'
+    Acres: 1906.36478815
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-AZCOF-000299:
   Source_NFSA_Join:
     Lon: -111.30220693345703
@@ -854,6 +938,27 @@
   PerimDateTime: '2019-06-07T07:00Z'
   unitId: AZCOF
   unitMention: '@CoconinoNF'
+  PerimeterData:
+    DateTime: '2019-06-07T07:00Z'
+    Acres: 2317.38900164
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:35.337Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '2'
 2019-FLFNF-000426:
   Source_NFSA_Join:
     Lon: -82.56745458051793
@@ -930,7 +1035,7 @@
   Source: NFSA
   Hashtag: '#SmithStillFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-03T09:14Z'
   unitId: FLFNF
   unitMention: NFs in Florida
 2019-COPSF-000463:
@@ -1009,7 +1114,7 @@
   Source: NFSA
   Hashtag: '#ReveilleFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-15T23:52Z'
   unitId: COPSF
   unitMention: '@PSICC_NF'
 2019-AKSWS-904174:
@@ -1088,7 +1193,7 @@
   Source: NFSA
   Hashtag: '#OldGrouchTopFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
 2019-NMGNF-000166:
@@ -1266,6 +1371,10 @@
   PerimDateTime: null
   unitId: NMGNF
   unitMention: Gila NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904175:
   Source_NFSA_Join:
     Lon: -159.58269188447835
@@ -1342,9 +1451,30 @@
   Source: NFSA
   Hashtag: '#OngivinukRiverFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-18T15:28Z'
+    Acres: 2518.8923709
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-AKKKS-903181:
   Source_NFSA_Join:
     Lon: -150.4376895785433
@@ -1421,7 +1551,7 @@
   Source: NFSA
   Hashtag: '#SwanLakeFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-20T06:55Z'
   unitId: AKKKS
   unitMention: Kenai-Kodiak Area Forestry
 2019-NMGNF-000178:
@@ -1579,9 +1709,30 @@
   Source: NFSA
   Hashtag: '#JordanFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-08T00:00Z'
   unitId: NMGNF
   unitMention: Gila NF
+  PerimeterData:
+    DateTime: '2019-06-08T00:00Z'
+    Acres: 153.61698539
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-AZTNF-000566:
   Source_NFSA_Join:
     Lon: -111.75421223496745
@@ -1754,9 +1905,30 @@
   popupinfo: null
   calc_symboltype: ImsrOther
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-09T21:42Z'
   unitId: AZTNF
   unitMention: Tonto NF
+  PerimeterData:
+    DateTime: '2019-06-09T21:42Z'
+    Acres: 7475.10368606
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-NMCAF-000148:
   Source_NFSA_Join:
     Lon: -106.26944046994163
@@ -2008,9 +2180,30 @@
   Source: NFSA
   Hashtag: '#LittleEastForkFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-11T18:11Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-11T18:11Z'
+    Acres: 88.07087927
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-CALNU-009880:
   Source_NFSA_Join:
     Lon: -122.26640548756818
@@ -2087,9 +2280,30 @@
   Source: NFSA
   Hashtag: '#SandFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-12T19:30Z'
   unitId: CALNU
   unitMention: Sonoma-Lake Napa Unit
+  PerimeterData:
+    DateTime: '2019-06-12T19:30Z'
+    Acres: 2422.01721011
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-AKSWS-904198:
   Source_NFSA_Join:
     Lon: -158.96669014469904
@@ -2262,7 +2476,7 @@
   popupinfo: null
   calc_symboltype: ImsrOther
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:30Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
 2019-AZSCA-000587:
@@ -2516,7 +2730,7 @@
   Source: NFSA
   Hashtag: '#JordanFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T00:00Z'
   unitId: CAINF
   unitMention: '@InyoInfo'
 2019-AKGAD-000218:
@@ -2738,9 +2952,30 @@
   Source: NFSA
   Hashtag: '#HellsGateFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-14T11:50Z'
   unitId: AZCNF
   unitMention: '@CoronadoNF'
+  PerimeterData:
+    DateTime: '2019-06-14T11:50Z'
+    Acres: 305.55216931
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-COSJF-000186:
   Source_NFSA_Join:
     Lon: -107.79971157328639
@@ -2820,6 +3055,10 @@
   PerimDateTime: null
   unitId: COSJF
   unitMention: San Juan NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000224:
   Source_NFSA_Join:
     Lon: -161.55132288016776
@@ -2896,7 +3135,7 @@
   Source: NFSA
   Hashtag: '#KuyukutukRiverFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-17T16:40Z'
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
 2019-AKSWS-904226:
@@ -2975,7 +3214,7 @@
   Source: NFSA
   Hashtag: '#ShoeleatherCreekFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
 2019-CALAC-177250:
@@ -3057,6 +3296,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORMAF-019045:
   Source_NFSA_Join:
     Lon: -118.57423983830854
@@ -3136,6 +3379,10 @@
   PerimDateTime: null
   unitId: ORMAF
   unitMention: Malheur NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR982S-000155:
   Source_NFSA_Join:
     Lon: -120.76161060568107
@@ -3215,6 +3462,10 @@
   PerimDateTime: null
   unitId: OR982S
   unitMention: Lake Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORFWF-000157:
   Source_NFSA_Join:
     Lon: -121.0317160453101
@@ -3294,6 +3545,10 @@
   PerimDateTime: null
   unitId: ORFWF
   unitMention: Fremont-Winema NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPMA-000627:
   Source_NFSA_Join:
     Lon: -111.80421246368155
@@ -3373,6 +3628,10 @@
   PerimDateTime: null
   unitId: AZPMA
   unitMention: '@pimaarizona'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTUOA-100037:
   Source_NFSA_Join:
     Lon: -109.85851545719571
@@ -3452,6 +3711,10 @@
   PerimDateTime: null
   unitId: UTUOA
   unitMention: Uintah and Ouray Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CATNF-000431:
   Source_NFSA_Join:
     Lon: -120.18880884791508
@@ -3531,6 +3794,10 @@
   PerimDateTime: null
   unitId: CATNF
   unitMention: '@Tahoe_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CATGU-006258:
   Source_NFSA_Join:
     Lon: -122.45029062622744
@@ -3610,6 +3877,10 @@
   PerimDateTime: null
   unitId: CATGU
   unitMention: Tehama-Glenn Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAOLS-000019:
   Source_NFSA_Join:
     Lon: -123.07364956818368
@@ -3689,6 +3960,10 @@
   PerimDateTime: null
   unitId: WAOLS
   unitMention: Olympic Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR982S-000158:
   Source_NFSA_Join:
     Lon: -120.48341134534208
@@ -3768,6 +4043,10 @@
   PerimDateTime: null
   unitId: OR982S
   unitMention: Lake Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-177519:
   Source_NFSA_Join:
     Lon: -118.09524016251034
@@ -3847,6 +4126,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MNSUF-000146:
   Source_NFSA_Join:
     Lon: -91.99516568951822
@@ -3926,6 +4209,10 @@
   PerimDateTime: null
   unitId: MNSUF
   unitMention: Superior NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA5S-000734:
   Source_NFSA_Join:
     Lon: -114.5976136711796
@@ -4005,6 +4292,10 @@
   PerimDateTime: null
   unitId: AZA5S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORMAF-019047:
   Source_NFSA_Join:
     Lon: -118.66028047622152
@@ -4084,6 +4375,10 @@
   PerimDateTime: null
   unitId: ORMAF
   unitMention: Malheur NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-009864:
   Source_NFSA_Join:
     Lon: -116.2491124221163
@@ -4163,6 +4458,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-009863:
   Source_NFSA_Join:
     Lon: -116.33200895653486
@@ -4242,6 +4541,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000733:
   Source_NFSA_Join:
     Lon: -111.36040878071513
@@ -4321,6 +4624,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKFAS-911242:
   Source_NFSA_Join:
     Lon: -148.54102262026473
@@ -4400,6 +4707,10 @@
   PerimDateTime: null
   unitId: AKFAS
   unitMention: Fairbanks Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-009862:
   Source_NFSA_Join:
     Lon: -117.32611159940002
@@ -4479,6 +4790,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDKVS-000154:
   Source_NFSA_Join:
     Lon: -116.33555730190713
@@ -4558,6 +4873,10 @@
   PerimDateTime: null
   unitId: IDKVS
   unitMention: Kootenai Valley Area Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTHLF-000035:
   Source_NFSA_Join:
     Lon: -111.65171446104941
@@ -4637,6 +4956,10 @@
   PerimDateTime: null
   unitId: MTHLF
   unitMention: Helena - Lewis and Clark NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASKU-004453:
   Source_NFSA_Join:
     Lon: -122.40473705816974
@@ -4716,6 +5039,10 @@
   PerimDateTime: null
   unitId: CASKU
   unitMention: Siskiyou Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COLSD-000063:
   Source_NFSA_Join:
     Lon: -108.31031398077992
@@ -4795,6 +5122,10 @@
   PerimDateTime: null
   unitId: COLSD
   unitMention: Little Snake Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COLSD-000062:
   Source_NFSA_Join:
     Lon: -108.45121473309406
@@ -4874,6 +5205,10 @@
   PerimDateTime: null
   unitId: COLSD
   unitMention: Little Snake Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORFWF-000159:
   Source_NFSA_Join:
     Lon: -121.50210986068646
@@ -4953,6 +5288,10 @@
   PerimDateTime: null
   unitId: ORFWF
   unitMention: Fremont-Winema NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-177604:
   Source_NFSA_Join:
     Lon: -118.3259454937779
@@ -5032,6 +5371,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSCS-190065:
   Source_NFSA_Join:
     Lon: -112.2978097628467
@@ -5111,6 +5454,10 @@
   PerimDateTime: null
   unitId: UTSCS
   unitMention: Central Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDKVS-000155:
   Source_NFSA_Join:
     Lon: -116.3221185052567
@@ -5190,6 +5537,10 @@
   PerimDateTime: null
   unitId: IDKVS
   unitMention: Kootenai Valley Area Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYSWX-019089:
   Source_NFSA_Join:
     Lon: -109.29711332038522
@@ -5269,6 +5620,10 @@
   PerimDateTime: null
   unitId: WYSWX
   unitMention: Sweetwater Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORFWF-000161:
   Source_NFSA_Join:
     Lon: -121.33141199039808
@@ -5348,6 +5703,10 @@
   PerimDateTime: null
   unitId: ORFWF
   unitMention: Fremont-Winema NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORDEF-000295:
   Source_NFSA_Join:
     Lon: -121.29331443919855
@@ -5427,6 +5786,10 @@
   PerimDateTime: null
   unitId: ORDEF
   unitMention: Deschutes NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYRSD-019088:
   Source_NFSA_Join:
     Lon: -109.3345101856631
@@ -5506,6 +5869,10 @@
   PerimDateTime: null
   unitId: WYRSD
   unitMention: Rock Springs Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDTFD-000044:
   Source_NFSA_Join:
     Lon: -113.01451264597578
@@ -5585,6 +5952,10 @@
   PerimDateTime: null
   unitId: IDTFD
   unitMention: Twin  Falls District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR982S-000160:
   Source_NFSA_Join:
     Lon: -121.24991682782274
@@ -5664,6 +6035,10 @@
   PerimDateTime: null
   unitId: OR982S
   unitMention: Lake Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAAFV-001157:
   Source_NFSA_Join:
     Lon: -120.57161692308978
@@ -5743,6 +6118,10 @@
   PerimDateTime: null
   unitId: CAAFV
   unitMention: Vandenberg Air Force Base FD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR982S-000162:
   Source_NFSA_Join:
     Lon: -121.31781149699651
@@ -5822,6 +6201,10 @@
   PerimDateTime: null
   unitId: OR982S
   unitMention: Lake Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORVAD-000042:
   Source_NFSA_Join:
     Lon: -116.8991153953995
@@ -5901,6 +6284,10 @@
   PerimDateTime: null
   unitId: ORVAD
   unitMention: Vale District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDNCF-000156:
   Source_NFSA_Join:
     Lon: -115.98771165759037
@@ -5980,6 +6367,10 @@
   PerimDateTime: null
   unitId: IDNCF
   unitMention: Nez Perce - Clearwater NFs
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPS-000064:
   Source_NFSA_Join:
     Lon: -122.82531929104168
@@ -6059,6 +6450,10 @@
   PerimDateTime: null
   unitId: WASPS
   unitMention: South Puget Sound Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORLAD-000163:
   Source_NFSA_Join:
     Lon: -120.77251615323026
@@ -6138,6 +6533,10 @@
   PerimDateTime: null
   unitId: ORLAD
   unitMention: Lakeview District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORWSA-000007:
   Source_NFSA_Join:
     Lon: -121.22585096136119
@@ -6217,6 +6616,10 @@
   PerimDateTime: null
   unitId: ORWSA
   unitMention: Warm Springs Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CANOD-003033:
   Source_NFSA_Join:
     Lon: -120.41751093609906
@@ -6296,6 +6699,10 @@
   PerimDateTime: null
   unitId: CANOD
   unitMention: Northern California District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPD-000149:
   Source_NFSA_Join:
     Lon: -119.94831188005061
@@ -6375,6 +6782,10 @@
   PerimDateTime: null
   unitId: WASPD
   unitMention: Spokane District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CANOD-003035:
   Source_NFSA_Join:
     Lon: -120.25557163983086
@@ -6454,6 +6865,10 @@
   PerimDateTime: null
   unitId: CANOD
   unitMention: Northern California District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR951S-000296:
   Source_NFSA_Join:
     Lon: -120.17381596582314
@@ -6533,6 +6948,10 @@
   PerimDateTime: null
   unitId: OR951S
   unitMention: Prineville Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSCS-190064:
   Source_NFSA_Join:
     Lon: -111.97691357705352
@@ -6612,6 +7031,10 @@
   PerimDateTime: null
   unitId: UTSCS
   unitMention: Central Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASKU-004455:
   Source_NFSA_Join:
     Lon: -122.61529317761453
@@ -6691,6 +7114,10 @@
   PerimDateTime: null
   unitId: CASKU
   unitMention: Siskiyou Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTNWS-000162:
   Source_NFSA_Join:
     Lon: -111.62870860662312
@@ -6770,6 +7197,10 @@
   PerimDateTime: null
   unitId: UTNWS
   unitMention: Northwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001397:
   Source_NFSA_Join:
     Lon: -119.21661611482956
@@ -6849,6 +7280,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAPNF-000588:
   Source_NFSA_Join:
     Lon: -120.22091463616951
@@ -6928,6 +7363,10 @@
   PerimDateTime: null
   unitId: CAPNF
   unitMention: '@USFSPlumas'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVELD-040028:
   Source_NFSA_Join:
     Lon: -115.19184923162467
@@ -7007,6 +7446,10 @@
   PerimDateTime: null
   unitId: NVELD
   unitMention: Ely District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAPNF-000584:
   Source_NFSA_Join:
     Lon: -120.24251013559974
@@ -7086,6 +7529,10 @@
   PerimDateTime: null
   unitId: CAPNF
   unitMention: '@USFSPlumas'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000628:
   Source_NFSA_Join:
     Lon: -110.47670908626824
@@ -7165,6 +7612,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR981S-000165:
   Source_NFSA_Join:
     Lon: -121.9038095062862
@@ -7244,6 +7695,10 @@
   PerimDateTime: null
   unitId: OR981S
   unitMention: Klamath Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYRSD-019090:
   Source_NFSA_Join:
     Lon: -109.38821147334778
@@ -7323,6 +7778,10 @@
   PerimDateTime: null
   unitId: WYRSD
   unitMention: Rock Springs Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COGWD-000077:
   Source_NFSA_Join:
     Lon: -107.98472858920364
@@ -7402,6 +7861,10 @@
   PerimDateTime: null
   unitId: COGWD
   unitMention: Colorado River Valley Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-177821:
   Source_NFSA_Join:
     Lon: -117.85831848947664
@@ -7481,6 +7944,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000625:
   Source_NFSA_Join:
     Lon: -110.10351298463362
@@ -7560,6 +8027,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZNAA-000046:
   Source_NFSA_Join:
     Lon: -109.87056186515576
@@ -7639,6 +8110,10 @@
   PerimDateTime: null
   unitId: AZNAA
   unitMention: Navajo Region Fire and Aviation Management
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR982S-000164:
   Source_NFSA_Join:
     Lon: -121.17821330184434
@@ -7718,6 +8193,10 @@
   PerimDateTime: null
   unitId: OR982S
   unitMention: Lake Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001396:
   Source_NFSA_Join:
     Lon: -117.73711779134325
@@ -7797,6 +8276,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001398:
   Source_NFSA_Join:
     Lon: -118.12361794233567
@@ -7876,6 +8359,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVBMD-020084:
   Source_NFSA_Join:
     Lon: -117.11945416828833
@@ -7955,6 +8442,10 @@
   PerimDateTime: null
   unitId: NVBMD
   unitMention: Battle Mountain District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSES-009057:
   Source_NFSA_Join:
     Lon: -109.51941042059343
@@ -8034,6 +8525,10 @@
   PerimDateTime: null
   unitId: UTSES
   unitMention: Southeast Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904243:
   Source_NFSA_Join:
     Lon: -154.43618972284057
@@ -8110,9 +8605,30 @@
   Source: NFSA
   Hashtag: '#ScowHarryCreekFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-18T15:28Z'
+    Acres: 23.45187533
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-WAMCR-000150:
   Source_NFSA_Join:
     Lon: -118.91821374375074
@@ -8192,6 +8708,10 @@
   PerimDateTime: null
   unitId: WAMCR
   unitMention: Mid Columbia NWR Complex
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTBDF-006116:
   Source_NFSA_Join:
     Lon: -113.05301443905314
@@ -8271,6 +8791,10 @@
   PerimDateTime: null
   unitId: MTBDF
   unitMention: Beaverhead-Deerlodge NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDSCF-019069:
   Source_NFSA_Join:
     Lon: -114.3178154096349
@@ -8350,6 +8874,10 @@
   PerimDateTime: null
   unitId: IDSCF
   unitMention: '@SalmonChallisNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTNWS-000164:
   Source_NFSA_Join:
     Lon: -112.48951024447781
@@ -8429,6 +8957,10 @@
   PerimDateTime: null
   unitId: UTNWS
   unitMention: Northwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDRBA-000015:
   Source_NFSA_Join:
     Lon: -100.80695590711478
@@ -8508,6 +9040,10 @@
   PerimDateTime: null
   unitId: SDRBA
   unitMention: Rosebud Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVWID-020083:
   Source_NFSA_Join:
     Lon: -118.52051160116535
@@ -8587,6 +9123,10 @@
   PerimDateTime: null
   unitId: NVWID
   unitMention: Winnemucca District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALMU-003034:
   Source_NFSA_Join:
     Lon: -120.76834797031194
@@ -8666,6 +9206,10 @@
   PerimDateTime: null
   unitId: CALMU
   unitMention: Lassen-Modoc Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-177979:
   Source_NFSA_Join:
     Lon: -118.0584451684728
@@ -8745,6 +9289,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSLD-000163:
   Source_NFSA_Join:
     Lon: -112.58921425786222
@@ -8824,6 +9372,10 @@
   PerimDateTime: null
   unitId: UTSLD
   unitMention: Salt Lake Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904244:
   Source_NFSA_Join:
     Lon: -162.84763675091642
@@ -8900,9 +9452,30 @@
   Source: NFSA
   Hashtag: '#NunavakpakLakeFire'
   NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
+  PerimDateTime: '2019-06-17T16:40Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-17T16:40Z'
+    Acres: 46.48868822
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-WANES-001400:
   Source_NFSA_Join:
     Lon: -117.32321004103234
@@ -8982,6 +9555,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904245:
   Source_NFSA_Join:
     Lon: -160.95673697676187
@@ -9058,9 +9635,30 @@
   Source: NFSA
   Hashtag: '#KisarlikRiverFire'
   NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-18T15:28Z'
+    Acres: 78.63414556
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-CALAC-178198:
   Source_NFSA_Join:
     Lon: -118.07337516849486
@@ -9140,6 +9738,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPHD-000611:
   Source_NFSA_Join:
     Lon: -112.33481136939959
@@ -9219,6 +9821,10 @@
   PerimDateTime: null
   unitId: AZPHD
   unitMention: Phoenix District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPMA-000632:
   Source_NFSA_Join:
     Lon: -112.21600917307478
@@ -9298,6 +9904,10 @@
   PerimDateTime: null
   unitId: AZPMA
   unitMention: '@pimaarizona'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000738:
   Source_NFSA_Join:
     Lon: -110.05380919996328
@@ -9377,6 +9987,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTLG08-000036:
   Source_NFSA_Join:
     Lon: -109.48295678636386
@@ -9456,6 +10070,10 @@
   PerimDateTime: null
   unitId: MTLG08
   unitMention: Fergus Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORPRD-000297:
   Source_NFSA_Join:
     Lon: -121.23851720686727
@@ -9535,6 +10153,10 @@
   PerimDateTime: null
   unitId: ORPRD
   unitMention: Prineville District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MNCPF-000149:
   Source_NFSA_Join:
     Lon: -93.94835464547361
@@ -9614,6 +10236,10 @@
   PerimDateTime: null
   unitId: MNCPF
   unitMention: Chippewa NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYWYS-3763500140:
   Source_NFSA_Join:
     Lon: -109.21657037201106
@@ -9693,6 +10319,10 @@
   PerimDateTime: null
   unitId: WYWYS
   unitMention: Wyoming State Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CABDU-008194:
   Source_NFSA_Join:
     Lon: -116.86250904757163
@@ -9772,6 +10402,10 @@
   PerimDateTime: null
   unitId: CABDU
   unitMention: '@calfirebdu'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMN2S-000167:
   Source_NFSA_Join:
     Lon: -103.03760750487618
@@ -9851,6 +10485,10 @@
   PerimDateTime: null
   unitId: NMN2S
   unitMention: Cimarron District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVSND-590152:
   Source_NFSA_Join:
     Lon: -114.4858093509181
@@ -9930,6 +10568,10 @@
   PerimDateTime: null
   unitId: NVSND
   unitMention: Southern Nevada District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPS-000065:
   Source_NFSA_Join:
     Lon: -122.88571302759303
@@ -10009,6 +10651,10 @@
   PerimDateTime: null
   unitId: WASPS
   unitMention: South Puget Sound Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAYAA-000019:
   Source_NFSA_Join:
     Lon: -120.5436254188366
@@ -10088,6 +10734,10 @@
   PerimDateTime: null
   unitId: WAYAA
   unitMention: Yakama Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-178422:
   Source_NFSA_Join:
     Lon: -118.16588367645348
@@ -10167,6 +10817,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDFBA-000036:
   Source_NFSA_Join:
     Lon: -102.33779294908855
@@ -10246,6 +10900,10 @@
   PerimDateTime: null
   unitId: NDFBA
   unitMention: Fort Berthold Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAYAA-000020:
   Source_NFSA_Join:
     Lon: -120.91890561193038
@@ -10325,6 +10983,10 @@
   PerimDateTime: null
   unitId: WAYAA
   unitMention: Yakama Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDPRA-000023:
   Source_NFSA_Join:
     Lon: -102.08584246135155
@@ -10404,6 +11066,10 @@
   PerimDateTime: null
   unitId: SDPRA
   unitMention: Pine Ridge Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR952S-019048:
   Source_NFSA_Join:
     Lon: -119.00010416505107
@@ -10483,6 +11149,10 @@
   PerimDateTime: null
   unitId: OR952S
   unitMention: John Day Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CORGD-000535:
   Source_NFSA_Join:
     Lon: -105.28690812793589
@@ -10562,6 +11232,10 @@
   PerimDateTime: null
   unitId: CORGD
   unitMention: Royal Gorge Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-178484:
   Source_NFSA_Join:
     Lon: -118.37667335787214
@@ -10641,6 +11315,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPS-000066:
   Source_NFSA_Join:
     Lon: -122.58321433881864
@@ -10720,6 +11398,10 @@
   PerimDateTime: null
   unitId: WASPS
   unitMention: South Puget Sound Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001406:
   Source_NFSA_Join:
     Lon: -117.53351463219755
@@ -10799,6 +11481,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTBRF-019070:
   Source_NFSA_Join:
     Lon: -113.901814584712
@@ -10878,6 +11564,10 @@
   PerimDateTime: null
   unitId: MTBRF
   unitMention: Bitterroot NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASLU-007770:
   Source_NFSA_Join:
     Lon: -119.96945822183879
@@ -10957,6 +11647,10 @@
   PerimDateTime: null
   unitId: CASLU
   unitMention: San Luis Obispo Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAPCS-000113:
   Source_NFSA_Join:
     Lon: -122.80051680604713
@@ -11036,6 +11730,10 @@
   PerimDateTime: null
   unitId: WAPCS
   unitMention: Pacific Cascade Region-DNR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-178585:
   Source_NFSA_Join:
     Lon: -118.76211349682931
@@ -11115,6 +11813,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASES-000151:
   Source_NFSA_Join:
     Lon: -120.40291331273212
@@ -11194,6 +11896,10 @@
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-178631:
   Source_NFSA_Join:
     Lon: -118.09458439235294
@@ -11273,6 +11979,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-009869:
   Source_NFSA_Join:
     Lon: -116.57421272343916
@@ -11352,6 +12062,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-178637:
   Source_NFSA_Join:
     Lon: -118.14780957293699
@@ -11431,6 +12145,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAOWF-000152:
   Source_NFSA_Join:
     Lon: -121.24961140062614
@@ -11510,6 +12228,10 @@
   PerimDateTime: null
   unitId: WAOWF
   unitMention: Okanogan-Wenatchee NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTLNF-000717:
   Source_NFSA_Join:
     Lon: -113.56971640732584
@@ -11589,6 +12311,10 @@
   PerimDateTime: null
   unitId: MTLNF
   unitMention: Lolo NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORWSA-000008:
   Source_NFSA_Join:
     Lon: -121.19973693605183
@@ -11668,6 +12394,10 @@
   PerimDateTime: null
   unitId: ORWSA
   unitMention: Warm Springs Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZNAA-000047:
   Source_NFSA_Join:
     Lon: -109.76473134153363
@@ -11747,6 +12477,10 @@
   PerimDateTime: null
   unitId: AZNAA
   unitMention: Navajo Region Fire and Aviation Management
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDTMA-000155:
   Source_NFSA_Join:
     Lon: -99.67917496681979
@@ -11826,6 +12560,10 @@
   PerimDateTime: null
   unitId: NDTMA
   unitMention: Turtle Mountain Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COWRD-000065:
   Source_NFSA_Join:
     Lon: -108.43621286784928
@@ -11905,6 +12643,10 @@
   PerimDateTime: null
   unitId: COWRD
   unitMention: White River Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAMCR-000153:
   Source_NFSA_Join:
     Lon: -119.55361011051417
@@ -11984,6 +12726,10 @@
   PerimDateTime: null
   unitId: WAMCR
   unitMention: Mid Columbia NWR Complex
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORRSF-000131:
   Source_NFSA_Join:
     Lon: -123.57946395521284
@@ -12063,6 +12809,10 @@
   PerimDateTime: null
   unitId: ORRSF
   unitMention: Rogue River-Siskiyou NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTNES-100038:
   Source_NFSA_Join:
     Lon: -109.6136077612862
@@ -12142,6 +12892,10 @@
   PerimDateTime: null
   unitId: UTNES
   unitMention: Northeast Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDELX-000045:
   Source_NFSA_Join:
     Lon: -115.10601520622704
@@ -12221,6 +12975,10 @@
   PerimDateTime: null
   unitId: IDELX
   unitMention: Elmore Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDNCF-000162:
   Source_NFSA_Join:
     Lon: -115.30580950856807
@@ -12300,6 +13058,10 @@
   PerimDateTime: null
   unitId: IDNCF
   unitMention: Nez Perce - Clearwater NFs
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSWS-000158:
   Source_NFSA_Join:
     Lon: -113.23150968600768
@@ -12379,6 +13141,10 @@
   PerimDateTime: null
   unitId: UTSWS
   unitMention: Southwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKUYD-000247:
   Source_NFSA_Join:
     Lon: -141.3583271704189
@@ -12458,6 +13224,10 @@
   PerimDateTime: null
   unitId: AKUYD
   unitMention: Alaska Fire Service - Upper Yukon Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKFAS-911246:
   Source_NFSA_Join:
     Lon: -147.48802642737266
@@ -12537,6 +13307,10 @@
   PerimDateTime: null
   unitId: AKFAS
   unitMention: Fairbanks Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKMID-000248:
   Source_NFSA_Join:
     Lon: -146.56482780988304
@@ -12616,6 +13390,10 @@
   PerimDateTime: null
   unitId: AKMID
   unitMention: Alaska Fire Service - Military Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-178839:
   Source_NFSA_Join:
     Lon: -118.09465625757566
@@ -12695,6 +13473,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000640:
   Source_NFSA_Join:
     Lon: -110.45301152907317
@@ -12774,6 +13556,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000638:
   Source_NFSA_Join:
     Lon: -110.44821452545597
@@ -12853,6 +13639,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASKU-004484:
   Source_NFSA_Join:
     Lon: -122.35473682945566
@@ -12932,6 +13722,10 @@
   PerimDateTime: null
   unitId: CASKU
   unitMention: Siskiyou Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKFAS-FAS-9066:
   Source_NFSA_Join:
     Lon: -147.8137106336302
@@ -13011,6 +13805,10 @@
   PerimDateTime: null
   unitId: AKFAS
   unitMention: Fairbanks Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000748:
   Source_NFSA_Join:
     Lon: -110.91620983902372
@@ -13090,6 +13888,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001410:
   Source_NFSA_Join:
     Lon: -117.20531514314449
@@ -13169,6 +13971,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZGID-000264:
   Source_NFSA_Join:
     Lon: -109.20241292313334
@@ -13248,6 +14054,10 @@
   PerimDateTime: null
   unitId: AZGID
   unitMention: Gila District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTNCA-019016:
   Source_NFSA_Join:
     Lon: -106.71890353919798
@@ -13327,6 +14137,10 @@
   PerimDateTime: null
   unitId: MTNCA
   unitMention: Northern Cheyenne Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COWRD-000066:
   Source_NFSA_Join:
     Lon: -108.4651116705394
@@ -13406,6 +14220,10 @@
   PerimDateTime: null
   unitId: COWRD
   unitMention: White River Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001404:
   Source_NFSA_Join:
     Lon: -117.6925164374867
@@ -13485,6 +14303,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDSDS-190213:
   Source_NFSA_Join:
     Lon: -103.945408998396
@@ -13564,6 +14386,10 @@
   PerimDateTime: null
   unitId: SDSDS
   unitMention: South Dakota Wildland Fire Suppression
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKMSS-901249:
   Source_NFSA_Join:
     Lon: -149.86168083521304
@@ -13643,6 +14469,10 @@
   PerimDateTime: null
   unitId: AKMSS
   unitMention: Mat-Su Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZGCP-000026:
   Source_NFSA_Join:
     Lon: -112.11281071323513
@@ -13722,6 +14552,10 @@
   PerimDateTime: null
   unitId: AZGCP
   unitMention: Grand Canyon NP
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-178909:
   Source_NFSA_Join:
     Lon: -117.75127524022096
@@ -13801,6 +14635,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001408:
   Source_NFSA_Join:
     Lon: -117.74271429556332
@@ -13880,6 +14718,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCOF-000432:
   Source_NFSA_Join:
     Lon: -111.35651009238205
@@ -13959,6 +14801,10 @@
   PerimDateTime: null
   unitId: AZCOF
   unitMention: '@CoconinoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR982S-000168:
   Source_NFSA_Join:
     Lon: -121.20880992042144
@@ -14038,6 +14884,10 @@
   PerimDateTime: null
   unitId: OR982S
   unitMention: Lake Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDBKF-190215:
   Source_NFSA_Join:
     Lon: -103.42850940076079
@@ -14117,6 +14967,10 @@
   PerimDateTime: null
   unitId: SDBKF
   unitMention: Black Hills NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CABTU-006882:
   Source_NFSA_Join:
     Lon: -121.47140544427526
@@ -14196,6 +15050,10 @@
   PerimDateTime: null
   unitId: CABTU
   unitMention: '@CALFIRE_ButteCo'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZTNF-000642:
   Source_NFSA_Join:
     Lon: -111.35750722234744
@@ -14275,6 +15133,10 @@
   PerimDateTime: null
   unitId: AZTNF
   unitMention: Tonto NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-179093:
   Source_NFSA_Join:
     Lon: -118.1531096331133
@@ -14354,6 +15216,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904250:
   Source_NFSA_Join:
     Lon: -155.04439408595368
@@ -14430,9 +15296,30 @@
   Source: NFSA
   Hashtag: '#SunshineMountainsFire'
   NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-18T15:28Z'
+    Acres: 36.77085742
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-NDTMA-000156:
   Source_NFSA_Join:
     Lon: -99.72445904029225
@@ -14512,6 +15399,10 @@
   PerimDateTime: null
   unitId: NDTMA
   unitMention: Turtle Mountain Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKKKS-903251:
   Source_NFSA_Join:
     Lon: -151.19260679385886
@@ -14591,6 +15482,10 @@
   PerimDateTime: null
   unitId: AKKKS
   unitMention: Kenai-Kodiak Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000252:
   Source_NFSA_Join:
     Lon: -161.85021932465284
@@ -14670,6 +15565,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000253:
   Source_NFSA_Join:
     Lon: -161.88622380124036
@@ -14749,6 +15648,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000646:
   Source_NFSA_Join:
     Lon: -110.58861222121101
@@ -14828,6 +15731,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-179335:
   Source_NFSA_Join:
     Lon: -118.15303776789058
@@ -14907,6 +15814,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-179383:
   Source_NFSA_Join:
     Lon: -118.17254917586165
@@ -14986,6 +15897,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDSIS-000180:
   Source_NFSA_Join:
     Lon: -116.11211035813524
@@ -15065,6 +15980,10 @@
   PerimDateTime: null
   unitId: IDSIS
   unitMention: 'South Idaho Timber Protective Association, Idaho Department of Lands'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSWS-000162:
   Source_NFSA_Join:
     Lon: -113.11731584709041
@@ -15144,6 +16063,10 @@
   PerimDateTime: null
   unitId: UTSWS
   unitMention: Southwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSWS-000163:
   Source_NFSA_Join:
     Lon: -113.11891484829616
@@ -15223,6 +16146,10 @@
   PerimDateTime: null
   unitId: UTSWS
   unitMention: Southwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000742:
   Source_NFSA_Join:
     Lon: -111.43351367853678
@@ -15302,6 +16229,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000745:
   Source_NFSA_Join:
     Lon: -111.34680828731356
@@ -15381,6 +16312,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORSUF-190132:
   Source_NFSA_Join:
     Lon: -124.18631186224695
@@ -15460,6 +16395,10 @@
   PerimDateTime: null
   unitId: ORSUF
   unitMention: Siuslaw NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001411:
   Source_NFSA_Join:
     Lon: -117.69541799585441
@@ -15539,6 +16478,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORMAF-019050:
   Source_NFSA_Join:
     Lon: -118.37243330973108
@@ -15618,6 +16561,10 @@
   PerimDateTime: null
   unitId: ORMAF
   unitMention: Malheur NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORMAF-009028:
   Source_NFSA_Join:
     Lon: -118.74051799739908
@@ -15697,6 +16644,10 @@
   PerimDateTime: null
   unitId: ORMAF
   unitMention: Malheur NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDBOD-000267:
   Source_NFSA_Join:
     Lon: -115.7252149484178
@@ -15776,6 +16727,10 @@
   PerimDateTime: null
   unitId: IDBOD
   unitMention: '@BLMIdaho'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR712S-0B3719:
   Source_NFSA_Join:
     Lon: -123.37807065166609
@@ -15855,6 +16810,10 @@
   PerimDateTime: null
   unitId: OR712S
   unitMention: Grants Pass Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTNWS-000165:
   Source_NFSA_Join:
     Lon: -112.22194703710281
@@ -15934,6 +16893,10 @@
   PerimDateTime: null
   unitId: UTNWS
   unitMention: Northwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAYAA-000021:
   Source_NFSA_Join:
     Lon: -120.57167980515966
@@ -16013,6 +16976,10 @@
   PerimDateTime: null
   unitId: WAYAA
   unitMention: Yakama Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDLNX-000046:
   Source_NFSA_Join:
     Lon: -114.015514350223
@@ -16092,6 +17059,10 @@
   PerimDateTime: null
   unitId: IDLNX
   unitMention: Lincoln Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAPCS-000114:
   Source_NFSA_Join:
     Lon: -122.34451400152237
@@ -16171,6 +17142,10 @@
   PerimDateTime: null
   unitId: WAPCS
   unitMention: Pacific Cascade Region-DNR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZHOA-000030:
   Source_NFSA_Join:
     Lon: -111.22501470109263
@@ -16250,6 +17225,10 @@
   PerimDateTime: null
   unitId: AZHOA
   unitMention: Hopi Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAMCR-000154:
   Source_NFSA_Join:
     Lon: -119.53711704189774
@@ -16329,6 +17308,10 @@
   PerimDateTime: null
   unitId: WAMCR
   unitMention: Mid Columbia NWR Complex
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCNF-000268:
   Source_NFSA_Join:
     Lon: -110.89641097016172
@@ -16408,6 +17391,10 @@
   PerimDateTime: null
   unitId: AZCNF
   unitMention: '@CoronadoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CANOD-003071:
   Source_NFSA_Join:
     Lon: -119.99723413042375
@@ -16487,6 +17474,10 @@
   PerimDateTime: null
   unitId: CANOD
   unitMention: Northern California District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CANEU-013964:
   Source_NFSA_Join:
     Lon: -121.36084978225868
@@ -16566,6 +17557,10 @@
   PerimDateTime: null
   unitId: CANEU
   unitMention: Nevada-Yuba-Placer Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTMCD-000051:
   Source_NFSA_Join:
     Lon: -105.19271078724312
@@ -16645,6 +17640,10 @@
   PerimDateTime: null
   unitId: MTMCD
   unitMention: Miles City Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVCCD-030235:
   Source_NFSA_Join:
     Lon: -119.55401435239202
@@ -16724,6 +17723,10 @@
   PerimDateTime: null
   unitId: NVCCD
   unitMention: Carson City District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYCAD-019092:
   Source_NFSA_Join:
     Lon: -106.58880951975179
@@ -16803,6 +17806,10 @@
   PerimDateTime: null
   unitId: WYCAD
   unitMention: Casper Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCRD-000623:
   Source_NFSA_Join:
     Lon: -114.5918105544442
@@ -16882,6 +17889,10 @@
   PerimDateTime: null
   unitId: AZCRD
   unitMention: Colorado River District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORDEF-000298:
   Source_NFSA_Join:
     Lon: -121.29471581104178
@@ -16961,6 +17972,10 @@
   PerimDateTime: null
   unitId: ORDEF
   unitMention: Deschutes NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COWRD-000068:
   Source_NFSA_Join:
     Lon: -108.81141221256748
@@ -17040,6 +18055,10 @@
   PerimDateTime: null
   unitId: COWRD
   unitMention: White River Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVEURX-010063:
   Source_NFSA_Join:
     Lon: -116.44531346332084
@@ -17119,6 +18138,10 @@
   PerimDateTime: null
   unitId: NVEURX
   unitMention: Eureka Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORVAD-000044:
   Source_NFSA_Join:
     Lon: -117.74671179857764
@@ -17198,6 +18221,10 @@
   PerimDateTime: null
   unitId: ORVAD
   unitMention: Vale District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-179743:
   Source_NFSA_Join:
     Lon: -118.1731240976435
@@ -17277,6 +18304,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYWYS-0153200102:
   Source_NFSA_Join:
     Lon: -106.04915559596982
@@ -17356,6 +18387,10 @@
   PerimDateTime: null
   unitId: WYWYS
   unitMention: Wyoming State Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORVAD-000045:
   Source_NFSA_Join:
     Lon: -117.30171335628336
@@ -17435,6 +18470,10 @@
   PerimDateTime: null
   unitId: ORVAD
   unitMention: Vale District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAMCR-000156:
   Source_NFSA_Join:
     Lon: -119.75411408192966
@@ -17514,6 +18553,10 @@
   PerimDateTime: null
   unitId: WAMCR
   unitMention: Mid Columbia NWR Complex
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTDIF-000167:
   Source_NFSA_Join:
     Lon: -112.09691053270622
@@ -17593,6 +18636,10 @@
   PerimDateTime: null
   unitId: UTDIF
   unitMention: Dixie NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTCRA-190165:
   Source_NFSA_Join:
     Lon: -107.5237131853935
@@ -17672,6 +18719,10 @@
   PerimDateTime: null
   unitId: MTCRA
   unitMention: Crow Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCRD-000624:
   Source_NFSA_Join:
     Lon: -113.6147130199074
@@ -17751,6 +18802,10 @@
   PerimDateTime: null
   unitId: AZCRD
   unitMention: Colorado River District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORFWF-000169:
   Source_NFSA_Join:
     Lon: -120.75541223022063
@@ -17827,9 +18882,30 @@
   Source: NFSA
   Hashtag: '#DairyFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-15T22:00Z'
   unitId: ORFWF
   unitMention: Fremont-Winema NF
+  PerimeterData:
+    DateTime: '2019-06-15T22:00Z'
+    Acres: 117.74306545
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-ORUMA-000215:
   Source_NFSA_Join:
     Lon: -118.73418487464602
@@ -17909,6 +18985,10 @@
   PerimDateTime: null
   unitId: ORUMA
   unitMention: Umatilla Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDKVS-000159:
   Source_NFSA_Join:
     Lon: -116.471211892962
@@ -17988,6 +19068,10 @@
   PerimDateTime: null
   unitId: IDKVS
   unitMention: Kootenai Valley Area Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZFTA-000311:
   Source_NFSA_Join:
     Lon: -109.96370817696611
@@ -18067,6 +19151,10 @@
   PerimDateTime: null
   unitId: AZFTA
   unitMention: Fort Apache Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CARRU-076624:
   Source_NFSA_Join:
     Lon: -117.09862223684961
@@ -18146,6 +19234,10 @@
   PerimDateTime: null
   unitId: CARRU
   unitMention: '@CALFIRERRU'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPMA-000647:
   Source_NFSA_Join:
     Lon: -111.79981071878936
@@ -18225,6 +19317,10 @@
   PerimDateTime: null
   unitId: AZPMA
   unitMention: '@pimaarizona'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVTMFX-030236:
   Source_NFSA_Join:
     Lon: -119.99421579106911
@@ -18304,6 +19400,10 @@
   PerimDateTime: null
   unitId: NVTMFX
   unitMention: Truckee Meadows FPD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COGND-000057:
   Source_NFSA_Join:
     Lon: -107.01020921953226
@@ -18383,6 +19483,10 @@
   PerimDateTime: null
   unitId: COGND
   unitMention: Gunnison Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-179876:
   Source_NFSA_Join:
     Lon: -118.14156628171237
@@ -18462,6 +19566,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTCRA-190166:
   Source_NFSA_Join:
     Lon: -107.4735153273169
@@ -18541,6 +19649,10 @@
   PerimDateTime: null
   unitId: MTCRA
   unitMention: Crow Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-LABBR-000001:
   Source_NFSA_Join:
     Lon: -89.96417364680524
@@ -18620,6 +19732,10 @@
   PerimDateTime: null
   unitId: LABBR
   unitMention: Big Branch Marsh NWR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSES-009058:
   Source_NFSA_Join:
     Lon: -109.56621264689606
@@ -18699,6 +19815,10 @@
   PerimDateTime: null
   unitId: UTSES
   unitMention: Southeast Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTNCD-000038:
   Source_NFSA_Join:
     Lon: -108.00867767467827
@@ -18778,6 +19898,10 @@
   PerimDateTime: null
   unitId: MTNCD
   unitMention: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001414:
   Source_NFSA_Join:
     Lon: -117.39051182211857
@@ -18857,6 +19981,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTLG55-000038:
   Source_NFSA_Join:
     Lon: -108.00867767467827
@@ -18936,6 +20064,10 @@
   PerimDateTime: null
   unitId: MTLG55
   unitMention: Petroleum Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMVP-000198:
   Source_NFSA_Join:
     Lon: -108.47781384865685
@@ -19015,6 +20147,10 @@
   PerimDateTime: null
   unitId: COMVP
   unitMention: Mesa Verde NP
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COPSF-000550:
   Source_NFSA_Join:
     Lon: -105.06700952953628
@@ -19094,6 +20230,10 @@
   PerimDateTime: null
   unitId: COPSF
   unitMention: '@PSICC_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAYAA-000022:
   Source_NFSA_Join:
     Lon: -120.48945700720421
@@ -19173,6 +20313,10 @@
   PerimDateTime: null
   unitId: WAYAA
   unitMention: Yakama Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COGWD-000078:
   Source_NFSA_Join:
     Lon: -106.7981079977988
@@ -19252,6 +20396,10 @@
   PerimDateTime: null
   unitId: COGWD
   unitMention: Colorado River Valley Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORFWF-000170:
   Source_NFSA_Join:
     Lon: -120.79891763943053
@@ -19331,6 +20479,10 @@
   PerimDateTime: null
   unitId: ORFWF
   unitMention: Fremont-Winema NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMN6S-000095:
   Source_NFSA_Join:
     Lon: -106.6571084308034
@@ -19410,6 +20562,10 @@
   PerimDateTime: null
   unitId: NMN6S
   unitMention: Bernalillo District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAYAA-000023:
   Source_NFSA_Join:
     Lon: -120.3652918686332
@@ -19489,6 +20645,10 @@
   PerimDateTime: null
   unitId: WAYAA
   unitMention: Yakama Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASHF-000588:
   Source_NFSA_Join:
     Lon: -122.63911649894938
@@ -19568,6 +20728,10 @@
   PerimDateTime: null
   unitId: CASHF
   unitMention: '@ShastaTrinityNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001417:
   Source_NFSA_Join:
     Lon: -117.18461795899837
@@ -19647,6 +20811,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMMEA-000237:
   Source_NFSA_Join:
     Lon: -105.8236065944331
@@ -19726,6 +20894,10 @@
   PerimDateTime: null
   unitId: NMMEA
   unitMention: Mescalero Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAHIA-000051:
   Source_NFSA_Join:
     Lon: -123.71945740909004
@@ -19805,6 +20977,10 @@
   PerimDateTime: null
   unitId: CAHIA
   unitMention: '@HoopaTribe'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANWS-000083:
   Source_NFSA_Join:
     Lon: -122.85471216713808
@@ -19884,6 +21060,10 @@
   PerimDateTime: null
   unitId: WANWS
   unitMention: Northwest Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORMAF-009029:
   Source_NFSA_Join:
     Lon: -119.14611633133187
@@ -19963,6 +21143,10 @@
   PerimDateTime: null
   unitId: ORMAF
   unitMention: Malheur NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-009991:
   Source_NFSA_Join:
     Lon: -116.96870788046026
@@ -20042,6 +21226,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASKU-004517:
   Source_NFSA_Join:
     Lon: -121.49417773672768
@@ -20121,6 +21309,10 @@
   PerimDateTime: null
   unitId: CASKU
   unitMention: Siskiyou Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASHF-000590:
   Source_NFSA_Join:
     Lon: -122.76781812970518
@@ -20200,6 +21392,10 @@
   PerimDateTime: null
   unitId: CASHF
   unitMention: '@ShastaTrinityNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMRX-000058:
   Source_NFSA_Join:
     Lon: -108.51371052741025
@@ -20279,6 +21475,10 @@
   PerimDateTime: null
   unitId: COMRX
   unitMention: Montrose Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010002:
   Source_NFSA_Join:
     Lon: -117.07831132827566
@@ -20358,6 +21558,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTLNF-000730:
   Source_NFSA_Join:
     Lon: -113.94371200956333
@@ -20437,6 +21641,10 @@
   PerimDateTime: null
   unitId: MTLNF
   unitMention: Lolo NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASES-000158:
   Source_NFSA_Join:
     Lon: -120.33761477472949
@@ -20516,6 +21724,10 @@
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CATNF-000454:
   Source_NFSA_Join:
     Lon: -120.93691683337698
@@ -20595,6 +21807,10 @@
   PerimDateTime: null
   unitId: CATNF
   unitMention: '@Tahoe_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKCRS-914254:
   Source_NFSA_Join:
     Lon: -146.9485701329532
@@ -20674,6 +21890,10 @@
   PerimDateTime: null
   unitId: AKCRS
   unitMention: Valdez-Copper River Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-180244:
   Source_NFSA_Join:
     Lon: -117.73154823658172
@@ -20753,6 +21973,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKTAS-913133:
   Source_NFSA_Join:
     Lon: -142.000020727324
@@ -21007,6 +22231,10 @@
   PerimDateTime: null
   unitId: NVSFC
   unitMention: Sierra Front Interagency Dispatch Center
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-180369:
   Source_NFSA_Join:
     Lon: -118.25531096298758
@@ -21086,6 +22314,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-180430:
   Source_NFSA_Join:
     Lon: -118.14308443454253
@@ -21165,6 +22397,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000669:
   Source_NFSA_Join:
     Lon: -110.49640914044897
@@ -21244,6 +22480,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVCCD-030239:
   Source_NFSA_Join:
     Lon: -119.8472154779758
@@ -21323,6 +22563,10 @@
   PerimDateTime: null
   unitId: NVCCD
   unitMention: Carson City District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYWYS-2531705439:
   Source_NFSA_Join:
     Lon: -106.58337471228288
@@ -21402,6 +22646,10 @@
   PerimDateTime: null
   unitId: WYWYS
   unitMention: Wyoming State Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000668:
   Source_NFSA_Join:
     Lon: -110.65921081938995
@@ -21481,6 +22729,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANWS-000084:
   Source_NFSA_Join:
     Lon: -122.48551356851777
@@ -21560,6 +22812,10 @@
   PerimDateTime: null
   unitId: WANWS
   unitMention: Northwest Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALPF-001183:
   Source_NFSA_Join:
     Lon: -120.03901477428816
@@ -21639,6 +22895,10 @@
   PerimDateTime: null
   unitId: CALPF
   unitMention: '@LosPadresNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000664:
   Source_NFSA_Join:
     Lon: -110.4643123353474
@@ -21718,6 +22978,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVCCD-030238:
   Source_NFSA_Join:
     Lon: -119.71911571846036
@@ -21797,6 +23061,10 @@
   PerimDateTime: null
   unitId: NVCCD
   unitMention: Carson City District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACND-000962:
   Source_NFSA_Join:
     Lon: -118.24195301471272
@@ -21876,6 +23144,10 @@
   PerimDateTime: null
   unitId: CACND
   unitMention: Central California District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAPCS-000116:
   Source_NFSA_Join:
     Lon: -123.00361690863372
@@ -21955,6 +23227,10 @@
   PerimDateTime: null
   unitId: WAPCS
   unitMention: Pacific Cascade Region-DNR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAFKU-008313:
   Source_NFSA_Join:
     Lon: -119.49279416577929
@@ -22034,6 +23310,10 @@
   PerimDateTime: null
   unitId: CAFKU
   unitMention: '@FresnoCoFire'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904237:
   Source_NFSA_Join:
     Lon: -155.20640524744462
@@ -22110,9 +23390,30 @@
   Source: NFSA
   Hashtag: '#ChulitnaRiverFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-13T19:19Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-13T19:19Z'
+    Acres: 24.46707902
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-ORMAF-019051:
   Source_NFSA_Join:
     Lon: -118.6962130875863
@@ -22192,6 +23493,10 @@
   PerimDateTime: null
   unitId: ORMAF
   unitMention: Malheur NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMVP-000201:
   Source_NFSA_Join:
     Lon: -108.4697110447941
@@ -22271,6 +23576,10 @@
   PerimDateTime: null
   unitId: COMVP
   unitMention: Mesa Verde NP
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-180688:
   Source_NFSA_Join:
     Lon: -117.71149783944016
@@ -22350,6 +23659,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPD-000160:
   Source_NFSA_Join:
     Lon: -119.01931014582556
@@ -22429,6 +23742,10 @@
   PerimDateTime: null
   unitId: WASPD
   unitMention: Spokane District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDSDD-190216:
   Source_NFSA_Join:
     Lon: -103.73260709074093
@@ -22508,6 +23825,10 @@
   PerimDateTime: null
   unitId: SDSDD
   unitMention: South Dakota Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZMSC-000764:
   Source_NFSA_Join:
     Lon: -110.43381453145153
@@ -22587,6 +23908,10 @@
   PerimDateTime: null
   unitId: AZMSC
   unitMention: Mescal Volunteer FD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPHD-000633:
   Source_NFSA_Join:
     Lon: -112.80420805481056
@@ -22666,6 +23991,10 @@
   PerimDateTime: null
   unitId: AZPHD
   unitMention: Phoenix District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA4S-000762:
   Source_NFSA_Join:
     Lon: -111.95411433514256
@@ -22745,6 +24074,10 @@
   PerimDateTime: null
   unitId: AZA4S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR981S-000171:
   Source_NFSA_Join:
     Lon: -122.02661818877816
@@ -22824,6 +24157,10 @@
   PerimDateTime: null
   unitId: OR981S
   unitMention: Klamath Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALMU-003086:
   Source_NFSA_Join:
     Lon: -121.34556943927579
@@ -22903,6 +24240,10 @@
   PerimDateTime: null
   unitId: CALMU
   unitMention: Lassen-Modoc Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-180837:
   Source_NFSA_Join:
     Lon: -118.16011649232944
@@ -22982,6 +24323,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010051:
   Source_NFSA_Join:
     Lon: -117.70331418720183
@@ -23061,6 +24406,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CABDF-010048:
   Source_NFSA_Join:
     Lon: -117.26181019136277
@@ -23140,6 +24489,10 @@
   PerimDateTime: null
   unitId: CABDF
   unitMention: '@SanBernardinoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA2S-000766:
   Source_NFSA_Join:
     Lon: -109.48531037240826
@@ -23219,6 +24572,10 @@
   PerimDateTime: null
   unitId: AZA2S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCOF-000439:
   Source_NFSA_Join:
     Lon: -111.25670726431638
@@ -23298,6 +24655,10 @@
   PerimDateTime: null
   unitId: AZCOF
   unitMention: '@CoconinoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVTMFX-030243:
   Source_NFSA_Join:
     Lon: -119.99591360695611
@@ -23377,6 +24738,10 @@
   PerimDateTime: null
   unitId: NVTMFX
   unitMention: Truckee Meadows FPD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CORGD-000556:
   Source_NFSA_Join:
     Lon: -106.0999104095226
@@ -23456,6 +24821,10 @@
   PerimDateTime: null
   unitId: CORGD
   unitMention: Royal Gorge Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000676:
   Source_NFSA_Join:
     Lon: -110.47551432694037
@@ -23535,6 +24904,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDPAF-000185:
   Source_NFSA_Join:
     Lon: -116.3556166822015
@@ -23614,6 +24987,10 @@
   PerimDateTime: null
   unitId: IDPAF
   unitMention: Payette NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVELD-040030:
   Source_NFSA_Join:
     Lon: -114.18934734085296
@@ -23693,6 +25070,10 @@
   PerimDateTime: null
   unitId: NVELD
   unitMention: Ely District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CABDF-010054:
   Source_NFSA_Join:
     Lon: -117.2837111179896
@@ -23772,6 +25153,10 @@
   PerimDateTime: null
   unitId: CABDF
   unitMention: '@SanBernardinoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COPSF-000557:
   Source_NFSA_Join:
     Lon: -106.3594067456462
@@ -23851,6 +25236,10 @@
   PerimDateTime: null
   unitId: COPSF
   unitMention: '@PSICC_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASKU-004523:
   Source_NFSA_Join:
     Lon: -122.64112872518582
@@ -23930,6 +25319,10 @@
   PerimDateTime: null
   unitId: CASKU
   unitMention: Siskiyou Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVTMFX-030245:
   Source_NFSA_Join:
     Lon: -119.9957159775936
@@ -24009,6 +25402,10 @@
   PerimDateTime: null
   unitId: NVTMFX
   unitMention: Truckee Meadows FPD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COGRD-000079:
   Source_NFSA_Join:
     Lon: -108.5380099558457
@@ -24088,6 +25485,10 @@
   PerimDateTime: null
   unitId: COGRD
   unitMention: Grand Junction Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001419:
   Source_NFSA_Join:
     Lon: -117.90421341734232
@@ -24167,6 +25568,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000670:
   Source_NFSA_Join:
     Lon: -110.46671083715599
@@ -24246,6 +25651,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORFWF-000172:
   Source_NFSA_Join:
     Lon: -121.36521559453948
@@ -24325,6 +25734,10 @@
   PerimDateTime: null
   unitId: ORFWF
   unitMention: Fremont-Winema NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COARF-000183:
   Source_NFSA_Join:
     Lon: -105.35761452394895
@@ -24404,6 +25817,10 @@
   PerimDateTime: null
   unitId: COARF
   unitMention: Arapaho and Roosevelt NFs and Pawnee National Grassland
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASHF-000596:
   Source_NFSA_Join:
     Lon: -122.77961300938568
@@ -24483,6 +25900,10 @@
   PerimDateTime: null
   unitId: CASHF
   unitMention: '@ShastaTrinityNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAYAA-000024:
   Source_NFSA_Join:
     Lon: -120.38306952810593
@@ -24562,6 +25983,10 @@
   PerimDateTime: null
   unitId: WAYAA
   unitMention: Yakama Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000764:
   Source_NFSA_Join:
     Lon: -110.43381453145153
@@ -24641,6 +26066,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-180960:
   Source_NFSA_Join:
     Lon: -117.87261068564699
@@ -24720,6 +26149,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMLNF-000242:
   Source_NFSA_Join:
     Lon: -105.73601187107862
@@ -24799,6 +26232,10 @@
   PerimDateTime: null
   unitId: NMLNF
   unitMention: Lincoln NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMLNF-000240:
   Source_NFSA_Join:
     Lon: -105.77940948245443
@@ -24878,6 +26315,10 @@
   PerimDateTime: null
   unitId: NMLNF
   unitMention: Lincoln NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMLNF-000241:
   Source_NFSA_Join:
     Lon: -105.7792298193976
@@ -24957,6 +26398,10 @@
   PerimDateTime: null
   unitId: NMLNF
   unitMention: Lincoln NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTCCD-000170:
   Source_NFSA_Join:
     Lon: -112.85841239905433
@@ -25036,6 +26481,10 @@
   PerimDateTime: null
   unitId: UTCCD
   unitMention: Cedar City Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTCCD-000172:
   Source_NFSA_Join:
     Lon: -112.87170746525929
@@ -25115,6 +26564,10 @@
   PerimDateTime: null
   unitId: UTCCD
   unitMention: Cedar City Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTCCD-000171:
   Source_NFSA_Join:
     Lon: -112.58031195339662
@@ -25194,6 +26647,10 @@
   PerimDateTime: null
   unitId: UTCCD
   unitMention: Cedar City Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-181002:
   Source_NFSA_Join:
     Lon: -118.14340782804483
@@ -25273,6 +26730,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000667:
   Source_NFSA_Join:
     Lon: -110.42680767223541
@@ -25352,6 +26813,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVELD-040032:
   Source_NFSA_Join:
     Lon: -114.35834739525437
@@ -25431,6 +26896,10 @@
   PerimDateTime: null
   unitId: NVELD
   unitMention: Ely District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVELD-040033:
   Source_NFSA_Join:
     Lon: -114.31584809916268
@@ -25510,6 +26979,10 @@
   PerimDateTime: null
   unitId: NVELD
   unitMention: Ely District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORDEF-000300:
   Source_NFSA_Join:
     Lon: -121.3932160819455
@@ -25589,6 +27062,10 @@
   PerimDateTime: null
   unitId: ORDEF
   unitMention: Deschutes NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTMFC-009060:
   Source_NFSA_Join:
     Lon: -110.03361507237629
@@ -25668,6 +27145,10 @@
   PerimDateTime: null
   unitId: UTMFC
   unitMention: Moab Interagency Fire Center
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVLANX-020087:
   Source_NFSA_Join:
     Lon: -116.61081008811418
@@ -25747,6 +27228,10 @@
   PerimDateTime: null
   unitId: NVLANX
   unitMention: Lander Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTMOD-009060:
   Source_NFSA_Join:
     Lon: -110.03361507237629
@@ -25826,6 +27311,10 @@
   PerimDateTime: null
   unitId: UTMOD
   unitMention: Moab Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVCCD-030246:
   Source_NFSA_Join:
     Lon: -119.93531325788939
@@ -25905,6 +27394,10 @@
   PerimDateTime: null
   unitId: NVCCD
   unitMention: Carson City District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COSJD-000205:
   Source_NFSA_Join:
     Lon: -108.94001502864202
@@ -25984,6 +27477,10 @@
   PerimDateTime: null
   unitId: COSJD
   unitMention: Tres Rios Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCRD-000636:
   Source_NFSA_Join:
     Lon: -113.87270916950652
@@ -26063,6 +27560,10 @@
   PerimDateTime: null
   unitId: AZCRD
   unitMention: Colorado River District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMCIF-000096:
   Source_NFSA_Join:
     Lon: -106.40451115606184
@@ -26142,6 +27643,10 @@
   PerimDateTime: null
   unitId: NMCIF
   unitMention: Cibola NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDFTA-000248:
   Source_NFSA_Join:
     Lon: -99.06695513438665
@@ -26221,6 +27726,10 @@
   PerimDateTime: null
   unitId: NDFTA
   unitMention: Fort Totten Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASKU-004553:
   Source_NFSA_Join:
     Lon: -122.38862128197265
@@ -26300,6 +27809,10 @@
   PerimDateTime: null
   unitId: CASKU
   unitMention: Siskiyou Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CATIA-000981:
   Source_NFSA_Join:
     Lon: -118.75973296132639
@@ -26379,6 +27892,10 @@
   PerimDateTime: null
   unitId: CATIA
   unitMention: Tule River Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPMA-000681:
   Source_NFSA_Join:
     Lon: -111.79191452744195
@@ -26458,6 +27975,10 @@
   PerimDateTime: null
   unitId: AZPMA
   unitMention: '@pimaarizona'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPA-000042:
   Source_NFSA_Join:
     Lon: -118.1002886944071
@@ -26537,6 +28058,10 @@
   PerimDateTime: null
   unitId: WASPA
   unitMention: Spokane Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORWSA-000009:
   Source_NFSA_Join:
     Lon: -121.23140254981703
@@ -26616,6 +28141,10 @@
   PerimDateTime: null
   unitId: ORWSA
   unitMention: Warm Springs Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKFAS-911255:
   Source_NFSA_Join:
     Lon: -147.04009947725214
@@ -26870,6 +28399,10 @@
   PerimDateTime: null
   unitId: WASPD
   unitMention: Spokane District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASES-000162:
   Source_NFSA_Join:
     Lon: -120.2024183244695
@@ -26949,6 +28482,10 @@
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORWSA-000010:
   Source_NFSA_Join:
     Lon: -121.23251646076933
@@ -27028,6 +28565,10 @@
   PerimDateTime: null
   unitId: ORWSA
   unitMention: Warm Springs Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASHF-000598:
   Source_NFSA_Join:
     Lon: -123.14181373194268
@@ -27107,6 +28648,10 @@
   PerimDateTime: null
   unitId: CASHF
   unitMention: '@ShastaTrinityNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMFX-000070:
   Source_NFSA_Join:
     Lon: -108.14531142939285
@@ -27186,6 +28731,10 @@
   PerimDateTime: null
   unitId: COMFX
   unitMention: Moffat Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTFHA-000044:
   Source_NFSA_Join:
     Lon: -114.55196128844065
@@ -27265,6 +28814,10 @@
   PerimDateTime: null
   unitId: MTFHA
   unitMention: Flathead Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-181193:
   Source_NFSA_Join:
     Lon: -118.06561372444007
@@ -27344,6 +28897,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-555099:
   Source_NFSA_Join:
     Lon: -164.29972747508427
@@ -27423,6 +28980,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-181354:
   Source_NFSA_Join:
     Lon: -118.16765335756321
@@ -27502,6 +29063,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-181386:
   Source_NFSA_Join:
     Lon: -118.07063530687829
@@ -27581,6 +29146,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-181389:
   Source_NFSA_Join:
     Lon: -118.06415845367981
@@ -27660,6 +29229,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000685:
   Source_NFSA_Join:
     Lon: -110.46230909226381
@@ -27739,6 +29312,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WVMOF-000053:
   Source_NFSA_Join:
     Lon: -79.36541873342675
@@ -27818,6 +29395,10 @@
   PerimDateTime: null
   unitId: WVMOF
   unitMention: Monongahela NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-GAOKR-019010:
   Source_NFSA_Join:
     Lon: -82.10611578320551
@@ -27897,6 +29478,10 @@
   PerimDateTime: null
   unitId: GAOKR
   unitMention: Okefenokee NWR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDCTF-000018:
   Source_NFSA_Join:
     Lon: -110.99360868390346
@@ -27976,6 +29561,10 @@
   PerimDateTime: null
   unitId: IDCTF
   unitMention: Caribou-Targhee NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-PAALF-190044:
   Source_NFSA_Join:
     Lon: -79.11467198817047
@@ -28055,6 +29644,10 @@
   PerimDateTime: null
   unitId: PAALF
   unitMention: Allegheny NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CATNF-000461:
   Source_NFSA_Join:
     Lon: -120.25021768073749
@@ -28134,6 +29727,10 @@
   PerimDateTime: null
   unitId: CATNF
   unitMention: '@Tahoe_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDFTA-000249:
   Source_NFSA_Join:
     Lon: -99.01139433406385
@@ -28213,6 +29810,10 @@
   PerimDateTime: null
   unitId: NDFTA
   unitMention: Fort Totten Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDFTA-000250:
   Source_NFSA_Join:
     Lon: -99.01195128954001
@@ -28292,6 +29893,10 @@
   PerimDateTime: null
   unitId: NDFTA
   unitMention: Fort Totten Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTFBA-000014:
   Source_NFSA_Join:
     Lon: -108.76001061201016
@@ -28371,6 +29976,10 @@
   PerimDateTime: null
   unitId: MTFBA
   unitMention: Fort Belknap Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDFTA-000251:
   Source_NFSA_Join:
     Lon: -99.01278672275424
@@ -28450,6 +30059,10 @@
   PerimDateTime: null
   unitId: NDFTA
   unitMention: Fort Totten Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDFTA-000252:
   Source_NFSA_Join:
     Lon: -99.01250824501616
@@ -28529,6 +30142,10 @@
   PerimDateTime: null
   unitId: NDFTA
   unitMention: Fort Totten Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CORGD-000562:
   Source_NFSA_Join:
     Lon: -105.22911052255564
@@ -28608,6 +30225,10 @@
   PerimDateTime: null
   unitId: CORGD
   unitMention: Royal Gorge Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAENF-017749:
   Source_NFSA_Join:
     Lon: -120.85195417380496
@@ -28687,6 +30308,10 @@
   PerimDateTime: null
   unitId: CAENF
   unitMention: '@EldoradoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-181636:
   Source_NFSA_Join:
     Lon: -118.09024552953063
@@ -28766,6 +30391,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MNSUF-000151:
   Source_NFSA_Join:
     Lon: -91.58195862512892
@@ -28845,6 +30474,10 @@
   PerimDateTime: null
   unitId: MNSUF
   unitMention: Superior NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAINF-000966:
   Source_NFSA_Join:
     Lon: -119.07390974879434
@@ -28924,6 +30557,10 @@
   PerimDateTime: null
   unitId: CAINF
   unitMention: '@InyoInfo'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMN1S-000170:
   Source_NFSA_Join:
     Lon: -107.84201324001558
@@ -29003,6 +30640,10 @@
   PerimDateTime: null
   unitId: NMN1S
   unitMention: Chama District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDSDS-190217:
   Source_NFSA_Join:
     Lon: -103.69540785482555
@@ -29082,6 +30723,10 @@
   PerimDateTime: null
   unitId: SDSDS
   unitMention: South Dakota Wildland Fire Suppression
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010087:
   Source_NFSA_Join:
     Lon: -116.42060979300757
@@ -29161,6 +30806,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDPLS-000164:
   Source_NFSA_Join:
     Lon: -116.88621558791955
@@ -29240,6 +30889,10 @@
   PerimDateTime: null
   unitId: IDPLS
   unitMention: Priest Lake Area Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASES-000166:
   Source_NFSA_Join:
     Lon: -120.4595161587845
@@ -29319,6 +30972,10 @@
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDPRA-000028:
   Source_NFSA_Join:
     Lon: -102.74306788951907
@@ -29398,6 +31055,10 @@
   PerimDateTime: null
   unitId: SDPRA
   unitMention: Pine Ridge Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMVP-000213:
   Source_NFSA_Join:
     Lon: -108.50431414953837
@@ -29477,6 +31138,10 @@
   PerimDateTime: null
   unitId: COMVP
   unitMention: Mesa Verde NP
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMNX-000209:
   Source_NFSA_Join:
     Lon: -108.5706098175064
@@ -29556,6 +31221,10 @@
   PerimDateTime: null
   unitId: COMNX
   unitMention: Montezuma Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001425:
   Source_NFSA_Join:
     Lon: -120.31361179033782
@@ -29635,6 +31304,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMLCD-000212:
   Source_NFSA_Join:
     Lon: -106.67530829845967
@@ -29714,6 +31387,10 @@
   PerimDateTime: null
   unitId: NMLCD
   unitMention: Las Cruces Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-000164:
   Source_NFSA_Join:
     Lon: -120.31571384810266
@@ -29793,6 +31470,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR973S-000228:
   Source_NFSA_Join:
     Lon: -118.82071060281241
@@ -29872,6 +31553,10 @@
   PerimDateTime: null
   unitId: OR973S
   unitMention: Pendleton Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA5S-000770:
   Source_NFSA_Join:
     Lon: -113.61360809210794
@@ -29951,6 +31636,10 @@
   PerimDateTime: null
   unitId: AZA5S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COSJD-000212:
   Source_NFSA_Join:
     Lon: -108.3668090289982
@@ -30030,6 +31719,10 @@
   PerimDateTime: null
   unitId: COSJD
   unitMention: Tres Rios Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COWRD-000073:
   Source_NFSA_Join:
     Lon: -108.3446116583276
@@ -30109,6 +31802,10 @@
   PerimDateTime: null
   unitId: COWRD
   unitMention: White River Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010095:
   Source_NFSA_Join:
     Lon: -116.96541106336754
@@ -30188,6 +31885,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCRD-000641:
   Source_NFSA_Join:
     Lon: -113.61991426540246
@@ -30267,6 +31968,10 @@
   PerimDateTime: null
   unitId: AZCRD
   unitMention: Colorado River District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCOF-000447:
   Source_NFSA_Join:
     Lon: -111.46110992406493
@@ -30346,6 +32051,10 @@
   PerimDateTime: null
   unitId: AZCOF
   unitMention: '@CoconinoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZCOF-000448:
   Source_NFSA_Join:
     Lon: -111.57231237308609
@@ -30425,6 +32134,10 @@
   PerimDateTime: null
   unitId: AZCOF
   unitMention: '@CoconinoNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-GAOKR-019011:
   Source_NFSA_Join:
     Lon: -82.11833287106954
@@ -30504,6 +32217,10 @@
   PerimDateTime: null
   unitId: GAOKR
   unitMention: Okefenokee NWR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASRF-000276:
   Source_NFSA_Join:
     Lon: -123.56691449069369
@@ -30583,6 +32300,10 @@
   PerimDateTime: null
   unitId: CASRF
   unitMention: '@SixRiversNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSRA-000691:
   Source_NFSA_Join:
     Lon: -111.85811138072872
@@ -30662,6 +32383,10 @@
   PerimDateTime: null
   unitId: AZSRA
   unitMention: Salt River Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORWIF-190142:
   Source_NFSA_Join:
     Lon: -122.22321448870771
@@ -30741,6 +32466,10 @@
   PerimDateTime: null
   unitId: ORWIF
   unitMention: Willamette NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORPRD-000301:
   Source_NFSA_Join:
     Lon: -121.31441586522254
@@ -30820,6 +32549,10 @@
   PerimDateTime: null
   unitId: ORPRD
   unitMention: Prineville District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WYLIX-019094:
   Source_NFSA_Join:
     Lon: -110.15550747327848
@@ -30899,6 +32632,10 @@
   PerimDateTime: null
   unitId: WYLIX
   unitMention: Lincoln Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CODTX-000060:
   Source_NFSA_Join:
     Lon: -108.05131171806259
@@ -30978,6 +32715,10 @@
   PerimDateTime: null
   unitId: CODTX
   unitMention: Delta Co. Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COGFX-000081:
   Source_NFSA_Join:
     Lon: -107.72761278858295
@@ -31057,6 +32798,10 @@
   PerimDateTime: null
   unitId: COGFX
   unitMention: Garfield Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001423:
   Source_NFSA_Join:
     Lon: -117.1862169602041
@@ -31136,6 +32881,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMNX-000218:
   Source_NFSA_Join:
     Lon: -108.32590873411225
@@ -31215,6 +32964,10 @@
   PerimDateTime: null
   unitId: COMNX
   unitMention: Montezuma Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001424:
   Source_NFSA_Join:
     Lon: -117.92811758705274
@@ -31294,6 +33047,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASKU-004585:
   Source_NFSA_Join:
     Lon: -122.63917938101928
@@ -31373,6 +33130,10 @@
   PerimDateTime: null
   unitId: CASKU
   unitMention: Siskiyou Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COSUA-000219:
   Source_NFSA_Join:
     Lon: -107.50171344408541
@@ -31452,6 +33213,10 @@
   PerimDateTime: null
   unitId: COSUA
   unitMention: Southern Ute Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTBRS-000168:
   Source_NFSA_Join:
     Lon: -111.9475117178043
@@ -31531,6 +33296,10 @@
   PerimDateTime: null
   unitId: UTBRS
   unitMention: Bear River Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZASD-000175:
   Source_NFSA_Join:
     Lon: -112.89341076252362
@@ -31610,6 +33379,10 @@
   PerimDateTime: null
   unitId: AZASD
   unitMention: Arizona Strip Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMGNF-000215:
   Source_NFSA_Join:
     Lon: -108.25990951018797
@@ -31689,6 +33462,10 @@
   PerimDateTime: null
   unitId: NMGNF
   unitMention: Gila NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-181990:
   Source_NFSA_Join:
     Lon: -118.56361276849742
@@ -31768,6 +33545,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000692:
   Source_NFSA_Join:
     Lon: -110.45330797311692
@@ -31847,6 +33628,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR955S-000302:
   Source_NFSA_Join:
     Lon: -121.1370165629146
@@ -31926,6 +33711,10 @@
   PerimDateTime: null
   unitId: OR955S
   unitMention: Sisters Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORVAD-000046:
   Source_NFSA_Join:
     Lon: -117.13680961957755
@@ -32005,6 +33794,10 @@
   PerimDateTime: null
   unitId: ORVAD
   unitMention: Vale District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COUMA-000214:
   Source_NFSA_Join:
     Lon: -108.37080653201254
@@ -32084,6 +33877,10 @@
   PerimDateTime: null
   unitId: COUMA
   unitMention: Ute Mountain Ute Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDPAF-000189:
   Source_NFSA_Join:
     Lon: -116.0002162063453
@@ -32163,6 +33960,10 @@
   PerimDateTime: null
   unitId: IDPAF
   unitMention: Payette NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZRIO-000773:
   Source_NFSA_Join:
     Lon: -110.96490751057584
@@ -32242,6 +34043,10 @@
   PerimDateTime: null
   unitId: AZRIO
   unitMention: Rio Rico FD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010098:
   Source_NFSA_Join:
     Lon: -117.21401083509477
@@ -32321,6 +34126,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVELD-040034:
   Source_NFSA_Join:
     Lon: -114.58368080112291
@@ -32400,6 +34209,10 @@
   PerimDateTime: null
   unitId: NVELD
   unitMention: Ely District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010103:
   Source_NFSA_Join:
     Lon: -115.96631378752264
@@ -32479,6 +34292,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CATIA-000987:
   Source_NFSA_Join:
     Lon: -118.79556675800991
@@ -32558,6 +34375,10 @@
   PerimDateTime: null
   unitId: CATIA
   unitMention: Tule River Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CARRU-077498:
   Source_NFSA_Join:
     Lon: -117.43390045034153
@@ -32637,6 +34458,10 @@
   PerimDateTime: null
   unitId: CARRU
   unitMention: '@CALFIRERRU'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVELD-040035:
   Source_NFSA_Join:
     Lon: -114.65223124045407
@@ -32716,6 +34541,10 @@
   PerimDateTime: null
   unitId: NVELD
   unitMention: Ely District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COSJD-000210:
   Source_NFSA_Join:
     Lon: -108.3316130361664
@@ -32795,6 +34624,10 @@
   PerimDateTime: null
   unitId: COSJD
   unitMention: Tres Rios Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COWRD-000074:
   Source_NFSA_Join:
     Lon: -108.5047094082634
@@ -32874,6 +34707,10 @@
   PerimDateTime: null
   unitId: COWRD
   unitMention: White River Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASHF-000604:
   Source_NFSA_Join:
     Lon: -122.04061394090473
@@ -32953,6 +34790,10 @@
   PerimDateTime: null
   unitId: CASHF
   unitMention: '@ShastaTrinityNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMFAD-000172:
   Source_NFSA_Join:
     Lon: -107.49617982193524
@@ -33032,6 +34873,10 @@
   PerimDateTime: null
   unitId: NMFAD
   unitMention: Farmington Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTMOD-009061:
   Source_NFSA_Join:
     Lon: -109.37821322423552
@@ -33111,6 +34956,10 @@
   PerimDateTime: null
   unitId: UTMOD
   unitMention: Moab Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORCOC-000303:
   Source_NFSA_Join:
     Lon: -119.84341560432395
@@ -33190,6 +35039,10 @@
   PerimDateTime: null
   unitId: ORCOC
   unitMention: Central Oregon Interagency Dispatch Center
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAMMU-012439:
   Source_NFSA_Join:
     Lon: -120.0797354061173
@@ -33269,6 +35122,10 @@
   PerimDateTime: null
   unitId: CAMMU
   unitMention: Merced-Mariposa Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPD-000169:
   Source_NFSA_Join:
     Lon: -119.8349175417362
@@ -33348,6 +35205,10 @@
   PerimDateTime: null
   unitId: WASPD
   unitMention: Spokane District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COGRD-000082:
   Source_NFSA_Join:
     Lon: -109.04641149089314
@@ -33427,6 +35288,10 @@
   PerimDateTime: null
   unitId: COGRD
   unitMention: Grand Junction Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPD-000168:
   Source_NFSA_Join:
     Lon: -119.82641049599557
@@ -33506,6 +35371,10 @@
   PerimDateTime: null
   unitId: WASPD
   unitMention: Spokane District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVCCFX-030250:
   Source_NFSA_Join:
     Lon: -119.70391622385306
@@ -33585,6 +35454,10 @@
   PerimDateTime: null
   unitId: NVCCFX
   unitMention: Carson City FD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMFAD-000175:
   Source_NFSA_Join:
     Lon: -107.49090671121746
@@ -33664,6 +35537,10 @@
   PerimDateTime: null
   unitId: NMFAD
   unitMention: Farmington Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPNF-000644:
   Source_NFSA_Join:
     Lon: -112.16281094194922
@@ -33743,6 +35620,10 @@
   PerimDateTime: null
   unitId: AZPNF
   unitMention: Prescott NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182170:
   Source_NFSA_Join:
     Lon: -118.14761194357449
@@ -33822,6 +35703,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSWS-000176:
   Source_NFSA_Join:
     Lon: -112.68881047341256
@@ -33901,6 +35786,10 @@
   PerimDateTime: null
   unitId: UTSWS
   unitMention: Southwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKFAS-911259:
   Source_NFSA_Join:
     Lon: -147.39894948379938
@@ -33980,6 +35869,10 @@
   PerimDateTime: null
   unitId: AKFAS
   unitMention: Fairbanks Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAKNF-004596:
   Source_NFSA_Join:
     Lon: -122.74371633063225
@@ -34059,6 +35952,10 @@
   PerimDateTime: null
   unitId: CAKNF
   unitMention: '@Klamath_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000260:
   Source_NFSA_Join:
     Lon: -159.09242733501728
@@ -34138,6 +36035,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPMA-000697:
   Source_NFSA_Join:
     Lon: -111.91140842653553
@@ -34217,6 +36118,10 @@
   PerimDateTime: null
   unitId: AZPMA
   unitMention: '@pimaarizona'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COWRD-000075:
   Source_NFSA_Join:
     Lon: -108.36840803020392
@@ -34296,6 +36201,10 @@
   PerimDateTime: null
   unitId: COWRD
   unitMention: White River Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTMOD-009065:
   Source_NFSA_Join:
     Lon: -109.13731201449319
@@ -34375,6 +36284,10 @@
   PerimDateTime: null
   unitId: UTMOD
   unitMention: Moab Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTCAP-009062:
   Source_NFSA_Join:
     Lon: -109.91991530686529
@@ -34454,6 +36367,10 @@
   PerimDateTime: null
   unitId: UTCAP
   unitMention: Canyonlands NP
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSES-009063:
   Source_NFSA_Join:
     Lon: -109.4041116538767
@@ -34533,6 +36450,10 @@
   PerimDateTime: null
   unitId: UTSES
   unitMention: Southeast Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMN1S-000173:
   Source_NFSA_Join:
     Lon: -106.88811020611475
@@ -34612,6 +36533,10 @@
   PerimDateTime: null
   unitId: NMN1S
   unitMention: Chama District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182214:
   Source_NFSA_Join:
     Lon: -118.3171959029106
@@ -34691,6 +36616,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKMID-000261:
   Source_NFSA_Join:
     Lon: -146.56772936825075
@@ -34770,6 +36699,10 @@
   PerimDateTime: null
   unitId: AKMID
   unitMention: Alaska Fire Service - Military Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDTFD-000047:
   Source_NFSA_Join:
     Lon: -114.42481374312638
@@ -34849,6 +36782,10 @@
   PerimDateTime: null
   unitId: IDTFD
   unitMention: Twin  Falls District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMNX-000222:
   Source_NFSA_Join:
     Lon: -108.35310972091537
@@ -34928,6 +36865,10 @@
   PerimDateTime: null
   unitId: COMNX
   unitMention: Montezuma Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAANF-002139:
   Source_NFSA_Join:
     Lon: -118.39490915813975
@@ -35007,6 +36948,10 @@
   PerimDateTime: null
   unitId: CAANF
   unitMention: '@Angeles_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDBOD-000275:
   Source_NFSA_Join:
     Lon: -115.90460851065647
@@ -35086,6 +37031,10 @@
   PerimDateTime: null
   unitId: IDBOD
   unitMention: '@BLMIdaho'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182453:
   Source_NFSA_Join:
     Lon: -118.17321392917191
@@ -35165,6 +37114,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORVAD-000047:
   Source_NFSA_Join:
     Lon: -117.53951537829546
@@ -35244,6 +37197,10 @@
   PerimDateTime: null
   unitId: ORVAD
   unitMention: Vale District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182518:
   Source_NFSA_Join:
     Lon: -118.24422575238154
@@ -35323,6 +37280,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000699:
   Source_NFSA_Join:
     Lon: -110.46760915244012
@@ -35402,6 +37363,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA2S-000777:
   Source_NFSA_Join:
     Lon: -109.60440901277683
@@ -35481,6 +37446,10 @@
   PerimDateTime: null
   unitId: AZA2S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ARBUP-000624:
   Source_NFSA_Join:
     Lon: -93.13550507748523
@@ -35560,6 +37529,10 @@
   PerimDateTime: null
   unitId: ARBUP
   unitMention: Buffalo National River
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMLNF-000243:
   Source_NFSA_Join:
     Lon: -105.61970699124366
@@ -35639,6 +37612,10 @@
   PerimDateTime: null
   unitId: NMLNF
   unitMention: Lincoln NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTMOD-009067:
   Source_NFSA_Join:
     Lon: -109.70910765914095
@@ -35718,6 +37695,10 @@
   PerimDateTime: null
   unitId: UTMOD
   unitMention: Moab Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182646:
   Source_NFSA_Join:
     Lon: -118.87671157762443
@@ -35797,6 +37778,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182657:
   Source_NFSA_Join:
     Lon: -118.87760989290854
@@ -35876,6 +37861,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182714:
   Source_NFSA_Join:
     Lon: -118.19253669093332
@@ -35955,6 +37944,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZNAA-000050:
   Source_NFSA_Join:
     Lon: -108.9152844088702
@@ -36034,6 +38027,10 @@
   PerimDateTime: null
   unitId: AZNAA
   unitMention: Navajo Region Fire and Aviation Management
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAOWF-000172:
   Source_NFSA_Join:
     Lon: -120.37101413699304
@@ -36113,6 +38110,10 @@
   PerimDateTime: null
   unitId: WAOWF
   unitMention: Okanogan-Wenatchee NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTMOD-009068:
   Source_NFSA_Join:
     Lon: -109.37180823625975
@@ -36192,6 +38193,10 @@
   PerimDateTime: null
   unitId: UTMOD
   unitMention: Moab Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMNPA-000159:
   Source_NFSA_Join:
     Lon: -106.38370617408162
@@ -36271,6 +38276,10 @@
   PerimDateTime: null
   unitId: NMNPA
   unitMention: Northern Pueblos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COPSF-000574:
   Source_NFSA_Join:
     Lon: -105.22761033603118
@@ -36350,6 +38359,10 @@
   PerimDateTime: null
   unitId: COPSF
   unitMention: '@PSICC_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COJEX-000573:
   Source_NFSA_Join:
     Lon: -105.29351074527418
@@ -36429,6 +38442,10 @@
   PerimDateTime: null
   unitId: COJEX
   unitMention: Jefferson Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001429:
   Source_NFSA_Join:
     Lon: -117.49471639507644
@@ -36508,6 +38525,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001427:
   Source_NFSA_Join:
     Lon: -118.56091782264504
@@ -36587,6 +38608,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASLU-007935:
   Source_NFSA_Join:
     Lon: -120.88417674304634
@@ -36666,6 +38691,10 @@
   PerimDateTime: null
   unitId: CASLU
   unitMention: San Luis Obispo Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMCIF-000099:
   Source_NFSA_Join:
     Lon: -108.19630878807232
@@ -36745,6 +38774,10 @@
   PerimDateTime: null
   unitId: NMCIF
   unitMention: Cibola NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAOLS-000020:
   Source_NFSA_Join:
     Lon: -123.47651702365276
@@ -36824,6 +38857,10 @@
   PerimDateTime: null
   unitId: WAOLS
   unitMention: Olympic Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR955S-000304:
   Source_NFSA_Join:
     Lon: -121.39721358495983
@@ -36903,6 +38940,10 @@
   PerimDateTime: null
   unitId: OR955S
   unitMention: Sisters Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMMEA-000244:
   Source_NFSA_Join:
     Lon: -105.77580723816511
@@ -36982,6 +39023,10 @@
   PerimDateTime: null
   unitId: NMMEA
   unitMention: Mescalero Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPMA-000706:
   Source_NFSA_Join:
     Lon: -111.85990801129695
@@ -37061,6 +39106,10 @@
   PerimDateTime: null
   unitId: AZPMA
   unitMention: '@pimaarizona'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000774:
   Source_NFSA_Join:
     Lon: -111.5148112117496
@@ -37140,6 +39189,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASES-000172:
   Source_NFSA_Join:
     Lon: -120.37101413699304
@@ -37219,6 +39272,10 @@
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000705:
   Source_NFSA_Join:
     Lon: -110.27140811123557
@@ -37298,6 +39355,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COUPD-000061:
   Source_NFSA_Join:
     Lon: -108.15111454612826
@@ -37377,6 +39438,10 @@
   PerimDateTime: null
   unitId: COUPD
   unitMention: Uncompahgre Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COPSF-000568:
   Source_NFSA_Join:
     Lon: -105.23121258032049
@@ -37456,6 +39521,10 @@
   PerimDateTime: null
   unitId: COPSF
   unitMention: '@PSICC_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTBDF-006123:
   Source_NFSA_Join:
     Lon: -113.65431075763138
@@ -37535,6 +39604,10 @@
   PerimDateTime: null
   unitId: MTBDF
   unitMention: Beaverhead-Deerlodge NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASES-000173:
   Source_NFSA_Join:
     Lon: -121.51851309777447
@@ -37614,6 +39687,10 @@
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVHUMX-020094:
   Source_NFSA_Join:
     Lon: -117.7686217083573
@@ -37693,6 +39770,10 @@
   PerimDateTime: null
   unitId: NVHUMX
   unitMention: Humboldt Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORWIF-190145:
   Source_NFSA_Join:
     Lon: -122.10491534894201
@@ -37772,6 +39853,10 @@
   PerimDateTime: null
   unitId: ORWIF
   unitMention: Willamette NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COMNX-000225:
   Source_NFSA_Join:
     Lon: -108.35221140563125
@@ -37851,6 +39936,10 @@
   PerimDateTime: null
   unitId: COMNX
   unitMention: Montezuma Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SCFMF-000339:
   Source_NFSA_Join:
     Lon: -79.75928506974896
@@ -37930,6 +40019,10 @@
   PerimDateTime: null
   unitId: SCFMF
   unitMention: Francis Marion & Sumter NFs
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010122:
   Source_NFSA_Join:
     Lon: -116.96971399357845
@@ -38009,6 +40102,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-182957:
   Source_NFSA_Join:
     Lon: -118.17242341172188
@@ -38088,6 +40185,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAMNF-000241:
   Source_NFSA_Join:
     Lon: -123.04191208919573
@@ -38246,6 +40347,10 @@
   PerimDateTime: null
   unitId: CALMU
   unitMention: Lassen-Modoc Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001431:
   Source_NFSA_Join:
     Lon: -117.28091735745599
@@ -38325,6 +40430,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAMNF-000246:
   Source_NFSA_Join:
     Lon: -123.04201090387699
@@ -38401,9 +40510,30 @@
   Source: NFSA
   Hashtag: '#HaynesFire'
   NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T02:40Z'
   unitId: CAMNF
   unitMention: '@MendocinoNF'
+  PerimeterData:
+    DateTime: '2019-06-18T02:40Z'
+    Acres: 52.01638473
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T06:58:36.375Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
 2019-CASHF-000609:
   Source_NFSA_Join:
     Lon: -123.13530992928564
@@ -38483,6 +40613,10 @@
   PerimDateTime: null
   unitId: CASHF
   unitMention: '@ShastaTrinityNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000781:
   Source_NFSA_Join:
     Lon: -111.88701018341884
@@ -38562,6 +40696,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKUYD-000262:
   Source_NFSA_Join:
     Lon: -142.20352507178842
@@ -38638,7 +40776,7 @@
   Source: NFSA
   Hashtag: '#BlackRiverFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-19T11:00Z'
   unitId: AKUYD
   unitMention: Alaska Fire Service - Upper Yukon Zone
 2019-AZA3S-000782:
@@ -38720,6 +40858,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSLD-000169:
   Source_NFSA_Join:
     Lon: -112.78370850002695
@@ -38799,6 +40941,10 @@
   PerimDateTime: null
   unitId: UTSLD
   unitMention: Salt Lake Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMSNF-000160:
   Source_NFSA_Join:
     Lon: -106.61020738981952
@@ -38878,6 +41024,10 @@
   PerimDateTime: null
   unitId: NMSNF
   unitMention: Santa Fe NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZNAA-000051:
   Source_NFSA_Join:
     Lon: -108.87695329569684
@@ -38957,6 +41107,10 @@
   PerimDateTime: null
   unitId: AZNAA
   unitMention: Navajo Region Fire and Aviation Management
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAOLS-000021:
   Source_NFSA_Join:
     Lon: -124.20201441341337
@@ -39036,6 +41190,10 @@
   PerimDateTime: null
   unitId: WAOLS
   unitMention: Olympic Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAOWF-000175:
   Source_NFSA_Join:
     Lon: -120.5952156656036
@@ -39115,6 +41273,10 @@
   PerimDateTime: null
   unitId: WAOWF
   unitMention: Okanogan-Wenatchee NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA4S-000785:
   Source_NFSA_Join:
     Lon: -112.19461130300705
@@ -39194,6 +41356,10 @@
   PerimDateTime: null
   unitId: AZA4S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTSWS-006124:
   Source_NFSA_Join:
     Lon: -113.02371139448516
@@ -39273,6 +41439,10 @@
   PerimDateTime: null
   unitId: MTSWS
   unitMention: Southwestern Land Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COLSD-000077:
   Source_NFSA_Join:
     Lon: -107.91921445553281
@@ -39352,6 +41522,10 @@
   PerimDateTime: null
   unitId: COLSD
   unitMention: Little Snake Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAKAT-001432:
   Source_NFSA_Join:
     Lon: -117.30341117217033
@@ -39431,6 +41605,10 @@
   PerimDateTime: null
   unitId: WAKAT
   unitMention: Kalispel Tribe
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALNF-003166:
   Source_NFSA_Join:
     Lon: -121.06168384318835
@@ -39510,6 +41688,10 @@
   PerimDateTime: null
   unitId: CALNF
   unitMention: '@USFSLassen'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAGPF-000239:
   Source_NFSA_Join:
     Lon: -121.50001678607445
@@ -39589,6 +41771,10 @@
   PerimDateTime: null
   unitId: WAGPF
   unitMention: Gifford Pinchot NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALMU-003356:
   Source_NFSA_Join:
     Lon: -121.2489017315517
@@ -39668,6 +41854,10 @@
   PerimDateTime: null
   unitId: CALMU
   unitMention: Lassen-Modoc Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMROD-000247:
   Source_NFSA_Join:
     Lon: -104.54221374055365
@@ -39747,6 +41937,10 @@
   PerimDateTime: null
   unitId: NMROD
   unitMention: Roswell Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAMNP-010129:
   Source_NFSA_Join:
     Lon: -115.50001628984187
@@ -39826,6 +42020,10 @@
   PerimDateTime: null
   unitId: CAMNP
   unitMention: Mojave National Preserve
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAPCS-000117:
   Source_NFSA_Join:
     Lon: -121.49711522770677
@@ -39905,6 +42103,10 @@
   PerimDateTime: null
   unitId: WAPCS
   unitMention: Pacific Cascade Region-DNR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZASD-000181:
   Source_NFSA_Join:
     Lon: -113.53550856130657
@@ -39984,6 +42186,10 @@
   PerimDateTime: null
   unitId: AZASD
   unitMention: Arizona Strip Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZAVA-000787:
   Source_NFSA_Join:
     Lon: -111.27661393101246
@@ -40063,6 +42269,10 @@
   PerimDateTime: null
   unitId: AZAVA
   unitMention: Avra Valley FD
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTCCD-000182:
   Source_NFSA_Join:
     Lon: -111.36800852801879
@@ -40142,6 +42352,10 @@
   PerimDateTime: null
   unitId: UTCCD
   unitMention: Cedar City Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALMU-003167:
   Source_NFSA_Join:
     Lon: -121.2489017315517
@@ -40221,6 +42435,10 @@
   PerimDateTime: null
   unitId: CALMU
   unitMention: Lassen-Modoc Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000787:
   Source_NFSA_Join:
     Lon: -111.27661393101246
@@ -40300,6 +42518,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-183207:
   Source_NFSA_Join:
     Lon: -118.1804094345977
@@ -40379,6 +42601,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000711:
   Source_NFSA_Join:
     Lon: -110.12631222654458
@@ -40458,6 +42684,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANWS-000086:
   Source_NFSA_Join:
     Lon: -122.73091533783357
@@ -40537,6 +42767,10 @@
   PerimDateTime: null
   unitId: WANWS
   unitMention: Northwest Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CABDU-008552:
   Source_NFSA_Join:
     Lon: -118.19917524088297
@@ -40616,6 +42850,10 @@
   PerimDateTime: null
   unitId: CABDU
   unitMention: '@calfirebdu'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA4S-000788:
   Source_NFSA_Join:
     Lon: -112.72431189344096
@@ -40695,6 +42933,10 @@
   PerimDateTime: null
   unitId: AZA4S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000712:
   Source_NFSA_Join:
     Lon: -110.11931435048129
@@ -40774,6 +43016,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAPCS-000118:
   Source_NFSA_Join:
     Lon: -123.10681536847336
@@ -40853,6 +43099,10 @@
   PerimDateTime: null
   unitId: WAPCS
   unitMention: Pacific Cascade Region-DNR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSWS-000184:
   Source_NFSA_Join:
     Lon: -113.77790995757339
@@ -40932,6 +43182,10 @@
   PerimDateTime: null
   unitId: UTSWS
   unitMention: Southwest Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR955S-000306:
   Source_NFSA_Join:
     Lon: -120.31901066519538
@@ -41011,6 +43265,10 @@
   PerimDateTime: null
   unitId: OR955S
   unitMention: Sisters Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WACOA-190064:
   Source_NFSA_Join:
     Lon: -118.70084839445235
@@ -41090,6 +43348,10 @@
   PerimDateTime: null
   unitId: WACOA
   unitMention: Colville Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKUYD-000263:
   Source_NFSA_Join:
     Lon: -146.635426408062
@@ -41169,6 +43431,10 @@
   PerimDateTime: null
   unitId: AKUYD
   unitMention: Alaska Fire Service - Upper Yukon Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WACOA-190063:
   Source_NFSA_Join:
     Lon: -118.70084839445235
@@ -41248,6 +43514,10 @@
   PerimDateTime: null
   unitId: WACOA
   unitMention: Colville Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTCCD-000186:
   Source_NFSA_Join:
     Lon: -113.73291334499184
@@ -41327,6 +43597,10 @@
   PerimDateTime: null
   unitId: UTCCD
   unitMention: Cedar City Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDNDS-5337601805:
   Source_NFSA_Join:
     Lon: -103.67203369113275
@@ -41406,6 +43680,10 @@
   PerimDateTime: null
   unitId: NDNDS
   unitMention: North Dakota State Forest Service
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001436:
   Source_NFSA_Join:
     Lon: -117.51201794744857
@@ -41485,6 +43763,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZTNF-000713:
   Source_NFSA_Join:
     Lon: -110.71881403849129
@@ -41564,6 +43846,10 @@
   PerimDateTime: null
   unitId: AZTNF
   unitMention: Tonto NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTBDF-006126:
   Source_NFSA_Join:
     Lon: -112.72101507634825
@@ -41643,6 +43929,10 @@
   PerimDateTime: null
   unitId: MTBDF
   unitMention: Beaverhead-Deerlodge NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000264:
   Source_NFSA_Join:
     Lon: -161.62532609327351
@@ -41722,6 +44012,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASRF-000289:
   Source_NFSA_Join:
     Lon: -123.58101804065439
@@ -41801,6 +44095,10 @@
   PerimDateTime: null
   unitId: CASRF
   unitMention: '@SixRiversNF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPA-000047:
   Source_NFSA_Join:
     Lon: -117.78890566747273
@@ -41880,6 +44178,10 @@
   PerimDateTime: null
   unitId: WASPA
   unitMention: Spokane Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR952S-019054:
   Source_NFSA_Join:
     Lon: -119.80111393759478
@@ -41959,6 +44261,10 @@
   PerimDateTime: null
   unitId: OR952S
   unitMention: John Day Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000714:
   Source_NFSA_Join:
     Lon: -110.10351298463362
@@ -42038,6 +44344,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-183559:
   Source_NFSA_Join:
     Lon: -118.174848862989
@@ -42117,6 +44427,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-183640:
   Source_NFSA_Join:
     Lon: -118.11572175098826
@@ -42196,6 +44510,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDBOD-000284:
   Source_NFSA_Join:
     Lon: -116.0473148766917
@@ -42275,6 +44593,10 @@
   PerimDateTime: null
   unitId: IDBOD
   unitMention: '@BLMIdaho'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTLNF-000759:
   Source_NFSA_Join:
     Lon: -115.1233167585992
@@ -42354,6 +44676,10 @@
   PerimDateTime: null
   unitId: MTLNF
   unitMention: Lolo NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTDIF-000187:
   Source_NFSA_Join:
     Lon: -112.65771079827634
@@ -42433,6 +44759,10 @@
   PerimDateTime: null
   unitId: UTDIF
   unitMention: Dixie NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR951S-000306:
   Source_NFSA_Join:
     Lon: -120.31901066519538
@@ -42512,6 +44842,10 @@
   PerimDateTime: null
   unitId: OR951S
   unitMention: Prineville Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000780:
   Source_NFSA_Join:
     Lon: -110.61881358106311
@@ -42591,6 +44925,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDBOD-000285:
   Source_NFSA_Join:
     Lon: -115.78801616993059
@@ -42670,6 +45008,10 @@
   PerimDateTime: null
   unitId: IDBOD
   unitMention: '@BLMIdaho'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASCA-010136:
   Source_NFSA_Join:
     Lon: -116.12050960604175
@@ -42749,6 +45091,10 @@
   PerimDateTime: null
   unitId: CASCA
   unitMention: Southern California Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTCRA-190177:
   Source_NFSA_Join:
     Lon: -107.31921171096369
@@ -42828,6 +45174,10 @@
   PerimDateTime: null
   unitId: MTCRA
   unitMention: Crow Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTMCD-000055:
   Source_NFSA_Join:
     Lon: -106.14211326157051
@@ -42907,6 +45257,10 @@
   PerimDateTime: null
   unitId: MTMCD
   unitMention: Miles City Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAYNP-000008:
   Source_NFSA_Join:
     Lon: -119.82071517709426
@@ -42986,6 +45340,10 @@
   PerimDateTime: null
   unitId: CAYNP
   unitMention: '@YosemiteNPS'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDUSL-000050:
   Source_NFSA_Join:
     Lon: -115.16651674061251
@@ -43065,6 +45423,10 @@
   PerimDateTime: null
   unitId: IDUSL
   unitMention: Upper Snake Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WANES-001438:
   Source_NFSA_Join:
     Lon: -117.82111027040843
@@ -43144,6 +45506,10 @@
   PerimDateTime: null
   unitId: WANES
   unitMention: Northeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000794:
   Source_NFSA_Join:
     Lon: -112.12210827642576
@@ -43223,6 +45589,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAPCS-000120:
   Source_NFSA_Join:
     Lon: -123.66361813102918
@@ -43302,6 +45672,10 @@
   PerimDateTime: null
   unitId: WAPCS
   unitMention: Pacific Cascade Region-DNR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-183898:
   Source_NFSA_Join:
     Lon: -118.34390281630745
@@ -43381,6 +45755,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COPSF-000584:
   Source_NFSA_Join:
     Lon: -105.17470854894937
@@ -43460,6 +45838,10 @@
   PerimDateTime: null
   unitId: COPSF
   unitMention: '@PSICC_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CORGD-000585:
   Source_NFSA_Join:
     Lon: -104.93571176760936
@@ -43539,6 +45921,10 @@
   PerimDateTime: null
   unitId: CORGD
   unitMention: Royal Gorge Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORPRD-000307:
   Source_NFSA_Join:
     Lon: -121.01630993818746
@@ -43618,6 +46004,10 @@
   PerimDateTime: null
   unitId: ORPRD
   unitMention: Prineville District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORDEF-000308:
   Source_NFSA_Join:
     Lon: -121.76331299584989
@@ -43697,6 +46087,10 @@
   PerimDateTime: null
   unitId: ORDEF
   unitMention: Deschutes NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPS-000070:
   Source_NFSA_Join:
     Lon: -122.98761791342355
@@ -43776,6 +46170,10 @@
   PerimDateTime: null
   unitId: WASPS
   unitMention: South Puget Sound Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-183973:
   Source_NFSA_Join:
     Lon: -118.36198590297678
@@ -43855,6 +46253,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKCRS-914265:
   Source_NFSA_Join:
     Lon: -144.1641251288378
@@ -43934,6 +46336,10 @@
   PerimDateTime: null
   unitId: AKCRS
   unitMention: Valdez-Copper River Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASNF-000447:
   Source_NFSA_Join:
     Lon: -119.41171222823465
@@ -44013,6 +46419,10 @@
   PerimDateTime: null
   unitId: CASNF
   unitMention: '@Sierra_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASNF-000446:
   Source_NFSA_Join:
     Lon: -119.1902146286293
@@ -44092,6 +46502,10 @@
   PerimDateTime: null
   unitId: CASNF
   unitMention: '@Sierra_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-184023:
   Source_NFSA_Join:
     Lon: -118.10394483761345
@@ -44171,6 +46585,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA3S-000797:
   Source_NFSA_Join:
     Lon: -111.06020977906807
@@ -44250,6 +46668,10 @@
   PerimDateTime: null
   unitId: AZA3S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZTNF-000719:
   Source_NFSA_Join:
     Lon: -111.30801005019245
@@ -44329,6 +46751,10 @@
   PerimDateTime: null
   unitId: AZTNF
   unitMention: Tonto NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WALPR-001442:
   Source_NFSA_Join:
     Lon: -117.68334463843584
@@ -44408,6 +46834,10 @@
   PerimDateTime: null
   unitId: WALPR
   unitMention: Little Pend Oreille NWR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTTDAQ-000171:
   Source_NFSA_Join:
     Lon: -112.89650995025384
@@ -44487,6 +46917,10 @@
   PerimDateTime: null
   unitId: UTTDAQ
   unitMention: Tooele-Dugway Proving Grounds
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-184044:
   Source_NFSA_Join:
     Lon: -118.13396653440871
@@ -44566,6 +47000,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WALPR-001443:
   Source_NFSA_Join:
     Lon: -117.68612941581662
@@ -44645,6 +47083,10 @@
   PerimDateTime: null
   unitId: WALPR
   unitMention: Little Pend Oreille NWR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASPS-000071:
   Source_NFSA_Join:
     Lon: -123.12151180652157
@@ -44724,6 +47166,10 @@
   PerimDateTime: null
   unitId: WASPS
   unitMention: South Puget Sound Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMLNF-000249:
   Source_NFSA_Join:
     Lon: -105.20580822408559
@@ -44896,7 +47342,7 @@
   popupinfo: null
   calc_symboltype: ImsrOther
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-19T19:00Z'
   unitId: NMLNF
   unitMention: Lincoln NF
 2019-AKSWS-904266:
@@ -44978,6 +47424,10 @@
   PerimDateTime: null
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZA4S-000799:
   Source_NFSA_Join:
     Lon: -112.14720720546407
@@ -45057,6 +47507,10 @@
   PerimDateTime: null
   unitId: AZA4S
   unitMention: '@AZStateForestry'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CAKRN-024615:
   Source_NFSA_Join:
     Lon: -118.81390137295878
@@ -45136,6 +47590,10 @@
   PerimDateTime: null
   unitId: CAKRN
   unitMention: '@kerncountyfire'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTKNF-000080:
   Source_NFSA_Join:
     Lon: -115.63181710832791
@@ -45215,6 +47673,10 @@
   PerimDateTime: null
   unitId: MTKNF
   unitMention: Kootenai NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904268:
   Source_NFSA_Join:
     Lon: -162.8216844223582
@@ -45294,6 +47756,10 @@
   PerimDateTime: null
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKSWS-904267:
   Source_NFSA_Join:
     Lon: -163.06659211826772
@@ -45373,6 +47839,10 @@
   PerimDateTime: null
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010156:
   Source_NFSA_Join:
     Lon: -117.51371576333557
@@ -45452,6 +47922,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-184161:
   Source_NFSA_Join:
     Lon: -117.95997184702762
@@ -45531,6 +48005,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-184154:
   Source_NFSA_Join:
     Lon: -117.95830098059915
@@ -45610,6 +48088,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASNF-000449:
   Source_NFSA_Join:
     Lon: -119.1467092194194
@@ -45689,6 +48171,10 @@
   PerimDateTime: null
   unitId: CASNF
   unitMention: '@Sierra_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSCS-190069:
   Source_NFSA_Join:
     Lon: -111.82551151906803
@@ -45768,6 +48254,10 @@
   PerimDateTime: null
   unitId: UTSCS
   unitMention: Central Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVBMD-020102:
   Source_NFSA_Join:
     Lon: -117.06471083487409
@@ -45847,6 +48337,10 @@
   PerimDateTime: null
   unitId: NVBMD
   unitMention: Battle Mountain District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASNF-000451:
   Source_NFSA_Join:
     Lon: -119.14631396069437
@@ -45926,6 +48420,10 @@
   PerimDateTime: null
   unitId: CASNF
   unitMention: '@Sierra_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASNF-000448:
   Source_NFSA_Join:
     Lon: -119.42071334738152
@@ -46005,6 +48503,10 @@
   PerimDateTime: null
   unitId: CASNF
   unitMention: '@Sierra_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CASNF-000450:
   Source_NFSA_Join:
     Lon: -119.42071334738152
@@ -46084,6 +48586,10 @@
   PerimDateTime: null
   unitId: CASNF
   unitMention: '@Sierra_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-SDBKF-190224:
   Source_NFSA_Join:
     Lon: -103.6651076802922
@@ -46163,6 +48669,10 @@
   PerimDateTime: null
   unitId: SDBKF
   unitMention: Black Hills NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NDFTA-000253:
   Source_NFSA_Join:
     Lon: -99.04584472520983
@@ -46242,6 +48752,10 @@
   PerimDateTime: null
   unitId: NDFTA
   unitMention: Fort Totten Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORDEF-000310:
   Source_NFSA_Join:
     Lon: -121.41351800736659
@@ -46321,6 +48835,10 @@
   PerimDateTime: null
   unitId: ORDEF
   unitMention: Deschutes NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTLNF-000767:
   Source_NFSA_Join:
     Lon: -114.37970933271075
@@ -46400,6 +48918,10 @@
   PerimDateTime: null
   unitId: MTLNF
   unitMention: Lolo NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZSCA-000723:
   Source_NFSA_Join:
     Lon: -110.12041029512793
@@ -46479,6 +49001,10 @@
   PerimDateTime: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMN6S-000104:
   Source_NFSA_Join:
     Lon: -107.53610993631436
@@ -46558,6 +49084,10 @@
   PerimDateTime: null
   unitId: NMN6S
   unitMention: Bernalillo District
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-OR955S-000310:
   Source_NFSA_Join:
     Lon: -121.41351800736659
@@ -46637,6 +49167,10 @@
   PerimDateTime: null
   unitId: OR955S
   unitMention: Sisters Unit
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDLNX-000052:
   Source_NFSA_Join:
     Lon: -114.37931407398573
@@ -46716,6 +49250,10 @@
   PerimDateTime: null
   unitId: IDLNX
   unitMention: Lincoln Co.
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000270:
   Source_NFSA_Join:
     Lon: -162.49942279733318
@@ -46795,6 +49333,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000271:
   Source_NFSA_Join:
     Lon: -162.49972822452978
@@ -46874,6 +49416,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORWSA-000011:
   Source_NFSA_Join:
     Lon: -121.23612768821152
@@ -46953,6 +49499,10 @@
   PerimDateTime: null
   unitId: ORWSA
   unitMention: Warm Springs Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVSND-590171:
   Source_NFSA_Join:
     Lon: -115.40161483361943
@@ -47032,6 +49582,10 @@
   PerimDateTime: null
   unitId: NVSND
   unitMention: Southern Nevada District Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKMSS-901272:
   Source_NFSA_Join:
     Lon: -148.83852667605942
@@ -47111,6 +49665,10 @@
   PerimDateTime: null
   unitId: AKMSS
   unitMention: Mat-Su Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WASES-000177:
   Source_NFSA_Join:
     Lon: -121.62391243006022
@@ -47190,6 +49748,10 @@
   PerimDateTime: null
   unitId: WASES
   unitMention: Southeast Region-Department of Natural Resources
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NMSPA-000103:
   Source_NFSA_Join:
     Lon: -107.34861357021292
@@ -47269,6 +49831,10 @@
   PerimDateTime: null
   unitId: NMSPA
   unitMention: Southern Pueblos Agency
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-184351:
   Source_NFSA_Join:
     Lon: -118.14775567401995
@@ -47348,6 +49914,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKKKS-903273:
   Source_NFSA_Join:
     Lon: -151.17963512115614
@@ -47427,6 +49997,10 @@
   PerimDateTime: null
   unitId: AKKKS
   unitMention: Kenai-Kodiak Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000275:
   Source_NFSA_Join:
     Lon: -162.607023002065
@@ -47506,6 +50080,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000274:
   Source_NFSA_Join:
     Lon: -162.596728308909
@@ -47585,6 +50163,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000276:
   Source_NFSA_Join:
     Lon: -162.749630553419
@@ -47664,6 +50246,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000277:
   Source_NFSA_Join:
     Lon: -162.84502265343966
@@ -47743,6 +50329,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000000:
   Source_NFSA_Join:
     Lon: -162.88562650428184
@@ -47822,6 +50412,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000278:
   Source_NFSA_Join:
     Lon: -162.88562650428184
@@ -47901,6 +50495,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-IDSJS-000170:
   Source_NFSA_Join:
     Lon: -116.64444301235163
@@ -47980,6 +50578,10 @@
   PerimDateTime: null
   unitId: IDSJS
   unitMention: West St. Joe Area Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000279:
   Source_NFSA_Join:
     Lon: -164.4017221924432
@@ -48059,6 +50661,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKCRS-CRS-9010:
   Source_NFSA_Join:
     Lon: -145.57752541371863
@@ -48138,6 +50744,10 @@
   PerimDateTime: null
   unitId: AKCRS
   unitMention: Valdez-Copper River Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000281:
   Source_NFSA_Join:
     Lon: -164.500725519906
@@ -48217,6 +50827,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000282:
   Source_NFSA_Join:
     Lon: -164.00712822074087
@@ -48296,6 +50910,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-555118:
   Source_NFSA_Join:
     Lon: -164.0065263495005
@@ -48375,6 +50993,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKUYD-000212:
   Source_NFSA_Join:
     Lon: -145.94592451173605
@@ -48451,7 +51073,7 @@
   Source: NFSA
   Hashtag: '#MarrFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-19T15:35Z'
   unitId: AKUYD
   unitMention: Alaska Fire Service - Upper Yukon Zone
 2019-AKCRS-914280:
@@ -48533,6 +51155,10 @@
   PerimDateTime: null
   unitId: AKCRS
   unitMention: Valdez-Copper River Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000286:
   Source_NFSA_Join:
     Lon: -164.0065263495005
@@ -48612,6 +51238,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000283:
   Source_NFSA_Join:
     Lon: -164.50192926238674
@@ -48691,6 +51321,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000288:
   Source_NFSA_Join:
     Lon: -164.00592447826014
@@ -48770,6 +51404,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000284:
   Source_NFSA_Join:
     Lon: -164.49292814323985
@@ -48849,6 +51487,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000285:
   Source_NFSA_Join:
     Lon: -164.43932567023643
@@ -48928,6 +51570,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CALAC-184462:
   Source_NFSA_Join:
     Lon: -118.38012288856315
@@ -49007,6 +51653,10 @@
   PerimDateTime: null
   unitId: CALAC
   unitMention: '@LACoFDPIO'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKKKS-903289:
   Source_NFSA_Join:
     Lon: -151.24332567480022
@@ -49086,6 +51736,10 @@
   PerimDateTime: null
   unitId: AKKKS
   unitMention: Kenai-Kodiak Area Forestry
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKMID-000290:
   Source_NFSA_Join:
     Lon: -146.55272750300594
@@ -49165,6 +51819,10 @@
   PerimDateTime: null
   unitId: AKMID
   unitMention: Alaska Fire Service - Military Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000287:
   Source_NFSA_Join:
     Lon: -162.51392160601887
@@ -49244,6 +51902,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAPCS-000122:
   Source_NFSA_Join:
     Lon: -122.9222115775868
@@ -49323,6 +51985,10 @@
   PerimDateTime: null
   unitId: WAPCS
   unitMention: Pacific Cascade Region-DNR
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000291:
   Source_NFSA_Join:
     Lon: -161.399426748776
@@ -49402,6 +52068,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000292:
   Source_NFSA_Join:
     Lon: -161.24022731412433
@@ -49639,6 +52309,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000295:
   Source_NFSA_Join:
     Lon: -160.4604267654387
@@ -50113,6 +52787,10 @@
   PerimDateTime: null
   unitId: COPSF
   unitMention: '@PSICC_NF'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-UTSES-009070:
   Source_NFSA_Join:
     Lon: -110.36971075277677
@@ -50192,6 +52870,10 @@
   PerimDateTime: null
   unitId: UTSES
   unitMention: Southeast Area
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-ORUMF-000243:
   Source_NFSA_Join:
     Lon: -117.2958114248667
@@ -50350,6 +53032,10 @@
   PerimDateTime: null
   unitId: COUPD
   unitMention: Uncompahgre Field Office
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-CACDD-010174:
   Source_NFSA_Join:
     Lon: -115.4357148818046
@@ -50587,6 +53273,10 @@
   PerimDateTime: null
   unitId: NMSNF
   unitMention: Santa Fe NF
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AZPMA-000733:
   Source_NFSA_Join:
     Lon: -111.75331391968334
@@ -50666,6 +53356,10 @@
   PerimDateTime: null
   unitId: AZPMA
   unitMention: '@pimaarizona'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-COUPD-000064:
   Source_NFSA_Join:
     Lon: -107.9842614652559
@@ -50903,6 +53597,10 @@
   PerimDateTime: null
   unitId: CABEU
   unitMention: '@calfirebeu'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-NVHUMX-020103:
   Source_NFSA_Join:
     Lon: -117.87580868805846
@@ -54946,7 +57644,7 @@
   popupinfo: null
   calc_symboltype: ImsrType1
   NFSAType: Large WF
-  PerimDateTime: '2019-06-18T10:12Z'
+  PerimDateTime: '2019-06-20T05:05Z'
   unitId: AZTNF
   unitMention: Tonto NF
 2019-IDPOS-000176:
@@ -55107,6 +57805,10 @@
   PerimDateTime: null
   unitId: CACDD
   unitMention: '@BLMca'
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-MTCRA-190180:
   Source_NFSA_Join:
     Lon: -107.36960719840279
@@ -55894,6 +58596,6 @@
   Source: NFSA
   Hashtag: '#BakbukCreekFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
