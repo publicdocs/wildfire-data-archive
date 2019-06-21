@@ -82,7 +82,7 @@
     Acres: 34499.3234596
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -278,7 +278,7 @@
     Acres: 8608.23566514
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -378,7 +378,7 @@
     Acres: 1295.62868492
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -747,7 +747,7 @@
     Acres: 1906.36478815
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -943,7 +943,7 @@
     Acres: 2317.38900164
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:52.094Z'
+        RetrievedOn: '2019-06-21T07:01:08.047Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1386,13 +1386,13 @@
     DailyAcres: 2505
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '2019-06-13T06:00Z'
-    ICS209ReportDateTimeEpoch: 1560405600000
-    ICS209ReportStatus: I
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-06-20T23:30Z'
+    ICS209ReportDateTimeEpoch: 1561073400000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 5005
+    EstimatedCostToDate: 5525
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-05T21:06Z'
@@ -1401,9 +1401,9 @@
     LocalIncidentIdentifier: '904175'
     POOCounty: Dillingham
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-17T22:05Z'
-    ModifiedOnDateTimeEpoch: 1560809130000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-06-21T06:38Z'
+    ModifiedOnDateTimeEpoch: 1561099084000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -1411,7 +1411,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-17T23:45:54.977Z'
+        RetrievedOn: '2019-06-21T07:01:07.044Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1428,13 +1428,13 @@
   DailyAcres: 2505
   PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '2019-06-13T06:00Z'
-  ICS209ReportDateTimeEpoch: 1560405600000
-  ICS209ReportStatus: I
+  IncidentManagementOrganization: Type 5 IC
+  ICS209ReportDateTime: '2019-06-20T23:30Z'
+  ICS209ReportDateTimeEpoch: 1561073400000
+  ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 5005
+  EstimatedCostToDate: 5525
   FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-05T21:06Z'
@@ -1443,23 +1443,21 @@
   LocalIncidentIdentifier: '904175'
   POOCounty: Dillingham
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-17T22:05Z'
-  ModifiedOnDateTimeEpoch: 1560809130000
-  ModifiedBySystem: ifm
+  ModifiedOnDateTime: '2019-06-21T06:38Z'
+  ModifiedOnDateTimeEpoch: 1561099084000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
   Hashtag: '#OngivinukRiverFire'
   NFSAType: Large WF
   PerimDateTime: '2019-06-18T15:28Z'
-  unitId: AKSWS
-  unitMention: Southwest Area Forestry
   PerimeterData:
     DateTime: '2019-06-18T15:28Z'
     Acres: 2518.8923709
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -1475,6 +1473,8 @@
           json: true
       Modified: true
       SourceLayer: '3'
+  unitId: AKSWS
+  unitMention: Southwest Area Forestry
 2019-AKKKS-903181:
   Source_NFSA_Join:
     Lon: -150.4376895785433
@@ -1717,7 +1717,7 @@
     Acres: 153.61698539
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -1913,7 +1913,7 @@
     Acres: 7475.10368606
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -2116,12 +2116,12 @@
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: null
-    ICS209ReportDateTime: '2019-06-13T06:30Z'
-    ICS209ReportDateTimeEpoch: 1560407400000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-06-20T22:30Z'
+    ICS209ReportDateTimeEpoch: 1561069800000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 16585
+    EstimatedCostToDate: 17235
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-08T21:50Z'
@@ -2130,8 +2130,8 @@
     LocalIncidentIdentifier: '904192'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-13T07:09Z'
-    ModifiedOnDateTimeEpoch: 1560409750000
+    ModifiedOnDateTime: '2019-06-21T06:35Z'
+    ModifiedOnDateTimeEpoch: 1561098922000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
@@ -2140,7 +2140,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-14T15:24:32.462Z'
+        RetrievedOn: '2019-06-21T07:01:07.044Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -2158,12 +2158,12 @@
   PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: null
-  ICS209ReportDateTime: '2019-06-13T06:30Z'
-  ICS209ReportDateTimeEpoch: 1560407400000
-  ICS209ReportStatus: I
+  ICS209ReportDateTime: '2019-06-20T22:30Z'
+  ICS209ReportDateTimeEpoch: 1561069800000
+  ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 16585
+  EstimatedCostToDate: 17235
   FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-08T21:50Z'
@@ -2172,8 +2172,8 @@
   LocalIncidentIdentifier: '904192'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-13T07:09Z'
-  ModifiedOnDateTimeEpoch: 1560409750000
+  ModifiedOnDateTime: '2019-06-21T06:35Z'
+  ModifiedOnDateTimeEpoch: 1561098922000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: NonImsr
@@ -2181,14 +2181,12 @@
   Hashtag: '#LittleEastForkFire'
   NFSAType: Large WF
   PerimDateTime: '2019-06-11T18:11Z'
-  unitId: AKSWS
-  unitMention: Southwest Area Forestry
   PerimeterData:
     DateTime: '2019-06-11T18:11Z'
     Acres: 88.07087927
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -2204,6 +2202,8 @@
           json: true
       Modified: true
       SourceLayer: '3'
+  unitId: AKSWS
+  unitMention: Southwest Area Forestry
 2019-CALNU-009880:
   Source_NFSA_Join:
     Lon: -122.26640548756818
@@ -2288,7 +2288,7 @@
     Acres: 2422.01721011
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -2313,15 +2313,15 @@
     Fire_Name: Kipchuk River
     UniqueFireIdentifier: 2019-AKSWS-904198
     DailyAcres: 328
-    PercentContained: 0
+    PercentContained: 1
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: null
-    ICS209ReportDateTime: '2019-06-13T07:00Z'
-    ICS209ReportDateTimeEpoch: 1560409200000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-06-20T22:45Z'
+    ICS209ReportDateTimeEpoch: 1561070700000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 585
+    EstimatedCostToDate: 780
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-09T00:45Z'
@@ -2330,9 +2330,9 @@
     LocalIncidentIdentifier: '904198'
     POOCounty: Bethel
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-17T22:05Z'
-    ModifiedOnDateTimeEpoch: 1560809120000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-06-21T06:40Z'
+    ModifiedOnDateTimeEpoch: 1561099243000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -2340,7 +2340,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-17T23:45:54.977Z'
+        RetrievedOn: '2019-06-21T07:01:07.044Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -2351,18 +2351,18 @@
   Source_GEOMAC:
     Lon: -159.33968931174638
     Lat: 60.8318331474136
-    objectid: 7
+    objectid: 5
     latitude: 60.831833
     longitude: -159.339667
     acres: 328
     gacc: AKCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: AK
-    status: I
+    status: U
     firecause: Natural
-    reportdatetime: '2019-06-13T07:00Z'
-    reportdatetimeEpoch: 1560409200000
-    percentcontained: 0
+    reportdatetime: '2019-06-20T22:45Z'
+    reportdatetimeEpoch: 1561070700000
+    percentcontained: 1
     uniquefireidentifier: 2019-AKSWS-904198
     firediscoverydatetime: '2019-06-09T00:45Z'
     firediscoverydatetimeEpoch: 1560041142000
@@ -2371,11 +2371,11 @@
     incidentname: Kipchuk River
     iscomplex: 'false'
     irwinid: '{66FEBCDA-6523-4C6E-8FED-342E5151933A}'
-    irwinmodifiedon: '2019-06-17T22:05Z'
-    irwinmodifiedonEpoch: 1560809120000
+    irwinmodifiedon: '2019-06-21T06:40Z'
+    irwinmodifiedonEpoch: 1561099243000
     mapsymbol: '1'
-    datecurrent: '2019-06-17T17:30Z'
-    datecurrentEpoch: 1560792609000
+    datecurrent: '2019-06-21T01:00Z'
+    datecurrentEpoch: 1561078814000
     pooownerunit: AKAKS
     fireyear: 2019
     localincidentidentifier: '904198'
@@ -2385,19 +2385,19 @@
     complexname: null
     DailyAcres: 328
     FireCause: Natural
-    PercentContained: 0
+    PercentContained: 1
     UniqueFireIdentifier: 2019-AKSWS-904198
     FireDiscoveryDateTime: '2019-06-09T00:45Z'
     FireDiscoveryDateTimeEpoch: 1560041142000
     Fire_Name: Kipchuk River
-    ModifiedOnDateTime: '2019-06-17T22:05Z'
-    ModifiedOnDateTimeEpoch: 1560809120000
+    ModifiedOnDateTime: '2019-06-21T06:40Z'
+    ModifiedOnDateTimeEpoch: 1561099243000
     Name: Kipchuk River
     Source: GEOMAC
     Hashtag: '#KipchukRiverFire'
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-17T23:45:55.908Z'
+        RetrievedOn: '2019-06-21T07:01:07.696Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -2414,69 +2414,58 @@
       Modified: true
   Lon: -158.96669014469904
   Lat: 60.93333515113109
-  objectid: 7
-  latitude: 60.831833
-  longitude: -159.339667
-  acres: 328
-  gacc: AKCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: AK
-  status: I
-  firecause: Natural
-  reportdatetime: '2019-06-13T07:00Z'
-  reportdatetimeEpoch: 1560409200000
-  percentcontained: 0
-  uniquefireidentifier: 2019-AKSWS-904198
-  firediscoverydatetime: '2019-06-09T00:45Z'
-  firediscoverydatetimeEpoch: 1560041142000
-  complexparentirwinid: null
-  pooresponsibleunit: AKSWS
-  incidentname: Kipchuk River
-  iscomplex: 'false'
-  irwinid: '{66FEBCDA-6523-4C6E-8FED-342E5151933A}'
-  irwinmodifiedon: '2019-06-17T22:05Z'
-  irwinmodifiedonEpoch: 1560809120000
-  mapsymbol: '1'
-  datecurrent: '2019-06-17T17:30Z'
-  datecurrentEpoch: 1560792609000
-  pooownerunit: AKAKS
-  fireyear: 2019
-  localincidentidentifier: '904198'
-  incidenttypecategory: WF
-  owneragency: State
-  perimexist: 'Y'
-  complexname: null
-  DailyAcres: 328
-  FireCause: Natural
-  PercentContained: 0
-  UniqueFireIdentifier: 2019-AKSWS-904198
-  FireDiscoveryDateTime: '2019-06-09T00:45Z'
-  FireDiscoveryDateTimeEpoch: 1560041142000
-  Fire_Name: Kipchuk River
-  ModifiedOnDateTime: '2019-06-17T22:05Z'
-  ModifiedOnDateTimeEpoch: 1560809120000
-  Name: Kipchuk River
-  Source: NFSA
-  Hashtag: '#KipchukRiverFire'
   id: 118349
+  Name: Kipchuk River
+  Fire_Name: Kipchuk River
+  UniqueFireIdentifier: 2019-AKSWS-904198
+  DailyAcres: 328
+  PercentContained: 1
   FireMgmtComplexity: Type 5 Incident
   IncidentManagementOrganization: null
-  ICS209ReportDateTime: '2019-06-13T07:00Z'
-  ICS209ReportDateTimeEpoch: 1560409200000
-  ICS209ReportStatus: I
+  ICS209ReportDateTime: '2019-06-20T22:45Z'
+  ICS209ReportDateTimeEpoch: 1561070700000
+  ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 585
+  EstimatedCostToDate: 780
+  FireCause: Natural
   TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-09T00:45Z'
+  FireDiscoveryDateTimeEpoch: 1560041142000
   DispatchCenterID: AKMSSC
   LocalIncidentIdentifier: '904198'
   POOCounty: Bethel
   POOLandownerKind: Other
-  ModifiedBySystem: ifm
+  ModifiedOnDateTime: '2019-06-21T06:40Z'
+  ModifiedOnDateTimeEpoch: 1561099243000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#KipchukRiverFire'
   NFSAType: Large WF
   PerimDateTime: '2019-06-18T15:30Z'
+  PerimeterData:
+    DateTime: '2019-06-18T15:30Z'
+    Acres: 330.16264863
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
 2019-AZSCA-000587:
@@ -2960,7 +2949,7 @@
     Acres: 305.55216931
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -3149,13 +3138,13 @@
     DailyAcres: 172
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '2019-06-13T07:00Z'
-    ICS209ReportDateTimeEpoch: 1560409200000
-    ICS209ReportStatus: I
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-06-20T23:15Z'
+    ICS209ReportDateTimeEpoch: 1561072500000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 1040
+    EstimatedCostToDate: 1820
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-11T22:13Z'
@@ -3164,9 +3153,9 @@
     LocalIncidentIdentifier: '904226'
     POOCounty: Bethel
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-17T22:04Z'
-    ModifiedOnDateTimeEpoch: 1560809040000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-06-21T06:42Z'
+    ModifiedOnDateTimeEpoch: 1561099366000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
@@ -3174,7 +3163,7 @@
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-17T23:45:54.977Z'
+        RetrievedOn: '2019-06-21T07:01:07.044Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -3191,13 +3180,13 @@
   DailyAcres: 172
   PercentContained: 0
   FireMgmtComplexity: Type 5 Incident
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '2019-06-13T07:00Z'
-  ICS209ReportDateTimeEpoch: 1560409200000
-  ICS209ReportStatus: I
+  IncidentManagementOrganization: Type 5 IC
+  ICS209ReportDateTime: '2019-06-20T23:15Z'
+  ICS209ReportDateTimeEpoch: 1561072500000
+  ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 1040
+  EstimatedCostToDate: 1820
   FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-11T22:13Z'
@@ -3206,15 +3195,36 @@
   LocalIncidentIdentifier: '904226'
   POOCounty: Bethel
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-17T22:04Z'
-  ModifiedOnDateTimeEpoch: 1560809040000
-  ModifiedBySystem: ifm
+  ModifiedOnDateTime: '2019-06-21T06:42Z'
+  ModifiedOnDateTimeEpoch: 1561099366000
+  ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
   Hashtag: '#ShoeleatherCreekFire'
   NFSAType: Large WF
   PerimDateTime: '2019-06-18T15:28Z'
+  PerimeterData:
+    DateTime: '2019-06-18T15:28Z'
+    Acres: 173.02455451
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
 2019-CALAC-177250:
@@ -8613,7 +8623,7 @@
     Acres: 23.45187533
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -9460,7 +9470,7 @@
     Acres: 46.48868822
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -9643,7 +9653,7 @@
     Acres: 78.63414556
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -15304,7 +15314,7 @@
     Acres: 36.77085742
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -18890,7 +18900,7 @@
     Acres: 117.74306545
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -23398,7 +23408,7 @@
     Acres: 24.46707902
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -40518,7 +40528,7 @@
     Acres: 52.01638473
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T06:59:53.067Z'
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -52151,6 +52161,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000293:
   Source_NFSA_Join:
     Lon: -160.89102521372854
@@ -52230,6 +52244,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-555125:
   Source_NFSA_Join:
     Lon: -160.46052558011996
@@ -52392,6 +52410,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-AKGAD-000294:
   Source_NFSA_Join:
     Lon: -160.46052558011996
@@ -52471,6 +52493,10 @@
   PerimDateTime: null
   unitId: AKGAD
   unitMention: Alaska Fire Service - Galena Zone
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
 2019-WAMCR-000178:
   Source_NFSA_Join:
     Lon: -118.96211441168568
@@ -56929,7 +56955,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Wilderness
     UniqueFireIdentifier: 2019-AKTAD-000305
-    DailyAcres: 0.1
+    DailyAcres: 10
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -56939,7 +56965,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-21T02:05Z'
     FireDiscoveryDateTimeEpoch: 1561082700000
@@ -56947,15 +56973,15 @@
     LocalIncidentIdentifier: '000305'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-21T04:01Z'
-    ModifiedOnDateTimeEpoch: 1561089701000
+    ModifiedOnDateTime: '2019-06-21T06:36Z'
+    ModifiedOnDateTimeEpoch: 1561099010000
     ModifiedBySystem: wildcad
     Source: NFSA
     Hashtag: '#WildernessFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-21T04:30:54.821Z'
+        RetrievedOn: '2019-06-21T07:01:07.044Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -56971,7 +56997,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Wilderness
   UniqueFireIdentifier: 2019-AKTAD-000305
-  DailyAcres: 0.1
+  DailyAcres: 10
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -56981,7 +57007,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-21T02:05Z'
   FireDiscoveryDateTimeEpoch: 1561082700000
@@ -56989,13 +57015,17 @@
   LocalIncidentIdentifier: '000305'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-21T04:01Z'
-  ModifiedOnDateTimeEpoch: 1561089701000
+  ModifiedOnDateTime: '2019-06-21T06:36Z'
+  ModifiedOnDateTimeEpoch: 1561099010000
   ModifiedBySystem: wildcad
   Source: NFSA
   Hashtag: '#WildernessFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
   unitId: AKTAD
   unitMention: Alaska Fire Service - Tanana Zone
 2019-AKTAS-913303:
@@ -58599,3 +58629,107 @@
   PerimDateTime: '2019-06-18T15:28Z'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
+  PerimeterData:
+    DateTime: '2019-06-18T15:28Z'
+    Acres: 775.79118076
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T07:01:09.033Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
+2019-AKGAD-000310:
+  Source_NFSA_Join:
+    Lon: -162.28652207499687
+    Lat: 65.35387823624242
+    id: 119727
+    Name: smoke report 1
+    Fire_Name: smoke report 1
+    UniqueFireIdentifier: 2019-AKGAD-000310
+    DailyAcres: 600
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: '1970-01-01T00:00Z'
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-21T06:40Z'
+    FireDiscoveryDateTimeEpoch: 1561099200000
+    DispatchCenterID: AKGADC
+    LocalIncidentIdentifier: '000310'
+    POOCounty: Nome
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-21T06:56Z'
+    ModifiedOnDateTimeEpoch: 1561100213000
+    ModifiedBySystem: firecode
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    Hashtag: '#SmokeReport1Fire'
+    NFSAType: Large WF
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-21T07:01:07.044Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -162.28652207499687
+  Lat: 65.35387823624242
+  id: 119727
+  Name: smoke report 1
+  Fire_Name: smoke report 1
+  UniqueFireIdentifier: 2019-AKGAD-000310
+  DailyAcres: 600
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: '1970-01-01T00:00Z'
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-21T06:40Z'
+  FireDiscoveryDateTimeEpoch: 1561099200000
+  DispatchCenterID: AKGADC
+  LocalIncidentIdentifier: '000310'
+  POOCounty: Nome
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-21T06:56Z'
+  ModifiedOnDateTimeEpoch: 1561100213000
+  ModifiedBySystem: firecode
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: NFSA
+  Hashtag: '#SmokeReport1Fire'
+  NFSAType: Large WF
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: AKGAD
+  unitMention: Alaska Fire Service - Galena Zone
