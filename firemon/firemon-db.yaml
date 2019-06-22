@@ -7503,157 +7503,6 @@
     _Provenance: null
   unitId: AZCRA
   unitMention: Colorado River Agency
-2019-CARRU-079226:
-  Source_NFSA_Join:
-    Lon: -117.10362585298215
-    Lat: 33.9194481324835
-    id: 119787
-    Name: JERRY
-    Fire_Name: JERRY
-    UniqueFireIdentifier: 2019-CARRU-079226
-    DailyAcres: 525
-    PercentContained: 20
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-06-22T01:00Z'
-    ICS209ReportDateTimeEpoch: 1561165200000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 700000
-    FireCause: Human
-    TotalIncidentPersonnel: 200
-    FireDiscoveryDateTime: '2019-06-21T20:00Z'
-    FireDiscoveryDateTimeEpoch: 1561147200000
-    DispatchCenterID: CARRCC
-    LocalIncidentIdentifier: 079226
-    POOCounty: Riverside
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-22T01:00Z'
-    ModifiedOnDateTimeEpoch: 1561165200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T03:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561173905000
-    Hashtag: '#JerryFire'
-    NFSAType: Large WF
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T03:31:07.818Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Source_GEOMAC:
-    Lon: -117.10362308217432
-    Lat: 33.91944930501039
-    objectid: 11
-    latitude: 33.9194444
-    longitude: -117.1036111
-    acres: 525
-    gacc: OSCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: I
-    firecause: Human
-    reportdatetime: '2019-06-22T01:00Z'
-    reportdatetimeEpoch: 1561165200000
-    percentcontained: 20
-    uniquefireidentifier: 2019-CARRU-079226
-    firediscoverydatetime: '2019-06-21T20:00Z'
-    firediscoverydatetimeEpoch: 1561147200000
-    complexparentirwinid: null
-    pooresponsibleunit: CARRU
-    incidentname: JERRY
-    iscomplex: 'false'
-    irwinid: '{176CFAFF-F55F-4544-82FA-912220223AF0}'
-    irwinmodifiedon: '2019-06-22T03:25Z'
-    irwinmodifiedonEpoch: 1561173905000
-    mapsymbol: '1'
-    datecurrent: '2019-06-21T21:30Z'
-    datecurrentEpoch: 1561152627000
-    pooownerunit: CARRU
-    fireyear: 2019
-    localincidentidentifier: 079226
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 525
-    FireCause: Human
-    ModifiedOnDateTime: '2019-06-22T01:00Z'
-    ModifiedOnDateTimeEpoch: 1561165200000
-    PercentContained: 20
-    UniqueFireIdentifier: 2019-CARRU-079226
-    FireDiscoveryDateTime: '2019-06-21T20:00Z'
-    FireDiscoveryDateTimeEpoch: 1561147200000
-    Fire_Name: JERRY
-    Name: JERRY
-    Source: GEOMAC
-    Hashtag: '#JerryFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T03:31:08.673Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -117.10362585298215
-  Lat: 33.9194481324835
-  id: 119787
-  Name: JERRY
-  Fire_Name: JERRY
-  UniqueFireIdentifier: 2019-CARRU-079226
-  DailyAcres: 525
-  PercentContained: 20
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-22T01:00Z'
-  ICS209ReportDateTimeEpoch: 1561165200000
-  ICS209ReportStatus: I
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 700000
-  FireCause: Human
-  TotalIncidentPersonnel: 200
-  FireDiscoveryDateTime: '2019-06-21T20:00Z'
-  FireDiscoveryDateTimeEpoch: 1561147200000
-  DispatchCenterID: CARRCC
-  LocalIncidentIdentifier: 079226
-  POOCounty: Riverside
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-22T01:00Z'
-  ModifiedOnDateTimeEpoch: 1561165200000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T03:25Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561173905000
-  Hashtag: '#JerryFire'
-  NFSAType: Large WF
-  PerimDateTime: null
-  PerimeterData:
-    DateTime: null
-    Acres: null
-    _Provenance: null
-  unitId: CARRU
-  unitMention: '@CALFIRERRU'
 2019-MTCGF-190183:
   Source_NFSA_Join:
     Lon: -109.33680987279045
@@ -9568,3 +9417,154 @@
     _Provenance: null
   unitId: AKFAS
   unitMention: Fairbanks Area Forestry
+2019-CARRU-079226:
+  Source_NFSA_Join:
+    Lon: -117.10362585298215
+    Lat: 33.9194481324835
+    id: 119787
+    Name: JERRY
+    Fire_Name: JERRY
+    UniqueFireIdentifier: 2019-CARRU-079226
+    DailyAcres: 525
+    PercentContained: 20
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-06-22T01:00Z'
+    ICS209ReportDateTimeEpoch: 1561165200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 700000
+    FireCause: Human
+    TotalIncidentPersonnel: 200
+    FireDiscoveryDateTime: '2019-06-21T20:00Z'
+    FireDiscoveryDateTimeEpoch: 1561147200000
+    DispatchCenterID: CARRCC
+    LocalIncidentIdentifier: 079226
+    POOCounty: Riverside
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-22T01:00Z'
+    ModifiedOnDateTimeEpoch: 1561165200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    ModifiedOnDateTime_Raw: '2019-06-22T03:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561173905000
+    Hashtag: '#JerryFire'
+    NFSAType: Large WF
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T03:46:07.888Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Source_GEOMAC:
+    Lon: -117.10362308217432
+    Lat: 33.91944930501039
+    objectid: 11
+    latitude: 33.9194444
+    longitude: -117.1036111
+    acres: 525
+    gacc: OSCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CA
+    status: I
+    firecause: Human
+    reportdatetime: '2019-06-22T01:00Z'
+    reportdatetimeEpoch: 1561165200000
+    percentcontained: 20
+    uniquefireidentifier: 2019-CARRU-079226
+    firediscoverydatetime: '2019-06-21T20:00Z'
+    firediscoverydatetimeEpoch: 1561147200000
+    complexparentirwinid: null
+    pooresponsibleunit: CARRU
+    incidentname: JERRY
+    iscomplex: 'false'
+    irwinid: '{176CFAFF-F55F-4544-82FA-912220223AF0}'
+    irwinmodifiedon: '2019-06-22T03:25Z'
+    irwinmodifiedonEpoch: 1561173905000
+    mapsymbol: '1'
+    datecurrent: '2019-06-21T21:30Z'
+    datecurrentEpoch: 1561152627000
+    pooownerunit: CARRU
+    fireyear: 2019
+    localincidentidentifier: 079226
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 525
+    FireCause: Human
+    ModifiedOnDateTime: '2019-06-22T01:00Z'
+    ModifiedOnDateTimeEpoch: 1561165200000
+    PercentContained: 20
+    UniqueFireIdentifier: 2019-CARRU-079226
+    FireDiscoveryDateTime: '2019-06-21T20:00Z'
+    FireDiscoveryDateTimeEpoch: 1561147200000
+    Fire_Name: JERRY
+    Name: JERRY
+    Source: GEOMAC
+    Hashtag: '#JerryFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T03:46:08.680Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -117.10362585298215
+  Lat: 33.9194481324835
+  id: 119787
+  Name: JERRY
+  Fire_Name: JERRY
+  UniqueFireIdentifier: 2019-CARRU-079226
+  DailyAcres: 525
+  PercentContained: 20
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2019-06-22T01:00Z'
+  ICS209ReportDateTimeEpoch: 1561165200000
+  ICS209ReportStatus: I
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 700000
+  FireCause: Human
+  TotalIncidentPersonnel: 200
+  FireDiscoveryDateTime: '2019-06-21T20:00Z'
+  FireDiscoveryDateTimeEpoch: 1561147200000
+  DispatchCenterID: CARRCC
+  LocalIncidentIdentifier: 079226
+  POOCounty: Riverside
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-22T01:00Z'
+  ModifiedOnDateTimeEpoch: 1561165200000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: NFSA
+  ModifiedOnDateTime_Raw: '2019-06-22T03:25Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561173905000
+  Hashtag: '#JerryFire'
+  NFSAType: Large WF
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: CARRU
+  unitMention: '@CALFIRERRU'
