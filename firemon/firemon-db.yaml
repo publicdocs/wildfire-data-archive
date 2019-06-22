@@ -2643,174 +2643,6 @@
       SourceLayer: '3'
   unitId: AKUYD
   unitMention: Alaska Fire Service - Upper Yukon Zone
-2019-NMLNF-000249:
-  Source_NFSA_Join:
-    Lon: -105.20580822408559
-    Lat: 33.65252867979911
-    id: 119570
-    Name: PINE LODGE
-    Fire_Name: PINE LODGE
-    UniqueFireIdentifier: 2019-NMLNF-000249
-    DailyAcres: 2500
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-06-21T23:30Z'
-    ICS209ReportDateTimeEpoch: 1561159800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 587000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 142
-    FireDiscoveryDateTime: '2019-06-19T19:44Z'
-    FireDiscoveryDateTimeEpoch: 1560973440000
-    DispatchCenterID: NMADC
-    LocalIncidentIdentifier: 000249
-    POOCounty: Lincoln
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-21T23:30Z'
-    ModifiedOnDateTimeEpoch: 1561159800000
-    ModifiedBySystem: wfdss
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T00:49Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561164542000
-    Hashtag: '#PineLodgeFire'
-    NFSAType: Large WF
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T01:31:07.688Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Source_GEOMAC:
-    Lon: -105.24410959882681
-    Lat: 33.62452549248193
-    objectid: 10
-    latitude: 33.62452
-    longitude: -105.2441
-    acres: 2500
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: NM
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-06-21T23:30Z'
-    reportdatetimeEpoch: 1561159800000
-    percentcontained: 0
-    uniquefireidentifier: 2019-NMLNF-000249
-    firediscoverydatetime: '2019-06-19T19:44Z'
-    firediscoverydatetimeEpoch: 1560973440000
-    complexparentirwinid: null
-    pooresponsibleunit: NMLNF
-    incidentname: PINE LODGE
-    iscomplex: 'false'
-    irwinid: '{1F1E8B82-4864-4884-9737-FE108D1ADCEC}'
-    irwinmodifiedon: '2019-06-22T00:49Z'
-    irwinmodifiedonEpoch: 1561164543000
-    mapsymbol: '1'
-    datecurrent: '2019-06-21T19:30Z'
-    datecurrentEpoch: 1561145426000
-    pooownerunit: NMLNF
-    fireyear: 2019
-    localincidentidentifier: 000249
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 2500
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-06-21T23:30Z'
-    ModifiedOnDateTimeEpoch: 1561159800000
-    PercentContained: 0
-    UniqueFireIdentifier: 2019-NMLNF-000249
-    FireDiscoveryDateTime: '2019-06-19T19:44Z'
-    FireDiscoveryDateTimeEpoch: 1560973440000
-    Fire_Name: PINE LODGE
-    Name: PINE LODGE
-    Source: GEOMAC
-    Hashtag: '#PineLodgeFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T01:31:08.381Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -105.20580822408559
-  Lat: 33.65252867979911
-  id: 119570
-  Name: PINE LODGE
-  Fire_Name: PINE LODGE
-  UniqueFireIdentifier: 2019-NMLNF-000249
-  DailyAcres: 2500
-  PercentContained: 0
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: Type 3 Team
-  ICS209ReportDateTime: '2019-06-21T23:30Z'
-  ICS209ReportDateTimeEpoch: 1561159800000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 587000
-  FireCause: Unknown
-  TotalIncidentPersonnel: 142
-  FireDiscoveryDateTime: '2019-06-19T19:44Z'
-  FireDiscoveryDateTimeEpoch: 1560973440000
-  DispatchCenterID: NMADC
-  LocalIncidentIdentifier: 000249
-  POOCounty: Lincoln
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-21T23:30Z'
-  ModifiedOnDateTimeEpoch: 1561159800000
-  ModifiedBySystem: wfdss
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T00:49Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561164542000
-  Hashtag: '#PineLodgeFire'
-  NFSAType: Large WF
-  PerimDateTime: '2019-06-21T00:50Z'
-  PerimeterData:
-    DateTime: '2019-06-21T00:50Z'
-    Acres: 701.79066264
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T01:31:08.828Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-      SourceLayer: '2'
-  unitId: NMLNF
-  unitMention: Lincoln NF
 2019-COSJF-000243:
   Source_NFSA_Join:
     Lon: -108.68220752525255
@@ -9568,3 +9400,171 @@
       SourceLayer: '2'
   unitId: AZTNF
   unitMention: Tonto NF
+2019-NMLNF-000249:
+  Source_NFSA_Join:
+    Lon: -105.20580822408559
+    Lat: 33.65252867979911
+    id: 119570
+    Name: PINE LODGE
+    Fire_Name: PINE LODGE
+    UniqueFireIdentifier: 2019-NMLNF-000249
+    DailyAcres: 2500
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-06-21T23:30Z'
+    ICS209ReportDateTimeEpoch: 1561159800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 587000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 142
+    FireDiscoveryDateTime: '2019-06-19T19:44Z'
+    FireDiscoveryDateTimeEpoch: 1560973440000
+    DispatchCenterID: NMADC
+    LocalIncidentIdentifier: 000249
+    POOCounty: Lincoln
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-21T23:30Z'
+    ModifiedOnDateTimeEpoch: 1561159800000
+    ModifiedBySystem: wfdss
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    ModifiedOnDateTime_Raw: '2019-06-22T00:49Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561164542000
+    Hashtag: '#PineLodgeFire'
+    NFSAType: Large WF
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T16:28:56.966Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Source_GEOMAC:
+    Lon: -105.24410959882681
+    Lat: 33.62452549248193
+    objectid: 9
+    latitude: 33.62452
+    longitude: -105.2441
+    acres: 2500
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NM
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-06-21T23:30Z'
+    reportdatetimeEpoch: 1561159800000
+    percentcontained: 0
+    uniquefireidentifier: 2019-NMLNF-000249
+    firediscoverydatetime: '2019-06-19T19:44Z'
+    firediscoverydatetimeEpoch: 1560973440000
+    complexparentirwinid: null
+    pooresponsibleunit: NMLNF
+    incidentname: PINE LODGE
+    iscomplex: 'false'
+    irwinid: '{1F1E8B82-4864-4884-9737-FE108D1ADCEC}'
+    irwinmodifiedon: '2019-06-22T00:49Z'
+    irwinmodifiedonEpoch: 1561164543000
+    mapsymbol: '1'
+    datecurrent: '2019-06-22T10:00Z'
+    datecurrentEpoch: 1561197615000
+    pooownerunit: NMLNF
+    fireyear: 2019
+    localincidentidentifier: 000249
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 2500
+    FireCause: Unknown
+    ModifiedOnDateTime: '2019-06-21T23:30Z'
+    ModifiedOnDateTimeEpoch: 1561159800000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-NMLNF-000249
+    FireDiscoveryDateTime: '2019-06-19T19:44Z'
+    FireDiscoveryDateTimeEpoch: 1560973440000
+    Fire_Name: PINE LODGE
+    Name: PINE LODGE
+    Source: GEOMAC
+    Hashtag: '#PineLodgeFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T16:28:57.710Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -105.20580822408559
+  Lat: 33.65252867979911
+  id: 119570
+  Name: PINE LODGE
+  Fire_Name: PINE LODGE
+  UniqueFireIdentifier: 2019-NMLNF-000249
+  DailyAcres: 2500
+  PercentContained: 0
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 Team
+  ICS209ReportDateTime: '2019-06-21T23:30Z'
+  ICS209ReportDateTimeEpoch: 1561159800000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 587000
+  FireCause: Unknown
+  TotalIncidentPersonnel: 142
+  FireDiscoveryDateTime: '2019-06-19T19:44Z'
+  FireDiscoveryDateTimeEpoch: 1560973440000
+  DispatchCenterID: NMADC
+  LocalIncidentIdentifier: 000249
+  POOCounty: Lincoln
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-21T23:30Z'
+  ModifiedOnDateTimeEpoch: 1561159800000
+  ModifiedBySystem: wfdss
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: NFSA
+  ModifiedOnDateTime_Raw: '2019-06-22T00:49Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561164542000
+  Hashtag: '#PineLodgeFire'
+  NFSAType: Large WF
+  PerimDateTime: '2019-06-21T00:50Z'
+  PerimeterData:
+    DateTime: '2019-06-21T00:50Z'
+    Acres: 701.79066264
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T16:28:58.194Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '2'
+  unitId: NMLNF
+  unitMention: Lincoln NF
