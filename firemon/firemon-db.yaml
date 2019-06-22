@@ -1109,174 +1109,6 @@
     _Provenance: null
   unitId: NMCAF
   unitMention: Carson NF
-2019-AZTNF-000579:
-  Source_NFSA_Join:
-    Lon: -111.19921508613274
-    Lat: 33.409445736565466
-    id: 118312
-    Name: Woodbury
-    Fire_Name: Woodbury
-    UniqueFireIdentifier: 2019-AZTNF-000579
-    DailyAcres: 65903
-    PercentContained: 34
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2019-06-21T23:00Z'
-    ICS209ReportDateTimeEpoch: 1561158000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 12686934
-    FireCause: Unknown
-    TotalIncidentPersonnel: 1000
-    FireDiscoveryDateTime: '2019-06-08T20:28Z'
-    FireDiscoveryDateTimeEpoch: 1560025680000
-    DispatchCenterID: AZPHC
-    LocalIncidentIdentifier: 000579
-    POOCounty: Pinal
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-21T23:00Z'
-    ModifiedOnDateTimeEpoch: 1561158000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T00:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561164902000
-    Hashtag: '#WoodburyFire'
-    NFSAType: Large WF
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T01:31:07.688Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Source_GEOMAC:
-    Lon: -111.20973084520845
-    Lat: 33.40778515636509
-    objectid: 4
-    latitude: 33.40778
-    longitude: -111.20972
-    acres: 65903
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-06-21T23:00Z'
-    reportdatetimeEpoch: 1561158000000
-    percentcontained: 34
-    uniquefireidentifier: 2019-AZTNF-000579
-    firediscoverydatetime: '2019-06-08T20:28Z'
-    firediscoverydatetimeEpoch: 1560025680000
-    complexparentirwinid: null
-    pooresponsibleunit: AZTNF
-    incidentname: Woodbury
-    iscomplex: 'false'
-    irwinid: '{852CA751-B8AB-4D83-9B1D-8D4C4924472B}'
-    irwinmodifiedon: '2019-06-22T00:55Z'
-    irwinmodifiedonEpoch: 1561164902000
-    mapsymbol: '4'
-    datecurrent: '2019-06-21T19:30Z'
-    datecurrentEpoch: 1561145426000
-    pooownerunit: AZTNF
-    fireyear: 2019
-    localincidentidentifier: 000579
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 65903
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-06-21T23:00Z'
-    ModifiedOnDateTimeEpoch: 1561158000000
-    PercentContained: 34
-    UniqueFireIdentifier: 2019-AZTNF-000579
-    FireDiscoveryDateTime: '2019-06-08T20:28Z'
-    FireDiscoveryDateTimeEpoch: 1560025680000
-    Fire_Name: Woodbury
-    Name: Woodbury
-    Source: GEOMAC
-    Hashtag: '#WoodburyFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T01:31:08.381Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -111.19921508613274
-  Lat: 33.409445736565466
-  id: 118312
-  Name: Woodbury
-  Fire_Name: Woodbury
-  UniqueFireIdentifier: 2019-AZTNF-000579
-  DailyAcres: 65903
-  PercentContained: 34
-  FireMgmtComplexity: Type 1 Incident
-  IncidentManagementOrganization: Type 1 Team
-  ICS209ReportDateTime: '2019-06-21T23:00Z'
-  ICS209ReportDateTimeEpoch: 1561158000000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 12686934
-  FireCause: Unknown
-  TotalIncidentPersonnel: 1000
-  FireDiscoveryDateTime: '2019-06-08T20:28Z'
-  FireDiscoveryDateTimeEpoch: 1560025680000
-  DispatchCenterID: AZPHC
-  LocalIncidentIdentifier: 000579
-  POOCounty: Pinal
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-21T23:00Z'
-  ModifiedOnDateTimeEpoch: 1561158000000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrType1
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T00:55Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561164902000
-  Hashtag: '#WoodburyFire'
-  NFSAType: Large WF
-  PerimDateTime: '2019-06-21T05:04Z'
-  PerimeterData:
-    DateTime: '2019-06-21T05:04Z'
-    Acres: 65949.9759846
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T01:31:08.828Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-      SourceLayer: '2'
-  unitId: AZTNF
-  unitMention: Tonto NF
 2019-AKSWS-904192:
   Source_NFSA_Join:
     Lon: -156.7033578369014
@@ -9632,3 +9464,171 @@
     _Provenance: null
   unitId: CARRU
   unitMention: '@CALFIRERRU'
+2019-AZTNF-000579:
+  Source_NFSA_Join:
+    Lon: -111.19921508613274
+    Lat: 33.409445736565466
+    id: 118312
+    Name: Woodbury
+    Fire_Name: Woodbury
+    UniqueFireIdentifier: 2019-AZTNF-000579
+    DailyAcres: 65903
+    PercentContained: 34
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: Type 1 Team
+    ICS209ReportDateTime: '2019-06-21T23:00Z'
+    ICS209ReportDateTimeEpoch: 1561158000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 12686934
+    FireCause: Unknown
+    TotalIncidentPersonnel: 1000
+    FireDiscoveryDateTime: '2019-06-08T20:28Z'
+    FireDiscoveryDateTimeEpoch: 1560025680000
+    DispatchCenterID: AZPHC
+    LocalIncidentIdentifier: 000579
+    POOCounty: Pinal
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-21T23:00Z'
+    ModifiedOnDateTimeEpoch: 1561158000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
+    ModifiedOnDateTime_Raw: '2019-06-22T00:55Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561164902000
+    Hashtag: '#WoodburyFire'
+    NFSAType: Large WF
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T06:43:47.399Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Source_GEOMAC:
+    Lon: -111.20973084520845
+    Lat: 33.40778515636509
+    objectid: 4
+    latitude: 33.40778
+    longitude: -111.20972
+    acres: 65903
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AZ
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-06-21T23:00Z'
+    reportdatetimeEpoch: 1561158000000
+    percentcontained: 34
+    uniquefireidentifier: 2019-AZTNF-000579
+    firediscoverydatetime: '2019-06-08T20:28Z'
+    firediscoverydatetimeEpoch: 1560025680000
+    complexparentirwinid: null
+    pooresponsibleunit: AZTNF
+    incidentname: Woodbury
+    iscomplex: 'false'
+    irwinid: '{852CA751-B8AB-4D83-9B1D-8D4C4924472B}'
+    irwinmodifiedon: '2019-06-22T00:55Z'
+    irwinmodifiedonEpoch: 1561164902000
+    mapsymbol: '4'
+    datecurrent: '2019-06-22T00:30Z'
+    datecurrentEpoch: 1561163419000
+    pooownerunit: AZTNF
+    fireyear: 2019
+    localincidentidentifier: 000579
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 65903
+    FireCause: Unknown
+    ModifiedOnDateTime: '2019-06-21T23:00Z'
+    ModifiedOnDateTimeEpoch: 1561158000000
+    PercentContained: 34
+    UniqueFireIdentifier: 2019-AZTNF-000579
+    FireDiscoveryDateTime: '2019-06-08T20:28Z'
+    FireDiscoveryDateTimeEpoch: 1560025680000
+    Fire_Name: Woodbury
+    Name: Woodbury
+    Source: GEOMAC
+    Hashtag: '#WoodburyFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T06:43:48.098Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -111.19921508613274
+  Lat: 33.409445736565466
+  id: 118312
+  Name: Woodbury
+  Fire_Name: Woodbury
+  UniqueFireIdentifier: 2019-AZTNF-000579
+  DailyAcres: 65903
+  PercentContained: 34
+  FireMgmtComplexity: Type 1 Incident
+  IncidentManagementOrganization: Type 1 Team
+  ICS209ReportDateTime: '2019-06-21T23:00Z'
+  ICS209ReportDateTimeEpoch: 1561158000000
+  ICS209ReportStatus: U
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 12686934
+  FireCause: Unknown
+  TotalIncidentPersonnel: 1000
+  FireDiscoveryDateTime: '2019-06-08T20:28Z'
+  FireDiscoveryDateTimeEpoch: 1560025680000
+  DispatchCenterID: AZPHC
+  LocalIncidentIdentifier: 000579
+  POOCounty: Pinal
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-21T23:00Z'
+  ModifiedOnDateTimeEpoch: 1561158000000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrType1
+  Source: NFSA
+  ModifiedOnDateTime_Raw: '2019-06-22T00:55Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561164902000
+  Hashtag: '#WoodburyFire'
+  NFSAType: Large WF
+  PerimDateTime: '2019-06-21T05:04Z'
+  PerimeterData:
+    DateTime: '2019-06-21T05:04Z'
+    Acres: 65949.9759846
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-22T06:43:48.537Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '2'
+  unitId: AZTNF
+  unitMention: Tonto NF
