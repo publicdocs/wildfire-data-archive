@@ -758,40 +758,104 @@
     Name: Swan Lake
     Fire_Name: Swan Lake
     UniqueFireIdentifier: 2019-AKKKS-903181
-    DailyAcres: 23210
-    PercentContained: 0
+    DailyAcres: 23530
+    PercentContained: 3
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-06-22T04:00Z'
-    ICS209ReportDateTimeEpoch: 1561176000000
+    ICS209ReportDateTime: '2019-06-23T01:45Z'
+    ICS209ReportDateTimeEpoch: 1561254300000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 1647109
+    EstimatedCostToDate: 2946602
     FireCause: Natural
-    TotalIncidentPersonnel: 335
+    TotalIncidentPersonnel: 361
     FireDiscoveryDateTime: '2019-06-06T02:52Z'
     FireDiscoveryDateTimeEpoch: 1559789537000
     DispatchCenterID: AKKIDC
     LocalIncidentIdentifier: '903181'
     POOCounty: Kenai Peninsula
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-22T04:00Z'
-    ModifiedOnDateTimeEpoch: 1561176000000
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2019-06-23T01:45Z'
+    ModifiedOnDateTimeEpoch: 1561254300000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T05:58Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561183105000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:05Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561269956000
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-22T22:40:35.600Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Source_GEOMAC:
+    Lon: -150.4378004349885
+    Lat: 60.63055718857592
+    objectid: 3
+    latitude: 60.6305556
+    longitude: -150.4377778
+    acres: 23530
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-23T01:45Z'
+    reportdatetimeEpoch: 1561254300000
+    percentcontained: 3
+    uniquefireidentifier: 2019-AKKKS-903181
+    firediscoverydatetime: '2019-06-06T02:52Z'
+    firediscoverydatetimeEpoch: 1559789537000
+    complexparentirwinid: null
+    pooresponsibleunit: AKKKS
+    incidentname: Swan Lake
+    iscomplex: 'false'
+    irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
+    irwinmodifiedon: '2019-06-23T06:05Z'
+    irwinmodifiedonEpoch: 1561269957000
+    mapsymbol: '2'
+    datecurrent: '2019-06-23T00:30Z'
+    datecurrentEpoch: 1561249831000
+    pooownerunit: AKKNR
+    fireyear: 2019
+    localincidentidentifier: '903181'
+    incidenttypecategory: WF
+    owneragency: USFWS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 23530
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-06-23T01:45Z'
+    ModifiedOnDateTimeEpoch: 1561254300000
+    PercentContained: 3
+    UniqueFireIdentifier: 2019-AKKKS-903181
+    FireDiscoveryDateTime: '2019-06-06T02:52Z'
+    FireDiscoveryDateTimeEpoch: 1559789537000
+    Fire_Name: Swan Lake
+    Name: Swan Lake
+    Source: GEOMAC
+    Hashtag: '#SwanLakeFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-23T06:30:39.788Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
           headers:
             User-Agent: Request-Promise; Bot
           json: true
@@ -802,32 +866,32 @@
   Name: Swan Lake
   Fire_Name: Swan Lake
   UniqueFireIdentifier: 2019-AKKKS-903181
-  DailyAcres: 23210
-  PercentContained: 0
+  DailyAcres: 23530
+  PercentContained: 3
   FireMgmtComplexity: Type 2 Incident
   IncidentManagementOrganization: Type 2 Team
-  ICS209ReportDateTime: '2019-06-22T04:00Z'
-  ICS209ReportDateTimeEpoch: 1561176000000
+  ICS209ReportDateTime: '2019-06-23T01:45Z'
+  ICS209ReportDateTimeEpoch: 1561254300000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 1647109
+  EstimatedCostToDate: 2946602
   FireCause: Natural
-  TotalIncidentPersonnel: 335
+  TotalIncidentPersonnel: 361
   FireDiscoveryDateTime: '2019-06-06T02:52Z'
   FireDiscoveryDateTimeEpoch: 1559789537000
   DispatchCenterID: AKKIDC
   LocalIncidentIdentifier: '903181'
   POOCounty: Kenai Peninsula
   POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-22T04:00Z'
-  ModifiedOnDateTimeEpoch: 1561176000000
-  ModifiedBySystem: ics209
+  ModifiedOnDateTime: '2019-06-23T01:45Z'
+  ModifiedOnDateTimeEpoch: 1561254300000
+  ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrType2
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T05:58Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561183105000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:05Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561269956000
   Hashtag: '#SwanLakeFire'
   NFSAType: Large WF
   PerimDateTime: '2019-06-21T04:52Z'
@@ -836,7 +900,7 @@
     Acres: 20394.1667164
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-22T22:40:37.692Z'
+        RetrievedOn: '2019-06-23T06:30:41.160Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -3342,37 +3406,37 @@
     Name: Shovel Creek
     Fire_Name: Shovel Creek
     UniqueFireIdentifier: 2019-AKFAS-911319
-    DailyAcres: 300
+    DailyAcres: 600
     PercentContained: null
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-06-22T05:30Z'
-    ICS209ReportDateTimeEpoch: 1561181400000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-06-23T04:00Z'
+    ICS209ReportDateTimeEpoch: 1561262400000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 81743
+    EstimatedCostToDate: 413231
     FireCause: Natural
-    TotalIncidentPersonnel: 46
+    TotalIncidentPersonnel: 146
     FireDiscoveryDateTime: '2019-06-22T01:22Z'
     FireDiscoveryDateTimeEpoch: 1561166571000
     DispatchCenterID: AKFASC
     LocalIncidentIdentifier: '911319'
     POOCounty: Fairbanks North Star
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-22T05:30Z'
-    ModifiedOnDateTimeEpoch: 1561181400000
+    ModifiedOnDateTime: '2019-06-23T04:00Z'
+    ModifiedOnDateTimeEpoch: 1561262400000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T06:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561186578000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:01Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561269667000
     Hashtag: '#ShovelCreekFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-22T22:40:35.600Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -3386,32 +3450,32 @@
   Name: Shovel Creek
   Fire_Name: Shovel Creek
   UniqueFireIdentifier: 2019-AKFAS-911319
-  DailyAcres: 300
+  DailyAcres: 600
   PercentContained: null
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-22T05:30Z'
-  ICS209ReportDateTimeEpoch: 1561181400000
-  ICS209ReportStatus: I
+  ICS209ReportDateTime: '2019-06-23T04:00Z'
+  ICS209ReportDateTimeEpoch: 1561262400000
+  ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 81743
+  EstimatedCostToDate: 413231
   FireCause: Natural
-  TotalIncidentPersonnel: 46
+  TotalIncidentPersonnel: 146
   FireDiscoveryDateTime: '2019-06-22T01:22Z'
   FireDiscoveryDateTimeEpoch: 1561166571000
   DispatchCenterID: AKFASC
   LocalIncidentIdentifier: '911319'
   POOCounty: Fairbanks North Star
   POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-06-22T05:30Z'
-  ModifiedOnDateTimeEpoch: 1561181400000
+  ModifiedOnDateTime: '2019-06-23T04:00Z'
+  ModifiedOnDateTimeEpoch: 1561262400000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T06:56Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561186578000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:01Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561269667000
   Hashtag: '#ShovelCreekFire'
   NFSAType: Large WF
   PerimDateTime: null
@@ -4643,13 +4707,11 @@
   Source_NFSA_Join:
     Lon: -148.35923055621745
     Lat: 65.69930218890838
-    Name: Hess Creek
-    popupinfo: null
     id: 119818
-    calc_symboltype: NewIrwinOnly
+    Name: Hess Creek
     Fire_Name: Hess Creek
     UniqueFireIdentifier: 2019-AKUYD-000324
-    DailyAcres: 52
+    DailyAcres: 2500
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -4667,17 +4729,19 @@
     LocalIncidentIdentifier: '000324'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-22T08:17Z'
-    ModifiedOnDateTimeEpoch: 1561191446000
+    ModifiedOnDateTime: '2019-06-23T06:13Z'
+    ModifiedOnDateTimeEpoch: 1561270396000
     ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T08:17Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561191446000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:13Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561270396000
     Hashtag: '#HessCreekFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-22T22:40:35.600Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -4687,13 +4751,11 @@
       Modified: true
   Lon: -148.35923055621745
   Lat: 65.69930218890838
-  Name: Hess Creek
-  popupinfo: null
   id: 119818
-  calc_symboltype: NewIrwinOnly
+  Name: Hess Creek
   Fire_Name: Hess Creek
   UniqueFireIdentifier: 2019-AKUYD-000324
-  DailyAcres: 52
+  DailyAcres: 2500
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -4711,14 +4773,16 @@
   LocalIncidentIdentifier: '000324'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-22T08:17Z'
-  ModifiedOnDateTimeEpoch: 1561191446000
+  ModifiedOnDateTime: '2019-06-23T06:13Z'
+  ModifiedOnDateTimeEpoch: 1561270396000
   ModifiedBySystem: wildcad
+  popupinfo: null
+  calc_symboltype: ImsrOther
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T08:17Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561191446000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:13Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561270396000
   Hashtag: '#HessCreekFire'
-  NFSAType: Emerging WF < 24 hours
+  NFSAType: Large WF
   PerimDateTime: null
   PerimeterData:
     DateTime: null
@@ -7172,7 +7236,7 @@
     calc_symboltype: NewIrwinOnly
     Fire_Name: Victoria Mountain
     UniqueFireIdentifier: 2019-AKUYD-000329
-    DailyAcres: 20
+    DailyAcres: 30
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -7190,17 +7254,17 @@
     LocalIncidentIdentifier: 000329
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-23T04:21Z'
-    ModifiedOnDateTimeEpoch: 1561263677000
+    ModifiedOnDateTime: '2019-06-23T06:28Z'
+    ModifiedOnDateTimeEpoch: 1561271337000
     ModifiedBySystem: wildcad
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T04:21Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561263677000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561271337000
     Hashtag: '#VictoriaMountainFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T04:30:51.305Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -7216,7 +7280,7 @@
   calc_symboltype: NewIrwinOnly
   Fire_Name: Victoria Mountain
   UniqueFireIdentifier: 2019-AKUYD-000329
-  DailyAcres: 20
+  DailyAcres: 30
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -7234,12 +7298,12 @@
   LocalIncidentIdentifier: 000329
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-23T04:21Z'
-  ModifiedOnDateTimeEpoch: 1561263677000
+  ModifiedOnDateTime: '2019-06-23T06:28Z'
+  ModifiedOnDateTimeEpoch: 1561271337000
   ModifiedBySystem: wildcad
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T04:21Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561263677000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:28Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561271337000
   Hashtag: '#VictoriaMountainFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
@@ -10409,17 +10473,17 @@
     LocalIncidentIdentifier: '911335'
     POOCounty: Fairbanks North Star
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-23T05:51Z'
-    ModifiedOnDateTimeEpoch: 1561269086000
+    ModifiedOnDateTime: '2019-06-23T06:27Z'
+    ModifiedOnDateTimeEpoch: 1561271227000
     ModifiedBySystem: ifm
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T05:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561269086000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:27Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561271227000
     Hashtag: '#McCoyCreekFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T06:01:39.194Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -10453,12 +10517,12 @@
   LocalIncidentIdentifier: '911335'
   POOCounty: Fairbanks North Star
   POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-06-23T05:51Z'
-  ModifiedOnDateTimeEpoch: 1561269086000
+  ModifiedOnDateTime: '2019-06-23T06:27Z'
+  ModifiedOnDateTimeEpoch: 1561271227000
   ModifiedBySystem: ifm
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T05:51Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561269086000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:27Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561271227000
   Hashtag: '#McCoyCreekFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
@@ -12854,7 +12918,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-23T02:58Z'
     FireDiscoveryDateTimeEpoch: 1561258680000
@@ -12862,17 +12926,17 @@
     LocalIncidentIdentifier: 000349
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-23T03:12Z'
-    ModifiedOnDateTimeEpoch: 1561259552000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-23T06:16Z'
+    ModifiedOnDateTimeEpoch: 1561270619000
+    ModifiedBySystem: wildcad
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T03:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561259552000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:16Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561270619000
     Hashtag: '#ChandalarRiverFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T03:30:45.848Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -12898,7 +12962,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-23T02:58Z'
   FireDiscoveryDateTimeEpoch: 1561258680000
@@ -12906,12 +12970,12 @@
   LocalIncidentIdentifier: 000349
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-23T03:12Z'
-  ModifiedOnDateTimeEpoch: 1561259552000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-23T06:16Z'
+  ModifiedOnDateTimeEpoch: 1561270619000
+  ModifiedBySystem: wildcad
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T03:12Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561259552000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:16Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561270619000
   Hashtag: '#ChandalarRiverFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
@@ -13115,7 +13179,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-23T02:45Z'
     FireDiscoveryDateTimeEpoch: 1561257950000
@@ -13123,17 +13187,17 @@
     LocalIncidentIdentifier: '904351'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-23T05:13Z'
-    ModifiedOnDateTimeEpoch: 1561266826000
+    ModifiedOnDateTime: '2019-06-23T06:25Z'
+    ModifiedOnDateTimeEpoch: 1561271147000
     ModifiedBySystem: ifm
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T05:13Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561266826000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561271147000
     Hashtag: '#PageMountainFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T05:31:32.101Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -13159,7 +13223,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-23T02:45Z'
   FireDiscoveryDateTimeEpoch: 1561257950000
@@ -13167,12 +13231,12 @@
   LocalIncidentIdentifier: '904351'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-06-23T05:13Z'
-  ModifiedOnDateTimeEpoch: 1561266826000
+  ModifiedOnDateTime: '2019-06-23T06:25Z'
+  ModifiedOnDateTimeEpoch: 1561271147000
   ModifiedBySystem: ifm
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T05:13Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561266826000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:25Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561271147000
   Hashtag: '#PageMountainFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
@@ -13273,13 +13337,13 @@
   Source_NFSA_Join:
     Lon: -122.77991843658228
     Lat: 47.12467498812021
-    Name: LOC - sandy point rd ne
+    Name: SANDY POINT
     popupinfo: null
     id: 119927
     calc_symboltype: NewIrwinOnly
-    Fire_Name: LOC - sandy point rd ne
+    Fire_Name: SANDY POINT
     UniqueFireIdentifier: 2019-WASPS-000078
-    DailyAcres: 0.3
+    DailyAcres: 0.1
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -13297,17 +13361,17 @@
     LocalIncidentIdentifier: 000078
     POOCounty: Thurston
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-23T04:12Z'
-    ModifiedOnDateTimeEpoch: 1561263158000
+    ModifiedOnDateTime: '2019-06-23T06:13Z'
+    ModifiedOnDateTimeEpoch: 1561270421000
     ModifiedBySystem: wildcad
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T04:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561263158000
-    Hashtag: '#LocSandyPointRdNeFire'
+    ModifiedOnDateTime_Raw: '2019-06-23T06:13Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561270421000
+    Hashtag: '#SandyPointFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T04:30:51.305Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -13317,13 +13381,13 @@
       Modified: true
   Lon: -122.77991843658228
   Lat: 47.12467498812021
-  Name: LOC - sandy point rd ne
+  Name: SANDY POINT
   popupinfo: null
   id: 119927
   calc_symboltype: NewIrwinOnly
-  Fire_Name: LOC - sandy point rd ne
+  Fire_Name: SANDY POINT
   UniqueFireIdentifier: 2019-WASPS-000078
-  DailyAcres: 0.3
+  DailyAcres: 0.1
   PercentContained: null
   FireMgmtComplexity: null
   IncidentManagementOrganization: null
@@ -13341,13 +13405,13 @@
   LocalIncidentIdentifier: 000078
   POOCounty: Thurston
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-23T04:12Z'
-  ModifiedOnDateTimeEpoch: 1561263158000
+  ModifiedOnDateTime: '2019-06-23T06:13Z'
+  ModifiedOnDateTimeEpoch: 1561270421000
   ModifiedBySystem: wildcad
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T04:12Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561263158000
-  Hashtag: '#LocSandyPointRdNeFire'
+  ModifiedOnDateTime_Raw: '2019-06-23T06:13Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561270421000
+  Hashtag: '#SandyPointFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
   PerimeterData:
@@ -13374,7 +13438,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-23T04:31Z'
     FireDiscoveryDateTimeEpoch: 1561264270000
@@ -13382,19 +13446,19 @@
     LocalIncidentIdentifier: '904352'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-23T05:16Z'
-    ModifiedOnDateTimeEpoch: 1561266966000
+    ModifiedOnDateTime: '2019-06-23T06:27Z'
+    ModifiedOnDateTimeEpoch: 1561271267000
     ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T05:16Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561266966000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:27Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561271267000
     Hashtag: '#HurstCreekFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T05:31:32.101Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -13418,7 +13482,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-23T04:31Z'
   FireDiscoveryDateTimeEpoch: 1561264270000
@@ -13426,14 +13490,14 @@
   LocalIncidentIdentifier: '904352'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-06-23T05:16Z'
-  ModifiedOnDateTimeEpoch: 1561266966000
+  ModifiedOnDateTime: '2019-06-23T06:27Z'
+  ModifiedOnDateTimeEpoch: 1561271267000
   ModifiedBySystem: ifm
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T05:16Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561266966000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:27Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561271267000
   Hashtag: '#HurstCreekFire'
   NFSAType: Large WF
   PerimDateTime: null
@@ -13447,11 +13511,11 @@
   Source_NFSA_Join:
     Lon: -115.23711533879147
     Lat: 35.876236199942944
-    Name: MM 21
+    Name: I-15 MM 21
     popupinfo: null
     id: 119929
     calc_symboltype: NewIrwinOnly
-    Fire_Name: MM 21
+    Fire_Name: I-15 MM 21
     UniqueFireIdentifier: 2019-NVSND-590180
     DailyAcres: 0.1
     PercentContained: null
@@ -13465,23 +13529,23 @@
     EstimatedCostToDate: null
     FireCause: Unknown
     TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-23T04:55Z'
-    FireDiscoveryDateTimeEpoch: 1561265700000
+    FireDiscoveryDateTime: '2019-06-23T04:15Z'
+    FireDiscoveryDateTimeEpoch: 1561263300000
     DispatchCenterID: NVLIC
     LocalIncidentIdentifier: '590180'
     POOCounty: Clark
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-23T05:00Z'
-    ModifiedOnDateTimeEpoch: 1561266047000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-23T06:06Z'
+    ModifiedOnDateTimeEpoch: 1561270004000
+    ModifiedBySystem: wildcad
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T05:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561266047000
-    Hashtag: '#Mm21Fire'
+    ModifiedOnDateTime_Raw: '2019-06-23T06:06Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561270004000
+    Hashtag: '#I15Mm21Fire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T05:02:09.882Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -13491,11 +13555,11 @@
       Modified: true
   Lon: -115.23711533879147
   Lat: 35.876236199942944
-  Name: MM 21
+  Name: I-15 MM 21
   popupinfo: null
   id: 119929
   calc_symboltype: NewIrwinOnly
-  Fire_Name: MM 21
+  Fire_Name: I-15 MM 21
   UniqueFireIdentifier: 2019-NVSND-590180
   DailyAcres: 0.1
   PercentContained: null
@@ -13509,19 +13573,19 @@
   EstimatedCostToDate: null
   FireCause: Unknown
   TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-23T04:55Z'
-  FireDiscoveryDateTimeEpoch: 1561265700000
+  FireDiscoveryDateTime: '2019-06-23T04:15Z'
+  FireDiscoveryDateTimeEpoch: 1561263300000
   DispatchCenterID: NVLIC
   LocalIncidentIdentifier: '590180'
   POOCounty: Clark
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-23T05:00Z'
-  ModifiedOnDateTimeEpoch: 1561266047000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-23T06:06Z'
+  ModifiedOnDateTimeEpoch: 1561270004000
+  ModifiedBySystem: wildcad
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T05:00Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561266047000
-  Hashtag: '#Mm21Fire'
+  ModifiedOnDateTime_Raw: '2019-06-23T06:06Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561270004000
+  Hashtag: '#I15Mm21Fire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
   PerimeterData:
@@ -13637,7 +13701,7 @@
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-06-23T05:02Z'
     FireDiscoveryDateTimeEpoch: 1561266120000
@@ -13645,17 +13709,17 @@
     LocalIncidentIdentifier: '000354'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-23T05:10Z'
-    ModifiedOnDateTimeEpoch: 1561266635000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-06-23T06:29Z'
+    ModifiedOnDateTimeEpoch: 1561271398000
+    ModifiedBySystem: wildcad
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T05:10Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561266635000
+    ModifiedOnDateTime_Raw: '2019-06-23T06:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561271398000
     Hashtag: '#OldManLakeFire'
     NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T05:31:32.101Z'
+        RetrievedOn: '2019-06-23T06:30:38.903Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -13681,7 +13745,7 @@
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
   EstimatedCostToDate: null
-  FireCause: Unknown
+  FireCause: Natural
   TotalIncidentPersonnel: null
   FireDiscoveryDateTime: '2019-06-23T05:02Z'
   FireDiscoveryDateTimeEpoch: 1561266120000
@@ -13689,12 +13753,12 @@
   LocalIncidentIdentifier: '000354'
   POOCounty: Yukon-Koyukuk
   POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-23T05:10Z'
-  ModifiedOnDateTimeEpoch: 1561266635000
-  ModifiedBySystem: firecode
+  ModifiedOnDateTime: '2019-06-23T06:29Z'
+  ModifiedOnDateTimeEpoch: 1561271398000
+  ModifiedBySystem: wildcad
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T05:10Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561266635000
+  ModifiedOnDateTime_Raw: '2019-06-23T06:29Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561271398000
   Hashtag: '#OldManLakeFire'
   NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
