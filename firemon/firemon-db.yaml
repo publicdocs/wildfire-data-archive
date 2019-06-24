@@ -166,174 +166,6 @@
       SourceLayer: '2'
   unitId: AKTAS
   unitMention: Tok Area Forestry
-2019-NMLNF-000184:
-  Source_NFSA_Join:
-    Lon: -105.73880563161221
-    Lat: 33.8094169740097
-    id: 117142
-    Name: LONE MOUNTAIN
-    Fire_Name: LONE MOUNTAIN
-    UniqueFireIdentifier: 2019-NMLNF-000184
-    DailyAcres: 1046
-    PercentContained: 80
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-06-23T21:00Z'
-    ICS209ReportDateTimeEpoch: 1561323600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 175000
-    FireCause: Natural
-    TotalIncidentPersonnel: 6
-    FireDiscoveryDateTime: '2019-05-27T04:56Z'
-    FireDiscoveryDateTimeEpoch: 1558932960000
-    DispatchCenterID: NMADC
-    LocalIncidentIdentifier: 000184
-    POOCounty: Lincoln
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-23T21:00Z'
-    ModifiedOnDateTimeEpoch: 1561323600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T23:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561333105000
-    Hashtag: '#LoneMountainFire'
-    NFSAType: Large WF
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-24T00:00:33.188Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Source_GEOMAC:
-    Lon: -105.73861972222127
-    Lat: 33.808065496741946
-    objectid: 1
-    latitude: 33.80806
-    longitude: -105.73861
-    acres: 1046
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: NM
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-06-23T21:00Z'
-    reportdatetimeEpoch: 1561323600000
-    percentcontained: 80
-    uniquefireidentifier: 2019-NMLNF-000184
-    firediscoverydatetime: '2019-05-27T04:56Z'
-    firediscoverydatetimeEpoch: 1558932960000
-    complexparentirwinid: null
-    pooresponsibleunit: NMLNF
-    incidentname: LONE MOUNTAIN
-    iscomplex: 'false'
-    irwinid: '{C7DC9B46-ACA3-49AE-AF91-3A84326FAFAA}'
-    irwinmodifiedon: '2019-06-23T23:38Z'
-    irwinmodifiedonEpoch: 1561333105000
-    mapsymbol: '1'
-    datecurrent: '2019-06-23T18:00Z'
-    datecurrentEpoch: 1561312825000
-    pooownerunit: NMLNF
-    fireyear: 2019
-    localincidentidentifier: 000184
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 1046
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-06-23T21:00Z'
-    ModifiedOnDateTimeEpoch: 1561323600000
-    PercentContained: 80
-    UniqueFireIdentifier: 2019-NMLNF-000184
-    FireDiscoveryDateTime: '2019-05-27T04:56Z'
-    FireDiscoveryDateTimeEpoch: 1558932960000
-    Fire_Name: LONE MOUNTAIN
-    Name: LONE MOUNTAIN
-    Source: GEOMAC
-    Hashtag: '#LoneMountainFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-24T00:00:33.754Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -105.73880563161221
-  Lat: 33.8094169740097
-  id: 117142
-  Name: LONE MOUNTAIN
-  Fire_Name: LONE MOUNTAIN
-  UniqueFireIdentifier: 2019-NMLNF-000184
-  DailyAcres: 1046
-  PercentContained: 80
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2019-06-23T21:00Z'
-  ICS209ReportDateTimeEpoch: 1561323600000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 175000
-  FireCause: Natural
-  TotalIncidentPersonnel: 6
-  FireDiscoveryDateTime: '2019-05-27T04:56Z'
-  FireDiscoveryDateTimeEpoch: 1558932960000
-  DispatchCenterID: NMADC
-  LocalIncidentIdentifier: 000184
-  POOCounty: Lincoln
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-23T21:00Z'
-  ModifiedOnDateTimeEpoch: 1561323600000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T23:38Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561333105000
-  Hashtag: '#LoneMountainFire'
-  NFSAType: Large WF
-  PerimDateTime: '2019-06-09T15:00Z'
-  PerimeterData:
-    DateTime: '2019-06-09T15:00Z'
-    Acres: 290.25340032
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-24T00:00:34.106Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-      SourceLayer: '2'
-  unitId: NMLNF
-  unitMention: Lincoln NF
 2019-FLFNF-000426:
   Source_NFSA_Join:
     Lon: -82.56745458051793
@@ -1149,13 +981,13 @@
   ModifiedOnDateTimeEpoch_Raw: 1561336559000
   Hashtag: '#WoodburyFire'
   NFSAType: Large WF
-  PerimDateTime: '2019-06-21T05:04Z'
+  PerimDateTime: '2019-06-24T10:42Z'
   PerimeterData:
-    DateTime: '2019-06-21T05:04Z'
-    Acres: 65949.9759846
+    DateTime: '2019-06-24T10:42Z'
+    Acres: 111684.934067
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-24T01:00:32.483Z'
+        RetrievedOn: '2019-06-24T21:15:15.894Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
