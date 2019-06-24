@@ -542,110 +542,6 @@
       SourceLayer: '3'
   unitId: COPSF
   unitMention: '@PSICC_NF'
-2019-AKSWS-904174:
-  Source_NFSA_Join:
-    Lon: -157.38791001601183
-    Lat: 63.30754893883378
-    id: 118004
-    Name: Old Grouch Top
-    Fire_Name: Old Grouch Top
-    UniqueFireIdentifier: 2019-AKSWS-904174
-    DailyAcres: 10769
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: '2019-06-21T05:00Z'
-    ICS209ReportDateTimeEpoch: 1561093200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 325
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-05T19:53Z'
-    FireDiscoveryDateTimeEpoch: 1559764384000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904174'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-21T05:00Z'
-    ModifiedOnDateTimeEpoch: 1561093200000
-    ModifiedBySystem: ifm
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T01:36Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561167385000
-    Hashtag: '#OldGrouchTopFire'
-    NFSAType: Large WF
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T22:40:35.600Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -157.38791001601183
-  Lat: 63.30754893883378
-  id: 118004
-  Name: Old Grouch Top
-  Fire_Name: Old Grouch Top
-  UniqueFireIdentifier: 2019-AKSWS-904174
-  DailyAcres: 10769
-  PercentContained: 0
-  FireMgmtComplexity: Type 5 Incident
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: '2019-06-21T05:00Z'
-  ICS209ReportDateTimeEpoch: 1561093200000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 325
-  FireCause: Natural
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-05T19:53Z'
-  FireDiscoveryDateTimeEpoch: 1559764384000
-  DispatchCenterID: AKMSSC
-  LocalIncidentIdentifier: '904174'
-  POOCounty: Yukon-Koyukuk
-  POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-06-21T05:00Z'
-  ModifiedOnDateTimeEpoch: 1561093200000
-  ModifiedBySystem: ifm
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T01:36Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561167385000
-  Hashtag: '#OldGrouchTopFire'
-  NFSAType: Large WF
-  PerimDateTime: '2019-06-18T15:28Z'
-  PerimeterData:
-    DateTime: '2019-06-18T15:28Z'
-    Acres: 6467.67442432
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-22T22:40:37.692Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-      SourceLayer: '3'
-  unitId: AKSWS
-  unitMention: Southwest Area Forestry
 2019-AKSWS-904175:
   Source_NFSA_Join:
     Lon: -159.58269188447835
@@ -894,16 +790,16 @@
   ModifiedOnDateTimeEpoch_Raw: 1561359155000
   Hashtag: '#SwanLakeFire'
   NFSAType: Large WF
-  PerimDateTime: '2019-06-21T04:52Z'
+  PerimDateTime: '2019-06-23T07:29Z'
   PerimeterData:
-    DateTime: '2019-06-21T04:52Z'
-    Acres: 20394.1667164
+    DateTime: '2019-06-23T07:29Z'
+    Acres: 25161.1076236
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-24T07:01:14.127Z'
+        RetrievedOn: '2019-06-24T20:03:09.619Z'
         Request:
           uri: >-
-            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
           qs:
             outFields: '*'
             returnGeometry: true
@@ -915,7 +811,7 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-      SourceLayer: '3'
+      SourceLayer: '2'
   unitId: AKKKS
   unitMention: Kenai-Kodiak Area Forestry
 2019-NMGNF-000178:
