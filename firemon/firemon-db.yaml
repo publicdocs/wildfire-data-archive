@@ -3330,16 +3330,16 @@
     Name: Shovel Creek
     Fire_Name: Shovel Creek
     UniqueFireIdentifier: 2019-AKFAS-911319
-    DailyAcres: 600
-    PercentContained: null
+    DailyAcres: 650
+    PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-06-23T04:00Z'
-    ICS209ReportDateTimeEpoch: 1561262400000
+    ICS209ReportDateTime: '2019-06-24T04:00Z'
+    ICS209ReportDateTimeEpoch: 1561348800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 413231
+    EstimatedCostToDate: 746956
     FireCause: Natural
     TotalIncidentPersonnel: 146
     FireDiscoveryDateTime: '2019-06-22T01:22Z'
@@ -3348,22 +3348,86 @@
     LocalIncidentIdentifier: '911319'
     POOCounty: Fairbanks North Star
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-06-23T04:00Z'
-    ModifiedOnDateTimeEpoch: 1561262400000
+    ModifiedOnDateTime: '2019-06-24T04:00Z'
+    ModifiedOnDateTimeEpoch: 1561348800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T06:01Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561269667000
+    ModifiedOnDateTime_Raw: '2019-06-24T06:11Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561356719000
     Hashtag: '#ShovelCreekFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-23T06:30:38.903Z'
+        RetrievedOn: '2019-06-24T06:30:45.782Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Source_GEOMAC:
+    Lon: -148.41535916759744
+    Lat: 64.98700164439055
+    objectid: 10
+    latitude: 64.987
+    longitude: -148.415333
+    acres: 650
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-24T04:00Z'
+    reportdatetimeEpoch: 1561348800000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKFAS-911319
+    firediscoverydatetime: '2019-06-22T01:22Z'
+    firediscoverydatetimeEpoch: 1561166571000
+    complexparentirwinid: null
+    pooresponsibleunit: AKFAS
+    incidentname: Shovel Creek
+    iscomplex: 'false'
+    irwinid: '{9155A802-F466-4D32-AFA3-F0B2D823B2EB}'
+    irwinmodifiedon: '2019-06-24T06:11Z'
+    irwinmodifiedonEpoch: 1561356719000
+    mapsymbol: '1'
+    datecurrent: '2019-06-24T00:30Z'
+    datecurrentEpoch: 1561336227000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '911319'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 650
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-06-24T04:00Z'
+    ModifiedOnDateTimeEpoch: 1561348800000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKFAS-911319
+    FireDiscoveryDateTime: '2019-06-22T01:22Z'
+    FireDiscoveryDateTimeEpoch: 1561166571000
+    Fire_Name: Shovel Creek
+    Name: Shovel Creek
+    Source: GEOMAC
+    Hashtag: '#ShovelCreekFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-24T06:30:46.477Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
           headers:
             User-Agent: Request-Promise; Bot
           json: true
@@ -3374,16 +3438,16 @@
   Name: Shovel Creek
   Fire_Name: Shovel Creek
   UniqueFireIdentifier: 2019-AKFAS-911319
-  DailyAcres: 600
-  PercentContained: null
+  DailyAcres: 650
+  PercentContained: 0
   FireMgmtComplexity: Type 3 Incident
   IncidentManagementOrganization: Type 3 IC
-  ICS209ReportDateTime: '2019-06-23T04:00Z'
-  ICS209ReportDateTimeEpoch: 1561262400000
+  ICS209ReportDateTime: '2019-06-24T04:00Z'
+  ICS209ReportDateTimeEpoch: 1561348800000
   ICS209ReportStatus: U
   IncidentTypeCategory: WF
   IncidentTypeKind: FI
-  EstimatedCostToDate: 413231
+  EstimatedCostToDate: 746956
   FireCause: Natural
   TotalIncidentPersonnel: 146
   FireDiscoveryDateTime: '2019-06-22T01:22Z'
@@ -3392,14 +3456,14 @@
   LocalIncidentIdentifier: '911319'
   POOCounty: Fairbanks North Star
   POOLandownerKind: Other
-  ModifiedOnDateTime: '2019-06-23T04:00Z'
-  ModifiedOnDateTimeEpoch: 1561262400000
+  ModifiedOnDateTime: '2019-06-24T04:00Z'
+  ModifiedOnDateTimeEpoch: 1561348800000
   ModifiedBySystem: ics209
   popupinfo: null
   calc_symboltype: ImsrOther
   Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T06:01Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561269667000
+  ModifiedOnDateTime_Raw: '2019-06-24T06:11Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561356719000
   Hashtag: '#ShovelCreekFire'
   NFSAType: Large WF
   PerimDateTime: null
@@ -23262,3 +23326,90 @@
     _Provenance: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+2019-AZPHD-000715:
+  Source_NFSA_Join:
+    Lon: -112.18561018386018
+    Lat: 33.98135699000102
+    Name: Rocky
+    popupinfo: null
+    id: 120056
+    calc_symboltype: NewIrwinOnly
+    Fire_Name: Rocky
+    UniqueFireIdentifier: 2019-AZPHD-000715
+    DailyAcres: 0.1
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-06-24T04:34Z'
+    FireDiscoveryDateTimeEpoch: 1561350840000
+    DispatchCenterID: AZPDC
+    LocalIncidentIdentifier: '000715'
+    POOCounty: Maricopa
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-06-24T06:27Z'
+    ModifiedOnDateTimeEpoch: 1561357663000
+    ModifiedBySystem: wildcad
+    Source: NFSA
+    ModifiedOnDateTime_Raw: '2019-06-24T06:27Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561357663000
+    Hashtag: '#RockyFire'
+    NFSAType: Emerging WF < 24 hours
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-24T06:30:45.782Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -112.18561018386018
+  Lat: 33.98135699000102
+  Name: Rocky
+  popupinfo: null
+  id: 120056
+  calc_symboltype: NewIrwinOnly
+  Fire_Name: Rocky
+  UniqueFireIdentifier: 2019-AZPHD-000715
+  DailyAcres: 0.1
+  PercentContained: null
+  FireMgmtComplexity: null
+  IncidentManagementOrganization: null
+  ICS209ReportDateTime: null
+  ICS209ReportDateTimeEpoch: null
+  ICS209ReportStatus: null
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: null
+  FireCause: Unknown
+  TotalIncidentPersonnel: null
+  FireDiscoveryDateTime: '2019-06-24T04:34Z'
+  FireDiscoveryDateTimeEpoch: 1561350840000
+  DispatchCenterID: AZPDC
+  LocalIncidentIdentifier: '000715'
+  POOCounty: Maricopa
+  POOLandownerKind: Federal
+  ModifiedOnDateTime: '2019-06-24T06:27Z'
+  ModifiedOnDateTimeEpoch: 1561357663000
+  ModifiedBySystem: wildcad
+  Source: NFSA
+  ModifiedOnDateTime_Raw: '2019-06-24T06:27Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561357663000
+  Hashtag: '#RockyFire'
+  NFSAType: Emerging WF < 24 hours
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: AZPHD
+  unitMention: Phoenix District Office
