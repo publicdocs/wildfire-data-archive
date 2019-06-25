@@ -350,13 +350,13 @@
   ModifiedOnDateTimeEpoch_Raw: 1561415514000
   Hashtag: '#ReveilleFire'
   NFSAType: Large WF
-  PerimDateTime: '2019-06-15T23:52Z'
+  PerimDateTime: '2019-06-24T12:00Z'
   PerimeterData:
-    DateTime: '2019-06-15T23:52Z'
-    Acres: 143.08385572
+    DateTime: '2019-06-24T12:00Z'
+    Acres: 155.30748383
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-24T23:01:09.308Z'
+        RetrievedOn: '2019-06-25T18:09:53.012Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -2196,11 +2196,28 @@
   ModifiedOnDateTimeEpoch_Raw: 1561420226000
   Hashtag: '#EastFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-19T19:20Z'
   PerimeterData:
-    DateTime: null
-    Acres: null
-    _Provenance: null
+    DateTime: '2019-06-19T19:20Z'
+    Acres: 168.79086425
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-25T18:09:51.938Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '2'
   unitId: CAMNF
   unitMention: '@MendocinoNF'
 2019-NMLNF-000249:
@@ -18619,11 +18636,28 @@
   ModifiedOnDateTimeEpoch_Raw: 1561423678000
   Hashtag: '#TamarackFire'
   NFSAType: Large WF
-  PerimDateTime: null
+  PerimDateTime: '2019-06-23T17:00Z'
   PerimeterData:
-    DateTime: null
-    Acres: null
-    _Provenance: null
+    DateTime: '2019-06-23T17:00Z'
+    Acres: 2.66782851
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-25T18:09:53.012Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+      SourceLayer: '3'
   unitId: NVHTF
   unitMention: Humboldt-Toiyabe NF
 2019-NMSNF-000205:
@@ -20453,169 +20487,6 @@
     _Provenance: null
   unitId: ORNGIN
   unitMention: North Gilliam Co. Rural FPD
-2019-AKTAS-913362:
-  Source_NFSA_Join:
-    Lon: -142.33335857980225
-    Lat: 62.883337560290755
-    id: 120040
-    Name: Boundary River
-    Fire_Name: Boundary River
-    UniqueFireIdentifier: 2019-AKTAS-913362
-    DailyAcres: 1689
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-06-24T06:45Z'
-    ICS209ReportDateTimeEpoch: 1561358700000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 25000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-24T00:44Z'
-    FireDiscoveryDateTimeEpoch: 1561337087000
-    DispatchCenterID: AKTASC
-    LocalIncidentIdentifier: '913362'
-    POOCounty: Southeast Fairbanks
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-06-24T06:45Z'
-    ModifiedOnDateTimeEpoch: 1561358700000
-    ModifiedBySystem: ifm
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-25T02:47Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561430822000
-    Hashtag: '#BoundaryRiverFire'
-    NFSAType: Large WF
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-25T05:00:48.466Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Source_GEOMAC:
-    Lon: -142.12727411480307
-    Lat: 62.836369835974246
-    objectid: 12
-    latitude: 62.836367
-    longitude: -142.12725
-    acres: 1689
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-06-24T16:30Z'
-    reportdatetimeEpoch: 1561393800000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AKTAS-913362
-    firediscoverydatetime: '2019-06-24T00:44Z'
-    firediscoverydatetimeEpoch: 1561337087000
-    complexparentirwinid: null
-    pooresponsibleunit: AKTAS
-    incidentname: Boundary River
-    iscomplex: 'false'
-    irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
-    irwinmodifiedon: '2019-06-25T04:49Z'
-    irwinmodifiedonEpoch: 1561438188000
-    mapsymbol: '1'
-    datecurrent: '2019-06-24T23:00Z'
-    datecurrentEpoch: 1561417215000
-    pooownerunit: AKTER
-    fireyear: 2019
-    localincidentidentifier: '913362'
-    incidenttypecategory: WF
-    owneragency: USFWS
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 1689
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-06-24T16:30Z'
-    ModifiedOnDateTimeEpoch: 1561393800000
-    PercentContained: 0
-    UniqueFireIdentifier: 2019-AKTAS-913362
-    FireDiscoveryDateTime: '2019-06-24T00:44Z'
-    FireDiscoveryDateTimeEpoch: 1561337087000
-    Fire_Name: Boundary River
-    Name: Boundary River
-    Source: GEOMAC
-    Hashtag: '#BoundaryRiverFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-25T05:00:49.080Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -142.12727411480307
-  Lat: 62.836369835974246
-  objectid: 12
-  latitude: 62.836367
-  longitude: -142.12725
-  acres: 1689
-  gacc: AKCC
-  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-  state: AK
-  status: U
-  firecause: Natural
-  reportdatetime: '2019-06-24T16:30Z'
-  reportdatetimeEpoch: 1561393800000
-  percentcontained: 0
-  uniquefireidentifier: 2019-AKTAS-913362
-  firediscoverydatetime: '2019-06-24T00:44Z'
-  firediscoverydatetimeEpoch: 1561337087000
-  complexparentirwinid: null
-  pooresponsibleunit: AKTAS
-  incidentname: Boundary River
-  iscomplex: 'false'
-  irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
-  irwinmodifiedon: '2019-06-25T04:49Z'
-  irwinmodifiedonEpoch: 1561438188000
-  mapsymbol: '1'
-  datecurrent: '2019-06-24T23:00Z'
-  datecurrentEpoch: 1561417215000
-  pooownerunit: AKTER
-  fireyear: 2019
-  localincidentidentifier: '913362'
-  incidenttypecategory: WF
-  owneragency: USFWS
-  perimexist: 'N'
-  complexname: null
-  DailyAcres: 1689
-  FireCause: Natural
-  ModifiedOnDateTime: '2019-06-24T16:30Z'
-  ModifiedOnDateTimeEpoch: 1561393800000
-  PercentContained: 0
-  UniqueFireIdentifier: 2019-AKTAS-913362
-  FireDiscoveryDateTime: '2019-06-24T00:44Z'
-  FireDiscoveryDateTimeEpoch: 1561337087000
-  Fire_Name: Boundary River
-  Name: Boundary River
-  Source: GEOMAC
-  Hashtag: '#BoundaryRiverFire'
-  PerimDateTime: null
-  PerimeterData:
-    DateTime: null
-    Acres: null
-    _Provenance: null
-  unitId: AKTAS
-  unitMention: Tok Area Forestry
 2019-AKUYD-000364:
   Source_NFSA_Join:
     Lon: -147.2209303439454
