@@ -20632,12 +20632,12 @@
     Lon: -142.33335857980225
     Lat: 62.883337560290755
     id: 120040
-    Name: Boundry River
-    Fire_Name: Boundry River
+    Name: Boundary River
+    Fire_Name: Boundary River
     UniqueFireIdentifier: 2019-AKTAS-913362
     DailyAcres: 1689
     PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
+    FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 4 IC
     ICS209ReportDateTime: '2019-06-24T06:45Z'
     ICS209ReportDateTimeEpoch: 1561358700000
@@ -20655,17 +20655,17 @@
     POOLandownerKind: Private
     ModifiedOnDateTime: '2019-06-24T06:45Z'
     ModifiedOnDateTimeEpoch: 1561358700000
-    ModifiedBySystem: ics209
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-24T07:17Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561360624000
-    Hashtag: '#BoundryRiverFire'
+    ModifiedOnDateTime_Raw: '2019-06-25T02:47Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561430822000
+    Hashtag: '#BoundaryRiverFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-24T07:30:08.692Z'
+        RetrievedOn: '2019-06-25T05:00:48.466Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -20673,40 +20673,116 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -142.33335857980225
-  Lat: 62.883337560290755
-  id: 120040
-  Name: Boundry River
-  Fire_Name: Boundry River
-  UniqueFireIdentifier: 2019-AKTAS-913362
+  Source_GEOMAC:
+    Lon: -142.12727411480307
+    Lat: 62.836369835974246
+    objectid: 12
+    latitude: 62.836367
+    longitude: -142.12725
+    acres: 1689
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-24T16:30Z'
+    reportdatetimeEpoch: 1561393800000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKTAS-913362
+    firediscoverydatetime: '2019-06-24T00:44Z'
+    firediscoverydatetimeEpoch: 1561337087000
+    complexparentirwinid: null
+    pooresponsibleunit: AKTAS
+    incidentname: Boundary River
+    iscomplex: 'false'
+    irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
+    irwinmodifiedon: '2019-06-25T04:49Z'
+    irwinmodifiedonEpoch: 1561438188000
+    mapsymbol: '1'
+    datecurrent: '2019-06-24T23:00Z'
+    datecurrentEpoch: 1561417215000
+    pooownerunit: AKTER
+    fireyear: 2019
+    localincidentidentifier: '913362'
+    incidenttypecategory: WF
+    owneragency: USFWS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 1689
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-06-24T16:30Z'
+    ModifiedOnDateTimeEpoch: 1561393800000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKTAS-913362
+    FireDiscoveryDateTime: '2019-06-24T00:44Z'
+    FireDiscoveryDateTimeEpoch: 1561337087000
+    Fire_Name: Boundary River
+    Name: Boundary River
+    Source: GEOMAC
+    Hashtag: '#BoundaryRiverFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-25T05:00:49.080Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -142.12727411480307
+  Lat: 62.836369835974246
+  objectid: 12
+  latitude: 62.836367
+  longitude: -142.12725
+  acres: 1689
+  gacc: AKCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: AK
+  status: U
+  firecause: Natural
+  reportdatetime: '2019-06-24T16:30Z'
+  reportdatetimeEpoch: 1561393800000
+  percentcontained: 0
+  uniquefireidentifier: 2019-AKTAS-913362
+  firediscoverydatetime: '2019-06-24T00:44Z'
+  firediscoverydatetimeEpoch: 1561337087000
+  complexparentirwinid: null
+  pooresponsibleunit: AKTAS
+  incidentname: Boundary River
+  iscomplex: 'false'
+  irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
+  irwinmodifiedon: '2019-06-25T04:49Z'
+  irwinmodifiedonEpoch: 1561438188000
+  mapsymbol: '1'
+  datecurrent: '2019-06-24T23:00Z'
+  datecurrentEpoch: 1561417215000
+  pooownerunit: AKTER
+  fireyear: 2019
+  localincidentidentifier: '913362'
+  incidenttypecategory: WF
+  owneragency: USFWS
+  perimexist: 'N'
+  complexname: null
   DailyAcres: 1689
-  PercentContained: 0
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2019-06-24T06:45Z'
-  ICS209ReportDateTimeEpoch: 1561358700000
-  ICS209ReportStatus: I
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 25000
   FireCause: Natural
-  TotalIncidentPersonnel: null
+  ModifiedOnDateTime: '2019-06-24T16:30Z'
+  ModifiedOnDateTimeEpoch: 1561393800000
+  PercentContained: 0
+  UniqueFireIdentifier: 2019-AKTAS-913362
   FireDiscoveryDateTime: '2019-06-24T00:44Z'
   FireDiscoveryDateTimeEpoch: 1561337087000
-  DispatchCenterID: AKTASC
-  LocalIncidentIdentifier: '913362'
-  POOCounty: Southeast Fairbanks
-  POOLandownerKind: Private
-  ModifiedOnDateTime: '2019-06-24T06:45Z'
-  ModifiedOnDateTimeEpoch: 1561358700000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-24T07:17Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561360624000
-  Hashtag: '#BoundryRiverFire'
-  NFSAType: Large WF
+  Fire_Name: Boundary River
+  Name: Boundary River
+  Source: GEOMAC
+  Hashtag: '#BoundaryRiverFire'
   PerimDateTime: null
   PerimeterData:
     DateTime: null
