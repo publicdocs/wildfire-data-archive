@@ -981,16 +981,16 @@
   ModifiedOnDateTimeEpoch_Raw: 1561423397000
   Hashtag: '#WoodburyFire'
   NFSAType: Large WF
-  PerimDateTime: '2019-06-24T10:42Z'
+  PerimDateTime: '2019-06-25T04:49Z'
   PerimeterData:
-    DateTime: '2019-06-24T10:42Z'
-    Acres: 111684.934067
+    DateTime: '2019-06-25T04:49Z'
+    Acres: 117148.579984
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-25T01:00:57.984Z'
+        RetrievedOn: '2019-06-25T16:56:55.293Z'
         Request:
           uri: >-
-            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
           qs:
             outFields: '*'
             returnGeometry: true
@@ -1002,7 +1002,7 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-      SourceLayer: '2'
+      SourceLayer: '3'
   unitId: AZTNF
   unitMention: Tonto NF
 2019-AKSWS-904192:
@@ -1941,13 +1941,13 @@
   ModifiedOnDateTimeEpoch_Raw: 1561429849000
   Hashtag: '#CaribouCreekFire'
   NFSAType: Large WF
-  PerimDateTime: '2019-06-19T18:52Z'
+  PerimDateTime: '2019-06-24T23:42Z'
   PerimeterData:
-    DateTime: '2019-06-19T18:52Z'
-    Acres: 270.50815859
+    DateTime: '2019-06-24T23:42Z'
+    Acres: 256.93471077
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-25T03:00:17.973Z'
+        RetrievedOn: '2019-06-25T16:56:53.996Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -2347,13 +2347,13 @@
   ModifiedOnDateTimeEpoch_Raw: 1561422334000
   Hashtag: '#PineLodgeFire'
   NFSAType: Large WF
-  PerimDateTime: '2019-06-23T22:18Z'
+  PerimDateTime: '2019-06-25T01:57Z'
   PerimeterData:
-    DateTime: '2019-06-23T22:18Z'
-    Acres: 7898.17416692
+    DateTime: '2019-06-25T01:57Z'
+    Acres: 9052.8815818
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-25T00:30:07.717Z'
+        RetrievedOn: '2019-06-25T16:56:53.996Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -2944,13 +2944,13 @@
   ModifiedOnDateTimeEpoch_Raw: 1561441247000
   Hashtag: '#ShovelCreekFire'
   NFSAType: Large WF
-  PerimDateTime: '2019-06-24T15:35Z'
+  PerimDateTime: '2019-06-25T07:38Z'
   PerimeterData:
-    DateTime: '2019-06-24T15:35Z'
-    Acres: 280.25526177
+    DateTime: '2019-06-25T07:38Z'
+    Acres: 792.47267129
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-25T06:01:10.785Z'
+        RetrievedOn: '2019-06-25T16:56:53.996Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -9614,93 +9614,6 @@
     _Provenance: null
   unitId: UTSCS
   unitMention: Central Area
-2019-IDBOD-000304:
-  Source_NFSA_Join:
-    Lon: -116.73151671284134
-    Lat: 43.89537840873592
-    Name: ELGIN
-    popupinfo: null
-    id: 119896
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: ELGIN
-    UniqueFireIdentifier: 2019-IDBOD-000304
-    DailyAcres: 100
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-22T22:06Z'
-    FireDiscoveryDateTimeEpoch: 1561241160000
-    DispatchCenterID: IDBDC
-    LocalIncidentIdentifier: '000304'
-    POOCounty: Payette
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-23T19:02Z'
-    ModifiedOnDateTimeEpoch: 1561316572000
-    ModifiedBySystem: wildcad
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T19:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561316572000
-    Hashtag: '#ElginFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-23T19:30:04.043Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -116.73151671284134
-  Lat: 43.89537840873592
-  Name: ELGIN
-  popupinfo: null
-  id: 119896
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: ELGIN
-  UniqueFireIdentifier: 2019-IDBOD-000304
-  DailyAcres: 100
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: null
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-22T22:06Z'
-  FireDiscoveryDateTimeEpoch: 1561241160000
-  DispatchCenterID: IDBDC
-  LocalIncidentIdentifier: '000304'
-  POOCounty: Payette
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-23T19:02Z'
-  ModifiedOnDateTimeEpoch: 1561316572000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T19:02Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561316572000
-  Hashtag: '#ElginFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  PerimeterData:
-    DateTime: null
-    Acres: null
-    _Provenance: null
-  unitId: IDBOD
-  unitMention: '@BLMIdaho'
 2019-MNCPF-000155:
   Source_NFSA_Join:
     Lon: -93.93416126398452
@@ -10327,93 +10240,6 @@
     _Provenance: null
   unitId: AKUYD
   unitMention: Alaska Fire Service - Upper Yukon Zone
-2019-IDBOD-000305:
-  Source_NFSA_Join:
-    Lon: -116.97310962535242
-    Lat: 43.52233796283175
-    Name: OPAL
-    popupinfo: null
-    id: 119906
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: OPAL
-    UniqueFireIdentifier: 2019-IDBOD-000305
-    DailyAcres: 1
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-22T23:11Z'
-    FireDiscoveryDateTimeEpoch: 1561245060000
-    DispatchCenterID: IDBDC
-    LocalIncidentIdentifier: '000305'
-    POOCounty: Owyhee
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-23T22:03Z'
-    ModifiedOnDateTimeEpoch: 1561327420000
-    ModifiedBySystem: wfdss
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-23T22:03Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561327420000
-    Hashtag: '#OpalFire'
-    NFSAType: Emerging WF < 24 hours
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-23T22:30:07.535Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -116.97310962535242
-  Lat: 43.52233796283175
-  Name: OPAL
-  popupinfo: null
-  id: 119906
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: OPAL
-  UniqueFireIdentifier: 2019-IDBOD-000305
-  DailyAcres: 1
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: null
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
-  FireCause: Unknown
-  TotalIncidentPersonnel: null
-  FireDiscoveryDateTime: '2019-06-22T23:11Z'
-  FireDiscoveryDateTimeEpoch: 1561245060000
-  DispatchCenterID: IDBDC
-  LocalIncidentIdentifier: '000305'
-  POOCounty: Owyhee
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-23T22:03Z'
-  ModifiedOnDateTimeEpoch: 1561327420000
-  ModifiedBySystem: wfdss
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-23T22:03Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561327420000
-  Hashtag: '#OpalFire'
-  NFSAType: Emerging WF < 24 hours
-  PerimDateTime: null
-  PerimeterData:
-    DateTime: null
-    Acres: null
-    _Provenance: null
-  unitId: IDBOD
-  unitMention: '@BLMIdaho'
 2019-MTNCA-019017:
   Source_NFSA_Join:
     Lon: -106.51112321398114
