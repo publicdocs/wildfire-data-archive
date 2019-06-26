@@ -37127,3 +37127,154 @@
     _Provenance: null
   unitId: AZSCA
   unitMention: San Carlos Agency
+2019-CASCU-004384:
+  Source_NFSA_Join:
+    Lon: -121.24945868702784
+    Lat: 37.472225966999154
+    id: 120272
+    Name: ROCK
+    Fire_Name: ROCK
+    UniqueFireIdentifier: 2019-CASCU-004384
+    DailyAcres: 750
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-06-26T03:45Z'
+    ICS209ReportDateTimeEpoch: 1561520700000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 300000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 160
+    FireDiscoveryDateTime: '2019-06-26T03:30Z'
+    FireDiscoveryDateTimeEpoch: 1561519800000
+    DispatchCenterID: CASCCC
+    LocalIncidentIdentifier: 004384
+    POOCounty: Stanislaus
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-06-26T03:45Z'
+    ModifiedOnDateTimeEpoch: 1561520700000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    ModifiedOnDateTime_Raw: '2019-06-26T10:19Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561544368000
+    Hashtag: '#RockFire'
+    NFSAType: Large WF
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-26T10:30:32.769Z'
+        Request:
+          uri: 'https://maps.nwcg.gov/sa/publicData.json'
+          qs: {}
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Source_GEOMAC:
+    Lon: -121.2494574025166
+    Lat: 37.47222720290159
+    objectid: 17
+    latitude: 37.4722222
+    longitude: -121.2494444
+    acres: 750
+    gacc: ONCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CA
+    status: I
+    firecause: Unknown
+    reportdatetime: '2019-06-26T03:45Z'
+    reportdatetimeEpoch: 1561520700000
+    percentcontained: 0
+    uniquefireidentifier: 2019-CASCU-004384
+    firediscoverydatetime: '2019-06-26T03:30Z'
+    firediscoverydatetimeEpoch: 1561519800000
+    complexparentirwinid: null
+    pooresponsibleunit: CASCU
+    incidentname: ROCK
+    iscomplex: 'false'
+    irwinid: '{02F5A6D9-30E9-4B60-9583-6081C60C4955}'
+    irwinmodifiedon: '2019-06-26T10:19Z'
+    irwinmodifiedonEpoch: 1561544369000
+    mapsymbol: '1'
+    datecurrent: '2019-06-26T04:30Z'
+    datecurrentEpoch: 1561523414000
+    pooownerunit: CASCU
+    fireyear: 2019
+    localincidentidentifier: 004384
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 750
+    FireCause: Unknown
+    ModifiedOnDateTime: '2019-06-26T03:45Z'
+    ModifiedOnDateTimeEpoch: 1561520700000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-CASCU-004384
+    FireDiscoveryDateTime: '2019-06-26T03:30Z'
+    FireDiscoveryDateTimeEpoch: 1561519800000
+    Fire_Name: ROCK
+    Name: ROCK
+    Source: GEOMAC
+    Hashtag: '#RockFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-26T10:30:33.377Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -121.24945868702784
+  Lat: 37.472225966999154
+  id: 120272
+  Name: ROCK
+  Fire_Name: ROCK
+  UniqueFireIdentifier: 2019-CASCU-004384
+  DailyAcres: 750
+  PercentContained: 0
+  FireMgmtComplexity: Type 3 Incident
+  IncidentManagementOrganization: Type 3 IC
+  ICS209ReportDateTime: '2019-06-26T03:45Z'
+  ICS209ReportDateTimeEpoch: 1561520700000
+  ICS209ReportStatus: I
+  IncidentTypeCategory: WF
+  IncidentTypeKind: FI
+  EstimatedCostToDate: 300000
+  FireCause: Unknown
+  TotalIncidentPersonnel: 160
+  FireDiscoveryDateTime: '2019-06-26T03:30Z'
+  FireDiscoveryDateTimeEpoch: 1561519800000
+  DispatchCenterID: CASCCC
+  LocalIncidentIdentifier: 004384
+  POOCounty: Stanislaus
+  POOLandownerKind: null
+  ModifiedOnDateTime: '2019-06-26T03:45Z'
+  ModifiedOnDateTimeEpoch: 1561520700000
+  ModifiedBySystem: ics209
+  popupinfo: null
+  calc_symboltype: ImsrOther
+  Source: NFSA
+  ModifiedOnDateTime_Raw: '2019-06-26T10:19Z'
+  ModifiedOnDateTimeEpoch_Raw: 1561544368000
+  Hashtag: '#RockFire'
+  NFSAType: Large WF
+  PerimDateTime: null
+  PerimeterData:
+    DateTime: null
+    Acres: null
+    _Provenance: null
+  unitId: CASCU
+  unitMention: Santa Clara Unit
