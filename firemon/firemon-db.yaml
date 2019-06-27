@@ -1797,17 +1797,17 @@
     POOLandownerKind: Federal
     ModifiedOnDateTime: '2019-06-26T00:00Z'
     ModifiedOnDateTimeEpoch: 1561507200000
-    ModifiedBySystem: ics209
+    ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-26T00:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561508747000
+    ModifiedOnDateTime_Raw: '2019-06-26T17:42Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561570968000
     Hashtag: '#EastFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T00:30:34.615Z'
+        RetrievedOn: '2019-06-27T01:00:23.696Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1827,8 +1827,8 @@
     state: CA
     status: U
     firecause: Unknown
-    reportdatetime: '2019-06-26T00:00Z'
-    reportdatetimeEpoch: 1561507200000
+    reportdatetime: '2019-06-27T00:00Z'
+    reportdatetimeEpoch: 1561593600000
     percentcontained: 30
     uniquefireidentifier: 2019-CAMNF-000241
     firediscoverydatetime: '2019-06-17T22:40Z'
@@ -1838,11 +1838,11 @@
     incidentname: EAST
     iscomplex: 'false'
     irwinid: '{9BD7AEC1-483D-457D-9EC8-E10E73BC0F20}'
-    irwinmodifiedon: '2019-06-26T00:25Z'
-    irwinmodifiedonEpoch: 1561508748000
+    irwinmodifiedon: '2019-06-27T00:33Z'
+    irwinmodifiedonEpoch: 1561595586000
     mapsymbol: '1'
-    datecurrent: '2019-06-25T18:30Z'
-    datecurrentEpoch: 1561487413000
+    datecurrent: '2019-06-26T19:00Z'
+    datecurrentEpoch: 1561575610000
     pooownerunit: CAMNF
     fireyear: 2019
     localincidentidentifier: '000241'
@@ -1852,8 +1852,8 @@
     complexname: null
     DailyAcres: 410
     FireCause: Unknown
-    ModifiedOnDateTime: '2019-06-26T00:00Z'
-    ModifiedOnDateTimeEpoch: 1561507200000
+    ModifiedOnDateTime: '2019-06-27T00:00Z'
+    ModifiedOnDateTimeEpoch: 1561593600000
     PercentContained: 30
     UniqueFireIdentifier: 2019-CAMNF-000241
     FireDiscoveryDateTime: '2019-06-17T22:40Z'
@@ -1864,7 +1864,7 @@
     Hashtag: '#EastFire'
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T00:30:35.162Z'
+        RetrievedOn: '2019-06-27T01:00:24.315Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -1879,47 +1879,59 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -123.04191208919573
-  Lat: 40.068847086568624
-  id: 119460
-  Name: EAST
-  Fire_Name: EAST
-  UniqueFireIdentifier: 2019-CAMNF-000241
+  Lon: -123.06383360558277
+  Lat: 40.08413507331612
+  objectid: 5
+  latitude: 40.08413
+  longitude: -123.06382
+  acres: 410
+  gacc: ONCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: CA
+  status: U
+  firecause: Unknown
+  reportdatetime: '2019-06-27T00:00Z'
+  reportdatetimeEpoch: 1561593600000
+  percentcontained: 30
+  uniquefireidentifier: 2019-CAMNF-000241
+  firediscoverydatetime: '2019-06-17T22:40Z'
+  firediscoverydatetimeEpoch: 1560811216000
+  complexparentirwinid: null
+  pooresponsibleunit: CAMNF
+  incidentname: EAST
+  iscomplex: 'false'
+  irwinid: '{9BD7AEC1-483D-457D-9EC8-E10E73BC0F20}'
+  irwinmodifiedon: '2019-06-27T00:33Z'
+  irwinmodifiedonEpoch: 1561595586000
+  mapsymbol: '1'
+  datecurrent: '2019-06-26T19:00Z'
+  datecurrentEpoch: 1561575610000
+  pooownerunit: CAMNF
+  fireyear: 2019
+  localincidentidentifier: '000241'
+  incidenttypecategory: WF
+  owneragency: USFS
+  perimexist: 'Y'
+  complexname: null
   DailyAcres: 410
-  PercentContained: 30
-  FireMgmtComplexity: Type 3 Incident
-  IncidentManagementOrganization: Type 3 Team
-  ICS209ReportDateTime: '2019-06-26T00:00Z'
-  ICS209ReportDateTimeEpoch: 1561507200000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 900000
   FireCause: Unknown
-  TotalIncidentPersonnel: 65
+  ModifiedOnDateTime: '2019-06-27T00:00Z'
+  ModifiedOnDateTimeEpoch: 1561593600000
+  PercentContained: 30
+  UniqueFireIdentifier: 2019-CAMNF-000241
   FireDiscoveryDateTime: '2019-06-17T22:40Z'
   FireDiscoveryDateTimeEpoch: 1560811216000
-  DispatchCenterID: CAMNFC
-  LocalIncidentIdentifier: '000241'
-  POOCounty: Trinity
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-26T00:00Z'
-  ModifiedOnDateTimeEpoch: 1561507200000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-26T00:25Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561508747000
+  Fire_Name: EAST
+  Name: EAST
+  Source: GEOMAC
   Hashtag: '#EastFire'
-  NFSAType: Large WF
   PerimDateTime: '2019-06-22T18:26Z'
   PerimeterData:
     DateTime: '2019-06-22T18:26Z'
     Acres: 376.13661956
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T17:22:39.210Z'
+        RetrievedOn: '2019-06-27T01:00:24.745Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1965,17 +1977,17 @@
     POOLandownerKind: null
     ModifiedOnDateTime: '2019-06-26T00:00Z'
     ModifiedOnDateTimeEpoch: 1561507200000
-    ModifiedBySystem: ics209
+    ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-26T01:42Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561513371000
+    ModifiedOnDateTime_Raw: '2019-06-26T02:31Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561516314000
     Hashtag: '#PineLodgeFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T02:00:17.531Z'
+        RetrievedOn: '2019-06-27T01:00:23.696Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -1989,15 +2001,15 @@
     objectid: 6
     latitude: 33.6244444
     longitude: -105.2441667
-    acres: 9053
+    acres: 12484
     gacc: SWCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: NM
     status: U
     firecause: Unknown
-    reportdatetime: '2019-06-26T00:00Z'
-    reportdatetimeEpoch: 1561507200000
-    percentcontained: 5
+    reportdatetime: '2019-06-27T00:00Z'
+    reportdatetimeEpoch: 1561593600000
+    percentcontained: 11
     uniquefireidentifier: 2019-NMLNF-000249
     firediscoverydatetime: '2019-06-19T19:44Z'
     firediscoverydatetimeEpoch: 1560973440000
@@ -2006,11 +2018,11 @@
     incidentname: PINE LODGE
     iscomplex: 'false'
     irwinid: '{1F1E8B82-4864-4884-9737-FE108D1ADCEC}'
-    irwinmodifiedon: '2019-06-26T01:42Z'
-    irwinmodifiedonEpoch: 1561513372000
-    mapsymbol: '1'
-    datecurrent: '2019-06-25T20:00Z'
-    datecurrentEpoch: 1561492811000
+    irwinmodifiedon: '2019-06-27T00:52Z'
+    irwinmodifiedonEpoch: 1561596739000
+    mapsymbol: '2'
+    datecurrent: '2019-06-26T19:00Z'
+    datecurrentEpoch: 1561575610000
     pooownerunit: NMLNF
     fireyear: 2019
     localincidentidentifier: 000249
@@ -2018,11 +2030,11 @@
     owneragency: ''
     perimexist: 'Y'
     complexname: null
-    DailyAcres: 9053
+    DailyAcres: 12484
     FireCause: Unknown
-    ModifiedOnDateTime: '2019-06-26T00:00Z'
-    ModifiedOnDateTimeEpoch: 1561507200000
-    PercentContained: 5
+    ModifiedOnDateTime: '2019-06-27T00:00Z'
+    ModifiedOnDateTimeEpoch: 1561593600000
+    PercentContained: 11
     UniqueFireIdentifier: 2019-NMLNF-000249
     FireDiscoveryDateTime: '2019-06-19T19:44Z'
     FireDiscoveryDateTimeEpoch: 1560973440000
@@ -2032,7 +2044,7 @@
     Hashtag: '#PineLodgeFire'
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T02:00:18.169Z'
+        RetrievedOn: '2019-06-27T01:00:24.315Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -2047,47 +2059,59 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -105.20580822408559
-  Lat: 33.65252867979911
-  id: 119570
-  Name: PINE LODGE
-  Fire_Name: PINE LODGE
-  UniqueFireIdentifier: 2019-NMLNF-000249
-  DailyAcres: 9053
-  PercentContained: 5
-  FireMgmtComplexity: Type 2 Incident
-  IncidentManagementOrganization: Type 2 Team
-  ICS209ReportDateTime: '2019-06-26T00:00Z'
-  ICS209ReportDateTimeEpoch: 1561507200000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 2700000
+  Lon: -105.24417629883632
+  Lat: 33.624449892466494
+  objectid: 6
+  latitude: 33.6244444
+  longitude: -105.2441667
+  acres: 12484
+  gacc: SWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: NM
+  status: U
+  firecause: Unknown
+  reportdatetime: '2019-06-27T00:00Z'
+  reportdatetimeEpoch: 1561593600000
+  percentcontained: 11
+  uniquefireidentifier: 2019-NMLNF-000249
+  firediscoverydatetime: '2019-06-19T19:44Z'
+  firediscoverydatetimeEpoch: 1560973440000
+  complexparentirwinid: null
+  pooresponsibleunit: NMLNF
+  incidentname: PINE LODGE
+  iscomplex: 'false'
+  irwinid: '{1F1E8B82-4864-4884-9737-FE108D1ADCEC}'
+  irwinmodifiedon: '2019-06-27T00:52Z'
+  irwinmodifiedonEpoch: 1561596739000
+  mapsymbol: '2'
+  datecurrent: '2019-06-26T19:00Z'
+  datecurrentEpoch: 1561575610000
+  pooownerunit: NMLNF
+  fireyear: 2019
+  localincidentidentifier: 000249
+  incidenttypecategory: WF
+  owneragency: ''
+  perimexist: 'Y'
+  complexname: null
+  DailyAcres: 12484
   FireCause: Unknown
-  TotalIncidentPersonnel: 558
+  ModifiedOnDateTime: '2019-06-27T00:00Z'
+  ModifiedOnDateTimeEpoch: 1561593600000
+  PercentContained: 11
+  UniqueFireIdentifier: 2019-NMLNF-000249
   FireDiscoveryDateTime: '2019-06-19T19:44Z'
   FireDiscoveryDateTimeEpoch: 1560973440000
-  DispatchCenterID: NMADC
-  LocalIncidentIdentifier: 000249
-  POOCounty: Lincoln
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-26T00:00Z'
-  ModifiedOnDateTimeEpoch: 1561507200000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrType2
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-26T01:42Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561513371000
+  Fire_Name: PINE LODGE
+  Name: PINE LODGE
+  Source: GEOMAC
   Hashtag: '#PineLodgeFire'
-  NFSAType: Large WF
   PerimDateTime: '2019-06-26T06:42Z'
   PerimeterData:
     DateTime: '2019-06-26T06:42Z'
     Acres: 12457.4947572
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T16:57:51.107Z'
+        RetrievedOn: '2019-06-27T01:00:24.745Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
