@@ -478,174 +478,6 @@
       SourceLayer: '3'
   unitId: AKSWS
   unitMention: Southwest Area Forestry
-2019-AKKKS-903181:
-  Source_NFSA_Join:
-    Lon: -150.4376895785433
-    Lat: 60.63051903798901
-    id: 118050
-    Name: Swan Lake
-    Fire_Name: Swan Lake
-    UniqueFireIdentifier: 2019-AKKKS-903181
-    DailyAcres: 40383
-    PercentContained: 10
-    FireMgmtComplexity: Type 2 Incident
-    IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-06-26T04:00Z'
-    ICS209ReportDateTimeEpoch: 1561521600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 4550746
-    FireCause: Natural
-    TotalIncidentPersonnel: 511
-    FireDiscoveryDateTime: '2019-06-06T02:52Z'
-    FireDiscoveryDateTimeEpoch: 1559789537000
-    DispatchCenterID: AKKIDC
-    LocalIncidentIdentifier: '903181'
-    POOCounty: Kenai Peninsula
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-26T04:00Z'
-    ModifiedOnDateTimeEpoch: 1561521600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType2
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-26T05:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561527492000
-    Hashtag: '#SwanLakeFire'
-    NFSAType: Large WF
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-26T06:00:28.751Z'
-        Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Source_GEOMAC:
-    Lon: -150.4378004349885
-    Lat: 60.63055718857592
-    objectid: 2
-    latitude: 60.6305556
-    longitude: -150.4377778
-    acres: 40383
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-06-26T04:00Z'
-    reportdatetimeEpoch: 1561521600000
-    percentcontained: 10
-    uniquefireidentifier: 2019-AKKKS-903181
-    firediscoverydatetime: '2019-06-06T02:52Z'
-    firediscoverydatetimeEpoch: 1559789537000
-    complexparentirwinid: null
-    pooresponsibleunit: AKKKS
-    incidentname: Swan Lake
-    iscomplex: 'false'
-    irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
-    irwinmodifiedon: '2019-06-26T05:38Z'
-    irwinmodifiedonEpoch: 1561527492000
-    mapsymbol: '3'
-    datecurrent: '2019-06-26T00:00Z'
-    datecurrentEpoch: 1561507213000
-    pooownerunit: AKKNR
-    fireyear: 2019
-    localincidentidentifier: '903181'
-    incidenttypecategory: WF
-    owneragency: USFWS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 40383
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-06-26T04:00Z'
-    ModifiedOnDateTimeEpoch: 1561521600000
-    PercentContained: 10
-    UniqueFireIdentifier: 2019-AKKKS-903181
-    FireDiscoveryDateTime: '2019-06-06T02:52Z'
-    FireDiscoveryDateTimeEpoch: 1559789537000
-    Fire_Name: Swan Lake
-    Name: Swan Lake
-    Source: GEOMAC
-    Hashtag: '#SwanLakeFire'
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-26T06:00:29.305Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-  Lon: -150.4376895785433
-  Lat: 60.63051903798901
-  id: 118050
-  Name: Swan Lake
-  Fire_Name: Swan Lake
-  UniqueFireIdentifier: 2019-AKKKS-903181
-  DailyAcres: 40383
-  PercentContained: 10
-  FireMgmtComplexity: Type 2 Incident
-  IncidentManagementOrganization: Type 2 Team
-  ICS209ReportDateTime: '2019-06-26T04:00Z'
-  ICS209ReportDateTimeEpoch: 1561521600000
-  ICS209ReportStatus: U
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 4550746
-  FireCause: Natural
-  TotalIncidentPersonnel: 511
-  FireDiscoveryDateTime: '2019-06-06T02:52Z'
-  FireDiscoveryDateTimeEpoch: 1559789537000
-  DispatchCenterID: AKKIDC
-  LocalIncidentIdentifier: '903181'
-  POOCounty: Kenai Peninsula
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-26T04:00Z'
-  ModifiedOnDateTimeEpoch: 1561521600000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: ImsrType2
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-26T05:38Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561527492000
-  Hashtag: '#SwanLakeFire'
-  NFSAType: Large WF
-  PerimDateTime: '2019-06-25T00:00Z'
-  PerimeterData:
-    DateTime: '2019-06-25T00:00Z'
-    Acres: 37429.4779878
-    _Provenance:
-      OriginalSource:
-        RetrievedOn: '2019-06-26T17:22:39.210Z'
-        Request:
-          uri: >-
-            https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-          qs:
-            outFields: '*'
-            returnGeometry: true
-            outSR: '{"wkid": 4326}'
-            f: geojson
-            where: 1=1
-            resultRecordCount: 10000
-          headers:
-            User-Agent: Request-Promise; Bot
-          json: true
-      Modified: true
-      SourceLayer: '2'
-  unitId: AKKKS
-  unitMention: Kenai-Kodiak Area Forestry
 2019-NMGNF-000178:
   Source_NFSA_Join:
     Lon: -108.25080957635984
@@ -31598,13 +31430,13 @@
   Name: Gap
   Source: GEOMAC
   Hashtag: '#GapFire'
-  PerimDateTime: '2019-06-25T18:00Z'
+  PerimDateTime: '2019-06-26T09:00Z'
   PerimeterData:
-    DateTime: '2019-06-25T18:00Z'
-    Acres: 12825.4447733
+    DateTime: '2019-06-26T09:00Z'
+    Acres: 16720.5812773
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-27T02:00:59.036Z'
+        RetrievedOn: '2019-06-27T18:36:53.342Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
