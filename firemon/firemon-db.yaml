@@ -8957,7 +8957,7 @@
     Name: Azabachi
     Fire_Name: Azabachi
     UniqueFireIdentifier: 2019-NMRPD-000103
-    DailyAcres: 10
+    DailyAcres: 365
     PercentContained: 40
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
@@ -8977,17 +8977,17 @@
     POOLandownerKind: Federal
     ModifiedOnDateTime: '2019-06-22T21:45Z'
     ModifiedOnDateTimeEpoch: 1561239900000
-    ModifiedBySystem: ics209
+    ModifiedBySystem: wildcad
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-22T23:27Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561246063000
+    ModifiedOnDateTime_Raw: '2019-06-25T20:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561496288000
     Hashtag: '#AzabachiFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-22T23:31:14.840Z'
+        RetrievedOn: '2019-06-27T02:00:57.926Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -8995,40 +8995,116 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -107.34861357021292
-  Lat: 35.548783604672835
-  id: 119604
-  Name: Azabachi
-  Fire_Name: Azabachi
-  UniqueFireIdentifier: 2019-NMRPD-000103
-  DailyAcres: 10
-  PercentContained: 40
-  FireMgmtComplexity: Type 4 Incident
-  IncidentManagementOrganization: Type 4 IC
-  ICS209ReportDateTime: '2019-06-22T21:45Z'
-  ICS209ReportDateTimeEpoch: 1561239900000
-  ICS209ReportStatus: I
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: 10000
+  Source_GEOMAC:
+    Lon: -107.34861021343255
+    Lat: 35.5487856739288
+    objectid: 7
+    latitude: 35.54878
+    longitude: -107.3486
+    acres: 365
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NM
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-27T01:00Z'
+    reportdatetimeEpoch: 1561597200000
+    percentcontained: 40
+    uniquefireidentifier: 2019-NMRPD-000103
+    firediscoverydatetime: '2019-06-19T20:13Z'
+    firediscoverydatetimeEpoch: 1560975180000
+    complexparentirwinid: null
+    pooresponsibleunit: NMRPD
+    incidentname: Azabachi
+    iscomplex: 'false'
+    irwinid: '{6B33D425-8190-4F52-865F-FFFDFCE292C5}'
+    irwinmodifiedon: '2019-06-27T01:36Z'
+    irwinmodifiedonEpoch: 1561599389000
+    mapsymbol: '1'
+    datecurrent: '2019-06-26T20:00Z'
+    datecurrentEpoch: 1561579212000
+    pooownerunit: NMRPD
+    fireyear: 2019
+    localincidentidentifier: '000103'
+    incidenttypecategory: WF
+    owneragency: BLM
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 365
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-06-27T01:00Z'
+    ModifiedOnDateTimeEpoch: 1561597200000
+    PercentContained: 40
+    UniqueFireIdentifier: 2019-NMRPD-000103
+    FireDiscoveryDateTime: '2019-06-19T20:13Z'
+    FireDiscoveryDateTimeEpoch: 1560975180000
+    Fire_Name: Azabachi
+    Name: Azabachi
+    Source: GEOMAC
+    Hashtag: '#AzabachiFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-27T02:00:58.617Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -107.34861021343255
+  Lat: 35.5487856739288
+  objectid: 7
+  latitude: 35.54878
+  longitude: -107.3486
+  acres: 365
+  gacc: SWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: NM
+  status: U
+  firecause: Natural
+  reportdatetime: '2019-06-27T01:00Z'
+  reportdatetimeEpoch: 1561597200000
+  percentcontained: 40
+  uniquefireidentifier: 2019-NMRPD-000103
+  firediscoverydatetime: '2019-06-19T20:13Z'
+  firediscoverydatetimeEpoch: 1560975180000
+  complexparentirwinid: null
+  pooresponsibleunit: NMRPD
+  incidentname: Azabachi
+  iscomplex: 'false'
+  irwinid: '{6B33D425-8190-4F52-865F-FFFDFCE292C5}'
+  irwinmodifiedon: '2019-06-27T01:36Z'
+  irwinmodifiedonEpoch: 1561599389000
+  mapsymbol: '1'
+  datecurrent: '2019-06-26T20:00Z'
+  datecurrentEpoch: 1561579212000
+  pooownerunit: NMRPD
+  fireyear: 2019
+  localincidentidentifier: '000103'
+  incidenttypecategory: WF
+  owneragency: BLM
+  perimexist: 'N'
+  complexname: null
+  DailyAcres: 365
   FireCause: Natural
-  TotalIncidentPersonnel: 25
+  ModifiedOnDateTime: '2019-06-27T01:00Z'
+  ModifiedOnDateTimeEpoch: 1561597200000
+  PercentContained: 40
+  UniqueFireIdentifier: 2019-NMRPD-000103
   FireDiscoveryDateTime: '2019-06-19T20:13Z'
   FireDiscoveryDateTimeEpoch: 1560975180000
-  DispatchCenterID: NMABC
-  LocalIncidentIdentifier: '000103'
-  POOCounty: McKinley
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-22T21:45Z'
-  ModifiedOnDateTimeEpoch: 1561239900000
-  ModifiedBySystem: ics209
-  popupinfo: null
-  calc_symboltype: NonImsr
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-22T23:27Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561246063000
+  Fire_Name: Azabachi
+  Name: Azabachi
+  Source: GEOMAC
   Hashtag: '#AzabachiFire'
-  NFSAType: Large WF
   PerimDateTime: null
   PerimeterData:
     DateTime: null
@@ -31529,37 +31605,37 @@
     Name: Gap
     Fire_Name: Gap
     UniqueFireIdentifier: 2019-AZSCA-000792
-    DailyAcres: 2000
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 12500
+    PercentContained: 10
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-06-26T00:00Z'
+    ICS209ReportDateTimeEpoch: 1561507200000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 450000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 73
     FireDiscoveryDateTime: '2019-06-25T19:12Z'
     FireDiscoveryDateTimeEpoch: 1561489920000
     DispatchCenterID: AZPHC
     LocalIncidentIdentifier: 000792
     POOCounty: Graham
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-06-26T09:02Z'
-    ModifiedOnDateTimeEpoch: 1561539735000
+    ModifiedOnDateTime: '2019-06-26T00:00Z'
+    ModifiedOnDateTimeEpoch: 1561507200000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-26T09:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561539735000
+    ModifiedOnDateTime_Raw: '2019-06-26T09:42Z'
+    ModifiedOnDateTimeEpoch_Raw: 1561542158000
     Hashtag: '#GapFire'
     NFSAType: Large WF
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T09:30:11.689Z'
+        RetrievedOn: '2019-06-27T02:00:57.926Z'
         Request:
           uri: 'https://maps.nwcg.gov/sa/publicData.json'
           qs: {}
@@ -31567,47 +31643,123 @@
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -109.99690990986716
-  Lat: 33.261106577095234
-  id: 120212
-  Name: Gap
-  Fire_Name: Gap
-  UniqueFireIdentifier: 2019-AZSCA-000792
-  DailyAcres: 2000
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: null
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  Source_GEOMAC:
+    Lon: -109.99695499001704
+    Lat: 33.26111629762039
+    objectid: 15
+    latitude: 33.2611111
+    longitude: -109.9969444
+    acres: 16721
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AZ
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-06-27T00:00Z'
+    reportdatetimeEpoch: 1561593600000
+    percentcontained: 50
+    uniquefireidentifier: 2019-AZSCA-000792
+    firediscoverydatetime: '2019-06-25T19:12Z'
+    firediscoverydatetimeEpoch: 1561489920000
+    complexparentirwinid: null
+    pooresponsibleunit: AZSCA
+    incidentname: Gap
+    iscomplex: 'false'
+    irwinid: '{395D4FFB-B109-474E-B788-1D1F31ED8FCA}'
+    irwinmodifiedon: '2019-06-27T01:41Z'
+    irwinmodifiedonEpoch: 1561599672000
+    mapsymbol: '2'
+    datecurrent: '2019-06-26T20:00Z'
+    datecurrentEpoch: 1561579212000
+    pooownerunit: AZSCA
+    fireyear: 2019
+    localincidentidentifier: 000792
+    incidenttypecategory: WF
+    owneragency: BIA
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 16721
+    FireCause: Unknown
+    ModifiedOnDateTime: '2019-06-27T00:00Z'
+    ModifiedOnDateTimeEpoch: 1561593600000
+    PercentContained: 50
+    UniqueFireIdentifier: 2019-AZSCA-000792
+    FireDiscoveryDateTime: '2019-06-25T19:12Z'
+    FireDiscoveryDateTimeEpoch: 1561489920000
+    Fire_Name: Gap
+    Name: Gap
+    Source: GEOMAC
+    Hashtag: '#GapFire'
+    _Provenance:
+      OriginalSource:
+        RetrievedOn: '2019-06-27T02:00:58.617Z'
+        Request:
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
+          headers:
+            User-Agent: Request-Promise; Bot
+          json: true
+      Modified: true
+  Lon: -109.99695499001704
+  Lat: 33.26111629762039
+  objectid: 15
+  latitude: 33.2611111
+  longitude: -109.9969444
+  acres: 16721
+  gacc: SWCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: AZ
+  status: U
+  firecause: Unknown
+  reportdatetime: '2019-06-27T00:00Z'
+  reportdatetimeEpoch: 1561593600000
+  percentcontained: 50
+  uniquefireidentifier: 2019-AZSCA-000792
+  firediscoverydatetime: '2019-06-25T19:12Z'
+  firediscoverydatetimeEpoch: 1561489920000
+  complexparentirwinid: null
+  pooresponsibleunit: AZSCA
+  incidentname: Gap
+  iscomplex: 'false'
+  irwinid: '{395D4FFB-B109-474E-B788-1D1F31ED8FCA}'
+  irwinmodifiedon: '2019-06-27T01:41Z'
+  irwinmodifiedonEpoch: 1561599672000
+  mapsymbol: '2'
+  datecurrent: '2019-06-26T20:00Z'
+  datecurrentEpoch: 1561579212000
+  pooownerunit: AZSCA
+  fireyear: 2019
+  localincidentidentifier: 000792
+  incidenttypecategory: WF
+  owneragency: BIA
+  perimexist: 'Y'
+  complexname: null
+  DailyAcres: 16721
   FireCause: Unknown
-  TotalIncidentPersonnel: null
+  ModifiedOnDateTime: '2019-06-27T00:00Z'
+  ModifiedOnDateTimeEpoch: 1561593600000
+  PercentContained: 50
+  UniqueFireIdentifier: 2019-AZSCA-000792
   FireDiscoveryDateTime: '2019-06-25T19:12Z'
   FireDiscoveryDateTimeEpoch: 1561489920000
-  DispatchCenterID: AZPHC
-  LocalIncidentIdentifier: 000792
-  POOCounty: Graham
-  POOLandownerKind: Federal
-  ModifiedOnDateTime: '2019-06-26T09:02Z'
-  ModifiedOnDateTimeEpoch: 1561539735000
-  ModifiedBySystem: wildcad
-  popupinfo: null
-  calc_symboltype: ImsrOther
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-26T09:02Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561539735000
+  Fire_Name: Gap
+  Name: Gap
+  Source: GEOMAC
   Hashtag: '#GapFire'
-  NFSAType: Large WF
   PerimDateTime: '2019-06-25T18:00Z'
   PerimeterData:
     DateTime: '2019-06-25T18:00Z'
     Acres: 12825.4447733
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-26T17:22:39.210Z'
+        RetrievedOn: '2019-06-27T02:00:59.036Z'
         Request:
           uri: >-
             https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
