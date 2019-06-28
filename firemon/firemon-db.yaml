@@ -19304,85 +19304,116 @@
   unitId: AKMSS
   unitMention: Mat-Su Area Forestry
 2019-AKTAD-000361:
-  Source_NFSA_Join:
-    Lon: -151.48492757046418
-    Lat: 64.65194200033635
-    Name: Lloyd Mountain
-    popupinfo: null
-    id: 120035
-    calc_symboltype: NewIrwinOnly
-    Fire_Name: Lloyd Mountain
-    UniqueFireIdentifier: 2019-AKTAD-000361
-    DailyAcres: 15
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
+  Source_GEOMAC:
+    Lon: -151.48492579919338
+    Lat: 64.65194113709674
+    objectid: 12
+    latitude: 64.65194
+    longitude: -151.4849
+    acres: 1800
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: I
+    firecause: Natural
+    reportdatetime: '2019-06-27T23:45Z'
+    reportdatetimeEpoch: 1561679100000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKTAD-000361
+    firediscoverydatetime: '2019-06-24T00:43Z'
+    firediscoverydatetimeEpoch: 1561336980000
+    complexparentirwinid: null
+    pooresponsibleunit: AKTAD
+    incidentname: Lloyd Mountain
+    iscomplex: 'false'
+    irwinid: '{142CE620-B743-44BC-914A-787CA19CF7F8}'
+    irwinmodifiedon: '2019-06-27T23:54Z'
+    irwinmodifiedonEpoch: 1561679678000
+    mapsymbol: '1'
+    datecurrent: '2019-06-27T18:00Z'
+    datecurrentEpoch: 1561658409000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '000361'
+    incidenttypecategory: WF
+    owneragency: City
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 1800
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2019-06-27T23:45Z'
+    ModifiedOnDateTimeEpoch: 1561679100000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKTAD-000361
     FireDiscoveryDateTime: '2019-06-24T00:43Z'
     FireDiscoveryDateTimeEpoch: 1561336980000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000361'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-06-24T02:43Z'
-    ModifiedOnDateTimeEpoch: 1561344221000
-    ModifiedBySystem: wildcad
-    Source: NFSA
-    ModifiedOnDateTime_Raw: '2019-06-24T02:43Z'
-    ModifiedOnDateTimeEpoch_Raw: 1561344221000
+    Fire_Name: Lloyd Mountain
+    Name: Lloyd Mountain
+    Source: GEOMAC
     Hashtag: '#LloydMountainFire'
-    NFSAType: Emerging WF < 24 hours
     _Provenance:
       OriginalSource:
-        RetrievedOn: '2019-06-24T03:01:04.386Z'
+        RetrievedOn: '2019-06-28T00:00:50.260Z'
         Request:
-          uri: 'https://maps.nwcg.gov/sa/publicData.json'
-          qs: {}
+          uri: >-
+            https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+          qs:
+            outFields: '*'
+            returnGeometry: true
+            outSR: '{"wkid": 4326}'
+            f: geojson
+            where: 1=1
+            resultRecordCount: 10000
           headers:
             User-Agent: Request-Promise; Bot
           json: true
       Modified: true
-  Lon: -151.48492757046418
-  Lat: 64.65194200033635
-  Name: Lloyd Mountain
-  popupinfo: null
-  id: 120035
-  calc_symboltype: NewIrwinOnly
-  Fire_Name: Lloyd Mountain
-  UniqueFireIdentifier: 2019-AKTAD-000361
-  DailyAcres: 15
-  PercentContained: null
-  FireMgmtComplexity: null
-  IncidentManagementOrganization: null
-  ICS209ReportDateTime: null
-  ICS209ReportDateTimeEpoch: null
-  ICS209ReportStatus: null
-  IncidentTypeCategory: WF
-  IncidentTypeKind: FI
-  EstimatedCostToDate: null
+  Lon: -151.48492579919338
+  Lat: 64.65194113709674
+  objectid: 12
+  latitude: 64.65194
+  longitude: -151.4849
+  acres: 1800
+  gacc: AKCC
+  hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+  state: AK
+  status: I
+  firecause: Natural
+  reportdatetime: '2019-06-27T23:45Z'
+  reportdatetimeEpoch: 1561679100000
+  percentcontained: 0
+  uniquefireidentifier: 2019-AKTAD-000361
+  firediscoverydatetime: '2019-06-24T00:43Z'
+  firediscoverydatetimeEpoch: 1561336980000
+  complexparentirwinid: null
+  pooresponsibleunit: AKTAD
+  incidentname: Lloyd Mountain
+  iscomplex: 'false'
+  irwinid: '{142CE620-B743-44BC-914A-787CA19CF7F8}'
+  irwinmodifiedon: '2019-06-27T23:54Z'
+  irwinmodifiedonEpoch: 1561679678000
+  mapsymbol: '1'
+  datecurrent: '2019-06-27T18:00Z'
+  datecurrentEpoch: 1561658409000
+  pooownerunit: AKAKS
+  fireyear: 2019
+  localincidentidentifier: '000361'
+  incidenttypecategory: WF
+  owneragency: City
+  perimexist: 'N'
+  complexname: null
+  DailyAcres: 1800
   FireCause: Natural
-  TotalIncidentPersonnel: null
+  ModifiedOnDateTime: '2019-06-27T23:45Z'
+  ModifiedOnDateTimeEpoch: 1561679100000
+  PercentContained: 0
+  UniqueFireIdentifier: 2019-AKTAD-000361
   FireDiscoveryDateTime: '2019-06-24T00:43Z'
   FireDiscoveryDateTimeEpoch: 1561336980000
-  DispatchCenterID: AKYTDC
-  LocalIncidentIdentifier: '000361'
-  POOCounty: Yukon-Koyukuk
-  POOLandownerKind: null
-  ModifiedOnDateTime: '2019-06-24T02:43Z'
-  ModifiedOnDateTimeEpoch: 1561344221000
-  ModifiedBySystem: wildcad
-  Source: NFSA
-  ModifiedOnDateTime_Raw: '2019-06-24T02:43Z'
-  ModifiedOnDateTimeEpoch_Raw: 1561344221000
+  Fire_Name: Lloyd Mountain
+  Name: Lloyd Mountain
+  Source: GEOMAC
   Hashtag: '#LloydMountainFire'
-  NFSAType: Emerging WF < 24 hours
   PerimDateTime: null
   PerimeterData:
     DateTime: null
@@ -19390,6 +19421,7 @@
     _Provenance: null
   unitId: AKTAD
   unitMention: Alaska Fire Service - Tanana Zone
+  Final_Fire_Name: Lloyd Mountain Fire
 2019-AKKKS-KKS-9040:
   Source_NFSA_Join:
     Lon: -150.7270189652525
