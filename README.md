@@ -10,7 +10,7 @@ See the [LICENSE](LICENSE), [INBOUND-LICENSE](INBOUND-LICENSE) and [NOTICE](NOTI
 ````
 https://github.com/publicdocs/wildfire-data-archive/
 Available under the license below.
-No claim to original U.S. Government or other third-party works.
+No claim to original government or other third-party works.
 
 The information contained in this system is
 * UNOFFICIAL,
