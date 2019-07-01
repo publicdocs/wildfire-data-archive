@@ -468,9 +468,9 @@ Database:
       state: UT
       status: U
       firecause: Natural
-      reportdatetime: '2019-06-30T21:30Z'
-      reportdatetimeEpoch: 1561930200000
-      percentcontained: 20
+      reportdatetime: '2019-07-01T21:30Z'
+      reportdatetimeEpoch: 1562016600000
+      percentcontained: 30
       uniquefireidentifier: 2019-UTFIF-190067
       firediscoverydatetime: '2019-06-18T14:08Z'
       firediscoverydatetimeEpoch: 1560866880000
@@ -479,11 +479,11 @@ Database:
       incidentname: Skull Flat
       iscomplex: 'false'
       irwinid: '{C490D4C2-D7E1-47B5-8E04-B1D6423F21D6}'
-      irwinmodifiedon: '2019-06-30T21:56Z'
-      irwinmodifiedonEpoch: 1561931786000
+      irwinmodifiedon: '2019-07-01T21:48Z'
+      irwinmodifiedonEpoch: 1562017700000
       mapsymbol: '1'
-      datecurrent: '2019-06-30T16:00Z'
-      datecurrentEpoch: 1561910413000
+      datecurrent: '2019-07-01T16:00Z'
+      datecurrentEpoch: 1561996825000
       pooownerunit: USTFIF
       fireyear: 2019
       localincidentidentifier: '190067'
@@ -493,9 +493,9 @@ Database:
       complexname: null
       DailyAcres: 1517
       FireCause: Natural
-      ModifiedOnDateTime: '2019-06-30T21:30Z'
-      ModifiedOnDateTimeEpoch: 1561930200000
-      PercentContained: 20
+      ModifiedOnDateTime: '2019-07-01T21:30Z'
+      ModifiedOnDateTimeEpoch: 1562016600000
+      PercentContained: 30
       UniqueFireIdentifier: 2019-UTFIF-190067
       FireDiscoveryDateTime: '2019-06-18T14:08Z'
       FireDiscoveryDateTimeEpoch: 1560866880000
@@ -505,7 +505,7 @@ Database:
       Hashtag: '#SkullFlatFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-06-30T22:00:25.687Z'
+          RetrievedOn: '2019-07-01T22:00:55.860Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -533,9 +533,9 @@ Database:
     state: UT
     status: U
     firecause: Natural
-    reportdatetime: '2019-06-30T21:30Z'
-    reportdatetimeEpoch: 1561930200000
-    percentcontained: 20
+    reportdatetime: '2019-07-01T21:30Z'
+    reportdatetimeEpoch: 1562016600000
+    percentcontained: 30
     uniquefireidentifier: 2019-UTFIF-190067
     firediscoverydatetime: '2019-06-18T14:08Z'
     firediscoverydatetimeEpoch: 1560866880000
@@ -544,11 +544,11 @@ Database:
     incidentname: Skull Flat
     iscomplex: 'false'
     irwinid: '{C490D4C2-D7E1-47B5-8E04-B1D6423F21D6}'
-    irwinmodifiedon: '2019-06-30T21:56Z'
-    irwinmodifiedonEpoch: 1561931786000
+    irwinmodifiedon: '2019-07-01T21:48Z'
+    irwinmodifiedonEpoch: 1562017700000
     mapsymbol: '1'
-    datecurrent: '2019-06-30T16:00Z'
-    datecurrentEpoch: 1561910413000
+    datecurrent: '2019-07-01T16:00Z'
+    datecurrentEpoch: 1561996825000
     pooownerunit: USTFIF
     fireyear: 2019
     localincidentidentifier: '190067'
@@ -558,9 +558,9 @@ Database:
     complexname: null
     DailyAcres: 1517
     FireCause: Natural
-    ModifiedOnDateTime: '2019-06-30T21:30Z'
-    ModifiedOnDateTimeEpoch: 1561930200000
-    PercentContained: 20
+    ModifiedOnDateTime: '2019-07-01T21:30Z'
+    ModifiedOnDateTimeEpoch: 1562016600000
+    PercentContained: 30
     UniqueFireIdentifier: 2019-UTFIF-190067
     FireDiscoveryDateTime: '2019-06-18T14:08Z'
     FireDiscoveryDateTimeEpoch: 1560866880000
@@ -576,10 +576,10 @@ Database:
       Acres: 1517.59950416
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-06-30T22:00:27.160Z'
+          RetrievedOn: '2019-07-01T22:00:56.461Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -591,10 +591,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: UTFIF
     unitMention: Fishlake NF
     Final_Fire_Name: Skull Flat Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-01T21:30Z-PER-2019-06-27T10:00Z-ID-2019-UTFIF-190067-NAME-SkullFlat-S-G
+      Code: b7256b1890f6d2af92d12e225740c89c99f9a6feb1279f9063fcfb34873e8aee
   2019-CAMNF-000241:
     Source_GEOMAC:
       Lon: -123.06383360558277
