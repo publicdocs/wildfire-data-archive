@@ -2057,146 +2057,6 @@ Database:
     unitId: AKKKS
     unitMention: Kenai-Kodiak Area Forestry
     Final_Fire_Name: Swan Lake Fire
-  2019-AKFAS-911319:
-    Source_GEOMAC:
-      Lon: -148.41530616753954
-      Lat: 64.98694164440356
-      objectid: 12
-      latitude: 64.98694
-      longitude: -148.41528
-      acres: 10639
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-06-30T23:00Z'
-      reportdatetimeEpoch: 1561935600000
-      percentcontained: 0
-      uniquefireidentifier: 2019-AKFAS-911319
-      firediscoverydatetime: '2019-06-22T01:22Z'
-      firediscoverydatetimeEpoch: 1561166571000
-      complexparentirwinid: null
-      pooresponsibleunit: AKFAS
-      incidentname: Shovel Creek
-      iscomplex: 'false'
-      irwinid: '{9155A802-F466-4D32-AFA3-F0B2D823B2EB}'
-      irwinmodifiedon: '2019-07-01T03:50Z'
-      irwinmodifiedonEpoch: 1561953041000
-      mapsymbol: '2'
-      datecurrent: '2019-06-30T22:00Z'
-      datecurrentEpoch: 1561932014000
-      pooownerunit: AKAKS
-      fireyear: 2019
-      localincidentidentifier: '911319'
-      incidenttypecategory: WF
-      owneragency: State
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 10639
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-06-30T23:00Z'
-      ModifiedOnDateTimeEpoch: 1561935600000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-AKFAS-911319
-      FireDiscoveryDateTime: '2019-06-22T01:22Z'
-      FireDiscoveryDateTimeEpoch: 1561166571000
-      Fire_Name: Shovel Creek
-      Name: Shovel Creek
-      Source: GEOMAC
-      Hashtag: '#ShovelCreekFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-01T04:00:58.136Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKFAS-911319
-    Lon: -148.41530616753954
-    Lat: 64.98694164440356
-    objectid: 12
-    latitude: 64.98694
-    longitude: -148.41528
-    acres: 10639
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-06-30T23:00Z'
-    reportdatetimeEpoch: 1561935600000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AKFAS-911319
-    firediscoverydatetime: '2019-06-22T01:22Z'
-    firediscoverydatetimeEpoch: 1561166571000
-    complexparentirwinid: null
-    pooresponsibleunit: AKFAS
-    incidentname: Shovel Creek
-    iscomplex: 'false'
-    irwinid: '{9155A802-F466-4D32-AFA3-F0B2D823B2EB}'
-    irwinmodifiedon: '2019-07-01T03:50Z'
-    irwinmodifiedonEpoch: 1561953041000
-    mapsymbol: '2'
-    datecurrent: '2019-06-30T22:00Z'
-    datecurrentEpoch: 1561932014000
-    pooownerunit: AKAKS
-    fireyear: 2019
-    localincidentidentifier: '911319'
-    incidenttypecategory: WF
-    owneragency: State
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 10639
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-06-30T23:00Z'
-    ModifiedOnDateTimeEpoch: 1561935600000
-    PercentContained: 0
-    UniqueFireIdentifier: 2019-AKFAS-911319
-    FireDiscoveryDateTime: '2019-06-22T01:22Z'
-    FireDiscoveryDateTimeEpoch: 1561166571000
-    Fire_Name: Shovel Creek
-    Name: Shovel Creek
-    Source: GEOMAC
-    Hashtag: '#ShovelCreekFire'
-    _CorrelationIds:
-      - 2019-AKFAS-911319
-    PerimDateTime: '2019-06-28T00:25Z'
-    PerimeterData:
-      DateTime: '2019-06-28T00:25Z'
-      Acres: 2307.38281258
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-01T04:00:58.819Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: AKFAS
-    unitMention: Fairbanks Area Forestry
-    Final_Fire_Name: Shovel Creek Fire
   2019-AKTAS-913133:
     Source_GEOMAC:
       Lon: -141.06035748493014
@@ -3138,3 +2998,147 @@ Database:
     unitId: AKUYD
     unitMention: Alaska Fire Service - Upper Yukon Zone
     Final_Fire_Name: Bearnose Hill Fire
+  2019-AKFAS-911319:
+    Source_GEOMAC:
+      Lon: -148.41530616753954
+      Lat: 64.98694164440356
+      objectid: 12
+      latitude: 64.98694
+      longitude: -148.41528
+      acres: 10639
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-06-30T23:00Z'
+      reportdatetimeEpoch: 1561935600000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKFAS-911319
+      firediscoverydatetime: '2019-06-22T01:22Z'
+      firediscoverydatetimeEpoch: 1561166571000
+      complexparentirwinid: null
+      pooresponsibleunit: AKFAS
+      incidentname: Shovel Creek
+      iscomplex: 'false'
+      irwinid: '{9155A802-F466-4D32-AFA3-F0B2D823B2EB}'
+      irwinmodifiedon: '2019-07-01T03:50Z'
+      irwinmodifiedonEpoch: 1561953041000
+      mapsymbol: '2'
+      datecurrent: '2019-06-30T23:30Z'
+      datecurrentEpoch: 1561937413000
+      pooownerunit: AKAKS
+      fireyear: 2019
+      localincidentidentifier: '911319'
+      incidenttypecategory: WF
+      owneragency: State
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 10639
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-06-30T23:00Z'
+      ModifiedOnDateTimeEpoch: 1561935600000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKFAS-911319
+      FireDiscoveryDateTime: '2019-06-22T01:22Z'
+      FireDiscoveryDateTimeEpoch: 1561166571000
+      Fire_Name: Shovel Creek
+      Name: Shovel Creek
+      Source: GEOMAC
+      Hashtag: '#ShovelCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-01T05:55:13.393Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKFAS-911319
+    Lon: -148.41530616753954
+    Lat: 64.98694164440356
+    objectid: 12
+    latitude: 64.98694
+    longitude: -148.41528
+    acres: 10639
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-06-30T23:00Z'
+    reportdatetimeEpoch: 1561935600000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKFAS-911319
+    firediscoverydatetime: '2019-06-22T01:22Z'
+    firediscoverydatetimeEpoch: 1561166571000
+    complexparentirwinid: null
+    pooresponsibleunit: AKFAS
+    incidentname: Shovel Creek
+    iscomplex: 'false'
+    irwinid: '{9155A802-F466-4D32-AFA3-F0B2D823B2EB}'
+    irwinmodifiedon: '2019-07-01T03:50Z'
+    irwinmodifiedonEpoch: 1561953041000
+    mapsymbol: '2'
+    datecurrent: '2019-06-30T23:30Z'
+    datecurrentEpoch: 1561937413000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '911319'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 10639
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-06-30T23:00Z'
+    ModifiedOnDateTimeEpoch: 1561935600000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKFAS-911319
+    FireDiscoveryDateTime: '2019-06-22T01:22Z'
+    FireDiscoveryDateTimeEpoch: 1561166571000
+    Fire_Name: Shovel Creek
+    Name: Shovel Creek
+    Source: GEOMAC
+    Hashtag: '#ShovelCreekFire'
+    _CorrelationIds:
+      - 2019-AKFAS-911319
+    PerimDateTime: '2019-06-28T00:25Z'
+    PerimeterData:
+      DateTime: '2019-06-28T00:25Z'
+      Acres: 2307.38281258
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-01T05:55:14.173Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: AKFAS
+    unitMention: Fairbanks Area Forestry
+    Final_Fire_Name: Shovel Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-06-30T23:00Z-PER-2019-06-28T00:25Z-ID-2019-AKFAS-911319-NAME-ShovelCreek-S-G
+      Code: 2d5ac49e773c94038caeda0eddbd824280147455e4954c373a468abd03da0b0d
