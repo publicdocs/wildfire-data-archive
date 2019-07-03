@@ -25,7 +25,7 @@ __META:
     EXPENSES, OR DAMAGES arising out of your use of this content, even if the
     author or data provider has been advised of the possibility of such losses,
     costs, expenses, or damages.
-  Host: fireunoff-twitbot-g1-rqmg
+  Host: fireunoff-twitbot-g1-smst
 Database:
   2019-NMLNF-000184:
     Source_GEOMAC:
@@ -3892,3 +3892,147 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-03T00:00Z-PER-none-ID-2019-AZASF-000395-NAME-Coleman-S-G'
       Code: 85e99354a9e17fa80528a173590e78d446a43951c761bde8d3311151a2dc58eb
+  2019-AKTAS-913133:
+    Source_GEOMAC:
+      Lon: -141.06035748493014
+      Lat: 62.99700300765425
+      objectid: 1
+      latitude: 62.997
+      longitude: -141.0603333
+      acres: 21008
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-01T06:00Z'
+      reportdatetimeEpoch: 1561960800000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKTAS-913133
+      firediscoverydatetime: '2019-05-21T23:54Z'
+      firediscoverydatetimeEpoch: 1558482850000
+      complexparentirwinid: null
+      pooresponsibleunit: AKTAS
+      incidentname: McArthur Creek
+      iscomplex: 'false'
+      irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
+      irwinmodifiedon: '2019-07-01T14:36Z'
+      irwinmodifiedonEpoch: 1561991772000
+      mapsymbol: '2'
+      datecurrent: '2019-07-02T21:00Z'
+      datecurrentEpoch: 1562101213000
+      pooownerunit: AKAKS
+      fireyear: 2019
+      localincidentidentifier: '913133'
+      incidenttypecategory: WF
+      owneragency: State
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 21008
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-01T06:00Z'
+      ModifiedOnDateTimeEpoch: 1561960800000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKTAS-913133
+      FireDiscoveryDateTime: '2019-05-21T23:54Z'
+      FireDiscoveryDateTimeEpoch: 1558482850000
+      Fire_Name: McArthur Creek
+      Name: McArthur Creek
+      Source: GEOMAC
+      Hashtag: '#McArthurCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-03T03:25:11.404Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKTAS-913133
+    Lon: -141.06035748493014
+    Lat: 62.99700300765425
+    objectid: 1
+    latitude: 62.997
+    longitude: -141.0603333
+    acres: 21008
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-01T06:00Z'
+    reportdatetimeEpoch: 1561960800000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKTAS-913133
+    firediscoverydatetime: '2019-05-21T23:54Z'
+    firediscoverydatetimeEpoch: 1558482850000
+    complexparentirwinid: null
+    pooresponsibleunit: AKTAS
+    incidentname: McArthur Creek
+    iscomplex: 'false'
+    irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
+    irwinmodifiedon: '2019-07-01T14:36Z'
+    irwinmodifiedonEpoch: 1561991772000
+    mapsymbol: '2'
+    datecurrent: '2019-07-02T21:00Z'
+    datecurrentEpoch: 1562101213000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '913133'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 21008
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-07-01T06:00Z'
+    ModifiedOnDateTimeEpoch: 1561960800000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKTAS-913133
+    FireDiscoveryDateTime: '2019-05-21T23:54Z'
+    FireDiscoveryDateTimeEpoch: 1558482850000
+    Fire_Name: McArthur Creek
+    Name: McArthur Creek
+    Source: GEOMAC
+    Hashtag: '#McArthurCreekFire'
+    _CorrelationIds:
+      - 2019-AKTAS-913133
+    PerimDateTime: '2019-06-25T00:00Z'
+    PerimeterData:
+      DateTime: '2019-06-25T00:00Z'
+      Acres: 5400.39784854
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-03T03:25:14.164Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: AKTAS
+    unitMention: Tok Area Forestry
+    Final_Fire_Name: Mc Arthur Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-01T06:00Z-PER-2019-06-25T00:00Z-ID-2019-AKTAS-913133-NAME-McArthurCreek-S-G
+      Code: ae20666d4ccc283760553eec8e30f093576a932aaca6220091182819a4f71932
