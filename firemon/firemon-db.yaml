@@ -4672,3 +4672,147 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-04T03:30Z-PER-none-ID-2019-AZASF-000394-NAME-Whiting-S-G'
       Code: b058f4dc265b253ac9f96a69cd7d8daa3b671cf5af769511773f933159782fa5
+  2019-AZCNF-000317:
+    Source_GEOMAC:
+      Lon: -109.02681027148856
+      Lat: 31.448674972276496
+      objectid: 24
+      latitude: 31.44867
+      longitude: -109.0268
+      acres: 4500
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-04T00:30Z'
+      reportdatetimeEpoch: 1562200200000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AZCNF-000317
+      firediscoverydatetime: '2019-06-30T03:15Z'
+      firediscoverydatetimeEpoch: 1561864500000
+      complexparentirwinid: null
+      pooresponsibleunit: AZCNF
+      incidentname: MILLER
+      iscomplex: 'false'
+      irwinid: '{309A628C-8085-4636-8968-618F4128928B}'
+      irwinmodifiedon: '2019-07-04T17:28Z'
+      irwinmodifiedonEpoch: 1562261290000
+      mapsymbol: '1'
+      datecurrent: '2019-07-04T11:30Z'
+      datecurrentEpoch: 1562239819000
+      pooownerunit: AZCNF
+      fireyear: 2019
+      localincidentidentifier: '000317'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 4500
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-04T00:30Z'
+      ModifiedOnDateTimeEpoch: 1562200200000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AZCNF-000317
+      FireDiscoveryDateTime: '2019-06-30T03:15Z'
+      FireDiscoveryDateTimeEpoch: 1561864500000
+      Fire_Name: MILLER
+      Name: MILLER
+      Source: GEOMAC
+      Hashtag: '#MillerFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-04T17:30:34.342Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZCNF-000317
+    Lon: -109.02681027148856
+    Lat: 31.448674972276496
+    objectid: 24
+    latitude: 31.44867
+    longitude: -109.0268
+    acres: 4500
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NM
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-04T00:30Z'
+    reportdatetimeEpoch: 1562200200000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AZCNF-000317
+    firediscoverydatetime: '2019-06-30T03:15Z'
+    firediscoverydatetimeEpoch: 1561864500000
+    complexparentirwinid: null
+    pooresponsibleunit: AZCNF
+    incidentname: MILLER
+    iscomplex: 'false'
+    irwinid: '{309A628C-8085-4636-8968-618F4128928B}'
+    irwinmodifiedon: '2019-07-04T17:28Z'
+    irwinmodifiedonEpoch: 1562261290000
+    mapsymbol: '1'
+    datecurrent: '2019-07-04T11:30Z'
+    datecurrentEpoch: 1562239819000
+    pooownerunit: AZCNF
+    fireyear: 2019
+    localincidentidentifier: '000317'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 4500
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-07-04T00:30Z'
+    ModifiedOnDateTimeEpoch: 1562200200000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AZCNF-000317
+    FireDiscoveryDateTime: '2019-06-30T03:15Z'
+    FireDiscoveryDateTimeEpoch: 1561864500000
+    Fire_Name: MILLER
+    Name: MILLER
+    Source: GEOMAC
+    Hashtag: '#MillerFire'
+    _CorrelationIds:
+      - 2019-AZCNF-000317
+    PerimDateTime: '2019-07-01T10:00Z'
+    PerimeterData:
+      DateTime: '2019-07-01T10:00Z'
+      Acres: 4454.40322093
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-04T17:30:36.440Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AZCNF
+    unitMention: '@CoronadoNF'
+    Final_Fire_Name: Miller Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-04T00:30Z-PER-2019-07-01T10:00Z-ID-2019-AZCNF-000317-NAME-MILLER-S-G
+      Code: 44a32e9d373316cd2d3962db32a681bc039bfaca93851570661407ad77a9d7af
