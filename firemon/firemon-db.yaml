@@ -1813,13 +1813,13 @@ Database:
     Hashtag: '#SwanLakeFire'
     _CorrelationIds:
       - 2019-AKKKS-903181
-    PerimDateTime: '2019-07-02T00:00Z'
+    PerimDateTime: '2019-07-05T00:00Z'
     PerimeterData:
-      DateTime: '2019-07-02T00:00Z'
-      Acres: 77731.677565
+      DateTime: '2019-07-05T00:00Z'
+      Acres: 90893.0262006
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-05T05:01:27.550Z'
+          RetrievedOn: '2019-07-05T17:39:23.191Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1840,8 +1840,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-05T02:00Z-PER-2019-07-02T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-G
-      Code: 972550c1182601a851c3ae7f4c133ebc93a57292b3b8f9954f68cd8c34a69088
+        UPD-2019-07-05T02:00Z-PER-2019-07-05T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-G
+      Code: 541a708257e4811fd4ddd59b4497e74a71b930afd0bc40a701d70ab983ccda71
   2019-COSJF-000243:
     Source_GEOMAC:
       Lon: -108.68221070611841
@@ -2404,150 +2404,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-03T00:00Z-PER-2019-07-02T07:00Z-ID-2019-AZCNF-000315-NAME-VANVALER-S-G
       Code: 6d5259f97d2002463da523d79ccebd68994628c1f7575a535b26245a9ca9afcf
-  2019-AKUYD-000379:
-    Source_GEOMAC:
-      Lon: -145.39669556010978
-      Lat: 67.49305762136217
-      objectid: 17
-      latitude: 67.4930556
-      longitude: -145.3966667
-      acres: 180
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-03T02:00Z'
-      reportdatetimeEpoch: 1562119200000
-      percentcontained: 60
-      uniquefireidentifier: 2019-AKUYD-000379
-      firediscoverydatetime: '2019-06-26T00:10Z'
-      firediscoverydatetimeEpoch: 1561507800000
-      complexparentirwinid: null
-      pooresponsibleunit: AKUYD
-      incidentname: Christian River
-      iscomplex: 'false'
-      irwinid: '{98945036-5A5F-407D-8941-F3F6D5CF5739}'
-      irwinmodifiedon: '2019-07-03T04:05Z'
-      irwinmodifiedonEpoch: 1562126720000
-      mapsymbol: '1'
-      datecurrent: '2019-07-02T22:30Z'
-      datecurrentEpoch: 1562106614000
-      pooownerunit: AKVLN
-      fireyear: 2019
-      localincidentidentifier: 000379
-      incidenttypecategory: WF
-      owneragency: ANCSA
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 180
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-03T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562119200000
-      PercentContained: 60
-      UniqueFireIdentifier: 2019-AKUYD-000379
-      FireDiscoveryDateTime: '2019-06-26T00:10Z'
-      FireDiscoveryDateTimeEpoch: 1561507800000
-      Fire_Name: Christian River
-      Name: Christian River
-      Source: GEOMAC
-      Hashtag: '#ChristianRiverFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-03T04:31:00.000Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKUYD-000379
-    Lon: -145.39669556010978
-    Lat: 67.49305762136217
-    objectid: 17
-    latitude: 67.4930556
-    longitude: -145.3966667
-    acres: 180
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-03T02:00Z'
-    reportdatetimeEpoch: 1562119200000
-    percentcontained: 60
-    uniquefireidentifier: 2019-AKUYD-000379
-    firediscoverydatetime: '2019-06-26T00:10Z'
-    firediscoverydatetimeEpoch: 1561507800000
-    complexparentirwinid: null
-    pooresponsibleunit: AKUYD
-    incidentname: Christian River
-    iscomplex: 'false'
-    irwinid: '{98945036-5A5F-407D-8941-F3F6D5CF5739}'
-    irwinmodifiedon: '2019-07-03T04:05Z'
-    irwinmodifiedonEpoch: 1562126720000
-    mapsymbol: '1'
-    datecurrent: '2019-07-02T22:30Z'
-    datecurrentEpoch: 1562106614000
-    pooownerunit: AKVLN
-    fireyear: 2019
-    localincidentidentifier: 000379
-    incidenttypecategory: WF
-    owneragency: ANCSA
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 180
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-03T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562119200000
-    PercentContained: 60
-    UniqueFireIdentifier: 2019-AKUYD-000379
-    FireDiscoveryDateTime: '2019-06-26T00:10Z'
-    FireDiscoveryDateTimeEpoch: 1561507800000
-    Fire_Name: Christian River
-    Name: Christian River
-    Source: GEOMAC
-    Hashtag: '#ChristianRiverFire'
-    _CorrelationIds:
-      - 2019-AKUYD-000379
-    PerimDateTime: '2019-06-27T09:42Z'
-    PerimeterData:
-      DateTime: '2019-06-27T09:42Z'
-      Acres: 1.72224963
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-03T04:31:00.669Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Christian River Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-03T02:00Z-PER-2019-06-27T09:42Z-ID-2019-AKUYD-000379-NAME-ChristianRiver-S-G
-      Code: 9eb0e5b0d53375bae7d1ff3dc53a46594d9afe3523c1304ea66906fe5d0796e0
   2019-AKFAS-911319:
     Source_GEOMAC:
       Lon: -148.41530616753954
@@ -3503,17 +3359,35 @@ Database:
     Hashtag: '#PerchmanFire'
     _CorrelationIds:
       - 2019-FLFNF-000455
-    PerimDateTime: null
+    PerimDateTime: '2019-07-03T10:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-03T10:00Z'
+      Acres: 639.84614899
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-05T17:39:23.191Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: FLFNF
     unitMention: NFs in Florida
     Final_Fire_Name: Perchman Fire
     _Update:
-      UpdateId: 'UPD-2019-07-04T20:00Z-PER-none-ID-2019-FLFNF-000455-NAME-Perchman-S-G'
-      Code: 53d5da9bd494676a4555da8ab65cf27272e5a45bcfd775f621b04041c6783809
+      UpdateId: >-
+        UPD-2019-07-04T20:00Z-PER-2019-07-03T10:00Z-ID-2019-FLFNF-000455-NAME-Perchman-S-G
+      Code: cb071b8096a20c9f81734959c46cb49229b0790a94aca384ffe2098dcc86aea2
   2019-IDIFD-000033:
     Source_GEOMAC:
       Lon: -112.32901231910549
@@ -4791,13 +4665,13 @@ Database:
     Hashtag: '#MillerFire'
     _CorrelationIds:
       - 2019-AZCNF-000317
-    PerimDateTime: '2019-07-02T22:05Z'
+    PerimDateTime: '2019-07-04T22:53Z'
     PerimeterData:
-      DateTime: '2019-07-02T22:05Z'
-      Acres: 3078.6947565
+      DateTime: '2019-07-04T22:53Z'
+      Acres: 5771.88881076
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-05T14:35:53.738Z'
+          RetrievedOn: '2019-07-05T17:39:23.191Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4818,8 +4692,8 @@ Database:
     Final_Fire_Name: Miller Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-04T22:00Z-PER-2019-07-02T22:05Z-ID-2019-AZCNF-000317-NAME-MILLER-S-G
-      Code: 8f04527ea26be5a87e6f9e828a516c3cca261fb04250dfaa5d9d79b8c070ce78
+        UPD-2019-07-04T22:00Z-PER-2019-07-04T22:53Z-ID-2019-AZCNF-000317-NAME-MILLER-S-G
+      Code: 822045b373b2526e9b4149e1d3767f9c547f96ecb5c775b74a6a6753c896f4ca
   2019-AKUYD-000367:
     Source_GEOMAC:
       Lon: -142.93842800156258
@@ -4935,13 +4809,13 @@ Database:
     Hashtag: '#FrozenCalfFire'
     _CorrelationIds:
       - 2019-AKUYD-000367
-    PerimDateTime: '2019-07-02T17:21Z'
+    PerimDateTime: '2019-07-04T09:28Z'
     PerimeterData:
-      DateTime: '2019-07-02T17:21Z'
-      Acres: 28475.8299814
+      DateTime: '2019-07-04T09:28Z'
+      Acres: 32253.9559491
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-04T22:00:44.011Z'
+          RetrievedOn: '2019-07-05T17:39:23.191Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4962,8 +4836,8 @@ Database:
     Final_Fire_Name: Frozen Calf Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-04T20:00Z-PER-2019-07-02T17:21Z-ID-2019-AKUYD-000367-NAME-FrozenCalf-S-G
-      Code: 1a2edb06cbadae7784b2778b2693653aecfa5ddf62d8e139d76be35f5a04b9e5
+        UPD-2019-07-04T20:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000367-NAME-FrozenCalf-S-G
+      Code: bd93993ffc4d779f0075fa26700fd065e41a9f350ad4fbb0b64668e22648942e
   2019-AKUYD-000392:
     Source_GEOMAC:
       Lon: -142.5975264454293
@@ -5223,13 +5097,13 @@ Database:
     Hashtag: '#BeaverFire'
     _CorrelationIds:
       - 2019-AKMID-000390
-    PerimDateTime: '2019-07-02T13:20Z'
+    PerimDateTime: '2019-07-04T09:28Z'
     PerimeterData:
-      DateTime: '2019-07-02T13:20Z'
-      Acres: 3745.70944175
+      DateTime: '2019-07-04T09:28Z'
+      Acres: 3275.33563175
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-04T22:30:40.090Z'
+          RetrievedOn: '2019-07-05T17:39:23.191Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -5250,8 +5124,8 @@ Database:
     Final_Fire_Name: Beaver Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-04T18:00Z-PER-2019-07-02T13:20Z-ID-2019-AKMID-000390-NAME-Beaver-S-G
-      Code: 07adf61881f3b3e3ba820c666dc462b6e90032d148ea1f7b0c36e9f4cbfa552b
+        UPD-2019-07-04T18:00Z-PER-2019-07-04T09:28Z-ID-2019-AKMID-000390-NAME-Beaver-S-G
+      Code: e45dfe980058cff8f254cf66c428c8e6b444745f37afe7ce6a048967c8592660
   2019-AZPNF-000828:
     Source_GEOMAC:
       Lon: -112.13801111067342
@@ -5493,13 +5367,13 @@ Database:
     Hashtag: '#ForakerFire'
     _CorrelationIds:
       - 2019-AKTAD-000389
-    PerimDateTime: '2019-07-02T13:20Z'
+    PerimDateTime: '2019-07-04T09:28Z'
     PerimeterData:
-      DateTime: '2019-07-02T13:20Z'
-      Acres: 10636.2108708
+      DateTime: '2019-07-04T09:28Z'
+      Acres: 11970.1488558
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-05T04:31:20.193Z'
+          RetrievedOn: '2019-07-05T17:39:23.191Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -5520,8 +5394,8 @@ Database:
     Final_Fire_Name: Foraker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-04T23:00Z-PER-2019-07-02T13:20Z-ID-2019-AKTAD-000389-NAME-Foraker-S-G
-      Code: 6922899c9b4174004fdaecd9cd6343d075d37a9266702ae740deae4386906a39
+        UPD-2019-07-04T23:00Z-PER-2019-07-04T09:28Z-ID-2019-AKTAD-000389-NAME-Foraker-S-G
+      Code: 3c2e04104a06b7e1de4477d77c39583a32b1e105b24d853b5604c28dd16e2bbc
   2019-AKUYD-000407:
     Source_GEOMAC:
       Lon: -143.5696276306086
@@ -5637,13 +5511,13 @@ Database:
     Hashtag: '#BearnoseHillFire'
     _CorrelationIds:
       - 2019-AKUYD-000407
-    PerimDateTime: '2019-07-02T17:21Z'
+    PerimDateTime: '2019-07-04T09:28Z'
     PerimeterData:
-      DateTime: '2019-07-02T17:21Z'
-      Acres: 1261.88329095
+      DateTime: '2019-07-04T09:28Z'
+      Acres: 1744.24626997
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-05T04:31:20.193Z'
+          RetrievedOn: '2019-07-05T17:39:23.191Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -5664,8 +5538,8 @@ Database:
     Final_Fire_Name: Bearnose Hill Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-05T02:00Z-PER-2019-07-02T17:21Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-G
-      Code: dba796f9351b8d62e606ce010b2367d821fd6c40656af167cfaedaa9fc705699
+        UPD-2019-07-05T02:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-G
+      Code: da4bf8e8e16733f4f833b352756b4aac776e82ef03e48dd86961add1c26d7316
   2019-AKTAD-000312:
     Source_GEOMAC:
       Lon: -153.43112738776472
