@@ -25,7 +25,7 @@ __META:
     EXPENSES, OR DAMAGES arising out of your use of this content, even if the
     author or data provider has been advised of the possibility of such losses,
     costs, expenses, or damages.
-  Host: fireunoff-twitbot-g1-smst
+  Host: fireunoff-twitbot-g1-7knd
 Database:
   2019-NMLNF-000184:
     Source_GEOMAC:
@@ -3261,10 +3261,57 @@ Database:
       UpdateId: 'UPD-2019-07-02T22:30Z-PER-none-ID-2019-IDBOD-000353-NAME-HOTSPRINGS-S-G'
       Code: 231210ab0fcbbcaa0ced228587afd4c2e88be146baf7c8e0b436847fb779b11b
   2019-FLFNF-000455:
+    Source_NFSA_Join:
+      Lon: -81.72832929046905
+      Lat: 29.468822216396923
+      id: 121071
+      Name: Perchman
+      Fire_Name: Perchman
+      UniqueFireIdentifier: 2019-FLFNF-000455
+      DailyAcres: 1300
+      PercentContained: 75
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-06T20:00Z'
+      ICS209ReportDateTimeEpoch: 1562443200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 100000
+      FireCause: Natural
+      TotalIncidentPersonnel: 22
+      FireDiscoveryDateTime: '2019-07-01T22:44Z'
+      FireDiscoveryDateTimeEpoch: 1562021040000
+      DispatchCenterID: FLFIC
+      LocalIncidentIdentifier: '000455'
+      POOCounty: Putnam
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-06T20:00Z'
+      ModifiedOnDateTimeEpoch: 1562443200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-FLFNF-000455
+      ModifiedOnDateTime_Raw: '2019-07-06T20:42Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562445767000
+      Hashtag: '#PerchmanFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-06T21:01:15.785Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
       Lon: -81.7273532421838
       Lat: 29.467075554868504
-      objectid: 26
+      objectid: 24
       latitude: 29.46707
       longitude: -81.72735
       acres: 1300
@@ -3273,9 +3320,9 @@ Database:
       state: FL
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-04T20:00Z'
-      reportdatetimeEpoch: 1562270400000
-      percentcontained: 50
+      reportdatetime: '2019-07-06T20:00Z'
+      reportdatetimeEpoch: 1562443200000
+      percentcontained: 75
       uniquefireidentifier: 2019-FLFNF-000455
       firediscoverydatetime: '2019-07-01T22:44Z'
       firediscoverydatetimeEpoch: 1562021040000
@@ -3284,23 +3331,23 @@ Database:
       incidentname: Perchman
       iscomplex: 'false'
       irwinid: '{1688F96D-87BF-4D7E-916C-9F9070E6D446}'
-      irwinmodifiedon: '2019-07-04T20:45Z'
-      irwinmodifiedonEpoch: 1562273141000
+      irwinmodifiedon: '2019-07-06T20:42Z'
+      irwinmodifiedonEpoch: 1562445767000
       mapsymbol: '1'
-      datecurrent: '2019-07-04T15:00Z'
-      datecurrentEpoch: 1562252416000
+      datecurrent: '2019-07-06T15:00Z'
+      datecurrentEpoch: 1562425216000
       pooownerunit: FLFNF
       fireyear: 2019
       localincidentidentifier: '000455'
       incidenttypecategory: WF
       owneragency: USFS
-      perimexist: 'N'
+      perimexist: 'Y'
       complexname: null
       DailyAcres: 1300
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-04T20:00Z'
-      ModifiedOnDateTimeEpoch: 1562270400000
-      PercentContained: 50
+      ModifiedOnDateTime: '2019-07-06T20:00Z'
+      ModifiedOnDateTimeEpoch: 1562443200000
+      PercentContained: 75
       UniqueFireIdentifier: 2019-FLFNF-000455
       FireDiscoveryDateTime: '2019-07-01T22:44Z'
       FireDiscoveryDateTimeEpoch: 1562021040000
@@ -3310,7 +3357,7 @@ Database:
       Hashtag: '#PerchmanFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-04T21:01:09.920Z'
+          RetrievedOn: '2019-07-06T21:01:15.787Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -3327,61 +3374,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-FLFNF-000455
-    Lon: -81.7273532421838
-    Lat: 29.467075554868504
-    objectid: 26
-    latitude: 29.46707
-    longitude: -81.72735
-    acres: 1300
-    gacc: SACC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: FL
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-04T20:00Z'
-    reportdatetimeEpoch: 1562270400000
-    percentcontained: 50
-    uniquefireidentifier: 2019-FLFNF-000455
-    firediscoverydatetime: '2019-07-01T22:44Z'
-    firediscoverydatetimeEpoch: 1562021040000
-    complexparentirwinid: null
-    pooresponsibleunit: FLFNF
-    incidentname: Perchman
-    iscomplex: 'false'
-    irwinid: '{1688F96D-87BF-4D7E-916C-9F9070E6D446}'
-    irwinmodifiedon: '2019-07-04T20:45Z'
-    irwinmodifiedonEpoch: 1562273141000
-    mapsymbol: '1'
-    datecurrent: '2019-07-04T15:00Z'
-    datecurrentEpoch: 1562252416000
-    pooownerunit: FLFNF
-    fireyear: 2019
-    localincidentidentifier: '000455'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 1300
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-04T20:00Z'
-    ModifiedOnDateTimeEpoch: 1562270400000
-    PercentContained: 50
+    Lon: -81.72832929046905
+    Lat: 29.468822216396923
+    id: 121071
+    Name: Perchman
+    Fire_Name: Perchman
     UniqueFireIdentifier: 2019-FLFNF-000455
+    DailyAcres: 1300
+    PercentContained: 75
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-06T20:00Z'
+    ICS209ReportDateTimeEpoch: 1562443200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 100000
+    FireCause: Natural
+    TotalIncidentPersonnel: 22
     FireDiscoveryDateTime: '2019-07-01T22:44Z'
     FireDiscoveryDateTimeEpoch: 1562021040000
-    Fire_Name: Perchman
-    Name: Perchman
-    Source: GEOMAC
-    Hashtag: '#PerchmanFire'
+    DispatchCenterID: FLFIC
+    LocalIncidentIdentifier: '000455'
+    POOCounty: Putnam
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-06T20:00Z'
+    ModifiedOnDateTimeEpoch: 1562443200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-FLFNF-000455
+    ModifiedOnDateTime_Raw: '2019-07-06T20:42Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562445767000
+    Hashtag: '#PerchmanFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-03T10:00Z'
     PerimeterData:
       DateTime: '2019-07-03T10:00Z'
       Acres: 639.84614899
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-05T17:39:23.191Z'
+          RetrievedOn: '2019-07-06T21:01:18.314Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -3402,8 +3437,8 @@ Database:
     Final_Fire_Name: Perchman Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-04T20:00Z-PER-2019-07-03T10:00Z-ID-2019-FLFNF-000455-NAME-Perchman-S-G
-      Code: cb071b8096a20c9f81734959c46cb49229b0790a94aca384ffe2098dcc86aea2
+        UPD-2019-07-06T20:00Z-PER-2019-07-03T10:00Z-ID-2019-FLFNF-000455-NAME-Perchman-S-N
+      Code: f7c91878b79b81fd376b8e04c181d2112ef2c26b1597d068b881a8841f9e2b68
   2019-IDIFD-000033:
     Source_GEOMAC:
       Lon: -112.32901231910549
