@@ -22856,7 +22856,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-07T01:01:39.286Z'
+          RetrievedOn: '2019-07-07T03:30:19.248Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -22864,42 +22864,120 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -114.08351681723086
-    Lat: 42.60830732384504
-    id: 121911
-    Name: Wilson
-    Fire_Name: Wilson
-    UniqueFireIdentifier: 2019-IDTFD-000084
-    DailyAcres: 300
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    Source_GEOMAC:
+      Lon: -114.08351244214496
+      Lat: 42.608306050198685
+      objectid: 29
+      latitude: 42.6083
+      longitude: -114.0835
+      acres: 317
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: ID
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-07-07T02:00Z'
+      reportdatetimeEpoch: 1562464800000
+      percentcontained: 80
+      uniquefireidentifier: 2019-IDTFD-000084
+      firediscoverydatetime: '2019-07-06T21:35Z'
+      firediscoverydatetimeEpoch: 1562448900000
+      complexparentirwinid: null
+      pooresponsibleunit: IDTFD
+      incidentname: Wilson
+      iscomplex: 'false'
+      irwinid: '{FE101849-7B55-41B7-A61B-D98C1EA19FDB}'
+      irwinmodifiedon: '2019-07-07T03:17Z'
+      irwinmodifiedonEpoch: 1562469468000
+      mapsymbol: '1'
+      datecurrent: '2019-07-06T21:30Z'
+      datecurrentEpoch: 1562448616000
+      pooownerunit: IDTFD
+      fireyear: 2019
+      localincidentidentifier: 000084
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 317
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-07T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562464800000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-IDTFD-000084
+      FireDiscoveryDateTime: '2019-07-06T21:35Z'
+      FireDiscoveryDateTimeEpoch: 1562448900000
+      Fire_Name: Wilson
+      Name: Wilson
+      Source: GEOMAC
+      Hashtag: '#WilsonFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T03:30:19.249Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-IDTFD-000084
+    Lon: -114.08351244214496
+    Lat: 42.608306050198685
+    objectid: 29
+    latitude: 42.6083
+    longitude: -114.0835
+    acres: 317
+    gacc: GBCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: ID
+    status: I
+    firecause: Unknown
+    reportdatetime: '2019-07-07T02:00Z'
+    reportdatetimeEpoch: 1562464800000
+    percentcontained: 80
+    uniquefireidentifier: 2019-IDTFD-000084
+    firediscoverydatetime: '2019-07-06T21:35Z'
+    firediscoverydatetimeEpoch: 1562448900000
+    complexparentirwinid: null
+    pooresponsibleunit: IDTFD
+    incidentname: Wilson
+    iscomplex: 'false'
+    irwinid: '{FE101849-7B55-41B7-A61B-D98C1EA19FDB}'
+    irwinmodifiedon: '2019-07-07T03:17Z'
+    irwinmodifiedonEpoch: 1562469468000
+    mapsymbol: '1'
+    datecurrent: '2019-07-06T21:30Z'
+    datecurrentEpoch: 1562448616000
+    pooownerunit: IDTFD
+    fireyear: 2019
+    localincidentidentifier: 000084
+    incidenttypecategory: WF
+    owneragency: BLM
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 317
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2019-07-07T02:00Z'
+    ModifiedOnDateTimeEpoch: 1562464800000
+    PercentContained: 80
+    UniqueFireIdentifier: 2019-IDTFD-000084
     FireDiscoveryDateTime: '2019-07-06T21:35Z'
     FireDiscoveryDateTimeEpoch: 1562448900000
-    DispatchCenterID: IDSCC
-    LocalIncidentIdentifier: 000084
-    POOCounty: Jerome
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-07T00:31Z'
-    ModifiedOnDateTimeEpoch: 1562459516000
-    ModifiedBySystem: wfdss
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Wilson
+    Name: Wilson
+    Source: GEOMAC
+    Hashtag: '#WilsonFire'
     _CorrelationIds:
       - 2019-IDTFD-000084
-    ModifiedOnDateTime_Raw: '2019-07-07T00:31Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562459516000
-    Hashtag: '#WilsonFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -22909,8 +22987,8 @@ Database:
     unitMention: Twin  Falls District
     Final_Fire_Name: Wilson Fire
     _Update:
-      UpdateId: 'UPD-2019-07-07T00:31Z-PER-none-ID-2019-IDTFD-000084-NAME-Wilson-S-N'
-      Code: b789be12b6031eb36b6b3f3d29b8d8cb1c220c2795db2ad18a078094b94ac97d
+      UpdateId: 'UPD-2019-07-07T02:00Z-PER-none-ID-2019-IDTFD-000084-NAME-Wilson-S-G'
+      Code: 75142de939fc418edd45ffdb598b5fac13ce022f47e98f78f8fcde0b75b0e7a3
   2019-IDTFD-000089:
     Source_NFSA_Join:
       Lon: -113.22201449345455
