@@ -1832,6 +1832,53 @@ Database:
     unitMention: null
     Final_Fire_Name: Mayberry Fire
   2019-AKKKS-903181:
+    Source_NFSA_Join:
+      Lon: -150.4376895785433
+      Lat: 60.63051903798901
+      id: 118050
+      Name: Swan Lake
+      Fire_Name: Swan Lake
+      UniqueFireIdentifier: 2019-AKKKS-903181
+      DailyAcres: 92657
+      PercentContained: 69
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 2 Team
+      ICS209ReportDateTime: '2019-07-07T02:00Z'
+      ICS209ReportDateTimeEpoch: 1562464800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 12468788
+      FireCause: Natural
+      TotalIncidentPersonnel: 404
+      FireDiscoveryDateTime: '2019-06-06T02:52Z'
+      FireDiscoveryDateTimeEpoch: 1559789537000
+      DispatchCenterID: AKKIDC
+      LocalIncidentIdentifier: '903181'
+      POOCounty: Kenai Peninsula
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-07T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562464800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType2
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKKKS-903181
+      ModifiedOnDateTime_Raw: '2019-07-07T03:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562471797000
+      Hashtag: '#SwanLakeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T04:01:16.122Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
       Lon: -150.43780263499144
       Lat: 60.63056158857529
@@ -1844,8 +1891,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-06T02:00Z'
-      reportdatetimeEpoch: 1562378400000
+      reportdatetime: '2019-07-07T02:00Z'
+      reportdatetimeEpoch: 1562464800000
       percentcontained: 69
       uniquefireidentifier: 2019-AKKKS-903181
       firediscoverydatetime: '2019-06-06T02:52Z'
@@ -1855,11 +1902,11 @@ Database:
       incidentname: Swan Lake
       iscomplex: 'false'
       irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
-      irwinmodifiedon: '2019-07-06T04:00Z'
-      irwinmodifiedonEpoch: 1562385636000
+      irwinmodifiedon: '2019-07-07T03:56Z'
+      irwinmodifiedonEpoch: 1562471797000
       mapsymbol: '4'
-      datecurrent: '2019-07-05T22:30Z'
-      datecurrentEpoch: 1562365819000
+      datecurrent: '2019-07-06T22:00Z'
+      datecurrentEpoch: 1562450415000
       pooownerunit: AKKNR
       fireyear: 2019
       localincidentidentifier: '903181'
@@ -1869,8 +1916,8 @@ Database:
       complexname: null
       DailyAcres: 92657
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-06T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562378400000
+      ModifiedOnDateTime: '2019-07-07T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562464800000
       PercentContained: 69
       UniqueFireIdentifier: 2019-AKKKS-903181
       FireDiscoveryDateTime: '2019-06-06T02:52Z'
@@ -1881,7 +1928,7 @@ Database:
       Hashtag: '#SwanLakeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T04:31:45.311Z'
+          RetrievedOn: '2019-07-07T04:01:16.123Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -1898,61 +1945,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKKKS-903181
-    Lon: -150.43780263499144
-    Lat: 60.63056158857529
-    objectid: 2
-    latitude: 60.63056
-    longitude: -150.43778
-    acres: 92657
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-06T02:00Z'
-    reportdatetimeEpoch: 1562378400000
-    percentcontained: 69
-    uniquefireidentifier: 2019-AKKKS-903181
-    firediscoverydatetime: '2019-06-06T02:52Z'
-    firediscoverydatetimeEpoch: 1559789537000
-    complexparentirwinid: null
-    pooresponsibleunit: AKKKS
-    incidentname: Swan Lake
-    iscomplex: 'false'
-    irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
-    irwinmodifiedon: '2019-07-06T04:00Z'
-    irwinmodifiedonEpoch: 1562385636000
-    mapsymbol: '4'
-    datecurrent: '2019-07-05T22:30Z'
-    datecurrentEpoch: 1562365819000
-    pooownerunit: AKKNR
-    fireyear: 2019
-    localincidentidentifier: '903181'
-    incidenttypecategory: WF
-    owneragency: USFWS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 92657
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-06T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562378400000
-    PercentContained: 69
+    Lon: -150.4376895785433
+    Lat: 60.63051903798901
+    id: 118050
+    Name: Swan Lake
+    Fire_Name: Swan Lake
     UniqueFireIdentifier: 2019-AKKKS-903181
+    DailyAcres: 92657
+    PercentContained: 69
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 2 Team
+    ICS209ReportDateTime: '2019-07-07T02:00Z'
+    ICS209ReportDateTimeEpoch: 1562464800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 12468788
+    FireCause: Natural
+    TotalIncidentPersonnel: 404
     FireDiscoveryDateTime: '2019-06-06T02:52Z'
     FireDiscoveryDateTimeEpoch: 1559789537000
-    Fire_Name: Swan Lake
-    Name: Swan Lake
-    Source: GEOMAC
-    Hashtag: '#SwanLakeFire'
+    DispatchCenterID: AKKIDC
+    LocalIncidentIdentifier: '903181'
+    POOCounty: Kenai Peninsula
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-07T02:00Z'
+    ModifiedOnDateTimeEpoch: 1562464800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType2
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKKKS-903181
+    ModifiedOnDateTime_Raw: '2019-07-07T03:56Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562471797000
+    Hashtag: '#SwanLakeFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-05T00:00Z'
     PerimeterData:
       DateTime: '2019-07-05T00:00Z'
       Acres: 90893.0262006
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T04:31:45.954Z'
+          RetrievedOn: '2019-07-07T04:01:17.361Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1973,8 +2008,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-06T02:00Z-PER-2019-07-05T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-G
-      Code: 29100b85cf7fc2b9bd730d64ba426bc8f45a4570b9cd7254159870910ae6b3e8
+        UPD-2019-07-07T02:00Z-PER-2019-07-05T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
+      Code: 45b379cf4ac6363088ea009aca692fe7dbabfecb337c54341112165a43953447
   2019-COSJF-000243:
     Source_GEOMAC:
       Lon: -108.68221070611841
@@ -5740,13 +5775,60 @@ Database:
         UPD-2019-07-04T23:00Z-PER-2019-07-04T09:28Z-ID-2019-AKTAD-000389-NAME-Foraker-S-G
       Code: 3c2e04104a06b7e1de4477d77c39583a32b1e105b24d853b5604c28dd16e2bbc
   2019-AKUYD-000407:
+    Source_NFSA_Join:
+      Lon: -143.56962905696037
+      Lat: 66.48950158418968
+      id: 120736
+      Name: Bearnose Hill
+      Fire_Name: Bearnose Hill
+      UniqueFireIdentifier: 2019-AKUYD-000407
+      DailyAcres: 2163
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-07T02:00Z'
+      ICS209ReportDateTimeEpoch: 1562464800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 48039
+      FireCause: Natural
+      TotalIncidentPersonnel: 59
+      FireDiscoveryDateTime: '2019-06-30T00:28Z'
+      FireDiscoveryDateTimeEpoch: 1561854480000
+      DispatchCenterID: AKYTDC
+      LocalIncidentIdentifier: '000407'
+      POOCounty: Yukon-Koyukuk
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2019-07-07T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562464800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKUYD-000407
+      ModifiedOnDateTime_Raw: '2019-07-07T04:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562472012000
+      Hashtag: '#BearnoseHillFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T04:01:16.122Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
-      Lon: -143.56974983055213
-      Lat: 66.48944680408871
+      Lon: -143.5696276306086
+      Lat: 66.48950240410727
       objectid: 19
-      latitude: 66.4894444
-      longitude: -143.5697222
-      acres: 1744
+      latitude: 66.4895
+      longitude: -143.5696
+      acres: 2163
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
@@ -5763,11 +5845,11 @@ Database:
       incidentname: Bearnose Hill
       iscomplex: 'false'
       irwinid: '{2F2D5842-7ED0-41E2-A6A9-41B6360730A4}'
-      irwinmodifiedon: '2019-07-06T04:26Z'
-      irwinmodifiedonEpoch: 1562387170000
+      irwinmodifiedon: '2019-07-06T19:19Z'
+      irwinmodifiedonEpoch: 1562440782000
       mapsymbol: '1'
-      datecurrent: '2019-07-05T22:30Z'
-      datecurrentEpoch: 1562365819000
+      datecurrent: '2019-07-06T22:00Z'
+      datecurrentEpoch: 1562450415000
       pooownerunit: AKDYN
       fireyear: 2019
       localincidentidentifier: '000407'
@@ -5775,7 +5857,7 @@ Database:
       owneragency: ANCSA
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 1744
+      DailyAcres: 2163
       FireCause: Natural
       ModifiedOnDateTime: '2019-07-06T02:00Z'
       ModifiedOnDateTimeEpoch: 1562378400000
@@ -5789,7 +5871,7 @@ Database:
       Hashtag: '#BearnoseHillFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T04:31:45.311Z'
+          RetrievedOn: '2019-07-07T04:01:16.123Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -5806,61 +5888,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKUYD-000407
-    Lon: -143.56974983055213
-    Lat: 66.48944680408871
-    objectid: 19
-    latitude: 66.4894444
-    longitude: -143.5697222
-    acres: 1744
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-06T02:00Z'
-    reportdatetimeEpoch: 1562378400000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AKUYD-000407
-    firediscoverydatetime: '2019-06-30T00:28Z'
-    firediscoverydatetimeEpoch: 1561854480000
-    complexparentirwinid: null
-    pooresponsibleunit: AKUYD
-    incidentname: Bearnose Hill
-    iscomplex: 'false'
-    irwinid: '{2F2D5842-7ED0-41E2-A6A9-41B6360730A4}'
-    irwinmodifiedon: '2019-07-06T04:26Z'
-    irwinmodifiedonEpoch: 1562387170000
-    mapsymbol: '1'
-    datecurrent: '2019-07-05T22:30Z'
-    datecurrentEpoch: 1562365819000
-    pooownerunit: AKDYN
-    fireyear: 2019
-    localincidentidentifier: '000407'
-    incidenttypecategory: WF
-    owneragency: ANCSA
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 1744
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-06T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562378400000
-    PercentContained: 0
+    Lon: -143.56962905696037
+    Lat: 66.48950158418968
+    id: 120736
+    Name: Bearnose Hill
+    Fire_Name: Bearnose Hill
     UniqueFireIdentifier: 2019-AKUYD-000407
+    DailyAcres: 2163
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-07T02:00Z'
+    ICS209ReportDateTimeEpoch: 1562464800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 48039
+    FireCause: Natural
+    TotalIncidentPersonnel: 59
     FireDiscoveryDateTime: '2019-06-30T00:28Z'
     FireDiscoveryDateTimeEpoch: 1561854480000
-    Fire_Name: Bearnose Hill
-    Name: Bearnose Hill
-    Source: GEOMAC
-    Hashtag: '#BearnoseHillFire'
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: '000407'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2019-07-07T02:00Z'
+    ModifiedOnDateTimeEpoch: 1562464800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKUYD-000407
+    ModifiedOnDateTime_Raw: '2019-07-07T04:00Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562472012000
+    Hashtag: '#BearnoseHillFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-04T09:28Z'
     PerimeterData:
       DateTime: '2019-07-04T09:28Z'
       Acres: 1744.24626997
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T04:31:45.954Z'
+          RetrievedOn: '2019-07-07T04:01:17.361Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -5881,8 +5951,8 @@ Database:
     Final_Fire_Name: Bearnose Hill Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-06T02:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-G
-      Code: 00b02e678496c7c102150132e05c45fbb35c88b3aef27e69bbad426ea1459337
+        UPD-2019-07-07T02:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-N
+      Code: f8d35f52afd7b015a3f7eb437a9c101ebf9df1f4d3b6a0c3c7c96c80b3a734b4
   2019-AKTAD-000312:
     Source_GEOMAC:
       Lon: -153.43112738776472
@@ -8720,39 +8790,39 @@ Database:
       Name: Hadweenzic River
       Fire_Name: Hadweenzic River
       UniqueFireIdentifier: 2019-AKUYD-000337
-      DailyAcres: 27161
+      DailyAcres: 30070
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-06T02:00Z'
-      ICS209ReportDateTimeEpoch: 1562378400000
+      ICS209ReportDateTime: '2019-07-07T02:00Z'
+      ICS209ReportDateTimeEpoch: 1562464800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 306572
+      EstimatedCostToDate: 249282
       FireCause: Natural
-      TotalIncidentPersonnel: 8
+      TotalIncidentPersonnel: 16
       FireDiscoveryDateTime: '2019-06-22T23:46Z'
       FireDiscoveryDateTimeEpoch: 1561247160000
       DispatchCenterID: AKYTDC
       LocalIncidentIdentifier: '000337'
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-06T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562378400000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-07T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562464800000
+      ModifiedBySystem: ifm
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000337
-      ModifiedOnDateTime_Raw: '2019-07-06T16:27Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562430470000
+      ModifiedOnDateTime_Raw: '2019-07-07T03:41Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562470878000
       Hashtag: '#HadweenzicRiverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T18:33:59.066Z'
+          RetrievedOn: '2019-07-07T04:01:16.122Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -8766,34 +8836,34 @@ Database:
     Name: Hadweenzic River
     Fire_Name: Hadweenzic River
     UniqueFireIdentifier: 2019-AKUYD-000337
-    DailyAcres: 27161
+    DailyAcres: 30070
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-06T02:00Z'
-    ICS209ReportDateTimeEpoch: 1562378400000
+    ICS209ReportDateTime: '2019-07-07T02:00Z'
+    ICS209ReportDateTimeEpoch: 1562464800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 306572
+    EstimatedCostToDate: 249282
     FireCause: Natural
-    TotalIncidentPersonnel: 8
+    TotalIncidentPersonnel: 16
     FireDiscoveryDateTime: '2019-06-22T23:46Z'
     FireDiscoveryDateTimeEpoch: 1561247160000
     DispatchCenterID: AKYTDC
     LocalIncidentIdentifier: '000337'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-06T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562378400000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-07T02:00Z'
+    ModifiedOnDateTimeEpoch: 1562464800000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKUYD-000337
-    ModifiedOnDateTime_Raw: '2019-07-06T16:27Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562430470000
+    ModifiedOnDateTime_Raw: '2019-07-07T03:41Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562470878000
     Hashtag: '#HadweenzicRiverFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-04T09:28Z'
@@ -8802,7 +8872,7 @@ Database:
       Acres: 27160.9858482
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T18:34:01.801Z'
+          RetrievedOn: '2019-07-07T04:01:18.706Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -8823,8 +8893,8 @@ Database:
     Final_Fire_Name: Hadweenzic River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-06T02:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000337-NAME-HadweenzicRiver-S-N
-      Code: f5b97864cc067ab3b3e557edd53b02eff54063b9764266cbf74168f1d780e242
+        UPD-2019-07-07T02:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000337-NAME-HadweenzicRiver-S-N
+      Code: ed0fb7d224156f33b3a429b1f830e25c523d2b4dd72a6ae1966c51c9a53b56cf
   2019-AKUYD-000348:
     Source_NFSA_Join:
       Lon: -144.05332692169452
@@ -8950,12 +9020,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-06T02:00Z'
-      ICS209ReportDateTimeEpoch: 1562378400000
+      ICS209ReportDateTime: '2019-07-07T01:00Z'
+      ICS209ReportDateTimeEpoch: 1562461200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 125600
+      EstimatedCostToDate: 317879
       FireCause: Natural
       TotalIncidentPersonnel: 64
       FireDiscoveryDateTime: '2019-06-23T02:58Z'
@@ -8964,21 +9034,21 @@ Database:
       LocalIncidentIdentifier: 000349
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-06T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562378400000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-07T01:00Z'
+      ModifiedOnDateTimeEpoch: 1562461200000
+      ModifiedBySystem: ifm
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000349
-      ModifiedOnDateTime_Raw: '2019-07-06T13:14Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562418898000
+      ModifiedOnDateTime_Raw: '2019-07-07T03:40Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562470848000
       Hashtag: '#ChandalarRiverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T18:33:59.066Z'
+          RetrievedOn: '2019-07-07T04:01:16.122Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -8996,12 +9066,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-06T02:00Z'
-    ICS209ReportDateTimeEpoch: 1562378400000
+    ICS209ReportDateTime: '2019-07-07T01:00Z'
+    ICS209ReportDateTimeEpoch: 1562461200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 125600
+    EstimatedCostToDate: 317879
     FireCause: Natural
     TotalIncidentPersonnel: 64
     FireDiscoveryDateTime: '2019-06-23T02:58Z'
@@ -9010,16 +9080,16 @@ Database:
     LocalIncidentIdentifier: 000349
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-06T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562378400000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-07T01:00Z'
+    ModifiedOnDateTimeEpoch: 1562461200000
+    ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKUYD-000349
-    ModifiedOnDateTime_Raw: '2019-07-06T13:14Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562418898000
+    ModifiedOnDateTime_Raw: '2019-07-07T03:40Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562470848000
     Hashtag: '#ChandalarRiverFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-04T09:28Z'
@@ -9028,7 +9098,7 @@ Database:
       Acres: 2004.82104217
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T18:34:01.801Z'
+          RetrievedOn: '2019-07-07T04:01:18.706Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -9049,8 +9119,8 @@ Database:
     Final_Fire_Name: Chandalar River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-06T02:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000349-NAME-ChandalarRiver-S-N
-      Code: d0ae403cb82381c7190c16d3959b3843d60e33d73a916cdeb310ceefee4424cb
+        UPD-2019-07-07T01:00Z-PER-2019-07-04T09:28Z-ID-2019-AKUYD-000349-NAME-ChandalarRiver-S-N
+      Code: 587b71da2f6ffb69b4959071204e90423e9070a6975b2ffdad98ff5158ea825a
   2019-AKSWS-904351:
     Source_NFSA_Join:
       Lon: -155.5600270590383
@@ -23349,3 +23419,165 @@ Database:
       UpdateId: >-
         UPD-2019-07-07T03:21Z-PER-none-ID-CALFIRE-2d3b577c-7b58-4ee3-9e21-cbec5abd8ce4-NAME-FarFire-S-C
       Code: bab2bc4822450d5c9b42379bd89c925441f5ed7d7218fbec4fafff1368d20cf9
+  2019-AKUYD-000424:
+    Source_NFSA_Join:
+      Lon: -141.67662722504096
+      Lat: 66.53822220413166
+      id: 121169
+      Name: Tettjajik Creek
+      Fire_Name: Tettjajik Creek
+      UniqueFireIdentifier: 2019-AKUYD-000424
+      DailyAcres: 1200
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-07-07T03:00Z'
+      ICS209ReportDateTimeEpoch: 1562468400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1000
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-03T00:51Z'
+      FireDiscoveryDateTimeEpoch: 1562115060000
+      DispatchCenterID: AKYTDC
+      LocalIncidentIdentifier: '000424'
+      POOCounty: Yukon-Koyukuk
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-07T03:00Z'
+      ModifiedOnDateTimeEpoch: 1562468400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKUYD-000424
+      ModifiedOnDateTime_Raw: '2019-07-07T03:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562471426000
+      Hashtag: '#TettjajikCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T04:01:16.122Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -141.676627587976
+      Lat: 66.53822273591128
+      objectid: 24
+      latitude: 66.53822
+      longitude: -141.6766
+      acres: 1200
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-07T03:00Z'
+      reportdatetimeEpoch: 1562468400000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKUYD-000424
+      firediscoverydatetime: '2019-07-03T00:51Z'
+      firediscoverydatetimeEpoch: 1562115060000
+      complexparentirwinid: null
+      pooresponsibleunit: AKUYD
+      incidentname: Tettjajik Creek
+      iscomplex: 'false'
+      irwinid: '{CEDAE15F-F907-40E3-8547-7F0EEFA3F938}'
+      irwinmodifiedon: '2019-07-07T03:50Z'
+      irwinmodifiedonEpoch: 1562471426000
+      mapsymbol: '1'
+      datecurrent: '2019-07-06T22:00Z'
+      datecurrentEpoch: 1562450415000
+      pooownerunit: AKEID
+      fireyear: 2019
+      localincidentidentifier: '000424'
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1200
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-07T03:00Z'
+      ModifiedOnDateTimeEpoch: 1562468400000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKUYD-000424
+      FireDiscoveryDateTime: '2019-07-03T00:51Z'
+      FireDiscoveryDateTimeEpoch: 1562115060000
+      Fire_Name: Tettjajik Creek
+      Name: Tettjajik Creek
+      Source: GEOMAC
+      Hashtag: '#TettjajikCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T04:01:16.123Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKUYD-000424
+    Lon: -141.67662722504096
+    Lat: 66.53822220413166
+    id: 121169
+    Name: Tettjajik Creek
+    Fire_Name: Tettjajik Creek
+    UniqueFireIdentifier: 2019-AKUYD-000424
+    DailyAcres: 1200
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-07-07T03:00Z'
+    ICS209ReportDateTimeEpoch: 1562468400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1000
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-03T00:51Z'
+    FireDiscoveryDateTimeEpoch: 1562115060000
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: '000424'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-07T03:00Z'
+    ModifiedOnDateTimeEpoch: 1562468400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKUYD-000424
+    ModifiedOnDateTime_Raw: '2019-07-07T03:50Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562471426000
+    Hashtag: '#TettjajikCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AKUYD
+    unitMention: Alaska Fire Service - Upper Yukon Zone
+    Final_Fire_Name: Tettjajik Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-07T03:00Z-PER-none-ID-2019-AKUYD-000424-NAME-TettjajikCreek-S-N
+      Code: 8995ec0616ea143186fae2664ae58dee8a68ea97ffbe6a433bf617acbef4317e
