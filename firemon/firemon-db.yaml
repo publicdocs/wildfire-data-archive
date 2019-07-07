@@ -4546,10 +4546,57 @@ Database:
       UpdateId: 'UPD-2019-07-06T00:00Z-PER-none-ID-2019-FLFLS-180157-NAME-TWOALPHA06-S-G'
       Code: 94096f1b26e8ce2df12c34a8f7b5980532d766bad3f5bd9bab747a57bf0a0c16
   2019-AZASF-000394:
+    Source_NFSA_Join:
+      Lon: -109.5755102100867
+      Lat: 34.16364667594324
+      id: 120798
+      Name: Whiting
+      Fire_Name: Whiting
+      UniqueFireIdentifier: 2019-AZASF-000394
+      DailyAcres: 2280
+      PercentContained: 50
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-07T00:00Z'
+      ICS209ReportDateTimeEpoch: 1562457600000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 125000
+      FireCause: Natural
+      TotalIncidentPersonnel: 90
+      FireDiscoveryDateTime: '2019-06-30T17:00Z'
+      FireDiscoveryDateTimeEpoch: 1561914000000
+      DispatchCenterID: AZSDC
+      LocalIncidentIdentifier: 000394
+      POOCounty: Apache
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-07T00:00Z'
+      ModifiedOnDateTimeEpoch: 1562457600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZASF-000394
+      ModifiedOnDateTime_Raw: '2019-07-07T00:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562458457000
+      Hashtag: '#WhitingFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T00:30:55.221Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
       Lon: -109.58056617213705
       Lat: 34.16417204938506
-      objectid: 22
+      objectid: 21
       latitude: 34.1641667
       longitude: -109.5805556
       acres: 2280
@@ -4558,8 +4605,8 @@ Database:
       state: AZ
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-06T00:30Z'
-      reportdatetimeEpoch: 1562373000000
+      reportdatetime: '2019-07-07T00:00Z'
+      reportdatetimeEpoch: 1562457600000
       percentcontained: 50
       uniquefireidentifier: 2019-AZASF-000394
       firediscoverydatetime: '2019-06-30T17:00Z'
@@ -4569,11 +4616,11 @@ Database:
       incidentname: Whiting
       iscomplex: 'false'
       irwinid: '{802F2E08-DA26-4B2E-863C-8059A95C5CEB}'
-      irwinmodifiedon: '2019-07-06T00:34Z'
-      irwinmodifiedonEpoch: 1562373278000
+      irwinmodifiedon: '2019-07-07T00:14Z'
+      irwinmodifiedonEpoch: 1562458457000
       mapsymbol: '1'
-      datecurrent: '2019-07-05T19:00Z'
-      datecurrentEpoch: 1562353216000
+      datecurrent: '2019-07-06T18:30Z'
+      datecurrentEpoch: 1562437819000
       pooownerunit: AZASF
       fireyear: 2019
       localincidentidentifier: 000394
@@ -4583,8 +4630,8 @@ Database:
       complexname: null
       DailyAcres: 2280
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-06T00:30Z'
-      ModifiedOnDateTimeEpoch: 1562373000000
+      ModifiedOnDateTime: '2019-07-07T00:00Z'
+      ModifiedOnDateTimeEpoch: 1562457600000
       PercentContained: 50
       UniqueFireIdentifier: 2019-AZASF-000394
       FireDiscoveryDateTime: '2019-06-30T17:00Z'
@@ -4595,7 +4642,7 @@ Database:
       Hashtag: '#WhitingFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T01:00:19.499Z'
+          RetrievedOn: '2019-07-07T00:30:55.222Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -4612,54 +4659,42 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AZASF-000394
-    Lon: -109.58056617213705
-    Lat: 34.16417204938506
-    objectid: 22
-    latitude: 34.1641667
-    longitude: -109.5805556
-    acres: 2280
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-06T00:30Z'
-    reportdatetimeEpoch: 1562373000000
-    percentcontained: 50
-    uniquefireidentifier: 2019-AZASF-000394
-    firediscoverydatetime: '2019-06-30T17:00Z'
-    firediscoverydatetimeEpoch: 1561914000000
-    complexparentirwinid: null
-    pooresponsibleunit: AZASF
-    incidentname: Whiting
-    iscomplex: 'false'
-    irwinid: '{802F2E08-DA26-4B2E-863C-8059A95C5CEB}'
-    irwinmodifiedon: '2019-07-06T00:34Z'
-    irwinmodifiedonEpoch: 1562373278000
-    mapsymbol: '1'
-    datecurrent: '2019-07-05T19:00Z'
-    datecurrentEpoch: 1562353216000
-    pooownerunit: AZASF
-    fireyear: 2019
-    localincidentidentifier: 000394
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 2280
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-06T00:30Z'
-    ModifiedOnDateTimeEpoch: 1562373000000
-    PercentContained: 50
+    Lon: -109.5755102100867
+    Lat: 34.16364667594324
+    id: 120798
+    Name: Whiting
+    Fire_Name: Whiting
     UniqueFireIdentifier: 2019-AZASF-000394
+    DailyAcres: 2280
+    PercentContained: 50
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-07T00:00Z'
+    ICS209ReportDateTimeEpoch: 1562457600000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 125000
+    FireCause: Natural
+    TotalIncidentPersonnel: 90
     FireDiscoveryDateTime: '2019-06-30T17:00Z'
     FireDiscoveryDateTimeEpoch: 1561914000000
-    Fire_Name: Whiting
-    Name: Whiting
-    Source: GEOMAC
-    Hashtag: '#WhitingFire'
+    DispatchCenterID: AZSDC
+    LocalIncidentIdentifier: 000394
+    POOCounty: Apache
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-07T00:00Z'
+    ModifiedOnDateTimeEpoch: 1562457600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZASF-000394
+    ModifiedOnDateTime_Raw: '2019-07-07T00:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562458457000
+    Hashtag: '#WhitingFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -4669,8 +4704,8 @@ Database:
     unitMention: Apache-Sitgreaves NF
     Final_Fire_Name: Whiting Fire
     _Update:
-      UpdateId: 'UPD-2019-07-06T00:30Z-PER-none-ID-2019-AZASF-000394-NAME-Whiting-S-G'
-      Code: 572b1cfde283585e0427c9eb7e0e0d04bae08ebd0d5d78fa0e7f0628b302ffed
+      UpdateId: 'UPD-2019-07-07T00:00Z-PER-none-ID-2019-AZASF-000394-NAME-Whiting-S-N'
+      Code: 112fc8adf26ae57733a1834c0514781c177f4f27a386e54a349b77ba24878d74
   2019-AZCNF-000317:
     Source_GEOMAC:
       Lon: -109.02667697145745
