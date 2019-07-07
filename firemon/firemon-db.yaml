@@ -429,20 +429,67 @@ Database:
         UPD-2019-07-06T01:30Z-PER-2019-06-28T18:20Z-ID-2019-AKFAS-911255-NAME-CaribouCreek-S-G
       Code: c7dfa2331b90b648302828c00d0b32921fe562ed43cfd2283220b4ec5549d573
   2019-UTFIF-190067:
+    Source_NFSA_Join:
+      Lon: -112.51341441418823
+      Lat: 38.282684645922366
+      id: 119426
+      Name: Skull Flat
+      Fire_Name: Skull Flat
+      UniqueFireIdentifier: 2019-UTFIF-190067
+      DailyAcres: 1667
+      PercentContained: 50
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-06T23:00Z'
+      ICS209ReportDateTimeEpoch: 1562454000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1102000
+      FireCause: Natural
+      TotalIncidentPersonnel: 149
+      FireDiscoveryDateTime: '2019-06-18T14:08Z'
+      FireDiscoveryDateTimeEpoch: 1560866880000
+      DispatchCenterID: UTRFC
+      LocalIncidentIdentifier: '190067'
+      POOCounty: Beaver
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-06T23:00Z'
+      ModifiedOnDateTimeEpoch: 1562454000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-UTFIF-190067
+      ModifiedOnDateTime_Raw: '2019-07-06T23:38Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562456300000
+      Hashtag: '#SkullFlatFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T00:00:46.286Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
       Lon: -112.51334485332826
       Lat: 38.282783506164904
       objectid: 4
       latitude: 38.2827778
       longitude: -112.5133333
-      acres: 1517
+      acres: 1667
       gacc: GBCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: UT
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-05T23:00Z'
-      reportdatetimeEpoch: 1562367600000
+      reportdatetime: '2019-07-06T23:00Z'
+      reportdatetimeEpoch: 1562454000000
       percentcontained: 50
       uniquefireidentifier: 2019-UTFIF-190067
       firediscoverydatetime: '2019-06-18T14:08Z'
@@ -452,11 +499,11 @@ Database:
       incidentname: Skull Flat
       iscomplex: 'false'
       irwinid: '{C490D4C2-D7E1-47B5-8E04-B1D6423F21D6}'
-      irwinmodifiedon: '2019-07-05T23:24Z'
-      irwinmodifiedonEpoch: 1562369096000
+      irwinmodifiedon: '2019-07-06T23:38Z'
+      irwinmodifiedonEpoch: 1562456300000
       mapsymbol: '1'
-      datecurrent: '2019-07-05T17:30Z'
-      datecurrentEpoch: 1562347821000
+      datecurrent: '2019-07-06T18:00Z'
+      datecurrentEpoch: 1562436015000
       pooownerunit: USTFIF
       fireyear: 2019
       localincidentidentifier: '190067'
@@ -464,10 +511,10 @@ Database:
       owneragency: USFS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 1517
+      DailyAcres: 1667
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-05T23:00Z'
-      ModifiedOnDateTimeEpoch: 1562367600000
+      ModifiedOnDateTime: '2019-07-06T23:00Z'
+      ModifiedOnDateTimeEpoch: 1562454000000
       PercentContained: 50
       UniqueFireIdentifier: 2019-UTFIF-190067
       FireDiscoveryDateTime: '2019-06-18T14:08Z'
@@ -478,7 +525,7 @@ Database:
       Hashtag: '#SkullFlatFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-05T23:30:52.041Z'
+          RetrievedOn: '2019-07-07T00:00:46.287Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -495,61 +542,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-UTFIF-190067
-    Lon: -112.51334485332826
-    Lat: 38.282783506164904
-    objectid: 4
-    latitude: 38.2827778
-    longitude: -112.5133333
-    acres: 1517
-    gacc: GBCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: UT
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-05T23:00Z'
-    reportdatetimeEpoch: 1562367600000
-    percentcontained: 50
-    uniquefireidentifier: 2019-UTFIF-190067
-    firediscoverydatetime: '2019-06-18T14:08Z'
-    firediscoverydatetimeEpoch: 1560866880000
-    complexparentirwinid: null
-    pooresponsibleunit: UTFIF
-    incidentname: Skull Flat
-    iscomplex: 'false'
-    irwinid: '{C490D4C2-D7E1-47B5-8E04-B1D6423F21D6}'
-    irwinmodifiedon: '2019-07-05T23:24Z'
-    irwinmodifiedonEpoch: 1562369096000
-    mapsymbol: '1'
-    datecurrent: '2019-07-05T17:30Z'
-    datecurrentEpoch: 1562347821000
-    pooownerunit: USTFIF
-    fireyear: 2019
-    localincidentidentifier: '190067'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 1517
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-05T23:00Z'
-    ModifiedOnDateTimeEpoch: 1562367600000
-    PercentContained: 50
+    Lon: -112.51341441418823
+    Lat: 38.282684645922366
+    id: 119426
+    Name: Skull Flat
+    Fire_Name: Skull Flat
     UniqueFireIdentifier: 2019-UTFIF-190067
+    DailyAcres: 1667
+    PercentContained: 50
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-06T23:00Z'
+    ICS209ReportDateTimeEpoch: 1562454000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1102000
+    FireCause: Natural
+    TotalIncidentPersonnel: 149
     FireDiscoveryDateTime: '2019-06-18T14:08Z'
     FireDiscoveryDateTimeEpoch: 1560866880000
-    Fire_Name: Skull Flat
-    Name: Skull Flat
-    Source: GEOMAC
-    Hashtag: '#SkullFlatFire'
+    DispatchCenterID: UTRFC
+    LocalIncidentIdentifier: '190067'
+    POOCounty: Beaver
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-06T23:00Z'
+    ModifiedOnDateTimeEpoch: 1562454000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-UTFIF-190067
+    ModifiedOnDateTime_Raw: '2019-07-06T23:38Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562456300000
+    Hashtag: '#SkullFlatFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-02T00:52Z'
     PerimeterData:
       DateTime: '2019-07-02T00:52Z'
       Acres: 1522.78367322
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-05T23:30:52.677Z'
+          RetrievedOn: '2019-07-07T00:00:47.622Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -570,8 +605,8 @@ Database:
     Final_Fire_Name: Skull Flat Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-05T23:00Z-PER-2019-07-02T00:52Z-ID-2019-UTFIF-190067-NAME-SkullFlat-S-G
-      Code: 9b2054f251bfb79533dedaa12aae981c9ded786e9ae132baa55b43b7fa44919e
+        UPD-2019-07-06T23:00Z-PER-2019-07-02T00:52Z-ID-2019-UTFIF-190067-NAME-SkullFlat-S-N
+      Code: e3d95b43228bee6afe9b2fa205b99d0447bdc3695a0665de1c2fd2c7ddc299d5
   2019-CAMNF-000241:
     Source_GEOMAC:
       Lon: -123.06390250559805
@@ -5213,6 +5248,53 @@ Database:
         UPD-2019-07-04T18:00Z-PER-2019-07-04T09:28Z-ID-2019-AKMID-000390-NAME-Beaver-S-G
       Code: e45dfe980058cff8f254cf66c428c8e6b444745f37afe7ce6a048967c8592660
   2019-AZPNF-000828:
+    Source_NFSA_Join:
+      Lon: -112.13800845695468
+      Lat: 34.46814482960654
+      id: 121388
+      Name: Orme
+      Fire_Name: Orme
+      UniqueFireIdentifier: 2019-AZPNF-000828
+      DailyAcres: 895
+      PercentContained: 70
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-06T23:30Z'
+      ICS209ReportDateTimeEpoch: 1562455800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 480000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 25
+      FireDiscoveryDateTime: '2019-07-04T18:35Z'
+      FireDiscoveryDateTimeEpoch: 1562265300000
+      DispatchCenterID: AZPDC
+      LocalIncidentIdentifier: 000828
+      POOCounty: Yavapai
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-06T23:30Z'
+      ModifiedOnDateTimeEpoch: 1562455800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZPNF-000828
+      ModifiedOnDateTime_Raw: '2019-07-06T23:40Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562456406000
+      Hashtag: '#OrmeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T00:00:46.286Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
       Lon: -112.13801111067342
       Lat: 34.46814525088056
@@ -5225,9 +5307,9 @@ Database:
       state: AZ
       status: U
       firecause: Unknown
-      reportdatetime: '2019-07-06T01:00Z'
-      reportdatetimeEpoch: 1562374800000
-      percentcontained: 60
+      reportdatetime: '2019-07-06T23:30Z'
+      reportdatetimeEpoch: 1562455800000
+      percentcontained: 70
       uniquefireidentifier: 2019-AZPNF-000828
       firediscoverydatetime: '2019-07-04T18:35Z'
       firediscoverydatetimeEpoch: 1562265300000
@@ -5236,11 +5318,11 @@ Database:
       incidentname: Orme
       iscomplex: 'false'
       irwinid: '{274AA899-1EF0-4B94-97C3-C06B993C9DBC}'
-      irwinmodifiedon: '2019-07-06T02:43Z'
-      irwinmodifiedonEpoch: 1562381014000
+      irwinmodifiedon: '2019-07-06T23:40Z'
+      irwinmodifiedonEpoch: 1562456407000
       mapsymbol: '1'
-      datecurrent: '2019-07-05T21:00Z'
-      datecurrentEpoch: 1562360424000
+      datecurrent: '2019-07-06T18:00Z'
+      datecurrentEpoch: 1562436015000
       pooownerunit: AZPNF
       fireyear: 2019
       localincidentidentifier: 000828
@@ -5250,9 +5332,9 @@ Database:
       complexname: null
       DailyAcres: 895
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-06T01:00Z'
-      ModifiedOnDateTimeEpoch: 1562374800000
-      PercentContained: 60
+      ModifiedOnDateTime: '2019-07-06T23:30Z'
+      ModifiedOnDateTimeEpoch: 1562455800000
+      PercentContained: 70
       UniqueFireIdentifier: 2019-AZPNF-000828
       FireDiscoveryDateTime: '2019-07-04T18:35Z'
       FireDiscoveryDateTimeEpoch: 1562265300000
@@ -5262,7 +5344,7 @@ Database:
       Hashtag: '#OrmeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T03:00:36.892Z'
+          RetrievedOn: '2019-07-07T00:00:46.287Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -5279,54 +5361,42 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AZPNF-000828
-    Lon: -112.13801111067342
-    Lat: 34.46814525088056
-    objectid: 26
-    latitude: 34.46814
-    longitude: -112.138
-    acres: 895
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-07-06T01:00Z'
-    reportdatetimeEpoch: 1562374800000
-    percentcontained: 60
-    uniquefireidentifier: 2019-AZPNF-000828
-    firediscoverydatetime: '2019-07-04T18:35Z'
-    firediscoverydatetimeEpoch: 1562265300000
-    complexparentirwinid: null
-    pooresponsibleunit: AZPNF
-    incidentname: Orme
-    iscomplex: 'false'
-    irwinid: '{274AA899-1EF0-4B94-97C3-C06B993C9DBC}'
-    irwinmodifiedon: '2019-07-06T02:43Z'
-    irwinmodifiedonEpoch: 1562381014000
-    mapsymbol: '1'
-    datecurrent: '2019-07-05T21:00Z'
-    datecurrentEpoch: 1562360424000
-    pooownerunit: AZPNF
-    fireyear: 2019
-    localincidentidentifier: 000828
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 895
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-07-06T01:00Z'
-    ModifiedOnDateTimeEpoch: 1562374800000
-    PercentContained: 60
+    Lon: -112.13800845695468
+    Lat: 34.46814482960654
+    id: 121388
+    Name: Orme
+    Fire_Name: Orme
     UniqueFireIdentifier: 2019-AZPNF-000828
+    DailyAcres: 895
+    PercentContained: 70
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-06T23:30Z'
+    ICS209ReportDateTimeEpoch: 1562455800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 480000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 25
     FireDiscoveryDateTime: '2019-07-04T18:35Z'
     FireDiscoveryDateTimeEpoch: 1562265300000
-    Fire_Name: Orme
-    Name: Orme
-    Source: GEOMAC
-    Hashtag: '#OrmeFire'
+    DispatchCenterID: AZPDC
+    LocalIncidentIdentifier: 000828
+    POOCounty: Yavapai
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-06T23:30Z'
+    ModifiedOnDateTimeEpoch: 1562455800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZPNF-000828
+    ModifiedOnDateTime_Raw: '2019-07-06T23:40Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562456406000
+    Hashtag: '#OrmeFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -5336,8 +5406,8 @@ Database:
     unitMention: Prescott NF
     Final_Fire_Name: Orme Fire
     _Update:
-      UpdateId: 'UPD-2019-07-06T01:00Z-PER-none-ID-2019-AZPNF-000828-NAME-Orme-S-G'
-      Code: 00f2e8a34155b04a02a94f8ab1c4d0a318a8e713963f4faf8b8ecfb9628f60d7
+      UpdateId: 'UPD-2019-07-06T23:30Z-PER-none-ID-2019-AZPNF-000828-NAME-Orme-S-N'
+      Code: 06c674cd250ff2e7b1c8351ac39c973918d23462e0eabacd95f2ee9b1b7a0f9d
   2019-AKTAD-000389:
     Source_GEOMAC:
       Lon: -151.74952476594177
@@ -6540,120 +6610,89 @@ Database:
         UPD-2019-07-05T23:37Z-PER-none-ID-CALFIRE-0f965f2f-3977-4ba5-bf7c-29feef27ee82-NAME-SnowstormFire-S-C
       Code: 5b29573007e1ad0ed1f9633c3f6d7736db86564c483cfefd21dfe907d22a5105
   2019-AZA3S-001038:
-    Source_GEOMAC:
-      Lon: -109.91891046700329
-      Lat: 31.650054963481367
-      objectid: 27
-      latitude: 31.65005
-      longitude: -109.9189
-      acres: 402.7
-      gacc: SWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AZ
-      status: I
-      firecause: Unknown
-      reportdatetime: '2019-07-05T22:45Z'
-      reportdatetimeEpoch: 1562366700000
-      percentcontained: 30
-      uniquefireidentifier: 2019-AZA3S-001038
-      firediscoverydatetime: '2019-07-05T17:46Z'
-      firediscoverydatetimeEpoch: 1562348760000
-      complexparentirwinid: null
-      pooresponsibleunit: AZA3S
-      incidentname: HOFMANN
-      iscomplex: 'false'
-      irwinid: '{0BF5EDC9-AFC6-4169-9227-2E54D9F67ADB}'
-      irwinmodifiedon: '2019-07-06T01:13Z'
-      irwinmodifiedonEpoch: 1562375588000
-      mapsymbol: '1'
-      datecurrent: '2019-07-05T19:30Z'
-      datecurrentEpoch: 1562355015000
-      pooownerunit: AZAZS
-      fireyear: 2019
-      localincidentidentifier: 001038
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 402.7
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-05T22:45Z'
-      ModifiedOnDateTimeEpoch: 1562366700000
-      PercentContained: 30
+    Source_NFSA_Join:
+      Lon: -109.91890919374707
+      Lat: 31.65005455356806
+      id: 121709
+      Name: HOFMANN
+      Fire_Name: HOFMANN
       UniqueFireIdentifier: 2019-AZA3S-001038
+      DailyAcres: 402.7
+      PercentContained: 85
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-06T23:30Z'
+      ICS209ReportDateTimeEpoch: 1562455800000
+      ICS209ReportStatus: F
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 25000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 32
       FireDiscoveryDateTime: '2019-07-05T17:46Z'
       FireDiscoveryDateTimeEpoch: 1562348760000
-      Fire_Name: HOFMANN
-      Name: HOFMANN
-      Source: GEOMAC
+      DispatchCenterID: AZADC
+      LocalIncidentIdentifier: 001038
+      POOCounty: Cochise
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-06T23:30Z'
+      ModifiedOnDateTimeEpoch: 1562455800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZA3S-001038
+      ModifiedOnDateTime_Raw: '2019-07-06T23:49Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562456997000
       Hashtag: '#HofmannFire'
+      NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T01:31:16.126Z'
+          RetrievedOn: '2019-07-07T00:00:46.286Z'
           Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
             headers:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-      _CorrelationIds:
-        - 2019-AZA3S-001038
-    Lon: -109.91891046700329
-    Lat: 31.650054963481367
-    objectid: 27
-    latitude: 31.65005
-    longitude: -109.9189
-    acres: 402.7
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: I
-    firecause: Unknown
-    reportdatetime: '2019-07-05T22:45Z'
-    reportdatetimeEpoch: 1562366700000
-    percentcontained: 30
-    uniquefireidentifier: 2019-AZA3S-001038
-    firediscoverydatetime: '2019-07-05T17:46Z'
-    firediscoverydatetimeEpoch: 1562348760000
-    complexparentirwinid: null
-    pooresponsibleunit: AZA3S
-    incidentname: HOFMANN
-    iscomplex: 'false'
-    irwinid: '{0BF5EDC9-AFC6-4169-9227-2E54D9F67ADB}'
-    irwinmodifiedon: '2019-07-06T01:13Z'
-    irwinmodifiedonEpoch: 1562375588000
-    mapsymbol: '1'
-    datecurrent: '2019-07-05T19:30Z'
-    datecurrentEpoch: 1562355015000
-    pooownerunit: AZAZS
-    fireyear: 2019
-    localincidentidentifier: 001038
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 402.7
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-07-05T22:45Z'
-    ModifiedOnDateTimeEpoch: 1562366700000
-    PercentContained: 30
+    Lon: -109.91890919374707
+    Lat: 31.65005455356806
+    id: 121709
+    Name: HOFMANN
+    Fire_Name: HOFMANN
     UniqueFireIdentifier: 2019-AZA3S-001038
+    DailyAcres: 402.7
+    PercentContained: 85
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-06T23:30Z'
+    ICS209ReportDateTimeEpoch: 1562455800000
+    ICS209ReportStatus: F
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 25000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 32
     FireDiscoveryDateTime: '2019-07-05T17:46Z'
     FireDiscoveryDateTimeEpoch: 1562348760000
-    Fire_Name: HOFMANN
-    Name: HOFMANN
-    Source: GEOMAC
-    Hashtag: '#HofmannFire'
+    DispatchCenterID: AZADC
+    LocalIncidentIdentifier: 001038
+    POOCounty: Cochise
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-06T23:30Z'
+    ModifiedOnDateTimeEpoch: 1562455800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZA3S-001038
+    ModifiedOnDateTime_Raw: '2019-07-06T23:49Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562456997000
+    Hashtag: '#HofmannFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -6663,8 +6702,8 @@ Database:
     unitMention: '@AZStateForestry'
     Final_Fire_Name: Hofmann Fire
     _Update:
-      UpdateId: 'UPD-2019-07-05T22:45Z-PER-none-ID-2019-AZA3S-001038-NAME-HOFMANN-S-G'
-      Code: e1982f3403b947dcf8c85ce41480e98383e4cbacb86b314a5374cc1538940cf2
+      UpdateId: 'UPD-2019-07-06T23:30Z-PER-none-ID-2019-AZA3S-001038-NAME-HOFMANN-S-N'
+      Code: 43ef24b0adeae0ce4c214083b4bd6ef3f5a6b23950b160c34e15b291925dddac
   2019-AKMSS-901429:
     Source_GEOMAC:
       Lon: -149.98696810287367
