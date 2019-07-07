@@ -17681,43 +17681,43 @@ Database:
     Source_NFSA_Join:
       Lon: -118.51289388755602
       Lat: 47.89222736649012
-      Name: Lundstroms
-      popupinfo: null
       id: 121787
-      calc_symboltype: NewIrwinOnly
+      Name: Lundstroms
       Fire_Name: Lundstroms
       UniqueFireIdentifier: 2019-WACOA-190082
       DailyAcres: 5
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-07T17:30Z'
+      ICS209ReportDateTimeEpoch: 1562520600000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 50000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 41
       FireDiscoveryDateTime: '2019-07-06T01:39Z'
       FireDiscoveryDateTimeEpoch: 1562377140000
       DispatchCenterID: WACAC
       LocalIncidentIdentifier: '190082'
       POOCounty: Ferry
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-06T02:56Z'
-      ModifiedOnDateTimeEpoch: 1562381783000
-      ModifiedBySystem: firecode
+      ModifiedOnDateTime: '2019-07-07T17:30Z'
+      ModifiedOnDateTimeEpoch: 1562520600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-WACOA-190082
-      ModifiedOnDateTime_Raw: '2019-07-06T02:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562381783000
+      ModifiedOnDateTime_Raw: '2019-07-07T17:55Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562522130000
       Hashtag: '#LundstromsFire'
-      NFSAType: Emerging WF < 24 hours
+      NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T18:33:59.066Z'
+          RetrievedOn: '2019-07-07T18:01:51.496Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -17727,40 +17727,40 @@ Database:
         Modified: true
     Lon: -118.51289388755602
     Lat: 47.89222736649012
-    Name: Lundstroms
-    popupinfo: null
     id: 121787
-    calc_symboltype: NewIrwinOnly
+    Name: Lundstroms
     Fire_Name: Lundstroms
     UniqueFireIdentifier: 2019-WACOA-190082
     DailyAcres: 5
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-07T17:30Z'
+    ICS209ReportDateTimeEpoch: 1562520600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 50000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 41
     FireDiscoveryDateTime: '2019-07-06T01:39Z'
     FireDiscoveryDateTimeEpoch: 1562377140000
     DispatchCenterID: WACAC
     LocalIncidentIdentifier: '190082'
     POOCounty: Ferry
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-06T02:56Z'
-    ModifiedOnDateTimeEpoch: 1562381783000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-07-07T17:30Z'
+    ModifiedOnDateTimeEpoch: 1562520600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-WACOA-190082
-    ModifiedOnDateTime_Raw: '2019-07-06T02:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562381783000
+    ModifiedOnDateTime_Raw: '2019-07-07T17:55Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562522130000
     Hashtag: '#LundstromsFire'
-    NFSAType: Emerging WF < 24 hours
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -17770,8 +17770,8 @@ Database:
     unitMention: Colville Agency
     Final_Fire_Name: Lundstroms Fire
     _Update:
-      UpdateId: 'UPD-2019-07-06T02:56Z-PER-none-ID-2019-WACOA-190082-NAME-Lundstroms-S-N'
-      Code: 997af9b1aaa70bcd7bc137f2caab3b313e00aa35662976b92038dc7af7dc176c
+      UpdateId: 'UPD-2019-07-07T17:30Z-PER-none-ID-2019-WACOA-190082-NAME-Lundstroms-S-N'
+      Code: 8fd15c14527a37bcfca026392d27bf812cdc454c071518070494247846bcc9bb
   2019-UTBRS-000257:
     Source_NFSA_Join:
       Lon: -111.71391381132186
@@ -23973,7 +23973,7 @@ Database:
       Name: Buffalo
       Fire_Name: Buffalo
       UniqueFireIdentifier: 2019-NVWID-020135
-      DailyAcres: 5000
+      DailyAcres: 5308.8
       PercentContained: null
       FireMgmtComplexity: null
       IncidentManagementOrganization: null
@@ -23991,21 +23991,21 @@ Database:
       LocalIncidentIdentifier: '020135'
       POOCounty: Humboldt
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-07T13:07Z'
-      ModifiedOnDateTimeEpoch: 1562504823000
+      ModifiedOnDateTime: '2019-07-07T17:48Z'
+      ModifiedOnDateTimeEpoch: 1562521699000
       ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVWID-020135
-      ModifiedOnDateTime_Raw: '2019-07-07T13:07Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562504823000
+      ModifiedOnDateTime_Raw: '2019-07-07T17:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562521699000
       Hashtag: '#BuffaloFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-07T13:31:15.220Z'
+          RetrievedOn: '2019-07-07T18:01:51.496Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -24019,7 +24019,7 @@ Database:
     Name: Buffalo
     Fire_Name: Buffalo
     UniqueFireIdentifier: 2019-NVWID-020135
-    DailyAcres: 5000
+    DailyAcres: 5308.8
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -24037,16 +24037,16 @@ Database:
     LocalIncidentIdentifier: '020135'
     POOCounty: Humboldt
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-07T13:07Z'
-    ModifiedOnDateTimeEpoch: 1562504823000
+    ModifiedOnDateTime: '2019-07-07T17:48Z'
+    ModifiedOnDateTimeEpoch: 1562521699000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NVWID-020135
-    ModifiedOnDateTime_Raw: '2019-07-07T13:07Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562504823000
+    ModifiedOnDateTime_Raw: '2019-07-07T17:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562521699000
     Hashtag: '#BuffaloFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -24058,5 +24058,5 @@ Database:
     unitMention: Winnemucca District Office
     Final_Fire_Name: Buffalo Fire
     _Update:
-      UpdateId: 'UPD-2019-07-07T13:07Z-PER-none-ID-2019-NVWID-020135-NAME-Buffalo-S-N'
-      Code: 3855a6736f7059eb5283f7a5e86187fe89083a62317457ad17933b882c6891ca
+      UpdateId: 'UPD-2019-07-07T17:48Z-PER-none-ID-2019-NVWID-020135-NAME-Buffalo-S-N'
+      Code: 27ce6af2d3baa8a3dfd55f497ae33fb370d664eba6599061fdbe474287b91c05
