@@ -2747,20 +2747,67 @@ Database:
         UPD-2019-07-01T20:10Z-PER-none-ID-CALFIRE-4edb5c7c-08d6-4ae0-b8b3-7bb471e26d8e-NAME-RockFire-S-C
       Code: 28f75e628a2b20e050c7a7593b2c2e1a4d80edd8d0fad1174f51b8c790c57f6a
   2019-AZASF-000392:
+    Source_NFSA_Join:
+      Lon: -109.07320823581841
+      Lat: 33.73447509665925
+      id: 120790
+      Name: Blue River
+      Fire_Name: Blue River
+      UniqueFireIdentifier: 2019-AZASF-000392
+      DailyAcres: 1500
+      PercentContained: 10
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-07T00:45Z'
+      ICS209ReportDateTimeEpoch: 1562460300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 30000
+      FireCause: Natural
+      TotalIncidentPersonnel: 55
+      FireDiscoveryDateTime: '2019-06-30T16:27Z'
+      FireDiscoveryDateTimeEpoch: 1561912020000
+      DispatchCenterID: AZSDC
+      LocalIncidentIdentifier: 000392
+      POOCounty: Greenlee
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-07T00:45Z'
+      ModifiedOnDateTimeEpoch: 1562460300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZASF-000392
+      ModifiedOnDateTime_Raw: '2019-07-07T01:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562461252000
+      Hashtag: '#BlueRiverFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T01:31:04.486Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
-      Lon: -109.0683104330742
-      Lat: 33.733355314113815
+      Lon: -109.07334373420423
+      Lat: 33.734449714012115
       objectid: 20
-      latitude: 33.73335
-      longitude: -109.0683
-      acres: 900
+      latitude: 33.7344444
+      longitude: -109.0733333
+      acres: 1500
       gacc: SWCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AZ
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-06T00:00Z'
-      reportdatetimeEpoch: 1562371200000
+      reportdatetime: '2019-07-07T00:45Z'
+      reportdatetimeEpoch: 1562460300000
       percentcontained: 10
       uniquefireidentifier: 2019-AZASF-000392
       firediscoverydatetime: '2019-06-30T16:27Z'
@@ -2770,11 +2817,11 @@ Database:
       incidentname: Blue River
       iscomplex: 'false'
       irwinid: '{932C1F1C-BB0F-4F1F-BCAF-C47834DCE412}'
-      irwinmodifiedon: '2019-07-06T00:49Z'
-      irwinmodifiedonEpoch: 1562374166000
+      irwinmodifiedon: '2019-07-07T01:00Z'
+      irwinmodifiedonEpoch: 1562461253000
       mapsymbol: '1'
-      datecurrent: '2019-07-05T19:00Z'
-      datecurrentEpoch: 1562353216000
+      datecurrent: '2019-07-06T19:30Z'
+      datecurrentEpoch: 1562441425000
       pooownerunit: AZASF
       fireyear: 2019
       localincidentidentifier: 000392
@@ -2782,10 +2829,10 @@ Database:
       owneragency: USFS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 900
+      DailyAcres: 1500
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-06T00:00Z'
-      ModifiedOnDateTimeEpoch: 1562371200000
+      ModifiedOnDateTime: '2019-07-07T00:45Z'
+      ModifiedOnDateTimeEpoch: 1562460300000
       PercentContained: 10
       UniqueFireIdentifier: 2019-AZASF-000392
       FireDiscoveryDateTime: '2019-06-30T16:27Z'
@@ -2796,7 +2843,7 @@ Database:
       Hashtag: '#BlueRiverFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T01:00:19.499Z'
+          RetrievedOn: '2019-07-07T01:31:04.487Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -2813,61 +2860,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AZASF-000392
-    Lon: -109.0683104330742
-    Lat: 33.733355314113815
-    objectid: 20
-    latitude: 33.73335
-    longitude: -109.0683
-    acres: 900
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-06T00:00Z'
-    reportdatetimeEpoch: 1562371200000
-    percentcontained: 10
-    uniquefireidentifier: 2019-AZASF-000392
-    firediscoverydatetime: '2019-06-30T16:27Z'
-    firediscoverydatetimeEpoch: 1561912020000
-    complexparentirwinid: null
-    pooresponsibleunit: AZASF
-    incidentname: Blue River
-    iscomplex: 'false'
-    irwinid: '{932C1F1C-BB0F-4F1F-BCAF-C47834DCE412}'
-    irwinmodifiedon: '2019-07-06T00:49Z'
-    irwinmodifiedonEpoch: 1562374166000
-    mapsymbol: '1'
-    datecurrent: '2019-07-05T19:00Z'
-    datecurrentEpoch: 1562353216000
-    pooownerunit: AZASF
-    fireyear: 2019
-    localincidentidentifier: 000392
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 900
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-06T00:00Z'
-    ModifiedOnDateTimeEpoch: 1562371200000
-    PercentContained: 10
+    Lon: -109.07320823581841
+    Lat: 33.73447509665925
+    id: 120790
+    Name: Blue River
+    Fire_Name: Blue River
     UniqueFireIdentifier: 2019-AZASF-000392
+    DailyAcres: 1500
+    PercentContained: 10
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-07T00:45Z'
+    ICS209ReportDateTimeEpoch: 1562460300000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 30000
+    FireCause: Natural
+    TotalIncidentPersonnel: 55
     FireDiscoveryDateTime: '2019-06-30T16:27Z'
     FireDiscoveryDateTimeEpoch: 1561912020000
-    Fire_Name: Blue River
-    Name: Blue River
-    Source: GEOMAC
-    Hashtag: '#BlueRiverFire'
+    DispatchCenterID: AZSDC
+    LocalIncidentIdentifier: 000392
+    POOCounty: Greenlee
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-07T00:45Z'
+    ModifiedOnDateTimeEpoch: 1562460300000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZASF-000392
+    ModifiedOnDateTime_Raw: '2019-07-07T01:00Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562461252000
+    Hashtag: '#BlueRiverFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-01T16:00Z'
     PerimeterData:
       DateTime: '2019-07-01T16:00Z'
       Acres: 127.96290665
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T01:00:20.015Z'
+          RetrievedOn: '2019-07-07T01:31:05.756Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -2888,8 +2923,8 @@ Database:
     Final_Fire_Name: Blue River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-06T00:00Z-PER-2019-07-01T16:00Z-ID-2019-AZASF-000392-NAME-BlueRiver-S-G
-      Code: 68c42372120ecf9b9cf4904e06f351a686033951ae683f91e4cb710dcbd7d3a6
+        UPD-2019-07-07T00:45Z-PER-2019-07-01T16:00Z-ID-2019-AZASF-000392-NAME-BlueRiver-S-N
+      Code: fe3bb61992594440577a568809b6b6fc04ec89e778a197fcde4e9394862f32af
   CALFIRE-d6a75235-5d06-4f46-8a2a-426d8ecc27fd:
     Source_CALFIRE:
       Lon: -121.716
@@ -4754,20 +4789,67 @@ Database:
       UpdateId: 'UPD-2019-07-07T00:00Z-PER-none-ID-2019-AZASF-000394-NAME-Whiting-S-N'
       Code: 112fc8adf26ae57733a1834c0514781c177f4f27a386e54a349b77ba24878d74
   2019-AZCNF-000317:
+    Source_NFSA_Join:
+      Lon: -109.02681025139366
+      Lat: 31.448673093649344
+      id: 120887
+      Name: MILLER
+      Fire_Name: MILLER
+      UniqueFireIdentifier: 2019-AZCNF-000317
+      DailyAcres: 5723
+      PercentContained: 20
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 2 Team
+      ICS209ReportDateTime: '2019-07-06T22:00Z'
+      ICS209ReportDateTimeEpoch: 1562450400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1893734
+      FireCause: Natural
+      TotalIncidentPersonnel: 336
+      FireDiscoveryDateTime: '2019-06-30T03:15Z'
+      FireDiscoveryDateTimeEpoch: 1561864500000
+      DispatchCenterID: AZTDC
+      LocalIncidentIdentifier: '000317'
+      POOCounty: Hidalgo
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-06T22:00Z'
+      ModifiedOnDateTimeEpoch: 1562450400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType2
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZCNF-000317
+      ModifiedOnDateTime_Raw: '2019-07-07T01:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562462881000
+      Hashtag: '#MillerFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T01:31:04.486Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
-      Lon: -109.02667697145745
-      Lat: 31.448616072273225
-      objectid: 23
-      latitude: 31.4486111
-      longitude: -109.0266667
+      Lon: -109.02681027148856
+      Lat: 31.448674972276496
+      objectid: 22
+      latitude: 31.44867
+      longitude: -109.0268
       acres: 5723
       gacc: SWCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: NM
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-05T22:00Z'
-      reportdatetimeEpoch: 1562364000000
+      reportdatetime: '2019-07-06T22:00Z'
+      reportdatetimeEpoch: 1562450400000
       percentcontained: 20
       uniquefireidentifier: 2019-AZCNF-000317
       firediscoverydatetime: '2019-06-30T03:15Z'
@@ -4777,11 +4859,11 @@ Database:
       incidentname: MILLER
       iscomplex: 'false'
       irwinid: '{309A628C-8085-4636-8968-618F4128928B}'
-      irwinmodifiedon: '2019-07-06T01:17Z'
-      irwinmodifiedonEpoch: 1562375853000
+      irwinmodifiedon: '2019-07-07T01:28Z'
+      irwinmodifiedonEpoch: 1562462882000
       mapsymbol: '1'
-      datecurrent: '2019-07-05T19:30Z'
-      datecurrentEpoch: 1562355015000
+      datecurrent: '2019-07-06T19:30Z'
+      datecurrentEpoch: 1562441425000
       pooownerunit: AZCNF
       fireyear: 2019
       localincidentidentifier: '000317'
@@ -4791,8 +4873,8 @@ Database:
       complexname: null
       DailyAcres: 5723
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-05T22:00Z'
-      ModifiedOnDateTimeEpoch: 1562364000000
+      ModifiedOnDateTime: '2019-07-06T22:00Z'
+      ModifiedOnDateTimeEpoch: 1562450400000
       PercentContained: 20
       UniqueFireIdentifier: 2019-AZCNF-000317
       FireDiscoveryDateTime: '2019-06-30T03:15Z'
@@ -4803,7 +4885,7 @@ Database:
       Hashtag: '#MillerFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T01:31:16.126Z'
+          RetrievedOn: '2019-07-07T01:31:04.487Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -4820,61 +4902,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AZCNF-000317
-    Lon: -109.02667697145745
-    Lat: 31.448616072273225
-    objectid: 23
-    latitude: 31.4486111
-    longitude: -109.0266667
-    acres: 5723
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: NM
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-05T22:00Z'
-    reportdatetimeEpoch: 1562364000000
-    percentcontained: 20
-    uniquefireidentifier: 2019-AZCNF-000317
-    firediscoverydatetime: '2019-06-30T03:15Z'
-    firediscoverydatetimeEpoch: 1561864500000
-    complexparentirwinid: null
-    pooresponsibleunit: AZCNF
-    incidentname: MILLER
-    iscomplex: 'false'
-    irwinid: '{309A628C-8085-4636-8968-618F4128928B}'
-    irwinmodifiedon: '2019-07-06T01:17Z'
-    irwinmodifiedonEpoch: 1562375853000
-    mapsymbol: '1'
-    datecurrent: '2019-07-05T19:30Z'
-    datecurrentEpoch: 1562355015000
-    pooownerunit: AZCNF
-    fireyear: 2019
-    localincidentidentifier: '000317'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 5723
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-05T22:00Z'
-    ModifiedOnDateTimeEpoch: 1562364000000
-    PercentContained: 20
+    Lon: -109.02681025139366
+    Lat: 31.448673093649344
+    id: 120887
+    Name: MILLER
+    Fire_Name: MILLER
     UniqueFireIdentifier: 2019-AZCNF-000317
+    DailyAcres: 5723
+    PercentContained: 20
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 2 Team
+    ICS209ReportDateTime: '2019-07-06T22:00Z'
+    ICS209ReportDateTimeEpoch: 1562450400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1893734
+    FireCause: Natural
+    TotalIncidentPersonnel: 336
     FireDiscoveryDateTime: '2019-06-30T03:15Z'
     FireDiscoveryDateTimeEpoch: 1561864500000
-    Fire_Name: MILLER
-    Name: MILLER
-    Source: GEOMAC
-    Hashtag: '#MillerFire'
+    DispatchCenterID: AZTDC
+    LocalIncidentIdentifier: '000317'
+    POOCounty: Hidalgo
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-06T22:00Z'
+    ModifiedOnDateTimeEpoch: 1562450400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType2
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZCNF-000317
+    ModifiedOnDateTime_Raw: '2019-07-07T01:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562462881000
+    Hashtag: '#MillerFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-04T22:53Z'
     PerimeterData:
       DateTime: '2019-07-04T22:53Z'
       Acres: 5771.88881076
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-06T01:31:16.985Z'
+          RetrievedOn: '2019-07-07T01:31:05.756Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4895,8 +4965,8 @@ Database:
     Final_Fire_Name: Miller Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-05T22:00Z-PER-2019-07-04T22:53Z-ID-2019-AZCNF-000317-NAME-MILLER-S-G
-      Code: 0a83b9ad1073d8116a3a1b8a55f8249e991d42b9e2a03ed76fc159132700e255
+        UPD-2019-07-06T22:00Z-PER-2019-07-04T22:53Z-ID-2019-AZCNF-000317-NAME-MILLER-S-N
+      Code: f8d05d27517c4eb5b3ca05f9d2347f3cbbe3003d10246ef5424309f15dfeecec
   2019-AKUYD-000367:
     Source_GEOMAC:
       Lon: -142.93842800156258
@@ -22806,3 +22876,193 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-07T00:31Z-PER-none-ID-2019-IDTFD-000084-NAME-Wilson-S-N'
       Code: b789be12b6031eb36b6b3f3d29b8d8cb1c220c2795db2ad18a078094b94ac97d
+  2019-IDTFD-000089:
+    Source_NFSA_Join:
+      Lon: -113.22201449345455
+      Lat: 42.69962569321317
+      id: 121887
+      Name: Lake Channel
+      Fire_Name: Lake Channel
+      UniqueFireIdentifier: 2019-IDTFD-000089
+      DailyAcres: 1100
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-06T20:53Z'
+      FireDiscoveryDateTimeEpoch: 1562446380000
+      DispatchCenterID: IDEIC
+      LocalIncidentIdentifier: 000089
+      POOCounty: Blaine
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-07T01:02Z'
+      ModifiedOnDateTimeEpoch: 1562461356000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDTFD-000089
+      ModifiedOnDateTime_Raw: '2019-07-07T01:02Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562461356000
+      Hashtag: '#LakeChannelFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T01:31:04.486Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -113.22201449345455
+    Lat: 42.69962569321317
+    id: 121887
+    Name: Lake Channel
+    Fire_Name: Lake Channel
+    UniqueFireIdentifier: 2019-IDTFD-000089
+    DailyAcres: 1100
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-06T20:53Z'
+    FireDiscoveryDateTimeEpoch: 1562446380000
+    DispatchCenterID: IDEIC
+    LocalIncidentIdentifier: 000089
+    POOCounty: Blaine
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-07T01:02Z'
+    ModifiedOnDateTimeEpoch: 1562461356000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDTFD-000089
+    ModifiedOnDateTime_Raw: '2019-07-07T01:02Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562461356000
+    Hashtag: '#LakeChannelFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: IDTFD
+    unitMention: Twin  Falls District
+    Final_Fire_Name: Lake Channel Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-07T01:02Z-PER-none-ID-2019-IDTFD-000089-NAME-LakeChannel-S-N'
+      Code: 20a1615802fa21ec797f26fbcdd15036c09df26a4587da4844963be9868c2b2a
+  2019-IDIFD-000041:
+    Source_NFSA_Join:
+      Lon: -113.198909824347
+      Lat: 43.02028538984554
+      id: 121906
+      Name: Horse Butte
+      Fire_Name: Horse Butte
+      UniqueFireIdentifier: 2019-IDIFD-000041
+      DailyAcres: 600
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-07T00:00Z'
+      ICS209ReportDateTimeEpoch: 1562457600000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 20000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 16
+      FireDiscoveryDateTime: '2019-07-06T23:48Z'
+      FireDiscoveryDateTimeEpoch: 1562456880000
+      DispatchCenterID: IDEIC
+      LocalIncidentIdentifier: '000041'
+      POOCounty: Power
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-07T00:00Z'
+      ModifiedOnDateTimeEpoch: 1562457600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDIFD-000041
+      ModifiedOnDateTime_Raw: '2019-07-07T01:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562462979000
+      Hashtag: '#HorseButteFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-07T01:31:04.486Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -113.198909824347
+    Lat: 43.02028538984554
+    id: 121906
+    Name: Horse Butte
+    Fire_Name: Horse Butte
+    UniqueFireIdentifier: 2019-IDIFD-000041
+    DailyAcres: 600
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-07T00:00Z'
+    ICS209ReportDateTimeEpoch: 1562457600000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 20000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 16
+    FireDiscoveryDateTime: '2019-07-06T23:48Z'
+    FireDiscoveryDateTimeEpoch: 1562456880000
+    DispatchCenterID: IDEIC
+    LocalIncidentIdentifier: '000041'
+    POOCounty: Power
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-07T00:00Z'
+    ModifiedOnDateTimeEpoch: 1562457600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDIFD-000041
+    ModifiedOnDateTime_Raw: '2019-07-07T01:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562462979000
+    Hashtag: '#HorseButteFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: IDIFD
+    unitMention: Idaho Falls District
+    Final_Fire_Name: Horse Butte Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-07T00:00Z-PER-none-ID-2019-IDIFD-000041-NAME-HorseButte-S-N'
+      Code: 1f669d7b95b615ce281366c659daec252a72a3b5a8e2f3b28bd985cb8415f2da
