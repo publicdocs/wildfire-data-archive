@@ -7141,7 +7141,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-07T07:01:16.098Z'
+          RetrievedOn: '2019-07-08T08:00:40.206Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -7152,7 +7152,7 @@ Database:
     Source_GEOMAC:
       Lon: -149.98696810287367
       Lat: 62.12250156413162
-      objectid: 26
+      objectid: 25
       latitude: 62.1225
       longitude: -149.9869444
       acres: 367
@@ -7161,8 +7161,8 @@ Database:
       state: AK
       status: U
       firecause: Unknown
-      reportdatetime: '2019-07-07T02:00Z'
-      reportdatetimeEpoch: 1562464800000
+      reportdatetime: '2019-07-08T06:00Z'
+      reportdatetimeEpoch: 1562565600000
       percentcontained: 30
       uniquefireidentifier: 2019-AKMSS-901429
       firediscoverydatetime: '2019-07-03T22:53Z'
@@ -7172,11 +7172,11 @@ Database:
       incidentname: Montana Creek
       iscomplex: 'false'
       irwinid: '{F32ADB67-249A-4BAC-86BC-3A9F9B559A2A}'
-      irwinmodifiedon: '2019-07-07T06:40Z'
-      irwinmodifiedonEpoch: 1562481658000
+      irwinmodifiedon: '2019-07-08T07:55Z'
+      irwinmodifiedonEpoch: 1562572540000
       mapsymbol: '1'
-      datecurrent: '2019-07-07T01:00Z'
-      datecurrentEpoch: 1562461214000
+      datecurrent: '2019-07-08T02:00Z'
+      datecurrentEpoch: 1562551216000
       pooownerunit: AKPRI
       fireyear: 2019
       localincidentidentifier: '901429'
@@ -7186,8 +7186,8 @@ Database:
       complexname: null
       DailyAcres: 367
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-07T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562464800000
+      ModifiedOnDateTime: '2019-07-08T06:00Z'
+      ModifiedOnDateTimeEpoch: 1562565600000
       PercentContained: 30
       UniqueFireIdentifier: 2019-AKMSS-901429
       FireDiscoveryDateTime: '2019-07-03T22:53Z'
@@ -7198,7 +7198,7 @@ Database:
       Hashtag: '#MontanaCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-07T07:01:16.098Z'
+          RetrievedOn: '2019-07-08T08:00:40.208Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -7215,49 +7215,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKMSS-901429
-    Lon: -149.96919120841648
-    Lat: 62.17676562766077
-    id: 121297
-    Name: Montana Creek
-    Fire_Name: Montana Creek
-    UniqueFireIdentifier: 2019-AKMSS-901429
+    Lon: -149.98696810287367
+    Lat: 62.12250156413162
+    objectid: 25
+    latitude: 62.1225
+    longitude: -149.9869444
+    acres: 367
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-07-08T06:00Z'
+    reportdatetimeEpoch: 1562565600000
+    percentcontained: 30
+    uniquefireidentifier: 2019-AKMSS-901429
+    firediscoverydatetime: '2019-07-03T22:53Z'
+    firediscoverydatetimeEpoch: 1562194432000
+    complexparentirwinid: null
+    pooresponsibleunit: AKMSS
+    incidentname: Montana Creek
+    iscomplex: 'false'
+    irwinid: '{F32ADB67-249A-4BAC-86BC-3A9F9B559A2A}'
+    irwinmodifiedon: '2019-07-08T07:55Z'
+    irwinmodifiedonEpoch: 1562572540000
+    mapsymbol: '1'
+    datecurrent: '2019-07-08T02:00Z'
+    datecurrentEpoch: 1562551216000
+    pooownerunit: AKPRI
+    fireyear: 2019
+    localincidentidentifier: '901429'
+    incidenttypecategory: WF
+    owneragency: Private
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 367
-    PercentContained: 30
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-07T02:00Z'
-    ICS209ReportDateTimeEpoch: 1562464800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 912259
     FireCause: Unknown
-    TotalIncidentPersonnel: 117
+    ModifiedOnDateTime: '2019-07-08T06:00Z'
+    ModifiedOnDateTimeEpoch: 1562565600000
+    PercentContained: 30
+    UniqueFireIdentifier: 2019-AKMSS-901429
     FireDiscoveryDateTime: '2019-07-03T22:53Z'
     FireDiscoveryDateTimeEpoch: 1562194432000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '901429'
-    POOCounty: Matanuska-Susitna
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-07T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562464800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Montana Creek
+    Name: Montana Creek
+    Source: GEOMAC
+    Hashtag: '#MontanaCreekFire'
     _CorrelationIds:
       - 2019-AKMSS-901429
-    ModifiedOnDateTime_Raw: '2019-07-07T06:40Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562481658000
-    Hashtag: '#MontanaCreekFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-04T12:00Z'
     PerimeterData:
       DateTime: '2019-07-04T12:00Z'
       Acres: 252.94578753
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-07T07:01:18.377Z'
+          RetrievedOn: '2019-07-08T08:00:42.925Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -7278,8 +7290,8 @@ Database:
     Final_Fire_Name: Montana Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-07T02:00Z-PER-2019-07-04T12:00Z-ID-2019-AKMSS-901429-NAME-MontanaCreek-S-N
-      Code: bc7b97cfa15ef6e6f93632646875bf5a154e87264ed5506a8889ac175df744d4
+        UPD-2019-07-08T06:00Z-PER-2019-07-04T12:00Z-ID-2019-AKMSS-901429-NAME-MontanaCreek-S-G
+      Code: 83b3c38f48d8171e55d943cdce9894d1d9675d70d283593484b759c960509dcc
   2019-COPSF-000463:
     Source_NFSA_Join:
       Lon: -105.02560617809121
