@@ -24143,3 +24143,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-07T23:23Z-PER-none-ID-2019-AZA4S-001066-NAME-SMOKEHOUSE-S-N'
       Code: e0b8d86e824247ab296aab250e54228e1a5ae5cc464b108d9f90773f01634bc2
+  2019-NVHTF-030272:
+    Source_NFSA_Join:
+      Lon: -119.61141669904725
+      Lat: 38.48313351105831
+      id: 120018
+      Name: Tamarack
+      Fire_Name: Tamarack
+      UniqueFireIdentifier: 2019-NVHTF-030272
+      DailyAcres: 67
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-07-07T23:30Z'
+      ICS209ReportDateTimeEpoch: 1562542200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 35000
+      FireCause: Natural
+      TotalIncidentPersonnel: 0
+      FireDiscoveryDateTime: '2019-06-23T19:04Z'
+      FireDiscoveryDateTimeEpoch: 1561316640000
+      DispatchCenterID: NVSFC
+      LocalIncidentIdentifier: '030272'
+      POOCounty: Alpine
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-07T23:30Z'
+      ModifiedOnDateTimeEpoch: 1562542200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NVHTF-030272
+      ModifiedOnDateTime_Raw: '2019-07-07T23:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562543290000
+      Hashtag: '#TamarackFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-08T00:01:06.434Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -119.61141669904725
+    Lat: 38.48313351105831
+    id: 120018
+    Name: Tamarack
+    Fire_Name: Tamarack
+    UniqueFireIdentifier: 2019-NVHTF-030272
+    DailyAcres: 67
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-07-07T23:30Z'
+    ICS209ReportDateTimeEpoch: 1562542200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 35000
+    FireCause: Natural
+    TotalIncidentPersonnel: 0
+    FireDiscoveryDateTime: '2019-06-23T19:04Z'
+    FireDiscoveryDateTimeEpoch: 1561316640000
+    DispatchCenterID: NVSFC
+    LocalIncidentIdentifier: '030272'
+    POOCounty: Alpine
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-07T23:30Z'
+    ModifiedOnDateTimeEpoch: 1562542200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NVHTF-030272
+    ModifiedOnDateTime_Raw: '2019-07-07T23:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562543290000
+    Hashtag: '#TamarackFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-01T16:34Z'
+    PerimeterData:
+      DateTime: '2019-07-01T16:34Z'
+      Acres: 67.21748139
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-08T00:01:09.097Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: NVHTF
+    unitMention: Humboldt-Toiyabe NF
+    Final_Fire_Name: Tamarack Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-07T23:30Z-PER-2019-07-01T16:34Z-ID-2019-NVHTF-030272-NAME-Tamarack-S-N
+      Code: 682a7792427e08745d6467cccbbc2e038eff0c6cc9e2a75ff41db2cb4ec3d0c7
