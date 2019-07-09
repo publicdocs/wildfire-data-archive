@@ -22568,7 +22568,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-08T20:02:12.831Z'
+          RetrievedOn: '2019-07-09T02:00:40.958Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -22576,42 +22576,120 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -112.00770782499315
-    Lat: 33.74015254248596
-    id: 122096
-    Name: JOMAX
-    Fire_Name: JOMAX
-    UniqueFireIdentifier: 2019-AZA4S-001073
+    Source_GEOMAC:
+      Lon: -112.02441102991075
+      Lat: 33.72660515753854
+      objectid: 26
+      latitude: 33.7266
+      longitude: -112.0244
+      acres: 1145
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-07-09T00:30Z'
+      reportdatetimeEpoch: 1562632200000
+      percentcontained: 90
+      uniquefireidentifier: 2019-AZA4S-001073
+      firediscoverydatetime: '2019-07-07T21:34Z'
+      firediscoverydatetimeEpoch: 1562535240000
+      complexparentirwinid: null
+      pooresponsibleunit: AZA4S
+      incidentname: JOMAX
+      iscomplex: 'false'
+      irwinid: '{D059243B-8A95-48F0-AC5B-819905EE1564}'
+      irwinmodifiedon: '2019-07-09T01:32Z'
+      irwinmodifiedonEpoch: 1562635961000
+      mapsymbol: '1'
+      datecurrent: '2019-07-08T20:00Z'
+      datecurrentEpoch: 1562616021000
+      pooownerunit: AZAZS
+      fireyear: 2019
+      localincidentidentifier: '001073'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1145
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-09T00:30Z'
+      ModifiedOnDateTimeEpoch: 1562632200000
+      PercentContained: 90
+      UniqueFireIdentifier: 2019-AZA4S-001073
+      FireDiscoveryDateTime: '2019-07-07T21:34Z'
+      FireDiscoveryDateTimeEpoch: 1562535240000
+      Fire_Name: JOMAX
+      Name: JOMAX
+      Source: GEOMAC
+      Hashtag: '#JomaxFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-09T02:00:40.959Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZA4S-001073
+    Lon: -112.02441102991075
+    Lat: 33.72660515753854
+    objectid: 26
+    latitude: 33.7266
+    longitude: -112.0244
+    acres: 1145
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AZ
+    status: I
+    firecause: Unknown
+    reportdatetime: '2019-07-09T00:30Z'
+    reportdatetimeEpoch: 1562632200000
+    percentcontained: 90
+    uniquefireidentifier: 2019-AZA4S-001073
+    firediscoverydatetime: '2019-07-07T21:34Z'
+    firediscoverydatetimeEpoch: 1562535240000
+    complexparentirwinid: null
+    pooresponsibleunit: AZA4S
+    incidentname: JOMAX
+    iscomplex: 'false'
+    irwinid: '{D059243B-8A95-48F0-AC5B-819905EE1564}'
+    irwinmodifiedon: '2019-07-09T01:32Z'
+    irwinmodifiedonEpoch: 1562635961000
+    mapsymbol: '1'
+    datecurrent: '2019-07-08T20:00Z'
+    datecurrentEpoch: 1562616021000
+    pooownerunit: AZAZS
+    fireyear: 2019
+    localincidentidentifier: '001073'
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
     DailyAcres: 1145
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2019-07-09T00:30Z'
+    ModifiedOnDateTimeEpoch: 1562632200000
+    PercentContained: 90
+    UniqueFireIdentifier: 2019-AZA4S-001073
     FireDiscoveryDateTime: '2019-07-07T21:34Z'
     FireDiscoveryDateTimeEpoch: 1562535240000
-    DispatchCenterID: AZADC
-    LocalIncidentIdentifier: '001073'
-    POOCounty: Maricopa
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-08T19:58Z'
-    ModifiedOnDateTimeEpoch: 1562615888000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: JOMAX
+    Name: JOMAX
+    Source: GEOMAC
+    Hashtag: '#JomaxFire'
     _CorrelationIds:
       - 2019-AZA4S-001073
-    ModifiedOnDateTime_Raw: '2019-07-08T19:58Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562615888000
-    Hashtag: '#JomaxFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -22621,8 +22699,8 @@ Database:
     unitMention: '@AZStateForestry'
     Final_Fire_Name: Jomax Fire
     _Update:
-      UpdateId: 'UPD-2019-07-08T19:58Z-PER-none-ID-2019-AZA4S-001073-NAME-JOMAX-S-N'
-      Code: 06f6c9edc380530b630b1cd8b373d06f18f5f2e038f0be3613cec38b2ca48297
+      UpdateId: 'UPD-2019-07-09T00:30Z-PER-none-ID-2019-AZA4S-001073-NAME-JOMAX-S-G'
+      Code: 4dc77af2ba62ec72ed6eb49453f5bf195ba1b697fea909659302efc68f07d760
   CALFIRE-bc3e7037-5022-4e6a-8a1f-925c7e9aafc8:
     Source_CALFIRE:
       Lon: -122.16201
