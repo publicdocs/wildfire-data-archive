@@ -4062,7 +4062,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-08T05:31:16.739Z'
+          RetrievedOn: '2019-07-09T06:00:22.804Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -4082,8 +4082,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-08T05:15Z'
-      reportdatetimeEpoch: 1562562900000
+      reportdatetime: '2019-07-09T05:30Z'
+      reportdatetimeEpoch: 1562650200000
       percentcontained: 0
       uniquefireidentifier: 2019-AKTAS-913133
       firediscoverydatetime: '2019-05-21T23:54Z'
@@ -4093,11 +4093,11 @@ Database:
       incidentname: McArthur Creek
       iscomplex: 'false'
       irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
-      irwinmodifiedon: '2019-07-08T05:25Z'
-      irwinmodifiedonEpoch: 1562563508000
+      irwinmodifiedon: '2019-07-09T05:54Z'
+      irwinmodifiedonEpoch: 1562651694000
       mapsymbol: '2'
-      datecurrent: '2019-07-07T23:30Z'
-      datecurrentEpoch: 1562542215000
+      datecurrent: '2019-07-09T00:00Z'
+      datecurrentEpoch: 1562630417000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '913133'
@@ -4107,8 +4107,8 @@ Database:
       complexname: null
       DailyAcres: 15000
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-08T05:15Z'
-      ModifiedOnDateTimeEpoch: 1562562900000
+      ModifiedOnDateTime: '2019-07-09T05:30Z'
+      ModifiedOnDateTimeEpoch: 1562650200000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKTAS-913133
       FireDiscoveryDateTime: '2019-05-21T23:54Z'
@@ -4119,7 +4119,7 @@ Database:
       Hashtag: '#McArthurCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-08T05:31:16.739Z'
+          RetrievedOn: '2019-07-09T06:00:22.805Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -4136,49 +4136,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKTAS-913133
-    Lon: -142.000020727324
-    Lat: 63.00000445730161
-    id: 116851
-    Name: McArthur Creek
-    Fire_Name: McArthur Creek
-    UniqueFireIdentifier: 2019-AKTAS-913133
+    Lon: -141.06035748493014
+    Lat: 62.99700300765425
+    objectid: 1
+    latitude: 62.997
+    longitude: -141.0603333
+    acres: 15000
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-09T05:30Z'
+    reportdatetimeEpoch: 1562650200000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKTAS-913133
+    firediscoverydatetime: '2019-05-21T23:54Z'
+    firediscoverydatetimeEpoch: 1558482850000
+    complexparentirwinid: null
+    pooresponsibleunit: AKTAS
+    incidentname: McArthur Creek
+    iscomplex: 'false'
+    irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
+    irwinmodifiedon: '2019-07-09T05:54Z'
+    irwinmodifiedonEpoch: 1562651694000
+    mapsymbol: '2'
+    datecurrent: '2019-07-09T00:00Z'
+    datecurrentEpoch: 1562630417000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '913133'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 15000
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-08T05:15Z'
-    ICS209ReportDateTimeEpoch: 1562562900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 435182
     FireCause: Natural
-    TotalIncidentPersonnel: 8
+    ModifiedOnDateTime: '2019-07-09T05:30Z'
+    ModifiedOnDateTimeEpoch: 1562650200000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKTAS-913133
     FireDiscoveryDateTime: '2019-05-21T23:54Z'
     FireDiscoveryDateTimeEpoch: 1558482850000
-    DispatchCenterID: AKTASC
-    LocalIncidentIdentifier: '913133'
-    POOCounty: Southeast Fairbanks
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-08T05:15Z'
-    ModifiedOnDateTimeEpoch: 1562562900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: McArthur Creek
+    Name: McArthur Creek
+    Source: GEOMAC
+    Hashtag: '#McArthurCreekFire'
     _CorrelationIds:
       - 2019-AKTAS-913133
-    ModifiedOnDateTime_Raw: '2019-07-08T05:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562563508000
-    Hashtag: '#McArthurCreekFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-06-25T00:00Z'
     PerimeterData:
       DateTime: '2019-06-25T00:00Z'
       Acres: 5400.39784854
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-08T05:31:18.073Z'
+          RetrievedOn: '2019-07-09T06:00:24.037Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4199,8 +4211,8 @@ Database:
     Final_Fire_Name: Mc Arthur Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-08T05:15Z-PER-2019-06-25T00:00Z-ID-2019-AKTAS-913133-NAME-McArthurCreek-S-N
-      Code: 9aec6dba185291d2f84f61ea0e58fa9138b393a6a5726b811dee258afc68f9c7
+        UPD-2019-07-09T05:30Z-PER-2019-06-25T00:00Z-ID-2019-AKTAS-913133-NAME-McArthurCreek-S-G
+      Code: ebd3b8487129f16af0f2997541783aa80ffdf086a7878c4fc98d14241874acae
   CALFIRE-fe63d965-9069-4a96-b9da-99d5fefdaa19:
     Source_CALFIRE:
       Lon: -122.40157
