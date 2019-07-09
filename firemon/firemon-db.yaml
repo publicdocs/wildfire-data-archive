@@ -23365,3 +23365,116 @@ Database:
       UpdateId: >-
         UPD-2019-07-09T15:37Z-PER-none-ID-2019-TXTXS-190105-NAME-PecosValleyRanch-S-N
       Code: a4767481a9d5bf5cdcee0a9938bc7a654bcb22ab322c5fb6f343f0676aae565b
+  2019-IDSCF-019109:
+    Source_NFSA_Join:
+      Lon: -114.71371193849923
+      Lat: 45.085526832967275
+      id: 121988
+      Name: Waterfall
+      Fire_Name: Waterfall
+      UniqueFireIdentifier: 2019-IDSCF-019109
+      DailyAcres: 300
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-09T20:00Z'
+      ICS209ReportDateTimeEpoch: 1562702400000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 10000
+      FireCause: Natural
+      TotalIncidentPersonnel: 2
+      FireDiscoveryDateTime: '2019-07-07T14:22Z'
+      FireDiscoveryDateTimeEpoch: 1562509320000
+      DispatchCenterID: IDCIC
+      LocalIncidentIdentifier: 019109
+      POOCounty: Lemhi
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-09T20:00Z'
+      ModifiedOnDateTimeEpoch: 1562702400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDSCF-019109
+      ModifiedOnDateTime_Raw: '2019-07-09T21:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562707769000
+      Hashtag: '#WaterfallFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-09T21:30:21.554Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -114.71371193849923
+    Lat: 45.085526832967275
+    id: 121988
+    Name: Waterfall
+    Fire_Name: Waterfall
+    UniqueFireIdentifier: 2019-IDSCF-019109
+    DailyAcres: 300
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-09T20:00Z'
+    ICS209ReportDateTimeEpoch: 1562702400000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 10000
+    FireCause: Natural
+    TotalIncidentPersonnel: 2
+    FireDiscoveryDateTime: '2019-07-07T14:22Z'
+    FireDiscoveryDateTimeEpoch: 1562509320000
+    DispatchCenterID: IDCIC
+    LocalIncidentIdentifier: 019109
+    POOCounty: Lemhi
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-09T20:00Z'
+    ModifiedOnDateTimeEpoch: 1562702400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDSCF-019109
+    ModifiedOnDateTime_Raw: '2019-07-09T21:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562707769000
+    Hashtag: '#WaterfallFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-08T00:00Z'
+    PerimeterData:
+      DateTime: '2019-07-08T00:00Z'
+      Acres: 2.27748915
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-09T21:30:24.321Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: IDSCF
+    unitMention: '@SalmonChallisNF'
+    Final_Fire_Name: Waterfall Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-09T20:00Z-PER-2019-07-08T00:00Z-ID-2019-IDSCF-019109-NAME-Waterfall-S-N
+      Code: a8b587c274fe868a37e92577534e96899f72a74b3de050327c96ea192b2cc620
