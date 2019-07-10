@@ -4788,38 +4788,38 @@ Database:
       Fire_Name: MILLER
       UniqueFireIdentifier: 2019-AZCNF-000317
       DailyAcres: 5723
-      PercentContained: 20
+      PercentContained: 85
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-07-07T22:00Z'
-      ICS209ReportDateTimeEpoch: 1562536800000
+      ICS209ReportDateTime: '2019-07-09T22:00Z'
+      ICS209ReportDateTimeEpoch: 1562709600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 2449895
+      EstimatedCostToDate: 3474451
       FireCause: Natural
-      TotalIncidentPersonnel: 322
+      TotalIncidentPersonnel: 297
       FireDiscoveryDateTime: '2019-06-30T03:15Z'
       FireDiscoveryDateTimeEpoch: 1561864500000
       DispatchCenterID: AZTDC
       LocalIncidentIdentifier: '000317'
       POOCounty: Hidalgo
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-07T22:00Z'
-      ModifiedOnDateTimeEpoch: 1562536800000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-09T22:00Z'
+      ModifiedOnDateTimeEpoch: 1562709600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AZCNF-000317
-      ModifiedOnDateTime_Raw: '2019-07-08T04:04Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562558649000
+      ModifiedOnDateTime_Raw: '2019-07-10T00:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562720273000
       Hashtag: '#MillerFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-09T01:01:02.819Z'
+          RetrievedOn: '2019-07-10T01:00:22.960Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -4830,7 +4830,7 @@ Database:
     Source_GEOMAC:
       Lon: -109.02667697145745
       Lat: 31.448616072273225
-      objectid: 22
+      objectid: 20
       latitude: 31.4486111
       longitude: -109.0266667
       acres: 5723
@@ -4839,9 +4839,9 @@ Database:
       state: NM
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-08T22:00Z'
-      reportdatetimeEpoch: 1562623200000
-      percentcontained: 75
+      reportdatetime: '2019-07-09T22:00Z'
+      reportdatetimeEpoch: 1562709600000
+      percentcontained: 85
       uniquefireidentifier: 2019-AZCNF-000317
       firediscoverydatetime: '2019-06-30T03:15Z'
       firediscoverydatetimeEpoch: 1561864500000
@@ -4850,11 +4850,11 @@ Database:
       incidentname: MILLER
       iscomplex: 'false'
       irwinid: '{309A628C-8085-4636-8968-618F4128928B}'
-      irwinmodifiedon: '2019-07-09T00:34Z'
-      irwinmodifiedonEpoch: 1562632445000
+      irwinmodifiedon: '2019-07-10T00:57Z'
+      irwinmodifiedonEpoch: 1562720274000
       mapsymbol: '1'
-      datecurrent: '2019-07-08T19:00Z'
-      datecurrentEpoch: 1562612417000
+      datecurrent: '2019-07-09T19:00Z'
+      datecurrentEpoch: 1562698815000
       pooownerunit: AZCNF
       fireyear: 2019
       localincidentidentifier: '000317'
@@ -4864,9 +4864,9 @@ Database:
       complexname: null
       DailyAcres: 5723
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-08T22:00Z'
-      ModifiedOnDateTimeEpoch: 1562623200000
-      PercentContained: 75
+      ModifiedOnDateTime: '2019-07-09T22:00Z'
+      ModifiedOnDateTimeEpoch: 1562709600000
+      PercentContained: 85
       UniqueFireIdentifier: 2019-AZCNF-000317
       FireDiscoveryDateTime: '2019-06-30T03:15Z'
       FireDiscoveryDateTimeEpoch: 1561864500000
@@ -4876,7 +4876,7 @@ Database:
       Hashtag: '#MillerFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-09T01:01:02.820Z'
+          RetrievedOn: '2019-07-10T01:00:22.961Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -4893,61 +4893,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AZCNF-000317
-    Lon: -109.02667697145745
-    Lat: 31.448616072273225
-    objectid: 22
-    latitude: 31.4486111
-    longitude: -109.0266667
-    acres: 5723
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: NM
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-08T22:00Z'
-    reportdatetimeEpoch: 1562623200000
-    percentcontained: 75
-    uniquefireidentifier: 2019-AZCNF-000317
-    firediscoverydatetime: '2019-06-30T03:15Z'
-    firediscoverydatetimeEpoch: 1561864500000
-    complexparentirwinid: null
-    pooresponsibleunit: AZCNF
-    incidentname: MILLER
-    iscomplex: 'false'
-    irwinid: '{309A628C-8085-4636-8968-618F4128928B}'
-    irwinmodifiedon: '2019-07-09T00:34Z'
-    irwinmodifiedonEpoch: 1562632445000
-    mapsymbol: '1'
-    datecurrent: '2019-07-08T19:00Z'
-    datecurrentEpoch: 1562612417000
-    pooownerunit: AZCNF
-    fireyear: 2019
-    localincidentidentifier: '000317'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 5723
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-08T22:00Z'
-    ModifiedOnDateTimeEpoch: 1562623200000
-    PercentContained: 75
+    Lon: -109.02681025139366
+    Lat: 31.448673093649344
+    id: 120887
+    Name: MILLER
+    Fire_Name: MILLER
     UniqueFireIdentifier: 2019-AZCNF-000317
+    DailyAcres: 5723
+    PercentContained: 85
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 2 Team
+    ICS209ReportDateTime: '2019-07-09T22:00Z'
+    ICS209ReportDateTimeEpoch: 1562709600000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3474451
+    FireCause: Natural
+    TotalIncidentPersonnel: 297
     FireDiscoveryDateTime: '2019-06-30T03:15Z'
     FireDiscoveryDateTimeEpoch: 1561864500000
-    Fire_Name: MILLER
-    Name: MILLER
-    Source: GEOMAC
-    Hashtag: '#MillerFire'
+    DispatchCenterID: AZTDC
+    LocalIncidentIdentifier: '000317'
+    POOCounty: Hidalgo
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-09T22:00Z'
+    ModifiedOnDateTimeEpoch: 1562709600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType2
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZCNF-000317
+    ModifiedOnDateTime_Raw: '2019-07-10T00:57Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562720273000
+    Hashtag: '#MillerFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-08T23:17Z'
     PerimeterData:
       DateTime: '2019-07-08T23:17Z'
       Acres: 5771.88881076
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-09T16:26:33.926Z'
+          RetrievedOn: '2019-07-10T01:00:24.074Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4968,8 +4956,8 @@ Database:
     Final_Fire_Name: Miller Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-08T22:00Z-PER-2019-07-08T23:17Z-ID-2019-AZCNF-000317-NAME-MILLER-S-G
-      Code: 5e4c4431851528930ee082cc58c0a8d9e179e58e7ff38e6adcd2fa605062bd4a
+        UPD-2019-07-09T22:00Z-PER-2019-07-08T23:17Z-ID-2019-AZCNF-000317-NAME-MILLER-S-N
+      Code: a653ece17b3b5d37d36b3001ebcdd833de05472f149d77041551598a08d91515
   2019-AZPNF-000828:
     Source_NFSA_Join:
       Lon: -112.13800845695468
@@ -7929,8 +7917,8 @@ Database:
       PercentContained: 10
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-09T23:45Z'
-      ICS209ReportDateTimeEpoch: 1562715900000
+      ICS209ReportDateTime: '2019-07-10T00:30Z'
+      ICS209ReportDateTimeEpoch: 1562718600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
@@ -7943,21 +7931,21 @@ Database:
       LocalIncidentIdentifier: '000226'
       POOCounty: Larimer
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-09T23:45Z'
-      ModifiedOnDateTimeEpoch: 1562715900000
+      ModifiedOnDateTime: '2019-07-10T00:30Z'
+      ModifiedOnDateTimeEpoch: 1562718600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-COARF-000226
-      ModifiedOnDateTime_Raw: '2019-07-09T23:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562716445000
+      ModifiedOnDateTime_Raw: '2019-07-10T00:43Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562719438000
       Hashtag: '#BeaverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T00:00:21.509Z'
+          RetrievedOn: '2019-07-10T01:00:22.960Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -7975,8 +7963,8 @@ Database:
     PercentContained: 10
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-09T23:45Z'
-    ICS209ReportDateTimeEpoch: 1562715900000
+    ICS209ReportDateTime: '2019-07-10T00:30Z'
+    ICS209ReportDateTimeEpoch: 1562718600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -7989,16 +7977,16 @@ Database:
     LocalIncidentIdentifier: '000226'
     POOCounty: Larimer
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-09T23:45Z'
-    ModifiedOnDateTimeEpoch: 1562715900000
+    ModifiedOnDateTime: '2019-07-10T00:30Z'
+    ModifiedOnDateTimeEpoch: 1562718600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-COARF-000226
-    ModifiedOnDateTime_Raw: '2019-07-09T23:54Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562716445000
+    ModifiedOnDateTime_Raw: '2019-07-10T00:43Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562719438000
     Hashtag: '#BeaverFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-03T00:00Z'
@@ -8007,7 +7995,7 @@ Database:
       Acres: 7.32519731
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T00:00:24.063Z'
+          RetrievedOn: '2019-07-10T01:00:25.995Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -8028,8 +8016,8 @@ Database:
     Final_Fire_Name: Beaver Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-09T23:45Z-PER-2019-07-03T00:00Z-ID-2019-COARF-000226-NAME-Beaver-S-N
-      Code: 3e83986f5a5d451c58204d625182dfe50fb1ebcbaab3ab33c0fbcc0774256452
+        UPD-2019-07-10T00:30Z-PER-2019-07-03T00:00Z-ID-2019-COARF-000226-NAME-Beaver-S-N
+      Code: 791a7cea9984a5e45199307ae545127e4c3baef0e5f5656ae3eef2bebc24670d
   2019-NMGNF-000278:
     Source_NFSA_Join:
       Lon: -108.52390640588501
