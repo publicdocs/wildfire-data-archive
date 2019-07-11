@@ -7360,7 +7360,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T22:00:19.171Z'
+          RetrievedOn: '2019-07-11T21:30:25.167Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -7368,49 +7368,127 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -108.52390640588501
-    Lat: 33.21061450524976
-    id: 121116
-    Name: Woodrow
-    Fire_Name: Woodrow
-    UniqueFireIdentifier: 2019-NMGNF-000278
+    Source_GEOMAC:
+      Lon: -108.52389918117188
+      Lat: 33.210560864323696
+      objectid: 20
+      latitude: 33.2105556
+      longitude: -108.5238889
+      acres: 1090
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-11T21:00Z'
+      reportdatetimeEpoch: 1562878800000
+      percentcontained: 75
+      uniquefireidentifier: 2019-NMGNF-000278
+      firediscoverydatetime: '2019-07-02T20:01Z'
+      firediscoverydatetimeEpoch: 1562097660000
+      complexparentirwinid: null
+      pooresponsibleunit: NMGNF
+      incidentname: Woodrow
+      iscomplex: 'false'
+      irwinid: '{DA8CDABD-08AB-4B08-A5EA-8EF196936471}'
+      irwinmodifiedon: '2019-07-11T21:20Z'
+      irwinmodifiedonEpoch: 1562880034000
+      mapsymbol: '1'
+      datecurrent: '2019-07-11T15:30Z'
+      datecurrentEpoch: 1562859020000
+      pooownerunit: NMGNF
+      fireyear: 2019
+      localincidentidentifier: 000278
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 1090
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-11T21:00Z'
+      ModifiedOnDateTimeEpoch: 1562878800000
+      PercentContained: 75
+      UniqueFireIdentifier: 2019-NMGNF-000278
+      FireDiscoveryDateTime: '2019-07-02T20:01Z'
+      FireDiscoveryDateTimeEpoch: 1562097660000
+      Fire_Name: Woodrow
+      Name: Woodrow
+      Source: GEOMAC
+      Hashtag: '#WoodrowFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-11T21:30:25.168Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NMGNF-000278
+    Lon: -108.52389918117188
+    Lat: 33.210560864323696
+    objectid: 20
+    latitude: 33.2105556
+    longitude: -108.5238889
+    acres: 1090
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NM
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-11T21:00Z'
+    reportdatetimeEpoch: 1562878800000
+    percentcontained: 75
+    uniquefireidentifier: 2019-NMGNF-000278
+    firediscoverydatetime: '2019-07-02T20:01Z'
+    firediscoverydatetimeEpoch: 1562097660000
+    complexparentirwinid: null
+    pooresponsibleunit: NMGNF
+    incidentname: Woodrow
+    iscomplex: 'false'
+    irwinid: '{DA8CDABD-08AB-4B08-A5EA-8EF196936471}'
+    irwinmodifiedon: '2019-07-11T21:20Z'
+    irwinmodifiedonEpoch: 1562880034000
+    mapsymbol: '1'
+    datecurrent: '2019-07-11T15:30Z'
+    datecurrentEpoch: 1562859020000
+    pooownerunit: NMGNF
+    fireyear: 2019
+    localincidentidentifier: 000278
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 1090
-    PercentContained: 50
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-10T21:00Z'
-    ICS209ReportDateTimeEpoch: 1562792400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 10000
     FireCause: Natural
-    TotalIncidentPersonnel: 1
+    ModifiedOnDateTime: '2019-07-11T21:00Z'
+    ModifiedOnDateTimeEpoch: 1562878800000
+    PercentContained: 75
+    UniqueFireIdentifier: 2019-NMGNF-000278
     FireDiscoveryDateTime: '2019-07-02T20:01Z'
     FireDiscoveryDateTimeEpoch: 1562097660000
-    DispatchCenterID: NMSDC
-    LocalIncidentIdentifier: 000278
-    POOCounty: Catron
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-10T21:00Z'
-    ModifiedOnDateTimeEpoch: 1562792400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Woodrow
+    Name: Woodrow
+    Source: GEOMAC
+    Hashtag: '#WoodrowFire'
     _CorrelationIds:
       - 2019-NMGNF-000278
-    ModifiedOnDateTime_Raw: '2019-07-10T21:53Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562795597000
-    Hashtag: '#WoodrowFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-08T01:07Z'
     PerimeterData:
       DateTime: '2019-07-08T01:07Z'
       Acres: 414.41552049
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T19:50:31.016Z'
+          RetrievedOn: '2019-07-11T21:30:26.406Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -7431,8 +7509,8 @@ Database:
     Final_Fire_Name: Woodrow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-10T21:00Z-PER-2019-07-08T01:07Z-ID-2019-NMGNF-000278-NAME-Woodrow-S-N
-      Code: c871982572dc48e0d8bad7e19aa2f88049dab2aeccac16989af474067e402049
+        UPD-2019-07-11T21:00Z-PER-2019-07-08T01:07Z-ID-2019-NMGNF-000278-NAME-Woodrow-S-G
+      Code: 5fd0c2b06bd46df37259be1024262f68ebfc7619be034a80d7c63eb62f848327
   2019-AKMSS-901423:
     Source_NFSA_Join:
       Lon: -149.80433238747483
