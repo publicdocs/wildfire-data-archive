@@ -4231,17 +4231,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1562885491000
     Hashtag: '#WhitingFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-06-30T12:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-06-30T12:00Z'
+      Acres: 2.19363657
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-11T23:17:13.660Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: AZASF
     unitMention: Apache-Sitgreaves NF
     Final_Fire_Name: Whiting Fire
     _Update:
-      UpdateId: 'UPD-2019-07-11T22:45Z-PER-none-ID-2019-AZASF-000394-NAME-Whiting-S-N'
-      Code: 9a4f206a989cc422462f1c49f8ec2434c05309bac721ec813f5a062771fef9e1
+      UpdateId: >-
+        UPD-2019-07-11T22:45Z-PER-2019-06-30T12:00Z-ID-2019-AZASF-000394-NAME-Whiting-S-N
+      Code: 5ad6f10c68f732a86f9e9f2d4b47d9c07a77417f8e1de4c365fab63a14f9ec0b
   2019-AZCNF-000317:
     Source_NFSA_Join:
       Lon: -109.02681025139366
