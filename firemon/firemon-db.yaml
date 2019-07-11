@@ -23148,3 +23148,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-11T18:30Z-PER-none-ID-2019-WYSHF-000214-NAME-GRIZZLY-S-N'
       Code: 029d2dd3ab548c314f82fd723c85e7b0b7bd4b7193eb7056f5f365351026a9f9
+  2019-IDNCF-000266:
+    Source_NFSA_Join:
+      Lon: -114.98271245032882
+      Lat: 46.23679918876352
+      id: 121001
+      Name: Barren Hill
+      Fire_Name: Barren Hill
+      UniqueFireIdentifier: 2019-IDNCF-000266
+      DailyAcres: 4
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-11T19:30Z'
+      ICS209ReportDateTimeEpoch: 1562873400000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1000
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-01T19:52Z'
+      FireDiscoveryDateTimeEpoch: 1562010749000
+      DispatchCenterID: IDGVC
+      LocalIncidentIdentifier: '000266'
+      POOCounty: Idaho
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-11T19:30Z'
+      ModifiedOnDateTimeEpoch: 1562873400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDNCF-000266
+      ModifiedOnDateTime_Raw: '2019-07-11T19:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562874856000
+      Hashtag: '#BarrenHillFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-11T20:02:18.278Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -114.98271245032882
+    Lat: 46.23679918876352
+    id: 121001
+    Name: Barren Hill
+    Fire_Name: Barren Hill
+    UniqueFireIdentifier: 2019-IDNCF-000266
+    DailyAcres: 4
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-11T19:30Z'
+    ICS209ReportDateTimeEpoch: 1562873400000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1000
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-01T19:52Z'
+    FireDiscoveryDateTimeEpoch: 1562010749000
+    DispatchCenterID: IDGVC
+    LocalIncidentIdentifier: '000266'
+    POOCounty: Idaho
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-11T19:30Z'
+    ModifiedOnDateTimeEpoch: 1562873400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDNCF-000266
+    ModifiedOnDateTime_Raw: '2019-07-11T19:54Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562874856000
+    Hashtag: '#BarrenHillFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-08T00:00Z'
+    PerimeterData:
+      DateTime: '2019-07-08T00:00Z'
+      Acres: 4.00180137
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-11T20:02:21.233Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: IDNCF
+    unitMention: Nez Perce - Clearwater NFs
+    Final_Fire_Name: Barren Hill Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-11T19:30Z-PER-2019-07-08T00:00Z-ID-2019-IDNCF-000266-NAME-BarrenHill-S-N
+      Code: 4a55b8e5d1a6a7b8c75b74456159dedbab504a415846385f6236eef795c270bf
