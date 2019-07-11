@@ -1709,19 +1709,19 @@ Database:
       POOLandownerKind: Federal
       ModifiedOnDateTime: '2019-07-10T02:00Z'
       ModifiedOnDateTimeEpoch: 1562724000000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AKKKS-903181
-      ModifiedOnDateTime_Raw: '2019-07-10T05:08Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562735289000
+      ModifiedOnDateTime_Raw: '2019-07-10T19:34Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562787286000
       Hashtag: '#SwanLakeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T05:30:08.420Z'
+          RetrievedOn: '2019-07-11T03:00:48.962Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -1735,15 +1735,15 @@ Database:
       objectid: 2
       latitude: 60.63056
       longitude: -150.43778
-      acres: 99086
+      acres: 100027
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-09T02:00Z'
-      reportdatetimeEpoch: 1562637600000
-      percentcontained: 69
+      reportdatetime: '2019-07-11T02:00Z'
+      reportdatetimeEpoch: 1562810400000
+      percentcontained: 41
       uniquefireidentifier: 2019-AKKKS-903181
       firediscoverydatetime: '2019-06-06T02:52Z'
       firediscoverydatetimeEpoch: 1559789537000
@@ -1752,11 +1752,11 @@ Database:
       incidentname: Swan Lake
       iscomplex: 'false'
       irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
-      irwinmodifiedon: '2019-07-09T18:45Z'
-      irwinmodifiedonEpoch: 1562697900000
-      mapsymbol: '4'
-      datecurrent: '2019-07-09T23:00Z'
-      datecurrentEpoch: 1562713218000
+      irwinmodifiedon: '2019-07-11T02:58Z'
+      irwinmodifiedonEpoch: 1562813924000
+      mapsymbol: '5'
+      datecurrent: '2019-07-10T21:00Z'
+      datecurrentEpoch: 1562792413000
       pooownerunit: AKKNR
       fireyear: 2019
       localincidentidentifier: '903181'
@@ -1764,11 +1764,11 @@ Database:
       owneragency: USFWS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 99086
+      DailyAcres: 100027
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-09T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562637600000
-      PercentContained: 69
+      ModifiedOnDateTime: '2019-07-11T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562810400000
+      PercentContained: 41
       UniqueFireIdentifier: 2019-AKKKS-903181
       FireDiscoveryDateTime: '2019-06-06T02:52Z'
       FireDiscoveryDateTimeEpoch: 1559789537000
@@ -1778,7 +1778,7 @@ Database:
       Hashtag: '#SwanLakeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T05:30:08.421Z'
+          RetrievedOn: '2019-07-11T03:00:48.963Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -1795,49 +1795,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKKKS-903181
-    Lon: -150.4376895785433
-    Lat: 60.63051903798901
-    id: 118050
-    Name: Swan Lake
-    Fire_Name: Swan Lake
-    UniqueFireIdentifier: 2019-AKKKS-903181
+    Lon: -150.43780263499144
+    Lat: 60.63056158857529
+    objectid: 2
+    latitude: 60.63056
+    longitude: -150.43778
+    acres: 100027
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-11T02:00Z'
+    reportdatetimeEpoch: 1562810400000
+    percentcontained: 41
+    uniquefireidentifier: 2019-AKKKS-903181
+    firediscoverydatetime: '2019-06-06T02:52Z'
+    firediscoverydatetimeEpoch: 1559789537000
+    complexparentirwinid: null
+    pooresponsibleunit: AKKKS
+    incidentname: Swan Lake
+    iscomplex: 'false'
+    irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
+    irwinmodifiedon: '2019-07-11T02:58Z'
+    irwinmodifiedonEpoch: 1562813924000
+    mapsymbol: '5'
+    datecurrent: '2019-07-10T21:00Z'
+    datecurrentEpoch: 1562792413000
+    pooownerunit: AKKNR
+    fireyear: 2019
+    localincidentidentifier: '903181'
+    incidenttypecategory: WF
+    owneragency: USFWS
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 100027
-    PercentContained: 41
-    FireMgmtComplexity: Type 2 Incident
-    IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-07-10T02:00Z'
-    ICS209ReportDateTimeEpoch: 1562724000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 14398831
     FireCause: Natural
-    TotalIncidentPersonnel: 415
+    ModifiedOnDateTime: '2019-07-11T02:00Z'
+    ModifiedOnDateTimeEpoch: 1562810400000
+    PercentContained: 41
+    UniqueFireIdentifier: 2019-AKKKS-903181
     FireDiscoveryDateTime: '2019-06-06T02:52Z'
     FireDiscoveryDateTimeEpoch: 1559789537000
-    DispatchCenterID: AKKIDC
-    LocalIncidentIdentifier: '903181'
-    POOCounty: Kenai Peninsula
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-10T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562724000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType2
-    Source: NFSA
+    Fire_Name: Swan Lake
+    Name: Swan Lake
+    Source: GEOMAC
+    Hashtag: '#SwanLakeFire'
     _CorrelationIds:
       - 2019-AKKKS-903181
-    ModifiedOnDateTime_Raw: '2019-07-10T05:08Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562735289000
-    Hashtag: '#SwanLakeFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-10T08:39Z'
     PerimeterData:
       DateTime: '2019-07-10T08:39Z'
       Acres: 100027.919389
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T17:26:07.749Z'
+          RetrievedOn: '2019-07-11T03:00:50.170Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1858,8 +1870,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-10T02:00Z-PER-2019-07-10T08:39Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
-      Code: b0d2561d4f70a2e009360666785b5d77c9898e4b5988ab146c9e7208b3bd943e
+        UPD-2019-07-11T02:00Z-PER-2019-07-10T08:39Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-G
+      Code: 4a8db7172b178b1239103a4f054d631671e9f34822c71686ae74d35e06ef5b88
   CALFIRE-7a0029c7-64c8-442d-8c7a-080a553e2b8e:
     Source_CALFIRE:
       Lon: -121.534827
