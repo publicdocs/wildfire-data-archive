@@ -23619,3 +23619,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-11T21:29Z-PER-none-ID-2019-AKSWS-904496-NAME-DevilsElbow-S-N'
       Code: 6f18a085e82848da76072ee0aa8f50f5c767e912c7ecbf7ea26119ef102f8185
+  2019-NMGNF-000264:
+    Source_NFSA_Join:
+      Lon: -107.97031062889353
+      Lat: 33.229973245590784
+      id: 120815
+      Name: South
+      Fire_Name: South
+      UniqueFireIdentifier: 2019-NMGNF-000264
+      DailyAcres: 2330
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-11T21:00Z'
+      ICS209ReportDateTimeEpoch: 1562878800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 100460
+      FireCause: Natural
+      TotalIncidentPersonnel: 15
+      FireDiscoveryDateTime: '2019-06-29T23:50Z'
+      FireDiscoveryDateTimeEpoch: 1561852200000
+      DispatchCenterID: NMSDC
+      LocalIncidentIdentifier: '000264'
+      POOCounty: Sierra
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-11T21:00Z'
+      ModifiedOnDateTimeEpoch: 1562878800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NMGNF-000264
+      ModifiedOnDateTime_Raw: '2019-07-11T21:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562882077000
+      Hashtag: '#SouthFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-11T22:06:56.029Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -107.97031062889353
+    Lat: 33.229973245590784
+    id: 120815
+    Name: South
+    Fire_Name: South
+    UniqueFireIdentifier: 2019-NMGNF-000264
+    DailyAcres: 2330
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-11T21:00Z'
+    ICS209ReportDateTimeEpoch: 1562878800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 100460
+    FireCause: Natural
+    TotalIncidentPersonnel: 15
+    FireDiscoveryDateTime: '2019-06-29T23:50Z'
+    FireDiscoveryDateTimeEpoch: 1561852200000
+    DispatchCenterID: NMSDC
+    LocalIncidentIdentifier: '000264'
+    POOCounty: Sierra
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-11T21:00Z'
+    ModifiedOnDateTimeEpoch: 1562878800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NMGNF-000264
+    ModifiedOnDateTime_Raw: '2019-07-11T21:54Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562882077000
+    Hashtag: '#SouthFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-10T00:00Z'
+    PerimeterData:
+      DateTime: '2019-07-10T00:00Z'
+      Acres: 2019.82850548
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-11T22:06:58.590Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: NMGNF
+    unitMention: Gila NF
+    Final_Fire_Name: South Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-11T21:00Z-PER-2019-07-10T00:00Z-ID-2019-NMGNF-000264-NAME-South-S-N
+      Code: c1ac73861a0e2ec18466d0b38886c798e47ab14be0fbfd8ba8a62c02b16acaac
