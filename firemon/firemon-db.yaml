@@ -4366,35 +4366,35 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-10T02:00Z'
-      ICS209ReportDateTimeEpoch: 1562724000000
+      ICS209ReportDateTime: '2019-07-12T03:00Z'
+      ICS209ReportDateTimeEpoch: 1562900400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 300000
+      EstimatedCostToDate: 349719
       FireCause: Natural
-      TotalIncidentPersonnel: 79
+      TotalIncidentPersonnel: 9
       FireDiscoveryDateTime: '2019-06-30T00:28Z'
       FireDiscoveryDateTimeEpoch: 1561854480000
       DispatchCenterID: AKYTDC
       LocalIncidentIdentifier: '000407'
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-10T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562724000000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-12T03:00Z'
+      ModifiedOnDateTimeEpoch: 1562900400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000407
-      ModifiedOnDateTime_Raw: '2019-07-11T00:10Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562803830000
+      ModifiedOnDateTime_Raw: '2019-07-12T06:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562911239000
       Hashtag: '#BearnoseHillFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:00:27.448Z'
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -4414,8 +4414,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-12T02:00Z'
-      reportdatetimeEpoch: 1562896800000
+      reportdatetime: '2019-07-12T03:00Z'
+      reportdatetimeEpoch: 1562900400000
       percentcontained: 0
       uniquefireidentifier: 2019-AKUYD-000407
       firediscoverydatetime: '2019-06-30T00:28Z'
@@ -4425,11 +4425,11 @@ Database:
       incidentname: Bearnose Hill
       iscomplex: 'false'
       irwinid: '{2F2D5842-7ED0-41E2-A6A9-41B6360730A4}'
-      irwinmodifiedon: '2019-07-12T05:44Z'
-      irwinmodifiedonEpoch: 1562910297000
+      irwinmodifiedon: '2019-07-12T06:00Z'
+      irwinmodifiedonEpoch: 1562911240000
       mapsymbol: '3'
-      datecurrent: '2019-07-12T00:00Z'
-      datecurrentEpoch: 1562889624000
+      datecurrent: '2019-07-12T00:30Z'
+      datecurrentEpoch: 1562891421000
       pooownerunit: AKDYN
       fireyear: 2019
       localincidentidentifier: '000407'
@@ -4439,8 +4439,8 @@ Database:
       complexname: Chalkyitsik Complex
       DailyAcres: 41880
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-12T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562896800000
+      ModifiedOnDateTime: '2019-07-12T03:00Z'
+      ModifiedOnDateTimeEpoch: 1562900400000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKUYD-000407
       FireDiscoveryDateTime: '2019-06-30T00:28Z'
@@ -4451,7 +4451,7 @@ Database:
       Hashtag: '#BearnoseHillFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:00:27.448Z'
+          RetrievedOn: '2019-07-12T06:31:31.163Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -4468,61 +4468,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKUYD-000407
-    Lon: -143.5696276306086
-    Lat: 66.48950240410727
-    objectid: 15
-    latitude: 66.4895
-    longitude: -143.5696
-    acres: 41880
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-12T02:00Z'
-    reportdatetimeEpoch: 1562896800000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AKUYD-000407
-    firediscoverydatetime: '2019-06-30T00:28Z'
-    firediscoverydatetimeEpoch: 1561854480000
-    complexparentirwinid: '{4E3207C5-B302-4ED4-9D08-2BD627FD7928}'
-    pooresponsibleunit: AKUYD
-    incidentname: Bearnose Hill
-    iscomplex: 'false'
-    irwinid: '{2F2D5842-7ED0-41E2-A6A9-41B6360730A4}'
-    irwinmodifiedon: '2019-07-12T05:44Z'
-    irwinmodifiedonEpoch: 1562910297000
-    mapsymbol: '3'
-    datecurrent: '2019-07-12T00:00Z'
-    datecurrentEpoch: 1562889624000
-    pooownerunit: AKDYN
-    fireyear: 2019
-    localincidentidentifier: '000407'
-    incidenttypecategory: WF
-    owneragency: ANCSA
-    perimexist: 'Y'
-    complexname: Chalkyitsik Complex
-    DailyAcres: 41880
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-12T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562896800000
-    PercentContained: 0
+    Lon: -143.56962905696037
+    Lat: 66.48950158418968
+    id: 120736
+    Name: Bearnose Hill
+    Fire_Name: Bearnose Hill
     UniqueFireIdentifier: 2019-AKUYD-000407
+    DailyAcres: 41880
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-12T03:00Z'
+    ICS209ReportDateTimeEpoch: 1562900400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 349719
+    FireCause: Natural
+    TotalIncidentPersonnel: 9
     FireDiscoveryDateTime: '2019-06-30T00:28Z'
     FireDiscoveryDateTimeEpoch: 1561854480000
-    Fire_Name: Bearnose Hill
-    Name: Bearnose Hill
-    Source: GEOMAC
-    Hashtag: '#BearnoseHillFire'
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: '000407'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2019-07-12T03:00Z'
+    ModifiedOnDateTimeEpoch: 1562900400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKUYD-000407
+    ModifiedOnDateTime_Raw: '2019-07-12T06:00Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562911239000
+    Hashtag: '#BearnoseHillFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-11T00:00Z'
     PerimeterData:
       DateTime: '2019-07-11T00:00Z'
       Acres: 41876.6890808
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:00:28.706Z'
+          RetrievedOn: '2019-07-12T06:31:32.504Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4543,8 +4531,8 @@ Database:
     Final_Fire_Name: Bearnose Hill Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-12T02:00Z-PER-2019-07-11T00:00Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-G
-      Code: d687eb66477a9e2b35703b9d1d9cfc91700072348579b383091beef39da19213
+        UPD-2019-07-12T03:00Z-PER-2019-07-11T00:00Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-N
+      Code: 23c572d543b5c8473c4b7a72dd2a9c5bae4dd6ab7ca8e10ff6ed5a75d2d50515
   2019-AKTAD-000312:
     Source_NFSA_Join:
       Lon: -152.9917256954349
@@ -6595,39 +6583,39 @@ Database:
       Name: Lloyd Mountain
       Fire_Name: Lloyd Mountain
       UniqueFireIdentifier: 2019-AKTAD-000361
-      DailyAcres: 18496
+      DailyAcres: 19377
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-11T02:00Z'
-      ICS209ReportDateTimeEpoch: 1562810400000
+      ICS209ReportDateTime: '2019-07-12T02:00Z'
+      ICS209ReportDateTimeEpoch: 1562896800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 616868
+      EstimatedCostToDate: 695899
       FireCause: Natural
-      TotalIncidentPersonnel: 40
+      TotalIncidentPersonnel: 20
       FireDiscoveryDateTime: '2019-06-24T00:43Z'
       FireDiscoveryDateTimeEpoch: 1561336980000
       DispatchCenterID: AKYTDC
       LocalIncidentIdentifier: '000361'
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-11T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562810400000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-12T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562896800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAD-000361
-      ModifiedOnDateTime_Raw: '2019-07-11T04:29Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562819385000
+      ModifiedOnDateTime_Raw: '2019-07-12T06:05Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562911535000
       Hashtag: '#LloydMountainFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T04:31:36.203Z'
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -6641,34 +6629,34 @@ Database:
     Name: Lloyd Mountain
     Fire_Name: Lloyd Mountain
     UniqueFireIdentifier: 2019-AKTAD-000361
-    DailyAcres: 18496
+    DailyAcres: 19377
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-11T02:00Z'
-    ICS209ReportDateTimeEpoch: 1562810400000
+    ICS209ReportDateTime: '2019-07-12T02:00Z'
+    ICS209ReportDateTimeEpoch: 1562896800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 616868
+    EstimatedCostToDate: 695899
     FireCause: Natural
-    TotalIncidentPersonnel: 40
+    TotalIncidentPersonnel: 20
     FireDiscoveryDateTime: '2019-06-24T00:43Z'
     FireDiscoveryDateTimeEpoch: 1561336980000
     DispatchCenterID: AKYTDC
     LocalIncidentIdentifier: '000361'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-11T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562810400000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-07-12T02:00Z'
+    ModifiedOnDateTimeEpoch: 1562896800000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKTAD-000361
-    ModifiedOnDateTime_Raw: '2019-07-11T04:29Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562819385000
+    ModifiedOnDateTime_Raw: '2019-07-12T06:05Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562911535000
     Hashtag: '#LloydMountainFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-09T00:00Z'
@@ -6677,7 +6665,7 @@ Database:
       Acres: 16511.017268
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T04:31:38.594Z'
+          RetrievedOn: '2019-07-12T06:31:33.726Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -6698,8 +6686,8 @@ Database:
     Final_Fire_Name: Lloyd Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-11T02:00Z-PER-2019-07-09T00:00Z-ID-2019-AKTAD-000361-NAME-LloydMountain-S-N
-      Code: 907b58cf7cf73d875ebefac2085ef7a7b0137f3108e4e6dac3889fbd664bd759
+        UPD-2019-07-12T02:00Z-PER-2019-07-09T00:00Z-ID-2019-AKTAD-000361-NAME-LloydMountain-S-N
+      Code: 2c964d6c1291f2d9f4d0c35539cee7efd167729410d09c411cb8c9f7fce2ea7b
   2019-AKMID-000391:
     Source_NFSA_Join:
       Lon: -146.20752290562447
@@ -6712,12 +6700,12 @@ Database:
       PercentContained: 75
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-11T03:00Z'
-      ICS209ReportDateTimeEpoch: 1562814000000
+      ICS209ReportDateTime: '2019-07-12T04:00Z'
+      ICS209ReportDateTimeEpoch: 1562904000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 2229000
+      EstimatedCostToDate: 2324000
       FireCause: Natural
       TotalIncidentPersonnel: 105
       FireDiscoveryDateTime: '2019-06-27T03:30Z'
@@ -6726,21 +6714,21 @@ Database:
       LocalIncidentIdentifier: 000391
       POOCounty: Fairbanks North Star
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-11T03:00Z'
-      ModifiedOnDateTimeEpoch: 1562814000000
+      ModifiedOnDateTime: '2019-07-12T04:00Z'
+      ModifiedOnDateTimeEpoch: 1562904000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-AKMID-000391
-      ModifiedOnDateTime_Raw: '2019-07-11T05:03Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562821414000
+      ModifiedOnDateTime_Raw: '2019-07-12T05:46Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562910372000
       Hashtag: '#NinetyeightCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T05:30:46.075Z'
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -6758,12 +6746,12 @@ Database:
     PercentContained: 75
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-11T03:00Z'
-    ICS209ReportDateTimeEpoch: 1562814000000
+    ICS209ReportDateTime: '2019-07-12T04:00Z'
+    ICS209ReportDateTimeEpoch: 1562904000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 2229000
+    EstimatedCostToDate: 2324000
     FireCause: Natural
     TotalIncidentPersonnel: 105
     FireDiscoveryDateTime: '2019-06-27T03:30Z'
@@ -6772,16 +6760,16 @@ Database:
     LocalIncidentIdentifier: 000391
     POOCounty: Fairbanks North Star
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-11T03:00Z'
-    ModifiedOnDateTimeEpoch: 1562814000000
+    ModifiedOnDateTime: '2019-07-12T04:00Z'
+    ModifiedOnDateTimeEpoch: 1562904000000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-AKMID-000391
-    ModifiedOnDateTime_Raw: '2019-07-11T05:03Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562821414000
+    ModifiedOnDateTime_Raw: '2019-07-12T05:46Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562910372000
     Hashtag: '#NinetyeightCreekFire'
     NFSAType: Large WF
     PerimDateTime: '2019-06-30T14:28Z'
@@ -6790,7 +6778,7 @@ Database:
       Acres: 69.58382746
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T05:30:48.464Z'
+          RetrievedOn: '2019-07-12T06:31:33.726Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -6811,8 +6799,8 @@ Database:
     Final_Fire_Name: Ninetyeight Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-11T03:00Z-PER-2019-06-30T14:28Z-ID-2019-AKMID-000391-NAME-NinetyeightCreek-S-N
-      Code: 234dbd968c7ed8a8975390b0fc24bf76a2680945b3c8d96cc59bff379c5e55a2
+        UPD-2019-07-12T04:00Z-PER-2019-06-30T14:28Z-ID-2019-AKMID-000391-NAME-NinetyeightCreek-S-N
+      Code: 6e2e724a8c5a30086dc118fecd388bb2a422b5d179f825c03edd7e24f6bcf022
   2019-NMGNF-000259:
     Source_NFSA_Join:
       Lon: -107.9235084025909
@@ -10558,39 +10546,39 @@ Database:
       Name: Tulsona Creek
       Fire_Name: Tulsona Creek
       UniqueFireIdentifier: 2019-AKCRS-914436
-      DailyAcres: 17
-      PercentContained: 0
+      DailyAcres: 25
+      PercentContained: 25
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-07T18:00Z'
-      ICS209ReportDateTimeEpoch: 1562522400000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-07-12T05:15Z'
+      ICS209ReportDateTimeEpoch: 1562908500000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 302955
+      EstimatedCostToDate: 407719
       FireCause: Natural
-      TotalIncidentPersonnel: 23
+      TotalIncidentPersonnel: 22
       FireDiscoveryDateTime: '2019-07-05T20:56Z'
       FireDiscoveryDateTimeEpoch: 1562360183000
       DispatchCenterID: AKCRSC
       LocalIncidentIdentifier: '914436'
       POOCounty: Valdez-Cordova
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-07T18:00Z'
-      ModifiedOnDateTimeEpoch: 1562522400000
+      ModifiedOnDateTime: '2019-07-12T05:15Z'
+      ModifiedOnDateTimeEpoch: 1562908500000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-AKCRS-914436
-      ModifiedOnDateTime_Raw: '2019-07-08T07:05Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562569502000
+      ModifiedOnDateTime_Raw: '2019-07-12T05:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562909725000
       Hashtag: '#TulsonaCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-08T07:31:21.769Z'
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -10604,34 +10592,34 @@ Database:
     Name: Tulsona Creek
     Fire_Name: Tulsona Creek
     UniqueFireIdentifier: 2019-AKCRS-914436
-    DailyAcres: 17
-    PercentContained: 0
+    DailyAcres: 25
+    PercentContained: 25
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-07T18:00Z'
-    ICS209ReportDateTimeEpoch: 1562522400000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-07-12T05:15Z'
+    ICS209ReportDateTimeEpoch: 1562908500000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 302955
+    EstimatedCostToDate: 407719
     FireCause: Natural
-    TotalIncidentPersonnel: 23
+    TotalIncidentPersonnel: 22
     FireDiscoveryDateTime: '2019-07-05T20:56Z'
     FireDiscoveryDateTimeEpoch: 1562360183000
     DispatchCenterID: AKCRSC
     LocalIncidentIdentifier: '914436'
     POOCounty: Valdez-Cordova
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-07T18:00Z'
-    ModifiedOnDateTimeEpoch: 1562522400000
+    ModifiedOnDateTime: '2019-07-12T05:15Z'
+    ModifiedOnDateTimeEpoch: 1562908500000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-AKCRS-914436
-    ModifiedOnDateTime_Raw: '2019-07-08T07:05Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562569502000
+    ModifiedOnDateTime_Raw: '2019-07-12T05:35Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562909725000
     Hashtag: '#TulsonaCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -10644,8 +10632,8 @@ Database:
     Final_Fire_Name: Tulsona Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-07T18:00Z-PER-none-ID-2019-AKCRS-914436-NAME-TulsonaCreek-S-N
-      Code: 3c8685b770508ae5dffe3fe512c3e4a651391e1d24dd00297b81dd8ac68a0f4a
+        UPD-2019-07-12T05:15Z-PER-none-ID-2019-AKCRS-914436-NAME-TulsonaCreek-S-N
+      Code: 8f17f09c737c656534a1327d81f27ac6a9377f592db4dcfac820b2728bbb8226
   2019-ORMAF-019085:
     Source_NFSA_Join:
       Lon: -118.8271155907882
@@ -22255,39 +22243,39 @@ Database:
       Name: Klutina River
       Fire_Name: Klutina River
       UniqueFireIdentifier: 2019-AKCRS-914461
-      DailyAcres: 175
+      DailyAcres: 195
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-11T05:00Z'
-      ICS209ReportDateTimeEpoch: 1562821200000
+      ICS209ReportDateTime: '2019-07-12T05:00Z'
+      ICS209ReportDateTimeEpoch: 1562907600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 335062
+      EstimatedCostToDate: 510000
       FireCause: Human
-      TotalIncidentPersonnel: 39
+      TotalIncidentPersonnel: 89
       FireDiscoveryDateTime: '2019-07-09T03:10Z'
       FireDiscoveryDateTimeEpoch: 1562641829000
       DispatchCenterID: AKCRSC
       LocalIncidentIdentifier: '914461'
       POOCounty: Valdez-Cordova
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-11T05:00Z'
-      ModifiedOnDateTimeEpoch: 1562821200000
+      ModifiedOnDateTime: '2019-07-12T05:00Z'
+      ModifiedOnDateTimeEpoch: 1562907600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-AKCRS-914461
-      ModifiedOnDateTime_Raw: '2019-07-11T05:24Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562822687000
+      ModifiedOnDateTime_Raw: '2019-07-12T05:49Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562910578000
       Hashtag: '#KlutinaRiverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T05:30:46.075Z'
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -22301,34 +22289,34 @@ Database:
     Name: Klutina River
     Fire_Name: Klutina River
     UniqueFireIdentifier: 2019-AKCRS-914461
-    DailyAcres: 175
+    DailyAcres: 195
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-11T05:00Z'
-    ICS209ReportDateTimeEpoch: 1562821200000
+    ICS209ReportDateTime: '2019-07-12T05:00Z'
+    ICS209ReportDateTimeEpoch: 1562907600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 335062
+    EstimatedCostToDate: 510000
     FireCause: Human
-    TotalIncidentPersonnel: 39
+    TotalIncidentPersonnel: 89
     FireDiscoveryDateTime: '2019-07-09T03:10Z'
     FireDiscoveryDateTimeEpoch: 1562641829000
     DispatchCenterID: AKCRSC
     LocalIncidentIdentifier: '914461'
     POOCounty: Valdez-Cordova
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-11T05:00Z'
-    ModifiedOnDateTimeEpoch: 1562821200000
+    ModifiedOnDateTime: '2019-07-12T05:00Z'
+    ModifiedOnDateTimeEpoch: 1562907600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-AKCRS-914461
-    ModifiedOnDateTime_Raw: '2019-07-11T05:24Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562822687000
+    ModifiedOnDateTime_Raw: '2019-07-12T05:49Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562910578000
     Hashtag: '#KlutinaRiverFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -22341,8 +22329,8 @@ Database:
     Final_Fire_Name: Klutina River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-11T05:00Z-PER-none-ID-2019-AKCRS-914461-NAME-KlutinaRiver-S-N
-      Code: 61a869c3ce75436705accb7d61951302a987755e9c36c7a40c993da0dd0530d4
+        UPD-2019-07-12T05:00Z-PER-none-ID-2019-AKCRS-914461-NAME-KlutinaRiver-S-N
+      Code: 3683753024b61cad5f93d45619fcd6744e23d2b21e5d68bf6ebce9b439b19465
   2019-AKSWS-904464:
     Source_NFSA_Join:
       Lon: -154.87382197980506
@@ -24735,7 +24723,7 @@ Database:
       Name: Grouse Creek
       Fire_Name: Grouse Creek
       UniqueFireIdentifier: 2019-AKTAD-000485
-      DailyAcres: 350
+      DailyAcres: 2000
       PercentContained: null
       FireMgmtComplexity: null
       IncidentManagementOrganization: null
@@ -24753,21 +24741,21 @@ Database:
       LocalIncidentIdentifier: 000485
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-12T03:12Z'
-      ModifiedOnDateTimeEpoch: 1562901158000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-12T06:27Z'
+      ModifiedOnDateTimeEpoch: 1562912858000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAD-000485
-      ModifiedOnDateTime_Raw: '2019-07-12T03:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562901158000
+      ModifiedOnDateTime_Raw: '2019-07-12T06:27Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562912858000
       Hashtag: '#GrouseCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T03:30:53.006Z'
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -24781,7 +24769,7 @@ Database:
     Name: Grouse Creek
     Fire_Name: Grouse Creek
     UniqueFireIdentifier: 2019-AKTAD-000485
-    DailyAcres: 350
+    DailyAcres: 2000
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -24799,16 +24787,16 @@ Database:
     LocalIncidentIdentifier: 000485
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-12T03:12Z'
-    ModifiedOnDateTimeEpoch: 1562901158000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-07-12T06:27Z'
+    ModifiedOnDateTimeEpoch: 1562912858000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKTAD-000485
-    ModifiedOnDateTime_Raw: '2019-07-12T03:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562901158000
+    ModifiedOnDateTime_Raw: '2019-07-12T06:27Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562912858000
     Hashtag: '#GrouseCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -24820,8 +24808,8 @@ Database:
     unitMention: Alaska Fire Service - Tanana Zone
     Final_Fire_Name: Grouse Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-12T03:12Z-PER-none-ID-2019-AKTAD-000485-NAME-GrouseCreek-S-N'
-      Code: eec635ea989e8131b27693b769e31ba34ea7176b89b82030d6aae611f45c3fe0
+      UpdateId: 'UPD-2019-07-12T06:27Z-PER-none-ID-2019-AKTAD-000485-NAME-GrouseCreek-S-N'
+      Code: 7cc4f402d47cf9e3fc68f4f5497419f9645f3fb3ce826b4459ae5efb04ddfca6
   2019-AKUYD-000493:
     Source_NFSA_Join:
       Lon: -147.1784310478537
@@ -26823,21 +26811,21 @@ Database:
       LocalIncidentIdentifier: '904517'
       POOCounty: Bethel
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-12T05:07Z'
-      ModifiedOnDateTimeEpoch: 1562908062000
+      ModifiedOnDateTime: '2019-07-12T05:58Z'
+      ModifiedOnDateTimeEpoch: 1562911123000
       ModifiedBySystem: ifm
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKSWS-904517
-      ModifiedOnDateTime_Raw: '2019-07-12T05:07Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562908062000
+      ModifiedOnDateTime_Raw: '2019-07-12T05:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562911123000
       Hashtag: '#DoorCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T05:31:19.367Z'
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -26869,16 +26857,16 @@ Database:
     LocalIncidentIdentifier: '904517'
     POOCounty: Bethel
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-12T05:07Z'
-    ModifiedOnDateTimeEpoch: 1562908062000
+    ModifiedOnDateTime: '2019-07-12T05:58Z'
+    ModifiedOnDateTimeEpoch: 1562911123000
     ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904517
-    ModifiedOnDateTime_Raw: '2019-07-12T05:07Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562908062000
+    ModifiedOnDateTime_Raw: '2019-07-12T05:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562911123000
     Hashtag: '#DoorCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -26890,8 +26878,8 @@ Database:
     unitMention: Southwest Area Forestry
     Final_Fire_Name: Door Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-12T05:07Z-PER-none-ID-2019-AKSWS-904517-NAME-DoorCreek-S-N'
-      Code: 88f088de3b2a036d1558d5fdd352384d84bfd2f1f00ea8ac575950f4e62e90c1
+      UpdateId: 'UPD-2019-07-12T05:58Z-PER-none-ID-2019-AKSWS-904517-NAME-DoorCreek-S-N'
+      Code: eba75005f1be83a4f46d1a3e65b8daf5da05975ea2d1d5aeedc52903661e6134
   2019-AKTAD-000389:
     Source_NFSA_Join:
       Lon: -151.74952633740156
@@ -27083,3 +27071,98 @@ Database:
       UpdateId: >-
         UPD-2019-07-11T23:00Z-PER-2019-07-07T19:55Z-ID-2019-AKTAD-000389-NAME-Foraker-S-G
       Code: c6061de8016ee165f348d0c84d1a3bba1cf16aa2afe7f611592f3f640be6fe23
+  2019-AKFAS-911508:
+    Source_NFSA_Join:
+      Lon: -149.32288929410382
+      Lat: 64.2185194651271
+      id: 122641
+      Name: Kobe
+      Fire_Name: Kobe
+      UniqueFireIdentifier: 2019-AKFAS-911508
+      DailyAcres: 750
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-12T02:47Z'
+      FireDiscoveryDateTimeEpoch: 1562899641000
+      DispatchCenterID: AKFASC
+      LocalIncidentIdentifier: '911508'
+      POOCounty: Denali
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2019-07-12T06:03Z'
+      ModifiedOnDateTimeEpoch: 1562911433000
+      ModifiedBySystem: ifm
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKFAS-911508
+      ModifiedOnDateTime_Raw: '2019-07-12T06:03Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562911433000
+      Hashtag: '#KobeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-12T06:31:31.162Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -149.32288929410382
+    Lat: 64.2185194651271
+    id: 122641
+    Name: Kobe
+    Fire_Name: Kobe
+    UniqueFireIdentifier: 2019-AKFAS-911508
+    DailyAcres: 750
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-12T02:47Z'
+    FireDiscoveryDateTimeEpoch: 1562899641000
+    DispatchCenterID: AKFASC
+    LocalIncidentIdentifier: '911508'
+    POOCounty: Denali
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2019-07-12T06:03Z'
+    ModifiedOnDateTimeEpoch: 1562911433000
+    ModifiedBySystem: ifm
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKFAS-911508
+    ModifiedOnDateTime_Raw: '2019-07-12T06:03Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562911433000
+    Hashtag: '#KobeFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AKFAS
+    unitMention: Fairbanks Area Forestry
+    Final_Fire_Name: Kobe Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-12T06:03Z-PER-none-ID-2019-AKFAS-911508-NAME-Kobe-S-N'
+      Code: 9dca5a050f15ce2492fbae16675f0478818709c46c5e9899d8424aa59d1bee5c
