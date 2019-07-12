@@ -22371,7 +22371,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T04:31:36.203Z'
+          RetrievedOn: '2019-07-12T08:00:30.310Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -22380,19 +22380,19 @@ Database:
             json: true
         Modified: true
     Source_GEOMAC:
-      Lon: -154.87382440306672
-      Lat: 63.22701767001338
-      objectid: 27
-      latitude: 63.227017
-      longitude: -154.8738
+      Lon: -154.8739133030021
+      Lat: 63.22694507000429
+      objectid: 24
+      latitude: 63.2269444
+      longitude: -154.8738889
       acres: 300
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
-      status: I
+      status: U
       firecause: Unknown
-      reportdatetime: '2019-07-10T23:00Z'
-      reportdatetimeEpoch: 1562799600000
+      reportdatetime: '2019-07-11T23:00Z'
+      reportdatetimeEpoch: 1562886000000
       percentcontained: 0
       uniquefireidentifier: 2019-AKSWS-904464
       firediscoverydatetime: '2019-07-09T17:21Z'
@@ -22402,11 +22402,11 @@ Database:
       incidentname: Hidden Creek
       iscomplex: 'false'
       irwinid: '{71F4D645-EBC4-4549-A1C7-31CBA5C3430B}'
-      irwinmodifiedon: '2019-07-11T04:14Z'
-      irwinmodifiedonEpoch: 1562818490000
+      irwinmodifiedon: '2019-07-12T07:54Z'
+      irwinmodifiedonEpoch: 1562918083000
       mapsymbol: '1'
-      datecurrent: '2019-07-10T22:30Z'
-      datecurrentEpoch: 1562797817000
+      datecurrent: '2019-07-12T02:00Z'
+      datecurrentEpoch: 1562896818000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '904464'
@@ -22416,8 +22416,8 @@ Database:
       complexname: null
       DailyAcres: 300
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-10T23:00Z'
-      ModifiedOnDateTimeEpoch: 1562799600000
+      ModifiedOnDateTime: '2019-07-11T23:00Z'
+      ModifiedOnDateTimeEpoch: 1562886000000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKSWS-904464
       FireDiscoveryDateTime: '2019-07-09T17:21Z'
@@ -22428,7 +22428,7 @@ Database:
       Hashtag: '#HiddenCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T04:31:36.204Z'
+          RetrievedOn: '2019-07-12T08:00:30.310Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -22445,42 +22445,54 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKSWS-904464
-    Lon: -154.87382197980506
-    Lat: 63.227018238516656
-    id: 122288
-    Name: Hidden Creek
-    Fire_Name: Hidden Creek
-    UniqueFireIdentifier: 2019-AKSWS-904464
+    Lon: -154.8739133030021
+    Lat: 63.22694507000429
+    objectid: 24
+    latitude: 63.2269444
+    longitude: -154.8738889
+    acres: 300
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-07-11T23:00Z'
+    reportdatetimeEpoch: 1562886000000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKSWS-904464
+    firediscoverydatetime: '2019-07-09T17:21Z'
+    firediscoverydatetimeEpoch: 1562692863000
+    complexparentirwinid: null
+    pooresponsibleunit: AKSWS
+    incidentname: Hidden Creek
+    iscomplex: 'false'
+    irwinid: '{71F4D645-EBC4-4549-A1C7-31CBA5C3430B}'
+    irwinmodifiedon: '2019-07-12T07:54Z'
+    irwinmodifiedonEpoch: 1562918083000
+    mapsymbol: '1'
+    datecurrent: '2019-07-12T02:00Z'
+    datecurrentEpoch: 1562896818000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '904464'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'N'
+    complexname: null
     DailyAcres: 300
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-10T23:00Z'
-    ICS209ReportDateTimeEpoch: 1562799600000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 27082
     FireCause: Unknown
-    TotalIncidentPersonnel: 22
+    ModifiedOnDateTime: '2019-07-11T23:00Z'
+    ModifiedOnDateTimeEpoch: 1562886000000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKSWS-904464
     FireDiscoveryDateTime: '2019-07-09T17:21Z'
     FireDiscoveryDateTimeEpoch: 1562692863000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904464'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-10T23:00Z'
-    ModifiedOnDateTimeEpoch: 1562799600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Hidden Creek
+    Name: Hidden Creek
+    Source: GEOMAC
+    Hashtag: '#HiddenCreekFire'
     _CorrelationIds:
       - 2019-AKSWS-904464
-    ModifiedOnDateTime_Raw: '2019-07-11T04:14Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562818489000
-    Hashtag: '#HiddenCreekFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -22490,8 +22502,8 @@ Database:
     unitMention: Southwest Area Forestry
     Final_Fire_Name: Hidden Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-10T23:00Z-PER-none-ID-2019-AKSWS-904464-NAME-HiddenCreek-S-N'
-      Code: 7774163f3df4e2cb6188de7ee735bec26961170c97a0b22cf312cb1f4822c57e
+      UpdateId: 'UPD-2019-07-11T23:00Z-PER-none-ID-2019-AKSWS-904464-NAME-HiddenCreek-S-G'
+      Code: 86e41108813a490725cf9c4b7af811e37825154a974a15fe65f026fd4ecbea45
   2019-AKFAS-911323:
     Source_NFSA_Join:
       Lon: -146.5553954993998
