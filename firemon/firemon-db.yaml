@@ -4362,7 +4362,7 @@ Database:
       Name: Bearnose Hill
       Fire_Name: Bearnose Hill
       UniqueFireIdentifier: 2019-AKUYD-000407
-      DailyAcres: 41880
+      DailyAcres: 53684.9
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
@@ -4382,19 +4382,19 @@ Database:
       POOLandownerKind: Private
       ModifiedOnDateTime: '2019-07-12T03:00Z'
       ModifiedOnDateTimeEpoch: 1562900400000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000407
-      ModifiedOnDateTime_Raw: '2019-07-12T06:00Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562911239000
+      ModifiedOnDateTime_Raw: '2019-07-12T19:39Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562960389000
       Hashtag: '#BearnoseHillFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:31:31.162Z'
+          RetrievedOn: '2019-07-12T21:00:55.629Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -4405,17 +4405,17 @@ Database:
     Source_GEOMAC:
       Lon: -143.5696276306086
       Lat: 66.48950240410727
-      objectid: 15
+      objectid: 14
       latitude: 66.4895
       longitude: -143.5696
-      acres: 41880
+      acres: 53684.9
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
-      status: U
+      status: F
       firecause: Natural
-      reportdatetime: '2019-07-12T03:00Z'
-      reportdatetimeEpoch: 1562900400000
+      reportdatetime: '2019-07-12T03:05Z'
+      reportdatetimeEpoch: 1562900700000
       percentcontained: 0
       uniquefireidentifier: 2019-AKUYD-000407
       firediscoverydatetime: '2019-06-30T00:28Z'
@@ -4425,11 +4425,11 @@ Database:
       incidentname: Bearnose Hill
       iscomplex: 'false'
       irwinid: '{2F2D5842-7ED0-41E2-A6A9-41B6360730A4}'
-      irwinmodifiedon: '2019-07-12T06:00Z'
-      irwinmodifiedonEpoch: 1562911240000
-      mapsymbol: '3'
-      datecurrent: '2019-07-12T00:30Z'
-      datecurrentEpoch: 1562891421000
+      irwinmodifiedon: '2019-07-12T20:50Z'
+      irwinmodifiedonEpoch: 1562964651000
+      mapsymbol: '4'
+      datecurrent: '2019-07-12T15:00Z'
+      datecurrentEpoch: 1562943616000
       pooownerunit: AKDYN
       fireyear: 2019
       localincidentidentifier: '000407'
@@ -4437,10 +4437,10 @@ Database:
       owneragency: ANCSA
       perimexist: 'Y'
       complexname: Chalkyitsik Complex
-      DailyAcres: 41880
+      DailyAcres: 53684.9
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-12T03:00Z'
-      ModifiedOnDateTimeEpoch: 1562900400000
+      ModifiedOnDateTime: '2019-07-12T03:05Z'
+      ModifiedOnDateTimeEpoch: 1562900700000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKUYD-000407
       FireDiscoveryDateTime: '2019-06-30T00:28Z'
@@ -4451,7 +4451,7 @@ Database:
       Hashtag: '#BearnoseHillFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:31:31.163Z'
+          RetrievedOn: '2019-07-12T21:00:55.629Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -4468,49 +4468,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKUYD-000407
-    Lon: -143.56962905696037
-    Lat: 66.48950158418968
-    id: 120736
-    Name: Bearnose Hill
-    Fire_Name: Bearnose Hill
-    UniqueFireIdentifier: 2019-AKUYD-000407
-    DailyAcres: 41880
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-12T03:00Z'
-    ICS209ReportDateTimeEpoch: 1562900400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 349719
+    Lon: -143.5696276306086
+    Lat: 66.48950240410727
+    objectid: 14
+    latitude: 66.4895
+    longitude: -143.5696
+    acres: 53684.9
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: F
+    firecause: Natural
+    reportdatetime: '2019-07-12T03:05Z'
+    reportdatetimeEpoch: 1562900700000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKUYD-000407
+    firediscoverydatetime: '2019-06-30T00:28Z'
+    firediscoverydatetimeEpoch: 1561854480000
+    complexparentirwinid: '{4E3207C5-B302-4ED4-9D08-2BD627FD7928}'
+    pooresponsibleunit: AKUYD
+    incidentname: Bearnose Hill
+    iscomplex: 'false'
+    irwinid: '{2F2D5842-7ED0-41E2-A6A9-41B6360730A4}'
+    irwinmodifiedon: '2019-07-12T20:50Z'
+    irwinmodifiedonEpoch: 1562964651000
+    mapsymbol: '4'
+    datecurrent: '2019-07-12T15:00Z'
+    datecurrentEpoch: 1562943616000
+    pooownerunit: AKDYN
+    fireyear: 2019
+    localincidentidentifier: '000407'
+    incidenttypecategory: WF
+    owneragency: ANCSA
+    perimexist: 'Y'
+    complexname: Chalkyitsik Complex
+    DailyAcres: 53684.9
     FireCause: Natural
-    TotalIncidentPersonnel: 9
+    ModifiedOnDateTime: '2019-07-12T03:05Z'
+    ModifiedOnDateTimeEpoch: 1562900700000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKUYD-000407
     FireDiscoveryDateTime: '2019-06-30T00:28Z'
     FireDiscoveryDateTimeEpoch: 1561854480000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000407'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-12T03:00Z'
-    ModifiedOnDateTimeEpoch: 1562900400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Bearnose Hill
+    Name: Bearnose Hill
+    Source: GEOMAC
+    Hashtag: '#BearnoseHillFire'
     _CorrelationIds:
       - 2019-AKUYD-000407
-    ModifiedOnDateTime_Raw: '2019-07-12T06:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562911239000
-    Hashtag: '#BearnoseHillFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-12T01:02Z'
     PerimeterData:
       DateTime: '2019-07-12T01:02Z'
       Acres: 53677.256099
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T18:25:18.616Z'
+          RetrievedOn: '2019-07-12T21:00:56.998Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4531,8 +4543,8 @@ Database:
     Final_Fire_Name: Bearnose Hill Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-12T03:00Z-PER-2019-07-12T01:02Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-N
-      Code: 212c436c5bb11e4e13645d3cd4bb96f1a147b6fee08a00a2be8926e311e51c55
+        UPD-2019-07-12T03:05Z-PER-2019-07-12T01:02Z-ID-2019-AKUYD-000407-NAME-BearnoseHill-S-G
+      Code: 5a033c9420a5a6c0b3f7399a385a4468acd2b403e9aafcf70eaa318fdf2f5a9a
   2019-AKTAD-000312:
     Source_NFSA_Join:
       Lon: -152.9917256954349
@@ -21086,16 +21098,16 @@ Database:
       Name: Frozen Calf
       Fire_Name: Frozen Calf
       UniqueFireIdentifier: 2019-AKUYD-000367
-      DailyAcres: 110000
+      DailyAcres: 117033
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-10T02:00Z'
-      ICS209ReportDateTimeEpoch: 1562724000000
+      ICS209ReportDateTime: '2019-07-12T02:00Z'
+      ICS209ReportDateTimeEpoch: 1562896800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 88710
+      EstimatedCostToDate: 367487
       FireCause: Natural
       TotalIncidentPersonnel: 30
       FireDiscoveryDateTime: '2019-06-24T16:24Z'
@@ -21104,21 +21116,21 @@ Database:
       LocalIncidentIdentifier: '000367'
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-10T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562724000000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-12T02:00Z'
+      ModifiedOnDateTimeEpoch: 1562896800000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000367
-      ModifiedOnDateTime_Raw: '2019-07-11T16:39Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562863194000
+      ModifiedOnDateTime_Raw: '2019-07-12T19:39Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562960390000
       Hashtag: '#FrozenCalfFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:00:27.448Z'
+          RetrievedOn: '2019-07-12T21:00:55.629Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -21129,42 +21141,42 @@ Database:
     Source_GEOMAC:
       Lon: -142.93836130157848
       Lat: 66.84416919672779
-      objectid: 10
+      objectid: 9
       latitude: 66.8441667
       longitude: -142.9383333
-      acres: 110000
+      acres: 117033
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
-      status: U
+      status: F
       firecause: Natural
-      reportdatetime: '2019-07-12T02:00Z'
-      reportdatetimeEpoch: 1562896800000
+      reportdatetime: '2019-07-12T02:15Z'
+      reportdatetimeEpoch: 1562897700000
       percentcontained: 0
       uniquefireidentifier: 2019-AKUYD-000367
       firediscoverydatetime: '2019-06-24T16:24Z'
       firediscoverydatetimeEpoch: 1561393440000
-      complexparentirwinid: null
+      complexparentirwinid: '{4E3207C5-B302-4ED4-9D08-2BD627FD7928}'
       pooresponsibleunit: AKUYD
       incidentname: Frozen Calf
       iscomplex: 'false'
       irwinid: '{5D7C1283-D2F2-417E-8B78-F73ABEAB84FE}'
-      irwinmodifiedon: '2019-07-12T05:55Z'
-      irwinmodifiedonEpoch: 1562910933000
+      irwinmodifiedon: '2019-07-12T20:56Z'
+      irwinmodifiedonEpoch: 1562965018000
       mapsymbol: '5'
-      datecurrent: '2019-07-12T00:00Z'
-      datecurrentEpoch: 1562889624000
+      datecurrent: '2019-07-12T15:00Z'
+      datecurrentEpoch: 1562943616000
       pooownerunit: AKARR
       fireyear: 2019
       localincidentidentifier: '000367'
       incidenttypecategory: WF
       owneragency: USFWS
       perimexist: 'Y'
-      complexname: null
-      DailyAcres: 110000
+      complexname: Chalkyitsik Complex
+      DailyAcres: 117033
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-12T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562896800000
+      ModifiedOnDateTime: '2019-07-12T02:15Z'
+      ModifiedOnDateTimeEpoch: 1562897700000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKUYD-000367
       FireDiscoveryDateTime: '2019-06-24T16:24Z'
@@ -21175,7 +21187,7 @@ Database:
       Hashtag: '#FrozenCalfFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:00:27.448Z'
+          RetrievedOn: '2019-07-12T21:00:55.629Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -21194,42 +21206,42 @@ Database:
         - 2019-AKUYD-000367
     Lon: -142.93836130157848
     Lat: 66.84416919672779
-    objectid: 10
+    objectid: 9
     latitude: 66.8441667
     longitude: -142.9383333
-    acres: 110000
+    acres: 117033
     gacc: AKCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: AK
-    status: U
+    status: F
     firecause: Natural
-    reportdatetime: '2019-07-12T02:00Z'
-    reportdatetimeEpoch: 1562896800000
+    reportdatetime: '2019-07-12T02:15Z'
+    reportdatetimeEpoch: 1562897700000
     percentcontained: 0
     uniquefireidentifier: 2019-AKUYD-000367
     firediscoverydatetime: '2019-06-24T16:24Z'
     firediscoverydatetimeEpoch: 1561393440000
-    complexparentirwinid: null
+    complexparentirwinid: '{4E3207C5-B302-4ED4-9D08-2BD627FD7928}'
     pooresponsibleunit: AKUYD
     incidentname: Frozen Calf
     iscomplex: 'false'
     irwinid: '{5D7C1283-D2F2-417E-8B78-F73ABEAB84FE}'
-    irwinmodifiedon: '2019-07-12T05:55Z'
-    irwinmodifiedonEpoch: 1562910933000
+    irwinmodifiedon: '2019-07-12T20:56Z'
+    irwinmodifiedonEpoch: 1562965018000
     mapsymbol: '5'
-    datecurrent: '2019-07-12T00:00Z'
-    datecurrentEpoch: 1562889624000
+    datecurrent: '2019-07-12T15:00Z'
+    datecurrentEpoch: 1562943616000
     pooownerunit: AKARR
     fireyear: 2019
     localincidentidentifier: '000367'
     incidenttypecategory: WF
     owneragency: USFWS
     perimexist: 'Y'
-    complexname: null
-    DailyAcres: 110000
+    complexname: Chalkyitsik Complex
+    DailyAcres: 117033
     FireCause: Natural
-    ModifiedOnDateTime: '2019-07-12T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562896800000
+    ModifiedOnDateTime: '2019-07-12T02:15Z'
+    ModifiedOnDateTimeEpoch: 1562897700000
     PercentContained: 0
     UniqueFireIdentifier: 2019-AKUYD-000367
     FireDiscoveryDateTime: '2019-06-24T16:24Z'
@@ -21246,7 +21258,7 @@ Database:
       Acres: 116022.53511
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T06:00:28.706Z'
+          RetrievedOn: '2019-07-12T21:00:56.998Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -21267,8 +21279,8 @@ Database:
     Final_Fire_Name: Frozen Calf Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-12T02:00Z-PER-2019-07-11T00:00Z-ID-2019-AKUYD-000367-NAME-FrozenCalf-S-G
-      Code: 8e36afecb02ccf6d12c28359e0341ac1fcac150e486dd87bbb43b45454b422a5
+        UPD-2019-07-12T02:15Z-PER-2019-07-11T00:00Z-ID-2019-AKUYD-000367-NAME-FrozenCalf-S-G
+      Code: 1088443a4346b0d52cba1a6520b9a6fd28bb5bb181d4ced73f7cd7cf22179347
   2019-AKTAS-913455:
     Source_NFSA_Join:
       Lon: -143.32469441159233
