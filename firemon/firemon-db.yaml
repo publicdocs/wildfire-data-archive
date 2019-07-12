@@ -585,38 +585,38 @@ Database:
       Fire_Name: EAST
       UniqueFireIdentifier: 2019-CAMNF-000241
       DailyAcres: 410
-      PercentContained: 75
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-08T00:30Z'
-      ICS209ReportDateTimeEpoch: 1562545800000
+      PercentContained: 95
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-12T01:30Z'
+      ICS209ReportDateTimeEpoch: 1562895000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 1560000
+      EstimatedCostToDate: 1650000
       FireCause: Unknown
-      TotalIncidentPersonnel: 46
+      TotalIncidentPersonnel: 4
       FireDiscoveryDateTime: '2019-06-17T22:40Z'
       FireDiscoveryDateTimeEpoch: 1560811216000
       DispatchCenterID: CAMNFC
       LocalIncidentIdentifier: '000241'
       POOCounty: Trinity
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-08T00:30Z'
-      ModifiedOnDateTimeEpoch: 1562545800000
+      ModifiedOnDateTime: '2019-07-12T01:30Z'
+      ModifiedOnDateTimeEpoch: 1562895000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAMNF-000241
-      ModifiedOnDateTime_Raw: '2019-07-08T00:45Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562546754000
+      ModifiedOnDateTime_Raw: '2019-07-12T02:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562898529000
       Hashtag: '#EastFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-09T01:01:02.819Z'
+          RetrievedOn: '2019-07-12T02:38:47.290Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -624,149 +624,53 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -123.06390260559813
-      Lat: 40.08417207331309
-      objectid: 5
-      latitude: 40.084167
-      longitude: -123.063889
-      acres: 410
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-07-09T00:30Z'
-      reportdatetimeEpoch: 1562632200000
-      percentcontained: 85
-      uniquefireidentifier: 2019-CAMNF-000241
-      firediscoverydatetime: '2019-06-17T22:40Z'
-      firediscoverydatetimeEpoch: 1560811216000
-      complexparentirwinid: null
-      pooresponsibleunit: CAMNF
-      incidentname: EAST
-      iscomplex: 'false'
-      irwinid: '{9BD7AEC1-483D-457D-9EC8-E10E73BC0F20}'
-      irwinmodifiedon: '2019-07-09T00:54Z'
-      irwinmodifiedonEpoch: 1562633661000
-      mapsymbol: '1'
-      datecurrent: '2019-07-08T19:00Z'
-      datecurrentEpoch: 1562612417000
-      pooownerunit: CAMNF
-      fireyear: 2019
-      localincidentidentifier: '000241'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 410
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-09T00:30Z'
-      ModifiedOnDateTimeEpoch: 1562632200000
-      PercentContained: 85
-      UniqueFireIdentifier: 2019-CAMNF-000241
-      FireDiscoveryDateTime: '2019-06-17T22:40Z'
-      FireDiscoveryDateTimeEpoch: 1560811216000
-      Fire_Name: EAST
-      Name: EAST
-      Source: GEOMAC
-      Hashtag: '#EastFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-09T01:01:02.820Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAMNF-000241
-    Lon: -123.06390260559813
-    Lat: 40.08417207331309
-    objectid: 5
-    latitude: 40.084167
-    longitude: -123.063889
-    acres: 410
-    gacc: ONCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-07-09T00:30Z'
-    reportdatetimeEpoch: 1562632200000
-    percentcontained: 85
-    uniquefireidentifier: 2019-CAMNF-000241
-    firediscoverydatetime: '2019-06-17T22:40Z'
-    firediscoverydatetimeEpoch: 1560811216000
-    complexparentirwinid: null
-    pooresponsibleunit: CAMNF
-    incidentname: EAST
-    iscomplex: 'false'
-    irwinid: '{9BD7AEC1-483D-457D-9EC8-E10E73BC0F20}'
-    irwinmodifiedon: '2019-07-09T00:54Z'
-    irwinmodifiedonEpoch: 1562633661000
-    mapsymbol: '1'
-    datecurrent: '2019-07-08T19:00Z'
-    datecurrentEpoch: 1562612417000
-    pooownerunit: CAMNF
-    fireyear: 2019
-    localincidentidentifier: '000241'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 410
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-07-09T00:30Z'
-    ModifiedOnDateTimeEpoch: 1562632200000
-    PercentContained: 85
+    Lon: -123.04191208919573
+    Lat: 40.068847086568624
+    id: 119460
+    Name: EAST
+    Fire_Name: EAST
     UniqueFireIdentifier: 2019-CAMNF-000241
+    DailyAcres: 410
+    PercentContained: 95
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-12T01:30Z'
+    ICS209ReportDateTimeEpoch: 1562895000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1650000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 4
     FireDiscoveryDateTime: '2019-06-17T22:40Z'
     FireDiscoveryDateTimeEpoch: 1560811216000
-    Fire_Name: EAST
-    Name: EAST
-    Source: GEOMAC
-    Hashtag: '#EastFire'
+    DispatchCenterID: CAMNFC
+    LocalIncidentIdentifier: '000241'
+    POOCounty: Trinity
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-12T01:30Z'
+    ModifiedOnDateTimeEpoch: 1562895000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-CAMNF-000241
-    PerimDateTime: '2019-06-26T11:42Z'
+    ModifiedOnDateTime_Raw: '2019-07-12T02:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562898529000
+    Hashtag: '#EastFire'
+    NFSAType: Large WF
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-06-26T11:42Z'
-      Acres: 394.99807589
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-09T01:01:04.168Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: CAMNF
     unitMention: '@MendocinoNF'
     Final_Fire_Name: East Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-09T00:30Z-PER-2019-06-26T11:42Z-ID-2019-CAMNF-000241-NAME-EAST-S-G
-      Code: 4992aad832d419ed5ca43a2479a3af0315192ac9b137978d8eb05b42c02b9fb1
+      UpdateId: 'UPD-2019-07-12T01:30Z-PER-none-ID-2019-CAMNF-000241-NAME-EAST-S-N'
+      Code: 91fbde70376348f2de179241fbe5e1ee6310a828cc44a0f399ac333b3ce90e99
   2019-NMLNF-000249:
     Source_NFSA_Join:
       Lon: -105.20580822408559
@@ -20567,12 +20471,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 5 Incident
       IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-07T23:30Z'
-      ICS209ReportDateTimeEpoch: 1562542200000
+      ICS209ReportDateTime: '2019-07-12T01:00Z'
+      ICS209ReportDateTimeEpoch: 1562893200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 35000
+      EstimatedCostToDate: 40000
       FireCause: Natural
       TotalIncidentPersonnel: 0
       FireDiscoveryDateTime: '2019-06-23T19:04Z'
@@ -20581,21 +20485,21 @@ Database:
       LocalIncidentIdentifier: '030272'
       POOCounty: Alpine
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-07T23:30Z'
-      ModifiedOnDateTimeEpoch: 1562542200000
+      ModifiedOnDateTime: '2019-07-12T01:00Z'
+      ModifiedOnDateTimeEpoch: 1562893200000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-NVHTF-030272
-      ModifiedOnDateTime_Raw: '2019-07-07T23:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562543290000
+      ModifiedOnDateTime_Raw: '2019-07-12T02:03Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562896989000
       Hashtag: '#TamarackFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-08T00:01:06.434Z'
+          RetrievedOn: '2019-07-12T02:38:47.290Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -20613,12 +20517,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-07T23:30Z'
-    ICS209ReportDateTimeEpoch: 1562542200000
+    ICS209ReportDateTime: '2019-07-12T01:00Z'
+    ICS209ReportDateTimeEpoch: 1562893200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 35000
+    EstimatedCostToDate: 40000
     FireCause: Natural
     TotalIncidentPersonnel: 0
     FireDiscoveryDateTime: '2019-06-23T19:04Z'
@@ -20627,16 +20531,16 @@ Database:
     LocalIncidentIdentifier: '030272'
     POOCounty: Alpine
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-07T23:30Z'
-    ModifiedOnDateTimeEpoch: 1562542200000
+    ModifiedOnDateTime: '2019-07-12T01:00Z'
+    ModifiedOnDateTimeEpoch: 1562893200000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-NVHTF-030272
-    ModifiedOnDateTime_Raw: '2019-07-07T23:48Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562543290000
+    ModifiedOnDateTime_Raw: '2019-07-12T02:03Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562896989000
     Hashtag: '#TamarackFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-01T16:34Z'
@@ -20645,7 +20549,7 @@ Database:
       Acres: 67.21748139
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-08T00:01:09.097Z'
+          RetrievedOn: '2019-07-12T02:38:49.565Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -20666,8 +20570,8 @@ Database:
     Final_Fire_Name: Tamarack Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-07T23:30Z-PER-2019-07-01T16:34Z-ID-2019-NVHTF-030272-NAME-Tamarack-S-N
-      Code: 682a7792427e08745d6467cccbbc2e038eff0c6cc9e2a75ff41db2cb4ec3d0c7
+        UPD-2019-07-12T01:00Z-PER-2019-07-01T16:34Z-ID-2019-NVHTF-030272-NAME-Tamarack-S-N
+      Code: 85b88384f3a5656eea77edb542153abf30ffacf1cc08daa6ada5e86456a52483
   2019-AZA4S-001073:
     Source_NFSA_Join:
       Lon: -112.00770782499315
@@ -24831,21 +24735,21 @@ Database:
       LocalIncidentIdentifier: 000485
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-12T00:53Z'
-      ModifiedOnDateTimeEpoch: 1562892783000
+      ModifiedOnDateTime: '2019-07-12T02:09Z'
+      ModifiedOnDateTimeEpoch: 1562897372000
       ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAD-000485
-      ModifiedOnDateTime_Raw: '2019-07-12T00:53Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562892783000
+      ModifiedOnDateTime_Raw: '2019-07-12T02:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562897372000
       Hashtag: '#GrouseCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T01:48:53.502Z'
+          RetrievedOn: '2019-07-12T02:38:47.290Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -24877,16 +24781,16 @@ Database:
     LocalIncidentIdentifier: 000485
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-12T00:53Z'
-    ModifiedOnDateTimeEpoch: 1562892783000
+    ModifiedOnDateTime: '2019-07-12T02:09Z'
+    ModifiedOnDateTimeEpoch: 1562897372000
     ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKTAD-000485
-    ModifiedOnDateTime_Raw: '2019-07-12T00:53Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562892783000
+    ModifiedOnDateTime_Raw: '2019-07-12T02:09Z'
+    ModifiedOnDateTimeEpoch_Raw: 1562897372000
     Hashtag: '#GrouseCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -24898,8 +24802,8 @@ Database:
     unitMention: Alaska Fire Service - Tanana Zone
     Final_Fire_Name: Grouse Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-12T00:53Z-PER-none-ID-2019-AKTAD-000485-NAME-GrouseCreek-S-N'
-      Code: 377cd23eb61e0d34ef4fa2a9a87c3d72fd0b056bf889fe2f798576364038e50f
+      UpdateId: 'UPD-2019-07-12T02:09Z-PER-none-ID-2019-AKTAD-000485-NAME-GrouseCreek-S-N'
+      Code: 0554bd55a32061dba2e8af3b6ccde487194002ea418dc370c48b8363e7058b4c
   2019-AKUYD-000493:
     Source_NFSA_Join:
       Lon: -147.1784310478537
