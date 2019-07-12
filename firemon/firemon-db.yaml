@@ -23215,7 +23215,7 @@ Database:
       Name: Bear
       Fire_Name: Bear
       UniqueFireIdentifier: 2019-NMGNF-000321
-      DailyAcres: 100
+      DailyAcres: 400
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
@@ -23235,19 +23235,19 @@ Database:
       POOLandownerKind: Federal
       ModifiedOnDateTime: '2019-07-11T20:00Z'
       ModifiedOnDateTimeEpoch: 1562875200000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wildcad
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMGNF-000321
-      ModifiedOnDateTime_Raw: '2019-07-11T21:07Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562879243000
+      ModifiedOnDateTime_Raw: '2019-07-12T20:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562963710000
       Hashtag: '#BearFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-11T21:37:03.363Z'
+          RetrievedOn: '2019-07-12T23:00:41.087Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -23255,42 +23255,120 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -107.97880869148129
-    Lat: 33.57326601767339
-    id: 122374
-    Name: Bear
-    Fire_Name: Bear
-    UniqueFireIdentifier: 2019-NMGNF-000321
-    DailyAcres: 100
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-11T20:00Z'
-    ICS209ReportDateTimeEpoch: 1562875200000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 20000
+    Source_GEOMAC:
+      Lon: -107.98451019336007
+      Lat: 33.57637534663146
+      objectid: 23
+      latitude: 33.57637
+      longitude: -107.9845
+      acres: 525
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-12T22:45Z'
+      reportdatetimeEpoch: 1562971500000
+      percentcontained: 5
+      uniquefireidentifier: 2019-NMGNF-000321
+      firediscoverydatetime: '2019-07-09T22:59Z'
+      firediscoverydatetimeEpoch: 1562713140000
+      complexparentirwinid: null
+      pooresponsibleunit: NMGNF
+      incidentname: Bear
+      iscomplex: 'false'
+      irwinid: '{21B0C9BB-C4E0-4A32-B9C9-EAF2CA5C8218}'
+      irwinmodifiedon: '2019-07-12T22:56Z'
+      irwinmodifiedonEpoch: 1562972186000
+      mapsymbol: '1'
+      datecurrent: '2019-07-12T17:00Z'
+      datecurrentEpoch: 1562950819000
+      pooownerunit: NMGNF
+      fireyear: 2019
+      localincidentidentifier: '000321'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 525
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-12T22:45Z'
+      ModifiedOnDateTimeEpoch: 1562971500000
+      PercentContained: 5
+      UniqueFireIdentifier: 2019-NMGNF-000321
+      FireDiscoveryDateTime: '2019-07-09T22:59Z'
+      FireDiscoveryDateTimeEpoch: 1562713140000
+      Fire_Name: Bear
+      Name: Bear
+      Source: GEOMAC
+      Hashtag: '#BearFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-12T23:00:41.088Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NMGNF-000321
+    Lon: -107.98451019336007
+    Lat: 33.57637534663146
+    objectid: 23
+    latitude: 33.57637
+    longitude: -107.9845
+    acres: 525
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NM
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-12T22:45Z'
+    reportdatetimeEpoch: 1562971500000
+    percentcontained: 5
+    uniquefireidentifier: 2019-NMGNF-000321
+    firediscoverydatetime: '2019-07-09T22:59Z'
+    firediscoverydatetimeEpoch: 1562713140000
+    complexparentirwinid: null
+    pooresponsibleunit: NMGNF
+    incidentname: Bear
+    iscomplex: 'false'
+    irwinid: '{21B0C9BB-C4E0-4A32-B9C9-EAF2CA5C8218}'
+    irwinmodifiedon: '2019-07-12T22:56Z'
+    irwinmodifiedonEpoch: 1562972186000
+    mapsymbol: '1'
+    datecurrent: '2019-07-12T17:00Z'
+    datecurrentEpoch: 1562950819000
+    pooownerunit: NMGNF
+    fireyear: 2019
+    localincidentidentifier: '000321'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 525
     FireCause: Natural
-    TotalIncidentPersonnel: 34
+    ModifiedOnDateTime: '2019-07-12T22:45Z'
+    ModifiedOnDateTimeEpoch: 1562971500000
+    PercentContained: 5
+    UniqueFireIdentifier: 2019-NMGNF-000321
     FireDiscoveryDateTime: '2019-07-09T22:59Z'
     FireDiscoveryDateTimeEpoch: 1562713140000
-    DispatchCenterID: NMSDC
-    LocalIncidentIdentifier: '000321'
-    POOCounty: Catron
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-11T20:00Z'
-    ModifiedOnDateTimeEpoch: 1562875200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
+    Fire_Name: Bear
+    Name: Bear
+    Source: GEOMAC
+    Hashtag: '#BearFire'
     _CorrelationIds:
       - 2019-NMGNF-000321
-    ModifiedOnDateTime_Raw: '2019-07-11T21:07Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562879243000
-    Hashtag: '#BearFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -23300,8 +23378,8 @@ Database:
     unitMention: Gila NF
     Final_Fire_Name: Bear Fire
     _Update:
-      UpdateId: 'UPD-2019-07-11T20:00Z-PER-none-ID-2019-NMGNF-000321-NAME-Bear-S-N'
-      Code: 2686498ab50ad93e5c1111c5d1c4f7ff156f7b10074e59b6ec03cc427541641d
+      UpdateId: 'UPD-2019-07-12T22:45Z-PER-none-ID-2019-NMGNF-000321-NAME-Bear-S-G'
+      Code: f67dbfe4789f656894d383c42a7ae6b3300a36e4bfec3328053a51dbe101a7a0
   2019-AKSWS-904496:
     Source_NFSA_Join:
       Lon: -156.12778926806035
