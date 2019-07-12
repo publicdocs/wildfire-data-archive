@@ -660,17 +660,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1562898529000
     Hashtag: '#EastFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-06-26T11:42Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-06-26T11:42Z'
+      Acres: 394.99807589
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-12T02:44:06.007Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: CAMNF
     unitMention: '@MendocinoNF'
     Final_Fire_Name: East Fire
     _Update:
-      UpdateId: 'UPD-2019-07-12T01:30Z-PER-none-ID-2019-CAMNF-000241-NAME-EAST-S-N'
-      Code: 91fbde70376348f2de179241fbe5e1ee6310a828cc44a0f399ac333b3ce90e99
+      UpdateId: >-
+        UPD-2019-07-12T01:30Z-PER-2019-06-26T11:42Z-ID-2019-CAMNF-000241-NAME-EAST-S-N
+      Code: 3eb29f263fefa4b6620af859afd334722050bd6e3b675f948a6058267cc61640
   2019-NMLNF-000249:
     Source_NFSA_Join:
       Lon: -105.20580822408559
