@@ -28453,38 +28453,38 @@ Database:
       Fire_Name: Black Mountain 2
       UniqueFireIdentifier: 2019-NVCCD-030374
       DailyAcres: 730
-      PercentContained: 40
+      PercentContained: 75
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-13T18:00Z'
-      ICS209ReportDateTimeEpoch: 1563040800000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-07-13T19:25Z'
+      ICS209ReportDateTimeEpoch: 1563045900000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 100000
       FireCause: Unknown
-      TotalIncidentPersonnel: 79
+      TotalIncidentPersonnel: 76
       FireDiscoveryDateTime: '2019-07-13T02:13Z'
       FireDiscoveryDateTimeEpoch: 1562983980000
       DispatchCenterID: NVSFC
       LocalIncidentIdentifier: '030374'
       POOCounty: Washoe
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-13T18:00Z'
-      ModifiedOnDateTimeEpoch: 1563040800000
+      ModifiedOnDateTime: '2019-07-13T19:25Z'
+      ModifiedOnDateTimeEpoch: 1563045900000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVCCD-030374
-      ModifiedOnDateTime_Raw: '2019-07-13T19:02Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563044569000
+      ModifiedOnDateTime_Raw: '2019-07-13T19:34Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563046480000
       Hashtag: '#BlackMountain2Fire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T19:30:14.122Z'
+          RetrievedOn: '2019-07-13T20:01:08.947Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -28492,6 +28492,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -119.35779078298879
+      Lat: 39.78611644953219
+      objectid: 34
+      latitude: 39.7861111
+      longitude: -119.3577778
+      acres: 730
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NV
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-07-13T19:25Z'
+      reportdatetimeEpoch: 1563045900000
+      percentcontained: 75
+      uniquefireidentifier: 2019-NVCCD-030374
+      firediscoverydatetime: '2019-07-13T02:13Z'
+      firediscoverydatetimeEpoch: 1562983980000
+      complexparentirwinid: null
+      pooresponsibleunit: NVCCD
+      incidentname: Black Mountain 2
+      iscomplex: 'false'
+      irwinid: '{E396D4F1-CBB2-43D4-A873-B796C787BDB5}'
+      irwinmodifiedon: '2019-07-13T19:34Z'
+      irwinmodifiedonEpoch: 1563046481000
+      mapsymbol: '1'
+      datecurrent: '2019-07-13T14:00Z'
+      datecurrentEpoch: 1563026430000
+      pooownerunit: NVWNA
+      fireyear: 2019
+      localincidentidentifier: '030374'
+      incidenttypecategory: WF
+      owneragency: BIA
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 730
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-13T19:25Z'
+      ModifiedOnDateTimeEpoch: 1563045900000
+      PercentContained: 75
+      UniqueFireIdentifier: 2019-NVCCD-030374
+      FireDiscoveryDateTime: '2019-07-13T02:13Z'
+      FireDiscoveryDateTimeEpoch: 1562983980000
+      Fire_Name: Black Mountain 2
+      Name: Black Mountain 2
+      Source: GEOMAC
+      Hashtag: '#BlackMountain2Fire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-13T20:01:08.948Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NVCCD-030374
     Lon: -119.35781331118748
     Lat: 39.78609705523818
     id: 122793
@@ -28499,33 +28565,33 @@ Database:
     Fire_Name: Black Mountain 2
     UniqueFireIdentifier: 2019-NVCCD-030374
     DailyAcres: 730
-    PercentContained: 40
+    PercentContained: 75
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-13T18:00Z'
-    ICS209ReportDateTimeEpoch: 1563040800000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-07-13T19:25Z'
+    ICS209ReportDateTimeEpoch: 1563045900000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 100000
     FireCause: Unknown
-    TotalIncidentPersonnel: 79
+    TotalIncidentPersonnel: 76
     FireDiscoveryDateTime: '2019-07-13T02:13Z'
     FireDiscoveryDateTimeEpoch: 1562983980000
     DispatchCenterID: NVSFC
     LocalIncidentIdentifier: '030374'
     POOCounty: Washoe
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-13T18:00Z'
-    ModifiedOnDateTimeEpoch: 1563040800000
+    ModifiedOnDateTime: '2019-07-13T19:25Z'
+    ModifiedOnDateTimeEpoch: 1563045900000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NVCCD-030374
-    ModifiedOnDateTime_Raw: '2019-07-13T19:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563044569000
+    ModifiedOnDateTime_Raw: '2019-07-13T19:34Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563046480000
     Hashtag: '#BlackMountain2Fire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -28538,8 +28604,8 @@ Database:
     Final_Fire_Name: Black Mountain 2 Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-13T18:00Z-PER-none-ID-2019-NVCCD-030374-NAME-BlackMountain2-S-N
-      Code: 3975fa4c21aee5eb209d39b9d26c1476ca8bb895cb20e3191b38ac5e36283331
+        UPD-2019-07-13T19:25Z-PER-none-ID-2019-NVCCD-030374-NAME-BlackMountain2-S-N
+      Code: f5a6937bd36444e6eeeeaff4fe603c609aeaa15f4fb34640140d9f1de8c936e4
   2019-AKSWS-904240:
     Source_NFSA_Join:
       Lon: -160.74601916056596
