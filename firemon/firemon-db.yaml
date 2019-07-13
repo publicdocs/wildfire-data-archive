@@ -28453,38 +28453,38 @@ Database:
       Fire_Name: Black Mountain 2
       UniqueFireIdentifier: 2019-NVCCD-030374
       DailyAcres: 730
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 40
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-13T18:00Z'
+      ICS209ReportDateTimeEpoch: 1563040800000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 100000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 79
       FireDiscoveryDateTime: '2019-07-13T02:13Z'
       FireDiscoveryDateTimeEpoch: 1562983980000
       DispatchCenterID: NVSFC
       LocalIncidentIdentifier: '030374'
       POOCounty: Washoe
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-13T17:30Z'
-      ModifiedOnDateTimeEpoch: 1563039014000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-13T18:00Z'
+      ModifiedOnDateTimeEpoch: 1563040800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVCCD-030374
-      ModifiedOnDateTime_Raw: '2019-07-13T17:30Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563039014000
+      ModifiedOnDateTime_Raw: '2019-07-13T19:02Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563044569000
       Hashtag: '#BlackMountain2Fire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T18:00:36.407Z'
+          RetrievedOn: '2019-07-13T19:30:14.122Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -28499,33 +28499,33 @@ Database:
     Fire_Name: Black Mountain 2
     UniqueFireIdentifier: 2019-NVCCD-030374
     DailyAcres: 730
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 40
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-13T18:00Z'
+    ICS209ReportDateTimeEpoch: 1563040800000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 100000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 79
     FireDiscoveryDateTime: '2019-07-13T02:13Z'
     FireDiscoveryDateTimeEpoch: 1562983980000
     DispatchCenterID: NVSFC
     LocalIncidentIdentifier: '030374'
     POOCounty: Washoe
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-13T17:30Z'
-    ModifiedOnDateTimeEpoch: 1563039014000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-13T18:00Z'
+    ModifiedOnDateTimeEpoch: 1563040800000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NVCCD-030374
-    ModifiedOnDateTime_Raw: '2019-07-13T17:30Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563039014000
+    ModifiedOnDateTime_Raw: '2019-07-13T19:02Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563044569000
     Hashtag: '#BlackMountain2Fire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -28538,8 +28538,8 @@ Database:
     Final_Fire_Name: Black Mountain 2 Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-13T17:30Z-PER-none-ID-2019-NVCCD-030374-NAME-BlackMountain2-S-N
-      Code: fc2611d190f6e96ebe7850fc28acd1aa8d0b5407ae51dca969f8d998fb5deab2
+        UPD-2019-07-13T18:00Z-PER-none-ID-2019-NVCCD-030374-NAME-BlackMountain2-S-N
+      Code: 3975fa4c21aee5eb209d39b9d26c1476ca8bb895cb20e3191b38ac5e36283331
   2019-AKSWS-904240:
     Source_NFSA_Join:
       Lon: -160.74601916056596
@@ -29670,3 +29670,116 @@ Database:
       UpdateId: >-
         UPD-2019-07-13T18:58Z-PER-none-ID-CALFIRE-777caabb-3850-4db2-ba02-2d95fda38db6-NAME-Orangefire-S-C
       Code: bce8dc2dadd2af8a32094e8934008afe913dc25299cb657215689340f536dac7
+  2019-COGMF-000089:
+    Source_NFSA_Join:
+      Lon: -107.28240773377333
+      Lat: 38.60740700995135
+      id: 122458
+      Name: Rock Spring
+      Fire_Name: Rock Spring
+      UniqueFireIdentifier: 2019-COGMF-000089
+      DailyAcres: 5
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-07-13T15:00Z'
+      ICS209ReportDateTimeEpoch: 1563030000000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 7000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 5
+      FireDiscoveryDateTime: '2019-07-10T22:40Z'
+      FireDiscoveryDateTimeEpoch: 1562798408000
+      DispatchCenterID: COMTC
+      LocalIncidentIdentifier: 000089
+      POOCounty: Gunnison
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-13T15:00Z'
+      ModifiedOnDateTimeEpoch: 1563030000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-COGMF-000089
+      ModifiedOnDateTime_Raw: '2019-07-13T19:04Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563044670000
+      Hashtag: '#RockSpringFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-13T19:30:14.122Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -107.28240773377333
+    Lat: 38.60740700995135
+    id: 122458
+    Name: Rock Spring
+    Fire_Name: Rock Spring
+    UniqueFireIdentifier: 2019-COGMF-000089
+    DailyAcres: 5
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-07-13T15:00Z'
+    ICS209ReportDateTimeEpoch: 1563030000000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 7000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 5
+    FireDiscoveryDateTime: '2019-07-10T22:40Z'
+    FireDiscoveryDateTimeEpoch: 1562798408000
+    DispatchCenterID: COMTC
+    LocalIncidentIdentifier: 000089
+    POOCounty: Gunnison
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-13T15:00Z'
+    ModifiedOnDateTimeEpoch: 1563030000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-COGMF-000089
+    ModifiedOnDateTime_Raw: '2019-07-13T19:04Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563044670000
+    Hashtag: '#RockSpringFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-11T17:00Z'
+    PerimeterData:
+      DateTime: '2019-07-11T17:00Z'
+      Acres: 5.99689613
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-13T19:30:16.571Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: COGMF
+    unitMention: 'Grand Mesa, Uncompahgre and Gunnison NFs'
+    Final_Fire_Name: Rock Spring Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-13T15:00Z-PER-2019-07-11T17:00Z-ID-2019-COGMF-000089-NAME-RockSpring-S-N
+      Code: 5126c24f33119284a193d780f54542d1bf862ca0ba6e1dac8765264ae6e9b0c8
