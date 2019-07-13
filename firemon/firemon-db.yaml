@@ -22738,16 +22738,16 @@ Database:
       Name: Pete Andrews Creek
       Fire_Name: Pete Andrews Creek
       UniqueFireIdentifier: 2019-AKSWS-904457
-      DailyAcres: 350
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 2000
+      PercentContained: 1
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-13T03:00Z'
+      ICS209ReportDateTimeEpoch: 1562986800000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 167661
       FireCause: Unknown
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-07-08T18:55Z'
@@ -22756,21 +22756,21 @@ Database:
       LocalIncidentIdentifier: '904457'
       POOCounty: Lake and Peninsula
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-10T06:27Z'
-      ModifiedOnDateTimeEpoch: 1562740061000
+      ModifiedOnDateTime: '2019-07-13T03:00Z'
+      ModifiedOnDateTimeEpoch: 1562986800000
       ModifiedBySystem: ifm
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKSWS-904457
-      ModifiedOnDateTime_Raw: '2019-07-10T06:27Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562740061000
+      ModifiedOnDateTime_Raw: '2019-07-13T07:15Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563002147000
       Hashtag: '#PeteAndrewsCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T06:30:12.232Z'
+          RetrievedOn: '2019-07-13T07:30:45.559Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -22778,22 +22778,88 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -155.17802190343863
+      Lat: 59.74566789668808
+      objectid: 21
+      latitude: 59.745667
+      longitude: -155.178
+      acres: 2000
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-07-13T03:00Z'
+      reportdatetimeEpoch: 1562986800000
+      percentcontained: 1
+      uniquefireidentifier: 2019-AKSWS-904457
+      firediscoverydatetime: '2019-07-08T18:55Z'
+      firediscoverydatetimeEpoch: 1562612117000
+      complexparentirwinid: null
+      pooresponsibleunit: AKSWS
+      incidentname: Pete Andrews Creek
+      iscomplex: 'false'
+      irwinid: '{BDE3F003-FAA1-438D-A2EE-1D4C7B8AF74D}'
+      irwinmodifiedon: '2019-07-13T07:15Z'
+      irwinmodifiedonEpoch: 1563002148000
+      mapsymbol: '1'
+      datecurrent: '2019-07-13T01:30Z'
+      datecurrentEpoch: 1562981418000
+      pooownerunit: AKVLN
+      fireyear: 2019
+      localincidentidentifier: '904457'
+      incidenttypecategory: WF
+      owneragency: ANCSA
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 2000
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-13T03:00Z'
+      ModifiedOnDateTimeEpoch: 1562986800000
+      PercentContained: 1
+      UniqueFireIdentifier: 2019-AKSWS-904457
+      FireDiscoveryDateTime: '2019-07-08T18:55Z'
+      FireDiscoveryDateTimeEpoch: 1562612117000
+      Fire_Name: Pete Andrews Creek
+      Name: Pete Andrews Creek
+      Source: GEOMAC
+      Hashtag: '#PeteAndrewsCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-13T07:30:45.560Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKSWS-904457
     Lon: -154.99768169117945
     Lat: 59.75293582081585
     id: 122159
     Name: Pete Andrews Creek
     Fire_Name: Pete Andrews Creek
     UniqueFireIdentifier: 2019-AKSWS-904457
-    DailyAcres: 350
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 2000
+    PercentContained: 1
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-13T03:00Z'
+    ICS209ReportDateTimeEpoch: 1562986800000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 167661
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-07-08T18:55Z'
@@ -22802,16 +22868,16 @@ Database:
     LocalIncidentIdentifier: '904457'
     POOCounty: Lake and Peninsula
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-10T06:27Z'
-    ModifiedOnDateTimeEpoch: 1562740061000
+    ModifiedOnDateTime: '2019-07-13T03:00Z'
+    ModifiedOnDateTimeEpoch: 1562986800000
     ModifiedBySystem: ifm
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904457
-    ModifiedOnDateTime_Raw: '2019-07-10T06:27Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562740061000
+    ModifiedOnDateTime_Raw: '2019-07-13T07:15Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563002147000
     Hashtag: '#PeteAndrewsCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -22824,8 +22890,8 @@ Database:
     Final_Fire_Name: Pete Andrews Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-10T06:27Z-PER-none-ID-2019-AKSWS-904457-NAME-PeteAndrewsCreek-S-N
-      Code: f34ee0e246a897c09bceedcb7153cc5fd60e3c58147428f42b107ba1597ac1b9
+        UPD-2019-07-13T03:00Z-PER-none-ID-2019-AKSWS-904457-NAME-PeteAndrewsCreek-S-N
+      Code: 5dba634dd32537806868aaf73b697e7d82c6ce5b7520615daa54af05efc44914
   2019-AKSWS-904481:
     Source_NFSA_Join:
       Lon: -159.3544569202421
@@ -28587,3 +28653,99 @@ Database:
       UpdateId: >-
         UPD-2019-07-13T02:00Z-PER-2019-07-07T12:48Z-ID-2019-AKSWS-904240-NAME-LittleKasigluk-S-N
       Code: 6a6eadae20d877d8b33fdd0d15d35b6089c9675e7572674fd8199e5a7bf85cda
+  2019-AKSWS-904529:
+    Source_NFSA_Join:
+      Lon: -156.91032069520972
+      Lat: 61.34871642668724
+      id: 122776
+      Name: Cotton Village
+      Fire_Name: Cotton Village
+      UniqueFireIdentifier: 2019-AKSWS-904529
+      DailyAcres: 600
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-12T23:01Z'
+      FireDiscoveryDateTimeEpoch: 1562972482000
+      DispatchCenterID: AKMSSC
+      LocalIncidentIdentifier: '904529'
+      POOCounty: Bethel
+      POOLandownerKind: Other
+      ModifiedOnDateTime: '2019-07-13T07:01Z'
+      ModifiedOnDateTimeEpoch: 1563001307000
+      ModifiedBySystem: ifm
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKSWS-904529
+      ModifiedOnDateTime_Raw: '2019-07-13T07:01Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563001307000
+      Hashtag: '#CottonVillageFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-13T07:30:45.559Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -156.91032069520972
+    Lat: 61.34871642668724
+    id: 122776
+    Name: Cotton Village
+    Fire_Name: Cotton Village
+    UniqueFireIdentifier: 2019-AKSWS-904529
+    DailyAcres: 600
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-12T23:01Z'
+    FireDiscoveryDateTimeEpoch: 1562972482000
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '904529'
+    POOCounty: Bethel
+    POOLandownerKind: Other
+    ModifiedOnDateTime: '2019-07-13T07:01Z'
+    ModifiedOnDateTimeEpoch: 1563001307000
+    ModifiedBySystem: ifm
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKSWS-904529
+    ModifiedOnDateTime_Raw: '2019-07-13T07:01Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563001307000
+    Hashtag: '#CottonVillageFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AKSWS
+    unitMention: Southwest Area Forestry
+    Final_Fire_Name: Cotton Village Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-13T07:01Z-PER-none-ID-2019-AKSWS-904529-NAME-CottonVillage-S-N
+      Code: cb424f79f3bc906ba97a56a6d04b7561d2ded6187bab5e9cb49350d0e7f3e926
