@@ -7833,17 +7833,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563145996000
     Hashtag: '#NaranjoFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-05T13:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-05T13:00Z'
+      Acres: 7.78934838
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-14T23:35:00.973Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: NMSNF
     unitMention: Santa Fe NF
     Final_Fire_Name: Naranjo Fire
     _Update:
-      UpdateId: 'UPD-2019-07-14T22:30Z-PER-none-ID-2019-NMSNF-000250-NAME-Naranjo-S-N'
-      Code: b15cd4e9a9677ed5222ab68b619e1a2e2ee7db5475730975691edf353a060a64
+      UpdateId: >-
+        UPD-2019-07-14T22:30Z-PER-2019-07-05T13:00Z-ID-2019-NMSNF-000250-NAME-Naranjo-S-N
+      Code: b02b78d01a5712f434d59d9861f19ba58539ef185965a9ef5dfe0b5fb6abd862
   2019-ORMAF-019083:
     Source_NFSA_Join:
       Lon: -119.36521542912863
