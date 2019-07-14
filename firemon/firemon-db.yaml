@@ -7083,39 +7083,39 @@ Database:
       Name: Beaver
       Fire_Name: Beaver
       UniqueFireIdentifier: 2019-COARF-000226
-      DailyAcres: 85
-      PercentContained: 60
+      DailyAcres: 100
+      PercentContained: 75
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-13T22:00Z'
-      ICS209ReportDateTimeEpoch: 1563055200000
+      ICS209ReportDateTime: '2019-07-14T22:45Z'
+      ICS209ReportDateTimeEpoch: 1563144300000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 305000
+      EstimatedCostToDate: 320000
       FireCause: Unknown
-      TotalIncidentPersonnel: 72
+      TotalIncidentPersonnel: 24
       FireDiscoveryDateTime: '2019-07-01T18:20Z'
       FireDiscoveryDateTimeEpoch: 1562005246000
       DispatchCenterID: COFTC
       LocalIncidentIdentifier: '000226'
       POOCounty: Larimer
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-13T22:00Z'
-      ModifiedOnDateTimeEpoch: 1563055200000
+      ModifiedOnDateTime: '2019-07-14T22:45Z'
+      ModifiedOnDateTimeEpoch: 1563144300000
       ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-COARF-000226
-      ModifiedOnDateTime_Raw: '2019-07-13T23:00Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563058833000
+      ModifiedOnDateTime_Raw: '2019-07-14T23:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563146041000
       Hashtag: '#BeaverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T23:30:34.877Z'
+          RetrievedOn: '2019-07-14T23:31:10.574Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -7123,40 +7123,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -105.57111034420382
+      Lat: 40.58407649197547
+      objectid: 17
+      latitude: 40.58407
+      longitude: -105.5711
+      acres: 100
+      gacc: RMCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CO
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-07-14T22:45Z'
+      reportdatetimeEpoch: 1563144300000
+      percentcontained: 75
+      uniquefireidentifier: 2019-COARF-000226
+      firediscoverydatetime: '2019-07-01T18:20Z'
+      firediscoverydatetimeEpoch: 1562005246000
+      complexparentirwinid: null
+      pooresponsibleunit: COARF
+      incidentname: Beaver
+      iscomplex: 'false'
+      irwinid: '{01E7DDF7-DDF2-46BF-BBC5-EB75D02DC3FB}'
+      irwinmodifiedon: '2019-07-14T23:14Z'
+      irwinmodifiedonEpoch: 1563146042000
+      mapsymbol: '1'
+      datecurrent: '2019-07-14T17:30Z'
+      datecurrentEpoch: 1563125434000
+      pooownerunit: COARF
+      fireyear: 2019
+      localincidentidentifier: '000226'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 100
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-14T22:45Z'
+      ModifiedOnDateTimeEpoch: 1563144300000
+      PercentContained: 75
+      UniqueFireIdentifier: 2019-COARF-000226
+      FireDiscoveryDateTime: '2019-07-01T18:20Z'
+      FireDiscoveryDateTimeEpoch: 1562005246000
+      Fire_Name: Beaver
+      Name: Beaver
+      Source: GEOMAC
+      Hashtag: '#BeaverFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-14T23:31:10.575Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-COARF-000226
     Lon: -105.56761368791757
     Lat: 40.5799948589158
     id: 120977
     Name: Beaver
     Fire_Name: Beaver
     UniqueFireIdentifier: 2019-COARF-000226
-    DailyAcres: 85
-    PercentContained: 60
+    DailyAcres: 100
+    PercentContained: 75
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-13T22:00Z'
-    ICS209ReportDateTimeEpoch: 1563055200000
+    ICS209ReportDateTime: '2019-07-14T22:45Z'
+    ICS209ReportDateTimeEpoch: 1563144300000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 305000
+    EstimatedCostToDate: 320000
     FireCause: Unknown
-    TotalIncidentPersonnel: 72
+    TotalIncidentPersonnel: 24
     FireDiscoveryDateTime: '2019-07-01T18:20Z'
     FireDiscoveryDateTimeEpoch: 1562005246000
     DispatchCenterID: COFTC
     LocalIncidentIdentifier: '000226'
     POOCounty: Larimer
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-13T22:00Z'
-    ModifiedOnDateTimeEpoch: 1563055200000
+    ModifiedOnDateTime: '2019-07-14T22:45Z'
+    ModifiedOnDateTimeEpoch: 1563144300000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-COARF-000226
-    ModifiedOnDateTime_Raw: '2019-07-13T23:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563058833000
+    ModifiedOnDateTime_Raw: '2019-07-14T23:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563146041000
     Hashtag: '#BeaverFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-11T00:00Z'
@@ -7165,7 +7231,7 @@ Database:
       Acres: 85.89935206
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T23:30:37.356Z'
+          RetrievedOn: '2019-07-14T23:31:13.141Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -7186,8 +7252,8 @@ Database:
     Final_Fire_Name: Beaver Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-13T22:00Z-PER-2019-07-11T00:00Z-ID-2019-COARF-000226-NAME-Beaver-S-N
-      Code: e2df3c52aef87f90ce60a605372f28758114faca72201233fbd546561fd89fa4
+        UPD-2019-07-14T22:45Z-PER-2019-07-11T00:00Z-ID-2019-COARF-000226-NAME-Beaver-S-N
+      Code: 53cbb8d098a288e07fde4e1c28656b52fda691e5a5eb29c6fa0fefa57213b025
   2019-NMGNF-000278:
     Source_NFSA_Join:
       Lon: -108.52390640588501
@@ -7692,38 +7758,38 @@ Database:
       Fire_Name: Naranjo
       UniqueFireIdentifier: 2019-NMSNF-000250
       DailyAcres: 1010
-      PercentContained: 51
+      PercentContained: 65
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-13T22:00Z'
-      ICS209ReportDateTimeEpoch: 1563055200000
-      ICS209ReportStatus: U
+      ICS209ReportDateTime: '2019-07-14T22:30Z'
+      ICS209ReportDateTimeEpoch: 1563143400000
+      ICS209ReportStatus: F
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 640000
+      EstimatedCostToDate: 675000
       FireCause: Natural
-      TotalIncidentPersonnel: 40
+      TotalIncidentPersonnel: 16
       FireDiscoveryDateTime: '2019-07-03T21:47Z'
       FireDiscoveryDateTimeEpoch: 1562190420000
       DispatchCenterID: NMSFC
       LocalIncidentIdentifier: '000250'
       POOCounty: Sandoval
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-13T22:00Z'
-      ModifiedOnDateTimeEpoch: 1563055200000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-14T22:30Z'
+      ModifiedOnDateTimeEpoch: 1563143400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMSNF-000250
-      ModifiedOnDateTime_Raw: '2019-07-13T23:17Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563059824000
+      ModifiedOnDateTime_Raw: '2019-07-14T23:13Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563145996000
       Hashtag: '#NaranjoFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T23:30:34.877Z'
+          RetrievedOn: '2019-07-14T23:31:10.574Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -7731,72 +7797,6 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -106.92351017442319
-      Lat: 36.157045787301485
-      objectid: 20
-      latitude: 36.15704
-      longitude: -106.9235
-      acres: 1010
-      gacc: SWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: NM
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-13T22:00Z'
-      reportdatetimeEpoch: 1563055200000
-      percentcontained: 51
-      uniquefireidentifier: 2019-NMSNF-000250
-      firediscoverydatetime: '2019-07-03T21:47Z'
-      firediscoverydatetimeEpoch: 1562190420000
-      complexparentirwinid: null
-      pooresponsibleunit: NMSNF
-      incidentname: Naranjo
-      iscomplex: 'false'
-      irwinid: '{A887CF9D-CB2F-4CC8-9499-79730B6F8FF7}'
-      irwinmodifiedon: '2019-07-13T23:17Z'
-      irwinmodifiedonEpoch: 1563059825000
-      mapsymbol: '1'
-      datecurrent: '2019-07-13T17:30Z'
-      datecurrentEpoch: 1563039015000
-      pooownerunit: NMSNF
-      fireyear: 2019
-      localincidentidentifier: '000250'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 1010
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-13T22:00Z'
-      ModifiedOnDateTimeEpoch: 1563055200000
-      PercentContained: 51
-      UniqueFireIdentifier: 2019-NMSNF-000250
-      FireDiscoveryDateTime: '2019-07-03T21:47Z'
-      FireDiscoveryDateTimeEpoch: 1562190420000
-      Fire_Name: Naranjo
-      Name: Naranjo
-      Source: GEOMAC
-      Hashtag: '#NaranjoFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-13T23:30:34.878Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-NMSNF-000250
     Lon: -106.92341399678064
     Lat: 36.15694277568514
     id: 121319
@@ -7804,64 +7804,46 @@ Database:
     Fire_Name: Naranjo
     UniqueFireIdentifier: 2019-NMSNF-000250
     DailyAcres: 1010
-    PercentContained: 51
+    PercentContained: 65
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-13T22:00Z'
-    ICS209ReportDateTimeEpoch: 1563055200000
-    ICS209ReportStatus: U
+    ICS209ReportDateTime: '2019-07-14T22:30Z'
+    ICS209ReportDateTimeEpoch: 1563143400000
+    ICS209ReportStatus: F
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 640000
+    EstimatedCostToDate: 675000
     FireCause: Natural
-    TotalIncidentPersonnel: 40
+    TotalIncidentPersonnel: 16
     FireDiscoveryDateTime: '2019-07-03T21:47Z'
     FireDiscoveryDateTimeEpoch: 1562190420000
     DispatchCenterID: NMSFC
     LocalIncidentIdentifier: '000250'
     POOCounty: Sandoval
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-13T22:00Z'
-    ModifiedOnDateTimeEpoch: 1563055200000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-14T22:30Z'
+    ModifiedOnDateTimeEpoch: 1563143400000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NMSNF-000250
-    ModifiedOnDateTime_Raw: '2019-07-13T23:17Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563059824000
+    ModifiedOnDateTime_Raw: '2019-07-14T23:13Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563145996000
     Hashtag: '#NaranjoFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-05T13:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-05T13:00Z'
-      Acres: 7.78934838
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-13T23:30:37.356Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: NMSNF
     unitMention: Santa Fe NF
     Final_Fire_Name: Naranjo Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-13T22:00Z-PER-2019-07-05T13:00Z-ID-2019-NMSNF-000250-NAME-Naranjo-S-N
-      Code: 6337d51ada3f5cbc86910909a2f661401e45aa9098b64f0a69ea07af18000b22
+      UpdateId: 'UPD-2019-07-14T22:30Z-PER-none-ID-2019-NMSNF-000250-NAME-Naranjo-S-N'
+      Code: b15cd4e9a9677ed5222ab68b619e1a2e2ee7db5475730975691edf353a060a64
   2019-ORMAF-019083:
     Source_NFSA_Join:
       Lon: -119.36521542912863
