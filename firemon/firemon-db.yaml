@@ -4519,7 +4519,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T04:31:19.393Z'
+          RetrievedOn: '2019-07-14T05:30:28.188Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -4530,7 +4530,7 @@ Database:
     Source_GEOMAC:
       Lon: -153.43112738776472
       Lat: 66.3058336758116
-      objectid: 5
+      objectid: 6
       latitude: 66.305833
       longitude: -153.4311
       acres: 42000
@@ -4539,8 +4539,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-13T02:00Z'
-      reportdatetimeEpoch: 1562983200000
+      reportdatetime: '2019-07-14T02:00Z'
+      reportdatetimeEpoch: 1563069600000
       percentcontained: 0
       uniquefireidentifier: 2019-AKTAD-000312
       firediscoverydatetime: '2019-06-21T19:56Z'
@@ -4550,11 +4550,11 @@ Database:
       incidentname: Bergman Creek
       iscomplex: 'false'
       irwinid: '{A5C271FA-9159-4AF5-A15E-BE9E28DAA140}'
-      irwinmodifiedon: '2019-07-13T04:04Z'
-      irwinmodifiedonEpoch: 1562990662000
+      irwinmodifiedon: '2019-07-14T05:22Z'
+      irwinmodifiedonEpoch: 1563081731000
       mapsymbol: '3'
-      datecurrent: '2019-07-12T22:30Z'
-      datecurrentEpoch: 1562970617000
+      datecurrent: '2019-07-13T23:30Z'
+      datecurrentEpoch: 1563060627000
       pooownerunit: AKCYD
       fireyear: 2019
       localincidentidentifier: '000312'
@@ -4564,8 +4564,8 @@ Database:
       complexname: null
       DailyAcres: 42000
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-13T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562983200000
+      ModifiedOnDateTime: '2019-07-14T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563069600000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKTAD-000312
       FireDiscoveryDateTime: '2019-06-21T19:56Z'
@@ -4576,7 +4576,7 @@ Database:
       Hashtag: '#BergmanCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T04:31:19.394Z'
+          RetrievedOn: '2019-07-14T05:30:28.189Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -4593,49 +4593,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKTAD-000312
-    Lon: -152.9917256954349
-    Lat: 66.56755030194712
-    id: 119777
-    Name: Bergman Creek
-    Fire_Name: Bergman Creek
-    UniqueFireIdentifier: 2019-AKTAD-000312
+    Lon: -153.43112738776472
+    Lat: 66.3058336758116
+    objectid: 6
+    latitude: 66.305833
+    longitude: -153.4311
+    acres: 42000
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-14T02:00Z'
+    reportdatetimeEpoch: 1563069600000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKTAD-000312
+    firediscoverydatetime: '2019-06-21T19:56Z'
+    firediscoverydatetimeEpoch: 1561146960000
+    complexparentirwinid: null
+    pooresponsibleunit: AKTAD
+    incidentname: Bergman Creek
+    iscomplex: 'false'
+    irwinid: '{A5C271FA-9159-4AF5-A15E-BE9E28DAA140}'
+    irwinmodifiedon: '2019-07-14T05:22Z'
+    irwinmodifiedonEpoch: 1563081731000
+    mapsymbol: '3'
+    datecurrent: '2019-07-13T23:30Z'
+    datecurrentEpoch: 1563060627000
+    pooownerunit: AKCYD
+    fireyear: 2019
+    localincidentidentifier: '000312'
+    incidenttypecategory: WF
+    owneragency: BLM
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 42000
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-13T02:00Z'
-    ICS209ReportDateTimeEpoch: 1562983200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 387459
     FireCause: Natural
-    TotalIncidentPersonnel: 17
+    ModifiedOnDateTime: '2019-07-14T02:00Z'
+    ModifiedOnDateTimeEpoch: 1563069600000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKTAD-000312
     FireDiscoveryDateTime: '2019-06-21T19:56Z'
     FireDiscoveryDateTimeEpoch: 1561146960000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000312'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-13T02:00Z'
-    ModifiedOnDateTimeEpoch: 1562983200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Bergman Creek
+    Name: Bergman Creek
+    Source: GEOMAC
+    Hashtag: '#BergmanCreekFire'
     _CorrelationIds:
       - 2019-AKTAD-000312
-    ModifiedOnDateTime_Raw: '2019-07-13T04:04Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562990662000
-    Hashtag: '#BergmanCreekFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-09T13:26Z'
     PerimeterData:
       DateTime: '2019-07-09T13:26Z'
       Acres: 17593.7634326
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T04:31:20.741Z'
+          RetrievedOn: '2019-07-14T05:30:29.673Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -4656,8 +4668,8 @@ Database:
     Final_Fire_Name: Bergman Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-13T02:00Z-PER-2019-07-09T13:26Z-ID-2019-AKTAD-000312-NAME-BergmanCreek-S-N
-      Code: e65b14ac3057cb445f3f65b610c2c0e4863e21b54ec8ae9c30473d7707a55eb1
+        UPD-2019-07-14T02:00Z-PER-2019-07-09T13:26Z-ID-2019-AKTAD-000312-NAME-BergmanCreek-S-G
+      Code: 61e6e2442d5c00d24baa6c2b9b61611cdb5ad97141ecfc4a12d005bc17625da4
   CALFIRE-65e8fbe1-5300-4c90-9f48-0e7bfe55b1bc:
     Source_CALFIRE:
       Lon: -121.3697
@@ -26947,35 +26959,35 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-11T23:00Z'
-      ICS209ReportDateTimeEpoch: 1562886000000
+      ICS209ReportDateTime: '2019-07-12T23:00Z'
+      ICS209ReportDateTimeEpoch: 1562972400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 128755
+      EstimatedCostToDate: 165229
       FireCause: Natural
-      TotalIncidentPersonnel: 6
+      TotalIncidentPersonnel: 5
       FireDiscoveryDateTime: '2019-06-27T00:21Z'
       FireDiscoveryDateTimeEpoch: 1561594860000
       DispatchCenterID: AKYTDC
       LocalIncidentIdentifier: 000389
       POOCounty: Denali
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-11T23:00Z'
-      ModifiedOnDateTimeEpoch: 1562886000000
-      ModifiedBySystem: ics209
+      ModifiedOnDateTime: '2019-07-12T23:00Z'
+      ModifiedOnDateTimeEpoch: 1562972400000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAD-000389
-      ModifiedOnDateTime_Raw: '2019-07-12T05:32Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562909568000
+      ModifiedOnDateTime_Raw: '2019-07-13T04:45Z'
+      ModifiedOnDateTimeEpoch_Raw: 1562993111000
       Hashtag: '#ForakerFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T05:01:18.674Z'
+          RetrievedOn: '2019-07-14T05:30:28.188Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -26986,7 +26998,7 @@ Database:
     Source_GEOMAC:
       Lon: -151.74952476594177
       Lat: 63.49999117449082
-      objectid: 9
+      objectid: 10
       latitude: 63.49999
       longitude: -151.7495
       acres: 45000
@@ -26995,8 +27007,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-12T23:00Z'
-      reportdatetimeEpoch: 1562972400000
+      reportdatetime: '2019-07-13T23:00Z'
+      reportdatetimeEpoch: 1563058800000
       percentcontained: 0
       uniquefireidentifier: 2019-AKTAD-000389
       firediscoverydatetime: '2019-06-27T00:21Z'
@@ -27006,11 +27018,11 @@ Database:
       incidentname: Foraker
       iscomplex: 'false'
       irwinid: '{339B9456-68FE-4218-8D72-3CD54C701148}'
-      irwinmodifiedon: '2019-07-13T04:45Z'
-      irwinmodifiedonEpoch: 1562993112000
+      irwinmodifiedon: '2019-07-14T05:05Z'
+      irwinmodifiedonEpoch: 1563080718000
       mapsymbol: '3'
-      datecurrent: '2019-07-12T23:00Z'
-      datecurrentEpoch: 1562972422000
+      datecurrent: '2019-07-13T23:30Z'
+      datecurrentEpoch: 1563060627000
       pooownerunit: AKDEP
       fireyear: 2019
       localincidentidentifier: 000389
@@ -27020,8 +27032,8 @@ Database:
       complexname: null
       DailyAcres: 45000
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-12T23:00Z'
-      ModifiedOnDateTimeEpoch: 1562972400000
+      ModifiedOnDateTime: '2019-07-13T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563058800000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKTAD-000389
       FireDiscoveryDateTime: '2019-06-27T00:21Z'
@@ -27032,7 +27044,7 @@ Database:
       Hashtag: '#ForakerFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T05:01:18.675Z'
+          RetrievedOn: '2019-07-14T05:30:28.189Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -27051,7 +27063,7 @@ Database:
         - 2019-AKTAD-000389
     Lon: -151.74952476594177
     Lat: 63.49999117449082
-    objectid: 9
+    objectid: 10
     latitude: 63.49999
     longitude: -151.7495
     acres: 45000
@@ -27060,8 +27072,8 @@ Database:
     state: AK
     status: U
     firecause: Natural
-    reportdatetime: '2019-07-12T23:00Z'
-    reportdatetimeEpoch: 1562972400000
+    reportdatetime: '2019-07-13T23:00Z'
+    reportdatetimeEpoch: 1563058800000
     percentcontained: 0
     uniquefireidentifier: 2019-AKTAD-000389
     firediscoverydatetime: '2019-06-27T00:21Z'
@@ -27071,11 +27083,11 @@ Database:
     incidentname: Foraker
     iscomplex: 'false'
     irwinid: '{339B9456-68FE-4218-8D72-3CD54C701148}'
-    irwinmodifiedon: '2019-07-13T04:45Z'
-    irwinmodifiedonEpoch: 1562993112000
+    irwinmodifiedon: '2019-07-14T05:05Z'
+    irwinmodifiedonEpoch: 1563080718000
     mapsymbol: '3'
-    datecurrent: '2019-07-12T23:00Z'
-    datecurrentEpoch: 1562972422000
+    datecurrent: '2019-07-13T23:30Z'
+    datecurrentEpoch: 1563060627000
     pooownerunit: AKDEP
     fireyear: 2019
     localincidentidentifier: 000389
@@ -27085,8 +27097,8 @@ Database:
     complexname: null
     DailyAcres: 45000
     FireCause: Natural
-    ModifiedOnDateTime: '2019-07-12T23:00Z'
-    ModifiedOnDateTimeEpoch: 1562972400000
+    ModifiedOnDateTime: '2019-07-13T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563058800000
     PercentContained: 0
     UniqueFireIdentifier: 2019-AKTAD-000389
     FireDiscoveryDateTime: '2019-06-27T00:21Z'
@@ -27103,7 +27115,7 @@ Database:
       Acres: 13370.8725117
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T05:01:20.007Z'
+          RetrievedOn: '2019-07-14T05:30:29.673Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -27124,8 +27136,8 @@ Database:
     Final_Fire_Name: Foraker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-12T23:00Z-PER-2019-07-07T19:55Z-ID-2019-AKTAD-000389-NAME-Foraker-S-G
-      Code: 1256c97b7d13225a04d59d95b666b74943161c4c98abf30b561440a3d7686333
+        UPD-2019-07-13T23:00Z-PER-2019-07-07T19:55Z-ID-2019-AKTAD-000389-NAME-Foraker-S-G
+      Code: 34deed2ba08cb9876bd3d60fcfdbd311701d9c2b7fd3564f8992e060b0bccf72
   2019-AKFAS-911508:
     Source_NFSA_Join:
       Lon: -149.32288929410382
