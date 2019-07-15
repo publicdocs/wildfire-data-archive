@@ -29433,20 +29433,67 @@ Database:
         UPD-2019-07-14T05:00Z-PER-none-ID-2019-AKGAD-000535-NAME-MaunelukRiver-S-G
       Code: 6a366be738df08070fbc9cdb95cce758838fed7aa88680b8dc3fce5b37bc6f9f
   2019-AKSWS-904534:
+    Source_NFSA_Join:
+      Lon: -158.3177831160625
+      Lat: 62.06503430972716
+      id: 122791
+      Name: Smith Creek
+      Fire_Name: Smith Creek
+      UniqueFireIdentifier: 2019-AKSWS-904534
+      DailyAcres: 4700
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-15T01:00Z'
+      ICS209ReportDateTimeEpoch: 1563152400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 23145
+      FireCause: Natural
+      TotalIncidentPersonnel: 22
+      FireDiscoveryDateTime: '2019-07-12T18:18Z'
+      FireDiscoveryDateTimeEpoch: 1562955510000
+      DispatchCenterID: AKMSSC
+      LocalIncidentIdentifier: '904534'
+      POOCounty: Bethel
+      POOLandownerKind: Other
+      ModifiedOnDateTime: '2019-07-15T01:00Z'
+      ModifiedOnDateTimeEpoch: 1563152400000
+      ModifiedBySystem: ifm
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKSWS-904534
+      ModifiedOnDateTime_Raw: '2019-07-15T07:41Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563176485000
+      Hashtag: '#SmithCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T08:01:03.794Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
-      Lon: -158.3177842603844
-      Lat: 62.06503320031602
-      objectid: 36
-      latitude: 62.065033
-      longitude: -158.317761
+      Lon: -158.3178010603587
+      Lat: 62.065000200316184
+      objectid: 37
+      latitude: 62.065
+      longitude: -158.3177778
       acres: 4700
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
-      status: I
+      status: U
       firecause: Natural
-      reportdatetime: '2019-07-14T01:00Z'
-      reportdatetimeEpoch: 1563066000000
+      reportdatetime: '2019-07-15T01:00Z'
+      reportdatetimeEpoch: 1563152400000
       percentcontained: 0
       uniquefireidentifier: 2019-AKSWS-904534
       firediscoverydatetime: '2019-07-12T18:18Z'
@@ -29456,11 +29503,11 @@ Database:
       incidentname: Smith Creek
       iscomplex: 'false'
       irwinid: '{FF90470E-21D9-46F9-BCF4-42E535A30323}'
-      irwinmodifiedon: '2019-07-14T08:46Z'
-      irwinmodifiedonEpoch: 1563094001000
+      irwinmodifiedon: '2019-07-15T07:41Z'
+      irwinmodifiedonEpoch: 1563176486000
       mapsymbol: '1'
-      datecurrent: '2019-07-14T03:00Z'
-      datecurrentEpoch: 1563073221000
+      datecurrent: '2019-07-15T02:00Z'
+      datecurrentEpoch: 1563156019000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '904534'
@@ -29470,8 +29517,8 @@ Database:
       complexname: null
       DailyAcres: 4700
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-14T01:00Z'
-      ModifiedOnDateTimeEpoch: 1563066000000
+      ModifiedOnDateTime: '2019-07-15T01:00Z'
+      ModifiedOnDateTimeEpoch: 1563152400000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKSWS-904534
       FireDiscoveryDateTime: '2019-07-12T18:18Z'
@@ -29482,7 +29529,7 @@ Database:
       Hashtag: '#SmithCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T09:00:57.943Z'
+          RetrievedOn: '2019-07-15T08:01:03.795Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -29499,54 +29546,42 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKSWS-904534
-    Lon: -158.3177842603844
-    Lat: 62.06503320031602
-    objectid: 36
-    latitude: 62.065033
-    longitude: -158.317761
-    acres: 4700
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: I
-    firecause: Natural
-    reportdatetime: '2019-07-14T01:00Z'
-    reportdatetimeEpoch: 1563066000000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AKSWS-904534
-    firediscoverydatetime: '2019-07-12T18:18Z'
-    firediscoverydatetimeEpoch: 1562955510000
-    complexparentirwinid: null
-    pooresponsibleunit: AKSWS
-    incidentname: Smith Creek
-    iscomplex: 'false'
-    irwinid: '{FF90470E-21D9-46F9-BCF4-42E535A30323}'
-    irwinmodifiedon: '2019-07-14T08:46Z'
-    irwinmodifiedonEpoch: 1563094001000
-    mapsymbol: '1'
-    datecurrent: '2019-07-14T03:00Z'
-    datecurrentEpoch: 1563073221000
-    pooownerunit: AKAKS
-    fireyear: 2019
-    localincidentidentifier: '904534'
-    incidenttypecategory: WF
-    owneragency: State
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 4700
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-14T01:00Z'
-    ModifiedOnDateTimeEpoch: 1563066000000
-    PercentContained: 0
+    Lon: -158.3177831160625
+    Lat: 62.06503430972716
+    id: 122791
+    Name: Smith Creek
+    Fire_Name: Smith Creek
     UniqueFireIdentifier: 2019-AKSWS-904534
+    DailyAcres: 4700
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-15T01:00Z'
+    ICS209ReportDateTimeEpoch: 1563152400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 23145
+    FireCause: Natural
+    TotalIncidentPersonnel: 22
     FireDiscoveryDateTime: '2019-07-12T18:18Z'
     FireDiscoveryDateTimeEpoch: 1562955510000
-    Fire_Name: Smith Creek
-    Name: Smith Creek
-    Source: GEOMAC
-    Hashtag: '#SmithCreekFire'
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '904534'
+    POOCounty: Bethel
+    POOLandownerKind: Other
+    ModifiedOnDateTime: '2019-07-15T01:00Z'
+    ModifiedOnDateTimeEpoch: 1563152400000
+    ModifiedBySystem: ifm
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904534
+    ModifiedOnDateTime_Raw: '2019-07-15T07:41Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563176485000
+    Hashtag: '#SmithCreekFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -29556,8 +29591,8 @@ Database:
     unitMention: Southwest Area Forestry
     Final_Fire_Name: Smith Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-14T01:00Z-PER-none-ID-2019-AKSWS-904534-NAME-SmithCreek-S-G'
-      Code: df5dcd9030c3ddc04b5013a9e6271f3ecf50a2fff540d1b2618e88a620774dfd
+      UpdateId: 'UPD-2019-07-15T01:00Z-PER-none-ID-2019-AKSWS-904534-NAME-SmithCreek-S-N'
+      Code: a3a8292cc5606317a990c2d5068a3ca2215c08a46237fafca6368f08bebc6cae
   2019-ORVAD-000068:
     Source_NFSA_Join:
       Lon: -117.49661184032594
