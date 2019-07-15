@@ -2443,119 +2443,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-01T20:10Z-PER-none-ID-CALFIRE-4edb5c7c-08d6-4ae0-b8b3-7bb471e26d8e-NAME-RockFire-S-C
       Code: 28f75e628a2b20e050c7a7593b2c2e1a4d80edd8d0fad1174f51b8c790c57f6a
-  2019-AZASF-000392:
-    Source_NFSA_Join:
-      Lon: -109.07320823581841
-      Lat: 33.73447509665925
-      id: 120790
-      Name: Blue River
-      Fire_Name: Blue River
-      UniqueFireIdentifier: 2019-AZASF-000392
-      DailyAcres: 2168
-      PercentContained: 40
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-11T22:30Z'
-      ICS209ReportDateTimeEpoch: 1562884200000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 45000
-      FireCause: Natural
-      TotalIncidentPersonnel: 9
-      FireDiscoveryDateTime: '2019-06-30T16:27Z'
-      FireDiscoveryDateTimeEpoch: 1561912020000
-      DispatchCenterID: AZSDC
-      LocalIncidentIdentifier: 000392
-      POOCounty: Greenlee
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-11T22:30Z'
-      ModifiedOnDateTimeEpoch: 1562884200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AZASF-000392
-      ModifiedOnDateTime_Raw: '2019-07-11T23:11Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562886693000
-      Hashtag: '#BlueRiverFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-11T23:31:58.878Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -109.07320823581841
-    Lat: 33.73447509665925
-    id: 120790
-    Name: Blue River
-    Fire_Name: Blue River
-    UniqueFireIdentifier: 2019-AZASF-000392
-    DailyAcres: 2168
-    PercentContained: 40
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-11T22:30Z'
-    ICS209ReportDateTimeEpoch: 1562884200000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 45000
-    FireCause: Natural
-    TotalIncidentPersonnel: 9
-    FireDiscoveryDateTime: '2019-06-30T16:27Z'
-    FireDiscoveryDateTimeEpoch: 1561912020000
-    DispatchCenterID: AZSDC
-    LocalIncidentIdentifier: 000392
-    POOCounty: Greenlee
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-11T22:30Z'
-    ModifiedOnDateTimeEpoch: 1562884200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AZASF-000392
-    ModifiedOnDateTime_Raw: '2019-07-11T23:11Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562886693000
-    Hashtag: '#BlueRiverFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-06T12:00Z'
-    PerimeterData:
-      DateTime: '2019-07-06T12:00Z'
-      Acres: 1439.75996074
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-11T23:32:00.235Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: AZASF
-    unitMention: Apache-Sitgreaves NF
-    Final_Fire_Name: Blue River Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-11T22:30Z-PER-2019-07-06T12:00Z-ID-2019-AZASF-000392-NAME-BlueRiver-S-N
-      Code: 8669d9bb44a304ea67b3427029e0277eb05c4ac2bf09242501caff651fd7f77c
   CALFIRE-d6a75235-5d06-4f46-8a2a-426d8ecc27fd:
     Source_CALFIRE:
       Lon: -121.716
@@ -5873,13 +5760,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563169482000
     Hashtag: '#HadweenzicRiverFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-07T19:55Z'
+    PerimDateTime: '2019-07-10T13:47Z'
     PerimeterData:
-      DateTime: '2019-07-07T19:55Z'
-      Acres: 30538.3432495
+      DateTime: '2019-07-10T13:47Z'
+      Acres: 39028.8842236
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T06:02:23.984Z'
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -5900,8 +5787,8 @@ Database:
     Final_Fire_Name: Hadweenzic River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-15T02:00Z-PER-2019-07-07T19:55Z-ID-2019-AKUYD-000337-NAME-HadweenzicRiver-S-N
-      Code: f6f2a6ff54ebda5517387fccc0d0b3f481e3724ce98c70362a52262199a0809c
+        UPD-2019-07-15T02:00Z-PER-2019-07-10T13:47Z-ID-2019-AKUYD-000337-NAME-HadweenzicRiver-S-N
+      Code: 83a772374f7d643c8b2b2309fe720433993394eefb4d23d46dfb6d4c2be44af2
   2019-AKUYD-000349:
     Source_NFSA_Join:
       Lon: -146.57162805658382
@@ -5986,13 +5873,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563169386000
     Hashtag: '#ChandalarRiverFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-07T19:55Z'
+    PerimDateTime: '2019-07-10T13:47Z'
     PerimeterData:
-      DateTime: '2019-07-07T19:55Z'
-      Acres: 4592.23793935
+      DateTime: '2019-07-10T13:47Z'
+      Acres: 9107.84380768
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T06:02:23.984Z'
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -6013,8 +5900,8 @@ Database:
     Final_Fire_Name: Chandalar River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-15T02:00Z-PER-2019-07-07T19:55Z-ID-2019-AKUYD-000349-NAME-ChandalarRiver-S-N
-      Code: 09b566da5a6a1a7b084812cf425228e29ac4949bd1057692da03e447c386055b
+        UPD-2019-07-15T02:00Z-PER-2019-07-10T13:47Z-ID-2019-AKUYD-000349-NAME-ChandalarRiver-S-N
+      Code: 87ae60639de81ae8edefd5948d2bccc7bdfbef6df80b711aed89e7ec42b6e1b3
   2019-AKUYD-000355:
     Source_NFSA_Join:
       Lon: -141.08392778373175
@@ -6212,13 +6099,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563170681000
     Hashtag: '#LloydMountainFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-11T00:00Z'
+    PerimDateTime: '2019-07-14T00:00Z'
     PerimeterData:
-      DateTime: '2019-07-11T00:00Z'
-      Acres: 19377.0848164
+      DateTime: '2019-07-14T00:00Z'
+      Acres: 29445.4274167
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T06:30:35.820Z'
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -6239,8 +6126,8 @@ Database:
     Final_Fire_Name: Lloyd Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-15T02:00Z-PER-2019-07-11T00:00Z-ID-2019-AKTAD-000361-NAME-LloydMountain-S-N
-      Code: 796fa531c97fd4d8fef0a09090535da105e0c558ab5665d0f5e9ef28ed6cbcc9
+        UPD-2019-07-15T02:00Z-PER-2019-07-14T00:00Z-ID-2019-AKTAD-000361-NAME-LloydMountain-S-N
+      Code: 5094bda733cf6b6f4573ef028459c1d0278c5a26dfb55704d02885a8d1559b90
   2019-AKMID-000391:
     Source_NFSA_Join:
       Lon: -146.20752290562447
@@ -22831,13 +22718,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563142288000
     Hashtag: '#SouthFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-14T00:10Z'
+    PerimDateTime: '2019-07-15T00:00Z'
     PerimeterData:
-      DateTime: '2019-07-14T00:10Z'
-      Acres: 2778.43516341
+      DateTime: '2019-07-15T00:00Z'
+      Acres: 2442.64741227
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T18:34:20.711Z'
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -22858,8 +22745,8 @@ Database:
     Final_Fire_Name: South Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-14T21:00Z-PER-2019-07-14T00:10Z-ID-2019-NMGNF-000264-NAME-South-S-N
-      Code: 30a41f57b8300053ccd124a3701dde5ada2cc398b2a2d4bb0c74499e8612733d
+        UPD-2019-07-14T21:00Z-PER-2019-07-15T00:00Z-ID-2019-NMGNF-000264-NAME-South-S-N
+      Code: 80b1b02a6c671a4600cd7ec2615e543fd5e581f14a335a75198c48f2ae7957c2
   2019-AKUYD-000212:
     Source_NFSA_Join:
       Lon: -145.94592451173605
@@ -23491,17 +23378,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563142141000
     Hashtag: '#CanyonlandsFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-10T12:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-10T12:00Z'
+      Acres: 0.72435697
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: CORGD
     unitMention: Royal Gorge Field Office
     Final_Fire_Name: Canyonlands Fire
     _Update:
-      UpdateId: 'UPD-2019-07-14T21:15Z-PER-none-ID-2019-CORGD-000783-NAME-Canyonlands-S-N'
-      Code: 635b0cb418741a17cbfd5ef874465e51136790b003b9253482d8b13fc7ea97ce
+      UpdateId: >-
+        UPD-2019-07-14T21:15Z-PER-2019-07-10T12:00Z-ID-2019-CORGD-000783-NAME-Canyonlands-S-N
+      Code: 9a2442d286e42f02d1c85a1d5a16786fce2ef115e22c5b71d28786314335d5c0
   2019-NMGNF-000311:
     Source_NFSA_Join:
       Lon: -107.97440694658911
@@ -24166,119 +24071,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-12T21:45Z-PER-none-ID-2019-UTCCD-000294-NAME-DeerRange-S-N'
       Code: c160b79ed2fa66b06fc5b2f6e46b30a83e2eba10b532fbd49f55e4c4d008fd48
-  2019-AKTAD-000316:
-    Source_NFSA_Join:
-      Lon: -153.2420232830491
-      Lat: 64.8180023606172
-      id: 119796
-      Name: Little Mud River
-      Fire_Name: Little Mud River
-      UniqueFireIdentifier: 2019-AKTAD-000316
-      DailyAcres: 30000
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-11T20:00Z'
-      ICS209ReportDateTimeEpoch: 1562875200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 5000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-06-21T22:31Z'
-      FireDiscoveryDateTimeEpoch: 1561156260000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000316'
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-11T20:00Z'
-      ModifiedOnDateTimeEpoch: 1562875200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKTAD-000316
-      ModifiedOnDateTime_Raw: '2019-07-12T01:08Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562893730000
-      Hashtag: '#LittleMudRiverFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-12T01:48:53.502Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -153.2420232830491
-    Lat: 64.8180023606172
-    id: 119796
-    Name: Little Mud River
-    Fire_Name: Little Mud River
-    UniqueFireIdentifier: 2019-AKTAD-000316
-    DailyAcres: 30000
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-11T20:00Z'
-    ICS209ReportDateTimeEpoch: 1562875200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 5000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-21T22:31Z'
-    FireDiscoveryDateTimeEpoch: 1561156260000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000316'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-11T20:00Z'
-    ModifiedOnDateTimeEpoch: 1562875200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKTAD-000316
-    ModifiedOnDateTime_Raw: '2019-07-12T01:08Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562893730000
-    Hashtag: '#LittleMudRiverFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-10T13:47Z'
-    PerimeterData:
-      DateTime: '2019-07-10T13:47Z'
-      Acres: 25716.1379491
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-12T18:25:20.942Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKTAD
-    unitMention: Alaska Fire Service - Tanana Zone
-    Final_Fire_Name: Little Mud River Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-11T20:00Z-PER-2019-07-10T13:47Z-ID-2019-AKTAD-000316-NAME-LittleMudRiver-S-N
-      Code: b1f3458034094a727aa16bb3e29ade759bdeb0f89131a963a83e3d995e5ac95d
   2019-AKTAD-000317:
     Source_NFSA_Join:
       Lon: -150.90812830968386
@@ -24542,16 +24334,16 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563159106000
     Hashtag: '#ShadyFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-10T21:00Z'
+    PerimDateTime: '2019-07-12T23:10Z'
     PerimeterData:
-      DateTime: '2019-07-10T21:00Z'
-      Acres: 47.5570398
+      DateTime: '2019-07-12T23:10Z'
+      Acres: 629.76231265
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T03:01:36.678Z'
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -24563,14 +24355,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '2'
+        SourceLayer: '3'
     unitId: IDSCF
     unitMention: '@SalmonChallisNF'
     Final_Fire_Name: Shady Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-15T02:30Z-PER-2019-07-10T21:00Z-ID-2019-IDSCF-019120-NAME-Shady-S-N
-      Code: 31a51a42dedff1bd52fb1b0b50e81794af77522709c743fe139af7550519ca8c
+        UPD-2019-07-15T02:30Z-PER-2019-07-12T23:10Z-ID-2019-IDSCF-019120-NAME-Shady-S-N
+      Code: 8077e56490c203c11b58d5e5db603ee03945a07cdb0c353825c2e744993d4f14
   2019-UTFIF-190170:
     Source_NFSA_Join:
       Lon: -112.20871485296773
@@ -26126,101 +25918,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-14T17:16Z-PER-none-ID-CALFIRE-8c46fde6-7a1c-482b-97cc-afff1bc5d27c-NAME-BorderFire-S-C
       Code: 4a250a71e028602f898b9043b842dfeb5d6d36ee68e1318c0be2e6deabb076c6
-  2019-COWRD-000118:
-    Source_NFSA_Join:
-      Lon: -108.84921331972323
-      Lat: 40.01992397638626
-      id: 122646
-      Name: PARK
-      Fire_Name: PARK
-      UniqueFireIdentifier: 2019-COWRD-000118
-      DailyAcres: 157
-      PercentContained: 30
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-12T21:45Z'
-      ICS209ReportDateTimeEpoch: 1562967900000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 0
-      FireCause: Natural
-      TotalIncidentPersonnel: 21
-      FireDiscoveryDateTime: '2019-07-12T01:12Z'
-      FireDiscoveryDateTimeEpoch: 1562893920000
-      DispatchCenterID: COCRC
-      LocalIncidentIdentifier: 000118
-      POOCounty: Rio Blanco
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-12T21:45Z'
-      ModifiedOnDateTimeEpoch: 1562967900000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-COWRD-000118
-      ModifiedOnDateTime_Raw: '2019-07-12T22:02Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562968945000
-      Hashtag: '#ParkFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-12T22:30:42.087Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -108.84921331972323
-    Lat: 40.01992397638626
-    id: 122646
-    Name: PARK
-    Fire_Name: PARK
-    UniqueFireIdentifier: 2019-COWRD-000118
-    DailyAcres: 157
-    PercentContained: 30
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-12T21:45Z'
-    ICS209ReportDateTimeEpoch: 1562967900000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 0
-    FireCause: Natural
-    TotalIncidentPersonnel: 21
-    FireDiscoveryDateTime: '2019-07-12T01:12Z'
-    FireDiscoveryDateTimeEpoch: 1562893920000
-    DispatchCenterID: COCRC
-    LocalIncidentIdentifier: 000118
-    POOCounty: Rio Blanco
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-12T21:45Z'
-    ModifiedOnDateTimeEpoch: 1562967900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-COWRD-000118
-    ModifiedOnDateTime_Raw: '2019-07-12T22:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562968945000
-    Hashtag: '#ParkFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: COWRD
-    unitMention: White River Field Office
-    Final_Fire_Name: Park Fire
-    _Update:
-      UpdateId: 'UPD-2019-07-12T21:45Z-PER-none-ID-2019-COWRD-000118-NAME-PARK-S-N'
-      Code: 2a9fba7edd511e553417367c392569179f032d1d824a07e8f0aebe9b22abc19d
   2019-AZKNF-000490:
     Source_NFSA_Join:
       Lon: -112.56741214591665
@@ -28745,17 +28442,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563156943000
     Hashtag: '#RidgelineFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T10:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T10:00Z'
+      Acres: 600.03095159
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: IDTFD
     unitMention: Twin  Falls District
     Final_Fire_Name: Ridgeline Fire
     _Update:
-      UpdateId: 'UPD-2019-07-14T23:00Z-PER-none-ID-2019-IDTFD-000121-NAME-Ridgeline-S-N'
-      Code: 881fbf1d8f2d59eae6f34003a1fefc12ffa913c4998bb5f7f4b6ce0bb0f9fb81
+      UpdateId: >-
+        UPD-2019-07-14T23:00Z-PER-2019-07-14T10:00Z-ID-2019-IDTFD-000121-NAME-Ridgeline-S-N
+      Code: 4c3034233ee37a8b06e72933b7302ba4c908eb12a440bc2d29009e8cabc1b429
   2019-AKSWS-904544:
     Source_NFSA_Join:
       Lon: -158.48961286360887
@@ -29561,17 +29276,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563158062000
     Hashtag: '#RobertsFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T08:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T08:00Z'
+      Acres: 412.25721854
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T19:54:36.832Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: NMCIF
     unitMention: Cibola NF
     Final_Fire_Name: Roberts Fire
     _Update:
-      UpdateId: 'UPD-2019-07-15T02:34Z-PER-none-ID-2019-NMCIF-000143-NAME-Roberts-S-N'
-      Code: 7aabd96514330921fe4fa116310bff62f9dfc0feba98362684d12128dca089e4
+      UpdateId: >-
+        UPD-2019-07-15T02:34Z-PER-2019-07-14T08:00Z-ID-2019-NMCIF-000143-NAME-Roberts-S-N
+      Code: 0101e1fa69ed7e258b66a32d55aa9208579f7d9087fb9fa168078b1f9462eb1e
   2019-ORNGIN-000461:
     Source_NFSA_Join:
       Lon: -120.16771640504395
@@ -30285,17 +30018,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563149522000
     Hashtag: '#JasperFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T16:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T16:00Z'
+      Acres: 1164.61945675
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T19:54:35.820Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: NVCCD
     unitMention: Carson City District Office
     Final_Fire_Name: Jasper Fire
     _Update:
-      UpdateId: 'UPD-2019-07-15T00:00Z-PER-none-ID-2019-NVCCD-030378-NAME-Jasper-S-N'
-      Code: e53bd9fd9577f6659404b062266b970afc2a03515747afa9c3dd1637ae5b6236
+      UpdateId: >-
+        UPD-2019-07-15T00:00Z-PER-2019-07-14T16:00Z-ID-2019-NVCCD-030378-NAME-Jasper-S-N
+      Code: b1bf0828f89d09df45a4d6c9230c1a9e17d666f8c28c5df5b3fccb56391b7389
   2019-IDTFD-000132:
     Source_NFSA_Join:
       Lon: -114.99050982699498
@@ -30636,17 +30387,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563157252000
     Hashtag: '#DomeFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T21:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T21:00Z'
+      Acres: 265.76618209
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T19:54:35.820Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: NVBMD
     unitMention: Battle Mountain District Office
     Final_Fire_Name: Dome Fire
     _Update:
-      UpdateId: 'UPD-2019-07-15T01:15Z-PER-none-ID-2019-NVBMD-020160-NAME-Dome-S-N'
-      Code: bdc84437c80d2ace7f9498ca2af7cce755e2c286d81d03e50599fa46c3d636a5
+      UpdateId: >-
+        UPD-2019-07-15T01:15Z-PER-2019-07-14T21:00Z-ID-2019-NVBMD-020160-NAME-Dome-S-N
+      Code: f9b14eaf09e52d1b9c92a784ca9ce0070531c5266190d3fc8044317545d9af93
   2019-AKGAD-000560:
     Source_NFSA_Join:
       Lon: -158.06322751400154
