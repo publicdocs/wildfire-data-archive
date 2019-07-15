@@ -30325,15 +30325,15 @@ Database:
       Fire_Name: Aghaluk Creek
       UniqueFireIdentifier: 2019-AKSWS-904544
       DailyAcres: 1000
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-15T06:00Z'
+      ICS209ReportDateTimeEpoch: 1563170400000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 4805
       FireCause: Natural
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-07-13T22:08Z'
@@ -30342,21 +30342,21 @@ Database:
       LocalIncidentIdentifier: '904544'
       POOCounty: Bethel
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-14T21:15Z'
-      ModifiedOnDateTimeEpoch: 1563138913000
-      ModifiedBySystem: ifm
+      ModifiedOnDateTime: '2019-07-15T06:00Z'
+      ModifiedOnDateTimeEpoch: 1563170400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKSWS-904544
-      ModifiedOnDateTime_Raw: '2019-07-14T21:15Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563138913000
+      ModifiedOnDateTime_Raw: '2019-07-15T06:46Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563173204000
       Hashtag: '#AghalukCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T21:31:08.916Z'
+          RetrievedOn: '2019-07-15T07:01:29.113Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -30364,6 +30364,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -158.489615882778
+      Lat: 61.56121721726097
+      objectid: 38
+      latitude: 61.561217
+      longitude: -158.489593
+      acres: 1000
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-15T06:00Z'
+      reportdatetimeEpoch: 1563170400000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKSWS-904544
+      firediscoverydatetime: '2019-07-13T22:08Z'
+      firediscoverydatetimeEpoch: 1563055705000
+      complexparentirwinid: null
+      pooresponsibleunit: AKSWS
+      incidentname: Aghaluk Creek
+      iscomplex: 'false'
+      irwinid: '{68086CE6-B729-4E0F-85B5-29290A700D2C}'
+      irwinmodifiedon: '2019-07-15T06:46Z'
+      irwinmodifiedonEpoch: 1563173204000
+      mapsymbol: '1'
+      datecurrent: '2019-07-15T01:00Z'
+      datecurrentEpoch: 1563152424000
+      pooownerunit: AKVLN
+      fireyear: 2019
+      localincidentidentifier: '904544'
+      incidenttypecategory: WF
+      owneragency: ANCSA
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1000
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-15T06:00Z'
+      ModifiedOnDateTimeEpoch: 1563170400000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKSWS-904544
+      FireDiscoveryDateTime: '2019-07-13T22:08Z'
+      FireDiscoveryDateTimeEpoch: 1563055705000
+      Fire_Name: Aghaluk Creek
+      Name: Aghaluk Creek
+      Source: GEOMAC
+      Hashtag: '#AghalukCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T07:01:29.113Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKSWS-904544
     Lon: -158.48961286360887
     Lat: 61.56121604342858
     id: 122895
@@ -30371,15 +30437,15 @@ Database:
     Fire_Name: Aghaluk Creek
     UniqueFireIdentifier: 2019-AKSWS-904544
     DailyAcres: 1000
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-15T06:00Z'
+    ICS209ReportDateTimeEpoch: 1563170400000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 4805
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-07-13T22:08Z'
@@ -30388,16 +30454,16 @@ Database:
     LocalIncidentIdentifier: '904544'
     POOCounty: Bethel
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-14T21:15Z'
-    ModifiedOnDateTimeEpoch: 1563138913000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-07-15T06:00Z'
+    ModifiedOnDateTimeEpoch: 1563170400000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904544
-    ModifiedOnDateTime_Raw: '2019-07-14T21:15Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563138913000
+    ModifiedOnDateTime_Raw: '2019-07-15T06:46Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563173204000
     Hashtag: '#AghalukCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -30410,8 +30476,8 @@ Database:
     Final_Fire_Name: Aghaluk Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-14T21:15Z-PER-none-ID-2019-AKSWS-904544-NAME-AghalukCreek-S-N
-      Code: 04d813c493066f9ccf5f9be22d57599594cc04739f7bdc67586357f43ca59c3b
+        UPD-2019-07-15T06:00Z-PER-none-ID-2019-AKSWS-904544-NAME-AghalukCreek-S-N
+      Code: 6633277cc8a47e3c46655eb1ab57ed64a928eddede112cba2ec4daa6ac19fd99
   2019-IDBOD-000421:
     Source_NFSA_Join:
       Lon: -115.71191089905999
