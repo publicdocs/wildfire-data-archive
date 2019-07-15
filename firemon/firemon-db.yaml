@@ -701,8 +701,8 @@ Database:
       PercentContained: 95
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-14T21:00Z'
-      ICS209ReportDateTimeEpoch: 1563138000000
+      ICS209ReportDateTime: '2019-07-15T21:30Z'
+      ICS209ReportDateTimeEpoch: 1563226200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
@@ -715,21 +715,21 @@ Database:
       LocalIncidentIdentifier: 000249
       POOCounty: Lincoln
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-14T21:00Z'
-      ModifiedOnDateTimeEpoch: 1563138000000
+      ModifiedOnDateTime: '2019-07-15T21:30Z'
+      ModifiedOnDateTimeEpoch: 1563226200000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMLNF-000249
-      ModifiedOnDateTime_Raw: '2019-07-14T21:10Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563138648000
+      ModifiedOnDateTime_Raw: '2019-07-15T21:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563227647000
       Hashtag: '#PineLodgeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T21:31:08.916Z'
+          RetrievedOn: '2019-07-15T22:01:15.285Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -747,8 +747,8 @@ Database:
     PercentContained: 95
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-14T21:00Z'
-    ICS209ReportDateTimeEpoch: 1563138000000
+    ICS209ReportDateTime: '2019-07-15T21:30Z'
+    ICS209ReportDateTimeEpoch: 1563226200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -761,47 +761,29 @@ Database:
     LocalIncidentIdentifier: 000249
     POOCounty: Lincoln
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-14T21:00Z'
-    ModifiedOnDateTimeEpoch: 1563138000000
+    ModifiedOnDateTime: '2019-07-15T21:30Z'
+    ModifiedOnDateTimeEpoch: 1563226200000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NMLNF-000249
-    ModifiedOnDateTime_Raw: '2019-07-14T21:10Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563138648000
+    ModifiedOnDateTime_Raw: '2019-07-15T21:54Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563227647000
     Hashtag: '#PineLodgeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-03T04:02Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-03T04:02Z'
-      Acres: 14794.8389924
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-14T21:31:10.397Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: NMLNF
     unitMention: Lincoln NF
     Final_Fire_Name: Pine Lodge Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-14T21:00Z-PER-2019-07-03T04:02Z-ID-2019-NMLNF-000249-NAME-PINELODGE-S-N
-      Code: d97ed58fefc938986e62f07d4a362c2ee9b979b28e158447cb1e24e8aeae4623
+      UpdateId: 'UPD-2019-07-15T21:30Z-PER-none-ID-2019-NMLNF-000249-NAME-PINELODGE-S-N'
+      Code: 24fcb4c15cd59d2f093bd65cc289636b191283d41f1dae9853ffe8b5b3dd90e0
   2019-AKTAS-913362:
     Source_NFSA_Join:
       Lon: -142.33335857980225
@@ -22374,39 +22356,39 @@ Database:
       Name: Bear
       Fire_Name: Bear
       UniqueFireIdentifier: 2019-NMGNF-000321
-      DailyAcres: 400
-      PercentContained: 0
+      DailyAcres: 1200
+      PercentContained: 10
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-11T20:00Z'
-      ICS209ReportDateTimeEpoch: 1562875200000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-07-15T21:45Z'
+      ICS209ReportDateTimeEpoch: 1563227100000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 20000
+      EstimatedCostToDate: 45000
       FireCause: Natural
-      TotalIncidentPersonnel: 34
+      TotalIncidentPersonnel: 43
       FireDiscoveryDateTime: '2019-07-09T22:59Z'
       FireDiscoveryDateTimeEpoch: 1562713140000
       DispatchCenterID: NMSDC
       LocalIncidentIdentifier: '000321'
       POOCounty: Catron
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-11T20:00Z'
-      ModifiedOnDateTimeEpoch: 1562875200000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-15T21:45Z'
+      ModifiedOnDateTimeEpoch: 1563227100000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMGNF-000321
-      ModifiedOnDateTime_Raw: '2019-07-12T20:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562963710000
+      ModifiedOnDateTime_Raw: '2019-07-15T21:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563227909000
       Hashtag: '#BearFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T23:00:41.087Z'
+          RetrievedOn: '2019-07-15T22:01:15.285Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -22417,18 +22399,18 @@ Database:
     Source_GEOMAC:
       Lon: -107.98451019336007
       Lat: 33.57637534663146
-      objectid: 23
+      objectid: 20
       latitude: 33.57637
       longitude: -107.9845
-      acres: 525
+      acres: 1200
       gacc: SWCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: NM
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-12T22:45Z'
-      reportdatetimeEpoch: 1562971500000
-      percentcontained: 5
+      reportdatetime: '2019-07-15T21:45Z'
+      reportdatetimeEpoch: 1563227100000
+      percentcontained: 10
       uniquefireidentifier: 2019-NMGNF-000321
       firediscoverydatetime: '2019-07-09T22:59Z'
       firediscoverydatetimeEpoch: 1562713140000
@@ -22437,11 +22419,11 @@ Database:
       incidentname: Bear
       iscomplex: 'false'
       irwinid: '{21B0C9BB-C4E0-4A32-B9C9-EAF2CA5C8218}'
-      irwinmodifiedon: '2019-07-12T22:56Z'
-      irwinmodifiedonEpoch: 1562972186000
+      irwinmodifiedon: '2019-07-15T21:58Z'
+      irwinmodifiedonEpoch: 1563227909000
       mapsymbol: '1'
-      datecurrent: '2019-07-12T17:00Z'
-      datecurrentEpoch: 1562950819000
+      datecurrent: '2019-07-15T16:00Z'
+      datecurrentEpoch: 1563206424000
       pooownerunit: NMGNF
       fireyear: 2019
       localincidentidentifier: '000321'
@@ -22449,11 +22431,11 @@ Database:
       owneragency: USFS
       perimexist: 'N'
       complexname: null
-      DailyAcres: 525
+      DailyAcres: 1200
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-12T22:45Z'
-      ModifiedOnDateTimeEpoch: 1562971500000
-      PercentContained: 5
+      ModifiedOnDateTime: '2019-07-15T21:45Z'
+      ModifiedOnDateTimeEpoch: 1563227100000
+      PercentContained: 10
       UniqueFireIdentifier: 2019-NMGNF-000321
       FireDiscoveryDateTime: '2019-07-09T22:59Z'
       FireDiscoveryDateTimeEpoch: 1562713140000
@@ -22463,7 +22445,7 @@ Database:
       Hashtag: '#BearFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T23:00:41.088Z'
+          RetrievedOn: '2019-07-15T22:01:15.286Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -22480,54 +22462,42 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-NMGNF-000321
-    Lon: -107.98451019336007
-    Lat: 33.57637534663146
-    objectid: 23
-    latitude: 33.57637
-    longitude: -107.9845
-    acres: 525
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: NM
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-12T22:45Z'
-    reportdatetimeEpoch: 1562971500000
-    percentcontained: 5
-    uniquefireidentifier: 2019-NMGNF-000321
-    firediscoverydatetime: '2019-07-09T22:59Z'
-    firediscoverydatetimeEpoch: 1562713140000
-    complexparentirwinid: null
-    pooresponsibleunit: NMGNF
-    incidentname: Bear
-    iscomplex: 'false'
-    irwinid: '{21B0C9BB-C4E0-4A32-B9C9-EAF2CA5C8218}'
-    irwinmodifiedon: '2019-07-12T22:56Z'
-    irwinmodifiedonEpoch: 1562972186000
-    mapsymbol: '1'
-    datecurrent: '2019-07-12T17:00Z'
-    datecurrentEpoch: 1562950819000
-    pooownerunit: NMGNF
-    fireyear: 2019
-    localincidentidentifier: '000321'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 525
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-12T22:45Z'
-    ModifiedOnDateTimeEpoch: 1562971500000
-    PercentContained: 5
+    Lon: -107.97880869148129
+    Lat: 33.57326601767339
+    id: 122374
+    Name: Bear
+    Fire_Name: Bear
     UniqueFireIdentifier: 2019-NMGNF-000321
+    DailyAcres: 1200
+    PercentContained: 10
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-15T21:45Z'
+    ICS209ReportDateTimeEpoch: 1563227100000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 45000
+    FireCause: Natural
+    TotalIncidentPersonnel: 43
     FireDiscoveryDateTime: '2019-07-09T22:59Z'
     FireDiscoveryDateTimeEpoch: 1562713140000
-    Fire_Name: Bear
-    Name: Bear
-    Source: GEOMAC
-    Hashtag: '#BearFire'
+    DispatchCenterID: NMSDC
+    LocalIncidentIdentifier: '000321'
+    POOCounty: Catron
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-15T21:45Z'
+    ModifiedOnDateTimeEpoch: 1563227100000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-NMGNF-000321
+    ModifiedOnDateTime_Raw: '2019-07-15T21:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563227909000
+    Hashtag: '#BearFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -22537,8 +22507,8 @@ Database:
     unitMention: Gila NF
     Final_Fire_Name: Bear Fire
     _Update:
-      UpdateId: 'UPD-2019-07-12T22:45Z-PER-none-ID-2019-NMGNF-000321-NAME-Bear-S-G'
-      Code: f67dbfe4789f656894d383c42a7ae6b3300a36e4bfec3328053a51dbe101a7a0
+      UpdateId: 'UPD-2019-07-15T21:45Z-PER-none-ID-2019-NMGNF-000321-NAME-Bear-S-N'
+      Code: 9f1c4cd753e10cc4bbf74fd87544b864738737d8f04499daff351a41ce885b9c
   2019-AKSWS-904496:
     Source_NFSA_Join:
       Lon: -156.12778926806035
@@ -23303,38 +23273,38 @@ Database:
       Fire_Name: Canyonlands
       UniqueFireIdentifier: 2019-CORGD-000783
       DailyAcres: 50
-      PercentContained: 25
+      PercentContained: 75
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-14T21:15Z'
-      ICS209ReportDateTimeEpoch: 1563138900000
+      ICS209ReportDateTime: '2019-07-15T21:30Z'
+      ICS209ReportDateTimeEpoch: 1563226200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 425550
+      EstimatedCostToDate: 428786
       FireCause: Natural
-      TotalIncidentPersonnel: 85
+      TotalIncidentPersonnel: 64
       FireDiscoveryDateTime: '2019-07-09T21:13Z'
       FireDiscoveryDateTimeEpoch: 1562706780000
       DispatchCenterID: COPBC
       LocalIncidentIdentifier: 000783
       POOCounty: Fremont
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-14T21:15Z'
-      ModifiedOnDateTimeEpoch: 1563138900000
+      ModifiedOnDateTime: '2019-07-15T21:30Z'
+      ModifiedOnDateTimeEpoch: 1563226200000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-CORGD-000783
-      ModifiedOnDateTime_Raw: '2019-07-14T22:09Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563142141000
+      ModifiedOnDateTime_Raw: '2019-07-15T21:44Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563227085000
       Hashtag: '#CanyonlandsFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T22:32:31.792Z'
+          RetrievedOn: '2019-07-15T22:01:15.285Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -23349,33 +23319,33 @@ Database:
     Fire_Name: Canyonlands
     UniqueFireIdentifier: 2019-CORGD-000783
     DailyAcres: 50
-    PercentContained: 25
+    PercentContained: 75
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-14T21:15Z'
-    ICS209ReportDateTimeEpoch: 1563138900000
+    ICS209ReportDateTime: '2019-07-15T21:30Z'
+    ICS209ReportDateTimeEpoch: 1563226200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 425550
+    EstimatedCostToDate: 428786
     FireCause: Natural
-    TotalIncidentPersonnel: 85
+    TotalIncidentPersonnel: 64
     FireDiscoveryDateTime: '2019-07-09T21:13Z'
     FireDiscoveryDateTimeEpoch: 1562706780000
     DispatchCenterID: COPBC
     LocalIncidentIdentifier: 000783
     POOCounty: Fremont
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-14T21:15Z'
-    ModifiedOnDateTimeEpoch: 1563138900000
+    ModifiedOnDateTime: '2019-07-15T21:30Z'
+    ModifiedOnDateTimeEpoch: 1563226200000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-CORGD-000783
-    ModifiedOnDateTime_Raw: '2019-07-14T22:09Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563142141000
+    ModifiedOnDateTime_Raw: '2019-07-15T21:44Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563227085000
     Hashtag: '#CanyonlandsFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-10T12:00Z'
@@ -23384,7 +23354,7 @@ Database:
       Acres: 0.72435697
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T19:54:36.832Z'
+          RetrievedOn: '2019-07-15T22:01:17.858Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -23405,8 +23375,8 @@ Database:
     Final_Fire_Name: Canyonlands Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-14T21:15Z-PER-2019-07-10T12:00Z-ID-2019-CORGD-000783-NAME-Canyonlands-S-N
-      Code: 9a2442d286e42f02d1c85a1d5a16786fce2ef115e22c5b71d28786314335d5c0
+        UPD-2019-07-15T21:30Z-PER-2019-07-10T12:00Z-ID-2019-CORGD-000783-NAME-Canyonlands-S-N
+      Code: 7b7ebf9a7214314ab7b6ba6e71d1d0ab060f5bd1bd793191d5830c6dca82e2e1
   2019-NMGNF-000311:
     Source_NFSA_Join:
       Lon: -107.97440694658911
