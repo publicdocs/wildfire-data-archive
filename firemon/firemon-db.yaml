@@ -30253,39 +30253,39 @@ Database:
       Name: Ridgeline
       Fire_Name: Ridgeline
       UniqueFireIdentifier: 2019-IDTFD-000121
-      DailyAcres: 1000
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 600
+      PercentContained: 98
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-14T23:00Z'
+      ICS209ReportDateTimeEpoch: 1563145200000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
-      FireCause: Unknown
-      TotalIncidentPersonnel: null
+      EstimatedCostToDate: 200000
+      FireCause: Natural
+      TotalIncidentPersonnel: 100
       FireDiscoveryDateTime: '2019-07-13T18:19Z'
       FireDiscoveryDateTimeEpoch: 1563041940000
       DispatchCenterID: IDSCC
       LocalIncidentIdentifier: '000121'
       POOCounty: Cassia
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-13T22:24Z'
-      ModifiedOnDateTimeEpoch: 1563056645000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-14T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563145200000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDTFD-000121
-      ModifiedOnDateTime_Raw: '2019-07-13T22:24Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563056645000
+      ModifiedOnDateTime_Raw: '2019-07-15T02:15Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563156943000
       Hashtag: '#RidgelineFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T22:30:33.043Z'
+          RetrievedOn: '2019-07-15T02:31:21.910Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -30299,34 +30299,34 @@ Database:
     Name: Ridgeline
     Fire_Name: Ridgeline
     UniqueFireIdentifier: 2019-IDTFD-000121
-    DailyAcres: 1000
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 600
+    PercentContained: 98
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-14T23:00Z'
+    ICS209ReportDateTimeEpoch: 1563145200000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
+    EstimatedCostToDate: 200000
+    FireCause: Natural
+    TotalIncidentPersonnel: 100
     FireDiscoveryDateTime: '2019-07-13T18:19Z'
     FireDiscoveryDateTimeEpoch: 1563041940000
     DispatchCenterID: IDSCC
     LocalIncidentIdentifier: '000121'
     POOCounty: Cassia
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-13T22:24Z'
-    ModifiedOnDateTimeEpoch: 1563056645000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-14T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563145200000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-IDTFD-000121
-    ModifiedOnDateTime_Raw: '2019-07-13T22:24Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563056645000
+    ModifiedOnDateTime_Raw: '2019-07-15T02:15Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563156943000
     Hashtag: '#RidgelineFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -30338,8 +30338,8 @@ Database:
     unitMention: Twin  Falls District
     Final_Fire_Name: Ridgeline Fire
     _Update:
-      UpdateId: 'UPD-2019-07-13T22:24Z-PER-none-ID-2019-IDTFD-000121-NAME-Ridgeline-S-N'
-      Code: e42a00049b7f7fd4b2b7184928721e10551dbf1e87a5c22d2cf94b85e3cce42e
+      UpdateId: 'UPD-2019-07-14T23:00Z-PER-none-ID-2019-IDTFD-000121-NAME-Ridgeline-S-N'
+      Code: 881fbf1d8f2d59eae6f34003a1fefc12ffa913c4998bb5f7f4b6ce0bb0f9fb81
   2019-AKSWS-904544:
     Source_NFSA_Join:
       Lon: -158.48961286360887
@@ -31921,3 +31921,164 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-15T01:04Z-PER-none-ID-2019-WASPD-000270-NAME-POWERLINE-S-N'
       Code: 54c5a4a8a04d20fb1a18d77ebf07d46062afdc6d55e7a8875e8a26a29af9eea7
+  2019-NVBMD-020160:
+    Source_NFSA_Join:
+      Lon: -116.9641803714283
+      Lat: 40.36025848650223
+      id: 123097
+      Name: Dome
+      Fire_Name: Dome
+      UniqueFireIdentifier: 2019-NVBMD-020160
+      DailyAcres: 100
+      PercentContained: 5
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-15T01:15Z'
+      ICS209ReportDateTimeEpoch: 1563153300000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 200000
+      FireCause: Natural
+      TotalIncidentPersonnel: 35
+      FireDiscoveryDateTime: '2019-07-14T22:05Z'
+      FireDiscoveryDateTimeEpoch: 1563141900000
+      DispatchCenterID: NVCNC
+      LocalIncidentIdentifier: '020160'
+      POOCounty: Lander
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-15T01:15Z'
+      ModifiedOnDateTimeEpoch: 1563153300000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NVBMD-020160
+      ModifiedOnDateTime_Raw: '2019-07-15T02:20Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563157252000
+      Hashtag: '#DomeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T02:31:21.910Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -116.96123964937323
+      Lat: 40.37151359473355
+      objectid: 39
+      latitude: 40.371508
+      longitude: -116.961227
+      acres: 100
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NV
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-15T01:15Z'
+      reportdatetimeEpoch: 1563153300000
+      percentcontained: 5
+      uniquefireidentifier: 2019-NVBMD-020160
+      firediscoverydatetime: '2019-07-14T22:05Z'
+      firediscoverydatetimeEpoch: 1563141900000
+      complexparentirwinid: null
+      pooresponsibleunit: NVBMD
+      incidentname: Dome
+      iscomplex: 'false'
+      irwinid: '{94DBF769-BA79-42E0-A684-4C30BEDE427E}'
+      irwinmodifiedon: '2019-07-15T02:20Z'
+      irwinmodifiedonEpoch: 1563157253000
+      mapsymbol: '1'
+      datecurrent: '2019-07-14T20:30Z'
+      datecurrentEpoch: 1563136224000
+      pooownerunit: NVEKD
+      fireyear: 2019
+      localincidentidentifier: '020160'
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 100
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-15T01:15Z'
+      ModifiedOnDateTimeEpoch: 1563153300000
+      PercentContained: 5
+      UniqueFireIdentifier: 2019-NVBMD-020160
+      FireDiscoveryDateTime: '2019-07-14T22:05Z'
+      FireDiscoveryDateTimeEpoch: 1563141900000
+      Fire_Name: Dome
+      Name: Dome
+      Source: GEOMAC
+      Hashtag: '#DomeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T02:31:21.911Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NVBMD-020160
+    Lon: -116.9641803714283
+    Lat: 40.36025848650223
+    id: 123097
+    Name: Dome
+    Fire_Name: Dome
+    UniqueFireIdentifier: 2019-NVBMD-020160
+    DailyAcres: 100
+    PercentContained: 5
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-15T01:15Z'
+    ICS209ReportDateTimeEpoch: 1563153300000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 200000
+    FireCause: Natural
+    TotalIncidentPersonnel: 35
+    FireDiscoveryDateTime: '2019-07-14T22:05Z'
+    FireDiscoveryDateTimeEpoch: 1563141900000
+    DispatchCenterID: NVCNC
+    LocalIncidentIdentifier: '020160'
+    POOCounty: Lander
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-15T01:15Z'
+    ModifiedOnDateTimeEpoch: 1563153300000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NVBMD-020160
+    ModifiedOnDateTime_Raw: '2019-07-15T02:20Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563157252000
+    Hashtag: '#DomeFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: NVBMD
+    unitMention: Battle Mountain District Office
+    Final_Fire_Name: Dome Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-15T01:15Z-PER-none-ID-2019-NVBMD-020160-NAME-Dome-S-N'
+      Code: bdc84437c80d2ace7f9498ca2af7cce755e2c286d81d03e50599fa46c3d636a5
