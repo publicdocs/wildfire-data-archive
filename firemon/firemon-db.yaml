@@ -26005,16 +26005,16 @@ Database:
       Name: Holokuk River
       Fire_Name: Holokuk River
       UniqueFireIdentifier: 2019-AKSWS-904510
-      DailyAcres: 325
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 209
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-15T03:15Z'
+      ICS209ReportDateTimeEpoch: 1563160500000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 260
       FireCause: Natural
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-07-11T16:43Z'
@@ -26023,21 +26023,21 @@ Database:
       LocalIncidentIdentifier: '904510'
       POOCounty: Bethel
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-12T06:54Z'
-      ModifiedOnDateTimeEpoch: 1562914492000
-      ModifiedBySystem: ifm
+      ModifiedOnDateTime: '2019-07-15T03:15Z'
+      ModifiedOnDateTimeEpoch: 1563160500000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKSWS-904510
-      ModifiedOnDateTime_Raw: '2019-07-12T06:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562914492000
+      ModifiedOnDateTime_Raw: '2019-07-15T07:17Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563175070000
       Hashtag: '#HolokukRiverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-12T07:02:41.729Z'
+          RetrievedOn: '2019-07-15T07:31:15.314Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -26045,22 +26045,88 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -158.42653959047834
+      Lat: 61.13295026539469
+      objectid: 36
+      latitude: 61.13295
+      longitude: -158.426517
+      acres: 209
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-15T03:15Z'
+      reportdatetimeEpoch: 1563160500000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKSWS-904510
+      firediscoverydatetime: '2019-07-11T16:43Z'
+      firediscoverydatetimeEpoch: 1562863409000
+      complexparentirwinid: null
+      pooresponsibleunit: AKSWS
+      incidentname: Holokuk River
+      iscomplex: 'false'
+      irwinid: '{28B53294-E982-44AC-906E-031FF129B6CE}'
+      irwinmodifiedon: '2019-07-15T07:17Z'
+      irwinmodifiedonEpoch: 1563175070000
+      mapsymbol: '1'
+      datecurrent: '2019-07-15T01:30Z'
+      datecurrentEpoch: 1563154222000
+      pooownerunit: AKAKS
+      fireyear: 2019
+      localincidentidentifier: '904510'
+      incidenttypecategory: WF
+      owneragency: State
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 209
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-15T03:15Z'
+      ModifiedOnDateTimeEpoch: 1563160500000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKSWS-904510
+      FireDiscoveryDateTime: '2019-07-11T16:43Z'
+      FireDiscoveryDateTimeEpoch: 1562863409000
+      Fire_Name: Holokuk River
+      Name: Holokuk River
+      Source: GEOMAC
+      Hashtag: '#HolokukRiverFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T07:31:15.315Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKSWS-904510
     Lon: -158.42654214751084
     Lat: 61.132951746043965
     id: 122649
     Name: Holokuk River
     Fire_Name: Holokuk River
     UniqueFireIdentifier: 2019-AKSWS-904510
-    DailyAcres: 325
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 209
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-15T03:15Z'
+    ICS209ReportDateTimeEpoch: 1563160500000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 260
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-07-11T16:43Z'
@@ -26069,16 +26135,16 @@ Database:
     LocalIncidentIdentifier: '904510'
     POOCounty: Bethel
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-12T06:54Z'
-    ModifiedOnDateTimeEpoch: 1562914492000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-07-15T03:15Z'
+    ModifiedOnDateTimeEpoch: 1563160500000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904510
-    ModifiedOnDateTime_Raw: '2019-07-12T06:54Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562914492000
+    ModifiedOnDateTime_Raw: '2019-07-15T07:17Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563175070000
     Hashtag: '#HolokukRiverFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -26091,8 +26157,8 @@ Database:
     Final_Fire_Name: Holokuk River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-12T06:54Z-PER-none-ID-2019-AKSWS-904510-NAME-HolokukRiver-S-N
-      Code: 46c8e28685a130aaf14246cf9c57c350653d7ed7d46954312a2030eea752716e
+        UPD-2019-07-15T03:15Z-PER-none-ID-2019-AKSWS-904510-NAME-HolokukRiver-S-N
+      Code: e39406103c9fdd9adaee43c64f57e7f66dab8f83577c024bfa49d497e3e185c6
   2019-AKFAS-911459:
     Source_NFSA_Join:
       Lon: -149.77600850656654
@@ -27138,35 +27204,35 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-14T04:00Z'
-      ICS209ReportDateTimeEpoch: 1563076800000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-07-15T06:00Z'
+      ICS209ReportDateTimeEpoch: 1563170400000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 219356
-      FireCause: Unknown
-      TotalIncidentPersonnel: 153
+      EstimatedCostToDate: 335836
+      FireCause: Human
+      TotalIncidentPersonnel: 155
       FireDiscoveryDateTime: '2019-07-12T02:47Z'
       FireDiscoveryDateTimeEpoch: 1562899641000
       DispatchCenterID: AKFASC
       LocalIncidentIdentifier: '911508'
       POOCounty: Denali
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-14T04:00Z'
-      ModifiedOnDateTimeEpoch: 1563076800000
+      ModifiedOnDateTime: '2019-07-15T06:00Z'
+      ModifiedOnDateTimeEpoch: 1563170400000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKFAS-911508
-      ModifiedOnDateTime_Raw: '2019-07-14T07:22Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563088977000
+      ModifiedOnDateTime_Raw: '2019-07-15T07:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563174585000
       Hashtag: '#KobeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T07:31:03.438Z'
+          RetrievedOn: '2019-07-15T07:31:15.314Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -27184,10 +27250,10 @@ Database:
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
-      status: I
-      firecause: Unknown
-      reportdatetime: '2019-07-14T04:00Z'
-      reportdatetimeEpoch: 1563076800000
+      status: U
+      firecause: Human
+      reportdatetime: '2019-07-15T06:00Z'
+      reportdatetimeEpoch: 1563170400000
       percentcontained: 0
       uniquefireidentifier: 2019-AKFAS-911508
       firediscoverydatetime: '2019-07-12T02:47Z'
@@ -27197,11 +27263,11 @@ Database:
       incidentname: Kobe
       iscomplex: 'false'
       irwinid: '{7B740355-7B78-44C2-A166-995DDED84E9D}'
-      irwinmodifiedon: '2019-07-14T07:22Z'
-      irwinmodifiedonEpoch: 1563088977000
+      irwinmodifiedon: '2019-07-15T07:09Z'
+      irwinmodifiedonEpoch: 1563174585000
       mapsymbol: '1'
-      datecurrent: '2019-07-14T01:30Z'
-      datecurrentEpoch: 1563067821000
+      datecurrent: '2019-07-15T01:30Z'
+      datecurrentEpoch: 1563154222000
       pooownerunit: AKPRI
       fireyear: 2019
       localincidentidentifier: '911508'
@@ -27210,9 +27276,9 @@ Database:
       perimexist: 'N'
       complexname: null
       DailyAcres: 1135
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-14T04:00Z'
-      ModifiedOnDateTimeEpoch: 1563076800000
+      FireCause: Human
+      ModifiedOnDateTime: '2019-07-15T06:00Z'
+      ModifiedOnDateTimeEpoch: 1563170400000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKFAS-911508
       FireDiscoveryDateTime: '2019-07-12T02:47Z'
@@ -27223,7 +27289,7 @@ Database:
       Hashtag: '#KobeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T07:31:03.439Z'
+          RetrievedOn: '2019-07-15T07:31:15.315Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -27250,30 +27316,30 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-14T04:00Z'
-    ICS209ReportDateTimeEpoch: 1563076800000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-07-15T06:00Z'
+    ICS209ReportDateTimeEpoch: 1563170400000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 219356
-    FireCause: Unknown
-    TotalIncidentPersonnel: 153
+    EstimatedCostToDate: 335836
+    FireCause: Human
+    TotalIncidentPersonnel: 155
     FireDiscoveryDateTime: '2019-07-12T02:47Z'
     FireDiscoveryDateTimeEpoch: 1562899641000
     DispatchCenterID: AKFASC
     LocalIncidentIdentifier: '911508'
     POOCounty: Denali
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-14T04:00Z'
-    ModifiedOnDateTimeEpoch: 1563076800000
+    ModifiedOnDateTime: '2019-07-15T06:00Z'
+    ModifiedOnDateTimeEpoch: 1563170400000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKFAS-911508
-    ModifiedOnDateTime_Raw: '2019-07-14T07:22Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563088977000
+    ModifiedOnDateTime_Raw: '2019-07-15T07:09Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563174585000
     Hashtag: '#KobeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -27285,8 +27351,8 @@ Database:
     unitMention: Fairbanks Area Forestry
     Final_Fire_Name: Kobe Fire
     _Update:
-      UpdateId: 'UPD-2019-07-14T04:00Z-PER-none-ID-2019-AKFAS-911508-NAME-Kobe-S-N'
-      Code: ee9fe4056db5c8c7ae9c5a785b42fbf62439074d5142d4fd119a8ff5d0b52603
+      UpdateId: 'UPD-2019-07-15T06:00Z-PER-none-ID-2019-AKFAS-911508-NAME-Kobe-S-N'
+      Code: cfb4890f845c9d5065c4d03de0390395c3dafb965147d8db4a9c8f3e58704736
   2019-AKSWS-904474:
     Source_NFSA_Join:
       Lon: -155.75752167425196
@@ -29757,15 +29823,15 @@ Database:
       Fire_Name: Timber Creek
       UniqueFireIdentifier: 2019-AKSWS-904537
       DailyAcres: 1500
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-15T06:15Z'
+      ICS209ReportDateTimeEpoch: 1563171300000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 585
       FireCause: Natural
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-07-12T22:27Z'
@@ -29774,21 +29840,21 @@ Database:
       LocalIncidentIdentifier: '904537'
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-13T23:12Z'
-      ModifiedOnDateTimeEpoch: 1563059571000
-      ModifiedBySystem: ifm
+      ModifiedOnDateTime: '2019-07-15T06:15Z'
+      ModifiedOnDateTimeEpoch: 1563171300000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKSWS-904537
-      ModifiedOnDateTime_Raw: '2019-07-13T23:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563059571000
+      ModifiedOnDateTime_Raw: '2019-07-15T07:07Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563174467000
       Hashtag: '#TimberCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-13T23:30:34.877Z'
+          RetrievedOn: '2019-07-15T07:31:15.314Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -29803,15 +29869,15 @@ Database:
     Fire_Name: Timber Creek
     UniqueFireIdentifier: 2019-AKSWS-904537
     DailyAcres: 1500
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-15T06:15Z'
+    ICS209ReportDateTimeEpoch: 1563171300000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 585
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-07-12T22:27Z'
@@ -29820,16 +29886,16 @@ Database:
     LocalIncidentIdentifier: '904537'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-13T23:12Z'
-    ModifiedOnDateTimeEpoch: 1563059571000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-07-15T06:15Z'
+    ModifiedOnDateTimeEpoch: 1563171300000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904537
-    ModifiedOnDateTime_Raw: '2019-07-13T23:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563059571000
+    ModifiedOnDateTime_Raw: '2019-07-15T07:07Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563174467000
     Hashtag: '#TimberCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -29841,8 +29907,8 @@ Database:
     unitMention: Southwest Area Forestry
     Final_Fire_Name: Timber Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-13T23:12Z-PER-none-ID-2019-AKSWS-904537-NAME-TimberCreek-S-N'
-      Code: b3fe4de20a8465ce7e21ffcc2251f3d1c563149cbc7933de54e57b3f67606e01
+      UpdateId: 'UPD-2019-07-15T06:15Z-PER-none-ID-2019-AKSWS-904537-NAME-TimberCreek-S-N'
+      Code: c9910f4e947df8f8eb5cd3206a2c59cf329b55901424c37b2060ecc012a3b0c3
   CALFIRE-777caabb-3850-4db2-ba02-2d95fda38db6:
     Source_CALFIRE:
       Lon: -117.1228851
@@ -32477,3 +32543,260 @@ Database:
       UpdateId: >-
         UPD-2019-07-14T21:00Z-PER-none-ID-2019-AKSWS-904477-NAME-StonyRiverFlats-S-N
       Code: 70482feeac822502496768103f4561a5715235c8f045d8ac821dd9f024c5a985
+  2019-AKSWS-904489:
+    Source_NFSA_Join:
+      Lon: -157.5651386384158
+      Lat: 61.73196930739392
+      id: 122475
+      Name: Fuller Creek
+      Fire_Name: Fuller Creek
+      UniqueFireIdentifier: 2019-AKSWS-904489
+      DailyAcres: 7699
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-15T01:45Z'
+      ICS209ReportDateTimeEpoch: 1563155100000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 6540
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-11T04:02Z'
+      FireDiscoveryDateTimeEpoch: 1562817730000
+      DispatchCenterID: AKMSSC
+      LocalIncidentIdentifier: '904489'
+      POOCounty: Bethel
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-15T01:45Z'
+      ModifiedOnDateTimeEpoch: 1563155100000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKSWS-904489
+      ModifiedOnDateTime_Raw: '2019-07-15T07:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563175527000
+      Hashtag: '#FullerCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T07:31:15.314Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -157.5651386384158
+    Lat: 61.73196930739392
+    id: 122475
+    Name: Fuller Creek
+    Fire_Name: Fuller Creek
+    UniqueFireIdentifier: 2019-AKSWS-904489
+    DailyAcres: 7699
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-15T01:45Z'
+    ICS209ReportDateTimeEpoch: 1563155100000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 6540
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-11T04:02Z'
+    FireDiscoveryDateTimeEpoch: 1562817730000
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '904489'
+    POOCounty: Bethel
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-15T01:45Z'
+    ModifiedOnDateTimeEpoch: 1563155100000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKSWS-904489
+    ModifiedOnDateTime_Raw: '2019-07-15T07:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563175527000
+    Hashtag: '#FullerCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AKSWS
+    unitMention: Southwest Area Forestry
+    Final_Fire_Name: Fuller Creek Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-15T01:45Z-PER-none-ID-2019-AKSWS-904489-NAME-FullerCreek-S-N'
+      Code: c832a3ff6fac13e0fdff983322514c3ecbefd2ddf73b290dcce3f3c8d00713f9
+  2019-AKSWS-904490:
+    Source_NFSA_Join:
+      Lon: -158.75655623343783
+      Lat: 61.584782887402355
+      id: 122476
+      Name: Kolmakof Hills
+      Fire_Name: Kolmakof Hills
+      UniqueFireIdentifier: 2019-AKSWS-904490
+      DailyAcres: 7500
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-15T02:30Z'
+      ICS209ReportDateTimeEpoch: 1563157800000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 390
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-11T04:17Z'
+      FireDiscoveryDateTimeEpoch: 1562818665000
+      DispatchCenterID: AKMSSC
+      LocalIncidentIdentifier: '904490'
+      POOCounty: Bethel
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2019-07-15T02:30Z'
+      ModifiedOnDateTimeEpoch: 1563157800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKSWS-904490
+      ModifiedOnDateTime_Raw: '2019-07-15T07:21Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563175286000
+      Hashtag: '#KolmakofHillsFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T07:31:15.314Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -158.90655586461892
+      Lat: 61.58475014818227
+      objectid: 30
+      latitude: 61.58475
+      longitude: -158.906533
+      acres: 7500
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-15T02:30Z'
+      reportdatetimeEpoch: 1563157800000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKSWS-904490
+      firediscoverydatetime: '2019-07-11T04:17Z'
+      firediscoverydatetimeEpoch: 1562818665000
+      complexparentirwinid: null
+      pooresponsibleunit: AKSWS
+      incidentname: Kolmakof Hills
+      iscomplex: 'false'
+      irwinid: '{50351294-240D-4337-8262-365358B9D503}'
+      irwinmodifiedon: '2019-07-15T07:21Z'
+      irwinmodifiedonEpoch: 1563175287000
+      mapsymbol: '1'
+      datecurrent: '2019-07-15T01:30Z'
+      datecurrentEpoch: 1563154222000
+      pooownerunit: AKVLN
+      fireyear: 2019
+      localincidentidentifier: '904490'
+      incidenttypecategory: WF
+      owneragency: ANCSA
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 7500
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-15T02:30Z'
+      ModifiedOnDateTimeEpoch: 1563157800000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKSWS-904490
+      FireDiscoveryDateTime: '2019-07-11T04:17Z'
+      FireDiscoveryDateTimeEpoch: 1562818665000
+      Fire_Name: Kolmakof Hills
+      Name: Kolmakof Hills
+      Source: GEOMAC
+      Hashtag: '#KolmakofHillsFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T07:31:15.315Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKSWS-904490
+    Lon: -158.75655623343783
+    Lat: 61.584782887402355
+    id: 122476
+    Name: Kolmakof Hills
+    Fire_Name: Kolmakof Hills
+    UniqueFireIdentifier: 2019-AKSWS-904490
+    DailyAcres: 7500
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-15T02:30Z'
+    ICS209ReportDateTimeEpoch: 1563157800000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 390
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-11T04:17Z'
+    FireDiscoveryDateTimeEpoch: 1562818665000
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '904490'
+    POOCounty: Bethel
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2019-07-15T02:30Z'
+    ModifiedOnDateTimeEpoch: 1563157800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKSWS-904490
+    ModifiedOnDateTime_Raw: '2019-07-15T07:21Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563175286000
+    Hashtag: '#KolmakofHillsFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AKSWS
+    unitMention: Southwest Area Forestry
+    Final_Fire_Name: Kolmakof Hills Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-15T02:30Z-PER-none-ID-2019-AKSWS-904490-NAME-KolmakofHills-S-N
+      Code: e5239dd19efdd96408c2688071e9a10dbde9e3ff8a3ca02ca0f58bcd9a784f0f
