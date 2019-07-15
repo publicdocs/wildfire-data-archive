@@ -30531,103 +30531,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-14T01:33Z-PER-none-ID-2019-IDBOD-000421-NAME-CANMAY-S-N'
       Code: dccd8ed555fdc3391e8f5b59b4d6ac85256cf4aec7f979489b7540b7c05781b6
-  2019-NVTMFX-030378:
-    Source_NFSA_Join:
-      Lon: -119.77917707835658
-      Lat: 39.61895235947819
-      id: 122927
-      Name: Jasper
-      Fire_Name: Jasper
-      UniqueFireIdentifier: 2019-NVTMFX-030378
-      DailyAcres: 800
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: null
-      FireCause: Unknown
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-13T22:02Z'
-      FireDiscoveryDateTimeEpoch: 1563055320000
-      DispatchCenterID: NVSFC
-      LocalIncidentIdentifier: 030378
-      POOCounty: Washoe
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-14T04:00Z'
-      ModifiedOnDateTimeEpoch: 1563076829000
-      ModifiedBySystem: wfdss
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-NVTMFX-030378
-      ModifiedOnDateTime_Raw: '2019-07-14T04:00Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563076829000
-      Hashtag: '#JasperFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-14T04:01:29.139Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -119.77917707835658
-    Lat: 39.61895235947819
-    id: 122927
-    Name: Jasper
-    Fire_Name: Jasper
-    UniqueFireIdentifier: 2019-NVTMFX-030378
-    DailyAcres: 800
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-13T22:02Z'
-    FireDiscoveryDateTimeEpoch: 1563055320000
-    DispatchCenterID: NVSFC
-    LocalIncidentIdentifier: 030378
-    POOCounty: Washoe
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-14T04:00Z'
-    ModifiedOnDateTimeEpoch: 1563076829000
-    ModifiedBySystem: wfdss
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-NVTMFX-030378
-      - CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
-      - 2019-NVCCD-030378
-    ModifiedOnDateTime_Raw: '2019-07-14T04:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563076829000
-    Hashtag: '#JasperFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: NVTMFX
-    unitMention: Truckee Meadows FPD
-    Final_Fire_Name: Jasper Fire
-    _Update:
-      UpdateId: 'UPD-2019-07-14T04:00Z-PER-none-ID-2019-NVTMFX-030378-NAME-Jasper-S-N'
-      Code: 54755ce142b8c7b22af2ff176c8b83bb3fcd93e4bf1430e012b35e6b867da580
   2019-NVHUMX-020157:
     Source_NFSA_Join:
       Lon: -118.46911000060805
@@ -31665,3 +31568,261 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-14T23:58Z-PER-none-ID-2019-IDBOD-000430-NAME-HEART-S-N'
       Code: 0c45a3445c26b67ae49d8e183dc50f090a60f73187814470ba00c0bc714122b2
+  2019-NVCCD-030378:
+    Source_NFSA_Join:
+      Lon: -119.77917707835658
+      Lat: 39.61895235947819
+      id: 122927
+      Name: Jasper
+      Fire_Name: Jasper
+      UniqueFireIdentifier: 2019-NVCCD-030378
+      DailyAcres: 1151
+      PercentContained: 45
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-15T00:00Z'
+      ICS209ReportDateTimeEpoch: 1563148800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 500000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 214
+      FireDiscoveryDateTime: '2019-07-13T22:02Z'
+      FireDiscoveryDateTimeEpoch: 1563055320000
+      DispatchCenterID: NVSFC
+      LocalIncidentIdentifier: 030378
+      POOCounty: Washoe
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-15T00:00Z'
+      ModifiedOnDateTimeEpoch: 1563148800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NVCCD-030378
+      ModifiedOnDateTime_Raw: '2019-07-15T00:12Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563149522000
+      Hashtag: '#JasperFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T00:30:50.441Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -119.78241303232696
+      Lat: 39.630165302198264
+      objectid: 38
+      latitude: 39.63016
+      longitude: -119.7824
+      acres: 1151
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NV
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-07-15T00:00Z'
+      reportdatetimeEpoch: 1563148800000
+      percentcontained: 45
+      uniquefireidentifier: 2019-NVCCD-030378
+      firediscoverydatetime: '2019-07-13T22:02Z'
+      firediscoverydatetimeEpoch: 1563055320000
+      complexparentirwinid: null
+      pooresponsibleunit: NVCCD
+      incidentname: Jasper
+      iscomplex: 'false'
+      irwinid: '{E5235D35-E3F1-4B1B-A88F-82AB902B0FAB}'
+      irwinmodifiedon: '2019-07-15T00:12Z'
+      irwinmodifiedonEpoch: 1563149522000
+      mapsymbol: '1'
+      datecurrent: '2019-07-14T18:30Z'
+      datecurrentEpoch: 1563129016000
+      pooownerunit: NVCCD
+      fireyear: 2019
+      localincidentidentifier: 030378
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1151
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-15T00:00Z'
+      ModifiedOnDateTimeEpoch: 1563148800000
+      PercentContained: 45
+      UniqueFireIdentifier: 2019-NVCCD-030378
+      FireDiscoveryDateTime: '2019-07-13T22:02Z'
+      FireDiscoveryDateTimeEpoch: 1563055320000
+      Fire_Name: Jasper
+      Name: Jasper
+      Source: GEOMAC
+      Hashtag: '#JasperFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T00:30:50.441Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NVCCD-030378
+    Lon: -119.77917707835658
+    Lat: 39.61895235947819
+    id: 122927
+    Name: Jasper
+    Fire_Name: Jasper
+    UniqueFireIdentifier: 2019-NVCCD-030378
+    DailyAcres: 1151
+    PercentContained: 45
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-15T00:00Z'
+    ICS209ReportDateTimeEpoch: 1563148800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 500000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 214
+    FireDiscoveryDateTime: '2019-07-13T22:02Z'
+    FireDiscoveryDateTimeEpoch: 1563055320000
+    DispatchCenterID: NVSFC
+    LocalIncidentIdentifier: 030378
+    POOCounty: Washoe
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-15T00:00Z'
+    ModifiedOnDateTimeEpoch: 1563148800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NVCCD-030378
+      - 2019-NVTMFX-030378
+      - CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+    ModifiedOnDateTime_Raw: '2019-07-15T00:12Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563149522000
+    Hashtag: '#JasperFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: NVCCD
+    unitMention: Carson City District Office
+    Final_Fire_Name: Jasper Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-15T00:00Z-PER-none-ID-2019-NVCCD-030378-NAME-Jasper-S-N'
+      Code: e53bd9fd9577f6659404b062266b970afc2a03515747afa9c3dd1637ae5b6236
+  2019-IDTFD-000132:
+    Source_NFSA_Join:
+      Lon: -114.99050982699498
+      Lat: 42.93261644212638
+      id: 123102
+      Name: Pioneer
+      Fire_Name: Pioneer
+      UniqueFireIdentifier: 2019-IDTFD-000132
+      DailyAcres: 300
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Human
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-14T22:25Z'
+      FireDiscoveryDateTimeEpoch: 1563143100000
+      DispatchCenterID: IDSCC
+      LocalIncidentIdentifier: '000132'
+      POOCounty: Gooding
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-15T00:08Z'
+      ModifiedOnDateTimeEpoch: 1563149327000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDTFD-000132
+      ModifiedOnDateTime_Raw: '2019-07-15T00:08Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563149327000
+      Hashtag: '#PioneerFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-15T00:30:50.441Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -114.99050982699498
+    Lat: 42.93261644212638
+    id: 123102
+    Name: Pioneer
+    Fire_Name: Pioneer
+    UniqueFireIdentifier: 2019-IDTFD-000132
+    DailyAcres: 300
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-14T22:25Z'
+    FireDiscoveryDateTimeEpoch: 1563143100000
+    DispatchCenterID: IDSCC
+    LocalIncidentIdentifier: '000132'
+    POOCounty: Gooding
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-15T00:08Z'
+    ModifiedOnDateTimeEpoch: 1563149327000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDTFD-000132
+    ModifiedOnDateTime_Raw: '2019-07-15T00:08Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563149327000
+    Hashtag: '#PioneerFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: IDTFD
+    unitMention: Twin  Falls District
+    Final_Fire_Name: Pioneer Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-15T00:08Z-PER-none-ID-2019-IDTFD-000132-NAME-Pioneer-S-N'
+      Code: 626790e90f7ce5c44d21301226b1d0faf7c043ced450102466db972feaeeb210
