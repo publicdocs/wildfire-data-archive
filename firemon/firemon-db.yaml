@@ -27046,39 +27046,39 @@ Database:
       Name: McCally Creek
       Fire_Name: McCally Creek
       UniqueFireIdentifier: 2019-AKSWS-904487
-      DailyAcres: 5
+      DailyAcres: 305.5
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-14T01:00Z'
-      ICS209ReportDateTimeEpoch: 1563066000000
+      ICS209ReportDateTime: '2019-07-15T23:00Z'
+      ICS209ReportDateTimeEpoch: 1563231600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 149253
+      EstimatedCostToDate: 201278
       FireCause: Natural
-      TotalIncidentPersonnel: 27
+      TotalIncidentPersonnel: 67
       FireDiscoveryDateTime: '2019-07-11T03:17Z'
       FireDiscoveryDateTimeEpoch: 1562815052000
       DispatchCenterID: AKMSSC
       LocalIncidentIdentifier: '904487'
       POOCounty: Bethel
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-14T01:00Z'
-      ModifiedOnDateTimeEpoch: 1563066000000
-      ModifiedBySystem: ifm
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-15T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563231600000
+      ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKSWS-904487
-      ModifiedOnDateTime_Raw: '2019-07-14T08:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563094601000
+      ModifiedOnDateTime_Raw: '2019-07-16T07:19Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563261569000
       Hashtag: '#McCallyCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T09:02:20.807Z'
+          RetrievedOn: '2019-07-16T07:31:09.890Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -27086,40 +27086,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -157.3697453075073
+      Lat: 61.754444781039105
+      objectid: 22
+      latitude: 61.7544444
+      longitude: -157.3697222
+      acres: 305.5
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-15T23:00Z'
+      reportdatetimeEpoch: 1563231600000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKSWS-904487
+      firediscoverydatetime: '2019-07-11T03:17Z'
+      firediscoverydatetimeEpoch: 1562815052000
+      complexparentirwinid: null
+      pooresponsibleunit: AKSWS
+      incidentname: McCally Creek
+      iscomplex: 'false'
+      irwinid: '{54A7A99A-30FE-438A-A03F-74FC93994375}'
+      irwinmodifiedon: '2019-07-16T07:19Z'
+      irwinmodifiedonEpoch: 1563261569000
+      mapsymbol: '1'
+      datecurrent: '2019-07-16T01:30Z'
+      datecurrentEpoch: 1563240625000
+      pooownerunit: AKADD
+      fireyear: 2019
+      localincidentidentifier: '904487'
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 305.5
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-15T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563231600000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKSWS-904487
+      FireDiscoveryDateTime: '2019-07-11T03:17Z'
+      FireDiscoveryDateTimeEpoch: 1562815052000
+      Fire_Name: McCally Creek
+      Name: McCally Creek
+      Source: GEOMAC
+      Hashtag: '#McCallyCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-16T07:31:09.891Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKSWS-904487
     Lon: -157.51307228454823
     Lat: 61.7545008376983
     id: 122471
     Name: McCally Creek
     Fire_Name: McCally Creek
     UniqueFireIdentifier: 2019-AKSWS-904487
-    DailyAcres: 5
+    DailyAcres: 305.5
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-14T01:00Z'
-    ICS209ReportDateTimeEpoch: 1563066000000
+    ICS209ReportDateTime: '2019-07-15T23:00Z'
+    ICS209ReportDateTimeEpoch: 1563231600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 149253
+    EstimatedCostToDate: 201278
     FireCause: Natural
-    TotalIncidentPersonnel: 27
+    TotalIncidentPersonnel: 67
     FireDiscoveryDateTime: '2019-07-11T03:17Z'
     FireDiscoveryDateTimeEpoch: 1562815052000
     DispatchCenterID: AKMSSC
     LocalIncidentIdentifier: '904487'
     POOCounty: Bethel
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-14T01:00Z'
-    ModifiedOnDateTimeEpoch: 1563066000000
-    ModifiedBySystem: ifm
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-15T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563231600000
+    ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904487
-    ModifiedOnDateTime_Raw: '2019-07-14T08:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563094601000
+    ModifiedOnDateTime_Raw: '2019-07-16T07:19Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563261569000
     Hashtag: '#McCallyCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -27132,8 +27198,8 @@ Database:
     Final_Fire_Name: Mc Cally Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-14T01:00Z-PER-none-ID-2019-AKSWS-904487-NAME-McCallyCreek-S-N
-      Code: 73247a5f2cbb3afaf8fa4dfc61e0bf0ee21a24818eb1928bbf68537a136ba13c
+        UPD-2019-07-15T23:00Z-PER-none-ID-2019-AKSWS-904487-NAME-McCallyCreek-S-N
+      Code: ae7aedcb1788a257e10d3a05ef173aedda6eedef8e80cb8c82a9a8f8c4e209ef
   2019-AKGAD-000535:
     Source_NFSA_Join:
       Lon: -156.35592541761534
@@ -27337,12 +27403,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-15T01:00Z'
-      ICS209ReportDateTimeEpoch: 1563152400000
+      ICS209ReportDateTime: '2019-07-15T23:00Z'
+      ICS209ReportDateTimeEpoch: 1563231600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 23145
+      EstimatedCostToDate: 46290
       FireCause: Natural
       TotalIncidentPersonnel: 22
       FireDiscoveryDateTime: '2019-07-12T18:18Z'
@@ -27351,21 +27417,21 @@ Database:
       LocalIncidentIdentifier: '904534'
       POOCounty: Bethel
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-15T01:00Z'
-      ModifiedOnDateTimeEpoch: 1563152400000
-      ModifiedBySystem: ifm
+      ModifiedOnDateTime: '2019-07-15T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563231600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKSWS-904534
-      ModifiedOnDateTime_Raw: '2019-07-15T07:41Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563176485000
+      ModifiedOnDateTime_Raw: '2019-07-16T07:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563261973000
       Hashtag: '#SmithCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T08:01:03.794Z'
+          RetrievedOn: '2019-07-16T07:31:09.890Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -27376,7 +27442,7 @@ Database:
     Source_GEOMAC:
       Lon: -158.3178010603587
       Lat: 62.065000200316184
-      objectid: 37
+      objectid: 27
       latitude: 62.065
       longitude: -158.3177778
       acres: 4700
@@ -27385,8 +27451,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-15T01:00Z'
-      reportdatetimeEpoch: 1563152400000
+      reportdatetime: '2019-07-15T23:00Z'
+      reportdatetimeEpoch: 1563231600000
       percentcontained: 0
       uniquefireidentifier: 2019-AKSWS-904534
       firediscoverydatetime: '2019-07-12T18:18Z'
@@ -27396,22 +27462,22 @@ Database:
       incidentname: Smith Creek
       iscomplex: 'false'
       irwinid: '{FF90470E-21D9-46F9-BCF4-42E535A30323}'
-      irwinmodifiedon: '2019-07-15T07:41Z'
-      irwinmodifiedonEpoch: 1563176486000
+      irwinmodifiedon: '2019-07-16T07:26Z'
+      irwinmodifiedonEpoch: 1563261974000
       mapsymbol: '1'
-      datecurrent: '2019-07-15T02:00Z'
-      datecurrentEpoch: 1563156019000
+      datecurrent: '2019-07-16T01:30Z'
+      datecurrentEpoch: 1563240625000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '904534'
       incidenttypecategory: WF
       owneragency: State
-      perimexist: 'N'
+      perimexist: 'Y'
       complexname: null
       DailyAcres: 4700
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-15T01:00Z'
-      ModifiedOnDateTimeEpoch: 1563152400000
+      ModifiedOnDateTime: '2019-07-15T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563231600000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKSWS-904534
       FireDiscoveryDateTime: '2019-07-12T18:18Z'
@@ -27422,7 +27488,7 @@ Database:
       Hashtag: '#SmithCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T08:01:03.795Z'
+          RetrievedOn: '2019-07-16T07:31:09.891Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -27449,12 +27515,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-15T01:00Z'
-    ICS209ReportDateTimeEpoch: 1563152400000
+    ICS209ReportDateTime: '2019-07-15T23:00Z'
+    ICS209ReportDateTimeEpoch: 1563231600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 23145
+    EstimatedCostToDate: 46290
     FireCause: Natural
     TotalIncidentPersonnel: 22
     FireDiscoveryDateTime: '2019-07-12T18:18Z'
@@ -27463,16 +27529,16 @@ Database:
     LocalIncidentIdentifier: '904534'
     POOCounty: Bethel
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-15T01:00Z'
-    ModifiedOnDateTimeEpoch: 1563152400000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-07-15T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563231600000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKSWS-904534
-    ModifiedOnDateTime_Raw: '2019-07-15T07:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563176485000
+    ModifiedOnDateTime_Raw: '2019-07-16T07:26Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563261973000
     Hashtag: '#SmithCreekFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-14T16:32Z'
@@ -27481,7 +27547,7 @@ Database:
       Acres: 3916.93327909
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T18:34:19.595Z'
+          RetrievedOn: '2019-07-16T07:31:11.247Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -27502,8 +27568,8 @@ Database:
     Final_Fire_Name: Smith Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-15T01:00Z-PER-2019-07-14T16:32Z-ID-2019-AKSWS-904534-NAME-SmithCreek-S-N
-      Code: 397b11a35a5b586dd5c315205007355726ea34f0d5829f076ef87fea12b78f21
+        UPD-2019-07-15T23:00Z-PER-2019-07-14T16:32Z-ID-2019-AKSWS-904534-NAME-SmithCreek-S-N
+      Code: e602552fd881786a3cdeac5ab6f5feed264791b198c50c5b07208171a778bce3
   2019-ORVAD-000068:
     Source_NFSA_Join:
       Lon: -117.49661184032594
@@ -34267,3 +34333,99 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-15T21:00Z-PER-none-ID-2019-AKSWS-904488-NAME-JumpPeak-S-N'
       Code: 28ac3febd85af739dcdafd9494f801c1afcbb2c758ba40959c48a26af626d602
+  2019-AKSWS-904551:
+    Source_NFSA_Join:
+      Lon: -157.96769168353543
+      Lat: 62.46450008006605
+      id: 122974
+      Name: Boulder Creek
+      Fire_Name: Boulder Creek
+      UniqueFireIdentifier: 2019-AKSWS-904551
+      DailyAcres: 6.9
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-07-15T23:00Z'
+      ICS209ReportDateTimeEpoch: 1563231600000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 40011
+      FireCause: Natural
+      TotalIncidentPersonnel: 5
+      FireDiscoveryDateTime: '2019-07-14T05:03Z'
+      FireDiscoveryDateTimeEpoch: 1563080582000
+      DispatchCenterID: AKMSSC
+      LocalIncidentIdentifier: '904551'
+      POOCounty: Yukon-Koyukuk
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2019-07-15T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563231600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKSWS-904551
+      ModifiedOnDateTime_Raw: '2019-07-16T07:12Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563261130000
+      Hashtag: '#BoulderCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-16T07:31:09.890Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -157.96769168353543
+    Lat: 62.46450008006605
+    id: 122974
+    Name: Boulder Creek
+    Fire_Name: Boulder Creek
+    UniqueFireIdentifier: 2019-AKSWS-904551
+    DailyAcres: 6.9
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-07-15T23:00Z'
+    ICS209ReportDateTimeEpoch: 1563231600000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 40011
+    FireCause: Natural
+    TotalIncidentPersonnel: 5
+    FireDiscoveryDateTime: '2019-07-14T05:03Z'
+    FireDiscoveryDateTimeEpoch: 1563080582000
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '904551'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2019-07-15T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563231600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKSWS-904551
+    ModifiedOnDateTime_Raw: '2019-07-16T07:12Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563261130000
+    Hashtag: '#BoulderCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AKSWS
+    unitMention: Southwest Area Forestry
+    Final_Fire_Name: Boulder Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-15T23:00Z-PER-none-ID-2019-AKSWS-904551-NAME-BoulderCreek-S-N
+      Code: 3e50fff13589a9c9d233e03e4020d64ad3ad90df16de65ce37dc6fc980e9c9ed
