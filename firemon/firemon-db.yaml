@@ -30333,7 +30333,7 @@ Database:
       Name: Dome
       Fire_Name: Dome
       UniqueFireIdentifier: 2019-NVBMD-020160
-      DailyAcres: 100
+      DailyAcres: 266
       PercentContained: 5
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
@@ -30353,19 +30353,19 @@ Database:
       POOLandownerKind: Federal
       ModifiedOnDateTime: '2019-07-15T01:15Z'
       ModifiedOnDateTimeEpoch: 1563153300000
-      ModifiedBySystem: wildcad
+      ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVBMD-020160
-      ModifiedOnDateTime_Raw: '2019-07-15T02:20Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563157252000
+      ModifiedOnDateTime_Raw: '2019-07-15T23:12Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563232353000
       Hashtag: '#DomeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T02:31:21.910Z'
+          RetrievedOn: '2019-07-16T02:00:41.165Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -30374,20 +30374,20 @@ Database:
             json: true
         Modified: true
     Source_GEOMAC:
-      Lon: -116.96123964937323
-      Lat: 40.37151359473355
-      objectid: 39
-      latitude: 40.371508
-      longitude: -116.961227
-      acres: 100
+      Lon: -116.96112374933618
+      Lat: 40.371394494731526
+      objectid: 35
+      latitude: 40.3713889
+      longitude: -116.9611111
+      acres: 266
       gacc: GBCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: NV
-      status: I
+      status: U
       firecause: Natural
-      reportdatetime: '2019-07-15T01:15Z'
-      reportdatetimeEpoch: 1563153300000
-      percentcontained: 5
+      reportdatetime: '2019-07-15T23:45Z'
+      reportdatetimeEpoch: 1563234300000
+      percentcontained: 15
       uniquefireidentifier: 2019-NVBMD-020160
       firediscoverydatetime: '2019-07-14T22:05Z'
       firediscoverydatetimeEpoch: 1563141900000
@@ -30396,23 +30396,23 @@ Database:
       incidentname: Dome
       iscomplex: 'false'
       irwinid: '{94DBF769-BA79-42E0-A684-4C30BEDE427E}'
-      irwinmodifiedon: '2019-07-15T02:20Z'
-      irwinmodifiedonEpoch: 1563157253000
+      irwinmodifiedon: '2019-07-16T01:42Z'
+      irwinmodifiedonEpoch: 1563241363000
       mapsymbol: '1'
-      datecurrent: '2019-07-14T20:30Z'
-      datecurrentEpoch: 1563136224000
+      datecurrent: '2019-07-15T20:00Z'
+      datecurrentEpoch: 1563220832000
       pooownerunit: NVEKD
       fireyear: 2019
       localincidentidentifier: '020160'
       incidenttypecategory: WF
       owneragency: BLM
-      perimexist: 'N'
+      perimexist: 'Y'
       complexname: null
-      DailyAcres: 100
+      DailyAcres: 266
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-15T01:15Z'
-      ModifiedOnDateTimeEpoch: 1563153300000
-      PercentContained: 5
+      ModifiedOnDateTime: '2019-07-15T23:45Z'
+      ModifiedOnDateTimeEpoch: 1563234300000
+      PercentContained: 15
       UniqueFireIdentifier: 2019-NVBMD-020160
       FireDiscoveryDateTime: '2019-07-14T22:05Z'
       FireDiscoveryDateTimeEpoch: 1563141900000
@@ -30422,7 +30422,7 @@ Database:
       Hashtag: '#DomeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T02:31:21.911Z'
+          RetrievedOn: '2019-07-16T02:00:41.165Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -30439,49 +30439,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-NVBMD-020160
-    Lon: -116.9641803714283
-    Lat: 40.36025848650223
-    id: 123097
-    Name: Dome
-    Fire_Name: Dome
-    UniqueFireIdentifier: 2019-NVBMD-020160
-    DailyAcres: 100
-    PercentContained: 5
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-15T01:15Z'
-    ICS209ReportDateTimeEpoch: 1563153300000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 200000
+    Lon: -116.96112374933618
+    Lat: 40.371394494731526
+    objectid: 35
+    latitude: 40.3713889
+    longitude: -116.9611111
+    acres: 266
+    gacc: GBCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: NV
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-15T23:45Z'
+    reportdatetimeEpoch: 1563234300000
+    percentcontained: 15
+    uniquefireidentifier: 2019-NVBMD-020160
+    firediscoverydatetime: '2019-07-14T22:05Z'
+    firediscoverydatetimeEpoch: 1563141900000
+    complexparentirwinid: null
+    pooresponsibleunit: NVBMD
+    incidentname: Dome
+    iscomplex: 'false'
+    irwinid: '{94DBF769-BA79-42E0-A684-4C30BEDE427E}'
+    irwinmodifiedon: '2019-07-16T01:42Z'
+    irwinmodifiedonEpoch: 1563241363000
+    mapsymbol: '1'
+    datecurrent: '2019-07-15T20:00Z'
+    datecurrentEpoch: 1563220832000
+    pooownerunit: NVEKD
+    fireyear: 2019
+    localincidentidentifier: '020160'
+    incidenttypecategory: WF
+    owneragency: BLM
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 266
     FireCause: Natural
-    TotalIncidentPersonnel: 35
+    ModifiedOnDateTime: '2019-07-15T23:45Z'
+    ModifiedOnDateTimeEpoch: 1563234300000
+    PercentContained: 15
+    UniqueFireIdentifier: 2019-NVBMD-020160
     FireDiscoveryDateTime: '2019-07-14T22:05Z'
     FireDiscoveryDateTimeEpoch: 1563141900000
-    DispatchCenterID: NVCNC
-    LocalIncidentIdentifier: '020160'
-    POOCounty: Lander
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-15T01:15Z'
-    ModifiedOnDateTimeEpoch: 1563153300000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Dome
+    Name: Dome
+    Source: GEOMAC
+    Hashtag: '#DomeFire'
     _CorrelationIds:
       - 2019-NVBMD-020160
-    ModifiedOnDateTime_Raw: '2019-07-15T02:20Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563157252000
-    Hashtag: '#DomeFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-14T21:00Z'
     PerimeterData:
       DateTime: '2019-07-14T21:00Z'
       Acres: 265.76618209
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T19:54:35.820Z'
+          RetrievedOn: '2019-07-16T02:00:42.763Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -30502,8 +30514,8 @@ Database:
     Final_Fire_Name: Dome Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-15T01:15Z-PER-2019-07-14T21:00Z-ID-2019-NVBMD-020160-NAME-Dome-S-N
-      Code: f9b14eaf09e52d1b9c92a784ca9ce0070531c5266190d3fc8044317545d9af93
+        UPD-2019-07-15T23:45Z-PER-2019-07-14T21:00Z-ID-2019-NVBMD-020160-NAME-Dome-S-G
+      Code: 098ef6ae06ab730da6198913a6a62f4d4b4adede3485ccf2a27ab20e2c8e8ec2
   2019-AKGAD-000560:
     Source_NFSA_Join:
       Lon: -158.06322751400154
