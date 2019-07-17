@@ -34870,38 +34870,38 @@ Database:
       Fire_Name: Champlin Point
       UniqueFireIdentifier: 2019-UTSCS-190193
       DailyAcres: 310
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 50
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-16T23:30Z'
+      ICS209ReportDateTimeEpoch: 1563319800000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 50000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 38
       FireDiscoveryDateTime: '2019-07-16T19:17Z'
       FireDiscoveryDateTimeEpoch: 1563304620000
       DispatchCenterID: UTRFC
       LocalIncidentIdentifier: '190193'
       POOCounty: Juab
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-16T22:35Z'
-      ModifiedOnDateTimeEpoch: 1563316547000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-16T23:30Z'
+      ModifiedOnDateTimeEpoch: 1563319800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTSCS-190193
-      ModifiedOnDateTime_Raw: '2019-07-16T22:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563316547000
+      ModifiedOnDateTime_Raw: '2019-07-17T00:59Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563325186000
       Hashtag: '#ChamplinPointFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T23:01:15.382Z'
+          RetrievedOn: '2019-07-17T01:06:43.844Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -34916,33 +34916,33 @@ Database:
     Fire_Name: Champlin Point
     UniqueFireIdentifier: 2019-UTSCS-190193
     DailyAcres: 310
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 50
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-16T23:30Z'
+    ICS209ReportDateTimeEpoch: 1563319800000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 50000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 38
     FireDiscoveryDateTime: '2019-07-16T19:17Z'
     FireDiscoveryDateTimeEpoch: 1563304620000
     DispatchCenterID: UTRFC
     LocalIncidentIdentifier: '190193'
     POOCounty: Juab
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-16T22:35Z'
-    ModifiedOnDateTimeEpoch: 1563316547000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-16T23:30Z'
+    ModifiedOnDateTimeEpoch: 1563319800000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTSCS-190193
-    ModifiedOnDateTime_Raw: '2019-07-16T22:35Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563316547000
+    ModifiedOnDateTime_Raw: '2019-07-17T00:59Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563325186000
     Hashtag: '#ChamplinPointFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -34955,8 +34955,8 @@ Database:
     Final_Fire_Name: Champlin Point Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-16T22:35Z-PER-none-ID-2019-UTSCS-190193-NAME-ChamplinPoint-S-N
-      Code: bcb858ac821a1b0cea9ee322809ce74096ce395b33907b656bb79560bc97f296
+        UPD-2019-07-16T23:30Z-PER-none-ID-2019-UTSCS-190193-NAME-ChamplinPoint-S-N
+      Code: f925b6293608f4f05f573fb2cd687de6de1d7f731ebc59d6f52aeb1535932c7a
   2019-COSJF-000441:
     Source_NFSA_Join:
       Lon: -107.74211159726865
@@ -35178,3 +35178,98 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-17T00:00Z-PER-none-ID-2019-AZPNF-000961-NAME-Cellar-S-G'
       Code: 316260d06b95fa6db7659023ada37f6f0134e9e452ef601dbc6c89e6db197cdc
+  2019-CASNF-000669:
+    Source_NFSA_Join:
+      Lon: -119.40051023664168
+      Lat: 37.32048565474025
+      id: 123278
+      Name: FISH
+      Fire_Name: FISH
+      UniqueFireIdentifier: 2019-CASNF-000669
+      DailyAcres: 85
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-17T00:15Z'
+      ICS209ReportDateTimeEpoch: 1563322500000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 300000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 138
+      FireDiscoveryDateTime: '2019-07-15T22:57Z'
+      FireDiscoveryDateTimeEpoch: 1563231420000
+      DispatchCenterID: CASICC
+      LocalIncidentIdentifier: 000669
+      POOCounty: Madera
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-17T00:15Z'
+      ModifiedOnDateTimeEpoch: 1563322500000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CASNF-000669
+      ModifiedOnDateTime_Raw: '2019-07-17T00:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563324533000
+      Hashtag: '#FishFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T01:06:43.844Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -119.40051023664168
+    Lat: 37.32048565474025
+    id: 123278
+    Name: FISH
+    Fire_Name: FISH
+    UniqueFireIdentifier: 2019-CASNF-000669
+    DailyAcres: 85
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-17T00:15Z'
+    ICS209ReportDateTimeEpoch: 1563322500000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 300000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 138
+    FireDiscoveryDateTime: '2019-07-15T22:57Z'
+    FireDiscoveryDateTimeEpoch: 1563231420000
+    DispatchCenterID: CASICC
+    LocalIncidentIdentifier: 000669
+    POOCounty: Madera
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-17T00:15Z'
+    ModifiedOnDateTimeEpoch: 1563322500000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CASNF-000669
+    ModifiedOnDateTime_Raw: '2019-07-17T00:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563324533000
+    Hashtag: '#FishFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CASNF
+    unitMention: '@Sierra_NF'
+    Final_Fire_Name: Fish Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-17T00:15Z-PER-none-ID-2019-CASNF-000669-NAME-FISH-S-N'
+      Code: c1db741056d06bfa63f4dbb45bd6b79bc61c1939fdd596b3b51707310fbeb0ed
