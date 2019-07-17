@@ -793,38 +793,38 @@ Database:
       Fire_Name: Boundary River
       UniqueFireIdentifier: 2019-AKTAS-913362
       DailyAcres: 18000
-      PercentContained: 70
+      PercentContained: 95
       FireMgmtComplexity: Type 1 Incident
       IncidentManagementOrganization: NIMO
-      ICS209ReportDateTime: '2019-07-15T03:30Z'
-      ICS209ReportDateTimeEpoch: 1563161400000
+      ICS209ReportDateTime: '2019-07-17T03:30Z'
+      ICS209ReportDateTimeEpoch: 1563334200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 3561494
+      EstimatedCostToDate: 3895492
       FireCause: Natural
-      TotalIncidentPersonnel: 168
+      TotalIncidentPersonnel: 150
       FireDiscoveryDateTime: '2019-06-24T00:44Z'
       FireDiscoveryDateTimeEpoch: 1561337087000
       DispatchCenterID: AKTASC
       LocalIncidentIdentifier: '913362'
       POOCounty: Southeast Fairbanks
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-15T03:30Z'
-      ModifiedOnDateTimeEpoch: 1563161400000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-17T03:30Z'
+      ModifiedOnDateTimeEpoch: 1563334200000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType1
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAS-913362
-      ModifiedOnDateTime_Raw: '2019-07-15T18:58Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563217106000
+      ModifiedOnDateTime_Raw: '2019-07-17T04:22Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563337379000
       Hashtag: '#BoundaryRiverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:35.629Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -832,149 +832,54 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -142.23669083908692
-      Lat: 62.859725016570565
-      objectid: 8
-      latitude: 62.8597222
-      longitude: -142.2366667
-      acres: 18000
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-16T03:30Z'
-      reportdatetimeEpoch: 1563247800000
-      percentcontained: 84
-      uniquefireidentifier: 2019-AKTAS-913362
-      firediscoverydatetime: '2019-06-24T00:44Z'
-      firediscoverydatetimeEpoch: 1561337087000
-      complexparentirwinid: null
-      pooresponsibleunit: AKTAS
-      incidentname: Boundary River
-      iscomplex: 'false'
-      irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
-      irwinmodifiedon: '2019-07-16T03:56Z'
-      irwinmodifiedonEpoch: 1563249366000
-      mapsymbol: '2'
-      datecurrent: '2019-07-15T22:00Z'
-      datecurrentEpoch: 1563228025000
-      pooownerunit: AKVLN
-      fireyear: 2019
-      localincidentidentifier: '913362'
-      incidenttypecategory: WF
-      owneragency: ANCSA
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 18000
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-16T03:30Z'
-      ModifiedOnDateTimeEpoch: 1563247800000
-      PercentContained: 84
-      UniqueFireIdentifier: 2019-AKTAS-913362
-      FireDiscoveryDateTime: '2019-06-24T00:44Z'
-      FireDiscoveryDateTimeEpoch: 1561337087000
-      Fire_Name: Boundary River
-      Name: Boundary River
-      Source: GEOMAC
-      Hashtag: '#BoundaryRiverFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:35.630Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKTAS-913362
-    Lon: -142.23669083908692
-    Lat: 62.859725016570565
-    objectid: 8
-    latitude: 62.8597222
-    longitude: -142.2366667
-    acres: 18000
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-16T03:30Z'
-    reportdatetimeEpoch: 1563247800000
-    percentcontained: 84
-    uniquefireidentifier: 2019-AKTAS-913362
-    firediscoverydatetime: '2019-06-24T00:44Z'
-    firediscoverydatetimeEpoch: 1561337087000
-    complexparentirwinid: null
-    pooresponsibleunit: AKTAS
-    incidentname: Boundary River
-    iscomplex: 'false'
-    irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
-    irwinmodifiedon: '2019-07-16T03:56Z'
-    irwinmodifiedonEpoch: 1563249366000
-    mapsymbol: '2'
-    datecurrent: '2019-07-15T22:00Z'
-    datecurrentEpoch: 1563228025000
-    pooownerunit: AKVLN
-    fireyear: 2019
-    localincidentidentifier: '913362'
-    incidenttypecategory: WF
-    owneragency: ANCSA
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 18000
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-16T03:30Z'
-    ModifiedOnDateTimeEpoch: 1563247800000
-    PercentContained: 84
+    Lon: -142.33335857980225
+    Lat: 62.883337560290755
+    id: 120040
+    Name: Boundary River
+    Fire_Name: Boundary River
     UniqueFireIdentifier: 2019-AKTAS-913362
+    DailyAcres: 18000
+    PercentContained: 95
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: NIMO
+    ICS209ReportDateTime: '2019-07-17T03:30Z'
+    ICS209ReportDateTimeEpoch: 1563334200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3895492
+    FireCause: Natural
+    TotalIncidentPersonnel: 150
     FireDiscoveryDateTime: '2019-06-24T00:44Z'
     FireDiscoveryDateTimeEpoch: 1561337087000
-    Fire_Name: Boundary River
-    Name: Boundary River
-    Source: GEOMAC
-    Hashtag: '#BoundaryRiverFire'
+    DispatchCenterID: AKTASC
+    LocalIncidentIdentifier: '913362'
+    POOCounty: Southeast Fairbanks
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2019-07-17T03:30Z'
+    ModifiedOnDateTimeEpoch: 1563334200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKTAS-913362
-    PerimDateTime: '2019-07-14T11:51Z'
+    ModifiedOnDateTime_Raw: '2019-07-17T04:22Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563337379000
+    Hashtag: '#BoundaryRiverFire'
+    NFSAType: Large WF
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-14T11:51Z'
-      Acres: 17999.380154
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:37.264Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: AKTAS
     unitMention: Tok Area Forestry
     Final_Fire_Name: Boundary River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-16T03:30Z-PER-2019-07-14T11:51Z-ID-2019-AKTAS-913362-NAME-BoundaryRiver-S-G
-      Code: dfdc369411fde02eded39111e130e982442321236409bf9fbadc069d7a80ec37
+        UPD-2019-07-17T03:30Z-PER-none-ID-2019-AKTAS-913362-NAME-BoundaryRiver-S-N
+      Code: a9fa4c42709c1fb679b33f808091a4f92683b6a18fb39a6904e5d4582c5dbf13
   2019-AZSCA-000792:
     Source_GEOMAC:
       Lon: -109.99695499001704
@@ -1531,35 +1436,35 @@ Database:
       PercentContained: 50
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-07-16T02:15Z'
-      ICS209ReportDateTimeEpoch: 1563243300000
+      ICS209ReportDateTime: '2019-07-17T02:00Z'
+      ICS209ReportDateTimeEpoch: 1563328800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 18654500
+      EstimatedCostToDate: 19337030
       FireCause: Natural
-      TotalIncidentPersonnel: 441
+      TotalIncidentPersonnel: 436
       FireDiscoveryDateTime: '2019-06-06T02:52Z'
       FireDiscoveryDateTimeEpoch: 1559789537000
       DispatchCenterID: AKKIDC
       LocalIncidentIdentifier: '903181'
       POOCounty: Kenai Peninsula
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-16T02:15Z'
-      ModifiedOnDateTimeEpoch: 1563243300000
+      ModifiedOnDateTime: '2019-07-17T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563328800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AKKKS-903181
-      ModifiedOnDateTime_Raw: '2019-07-16T04:01Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563249691000
+      ModifiedOnDateTime_Raw: '2019-07-17T04:05Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563336320000
       Hashtag: '#SwanLakeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:30:38.563Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -1579,8 +1484,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-16T02:15Z'
-      reportdatetimeEpoch: 1563243300000
+      reportdatetime: '2019-07-17T02:00Z'
+      reportdatetimeEpoch: 1563328800000
       percentcontained: 50
       uniquefireidentifier: 2019-AKKKS-903181
       firediscoverydatetime: '2019-06-06T02:52Z'
@@ -1590,11 +1495,11 @@ Database:
       incidentname: Swan Lake
       iscomplex: 'false'
       irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
-      irwinmodifiedon: '2019-07-16T04:01Z'
-      irwinmodifiedonEpoch: 1563249692000
+      irwinmodifiedon: '2019-07-17T04:05Z'
+      irwinmodifiedonEpoch: 1563336321000
       mapsymbol: '5'
-      datecurrent: '2019-07-15T22:30Z'
-      datecurrentEpoch: 1563229826000
+      datecurrent: '2019-07-16T22:30Z'
+      datecurrentEpoch: 1563316222000
       pooownerunit: AKKNR
       fireyear: 2019
       localincidentidentifier: '903181'
@@ -1604,8 +1509,8 @@ Database:
       complexname: null
       DailyAcres: 100812
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-16T02:15Z'
-      ModifiedOnDateTimeEpoch: 1563243300000
+      ModifiedOnDateTime: '2019-07-17T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563328800000
       PercentContained: 50
       UniqueFireIdentifier: 2019-AKKKS-903181
       FireDiscoveryDateTime: '2019-06-06T02:52Z'
@@ -1616,7 +1521,7 @@ Database:
       Hashtag: '#SwanLakeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:30:38.563Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -1643,61 +1548,43 @@ Database:
     PercentContained: 50
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-07-16T02:15Z'
-    ICS209ReportDateTimeEpoch: 1563243300000
+    ICS209ReportDateTime: '2019-07-17T02:00Z'
+    ICS209ReportDateTimeEpoch: 1563328800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 18654500
+    EstimatedCostToDate: 19337030
     FireCause: Natural
-    TotalIncidentPersonnel: 441
+    TotalIncidentPersonnel: 436
     FireDiscoveryDateTime: '2019-06-06T02:52Z'
     FireDiscoveryDateTimeEpoch: 1559789537000
     DispatchCenterID: AKKIDC
     LocalIncidentIdentifier: '903181'
     POOCounty: Kenai Peninsula
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-16T02:15Z'
-    ModifiedOnDateTimeEpoch: 1563243300000
+    ModifiedOnDateTime: '2019-07-17T02:00Z'
+    ModifiedOnDateTimeEpoch: 1563328800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-AKKKS-903181
-    ModifiedOnDateTime_Raw: '2019-07-16T04:01Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563249691000
+    ModifiedOnDateTime_Raw: '2019-07-17T04:05Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563336320000
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-14T23:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-14T23:00Z'
-      Acres: 100811.311675
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T04:30:40.189Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: AKKKS
     unitMention: Kenai-Kodiak Area Forestry
     Final_Fire_Name: Swan Lake Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-16T02:15Z-PER-2019-07-14T23:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
-      Code: 5ca11395e7543c81e88c90fc11bc7530e6645170c887b7ea1b191034d315ecea
+      UpdateId: 'UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKKKS-903181-NAME-SwanLake-S-N'
+      Code: 65bd50e95b335e85a6b9e71e3f4dc4861adafd4de3a107fe1be2c5406022f54d
   CALFIRE-7a0029c7-64c8-442d-8c7a-080a553e2b8e:
     Source_CALFIRE:
       Lon: -121.534827
@@ -2912,39 +2799,39 @@ Database:
       Name: McArthur Creek
       Fire_Name: McArthur Creek
       UniqueFireIdentifier: 2019-AKTAS-913133
-      DailyAcres: 24518
+      DailyAcres: 25144
       PercentContained: 0
       FireMgmtComplexity: Type 1 Incident
       IncidentManagementOrganization: NIMO
-      ICS209ReportDateTime: '2019-07-15T03:30Z'
-      ICS209ReportDateTimeEpoch: 1563161400000
+      ICS209ReportDateTime: '2019-07-17T03:45Z'
+      ICS209ReportDateTimeEpoch: 1563335100000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 162436
+      EstimatedCostToDate: 245037
       FireCause: Natural
-      TotalIncidentPersonnel: 36
+      TotalIncidentPersonnel: 35
       FireDiscoveryDateTime: '2019-05-21T23:54Z'
       FireDiscoveryDateTimeEpoch: 1558482850000
       DispatchCenterID: AKTASC
       LocalIncidentIdentifier: '913133'
       POOCounty: Southeast Fairbanks
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-15T03:30Z'
-      ModifiedOnDateTimeEpoch: 1563161400000
+      ModifiedOnDateTime: '2019-07-17T03:45Z'
+      ModifiedOnDateTimeEpoch: 1563335100000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType1
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAS-913133
-      ModifiedOnDateTime_Raw: '2019-07-15T03:45Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563162359000
+      ModifiedOnDateTime_Raw: '2019-07-17T04:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563337507000
       Hashtag: '#McArthurCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:35.629Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -2964,8 +2851,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-16T03:30Z'
-      reportdatetimeEpoch: 1563247800000
+      reportdatetime: '2019-07-17T03:45Z'
+      reportdatetimeEpoch: 1563335100000
       percentcontained: 0
       uniquefireidentifier: 2019-AKTAS-913133
       firediscoverydatetime: '2019-05-21T23:54Z'
@@ -2975,11 +2862,11 @@ Database:
       incidentname: McArthur Creek
       iscomplex: 'false'
       irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
-      irwinmodifiedon: '2019-07-16T03:56Z'
-      irwinmodifiedonEpoch: 1563249403000
+      irwinmodifiedon: '2019-07-17T04:25Z'
+      irwinmodifiedonEpoch: 1563337508000
       mapsymbol: '3'
-      datecurrent: '2019-07-15T22:00Z'
-      datecurrentEpoch: 1563228025000
+      datecurrent: '2019-07-16T22:30Z'
+      datecurrentEpoch: 1563316222000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '913133'
@@ -2989,8 +2876,8 @@ Database:
       complexname: null
       DailyAcres: 25144
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-16T03:30Z'
-      ModifiedOnDateTimeEpoch: 1563247800000
+      ModifiedOnDateTime: '2019-07-17T03:45Z'
+      ModifiedOnDateTimeEpoch: 1563335100000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKTAS-913133
       FireDiscoveryDateTime: '2019-05-21T23:54Z'
@@ -3001,7 +2888,7 @@ Database:
       Hashtag: '#McArthurCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:35.630Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -3018,61 +2905,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKTAS-913133
-    Lon: -141.06030198488165
-    Lat: 62.99694740766596
-    objectid: 1
-    latitude: 62.9969444
-    longitude: -141.0602778
-    acres: 25144
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-16T03:30Z'
-    reportdatetimeEpoch: 1563247800000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AKTAS-913133
-    firediscoverydatetime: '2019-05-21T23:54Z'
-    firediscoverydatetimeEpoch: 1558482850000
-    complexparentirwinid: null
-    pooresponsibleunit: AKTAS
-    incidentname: McArthur Creek
-    iscomplex: 'false'
-    irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
-    irwinmodifiedon: '2019-07-16T03:56Z'
-    irwinmodifiedonEpoch: 1563249403000
-    mapsymbol: '3'
-    datecurrent: '2019-07-15T22:00Z'
-    datecurrentEpoch: 1563228025000
-    pooownerunit: AKAKS
-    fireyear: 2019
-    localincidentidentifier: '913133'
-    incidenttypecategory: WF
-    owneragency: State
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 25144
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-16T03:30Z'
-    ModifiedOnDateTimeEpoch: 1563247800000
-    PercentContained: 0
+    Lon: -142.000020727324
+    Lat: 63.00000445730161
+    id: 116851
+    Name: McArthur Creek
+    Fire_Name: McArthur Creek
     UniqueFireIdentifier: 2019-AKTAS-913133
+    DailyAcres: 25144
+    PercentContained: 0
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: NIMO
+    ICS209ReportDateTime: '2019-07-17T03:45Z'
+    ICS209ReportDateTimeEpoch: 1563335100000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 245037
+    FireCause: Natural
+    TotalIncidentPersonnel: 35
     FireDiscoveryDateTime: '2019-05-21T23:54Z'
     FireDiscoveryDateTimeEpoch: 1558482850000
-    Fire_Name: McArthur Creek
-    Name: McArthur Creek
-    Source: GEOMAC
-    Hashtag: '#McArthurCreekFire'
+    DispatchCenterID: AKTASC
+    LocalIncidentIdentifier: '913133'
+    POOCounty: Southeast Fairbanks
+    POOLandownerKind: Other
+    ModifiedOnDateTime: '2019-07-17T03:45Z'
+    ModifiedOnDateTimeEpoch: 1563335100000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKTAS-913133
+    ModifiedOnDateTime_Raw: '2019-07-17T04:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563337507000
+    Hashtag: '#McArthurCreekFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-15T22:25Z'
     PerimeterData:
       DateTime: '2019-07-15T22:25Z'
       Acres: 38954.5856588
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T17:52:02.642Z'
+          RetrievedOn: '2019-07-17T04:31:20.934Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -3093,8 +2968,8 @@ Database:
     Final_Fire_Name: Mc Arthur Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-16T03:30Z-PER-2019-07-15T22:25Z-ID-2019-AKTAS-913133-NAME-McArthurCreek-S-G
-      Code: 80a500854b194b4dfc40e7179f82a768d4aae30bba22999e8cf315a9175f81cd
+        UPD-2019-07-17T03:45Z-PER-2019-07-15T22:25Z-ID-2019-AKTAS-913133-NAME-McArthurCreek-S-N
+      Code: aa0016e2c742a62971ad6ba02cd7738ec9bf83e942020c44a9af5ea4eb1ab4f2
   CALFIRE-fe63d965-9069-4a96-b9da-99d5fefdaa19:
     Source_CALFIRE:
       Lon: -122.40157
@@ -21618,39 +21493,39 @@ Database:
       Name: Nugget Creek
       Fire_Name: Nugget Creek
       UniqueFireIdentifier: 2019-AKFAS-911323
-      DailyAcres: 6936.7
+      DailyAcres: 15963
       PercentContained: 0
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-10T04:00Z'
-      ICS209ReportDateTimeEpoch: 1562731200000
+      ICS209ReportDateTime: '2019-07-17T00:00Z'
+      ICS209ReportDateTimeEpoch: 1563321600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 73771
+      EstimatedCostToDate: 110761
       FireCause: Natural
-      TotalIncidentPersonnel: 5
+      TotalIncidentPersonnel: 6
       FireDiscoveryDateTime: '2019-06-22T04:04Z'
       FireDiscoveryDateTimeEpoch: 1561176274000
       DispatchCenterID: AKFASC
       LocalIncidentIdentifier: '911323'
       POOCounty: Fairbanks North Star
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-10T04:00Z'
-      ModifiedOnDateTimeEpoch: 1562731200000
+      ModifiedOnDateTime: '2019-07-17T00:00Z'
+      ModifiedOnDateTimeEpoch: 1563321600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AKFAS-911323
-      ModifiedOnDateTime_Raw: '2019-07-10T05:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562738215000
+      ModifiedOnDateTime_Raw: '2019-07-17T04:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563336875000
       Hashtag: '#NuggetCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T06:02:17.892Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -21658,106 +21533,40 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -146.55539604810434
-      Lat: 64.87397197366246
-      objectid: 10
-      latitude: 64.87397
-      longitude: -146.55537
-      acres: 6936.7
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-10T04:00Z'
-      reportdatetimeEpoch: 1562731200000
-      percentcontained: 0
-      uniquefireidentifier: 2019-AKFAS-911323
-      firediscoverydatetime: '2019-06-22T04:04Z'
-      firediscoverydatetimeEpoch: 1561176274000
-      complexparentirwinid: null
-      pooresponsibleunit: AKFAS
-      incidentname: Nugget Creek
-      iscomplex: 'false'
-      irwinid: '{B178F7A8-013B-4E67-89E8-90EACEBEC4FA}'
-      irwinmodifiedon: '2019-07-10T05:56Z'
-      irwinmodifiedonEpoch: 1562738215000
-      mapsymbol: '1'
-      datecurrent: '2019-07-10T00:00Z'
-      datecurrentEpoch: 1562716818000
-      pooownerunit: AKAKS
-      fireyear: 2019
-      localincidentidentifier: '911323'
-      incidenttypecategory: WF
-      owneragency: State
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 6936.7
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-10T04:00Z'
-      ModifiedOnDateTimeEpoch: 1562731200000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-AKFAS-911323
-      FireDiscoveryDateTime: '2019-06-22T04:04Z'
-      FireDiscoveryDateTimeEpoch: 1561176274000
-      Fire_Name: Nugget Creek
-      Name: Nugget Creek
-      Source: GEOMAC
-      Hashtag: '#NuggetCreekFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-10T06:02:17.892Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKFAS-911323
     Lon: -146.5553954993998
     Lat: 64.8739673904056
     id: 119822
     Name: Nugget Creek
     Fire_Name: Nugget Creek
     UniqueFireIdentifier: 2019-AKFAS-911323
-    DailyAcres: 6936.7
+    DailyAcres: 15963
     PercentContained: 0
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-10T04:00Z'
-    ICS209ReportDateTimeEpoch: 1562731200000
+    ICS209ReportDateTime: '2019-07-17T00:00Z'
+    ICS209ReportDateTimeEpoch: 1563321600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 73771
+    EstimatedCostToDate: 110761
     FireCause: Natural
-    TotalIncidentPersonnel: 5
+    TotalIncidentPersonnel: 6
     FireDiscoveryDateTime: '2019-06-22T04:04Z'
     FireDiscoveryDateTimeEpoch: 1561176274000
     DispatchCenterID: AKFASC
     LocalIncidentIdentifier: '911323'
     POOCounty: Fairbanks North Star
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-10T04:00Z'
-    ModifiedOnDateTimeEpoch: 1562731200000
+    ModifiedOnDateTime: '2019-07-17T00:00Z'
+    ModifiedOnDateTimeEpoch: 1563321600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-AKFAS-911323
-    ModifiedOnDateTime_Raw: '2019-07-10T05:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562738215000
+    ModifiedOnDateTime_Raw: '2019-07-17T04:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563336875000
     Hashtag: '#NuggetCreekFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-03T09:24Z'
@@ -21766,7 +21575,7 @@ Database:
       Acres: 6936.71246202
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-10T06:02:21.425Z'
+          RetrievedOn: '2019-07-17T04:31:22.815Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -21787,8 +21596,8 @@ Database:
     Final_Fire_Name: Nugget Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-10T04:00Z-PER-2019-07-03T09:24Z-ID-2019-AKFAS-911323-NAME-NuggetCreek-S-N
-      Code: db7fdcfc407b8245f769ce9af7e3ba9e1e98b6617f868c38f4566e5588b3af9e
+        UPD-2019-07-17T00:00Z-PER-2019-07-03T09:24Z-ID-2019-AKFAS-911323-NAME-NuggetCreek-S-N
+      Code: cff9bfb1c3f29f47a6999dd9236fe73aebdcd8a2158f8ff056e70331c5dc089a
   2019-AKMID-000390:
     Source_NFSA_Join:
       Lon: -146.4376263656517
@@ -26451,8 +26260,8 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-07-17T02:00Z'
-      ICS209ReportDateTimeEpoch: 1563328800000
+      ICS209ReportDateTime: '2019-07-17T02:15Z'
+      ICS209ReportDateTimeEpoch: 1563329700000
       ICS209ReportStatus: U
       IncidentTypeCategory: CX
       IncidentTypeKind: FI
@@ -26465,21 +26274,21 @@ Database:
       LocalIncidentIdentifier: '000466'
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-17T02:00Z'
-      ModifiedOnDateTimeEpoch: 1563328800000
+      ModifiedOnDateTime: '2019-07-17T02:15Z'
+      ModifiedOnDateTimeEpoch: 1563329700000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000466
-      ModifiedOnDateTime_Raw: '2019-07-17T03:43Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563335004000
+      ModifiedOnDateTime_Raw: '2019-07-17T04:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563336575000
       Hashtag: '#ChalkyitsikComplex'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T04:01:30.934Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -26497,8 +26306,8 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-07-17T02:00Z'
-    ICS209ReportDateTimeEpoch: 1563328800000
+    ICS209ReportDateTime: '2019-07-17T02:15Z'
+    ICS209ReportDateTimeEpoch: 1563329700000
     ICS209ReportStatus: U
     IncidentTypeCategory: CX
     IncidentTypeKind: FI
@@ -26511,16 +26320,16 @@ Database:
     LocalIncidentIdentifier: '000466'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-17T02:00Z'
-    ModifiedOnDateTimeEpoch: 1563328800000
+    ModifiedOnDateTime: '2019-07-17T02:15Z'
+    ModifiedOnDateTimeEpoch: 1563329700000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-AKUYD-000466
-    ModifiedOnDateTime_Raw: '2019-07-17T03:43Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563335004000
+    ModifiedOnDateTime_Raw: '2019-07-17T04:09Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563336575000
     Hashtag: '#ChalkyitsikComplex'
     NFSAType: Large WF
     PerimDateTime: null
@@ -26533,8 +26342,8 @@ Database:
     Final_Fire_Name: Chalkyitsik Complex
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKUYD-000466-NAME-ChalkyitsikComplex-S-N
-      Code: 1272de5cb9f855b5f79643bfcec6bf9a66a13c3b39af88c145da7b85fcf8c82e
+        UPD-2019-07-17T02:15Z-PER-none-ID-2019-AKUYD-000466-NAME-ChalkyitsikComplex-S-N
+      Code: 925a28330be10264ce755639511baa08416ca68a4ae9c89cf2f303548f8a96cc
   2019-NVCCD-030374:
     Source_NFSA_Join:
       Lon: -119.35781331118748
@@ -28954,8 +28763,8 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-15T03:45Z'
-      ICS209ReportDateTimeEpoch: 1563162300000
+      ICS209ReportDateTime: '2019-07-17T03:45Z'
+      ICS209ReportDateTimeEpoch: 1563335100000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
@@ -28968,21 +28777,21 @@ Database:
       LocalIncidentIdentifier: '913483'
       POOCounty: Southeast Fairbanks
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-15T03:45Z'
-      ModifiedOnDateTimeEpoch: 1563162300000
-      ModifiedBySystem: ifm
+      ModifiedOnDateTime: '2019-07-17T03:45Z'
+      ModifiedOnDateTimeEpoch: 1563335100000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAS-913483
-      ModifiedOnDateTime_Raw: '2019-07-15T04:22Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563164572000
+      ModifiedOnDateTime_Raw: '2019-07-17T04:10Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563336618000
       Hashtag: '#WolfLakeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T04:30:35.575Z'
+          RetrievedOn: '2019-07-17T04:31:18.896Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -29000,8 +28809,8 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-15T03:45Z'
-    ICS209ReportDateTimeEpoch: 1563162300000
+    ICS209ReportDateTime: '2019-07-17T03:45Z'
+    ICS209ReportDateTimeEpoch: 1563335100000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -29014,16 +28823,16 @@ Database:
     LocalIncidentIdentifier: '913483'
     POOCounty: Southeast Fairbanks
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-15T03:45Z'
-    ModifiedOnDateTimeEpoch: 1563162300000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-07-17T03:45Z'
+    ModifiedOnDateTimeEpoch: 1563335100000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-AKTAS-913483
-    ModifiedOnDateTime_Raw: '2019-07-15T04:22Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563164572000
+    ModifiedOnDateTime_Raw: '2019-07-17T04:10Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563336618000
     Hashtag: '#WolfLakeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -29035,8 +28844,8 @@ Database:
     unitMention: Tok Area Forestry
     Final_Fire_Name: Wolf Lake Fire
     _Update:
-      UpdateId: 'UPD-2019-07-15T03:45Z-PER-none-ID-2019-AKTAS-913483-NAME-WolfLake-S-N'
-      Code: 149734c9b740bb2dfcafe23fb2bd5a6a2a3dd8a8347ccd91e0afac23bd829d84
+      UpdateId: 'UPD-2019-07-17T03:45Z-PER-none-ID-2019-AKTAS-913483-NAME-WolfLake-S-N'
+      Code: 1d62eb530d8689e5f5eb011d91bc3a63ebf84cec248c9a046e5342d4bf9598b2
   2019-NMCIF-000143:
     Source_NFSA_Join:
       Lon: -107.39610749928433
