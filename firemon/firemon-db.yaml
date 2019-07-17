@@ -20349,38 +20349,38 @@ Database:
       Fire_Name: Malaspina
       UniqueFireIdentifier: 2019-AKMSS-901451
       DailyAcres: 85
-      PercentContained: 65
-      FireMgmtComplexity: Type 2 Incident
-      IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-07-15T02:00Z'
-      ICS209ReportDateTimeEpoch: 1563156000000
+      PercentContained: 75
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-17T02:00Z'
+      ICS209ReportDateTimeEpoch: 1563328800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 800000
       FireCause: Unknown
-      TotalIncidentPersonnel: 48
+      TotalIncidentPersonnel: 24
       FireDiscoveryDateTime: '2019-07-07T23:29Z'
       FireDiscoveryDateTimeEpoch: 1562542141000
       DispatchCenterID: AKMSSC
       LocalIncidentIdentifier: '901451'
       POOCounty: Matanuska-Susitna
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-15T02:00Z'
-      ModifiedOnDateTimeEpoch: 1563156000000
+      ModifiedOnDateTime: '2019-07-17T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563328800000
       ModifiedBySystem: ifm
       popupinfo: null
-      calc_symboltype: ImsrType2
+      calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-AKMSS-901451
-      ModifiedOnDateTime_Raw: '2019-07-15T23:38Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563233924000
+      ModifiedOnDateTime_Raw: '2019-07-17T05:13Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563340436000
       Hashtag: '#MalaspinaFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:35.629Z'
+          RetrievedOn: '2019-07-17T05:31:35.912Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -20388,149 +20388,53 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -149.92864372282162
-      Lat: 62.14781357213323
-      objectid: 16
-      latitude: 62.147812
-      longitude: -149.92862
-      acres: 85
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-07-16T02:00Z'
-      reportdatetimeEpoch: 1563242400000
-      percentcontained: 75
-      uniquefireidentifier: 2019-AKMSS-901451
-      firediscoverydatetime: '2019-07-07T23:29Z'
-      firediscoverydatetimeEpoch: 1562542141000
-      complexparentirwinid: null
-      pooresponsibleunit: AKMSS
-      incidentname: Malaspina
-      iscomplex: 'false'
-      irwinid: '{5DBE0D98-CFE7-4AE3-A102-78EFF31A6D29}'
-      irwinmodifiedon: '2019-07-16T03:34Z'
-      irwinmodifiedonEpoch: 1563248079000
-      mapsymbol: '1'
-      datecurrent: '2019-07-15T22:00Z'
-      datecurrentEpoch: 1563228025000
-      pooownerunit: AKPRI
-      fireyear: 2019
-      localincidentidentifier: '901451'
-      incidenttypecategory: WF
-      owneragency: Private
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 85
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-16T02:00Z'
-      ModifiedOnDateTimeEpoch: 1563242400000
-      PercentContained: 75
-      UniqueFireIdentifier: 2019-AKMSS-901451
-      FireDiscoveryDateTime: '2019-07-07T23:29Z'
-      FireDiscoveryDateTimeEpoch: 1562542141000
-      Fire_Name: Malaspina
-      Name: Malaspina
-      Source: GEOMAC
-      Hashtag: '#MalaspinaFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:35.630Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKMSS-901451
-    Lon: -149.92864372282162
-    Lat: 62.14781357213323
-    objectid: 16
-    latitude: 62.147812
-    longitude: -149.92862
-    acres: 85
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-07-16T02:00Z'
-    reportdatetimeEpoch: 1563242400000
-    percentcontained: 75
-    uniquefireidentifier: 2019-AKMSS-901451
-    firediscoverydatetime: '2019-07-07T23:29Z'
-    firediscoverydatetimeEpoch: 1562542141000
-    complexparentirwinid: null
-    pooresponsibleunit: AKMSS
-    incidentname: Malaspina
-    iscomplex: 'false'
-    irwinid: '{5DBE0D98-CFE7-4AE3-A102-78EFF31A6D29}'
-    irwinmodifiedon: '2019-07-16T03:34Z'
-    irwinmodifiedonEpoch: 1563248079000
-    mapsymbol: '1'
-    datecurrent: '2019-07-15T22:00Z'
-    datecurrentEpoch: 1563228025000
-    pooownerunit: AKPRI
-    fireyear: 2019
-    localincidentidentifier: '901451'
-    incidenttypecategory: WF
-    owneragency: Private
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 85
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-07-16T02:00Z'
-    ModifiedOnDateTimeEpoch: 1563242400000
-    PercentContained: 75
+    Lon: -149.93333944542726
+    Lat: 62.159570078076186
+    id: 122058
+    Name: Malaspina
+    Fire_Name: Malaspina
     UniqueFireIdentifier: 2019-AKMSS-901451
+    DailyAcres: 85
+    PercentContained: 75
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-17T02:00Z'
+    ICS209ReportDateTimeEpoch: 1563328800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 800000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 24
     FireDiscoveryDateTime: '2019-07-07T23:29Z'
     FireDiscoveryDateTimeEpoch: 1562542141000
-    Fire_Name: Malaspina
-    Name: Malaspina
-    Source: GEOMAC
-    Hashtag: '#MalaspinaFire'
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '901451'
+    POOCounty: Matanuska-Susitna
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2019-07-17T02:00Z'
+    ModifiedOnDateTimeEpoch: 1563328800000
+    ModifiedBySystem: ifm
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKMSS-901451
-    PerimDateTime: '2019-07-14T11:13Z'
+    ModifiedOnDateTime_Raw: '2019-07-17T05:13Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563340436000
+    Hashtag: '#MalaspinaFire'
+    NFSAType: Large WF
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-14T11:13Z'
-      Acres: 84.54132693
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T04:00:37.264Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: AKMSS
     unitMention: Mat-Su Area Forestry
     Final_Fire_Name: Malaspina Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-16T02:00Z-PER-2019-07-14T11:13Z-ID-2019-AKMSS-901451-NAME-Malaspina-S-G
-      Code: 48ad7f07ecb60bd6449f8c939925b3bd0f4a70ca6eb955390dd4a0913e90576d
+      UpdateId: 'UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKMSS-901451-NAME-Malaspina-S-N'
+      Code: 77924a9b6c5e857ed48ea23cebf6c7eb98bdac555ae17647b705ae59ff393947
   CALFIRE-1fd11e53-a132-4b89-bc8f-f7061f685ad3:
     Source_CALFIRE:
       Lon: -120.26916667
@@ -24889,12 +24793,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-15T23:00Z'
-      ICS209ReportDateTimeEpoch: 1563231600000
+      ICS209ReportDateTime: '2019-07-16T23:00Z'
+      ICS209ReportDateTimeEpoch: 1563318000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 180160
+      EstimatedCostToDate: 184037
       FireCause: Natural
       TotalIncidentPersonnel: 5
       FireDiscoveryDateTime: '2019-06-27T00:21Z'
@@ -24903,21 +24807,21 @@ Database:
       LocalIncidentIdentifier: 000389
       POOCounty: Denali
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-15T23:00Z'
-      ModifiedOnDateTimeEpoch: 1563231600000
+      ModifiedOnDateTime: '2019-07-16T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563318000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKTAD-000389
-      ModifiedOnDateTime_Raw: '2019-07-16T04:25Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563251134000
+      ModifiedOnDateTime_Raw: '2019-07-17T05:11Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563340310000
       Hashtag: '#ForakerFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:30:38.563Z'
+          RetrievedOn: '2019-07-17T05:31:35.912Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -24928,7 +24832,7 @@ Database:
     Source_GEOMAC:
       Lon: -151.74952476594177
       Lat: 63.49999117449082
-      objectid: 9
+      objectid: 8
       latitude: 63.49999
       longitude: -151.7495
       acres: 46294
@@ -24937,8 +24841,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-15T23:00Z'
-      reportdatetimeEpoch: 1563231600000
+      reportdatetime: '2019-07-16T23:00Z'
+      reportdatetimeEpoch: 1563318000000
       percentcontained: 0
       uniquefireidentifier: 2019-AKTAD-000389
       firediscoverydatetime: '2019-06-27T00:21Z'
@@ -24948,11 +24852,11 @@ Database:
       incidentname: Foraker
       iscomplex: 'false'
       irwinid: '{339B9456-68FE-4218-8D72-3CD54C701148}'
-      irwinmodifiedon: '2019-07-16T04:25Z'
-      irwinmodifiedonEpoch: 1563251135000
+      irwinmodifiedon: '2019-07-17T05:11Z'
+      irwinmodifiedonEpoch: 1563340311000
       mapsymbol: '3'
-      datecurrent: '2019-07-15T22:30Z'
-      datecurrentEpoch: 1563229826000
+      datecurrent: '2019-07-16T23:30Z'
+      datecurrentEpoch: 1563319822000
       pooownerunit: AKDEP
       fireyear: 2019
       localincidentidentifier: 000389
@@ -24962,8 +24866,8 @@ Database:
       complexname: null
       DailyAcres: 46294
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-15T23:00Z'
-      ModifiedOnDateTimeEpoch: 1563231600000
+      ModifiedOnDateTime: '2019-07-16T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563318000000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKTAD-000389
       FireDiscoveryDateTime: '2019-06-27T00:21Z'
@@ -24974,7 +24878,7 @@ Database:
       Hashtag: '#ForakerFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:30:38.563Z'
+          RetrievedOn: '2019-07-17T05:31:35.913Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -25001,12 +24905,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-15T23:00Z'
-    ICS209ReportDateTimeEpoch: 1563231600000
+    ICS209ReportDateTime: '2019-07-16T23:00Z'
+    ICS209ReportDateTimeEpoch: 1563318000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 180160
+    EstimatedCostToDate: 184037
     FireCause: Natural
     TotalIncidentPersonnel: 5
     FireDiscoveryDateTime: '2019-06-27T00:21Z'
@@ -25015,47 +24919,29 @@ Database:
     LocalIncidentIdentifier: 000389
     POOCounty: Denali
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-15T23:00Z'
-    ModifiedOnDateTimeEpoch: 1563231600000
+    ModifiedOnDateTime: '2019-07-16T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563318000000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKTAD-000389
-    ModifiedOnDateTime_Raw: '2019-07-16T04:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563251134000
+    ModifiedOnDateTime_Raw: '2019-07-17T05:11Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563340310000
     Hashtag: '#ForakerFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-14T16:32Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-14T16:32Z'
-      Acres: 46294.1014379
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T04:30:40.189Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: AKTAD
     unitMention: Alaska Fire Service - Tanana Zone
     Final_Fire_Name: Foraker Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-15T23:00Z-PER-2019-07-14T16:32Z-ID-2019-AKTAD-000389-NAME-Foraker-S-N
-      Code: d6f7b8fca9504b708507493c4e04d5a736f07adf7e0f08ce6c8588a59ddd5037
+      UpdateId: 'UPD-2019-07-16T23:00Z-PER-none-ID-2019-AKTAD-000389-NAME-Foraker-S-N'
+      Code: 548e942be2d9be0fca81fdf6003743f91a6b65a1f63c38c150d900e304a54693
   2019-AKFAS-911508:
     Source_NFSA_Join:
       Lon: -149.32288929410382
