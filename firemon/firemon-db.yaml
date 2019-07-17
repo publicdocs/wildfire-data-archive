@@ -31525,39 +31525,39 @@ Database:
       Name: CANYON
       Fire_Name: CANYON
       UniqueFireIdentifier: 2019-IDBOF-000429
-      DailyAcres: 80
+      DailyAcres: 137
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-15T16:30Z'
-      ICS209ReportDateTimeEpoch: 1563208200000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-07-17T00:30Z'
+      ICS209ReportDateTimeEpoch: 1563323400000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 95000
+      EstimatedCostToDate: 150000
       FireCause: Natural
-      TotalIncidentPersonnel: 113
+      TotalIncidentPersonnel: 148
       FireDiscoveryDateTime: '2019-07-14T21:47Z'
       FireDiscoveryDateTimeEpoch: 1563140820000
       DispatchCenterID: IDBDC
       LocalIncidentIdentifier: 000429
       POOCounty: Boise
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-15T16:30Z'
-      ModifiedOnDateTimeEpoch: 1563208200000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-17T00:30Z'
+      ModifiedOnDateTimeEpoch: 1563323400000
+      ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDBOF-000429
-      ModifiedOnDateTime_Raw: '2019-07-15T17:20Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563211257000
+      ModifiedOnDateTime_Raw: '2019-07-17T01:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563326899000
       Hashtag: '#CanyonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-15T17:30:47.409Z'
+          RetrievedOn: '2019-07-17T01:30:39.518Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -31565,40 +31565,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -115.22751294008809
+      Lat: 44.25067610015593
+      objectid: 33
+      latitude: 44.25067
+      longitude: -115.2275
+      acres: 137
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: ID
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-17T00:30Z'
+      reportdatetimeEpoch: 1563323400000
+      percentcontained: 0
+      uniquefireidentifier: 2019-IDBOF-000429
+      firediscoverydatetime: '2019-07-14T21:47Z'
+      firediscoverydatetimeEpoch: 1563140820000
+      complexparentirwinid: null
+      pooresponsibleunit: IDBOF
+      incidentname: CANYON
+      iscomplex: 'false'
+      irwinid: '{F8903215-C24B-4CE9-A608-411A0CB22DB2}'
+      irwinmodifiedon: '2019-07-17T01:28Z'
+      irwinmodifiedonEpoch: 1563326900000
+      mapsymbol: '1'
+      datecurrent: '2019-07-16T19:30Z'
+      datecurrentEpoch: 1563305429000
+      pooownerunit: IDBOF
+      fireyear: 2019
+      localincidentidentifier: 000429
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 137
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-17T00:30Z'
+      ModifiedOnDateTimeEpoch: 1563323400000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-IDBOF-000429
+      FireDiscoveryDateTime: '2019-07-14T21:47Z'
+      FireDiscoveryDateTimeEpoch: 1563140820000
+      Fire_Name: CANYON
+      Name: CANYON
+      Source: GEOMAC
+      Hashtag: '#CanyonFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T01:30:39.520Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-IDBOF-000429
     Lon: -115.21201640975316
     Lat: 44.244999289361104
     id: 123095
     Name: CANYON
     Fire_Name: CANYON
     UniqueFireIdentifier: 2019-IDBOF-000429
-    DailyAcres: 80
+    DailyAcres: 137
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-15T16:30Z'
-    ICS209ReportDateTimeEpoch: 1563208200000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-07-17T00:30Z'
+    ICS209ReportDateTimeEpoch: 1563323400000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 95000
+    EstimatedCostToDate: 150000
     FireCause: Natural
-    TotalIncidentPersonnel: 113
+    TotalIncidentPersonnel: 148
     FireDiscoveryDateTime: '2019-07-14T21:47Z'
     FireDiscoveryDateTimeEpoch: 1563140820000
     DispatchCenterID: IDBDC
     LocalIncidentIdentifier: 000429
     POOCounty: Boise
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-15T16:30Z'
-    ModifiedOnDateTimeEpoch: 1563208200000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-17T00:30Z'
+    ModifiedOnDateTimeEpoch: 1563323400000
+    ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-IDBOF-000429
-    ModifiedOnDateTime_Raw: '2019-07-15T17:20Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563211257000
+    ModifiedOnDateTime_Raw: '2019-07-17T01:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563326899000
     Hashtag: '#CanyonFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -31610,8 +31676,8 @@ Database:
     unitMention: Boise NF
     Final_Fire_Name: Canyon Fire
     _Update:
-      UpdateId: 'UPD-2019-07-15T16:30Z-PER-none-ID-2019-IDBOF-000429-NAME-CANYON-S-N'
-      Code: cc9ece4b63698ff5343eea6fc1680c11342fd970adba08ae7867e1b1d99c854d
+      UpdateId: 'UPD-2019-07-17T00:30Z-PER-none-ID-2019-IDBOF-000429-NAME-CANYON-S-N'
+      Code: 8ffa3cf24b97bdb510ac5a8d5206ca265b57e537c86019a1682dc1d722f065ad
   CALFIRE-a03c52ec-7366-43c5-965e-52e2b73df452:
     Source_CALFIRE:
       Lon: -120.84372
