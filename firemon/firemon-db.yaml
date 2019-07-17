@@ -30277,19 +30277,19 @@ Database:
       POOLandownerKind: null
       ModifiedOnDateTime: '2019-07-16T00:00Z'
       ModifiedOnDateTimeEpoch: 1563235200000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WASPD-000270
-      ModifiedOnDateTime_Raw: '2019-07-16T14:51Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563288695000
+      ModifiedOnDateTime_Raw: '2019-07-16T16:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563293389000
       Hashtag: '#PowerlineFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T15:01:35.523Z'
+          RetrievedOn: '2019-07-17T01:00:47.455Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -30309,9 +30309,9 @@ Database:
       state: WA
       status: U
       firecause: Unknown
-      reportdatetime: '2019-07-16T00:00Z'
-      reportdatetimeEpoch: 1563235200000
-      percentcontained: 50
+      reportdatetime: '2019-07-16T21:30Z'
+      reportdatetimeEpoch: 1563312600000
+      percentcontained: 80
       uniquefireidentifier: 2019-WASPD-000270
       firediscoverydatetime: '2019-07-14T19:38Z'
       firediscoverydatetimeEpoch: 1563133080000
@@ -30320,11 +30320,11 @@ Database:
       incidentname: POWERLINE
       iscomplex: 'false'
       irwinid: '{D2E865F6-DB4E-4D64-8FB3-453ACF84BD52}'
-      irwinmodifiedon: '2019-07-16T14:51Z'
-      irwinmodifiedonEpoch: 1563288696000
+      irwinmodifiedon: '2019-07-17T00:43Z'
+      irwinmodifiedonEpoch: 1563324237000
       mapsymbol: '1'
-      datecurrent: '2019-07-16T09:00Z'
-      datecurrentEpoch: 1563267629000
+      datecurrent: '2019-07-16T19:00Z'
+      datecurrentEpoch: 1563303626000
       pooownerunit: WACBR
       fireyear: 2019
       localincidentidentifier: '000270'
@@ -30334,9 +30334,9 @@ Database:
       complexname: null
       DailyAcres: 7700
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-16T00:00Z'
-      ModifiedOnDateTimeEpoch: 1563235200000
-      PercentContained: 50
+      ModifiedOnDateTime: '2019-07-16T21:30Z'
+      ModifiedOnDateTimeEpoch: 1563312600000
+      PercentContained: 80
       UniqueFireIdentifier: 2019-WASPD-000270
       FireDiscoveryDateTime: '2019-07-14T19:38Z'
       FireDiscoveryDateTimeEpoch: 1563133080000
@@ -30346,7 +30346,7 @@ Database:
       Hashtag: '#PowerlineFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T15:01:35.524Z'
+          RetrievedOn: '2019-07-17T01:00:47.456Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -30363,42 +30363,54 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-WASPD-000270
-    Lon: -119.93391188604616
-    Lat: 46.71486290337072
-    id: 123059
-    Name: POWERLINE
-    Fire_Name: POWERLINE
-    UniqueFireIdentifier: 2019-WASPD-000270
+    Lon: -119.88001429239438
+    Lat: 46.769728031178225
+    objectid: 32
+    latitude: 46.7697222
+    longitude: -119.88
+    acres: 7700
+    gacc: NWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: WA
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-07-16T21:30Z'
+    reportdatetimeEpoch: 1563312600000
+    percentcontained: 80
+    uniquefireidentifier: 2019-WASPD-000270
+    firediscoverydatetime: '2019-07-14T19:38Z'
+    firediscoverydatetimeEpoch: 1563133080000
+    complexparentirwinid: null
+    pooresponsibleunit: WASPD
+    incidentname: POWERLINE
+    iscomplex: 'false'
+    irwinid: '{D2E865F6-DB4E-4D64-8FB3-453ACF84BD52}'
+    irwinmodifiedon: '2019-07-17T00:43Z'
+    irwinmodifiedonEpoch: 1563324237000
+    mapsymbol: '1'
+    datecurrent: '2019-07-16T19:00Z'
+    datecurrentEpoch: 1563303626000
+    pooownerunit: WACBR
+    fireyear: 2019
+    localincidentidentifier: '000270'
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
     DailyAcres: 7700
-    PercentContained: 50
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-16T00:00Z'
-    ICS209ReportDateTimeEpoch: 1563235200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 550000
     FireCause: Unknown
-    TotalIncidentPersonnel: 233
+    ModifiedOnDateTime: '2019-07-16T21:30Z'
+    ModifiedOnDateTimeEpoch: 1563312600000
+    PercentContained: 80
+    UniqueFireIdentifier: 2019-WASPD-000270
     FireDiscoveryDateTime: '2019-07-14T19:38Z'
     FireDiscoveryDateTimeEpoch: 1563133080000
-    DispatchCenterID: WACWC
-    LocalIncidentIdentifier: '000270'
-    POOCounty: Grant
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-16T00:00Z'
-    ModifiedOnDateTimeEpoch: 1563235200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: POWERLINE
+    Name: POWERLINE
+    Source: GEOMAC
+    Hashtag: '#PowerlineFire'
     _CorrelationIds:
       - 2019-WASPD-000270
-    ModifiedOnDateTime_Raw: '2019-07-16T14:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563288695000
-    Hashtag: '#PowerlineFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -30408,8 +30420,8 @@ Database:
     unitMention: Spokane District
     Final_Fire_Name: Powerline Fire
     _Update:
-      UpdateId: 'UPD-2019-07-16T00:00Z-PER-none-ID-2019-WASPD-000270-NAME-POWERLINE-S-N'
-      Code: f55e2f065a04d98d146ac1f798678890af4e5f47e2df4160910bb2ae6a8d70be
+      UpdateId: 'UPD-2019-07-16T21:30Z-PER-none-ID-2019-WASPD-000270-NAME-POWERLINE-S-G'
+      Code: 74e21dad523098513e7232107759d1823eb76c303e39c0450a0dc407551b7088
   2019-NVBMD-020160:
     Source_NFSA_Join:
       Lon: -116.9641803714283
@@ -30418,39 +30430,39 @@ Database:
       Name: Dome
       Fire_Name: Dome
       UniqueFireIdentifier: 2019-NVBMD-020160
-      DailyAcres: 266
-      PercentContained: 5
+      DailyAcres: 271
+      PercentContained: 15
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-15T01:15Z'
-      ICS209ReportDateTimeEpoch: 1563153300000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-07-15T23:45Z'
+      ICS209ReportDateTimeEpoch: 1563234300000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 200000
+      EstimatedCostToDate: 400000
       FireCause: Natural
-      TotalIncidentPersonnel: 35
+      TotalIncidentPersonnel: 141
       FireDiscoveryDateTime: '2019-07-14T22:05Z'
       FireDiscoveryDateTimeEpoch: 1563141900000
       DispatchCenterID: NVCNC
       LocalIncidentIdentifier: '020160'
       POOCounty: Lander
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-15T01:15Z'
-      ModifiedOnDateTimeEpoch: 1563153300000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-15T23:45Z'
+      ModifiedOnDateTimeEpoch: 1563234300000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVBMD-020160
-      ModifiedOnDateTime_Raw: '2019-07-15T23:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563232353000
+      ModifiedOnDateTime_Raw: '2019-07-16T21:22Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563312159000
       Hashtag: '#DomeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T02:00:41.165Z'
+          RetrievedOn: '2019-07-17T01:00:47.455Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -30459,20 +30471,20 @@ Database:
             json: true
         Modified: true
     Source_GEOMAC:
-      Lon: -116.96112374933618
-      Lat: 40.371394494731526
+      Lon: -116.96123964937323
+      Lat: 40.37151359473355
       objectid: 35
-      latitude: 40.3713889
-      longitude: -116.9611111
-      acres: 266
+      latitude: 40.371508
+      longitude: -116.961227
+      acres: 271
       gacc: GBCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: NV
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-15T23:45Z'
-      reportdatetimeEpoch: 1563234300000
-      percentcontained: 15
+      reportdatetime: '2019-07-16T23:45Z'
+      reportdatetimeEpoch: 1563320700000
+      percentcontained: 35
       uniquefireidentifier: 2019-NVBMD-020160
       firediscoverydatetime: '2019-07-14T22:05Z'
       firediscoverydatetimeEpoch: 1563141900000
@@ -30481,23 +30493,23 @@ Database:
       incidentname: Dome
       iscomplex: 'false'
       irwinid: '{94DBF769-BA79-42E0-A684-4C30BEDE427E}'
-      irwinmodifiedon: '2019-07-16T01:42Z'
-      irwinmodifiedonEpoch: 1563241363000
+      irwinmodifiedon: '2019-07-17T00:57Z'
+      irwinmodifiedonEpoch: 1563325037000
       mapsymbol: '1'
-      datecurrent: '2019-07-15T20:00Z'
-      datecurrentEpoch: 1563220832000
+      datecurrent: '2019-07-16T19:00Z'
+      datecurrentEpoch: 1563303626000
       pooownerunit: NVEKD
       fireyear: 2019
       localincidentidentifier: '020160'
       incidenttypecategory: WF
       owneragency: BLM
-      perimexist: 'Y'
+      perimexist: 'N'
       complexname: null
-      DailyAcres: 266
+      DailyAcres: 271
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-15T23:45Z'
-      ModifiedOnDateTimeEpoch: 1563234300000
-      PercentContained: 15
+      ModifiedOnDateTime: '2019-07-16T23:45Z'
+      ModifiedOnDateTimeEpoch: 1563320700000
+      PercentContained: 35
       UniqueFireIdentifier: 2019-NVBMD-020160
       FireDiscoveryDateTime: '2019-07-14T22:05Z'
       FireDiscoveryDateTimeEpoch: 1563141900000
@@ -30507,7 +30519,7 @@ Database:
       Hashtag: '#DomeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T02:00:41.165Z'
+          RetrievedOn: '2019-07-17T01:00:47.456Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -30524,20 +30536,20 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-NVBMD-020160
-    Lon: -116.96112374933618
-    Lat: 40.371394494731526
+    Lon: -116.96123964937323
+    Lat: 40.37151359473355
     objectid: 35
-    latitude: 40.3713889
-    longitude: -116.9611111
-    acres: 266
+    latitude: 40.371508
+    longitude: -116.961227
+    acres: 271
     gacc: GBCC
     hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
     state: NV
     status: U
     firecause: Natural
-    reportdatetime: '2019-07-15T23:45Z'
-    reportdatetimeEpoch: 1563234300000
-    percentcontained: 15
+    reportdatetime: '2019-07-16T23:45Z'
+    reportdatetimeEpoch: 1563320700000
+    percentcontained: 35
     uniquefireidentifier: 2019-NVBMD-020160
     firediscoverydatetime: '2019-07-14T22:05Z'
     firediscoverydatetimeEpoch: 1563141900000
@@ -30546,23 +30558,23 @@ Database:
     incidentname: Dome
     iscomplex: 'false'
     irwinid: '{94DBF769-BA79-42E0-A684-4C30BEDE427E}'
-    irwinmodifiedon: '2019-07-16T01:42Z'
-    irwinmodifiedonEpoch: 1563241363000
+    irwinmodifiedon: '2019-07-17T00:57Z'
+    irwinmodifiedonEpoch: 1563325037000
     mapsymbol: '1'
-    datecurrent: '2019-07-15T20:00Z'
-    datecurrentEpoch: 1563220832000
+    datecurrent: '2019-07-16T19:00Z'
+    datecurrentEpoch: 1563303626000
     pooownerunit: NVEKD
     fireyear: 2019
     localincidentidentifier: '020160'
     incidenttypecategory: WF
     owneragency: BLM
-    perimexist: 'Y'
+    perimexist: 'N'
     complexname: null
-    DailyAcres: 266
+    DailyAcres: 271
     FireCause: Natural
-    ModifiedOnDateTime: '2019-07-15T23:45Z'
-    ModifiedOnDateTimeEpoch: 1563234300000
-    PercentContained: 15
+    ModifiedOnDateTime: '2019-07-16T23:45Z'
+    ModifiedOnDateTimeEpoch: 1563320700000
+    PercentContained: 35
     UniqueFireIdentifier: 2019-NVBMD-020160
     FireDiscoveryDateTime: '2019-07-14T22:05Z'
     FireDiscoveryDateTimeEpoch: 1563141900000
@@ -30572,35 +30584,17 @@ Database:
     Hashtag: '#DomeFire'
     _CorrelationIds:
       - 2019-NVBMD-020160
-    PerimDateTime: '2019-07-14T21:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-14T21:00Z'
-      Acres: 265.76618209
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T02:00:42.763Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: NVBMD
     unitMention: Battle Mountain District Office
     Final_Fire_Name: Dome Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-15T23:45Z-PER-2019-07-14T21:00Z-ID-2019-NVBMD-020160-NAME-Dome-S-G
-      Code: 098ef6ae06ab730da6198913a6a62f4d4b4adede3485ccf2a27ab20e2c8e8ec2
+      UpdateId: 'UPD-2019-07-16T23:45Z-PER-none-ID-2019-NVBMD-020160-NAME-Dome-S-G'
+      Code: c9184110a9d5c0071ccf0525f0f8b929682746d4820bc634c19aa0fe9b554408
   2019-AKGAD-000560:
     Source_NFSA_Join:
       Lon: -158.06322751400154
@@ -35058,3 +35052,129 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-16T22:45Z-PER-none-ID-2019-COSJF-000441-NAME-441-S-N'
       Code: 77f3646b86b46e35b144ba446b70800a753e38c23ab2e01009758aa0d26e2fd7
+  2019-AZPNF-000961:
+    Source_GEOMAC:
+      Lon: -112.48741116054144
+      Lat: 34.243175201616545
+      objectid: 33
+      latitude: 34.24317
+      longitude: -112.4874
+      acres: 1000
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-17T00:00Z'
+      reportdatetimeEpoch: 1563321600000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AZPNF-000961
+      firediscoverydatetime: '2019-07-14T21:25Z'
+      firediscoverydatetimeEpoch: 1563139500000
+      complexparentirwinid: null
+      pooresponsibleunit: AZPNF
+      incidentname: Cellar
+      iscomplex: 'false'
+      irwinid: '{92A45D96-AFE1-458B-8B6B-45291DDD4744}'
+      irwinmodifiedon: '2019-07-17T00:50Z'
+      irwinmodifiedonEpoch: 1563324651000
+      mapsymbol: '1'
+      datecurrent: '2019-07-16T19:00Z'
+      datecurrentEpoch: 1563303626000
+      pooownerunit: AZPNF
+      fireyear: 2019
+      localincidentidentifier: 000961
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1000
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-17T00:00Z'
+      ModifiedOnDateTimeEpoch: 1563321600000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AZPNF-000961
+      FireDiscoveryDateTime: '2019-07-14T21:25Z'
+      FireDiscoveryDateTimeEpoch: 1563139500000
+      Fire_Name: Cellar
+      Name: Cellar
+      Source: GEOMAC
+      Hashtag: '#CellarFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T01:00:47.456Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZPNF-000961
+    Lon: -112.48741116054144
+    Lat: 34.243175201616545
+    objectid: 33
+    latitude: 34.24317
+    longitude: -112.4874
+    acres: 1000
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AZ
+    status: I
+    firecause: Natural
+    reportdatetime: '2019-07-17T00:00Z'
+    reportdatetimeEpoch: 1563321600000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AZPNF-000961
+    firediscoverydatetime: '2019-07-14T21:25Z'
+    firediscoverydatetimeEpoch: 1563139500000
+    complexparentirwinid: null
+    pooresponsibleunit: AZPNF
+    incidentname: Cellar
+    iscomplex: 'false'
+    irwinid: '{92A45D96-AFE1-458B-8B6B-45291DDD4744}'
+    irwinmodifiedon: '2019-07-17T00:50Z'
+    irwinmodifiedonEpoch: 1563324651000
+    mapsymbol: '1'
+    datecurrent: '2019-07-16T19:00Z'
+    datecurrentEpoch: 1563303626000
+    pooownerunit: AZPNF
+    fireyear: 2019
+    localincidentidentifier: 000961
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 1000
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-07-17T00:00Z'
+    ModifiedOnDateTimeEpoch: 1563321600000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AZPNF-000961
+    FireDiscoveryDateTime: '2019-07-14T21:25Z'
+    FireDiscoveryDateTimeEpoch: 1563139500000
+    Fire_Name: Cellar
+    Name: Cellar
+    Source: GEOMAC
+    Hashtag: '#CellarFire'
+    _CorrelationIds:
+      - 2019-AZPNF-000961
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AZPNF
+    unitMention: Prescott NF
+    Final_Fire_Name: Cellar Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-17T00:00Z-PER-none-ID-2019-AZPNF-000961-NAME-Cellar-S-G'
+      Code: 316260d06b95fa6db7659023ada37f6f0134e9e452ef601dbc6c89e6db197cdc
