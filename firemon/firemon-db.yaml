@@ -21082,35 +21082,35 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-15T04:30Z'
-      ICS209ReportDateTimeEpoch: 1563165000000
+      ICS209ReportDateTime: '2019-07-17T03:00Z'
+      ICS209ReportDateTimeEpoch: 1563332400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 292245
+      EstimatedCostToDate: 500000
       FireCause: Natural
-      TotalIncidentPersonnel: 63
+      TotalIncidentPersonnel: 56
       FireDiscoveryDateTime: '2019-06-30T01:03Z'
       FireDiscoveryDateTimeEpoch: 1561856588000
       DispatchCenterID: AKDASC
       LocalIncidentIdentifier: '912409'
       POOCounty: Southeast Fairbanks
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-15T04:30Z'
-      ModifiedOnDateTimeEpoch: 1563165000000
-      ModifiedBySystem: ics209
+      ModifiedOnDateTime: '2019-07-17T03:00Z'
+      ModifiedOnDateTimeEpoch: 1563332400000
+      ModifiedBySystem: ifm
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKDAS-912409
-      ModifiedOnDateTime_Raw: '2019-07-15T04:39Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563165552000
+      ModifiedOnDateTime_Raw: '2019-07-17T03:45Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563335104000
       Hashtag: '#Rainbow2Fire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T05:01:41.572Z'
+          RetrievedOn: '2019-07-17T04:01:30.934Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -21121,7 +21121,7 @@ Database:
     Source_GEOMAC:
       Lon: -146.2811364674722
       Lat: 64.14500206383899
-      objectid: 12
+      objectid: 11
       latitude: 64.145
       longitude: -146.2811111
       acres: 11919
@@ -21130,8 +21130,8 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-16T04:30Z'
-      reportdatetimeEpoch: 1563251400000
+      reportdatetime: '2019-07-17T03:00Z'
+      reportdatetimeEpoch: 1563332400000
       percentcontained: 0
       uniquefireidentifier: 2019-AKDAS-912409
       firediscoverydatetime: '2019-06-30T01:03Z'
@@ -21141,11 +21141,11 @@ Database:
       incidentname: Rainbow 2
       iscomplex: 'false'
       irwinid: '{F1767CC6-66F7-40E6-AFBD-3C4A2AC1E1CE}'
-      irwinmodifiedon: '2019-07-16T04:57Z'
-      irwinmodifiedonEpoch: 1563253071000
+      irwinmodifiedon: '2019-07-17T03:45Z'
+      irwinmodifiedonEpoch: 1563335105000
       mapsymbol: '2'
-      datecurrent: '2019-07-15T23:00Z'
-      datecurrentEpoch: 1563231624000
+      datecurrent: '2019-07-16T22:00Z'
+      datecurrentEpoch: 1563314423000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '912409'
@@ -21155,8 +21155,8 @@ Database:
       complexname: null
       DailyAcres: 11919
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-16T04:30Z'
-      ModifiedOnDateTimeEpoch: 1563251400000
+      ModifiedOnDateTime: '2019-07-17T03:00Z'
+      ModifiedOnDateTimeEpoch: 1563332400000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKDAS-912409
       FireDiscoveryDateTime: '2019-06-30T01:03Z'
@@ -21167,7 +21167,7 @@ Database:
       Hashtag: '#Rainbow2Fire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T05:01:41.573Z'
+          RetrievedOn: '2019-07-17T04:01:30.935Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -21184,83 +21184,53 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKDAS-912409
-    Lon: -146.2811364674722
-    Lat: 64.14500206383899
-    objectid: 12
-    latitude: 64.145
-    longitude: -146.2811111
-    acres: 11919
-    gacc: AKCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AK
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-16T04:30Z'
-    reportdatetimeEpoch: 1563251400000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AKDAS-912409
-    firediscoverydatetime: '2019-06-30T01:03Z'
-    firediscoverydatetimeEpoch: 1561856588000
-    complexparentirwinid: null
-    pooresponsibleunit: AKDAS
-    incidentname: Rainbow 2
-    iscomplex: 'false'
-    irwinid: '{F1767CC6-66F7-40E6-AFBD-3C4A2AC1E1CE}'
-    irwinmodifiedon: '2019-07-16T04:57Z'
-    irwinmodifiedonEpoch: 1563253071000
-    mapsymbol: '2'
-    datecurrent: '2019-07-15T23:00Z'
-    datecurrentEpoch: 1563231624000
-    pooownerunit: AKAKS
-    fireyear: 2019
-    localincidentidentifier: '912409'
-    incidenttypecategory: WF
-    owneragency: State
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 11919
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-16T04:30Z'
-    ModifiedOnDateTimeEpoch: 1563251400000
-    PercentContained: 0
+    Lon: -146.28123865783934
+    Lat: 64.14490121864485
+    id: 120747
+    Name: Rainbow 2
+    Fire_Name: Rainbow 2
     UniqueFireIdentifier: 2019-AKDAS-912409
+    DailyAcres: 11919
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-17T03:00Z'
+    ICS209ReportDateTimeEpoch: 1563332400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 500000
+    FireCause: Natural
+    TotalIncidentPersonnel: 56
     FireDiscoveryDateTime: '2019-06-30T01:03Z'
     FireDiscoveryDateTimeEpoch: 1561856588000
-    Fire_Name: Rainbow 2
-    Name: Rainbow 2
-    Source: GEOMAC
-    Hashtag: '#Rainbow2Fire'
+    DispatchCenterID: AKDASC
+    LocalIncidentIdentifier: '912409'
+    POOCounty: Southeast Fairbanks
+    POOLandownerKind: Other
+    ModifiedOnDateTime: '2019-07-17T03:00Z'
+    ModifiedOnDateTimeEpoch: 1563332400000
+    ModifiedBySystem: ifm
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AKDAS-912409
-    PerimDateTime: '2019-07-13T19:03Z'
+    ModifiedOnDateTime_Raw: '2019-07-17T03:45Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563335104000
+    Hashtag: '#Rainbow2Fire'
+    NFSAType: Large WF
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-13T19:03Z'
-      Acres: 9357.89719542
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T05:01:43.204Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: AKDAS
     unitMention: Delta Area Forestry
     Final_Fire_Name: Rainbow 2 Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-16T04:30Z-PER-2019-07-13T19:03Z-ID-2019-AKDAS-912409-NAME-Rainbow2-S-G
-      Code: db15ab7021e75f3aac9babfe96f63a0ba632a90085cddacd7cc5269943dceccb
+      UpdateId: 'UPD-2019-07-17T03:00Z-PER-none-ID-2019-AKDAS-912409-NAME-Rainbow2-S-N'
+      Code: 4a8c88390420a412e6ab923b7323769dd40f807699813617cb60da4d4d7e83e5
   CALFIRE-f32eaf92-82dc-4c31-8a05-76c21845f078:
     Source_CALFIRE:
       Lon: -120.8092
@@ -25282,12 +25252,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-16T06:00Z'
-      ICS209ReportDateTimeEpoch: 1563256800000
+      ICS209ReportDateTime: '2019-07-17T03:00Z'
+      ICS209ReportDateTimeEpoch: 1563332400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 480376
+      EstimatedCostToDate: 584176
       FireCause: Human
       TotalIncidentPersonnel: 155
       FireDiscoveryDateTime: '2019-07-12T02:47Z'
@@ -25296,21 +25266,21 @@ Database:
       LocalIncidentIdentifier: '911508'
       POOCounty: Denali
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-07-16T06:00Z'
-      ModifiedOnDateTimeEpoch: 1563256800000
+      ModifiedOnDateTime: '2019-07-17T03:00Z'
+      ModifiedOnDateTimeEpoch: 1563332400000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKFAS-911508
-      ModifiedOnDateTime_Raw: '2019-07-16T06:41Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563259260000
+      ModifiedOnDateTime_Raw: '2019-07-17T03:52Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563335536000
       Hashtag: '#KobeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T07:00:51.822Z'
+          RetrievedOn: '2019-07-17T04:01:30.934Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -25330,8 +25300,8 @@ Database:
       state: AK
       status: U
       firecause: Human
-      reportdatetime: '2019-07-16T06:00Z'
-      reportdatetimeEpoch: 1563256800000
+      reportdatetime: '2019-07-17T03:00Z'
+      reportdatetimeEpoch: 1563332400000
       percentcontained: 0
       uniquefireidentifier: 2019-AKFAS-911508
       firediscoverydatetime: '2019-07-12T02:47Z'
@@ -25341,11 +25311,11 @@ Database:
       incidentname: Kobe
       iscomplex: 'false'
       irwinid: '{7B740355-7B78-44C2-A166-995DDED84E9D}'
-      irwinmodifiedon: '2019-07-16T06:41Z'
-      irwinmodifiedonEpoch: 1563259260000
+      irwinmodifiedon: '2019-07-17T03:52Z'
+      irwinmodifiedonEpoch: 1563335537000
       mapsymbol: '1'
-      datecurrent: '2019-07-16T01:00Z'
-      datecurrentEpoch: 1563238831000
+      datecurrent: '2019-07-16T22:00Z'
+      datecurrentEpoch: 1563314423000
       pooownerunit: AKPRI
       fireyear: 2019
       localincidentidentifier: '911508'
@@ -25355,8 +25325,8 @@ Database:
       complexname: null
       DailyAcres: 1300
       FireCause: Human
-      ModifiedOnDateTime: '2019-07-16T06:00Z'
-      ModifiedOnDateTimeEpoch: 1563256800000
+      ModifiedOnDateTime: '2019-07-17T03:00Z'
+      ModifiedOnDateTimeEpoch: 1563332400000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AKFAS-911508
       FireDiscoveryDateTime: '2019-07-12T02:47Z'
@@ -25367,7 +25337,7 @@ Database:
       Hashtag: '#KobeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T07:00:51.823Z'
+          RetrievedOn: '2019-07-17T04:01:30.935Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -25394,12 +25364,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-16T06:00Z'
-    ICS209ReportDateTimeEpoch: 1563256800000
+    ICS209ReportDateTime: '2019-07-17T03:00Z'
+    ICS209ReportDateTimeEpoch: 1563332400000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 480376
+    EstimatedCostToDate: 584176
     FireCause: Human
     TotalIncidentPersonnel: 155
     FireDiscoveryDateTime: '2019-07-12T02:47Z'
@@ -25408,16 +25378,16 @@ Database:
     LocalIncidentIdentifier: '911508'
     POOCounty: Denali
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-16T06:00Z'
-    ModifiedOnDateTimeEpoch: 1563256800000
+    ModifiedOnDateTime: '2019-07-17T03:00Z'
+    ModifiedOnDateTimeEpoch: 1563332400000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKFAS-911508
-    ModifiedOnDateTime_Raw: '2019-07-16T06:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563259260000
+    ModifiedOnDateTime_Raw: '2019-07-17T03:52Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563335536000
     Hashtag: '#KobeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -25429,8 +25399,8 @@ Database:
     unitMention: Fairbanks Area Forestry
     Final_Fire_Name: Kobe Fire
     _Update:
-      UpdateId: 'UPD-2019-07-16T06:00Z-PER-none-ID-2019-AKFAS-911508-NAME-Kobe-S-N'
-      Code: 4ce9eb305f493ffcfabd4b24856a762465d031b5330e56219feeb45688133862
+      UpdateId: 'UPD-2019-07-17T03:00Z-PER-none-ID-2019-AKFAS-911508-NAME-Kobe-S-N'
+      Code: 7b46cbcf3d03e40199fa193ca70a5d6c7cd8aa89ff100f6626667a7b857f6800
   2019-AKSWS-904474:
     Source_NFSA_Join:
       Lon: -155.75752167425196
@@ -26477,39 +26447,39 @@ Database:
       Name: Chalkyitsik Complex
       Fire_Name: Chalkyitsik Complex
       UniqueFireIdentifier: 2019-AKUYD-000466
-      DailyAcres: 286870
+      DailyAcres: 305256
       PercentContained: 0
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-07-16T02:00Z'
-      ICS209ReportDateTimeEpoch: 1563242400000
+      ICS209ReportDateTime: '2019-07-17T02:00Z'
+      ICS209ReportDateTimeEpoch: 1563328800000
       ICS209ReportStatus: U
       IncidentTypeCategory: CX
       IncidentTypeKind: FI
-      EstimatedCostToDate: 2056205
+      EstimatedCostToDate: 2395792
       FireCause: Unknown
-      TotalIncidentPersonnel: 225
+      TotalIncidentPersonnel: 268
       FireDiscoveryDateTime: '2019-07-09T21:31Z'
       FireDiscoveryDateTimeEpoch: 1562707890000
       DispatchCenterID: AKYTDC
       LocalIncidentIdentifier: '000466'
       POOCounty: Yukon-Koyukuk
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-16T02:00Z'
-      ModifiedOnDateTimeEpoch: 1563242400000
+      ModifiedOnDateTime: '2019-07-17T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563328800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000466
-      ModifiedOnDateTime_Raw: '2019-07-16T03:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563248141000
+      ModifiedOnDateTime_Raw: '2019-07-17T03:43Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563335004000
       Hashtag: '#ChalkyitsikComplex'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-16T04:05:13.004Z'
+          RetrievedOn: '2019-07-17T04:01:30.934Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -26523,34 +26493,34 @@ Database:
     Name: Chalkyitsik Complex
     Fire_Name: Chalkyitsik Complex
     UniqueFireIdentifier: 2019-AKUYD-000466
-    DailyAcres: 286870
+    DailyAcres: 305256
     PercentContained: 0
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-07-16T02:00Z'
-    ICS209ReportDateTimeEpoch: 1563242400000
+    ICS209ReportDateTime: '2019-07-17T02:00Z'
+    ICS209ReportDateTimeEpoch: 1563328800000
     ICS209ReportStatus: U
     IncidentTypeCategory: CX
     IncidentTypeKind: FI
-    EstimatedCostToDate: 2056205
+    EstimatedCostToDate: 2395792
     FireCause: Unknown
-    TotalIncidentPersonnel: 225
+    TotalIncidentPersonnel: 268
     FireDiscoveryDateTime: '2019-07-09T21:31Z'
     FireDiscoveryDateTimeEpoch: 1562707890000
     DispatchCenterID: AKYTDC
     LocalIncidentIdentifier: '000466'
     POOCounty: Yukon-Koyukuk
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-16T02:00Z'
-    ModifiedOnDateTimeEpoch: 1563242400000
+    ModifiedOnDateTime: '2019-07-17T02:00Z'
+    ModifiedOnDateTimeEpoch: 1563328800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-AKUYD-000466
-    ModifiedOnDateTime_Raw: '2019-07-16T03:35Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563248141000
+    ModifiedOnDateTime_Raw: '2019-07-17T03:43Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563335004000
     Hashtag: '#ChalkyitsikComplex'
     NFSAType: Large WF
     PerimDateTime: null
@@ -26563,8 +26533,8 @@ Database:
     Final_Fire_Name: Chalkyitsik Complex
     _Update:
       UpdateId: >-
-        UPD-2019-07-16T02:00Z-PER-none-ID-2019-AKUYD-000466-NAME-ChalkyitsikComplex-S-N
-      Code: 3f123ee1448603353163ff11fde87f372548095181a37201b0bb9d4179028000
+        UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKUYD-000466-NAME-ChalkyitsikComplex-S-N
+      Code: 1272de5cb9f855b5f79643bfcec6bf9a66a13c3b39af88c145da7b85fcf8c82e
   2019-NVCCD-030374:
     Source_NFSA_Join:
       Lon: -119.35781331118748
