@@ -1574,17 +1574,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563336320000
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T23:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T23:00Z'
+      Acres: 100811.311658
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:31.355Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: AKKKS
     unitMention: Kenai-Kodiak Area Forestry
     Final_Fire_Name: Swan Lake Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKKKS-903181-NAME-SwanLake-S-N'
-      Code: 65bd50e95b335e85a6b9e71e3f4dc4861adafd4de3a107fe1be2c5406022f54d
+      UpdateId: >-
+        UPD-2019-07-17T02:00Z-PER-2019-07-16T23:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
+      Code: 23a1b7dcaded7b927a94efd10b0dca73f5c30b57e69da52e10ab65b73733641e
   CALFIRE-7a0029c7-64c8-442d-8c7a-080a553e2b8e:
     Source_CALFIRE:
       Lon: -121.534827
@@ -2171,17 +2189,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563334136000
     Hashtag: '#ShovelCreekFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T17:30Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T17:30Z'
+      Acres: 21297.986868
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:31.355Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: AKFAS
     unitMention: Fairbanks Area Forestry
     Final_Fire_Name: Shovel Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKFAS-911319-NAME-ShovelCreek-S-N'
-      Code: 1d4cb6dca22b89b0897a96286a16199efc553c6baee9d1214ad4171c54db9910
+      UpdateId: >-
+        UPD-2019-07-17T02:00Z-PER-2019-07-16T17:30Z-ID-2019-AKFAS-911319-NAME-ShovelCreek-S-N
+      Code: abe1382e61b05766f6e48316bca22fd4226184d9dc4f06a24f03458e7065e91b
   CALFIRE-4edb5c7c-08d6-4ae0-b8b3-7bb471e26d8e:
     Source_CALFIRE:
       Lon: -121.28312
@@ -4176,18 +4212,35 @@ Database:
     Hashtag: '#BergmanCreekFire'
     _CorrelationIds:
       - 2019-AKTAD-000312
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T16:21Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T16:21Z'
+      Acres: 36389.5694619
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:31.355Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: AKTAD
     unitMention: Alaska Fire Service - Tanana Zone
     Final_Fire_Name: Bergman Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKTAD-000312-NAME-BergmanCreek-S-G
-      Code: f270725c4d0bd6e959fdd4835e221b14648794cbf76f349d46b5f5b78e4cfd7c
+        UPD-2019-07-17T02:00Z-PER-2019-07-16T16:21Z-ID-2019-AKTAD-000312-NAME-BergmanCreek-S-G
+      Code: f06808154b9cef1ab6daf3033d4000ffaf1e0c19c44cd98f3d0a78e158a867dd
   CALFIRE-65e8fbe1-5300-4c90-9f48-0e7bfe55b1bc:
     Source_CALFIRE:
       Lon: -121.3697
@@ -5255,119 +5308,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-11T21:30Z-PER-none-ID-2019-IDCTF-000018-NAME-SpringCreek-S-N'
       Code: f6e31fa235db3dc749455479cde706a9e4fe428bd9d590d0b635473b57c58eee
-  2019-AKGAD-000294:
-    Source_NFSA_Join:
-      Lon: -160.46052558011996
-      Lat: 66.02084031685527
-      id: 119633
-      Name: Buckland 3
-      Fire_Name: Buckland 3
-      UniqueFireIdentifier: 2019-AKGAD-000294
-      DailyAcres: 2338.4
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-05T03:00Z'
-      ICS209ReportDateTimeEpoch: 1562295600000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 0
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-06-20T06:45Z'
-      FireDiscoveryDateTimeEpoch: 1561013100000
-      DispatchCenterID: AKGADC
-      LocalIncidentIdentifier: 000294
-      POOCounty: Northwest Arctic
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-05T03:00Z'
-      ModifiedOnDateTimeEpoch: 1562295600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKGAD-000294
-      ModifiedOnDateTime_Raw: '2019-07-05T04:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562299945000
-      Hashtag: '#Buckland3Fire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-06T18:33:59.066Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -160.46052558011996
-    Lat: 66.02084031685527
-    id: 119633
-    Name: Buckland 3
-    Fire_Name: Buckland 3
-    UniqueFireIdentifier: 2019-AKGAD-000294
-    DailyAcres: 2338.4
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-05T03:00Z'
-    ICS209ReportDateTimeEpoch: 1562295600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 0
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-20T06:45Z'
-    FireDiscoveryDateTimeEpoch: 1561013100000
-    DispatchCenterID: AKGADC
-    LocalIncidentIdentifier: 000294
-    POOCounty: Northwest Arctic
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-05T03:00Z'
-    ModifiedOnDateTimeEpoch: 1562295600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKGAD-000294
-    ModifiedOnDateTime_Raw: '2019-07-05T04:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562299945000
-    Hashtag: '#Buckland3Fire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-06-26T14:14Z'
-    PerimeterData:
-      DateTime: '2019-06-26T14:14Z'
-      Acres: 2338.36420581
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-06T18:34:01.801Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKGAD
-    unitMention: Alaska Fire Service - Galena Zone
-    Final_Fire_Name: Buckland 3 Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-05T03:00Z-PER-2019-06-26T14:14Z-ID-2019-AKGAD-000294-NAME-Buckland3-S-N
-      Code: 027b4363cea2a0e171ae758e885e20931692e333682274ee5ea50bb2c908bb1c
   2019-AKUYD-000324:
     Source_NFSA_Join:
       Lon: -148.35923055621745
@@ -5565,13 +5505,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563338238000
     Hashtag: '#HadweenzicRiverFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-10T13:47Z'
+    PerimDateTime: '2019-07-16T13:57Z'
     PerimeterData:
-      DateTime: '2019-07-10T13:47Z'
-      Acres: 39028.8842236
+      DateTime: '2019-07-16T13:57Z'
+      Acres: 49636.255186
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T05:03:22.538Z'
+          RetrievedOn: '2019-07-17T18:43:36.949Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -5592,8 +5532,8 @@ Database:
     Final_Fire_Name: Hadweenzic River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:00Z-PER-2019-07-10T13:47Z-ID-2019-AKUYD-000337-NAME-HadweenzicRiver-S-N
-      Code: 6a575eb9f94ec68020f499400df2a7210458568eb169f6dc5c12c9a9e93250d1
+        UPD-2019-07-17T02:00Z-PER-2019-07-16T13:57Z-ID-2019-AKUYD-000337-NAME-HadweenzicRiver-S-N
+      Code: 3c7bece5e3977bc9419a57d2d3c6988f5fd6ad770721ce5390637405091d673f
   2019-AKUYD-000349:
     Source_NFSA_Join:
       Lon: -146.57162805658382
@@ -5678,13 +5618,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563338139000
     Hashtag: '#ChandalarRiverFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-10T13:47Z'
+    PerimDateTime: '2019-07-16T13:57Z'
     PerimeterData:
-      DateTime: '2019-07-10T13:47Z'
-      Acres: 9107.84380768
+      DateTime: '2019-07-16T13:57Z'
+      Acres: 9918.23324011
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T05:03:22.538Z'
+          RetrievedOn: '2019-07-17T18:43:36.949Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -5705,8 +5645,8 @@ Database:
     Final_Fire_Name: Chandalar River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:00Z-PER-2019-07-10T13:47Z-ID-2019-AKUYD-000349-NAME-ChandalarRiver-S-N
-      Code: 480719af61a16de11b6586327c70b8a2c3748ad27dbb10ee29b2c43811e5dc57
+        UPD-2019-07-17T02:00Z-PER-2019-07-16T13:57Z-ID-2019-AKUYD-000349-NAME-ChandalarRiver-S-N
+      Code: 903cbb09e5e92251a70663e277b9c3c578f4ae5a5fc188aadb19b741cb8955e2
   2019-AKUYD-000355:
     Source_NFSA_Join:
       Lon: -141.08392778373175
@@ -5904,13 +5844,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563338660000
     Hashtag: '#LloydMountainFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-14T00:00Z'
+    PerimDateTime: '2019-07-16T14:01Z'
     PerimeterData:
-      DateTime: '2019-07-14T00:00Z'
-      Acres: 29445.4274167
+      DateTime: '2019-07-16T14:01Z'
+      Acres: 32743.4436775
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T05:03:22.538Z'
+          RetrievedOn: '2019-07-17T18:43:36.949Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -5931,8 +5871,8 @@ Database:
     Final_Fire_Name: Lloyd Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:00Z-PER-2019-07-14T00:00Z-ID-2019-AKTAD-000361-NAME-LloydMountain-S-N
-      Code: 11d69bf480b4862d9d3ab1c74e01c89bd4bde75053e3082e7f055f1c44cc175b
+        UPD-2019-07-17T02:00Z-PER-2019-07-16T14:01Z-ID-2019-AKTAD-000361-NAME-LloydMountain-S-N
+      Code: fbff0b22937116cc00e2db2c22ea492b457b5a18fe5d8da85e16c1923305183c
   2019-AKMID-000391:
     Source_NFSA_Join:
       Lon: -146.20752290562447
@@ -20994,17 +20934,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563335104000
     Hashtag: '#Rainbow2Fire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T17:30Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T17:30Z'
+      Acres: 11168.7106391
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:31.355Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: AKDAS
     unitMention: Delta Area Forestry
     Final_Fire_Name: Rainbow 2 Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T03:00Z-PER-none-ID-2019-AKDAS-912409-NAME-Rainbow2-S-N'
-      Code: 4a8c88390420a412e6ab923b7323769dd40f807699813617cb60da4d4d7e83e5
+      UpdateId: >-
+        UPD-2019-07-17T03:00Z-PER-2019-07-16T17:30Z-ID-2019-AKDAS-912409-NAME-Rainbow2-S-N
+      Code: 003e02117aec3c8209fd3e79b61d3c0bff23e9b6711fdc16e5e2ee1f205b1275
   CALFIRE-f32eaf92-82dc-4c31-8a05-76c21845f078:
     Source_CALFIRE:
       Lon: -120.8092
@@ -22394,119 +22352,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-11T22:00Z-PER-2019-06-28T09:50Z-ID-2019-AKMID-000248-NAME-Tower-S-N
       Code: cae1c98288f95ff54f3b46496502f7895006038c3e28b4ab33c08d017dbde010
-  2019-AKUYD-000321:
-    Source_NFSA_Join:
-      Lon: -146.16252629304296
-      Lat: 65.81301261626187
-      id: 119815
-      Name: Little Crazy Mountain
-      Fire_Name: Little Crazy Mountain
-      UniqueFireIdentifier: 2019-AKUYD-000321
-      DailyAcres: 34120
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-11T20:00Z'
-      ICS209ReportDateTimeEpoch: 1562875200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-06-22T02:49Z'
-      FireDiscoveryDateTimeEpoch: 1561171740000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000321'
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-11T20:00Z'
-      ModifiedOnDateTimeEpoch: 1562875200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000321
-      ModifiedOnDateTime_Raw: '2019-07-11T22:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562884013000
-      Hashtag: '#LittleCrazyMountainFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-11T22:31:12.248Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -146.16252629304296
-    Lat: 65.81301261626187
-    id: 119815
-    Name: Little Crazy Mountain
-    Fire_Name: Little Crazy Mountain
-    UniqueFireIdentifier: 2019-AKUYD-000321
-    DailyAcres: 34120
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-11T20:00Z'
-    ICS209ReportDateTimeEpoch: 1562875200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-22T02:49Z'
-    FireDiscoveryDateTimeEpoch: 1561171740000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000321'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-11T20:00Z'
-    ModifiedOnDateTimeEpoch: 1562875200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000321
-    ModifiedOnDateTime_Raw: '2019-07-11T22:26Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562884013000
-    Hashtag: '#LittleCrazyMountainFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-09T12:05Z'
-    PerimeterData:
-      DateTime: '2019-07-09T12:05Z'
-      Acres: 34120.4262567
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-11T22:31:14.669Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Little Crazy Mountain Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-11T20:00Z-PER-2019-07-09T12:05Z-ID-2019-AKUYD-000321-NAME-LittleCrazyMountain-S-N
-      Code: 047320b90c90daa032150cfca881b2c02a9180dbd85e955879d6bf3c8120a716
   2019-AKUYD-000329:
     Source_NFSA_Join:
       Lon: -146.8910240558525
@@ -23368,17 +23213,35 @@ Database:
     Hashtag: '#TonySloughFire'
     _CorrelationIds:
       - 2019-AKUYD-000493
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T13:57Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T13:57Z'
+      Acres: 836.05152062
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:31.355Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: AKUYD
     unitMention: Alaska Fire Service - Upper Yukon Zone
     Final_Fire_Name: Tony Slough Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T02:00Z-PER-none-ID-2019-AKUYD-000493-NAME-TonySlough-S-G'
-      Code: 1c8645ee616df271146ca7fa71336de4bec095a0da3976276e506d708b469f19
+      UpdateId: >-
+        UPD-2019-07-17T02:00Z-PER-2019-07-16T13:57Z-ID-2019-AKUYD-000493-NAME-TonySlough-S-G
+      Code: b5b0f970d2da28958c1de0e186e7cb9a132a35114a7ca96f996337a156fc7d8c
   2019-UTCCD-000294:
     Source_NFSA_Join:
       Lon: -112.10680996713721
@@ -23587,185 +23450,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-11T22:00Z-PER-2019-07-07T12:48Z-ID-2019-AKTAD-000317-NAME-SnowshoeCreek-S-N
       Code: 7e0b49a8ab78a81efe05218c7ca21b92335e48329b6386c0f42b73ff158e17ea
-  2019-IDSCF-019120:
-    Source_NFSA_Join:
-      Lon: -115.01891455627884
-      Lat: 44.51693696980626
-      id: 122486
-      Name: Shady
-      Fire_Name: Shady
-      UniqueFireIdentifier: 2019-IDSCF-019120
-      DailyAcres: 1000
-      PercentContained: 0
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-15T02:30Z'
-      ICS209ReportDateTimeEpoch: 1563157800000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 12500
-      FireCause: Natural
-      TotalIncidentPersonnel: 27
-      FireDiscoveryDateTime: '2019-07-11T00:01Z'
-      FireDiscoveryDateTimeEpoch: 1562803260000
-      DispatchCenterID: IDCIC
-      LocalIncidentIdentifier: 019120
-      POOCounty: Custer
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-15T02:30Z'
-      ModifiedOnDateTimeEpoch: 1563157800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-IDSCF-019120
-      ModifiedOnDateTime_Raw: '2019-07-15T02:51Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563159106000
-      Hashtag: '#ShadyFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T03:01:35.180Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -115.01891294802671
-      Lat: 44.51693614291138
-      objectid: 29
-      latitude: 44.51693
-      longitude: -115.0189
-      acres: 1000
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: ID
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-15T02:30Z'
-      reportdatetimeEpoch: 1563157800000
-      percentcontained: 0
-      uniquefireidentifier: 2019-IDSCF-019120
-      firediscoverydatetime: '2019-07-11T00:01Z'
-      firediscoverydatetimeEpoch: 1562803260000
-      complexparentirwinid: null
-      pooresponsibleunit: IDSCF
-      incidentname: Shady
-      iscomplex: 'false'
-      irwinid: '{30BCC069-947B-43F3-B139-0761FD79C4BD}'
-      irwinmodifiedon: '2019-07-15T02:51Z'
-      irwinmodifiedonEpoch: 1563159106000
-      mapsymbol: '1'
-      datecurrent: '2019-07-14T21:00Z'
-      datecurrentEpoch: 1563138024000
-      pooownerunit: IDSCF
-      fireyear: 2019
-      localincidentidentifier: 019120
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 1000
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-15T02:30Z'
-      ModifiedOnDateTimeEpoch: 1563157800000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-IDSCF-019120
-      FireDiscoveryDateTime: '2019-07-11T00:01Z'
-      FireDiscoveryDateTimeEpoch: 1562803260000
-      Fire_Name: Shady
-      Name: Shady
-      Source: GEOMAC
-      Hashtag: '#ShadyFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T03:01:35.181Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-IDSCF-019120
-    Lon: -115.01891455627884
-    Lat: 44.51693696980626
-    id: 122486
-    Name: Shady
-    Fire_Name: Shady
-    UniqueFireIdentifier: 2019-IDSCF-019120
-    DailyAcres: 1000
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-15T02:30Z'
-    ICS209ReportDateTimeEpoch: 1563157800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 12500
-    FireCause: Natural
-    TotalIncidentPersonnel: 27
-    FireDiscoveryDateTime: '2019-07-11T00:01Z'
-    FireDiscoveryDateTimeEpoch: 1562803260000
-    DispatchCenterID: IDCIC
-    LocalIncidentIdentifier: 019120
-    POOCounty: Custer
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-15T02:30Z'
-    ModifiedOnDateTimeEpoch: 1563157800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-IDSCF-019120
-    ModifiedOnDateTime_Raw: '2019-07-15T02:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563159106000
-    Hashtag: '#ShadyFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-12T23:10Z'
-    PerimeterData:
-      DateTime: '2019-07-12T23:10Z'
-      Acres: 629.76231265
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T19:54:36.832Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: IDSCF
-    unitMention: '@SalmonChallisNF'
-    Final_Fire_Name: Shady Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-15T02:30Z-PER-2019-07-12T23:10Z-ID-2019-IDSCF-019120-NAME-Shady-S-N
-      Code: 8077e56490c203c11b58d5e5db603ee03945a07cdb0c353825c2e744993d4f14
   2019-UTFIF-190170:
     Source_NFSA_Join:
       Lon: -112.20871485296773
@@ -24231,185 +23915,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-14T05:00Z-PER-none-ID-2019-AKFAS-911459-NAME-TananaRiver-S-N'
       Code: 5b3ce1b2fff4ce8f9f096a117002a1d0f086f4cf87705ad4ddd965a0610b3813
-  2019-AKUYD-000424:
-    Source_NFSA_Join:
-      Lon: -141.67662722504096
-      Lat: 66.53822220413166
-      id: 121169
-      Name: Tettjajik Creek
-      Fire_Name: Tettjajik Creek
-      UniqueFireIdentifier: 2019-AKUYD-000424
-      DailyAcres: 16513
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-12T02:05Z'
-      ICS209ReportDateTimeEpoch: 1562897100000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-03T00:51Z'
-      FireDiscoveryDateTimeEpoch: 1562115060000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000424'
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-12T02:05Z'
-      ModifiedOnDateTimeEpoch: 1562897100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000424
-      ModifiedOnDateTime_Raw: '2019-07-12T20:59Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562965188000
-      Hashtag: '#TettjajikCreekFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-12T21:02:16.937Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -141.676627587976
-      Lat: 66.53822273591128
-      objectid: 18
-      latitude: 66.53822
-      longitude: -141.6766
-      acres: 16513
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-12T02:00Z'
-      reportdatetimeEpoch: 1562896800000
-      percentcontained: 0
-      uniquefireidentifier: 2019-AKUYD-000424
-      firediscoverydatetime: '2019-07-03T00:51Z'
-      firediscoverydatetimeEpoch: 1562115060000
-      complexparentirwinid: '{4E3207C5-B302-4ED4-9D08-2BD627FD7928}'
-      pooresponsibleunit: AKUYD
-      incidentname: Tettjajik Creek
-      iscomplex: 'false'
-      irwinid: '{CEDAE15F-F907-40E3-8547-7F0EEFA3F938}'
-      irwinmodifiedon: '2019-07-12T19:39Z'
-      irwinmodifiedonEpoch: 1562960390000
-      mapsymbol: '2'
-      datecurrent: '2019-07-12T15:00Z'
-      datecurrentEpoch: 1562943616000
-      pooownerunit: AKEID
-      fireyear: 2019
-      localincidentidentifier: '000424'
-      incidenttypecategory: WF
-      owneragency: BLM
-      perimexist: 'Y'
-      complexname: Chalkyitsik Complex
-      DailyAcres: 16513
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-12T02:00Z'
-      ModifiedOnDateTimeEpoch: 1562896800000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-AKUYD-000424
-      FireDiscoveryDateTime: '2019-07-03T00:51Z'
-      FireDiscoveryDateTimeEpoch: 1562115060000
-      Fire_Name: Tettjajik Creek
-      Name: Tettjajik Creek
-      Source: GEOMAC
-      Hashtag: '#TettjajikCreekFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-12T21:02:16.938Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKUYD-000424
-    Lon: -141.67662722504096
-    Lat: 66.53822220413166
-    id: 121169
-    Name: Tettjajik Creek
-    Fire_Name: Tettjajik Creek
-    UniqueFireIdentifier: 2019-AKUYD-000424
-    DailyAcres: 16513
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-12T02:05Z'
-    ICS209ReportDateTimeEpoch: 1562897100000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-03T00:51Z'
-    FireDiscoveryDateTimeEpoch: 1562115060000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000424'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-12T02:05Z'
-    ModifiedOnDateTimeEpoch: 1562897100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000424
-    ModifiedOnDateTime_Raw: '2019-07-12T20:59Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562965188000
-    Hashtag: '#TettjajikCreekFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-11T00:00Z'
-    PerimeterData:
-      DateTime: '2019-07-11T00:00Z'
-      Acres: 16528.2380057
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-12T21:02:18.216Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Tettjajik Creek Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-12T02:05Z-PER-2019-07-11T00:00Z-ID-2019-AKUYD-000424-NAME-TettjajikCreek-S-N
-      Code: c23359fe516ec7631da7c2db77d2b8bd2874192627da83c29afd7a5953eb3311
   2019-AKMID-000471:
     Source_NFSA_Join:
       Lon: -147.3532252358377
@@ -24996,17 +24501,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563335536000
     Hashtag: '#KobeFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T17:55Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T17:55Z'
+      Acres: 1041.37358677
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:36.949Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKFAS
     unitMention: Fairbanks Area Forestry
     Final_Fire_Name: Kobe Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T03:00Z-PER-none-ID-2019-AKFAS-911508-NAME-Kobe-S-N'
-      Code: 7b46cbcf3d03e40199fa193ca70a5d6c7cd8aa89ff100f6626667a7b857f6800
+      UpdateId: >-
+        UPD-2019-07-17T03:00Z-PER-2019-07-16T17:55Z-ID-2019-AKFAS-911508-NAME-Kobe-S-N
+      Code: 7001bf5835fcbb47d0dac9b5ba1c4a125bab2c774b6e15c0b7f5aef0ae9cfcf9
   2019-AKSWS-904474:
     Source_NFSA_Join:
       Lon: -155.75752167425196
@@ -26129,9 +25652,9 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563336575000
     Hashtag: '#ChalkyitsikComplex'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T21:37Z'
     PerimeterData:
-      DateTime: null
+      DateTime: '2019-07-16T21:37Z'
       Acres: null
       _Provenance: null
     unitId: AKUYD
@@ -26139,8 +25662,8 @@ Database:
     Final_Fire_Name: Chalkyitsik Complex
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:15Z-PER-none-ID-2019-AKUYD-000466-NAME-ChalkyitsikComplex-S-N
-      Code: 925a28330be10264ce755639511baa08416ca68a4ae9c89cf2f303548f8a96cc
+        UPD-2019-07-17T02:15Z-PER-2019-07-16T21:37Z-ID-2019-AKUYD-000466-NAME-ChalkyitsikComplex-S-N
+      Code: 0745116c42ea8034add39345ccbebc19c160b2a592d0608662aaba978e32c617
   2019-NVCCD-030374:
     Source_NFSA_Join:
       Lon: -119.35781331118748
@@ -29848,101 +29371,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-16T23:45Z-PER-none-ID-2019-NVBMD-020160-NAME-Dome-S-G'
       Code: c9184110a9d5c0071ccf0525f0f8b929682746d4820bc634c19aa0fe9b554408
-  2019-AKGAD-000560:
-    Source_NFSA_Join:
-      Lon: -158.06322751400154
-      Lat: 65.3868306275018
-      id: 123152
-      Name: Pitka River
-      Fire_Name: Pitka River
-      UniqueFireIdentifier: 2019-AKGAD-000560
-      DailyAcres: 300
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: null
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-15T02:20Z'
-      FireDiscoveryDateTimeEpoch: 1563157200000
-      DispatchCenterID: AKGADC
-      LocalIncidentIdentifier: '000560'
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-15T03:34Z'
-      ModifiedOnDateTimeEpoch: 1563161687000
-      ModifiedBySystem: wildcad
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKGAD-000560
-      ModifiedOnDateTime_Raw: '2019-07-15T03:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563161687000
-      Hashtag: '#PitkaRiverFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T04:02:10.548Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -158.06322751400154
-    Lat: 65.3868306275018
-    id: 123152
-    Name: Pitka River
-    Fire_Name: Pitka River
-    UniqueFireIdentifier: 2019-AKGAD-000560
-    DailyAcres: 300
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-15T02:20Z'
-    FireDiscoveryDateTimeEpoch: 1563157200000
-    DispatchCenterID: AKGADC
-    LocalIncidentIdentifier: '000560'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-15T03:34Z'
-    ModifiedOnDateTimeEpoch: 1563161687000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKGAD-000560
-    ModifiedOnDateTime_Raw: '2019-07-15T03:34Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563161687000
-    Hashtag: '#PitkaRiverFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: AKGAD
-    unitMention: Alaska Fire Service - Galena Zone
-    Final_Fire_Name: Pitka River Fire
-    _Update:
-      UpdateId: 'UPD-2019-07-15T03:34Z-PER-none-ID-2019-AKGAD-000560-NAME-PitkaRiver-S-N'
-      Code: 33ed588be214695849b8049c9fee092425b520956f20580e549f813cc5e2770f
   2019-AKSWS-904514:
     Source_NFSA_Join:
       Lon: -157.4083556718784
@@ -30903,17 +30331,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563326899000
     Hashtag: '#CanyonFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T00:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T00:00Z'
+      Acres: 163.67939712
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:31.355Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: IDBOF
     unitMention: Boise NF
     Final_Fire_Name: Canyon Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T00:30Z-PER-none-ID-2019-IDBOF-000429-NAME-CANYON-S-N'
-      Code: 8ffa3cf24b97bdb510ac5a8d5206ca265b57e537c86019a1682dc1d722f065ad
+      UpdateId: >-
+        UPD-2019-07-17T00:30Z-PER-2019-07-16T00:00Z-ID-2019-IDBOF-000429-NAME-CANYON-S-N
+      Code: 3412ef0d5032d2092f90047352016b21b7529c066831a483dd663a7233c0b8bc
   CALFIRE-a03c52ec-7366-43c5-965e-52e2b73df452:
     Source_CALFIRE:
       Lon: -120.84372
@@ -32889,17 +32335,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563233756000
     Hashtag: '#NewmanFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T20:30Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T20:30Z'
+      Acres: 276.60251908
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:36.949Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AZCOF
     unitMention: '@CoconinoNF'
     Final_Fire_Name: Newman Fire
     _Update:
-      UpdateId: 'UPD-2019-07-15T20:00Z-PER-none-ID-2019-AZCOF-000703-NAME-Newman-S-N'
-      Code: 522ed2128d7457dd97e8d280c7b1cb17c868a0eb674842fabeaae469ee1bcfb3
+      UpdateId: >-
+        UPD-2019-07-15T20:00Z-PER-2019-07-16T20:30Z-ID-2019-AZCOF-000703-NAME-Newman-S-N
+      Code: 8d8eb2c5a0e0cf48db2e289d63837d20dc254361bb69a0a5a8b721f744bbed8c
   2019-AKSWS-904336:
     Source_NFSA_Join:
       Lon: -163.24002086701984
@@ -34599,17 +34063,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563324533000
     Hashtag: '#FishFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T20:06Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T20:06Z'
+      Acres: 87.22657355
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-17T18:43:36.949Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: CASNF
     unitMention: '@Sierra_NF'
     Final_Fire_Name: Fish Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T00:15Z-PER-none-ID-2019-CASNF-000669-NAME-FISH-S-N'
-      Code: c1db741056d06bfa63f4dbb45bd6b79bc61c1939fdd596b3b51707310fbeb0ed
+      UpdateId: >-
+        UPD-2019-07-17T00:15Z-PER-2019-07-16T20:06Z-ID-2019-CASNF-000669-NAME-FISH-S-N
+      Code: 6860c828b3e2fca21631566512fe91f8ed4b47a01d136298a23f1e7f576e545b
   CALFIRE-12528e0f-03e0-4598-8df0-e3017fa7382a:
     Source_CALFIRE:
       Lon: -121.468074
