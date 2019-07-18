@@ -6855,16 +6855,16 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563459704000
     Hashtag: '#NaranjoFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-05T13:00Z'
+    PerimDateTime: '2019-07-17T00:00Z'
     PerimeterData:
-      DateTime: '2019-07-05T13:00Z'
-      Acres: 7.78934838
+      DateTime: '2019-07-17T00:00Z'
+      Acres: 1010.07591677
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          RetrievedOn: '2019-07-18T19:12:03.688Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -6876,14 +6876,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: NMSNF
     unitMention: Santa Fe NF
     Final_Fire_Name: Naranjo Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-16T22:30Z-PER-2019-07-05T13:00Z-ID-2019-NMSNF-000250-NAME-Naranjo-S-N
-      Code: 0ee9d8b03c204b13aec68bc100891daf49e596307e20ef61b3fc90cc8f991d13
+        UPD-2019-07-16T22:30Z-PER-2019-07-17T00:00Z-ID-2019-NMSNF-000250-NAME-Naranjo-S-N
+      Code: 319b624e5e79662015ec315ebe42078480b5e731a00974936ccef59cff9bd168
   2019-ORMAF-019083:
     Source_NFSA_Join:
       Lon: -119.36521542912863
@@ -29843,185 +29843,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-15T06:00Z-PER-2019-07-13T19:03Z-ID-2019-AKSWS-904515-NAME-TaylorMountains-S-N
       Code: b71ed1a5f7853618b2d64f52edc41fbbb3a57849f94422dcdaf625bf4bd2080c
-  2019-AKSWS-904506:
-    Source_NFSA_Join:
-      Lon: -158.68602051732876
-      Lat: 61.7381673343713
-      id: 122630
-      Name: Horn Foothills
-      Fire_Name: Horn Foothills
-      UniqueFireIdentifier: 2019-AKSWS-904506
-      DailyAcres: 134
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-15T15:30Z'
-      ICS209ReportDateTimeEpoch: 1563204600000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 130
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-12T00:06Z'
-      FireDiscoveryDateTimeEpoch: 1562890006000
-      DispatchCenterID: AKMSSC
-      LocalIncidentIdentifier: '904506'
-      POOCounty: Bethel
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-15T15:30Z'
-      ModifiedOnDateTimeEpoch: 1563204600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKSWS-904506
-      ModifiedOnDateTime_Raw: '2019-07-15T19:31Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563219113000
-      Hashtag: '#HornFoothillsFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T20:01:13.276Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -158.68602299240877
-      Lat: 61.7381671698745
-      objectid: 31
-      latitude: 61.738167
-      longitude: -158.686
-      acres: 134
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: I
-      firecause: Natural
-      reportdatetime: '2019-07-15T15:30Z'
-      reportdatetimeEpoch: 1563204600000
-      percentcontained: 0
-      uniquefireidentifier: 2019-AKSWS-904506
-      firediscoverydatetime: '2019-07-12T00:06Z'
-      firediscoverydatetimeEpoch: 1562890006000
-      complexparentirwinid: null
-      pooresponsibleunit: AKSWS
-      incidentname: Horn Foothills
-      iscomplex: 'false'
-      irwinid: '{3B36CEE0-88C2-44BC-841F-C4928DF84D0E}'
-      irwinmodifiedon: '2019-07-15T19:31Z'
-      irwinmodifiedonEpoch: 1563219113000
-      mapsymbol: '1'
-      datecurrent: '2019-07-15T14:00Z'
-      datecurrentEpoch: 1563199221000
-      pooownerunit: AKADD
-      fireyear: 2019
-      localincidentidentifier: '904506'
-      incidenttypecategory: WF
-      owneragency: BLM
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 134
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-15T15:30Z'
-      ModifiedOnDateTimeEpoch: 1563204600000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-AKSWS-904506
-      FireDiscoveryDateTime: '2019-07-12T00:06Z'
-      FireDiscoveryDateTimeEpoch: 1562890006000
-      Fire_Name: Horn Foothills
-      Name: Horn Foothills
-      Source: GEOMAC
-      Hashtag: '#HornFoothillsFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T20:01:13.276Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKSWS-904506
-    Lon: -158.68602051732876
-    Lat: 61.7381673343713
-    id: 122630
-    Name: Horn Foothills
-    Fire_Name: Horn Foothills
-    UniqueFireIdentifier: 2019-AKSWS-904506
-    DailyAcres: 134
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-15T15:30Z'
-    ICS209ReportDateTimeEpoch: 1563204600000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 130
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-12T00:06Z'
-    FireDiscoveryDateTimeEpoch: 1562890006000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904506'
-    POOCounty: Bethel
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-15T15:30Z'
-    ModifiedOnDateTimeEpoch: 1563204600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKSWS-904506
-    ModifiedOnDateTime_Raw: '2019-07-15T19:31Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563219113000
-    Hashtag: '#HornFoothillsFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-13T19:03Z'
-    PerimeterData:
-      DateTime: '2019-07-13T19:03Z'
-      Acres: 32.72606351
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T20:01:16.200Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKSWS
-    unitMention: Southwest Area Forestry
-    Final_Fire_Name: Horn Foothills Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-15T15:30Z-PER-2019-07-13T19:03Z-ID-2019-AKSWS-904506-NAME-HornFoothills-S-N
-      Code: e0302c797ff4cd05dfc40c96c6bbb39665573dbe93d0842a2f31cdd0005421a1
   2019-AKSWS-904513:
     Source_NFSA_Join:
       Lon: -156.87253755435964
@@ -31115,13 +30936,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563331277000
     Hashtag: '#BroncoGulchFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-16T10:30Z'
+    PerimDateTime: '2019-07-17T11:30Z'
     PerimeterData:
-      DateTime: '2019-07-16T10:30Z'
-      Acres: 2020.51648126
+      DateTime: '2019-07-17T11:30Z'
+      Acres: 11530.1380593
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-18T15:00:32.449Z'
+          RetrievedOn: '2019-07-18T19:12:06.090Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -31142,8 +30963,8 @@ Database:
     Final_Fire_Name: Bronco Gulch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:41Z-PER-2019-07-16T10:30Z-ID-2019-AZSCA-001103-NAME-BroncoGulch-S-N
-      Code: 9c90c8d2b4b9044dd5ebc2b90d992f1a16abd28cf075ba0d68e7af2bf96afc15
+        UPD-2019-07-17T02:41Z-PER-2019-07-17T11:30Z-ID-2019-AZSCA-001103-NAME-BroncoGulch-S-N
+      Code: 509bb9d51544cc5f90b9b39b0abfdcb8d3a81dc77650992a7cbda70648c7a4da
   2019-AKSWS-904351:
     Source_NFSA_Join:
       Lon: -155.5600270590383
