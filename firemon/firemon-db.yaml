@@ -6731,9 +6731,9 @@ Database:
       PercentContained: 65
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-14T22:30Z'
-      ICS209ReportDateTimeEpoch: 1563143400000
-      ICS209ReportStatus: F
+      ICS209ReportDateTime: '2019-07-16T22:30Z'
+      ICS209ReportDateTimeEpoch: 1563316200000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 675000
@@ -6745,21 +6745,21 @@ Database:
       LocalIncidentIdentifier: '000250'
       POOCounty: Sandoval
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-14T22:30Z'
-      ModifiedOnDateTimeEpoch: 1563143400000
+      ModifiedOnDateTime: '2019-07-16T22:30Z'
+      ModifiedOnDateTimeEpoch: 1563316200000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMSNF-000250
-      ModifiedOnDateTime_Raw: '2019-07-14T23:13Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563145996000
+      ModifiedOnDateTime_Raw: '2019-07-18T14:21Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563459704000
       Hashtag: '#NaranjoFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-14T23:31:10.574Z'
+          RetrievedOn: '2019-07-18T14:30:20.987Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -6777,9 +6777,9 @@ Database:
     PercentContained: 65
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-14T22:30Z'
-    ICS209ReportDateTimeEpoch: 1563143400000
-    ICS209ReportStatus: F
+    ICS209ReportDateTime: '2019-07-16T22:30Z'
+    ICS209ReportDateTimeEpoch: 1563316200000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 675000
@@ -6791,47 +6791,29 @@ Database:
     LocalIncidentIdentifier: '000250'
     POOCounty: Sandoval
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-14T22:30Z'
-    ModifiedOnDateTimeEpoch: 1563143400000
+    ModifiedOnDateTime: '2019-07-16T22:30Z'
+    ModifiedOnDateTimeEpoch: 1563316200000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NMSNF-000250
-    ModifiedOnDateTime_Raw: '2019-07-14T23:13Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563145996000
+    ModifiedOnDateTime_Raw: '2019-07-18T14:21Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563459704000
     Hashtag: '#NaranjoFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-05T13:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-07-05T13:00Z'
-      Acres: 7.78934838
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-14T23:35:00.973Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: NMSNF
     unitMention: Santa Fe NF
     Final_Fire_Name: Naranjo Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-07-14T22:30Z-PER-2019-07-05T13:00Z-ID-2019-NMSNF-000250-NAME-Naranjo-S-N
-      Code: b02b78d01a5712f434d59d9861f19ba58539ef185965a9ef5dfe0b5fb6abd862
+      UpdateId: 'UPD-2019-07-16T22:30Z-PER-none-ID-2019-NMSNF-000250-NAME-Naranjo-S-N'
+      Code: 54513208074b802a64b91ef82c70caaa437a09587755e649cf084378e8ad7b04
   2019-ORMAF-019083:
     Source_NFSA_Join:
       Lon: -119.36521542912863
