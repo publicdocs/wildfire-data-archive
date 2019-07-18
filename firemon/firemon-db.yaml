@@ -773,17 +773,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563397772000
     Hashtag: '#PineLodgeFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-03T04:02Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-03T04:02Z'
+      Acres: 14794.8389924
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: NMLNF
     unitMention: Lincoln NF
     Final_Fire_Name: Pine Lodge Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T21:00Z-PER-none-ID-2019-NMLNF-000249-NAME-PINELODGE-S-N'
-      Code: 755210ca85fecf609fb47850c8003eda1990b9ff7a76748c35b5a4b22d97d889
+      UpdateId: >-
+        UPD-2019-07-17T21:00Z-PER-2019-07-03T04:02Z-ID-2019-NMLNF-000249-NAME-PINELODGE-S-N
+      Code: 33729c2525dc6dee80b176be93088364919435e74384769869f680aba931c16a
   2019-AKTAS-913362:
     Source_NFSA_Join:
       Lon: -142.33335857980225
@@ -868,18 +886,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563420644000
     Hashtag: '#BoundaryRiverFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T11:51Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T11:51Z'
+      Acres: 17999.380154
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKTAS
     unitMention: Tok Area Forestry
     Final_Fire_Name: Boundary River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-18T03:30Z-PER-none-ID-2019-AKTAS-913362-NAME-BoundaryRiver-S-N
-      Code: d17b3f1f6470e2ef57d73dd44aaa11d48365cf12562375630e6a3513202e64a6
+        UPD-2019-07-18T03:30Z-PER-2019-07-14T11:51Z-ID-2019-AKTAS-913362-NAME-BoundaryRiver-S-N
+      Code: 758b5309b9afb51444793ec7ae2c8a452be68fc929c98f081a92c8626d8cade5
   2019-AZSCA-000792:
     Source_GEOMAC:
       Lon: -109.99695499001704
@@ -4987,18 +5022,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563426172000
     Hashtag: '#MontanaCreekFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-08T12:47Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-08T12:47Z'
+      Acres: 367.61526846
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKMSS
     unitMention: Mat-Su Area Forestry
     Final_Fire_Name: Montana Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-18T02:00Z-PER-none-ID-2019-AKMSS-901429-NAME-MontanaCreek-S-N
-      Code: 6cf8fc455dd37661a390477de80e03c075e0858c504c8b1af5c4eb10c1dba5d1
+        UPD-2019-07-18T02:00Z-PER-2019-07-08T12:47Z-ID-2019-AKMSS-901429-NAME-MontanaCreek-S-N
+      Code: dec50d615931c561ef77493cacbe571be15c8e27c920c7930eca32f3cbbe77d4
   2019-COPSF-000463:
     Source_NFSA_Join:
       Lon: -105.02560617809121
@@ -6803,17 +6855,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563459704000
     Hashtag: '#NaranjoFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-05T13:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-05T13:00Z'
+      Acres: 7.78934838
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: NMSNF
     unitMention: Santa Fe NF
     Final_Fire_Name: Naranjo Fire
     _Update:
-      UpdateId: 'UPD-2019-07-16T22:30Z-PER-none-ID-2019-NMSNF-000250-NAME-Naranjo-S-N'
-      Code: 54513208074b802a64b91ef82c70caaa437a09587755e649cf084378e8ad7b04
+      UpdateId: >-
+        UPD-2019-07-16T22:30Z-PER-2019-07-05T13:00Z-ID-2019-NMSNF-000250-NAME-Naranjo-S-N
+      Code: 0ee9d8b03c204b13aec68bc100891daf49e596307e20ef61b3fc90cc8f991d13
   2019-ORMAF-019083:
     Source_NFSA_Join:
       Lon: -119.36521542912863
@@ -20292,17 +20362,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563425825000
     Hashtag: '#MalaspinaFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T11:13Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T11:13Z'
+      Acres: 84.54132693
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKMSS
     unitMention: Mat-Su Area Forestry
     Final_Fire_Name: Malaspina Fire
     _Update:
-      UpdateId: 'UPD-2019-07-18T02:00Z-PER-none-ID-2019-AKMSS-901451-NAME-Malaspina-S-N'
-      Code: 5cd90f2a9eacff8437d57de23a19409cfa8a949491ac0f4d8e2ceee9d1724a96
+      UpdateId: >-
+        UPD-2019-07-18T02:00Z-PER-2019-07-14T11:13Z-ID-2019-AKMSS-901451-NAME-Malaspina-S-N
+      Code: 03aeb99696d63783bd51653aab96eb6e44032d282e775173b53c8e7e7dec6483
   CALFIRE-1fd11e53-a132-4b89-bc8f-f7061f685ad3:
     Source_CALFIRE:
       Lon: -120.26916667
@@ -21145,17 +21233,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563431769000
     Hashtag: '#HiddenCreekFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-13T19:03Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-13T19:03Z'
+      Acres: 378.19718134
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKSWS
     unitMention: Southwest Area Forestry
     Final_Fire_Name: Hidden Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-18T01:00Z-PER-none-ID-2019-AKSWS-904464-NAME-HiddenCreek-S-N'
-      Code: 6bd24c5ebb489fdd9c8e3ce84fe70be82b55e50fd0ec7cb913a2ef89585a9737
+      UpdateId: >-
+        UPD-2019-07-18T01:00Z-PER-2019-07-13T19:03Z-ID-2019-AKSWS-904464-NAME-HiddenCreek-S-N
+      Code: 73887d800f1127cd294b419c7bb899a0a13a20f0ccdcaaffa0f7b9f3a109fce6
   2019-AKFAS-911323:
     Source_NFSA_Join:
       Lon: -146.5553954993998
@@ -21353,17 +21459,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563425651000
     Hashtag: '#BeaverFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-10T20:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-10T20:00Z'
+      Acres: 10323.5208133
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKMID
     unitMention: Alaska Fire Service - Military Zone
     Final_Fire_Name: Beaver Fire
     _Update:
-      UpdateId: 'UPD-2019-07-18T02:00Z-PER-none-ID-2019-AKMID-000390-NAME-Beaver-S-N'
-      Code: d5efa01e0dcbf3336ab0f3b452a5a0d069e0d6ba172b74cacdd24e377bcf6be0
+      UpdateId: >-
+        UPD-2019-07-18T02:00Z-PER-2019-07-10T20:00Z-ID-2019-AKMID-000390-NAME-Beaver-S-N
+      Code: d0a9860b830620ef580e38c229f3fdbb5a14cc614d0517bd84aa1ced29f062d1
   2019-AKSWS-904481:
     Source_NFSA_Join:
       Lon: -159.3544569202421
@@ -23684,17 +23808,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563340310000
     Hashtag: '#ForakerFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T16:32Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T16:32Z'
+      Acres: 46294.1014379
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKTAD
     unitMention: Alaska Fire Service - Tanana Zone
     Final_Fire_Name: Foraker Fire
     _Update:
-      UpdateId: 'UPD-2019-07-16T23:00Z-PER-none-ID-2019-AKTAD-000389-NAME-Foraker-S-N'
-      Code: 548e942be2d9be0fca81fdf6003743f91a6b65a1f63c38c150d900e304a54693
+      UpdateId: >-
+        UPD-2019-07-16T23:00Z-PER-2019-07-14T16:32Z-ID-2019-AKTAD-000389-NAME-Foraker-S-N
+      Code: 2a19ba8d0eb82fdf0819fa9107283fd254fc11a3ebe0531116f5b16d11d903cf
   2019-AKFAS-911508:
     Source_NFSA_Join:
       Lon: -149.32288929410382
@@ -25530,17 +25672,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563434067000
     Hashtag: '#SmithCreekFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T16:32Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T16:32Z'
+      Acres: 3916.93327909
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AKSWS
     unitMention: Southwest Area Forestry
     Final_Fire_Name: Smith Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-18T00:30Z-PER-none-ID-2019-AKSWS-904534-NAME-SmithCreek-S-N'
-      Code: f69bb8e89f2d8e11e328f0724b5d064bba7f1c99fa2c0e8a7fa454a67803a3c8
+      UpdateId: >-
+        UPD-2019-07-18T00:30Z-PER-2019-07-14T16:32Z-ID-2019-AKSWS-904534-NAME-SmithCreek-S-N
+      Code: d5a905e59ce74e6db24d8897df5865ff06d3bea95d75f99d96e6e87b12a73ba1
   2019-ORVAD-000068:
     Source_NFSA_Join:
       Lon: -117.49661184032594
@@ -28136,17 +28296,35 @@ Database:
     Hashtag: '#DomeFire'
     _CorrelationIds:
       - 2019-NVBMD-020160
-    PerimDateTime: null
+    PerimDateTime: '2019-07-14T21:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-14T21:00Z'
+      Acres: 265.76618209
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T18:25:33.220Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: NVBMD
     unitMention: Battle Mountain District Office
     Final_Fire_Name: Dome Fire
     _Update:
-      UpdateId: 'UPD-2019-07-18T01:00Z-PER-none-ID-2019-NVBMD-020160-NAME-Dome-S-G'
-      Code: 7a727d32f524a781cf3b223fda18f736a96313a8e4a925d63da7d6846b1b778c
+      UpdateId: >-
+        UPD-2019-07-18T01:00Z-PER-2019-07-14T21:00Z-ID-2019-NVBMD-020160-NAME-Dome-S-G
+      Code: b3a63183d10149b1f7227306934ca55019e44dec96ef6c6380d74ba7d86a429e
   2019-AKSWS-904514:
     Source_NFSA_Join:
       Lon: -157.4083556718784
