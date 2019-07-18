@@ -33579,20 +33579,67 @@ Database:
       UpdateId: 'UPD-2019-07-16T22:45Z-PER-none-ID-2019-COSJF-000441-NAME-441-S-N'
       Code: 77f3646b86b46e35b144ba446b70800a753e38c23ab2e01009758aa0d26e2fd7
   2019-AZPNF-000961:
+    Source_NFSA_Join:
+      Lon: -112.48740818671297
+      Lat: 34.243171932620015
+      id: 123086
+      Name: Cellar
+      Fire_Name: Cellar
+      UniqueFireIdentifier: 2019-AZPNF-000961
+      DailyAcres: 6450
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-18T00:00Z'
+      ICS209ReportDateTimeEpoch: 1563408000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 450000
+      FireCause: Natural
+      TotalIncidentPersonnel: 248
+      FireDiscoveryDateTime: '2019-07-14T21:25Z'
+      FireDiscoveryDateTimeEpoch: 1563139500000
+      DispatchCenterID: AZPDC
+      LocalIncidentIdentifier: 000961
+      POOCounty: Yavapai
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-18T00:00Z'
+      ModifiedOnDateTimeEpoch: 1563408000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZPNF-000961
+      ModifiedOnDateTime_Raw: '2019-07-18T00:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563411026000
+      Hashtag: '#CellarFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T01:01:35.379Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Source_GEOMAC:
       Lon: -112.48741116054144
       Lat: 34.243175201616545
-      objectid: 33
+      objectid: 27
       latitude: 34.24317
       longitude: -112.4874
-      acres: 1000
+      acres: 6450
       gacc: SWCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AZ
-      status: I
+      status: U
       firecause: Natural
-      reportdatetime: '2019-07-17T00:00Z'
-      reportdatetimeEpoch: 1563321600000
+      reportdatetime: '2019-07-18T00:00Z'
+      reportdatetimeEpoch: 1563408000000
       percentcontained: 0
       uniquefireidentifier: 2019-AZPNF-000961
       firediscoverydatetime: '2019-07-14T21:25Z'
@@ -33602,22 +33649,22 @@ Database:
       incidentname: Cellar
       iscomplex: 'false'
       irwinid: '{92A45D96-AFE1-458B-8B6B-45291DDD4744}'
-      irwinmodifiedon: '2019-07-17T00:50Z'
-      irwinmodifiedonEpoch: 1563324651000
+      irwinmodifiedon: '2019-07-18T00:50Z'
+      irwinmodifiedonEpoch: 1563411027000
       mapsymbol: '1'
-      datecurrent: '2019-07-16T19:00Z'
-      datecurrentEpoch: 1563303626000
+      datecurrent: '2019-07-17T19:00Z'
+      datecurrentEpoch: 1563390028000
       pooownerunit: AZPNF
       fireyear: 2019
       localincidentidentifier: 000961
       incidenttypecategory: WF
       owneragency: USFS
-      perimexist: 'N'
+      perimexist: 'Y'
       complexname: null
-      DailyAcres: 1000
+      DailyAcres: 6450
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-17T00:00Z'
-      ModifiedOnDateTimeEpoch: 1563321600000
+      ModifiedOnDateTime: '2019-07-18T00:00Z'
+      ModifiedOnDateTimeEpoch: 1563408000000
       PercentContained: 0
       UniqueFireIdentifier: 2019-AZPNF-000961
       FireDiscoveryDateTime: '2019-07-14T21:25Z'
@@ -33628,7 +33675,7 @@ Database:
       Hashtag: '#CellarFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T01:00:47.456Z'
+          RetrievedOn: '2019-07-18T01:01:35.380Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -33645,64 +33692,52 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AZPNF-000961
-    Lon: -112.48741116054144
-    Lat: 34.243175201616545
-    objectid: 33
-    latitude: 34.24317
-    longitude: -112.4874
-    acres: 1000
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: I
-    firecause: Natural
-    reportdatetime: '2019-07-17T00:00Z'
-    reportdatetimeEpoch: 1563321600000
-    percentcontained: 0
-    uniquefireidentifier: 2019-AZPNF-000961
-    firediscoverydatetime: '2019-07-14T21:25Z'
-    firediscoverydatetimeEpoch: 1563139500000
-    complexparentirwinid: null
-    pooresponsibleunit: AZPNF
-    incidentname: Cellar
-    iscomplex: 'false'
-    irwinid: '{92A45D96-AFE1-458B-8B6B-45291DDD4744}'
-    irwinmodifiedon: '2019-07-17T00:50Z'
-    irwinmodifiedonEpoch: 1563324651000
-    mapsymbol: '1'
-    datecurrent: '2019-07-16T19:00Z'
-    datecurrentEpoch: 1563303626000
-    pooownerunit: AZPNF
-    fireyear: 2019
-    localincidentidentifier: 000961
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 1000
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-17T00:00Z'
-    ModifiedOnDateTimeEpoch: 1563321600000
-    PercentContained: 0
+    Lon: -112.48740818671297
+    Lat: 34.243171932620015
+    id: 123086
+    Name: Cellar
+    Fire_Name: Cellar
     UniqueFireIdentifier: 2019-AZPNF-000961
+    DailyAcres: 6450
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-18T00:00Z'
+    ICS209ReportDateTimeEpoch: 1563408000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 450000
+    FireCause: Natural
+    TotalIncidentPersonnel: 248
     FireDiscoveryDateTime: '2019-07-14T21:25Z'
     FireDiscoveryDateTimeEpoch: 1563139500000
-    Fire_Name: Cellar
-    Name: Cellar
-    Source: GEOMAC
-    Hashtag: '#CellarFire'
+    DispatchCenterID: AZPDC
+    LocalIncidentIdentifier: 000961
+    POOCounty: Yavapai
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-18T00:00Z'
+    ModifiedOnDateTimeEpoch: 1563408000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZPNF-000961
+    ModifiedOnDateTime_Raw: '2019-07-18T00:50Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563411026000
+    Hashtag: '#CellarFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-07-15T00:00Z'
     PerimeterData:
       DateTime: '2019-07-15T00:00Z'
       Acres: 35.85250229
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T15:15:02.612Z'
+          RetrievedOn: '2019-07-18T01:01:37.376Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -33714,14 +33749,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: AZPNF
     unitMention: Prescott NF
     Final_Fire_Name: Cellar Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T00:00Z-PER-2019-07-15T00:00Z-ID-2019-AZPNF-000961-NAME-Cellar-S-G
-      Code: 3131144204f70ec9661bfb1e53fcf0e22c523322d554f0e13c6b834ee8c6fbff
+        UPD-2019-07-18T00:00Z-PER-2019-07-15T00:00Z-ID-2019-AZPNF-000961-NAME-Cellar-S-N
+      Code: 3c0ce782bf93c2f86d58d4d87d68b674f689b0e584a979ff758fbc91a6123f03
   2019-CASNF-000669:
     Source_NFSA_Join:
       Lon: -119.40051023664168
@@ -34522,3 +34557,116 @@ Database:
       UpdateId: >-
         UPD-2019-07-18T00:49Z-PER-none-ID-CALFIRE-06fa2750-afea-4f88-b1c4-48b9bc21f4eb-NAME-VistaFire-S-C
       Code: adfe1f9db18e8ffa0c4cdc8ed082e7959805a1aabf44bf7329c3274992621d9b
+  2019-AKTAD-000576:
+    Source_NFSA_Join:
+      Lon: -150.44772376026694
+      Lat: 65.36233179654285
+      id: 123295
+      Name: Garnet Creek
+      Fire_Name: Garnet Creek
+      UniqueFireIdentifier: 2019-AKTAD-000576
+      DailyAcres: 10
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-17T23:00Z'
+      ICS209ReportDateTimeEpoch: 1563404400000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 0
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-16T00:25Z'
+      FireDiscoveryDateTimeEpoch: 1563236700000
+      DispatchCenterID: AKYTDC
+      LocalIncidentIdentifier: '000576'
+      POOCounty: Yukon-Koyukuk
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-17T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563404400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKTAD-000576
+      ModifiedOnDateTime_Raw: '2019-07-18T00:38Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563410281000
+      Hashtag: '#GarnetCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T01:01:35.379Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -150.44772376026694
+    Lat: 65.36233179654285
+    id: 123295
+    Name: Garnet Creek
+    Fire_Name: Garnet Creek
+    UniqueFireIdentifier: 2019-AKTAD-000576
+    DailyAcres: 10
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-17T23:00Z'
+    ICS209ReportDateTimeEpoch: 1563404400000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 0
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-16T00:25Z'
+    FireDiscoveryDateTimeEpoch: 1563236700000
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: '000576'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-17T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563404400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKTAD-000576
+    ModifiedOnDateTime_Raw: '2019-07-18T00:38Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563410281000
+    Hashtag: '#GarnetCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-16T13:57Z'
+    PerimeterData:
+      DateTime: '2019-07-16T13:57Z'
+      Acres: 363.42349506
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T01:01:43.033Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AKTAD
+    unitMention: Alaska Fire Service - Tanana Zone
+    Final_Fire_Name: Garnet Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-17T23:00Z-PER-2019-07-16T13:57Z-ID-2019-AKTAD-000576-NAME-GarnetCreek-S-N
+      Code: fb786d61d2cbd0f28f09cb6e184d4a30bd0a397c7b933d1f1f1bbcad984032dd
