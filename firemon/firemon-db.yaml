@@ -21554,119 +21554,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-11T18:30Z-PER-none-ID-2019-WYSHF-000214-NAME-GRIZZLY-S-N'
       Code: 029d2dd3ab548c314f82fd723c85e7b0b7bd4b7193eb7056f5f365351026a9f9
-  2019-IDNCF-000266:
-    Source_NFSA_Join:
-      Lon: -114.98271245032882
-      Lat: 46.23679918876352
-      id: 121001
-      Name: Barren Hill
-      Fire_Name: Barren Hill
-      UniqueFireIdentifier: 2019-IDNCF-000266
-      DailyAcres: 4
-      PercentContained: 0
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-11T19:30Z'
-      ICS209ReportDateTimeEpoch: 1562873400000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-01T19:52Z'
-      FireDiscoveryDateTimeEpoch: 1562010749000
-      DispatchCenterID: IDGVC
-      LocalIncidentIdentifier: '000266'
-      POOCounty: Idaho
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-11T19:30Z'
-      ModifiedOnDateTimeEpoch: 1562873400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-IDNCF-000266
-      ModifiedOnDateTime_Raw: '2019-07-11T19:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1562874856000
-      Hashtag: '#BarrenHillFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-11T20:02:18.278Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -114.98271245032882
-    Lat: 46.23679918876352
-    id: 121001
-    Name: Barren Hill
-    Fire_Name: Barren Hill
-    UniqueFireIdentifier: 2019-IDNCF-000266
-    DailyAcres: 4
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-11T19:30Z'
-    ICS209ReportDateTimeEpoch: 1562873400000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-01T19:52Z'
-    FireDiscoveryDateTimeEpoch: 1562010749000
-    DispatchCenterID: IDGVC
-    LocalIncidentIdentifier: '000266'
-    POOCounty: Idaho
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-11T19:30Z'
-    ModifiedOnDateTimeEpoch: 1562873400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-IDNCF-000266
-    ModifiedOnDateTime_Raw: '2019-07-11T19:54Z'
-    ModifiedOnDateTimeEpoch_Raw: 1562874856000
-    Hashtag: '#BarrenHillFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-08T00:00Z'
-    PerimeterData:
-      DateTime: '2019-07-08T00:00Z'
-      Acres: 4.00180137
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-11T20:02:21.233Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: IDNCF
-    unitMention: Nez Perce - Clearwater NFs
-    Final_Fire_Name: Barren Hill Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-11T19:30Z-PER-2019-07-08T00:00Z-ID-2019-IDNCF-000266-NAME-BarrenHill-S-N
-      Code: 4a55b8e5d1a6a7b8c75b74456159dedbab504a415846385f6236eef795c270bf
   2019-NMGNF-000321:
     Source_NFSA_Join:
       Lon: -107.97880869148129
@@ -27868,13 +27755,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563400088000
     Hashtag: '#RobertsFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-14T08:00Z'
+    PerimDateTime: '2019-07-15T10:00Z'
     PerimeterData:
-      DateTime: '2019-07-14T08:00Z'
-      Acres: 412.25721854
+      DateTime: '2019-07-15T10:00Z'
+      Acres: 777.99232703
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T22:01:49.547Z'
+          RetrievedOn: '2019-07-18T15:00:29.999Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -27895,8 +27782,8 @@ Database:
     Final_Fire_Name: Roberts Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T21:45Z-PER-2019-07-14T08:00Z-ID-2019-NMCIF-000143-NAME-Roberts-S-N
-      Code: e258119b7971450de180c8ffd96f9e6c9618c29aaaf8a7a63a583db6054ebf40
+        UPD-2019-07-17T21:45Z-PER-2019-07-15T10:00Z-ID-2019-NMCIF-000143-NAME-Roberts-S-N
+      Code: 765aca16527546611a2a48794f3204599ac6719e9956e4bc0bd26ab483708b51
   2019-ORNGIN-000461:
     Source_NFSA_Join:
       Lon: -120.16771640504395
@@ -31266,102 +31153,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-15T06:45Z-PER-2019-07-13T19:03Z-ID-2019-AKSWS-904513-NAME-LittleTitnuk-S-N
       Code: 9755b262a485809d55be289abd26303216311a6c91b2f712347bae978f64f5c6
-  2019-AKSWS-904523:
-    Source_NFSA_Join:
-      Lon: -156.49202018315944
-      Lat: 61.75616729484885
-      id: 122745
-      Name: East Stoney River
-      Fire_Name: East Stoney River
-      UniqueFireIdentifier: 2019-AKSWS-904523
-      DailyAcres: 200
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-15T06:45Z'
-      ICS209ReportDateTimeEpoch: 1563173100000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2355
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-12T23:33Z'
-      FireDiscoveryDateTimeEpoch: 1562974432000
-      DispatchCenterID: AKMSSC
-      LocalIncidentIdentifier: '904523'
-      POOCounty: Bethel
-      POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-07-15T06:45Z'
-      ModifiedOnDateTimeEpoch: 1563173100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKSWS-904523
-      ModifiedOnDateTime_Raw: '2019-07-15T21:01Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563224514000
-      Hashtag: '#EastStoneyRiverFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-15T21:30:56.732Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -156.49202018315944
-    Lat: 61.75616729484885
-    id: 122745
-    Name: East Stoney River
-    Fire_Name: East Stoney River
-    UniqueFireIdentifier: 2019-AKSWS-904523
-    DailyAcres: 200
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-15T06:45Z'
-    ICS209ReportDateTimeEpoch: 1563173100000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2355
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-12T23:33Z'
-    FireDiscoveryDateTimeEpoch: 1562974432000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904523'
-    POOCounty: Bethel
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-15T06:45Z'
-    ModifiedOnDateTimeEpoch: 1563173100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKSWS-904523
-    ModifiedOnDateTime_Raw: '2019-07-15T21:01Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563224514000
-    Hashtag: '#EastStoneyRiverFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: AKSWS
-    unitMention: Southwest Area Forestry
-    Final_Fire_Name: East Stoney River Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-15T06:45Z-PER-none-ID-2019-AKSWS-904523-NAME-EastStoneyRiver-S-N
-      Code: 7fbe9295ad4f12fa5e2ddc647355a7f26845eba5c2bf0ed37d458cdf4cf385cc
   2019-NMGNF-000323:
     Source_NFSA_Join:
       Lon: -107.81241375140384
@@ -32485,17 +32276,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563331277000
     Hashtag: '#BroncoGulchFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T10:30Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T10:30Z'
+      Acres: 2020.51648126
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T15:00:32.449Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: AZSCA
     unitMention: San Carlos Agency
     Final_Fire_Name: Bronco Gulch Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T02:41Z-PER-none-ID-2019-AZSCA-001103-NAME-BroncoGulch-S-N'
-      Code: 297b333cb699805baa38776dba0d205798649a7480338dec7ee0d0dbb6874b20
+      UpdateId: >-
+        UPD-2019-07-17T02:41Z-PER-2019-07-16T10:30Z-ID-2019-AZSCA-001103-NAME-BroncoGulch-S-N
+      Code: 9c90c8d2b4b9044dd5ebc2b90d992f1a16abd28cf075ba0d68e7af2bf96afc15
   2019-AKSWS-904174:
     Source_NFSA_Join:
       Lon: -157.38791001601183
@@ -32997,17 +32806,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563399361000
     Hashtag: '#RoundPeakFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-16T12:40Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-16T12:40Z'
+      Acres: 133.51908288
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-18T15:00:29.999Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: UTUWF
     unitMention: Uinta-Wasatch-Cache NF
     Final_Fire_Name: Round Peak Fire
     _Update:
-      UpdateId: 'UPD-2019-07-17T21:00Z-PER-none-ID-2019-UTUWF-000332-NAME-RoundPeak-S-N'
-      Code: 262a638b1be3bae82a11d755977ce60457a8666b0c2ef4d324d34a4643bc4510
+      UpdateId: >-
+        UPD-2019-07-17T21:00Z-PER-2019-07-16T12:40Z-ID-2019-UTUWF-000332-NAME-RoundPeak-S-N
+      Code: b7856a3b8190f93355aaaf7933727292ce5881f88801ccf9e1c58ad065fce75c
   CALFIRE-72384606-035c-4d00-8887-84a9da7d0e57:
     Source_CALFIRE:
       Lon: -116.7884
@@ -33614,13 +33441,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563411026000
     Hashtag: '#CellarFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-15T00:00Z'
+    PerimDateTime: '2019-07-16T19:00Z'
     PerimeterData:
-      DateTime: '2019-07-15T00:00Z'
-      Acres: 35.85250229
+      DateTime: '2019-07-16T19:00Z'
+      Acres: 7388.33499831
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-18T01:01:37.376Z'
+          RetrievedOn: '2019-07-18T15:00:29.999Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -33641,8 +33468,8 @@ Database:
     Final_Fire_Name: Cellar Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-18T00:00Z-PER-2019-07-15T00:00Z-ID-2019-AZPNF-000961-NAME-Cellar-S-N
-      Code: 3c0ce782bf93c2f86d58d4d87d68b674f689b0e584a979ff758fbc91a6123f03
+        UPD-2019-07-18T00:00Z-PER-2019-07-16T19:00Z-ID-2019-AZPNF-000961-NAME-Cellar-S-N
+      Code: 8d34ed0f7976de721007e432909cc9777c8c6b034e41684d251e13b37daa24e6
   2019-CASNF-000669:
     Source_NFSA_Join:
       Lon: -119.40051023664168
