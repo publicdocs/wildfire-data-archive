@@ -30544,39 +30544,39 @@ Database:
       Name: Bronco Gulch
       Fire_Name: Bronco Gulch
       UniqueFireIdentifier: 2019-AZSCA-001103
-      DailyAcres: 732.5
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 11523
+      PercentContained: 75
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-18T01:00Z'
+      ICS209ReportDateTimeEpoch: 1563411600000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 250000
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 15
       FireDiscoveryDateTime: '2019-07-16T00:12Z'
       FireDiscoveryDateTimeEpoch: 1563235920000
       DispatchCenterID: AZPHC
       LocalIncidentIdentifier: '001103'
       POOCounty: Graham
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-17T02:41Z'
-      ModifiedOnDateTimeEpoch: 1563331277000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-18T01:00Z'
+      ModifiedOnDateTimeEpoch: 1563411600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZSCA-001103
-      ModifiedOnDateTime_Raw: '2019-07-17T02:41Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563331277000
+      ModifiedOnDateTime_Raw: '2019-07-19T17:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563556472000
       Hashtag: '#BroncoGulchFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-17T03:01:06.066Z'
+          RetrievedOn: '2019-07-19T17:31:20.846Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -30584,40 +30584,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -110.13831062810854
+      Lat: 33.389255208901346
+      objectid: 32
+      latitude: 33.38925
+      longitude: -110.1383
+      acres: 11523
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-18T01:00Z'
+      reportdatetimeEpoch: 1563411600000
+      percentcontained: 75
+      uniquefireidentifier: 2019-AZSCA-001103
+      firediscoverydatetime: '2019-07-16T00:12Z'
+      firediscoverydatetimeEpoch: 1563235920000
+      complexparentirwinid: null
+      pooresponsibleunit: AZSCA
+      incidentname: Bronco Gulch
+      iscomplex: 'false'
+      irwinid: '{37E018F9-A7D3-4E37-AB9C-A078269AD50E}'
+      irwinmodifiedon: '2019-07-19T17:14Z'
+      irwinmodifiedonEpoch: 1563556473000
+      mapsymbol: '2'
+      datecurrent: '2019-07-19T11:30Z'
+      datecurrentEpoch: 1563535829000
+      pooownerunit: AZSCA
+      fireyear: 2019
+      localincidentidentifier: '001103'
+      incidenttypecategory: WF
+      owneragency: BIA
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 11523
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-18T01:00Z'
+      ModifiedOnDateTimeEpoch: 1563411600000
+      PercentContained: 75
+      UniqueFireIdentifier: 2019-AZSCA-001103
+      FireDiscoveryDateTime: '2019-07-16T00:12Z'
+      FireDiscoveryDateTimeEpoch: 1563235920000
+      Fire_Name: Bronco Gulch
+      Name: Bronco Gulch
+      Source: GEOMAC
+      Hashtag: '#BroncoGulchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-19T17:31:20.847Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZSCA-001103
     Lon: -110.13831371874042
     Lat: 33.389256754480186
     id: 123301
     Name: Bronco Gulch
     Fire_Name: Bronco Gulch
     UniqueFireIdentifier: 2019-AZSCA-001103
-    DailyAcres: 732.5
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 11523
+    PercentContained: 75
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-18T01:00Z'
+    ICS209ReportDateTimeEpoch: 1563411600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 250000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 15
     FireDiscoveryDateTime: '2019-07-16T00:12Z'
     FireDiscoveryDateTimeEpoch: 1563235920000
     DispatchCenterID: AZPHC
     LocalIncidentIdentifier: '001103'
     POOCounty: Graham
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-17T02:41Z'
-    ModifiedOnDateTimeEpoch: 1563331277000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-18T01:00Z'
+    ModifiedOnDateTimeEpoch: 1563411600000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZSCA-001103
-    ModifiedOnDateTime_Raw: '2019-07-17T02:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563331277000
+    ModifiedOnDateTime_Raw: '2019-07-19T17:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563556472000
     Hashtag: '#BroncoGulchFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-17T11:30Z'
@@ -30626,7 +30692,7 @@ Database:
       Acres: 11530.1380593
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-18T19:12:06.090Z'
+          RetrievedOn: '2019-07-19T17:31:24.861Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -30647,8 +30713,8 @@ Database:
     Final_Fire_Name: Bronco Gulch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-17T02:41Z-PER-2019-07-17T11:30Z-ID-2019-AZSCA-001103-NAME-BroncoGulch-S-N
-      Code: 509bb9d51544cc5f90b9b39b0abfdcb8d3a81dc77650992a7cbda70648c7a4da
+        UPD-2019-07-18T01:00Z-PER-2019-07-17T11:30Z-ID-2019-AZSCA-001103-NAME-BroncoGulch-S-N
+      Code: d7fb0ceb33e128ce16f0f4befb12d7ad95d2f5f4a569b23e78a2c6928d2f127f
   2019-AKSWS-904351:
     Source_NFSA_Join:
       Lon: -155.5600270590383
