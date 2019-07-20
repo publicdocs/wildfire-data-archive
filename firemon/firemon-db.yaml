@@ -37992,3 +37992,164 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-20T03:15Z-PER-none-ID-2019-IDSCF-019160-NAME-Vader-S-N'
       Code: d7617222734ad3d13720b244efe74454c5f82a4b2deafc2cd9e72bed02636127
+  2019-NMN2S-000024:
+    Source_NFSA_Join:
+      Lon: -103.27534664481841
+      Lat: 36.90867576677439
+      id: 123870
+      Name: Rincon
+      Fire_Name: Rincon
+      UniqueFireIdentifier: 2019-NMN2S-000024
+      DailyAcres: 500
+      PercentContained: 20
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-20T12:00Z'
+      ICS209ReportDateTimeEpoch: 1563624000000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 6000
+      FireCause: Natural
+      TotalIncidentPersonnel: 32
+      FireDiscoveryDateTime: '2019-07-17T22:30Z'
+      FireDiscoveryDateTimeEpoch: 1563402600000
+      DispatchCenterID: NMTDC
+      LocalIncidentIdentifier: '000024'
+      POOCounty: Union
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-20T12:00Z'
+      ModifiedOnDateTimeEpoch: 1563624000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NMN2S-000024
+      ModifiedOnDateTime_Raw: '2019-07-20T14:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563634669000
+      Hashtag: '#RinconFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-20T15:01:18.456Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -103.27534271595385
+      Lat: 36.90867281629863
+      objectid: 41
+      latitude: 36.9086667
+      longitude: -103.2753333
+      acres: 500
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-20T12:00Z'
+      reportdatetimeEpoch: 1563624000000
+      percentcontained: 20
+      uniquefireidentifier: 2019-NMN2S-000024
+      firediscoverydatetime: '2019-07-17T22:30Z'
+      firediscoverydatetimeEpoch: 1563402600000
+      complexparentirwinid: null
+      pooresponsibleunit: NMN2S
+      incidentname: Rincon
+      iscomplex: 'false'
+      irwinid: '{C6827665-A883-4060-AEFF-FF312005A6C0}'
+      irwinmodifiedon: '2019-07-20T14:57Z'
+      irwinmodifiedonEpoch: 1563634669000
+      mapsymbol: '1'
+      datecurrent: '2019-07-20T09:00Z'
+      datecurrentEpoch: 1563613234000
+      pooownerunit: NMNMS
+      fireyear: 2019
+      localincidentidentifier: '000024'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 500
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-20T12:00Z'
+      ModifiedOnDateTimeEpoch: 1563624000000
+      PercentContained: 20
+      UniqueFireIdentifier: 2019-NMN2S-000024
+      FireDiscoveryDateTime: '2019-07-17T22:30Z'
+      FireDiscoveryDateTimeEpoch: 1563402600000
+      Fire_Name: Rincon
+      Name: Rincon
+      Source: GEOMAC
+      Hashtag: '#RinconFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-20T15:01:18.457Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NMN2S-000024
+    Lon: -103.27534664481841
+    Lat: 36.90867576677439
+    id: 123870
+    Name: Rincon
+    Fire_Name: Rincon
+    UniqueFireIdentifier: 2019-NMN2S-000024
+    DailyAcres: 500
+    PercentContained: 20
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-20T12:00Z'
+    ICS209ReportDateTimeEpoch: 1563624000000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 6000
+    FireCause: Natural
+    TotalIncidentPersonnel: 32
+    FireDiscoveryDateTime: '2019-07-17T22:30Z'
+    FireDiscoveryDateTimeEpoch: 1563402600000
+    DispatchCenterID: NMTDC
+    LocalIncidentIdentifier: '000024'
+    POOCounty: Union
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-20T12:00Z'
+    ModifiedOnDateTimeEpoch: 1563624000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NMN2S-000024
+    ModifiedOnDateTime_Raw: '2019-07-20T14:57Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563634669000
+    Hashtag: '#RinconFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: NMN2S
+    unitMention: Cimarron District
+    Final_Fire_Name: Rincon Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-20T12:00Z-PER-none-ID-2019-NMN2S-000024-NAME-Rincon-S-N'
+      Code: b9e2e20fd599038e902c4076c31542d3c959f9306814348deb511e2b9c8afe0e
