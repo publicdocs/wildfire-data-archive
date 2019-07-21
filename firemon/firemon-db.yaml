@@ -23644,7 +23644,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-20T04:01:20.465Z'
+          RetrievedOn: '2019-07-21T05:01:45.881Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -23655,7 +23655,7 @@ Database:
     Source_GEOMAC:
       Lon: -149.36891435158657
       Lat: 64.22805712951545
-      objectid: 22
+      objectid: 23
       latitude: 64.2280556
       longitude: -149.3688889
       acres: 1146
@@ -23664,8 +23664,8 @@ Database:
       state: AK
       status: U
       firecause: Human
-      reportdatetime: '2019-07-20T02:30Z'
-      reportdatetimeEpoch: 1563589800000
+      reportdatetime: '2019-07-21T02:00Z'
+      reportdatetimeEpoch: 1563674400000
       percentcontained: 20
       uniquefireidentifier: 2019-AKFAS-911508
       firediscoverydatetime: '2019-07-12T02:47Z'
@@ -23675,11 +23675,11 @@ Database:
       incidentname: Kobe
       iscomplex: 'false'
       irwinid: '{7B740355-7B78-44C2-A166-995DDED84E9D}'
-      irwinmodifiedon: '2019-07-20T03:52Z'
-      irwinmodifiedonEpoch: 1563594774000
+      irwinmodifiedon: '2019-07-21T04:37Z'
+      irwinmodifiedonEpoch: 1563683870000
       mapsymbol: '1'
-      datecurrent: '2019-07-19T22:00Z'
-      datecurrentEpoch: 1563573624000
+      datecurrent: '2019-07-20T23:00Z'
+      datecurrentEpoch: 1563663625000
       pooownerunit: AKPRI
       fireyear: 2019
       localincidentidentifier: '911508'
@@ -23689,8 +23689,8 @@ Database:
       complexname: null
       DailyAcres: 1146
       FireCause: Human
-      ModifiedOnDateTime: '2019-07-20T02:30Z'
-      ModifiedOnDateTimeEpoch: 1563589800000
+      ModifiedOnDateTime: '2019-07-21T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563674400000
       PercentContained: 20
       UniqueFireIdentifier: 2019-AKFAS-911508
       FireDiscoveryDateTime: '2019-07-12T02:47Z'
@@ -23701,7 +23701,7 @@ Database:
       Hashtag: '#KobeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-20T04:01:20.466Z'
+          RetrievedOn: '2019-07-21T05:01:45.882Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -23718,49 +23718,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKFAS-911508
-    Lon: -149.32288929410382
-    Lat: 64.2185194651271
-    id: 122641
-    Name: Kobe
-    Fire_Name: Kobe
-    UniqueFireIdentifier: 2019-AKFAS-911508
+    Lon: -149.36891435158657
+    Lat: 64.22805712951545
+    objectid: 23
+    latitude: 64.2280556
+    longitude: -149.3688889
+    acres: 1146
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Human
+    reportdatetime: '2019-07-21T02:00Z'
+    reportdatetimeEpoch: 1563674400000
+    percentcontained: 20
+    uniquefireidentifier: 2019-AKFAS-911508
+    firediscoverydatetime: '2019-07-12T02:47Z'
+    firediscoverydatetimeEpoch: 1562899641000
+    complexparentirwinid: null
+    pooresponsibleunit: AKFAS
+    incidentname: Kobe
+    iscomplex: 'false'
+    irwinid: '{7B740355-7B78-44C2-A166-995DDED84E9D}'
+    irwinmodifiedon: '2019-07-21T04:37Z'
+    irwinmodifiedonEpoch: 1563683870000
+    mapsymbol: '1'
+    datecurrent: '2019-07-20T23:00Z'
+    datecurrentEpoch: 1563663625000
+    pooownerunit: AKPRI
+    fireyear: 2019
+    localincidentidentifier: '911508'
+    incidenttypecategory: WF
+    owneragency: Private
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 1146
-    PercentContained: 20
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-20T02:30Z'
-    ICS209ReportDateTimeEpoch: 1563589800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1125228
     FireCause: Human
-    TotalIncidentPersonnel: 201
+    ModifiedOnDateTime: '2019-07-21T02:00Z'
+    ModifiedOnDateTimeEpoch: 1563674400000
+    PercentContained: 20
+    UniqueFireIdentifier: 2019-AKFAS-911508
     FireDiscoveryDateTime: '2019-07-12T02:47Z'
     FireDiscoveryDateTimeEpoch: 1562899641000
-    DispatchCenterID: AKFASC
-    LocalIncidentIdentifier: '911508'
-    POOCounty: Denali
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-20T02:30Z'
-    ModifiedOnDateTimeEpoch: 1563589800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Kobe
+    Name: Kobe
+    Source: GEOMAC
+    Hashtag: '#KobeFire'
     _CorrelationIds:
       - 2019-AKFAS-911508
-    ModifiedOnDateTime_Raw: '2019-07-20T03:52Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563594773000
-    Hashtag: '#KobeFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-18T15:47Z'
     PerimeterData:
       DateTime: '2019-07-18T15:47Z'
       Acres: 862.70890617
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-20T04:01:22.703Z'
+          RetrievedOn: '2019-07-21T05:01:47.985Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -23781,8 +23793,8 @@ Database:
     Final_Fire_Name: Kobe Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-20T02:30Z-PER-2019-07-18T15:47Z-ID-2019-AKFAS-911508-NAME-Kobe-S-N
-      Code: a495547619e6901e1c3b717a8443dc9154a0b1a96ab488b7bad22066a49705ee
+        UPD-2019-07-21T02:00Z-PER-2019-07-18T15:47Z-ID-2019-AKFAS-911508-NAME-Kobe-S-G
+      Code: 15c7f7d32f17a3d648f10862e2857c484ef8f5b77cc85c0510d385a71ede2530
   2019-AKSWS-904474:
     Source_NFSA_Join:
       Lon: -155.75752167425196
