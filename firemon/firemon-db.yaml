@@ -38478,7 +38478,7 @@ Database:
       Name: Oglesby
       Fire_Name: Oglesby
       UniqueFireIdentifier: 2019-TXTXS-190116
-      DailyAcres: 1000
+      DailyAcres: 3000
       PercentContained: 0
       FireMgmtComplexity: Type 5 Incident
       IncidentManagementOrganization: null
@@ -38496,21 +38496,21 @@ Database:
       LocalIncidentIdentifier: '190116'
       POOCounty: Schleicher
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-21T02:34Z'
-      ModifiedOnDateTimeEpoch: 1563676495000
+      ModifiedOnDateTime: '2019-07-21T05:24Z'
+      ModifiedOnDateTimeEpoch: 1563686687000
       ModifiedBySystem: wires
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190116
-      ModifiedOnDateTime_Raw: '2019-07-21T02:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563676495000
+      ModifiedOnDateTime_Raw: '2019-07-21T05:24Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563686687000
       Hashtag: '#OglesbyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-21T03:01:10.974Z'
+          RetrievedOn: '2019-07-21T05:33:01.880Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -38524,7 +38524,7 @@ Database:
     Name: Oglesby
     Fire_Name: Oglesby
     UniqueFireIdentifier: 2019-TXTXS-190116
-    DailyAcres: 1000
+    DailyAcres: 3000
     PercentContained: 0
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: null
@@ -38542,16 +38542,16 @@ Database:
     LocalIncidentIdentifier: '190116'
     POOCounty: Schleicher
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-21T02:34Z'
-    ModifiedOnDateTimeEpoch: 1563676495000
+    ModifiedOnDateTime: '2019-07-21T05:24Z'
+    ModifiedOnDateTimeEpoch: 1563686687000
     ModifiedBySystem: wires
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190116
-    ModifiedOnDateTime_Raw: '2019-07-21T02:34Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563676495000
+    ModifiedOnDateTime_Raw: '2019-07-21T05:24Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563686687000
     Hashtag: '#OglesbyFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -38563,8 +38563,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Oglesby Fire
     _Update:
-      UpdateId: 'UPD-2019-07-21T02:34Z-PER-none-ID-2019-TXTXS-190116-NAME-Oglesby-S-N'
-      Code: f38fa6aa65f27b93865c461fbc171ea599f9f1be3aac21631941ad9cc94544f0
+      UpdateId: 'UPD-2019-07-21T05:24Z-PER-none-ID-2019-TXTXS-190116-NAME-Oglesby-S-N'
+      Code: 0a58275deee9c7a0d610ebfd6b4a6d5232de941250931b1b9b31723aef8447fd
   2019-AKCRS-914611:
     Source_NFSA_Join:
       Lon: -146.39302501179517
@@ -38755,3 +38755,98 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-20T23:00Z-PER-none-ID-2019-AKTAD-000619-NAME-BoneyCreek-S-N'
       Code: 5155b7b3581efd91f5c7ba21eec100002befebb24d8579351f1ee1e1bcbf2e19
+  2019-AKTAD-000616:
+    Source_NFSA_Join:
+      Lon: -155.2666911861619
+      Lat: 64.6999992178823
+      id: 123662
+      Name: Little Creek
+      Fire_Name: Little Creek
+      UniqueFireIdentifier: 2019-AKTAD-000616
+      DailyAcres: 135
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-20T23:00Z'
+      ICS209ReportDateTimeEpoch: 1563663600000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 50000
+      FireCause: Natural
+      TotalIncidentPersonnel: 56
+      FireDiscoveryDateTime: '2019-07-18T17:25Z'
+      FireDiscoveryDateTimeEpoch: 1563470700000
+      DispatchCenterID: AKYTDC
+      LocalIncidentIdentifier: '000616'
+      POOCounty: Yukon-Koyukuk
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-20T23:00Z'
+      ModifiedOnDateTimeEpoch: 1563663600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKTAD-000616
+      ModifiedOnDateTime_Raw: '2019-07-21T05:01Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563685269000
+      Hashtag: '#LittleCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-21T05:33:01.880Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -155.2666911861619
+    Lat: 64.6999992178823
+    id: 123662
+    Name: Little Creek
+    Fire_Name: Little Creek
+    UniqueFireIdentifier: 2019-AKTAD-000616
+    DailyAcres: 135
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-20T23:00Z'
+    ICS209ReportDateTimeEpoch: 1563663600000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 50000
+    FireCause: Natural
+    TotalIncidentPersonnel: 56
+    FireDiscoveryDateTime: '2019-07-18T17:25Z'
+    FireDiscoveryDateTimeEpoch: 1563470700000
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: '000616'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-20T23:00Z'
+    ModifiedOnDateTimeEpoch: 1563663600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKTAD-000616
+    ModifiedOnDateTime_Raw: '2019-07-21T05:01Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563685269000
+    Hashtag: '#LittleCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AKTAD
+    unitMention: Alaska Fire Service - Tanana Zone
+    Final_Fire_Name: Little Creek Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-20T23:00Z-PER-none-ID-2019-AKTAD-000616-NAME-LittleCreek-S-N'
+      Code: 348d046510cc26a94a6c3913e608fc230993a5b2f2041de5bef7a00afc830ce0
