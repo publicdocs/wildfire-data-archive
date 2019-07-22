@@ -39433,38 +39433,38 @@ Database:
       Fire_Name: Museum
       UniqueFireIdentifier: 2019-AZCOF-000788
       DailyAcres: 380
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-22T08:00Z'
+      ICS209ReportDateTimeEpoch: 1563782400000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 500000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 306
       FireDiscoveryDateTime: '2019-07-21T17:53Z'
       FireDiscoveryDateTimeEpoch: 1563731580000
       DispatchCenterID: AZFDC
       LocalIncidentIdentifier: 000788
       POOCounty: Coconino
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-22T04:09Z'
-      ModifiedOnDateTimeEpoch: 1563768540000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-22T08:00Z'
+      ModifiedOnDateTimeEpoch: 1563782400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZCOF-000788
-      ModifiedOnDateTime_Raw: '2019-07-22T04:09Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563768540000
+      ModifiedOnDateTime_Raw: '2019-07-22T08:45Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563785119000
       Hashtag: '#MuseumFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-22T04:31:28.560Z'
+          RetrievedOn: '2019-07-22T09:01:34.319Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -39472,6 +39472,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -111.64301107983263
+      Lat: 35.2576953837739
+      objectid: 41
+      latitude: 35.25769
+      longitude: -111.643
+      acres: 380
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-07-22T08:00Z'
+      reportdatetimeEpoch: 1563782400000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AZCOF-000788
+      firediscoverydatetime: '2019-07-21T17:53Z'
+      firediscoverydatetimeEpoch: 1563731580000
+      complexparentirwinid: null
+      pooresponsibleunit: AZCOF
+      incidentname: Museum
+      iscomplex: 'false'
+      irwinid: '{AE0F5E69-2B24-4EC3-8080-1BA3AD294700}'
+      irwinmodifiedon: '2019-07-22T08:45Z'
+      irwinmodifiedonEpoch: 1563785120000
+      mapsymbol: '1'
+      datecurrent: '2019-07-22T03:00Z'
+      datecurrentEpoch: 1563764434000
+      pooownerunit: AZCOF
+      fireyear: 2019
+      localincidentidentifier: 000788
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 380
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-22T08:00Z'
+      ModifiedOnDateTimeEpoch: 1563782400000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AZCOF-000788
+      FireDiscoveryDateTime: '2019-07-21T17:53Z'
+      FireDiscoveryDateTimeEpoch: 1563731580000
+      Fire_Name: Museum
+      Name: Museum
+      Source: GEOMAC
+      Hashtag: '#MuseumFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-22T09:01:34.320Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZCOF-000788
     Lon: -111.63431409399603
     Lat: 35.27033832116548
     id: 124032
@@ -39479,33 +39545,33 @@ Database:
     Fire_Name: Museum
     UniqueFireIdentifier: 2019-AZCOF-000788
     DailyAcres: 380
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-22T08:00Z'
+    ICS209ReportDateTimeEpoch: 1563782400000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 500000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 306
     FireDiscoveryDateTime: '2019-07-21T17:53Z'
     FireDiscoveryDateTimeEpoch: 1563731580000
     DispatchCenterID: AZFDC
     LocalIncidentIdentifier: 000788
     POOCounty: Coconino
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-22T04:09Z'
-    ModifiedOnDateTimeEpoch: 1563768540000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-22T08:00Z'
+    ModifiedOnDateTimeEpoch: 1563782400000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZCOF-000788
-    ModifiedOnDateTime_Raw: '2019-07-22T04:09Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563768540000
+    ModifiedOnDateTime_Raw: '2019-07-22T08:45Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563785119000
     Hashtag: '#MuseumFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -39517,8 +39583,8 @@ Database:
     unitMention: '@CoconinoNF'
     Final_Fire_Name: Museum Fire
     _Update:
-      UpdateId: 'UPD-2019-07-22T04:09Z-PER-none-ID-2019-AZCOF-000788-NAME-Museum-S-N'
-      Code: 881d953ecd75c1deb10695e44bf51da71cecb339da062d48c10205ba368ca669
+      UpdateId: 'UPD-2019-07-22T08:00Z-PER-none-ID-2019-AZCOF-000788-NAME-Museum-S-N'
+      Code: e950107d1c05852d1cb075752aab07783a2113f91e076877005d10b2bccb88af
   2019-AKMSS-901640:
     Source_NFSA_Join:
       Lon: -151.4930213911741
