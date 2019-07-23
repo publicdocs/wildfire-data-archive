@@ -842,7 +842,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-22T05:31:30.129Z'
+          RetrievedOn: '2019-07-23T02:30:42.309Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -850,49 +850,127 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -142.33335857980225
-    Lat: 62.883337560290755
-    id: 120040
-    Name: Boundary River
-    Fire_Name: Boundary River
-    UniqueFireIdentifier: 2019-AKTAS-913362
+    Source_GEOMAC:
+      Lon: -142.23669083908692
+      Lat: 62.859725016570565
+      objectid: 8
+      latitude: 62.8597222
+      longitude: -142.2366667
+      acres: 18000
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-23T02:00Z'
+      reportdatetimeEpoch: 1563847200000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKTAS-913362
+      firediscoverydatetime: '2019-06-24T00:44Z'
+      firediscoverydatetimeEpoch: 1561337087000
+      complexparentirwinid: null
+      pooresponsibleunit: AKTAS
+      incidentname: Boundary River
+      iscomplex: 'false'
+      irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
+      irwinmodifiedon: '2019-07-23T02:09Z'
+      irwinmodifiedonEpoch: 1563847765000
+      mapsymbol: '2'
+      datecurrent: '2019-07-22T20:30Z'
+      datecurrentEpoch: 1563827436000
+      pooownerunit: AKVLN
+      fireyear: 2019
+      localincidentidentifier: '913362'
+      incidenttypecategory: WF
+      owneragency: ANCSA
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 18000
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-23T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563847200000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKTAS-913362
+      FireDiscoveryDateTime: '2019-06-24T00:44Z'
+      FireDiscoveryDateTimeEpoch: 1561337087000
+      Fire_Name: Boundary River
+      Name: Boundary River
+      Source: GEOMAC
+      Hashtag: '#BoundaryRiverFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-23T02:30:42.310Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKTAS-913362
+    Lon: -142.23669083908692
+    Lat: 62.859725016570565
+    objectid: 8
+    latitude: 62.8597222
+    longitude: -142.2366667
+    acres: 18000
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-23T02:00Z'
+    reportdatetimeEpoch: 1563847200000
+    percentcontained: 0
+    uniquefireidentifier: 2019-AKTAS-913362
+    firediscoverydatetime: '2019-06-24T00:44Z'
+    firediscoverydatetimeEpoch: 1561337087000
+    complexparentirwinid: null
+    pooresponsibleunit: AKTAS
+    incidentname: Boundary River
+    iscomplex: 'false'
+    irwinid: '{4359657A-35B8-41FC-9144-728E8910334F}'
+    irwinmodifiedon: '2019-07-23T02:09Z'
+    irwinmodifiedonEpoch: 1563847765000
+    mapsymbol: '2'
+    datecurrent: '2019-07-22T20:30Z'
+    datecurrentEpoch: 1563827436000
+    pooownerunit: AKVLN
+    fireyear: 2019
+    localincidentidentifier: '913362'
+    incidenttypecategory: WF
+    owneragency: ANCSA
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 18000
-    PercentContained: 95
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-22T05:15Z'
-    ICS209ReportDateTimeEpoch: 1563772500000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 430810
     FireCause: Natural
-    TotalIncidentPersonnel: 3
+    ModifiedOnDateTime: '2019-07-23T02:00Z'
+    ModifiedOnDateTimeEpoch: 1563847200000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-AKTAS-913362
     FireDiscoveryDateTime: '2019-06-24T00:44Z'
     FireDiscoveryDateTimeEpoch: 1561337087000
-    DispatchCenterID: AKTASC
-    LocalIncidentIdentifier: '913362'
-    POOCounty: Southeast Fairbanks
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-07-22T05:15Z'
-    ModifiedOnDateTimeEpoch: 1563772500000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Boundary River
+    Name: Boundary River
+    Source: GEOMAC
+    Hashtag: '#BoundaryRiverFire'
     _CorrelationIds:
       - 2019-AKTAS-913362
-    ModifiedOnDateTime_Raw: '2019-07-22T05:29Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563773361000
-    Hashtag: '#BoundaryRiverFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-14T11:51Z'
     PerimeterData:
       DateTime: '2019-07-14T11:51Z'
       Acres: 17999.380154
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-22T05:31:34.786Z'
+          RetrievedOn: '2019-07-23T02:30:56.965Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -913,8 +991,8 @@ Database:
     Final_Fire_Name: Boundary River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-22T05:15Z-PER-2019-07-14T11:51Z-ID-2019-AKTAS-913362-NAME-BoundaryRiver-S-N
-      Code: 2ebfaae8bfc75b3907d98faa773cc2c2aac94e4ba95881aa74e96d7ab7d7f33c
+        UPD-2019-07-23T02:00Z-PER-2019-07-14T11:51Z-ID-2019-AKTAS-913362-NAME-BoundaryRiver-S-G
+      Code: 3c43bf3788f3dbaa3d64ba3e74692adab6bb5e0344633508e86c90544dac33c2
   2019-AZSCA-000792:
     Source_GEOMAC:
       Lon: -109.99695499001704
@@ -2914,7 +2992,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-22T06:01:42.536Z'
+          RetrievedOn: '2019-07-23T02:30:42.309Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -2928,14 +3006,14 @@ Database:
       objectid: 1
       latitude: 62.9969444
       longitude: -141.0602778
-      acres: 25144
+      acres: 25169
       gacc: AKCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-22T05:15Z'
-      reportdatetimeEpoch: 1563772500000
+      reportdatetime: '2019-07-23T02:00Z'
+      reportdatetimeEpoch: 1563847200000
       percentcontained: 1
       uniquefireidentifier: 2019-AKTAS-913133
       firediscoverydatetime: '2019-05-21T23:54Z'
@@ -2945,11 +3023,11 @@ Database:
       incidentname: McArthur Creek
       iscomplex: 'false'
       irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
-      irwinmodifiedon: '2019-07-22T05:30Z'
-      irwinmodifiedonEpoch: 1563773435000
+      irwinmodifiedon: '2019-07-23T02:05Z'
+      irwinmodifiedonEpoch: 1563847517000
       mapsymbol: '3'
-      datecurrent: '2019-07-22T00:00Z'
-      datecurrentEpoch: 1563753631000
+      datecurrent: '2019-07-22T20:30Z'
+      datecurrentEpoch: 1563827436000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '913133'
@@ -2957,10 +3035,10 @@ Database:
       owneragency: State
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 25144
+      DailyAcres: 25169
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-22T05:15Z'
-      ModifiedOnDateTimeEpoch: 1563772500000
+      ModifiedOnDateTime: '2019-07-23T02:00Z'
+      ModifiedOnDateTimeEpoch: 1563847200000
       PercentContained: 1
       UniqueFireIdentifier: 2019-AKTAS-913133
       FireDiscoveryDateTime: '2019-05-21T23:54Z'
@@ -2971,7 +3049,7 @@ Database:
       Hashtag: '#McArthurCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-22T06:01:42.536Z'
+          RetrievedOn: '2019-07-23T02:30:42.310Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -2988,49 +3066,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKTAS-913133
-    Lon: -142.000020727324
-    Lat: 63.00000445730161
-    id: 116851
-    Name: McArthur Creek
-    Fire_Name: McArthur Creek
-    UniqueFireIdentifier: 2019-AKTAS-913133
-    DailyAcres: 25144
-    PercentContained: 1
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-22T05:15Z'
-    ICS209ReportDateTimeEpoch: 1563772500000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 507560
+    Lon: -141.06030198488165
+    Lat: 62.99694740766596
+    objectid: 1
+    latitude: 62.9969444
+    longitude: -141.0602778
+    acres: 25169
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-23T02:00Z'
+    reportdatetimeEpoch: 1563847200000
+    percentcontained: 1
+    uniquefireidentifier: 2019-AKTAS-913133
+    firediscoverydatetime: '2019-05-21T23:54Z'
+    firediscoverydatetimeEpoch: 1558482850000
+    complexparentirwinid: null
+    pooresponsibleunit: AKTAS
+    incidentname: McArthur Creek
+    iscomplex: 'false'
+    irwinid: '{EA646D2D-D8FF-4ED8-8BFD-F688F69126C8}'
+    irwinmodifiedon: '2019-07-23T02:05Z'
+    irwinmodifiedonEpoch: 1563847517000
+    mapsymbol: '3'
+    datecurrent: '2019-07-22T20:30Z'
+    datecurrentEpoch: 1563827436000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '913133'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 25169
     FireCause: Natural
-    TotalIncidentPersonnel: 0
+    ModifiedOnDateTime: '2019-07-23T02:00Z'
+    ModifiedOnDateTimeEpoch: 1563847200000
+    PercentContained: 1
+    UniqueFireIdentifier: 2019-AKTAS-913133
     FireDiscoveryDateTime: '2019-05-21T23:54Z'
     FireDiscoveryDateTimeEpoch: 1558482850000
-    DispatchCenterID: AKTASC
-    LocalIncidentIdentifier: '913133'
-    POOCounty: Southeast Fairbanks
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-22T05:15Z'
-    ModifiedOnDateTimeEpoch: 1563772500000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: McArthur Creek
+    Name: McArthur Creek
+    Source: GEOMAC
+    Hashtag: '#McArthurCreekFire'
     _CorrelationIds:
       - 2019-AKTAS-913133
-    ModifiedOnDateTime_Raw: '2019-07-22T05:30Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563773434000
-    Hashtag: '#McArthurCreekFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-15T22:25Z'
     PerimeterData:
       DateTime: '2019-07-15T22:25Z'
       Acres: 38954.5856588
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-22T06:01:44.735Z'
+          RetrievedOn: '2019-07-23T02:30:54.522Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -3051,8 +3141,8 @@ Database:
     Final_Fire_Name: Mc Arthur Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-22T05:15Z-PER-2019-07-15T22:25Z-ID-2019-AKTAS-913133-NAME-McArthurCreek-S-N
-      Code: dfdd67f8ce77ba843e7f2ba80ed51341470a1d048fdee051f16ae794ccf83450
+        UPD-2019-07-23T02:00Z-PER-2019-07-15T22:25Z-ID-2019-AKTAS-913133-NAME-McArthurCreek-S-G
+      Code: 52cc8d3de2c55339d291768698757b8c3463b97d392ce84806fabfbf5d4fb0b6
   CALFIRE-fe63d965-9069-4a96-b9da-99d5fefdaa19:
     Source_CALFIRE:
       Lon: -122.40157
@@ -37340,16 +37430,16 @@ Database:
       Lat: 34.9008333
       incident_name: Tejon Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-07-22T14:12Z'
-      incident_date_last_updateEpoch: 1563804758000
+      incident_date_last_update: '2019-07-23T02:30Z'
+      incident_date_last_updateEpoch: 1563849030000
       incident_date_created: '2019-07-21T22:30Z'
       incident_date_createdEpoch: 1563748217000
       incident_administrative_unit: Kern County Fire Department
       incident_administrative_unit_url: ''
       incident_county: Kern
       incident_location: 'I 5 and Diger Rd, South of Bakersfield'
-      incident_acres_burned: 215
-      incident_containment: 60
+      incident_acres_burned: 208
+      incident_containment: 80
       incident_control: ''
       incident_cooperating_agencies: ''
       incident_longitude: -118.9183333
@@ -37362,10 +37452,10 @@ Database:
       incident_dateonly_created: '2019-07-21'
       is_active: 'Y'
       Fire_Name: Tejon Fire
-      ModifiedOnDateTime: '2019-07-22T14:12Z'
-      ModifiedOnDateTimeEpoch: 1563804758000
-      DailyAcres: 215
-      PercentContained: 60
+      ModifiedOnDateTime: '2019-07-23T02:30Z'
+      ModifiedOnDateTimeEpoch: 1563849030000
+      DailyAcres: 208
+      PercentContained: 80
       UniqueFireIdentifier: CALFIRE-49dbe286-1cfe-4e03-a872-13185aae767a
       Name: Tejon Fire
       Source: CALFIRE
@@ -37375,7 +37465,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=49dbe286-1cfe-4e03-a872-13185aae767a
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-22T14:13:43.239Z'
+          RetrievedOn: '2019-07-23T02:30:42.310Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -37389,16 +37479,16 @@ Database:
     Lat: 34.9008333
     incident_name: Tejon Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-07-22T14:12Z'
-    incident_date_last_updateEpoch: 1563804758000
+    incident_date_last_update: '2019-07-23T02:30Z'
+    incident_date_last_updateEpoch: 1563849030000
     incident_date_created: '2019-07-21T22:30Z'
     incident_date_createdEpoch: 1563748217000
     incident_administrative_unit: Kern County Fire Department
     incident_administrative_unit_url: ''
     incident_county: Kern
     incident_location: 'I 5 and Diger Rd, South of Bakersfield'
-    incident_acres_burned: 215
-    incident_containment: 60
+    incident_acres_burned: 208
+    incident_containment: 80
     incident_control: ''
     incident_cooperating_agencies: ''
     incident_longitude: -118.9183333
@@ -37411,10 +37501,10 @@ Database:
     incident_dateonly_created: '2019-07-21'
     is_active: 'Y'
     Fire_Name: Tejon Fire
-    ModifiedOnDateTime: '2019-07-22T14:12Z'
-    ModifiedOnDateTimeEpoch: 1563804758000
-    DailyAcres: 215
-    PercentContained: 60
+    ModifiedOnDateTime: '2019-07-23T02:30Z'
+    ModifiedOnDateTimeEpoch: 1563849030000
+    DailyAcres: 208
+    PercentContained: 80
     UniqueFireIdentifier: CALFIRE-49dbe286-1cfe-4e03-a872-13185aae767a
     Name: Tejon Fire
     Source: CALFIRE
@@ -37434,8 +37524,8 @@ Database:
     Final_Fire_Name: Tejon Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-22T14:12Z-PER-none-ID-CALFIRE-49dbe286-1cfe-4e03-a872-13185aae767a-NAME-TejonFire-S-C
-      Code: df8cbabb18c5cde6b3346223d0e3791f12ec1f1a0077446934c0d20e40060915
+        UPD-2019-07-23T02:30Z-PER-none-ID-CALFIRE-49dbe286-1cfe-4e03-a872-13185aae767a-NAME-TejonFire-S-C
+      Code: 5c121b4878a0dedee83c3198b7576c40955f323f801a55cf7e2955d8bacad6ec
   2019-AKGAD-000218:
     Source_NFSA_Join:
       Lon: -160.10012148813118
