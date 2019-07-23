@@ -5551,119 +5551,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-23T03:30Z-PER-2019-06-28T09:43Z-ID-2019-AKUYD-000324-NAME-HessCreek-S-N
       Code: 9cc4bee7d66def6471bf6a8b823a997d821e55ae7747e410670bb64bf0100498
-  2019-AKUYD-000337:
-    Source_NFSA_Join:
-      Lon: -146.6940235140451
-      Lat: 66.59148037752013
-      id: 119899
-      Name: Hadweenzic River
-      Fire_Name: Hadweenzic River
-      UniqueFireIdentifier: 2019-AKUYD-000337
-      DailyAcres: 54300
-      PercentContained: 0
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-21T02:00Z'
-      ICS209ReportDateTimeEpoch: 1563674400000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1388436
-      FireCause: Natural
-      TotalIncidentPersonnel: 169
-      FireDiscoveryDateTime: '2019-06-22T23:46Z'
-      FireDiscoveryDateTimeEpoch: 1561247160000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000337'
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-21T02:00Z'
-      ModifiedOnDateTimeEpoch: 1563674400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000337
-      ModifiedOnDateTime_Raw: '2019-07-21T04:03Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563681790000
-      Hashtag: '#HadweenzicRiverFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-21T04:31:06.048Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -146.6940235140451
-    Lat: 66.59148037752013
-    id: 119899
-    Name: Hadweenzic River
-    Fire_Name: Hadweenzic River
-    UniqueFireIdentifier: 2019-AKUYD-000337
-    DailyAcres: 54300
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-21T02:00Z'
-    ICS209ReportDateTimeEpoch: 1563674400000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1388436
-    FireCause: Natural
-    TotalIncidentPersonnel: 169
-    FireDiscoveryDateTime: '2019-06-22T23:46Z'
-    FireDiscoveryDateTimeEpoch: 1561247160000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000337'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-21T02:00Z'
-    ModifiedOnDateTimeEpoch: 1563674400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000337
-    ModifiedOnDateTime_Raw: '2019-07-21T04:03Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563681790000
-    Hashtag: '#HadweenzicRiverFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-21T15:56Z'
-    PerimeterData:
-      DateTime: '2019-07-21T15:56Z'
-      Acres: 56738.0747163
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-22T18:32:17.121Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Hadweenzic River Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-21T02:00Z-PER-2019-07-21T15:56Z-ID-2019-AKUYD-000337-NAME-HadweenzicRiver-S-N
-      Code: 24f53a75aac5d7c52c926763a3a72e089b29753322d2066707f031e8752c69a7
   2019-AKUYD-000349:
     Source_NFSA_Join:
       Lon: -146.57162805658382
@@ -28329,13 +28216,13 @@ Database:
     Hashtag: '#CanyonFire'
     _CorrelationIds:
       - 2019-IDBOF-000429
-    PerimDateTime: '2019-07-21T00:00Z'
+    PerimDateTime: '2019-07-22T00:00Z'
     PerimeterData:
-      DateTime: '2019-07-21T00:00Z'
-      Acres: 325.01268326
+      DateTime: '2019-07-22T00:00Z'
+      Acres: 325.01268351
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T00:30:45.125Z'
+          RetrievedOn: '2019-07-23T17:00:02.249Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -28356,8 +28243,8 @@ Database:
     Final_Fire_Name: Canyon Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-22T23:00Z-PER-2019-07-21T00:00Z-ID-2019-IDBOF-000429-NAME-CANYON-S-G
-      Code: 005a15d0168c8ecf8d57b92e7ceec4d73f974c14cedcd97c2ada659719d7b2ae
+        UPD-2019-07-22T23:00Z-PER-2019-07-22T00:00Z-ID-2019-IDBOF-000429-NAME-CANYON-S-G
+      Code: 3daacb7813e04765886758564b38299c14c3bf77b0d8bf718e01c8358e2dd65b
   CALFIRE-a03c52ec-7366-43c5-965e-52e2b73df452:
     Source_CALFIRE:
       Lon: -120.84372
@@ -31262,119 +31149,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-19T04:00Z-PER-2019-07-17T16:48Z-ID-2019-AKGAD-000547-NAME-NayukaRiver-S-N
       Code: 227988a19fc6303c90eb4ffd70b18768300fc9273fa53502723a39aeeb63a54d
-  2019-AKUYD-000594:
-    Source_NFSA_Join:
-      Lon: -147.23743239571468
-      Lat: 67.20193013815715
-      id: 123520
-      Name: Thazzik Mountain
-      Fire_Name: Thazzik Mountain
-      UniqueFireIdentifier: 2019-AKUYD-000594
-      DailyAcres: 300
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-20T23:00Z'
-      ICS209ReportDateTimeEpoch: 1563663600000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-17T15:37Z'
-      FireDiscoveryDateTimeEpoch: 1563377820000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: 000594
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-20T23:00Z'
-      ModifiedOnDateTimeEpoch: 1563663600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000594
-      ModifiedOnDateTime_Raw: '2019-07-21T04:19Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563682753000
-      Hashtag: '#ThazzikMountainFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-21T04:31:06.048Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -147.23743239571468
-    Lat: 67.20193013815715
-    id: 123520
-    Name: Thazzik Mountain
-    Fire_Name: Thazzik Mountain
-    UniqueFireIdentifier: 2019-AKUYD-000594
-    DailyAcres: 300
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-20T23:00Z'
-    ICS209ReportDateTimeEpoch: 1563663600000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-17T15:37Z'
-    FireDiscoveryDateTimeEpoch: 1563377820000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: 000594
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-20T23:00Z'
-    ModifiedOnDateTimeEpoch: 1563663600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000594
-    ModifiedOnDateTime_Raw: '2019-07-21T04:19Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563682753000
-    Hashtag: '#ThazzikMountainFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-21T13:01Z'
-    PerimeterData:
-      DateTime: '2019-07-21T13:01Z'
-      Acres: 49.40014541
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-22T18:32:17.121Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Thazzik Mountain Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-20T23:00Z-PER-2019-07-21T13:01Z-ID-2019-AKUYD-000594-NAME-ThazzikMountain-S-N
-      Code: 031eeb92e56ab23a02946a7bc693754b706cd9effa152e9125f40246659d70bb
   2019-UTNWS-000343:
     Source_NFSA_Join:
       Lon: -112.3736096065207
@@ -31470,119 +31244,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-18T22:30Z-PER-none-ID-2019-UTNWS-000343-NAME-SouthRim-S-N'
       Code: 735e5750fa75b3072a9d53680de6403b987b9886c8117e4214279dfeb8f2db11
-  2019-AKUYD-000572:
-    Source_NFSA_Join:
-      Lon: -146.71792768375553
-      Lat: 67.3713213031789
-      id: 123279
-      Name: East Fork Chandalar
-      Fire_Name: East Fork Chandalar
-      UniqueFireIdentifier: 2019-AKUYD-000572
-      DailyAcres: 143
-      PercentContained: 70
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-21T01:00Z'
-      ICS209ReportDateTimeEpoch: 1563670800000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 510358
-      FireCause: Natural
-      TotalIncidentPersonnel: 50
-      FireDiscoveryDateTime: '2019-07-15T23:11Z'
-      FireDiscoveryDateTimeEpoch: 1563232260000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000572'
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-21T01:00Z'
-      ModifiedOnDateTimeEpoch: 1563670800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000572
-      ModifiedOnDateTime_Raw: '2019-07-21T02:47Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563677279000
-      Hashtag: '#EastForkChandalarFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-21T03:01:10.974Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -146.71792768375553
-    Lat: 67.3713213031789
-    id: 123279
-    Name: East Fork Chandalar
-    Fire_Name: East Fork Chandalar
-    UniqueFireIdentifier: 2019-AKUYD-000572
-    DailyAcres: 143
-    PercentContained: 70
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-21T01:00Z'
-    ICS209ReportDateTimeEpoch: 1563670800000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 510358
-    FireCause: Natural
-    TotalIncidentPersonnel: 50
-    FireDiscoveryDateTime: '2019-07-15T23:11Z'
-    FireDiscoveryDateTimeEpoch: 1563232260000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000572'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-21T01:00Z'
-    ModifiedOnDateTimeEpoch: 1563670800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000572
-    ModifiedOnDateTime_Raw: '2019-07-21T02:47Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563677279000
-    Hashtag: '#EastForkChandalarFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-21T13:43Z'
-    PerimeterData:
-      DateTime: '2019-07-21T13:43Z'
-      Acres: 161.89710777
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-22T18:32:17.121Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: East Fork Chandalar Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-21T01:00Z-PER-2019-07-21T13:43Z-ID-2019-AKUYD-000572-NAME-EastForkChandalar-S-N
-      Code: f29df8f3f250e8bd305f17193b46b6a0fd2a9bf6cdb9369ebb073ba6c63fc691
   CALFIRE-900997e0-f30a-48bf-9358-971ca2afa1d6:
     Source_CALFIRE:
       Lon: -121.371276
@@ -32789,13 +32450,13 @@ Database:
     Hashtag: '#PeavineCanyonFire'
     _CorrelationIds:
       - 2019-UTMLF-009115
-    PerimDateTime: '2019-07-21T16:43Z'
+    PerimDateTime: '2019-07-22T20:51Z'
     PerimeterData:
-      DateTime: '2019-07-21T16:43Z'
-      Acres: 194.1820437
+      DateTime: '2019-07-22T20:51Z'
+      Acres: 243.07330452
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T00:30:45.125Z'
+          RetrievedOn: '2019-07-23T17:00:02.249Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -32816,8 +32477,8 @@ Database:
     Final_Fire_Name: Peavine Canyon Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-22T23:15Z-PER-2019-07-21T16:43Z-ID-2019-UTMLF-009115-NAME-PeavineCanyon-S-G
-      Code: a77fe2b6fa6c07ee81958c6e2ade70a948dc7b863d592d365728da62780604dc
+        UPD-2019-07-22T23:15Z-PER-2019-07-22T20:51Z-ID-2019-UTMLF-009115-NAME-PeavineCanyon-S-G
+      Code: 027eb07c7f8cd4cc7e1d8fe3ea28ed7135b00f95f3424b973c6db871f82ea994
   2019-WAMCR-000282:
     Source_NFSA_Join:
       Lon: -119.94911138065348
@@ -36310,13 +35971,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563846163000
     Hashtag: '#VaderFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-21T00:00Z'
+    PerimDateTime: '2019-07-23T09:06Z'
     PerimeterData:
-      DateTime: '2019-07-21T00:00Z'
-      Acres: 438.88065751
+      DateTime: '2019-07-23T09:06Z'
+      Acres: 442.72739409
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T02:01:55.493Z'
+          RetrievedOn: '2019-07-23T17:00:02.249Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -36337,8 +35998,8 @@ Database:
     Final_Fire_Name: Vader Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-23T01:00Z-PER-2019-07-21T00:00Z-ID-2019-IDSCF-019160-NAME-Vader-S-N
-      Code: f0130745055d6ab2f886d235d0cb780551ec71c49b968b46c0bb4f1a87036d7d
+        UPD-2019-07-23T01:00Z-PER-2019-07-23T09:06Z-ID-2019-IDSCF-019160-NAME-Vader-S-N
+      Code: e0d09f87a95b5a948a5116d7d43bfe9a764ec4649ca57809c618fc75709fe0e2
   2019-NMN2S-000024:
     Source_NFSA_Join:
       Lon: -103.27534664481841
@@ -37777,13 +37438,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563863779000
     Hashtag: '#MuseumFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-22T03:15Z'
+    PerimDateTime: '2019-07-22T12:20Z'
     PerimeterData:
-      DateTime: '2019-07-22T03:15Z'
-      Acres: 415.18116312
+      DateTime: '2019-07-22T12:20Z'
+      Acres: 771.89672847
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T07:01:34.856Z'
+          RetrievedOn: '2019-07-23T17:00:02.249Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -37804,8 +37465,8 @@ Database:
     Final_Fire_Name: Museum Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-22T22:00Z-PER-2019-07-22T03:15Z-ID-2019-AZCOF-000788-NAME-Museum-S-N
-      Code: fb9c4eefba77bc2734e5168ef1a7c8763cc02a4dd60cf7ab63b8490ab22d540d
+        UPD-2019-07-22T22:00Z-PER-2019-07-22T12:20Z-ID-2019-AZCOF-000788-NAME-Museum-S-N
+      Code: a37b74ba8251f87b71a0ce496d4f537ed9babb47436f7f5af487e8902816d37a
   2019-AKMSS-901640:
     Source_NFSA_Join:
       Lon: -151.4930213911741
@@ -38081,9 +37742,9 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563859363000
     Hashtag: '#CornucopiaComplex'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-21T16:56Z'
+    PerimDateTime: '2019-07-23T00:26Z'
     PerimeterData:
-      DateTime: '2019-07-21T16:56Z'
+      DateTime: '2019-07-23T00:26Z'
       Acres: null
       _Provenance: null
     unitId: AKUYD
@@ -38091,8 +37752,8 @@ Database:
     Final_Fire_Name: Cornucopia Complex
     _Update:
       UpdateId: >-
-        UPD-2019-07-22T16:00Z-PER-2019-07-21T16:56Z-ID-2019-AKUYD-555335-NAME-CornucopiaComplex-S-N
-      Code: 2fbf3f6895123b5c21bd02df955201daa1f4005644fce06333d8bc0caa04c414
+        UPD-2019-07-22T16:00Z-PER-2019-07-23T00:26Z-ID-2019-AKUYD-555335-NAME-CornucopiaComplex-S-N
+      Code: ad905f58146c59f64800702dd317c9a0aaf1fcab3ddde07913cb963d3956de48
   2019-AKSWS-904457:
     Source_NFSA_Join:
       Lon: -154.99768169117945
@@ -38469,17 +38130,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1563850445000
     Hashtag: '#RoundButteFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-22T12:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-22T12:00Z'
+      Acres: 211.18869201
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-23T17:00:02.249Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: ORBUD
     unitMention: Burns District
     Final_Fire_Name: Round Butte Fire
     _Update:
-      UpdateId: 'UPD-2019-07-23T02:54Z-PER-none-ID-2019-ORBUD-009057-NAME-RoundButte-S-N'
-      Code: dfcbe8c332709ecd6846f6ced1ed5a55db621085c51c0fdd5f17ea971c4aeb59
+      UpdateId: >-
+        UPD-2019-07-23T02:54Z-PER-2019-07-22T12:00Z-ID-2019-ORBUD-009057-NAME-RoundButte-S-N
+      Code: bcb3c0a8b0b741bf9dc814af6bd3286f56f7cccfbdeec79ecac5eb594e94f928
   2019-NVWID-020170:
     Source_NFSA_Join:
       Lon: -119.52541199374565
@@ -38669,9 +38348,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=d5ebf295-49d5-4a6a-ae13-47a921355e19
     _CorrelationIds:
       - CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19
-    PerimDateTime: '2019-07-22T03:15Z'
+    PerimDateTime: '2019-07-23T09:06Z'
     PerimeterData:
-      DateTime: '2019-07-22T03:15Z'
+      DateTime: '2019-07-23T09:06Z'
       Acres: null
       _Provenance: null
     unitId: d5ebf295
@@ -38679,8 +38358,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-23T16:05Z-PER-2019-07-22T03:15Z-ID-CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19-NAME--S-C
-      Code: 0f091639fa1925a41b41a39ea778e7a8e7b9a6e8ff9195111f01b399a9e7220e
+        UPD-2019-07-23T16:05Z-PER-2019-07-23T09:06Z-ID-CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19-NAME--S-C
+      Code: 372b3313b993c3673af78aa0359a083a328803bdf9b0d215607911ea18ad626d
   2019-AKMSS-901645:
     Source_NFSA_Join:
       Lon: -150.67418904339348
