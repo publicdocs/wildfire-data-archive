@@ -41558,3 +41558,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-24T02:00Z-PER-none-ID-2019-AKFAS-911651-NAME-Teklanika-S-N'
       Code: 519afc1ea06aacbbb9e424d463e6c15f89a49c18bbfa4ee4cec9dff74d8b5264
+  2019-AKGAD-000526:
+    Source_NFSA_Join:
+      Lon: -156.29982562812208
+      Lat: 65.95824010256173
+      id: 122759
+      Name: Tom Cook Slough
+      Fire_Name: Tom Cook Slough
+      UniqueFireIdentifier: 2019-AKGAD-000526
+      DailyAcres: 978
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-07-23T00:15Z'
+      ICS209ReportDateTimeEpoch: 1563840900000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 10000
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-12T23:55Z'
+      FireDiscoveryDateTimeEpoch: 1562975700000
+      DispatchCenterID: AKGADC
+      LocalIncidentIdentifier: '000526'
+      POOCounty: Yukon-Koyukuk
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-23T00:15Z'
+      ModifiedOnDateTimeEpoch: 1563840900000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKGAD-000526
+      ModifiedOnDateTime_Raw: '2019-07-24T05:52Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563947534000
+      Hashtag: '#TomCookSloughFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-24T06:03:07.244Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -156.29982562812208
+    Lat: 65.95824010256173
+    id: 122759
+    Name: Tom Cook Slough
+    Fire_Name: Tom Cook Slough
+    UniqueFireIdentifier: 2019-AKGAD-000526
+    DailyAcres: 978
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-07-23T00:15Z'
+    ICS209ReportDateTimeEpoch: 1563840900000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 10000
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-12T23:55Z'
+    FireDiscoveryDateTimeEpoch: 1562975700000
+    DispatchCenterID: AKGADC
+    LocalIncidentIdentifier: '000526'
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-23T00:15Z'
+    ModifiedOnDateTimeEpoch: 1563840900000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKGAD-000526
+    ModifiedOnDateTime_Raw: '2019-07-24T05:52Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563947534000
+    Hashtag: '#TomCookSloughFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-18T16:07Z'
+    PerimeterData:
+      DateTime: '2019-07-18T16:07Z'
+      Acres: 4063.6431704
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-24T06:03:14.387Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AKGAD
+    unitMention: Alaska Fire Service - Galena Zone
+    Final_Fire_Name: Tom Cook Slough Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-23T00:15Z-PER-2019-07-18T16:07Z-ID-2019-AKGAD-000526-NAME-TomCookSlough-S-N
+      Code: 0ba0bd8537579c83d43833255c0fa1f0cb7e224776a86842b252620afa037485
