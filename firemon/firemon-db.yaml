@@ -36534,39 +36534,39 @@ Database:
       Name: Round Butte
       Fire_Name: Round Butte
       UniqueFireIdentifier: 2019-ORBUD-009057
-      DailyAcres: 325
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 1209
+      PercentContained: 40
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-24T00:30Z'
+      ICS209ReportDateTimeEpoch: 1563928200000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 50000
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 72
       FireDiscoveryDateTime: '2019-07-22T04:47Z'
       FireDiscoveryDateTimeEpoch: 1563770820000
       DispatchCenterID: ORBIC
       LocalIncidentIdentifier: 009057
       POOCounty: Harney
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-23T02:54Z'
-      ModifiedOnDateTimeEpoch: 1563850445000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-24T00:30Z'
+      ModifiedOnDateTimeEpoch: 1563928200000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-ORBUD-009057
-      ModifiedOnDateTime_Raw: '2019-07-23T02:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563850445000
+      ModifiedOnDateTime_Raw: '2019-07-24T01:22Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563931333000
       Hashtag: '#RoundButteFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T03:01:55.173Z'
+          RetrievedOn: '2019-07-24T01:33:09.669Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -36574,40 +36574,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -119.29112458493279
+      Lat: 43.162783434862874
+      objectid: 40
+      latitude: 43.1627778
+      longitude: -119.2911111
+      acres: 1209
+      gacc: NWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OR
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-24T00:30Z'
+      reportdatetimeEpoch: 1563928200000
+      percentcontained: 40
+      uniquefireidentifier: 2019-ORBUD-009057
+      firediscoverydatetime: '2019-07-22T04:47Z'
+      firediscoverydatetimeEpoch: 1563770820000
+      complexparentirwinid: null
+      pooresponsibleunit: ORBUD
+      incidentname: Round Butte
+      iscomplex: 'false'
+      irwinid: '{47CA28B2-D1B3-496F-BF05-7C4B52E03E49}'
+      irwinmodifiedon: '2019-07-24T01:22Z'
+      irwinmodifiedonEpoch: 1563931333000
+      mapsymbol: '1'
+      datecurrent: '2019-07-23T19:31Z'
+      datecurrentEpoch: 1563910261000
+      pooownerunit: ORBUD
+      fireyear: 2019
+      localincidentidentifier: 009057
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 1209
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-24T00:30Z'
+      ModifiedOnDateTimeEpoch: 1563928200000
+      PercentContained: 40
+      UniqueFireIdentifier: 2019-ORBUD-009057
+      FireDiscoveryDateTime: '2019-07-22T04:47Z'
+      FireDiscoveryDateTimeEpoch: 1563770820000
+      Fire_Name: Round Butte
+      Name: Round Butte
+      Source: GEOMAC
+      Hashtag: '#RoundButteFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-24T01:33:09.670Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-ORBUD-009057
     Lon: -119.2906103447825
     Lat: 43.16268475979158
     id: 124126
     Name: Round Butte
     Fire_Name: Round Butte
     UniqueFireIdentifier: 2019-ORBUD-009057
-    DailyAcres: 325
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 1209
+    PercentContained: 40
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-24T00:30Z'
+    ICS209ReportDateTimeEpoch: 1563928200000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 50000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 72
     FireDiscoveryDateTime: '2019-07-22T04:47Z'
     FireDiscoveryDateTimeEpoch: 1563770820000
     DispatchCenterID: ORBIC
     LocalIncidentIdentifier: 009057
     POOCounty: Harney
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-23T02:54Z'
-    ModifiedOnDateTimeEpoch: 1563850445000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-24T00:30Z'
+    ModifiedOnDateTimeEpoch: 1563928200000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-ORBUD-009057
-    ModifiedOnDateTime_Raw: '2019-07-23T02:54Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563850445000
+    ModifiedOnDateTime_Raw: '2019-07-24T01:22Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563931333000
     Hashtag: '#RoundButteFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-22T12:00Z'
@@ -36616,7 +36682,7 @@ Database:
       Acres: 211.18869201
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T17:00:02.249Z'
+          RetrievedOn: '2019-07-24T01:33:12.155Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -36637,8 +36703,8 @@ Database:
     Final_Fire_Name: Round Butte Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-23T02:54Z-PER-2019-07-22T12:00Z-ID-2019-ORBUD-009057-NAME-RoundButte-S-N
-      Code: bcb3c0a8b0b741bf9dc814af6bd3286f56f7cccfbdeec79ecac5eb594e94f928
+        UPD-2019-07-24T00:30Z-PER-2019-07-22T12:00Z-ID-2019-ORBUD-009057-NAME-RoundButte-S-N
+      Code: 7ac18149d79f8b359414a15bda97bf404663cf58f066363dfdf1a1922ddf1aa1
   2019-NVWID-020170:
     Source_NFSA_Join:
       Lon: -119.52541199374565
@@ -39445,7 +39511,7 @@ Database:
       Fire_Name: Cap
       UniqueFireIdentifier: 2019-TXTXS-190123
       DailyAcres: 351
-      PercentContained: 70
+      PercentContained: 75
       FireMgmtComplexity: Type 5 Incident
       IncidentManagementOrganization: null
       ICS209ReportDateTime: null
@@ -39462,21 +39528,21 @@ Database:
       LocalIncidentIdentifier: '190123'
       POOCounty: Llano
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-24T00:18Z'
-      ModifiedOnDateTimeEpoch: 1563927522000
+      ModifiedOnDateTime: '2019-07-24T01:26Z'
+      ModifiedOnDateTimeEpoch: 1563931571000
       ModifiedBySystem: wires
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190123
-      ModifiedOnDateTime_Raw: '2019-07-24T00:18Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563927522000
+      ModifiedOnDateTime_Raw: '2019-07-24T01:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563931571000
       Hashtag: '#CapFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-24T00:31:34.994Z'
+          RetrievedOn: '2019-07-24T01:33:09.669Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -39491,7 +39557,7 @@ Database:
     Fire_Name: Cap
     UniqueFireIdentifier: 2019-TXTXS-190123
     DailyAcres: 351
-    PercentContained: 70
+    PercentContained: 75
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: null
     ICS209ReportDateTime: null
@@ -39508,16 +39574,16 @@ Database:
     LocalIncidentIdentifier: '190123'
     POOCounty: Llano
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-24T00:18Z'
-    ModifiedOnDateTimeEpoch: 1563927522000
+    ModifiedOnDateTime: '2019-07-24T01:26Z'
+    ModifiedOnDateTimeEpoch: 1563931571000
     ModifiedBySystem: wires
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190123
-    ModifiedOnDateTime_Raw: '2019-07-24T00:18Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563927522000
+    ModifiedOnDateTime_Raw: '2019-07-24T01:26Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563931571000
     Hashtag: '#CapFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -39529,8 +39595,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Cap Fire
     _Update:
-      UpdateId: 'UPD-2019-07-24T00:18Z-PER-none-ID-2019-TXTXS-190123-NAME-Cap-S-N'
-      Code: 4b1d08863c85131a10dad5fa187228d7818b7c97aa0c47a7502fa9915a1b758a
+      UpdateId: 'UPD-2019-07-24T01:26Z-PER-none-ID-2019-TXTXS-190123-NAME-Cap-S-N'
+      Code: ff933799d42dd0053bacd01bf68e04a70b7cf7abd64f703ed5bfb28642f8b7ab
   2019-ORVAD-000090:
     Source_NFSA_Join:
       Lon: -117.80431177459539
@@ -40285,21 +40351,21 @@ Database:
       LocalIncidentIdentifier: '190125'
       POOCounty: Schleicher
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-24T00:43Z'
-      ModifiedOnDateTimeEpoch: 1563928981000
+      ModifiedOnDateTime: '2019-07-24T01:11Z'
+      ModifiedOnDateTimeEpoch: 1563930662000
       ModifiedBySystem: wires
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190125
-      ModifiedOnDateTime_Raw: '2019-07-24T00:43Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563928981000
+      ModifiedOnDateTime_Raw: '2019-07-24T01:11Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563930662000
       Hashtag: '#MadaFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-24T01:01:56.671Z'
+          RetrievedOn: '2019-07-24T01:33:09.669Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -40331,16 +40397,16 @@ Database:
     LocalIncidentIdentifier: '190125'
     POOCounty: Schleicher
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-24T00:43Z'
-    ModifiedOnDateTimeEpoch: 1563928981000
+    ModifiedOnDateTime: '2019-07-24T01:11Z'
+    ModifiedOnDateTimeEpoch: 1563930662000
     ModifiedBySystem: wires
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190125
-    ModifiedOnDateTime_Raw: '2019-07-24T00:43Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563928981000
+    ModifiedOnDateTime_Raw: '2019-07-24T01:11Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563930662000
     Hashtag: '#MadaFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -40352,5 +40418,5 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Mada Fire
     _Update:
-      UpdateId: 'UPD-2019-07-24T00:43Z-PER-none-ID-2019-TXTXS-190125-NAME-Mada-S-N'
-      Code: 138046a795862f672d5bc6fcf5133b8dfda316754ca2c49998442d1eae0f0dc1
+      UpdateId: 'UPD-2019-07-24T01:11Z-PER-none-ID-2019-TXTXS-190125-NAME-Mada-S-N'
+      Code: 22c812bb75003a69ccbb1f9079f8f07727b525efdce915c3b38f90d5f7905186
