@@ -37848,39 +37848,39 @@ Database:
       Name: Sheep
       Fire_Name: Sheep
       UniqueFireIdentifier: 2019-IDINE-000081
-      DailyAcres: 2000
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 99500
+      PercentContained: 15
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-24T00:30Z'
+      ICS209ReportDateTimeEpoch: 1563928200000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
-      FireCause: Unknown
-      TotalIncidentPersonnel: null
+      EstimatedCostToDate: 600000
+      FireCause: Natural
+      TotalIncidentPersonnel: 109
       FireDiscoveryDateTime: '2019-07-23T00:09Z'
       FireDiscoveryDateTimeEpoch: 1563840540000
       DispatchCenterID: IDEIC
       LocalIncidentIdentifier: 000081
       POOCounty: Jefferson
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-23T03:03Z'
-      ModifiedOnDateTimeEpoch: 1563851008000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-24T00:30Z'
+      ModifiedOnDateTimeEpoch: 1563928200000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDINE-000081
-      ModifiedOnDateTime_Raw: '2019-07-23T03:03Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563851008000
+      ModifiedOnDateTime_Raw: '2019-07-24T02:08Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563934089000
       Hashtag: '#SheepFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T03:30:43.638Z'
+          RetrievedOn: '2019-07-24T02:31:50.530Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -37888,40 +37888,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -112.52281231109141
+      Lat: 43.71478629516235
+      objectid: 42
+      latitude: 43.71478
+      longitude: -112.5228
+      acres: 99500
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: ID
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-24T00:30Z'
+      reportdatetimeEpoch: 1563928200000
+      percentcontained: 15
+      uniquefireidentifier: 2019-IDINE-000081
+      firediscoverydatetime: '2019-07-23T00:09Z'
+      firediscoverydatetimeEpoch: 1563840540000
+      complexparentirwinid: null
+      pooresponsibleunit: IDINE
+      incidentname: Sheep
+      iscomplex: 'false'
+      irwinid: '{5A43D800-EA23-4DA8-8CCB-A78BCF216E19}'
+      irwinmodifiedon: '2019-07-24T02:08Z'
+      irwinmodifiedonEpoch: 1563934090000
+      mapsymbol: '4'
+      datecurrent: '2019-07-23T20:30Z'
+      datecurrentEpoch: 1563913835000
+      pooownerunit: IDIFD
+      fireyear: 2019
+      localincidentidentifier: 000081
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 99500
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-24T00:30Z'
+      ModifiedOnDateTimeEpoch: 1563928200000
+      PercentContained: 15
+      UniqueFireIdentifier: 2019-IDINE-000081
+      FireDiscoveryDateTime: '2019-07-23T00:09Z'
+      FireDiscoveryDateTimeEpoch: 1563840540000
+      Fire_Name: Sheep
+      Name: Sheep
+      Source: GEOMAC
+      Hashtag: '#SheepFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-24T02:31:50.531Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-IDINE-000081
     Lon: -112.52281079206011
     Lat: 43.714784524257794
     id: 124254
     Name: Sheep
     Fire_Name: Sheep
     UniqueFireIdentifier: 2019-IDINE-000081
-    DailyAcres: 2000
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 99500
+    PercentContained: 15
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-24T00:30Z'
+    ICS209ReportDateTimeEpoch: 1563928200000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
+    EstimatedCostToDate: 600000
+    FireCause: Natural
+    TotalIncidentPersonnel: 109
     FireDiscoveryDateTime: '2019-07-23T00:09Z'
     FireDiscoveryDateTimeEpoch: 1563840540000
     DispatchCenterID: IDEIC
     LocalIncidentIdentifier: 000081
     POOCounty: Jefferson
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-23T03:03Z'
-    ModifiedOnDateTimeEpoch: 1563851008000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-24T00:30Z'
+    ModifiedOnDateTimeEpoch: 1563928200000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-IDINE-000081
-    ModifiedOnDateTime_Raw: '2019-07-23T03:03Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563851008000
+    ModifiedOnDateTime_Raw: '2019-07-24T02:08Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563934089000
     Hashtag: '#SheepFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -37933,8 +37999,8 @@ Database:
     unitMention: Idaho National Laboratory
     Final_Fire_Name: Sheep Fire
     _Update:
-      UpdateId: 'UPD-2019-07-23T03:03Z-PER-none-ID-2019-IDINE-000081-NAME-Sheep-S-N'
-      Code: 2c0b75cd8eaef4194ecf865abe7e8407d481d56472821a781a8b8ae034ad2d8c
+      UpdateId: 'UPD-2019-07-24T00:30Z-PER-none-ID-2019-IDINE-000081-NAME-Sheep-S-N'
+      Code: 4c62af429cf448c7b608a1a6b3994c6dd2d8d211612680ab1b0df9ad4e2a47a6
   2019-AZKNF-000499:
     Source_NFSA_Join:
       Lon: -112.22810947995187
@@ -38569,39 +38635,39 @@ Database:
       Name: Old Greg
       Fire_Name: Old Greg
       UniqueFireIdentifier: 2019-NVPERX-020177
-      DailyAcres: 500
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 120.3
+      PercentContained: 80
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-24T01:30Z'
+      ICS209ReportDateTimeEpoch: 1563931800000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 40000
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 69
       FireDiscoveryDateTime: '2019-07-23T02:45Z'
       FireDiscoveryDateTimeEpoch: 1563849900000
       DispatchCenterID: NVCNC
       LocalIncidentIdentifier: '020177'
       POOCounty: Pershing
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-23T18:17Z'
-      ModifiedOnDateTimeEpoch: 1563905830000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-24T01:30Z'
+      ModifiedOnDateTimeEpoch: 1563931800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVPERX-020177
-      ModifiedOnDateTime_Raw: '2019-07-23T18:17Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563905830000
+      ModifiedOnDateTime_Raw: '2019-07-24T02:05Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563933934000
       Hashtag: '#OldGregFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T18:31:30.651Z'
+          RetrievedOn: '2019-07-24T02:31:50.530Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -38609,40 +38675,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -117.82001284943777
+      Lat: 40.71889555729096
+      objectid: 47
+      latitude: 40.71889
+      longitude: -117.82
+      acres: 120.3
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NV
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-24T01:30Z'
+      reportdatetimeEpoch: 1563931800000
+      percentcontained: 80
+      uniquefireidentifier: 2019-NVPERX-020177
+      firediscoverydatetime: '2019-07-23T02:45Z'
+      firediscoverydatetimeEpoch: 1563849900000
+      complexparentirwinid: null
+      pooresponsibleunit: NVPERX
+      incidentname: Old Greg
+      iscomplex: 'false'
+      irwinid: '{9028F5A0-8036-4444-B790-872D998C076E}'
+      irwinmodifiedon: '2019-07-24T02:05Z'
+      irwinmodifiedonEpoch: 1563933934000
+      mapsymbol: '1'
+      datecurrent: '2019-07-23T20:30Z'
+      datecurrentEpoch: 1563913835000
+      pooownerunit: NVWID
+      fireyear: 2019
+      localincidentidentifier: '020177'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 120.3
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-24T01:30Z'
+      ModifiedOnDateTimeEpoch: 1563931800000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-NVPERX-020177
+      FireDiscoveryDateTime: '2019-07-23T02:45Z'
+      FireDiscoveryDateTimeEpoch: 1563849900000
+      Fire_Name: Old Greg
+      Name: Old Greg
+      Source: GEOMAC
+      Hashtag: '#OldGregFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-24T02:31:50.531Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NVPERX-020177
     Lon: -117.8200143257618
     Lat: 40.71889675587551
     id: 124298
     Name: Old Greg
     Fire_Name: Old Greg
     UniqueFireIdentifier: 2019-NVPERX-020177
-    DailyAcres: 500
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 120.3
+    PercentContained: 80
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-24T01:30Z'
+    ICS209ReportDateTimeEpoch: 1563931800000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 40000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 69
     FireDiscoveryDateTime: '2019-07-23T02:45Z'
     FireDiscoveryDateTimeEpoch: 1563849900000
     DispatchCenterID: NVCNC
     LocalIncidentIdentifier: '020177'
     POOCounty: Pershing
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-23T18:17Z'
-    ModifiedOnDateTimeEpoch: 1563905830000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-24T01:30Z'
+    ModifiedOnDateTimeEpoch: 1563931800000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NVPERX-020177
-    ModifiedOnDateTime_Raw: '2019-07-23T18:17Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563905830000
+    ModifiedOnDateTime_Raw: '2019-07-24T02:05Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563933934000
     Hashtag: '#OldGregFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -38654,8 +38786,8 @@ Database:
     unitMention: Pershing Co.
     Final_Fire_Name: Old Greg Fire
     _Update:
-      UpdateId: 'UPD-2019-07-23T18:17Z-PER-none-ID-2019-NVPERX-020177-NAME-OldGreg-S-N'
-      Code: b65f6e0841780f725c02e47b8a0607ef8fa63948093d9b66d3f127a6fb7b400e
+      UpdateId: 'UPD-2019-07-24T01:30Z-PER-none-ID-2019-NVPERX-020177-NAME-OldGreg-S-N'
+      Code: 732f0733fb4548cc7aa0773509a7877f3d1f8c6dbc324cfdf3f0ce1f23cf4199
   2019-NVWID-020185:
     Source_NFSA_Join:
       Lon: -117.51611426514417
@@ -39100,38 +39232,38 @@ Database:
       Fire_Name: Notch Butte
       UniqueFireIdentifier: 2019-IDTFD-000168
       DailyAcres: 4952
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-23T22:30Z'
+      ICS209ReportDateTimeEpoch: 1563921000000
+      ICS209ReportStatus: F
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
-      FireCause: Unknown
-      TotalIncidentPersonnel: null
+      EstimatedCostToDate: 50000
+      FireCause: Natural
+      TotalIncidentPersonnel: 19
       FireDiscoveryDateTime: '2019-07-23T07:17Z'
       FireDiscoveryDateTimeEpoch: 1563866220000
       DispatchCenterID: IDSCC
       LocalIncidentIdentifier: 000168
       POOCounty: Lincoln
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-23T21:35Z'
-      ModifiedOnDateTimeEpoch: 1563917747000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-23T22:30Z'
+      ModifiedOnDateTimeEpoch: 1563921000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDTFD-000168
-      ModifiedOnDateTime_Raw: '2019-07-23T21:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563917747000
+      ModifiedOnDateTime_Raw: '2019-07-24T02:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1563934478000
       Hashtag: '#NotchButteFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-23T22:02:07.607Z'
+          RetrievedOn: '2019-07-24T02:31:50.530Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -39146,33 +39278,33 @@ Database:
     Fire_Name: Notch Butte
     UniqueFireIdentifier: 2019-IDTFD-000168
     DailyAcres: 4952
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-23T22:30Z'
+    ICS209ReportDateTimeEpoch: 1563921000000
+    ICS209ReportStatus: F
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
+    EstimatedCostToDate: 50000
+    FireCause: Natural
+    TotalIncidentPersonnel: 19
     FireDiscoveryDateTime: '2019-07-23T07:17Z'
     FireDiscoveryDateTimeEpoch: 1563866220000
     DispatchCenterID: IDSCC
     LocalIncidentIdentifier: 000168
     POOCounty: Lincoln
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-23T21:35Z'
-    ModifiedOnDateTimeEpoch: 1563917747000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-23T22:30Z'
+    ModifiedOnDateTimeEpoch: 1563921000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-IDTFD-000168
-    ModifiedOnDateTime_Raw: '2019-07-23T21:35Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563917747000
+    ModifiedOnDateTime_Raw: '2019-07-24T02:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1563934478000
     Hashtag: '#NotchButteFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -39184,8 +39316,8 @@ Database:
     unitMention: Twin  Falls District
     Final_Fire_Name: Notch Butte Fire
     _Update:
-      UpdateId: 'UPD-2019-07-23T21:35Z-PER-none-ID-2019-IDTFD-000168-NAME-NotchButte-S-N'
-      Code: 43b3e348d48cfed810cd2c1690e85efc6a9c773f3713c4053ee16b9d4ae7f8e8
+      UpdateId: 'UPD-2019-07-23T22:30Z-PER-none-ID-2019-IDTFD-000168-NAME-NotchButte-S-N'
+      Code: 5efde808f6901c4881c22185b9e25de03e0c4e64c158c7919b6187ccc7a9d1fb
   2019-IDTFD-000165:
     Source_NFSA_Join:
       Lon: -114.36610883930918
