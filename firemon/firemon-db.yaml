@@ -37422,7 +37422,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-25T00:00:28.763Z'
+          RetrievedOn: '2019-07-25T00:30:39.321Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -37433,7 +37433,7 @@ Database:
     Source_GEOMAC:
       Lon: -112.52281231109141
       Lat: 43.71478629516235
-      objectid: 38
+      objectid: 37
       latitude: 43.71478
       longitude: -112.5228
       acres: 113612
@@ -37442,9 +37442,9 @@ Database:
       state: ID
       status: U
       firecause: Natural
-      reportdatetime: '2019-07-24T00:30Z'
-      reportdatetimeEpoch: 1563928200000
-      percentcontained: 15
+      reportdatetime: '2019-07-24T23:15Z'
+      reportdatetimeEpoch: 1564010100000
+      percentcontained: 45
       uniquefireidentifier: 2019-IDINE-000081
       firediscoverydatetime: '2019-07-23T00:09Z'
       firediscoverydatetimeEpoch: 1563840540000
@@ -37453,11 +37453,11 @@ Database:
       incidentname: Sheep
       iscomplex: 'false'
       irwinid: '{5A43D800-EA23-4DA8-8CCB-A78BCF216E19}'
-      irwinmodifiedon: '2019-07-24T21:30Z'
-      irwinmodifiedonEpoch: 1564003802000
+      irwinmodifiedon: '2019-07-25T00:08Z'
+      irwinmodifiedonEpoch: 1564013313000
       mapsymbol: '5'
-      datecurrent: '2019-07-24T17:30Z'
-      datecurrentEpoch: 1563989431000
+      datecurrent: '2019-07-24T18:30Z'
+      datecurrentEpoch: 1563993027000
       pooownerunit: IDIFD
       fireyear: 2019
       localincidentidentifier: 000081
@@ -37467,9 +37467,9 @@ Database:
       complexname: null
       DailyAcres: 113612
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-24T00:30Z'
-      ModifiedOnDateTimeEpoch: 1563928200000
-      PercentContained: 15
+      ModifiedOnDateTime: '2019-07-24T23:15Z'
+      ModifiedOnDateTimeEpoch: 1564010100000
+      PercentContained: 45
       UniqueFireIdentifier: 2019-IDINE-000081
       FireDiscoveryDateTime: '2019-07-23T00:09Z'
       FireDiscoveryDateTimeEpoch: 1563840540000
@@ -37479,7 +37479,7 @@ Database:
       Hashtag: '#SheepFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-25T00:00:28.764Z'
+          RetrievedOn: '2019-07-25T00:30:39.322Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -37496,42 +37496,54 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-IDINE-000081
-    Lon: -112.52281079206011
-    Lat: 43.714784524257794
-    id: 124254
-    Name: Sheep
-    Fire_Name: Sheep
-    UniqueFireIdentifier: 2019-IDINE-000081
+    Lon: -112.52281231109141
+    Lat: 43.71478629516235
+    objectid: 37
+    latitude: 43.71478
+    longitude: -112.5228
+    acres: 113612
+    gacc: GBCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: ID
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-24T23:15Z'
+    reportdatetimeEpoch: 1564010100000
+    percentcontained: 45
+    uniquefireidentifier: 2019-IDINE-000081
+    firediscoverydatetime: '2019-07-23T00:09Z'
+    firediscoverydatetimeEpoch: 1563840540000
+    complexparentirwinid: null
+    pooresponsibleunit: IDINE
+    incidentname: Sheep
+    iscomplex: 'false'
+    irwinid: '{5A43D800-EA23-4DA8-8CCB-A78BCF216E19}'
+    irwinmodifiedon: '2019-07-25T00:08Z'
+    irwinmodifiedonEpoch: 1564013313000
+    mapsymbol: '5'
+    datecurrent: '2019-07-24T18:30Z'
+    datecurrentEpoch: 1563993027000
+    pooownerunit: IDIFD
+    fireyear: 2019
+    localincidentidentifier: 000081
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
     DailyAcres: 113612
-    PercentContained: 45
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-24T22:30Z'
-    ICS209ReportDateTimeEpoch: 1564007400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 650000
     FireCause: Natural
-    TotalIncidentPersonnel: 115
+    ModifiedOnDateTime: '2019-07-24T23:15Z'
+    ModifiedOnDateTimeEpoch: 1564010100000
+    PercentContained: 45
+    UniqueFireIdentifier: 2019-IDINE-000081
     FireDiscoveryDateTime: '2019-07-23T00:09Z'
     FireDiscoveryDateTimeEpoch: 1563840540000
-    DispatchCenterID: IDEIC
-    LocalIncidentIdentifier: 000081
-    POOCounty: Jefferson
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-24T22:30Z'
-    ModifiedOnDateTimeEpoch: 1564007400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Sheep
+    Name: Sheep
+    Source: GEOMAC
+    Hashtag: '#SheepFire'
     _CorrelationIds:
       - 2019-IDINE-000081
-    ModifiedOnDateTime_Raw: '2019-07-24T23:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564012272000
-    Hashtag: '#SheepFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -37541,8 +37553,8 @@ Database:
     unitMention: Idaho National Laboratory
     Final_Fire_Name: Sheep Fire
     _Update:
-      UpdateId: 'UPD-2019-07-24T22:30Z-PER-none-ID-2019-IDINE-000081-NAME-Sheep-S-N'
-      Code: 4604537db6e0f47a500d9ce54f53dc2b8dbcb32aed8e2f0474afc98fc2e1d8bd
+      UpdateId: 'UPD-2019-07-24T23:15Z-PER-none-ID-2019-IDINE-000081-NAME-Sheep-S-G'
+      Code: 33f16b476735ec0da6a66f20ad887185596af00926c17b87bdc7640c4a48e0dc
   2019-AZKNF-000499:
     Source_NFSA_Join:
       Lon: -112.22810947995187
@@ -40090,19 +40102,19 @@ Database:
       POOLandownerKind: Other
       ModifiedOnDateTime: '2019-07-24T00:30Z'
       ModifiedOnDateTimeEpoch: 1563928200000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-MTFHA-000133
-      ModifiedOnDateTime_Raw: '2019-07-24T01:41Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563932496000
+      ModifiedOnDateTime_Raw: '2019-07-24T23:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564012700000
       Hashtag: '#MossRanchFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-24T02:01:29.400Z'
+          RetrievedOn: '2019-07-25T00:30:39.321Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -40110,42 +40122,120 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -114.35585007876453
-    Lat: 47.44667487684079
-    id: 124330
-    Name: MOSS RANCH
-    Fire_Name: MOSS RANCH
-    UniqueFireIdentifier: 2019-MTFHA-000133
-    DailyAcres: 165
-    PercentContained: 10
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-24T00:30Z'
-    ICS209ReportDateTimeEpoch: 1563928200000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 50000
+    Source_GEOMAC:
+      Lon: -114.35679340505898
+      Lat: 47.43475645115468
+      objectid: 39
+      latitude: 47.43475
+      longitude: -114.35678
+      acres: 500
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-24T23:45Z'
+      reportdatetimeEpoch: 1564011900000
+      percentcontained: 10
+      uniquefireidentifier: 2019-MTFHA-000133
+      firediscoverydatetime: '2019-07-23T07:59Z'
+      firediscoverydatetimeEpoch: 1563868740000
+      complexparentirwinid: null
+      pooresponsibleunit: MTFHA
+      incidentname: MOSS RANCH
+      iscomplex: 'false'
+      irwinid: '{33A6F0F0-CACF-4421-A4BF-2A52AA1F184F}'
+      irwinmodifiedon: '2019-07-25T00:13Z'
+      irwinmodifiedonEpoch: 1564013626000
+      mapsymbol: '1'
+      datecurrent: '2019-07-24T18:30Z'
+      datecurrentEpoch: 1563993027000
+      pooownerunit: MTSKT
+      fireyear: 2019
+      localincidentidentifier: '000133'
+      incidenttypecategory: WF
+      owneragency: Tribal
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 500
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-24T23:45Z'
+      ModifiedOnDateTimeEpoch: 1564011900000
+      PercentContained: 10
+      UniqueFireIdentifier: 2019-MTFHA-000133
+      FireDiscoveryDateTime: '2019-07-23T07:59Z'
+      FireDiscoveryDateTimeEpoch: 1563868740000
+      Fire_Name: MOSS RANCH
+      Name: MOSS RANCH
+      Source: GEOMAC
+      Hashtag: '#MossRanchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-25T00:30:39.322Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTFHA-000133
+    Lon: -114.35679340505898
+    Lat: 47.43475645115468
+    objectid: 39
+    latitude: 47.43475
+    longitude: -114.35678
+    acres: 500
+    gacc: NRCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: MT
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-24T23:45Z'
+    reportdatetimeEpoch: 1564011900000
+    percentcontained: 10
+    uniquefireidentifier: 2019-MTFHA-000133
+    firediscoverydatetime: '2019-07-23T07:59Z'
+    firediscoverydatetimeEpoch: 1563868740000
+    complexparentirwinid: null
+    pooresponsibleunit: MTFHA
+    incidentname: MOSS RANCH
+    iscomplex: 'false'
+    irwinid: '{33A6F0F0-CACF-4421-A4BF-2A52AA1F184F}'
+    irwinmodifiedon: '2019-07-25T00:13Z'
+    irwinmodifiedonEpoch: 1564013626000
+    mapsymbol: '1'
+    datecurrent: '2019-07-24T18:30Z'
+    datecurrentEpoch: 1563993027000
+    pooownerunit: MTSKT
+    fireyear: 2019
+    localincidentidentifier: '000133'
+    incidenttypecategory: WF
+    owneragency: Tribal
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 500
     FireCause: Natural
-    TotalIncidentPersonnel: 58
+    ModifiedOnDateTime: '2019-07-24T23:45Z'
+    ModifiedOnDateTimeEpoch: 1564011900000
+    PercentContained: 10
+    UniqueFireIdentifier: 2019-MTFHA-000133
     FireDiscoveryDateTime: '2019-07-23T07:59Z'
     FireDiscoveryDateTimeEpoch: 1563868740000
-    DispatchCenterID: MTFHA
-    LocalIncidentIdentifier: '000133'
-    POOCounty: Sanders
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-24T00:30Z'
-    ModifiedOnDateTimeEpoch: 1563928200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
+    Fire_Name: MOSS RANCH
+    Name: MOSS RANCH
+    Source: GEOMAC
+    Hashtag: '#MossRanchFire'
     _CorrelationIds:
       - 2019-MTFHA-000133
-    ModifiedOnDateTime_Raw: '2019-07-24T01:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563932496000
-    Hashtag: '#MossRanchFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -40155,8 +40245,8 @@ Database:
     unitMention: Flathead Agency
     Final_Fire_Name: Moss Ranch Fire
     _Update:
-      UpdateId: 'UPD-2019-07-24T00:30Z-PER-none-ID-2019-MTFHA-000133-NAME-MOSSRANCH-S-N'
-      Code: b3a87c1a953f4a1dc278efb41baf3eaebff1a1dc774a61b78141893932159dc4
+      UpdateId: 'UPD-2019-07-24T23:45Z-PER-none-ID-2019-MTFHA-000133-NAME-MOSSRANCH-S-G'
+      Code: 75992584e898abed1dc2e716ff4d434cfe615aaa216988005d01130731fca21a
   2019-MTCES-006194:
     Source_NFSA_Join:
       Lon: -112.99631277831952
