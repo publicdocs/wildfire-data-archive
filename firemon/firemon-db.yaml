@@ -42536,3 +42536,165 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-25T04:45Z-PER-none-ID-2019-WANES-001773-NAME-GRAHAM-S-N'
       Code: ee675534adb17a14722f3012a67b1bcbe43d4a7f2dd694627a4c6261ffc26864
+  2019-OKOKS-100092:
+    Source_NFSA_Join:
+      Lon: -95.90778689265363
+      Lat: 34.50972700548972
+      id: 124797
+      Name: Chickasaw Creek Fire
+      Fire_Name: Chickasaw Creek Fire
+      UniqueFireIdentifier: 2019-OKOKS-100092
+      DailyAcres: 160
+      PercentContained: 60
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-25T14:00Z'
+      ICS209ReportDateTimeEpoch: 1564063200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3867
+      FireCause: Human
+      TotalIncidentPersonnel: 6
+      FireDiscoveryDateTime: '2019-07-24T22:00Z'
+      FireDiscoveryDateTimeEpoch: 1564005600000
+      DispatchCenterID: ARAOC
+      LocalIncidentIdentifier: '100092'
+      POOCounty: Atoka
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-25T14:00Z'
+      ModifiedOnDateTimeEpoch: 1564063200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-OKOKS-100092
+      ModifiedOnDateTime_Raw: '2019-07-25T14:32Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564065124000
+      Hashtag: '#ChickasawCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-25T15:01:08.630Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -95.9077852087725
+      Lat: 34.5097283008598
+      objectid: 42
+      latitude: 34.5097222
+      longitude: -95.9077778
+      acres: 160
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: I
+      firecause: Human
+      reportdatetime: '2019-07-25T14:00Z'
+      reportdatetimeEpoch: 1564063200000
+      percentcontained: 60
+      uniquefireidentifier: 2019-OKOKS-100092
+      firediscoverydatetime: '2019-07-24T22:00Z'
+      firediscoverydatetimeEpoch: 1564005600000
+      complexparentirwinid: null
+      pooresponsibleunit: OKOKS
+      incidentname: Chickasaw Creek Fire
+      iscomplex: 'false'
+      irwinid: '{AC3A5254-7619-4B6D-848F-8A9F15B1B6E3}'
+      irwinmodifiedon: '2019-07-25T14:32Z'
+      irwinmodifiedonEpoch: 1564065124000
+      mapsymbol: '1'
+      datecurrent: '2019-07-25T09:00Z'
+      datecurrentEpoch: 1564045248000
+      pooownerunit: OKOKS
+      fireyear: 2019
+      localincidentidentifier: '100092'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 160
+      FireCause: Human
+      ModifiedOnDateTime: '2019-07-25T14:00Z'
+      ModifiedOnDateTimeEpoch: 1564063200000
+      PercentContained: 60
+      UniqueFireIdentifier: 2019-OKOKS-100092
+      FireDiscoveryDateTime: '2019-07-24T22:00Z'
+      FireDiscoveryDateTimeEpoch: 1564005600000
+      Fire_Name: Chickasaw Creek Fire
+      Name: Chickasaw Creek Fire
+      Source: GEOMAC
+      Hashtag: '#ChickasawCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-25T15:01:08.631Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-OKOKS-100092
+    Lon: -95.90778689265363
+    Lat: 34.50972700548972
+    id: 124797
+    Name: Chickasaw Creek Fire
+    Fire_Name: Chickasaw Creek Fire
+    UniqueFireIdentifier: 2019-OKOKS-100092
+    DailyAcres: 160
+    PercentContained: 60
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-25T14:00Z'
+    ICS209ReportDateTimeEpoch: 1564063200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3867
+    FireCause: Human
+    TotalIncidentPersonnel: 6
+    FireDiscoveryDateTime: '2019-07-24T22:00Z'
+    FireDiscoveryDateTimeEpoch: 1564005600000
+    DispatchCenterID: ARAOC
+    LocalIncidentIdentifier: '100092'
+    POOCounty: Atoka
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-25T14:00Z'
+    ModifiedOnDateTimeEpoch: 1564063200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-OKOKS-100092
+    ModifiedOnDateTime_Raw: '2019-07-25T14:32Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564065124000
+    Hashtag: '#ChickasawCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: OKOKS
+    unitMention: Oklahoma Division of Forestry
+    Final_Fire_Name: Chickasaw Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-25T14:00Z-PER-none-ID-2019-OKOKS-100092-NAME-ChickasawCreekFire-S-N
+      Code: 9c342adf08da9fb314d01e7dffe802181b4975b6a2fc97dcb215907916e1b987
