@@ -37010,38 +37010,38 @@ Database:
       Fire_Name: Sheep
       UniqueFireIdentifier: 2019-IDINE-000081
       DailyAcres: 113612
-      PercentContained: 45
+      PercentContained: 95
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-24T22:30Z'
-      ICS209ReportDateTimeEpoch: 1564007400000
+      ICS209ReportDateTime: '2019-07-25T23:00Z'
+      ICS209ReportDateTimeEpoch: 1564095600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 650000
+      EstimatedCostToDate: 690000
       FireCause: Natural
-      TotalIncidentPersonnel: 115
+      TotalIncidentPersonnel: 109
       FireDiscoveryDateTime: '2019-07-23T00:09Z'
       FireDiscoveryDateTimeEpoch: 1563840540000
       DispatchCenterID: IDEIC
       LocalIncidentIdentifier: 000081
       POOCounty: Jefferson
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-24T22:30Z'
-      ModifiedOnDateTimeEpoch: 1564007400000
+      ModifiedOnDateTime: '2019-07-25T23:00Z'
+      ModifiedOnDateTimeEpoch: 1564095600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDINE-000081
-      ModifiedOnDateTime_Raw: '2019-07-24T23:51Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564012272000
+      ModifiedOnDateTime_Raw: '2019-07-26T00:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564100791000
       Hashtag: '#SheepFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-25T00:30:39.321Z'
+          RetrievedOn: '2019-07-26T00:31:15.442Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -37049,120 +37049,42 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -112.52281231109141
-      Lat: 43.71478629516235
-      objectid: 37
-      latitude: 43.71478
-      longitude: -112.5228
-      acres: 113612
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: ID
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-24T23:15Z'
-      reportdatetimeEpoch: 1564010100000
-      percentcontained: 45
-      uniquefireidentifier: 2019-IDINE-000081
-      firediscoverydatetime: '2019-07-23T00:09Z'
-      firediscoverydatetimeEpoch: 1563840540000
-      complexparentirwinid: null
-      pooresponsibleunit: IDINE
-      incidentname: Sheep
-      iscomplex: 'false'
-      irwinid: '{5A43D800-EA23-4DA8-8CCB-A78BCF216E19}'
-      irwinmodifiedon: '2019-07-25T00:08Z'
-      irwinmodifiedonEpoch: 1564013313000
-      mapsymbol: '5'
-      datecurrent: '2019-07-24T18:30Z'
-      datecurrentEpoch: 1563993027000
-      pooownerunit: IDIFD
-      fireyear: 2019
-      localincidentidentifier: 000081
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 113612
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-24T23:15Z'
-      ModifiedOnDateTimeEpoch: 1564010100000
-      PercentContained: 45
-      UniqueFireIdentifier: 2019-IDINE-000081
-      FireDiscoveryDateTime: '2019-07-23T00:09Z'
-      FireDiscoveryDateTimeEpoch: 1563840540000
-      Fire_Name: Sheep
-      Name: Sheep
-      Source: GEOMAC
-      Hashtag: '#SheepFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-25T00:30:39.322Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-IDINE-000081
-    Lon: -112.52281231109141
-    Lat: 43.71478629516235
-    objectid: 37
-    latitude: 43.71478
-    longitude: -112.5228
-    acres: 113612
-    gacc: GBCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: ID
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-07-24T23:15Z'
-    reportdatetimeEpoch: 1564010100000
-    percentcontained: 45
-    uniquefireidentifier: 2019-IDINE-000081
-    firediscoverydatetime: '2019-07-23T00:09Z'
-    firediscoverydatetimeEpoch: 1563840540000
-    complexparentirwinid: null
-    pooresponsibleunit: IDINE
-    incidentname: Sheep
-    iscomplex: 'false'
-    irwinid: '{5A43D800-EA23-4DA8-8CCB-A78BCF216E19}'
-    irwinmodifiedon: '2019-07-25T00:08Z'
-    irwinmodifiedonEpoch: 1564013313000
-    mapsymbol: '5'
-    datecurrent: '2019-07-24T18:30Z'
-    datecurrentEpoch: 1563993027000
-    pooownerunit: IDIFD
-    fireyear: 2019
-    localincidentidentifier: 000081
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 113612
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-07-24T23:15Z'
-    ModifiedOnDateTimeEpoch: 1564010100000
-    PercentContained: 45
+    Lon: -112.52281079206011
+    Lat: 43.714784524257794
+    id: 124254
+    Name: Sheep
+    Fire_Name: Sheep
     UniqueFireIdentifier: 2019-IDINE-000081
+    DailyAcres: 113612
+    PercentContained: 95
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-25T23:00Z'
+    ICS209ReportDateTimeEpoch: 1564095600000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 690000
+    FireCause: Natural
+    TotalIncidentPersonnel: 109
     FireDiscoveryDateTime: '2019-07-23T00:09Z'
     FireDiscoveryDateTimeEpoch: 1563840540000
-    Fire_Name: Sheep
-    Name: Sheep
-    Source: GEOMAC
-    Hashtag: '#SheepFire'
+    DispatchCenterID: IDEIC
+    LocalIncidentIdentifier: 000081
+    POOCounty: Jefferson
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-25T23:00Z'
+    ModifiedOnDateTimeEpoch: 1564095600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-IDINE-000081
+    ModifiedOnDateTime_Raw: '2019-07-26T00:26Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564100791000
+    Hashtag: '#SheepFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -37172,8 +37094,8 @@ Database:
     unitMention: Idaho National Laboratory
     Final_Fire_Name: Sheep Fire
     _Update:
-      UpdateId: 'UPD-2019-07-24T23:15Z-PER-none-ID-2019-IDINE-000081-NAME-Sheep-S-G'
-      Code: 33f16b476735ec0da6a66f20ad887185596af00926c17b87bdc7640c4a48e0dc
+      UpdateId: 'UPD-2019-07-25T23:00Z-PER-none-ID-2019-IDINE-000081-NAME-Sheep-S-N'
+      Code: 26acb0d4e98b9e29f434f6e854a86d85f53473a88ee20ae05ab9d0221753bd42
   2019-AZKNF-000499:
     Source_NFSA_Join:
       Lon: -112.22810947995187
@@ -43058,21 +42980,21 @@ Database:
       LocalIncidentIdentifier: '590329'
       POOCounty: Clark
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-25T19:36Z'
-      ModifiedOnDateTimeEpoch: 1564083417000
+      ModifiedOnDateTime: '2019-07-26T00:26Z'
+      ModifiedOnDateTimeEpoch: 1564100805000
       ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVSND-590329
-      ModifiedOnDateTime_Raw: '2019-07-25T19:36Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564083417000
+      ModifiedOnDateTime_Raw: '2019-07-26T00:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564100805000
       Hashtag: '#BonelliPeakFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-25T20:00:11.820Z'
+          RetrievedOn: '2019-07-26T00:31:15.442Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -43104,16 +43026,16 @@ Database:
     LocalIncidentIdentifier: '590329'
     POOCounty: Clark
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-25T19:36Z'
-    ModifiedOnDateTimeEpoch: 1564083417000
+    ModifiedOnDateTime: '2019-07-26T00:26Z'
+    ModifiedOnDateTimeEpoch: 1564100805000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NVSND-590329
-    ModifiedOnDateTime_Raw: '2019-07-25T19:36Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564083417000
+    ModifiedOnDateTime_Raw: '2019-07-26T00:26Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564100805000
     Hashtag: '#BonelliPeakFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -43125,8 +43047,8 @@ Database:
     unitMention: Southern Nevada District Office
     Final_Fire_Name: Bonelli Peak Fire
     _Update:
-      UpdateId: 'UPD-2019-07-25T19:36Z-PER-none-ID-2019-NVSND-590329-NAME-BONELLIPEAK-S-N'
-      Code: 69d8af049a42f362f1d2db89956e9113ec0de5a962683a801f7a923ae5c1068a
+      UpdateId: 'UPD-2019-07-26T00:26Z-PER-none-ID-2019-NVSND-590329-NAME-BONELLIPEAK-S-N'
+      Code: f384914ece550fc6613c1a2259d4f195d52b16f19f2b652e68853dfe7fd79921
   2019-UTFIF-190225:
     Source_NFSA_Join:
       Lon: -111.32531160256458
@@ -43912,9 +43834,9 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-25T23:45Z'
-      ICS209ReportDateTimeEpoch: 1564098300000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-07-26T00:00Z'
+      ICS209ReportDateTimeEpoch: 1564099200000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 200000
@@ -43926,21 +43848,21 @@ Database:
       LocalIncidentIdentifier: '001232'
       POOCounty: Missoula
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-25T23:45Z'
-      ModifiedOnDateTimeEpoch: 1564098300000
-      ModifiedBySystem: ics209
+      ModifiedOnDateTime: '2019-07-26T00:00Z'
+      ModifiedOnDateTimeEpoch: 1564099200000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-MTLNF-001232
-      ModifiedOnDateTime_Raw: '2019-07-25T23:47Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564098462000
+      ModifiedOnDateTime_Raw: '2019-07-26T00:24Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564100668000
       Hashtag: '#BeeskoveFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-26T00:01:27.975Z'
+          RetrievedOn: '2019-07-26T00:31:15.442Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -43958,9 +43880,9 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-25T23:45Z'
-    ICS209ReportDateTimeEpoch: 1564098300000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-07-26T00:00Z'
+    ICS209ReportDateTimeEpoch: 1564099200000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 200000
@@ -43972,16 +43894,16 @@ Database:
     LocalIncidentIdentifier: '001232'
     POOCounty: Missoula
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-25T23:45Z'
-    ModifiedOnDateTimeEpoch: 1564098300000
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2019-07-26T00:00Z'
+    ModifiedOnDateTimeEpoch: 1564099200000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-MTLNF-001232
-    ModifiedOnDateTime_Raw: '2019-07-25T23:47Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564098462000
+    ModifiedOnDateTime_Raw: '2019-07-26T00:24Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564100668000
     Hashtag: '#BeeskoveFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -43993,5 +43915,231 @@ Database:
     unitMention: Lolo NF
     Final_Fire_Name: Beeskove Fire
     _Update:
-      UpdateId: 'UPD-2019-07-25T23:45Z-PER-none-ID-2019-MTLNF-001232-NAME-Beeskove-S-N'
-      Code: 95f915eea66b95e52bf2914551290f6dbf6a24520c1980739f7766bfdc520fe4
+      UpdateId: 'UPD-2019-07-26T00:00Z-PER-none-ID-2019-MTLNF-001232-NAME-Beeskove-S-N'
+      Code: d9969ea2bea364351d08796c7ede625684ccdc6405c45a956bfd2443def52512
+  2019-AZFTA-000489:
+    Source_NFSA_Join:
+      Lon: -110.5094077626102
+      Lat: 34.20627898728425
+      id: 122200
+      Name: White Springs
+      Fire_Name: White Springs
+      UniqueFireIdentifier: 2019-AZFTA-000489
+      DailyAcres: 5000
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-26T00:00Z'
+      ICS209ReportDateTimeEpoch: 1564099200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 475000
+      FireCause: Natural
+      TotalIncidentPersonnel: 3
+      FireDiscoveryDateTime: '2019-07-08T16:39Z'
+      FireDiscoveryDateTimeEpoch: 1562603940000
+      DispatchCenterID: AZSDC
+      LocalIncidentIdentifier: 000489
+      POOCounty: Navajo
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-26T00:00Z'
+      ModifiedOnDateTimeEpoch: 1564099200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZFTA-000489
+      ModifiedOnDateTime_Raw: '2019-07-26T00:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564100948000
+      Hashtag: '#WhiteSpringsFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-26T00:31:15.442Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -110.5094077626102
+    Lat: 34.20627898728425
+    id: 122200
+    Name: White Springs
+    Fire_Name: White Springs
+    UniqueFireIdentifier: 2019-AZFTA-000489
+    DailyAcres: 5000
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-26T00:00Z'
+    ICS209ReportDateTimeEpoch: 1564099200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 475000
+    FireCause: Natural
+    TotalIncidentPersonnel: 3
+    FireDiscoveryDateTime: '2019-07-08T16:39Z'
+    FireDiscoveryDateTimeEpoch: 1562603940000
+    DispatchCenterID: AZSDC
+    LocalIncidentIdentifier: 000489
+    POOCounty: Navajo
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-26T00:00Z'
+    ModifiedOnDateTimeEpoch: 1564099200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AZFTA-000489
+    ModifiedOnDateTime_Raw: '2019-07-26T00:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564100948000
+    Hashtag: '#WhiteSpringsFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-18T18:00Z'
+    PerimeterData:
+      DateTime: '2019-07-18T18:00Z'
+      Acres: 2519.02421632
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-26T00:31:22.991Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AZFTA
+    unitMention: Fort Apache Agency
+    Final_Fire_Name: White Springs Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-26T00:00Z-PER-2019-07-18T18:00Z-ID-2019-AZFTA-000489-NAME-WhiteSprings-S-N
+      Code: 0739ad0854db2490fbfae29c5047eaf1581a2481212858b00e3ddfa6fb4da0da
+  2019-AKGAD-000587:
+    Source_NFSA_Join:
+      Lon: -157.0666275546465
+      Lat: 65.26671997605685
+      id: 123476
+      Name: Nogadeneoda Lake
+      Fire_Name: Nogadeneoda Lake
+      UniqueFireIdentifier: 2019-AKGAD-000587
+      DailyAcres: 1006.5
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-26T00:00Z'
+      ICS209ReportDateTimeEpoch: 1564099200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5000
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-17T01:16Z'
+      FireDiscoveryDateTimeEpoch: 1563326160000
+      DispatchCenterID: AKGADC
+      LocalIncidentIdentifier: 000587
+      POOCounty: Yukon-Koyukuk
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-26T00:00Z'
+      ModifiedOnDateTimeEpoch: 1564099200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKGAD-000587
+      ModifiedOnDateTime_Raw: '2019-07-26T00:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564100896000
+      Hashtag: '#NogadeneodaLakeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-26T00:31:15.442Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -157.0666275546465
+    Lat: 65.26671997605685
+    id: 123476
+    Name: Nogadeneoda Lake
+    Fire_Name: Nogadeneoda Lake
+    UniqueFireIdentifier: 2019-AKGAD-000587
+    DailyAcres: 1006.5
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-26T00:00Z'
+    ICS209ReportDateTimeEpoch: 1564099200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5000
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-17T01:16Z'
+    FireDiscoveryDateTimeEpoch: 1563326160000
+    DispatchCenterID: AKGADC
+    LocalIncidentIdentifier: 000587
+    POOCounty: Yukon-Koyukuk
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-07-26T00:00Z'
+    ModifiedOnDateTimeEpoch: 1564099200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKGAD-000587
+    ModifiedOnDateTime_Raw: '2019-07-26T00:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564100896000
+    Hashtag: '#NogadeneodaLakeFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-18T16:31Z'
+    PerimeterData:
+      DateTime: '2019-07-18T16:31Z'
+      Acres: 16.93135913
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-26T00:31:22.991Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AKGAD
+    unitMention: Alaska Fire Service - Galena Zone
+    Final_Fire_Name: Nogadeneoda Lake Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-26T00:00Z-PER-2019-07-18T16:31Z-ID-2019-AKGAD-000587-NAME-NogadeneodaLake-S-N
+      Code: 01b23c8d9fe3091eaada27913cc66e2987668f930b0998997b8071d401127ec5
