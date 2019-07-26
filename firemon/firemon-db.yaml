@@ -39879,39 +39879,39 @@ Database:
       Name: Huck
       Fire_Name: Huck
       UniqueFireIdentifier: 2019-AZSCA-001208
-      DailyAcres: 700
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 11784
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-26T01:00Z'
+      ICS209ReportDateTimeEpoch: 1564102800000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 26903.12
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 12
       FireDiscoveryDateTime: '2019-07-23T23:25Z'
       FireDiscoveryDateTimeEpoch: 1563924300000
       DispatchCenterID: AZPHC
       LocalIncidentIdentifier: 001208
       POOCounty: Graham
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-24T23:59Z'
-      ModifiedOnDateTimeEpoch: 1564012747000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-26T01:00Z'
+      ModifiedOnDateTimeEpoch: 1564102800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZSCA-001208
-      ModifiedOnDateTime_Raw: '2019-07-24T23:59Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564012747000
+      ModifiedOnDateTime_Raw: '2019-07-26T02:34Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564108497000
       Hashtag: '#HuckFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-25T00:00:28.763Z'
+          RetrievedOn: '2019-07-26T03:01:20.950Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -39925,34 +39925,34 @@ Database:
     Name: Huck
     Fire_Name: Huck
     UniqueFireIdentifier: 2019-AZSCA-001208
-    DailyAcres: 700
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 11784
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-26T01:00Z'
+    ICS209ReportDateTimeEpoch: 1564102800000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 26903.12
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 12
     FireDiscoveryDateTime: '2019-07-23T23:25Z'
     FireDiscoveryDateTimeEpoch: 1563924300000
     DispatchCenterID: AZPHC
     LocalIncidentIdentifier: 001208
     POOCounty: Graham
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-24T23:59Z'
-    ModifiedOnDateTimeEpoch: 1564012747000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-07-26T01:00Z'
+    ModifiedOnDateTimeEpoch: 1564102800000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZSCA-001208
-    ModifiedOnDateTime_Raw: '2019-07-24T23:59Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564012747000
+    ModifiedOnDateTime_Raw: '2019-07-26T02:34Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564108497000
     Hashtag: '#HuckFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-24T10:00Z'
@@ -39961,7 +39961,7 @@ Database:
       Acres: 3258.69765202
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-25T16:40:12.082Z'
+          RetrievedOn: '2019-07-26T03:01:26.875Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -39982,8 +39982,8 @@ Database:
     Final_Fire_Name: Huck Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-24T23:59Z-PER-2019-07-24T10:00Z-ID-2019-AZSCA-001208-NAME-Huck-S-N
-      Code: 90d3940a46c4226b2676285ec7f56616e4e296ea89048755c5e3d5d8534a4b39
+        UPD-2019-07-26T01:00Z-PER-2019-07-24T10:00Z-ID-2019-AZSCA-001208-NAME-Huck-S-N
+      Code: a288258569e8749b6cdd02223a7229ba30aa13435a1ae24e88059784409831e9
   2019-AKSWS-904174:
     Source_NFSA_Join:
       Lon: -157.38791001601183
@@ -45208,3 +45208,212 @@ Database:
       UpdateId: >-
         UPD-2019-07-25T20:00Z-PER-2019-07-21T18:32Z-ID-2019-AKSWS-904517-NAME-DoorMountains-S-N
       Code: b2d587aa4e82c624fb6c1d13b4d86abb9dfb49f3991a580132a3cec8ec8694e2
+  2019-AKSWS-904528:
+    Source_NFSA_Join:
+      Lon: -156.7012827285951
+      Lat: 61.3216295320206
+      id: 122777
+      Name: Hoholitna
+      Fire_Name: Hoholitna
+      UniqueFireIdentifier: 2019-AKSWS-904528
+      DailyAcres: 548.1
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-07-26T02:00Z'
+      ICS209ReportDateTimeEpoch: 1564106400000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 725
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-13T00:49Z'
+      FireDiscoveryDateTimeEpoch: 1562978970000
+      DispatchCenterID: AKMSSC
+      LocalIncidentIdentifier: '904528'
+      POOCounty: Bethel
+      POOLandownerKind: Other
+      ModifiedOnDateTime: '2019-07-26T02:00Z'
+      ModifiedOnDateTimeEpoch: 1564106400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKSWS-904528
+      ModifiedOnDateTime_Raw: '2019-07-26T02:32Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564108320000
+      Hashtag: '#HoholitnaFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-26T03:01:20.950Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -156.7012827285951
+    Lat: 61.3216295320206
+    id: 122777
+    Name: Hoholitna
+    Fire_Name: Hoholitna
+    UniqueFireIdentifier: 2019-AKSWS-904528
+    DailyAcres: 548.1
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-07-26T02:00Z'
+    ICS209ReportDateTimeEpoch: 1564106400000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 725
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-13T00:49Z'
+    FireDiscoveryDateTimeEpoch: 1562978970000
+    DispatchCenterID: AKMSSC
+    LocalIncidentIdentifier: '904528'
+    POOCounty: Bethel
+    POOLandownerKind: Other
+    ModifiedOnDateTime: '2019-07-26T02:00Z'
+    ModifiedOnDateTimeEpoch: 1564106400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKSWS-904528
+    ModifiedOnDateTime_Raw: '2019-07-26T02:32Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564108320000
+    Hashtag: '#HoholitnaFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-24T08:33Z'
+    PerimeterData:
+      DateTime: '2019-07-24T08:33Z'
+      Acres: 548.0854959
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-26T03:01:26.875Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AKSWS
+    unitMention: Southwest Area Forestry
+    Final_Fire_Name: Hoholitna Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-26T02:00Z-PER-2019-07-24T08:33Z-ID-2019-AKSWS-904528-NAME-Hoholitna-S-N
+      Code: 40284a05f3829868e38a3b85a9a57dfb38d4349bbed173d03de7d572c7b7baa0
+  2019-WAOWF-000320:
+    Source_NFSA_Join:
+      Lon: -120.89791198374051
+      Lat: 47.65992619851452
+      id: 124415
+      Name: SOUTH FORK CREEK
+      Fire_Name: SOUTH FORK CREEK
+      UniqueFireIdentifier: 2019-WAOWF-000320
+      DailyAcres: 1.5
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-07-26T01:00Z'
+      ICS209ReportDateTimeEpoch: 1564102800000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3000
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-23T21:52Z'
+      FireDiscoveryDateTimeEpoch: 1563918748000
+      DispatchCenterID: WACWC
+      LocalIncidentIdentifier: '000320'
+      POOCounty: Chelan
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-26T01:00Z'
+      ModifiedOnDateTimeEpoch: 1564102800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-WAOWF-000320
+      ModifiedOnDateTime_Raw: '2019-07-26T02:55Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564109717000
+      Hashtag: '#SouthForkCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-26T03:01:20.950Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -120.89791198374051
+    Lat: 47.65992619851452
+    id: 124415
+    Name: SOUTH FORK CREEK
+    Fire_Name: SOUTH FORK CREEK
+    UniqueFireIdentifier: 2019-WAOWF-000320
+    DailyAcres: 1.5
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-07-26T01:00Z'
+    ICS209ReportDateTimeEpoch: 1564102800000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3000
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-23T21:52Z'
+    FireDiscoveryDateTimeEpoch: 1563918748000
+    DispatchCenterID: WACWC
+    LocalIncidentIdentifier: '000320'
+    POOCounty: Chelan
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-26T01:00Z'
+    ModifiedOnDateTimeEpoch: 1564102800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-WAOWF-000320
+    ModifiedOnDateTime_Raw: '2019-07-26T02:55Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564109717000
+    Hashtag: '#SouthForkCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: WAOWF
+    unitMention: Okanogan-Wenatchee NF
+    Final_Fire_Name: South Fork Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-26T01:00Z-PER-none-ID-2019-WAOWF-000320-NAME-SOUTHFORKCREEK-S-N
+      Code: 1115ce4447fb22c988f0c86bb5118a39b97e9f81a16734aaa05beb8677705e60
