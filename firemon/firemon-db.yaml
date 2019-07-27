@@ -5377,19 +5377,19 @@ Database:
       POOLandownerKind: Other
       ModifiedOnDateTime: '2019-07-26T02:30Z'
       ModifiedOnDateTimeEpoch: 1564108200000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKUYD-000324
-      ModifiedOnDateTime_Raw: '2019-07-26T03:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564113418000
+      ModifiedOnDateTime_Raw: '2019-07-26T15:45Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564155900000
       Hashtag: '#HessCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-26T04:00:47.980Z'
+          RetrievedOn: '2019-07-27T04:31:43.005Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -5397,49 +5397,127 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -148.35923055621745
-    Lat: 65.69930218890838
-    id: 119818
-    Name: Hess Creek
-    Fire_Name: Hess Creek
-    UniqueFireIdentifier: 2019-AKUYD-000324
+    Source_GEOMAC:
+      Lon: -148.3591935790888
+      Lat: 65.69916830816486
+      objectid: 7
+      latitude: 65.6991667
+      longitude: -148.3591667
+      acres: 28269.5
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-07-27T02:00Z'
+      reportdatetimeEpoch: 1564192800000
+      percentcontained: 48
+      uniquefireidentifier: 2019-AKUYD-000324
+      firediscoverydatetime: '2019-06-22T04:14Z'
+      firediscoverydatetimeEpoch: 1561176840000
+      complexparentirwinid: null
+      pooresponsibleunit: AKUYD
+      incidentname: Hess Creek
+      iscomplex: 'false'
+      irwinid: '{4AB4BF76-9D3B-4C1C-90B0-4BC9EE81B40A}'
+      irwinmodifiedon: '2019-07-27T04:03Z'
+      irwinmodifiedonEpoch: 1564200201000
+      mapsymbol: '3'
+      datecurrent: '2019-07-26T22:30Z'
+      datecurrentEpoch: 1564180247000
+      pooownerunit: AKAKS
+      fireyear: 2019
+      localincidentidentifier: '000324'
+      incidenttypecategory: WF
+      owneragency: State
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 28269.5
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-27T02:00Z'
+      ModifiedOnDateTimeEpoch: 1564192800000
+      PercentContained: 48
+      UniqueFireIdentifier: 2019-AKUYD-000324
+      FireDiscoveryDateTime: '2019-06-22T04:14Z'
+      FireDiscoveryDateTimeEpoch: 1561176840000
+      Fire_Name: Hess Creek
+      Name: Hess Creek
+      Source: GEOMAC
+      Hashtag: '#HessCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-27T04:31:43.005Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKUYD-000324
+    Lon: -148.3591935790888
+    Lat: 65.69916830816486
+    objectid: 7
+    latitude: 65.6991667
+    longitude: -148.3591667
+    acres: 28269.5
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-27T02:00Z'
+    reportdatetimeEpoch: 1564192800000
+    percentcontained: 48
+    uniquefireidentifier: 2019-AKUYD-000324
+    firediscoverydatetime: '2019-06-22T04:14Z'
+    firediscoverydatetimeEpoch: 1561176840000
+    complexparentirwinid: null
+    pooresponsibleunit: AKUYD
+    incidentname: Hess Creek
+    iscomplex: 'false'
+    irwinid: '{4AB4BF76-9D3B-4C1C-90B0-4BC9EE81B40A}'
+    irwinmodifiedon: '2019-07-27T04:03Z'
+    irwinmodifiedonEpoch: 1564200201000
+    mapsymbol: '3'
+    datecurrent: '2019-07-26T22:30Z'
+    datecurrentEpoch: 1564180247000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '000324'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 28269.5
-    PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-26T02:30Z'
-    ICS209ReportDateTimeEpoch: 1564108200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2242273
     FireCause: Natural
-    TotalIncidentPersonnel: 103
+    ModifiedOnDateTime: '2019-07-27T02:00Z'
+    ModifiedOnDateTimeEpoch: 1564192800000
+    PercentContained: 48
+    UniqueFireIdentifier: 2019-AKUYD-000324
     FireDiscoveryDateTime: '2019-06-22T04:14Z'
     FireDiscoveryDateTimeEpoch: 1561176840000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000324'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-07-26T02:30Z'
-    ModifiedOnDateTimeEpoch: 1564108200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Hess Creek
+    Name: Hess Creek
+    Source: GEOMAC
+    Hashtag: '#HessCreekFire'
     _CorrelationIds:
       - 2019-AKUYD-000324
-    ModifiedOnDateTime_Raw: '2019-07-26T03:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564113418000
-    Hashtag: '#HessCreekFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-06-28T09:43Z'
     PerimeterData:
       DateTime: '2019-06-28T09:43Z'
       Acres: 45011.4958888
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-26T04:00:53.385Z'
+          RetrievedOn: '2019-07-27T04:31:49.643Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -5460,8 +5538,8 @@ Database:
     Final_Fire_Name: Hess Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-26T02:30Z-PER-2019-06-28T09:43Z-ID-2019-AKUYD-000324-NAME-HessCreek-S-N
-      Code: 23a52775d612b376a1d4bfe5634317341eab3e09014cf1a4cf52a061ae476b5b
+        UPD-2019-07-27T02:00Z-PER-2019-06-28T09:43Z-ID-2019-AKUYD-000324-NAME-HessCreek-S-G
+      Code: 0a636db7d49eb5a76fd4051a47f40b67e86ebdfbe69f7e8ac6a8fe2b29de0397
   2019-AKUYD-000355:
     Source_NFSA_Join:
       Lon: -141.08392778373175
@@ -41951,7 +42029,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-26T06:00:46.662Z'
+          RetrievedOn: '2019-07-27T04:31:43.005Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -41962,18 +42040,18 @@ Database:
     Source_GEOMAC:
       Lon: -120.6947364781791
       Lat: 46.06945010206934
-      objectid: 44
+      objectid: 45
       latitude: 46.0694444
       longitude: -120.6947222
-      acres: 320
+      acres: 953
       gacc: NWCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: WA
-      status: I
+      status: U
       firecause: Natural
-      reportdatetime: '2019-07-24T18:00Z'
-      reportdatetimeEpoch: 1563991200000
-      percentcontained: 0
+      reportdatetime: '2019-07-27T04:15Z'
+      reportdatetimeEpoch: 1564200900000
+      percentcontained: 30
       uniquefireidentifier: 2019-WAYAA-000079
       firediscoverydatetime: '2019-07-24T15:30Z'
       firediscoverydatetimeEpoch: 1563982200000
@@ -41982,11 +42060,11 @@ Database:
       incidentname: KUSSHI CREEK
       iscomplex: 'false'
       irwinid: '{17DCC56E-05AD-4D6F-8E17-0954277AA46B}'
-      irwinmodifiedon: '2019-07-25T18:40Z'
-      irwinmodifiedonEpoch: 1564080010000
+      irwinmodifiedon: '2019-07-27T04:25Z'
+      irwinmodifiedonEpoch: 1564201516000
       mapsymbol: '1'
-      datecurrent: '2019-07-25T23:30Z'
-      datecurrentEpoch: 1564097433000
+      datecurrent: '2019-07-26T22:30Z'
+      datecurrentEpoch: 1564180247000
       pooownerunit: WAYAA
       fireyear: 2019
       localincidentidentifier: 000079
@@ -41994,11 +42072,11 @@ Database:
       owneragency: BIA
       perimexist: 'N'
       complexname: null
-      DailyAcres: 320
+      DailyAcres: 953
       FireCause: Natural
-      ModifiedOnDateTime: '2019-07-24T18:00Z'
-      ModifiedOnDateTimeEpoch: 1563991200000
-      PercentContained: 0
+      ModifiedOnDateTime: '2019-07-27T04:15Z'
+      ModifiedOnDateTimeEpoch: 1564200900000
+      PercentContained: 30
       UniqueFireIdentifier: 2019-WAYAA-000079
       FireDiscoveryDateTime: '2019-07-24T15:30Z'
       FireDiscoveryDateTimeEpoch: 1563982200000
@@ -42008,7 +42086,7 @@ Database:
       Hashtag: '#KusshiCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-26T06:00:46.663Z'
+          RetrievedOn: '2019-07-27T04:31:43.005Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -42025,42 +42103,54 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-WAYAA-000079
-    Lon: -120.6947400159312
-    Lat: 46.06945233821341
-    id: 124667
-    Name: KUSSHI CREEK
-    Fire_Name: KUSSHI CREEK
-    UniqueFireIdentifier: 2019-WAYAA-000079
-    DailyAcres: 850
-    PercentContained: 20
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-26T05:30Z'
-    ICS209ReportDateTimeEpoch: 1564119000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 600000
+    Lon: -120.6947364781791
+    Lat: 46.06945010206934
+    objectid: 45
+    latitude: 46.0694444
+    longitude: -120.6947222
+    acres: 953
+    gacc: NWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: WA
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-07-27T04:15Z'
+    reportdatetimeEpoch: 1564200900000
+    percentcontained: 30
+    uniquefireidentifier: 2019-WAYAA-000079
+    firediscoverydatetime: '2019-07-24T15:30Z'
+    firediscoverydatetimeEpoch: 1563982200000
+    complexparentirwinid: null
+    pooresponsibleunit: WAYAA
+    incidentname: KUSSHI CREEK
+    iscomplex: 'false'
+    irwinid: '{17DCC56E-05AD-4D6F-8E17-0954277AA46B}'
+    irwinmodifiedon: '2019-07-27T04:25Z'
+    irwinmodifiedonEpoch: 1564201516000
+    mapsymbol: '1'
+    datecurrent: '2019-07-26T22:30Z'
+    datecurrentEpoch: 1564180247000
+    pooownerunit: WAYAA
+    fireyear: 2019
+    localincidentidentifier: 000079
+    incidenttypecategory: WF
+    owneragency: BIA
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 953
     FireCause: Natural
-    TotalIncidentPersonnel: 81
+    ModifiedOnDateTime: '2019-07-27T04:15Z'
+    ModifiedOnDateTimeEpoch: 1564200900000
+    PercentContained: 30
+    UniqueFireIdentifier: 2019-WAYAA-000079
     FireDiscoveryDateTime: '2019-07-24T15:30Z'
     FireDiscoveryDateTimeEpoch: 1563982200000
-    DispatchCenterID: WAYAC
-    LocalIncidentIdentifier: 000079
-    POOCounty: Yakima
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-26T05:30Z'
-    ModifiedOnDateTimeEpoch: 1564119000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: KUSSHI CREEK
+    Name: KUSSHI CREEK
+    Source: GEOMAC
+    Hashtag: '#KusshiCreekFire'
     _CorrelationIds:
       - 2019-WAYAA-000079
-    ModifiedOnDateTime_Raw: '2019-07-26T05:47Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564120073000
-    Hashtag: '#KusshiCreekFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -42070,8 +42160,8 @@ Database:
     unitMention: Yakama Agency
     Final_Fire_Name: Kusshi Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-26T05:30Z-PER-none-ID-2019-WAYAA-000079-NAME-KUSSHICREEK-S-N'
-      Code: 227b975791ce4d7308eeda8d81500ed1a0bb11f61639d99c01a3b5157e20ac17
+      UpdateId: 'UPD-2019-07-27T04:15Z-PER-none-ID-2019-WAYAA-000079-NAME-KUSSHICREEK-S-G'
+      Code: ebfc7c7324dbec2184dc499be517e516822357ee72b55b4c52c92f3bc3ccc18d
   2019-AKSWS-904662:
     Source_NFSA_Join:
       Lon: -154.3649353545042
