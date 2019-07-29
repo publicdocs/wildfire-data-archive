@@ -31649,35 +31649,35 @@ Database:
       PercentContained: 95
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-28T23:00Z'
-      ICS209ReportDateTimeEpoch: 1564354800000
+      ICS209ReportDateTime: '2019-07-29T22:30Z'
+      ICS209ReportDateTimeEpoch: 1564439400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 2000000
       FireCause: Unknown
-      TotalIncidentPersonnel: 30
+      TotalIncidentPersonnel: 11
       FireDiscoveryDateTime: '2019-07-19T21:42Z'
       FireDiscoveryDateTimeEpoch: 1563572520000
       DispatchCenterID: IDCIC
       LocalIncidentIdentifier: 019160
       POOCounty: Custer
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-28T23:00Z'
-      ModifiedOnDateTimeEpoch: 1564354800000
+      ModifiedOnDateTime: '2019-07-29T22:30Z'
+      ModifiedOnDateTimeEpoch: 1564439400000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDSCF-019160
-      ModifiedOnDateTime_Raw: '2019-07-28T23:20Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564356007000
+      ModifiedOnDateTime_Raw: '2019-07-29T22:52Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564440756000
       Hashtag: '#VaderFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-28T23:31:24.200Z'
+          RetrievedOn: '2019-07-29T23:01:01.673Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -31695,30 +31695,30 @@ Database:
     PercentContained: 95
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-28T23:00Z'
-    ICS209ReportDateTimeEpoch: 1564354800000
+    ICS209ReportDateTime: '2019-07-29T22:30Z'
+    ICS209ReportDateTimeEpoch: 1564439400000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 2000000
     FireCause: Unknown
-    TotalIncidentPersonnel: 30
+    TotalIncidentPersonnel: 11
     FireDiscoveryDateTime: '2019-07-19T21:42Z'
     FireDiscoveryDateTimeEpoch: 1563572520000
     DispatchCenterID: IDCIC
     LocalIncidentIdentifier: 019160
     POOCounty: Custer
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-28T23:00Z'
-    ModifiedOnDateTimeEpoch: 1564354800000
+    ModifiedOnDateTime: '2019-07-29T22:30Z'
+    ModifiedOnDateTimeEpoch: 1564439400000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-IDSCF-019160
-    ModifiedOnDateTime_Raw: '2019-07-28T23:20Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564356007000
+    ModifiedOnDateTime_Raw: '2019-07-29T22:52Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564440756000
     Hashtag: '#VaderFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-25T00:00Z'
@@ -31727,10 +31727,10 @@ Database:
       Acres: 442.72731886
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-28T23:31:27.136Z'
+          RetrievedOn: '2019-07-29T23:01:09.166Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -31742,14 +31742,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '2'
+        SourceLayer: '3'
     unitId: IDSCF
     unitMention: '@SalmonChallisNF'
     Final_Fire_Name: Vader Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-28T23:00Z-PER-2019-07-25T00:00Z-ID-2019-IDSCF-019160-NAME-Vader-S-N
-      Code: 02715c6fcee09aa7004c5d6f5a10ec4826b28897c12d6269cb2480ba22157b8e
+        UPD-2019-07-29T22:30Z-PER-2019-07-25T00:00Z-ID-2019-IDSCF-019160-NAME-Vader-S-N
+      Code: 9265f5ce8066765972432eac2b3b34bac7e8326f43f85c97dd84a3acddf2e542
   2019-NMN2S-000024:
     Source_NFSA_Join:
       Lon: -103.27534664481841
@@ -44891,3 +44891,260 @@ Database:
       UpdateId: >-
         UPD-2019-07-29T22:56Z-PER-none-ID-CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7-NAME-LakeFire-S-C
       Code: a45f2d95f4c37fc9ff727ba6cdfb1583dd3a71415945cd50998389ce090801a2
+  2019-COSUA-000543:
+    Source_NFSA_Join:
+      Lon: -107.4322107905531
+      Lat: 37.1179981859522
+      id: 124971
+      Name: Pine Tree
+      Fire_Name: Pine Tree
+      UniqueFireIdentifier: 2019-COSUA-000543
+      DailyAcres: 600
+      PercentContained: 80
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-07-29T22:15Z'
+      ICS209ReportDateTimeEpoch: 1564438500000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 185500
+      FireCause: Natural
+      TotalIncidentPersonnel: 39
+      FireDiscoveryDateTime: '2019-07-25T19:46Z'
+      FireDiscoveryDateTimeEpoch: 1564083960000
+      DispatchCenterID: CODRC
+      LocalIncidentIdentifier: '000543'
+      POOCounty: Archuleta
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-29T22:15Z'
+      ModifiedOnDateTimeEpoch: 1564438500000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-COSUA-000543
+      ModifiedOnDateTime_Raw: '2019-07-29T22:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564439741000
+      Hashtag: '#PineTreeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-29T23:01:01.673Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -107.4322103758816
+      Lat: 37.117995893221824
+      objectid: 46
+      latitude: 37.11799
+      longitude: -107.4322
+      acres: 600
+      gacc: RMCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CO
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-07-29T22:15Z'
+      reportdatetimeEpoch: 1564438500000
+      percentcontained: 80
+      uniquefireidentifier: 2019-COSUA-000543
+      firediscoverydatetime: '2019-07-25T19:46Z'
+      firediscoverydatetimeEpoch: 1564083960000
+      complexparentirwinid: null
+      pooresponsibleunit: COSUA
+      incidentname: Pine Tree
+      iscomplex: 'false'
+      irwinid: '{2BA9544B-2C20-4A7E-9D45-BB8EEF884D81}'
+      irwinmodifiedon: '2019-07-29T22:35Z'
+      irwinmodifiedonEpoch: 1564439741000
+      mapsymbol: '1'
+      datecurrent: '2019-07-29T17:00Z'
+      datecurrentEpoch: 1564419650000
+      pooownerunit: COSUA
+      fireyear: 2019
+      localincidentidentifier: '000543'
+      incidenttypecategory: WF
+      owneragency: BIA
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 600
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-07-29T22:15Z'
+      ModifiedOnDateTimeEpoch: 1564438500000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-COSUA-000543
+      FireDiscoveryDateTime: '2019-07-25T19:46Z'
+      FireDiscoveryDateTimeEpoch: 1564083960000
+      Fire_Name: Pine Tree
+      Name: Pine Tree
+      Source: GEOMAC
+      Hashtag: '#PineTreeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-29T23:01:01.673Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-COSUA-000543
+    Lon: -107.4322107905531
+    Lat: 37.1179981859522
+    id: 124971
+    Name: Pine Tree
+    Fire_Name: Pine Tree
+    UniqueFireIdentifier: 2019-COSUA-000543
+    DailyAcres: 600
+    PercentContained: 80
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-07-29T22:15Z'
+    ICS209ReportDateTimeEpoch: 1564438500000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 185500
+    FireCause: Natural
+    TotalIncidentPersonnel: 39
+    FireDiscoveryDateTime: '2019-07-25T19:46Z'
+    FireDiscoveryDateTimeEpoch: 1564083960000
+    DispatchCenterID: CODRC
+    LocalIncidentIdentifier: '000543'
+    POOCounty: Archuleta
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-29T22:15Z'
+    ModifiedOnDateTimeEpoch: 1564438500000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-COSUA-000543
+    ModifiedOnDateTime_Raw: '2019-07-29T22:35Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564439741000
+    Hashtag: '#PineTreeFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: COSUA
+    unitMention: Southern Ute Agency
+    Final_Fire_Name: Pine Tree Fire
+    _Update:
+      UpdateId: 'UPD-2019-07-29T22:15Z-PER-none-ID-2019-COSUA-000543-NAME-PineTree-S-N'
+      Code: 1eb22b219d1f1347903f4e342b70b14a9fde931443f84ca293fec441d3f251ad
+  2019-ORWWF-000609:
+    Source_NFSA_Join:
+      Lon: -117.42701037211233
+      Lat: 45.177996154509046
+      id: 125612
+      Name: Granite Gulch
+      Fire_Name: Granite Gulch
+      UniqueFireIdentifier: 2019-ORWWF-000609
+      DailyAcres: 0.1
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-07-29T21:00Z'
+      ICS209ReportDateTimeEpoch: 1564434000000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1000
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-29T00:36Z'
+      FireDiscoveryDateTimeEpoch: 1564360560000
+      DispatchCenterID: ORBMC
+      LocalIncidentIdentifier: 000609
+      POOCounty: Wallowa
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-29T21:00Z'
+      ModifiedOnDateTimeEpoch: 1564434000000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-ORWWF-000609
+      ModifiedOnDateTime_Raw: '2019-07-29T22:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564441124000
+      Hashtag: '#GraniteGulchFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-29T23:01:01.673Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -117.42701037211233
+    Lat: 45.177996154509046
+    id: 125612
+    Name: Granite Gulch
+    Fire_Name: Granite Gulch
+    UniqueFireIdentifier: 2019-ORWWF-000609
+    DailyAcres: 0.1
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-07-29T21:00Z'
+    ICS209ReportDateTimeEpoch: 1564434000000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1000
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-29T00:36Z'
+    FireDiscoveryDateTimeEpoch: 1564360560000
+    DispatchCenterID: ORBMC
+    LocalIncidentIdentifier: 000609
+    POOCounty: Wallowa
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-07-29T21:00Z'
+    ModifiedOnDateTimeEpoch: 1564434000000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-ORWWF-000609
+    ModifiedOnDateTime_Raw: '2019-07-29T22:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564441124000
+    Hashtag: '#GraniteGulchFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: ORWWF
+    unitMention: Wallowa-Whitman NF
+    Final_Fire_Name: Granite Gulch Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-29T21:00Z-PER-none-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
+      Code: 29cef62192d6e25f157fefc76dcf432c795cf66597f12724f96b6d0c3d966b4e
