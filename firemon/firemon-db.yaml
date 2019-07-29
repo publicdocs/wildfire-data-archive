@@ -49875,7 +49875,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=2939928b-0308-4d76-b232-246f064ddd11
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-29T12:31:38.322Z'
+          RetrievedOn: '2019-07-29T13:31:02.245Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -49893,38 +49893,38 @@ Database:
       Fire_Name: TUCKER
       UniqueFireIdentifier: 2019-CAMDF-000509
       DailyAcres: 2461
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 30
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-29T12:30Z'
+      ICS209ReportDateTimeEpoch: 1564403400000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 250000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 256
       FireDiscoveryDateTime: '2019-07-28T22:42Z'
       FireDiscoveryDateTimeEpoch: 1564353720000
       DispatchCenterID: CAMICC
       LocalIncidentIdentifier: 000509
       POOCounty: Modoc
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-29T12:26Z'
-      ModifiedOnDateTimeEpoch: 1564403163000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-07-29T12:30Z'
+      ModifiedOnDateTimeEpoch: 1564403400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAMDF-000509
-      ModifiedOnDateTime_Raw: '2019-07-29T12:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564403163000
+      ModifiedOnDateTime_Raw: '2019-07-29T13:02Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564405370000
       Hashtag: '#TuckerFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-29T12:31:38.321Z'
+          RetrievedOn: '2019-07-29T13:31:02.242Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -49932,6 +49932,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -121.24281356991496
+      Lat: 41.72589534985649
+      objectid: 49
+      latitude: 41.72589
+      longitude: -121.2428
+      acres: 2461
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-07-29T12:30Z'
+      reportdatetimeEpoch: 1564403400000
+      percentcontained: 30
+      uniquefireidentifier: 2019-CAMDF-000509
+      firediscoverydatetime: '2019-07-28T22:42Z'
+      firediscoverydatetimeEpoch: 1564353720000
+      complexparentirwinid: null
+      pooresponsibleunit: CAMDF
+      incidentname: TUCKER
+      iscomplex: 'false'
+      irwinid: '{1DAFC388-98C2-401A-849E-C435E3260425}'
+      irwinmodifiedon: '2019-07-29T13:02Z'
+      irwinmodifiedonEpoch: 1564405370000
+      mapsymbol: '1'
+      datecurrent: '2019-07-29T07:30Z'
+      datecurrentEpoch: 1564385438000
+      pooownerunit: CAMDF
+      fireyear: 2019
+      localincidentidentifier: 000509
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 2461
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-29T12:30Z'
+      ModifiedOnDateTimeEpoch: 1564403400000
+      PercentContained: 30
+      UniqueFireIdentifier: 2019-CAMDF-000509
+      FireDiscoveryDateTime: '2019-07-28T22:42Z'
+      FireDiscoveryDateTimeEpoch: 1564353720000
+      Fire_Name: TUCKER
+      Name: TUCKER
+      Source: GEOMAC
+      Hashtag: '#TuckerFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-29T13:31:02.243Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAMDF-000509
     Lon: -121.30341150299206
     Lat: 41.78356858023786
     id: 125492
@@ -49939,34 +50005,34 @@ Database:
     Fire_Name: TUCKER
     UniqueFireIdentifier: 2019-CAMDF-000509
     DailyAcres: 2461
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 30
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-07-29T12:30Z'
+    ICS209ReportDateTimeEpoch: 1564403400000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 250000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 256
     FireDiscoveryDateTime: '2019-07-28T22:42Z'
     FireDiscoveryDateTimeEpoch: 1564353720000
     DispatchCenterID: CAMICC
     LocalIncidentIdentifier: 000509
     POOCounty: Modoc
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-29T12:26Z'
-    ModifiedOnDateTimeEpoch: 1564403163000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-07-29T12:30Z'
+    ModifiedOnDateTimeEpoch: 1564403400000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-CAMDF-000509
       - CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
-    ModifiedOnDateTime_Raw: '2019-07-29T12:26Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564403163000
+    ModifiedOnDateTime_Raw: '2019-07-29T13:02Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564405370000
     Hashtag: '#TuckerFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -49978,5 +50044,5 @@ Database:
     unitMention: Modoc NF
     Final_Fire_Name: Tucker Fire
     _Update:
-      UpdateId: 'UPD-2019-07-29T12:26Z-PER-none-ID-2019-CAMDF-000509-NAME-TUCKER-S-N'
-      Code: ed13462afc7a39572bfa942d6b3d13f6b11eb505ff93c586a5d8600b3c94d7ec
+      UpdateId: 'UPD-2019-07-29T12:30Z-PER-none-ID-2019-CAMDF-000509-NAME-TUCKER-S-N'
+      Code: 96679490444fc689c951733658159c0a9beed543e18a4066856e96eb5316bbbf
