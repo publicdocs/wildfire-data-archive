@@ -44146,218 +44146,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-29T23:09Z-PER-none-ID-CALFIRE-5a633180-7b70-4fb6-b859-b5826775b5fc-NAME-DehesaFire-S-C
       Code: 415a1c41f20c68d5ee6b2179bcc0e22f3ef10225f8a02b053abe5b890eacfca6
-  2019-CAMDF-000509:
-    Source_CALFIRE:
-      Lon: -121.260305
-      Lat: 41.79591
-      incident_name: Tucker Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-07-29T00:58Z'
-      incident_date_last_updateEpoch: 1564361883000
-      incident_date_created: '2019-07-28T22:58Z'
-      incident_date_createdEpoch: 1564354680000
-      incident_administrative_unit: Modoc National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Modoc
-      incident_location: 'Hwy 139 and Tucker Butte Rd, 6 miles SW of Clear Lake Reservoir'
-      incident_acres_burned: 0
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: Modoc National Forest
-      incident_longitude: -121.260305
-      incident_latitude: 41.79591
-      incident_type: Wildfire
-      incident_id: 2939928b-0308-4d76-b232-246f064ddd11
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/tucker-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-07-28'
-      is_active: 'Y'
-      Fire_Name: Tucker Fire
-      ModifiedOnDateTime: '2019-07-29T00:58Z'
-      ModifiedOnDateTimeEpoch: 1564361883000
-      DailyAcres: 0
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
-      Name: Tucker Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#TuckerFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=2939928b-0308-4d76-b232-246f064ddd11
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-30T13:00:23.364Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
-    Source_NFSA_Join:
-      Lon: -121.30341150299206
-      Lat: 41.78356858023786
-      id: 125492
-      Name: TUCKER
-      Fire_Name: TUCKER
-      UniqueFireIdentifier: 2019-CAMDF-000509
-      DailyAcres: 12973
-      PercentContained: 10
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-30T12:45Z'
-      ICS209ReportDateTimeEpoch: 1564490700000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1000000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 319
-      FireDiscoveryDateTime: '2019-07-28T22:42Z'
-      FireDiscoveryDateTimeEpoch: 1564353720000
-      DispatchCenterID: CAMICC
-      LocalIncidentIdentifier: 000509
-      POOCounty: Modoc
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-30T12:45Z'
-      ModifiedOnDateTimeEpoch: 1564490700000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAMDF-000509
-      ModifiedOnDateTime_Raw: '2019-07-30T12:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564491263000
-      Hashtag: '#TuckerFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-30T13:00:23.362Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -121.24281356991496
-      Lat: 41.72589534985649
-      objectid: 45
-      latitude: 41.72589
-      longitude: -121.2428
-      acres: 12973
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-07-30T00:45Z'
-      reportdatetimeEpoch: 1564447500000
-      percentcontained: 10
-      uniquefireidentifier: 2019-CAMDF-000509
-      firediscoverydatetime: '2019-07-28T22:42Z'
-      firediscoverydatetimeEpoch: 1564353720000
-      complexparentirwinid: null
-      pooresponsibleunit: CAMDF
-      incidentname: TUCKER
-      iscomplex: 'false'
-      irwinid: '{1DAFC388-98C2-401A-849E-C435E3260425}'
-      irwinmodifiedon: '2019-07-30T03:52Z'
-      irwinmodifiedonEpoch: 1564458734000
-      mapsymbol: '2'
-      datecurrent: '2019-07-30T06:30Z'
-      datecurrentEpoch: 1564468237000
-      pooownerunit: CAMDF
-      fireyear: 2019
-      localincidentidentifier: 000509
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 12973
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-30T00:45Z'
-      ModifiedOnDateTimeEpoch: 1564447500000
-      PercentContained: 10
-      UniqueFireIdentifier: 2019-CAMDF-000509
-      FireDiscoveryDateTime: '2019-07-28T22:42Z'
-      FireDiscoveryDateTimeEpoch: 1564353720000
-      Fire_Name: TUCKER
-      Name: TUCKER
-      Source: GEOMAC
-      Hashtag: '#TuckerFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-30T13:00:23.363Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAMDF-000509
-    Lon: -121.30341150299206
-    Lat: 41.78356858023786
-    id: 125492
-    Name: TUCKER
-    Fire_Name: TUCKER
-    UniqueFireIdentifier: 2019-CAMDF-000509
-    DailyAcres: 12973
-    PercentContained: 10
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-30T12:45Z'
-    ICS209ReportDateTimeEpoch: 1564490700000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1000000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 319
-    FireDiscoveryDateTime: '2019-07-28T22:42Z'
-    FireDiscoveryDateTimeEpoch: 1564353720000
-    DispatchCenterID: CAMICC
-    LocalIncidentIdentifier: 000509
-    POOCounty: Modoc
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-30T12:45Z'
-    ModifiedOnDateTimeEpoch: 1564490700000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAMDF-000509
-      - CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
-    ModifiedOnDateTime_Raw: '2019-07-30T12:54Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564491263000
-    Hashtag: '#TuckerFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CAMDF
-    unitMention: Modoc NF
-    Final_Fire_Name: Tucker Fire
-    _Update:
-      UpdateId: 'UPD-2019-07-30T12:45Z-PER-none-ID-2019-CAMDF-000509-NAME-TUCKER-S-N'
-      Code: 0626ac7e76e855bc2996d170773b510443067b33c85c3107d2777afd8d5fb09c
   2019-CAKNP-000073:
     Source_NFSA_Join:
       Lon: -118.67581234748394
@@ -45741,3 +45529,219 @@ Database:
       UpdateId: >-
         UPD-2019-07-30T15:27Z-PER-none-ID-CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7-NAME-LakeFire-S-C
       Code: 8be36a556dc648545a7c162e62552891dead32dee13f4e5599b1ab9766b19d65
+  CALFIRE-2939928b-0308-4d76-b232-246f064ddd11:
+    Source_CALFIRE:
+      Lon: -121.260305
+      Lat: 41.79591
+      incident_name: Tucker Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-07-30T16:16Z'
+      incident_date_last_updateEpoch: 1564503406000
+      incident_date_created: '2019-07-28T22:58Z'
+      incident_date_createdEpoch: 1564354680000
+      incident_administrative_unit: Modoc National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Modoc
+      incident_location: 'Hwy 139 and Tucker Butte Rd, 6 miles SW of Clear Lake Reservoir'
+      incident_acres_burned: 11000
+      incident_containment: 0
+      incident_control: ''
+      incident_cooperating_agencies: Modoc National Forest
+      incident_longitude: -121.260305
+      incident_latitude: 41.79591
+      incident_type: Wildfire
+      incident_id: 2939928b-0308-4d76-b232-246f064ddd11
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/tucker-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-07-28'
+      is_active: 'Y'
+      Fire_Name: Tucker Fire
+      ModifiedOnDateTime: '2019-07-30T16:16Z'
+      ModifiedOnDateTimeEpoch: 1564503406000
+      DailyAcres: 11000
+      PercentContained: 0
+      UniqueFireIdentifier: CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+      Name: Tucker Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#TuckerFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=2939928b-0308-4d76-b232-246f064ddd11
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-30T16:17:13.193Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+    Source_NFSA_Join:
+      Lon: -121.30341150299206
+      Lat: 41.78356858023786
+      id: 125492
+      Name: TUCKER
+      Fire_Name: TUCKER
+      UniqueFireIdentifier: 2019-CAMDF-000509
+      DailyAcres: 12973
+      PercentContained: 10
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-30T12:45Z'
+      ICS209ReportDateTimeEpoch: 1564490700000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1000000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 319
+      FireDiscoveryDateTime: '2019-07-28T22:42Z'
+      FireDiscoveryDateTimeEpoch: 1564353720000
+      DispatchCenterID: CAMICC
+      LocalIncidentIdentifier: 000509
+      POOCounty: Modoc
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-07-30T12:45Z'
+      ModifiedOnDateTimeEpoch: 1564490700000
+      ModifiedBySystem: wfdss
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAMDF-000509
+      ModifiedOnDateTime_Raw: '2019-07-30T13:55Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564494901000
+      Hashtag: '#TuckerFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-30T16:17:13.191Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -121.24281356991496
+      Lat: 41.72589534985649
+      objectid: 44
+      latitude: 41.72589
+      longitude: -121.2428
+      acres: 12973
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-07-30T12:45Z'
+      reportdatetimeEpoch: 1564490700000
+      percentcontained: 10
+      uniquefireidentifier: 2019-CAMDF-000509
+      firediscoverydatetime: '2019-07-28T22:42Z'
+      firediscoverydatetimeEpoch: 1564353720000
+      complexparentirwinid: null
+      pooresponsibleunit: CAMDF
+      incidentname: TUCKER
+      iscomplex: 'false'
+      irwinid: '{1DAFC388-98C2-401A-849E-C435E3260425}'
+      irwinmodifiedon: '2019-07-30T13:55Z'
+      irwinmodifiedonEpoch: 1564494901000
+      mapsymbol: '2'
+      datecurrent: '2019-07-30T10:00Z'
+      datecurrentEpoch: 1564480848000
+      pooownerunit: CAMDF
+      fireyear: 2019
+      localincidentidentifier: 000509
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 12973
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-30T12:45Z'
+      ModifiedOnDateTimeEpoch: 1564490700000
+      PercentContained: 10
+      UniqueFireIdentifier: 2019-CAMDF-000509
+      FireDiscoveryDateTime: '2019-07-28T22:42Z'
+      FireDiscoveryDateTimeEpoch: 1564353720000
+      Fire_Name: TUCKER
+      Name: TUCKER
+      Source: GEOMAC
+      Hashtag: '#TuckerFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-30T16:17:13.192Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAMDF-000509
+    Lon: -121.260305
+    Lat: 41.79591
+    incident_name: Tucker Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-07-30T16:16Z'
+    incident_date_last_updateEpoch: 1564503406000
+    incident_date_created: '2019-07-28T22:58Z'
+    incident_date_createdEpoch: 1564354680000
+    incident_administrative_unit: Modoc National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Modoc
+    incident_location: 'Hwy 139 and Tucker Butte Rd, 6 miles SW of Clear Lake Reservoir'
+    incident_acres_burned: 11000
+    incident_containment: 0
+    incident_control: ''
+    incident_cooperating_agencies: Modoc National Forest
+    incident_longitude: -121.260305
+    incident_latitude: 41.79591
+    incident_type: Wildfire
+    incident_id: 2939928b-0308-4d76-b232-246f064ddd11
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/tucker-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-07-28'
+    is_active: 'Y'
+    Fire_Name: Tucker Fire
+    ModifiedOnDateTime: '2019-07-30T16:16Z'
+    ModifiedOnDateTimeEpoch: 1564503406000
+    DailyAcres: 11000
+    PercentContained: 0
+    UniqueFireIdentifier: CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+    Name: Tucker Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#TuckerFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=2939928b-0308-4d76-b232-246f064ddd11
+    _CorrelationIds:
+      - 2019-CAMDF-000509
+      - CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 2939928b
+    unitMention: null
+    Final_Fire_Name: Tucker Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-30T16:16Z-PER-none-ID-CALFIRE-2939928b-0308-4d76-b232-246f064ddd11-NAME-TuckerFire-S-C
+      Code: e1180fe35e852cc2ffcbd16f4a6429073b424f434df40239b6dbe46c10398f53
