@@ -46123,218 +46123,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-31T00:45Z-PER-none-ID-2019-CAMDF-000509-NAME-TUCKER-S-N'
       Code: 0e4dec8a0f3d555caa5e054ad37a912d1bd7dbc5a62792d06d5f1e290656d83e
-  2019-CABEU-004344:
-    Source_CALFIRE:
-      Lon: -120.984167
-      Lat: 35.908333
-      incident_name: Lake Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-07-30T15:27Z'
-      incident_date_last_updateEpoch: 1564500444000
-      incident_date_created: '2019-07-29T22:43Z'
-      incident_date_createdEpoch: 1564440228000
-      incident_administrative_unit: CAL FIRE San Benito - Monterey Unit
-      incident_administrative_unit_url: ''
-      incident_county: Monterey
-      incident_location: 'near Lake San Antonio, Jolon Road and New Pleyto Road, Lockwood'
-      incident_acres_burned: 316
-      incident_containment: 50
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -120.984167
-      incident_latitude: 35.908333
-      incident_type: Wildfire
-      incident_id: 540b19a4-b84c-4d9c-9cb3-746b53a094b7
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/29/lake-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-07-29'
-      is_active: 'Y'
-      Fire_Name: Lake Fire
-      ModifiedOnDateTime: '2019-07-30T15:27Z'
-      ModifiedOnDateTimeEpoch: 1564500444000
-      DailyAcres: 316
-      PercentContained: 50
-      UniqueFireIdentifier: CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7
-      Name: Lake Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#LakeFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=540b19a4-b84c-4d9c-9cb3-746b53a094b7
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-31T01:00:55.807Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7
-    Source_NFSA_Join:
-      Lon: -120.98397957111199
-      Lat: 35.90512093311446
-      id: 125638
-      Name: LAKE
-      Fire_Name: LAKE
-      UniqueFireIdentifier: 2019-CABEU-004344
-      DailyAcres: 316
-      PercentContained: 80
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-31T00:15Z'
-      ICS209ReportDateTimeEpoch: 1564532100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 100000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 82
-      FireDiscoveryDateTime: '2019-07-29T21:54Z'
-      FireDiscoveryDateTimeEpoch: 1564437288000
-      DispatchCenterID: CABECC
-      LocalIncidentIdentifier: '004344'
-      POOCounty: Monterey
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-31T00:15Z'
-      ModifiedOnDateTimeEpoch: 1564532100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CABEU-004344
-      ModifiedOnDateTime_Raw: '2019-07-31T00:44Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564533874000
-      Hashtag: '#LakeFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-31T01:00:55.806Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -120.98397879652187
-      Lat: 35.90512187866698
-      objectid: 47
-      latitude: 35.905117
-      longitude: -120.983966
-      acres: 316
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-07-31T00:15Z'
-      reportdatetimeEpoch: 1564532100000
-      percentcontained: 80
-      uniquefireidentifier: 2019-CABEU-004344
-      firediscoverydatetime: '2019-07-29T21:54Z'
-      firediscoverydatetimeEpoch: 1564437288000
-      complexparentirwinid: null
-      pooresponsibleunit: CABEU
-      incidentname: LAKE
-      iscomplex: 'false'
-      irwinid: '{94B2FCE9-5CE1-4D7C-B364-7FDA3BE084F2}'
-      irwinmodifiedon: '2019-07-31T00:44Z'
-      irwinmodifiedonEpoch: 1564533874000
-      mapsymbol: '1'
-      datecurrent: '2019-07-30T19:00Z'
-      datecurrentEpoch: 1564513234000
-      pooownerunit: CABEU
-      fireyear: 2019
-      localincidentidentifier: '004344'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 316
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-31T00:15Z'
-      ModifiedOnDateTimeEpoch: 1564532100000
-      PercentContained: 80
-      UniqueFireIdentifier: 2019-CABEU-004344
-      FireDiscoveryDateTime: '2019-07-29T21:54Z'
-      FireDiscoveryDateTimeEpoch: 1564437288000
-      Fire_Name: LAKE
-      Name: LAKE
-      Source: GEOMAC
-      Hashtag: '#LakeFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-31T01:00:55.806Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CABEU-004344
-    Lon: -120.98397957111199
-    Lat: 35.90512093311446
-    id: 125638
-    Name: LAKE
-    Fire_Name: LAKE
-    UniqueFireIdentifier: 2019-CABEU-004344
-    DailyAcres: 316
-    PercentContained: 80
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-31T00:15Z'
-    ICS209ReportDateTimeEpoch: 1564532100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 100000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 82
-    FireDiscoveryDateTime: '2019-07-29T21:54Z'
-    FireDiscoveryDateTimeEpoch: 1564437288000
-    DispatchCenterID: CABECC
-    LocalIncidentIdentifier: '004344'
-    POOCounty: Monterey
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-31T00:15Z'
-    ModifiedOnDateTimeEpoch: 1564532100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CABEU-004344
-      - CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7
-    ModifiedOnDateTime_Raw: '2019-07-31T00:44Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564533874000
-    Hashtag: '#LakeFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CABEU
-    unitMention: '@calfirebeu'
-    Final_Fire_Name: Lake Fire
-    _Update:
-      UpdateId: 'UPD-2019-07-31T00:15Z-PER-none-ID-2019-CABEU-004344-NAME-LAKE-S-N'
-      Code: c2647ad7168421374d908c19ee01c2426beb13db91fb325512155be20ede5de3
   CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff:
     Source_CALFIRE:
       Lon: -123.846013
@@ -46580,3 +46368,219 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-31T00:30Z-PER-none-ID-2019-CAINF-001464-NAME-KELTY-S-N'
       Code: ac200f3f6d877611481e471d3e38ae5634064d4e82269e9ccebeef5ca86a1d52
+  CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7:
+    Source_CALFIRE:
+      Lon: -120.984167
+      Lat: 35.908333
+      incident_name: Lake Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-07-31T01:58Z'
+      incident_date_last_updateEpoch: 1564538329000
+      incident_date_created: '2019-07-29T22:43Z'
+      incident_date_createdEpoch: 1564440228000
+      incident_administrative_unit: CAL FIRE San Benito - Monterey Unit
+      incident_administrative_unit_url: ''
+      incident_county: Monterey
+      incident_location: 'near Lake San Antonio, Jolon Road and New Pleyto Road, Lockwood'
+      incident_acres_burned: 316
+      incident_containment: 80
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -120.984167
+      incident_latitude: 35.908333
+      incident_type: Wildfire
+      incident_id: 540b19a4-b84c-4d9c-9cb3-746b53a094b7
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/29/lake-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-07-29'
+      is_active: 'Y'
+      Fire_Name: Lake Fire
+      ModifiedOnDateTime: '2019-07-31T01:58Z'
+      ModifiedOnDateTimeEpoch: 1564538329000
+      DailyAcres: 316
+      PercentContained: 80
+      UniqueFireIdentifier: CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7
+      Name: Lake Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#LakeFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=540b19a4-b84c-4d9c-9cb3-746b53a094b7
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-31T01:58:55.013Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7
+    Source_NFSA_Join:
+      Lon: -120.98397957111199
+      Lat: 35.90512093311446
+      id: 125638
+      Name: LAKE
+      Fire_Name: LAKE
+      UniqueFireIdentifier: 2019-CABEU-004344
+      DailyAcres: 316
+      PercentContained: 80
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-31T00:15Z'
+      ICS209ReportDateTimeEpoch: 1564532100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 100000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 82
+      FireDiscoveryDateTime: '2019-07-29T21:54Z'
+      FireDiscoveryDateTimeEpoch: 1564437288000
+      DispatchCenterID: CABECC
+      LocalIncidentIdentifier: '004344'
+      POOCounty: Monterey
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-31T00:15Z'
+      ModifiedOnDateTimeEpoch: 1564532100000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CABEU-004344
+      ModifiedOnDateTime_Raw: '2019-07-31T00:44Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564533874000
+      Hashtag: '#LakeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-31T01:58:55.011Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -120.98397879652187
+      Lat: 35.90512187866698
+      objectid: 47
+      latitude: 35.905117
+      longitude: -120.983966
+      acres: 316
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-07-31T00:15Z'
+      reportdatetimeEpoch: 1564532100000
+      percentcontained: 80
+      uniquefireidentifier: 2019-CABEU-004344
+      firediscoverydatetime: '2019-07-29T21:54Z'
+      firediscoverydatetimeEpoch: 1564437288000
+      complexparentirwinid: null
+      pooresponsibleunit: CABEU
+      incidentname: LAKE
+      iscomplex: 'false'
+      irwinid: '{94B2FCE9-5CE1-4D7C-B364-7FDA3BE084F2}'
+      irwinmodifiedon: '2019-07-31T00:44Z'
+      irwinmodifiedonEpoch: 1564533874000
+      mapsymbol: '1'
+      datecurrent: '2019-07-30T19:30Z'
+      datecurrentEpoch: 1564515035000
+      pooownerunit: CABEU
+      fireyear: 2019
+      localincidentidentifier: '004344'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 316
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-07-31T00:15Z'
+      ModifiedOnDateTimeEpoch: 1564532100000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-CABEU-004344
+      FireDiscoveryDateTime: '2019-07-29T21:54Z'
+      FireDiscoveryDateTimeEpoch: 1564437288000
+      Fire_Name: LAKE
+      Name: LAKE
+      Source: GEOMAC
+      Hashtag: '#LakeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-31T01:58:55.012Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CABEU-004344
+    Lon: -120.984167
+    Lat: 35.908333
+    incident_name: Lake Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-07-31T01:58Z'
+    incident_date_last_updateEpoch: 1564538329000
+    incident_date_created: '2019-07-29T22:43Z'
+    incident_date_createdEpoch: 1564440228000
+    incident_administrative_unit: CAL FIRE San Benito - Monterey Unit
+    incident_administrative_unit_url: ''
+    incident_county: Monterey
+    incident_location: 'near Lake San Antonio, Jolon Road and New Pleyto Road, Lockwood'
+    incident_acres_burned: 316
+    incident_containment: 80
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -120.984167
+    incident_latitude: 35.908333
+    incident_type: Wildfire
+    incident_id: 540b19a4-b84c-4d9c-9cb3-746b53a094b7
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/29/lake-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-07-29'
+    is_active: 'Y'
+    Fire_Name: Lake Fire
+    ModifiedOnDateTime: '2019-07-31T01:58Z'
+    ModifiedOnDateTimeEpoch: 1564538329000
+    DailyAcres: 316
+    PercentContained: 80
+    UniqueFireIdentifier: CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7
+    Name: Lake Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#LakeFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=540b19a4-b84c-4d9c-9cb3-746b53a094b7
+    _CorrelationIds:
+      - 2019-CABEU-004344
+      - CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 540b19a4
+    unitMention: null
+    Final_Fire_Name: Lake Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-31T01:58Z-PER-none-ID-CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7-NAME-LakeFire-S-C
+      Code: 83e4afec33782dbbb424b82dd0d681e48bbac1c259a1ebb82380df935f7b3e9b
