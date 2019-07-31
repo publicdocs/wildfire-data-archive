@@ -46370,152 +46370,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-31T12:00Z-PER-none-ID-2019-CAMDF-000509-NAME-TUCKER-S-N'
       Code: 632de0b106c5f98b0d7f69da2eb95ee7fcc6057d509828c1aecf837485eabb87
-  2019-CAMEU-009124:
-    Source_CALFIRE:
-      Lon: -123.846013
-      Lat: 39.831762
-      incident_name: Usal Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-07-31T01:24Z'
-      incident_date_last_updateEpoch: 1564536268000
-      incident_date_created: '2019-07-28T06:36Z'
-      incident_date_createdEpoch: 1564295760000
-      incident_administrative_unit: CAL FIRE Mendocino Unit
-      incident_administrative_unit_url: ''
-      incident_county: Mendocino
-      incident_location: 'Usal Creek and Usal Rd, west of Leggett'
-      incident_acres_burned: 130
-      incident_containment: 60
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -123.846013
-      incident_latitude: 39.831762
-      incident_type: Wildfire
-      incident_id: 5edb4ec4-615c-45fb-a236-9a4225eedaff
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/27/usal-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-07-27'
-      is_active: 'Y'
-      Fire_Name: Usal Fire
-      ModifiedOnDateTime: '2019-07-31T01:24Z'
-      ModifiedOnDateTimeEpoch: 1564536268000
-      DailyAcres: 130
-      PercentContained: 60
-      UniqueFireIdentifier: CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff
-      Name: Usal Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#UsalFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=5edb4ec4-615c-45fb-a236-9a4225eedaff
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-31T13:01:26.902Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff
-    Source_NFSA_Join:
-      Lon: -123.84420645259573
-      Lat: 39.8346011552797
-      id: 125375
-      Name: USAL
-      Fire_Name: USAL
-      UniqueFireIdentifier: 2019-CAMEU-009124
-      DailyAcres: 130
-      PercentContained: 65
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-31T12:45Z'
-      ICS209ReportDateTimeEpoch: 1564577100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1160000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 379
-      FireDiscoveryDateTime: '2019-07-28T06:40Z'
-      FireDiscoveryDateTimeEpoch: 1564296031000
-      DispatchCenterID: CAMECC
-      LocalIncidentIdentifier: 009124
-      POOCounty: Mendocino
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-31T12:45Z'
-      ModifiedOnDateTimeEpoch: 1564577100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAMEU-009124
-      ModifiedOnDateTime_Raw: '2019-07-31T12:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564577305000
-      Hashtag: '#UsalFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-31T13:01:26.901Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -123.84420645259573
-    Lat: 39.8346011552797
-    id: 125375
-    Name: USAL
-    Fire_Name: USAL
-    UniqueFireIdentifier: 2019-CAMEU-009124
-    DailyAcres: 130
-    PercentContained: 65
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-31T12:45Z'
-    ICS209ReportDateTimeEpoch: 1564577100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1160000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 379
-    FireDiscoveryDateTime: '2019-07-28T06:40Z'
-    FireDiscoveryDateTimeEpoch: 1564296031000
-    DispatchCenterID: CAMECC
-    LocalIncidentIdentifier: 009124
-    POOCounty: Mendocino
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-31T12:45Z'
-    ModifiedOnDateTimeEpoch: 1564577100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAMEU-009124
-      - CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff
-    ModifiedOnDateTime_Raw: '2019-07-31T12:48Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564577305000
-    Hashtag: '#UsalFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CAMEU
-    unitMention: Mendocino Unit
-    Final_Fire_Name: Usal Fire
-    _Update:
-      UpdateId: 'UPD-2019-07-31T12:45Z-PER-none-ID-2019-CAMEU-009124-NAME-USAL-S-N'
-      Code: e8a036dff94be4e04dfa5b3eba5244beaf2d23e1aee9011f59a8ca334f476932
   2019-CABEU-004344:
     Source_CALFIRE:
       Lon: -120.984167
@@ -46662,3 +46516,153 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-31T12:45Z-PER-none-ID-2019-CABEU-004344-NAME-LAKE-S-N'
       Code: e53bfcee3f8a7f67efe9ac6789287ac344b3fce9fa77506d77a52bcfe87bd8cc
+  CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff:
+    Source_CALFIRE:
+      Lon: -123.846013
+      Lat: 39.831762
+      incident_name: Usal Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-07-31T13:38Z'
+      incident_date_last_updateEpoch: 1564580281000
+      incident_date_created: '2019-07-28T06:36Z'
+      incident_date_createdEpoch: 1564295760000
+      incident_administrative_unit: CAL FIRE Mendocino Unit
+      incident_administrative_unit_url: ''
+      incident_county: Mendocino
+      incident_location: 'Usal Creek and Usal Rd, west of Leggett'
+      incident_acres_burned: 130
+      incident_containment: 65
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -123.846013
+      incident_latitude: 39.831762
+      incident_type: Wildfire
+      incident_id: 5edb4ec4-615c-45fb-a236-9a4225eedaff
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/27/usal-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-07-27'
+      is_active: 'Y'
+      Fire_Name: Usal Fire
+      ModifiedOnDateTime: '2019-07-31T13:38Z'
+      ModifiedOnDateTimeEpoch: 1564580281000
+      DailyAcres: 130
+      PercentContained: 65
+      UniqueFireIdentifier: CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff
+      Name: Usal Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#UsalFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=5edb4ec4-615c-45fb-a236-9a4225eedaff
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-31T13:39:26.106Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff
+    Source_NFSA_Join:
+      Lon: -123.84420645259573
+      Lat: 39.8346011552797
+      id: 125375
+      Name: USAL
+      Fire_Name: USAL
+      UniqueFireIdentifier: 2019-CAMEU-009124
+      DailyAcres: 130
+      PercentContained: 65
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-07-31T12:45Z'
+      ICS209ReportDateTimeEpoch: 1564577100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1160000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 379
+      FireDiscoveryDateTime: '2019-07-28T06:40Z'
+      FireDiscoveryDateTimeEpoch: 1564296031000
+      DispatchCenterID: CAMECC
+      LocalIncidentIdentifier: 009124
+      POOCounty: Mendocino
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-07-31T12:45Z'
+      ModifiedOnDateTimeEpoch: 1564577100000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAMEU-009124
+      ModifiedOnDateTime_Raw: '2019-07-31T12:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564577305000
+      Hashtag: '#UsalFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-31T13:39:26.104Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -123.846013
+    Lat: 39.831762
+    incident_name: Usal Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-07-31T13:38Z'
+    incident_date_last_updateEpoch: 1564580281000
+    incident_date_created: '2019-07-28T06:36Z'
+    incident_date_createdEpoch: 1564295760000
+    incident_administrative_unit: CAL FIRE Mendocino Unit
+    incident_administrative_unit_url: ''
+    incident_county: Mendocino
+    incident_location: 'Usal Creek and Usal Rd, west of Leggett'
+    incident_acres_burned: 130
+    incident_containment: 65
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -123.846013
+    incident_latitude: 39.831762
+    incident_type: Wildfire
+    incident_id: 5edb4ec4-615c-45fb-a236-9a4225eedaff
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/27/usal-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-07-27'
+    is_active: 'Y'
+    Fire_Name: Usal Fire
+    ModifiedOnDateTime: '2019-07-31T13:38Z'
+    ModifiedOnDateTimeEpoch: 1564580281000
+    DailyAcres: 130
+    PercentContained: 65
+    UniqueFireIdentifier: CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff
+    Name: Usal Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#UsalFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=5edb4ec4-615c-45fb-a236-9a4225eedaff
+    _CorrelationIds:
+      - 2019-CAMEU-009124
+      - CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 5edb4ec4
+    unitMention: null
+    Final_Fire_Name: Usal Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-07-31T13:38Z-PER-none-ID-CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff-NAME-UsalFire-S-C
+      Code: bb87a3ebf41e54f7b80920c96042f592981a5fe53b844b5d155c231f5a1cff71
