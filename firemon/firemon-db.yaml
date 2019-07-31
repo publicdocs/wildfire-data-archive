@@ -3406,119 +3406,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-08T14:50Z-PER-none-ID-CALFIRE-89db8bb4-6e3b-4de7-b7d9-287c1a9032c0-NAME-HollowFire-S-C
       Code: ab28a894d3fda1d25b50824208d57fd98ff4768fa04f601b324665fb9c6d4ce9
-  2019-GACIP-190004:
-    Source_NFSA_Join:
-      Lon: -81.42972929002772
-      Lat: 30.895559721122122
-      id: 120725
-      Name: WHITNEY FIRE
-      Fire_Name: WHITNEY FIRE
-      UniqueFireIdentifier: 2019-GACIP-190004
-      DailyAcres: 441
-      PercentContained: 95
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-19T17:45Z'
-      ICS209ReportDateTimeEpoch: 1563558300000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 593133
-      FireCause: Natural
-      TotalIncidentPersonnel: 9
-      FireDiscoveryDateTime: '2019-06-30T00:17Z'
-      FireDiscoveryDateTimeEpoch: 1561853820000
-      DispatchCenterID: GAGIC
-      LocalIncidentIdentifier: '190004'
-      POOCounty: Camden
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-19T17:45Z'
-      ModifiedOnDateTimeEpoch: 1563558300000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-GACIP-190004
-      ModifiedOnDateTime_Raw: '2019-07-19T18:13Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563560006000
-      Hashtag: '#WhitneyFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-19T18:30:07.433Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -81.42972929002772
-    Lat: 30.895559721122122
-    id: 120725
-    Name: WHITNEY FIRE
-    Fire_Name: WHITNEY FIRE
-    UniqueFireIdentifier: 2019-GACIP-190004
-    DailyAcres: 441
-    PercentContained: 95
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-19T17:45Z'
-    ICS209ReportDateTimeEpoch: 1563558300000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 593133
-    FireCause: Natural
-    TotalIncidentPersonnel: 9
-    FireDiscoveryDateTime: '2019-06-30T00:17Z'
-    FireDiscoveryDateTimeEpoch: 1561853820000
-    DispatchCenterID: GAGIC
-    LocalIncidentIdentifier: '190004'
-    POOCounty: Camden
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-19T17:45Z'
-    ModifiedOnDateTimeEpoch: 1563558300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-GACIP-190004
-    ModifiedOnDateTime_Raw: '2019-07-19T18:13Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563560006000
-    Hashtag: '#WhitneyFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-06T14:00Z'
-    PerimeterData:
-      DateTime: '2019-07-06T14:00Z'
-      Acres: 399.8043257
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-19T18:30:11.711Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: GACIP
-    unitMention: Cumberland Island National Seashore
-    Final_Fire_Name: Whitney Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-19T17:45Z-PER-2019-07-06T14:00Z-ID-2019-GACIP-190004-NAME-WHITNEYFIRE-S-N
-      Code: 0d42c65de0867d24fb94869ef9503280992e498051039b5437ee02b32f3bcaae
   2019-FLFLS-180157:
     Source_GEOMAC:
       Lon: -80.46694717636633
@@ -37546,13 +37433,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564545200000
     Hashtag: '#KusshiCreekFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-26T22:45Z'
+    PerimDateTime: '2019-07-29T08:00Z'
     PerimeterData:
-      DateTime: '2019-07-26T22:45Z'
-      Acres: 1075.08315982
+      DateTime: '2019-07-29T08:00Z'
+      Acres: 953.62594967
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-31T04:00:29.930Z'
+          RetrievedOn: '2019-07-31T15:16:16.043Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -37573,8 +37460,8 @@ Database:
     Final_Fire_Name: Kusshi Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-31T03:30Z-PER-2019-07-26T22:45Z-ID-2019-WAYAA-000079-NAME-KUSSHICREEK-S-N
-      Code: f2dc819339afbf740b3d09051405ced90f2d089291c5a029c3026f19c1fae748
+        UPD-2019-07-31T03:30Z-PER-2019-07-29T08:00Z-ID-2019-WAYAA-000079-NAME-KUSSHICREEK-S-N
+      Code: cf2819232425d39066a41503858f004976e1365e850d8e48112f178dd4c07378
   2019-AKSWS-904662:
     Source_NFSA_Join:
       Lon: -154.3649353545042
@@ -40095,102 +39982,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-26T02:00Z-PER-2019-07-24T08:33Z-ID-2019-AKSWS-904528-NAME-Hoholitna-S-N
       Code: 40284a05f3829868e38a3b85a9a57dfb38d4349bbed173d03de7d572c7b7baa0
-  2019-WAOWF-000320:
-    Source_NFSA_Join:
-      Lon: -120.89791198374051
-      Lat: 47.65992619851452
-      id: 124415
-      Name: SOUTH FORK CREEK
-      Fire_Name: SOUTH FORK CREEK
-      UniqueFireIdentifier: 2019-WAOWF-000320
-      DailyAcres: 1.5
-      PercentContained: 0
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-26T01:00Z'
-      ICS209ReportDateTimeEpoch: 1564102800000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 3000
-      FireCause: Unknown
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-23T21:52Z'
-      FireDiscoveryDateTimeEpoch: 1563918748000
-      DispatchCenterID: WACWC
-      LocalIncidentIdentifier: '000320'
-      POOCounty: Chelan
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-26T01:00Z'
-      ModifiedOnDateTimeEpoch: 1564102800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-WAOWF-000320
-      ModifiedOnDateTime_Raw: '2019-07-26T02:55Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564109717000
-      Hashtag: '#SouthForkCreekFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-26T03:01:20.950Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -120.89791198374051
-    Lat: 47.65992619851452
-    id: 124415
-    Name: SOUTH FORK CREEK
-    Fire_Name: SOUTH FORK CREEK
-    UniqueFireIdentifier: 2019-WAOWF-000320
-    DailyAcres: 1.5
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-26T01:00Z'
-    ICS209ReportDateTimeEpoch: 1564102800000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3000
-    FireCause: Unknown
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-23T21:52Z'
-    FireDiscoveryDateTimeEpoch: 1563918748000
-    DispatchCenterID: WACWC
-    LocalIncidentIdentifier: '000320'
-    POOCounty: Chelan
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-26T01:00Z'
-    ModifiedOnDateTimeEpoch: 1564102800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-WAOWF-000320
-    ModifiedOnDateTime_Raw: '2019-07-26T02:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564109717000
-    Hashtag: '#SouthForkCreekFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: WAOWF
-    unitMention: Okanogan-Wenatchee NF
-    Final_Fire_Name: South Fork Creek Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-26T01:00Z-PER-none-ID-2019-WAOWF-000320-NAME-SOUTHFORKCREEK-S-N
-      Code: 1115ce4447fb22c988f0c86bb5118a39b97e9f81a16734aaa05beb8677705e60
   2019-AKTAD-000316:
     Source_NFSA_Join:
       Lon: -153.2420232830491
@@ -42934,17 +42725,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564525645000
     Hashtag: '#BagnalFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-28T20:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-28T20:00Z'
+      Acres: 1144.44015042
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-31T15:16:16.043Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: AZASF
     unitMention: Apache-Sitgreaves NF
     Final_Fire_Name: Bagnal Fire
     _Update:
-      UpdateId: 'UPD-2019-07-30T22:15Z-PER-none-ID-2019-AZASF-000604-NAME-Bagnal-S-N'
-      Code: 267aed642e480627475969649b34ec6710d4e1a28885e11a01d87797aa8c8242
+      UpdateId: >-
+        UPD-2019-07-30T22:15Z-PER-2019-07-28T20:00Z-ID-2019-AZASF-000604-NAME-Bagnal-S-N
+      Code: 943b5cc875faa815884879a3333013b8a5fe8edb7f2f6d15fe735bda5fead483
   2019-UTDIF-000403:
     Source_NFSA_Join:
       Lon: -112.32130969067926
@@ -45083,9 +44892,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=233708cc-ed2d-4b85-ba8c-60cf71c912c8
     _CorrelationIds:
       - CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8
-    PerimDateTime: '2019-07-30T09:29Z'
+    PerimDateTime: '2019-07-30T21:53Z'
     PerimeterData:
-      DateTime: '2019-07-30T09:29Z'
+      DateTime: '2019-07-30T21:53Z'
       Acres: null
       _Provenance: null
     unitId: 233708cc
@@ -45093,8 +44902,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-30T20:39Z-PER-2019-07-30T09:29Z-ID-CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8-NAME--S-C
-      Code: d9c49bbf978f8d9be576286f71b165dc1dbe7adc4f8f6f78d77df6fa1634822c
+        UPD-2019-07-30T20:39Z-PER-2019-07-30T21:53Z-ID-CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8-NAME--S-C
+      Code: 3636f1b0b7a77fde538a82533da964653de61e223bf85ad0302c66c15384f4c8
   2019-UTMLF-009127:
     Source_NFSA_Join:
       Lon: -111.26921181307132
@@ -46359,17 +46168,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564575530000
     Hashtag: '#TuckerFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-30T21:53Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-30T21:53Z'
+      Acres: 12334.4202556
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-07-31T15:16:16.043Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: CAMDF
     unitMention: Modoc NF
     Final_Fire_Name: Tucker Fire
     _Update:
-      UpdateId: 'UPD-2019-07-31T12:00Z-PER-none-ID-2019-CAMDF-000509-NAME-TUCKER-S-N'
-      Code: 632de0b106c5f98b0d7f69da2eb95ee7fcc6057d509828c1aecf837485eabb87
+      UpdateId: >-
+        UPD-2019-07-31T12:00Z-PER-2019-07-30T21:53Z-ID-2019-CAMDF-000509-NAME-TUCKER-S-N
+      Code: ec6202a18127cfd40070745da5803b11a8eed55a8927f67b194ca1342493d887
   CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff:
     Source_CALFIRE:
       Lon: -123.846013
