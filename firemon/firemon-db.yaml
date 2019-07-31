@@ -45946,7 +45946,7 @@ Database:
       Name: Alaska
       Fire_Name: Alaska
       UniqueFireIdentifier: 2019-UTUWF-000430
-      DailyAcres: 400
+      DailyAcres: 450
       PercentContained: null
       FireMgmtComplexity: null
       IncidentManagementOrganization: null
@@ -45964,21 +45964,21 @@ Database:
       LocalIncidentIdentifier: '000430'
       POOCounty: Utah
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-31T15:38Z'
-      ModifiedOnDateTimeEpoch: 1564587536000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-07-31T16:58Z'
+      ModifiedOnDateTimeEpoch: 1564592297000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTUWF-000430
-      ModifiedOnDateTime_Raw: '2019-07-31T15:38Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564587536000
+      ModifiedOnDateTime_Raw: '2019-07-31T16:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564592297000
       Hashtag: '#AlaskaFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-31T16:00:48.695Z'
+          RetrievedOn: '2019-07-31T17:01:23.467Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -45992,7 +45992,7 @@ Database:
     Name: Alaska
     Fire_Name: Alaska
     UniqueFireIdentifier: 2019-UTUWF-000430
-    DailyAcres: 400
+    DailyAcres: 450
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -46010,16 +46010,16 @@ Database:
     LocalIncidentIdentifier: '000430'
     POOCounty: Utah
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-31T15:38Z'
-    ModifiedOnDateTimeEpoch: 1564587536000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-07-31T16:58Z'
+    ModifiedOnDateTimeEpoch: 1564592297000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTUWF-000430
-    ModifiedOnDateTime_Raw: '2019-07-31T15:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564587536000
+    ModifiedOnDateTime_Raw: '2019-07-31T16:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564592297000
     Hashtag: '#AlaskaFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -46031,8 +46031,8 @@ Database:
     unitMention: Uinta-Wasatch-Cache NF
     Final_Fire_Name: Alaska Fire
     _Update:
-      UpdateId: 'UPD-2019-07-31T15:38Z-PER-none-ID-2019-UTUWF-000430-NAME-Alaska-S-N'
-      Code: e6cbf273fc2483d70324ea7cb481ed8efebd97bc6f5c634993faa276ec94fc55
+      UpdateId: 'UPD-2019-07-31T16:58Z-PER-none-ID-2019-UTUWF-000430-NAME-Alaska-S-N'
+      Code: 91516edf5c13ebc6a159d64e12b3b04b4109fdfe3fcbae91013f3f0676b1811a
   2019-CAMDF-000509:
     Source_CALFIRE:
       Lon: -121.260305
@@ -46497,105 +46497,3 @@ Database:
       UpdateId: >-
         UPD-2019-07-31T14:13Z-PER-none-ID-CALFIRE-540b19a4-b84c-4d9c-9cb3-746b53a094b7-NAME-LakeFire-S-C
       Code: f06b32723cb6263f384d4b9b0d2bac6f15ec93c411ae452c955cb3dc33ba220d
-  CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce:
-    Source_CALFIRE:
-      Lon: -119.94974
-      Lat: 34.665699
-      incident_name: Range Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-07-30T02:15Z'
-      incident_date_last_updateEpoch: 1564452938000
-      incident_date_created: '2019-07-29T05:39Z'
-      incident_date_createdEpoch: 1564378745000
-      incident_administrative_unit: Los Padres National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Santa Barbara
-      incident_location: north of Lake Cachuma
-      incident_acres_burned: 0
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: Los Padres National Forest
-      incident_longitude: -119.94974
-      incident_latitude: 34.665699
-      incident_type: Wildfire
-      incident_id: bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/range-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-07-28'
-      is_active: 'Y'
-      Fire_Name: Range Fire
-      ModifiedOnDateTime: '2019-07-30T02:15Z'
-      ModifiedOnDateTimeEpoch: 1564452938000
-      DailyAcres: 0
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-      Name: Range Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#RangeFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-31T16:31:53.322Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    Lon: -119.94974
-    Lat: 34.665699
-    incident_name: Range Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-07-30T02:15Z'
-    incident_date_last_updateEpoch: 1564452938000
-    incident_date_created: '2019-07-29T05:39Z'
-    incident_date_createdEpoch: 1564378745000
-    incident_administrative_unit: Los Padres National Forest
-    incident_administrative_unit_url: ''
-    incident_county: Santa Barbara
-    incident_location: north of Lake Cachuma
-    incident_acres_burned: 0
-    incident_containment: 0
-    incident_control: ''
-    incident_cooperating_agencies: Los Padres National Forest
-    incident_longitude: -119.94974
-    incident_latitude: 34.665699
-    incident_type: Wildfire
-    incident_id: bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/range-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-07-28'
-    is_active: 'Y'
-    Fire_Name: Range Fire
-    ModifiedOnDateTime: '2019-07-30T02:15Z'
-    ModifiedOnDateTimeEpoch: 1564452938000
-    DailyAcres: 0
-    PercentContained: 0
-    UniqueFireIdentifier: CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    Name: Range Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#RangeFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    _CorrelationIds:
-      - CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: bc2edb86
-    unitMention: null
-    Final_Fire_Name: Range Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-30T02:15Z-PER-none-ID-CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce-NAME-RangeFire-S-C
-      Code: bb846702c50c6740cabb4ceffda84b5cc74545dd91908328beda7202f28bf9f0
