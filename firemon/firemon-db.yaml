@@ -44531,3 +44531,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-01T17:00Z-PER-none-ID-2019-IDCTF-000100-NAME-Tincup-S-N'
       Code: 1eb5a850a1027fabe3fa15906fbcd34cac9b270daf41f277fe569ed840224ad7
+  2019-AKMID-000471:
+    Source_NFSA_Join:
+      Lon: -147.3532252358377
+      Lat: 64.41926268329463
+      id: 122366
+      Name: Dry Creek 2
+      Fire_Name: Dry Creek 2
+      UniqueFireIdentifier: 2019-AKMID-000471
+      DailyAcres: 2396.7
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-08-01T18:30Z'
+      ICS209ReportDateTimeEpoch: 1564684200000
+      ICS209ReportStatus: F
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 10000
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-07-10T04:10Z'
+      FireDiscoveryDateTimeEpoch: 1562731800000
+      DispatchCenterID: AKYTDC
+      LocalIncidentIdentifier: '000471'
+      POOCounty: Fairbanks North Star
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-01T18:30Z'
+      ModifiedOnDateTimeEpoch: 1564684200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKMID-000471
+      ModifiedOnDateTime_Raw: '2019-08-01T18:36Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564684572000
+      Hashtag: '#DryCreek2Fire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T19:01:23.254Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -147.3532252358377
+    Lat: 64.41926268329463
+    id: 122366
+    Name: Dry Creek 2
+    Fire_Name: Dry Creek 2
+    UniqueFireIdentifier: 2019-AKMID-000471
+    DailyAcres: 2396.7
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-08-01T18:30Z'
+    ICS209ReportDateTimeEpoch: 1564684200000
+    ICS209ReportStatus: F
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 10000
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-07-10T04:10Z'
+    FireDiscoveryDateTimeEpoch: 1562731800000
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: '000471'
+    POOCounty: Fairbanks North Star
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-01T18:30Z'
+    ModifiedOnDateTimeEpoch: 1564684200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKMID-000471
+    ModifiedOnDateTime_Raw: '2019-08-01T18:36Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564684572000
+    Hashtag: '#DryCreek2Fire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-28T13:55Z'
+    PerimeterData:
+      DateTime: '2019-07-28T13:55Z'
+      Acres: 2396.65068801
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T19:01:28.777Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AKMID
+    unitMention: Alaska Fire Service - Military Zone
+    Final_Fire_Name: Dry Creek 2 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-01T18:30Z-PER-2019-07-28T13:55Z-ID-2019-AKMID-000471-NAME-DryCreek2-S-N
+      Code: d91ce44609f00cc10ffc88dc88a8259b29f1179b81de9841266f8a04fdbe333f
