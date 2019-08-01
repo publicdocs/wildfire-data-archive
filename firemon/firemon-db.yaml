@@ -44518,3 +44518,116 @@ Database:
       UpdateId: >-
         UPD-2019-08-01T18:30Z-PER-2019-07-28T13:55Z-ID-2019-AKMID-000471-NAME-DryCreek2-S-N
       Code: d91ce44609f00cc10ffc88dc88a8259b29f1179b81de9841266f8a04fdbe333f
+  2019-AKTAD-000389:
+    Source_NFSA_Join:
+      Lon: -151.74952633740156
+      Lat: 63.49998933867568
+      id: 120345
+      Name: Foraker
+      Fire_Name: Foraker
+      UniqueFireIdentifier: 2019-AKTAD-000389
+      DailyAcres: 49979.5
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-08-01T19:45Z'
+      ICS209ReportDateTimeEpoch: 1564688700000
+      ICS209ReportStatus: F
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 203477
+      FireCause: Natural
+      TotalIncidentPersonnel: 3
+      FireDiscoveryDateTime: '2019-06-27T00:21Z'
+      FireDiscoveryDateTimeEpoch: 1561594860000
+      DispatchCenterID: AKYTDC
+      LocalIncidentIdentifier: 000389
+      POOCounty: Denali
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-01T19:45Z'
+      ModifiedOnDateTimeEpoch: 1564688700000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AKTAD-000389
+      ModifiedOnDateTime_Raw: '2019-08-01T19:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564689472000
+      Hashtag: '#ForakerFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T20:00:48.696Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -151.74952633740156
+    Lat: 63.49998933867568
+    id: 120345
+    Name: Foraker
+    Fire_Name: Foraker
+    UniqueFireIdentifier: 2019-AKTAD-000389
+    DailyAcres: 49979.5
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-08-01T19:45Z'
+    ICS209ReportDateTimeEpoch: 1564688700000
+    ICS209ReportStatus: F
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 203477
+    FireCause: Natural
+    TotalIncidentPersonnel: 3
+    FireDiscoveryDateTime: '2019-06-27T00:21Z'
+    FireDiscoveryDateTimeEpoch: 1561594860000
+    DispatchCenterID: AKYTDC
+    LocalIncidentIdentifier: 000389
+    POOCounty: Denali
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-01T19:45Z'
+    ModifiedOnDateTimeEpoch: 1564688700000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AKTAD-000389
+    ModifiedOnDateTime_Raw: '2019-08-01T19:57Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564689472000
+    Hashtag: '#ForakerFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-07-28T13:57Z'
+    PerimeterData:
+      DateTime: '2019-07-28T13:57Z'
+      Acres: 49979.4662756
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T20:00:51.465Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: AKTAD
+    unitMention: Alaska Fire Service - Tanana Zone
+    Final_Fire_Name: Foraker Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-01T19:45Z-PER-2019-07-28T13:57Z-ID-2019-AKTAD-000389-NAME-Foraker-S-N
+      Code: 4e30df90d4d8c30c0f12e5f2148e0d8d414888d4f681fdd8b0b2561a8ca56f24
