@@ -36820,185 +36820,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-01T18:00Z-PER-2019-07-22T21:44Z-ID-2019-AKMID-000390-NAME-Beaver-S-N
       Code: b1fdf2a71fc19bc7f4d75275f5fd8ba81d18ac6e150de835a895602cfb2eeea3
-  2019-NVSND-590329:
-    Source_NFSA_Join:
-      Lon: -114.38141613175057
-      Lat: 36.275534292095884
-      id: 124792
-      Name: BONELLI PEAK
-      Fire_Name: BONELLI PEAK
-      UniqueFireIdentifier: 2019-NVSND-590329
-      DailyAcres: 4465
-      PercentContained: 78
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-28T22:30Z'
-      ICS209ReportDateTimeEpoch: 1564353000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 835830
-      FireCause: Natural
-      TotalIncidentPersonnel: 66
-      FireDiscoveryDateTime: '2019-07-25T05:00Z'
-      FireDiscoveryDateTimeEpoch: 1564030800000
-      DispatchCenterID: NVLIC
-      LocalIncidentIdentifier: '590329'
-      POOCounty: Clark
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-28T22:30Z'
-      ModifiedOnDateTimeEpoch: 1564353000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-NVSND-590329
-      ModifiedOnDateTime_Raw: '2019-07-28T23:05Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564355113000
-      Hashtag: '#BonelliPeakFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-28T23:31:24.200Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -114.2764005708519
-      Lat: 36.1644497369843
-      objectid: 48
-      latitude: 36.1644444
-      longitude: -114.2763889
-      acres: 4465
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: NV
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-07-28T22:30Z'
-      reportdatetimeEpoch: 1564353000000
-      percentcontained: 78
-      uniquefireidentifier: 2019-NVSND-590329
-      firediscoverydatetime: '2019-07-25T05:00Z'
-      firediscoverydatetimeEpoch: 1564030800000
-      complexparentirwinid: null
-      pooresponsibleunit: NVSND
-      incidentname: BONELLI PEAK
-      iscomplex: 'false'
-      irwinid: '{826371FE-1113-4E39-BE5E-E47F65D1B7AE}'
-      irwinmodifiedon: '2019-07-28T23:05Z'
-      irwinmodifiedonEpoch: 1564355114000
-      mapsymbol: '1'
-      datecurrent: '2019-07-28T17:30Z'
-      datecurrentEpoch: 1564335035000
-      pooownerunit: NVSND
-      fireyear: 2019
-      localincidentidentifier: '590329'
-      incidenttypecategory: WF
-      owneragency: NPS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 4465
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-28T22:30Z'
-      ModifiedOnDateTimeEpoch: 1564353000000
-      PercentContained: 78
-      UniqueFireIdentifier: 2019-NVSND-590329
-      FireDiscoveryDateTime: '2019-07-25T05:00Z'
-      FireDiscoveryDateTimeEpoch: 1564030800000
-      Fire_Name: BONELLI PEAK
-      Name: BONELLI PEAK
-      Source: GEOMAC
-      Hashtag: '#BonelliPeakFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-28T23:31:24.201Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-NVSND-590329
-    Lon: -114.38141613175057
-    Lat: 36.275534292095884
-    id: 124792
-    Name: BONELLI PEAK
-    Fire_Name: BONELLI PEAK
-    UniqueFireIdentifier: 2019-NVSND-590329
-    DailyAcres: 4465
-    PercentContained: 78
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-28T22:30Z'
-    ICS209ReportDateTimeEpoch: 1564353000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 835830
-    FireCause: Natural
-    TotalIncidentPersonnel: 66
-    FireDiscoveryDateTime: '2019-07-25T05:00Z'
-    FireDiscoveryDateTimeEpoch: 1564030800000
-    DispatchCenterID: NVLIC
-    LocalIncidentIdentifier: '590329'
-    POOCounty: Clark
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-28T22:30Z'
-    ModifiedOnDateTimeEpoch: 1564353000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-NVSND-590329
-    ModifiedOnDateTime_Raw: '2019-07-28T23:05Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564355113000
-    Hashtag: '#BonelliPeakFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-26T14:15Z'
-    PerimeterData:
-      DateTime: '2019-07-26T14:15Z'
-      Acres: 4274.48267357
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-29T19:35:37.359Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: NVSND
-    unitMention: Southern Nevada District Office
-    Final_Fire_Name: Bonelli Peak Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-28T22:30Z-PER-2019-07-26T14:15Z-ID-2019-NVSND-590329-NAME-BONELLIPEAK-S-N
-      Code: 8526b6990209bdd80c672d770794c8452938fac1f50efb99bc7d4b4661a1dcfb
   2019-AKSWS-904476:
     Source_NFSA_Join:
       Lon: -154.88679365250778
@@ -42529,17 +42350,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564617681000
     Hashtag: '#BaileyCreekFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-31T13:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-31T13:00Z'
+      Acres: 104.20787122
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T19:06:30.902Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: NVELD
     unitMention: Ely District Office
     Final_Fire_Name: Bailey Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-07-31T21:45Z-PER-none-ID-2019-NVELD-040082-NAME-BaileyCreek-S-N'
-      Code: 7a9f725c4f43e0cd7c9c04d0850ce6aa0d142cafbc9ce6075832766568c6cda3
+      UpdateId: >-
+        UPD-2019-07-31T21:45Z-PER-2019-07-31T13:00Z-ID-2019-NVELD-040082-NAME-BaileyCreek-S-N
+      Code: 93eda97d2529577fba153e38fb3e9cd9605d3975fcb9808134380cb4e8b2e425
   2019-CALPF-001678:
     Source_NFSA_Join:
       Lon: -121.49621691242264
@@ -42624,17 +42463,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564664935000
     Hashtag: '#MillFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-30T17:30Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-30T17:30Z'
+      Acres: 235.0738242
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T19:06:33.485Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: CALPF
     unitMention: '@LosPadresNF'
     Final_Fire_Name: Mill Fire
     _Update:
-      UpdateId: 'UPD-2019-08-01T13:00Z-PER-none-ID-2019-CALPF-001678-NAME-MILL-S-N'
-      Code: 2543c18f2b5362eab697d5cd42f97ae40bd29119afb65211763017bd46de447b
+      UpdateId: >-
+        UPD-2019-08-01T13:00Z-PER-2019-07-30T17:30Z-ID-2019-CALPF-001678-NAME-MILL-S-N
+      Code: 7f7c7593e3f2b8de37135c8ae79b72a2116e4423af8dc6667184d45adf6c6148
   2019-IDNCF-000455:
     Source_NFSA_Join:
       Lon: -114.58401317777805
@@ -43356,16 +43213,16 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564627428000
     Hashtag: '#AlaskaFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-31T09:00Z'
+    PerimDateTime: '2019-07-31T14:00Z'
     PerimeterData:
-      DateTime: '2019-07-31T09:00Z'
-      Acres: 173.56831769
+      DateTime: '2019-07-31T14:00Z'
+      Acres: 400.99327744
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-01T03:01:51.211Z'
+          RetrievedOn: '2019-08-01T19:06:30.902Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -43377,14 +43234,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: UTUWF
     unitMention: Uinta-Wasatch-Cache NF
     Final_Fire_Name: Alaska Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-01T00:00Z-PER-2019-07-31T09:00Z-ID-2019-UTUWF-000430-NAME-Alaska-S-N
-      Code: 89ee87b6964d48d9de4639cb17bf06ed8c1c6f20f5627ede9e12a1670ef7a631
+        UPD-2019-08-01T00:00Z-PER-2019-07-31T14:00Z-ID-2019-UTUWF-000430-NAME-Alaska-S-N
+      Code: acd3cdb3c91b6e4bdd1aa358ce4873b9d2329c58f12c414e886c6ca2fac51e64
   2019-CAMDF-000509:
     Source_CALFIRE:
       Lon: -121.260305
@@ -44424,18 +44281,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564674741000
     Hashtag: '#RoundMountainFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-07-29T20:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-07-29T20:00Z'
+      Acres: 1.18050641
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T19:06:33.485Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: COGMF
     unitMention: 'Grand Mesa, Uncompahgre and Gunnison NFs'
     Final_Fire_Name: Round Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-01T14:30Z-PER-none-ID-2019-COGMF-000139-NAME-RoundMountain-S-N
-      Code: dce38270bdfb0df6597dce74cec4ce2795dc7220e8ac533e195bd14105c48211
+        UPD-2019-08-01T14:30Z-PER-2019-07-29T20:00Z-ID-2019-COGMF-000139-NAME-RoundMountain-S-N
+      Code: 58ec175353f8078cd758c636946212bfea2a22a4c85ece0fb09a9df8047544a9
   2019-IDCTF-000100:
     Source_NFSA_Join:
       Lon: -111.28741168072759
