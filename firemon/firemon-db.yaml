@@ -45033,154 +45033,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-01T00:00Z-PER-2019-07-30T00:00Z-ID-2019-NMSNF-000375-NAME-Conejos-S-N
       Code: 762141166de5d123f2ff0ac0cf178ea9607de94d27b20fe5c71bbbb2de8e65e4
-  2019-CACND-001611:
-    Source_CALFIRE:
-      Lon: -118.41204
-      Lat: 35.60989
-      incident_name: Mesa Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-08-01T00:13Z'
-      incident_date_last_updateEpoch: 1564618433000
-      incident_date_created: '2019-08-01T00:13Z'
-      incident_date_createdEpoch: 1564618433000
-      incident_administrative_unit: Kern County Fire Department
-      incident_administrative_unit_url: ''
-      incident_county: Kern
-      incident_location: >-
-        near Quail Dr and Bobcat Dr in the Kern River Valley, South of Lake
-        Isabela
-      incident_acres_burned: 150
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -118.41204
-      incident_latitude: 35.60989
-      incident_type: Wildfire
-      incident_id: 1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/31/mesa-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-07-31'
-      is_active: 'Y'
-      Fire_Name: Mesa Fire
-      ModifiedOnDateTime: '2019-08-01T00:13Z'
-      ModifiedOnDateTimeEpoch: 1564618433000
-      DailyAcres: 150
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
-      Name: Mesa Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#MesaFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-01T13:31:58.237Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
-    Source_NFSA_Join:
-      Lon: -118.41667533747398
-      Lat: 35.60000248020538
-      id: 126047
-      Name: MESA
-      Fire_Name: MESA
-      UniqueFireIdentifier: 2019-CACND-001611
-      DailyAcres: 200
-      PercentContained: 40
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-01T12:50Z'
-      ICS209ReportDateTimeEpoch: 1564663800000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 500000
-      FireCause: Human
-      TotalIncidentPersonnel: 251
-      FireDiscoveryDateTime: '2019-07-31T21:45Z'
-      FireDiscoveryDateTimeEpoch: 1564609500000
-      DispatchCenterID: CACCCC
-      LocalIncidentIdentifier: '001611'
-      POOCounty: Kern
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-01T12:50Z'
-      ModifiedOnDateTimeEpoch: 1564663800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CACND-001611
-      ModifiedOnDateTime_Raw: '2019-08-01T13:23Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564665789000
-      Hashtag: '#MesaFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-01T13:31:58.236Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -118.41667533747398
-    Lat: 35.60000248020538
-    id: 126047
-    Name: MESA
-    Fire_Name: MESA
-    UniqueFireIdentifier: 2019-CACND-001611
-    DailyAcres: 200
-    PercentContained: 40
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-01T12:50Z'
-    ICS209ReportDateTimeEpoch: 1564663800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 500000
-    FireCause: Human
-    TotalIncidentPersonnel: 251
-    FireDiscoveryDateTime: '2019-07-31T21:45Z'
-    FireDiscoveryDateTimeEpoch: 1564609500000
-    DispatchCenterID: CACCCC
-    LocalIncidentIdentifier: '001611'
-    POOCounty: Kern
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-01T12:50Z'
-    ModifiedOnDateTimeEpoch: 1564663800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CACND-001611
-      - CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
-    ModifiedOnDateTime_Raw: '2019-08-01T13:23Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564665789000
-    Hashtag: '#MesaFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CACND
-    unitMention: Central California District
-    Final_Fire_Name: Mesa Fire
-    _Update:
-      UpdateId: 'UPD-2019-08-01T12:50Z-PER-none-ID-2019-CACND-001611-NAME-MESA-S-N'
-      Code: cc65e8756d5997e530626043f723560f7710c76d40c9ca84cb6683c1f821c1f5
   2019-CABEU-004344:
     Source_CALFIRE:
       Lon: -120.984167
@@ -45477,3 +45329,157 @@ Database:
       UpdateId: >-
         UPD-2019-08-01T13:59Z-PER-none-ID-CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff-NAME-UsalFire-S-C
       Code: fe054156cd6ac215d5c3863bb95ea5328b2b5fdba5c97ce0abe718cd16e071eb
+  CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e:
+    Source_CALFIRE:
+      Lon: -118.41204
+      Lat: 35.60989
+      incident_name: Mesa Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-08-01T14:06Z'
+      incident_date_last_updateEpoch: 1564668393000
+      incident_date_created: '2019-08-01T00:13Z'
+      incident_date_createdEpoch: 1564618433000
+      incident_administrative_unit: Kern County Fire Department
+      incident_administrative_unit_url: ''
+      incident_county: Kern
+      incident_location: >-
+        near Quail Dr and Bobcat Dr in the Kern River Valley, South of Lake
+        Isabela
+      incident_acres_burned: 200
+      incident_containment: 40
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -118.41204
+      incident_latitude: 35.60989
+      incident_type: Wildfire
+      incident_id: 1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/31/mesa-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-07-31'
+      is_active: 'Y'
+      Fire_Name: Mesa Fire
+      ModifiedOnDateTime: '2019-08-01T14:06Z'
+      ModifiedOnDateTimeEpoch: 1564668393000
+      DailyAcres: 200
+      PercentContained: 40
+      UniqueFireIdentifier: CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+      Name: Mesa Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#MesaFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T14:07:23.153Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+    Source_NFSA_Join:
+      Lon: -118.41667533747398
+      Lat: 35.60000248020538
+      id: 126047
+      Name: MESA
+      Fire_Name: MESA
+      UniqueFireIdentifier: 2019-CACND-001611
+      DailyAcres: 200
+      PercentContained: 40
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-01T12:50Z'
+      ICS209ReportDateTimeEpoch: 1564663800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 500000
+      FireCause: Human
+      TotalIncidentPersonnel: 251
+      FireDiscoveryDateTime: '2019-07-31T21:45Z'
+      FireDiscoveryDateTimeEpoch: 1564609500000
+      DispatchCenterID: CACCCC
+      LocalIncidentIdentifier: '001611'
+      POOCounty: Kern
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-01T12:50Z'
+      ModifiedOnDateTimeEpoch: 1564663800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CACND-001611
+      ModifiedOnDateTime_Raw: '2019-08-01T13:23Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564665789000
+      Hashtag: '#MesaFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-01T14:07:23.151Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -118.41204
+    Lat: 35.60989
+    incident_name: Mesa Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-08-01T14:06Z'
+    incident_date_last_updateEpoch: 1564668393000
+    incident_date_created: '2019-08-01T00:13Z'
+    incident_date_createdEpoch: 1564618433000
+    incident_administrative_unit: Kern County Fire Department
+    incident_administrative_unit_url: ''
+    incident_county: Kern
+    incident_location: >-
+      near Quail Dr and Bobcat Dr in the Kern River Valley, South of Lake
+      Isabela
+    incident_acres_burned: 200
+    incident_containment: 40
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -118.41204
+    incident_latitude: 35.60989
+    incident_type: Wildfire
+    incident_id: 1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/31/mesa-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-07-31'
+    is_active: 'Y'
+    Fire_Name: Mesa Fire
+    ModifiedOnDateTime: '2019-08-01T14:06Z'
+    ModifiedOnDateTimeEpoch: 1564668393000
+    DailyAcres: 200
+    PercentContained: 40
+    UniqueFireIdentifier: CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+    Name: Mesa Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#MesaFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+    _CorrelationIds:
+      - 2019-CACND-001611
+      - CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 1f0d1a35
+    unitMention: null
+    Final_Fire_Name: Mesa Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-01T14:06Z-PER-none-ID-CALFIRE-1f0d1a35-bf41-45d8-b3b8-26cca8d2d83e-NAME-MesaFire-S-C
+      Code: 22b567703d74508f5e5b662bf2bef177f794d2e6cba333aea77a481e38694cec
