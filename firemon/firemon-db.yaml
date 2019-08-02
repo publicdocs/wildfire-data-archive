@@ -27645,119 +27645,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-01T23:00Z-PER-none-ID-2019-IDNCF-000353-NAME-BigSand-S-N'
       Code: 98c7a09f2ecd1531912f9b532cac02edc7a22f67367bf09d022aee0bccc7dbe8
-  2019-NMCAF-000274:
-    Source_NFSA_Join:
-      Lon: -106.20690874301405
-      Lat: 36.44950388920557
-      id: 123013
-      Name: Francisquito
-      Fire_Name: Francisquito
-      UniqueFireIdentifier: 2019-NMCAF-000274
-      DailyAcres: 1000
-      PercentContained: 40
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-07-19T20:45Z'
-      ICS209ReportDateTimeEpoch: 1563569100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 140000
-      FireCause: Natural
-      TotalIncidentPersonnel: 125
-      FireDiscoveryDateTime: '2019-07-13T21:42Z'
-      FireDiscoveryDateTimeEpoch: 1563054120000
-      DispatchCenterID: NMTDC
-      LocalIncidentIdentifier: '000274'
-      POOCounty: Rio Arriba
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-19T20:45Z'
-      ModifiedOnDateTimeEpoch: 1563569100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-NMCAF-000274
-      ModifiedOnDateTime_Raw: '2019-07-19T23:24Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563578653000
-      Hashtag: '#FrancisquitoFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-19T23:30:07.221Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -106.20690874301405
-    Lat: 36.44950388920557
-    id: 123013
-    Name: Francisquito
-    Fire_Name: Francisquito
-    UniqueFireIdentifier: 2019-NMCAF-000274
-    DailyAcres: 1000
-    PercentContained: 40
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-07-19T20:45Z'
-    ICS209ReportDateTimeEpoch: 1563569100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 140000
-    FireCause: Natural
-    TotalIncidentPersonnel: 125
-    FireDiscoveryDateTime: '2019-07-13T21:42Z'
-    FireDiscoveryDateTimeEpoch: 1563054120000
-    DispatchCenterID: NMTDC
-    LocalIncidentIdentifier: '000274'
-    POOCounty: Rio Arriba
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-19T20:45Z'
-    ModifiedOnDateTimeEpoch: 1563569100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-NMCAF-000274
-    ModifiedOnDateTime_Raw: '2019-07-19T23:24Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563578653000
-    Hashtag: '#FrancisquitoFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-15T18:30Z'
-    PerimeterData:
-      DateTime: '2019-07-15T18:30Z'
-      Acres: 14.52672383
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-19T23:30:12.579Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: NMCAF
-    unitMention: Carson NF
-    Final_Fire_Name: Francisquito Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-19T20:45Z-PER-2019-07-15T18:30Z-ID-2019-NMCAF-000274-NAME-Francisquito-S-N
-      Code: 752d5ea32f9351f52603e38d163d2ecb8d88b139d416e2763b4e3299956d9371
   2019-IDPAF-000350:
     Source_NFSA_Join:
       Lon: -114.9610091530645
@@ -32206,13 +32093,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564712715000
     Hashtag: '#CastleFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-31T06:00Z'
+    PerimDateTime: '2019-08-02T06:00Z'
     PerimeterData:
-      DateTime: '2019-07-31T06:00Z'
-      Acres: 10218.0009417
+      DateTime: '2019-08-02T06:00Z'
+      Acres: 10670.4583314
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-02T02:31:56.954Z'
+          RetrievedOn: '2019-08-02T18:26:10.223Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -32233,8 +32120,8 @@ Database:
     Final_Fire_Name: Castle Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-02T02:15Z-PER-2019-07-31T06:00Z-ID-2019-AZKNF-000499-NAME-CASTLE-S-N
-      Code: 875d42b51f4e94d7e170b43ccc7506fd31761f8eb6e460017dfd2af8ae10c949
+        UPD-2019-08-02T02:15Z-PER-2019-08-02T06:00Z-ID-2019-AZKNF-000499-NAME-CASTLE-S-N
+      Code: ca5770a332b184d2c6b161b7e98955935bc65eb7bc0578e2a3da13dcf2f98a94
   2019-NVEKD-010138:
     Source_NFSA_Join:
       Lon: -116.44040866186955
@@ -40496,13 +40383,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564702552000
     Hashtag: '#GraniteGulchFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-30T14:00Z'
+    PerimDateTime: '2019-08-01T17:30Z'
     PerimeterData:
-      DateTime: '2019-07-30T14:00Z'
-      Acres: 27.37005729
+      DateTime: '2019-08-01T17:30Z'
+      Acres: 198.03437424
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-02T00:02:04.766Z'
+          RetrievedOn: '2019-08-02T18:26:15.106Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -40523,8 +40410,8 @@ Database:
     Final_Fire_Name: Granite Gulch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-01T23:00Z-PER-2019-07-30T14:00Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
-      Code: ac6616578196581d98b1dfb50d2771f4c387b5bc640f6504f2fbf3aab80d1d76
+        UPD-2019-08-01T23:00Z-PER-2019-08-01T17:30Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
+      Code: ea87a47d6902da80b34871249e7ef0d1e102209a77c1704d8957e62d3d928b09
   CALFIRE-626b3431-1d91-4542-a675-cafd9ce907c9:
     Source_CALFIRE:
       Lon: -120.984167
@@ -41481,185 +41368,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-01T17:00Z-PER-2019-08-01T22:15Z-ID-2019-IDNCF-000266-NAME-BarrenHill-S-N
       Code: 5f19175fe44069d6bb3a99dde67b1334bf2e6af7960b842f4367f2d8baa9b883
-  2019-UTMLF-009127:
-    Source_NFSA_Join:
-      Lon: -111.26921181307132
-      Lat: 39.577885344459084
-      id: 124599
-      Name: Mammoth
-      Fire_Name: Mammoth
-      UniqueFireIdentifier: 2019-UTMLF-009127
-      DailyAcres: 230
-      PercentContained: 10
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-30T22:15Z'
-      ICS209ReportDateTimeEpoch: 1564524900000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 75000
-      FireCause: Natural
-      TotalIncidentPersonnel: 31
-      FireDiscoveryDateTime: '2019-07-24T13:50Z'
-      FireDiscoveryDateTimeEpoch: 1563976200000
-      DispatchCenterID: UTMFC
-      LocalIncidentIdentifier: 009127
-      POOCounty: Sanpete
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-30T22:15Z'
-      ModifiedOnDateTimeEpoch: 1564524900000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-UTMLF-009127
-      ModifiedOnDateTime_Raw: '2019-07-30T22:47Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564526827000
-      Hashtag: '#MammothFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-30T23:01:10.835Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -111.27101145662837
-      Lat: 39.57558594824571
-      objectid: 37
-      latitude: 39.57558
-      longitude: -111.271
-      acres: 230
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: UT
-      status: I
-      firecause: Natural
-      reportdatetime: '2019-07-30T22:15Z'
-      reportdatetimeEpoch: 1564524900000
-      percentcontained: 10
-      uniquefireidentifier: 2019-UTMLF-009127
-      firediscoverydatetime: '2019-07-24T13:50Z'
-      firediscoverydatetimeEpoch: 1563976200000
-      complexparentirwinid: null
-      pooresponsibleunit: UTMLF
-      incidentname: Mammoth
-      iscomplex: 'false'
-      irwinid: '{227077D9-E4EA-417A-A70A-F499276B4117}'
-      irwinmodifiedon: '2019-07-30T22:47Z'
-      irwinmodifiedonEpoch: 1564526828000
-      mapsymbol: '1'
-      datecurrent: '2019-07-30T17:00Z'
-      datecurrentEpoch: 1564506037000
-      pooownerunit: USTMLF
-      fireyear: 2019
-      localincidentidentifier: 009127
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 230
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-07-30T22:15Z'
-      ModifiedOnDateTimeEpoch: 1564524900000
-      PercentContained: 10
-      UniqueFireIdentifier: 2019-UTMLF-009127
-      FireDiscoveryDateTime: '2019-07-24T13:50Z'
-      FireDiscoveryDateTimeEpoch: 1563976200000
-      Fire_Name: Mammoth
-      Name: Mammoth
-      Source: GEOMAC
-      Hashtag: '#MammothFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-30T23:01:10.836Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-UTMLF-009127
-    Lon: -111.26921181307132
-    Lat: 39.577885344459084
-    id: 124599
-    Name: Mammoth
-    Fire_Name: Mammoth
-    UniqueFireIdentifier: 2019-UTMLF-009127
-    DailyAcres: 230
-    PercentContained: 10
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-30T22:15Z'
-    ICS209ReportDateTimeEpoch: 1564524900000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 75000
-    FireCause: Natural
-    TotalIncidentPersonnel: 31
-    FireDiscoveryDateTime: '2019-07-24T13:50Z'
-    FireDiscoveryDateTimeEpoch: 1563976200000
-    DispatchCenterID: UTMFC
-    LocalIncidentIdentifier: 009127
-    POOCounty: Sanpete
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-30T22:15Z'
-    ModifiedOnDateTimeEpoch: 1564524900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-UTMLF-009127
-    ModifiedOnDateTime_Raw: '2019-07-30T22:47Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564526827000
-    Hashtag: '#MammothFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-25T00:00Z'
-    PerimeterData:
-      DateTime: '2019-07-25T00:00Z'
-      Acres: 3.39768074
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-30T23:01:17.738Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: UTMLF
-    unitMention: Manti-Lasal NF
-    Final_Fire_Name: Mammoth Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-30T22:15Z-PER-2019-07-25T00:00Z-ID-2019-UTMLF-009127-NAME-Mammoth-S-N
-      Code: fcb74a2f474f15beefe6b8d82b5e643de764777f522b23ffdf8c738880e8df08
   2019-CAINF-001435:
     Source_NFSA_Join:
       Lon: -118.279215132698
@@ -42018,13 +41726,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564752097000
     Hashtag: '#MillFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-30T17:30Z'
+    PerimDateTime: '2019-07-31T00:00Z'
     PerimeterData:
-      DateTime: '2019-07-30T17:30Z'
-      Acres: 235.0738242
+      DateTime: '2019-07-31T00:00Z'
+      Acres: 306.34723266
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-02T13:31:28.171Z'
+          RetrievedOn: '2019-08-02T18:26:15.106Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -42045,8 +41753,8 @@ Database:
     Final_Fire_Name: Mill Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-02T13:00Z-PER-2019-07-30T17:30Z-ID-2019-CALPF-001678-NAME-MILL-S-N
-      Code: 5a7cc5430e46b9e72739576f4e2a582ce6ef39807fd88b3422b3baedb8938227
+        UPD-2019-08-02T13:00Z-PER-2019-07-31T00:00Z-ID-2019-CALPF-001678-NAME-MILL-S-N
+      Code: a1f0ce6de94fffbe01c2f31c2dea2cc69224748a4f3d2bc01cf173415fce032f
   2019-IDNCF-000455:
     Source_NFSA_Join:
       Lon: -114.58401317777805
@@ -42768,13 +42476,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1564701199000
     Hashtag: '#AlaskaFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-07-31T14:00Z'
+    PerimDateTime: '2019-08-01T14:00Z'
     PerimeterData:
-      DateTime: '2019-07-31T14:00Z'
-      Acres: 400.99327744
+      DateTime: '2019-08-01T14:00Z'
+      Acres: 489.13015767
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-01T23:31:28.714Z'
+          RetrievedOn: '2019-08-02T18:26:10.223Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -42795,8 +42503,8 @@ Database:
     Final_Fire_Name: Alaska Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-01T22:45Z-PER-2019-07-31T14:00Z-ID-2019-UTUWF-000430-NAME-Alaska-S-N
-      Code: db73760c00e949aca5924a3fa6490901894f41b2b04128cdde7bcd19cd76399e
+        UPD-2019-08-01T22:45Z-PER-2019-08-01T14:00Z-ID-2019-UTUWF-000430-NAME-Alaska-S-N
+      Code: 51022c48a921e560c8145c8badd0fb84728d15767b08a3914802988495ddfe70
   2019-CAMDF-000509:
     Source_CALFIRE:
       Lon: -121.260305
@@ -44776,9 +44484,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=ca65fae0-e6d7-4600-890c-62da03753131
     _CorrelationIds:
       - CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131
-    PerimDateTime: '2019-08-02T05:21Z'
+    PerimDateTime: '2019-08-02T06:00Z'
     PerimeterData:
-      DateTime: '2019-08-02T05:21Z'
+      DateTime: '2019-08-02T06:00Z'
       Acres: null
       _Provenance: null
     unitId: ca65fae0
@@ -44786,8 +44494,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-01T21:53Z-PER-2019-08-02T05:21Z-ID-CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131-NAME--S-C
-      Code: 86aa04869c9c406278f55bfda3cc9a8553ef28aff75ef7000c1aba8d1e987024
+        UPD-2019-08-01T21:53Z-PER-2019-08-02T06:00Z-ID-CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131-NAME--S-C
+      Code: 8607c7edce5763f8f4eec060608faf4aded451673682d4fd7adcbdbad0f9b322
   2019-AKSWS-904475:
     Source_NFSA_Join:
       Lon: -156.27806843194068
