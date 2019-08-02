@@ -33845,38 +33845,38 @@ Database:
       Fire_Name: Huck
       UniqueFireIdentifier: 2019-AZSCA-001208
       DailyAcres: 11784
-      PercentContained: 0
+      PercentContained: 95
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-07-26T01:00Z'
-      ICS209ReportDateTimeEpoch: 1564102800000
+      ICS209ReportDateTime: '2019-08-02T01:00Z'
+      ICS209ReportDateTimeEpoch: 1564707600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 26903.12
+      EstimatedCostToDate: 150000
       FireCause: Natural
-      TotalIncidentPersonnel: 12
+      TotalIncidentPersonnel: 10
       FireDiscoveryDateTime: '2019-07-23T23:25Z'
       FireDiscoveryDateTimeEpoch: 1563924300000
       DispatchCenterID: AZPHC
       LocalIncidentIdentifier: 001208
       POOCounty: Graham
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-26T01:00Z'
-      ModifiedOnDateTimeEpoch: 1564102800000
+      ModifiedOnDateTime: '2019-08-02T01:00Z'
+      ModifiedOnDateTimeEpoch: 1564707600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZSCA-001208
-      ModifiedOnDateTime_Raw: '2019-07-26T02:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564108497000
+      ModifiedOnDateTime_Raw: '2019-08-02T20:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564776030000
       Hashtag: '#HuckFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-26T03:01:20.950Z'
+          RetrievedOn: '2019-08-02T20:48:21.416Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -33891,33 +33891,33 @@ Database:
     Fire_Name: Huck
     UniqueFireIdentifier: 2019-AZSCA-001208
     DailyAcres: 11784
-    PercentContained: 0
+    PercentContained: 95
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-07-26T01:00Z'
-    ICS209ReportDateTimeEpoch: 1564102800000
+    ICS209ReportDateTime: '2019-08-02T01:00Z'
+    ICS209ReportDateTimeEpoch: 1564707600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 26903.12
+    EstimatedCostToDate: 150000
     FireCause: Natural
-    TotalIncidentPersonnel: 12
+    TotalIncidentPersonnel: 10
     FireDiscoveryDateTime: '2019-07-23T23:25Z'
     FireDiscoveryDateTimeEpoch: 1563924300000
     DispatchCenterID: AZPHC
     LocalIncidentIdentifier: 001208
     POOCounty: Graham
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-26T01:00Z'
-    ModifiedOnDateTimeEpoch: 1564102800000
+    ModifiedOnDateTime: '2019-08-02T01:00Z'
+    ModifiedOnDateTimeEpoch: 1564707600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZSCA-001208
-    ModifiedOnDateTime_Raw: '2019-07-26T02:34Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564108497000
+    ModifiedOnDateTime_Raw: '2019-08-02T20:00Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564776030000
     Hashtag: '#HuckFire'
     NFSAType: Large WF
     PerimDateTime: '2019-07-24T18:00Z'
@@ -33926,7 +33926,7 @@ Database:
       Acres: 11792.2257231
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-07-26T16:59:57.180Z'
+          RetrievedOn: '2019-08-02T20:48:26.934Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -33947,8 +33947,8 @@ Database:
     Final_Fire_Name: Huck Fire
     _Update:
       UpdateId: >-
-        UPD-2019-07-26T01:00Z-PER-2019-07-24T18:00Z-ID-2019-AZSCA-001208-NAME-Huck-S-N
-      Code: 759db8947298bfa77b8c0a4c2ad11d0aad54357a6c929723c1c8a91b7ce5668a
+        UPD-2019-08-02T01:00Z-PER-2019-07-24T18:00Z-ID-2019-AZSCA-001208-NAME-Huck-S-N
+      Code: 45f3b03f200698554b1b973010e70c735f26b3b67938ea7013e9c1412b914807
   2019-AKSWS-904174:
     Source_NFSA_Join:
       Lon: -157.38791001601183
@@ -49838,10 +49838,10 @@ Database:
     Source_CALFIRE:
       Lon: -119.94974
       Lat: 34.665699
-      incident_name: Range Fire
+      incident_name: Range Fire (Not a CAL FIRE Incident)
       incident_is_final: 'False'
-      incident_date_last_update: '2019-08-02T20:05Z'
-      incident_date_last_updateEpoch: 1564776333000
+      incident_date_last_update: '2019-08-02T20:12Z'
+      incident_date_last_updateEpoch: 1564776734000
       incident_date_created: '2019-07-29T05:39Z'
       incident_date_createdEpoch: 1564378745000
       incident_administrative_unit: Los Padres National Forest
@@ -49856,26 +49856,28 @@ Database:
       incident_latitude: 34.665699
       incident_type: Wildfire
       incident_id: bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/range-fire/'
+      incident_url: >-
+        https://www.fire.ca.gov/incidents/2019/7/28/range-fire-not-a-cal-fire-incident/
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-07-28'
       is_active: 'Y'
-      Fire_Name: Range Fire
-      ModifiedOnDateTime: '2019-08-02T20:05Z'
-      ModifiedOnDateTimeEpoch: 1564776333000
+      Fire_Name: ''
+      ModifiedOnDateTime: '2019-08-02T20:12Z'
+      ModifiedOnDateTimeEpoch: 1564776734000
       DailyAcres: 150
       PercentContained: 95
       UniqueFireIdentifier: CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-      Name: Range Fire
+      Notes: (Not a CAL FIRE Incident)
+      Name: ''
       Source: CALFIRE
       State: CA
-      Hashtag: '#RangeFire'
+      Hashtag: '#Fire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-02T20:11:04.370Z'
+          RetrievedOn: '2019-08-02T20:48:21.417Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -49885,59 +49887,12 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    Source_NFSA_Join:
-      Lon: -119.9159096477524
-      Lat: 34.68315422856288
-      id: 125542
-      Name: Range
-      Fire_Name: Range
-      UniqueFireIdentifier: 2019-CALPF-001664
-      DailyAcres: 100
-      PercentContained: 90
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-02T12:30Z'
-      ICS209ReportDateTimeEpoch: 1564749000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 0
-      FireCause: Unknown
-      TotalIncidentPersonnel: 95
-      FireDiscoveryDateTime: '2019-07-29T05:50Z'
-      FireDiscoveryDateTimeEpoch: 1564379400000
-      DispatchCenterID: CALPCC
-      LocalIncidentIdentifier: '001664'
-      POOCounty: Santa Barbara
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-02T12:30Z'
-      ModifiedOnDateTimeEpoch: 1564749000000
-      ModifiedBySystem: wildcad
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALPF-001664
-      ModifiedOnDateTime_Raw: '2019-08-02T17:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564768487000
-      Hashtag: '#RangeFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-02T20:11:04.368Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
     Lon: -119.94974
     Lat: 34.665699
-    incident_name: Range Fire
+    incident_name: Range Fire (Not a CAL FIRE Incident)
     incident_is_final: 'False'
-    incident_date_last_update: '2019-08-02T20:05Z'
-    incident_date_last_updateEpoch: 1564776333000
+    incident_date_last_update: '2019-08-02T20:12Z'
+    incident_date_last_updateEpoch: 1564776734000
     incident_date_created: '2019-07-29T05:39Z'
     incident_date_createdEpoch: 1564378745000
     incident_administrative_unit: Los Padres National Forest
@@ -49952,38 +49907,39 @@ Database:
     incident_latitude: 34.665699
     incident_type: Wildfire
     incident_id: bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/range-fire/'
+    incident_url: >-
+      https://www.fire.ca.gov/incidents/2019/7/28/range-fire-not-a-cal-fire-incident/
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-07-28'
     is_active: 'Y'
-    Fire_Name: Range Fire
-    ModifiedOnDateTime: '2019-08-02T20:05Z'
-    ModifiedOnDateTimeEpoch: 1564776333000
+    Fire_Name: ''
+    ModifiedOnDateTime: '2019-08-02T20:12Z'
+    ModifiedOnDateTimeEpoch: 1564776734000
     DailyAcres: 150
     PercentContained: 95
     UniqueFireIdentifier: CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    Name: Range Fire
+    Notes: (Not a CAL FIRE Incident)
+    Name: ''
     Source: CALFIRE
     State: CA
-    Hashtag: '#RangeFire'
+    Hashtag: '#Fire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
     _CorrelationIds:
-      - 2019-CALPF-001664
       - CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
-    PerimDateTime: null
+    PerimDateTime: '2019-08-02T06:00Z'
     PerimeterData:
-      DateTime: null
+      DateTime: '2019-08-02T06:00Z'
       Acres: null
       _Provenance: null
     unitId: bc2edb86
     unitMention: null
-    Final_Fire_Name: Range Fire
+    Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-02T20:05Z-PER-none-ID-CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce-NAME-RangeFire-S-C
-      Code: bf6f12af05b691a5634740b6a64faad4060232baaf68adc005619e491d32de75
+        UPD-2019-08-02T20:12Z-PER-2019-08-02T06:00Z-ID-CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce-NAME--S-C
+      Code: d5d1f74645dc5df4a61ace1fac895990a76dd43014d5a760100dee52a30157c9
   CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8:
     Source_CALFIRE:
       Lon: -121.466944
@@ -50090,3 +50046,98 @@ Database:
       UpdateId: >-
         UPD-2019-08-02T20:03Z-PER-2019-08-02T06:00Z-ID-CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8-NAME--S-C
       Code: 17fbdba04a564f3f41a0a70b878b9521970335e16428388e7a1157e9b3856acb
+  2019-CALPF-001664:
+    Source_NFSA_Join:
+      Lon: -119.9159096477524
+      Lat: 34.68315422856288
+      id: 125542
+      Name: Range
+      Fire_Name: Range
+      UniqueFireIdentifier: 2019-CALPF-001664
+      DailyAcres: 100
+      PercentContained: 90
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-02T12:30Z'
+      ICS209ReportDateTimeEpoch: 1564749000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 0
+      FireCause: Unknown
+      TotalIncidentPersonnel: 95
+      FireDiscoveryDateTime: '2019-07-29T05:50Z'
+      FireDiscoveryDateTimeEpoch: 1564379400000
+      DispatchCenterID: CALPCC
+      LocalIncidentIdentifier: '001664'
+      POOCounty: Santa Barbara
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-02T12:30Z'
+      ModifiedOnDateTimeEpoch: 1564749000000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALPF-001664
+      ModifiedOnDateTime_Raw: '2019-08-02T17:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564768487000
+      Hashtag: '#RangeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-02T20:48:21.416Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -119.9159096477524
+    Lat: 34.68315422856288
+    id: 125542
+    Name: Range
+    Fire_Name: Range
+    UniqueFireIdentifier: 2019-CALPF-001664
+    DailyAcres: 100
+    PercentContained: 90
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-02T12:30Z'
+    ICS209ReportDateTimeEpoch: 1564749000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 0
+    FireCause: Unknown
+    TotalIncidentPersonnel: 95
+    FireDiscoveryDateTime: '2019-07-29T05:50Z'
+    FireDiscoveryDateTimeEpoch: 1564379400000
+    DispatchCenterID: CALPCC
+    LocalIncidentIdentifier: '001664'
+    POOCounty: Santa Barbara
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-02T12:30Z'
+    ModifiedOnDateTimeEpoch: 1564749000000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CALPF-001664
+    ModifiedOnDateTime_Raw: '2019-08-02T17:54Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564768487000
+    Hashtag: '#RangeFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CALPF
+    unitMention: '@LosPadresNF'
+    Final_Fire_Name: Range Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-02T12:30Z-PER-none-ID-2019-CALPF-001664-NAME-Range-S-N'
+      Code: f829aaf25478efb86c600ff5c4ac714dd9e8671cb4000194ec391c8fb6f14ed9
