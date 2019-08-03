@@ -51378,3 +51378,164 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-03T19:00Z-PER-none-ID-2019-CASCU-005471-NAME-MARSH-S-N'
       Code: 7f02dd6737faad4b8c1d412ec37327c0d4430885fea7b51cc992d395a3c18220
+  2019-IDIPF-000412:
+    Source_NFSA_Join:
+      Lon: -115.90811194026453
+      Lat: 47.157365128018604
+      id: 126270
+      Name: Lick Creek
+      Fire_Name: Lick Creek
+      UniqueFireIdentifier: 2019-IDIPF-000412
+      DailyAcres: 100
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-03T22:45Z'
+      ICS209ReportDateTimeEpoch: 1564872300000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 500000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 117
+      FireDiscoveryDateTime: '2019-08-02T20:30Z'
+      FireDiscoveryDateTimeEpoch: 1564777800000
+      DispatchCenterID: IDCDC
+      LocalIncidentIdentifier: '000412'
+      POOCounty: Shoshone
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-03T22:45Z'
+      ModifiedOnDateTimeEpoch: 1564872300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDIPF-000412
+      ModifiedOnDateTime_Raw: '2019-08-03T23:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564874726000
+      Hashtag: '#LickCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-03T23:30:40.570Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -115.90971365452866
+      Lat: 47.1721162717258
+      objectid: 45
+      latitude: 47.17211
+      longitude: -115.9097
+      acres: 100
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: ID
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-03T22:45Z'
+      reportdatetimeEpoch: 1564872300000
+      percentcontained: 0
+      uniquefireidentifier: 2019-IDIPF-000412
+      firediscoverydatetime: '2019-08-02T20:30Z'
+      firediscoverydatetimeEpoch: 1564777800000
+      complexparentirwinid: null
+      pooresponsibleunit: IDIPF
+      incidentname: Lick Creek
+      iscomplex: 'false'
+      irwinid: '{6B204E55-7D0B-409B-AA68-D8395460E733}'
+      irwinmodifiedon: '2019-08-03T23:25Z'
+      irwinmodifiedonEpoch: 1564874727000
+      mapsymbol: '1'
+      datecurrent: '2019-08-03T17:30Z'
+      datecurrentEpoch: 1564853429000
+      pooownerunit: IDIPF
+      fireyear: 2019
+      localincidentidentifier: '000412'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 100
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-03T22:45Z'
+      ModifiedOnDateTimeEpoch: 1564872300000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-IDIPF-000412
+      FireDiscoveryDateTime: '2019-08-02T20:30Z'
+      FireDiscoveryDateTimeEpoch: 1564777800000
+      Fire_Name: Lick Creek
+      Name: Lick Creek
+      Source: GEOMAC
+      Hashtag: '#LickCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-03T23:30:40.571Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-IDIPF-000412
+    Lon: -115.90811194026453
+    Lat: 47.157365128018604
+    id: 126270
+    Name: Lick Creek
+    Fire_Name: Lick Creek
+    UniqueFireIdentifier: 2019-IDIPF-000412
+    DailyAcres: 100
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-03T22:45Z'
+    ICS209ReportDateTimeEpoch: 1564872300000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 500000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 117
+    FireDiscoveryDateTime: '2019-08-02T20:30Z'
+    FireDiscoveryDateTimeEpoch: 1564777800000
+    DispatchCenterID: IDCDC
+    LocalIncidentIdentifier: '000412'
+    POOCounty: Shoshone
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-03T22:45Z'
+    ModifiedOnDateTimeEpoch: 1564872300000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDIPF-000412
+    ModifiedOnDateTime_Raw: '2019-08-03T23:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564874726000
+    Hashtag: '#LickCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: IDIPF
+    unitMention: Idaho Panhandle NF
+    Final_Fire_Name: Lick Creek Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-03T22:45Z-PER-none-ID-2019-IDIPF-000412-NAME-LickCreek-S-N'
+      Code: 2a78246c038de879ec8391900bb149f74400da81899e8dff23d7d0aadb4b633a
