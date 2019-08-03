@@ -51217,3 +51217,164 @@ Database:
       UpdateId: >-
         UPD-2019-08-03T13:41Z-PER-none-ID-CALFIRE-5edb4ec4-615c-45fb-a236-9a4225eedaff-NAME-UsalFire-S-C
       Code: 09ce9be266c11cfe06ecbbe4507d56d551820abd99616f7345d4c0f53e6611ae
+  2019-CASCU-005471:
+    Source_NFSA_Join:
+      Lon: -121.80958521613489
+      Lat: 37.889616212124636
+      id: 126369
+      Name: MARSH
+      Fire_Name: MARSH
+      UniqueFireIdentifier: 2019-CASCU-005471
+      DailyAcres: 655
+      PercentContained: 50
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-03T19:00Z'
+      ICS209ReportDateTimeEpoch: 1564858800000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 300000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 355
+      FireDiscoveryDateTime: '2019-08-03T10:36Z'
+      FireDiscoveryDateTimeEpoch: 1564828564000
+      DispatchCenterID: CASCCC
+      LocalIncidentIdentifier: '005471'
+      POOCounty: Contra Costa
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-03T19:00Z'
+      ModifiedOnDateTimeEpoch: 1564858800000
+      ModifiedBySystem: cfcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CASCU-005471
+      ModifiedOnDateTime_Raw: '2019-08-03T19:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564862162000
+      Hashtag: '#MarshFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-03T20:01:33.646Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -121.80958513645258
+      Lat: 37.88961499837063
+      objectid: 45
+      latitude: 37.88961
+      longitude: -121.809572
+      acres: 655
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-03T19:00Z'
+      reportdatetimeEpoch: 1564858800000
+      percentcontained: 50
+      uniquefireidentifier: 2019-CASCU-005471
+      firediscoverydatetime: '2019-08-03T10:36Z'
+      firediscoverydatetimeEpoch: 1564828564000
+      complexparentirwinid: null
+      pooresponsibleunit: CASCU
+      incidentname: MARSH
+      iscomplex: 'false'
+      irwinid: '{8C4E9031-A4DB-46C9-8905-4E71C7B61B8E}'
+      irwinmodifiedon: '2019-08-03T19:56Z'
+      irwinmodifiedonEpoch: 1564862162000
+      mapsymbol: '1'
+      datecurrent: '2019-08-03T14:00Z'
+      datecurrentEpoch: 1564840836000
+      pooownerunit: CASCU
+      fireyear: 2019
+      localincidentidentifier: '005471'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 655
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-03T19:00Z'
+      ModifiedOnDateTimeEpoch: 1564858800000
+      PercentContained: 50
+      UniqueFireIdentifier: 2019-CASCU-005471
+      FireDiscoveryDateTime: '2019-08-03T10:36Z'
+      FireDiscoveryDateTimeEpoch: 1564828564000
+      Fire_Name: MARSH
+      Name: MARSH
+      Source: GEOMAC
+      Hashtag: '#MarshFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-03T20:01:33.647Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CASCU-005471
+    Lon: -121.80958521613489
+    Lat: 37.889616212124636
+    id: 126369
+    Name: MARSH
+    Fire_Name: MARSH
+    UniqueFireIdentifier: 2019-CASCU-005471
+    DailyAcres: 655
+    PercentContained: 50
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-03T19:00Z'
+    ICS209ReportDateTimeEpoch: 1564858800000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 300000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 355
+    FireDiscoveryDateTime: '2019-08-03T10:36Z'
+    FireDiscoveryDateTimeEpoch: 1564828564000
+    DispatchCenterID: CASCCC
+    LocalIncidentIdentifier: '005471'
+    POOCounty: Contra Costa
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-03T19:00Z'
+    ModifiedOnDateTimeEpoch: 1564858800000
+    ModifiedBySystem: cfcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CASCU-005471
+    ModifiedOnDateTime_Raw: '2019-08-03T19:56Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564862162000
+    Hashtag: '#MarshFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CASCU
+    unitMention: Santa Clara Unit
+    Final_Fire_Name: Marsh Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-03T19:00Z-PER-none-ID-2019-CASCU-005471-NAME-MARSH-S-N'
+      Code: 7f02dd6737faad4b8c1d412ec37327c0d4430885fea7b51cc992d395a3c18220
