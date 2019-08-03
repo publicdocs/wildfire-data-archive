@@ -49794,16 +49794,16 @@ Database:
       Name: SULPHUR
       Fire_Name: SULPHUR
       UniqueFireIdentifier: 2019-WAWFS-000391
-      DailyAcres: 500
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 1150
+      PercentContained: 100
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-03T11:00Z'
+      ICS209ReportDateTimeEpoch: 1564830000000
+      ICS209ReportStatus: F
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 75000
       FireCause: Unknown
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-08-02T20:56Z'
@@ -49812,21 +49812,21 @@ Database:
       LocalIncidentIdentifier: 000391
       POOCounty: Franklin
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-02T22:12Z'
-      ModifiedOnDateTimeEpoch: 1564783951000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-08-03T11:00Z'
+      ModifiedOnDateTimeEpoch: 1564830000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WAWFS-000391
-      ModifiedOnDateTime_Raw: '2019-08-02T22:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564783951000
+      ModifiedOnDateTime_Raw: '2019-08-03T14:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564840811000
       Hashtag: '#SulphurFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-02T22:30:47.141Z'
+          RetrievedOn: '2019-08-03T14:02:07.718Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -49834,22 +49834,88 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -118.72121405747217
+      Lat: 46.62515594243824
+      objectid: 44
+      latitude: 46.62515
+      longitude: -118.7212
+      acres: 1150
+      gacc: NWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: WA
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-02T21:15Z'
+      reportdatetimeEpoch: 1564780500000
+      percentcontained: 0
+      uniquefireidentifier: 2019-WAWFS-000391
+      firediscoverydatetime: '2019-08-02T20:56Z'
+      firediscoverydatetimeEpoch: 1564779360000
+      complexparentirwinid: null
+      pooresponsibleunit: WAWFS
+      incidentname: SULPHUR
+      iscomplex: 'false'
+      irwinid: '{CB6EF5A9-594F-4EED-B5E4-AAC276F61DC8}'
+      irwinmodifiedon: '2019-08-03T01:16Z'
+      irwinmodifiedonEpoch: 1564794968000
+      mapsymbol: '1'
+      datecurrent: '2019-08-03T08:00Z'
+      datecurrentEpoch: 1564819246000
+      pooownerunit: WAHFR
+      fireyear: 2019
+      localincidentidentifier: 000391
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1150
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-02T21:15Z'
+      ModifiedOnDateTimeEpoch: 1564780500000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-WAWFS-000391
+      FireDiscoveryDateTime: '2019-08-02T20:56Z'
+      FireDiscoveryDateTimeEpoch: 1564779360000
+      Fire_Name: SULPHUR
+      Name: SULPHUR
+      Source: GEOMAC
+      Hashtag: '#SulphurFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-03T14:02:07.719Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-WAWFS-000391
     Lon: -118.72121320194334
     Lat: 46.62515485964181
     id: 126281
     Name: SULPHUR
     Fire_Name: SULPHUR
     UniqueFireIdentifier: 2019-WAWFS-000391
-    DailyAcres: 500
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 1150
+    PercentContained: 100
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-03T11:00Z'
+    ICS209ReportDateTimeEpoch: 1564830000000
+    ICS209ReportStatus: F
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 75000
     FireCause: Unknown
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-08-02T20:56Z'
@@ -49858,17 +49924,16 @@ Database:
     LocalIncidentIdentifier: 000391
     POOCounty: Franklin
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-02T22:12Z'
-    ModifiedOnDateTimeEpoch: 1564783951000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-08-03T11:00Z'
+    ModifiedOnDateTimeEpoch: 1564830000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-WAWFS-000391
-      - 2019-WASPD-000391
-    ModifiedOnDateTime_Raw: '2019-08-02T22:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564783951000
+    ModifiedOnDateTime_Raw: '2019-08-03T14:00Z'
+    ModifiedOnDateTimeEpoch_Raw: 1564840811000
     Hashtag: '#SulphurFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -49880,8 +49945,8 @@ Database:
     unitMention: Washington State Fire Marshal's Office
     Final_Fire_Name: Sulphur Fire
     _Update:
-      UpdateId: 'UPD-2019-08-02T22:12Z-PER-none-ID-2019-WAWFS-000391-NAME-SULPHUR-S-N'
-      Code: 0a26b9137deb7677d605add7fcec516fd2d515ab179e981b981334b9fb895ce1
+      UpdateId: 'UPD-2019-08-03T11:00Z-PER-none-ID-2019-WAWFS-000391-NAME-SULPHUR-S-N'
+      Code: 16bba40f29a594ee1e645882159c2fee54459bb5fff70209f633d9218c514d04
   2019-MTHLF-000131:
     Source_NFSA_Join:
       Lon: -112.5666126453138
