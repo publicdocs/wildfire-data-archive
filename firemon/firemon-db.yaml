@@ -40207,7 +40207,7 @@ Database:
       Name: Granite Gulch
       Fire_Name: Granite Gulch
       UniqueFireIdentifier: 2019-ORWWF-000609
-      DailyAcres: 25
+      DailyAcres: 480
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
@@ -40227,19 +40227,19 @@ Database:
       POOLandownerKind: Federal
       ModifiedOnDateTime: '2019-08-01T23:00Z'
       ModifiedOnDateTimeEpoch: 1564700400000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wfdss
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-ORWWF-000609
-      ModifiedOnDateTime_Raw: '2019-08-01T23:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564702552000
+      ModifiedOnDateTime_Raw: '2019-08-05T01:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564969825000
       Hashtag: '#GraniteGulchFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-02T00:01:56.400Z'
+          RetrievedOn: '2019-08-05T02:31:00.594Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -40247,49 +40247,127 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -117.42701037211233
-    Lat: 45.177996154509046
-    id: 125612
-    Name: Granite Gulch
-    Fire_Name: Granite Gulch
-    UniqueFireIdentifier: 2019-ORWWF-000609
-    DailyAcres: 25
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-01T23:00Z'
-    ICS209ReportDateTimeEpoch: 1564700400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1000
+    Source_GEOMAC:
+      Lon: -117.42701352546068
+      Lat: 45.1779959675307
+      objectid: 37
+      latitude: 45.17799
+      longitude: -117.427
+      acres: 700
+      gacc: NWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OR
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-08-05T01:00Z'
+      reportdatetimeEpoch: 1564966800000
+      percentcontained: 0
+      uniquefireidentifier: 2019-ORWWF-000609
+      firediscoverydatetime: '2019-07-29T00:36Z'
+      firediscoverydatetimeEpoch: 1564360560000
+      complexparentirwinid: null
+      pooresponsibleunit: ORWWF
+      incidentname: Granite Gulch
+      iscomplex: 'false'
+      irwinid: '{026F0FC5-D38C-4F7B-928A-59F37BE81BAA}'
+      irwinmodifiedon: '2019-08-05T02:28Z'
+      irwinmodifiedonEpoch: 1564972107000
+      mapsymbol: '1'
+      datecurrent: '2019-08-04T20:30Z'
+      datecurrentEpoch: 1564950634000
+      pooownerunit: ORWWF
+      fireyear: 2019
+      localincidentidentifier: 000609
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 700
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-05T01:00Z'
+      ModifiedOnDateTimeEpoch: 1564966800000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-ORWWF-000609
+      FireDiscoveryDateTime: '2019-07-29T00:36Z'
+      FireDiscoveryDateTimeEpoch: 1564360560000
+      Fire_Name: Granite Gulch
+      Name: Granite Gulch
+      Source: GEOMAC
+      Hashtag: '#GraniteGulchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-05T02:31:00.595Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-ORWWF-000609
+    Lon: -117.42701352546068
+    Lat: 45.1779959675307
+    objectid: 37
+    latitude: 45.17799
+    longitude: -117.427
+    acres: 700
+    gacc: NWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: OR
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-08-05T01:00Z'
+    reportdatetimeEpoch: 1564966800000
+    percentcontained: 0
+    uniquefireidentifier: 2019-ORWWF-000609
+    firediscoverydatetime: '2019-07-29T00:36Z'
+    firediscoverydatetimeEpoch: 1564360560000
+    complexparentirwinid: null
+    pooresponsibleunit: ORWWF
+    incidentname: Granite Gulch
+    iscomplex: 'false'
+    irwinid: '{026F0FC5-D38C-4F7B-928A-59F37BE81BAA}'
+    irwinmodifiedon: '2019-08-05T02:28Z'
+    irwinmodifiedonEpoch: 1564972107000
+    mapsymbol: '1'
+    datecurrent: '2019-08-04T20:30Z'
+    datecurrentEpoch: 1564950634000
+    pooownerunit: ORWWF
+    fireyear: 2019
+    localincidentidentifier: 000609
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 700
     FireCause: Natural
-    TotalIncidentPersonnel: 3
+    ModifiedOnDateTime: '2019-08-05T01:00Z'
+    ModifiedOnDateTimeEpoch: 1564966800000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-ORWWF-000609
     FireDiscoveryDateTime: '2019-07-29T00:36Z'
     FireDiscoveryDateTimeEpoch: 1564360560000
-    DispatchCenterID: ORBMC
-    LocalIncidentIdentifier: 000609
-    POOCounty: Wallowa
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-01T23:00Z'
-    ModifiedOnDateTimeEpoch: 1564700400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
+    Fire_Name: Granite Gulch
+    Name: Granite Gulch
+    Source: GEOMAC
+    Hashtag: '#GraniteGulchFire'
     _CorrelationIds:
       - 2019-ORWWF-000609
-    ModifiedOnDateTime_Raw: '2019-08-01T23:35Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564702552000
-    Hashtag: '#GraniteGulchFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-01T17:30Z'
     PerimeterData:
       DateTime: '2019-08-01T17:30Z'
       Acres: 198.03437424
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-02T18:26:15.106Z'
+          RetrievedOn: '2019-08-05T02:31:11.297Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -40310,8 +40388,8 @@ Database:
     Final_Fire_Name: Granite Gulch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-01T23:00Z-PER-2019-08-01T17:30Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
-      Code: ea87a47d6902da80b34871249e7ef0d1e102209a77c1704d8957e62d3d928b09
+        UPD-2019-08-05T01:00Z-PER-2019-08-01T17:30Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-G
+      Code: 920b11dafca5373a89da9336b6f4f533177035c795dd3b78ef00c9ffb4866e89
   CALFIRE-626b3431-1d91-4542-a675-cafd9ce907c9:
     Source_CALFIRE:
       Lon: -120.984167
@@ -52013,39 +52091,39 @@ Database:
       Name: Paint Mine
       Fire_Name: Paint Mine
       UniqueFireIdentifier: 2019-UTRID-190266
-      DailyAcres: 400
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 1850
+      PercentContained: 20
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-04T02:00Z'
+      ICS209ReportDateTimeEpoch: 1564884000000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 50000
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 19
       FireDiscoveryDateTime: '2019-08-03T20:44Z'
       FireDiscoveryDateTimeEpoch: 1564865040000
       DispatchCenterID: UTRFC
       LocalIncidentIdentifier: '190266'
       POOCounty: Juab
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-04T02:22Z'
-      ModifiedOnDateTimeEpoch: 1564885378000
+      ModifiedOnDateTime: '2019-08-04T02:00Z'
+      ModifiedOnDateTimeEpoch: 1564884000000
       ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTRID-190266
-      ModifiedOnDateTime_Raw: '2019-08-04T02:22Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564885378000
+      ModifiedOnDateTime_Raw: '2019-08-05T01:47Z'
+      ModifiedOnDateTimeEpoch_Raw: 1564969649000
       Hashtag: '#PaintMineFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-04T02:31:32.886Z'
+          RetrievedOn: '2019-08-05T02:31:00.594Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -52053,42 +52131,120 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -111.93811533993241
-    Lat: 39.78027757727148
-    id: 126456
-    Name: Paint Mine
-    Fire_Name: Paint Mine
-    UniqueFireIdentifier: 2019-UTRID-190266
-    DailyAcres: 400
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    Source_GEOMAC:
+      Lon: -111.93471161644952
+      Lat: 39.779045922631134
+      objectid: 48
+      latitude: 39.77904
+      longitude: -111.9347
+      acres: 1850
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: UT
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-08-05T01:45Z'
+      reportdatetimeEpoch: 1564969500000
+      percentcontained: 20
+      uniquefireidentifier: 2019-UTRID-190266
+      firediscoverydatetime: '2019-08-03T20:44Z'
+      firediscoverydatetimeEpoch: 1564865040000
+      complexparentirwinid: null
+      pooresponsibleunit: UTRID
+      incidentname: Paint Mine
+      iscomplex: 'false'
+      irwinid: '{085CC92E-2D49-4F95-98B8-2ED293D238CB}'
+      irwinmodifiedon: '2019-08-05T02:08Z'
+      irwinmodifiedonEpoch: 1564970919000
+      mapsymbol: '1'
+      datecurrent: '2019-08-04T20:30Z'
+      datecurrentEpoch: 1564950634000
+      pooownerunit: UTUTS
+      fireyear: 2019
+      localincidentidentifier: '190266'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1850
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-05T01:45Z'
+      ModifiedOnDateTimeEpoch: 1564969500000
+      PercentContained: 20
+      UniqueFireIdentifier: 2019-UTRID-190266
+      FireDiscoveryDateTime: '2019-08-03T20:44Z'
+      FireDiscoveryDateTimeEpoch: 1564865040000
+      Fire_Name: Paint Mine
+      Name: Paint Mine
+      Source: GEOMAC
+      Hashtag: '#PaintMineFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-05T02:31:00.595Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-UTRID-190266
+    Lon: -111.93471161644952
+    Lat: 39.779045922631134
+    objectid: 48
+    latitude: 39.77904
+    longitude: -111.9347
+    acres: 1850
+    gacc: GBCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: UT
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-08-05T01:45Z'
+    reportdatetimeEpoch: 1564969500000
+    percentcontained: 20
+    uniquefireidentifier: 2019-UTRID-190266
+    firediscoverydatetime: '2019-08-03T20:44Z'
+    firediscoverydatetimeEpoch: 1564865040000
+    complexparentirwinid: null
+    pooresponsibleunit: UTRID
+    incidentname: Paint Mine
+    iscomplex: 'false'
+    irwinid: '{085CC92E-2D49-4F95-98B8-2ED293D238CB}'
+    irwinmodifiedon: '2019-08-05T02:08Z'
+    irwinmodifiedonEpoch: 1564970919000
+    mapsymbol: '1'
+    datecurrent: '2019-08-04T20:30Z'
+    datecurrentEpoch: 1564950634000
+    pooownerunit: UTUTS
+    fireyear: 2019
+    localincidentidentifier: '190266'
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 1850
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2019-08-05T01:45Z'
+    ModifiedOnDateTimeEpoch: 1564969500000
+    PercentContained: 20
+    UniqueFireIdentifier: 2019-UTRID-190266
     FireDiscoveryDateTime: '2019-08-03T20:44Z'
     FireDiscoveryDateTimeEpoch: 1564865040000
-    DispatchCenterID: UTRFC
-    LocalIncidentIdentifier: '190266'
-    POOCounty: Juab
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-04T02:22Z'
-    ModifiedOnDateTimeEpoch: 1564885378000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Paint Mine
+    Name: Paint Mine
+    Source: GEOMAC
+    Hashtag: '#PaintMineFire'
     _CorrelationIds:
       - 2019-UTRID-190266
-    ModifiedOnDateTime_Raw: '2019-08-04T02:22Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564885378000
-    Hashtag: '#PaintMineFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -52098,8 +52254,8 @@ Database:
     unitMention: Richfield Field Office
     Final_Fire_Name: Paint Mine Fire
     _Update:
-      UpdateId: 'UPD-2019-08-04T02:22Z-PER-none-ID-2019-UTRID-190266-NAME-PaintMine-S-N'
-      Code: 481558c6b389fec72f49bfc05d4bfe5b0c7e910ea6b8edd3ec4e228c700bcce2
+      UpdateId: 'UPD-2019-08-05T01:45Z-PER-none-ID-2019-UTRID-190266-NAME-PaintMine-S-G'
+      Code: 94a7c788a813c655192b578f52c1bb10b4ceffaabd19fdfc6a2f232761272ef0
   2019-CACND-001611:
     Source_CALFIRE:
       Lon: -118.41204
