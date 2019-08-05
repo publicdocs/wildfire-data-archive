@@ -49697,12 +49697,12 @@ Database:
       PercentContained: 99
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-05T00:30Z'
-      ICS209ReportDateTimeEpoch: 1564965000000
+      ICS209ReportDateTime: '2019-08-05T13:00Z'
+      ICS209ReportDateTimeEpoch: 1565010000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 300000
+      EstimatedCostToDate: 0
       FireCause: Unknown
       TotalIncidentPersonnel: 7
       FireDiscoveryDateTime: '2019-07-29T05:50Z'
@@ -49711,21 +49711,21 @@ Database:
       LocalIncidentIdentifier: '001664'
       POOCounty: Santa Barbara
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-05T00:30Z'
-      ModifiedOnDateTimeEpoch: 1564965000000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-08-05T13:00Z'
+      ModifiedOnDateTimeEpoch: 1565010000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-CALPF-001664
-      ModifiedOnDateTime_Raw: '2019-08-05T00:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564966498000
+      ModifiedOnDateTime_Raw: '2019-08-05T13:41Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565012505000
       Hashtag: '#RangeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-05T01:01:53.510Z'
+          RetrievedOn: '2019-08-05T14:02:17.865Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -49743,12 +49743,12 @@ Database:
     PercentContained: 99
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-05T00:30Z'
-    ICS209ReportDateTimeEpoch: 1564965000000
+    ICS209ReportDateTime: '2019-08-05T13:00Z'
+    ICS209ReportDateTimeEpoch: 1565010000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 300000
+    EstimatedCostToDate: 0
     FireCause: Unknown
     TotalIncidentPersonnel: 7
     FireDiscoveryDateTime: '2019-07-29T05:50Z'
@@ -49757,16 +49757,16 @@ Database:
     LocalIncidentIdentifier: '001664'
     POOCounty: Santa Barbara
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-05T00:30Z'
-    ModifiedOnDateTimeEpoch: 1564965000000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-08-05T13:00Z'
+    ModifiedOnDateTimeEpoch: 1565010000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-CALPF-001664
-    ModifiedOnDateTime_Raw: '2019-08-05T00:54Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564966498000
+    ModifiedOnDateTime_Raw: '2019-08-05T13:41Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565012505000
     Hashtag: '#RangeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -49778,8 +49778,8 @@ Database:
     unitMention: '@LosPadresNF'
     Final_Fire_Name: Range Fire
     _Update:
-      UpdateId: 'UPD-2019-08-05T00:30Z-PER-none-ID-2019-CALPF-001664-NAME-Range-S-N'
-      Code: 09e6f8107b28cda48ae7b772a546b8a173a3bc2f2ae991dfdb5668595e22d213
+      UpdateId: 'UPD-2019-08-05T13:00Z-PER-none-ID-2019-CALPF-001664-NAME-Range-S-N'
+      Code: 4c7e9b9edbab5074f2cb10e1019b41b9976c3c3514590992e26af8459952c58c
   2019-WAWFS-000391:
     Source_NFSA_Join:
       Lon: -118.72121320194334
@@ -53713,3 +53713,193 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-05T10:13Z-PER-none-ID-2019-NVEKD-010193-NAME-Goose-S-N'
       Code: c562a5cbe561ef449910ec35244fc5ea03ad32b5320a8fb38adecea666bdb69b
+  2019-MTFNF-000402:
+    Source_NFSA_Join:
+      Lon: -113.40001566700283
+      Lat: 47.70343477573955
+      id: 126492
+      Name: Snow Creek
+      Fire_Name: Snow Creek
+      UniqueFireIdentifier: 2019-MTFNF-000402
+      DailyAcres: 30
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-08-05T02:00Z'
+      ICS209ReportDateTimeEpoch: 1564970400000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 4500
+      FireCause: Natural
+      TotalIncidentPersonnel: 6
+      FireDiscoveryDateTime: '2019-08-03T22:55Z'
+      FireDiscoveryDateTimeEpoch: 1564872922000
+      DispatchCenterID: MTKIC
+      LocalIncidentIdentifier: '000402'
+      POOCounty: Flathead
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-05T02:00Z'
+      ModifiedOnDateTimeEpoch: 1564970400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-MTFNF-000402
+      ModifiedOnDateTime_Raw: '2019-08-05T13:39Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565012371000
+      Hashtag: '#SnowCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-05T14:02:17.865Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -113.40001566700283
+    Lat: 47.70343477573955
+    id: 126492
+    Name: Snow Creek
+    Fire_Name: Snow Creek
+    UniqueFireIdentifier: 2019-MTFNF-000402
+    DailyAcres: 30
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-08-05T02:00Z'
+    ICS209ReportDateTimeEpoch: 1564970400000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 4500
+    FireCause: Natural
+    TotalIncidentPersonnel: 6
+    FireDiscoveryDateTime: '2019-08-03T22:55Z'
+    FireDiscoveryDateTimeEpoch: 1564872922000
+    DispatchCenterID: MTKIC
+    LocalIncidentIdentifier: '000402'
+    POOCounty: Flathead
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-05T02:00Z'
+    ModifiedOnDateTimeEpoch: 1564970400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-MTFNF-000402
+    ModifiedOnDateTime_Raw: '2019-08-05T13:39Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565012371000
+    Hashtag: '#SnowCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: MTFNF
+    unitMention: Flathead NF
+    Final_Fire_Name: Snow Creek Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-05T02:00Z-PER-none-ID-2019-MTFNF-000402-NAME-SnowCreek-S-N'
+      Code: aa1112dcc2c9a8524c3600c98802d884f9e21256e9eafb9c896f78dcd772cf89
+  2019-UTSLD-000479:
+    Source_NFSA_Join:
+      Lon: -113.15791071477979
+      Lat: 41.57889367326529
+      id: 126767
+      Name: Hogup West
+      Fire_Name: Hogup West
+      UniqueFireIdentifier: 2019-UTSLD-000479
+      DailyAcres: 300
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-08-05T05:53Z'
+      FireDiscoveryDateTimeEpoch: 1564984436000
+      DispatchCenterID: UTNUC
+      LocalIncidentIdentifier: 000479
+      POOCounty: Box Elder
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-05T13:50Z'
+      ModifiedOnDateTimeEpoch: 1565013018000
+      ModifiedBySystem: wfdss
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-UTSLD-000479
+      ModifiedOnDateTime_Raw: '2019-08-05T13:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565013018000
+      Hashtag: '#HogupWestFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-05T14:02:17.865Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -113.15791071477979
+    Lat: 41.57889367326529
+    id: 126767
+    Name: Hogup West
+    Fire_Name: Hogup West
+    UniqueFireIdentifier: 2019-UTSLD-000479
+    DailyAcres: 300
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-08-05T05:53Z'
+    FireDiscoveryDateTimeEpoch: 1564984436000
+    DispatchCenterID: UTNUC
+    LocalIncidentIdentifier: 000479
+    POOCounty: Box Elder
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-05T13:50Z'
+    ModifiedOnDateTimeEpoch: 1565013018000
+    ModifiedBySystem: wfdss
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-UTSLD-000479
+    ModifiedOnDateTime_Raw: '2019-08-05T13:50Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565013018000
+    Hashtag: '#HogupWestFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: UTSLD
+    unitMention: Salt Lake Field Office
+    Final_Fire_Name: Hogup West Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-05T13:50Z-PER-none-ID-2019-UTSLD-000479-NAME-HogupWest-S-N'
+      Code: e94e3c415f1ef820839ec5ffb4080f918c9f7d8a4a808b4fcf9c61579eb4ce92
