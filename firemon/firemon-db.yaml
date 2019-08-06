@@ -53690,13 +53690,13 @@ Database:
       Name: Horsefly
       Fire_Name: Horsefly
       UniqueFireIdentifier: 2019-MTHLF-000162
-      DailyAcres: 300
+      DailyAcres: 1500
       PercentContained: 0
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-08-05T23:30Z'
-      ICS209ReportDateTimeEpoch: 1565047800000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-08-06T00:00Z'
+      ICS209ReportDateTimeEpoch: 1565049600000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 0
@@ -53708,21 +53708,21 @@ Database:
       LocalIncidentIdentifier: '000162'
       POOCounty: Lewis and Clark
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-05T23:30Z'
-      ModifiedOnDateTimeEpoch: 1565047800000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-08-06T00:00Z'
+      ModifiedOnDateTimeEpoch: 1565049600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-MTHLF-000162
-      ModifiedOnDateTime_Raw: '2019-08-05T23:57Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565049462000
+      ModifiedOnDateTime_Raw: '2019-08-06T00:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565051732000
       Hashtag: '#HorseflyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-06T00:00:31.295Z'
+          RetrievedOn: '2019-08-06T01:01:30.731Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -53730,19 +53730,85 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -112.44071290714872
+      Lat: 46.96297660439721
+      objectid: 53
+      latitude: 46.96297
+      longitude: -112.4407
+      acres: 1500
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-08-06T00:00Z'
+      reportdatetimeEpoch: 1565049600000
+      percentcontained: 0
+      uniquefireidentifier: 2019-MTHLF-000162
+      firediscoverydatetime: '2019-08-05T18:27Z'
+      firediscoverydatetimeEpoch: 1565029620000
+      complexparentirwinid: null
+      pooresponsibleunit: MTHLF
+      incidentname: Horsefly
+      iscomplex: 'false'
+      irwinid: '{3A7E9370-F824-404E-8936-50607249ED1B}'
+      irwinmodifiedon: '2019-08-06T00:35Z'
+      irwinmodifiedonEpoch: 1565051733000
+      mapsymbol: '1'
+      datecurrent: '2019-08-05T19:01Z'
+      datecurrentEpoch: 1565031661000
+      pooownerunit: MTHNF
+      fireyear: 2019
+      localincidentidentifier: '000162'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1500
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-06T00:00Z'
+      ModifiedOnDateTimeEpoch: 1565049600000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-MTHLF-000162
+      FireDiscoveryDateTime: '2019-08-05T18:27Z'
+      FireDiscoveryDateTimeEpoch: 1565029620000
+      Fire_Name: Horsefly
+      Name: Horsefly
+      Source: GEOMAC
+      Hashtag: '#HorseflyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-06T01:01:30.733Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTHLF-000162
     Lon: -112.44071375824444
     Lat: 46.962976577820335
     id: 126863
     Name: Horsefly
     Fire_Name: Horsefly
     UniqueFireIdentifier: 2019-MTHLF-000162
-    DailyAcres: 300
+    DailyAcres: 1500
     PercentContained: 0
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-08-05T23:30Z'
-    ICS209ReportDateTimeEpoch: 1565047800000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-08-06T00:00Z'
+    ICS209ReportDateTimeEpoch: 1565049600000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 0
@@ -53754,16 +53820,16 @@ Database:
     LocalIncidentIdentifier: '000162'
     POOCounty: Lewis and Clark
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-05T23:30Z'
-    ModifiedOnDateTimeEpoch: 1565047800000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-08-06T00:00Z'
+    ModifiedOnDateTimeEpoch: 1565049600000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-MTHLF-000162
-    ModifiedOnDateTime_Raw: '2019-08-05T23:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565049462000
+    ModifiedOnDateTime_Raw: '2019-08-06T00:35Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565051732000
     Hashtag: '#HorseflyFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -53775,8 +53841,8 @@ Database:
     unitMention: Helena - Lewis and Clark NF
     Final_Fire_Name: Horsefly Fire
     _Update:
-      UpdateId: 'UPD-2019-08-05T23:30Z-PER-none-ID-2019-MTHLF-000162-NAME-Horsefly-S-N'
-      Code: d717f57637547e5717eb517ea45775c51178f29902402897195c0be7f1f9d715
+      UpdateId: 'UPD-2019-08-06T00:00Z-PER-none-ID-2019-MTHLF-000162-NAME-Horsefly-S-N'
+      Code: 4674ac87b42f6bd5db028a201b2ccbe1e47ef1ebf8c8ccac2fedf7d2545e1d11
   CALFIRE-0089d3c4-c554-46e1-8eb9-af95e4dfae0c:
     Source_CALFIRE:
       Lon: -117.333728
@@ -54000,13 +54066,13 @@ Database:
       Name: 17 Mile 2
       Fire_Name: 17 Mile 2
       UniqueFireIdentifier: 2019-MTBID-190297
-      DailyAcres: 50
+      DailyAcres: 503
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-05T23:30Z'
-      ICS209ReportDateTimeEpoch: 1565047800000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-08-05T23:45Z'
+      ICS209ReportDateTimeEpoch: 1565048700000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 200000
@@ -54018,21 +54084,21 @@ Database:
       LocalIncidentIdentifier: '190297'
       POOCounty: Yellowstone
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-05T23:30Z'
-      ModifiedOnDateTimeEpoch: 1565047800000
+      ModifiedOnDateTime: '2019-08-05T23:45Z'
+      ModifiedOnDateTimeEpoch: 1565048700000
       ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-MTBID-190297
-      ModifiedOnDateTime_Raw: '2019-08-05T23:55Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565049359000
+      ModifiedOnDateTime_Raw: '2019-08-06T00:52Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565052727000
       Hashtag: '#17Mile2Fire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-06T00:00:31.295Z'
+          RetrievedOn: '2019-08-06T01:01:30.731Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -54040,19 +54106,85 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -108.49281185338513
+      Lat: 46.02129689109459
+      objectid: 52
+      latitude: 46.02129
+      longitude: -108.4928
+      acres: 503
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-08-05T23:45Z'
+      reportdatetimeEpoch: 1565048700000
+      percentcontained: 0
+      uniquefireidentifier: 2019-MTBID-190297
+      firediscoverydatetime: '2019-08-05T18:25Z'
+      firediscoverydatetimeEpoch: 1565029500000
+      complexparentirwinid: null
+      pooresponsibleunit: MTBID
+      incidentname: 17 Mile 2
+      iscomplex: 'false'
+      irwinid: '{CFAA761E-165D-4415-A091-CF29572ACC28}'
+      irwinmodifiedon: '2019-08-06T00:52Z'
+      irwinmodifiedonEpoch: 1565052727000
+      mapsymbol: '1'
+      datecurrent: '2019-08-05T19:01Z'
+      datecurrentEpoch: 1565031661000
+      pooownerunit: MTBID
+      fireyear: 2019
+      localincidentidentifier: '190297'
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 503
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-05T23:45Z'
+      ModifiedOnDateTimeEpoch: 1565048700000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-MTBID-190297
+      FireDiscoveryDateTime: '2019-08-05T18:25Z'
+      FireDiscoveryDateTimeEpoch: 1565029500000
+      Fire_Name: 17 Mile 2
+      Name: 17 Mile 2
+      Source: GEOMAC
+      Hashtag: '#17Mile2Fire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-06T01:01:30.733Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTBID-190297
     Lon: -108.49281571390165
     Lat: 46.02129864364782
     id: 126851
     Name: 17 Mile 2
     Fire_Name: 17 Mile 2
     UniqueFireIdentifier: 2019-MTBID-190297
-    DailyAcres: 50
+    DailyAcres: 503
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-05T23:30Z'
-    ICS209ReportDateTimeEpoch: 1565047800000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-08-05T23:45Z'
+    ICS209ReportDateTimeEpoch: 1565048700000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 200000
@@ -54064,16 +54196,16 @@ Database:
     LocalIncidentIdentifier: '190297'
     POOCounty: Yellowstone
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-05T23:30Z'
-    ModifiedOnDateTimeEpoch: 1565047800000
+    ModifiedOnDateTime: '2019-08-05T23:45Z'
+    ModifiedOnDateTimeEpoch: 1565048700000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-MTBID-190297
-    ModifiedOnDateTime_Raw: '2019-08-05T23:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565049359000
+    ModifiedOnDateTime_Raw: '2019-08-06T00:52Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565052727000
     Hashtag: '#17Mile2Fire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -54085,8 +54217,8 @@ Database:
     unitMention: Billings Field Office
     Final_Fire_Name: 17 Mile 2 Fire
     _Update:
-      UpdateId: 'UPD-2019-08-05T23:30Z-PER-none-ID-2019-MTBID-190297-NAME-17Mile2-S-N'
-      Code: f73afdaa3247e0553f4621781531c9c8a50aec9249ccc915fa12ada93e18f6f3
+      UpdateId: 'UPD-2019-08-05T23:45Z-PER-none-ID-2019-MTBID-190297-NAME-17Mile2-S-N'
+      Code: ae4aea5eab57fe2dc80794b8414c7b917de84643a9eb936ff7e57d6b71767534
   2019-OR711S-711-107-20:
     Source_NFSA_Join:
       Lon: -123.00390436952463
