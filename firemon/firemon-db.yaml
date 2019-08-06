@@ -53661,3 +53661,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-06T21:27Z-PER-none-ID-2019-IDMHQ-000247-NAME-PotHole-S-N'
       Code: f025bbb0bc5fee2c93de83027fa15386c25bf7fdf36ba02fa58a61ece1c031d6
+  2019-COSJF-000577:
+    Source_NFSA_Join:
+      Lon: -107.43981053785674
+      Lat: 37.15344730526126
+      id: 125508
+      Name: '577'
+      Fire_Name: '577'
+      UniqueFireIdentifier: 2019-COSJF-000577
+      DailyAcres: 38
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-06T20:30Z'
+      ICS209ReportDateTimeEpoch: 1565123400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 479000
+      FireCause: Natural
+      TotalIncidentPersonnel: 13
+      FireDiscoveryDateTime: '2019-07-28T19:22Z'
+      FireDiscoveryDateTimeEpoch: 1564341751000
+      DispatchCenterID: CODRC
+      LocalIncidentIdentifier: '000577'
+      POOCounty: Archuleta
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-06T20:30Z'
+      ModifiedOnDateTimeEpoch: 1565123400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-COSJF-000577
+      ModifiedOnDateTime_Raw: '2019-08-06T21:51Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565128275000
+      Hashtag: '577'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-06T22:01:54.117Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -107.43981053785674
+    Lat: 37.15344730526126
+    id: 125508
+    Name: '577'
+    Fire_Name: '577'
+    UniqueFireIdentifier: 2019-COSJF-000577
+    DailyAcres: 38
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-06T20:30Z'
+    ICS209ReportDateTimeEpoch: 1565123400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 479000
+    FireCause: Natural
+    TotalIncidentPersonnel: 13
+    FireDiscoveryDateTime: '2019-07-28T19:22Z'
+    FireDiscoveryDateTimeEpoch: 1564341751000
+    DispatchCenterID: CODRC
+    LocalIncidentIdentifier: '000577'
+    POOCounty: Archuleta
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-06T20:30Z'
+    ModifiedOnDateTimeEpoch: 1565123400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-COSJF-000577
+    ModifiedOnDateTime_Raw: '2019-08-06T21:51Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565128275000
+    Hashtag: '577'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-04T19:00Z'
+    PerimeterData:
+      DateTime: '2019-08-04T19:00Z'
+      Acres: 32.60503746
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-06T22:02:00.899Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: COSJF
+    unitMention: San Juan NF
+    Final_Fire_Name: 577 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-06T20:30Z-PER-2019-08-04T19:00Z-ID-2019-COSJF-000577-NAME-577-S-N
+      Code: 43101db8ba5e539195eb2cf36a365e58259418e0ad4201a0cb1414d424571950
