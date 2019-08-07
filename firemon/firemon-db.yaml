@@ -53299,38 +53299,38 @@ Database:
       Fire_Name: Pot Hole
       UniqueFireIdentifier: 2019-IDMHQ-000247
       DailyAcres: 25000
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-07T01:30Z'
+      ICS209ReportDateTimeEpoch: 1565141400000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 250000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 57
       FireDiscoveryDateTime: '2019-08-06T19:19Z'
       FireDiscoveryDateTimeEpoch: 1565119140000
       DispatchCenterID: IDSCC
       LocalIncidentIdentifier: '000247'
       POOCounty: Owyhee
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-06T23:26Z'
-      ModifiedOnDateTimeEpoch: 1565134006000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-08-07T01:30Z'
+      ModifiedOnDateTimeEpoch: 1565141400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDMHQ-000247
-      ModifiedOnDateTime_Raw: '2019-08-06T23:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565134006000
+      ModifiedOnDateTime_Raw: '2019-08-07T02:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565144069000
       Hashtag: '#PotHoleFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-06T23:30:43.525Z'
+          RetrievedOn: '2019-08-07T02:31:55.677Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -53338,6 +53338,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -115.53571275117898
+      Lat: 42.800035941939136
+      objectid: 52
+      latitude: 42.80003
+      longitude: -115.5357
+      acres: 25000
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: ID
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-07T01:30Z'
+      reportdatetimeEpoch: 1565141400000
+      percentcontained: 0
+      uniquefireidentifier: 2019-IDMHQ-000247
+      firediscoverydatetime: '2019-08-06T19:19Z'
+      firediscoverydatetimeEpoch: 1565119140000
+      complexparentirwinid: null
+      pooresponsibleunit: IDMHQ
+      incidentname: Pot Hole
+      iscomplex: 'false'
+      irwinid: '{574D00C8-4DA2-419F-B842-1237D65AECF8}'
+      irwinmodifiedon: '2019-08-07T02:14Z'
+      irwinmodifiedonEpoch: 1565144070000
+      mapsymbol: '3'
+      datecurrent: '2019-08-06T20:30Z'
+      datecurrentEpoch: 1565123445000
+      pooownerunit: IDBOD
+      fireyear: 2019
+      localincidentidentifier: '000247'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 25000
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-07T01:30Z'
+      ModifiedOnDateTimeEpoch: 1565141400000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-IDMHQ-000247
+      FireDiscoveryDateTime: '2019-08-06T19:19Z'
+      FireDiscoveryDateTimeEpoch: 1565119140000
+      Fire_Name: Pot Hole
+      Name: Pot Hole
+      Source: GEOMAC
+      Hashtag: '#PotHoleFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-07T02:31:55.678Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-IDMHQ-000247
     Lon: -115.5357153392328
     Lat: 42.8000383305576
     id: 127108
@@ -53345,33 +53411,33 @@ Database:
     Fire_Name: Pot Hole
     UniqueFireIdentifier: 2019-IDMHQ-000247
     DailyAcres: 25000
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-07T01:30Z'
+    ICS209ReportDateTimeEpoch: 1565141400000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 250000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 57
     FireDiscoveryDateTime: '2019-08-06T19:19Z'
     FireDiscoveryDateTimeEpoch: 1565119140000
     DispatchCenterID: IDSCC
     LocalIncidentIdentifier: '000247'
     POOCounty: Owyhee
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-06T23:26Z'
-    ModifiedOnDateTimeEpoch: 1565134006000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-08-07T01:30Z'
+    ModifiedOnDateTimeEpoch: 1565141400000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-IDMHQ-000247
-    ModifiedOnDateTime_Raw: '2019-08-06T23:26Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565134006000
+    ModifiedOnDateTime_Raw: '2019-08-07T02:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565144069000
     Hashtag: '#PotHoleFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -53383,8 +53449,8 @@ Database:
     unitMention: Mountain Home Air Force Base
     Final_Fire_Name: Pot Hole Fire
     _Update:
-      UpdateId: 'UPD-2019-08-06T23:26Z-PER-none-ID-2019-IDMHQ-000247-NAME-PotHole-S-N'
-      Code: e56cc09f7d326344390f6799786845929a14fd89f84a9937ffccec8ba4efd837
+      UpdateId: 'UPD-2019-08-07T01:30Z-PER-none-ID-2019-IDMHQ-000247-NAME-PotHole-S-N'
+      Code: 28727f170d40b35d139fb3b630675020c6810de94f34dc5a3386167121301122
   2019-COSJF-000577:
     Source_NFSA_Join:
       Lon: -107.43981053785674
