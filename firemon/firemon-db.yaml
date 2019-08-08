@@ -55193,38 +55193,38 @@ Database:
       Fire_Name: Cottonwood Creek
       UniqueFireIdentifier: 2019-NVWID-020253
       DailyAcres: 400
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-08T06:00Z'
+      ICS209ReportDateTimeEpoch: 1565244000000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 20000
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 60
       FireDiscoveryDateTime: '2019-08-08T00:51Z'
       FireDiscoveryDateTimeEpoch: 1565225460000
       DispatchCenterID: NVCNC
       LocalIncidentIdentifier: '020253'
       POOCounty: Washoe
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-08T05:34Z'
-      ModifiedOnDateTimeEpoch: 1565242460000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-08-08T06:00Z'
+      ModifiedOnDateTimeEpoch: 1565244000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NVWID-020253
-      ModifiedOnDateTime_Raw: '2019-08-08T05:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565242460000
+      ModifiedOnDateTime_Raw: '2019-08-08T06:08Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565244487000
       Hashtag: '#CottonwoodCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-08T06:01:37.414Z'
+          RetrievedOn: '2019-08-08T06:31:55.097Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -55232,6 +55232,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -119.34101308890894
+      Lat: 40.57575541949543
+      objectid: 51
+      latitude: 40.57575
+      longitude: -119.341
+      acres: 400
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NV
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-08-08T06:00Z'
+      reportdatetimeEpoch: 1565244000000
+      percentcontained: 0
+      uniquefireidentifier: 2019-NVWID-020253
+      firediscoverydatetime: '2019-08-08T00:51Z'
+      firediscoverydatetimeEpoch: 1565225460000
+      complexparentirwinid: null
+      pooresponsibleunit: NVWID
+      incidentname: Cottonwood Creek
+      iscomplex: 'false'
+      irwinid: '{7B4695BF-F46F-4E62-B99D-B09390573975}'
+      irwinmodifiedon: '2019-08-08T06:08Z'
+      irwinmodifiedonEpoch: 1565244487000
+      mapsymbol: '1'
+      datecurrent: '2019-08-08T00:30Z'
+      datecurrentEpoch: 1565224235000
+      pooownerunit: NVCCD
+      fireyear: 2019
+      localincidentidentifier: '020253'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 400
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-08T06:00Z'
+      ModifiedOnDateTimeEpoch: 1565244000000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-NVWID-020253
+      FireDiscoveryDateTime: '2019-08-08T00:51Z'
+      FireDiscoveryDateTimeEpoch: 1565225460000
+      Fire_Name: Cottonwood Creek
+      Name: Cottonwood Creek
+      Source: GEOMAC
+      Hashtag: '#CottonwoodCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-08T06:31:55.098Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NVWID-020253
     Lon: -119.34101481537445
     Lat: 40.575757833662294
     id: 127370
@@ -55239,33 +55305,33 @@ Database:
     Fire_Name: Cottonwood Creek
     UniqueFireIdentifier: 2019-NVWID-020253
     DailyAcres: 400
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-08T06:00Z'
+    ICS209ReportDateTimeEpoch: 1565244000000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 20000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 60
     FireDiscoveryDateTime: '2019-08-08T00:51Z'
     FireDiscoveryDateTimeEpoch: 1565225460000
     DispatchCenterID: NVCNC
     LocalIncidentIdentifier: '020253'
     POOCounty: Washoe
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-08T05:34Z'
-    ModifiedOnDateTimeEpoch: 1565242460000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-08-08T06:00Z'
+    ModifiedOnDateTimeEpoch: 1565244000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NVWID-020253
-    ModifiedOnDateTime_Raw: '2019-08-08T05:34Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565242460000
+    ModifiedOnDateTime_Raw: '2019-08-08T06:08Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565244487000
     Hashtag: '#CottonwoodCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -55278,8 +55344,8 @@ Database:
     Final_Fire_Name: Cottonwood Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-08T05:34Z-PER-none-ID-2019-NVWID-020253-NAME-CottonwoodCreek-S-N
-      Code: 7f71a72ce8d673f9c26d9bcec1210d34710980e32f73a889b80dd062eba5214d
+        UPD-2019-08-08T06:00Z-PER-none-ID-2019-NVWID-020253-NAME-CottonwoodCreek-S-N
+      Code: d39d3053f55cac1a302a0fc8ec60d2f6f54e6e0bf4ed80a8a6eec97842f36294
   2019-NVHTF-020248:
     Source_NFSA_Join:
       Lon: -117.81241457845815
