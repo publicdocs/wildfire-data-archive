@@ -58519,16 +58519,16 @@ Database:
       Name: Bunting
       Fire_Name: Bunting
       UniqueFireIdentifier: 2019-MTCMR-000134
-      DailyAcres: 1066
-      PercentContained: 0
+      DailyAcres: 1169
+      PercentContained: 40
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-10T23:00Z'
-      ICS209ReportDateTimeEpoch: 1565478000000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-08-11T20:45Z'
+      ICS209ReportDateTimeEpoch: 1565556300000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 85000
+      EstimatedCostToDate: 92000
       FireCause: Unknown
       TotalIncidentPersonnel: 20
       FireDiscoveryDateTime: '2019-08-10T15:46Z'
@@ -58537,21 +58537,21 @@ Database:
       LocalIncidentIdentifier: '000134'
       POOCounty: Petroleum
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-10T23:00Z'
-      ModifiedOnDateTimeEpoch: 1565478000000
+      ModifiedOnDateTime: '2019-08-11T20:45Z'
+      ModifiedOnDateTimeEpoch: 1565556300000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-MTCMR-000134
-      ModifiedOnDateTime_Raw: '2019-08-10T23:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565479616000
+      ModifiedOnDateTime_Raw: '2019-08-11T20:53Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565556816000
       Hashtag: '#BuntingFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-10T23:30:12.029Z'
+          RetrievedOn: '2019-08-11T21:00:19.874Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -58559,22 +58559,88 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -108.00442004571603
+      Lat: 47.557195090454414
+      objectid: 41
+      latitude: 47.557188
+      longitude: -108.004408
+      acres: 1066
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-10T23:00Z'
+      reportdatetimeEpoch: 1565478000000
+      percentcontained: 0
+      uniquefireidentifier: 2019-MTCMR-000134
+      firediscoverydatetime: '2019-08-10T15:46Z'
+      firediscoverydatetimeEpoch: 1565451960000
+      complexparentirwinid: null
+      pooresponsibleunit: MTCMR
+      incidentname: Bunting
+      iscomplex: 'false'
+      irwinid: '{5FE21DAF-EDC3-4D6D-9ECA-2A4F9BB5A440}'
+      irwinmodifiedon: '2019-08-11T20:28Z'
+      irwinmodifiedonEpoch: 1565555300000
+      mapsymbol: '1'
+      datecurrent: '2019-08-11T14:30Z'
+      datecurrentEpoch: 1565533840000
+      pooownerunit: MTLED
+      fireyear: 2019
+      localincidentidentifier: '000134'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1066
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-10T23:00Z'
+      ModifiedOnDateTimeEpoch: 1565478000000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-MTCMR-000134
+      FireDiscoveryDateTime: '2019-08-10T15:46Z'
+      FireDiscoveryDateTimeEpoch: 1565451960000
+      Fire_Name: Bunting
+      Name: Bunting
+      Source: GEOMAC
+      Hashtag: '#BuntingFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-11T21:00:19.875Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTCMR-000134
     Lon: -108.00441966023155
     Lat: 47.55719809696996
     id: 127974
     Name: Bunting
     Fire_Name: Bunting
     UniqueFireIdentifier: 2019-MTCMR-000134
-    DailyAcres: 1066
-    PercentContained: 0
+    DailyAcres: 1169
+    PercentContained: 40
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-10T23:00Z'
-    ICS209ReportDateTimeEpoch: 1565478000000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-08-11T20:45Z'
+    ICS209ReportDateTimeEpoch: 1565556300000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 85000
+    EstimatedCostToDate: 92000
     FireCause: Unknown
     TotalIncidentPersonnel: 20
     FireDiscoveryDateTime: '2019-08-10T15:46Z'
@@ -58583,16 +58649,16 @@ Database:
     LocalIncidentIdentifier: '000134'
     POOCounty: Petroleum
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-10T23:00Z'
-    ModifiedOnDateTimeEpoch: 1565478000000
+    ModifiedOnDateTime: '2019-08-11T20:45Z'
+    ModifiedOnDateTimeEpoch: 1565556300000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-MTCMR-000134
-    ModifiedOnDateTime_Raw: '2019-08-10T23:26Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565479616000
+    ModifiedOnDateTime_Raw: '2019-08-11T20:53Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565556816000
     Hashtag: '#BuntingFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -58604,8 +58670,8 @@ Database:
     unitMention: Charles M. Russell NWR
     Final_Fire_Name: Bunting Fire
     _Update:
-      UpdateId: 'UPD-2019-08-10T23:00Z-PER-none-ID-2019-MTCMR-000134-NAME-Bunting-S-N'
-      Code: 4d2f068e1a89b91536db6a27126938435bbf08ef98aa7802dfcc2db97c1d3bd6
+      UpdateId: 'UPD-2019-08-11T20:45Z-PER-none-ID-2019-MTCMR-000134-NAME-Bunting-S-N'
+      Code: fe3e9c3d47c1b3a1ecf526c4b84371cd5f1aedc84326462e049de1432328a1e7
   2019-UTTDAQ-000547:
     Source_NFSA_Join:
       Lon: -112.83561315714338
