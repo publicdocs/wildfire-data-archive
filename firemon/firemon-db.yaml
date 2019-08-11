@@ -19547,7 +19547,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-10T03:31:08.341Z'
+          RetrievedOn: '2019-08-11T03:00:38.095Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -19558,7 +19558,7 @@ Database:
     Source_GEOMAC:
       Lon: -146.2811364674722
       Lat: 64.14500206383899
-      objectid: 8
+      objectid: 7
       latitude: 64.145
       longitude: -146.2811111
       acres: 19757
@@ -19567,9 +19567,9 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-10T02:15Z'
-      reportdatetimeEpoch: 1565403300000
-      percentcontained: 45
+      reportdatetime: '2019-08-11T02:00Z'
+      reportdatetimeEpoch: 1565488800000
+      percentcontained: 60
       uniquefireidentifier: 2019-AKDAS-912409
       firediscoverydatetime: '2019-06-30T01:03Z'
       firediscoverydatetimeEpoch: 1561856588000
@@ -19578,11 +19578,11 @@ Database:
       incidentname: Rainbow 2
       iscomplex: 'false'
       irwinid: '{F1767CC6-66F7-40E6-AFBD-3C4A2AC1E1CE}'
-      irwinmodifiedon: '2019-08-10T03:01Z'
-      irwinmodifiedonEpoch: 1565406097000
+      irwinmodifiedon: '2019-08-11T02:51Z'
+      irwinmodifiedonEpoch: 1565491891000
       mapsymbol: '2'
-      datecurrent: '2019-08-09T21:30Z'
-      datecurrentEpoch: 1565386257000
+      datecurrent: '2019-08-10T21:00Z'
+      datecurrentEpoch: 1565470837000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '912409'
@@ -19592,9 +19592,9 @@ Database:
       complexname: null
       DailyAcres: 19757
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-10T02:15Z'
-      ModifiedOnDateTimeEpoch: 1565403300000
-      PercentContained: 45
+      ModifiedOnDateTime: '2019-08-11T02:00Z'
+      ModifiedOnDateTimeEpoch: 1565488800000
+      PercentContained: 60
       UniqueFireIdentifier: 2019-AKDAS-912409
       FireDiscoveryDateTime: '2019-06-30T01:03Z'
       FireDiscoveryDateTimeEpoch: 1561856588000
@@ -19604,7 +19604,7 @@ Database:
       Hashtag: '#Rainbow2Fire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-10T03:31:08.342Z'
+          RetrievedOn: '2019-08-11T03:00:38.096Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -19621,49 +19621,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKDAS-912409
-    Lon: -146.28123865783934
-    Lat: 64.14490121864485
-    id: 120747
-    Name: Rainbow 2
-    Fire_Name: Rainbow 2
-    UniqueFireIdentifier: 2019-AKDAS-912409
+    Lon: -146.2811364674722
+    Lat: 64.14500206383899
+    objectid: 7
+    latitude: 64.145
+    longitude: -146.2811111
+    acres: 19757
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-08-11T02:00Z'
+    reportdatetimeEpoch: 1565488800000
+    percentcontained: 60
+    uniquefireidentifier: 2019-AKDAS-912409
+    firediscoverydatetime: '2019-06-30T01:03Z'
+    firediscoverydatetimeEpoch: 1561856588000
+    complexparentirwinid: null
+    pooresponsibleunit: AKDAS
+    incidentname: Rainbow 2
+    iscomplex: 'false'
+    irwinid: '{F1767CC6-66F7-40E6-AFBD-3C4A2AC1E1CE}'
+    irwinmodifiedon: '2019-08-11T02:51Z'
+    irwinmodifiedonEpoch: 1565491891000
+    mapsymbol: '2'
+    datecurrent: '2019-08-10T21:00Z'
+    datecurrentEpoch: 1565470837000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '912409'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 19757
-    PercentContained: 45
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-10T02:15Z'
-    ICS209ReportDateTimeEpoch: 1565403300000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3180000
     FireCause: Natural
-    TotalIncidentPersonnel: 68
+    ModifiedOnDateTime: '2019-08-11T02:00Z'
+    ModifiedOnDateTimeEpoch: 1565488800000
+    PercentContained: 60
+    UniqueFireIdentifier: 2019-AKDAS-912409
     FireDiscoveryDateTime: '2019-06-30T01:03Z'
     FireDiscoveryDateTimeEpoch: 1561856588000
-    DispatchCenterID: AKDASC
-    LocalIncidentIdentifier: '912409'
-    POOCounty: Southeast Fairbanks
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-08-10T02:15Z'
-    ModifiedOnDateTimeEpoch: 1565403300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Rainbow 2
+    Name: Rainbow 2
+    Source: GEOMAC
+    Hashtag: '#Rainbow2Fire'
     _CorrelationIds:
       - 2019-AKDAS-912409
-    ModifiedOnDateTime_Raw: '2019-08-10T03:01Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565406096000
-    Hashtag: '#Rainbow2Fire'
-    NFSAType: Large WF
     PerimDateTime: '2019-07-29T16:37Z'
     PerimeterData:
       DateTime: '2019-07-29T16:37Z'
       Acres: 18452.455657
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-10T03:31:12.443Z'
+          RetrievedOn: '2019-08-11T03:00:45.396Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -19684,8 +19696,8 @@ Database:
     Final_Fire_Name: Rainbow 2 Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-10T02:15Z-PER-2019-07-29T16:37Z-ID-2019-AKDAS-912409-NAME-Rainbow2-S-N
-      Code: f035cc551b0d6e3c662b212ed0e2336e5eafd65a97704d8b97b34e60419bbcac
+        UPD-2019-08-11T02:00Z-PER-2019-07-29T16:37Z-ID-2019-AKDAS-912409-NAME-Rainbow2-S-G
+      Code: ae60188cc830e4dc57b7382db14417804ce360ec2aa23dbc73e019bad1e5efa5
   CALFIRE-f32eaf92-82dc-4c31-8a05-76c21845f078:
     Source_CALFIRE:
       Lon: -120.8092
