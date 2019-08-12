@@ -35763,185 +35763,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-11T21:00Z-PER-2019-08-08T05:17Z-ID-2019-MTLNF-001232-NAME-Beeskove-S-N
       Code: a9251f3d179e08dbce2caba8f72c1b300932f3e449504a4874813589a3683589
-  2019-AZFTA-000489:
-    Source_NFSA_Join:
-      Lon: -110.5094077626102
-      Lat: 34.20627898728425
-      id: 122200
-      Name: White Springs
-      Fire_Name: White Springs
-      UniqueFireIdentifier: 2019-AZFTA-000489
-      DailyAcres: 5000
-      PercentContained: 50
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-02T00:00Z'
-      ICS209ReportDateTimeEpoch: 1564704000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 500000
-      FireCause: Natural
-      TotalIncidentPersonnel: 2
-      FireDiscoveryDateTime: '2019-07-08T16:39Z'
-      FireDiscoveryDateTimeEpoch: 1562603940000
-      DispatchCenterID: AZSDC
-      LocalIncidentIdentifier: 000489
-      POOCounty: Navajo
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-02T00:00Z'
-      ModifiedOnDateTimeEpoch: 1564704000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AZFTA-000489
-      ModifiedOnDateTime_Raw: '2019-08-02T00:15Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564704910000
-      Hashtag: '#WhiteSpringsFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-02T00:31:03.895Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -110.50917746534071
-      Lat: 34.206394205126976
-      objectid: 14
-      latitude: 34.2063889
-      longitude: -110.5091667
-      acres: 5000
-      gacc: SWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AZ
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-08-02T00:00Z'
-      reportdatetimeEpoch: 1564704000000
-      percentcontained: 50
-      uniquefireidentifier: 2019-AZFTA-000489
-      firediscoverydatetime: '2019-07-08T16:39Z'
-      firediscoverydatetimeEpoch: 1562603940000
-      complexparentirwinid: null
-      pooresponsibleunit: AZFTA
-      incidentname: White Springs
-      iscomplex: 'false'
-      irwinid: '{19B6F261-215E-4D6C-B62B-DA836C097B86}'
-      irwinmodifiedon: '2019-08-02T00:15Z'
-      irwinmodifiedonEpoch: 1564704910000
-      mapsymbol: '1'
-      datecurrent: '2019-08-01T18:30Z'
-      datecurrentEpoch: 1564684238000
-      pooownerunit: AZFTA
-      fireyear: 2019
-      localincidentidentifier: 000489
-      incidenttypecategory: WF
-      owneragency: BIA
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 5000
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-08-02T00:00Z'
-      ModifiedOnDateTimeEpoch: 1564704000000
-      PercentContained: 50
-      UniqueFireIdentifier: 2019-AZFTA-000489
-      FireDiscoveryDateTime: '2019-07-08T16:39Z'
-      FireDiscoveryDateTimeEpoch: 1562603940000
-      Fire_Name: White Springs
-      Name: White Springs
-      Source: GEOMAC
-      Hashtag: '#WhiteSpringsFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-02T00:31:03.896Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AZFTA-000489
-    Lon: -110.5094077626102
-    Lat: 34.20627898728425
-    id: 122200
-    Name: White Springs
-    Fire_Name: White Springs
-    UniqueFireIdentifier: 2019-AZFTA-000489
-    DailyAcres: 5000
-    PercentContained: 50
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-02T00:00Z'
-    ICS209ReportDateTimeEpoch: 1564704000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 500000
-    FireCause: Natural
-    TotalIncidentPersonnel: 2
-    FireDiscoveryDateTime: '2019-07-08T16:39Z'
-    FireDiscoveryDateTimeEpoch: 1562603940000
-    DispatchCenterID: AZSDC
-    LocalIncidentIdentifier: 000489
-    POOCounty: Navajo
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-02T00:00Z'
-    ModifiedOnDateTimeEpoch: 1564704000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AZFTA-000489
-    ModifiedOnDateTime_Raw: '2019-08-02T00:15Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564704910000
-    Hashtag: '#WhiteSpringsFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-18T18:00Z'
-    PerimeterData:
-      DateTime: '2019-07-18T18:00Z'
-      Acres: 2519.02421632
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-02T00:31:09.884Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AZFTA
-    unitMention: Fort Apache Agency
-    Final_Fire_Name: White Springs Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-02T00:00Z-PER-2019-07-18T18:00Z-ID-2019-AZFTA-000489-NAME-WhiteSprings-S-N
-      Code: b7c34813797604efd66781e314c819636eddd6f2cf98f6134f2e431d68ee5c7b
   2019-AKSWS-904528:
     Source_NFSA_Join:
       Lon: -156.7012827285951
@@ -59129,3 +58950,98 @@ Database:
       UpdateId: >-
         UPD-2019-08-12T19:33Z-PER-2019-08-12T09:22Z-ID-CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce-NAME--S-C
       Code: 16220f3a5be19dbae0b577471d0a92823b5dfa4d49ea2e3f27a84e0391317804
+  2019-FLLXR-000492:
+    Source_NFSA_Join:
+      Lon: -80.43069489625272
+      Lat: 26.585618789455822
+      id: 128509
+      Name: West 7.6
+      Fire_Name: West 7.6
+      UniqueFireIdentifier: 2019-FLLXR-000492
+      DailyAcres: 1025
+      PercentContained: 90
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-12T19:30Z'
+      ICS209ReportDateTimeEpoch: 1565638200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 15000
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-08-11T00:00Z'
+      FireDiscoveryDateTimeEpoch: 1565481600000
+      DispatchCenterID: FLFIC
+      LocalIncidentIdentifier: 000492
+      POOCounty: Palm Beach
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-12T19:30Z'
+      ModifiedOnDateTimeEpoch: 1565638200000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-FLLXR-000492
+      ModifiedOnDateTime_Raw: '2019-08-12T20:10Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565640616000
+      Hashtag: '#West76Fire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-12T20:30:24.507Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -80.43069489625272
+    Lat: 26.585618789455822
+    id: 128509
+    Name: West 7.6
+    Fire_Name: West 7.6
+    UniqueFireIdentifier: 2019-FLLXR-000492
+    DailyAcres: 1025
+    PercentContained: 90
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-12T19:30Z'
+    ICS209ReportDateTimeEpoch: 1565638200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 15000
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-08-11T00:00Z'
+    FireDiscoveryDateTimeEpoch: 1565481600000
+    DispatchCenterID: FLFIC
+    LocalIncidentIdentifier: 000492
+    POOCounty: Palm Beach
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-12T19:30Z'
+    ModifiedOnDateTimeEpoch: 1565638200000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-FLLXR-000492
+    ModifiedOnDateTime_Raw: '2019-08-12T20:10Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565640616000
+    Hashtag: '#West76Fire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: FLLXR
+    unitMention: Arthur R. Marshall/Loxahatchee NWR
+    Final_Fire_Name: West 7 6 Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-12T19:30Z-PER-none-ID-2019-FLLXR-000492-NAME-West76-S-N'
+      Code: 6c43cce1f5450cda1d1bed65fb6b172ecdc35e08313a19c7f74b1f6150cd4061
