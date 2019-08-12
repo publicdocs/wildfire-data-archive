@@ -40799,119 +40799,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-08T21:00Z-PER-2019-07-29T20:00Z-ID-2019-COGMF-000139-NAME-RoundMountain-S-N
       Code: db836f7335d9d9c587b3dd04dea9463d68a8f802971433cff079ba8064d67f30
-  2019-IDCTF-000100:
-    Source_NFSA_Join:
-      Lon: -111.28741168072759
-      Lat: 43.003817976786145
-      id: 125827
-      Name: Tincup
-      Fire_Name: Tincup
-      UniqueFireIdentifier: 2019-IDCTF-000100
-      DailyAcres: 2
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-08-08T22:00Z'
-      ICS209ReportDateTimeEpoch: 1565301600000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 18000
-      FireCause: Natural
-      TotalIncidentPersonnel: 6
-      FireDiscoveryDateTime: '2019-07-30T18:38Z'
-      FireDiscoveryDateTimeEpoch: 1564511899000
-      DispatchCenterID: IDEIC
-      LocalIncidentIdentifier: '000100'
-      POOCounty: Caribou
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-08T22:00Z'
-      ModifiedOnDateTimeEpoch: 1565301600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-IDCTF-000100
-      ModifiedOnDateTime_Raw: '2019-08-08T22:19Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565302787000
-      Hashtag: '#TincupFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-08T22:30:44.898Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -111.28741168072759
-    Lat: 43.003817976786145
-    id: 125827
-    Name: Tincup
-    Fire_Name: Tincup
-    UniqueFireIdentifier: 2019-IDCTF-000100
-    DailyAcres: 2
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-08-08T22:00Z'
-    ICS209ReportDateTimeEpoch: 1565301600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 18000
-    FireCause: Natural
-    TotalIncidentPersonnel: 6
-    FireDiscoveryDateTime: '2019-07-30T18:38Z'
-    FireDiscoveryDateTimeEpoch: 1564511899000
-    DispatchCenterID: IDEIC
-    LocalIncidentIdentifier: '000100'
-    POOCounty: Caribou
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-08T22:00Z'
-    ModifiedOnDateTimeEpoch: 1565301600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-IDCTF-000100
-    ModifiedOnDateTime_Raw: '2019-08-08T22:19Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565302787000
-    Hashtag: '#TincupFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-08T00:00Z'
-    PerimeterData:
-      DateTime: '2019-08-08T00:00Z'
-      Acres: 2.47592194
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-09T17:40:44.525Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: IDCTF
-    unitMention: Caribou-Targhee NF
-    Final_Fire_Name: Tincup Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-08T22:00Z-PER-2019-08-08T00:00Z-ID-2019-IDCTF-000100-NAME-Tincup-S-N
-      Code: 40c5f336b50251d0c8258c45c5f08758a1deea1ee71dd0efb9fd2e98e93a487c
   2019-AKMID-000471:
     Source_NFSA_Join:
       Lon: -147.3532252358377
@@ -57293,17 +57180,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1565556816000
     Hashtag: '#BuntingFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-08-11T00:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-08-11T00:00Z'
+      Acres: 914.11400139
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-12T20:23:39.016Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: MTCMR
     unitMention: Charles M. Russell NWR
     Final_Fire_Name: Bunting Fire
     _Update:
-      UpdateId: 'UPD-2019-08-11T20:45Z-PER-none-ID-2019-MTCMR-000134-NAME-Bunting-S-N'
-      Code: fe3e9c3d47c1b3a1ecf526c4b84371cd5f1aedc84326462e049de1432328a1e7
+      UpdateId: >-
+        UPD-2019-08-11T20:45Z-PER-2019-08-11T00:00Z-ID-2019-MTCMR-000134-NAME-Bunting-S-N
+      Code: dca55a726b44a5f6d24642df70440166353650ca87d9c06758df75ecc338db08
   2019-UTTDAQ-000547:
     Source_NFSA_Join:
       Lon: -112.83561315714338
@@ -57644,17 +57549,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1565564383000
     Hashtag: '#SageFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-08-11T00:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-08-11T00:00Z'
+      Acres: 3403.25288083
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-12T20:23:39.016Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: MTCMR
     unitMention: Charles M. Russell NWR
     Final_Fire_Name: Sage Fire
     _Update:
-      UpdateId: 'UPD-2019-08-11T22:15Z-PER-none-ID-2019-MTCMR-000130-NAME-Sage-S-N'
-      Code: 87525a14c555d4fbdc6466c74883812adb9153fc61c6664b0de2314d0dc3e72a
+      UpdateId: >-
+        UPD-2019-08-11T22:15Z-PER-2019-08-11T00:00Z-ID-2019-MTCMR-000130-NAME-Sage-S-N
+      Code: 7d9e88ef4597344092d9c5cb8251dd86e8d39e8bd5f2ef12a080f9115cfef76c
   CALFIRE-f044a406-06ab-457d-8a93-c52bb1930604:
     Source_CALFIRE:
       Lon: -121.423281
