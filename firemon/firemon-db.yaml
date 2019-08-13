@@ -59992,3 +59992,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-13T19:00Z-PER-none-ID-2019-AZKNF-000653-NAME-BOULIN-S-N'
       Code: 436885b703788719e2ee30e78513ab7d8a9cb378bb6d68e6229c691228784faa
+  2019-AZASD-000462:
+    Source_NFSA_Join:
+      Lon: -113.11981316358026
+      Lat: 36.420978116309584
+      id: 126984
+      Name: Trumbull
+      Fire_Name: Trumbull
+      UniqueFireIdentifier: 2019-AZASD-000462
+      DailyAcres: 262
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-13T21:00Z'
+      ICS209ReportDateTimeEpoch: 1565730000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 50000
+      FireCause: Natural
+      TotalIncidentPersonnel: 29
+      FireDiscoveryDateTime: '2019-08-05T22:57Z'
+      FireDiscoveryDateTimeEpoch: 1565045820000
+      DispatchCenterID: UTCDC
+      LocalIncidentIdentifier: '000462'
+      POOCounty: Mohave
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-13T21:00Z'
+      ModifiedOnDateTimeEpoch: 1565730000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-AZASD-000462
+      ModifiedOnDateTime_Raw: '2019-08-13T21:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565730883000
+      Hashtag: '#TrumbullFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-13T21:32:08.836Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -113.11981316358026
+    Lat: 36.420978116309584
+    id: 126984
+    Name: Trumbull
+    Fire_Name: Trumbull
+    UniqueFireIdentifier: 2019-AZASD-000462
+    DailyAcres: 262
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-13T21:00Z'
+    ICS209ReportDateTimeEpoch: 1565730000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 50000
+    FireCause: Natural
+    TotalIncidentPersonnel: 29
+    FireDiscoveryDateTime: '2019-08-05T22:57Z'
+    FireDiscoveryDateTimeEpoch: 1565045820000
+    DispatchCenterID: UTCDC
+    LocalIncidentIdentifier: '000462'
+    POOCounty: Mohave
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-13T21:00Z'
+    ModifiedOnDateTimeEpoch: 1565730000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-AZASD-000462
+    ModifiedOnDateTime_Raw: '2019-08-13T21:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565730883000
+    Hashtag: '#TrumbullFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-12T18:21Z'
+    PerimeterData:
+      DateTime: '2019-08-12T18:21Z'
+      Acres: 108.06952627
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-13T21:32:18.010Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: AZASD
+    unitMention: Arizona Strip Field Office
+    Final_Fire_Name: Trumbull Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-13T21:00Z-PER-2019-08-12T18:21Z-ID-2019-AZASD-000462-NAME-Trumbull-S-N
+      Code: c86a163c100977c39dca5e34fea763aae56643cc66eb60a9705792c059bc9df3
