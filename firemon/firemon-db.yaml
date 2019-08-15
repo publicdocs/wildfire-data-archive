@@ -60793,14 +60793,14 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-14T23:36Z-PER-none-ID-2019-CAFHL-001853-NAME-Demo-S-N'
       Code: a788c5c9fd9e3e223e27faa8f5c3348cf6b2674a7c0ad882c46ce8deeb8f7d31
-  2019-CAMEU-009819:
+  CALFIRE-c8f94c30-d0ee-450a-8501-30678aa37c0f:
     Source_CALFIRE:
       Lon: -123.195306
       Lat: 39.005262
       incident_name: Moose Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-08-15T01:37Z'
-      incident_date_last_updateEpoch: 1565833036000
+      incident_date_last_update: '2019-08-15T13:46Z'
+      incident_date_last_updateEpoch: 1565876792000
       incident_date_created: '2019-08-13T00:10Z'
       incident_date_createdEpoch: 1565655000000
       incident_administrative_unit: CAL FIRE Mendocino Unit
@@ -60808,10 +60808,8 @@ Database:
       incident_county: Mendocino
       incident_location: Off Moose Rd & Bus McGall Rd northwest of Hopland
       incident_acres_burned: 225
-      incident_containment: 65
-      incident_control: >-
-        Fire resources have made steady progress and will continue to work until
-        the fire is completely extinguished.
+      incident_containment: 75
+      incident_control: Crews continue with mop up operations to establish full containment
       incident_cooperating_agencies: >-
         Hopland Fire, Mendocino County Sheriffs Department (Evacuation
         Information)
@@ -60825,10 +60823,10 @@ Database:
       incident_dateonly_created: '2019-08-12'
       is_active: 'Y'
       Fire_Name: Moose Fire
-      ModifiedOnDateTime: '2019-08-15T01:37Z'
-      ModifiedOnDateTimeEpoch: 1565833036000
+      ModifiedOnDateTime: '2019-08-15T13:46Z'
+      ModifiedOnDateTimeEpoch: 1565876792000
       DailyAcres: 225
-      PercentContained: 65
+      PercentContained: 75
       UniqueFireIdentifier: CALFIRE-c8f94c30-d0ee-450a-8501-30678aa37c0f
       Name: Moose Fire
       Source: CALFIRE
@@ -60838,7 +60836,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=c8f94c30-d0ee-450a-8501-30678aa37c0f
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-15T13:00:55.685Z'
+          RetrievedOn: '2019-08-15T13:46:48.966Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -60887,7 +60885,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-15T13:00:55.682Z'
+          RetrievedOn: '2019-08-15T13:46:48.964Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -60895,51 +60893,57 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -123.20434545887022
-    Lat: 38.99764329198361
-    id: 128604
-    Name: MOOSE
-    Fire_Name: MOOSE
-    UniqueFireIdentifier: 2019-CAMEU-009819
+    Lon: -123.195306
+    Lat: 39.005262
+    incident_name: Moose Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-08-15T13:46Z'
+    incident_date_last_updateEpoch: 1565876792000
+    incident_date_created: '2019-08-13T00:10Z'
+    incident_date_createdEpoch: 1565655000000
+    incident_administrative_unit: CAL FIRE Mendocino Unit
+    incident_administrative_unit_url: ''
+    incident_county: Mendocino
+    incident_location: Off Moose Rd & Bus McGall Rd northwest of Hopland
+    incident_acres_burned: 225
+    incident_containment: 75
+    incident_control: Crews continue with mop up operations to establish full containment
+    incident_cooperating_agencies: >-
+      Hopland Fire, Mendocino County Sheriffs Department (Evacuation
+      Information)
+    incident_longitude: -123.195306
+    incident_latitude: 39.005262
+    incident_type: Wildfire
+    incident_id: c8f94c30-d0ee-450a-8501-30678aa37c0f
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/12/moose-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-08-12'
+    is_active: 'Y'
+    Fire_Name: Moose Fire
+    ModifiedOnDateTime: '2019-08-15T13:46Z'
+    ModifiedOnDateTimeEpoch: 1565876792000
     DailyAcres: 225
     PercentContained: 75
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-15T12:45Z'
-    ICS209ReportDateTimeEpoch: 1565873100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2550000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 446
-    FireDiscoveryDateTime: '2019-08-13T00:10Z'
-    FireDiscoveryDateTimeEpoch: 1565655046000
-    DispatchCenterID: CAMECC
-    LocalIncidentIdentifier: 009819
-    POOCounty: Mendocino
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-15T12:45Z'
-    ModifiedOnDateTimeEpoch: 1565873100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-c8f94c30-d0ee-450a-8501-30678aa37c0f
+    Name: Moose Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#MooseFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=c8f94c30-d0ee-450a-8501-30678aa37c0f
     _CorrelationIds:
       - 2019-CAMEU-009819
       - CALFIRE-c8f94c30-d0ee-450a-8501-30678aa37c0f
-    ModifiedOnDateTime_Raw: '2019-08-15T12:53Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565873624000
-    Hashtag: '#MooseFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CAMEU
-    unitMention: Mendocino Unit
+    unitId: c8f94c30
+    unitMention: null
     Final_Fire_Name: Moose Fire
     _Update:
-      UpdateId: 'UPD-2019-08-15T12:45Z-PER-none-ID-2019-CAMEU-009819-NAME-MOOSE-S-N'
-      Code: e12716b40cdf8c0574ea4258be3690004007ee719c84050be1ebbd0673c86a73
+      UpdateId: >-
+        UPD-2019-08-15T13:46Z-PER-none-ID-CALFIRE-c8f94c30-d0ee-450a-8501-30678aa37c0f-NAME-MooseFire-S-C
+      Code: b336ce081e45ce4243d95c6a21016b7e6a176b90ea1adb7a57cf1d74ece976dd
