@@ -26970,12 +26970,12 @@ Database:
       PercentContained: 90
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-13T22:15Z'
-      ICS209ReportDateTimeEpoch: 1565734500000
+      ICS209ReportDateTime: '2019-08-14T23:00Z'
+      ICS209ReportDateTimeEpoch: 1565823600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 2583079
+      EstimatedCostToDate: 2601774
       FireCause: Natural
       TotalIncidentPersonnel: 5
       FireDiscoveryDateTime: '2019-07-16T23:21Z'
@@ -26984,21 +26984,21 @@ Database:
       LocalIncidentIdentifier: 009115
       POOCounty: San Juan
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-13T22:15Z'
-      ModifiedOnDateTimeEpoch: 1565734500000
+      ModifiedOnDateTime: '2019-08-14T23:00Z'
+      ModifiedOnDateTimeEpoch: 1565823600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTMLF-009115
-      ModifiedOnDateTime_Raw: '2019-08-13T22:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565735721000
+      ModifiedOnDateTime_Raw: '2019-08-15T01:49Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565833775000
       Hashtag: '#PeavineCanyonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-13T23:01:23.513Z'
+          RetrievedOn: '2019-08-15T02:03:32.676Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -27006,52 +27006,59 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -109.85641339943088
-    Lat: 37.72470836640566
-    id: 123507
-    Name: Peavine Canyon
-    Fire_Name: Peavine Canyon
-    UniqueFireIdentifier: 2019-UTMLF-009115
-    DailyAcres: 3904
-    PercentContained: 90
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-13T22:15Z'
-    ICS209ReportDateTimeEpoch: 1565734500000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2583079
-    FireCause: Natural
-    TotalIncidentPersonnel: 5
-    FireDiscoveryDateTime: '2019-07-16T23:21Z'
-    FireDiscoveryDateTimeEpoch: 1563319260000
-    DispatchCenterID: UTMFC
-    LocalIncidentIdentifier: 009115
-    POOCounty: San Juan
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-13T22:15Z'
-    ModifiedOnDateTimeEpoch: 1565734500000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-UTMLF-009115
-    ModifiedOnDateTime_Raw: '2019-08-13T22:35Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565735721000
-    Hashtag: '#PeavineCanyonFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-08T17:48Z'
-    PerimeterData:
-      DateTime: '2019-08-08T17:48Z'
-      Acres: 3846.79129022
+    Source_GEOMAC:
+      Lon: -109.85711095400997
+      Lat: 37.72320581807666
+      objectid: 5
+      latitude: 37.7232
+      longitude: -109.8571
+      acres: 3904
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: UT
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-08-14T23:00Z'
+      reportdatetimeEpoch: 1565823600000
+      percentcontained: 90
+      uniquefireidentifier: 2019-UTMLF-009115
+      firediscoverydatetime: '2019-07-16T23:21Z'
+      firediscoverydatetimeEpoch: 1563319260000
+      complexparentirwinid: null
+      pooresponsibleunit: UTMLF
+      incidentname: Peavine Canyon
+      iscomplex: 'false'
+      irwinid: '{DF4A3D1F-A673-4782-86D8-E48612B8A491}'
+      irwinmodifiedon: '2019-08-15T01:49Z'
+      irwinmodifiedonEpoch: 1565833775000
+      mapsymbol: '1'
+      datecurrent: '2019-08-14T20:00Z'
+      datecurrentEpoch: 1565812840000
+      pooownerunit: USTMLF
+      fireyear: 2019
+      localincidentidentifier: 009115
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 3904
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-14T23:00Z'
+      ModifiedOnDateTimeEpoch: 1565823600000
+      PercentContained: 90
+      UniqueFireIdentifier: 2019-UTMLF-009115
+      FireDiscoveryDateTime: '2019-07-16T23:21Z'
+      FireDiscoveryDateTimeEpoch: 1563319260000
+      Fire_Name: Peavine Canyon
+      Name: Peavine Canyon
+      Source: GEOMAC
+      Hashtag: '#PeavineCanyonFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-13T23:01:28.220Z'
+          RetrievedOn: '2019-08-15T02:03:32.677Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -27063,14 +27070,73 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '2'
+      _CorrelationIds:
+        - 2019-UTMLF-009115
+    Lon: -109.85641339943088
+    Lat: 37.72470836640566
+    id: 123507
+    Name: Peavine Canyon
+    Fire_Name: Peavine Canyon
+    UniqueFireIdentifier: 2019-UTMLF-009115
+    DailyAcres: 3904
+    PercentContained: 90
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-08-14T23:00Z'
+    ICS209ReportDateTimeEpoch: 1565823600000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 2601774
+    FireCause: Natural
+    TotalIncidentPersonnel: 5
+    FireDiscoveryDateTime: '2019-07-16T23:21Z'
+    FireDiscoveryDateTimeEpoch: 1563319260000
+    DispatchCenterID: UTMFC
+    LocalIncidentIdentifier: 009115
+    POOCounty: San Juan
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-14T23:00Z'
+    ModifiedOnDateTimeEpoch: 1565823600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-UTMLF-009115
+    ModifiedOnDateTime_Raw: '2019-08-15T01:49Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565833775000
+    Hashtag: '#PeavineCanyonFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-08T17:48Z'
+    PerimeterData:
+      DateTime: '2019-08-08T17:48Z'
+      Acres: 3846.79129022
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-15T02:03:42.332Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: UTMLF
     unitMention: Manti-Lasal NF
     Final_Fire_Name: Peavine Canyon Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-13T22:15Z-PER-2019-08-08T17:48Z-ID-2019-UTMLF-009115-NAME-PeavineCanyon-S-N
-      Code: c19734714b1ac1ebb6b1c5e63801deab4718f2ba0c0419f9c76a323bc6ac4e3a
+        UPD-2019-08-14T23:00Z-PER-2019-08-08T17:48Z-ID-2019-UTMLF-009115-NAME-PeavineCanyon-S-N
+      Code: 223d98d2be1ff583e42e49b5b6187e890da3e2156474fa269f30610d2192ff3f
   2019-WAMCR-000282:
     Source_NFSA_Join:
       Lon: -119.94911138065348
@@ -31038,38 +31104,38 @@ Database:
       Fire_Name: CASTLE
       UniqueFireIdentifier: 2019-AZKNF-000499
       DailyAcres: 19368
-      PercentContained: 95
+      PercentContained: 96
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-14T01:30Z'
-      ICS209ReportDateTimeEpoch: 1565746200000
+      ICS209ReportDateTime: '2019-08-15T01:30Z'
+      ICS209ReportDateTimeEpoch: 1565832600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 4385000
+      EstimatedCostToDate: 4525000
       FireCause: Natural
-      TotalIncidentPersonnel: 86
+      TotalIncidentPersonnel: 72
       FireDiscoveryDateTime: '2019-07-12T21:36Z'
       FireDiscoveryDateTimeEpoch: 1562967360000
       DispatchCenterID: AZWDC
       LocalIncidentIdentifier: 000499
       POOCounty: Coconino
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-14T01:30Z'
-      ModifiedOnDateTimeEpoch: 1565746200000
+      ModifiedOnDateTime: '2019-08-15T01:30Z'
+      ModifiedOnDateTimeEpoch: 1565832600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZKNF-000499
-      ModifiedOnDateTime_Raw: '2019-08-14T01:43Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565747019000
+      ModifiedOnDateTime_Raw: '2019-08-15T01:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565833705000
       Hashtag: '#CastleFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-14T02:02:05.446Z'
+          RetrievedOn: '2019-08-15T02:03:32.676Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -31080,7 +31146,7 @@ Database:
     Source_GEOMAC:
       Lon: -112.22811131308573
       Lat: 36.531165511820724
-      objectid: 9
+      objectid: 3
       latitude: 36.53116
       longitude: -112.2281
       acres: 19368
@@ -31089,9 +31155,9 @@ Database:
       state: AZ
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-14T01:30Z'
-      reportdatetimeEpoch: 1565746200000
-      percentcontained: 95
+      reportdatetime: '2019-08-15T01:30Z'
+      reportdatetimeEpoch: 1565832600000
+      percentcontained: 96
       uniquefireidentifier: 2019-AZKNF-000499
       firediscoverydatetime: '2019-07-12T21:36Z'
       firediscoverydatetimeEpoch: 1562967360000
@@ -31100,11 +31166,11 @@ Database:
       incidentname: CASTLE
       iscomplex: 'false'
       irwinid: '{65A19A3E-162E-42F6-92DF-872A21D7633F}'
-      irwinmodifiedon: '2019-08-14T01:43Z'
-      irwinmodifiedonEpoch: 1565747020000
+      irwinmodifiedon: '2019-08-15T01:48Z'
+      irwinmodifiedonEpoch: 1565833706000
       mapsymbol: '2'
-      datecurrent: '2019-08-13T20:00Z'
-      datecurrentEpoch: 1565726431000
+      datecurrent: '2019-08-14T20:00Z'
+      datecurrentEpoch: 1565812840000
       pooownerunit: AZKNF
       fireyear: 2019
       localincidentidentifier: 000499
@@ -31114,9 +31180,9 @@ Database:
       complexname: null
       DailyAcres: 19368
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-14T01:30Z'
-      ModifiedOnDateTimeEpoch: 1565746200000
-      PercentContained: 95
+      ModifiedOnDateTime: '2019-08-15T01:30Z'
+      ModifiedOnDateTimeEpoch: 1565832600000
+      PercentContained: 96
       UniqueFireIdentifier: 2019-AZKNF-000499
       FireDiscoveryDateTime: '2019-07-12T21:36Z'
       FireDiscoveryDateTimeEpoch: 1562967360000
@@ -31126,7 +31192,7 @@ Database:
       Hashtag: '#CastleFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-14T02:02:05.447Z'
+          RetrievedOn: '2019-08-15T02:03:32.677Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -31150,33 +31216,33 @@ Database:
     Fire_Name: CASTLE
     UniqueFireIdentifier: 2019-AZKNF-000499
     DailyAcres: 19368
-    PercentContained: 95
+    PercentContained: 96
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-14T01:30Z'
-    ICS209ReportDateTimeEpoch: 1565746200000
+    ICS209ReportDateTime: '2019-08-15T01:30Z'
+    ICS209ReportDateTimeEpoch: 1565832600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 4385000
+    EstimatedCostToDate: 4525000
     FireCause: Natural
-    TotalIncidentPersonnel: 86
+    TotalIncidentPersonnel: 72
     FireDiscoveryDateTime: '2019-07-12T21:36Z'
     FireDiscoveryDateTimeEpoch: 1562967360000
     DispatchCenterID: AZWDC
     LocalIncidentIdentifier: 000499
     POOCounty: Coconino
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-14T01:30Z'
-    ModifiedOnDateTimeEpoch: 1565746200000
+    ModifiedOnDateTime: '2019-08-15T01:30Z'
+    ModifiedOnDateTimeEpoch: 1565832600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZKNF-000499
-    ModifiedOnDateTime_Raw: '2019-08-14T01:43Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565747019000
+    ModifiedOnDateTime_Raw: '2019-08-15T01:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565833705000
     Hashtag: '#CastleFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-12T00:51Z'
@@ -31185,7 +31251,7 @@ Database:
       Acres: 18913.4327445
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-14T02:02:09.996Z'
+          RetrievedOn: '2019-08-15T02:03:39.715Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -31206,8 +31272,8 @@ Database:
     Final_Fire_Name: Castle Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-14T01:30Z-PER-2019-08-12T00:51Z-ID-2019-AZKNF-000499-NAME-CASTLE-S-N
-      Code: 8db6614299150528174782b6558da28a9f83d45849281549193ee0b8760824b5
+        UPD-2019-08-15T01:30Z-PER-2019-08-12T00:51Z-ID-2019-AZKNF-000499-NAME-CASTLE-S-N
+      Code: 64611cce6b9cc845fbc66e3a52c49d877928bf42ee298b56be7d9e1479679152
   2019-NVEKD-010138:
     Source_NFSA_Join:
       Lon: -116.44040866186955
@@ -37751,12 +37817,12 @@ Database:
       PercentContained: 85
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-13T22:30Z'
-      ICS209ReportDateTimeEpoch: 1565735400000
+      ICS209ReportDateTime: '2019-08-14T23:00Z'
+      ICS209ReportDateTimeEpoch: 1565823600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 259168
+      EstimatedCostToDate: 259668
       FireCause: Natural
       TotalIncidentPersonnel: 4
       FireDiscoveryDateTime: '2019-07-26T20:13Z'
@@ -37765,21 +37831,21 @@ Database:
       LocalIncidentIdentifier: 009140
       POOCounty: San Juan
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-13T22:30Z'
-      ModifiedOnDateTimeEpoch: 1565735400000
+      ModifiedOnDateTime: '2019-08-14T23:00Z'
+      ModifiedOnDateTimeEpoch: 1565823600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTMLF-009140
-      ModifiedOnDateTime_Raw: '2019-08-13T22:43Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565736224000
+      ModifiedOnDateTime_Raw: '2019-08-15T01:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565834289000
       Hashtag: '#PoisonCanyonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-13T23:01:23.513Z'
+          RetrievedOn: '2019-08-15T02:03:32.676Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -37790,7 +37856,7 @@ Database:
     Source_GEOMAC:
       Lon: -109.79945535375599
       Lat: 37.83445023631373
-      objectid: 15
+      objectid: 10
       latitude: 37.8344444
       longitude: -109.7994444
       acres: 1105
@@ -37799,8 +37865,8 @@ Database:
       state: UT
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-13T22:30Z'
-      reportdatetimeEpoch: 1565735400000
+      reportdatetime: '2019-08-14T23:00Z'
+      reportdatetimeEpoch: 1565823600000
       percentcontained: 85
       uniquefireidentifier: 2019-UTMLF-009140
       firediscoverydatetime: '2019-07-26T20:13Z'
@@ -37810,11 +37876,11 @@ Database:
       incidentname: Poison Canyon
       iscomplex: 'false'
       irwinid: '{1EF4925F-A9ED-43E7-B2A1-7EEC8DEEF6C5}'
-      irwinmodifiedon: '2019-08-13T22:43Z'
-      irwinmodifiedonEpoch: 1565736224000
+      irwinmodifiedon: '2019-08-15T01:58Z'
+      irwinmodifiedonEpoch: 1565834290000
       mapsymbol: '1'
-      datecurrent: '2019-08-13T17:00Z'
-      datecurrentEpoch: 1565715643000
+      datecurrent: '2019-08-14T20:00Z'
+      datecurrentEpoch: 1565812840000
       pooownerunit: USTMLF
       fireyear: 2019
       localincidentidentifier: 009140
@@ -37824,8 +37890,8 @@ Database:
       complexname: null
       DailyAcres: 1105
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-13T22:30Z'
-      ModifiedOnDateTimeEpoch: 1565735400000
+      ModifiedOnDateTime: '2019-08-14T23:00Z'
+      ModifiedOnDateTimeEpoch: 1565823600000
       PercentContained: 85
       UniqueFireIdentifier: 2019-UTMLF-009140
       FireDiscoveryDateTime: '2019-07-26T20:13Z'
@@ -37836,7 +37902,7 @@ Database:
       Hashtag: '#PoisonCanyonFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-13T23:01:23.514Z'
+          RetrievedOn: '2019-08-15T02:03:32.677Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -37863,12 +37929,12 @@ Database:
     PercentContained: 85
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-13T22:30Z'
-    ICS209ReportDateTimeEpoch: 1565735400000
+    ICS209ReportDateTime: '2019-08-14T23:00Z'
+    ICS209ReportDateTimeEpoch: 1565823600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 259168
+    EstimatedCostToDate: 259668
     FireCause: Natural
     TotalIncidentPersonnel: 4
     FireDiscoveryDateTime: '2019-07-26T20:13Z'
@@ -37877,16 +37943,16 @@ Database:
     LocalIncidentIdentifier: 009140
     POOCounty: San Juan
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-13T22:30Z'
-    ModifiedOnDateTimeEpoch: 1565735400000
+    ModifiedOnDateTime: '2019-08-14T23:00Z'
+    ModifiedOnDateTimeEpoch: 1565823600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTMLF-009140
-    ModifiedOnDateTime_Raw: '2019-08-13T22:43Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565736224000
+    ModifiedOnDateTime_Raw: '2019-08-15T01:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565834289000
     Hashtag: '#PoisonCanyonFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-06T21:56Z'
@@ -37895,7 +37961,7 @@ Database:
       Acres: 1424.19654017
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-13T23:01:28.220Z'
+          RetrievedOn: '2019-08-15T02:03:39.715Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -37916,8 +37982,8 @@ Database:
     Final_Fire_Name: Poison Canyon Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-13T22:30Z-PER-2019-08-06T21:56Z-ID-2019-UTMLF-009140-NAME-PoisonCanyon-S-N
-      Code: 73ef4f9d4093e8954b73c96ca7e2ddd4093cbc5780a5070e6f5d743280b6711c
+        UPD-2019-08-14T23:00Z-PER-2019-08-06T21:56Z-ID-2019-UTMLF-009140-NAME-PoisonCanyon-S-N
+      Code: 33d9a6d9d30992bba1705d2db52dab5657c12591e08485b11f6bfd353f66bd33
   CALFIRE-5a633180-7b70-4fb6-b859-b5826775b5fc:
     Source_CALFIRE:
       Lon: -116.796032
@@ -59040,13 +59106,13 @@ Database:
       Name: BOULIN
       Fire_Name: BOULIN
       UniqueFireIdentifier: 2019-AZKNF-000653
-      DailyAcres: 650
+      DailyAcres: 950
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-13T19:00Z'
-      ICS209ReportDateTimeEpoch: 1565722800000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-08-15T01:00Z'
+      ICS209ReportDateTimeEpoch: 1565830800000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 45000
@@ -59058,21 +59124,21 @@ Database:
       LocalIncidentIdentifier: '000653'
       POOCounty: Coconino
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-13T19:00Z'
-      ModifiedOnDateTimeEpoch: 1565722800000
+      ModifiedOnDateTime: '2019-08-15T01:00Z'
+      ModifiedOnDateTimeEpoch: 1565830800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZKNF-000653
-      ModifiedOnDateTime_Raw: '2019-08-13T20:17Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565727436000
+      ModifiedOnDateTime_Raw: '2019-08-15T01:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565834163000
       Hashtag: '#BoulinFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-13T20:30:55.371Z'
+          RetrievedOn: '2019-08-15T02:03:32.676Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -59086,13 +59152,13 @@ Database:
     Name: BOULIN
     Fire_Name: BOULIN
     UniqueFireIdentifier: 2019-AZKNF-000653
-    DailyAcres: 650
+    DailyAcres: 950
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-13T19:00Z'
-    ICS209ReportDateTimeEpoch: 1565722800000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-08-15T01:00Z'
+    ICS209ReportDateTimeEpoch: 1565830800000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 45000
@@ -59104,16 +59170,16 @@ Database:
     LocalIncidentIdentifier: '000653'
     POOCounty: Coconino
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-13T19:00Z'
-    ModifiedOnDateTimeEpoch: 1565722800000
+    ModifiedOnDateTime: '2019-08-15T01:00Z'
+    ModifiedOnDateTimeEpoch: 1565830800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZKNF-000653
-    ModifiedOnDateTime_Raw: '2019-08-13T20:17Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565727436000
+    ModifiedOnDateTime_Raw: '2019-08-15T01:56Z'
+    ModifiedOnDateTimeEpoch_Raw: 1565834163000
     Hashtag: '#BoulinFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-13T00:00Z'
@@ -59122,7 +59188,7 @@ Database:
       Acres: 755.94201931
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-14T16:43:34.311Z'
+          RetrievedOn: '2019-08-15T02:03:42.332Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -59143,8 +59209,8 @@ Database:
     Final_Fire_Name: Boulin Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-13T19:00Z-PER-2019-08-13T00:00Z-ID-2019-AZKNF-000653-NAME-BOULIN-S-N
-      Code: 84e976ad58df5446bbf8685bcf55241ca9433e1733335dc8e743b980b764588e
+        UPD-2019-08-15T01:00Z-PER-2019-08-13T00:00Z-ID-2019-AZKNF-000653-NAME-BOULIN-S-N
+      Code: 1eb0ce787fa18a4c9b2494899723cad2ad4984746fbfee269261fc73a879b779
   2019-AZASD-000462:
     Source_NFSA_Join:
       Lon: -113.11981316358026
@@ -60284,32 +60350,36 @@ Database:
       Lat: 38.703889
       incident_name: Greenstone Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-08-14T23:11Z'
-      incident_date_last_updateEpoch: 1565824277000
+      incident_date_last_update: '2019-08-15T01:54Z'
+      incident_date_last_updateEpoch: 1565834045000
       incident_date_created: '2019-08-14T23:07Z'
       incident_date_createdEpoch: 1565824069000
       incident_administrative_unit: CAL FIRE Amador El Dorado Unit
       incident_administrative_unit_url: ''
       incident_county: El Dorado
       incident_location: Off of Greenstone Road and Buck Mountain Road
-      incident_acres_burned: 20
-      incident_containment: 15
-      incident_control: ''
+      incident_acres_burned: 16
+      incident_containment: 100
+      incident_control: >-
+        Fire fighters have made great progress and gained full containment of
+        the fire. Fire crews will continue to patrol the area and mop up any hot
+        spots throughout the evening. Total acreage reduced to 16 due to more
+        accurate mapping.
       incident_cooperating_agencies: ''
       incident_longitude: -120.890556
       incident_latitude: 38.703889
       incident_type: Wildfire
       incident_id: 22c3cb30-55b1-4fcd-9606-6a0dcedce4ef
       incident_url: 'https://www.fire.ca.gov/incidents/2019/8/14/greenstone-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
+      incident_date_extinguished: '2019-08-14 18:52:00'
+      incident_dateonly_extinguished: '2019-08-14'
       incident_dateonly_created: '2019-08-14'
       is_active: 'Y'
       Fire_Name: Greenstone Fire
-      ModifiedOnDateTime: '2019-08-14T23:11Z'
-      ModifiedOnDateTimeEpoch: 1565824277000
-      DailyAcres: 20
-      PercentContained: 15
+      ModifiedOnDateTime: '2019-08-15T01:54Z'
+      ModifiedOnDateTimeEpoch: 1565834045000
+      DailyAcres: 16
+      PercentContained: 100
       UniqueFireIdentifier: CALFIRE-22c3cb30-55b1-4fcd-9606-6a0dcedce4ef
       Name: Greenstone Fire
       Source: CALFIRE
@@ -60319,7 +60389,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=22c3cb30-55b1-4fcd-9606-6a0dcedce4ef
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-14T23:12:34.530Z'
+          RetrievedOn: '2019-08-15T02:03:32.678Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -60333,32 +60403,36 @@ Database:
     Lat: 38.703889
     incident_name: Greenstone Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-08-14T23:11Z'
-    incident_date_last_updateEpoch: 1565824277000
+    incident_date_last_update: '2019-08-15T01:54Z'
+    incident_date_last_updateEpoch: 1565834045000
     incident_date_created: '2019-08-14T23:07Z'
     incident_date_createdEpoch: 1565824069000
     incident_administrative_unit: CAL FIRE Amador El Dorado Unit
     incident_administrative_unit_url: ''
     incident_county: El Dorado
     incident_location: Off of Greenstone Road and Buck Mountain Road
-    incident_acres_burned: 20
-    incident_containment: 15
-    incident_control: ''
+    incident_acres_burned: 16
+    incident_containment: 100
+    incident_control: >-
+      Fire fighters have made great progress and gained full containment of the
+      fire. Fire crews will continue to patrol the area and mop up any hot spots
+      throughout the evening. Total acreage reduced to 16 due to more accurate
+      mapping.
     incident_cooperating_agencies: ''
     incident_longitude: -120.890556
     incident_latitude: 38.703889
     incident_type: Wildfire
     incident_id: 22c3cb30-55b1-4fcd-9606-6a0dcedce4ef
     incident_url: 'https://www.fire.ca.gov/incidents/2019/8/14/greenstone-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
+    incident_date_extinguished: '2019-08-14 18:52:00'
+    incident_dateonly_extinguished: '2019-08-14'
     incident_dateonly_created: '2019-08-14'
     is_active: 'Y'
     Fire_Name: Greenstone Fire
-    ModifiedOnDateTime: '2019-08-14T23:11Z'
-    ModifiedOnDateTimeEpoch: 1565824277000
-    DailyAcres: 20
-    PercentContained: 15
+    ModifiedOnDateTime: '2019-08-15T01:54Z'
+    ModifiedOnDateTimeEpoch: 1565834045000
+    DailyAcres: 16
+    PercentContained: 100
     UniqueFireIdentifier: CALFIRE-22c3cb30-55b1-4fcd-9606-6a0dcedce4ef
     Name: Greenstone Fire
     Source: CALFIRE
@@ -60378,16 +60452,16 @@ Database:
     Final_Fire_Name: Greenstone Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-14T23:11Z-PER-none-ID-CALFIRE-22c3cb30-55b1-4fcd-9606-6a0dcedce4ef-NAME-GreenstoneFire-S-C
-      Code: 8cfb13b92aede45f5749125dac61c1bed2d12bb656ccd002550b2e8bfab630d7
+        UPD-2019-08-15T01:54Z-PER-none-ID-CALFIRE-22c3cb30-55b1-4fcd-9606-6a0dcedce4ef-NAME-GreenstoneFire-S-C
+      Code: bb49aca730e2ad9fb78f49952e714142a26d207501bd93367ca0a0e731d3e564
   CALFIRE-f2a78d1c-66be-40f8-a2d8-5756eb265162:
     Source_CALFIRE:
       Lon: -122.309167
       Lat: 39.088333
       incident_name: Spring Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-08-15T01:33Z'
-      incident_date_last_updateEpoch: 1565832838000
+      incident_date_last_update: '2019-08-15T01:51Z'
+      incident_date_last_updateEpoch: 1565833912000
       incident_date_created: '2019-08-14T19:52Z'
       incident_date_createdEpoch: 1565812320000
       incident_administrative_unit: CAL FIRE Sonoma Lake Napa Unit & William Fire Department
@@ -60408,13 +60482,13 @@ Database:
       incident_type: Wildfire
       incident_id: f2a78d1c-66be-40f8-a2d8-5756eb265162
       incident_url: 'https://www.fire.ca.gov/incidents/2019/8/14/spring-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
+      incident_date_extinguished: '2019-08-14 18:51:00'
+      incident_dateonly_extinguished: '2019-08-14'
       incident_dateonly_created: '2019-08-14'
       is_active: 'Y'
       Fire_Name: Spring Fire
-      ModifiedOnDateTime: '2019-08-15T01:33Z'
-      ModifiedOnDateTimeEpoch: 1565832838000
+      ModifiedOnDateTime: '2019-08-15T01:51Z'
+      ModifiedOnDateTimeEpoch: 1565833912000
       DailyAcres: 20
       PercentContained: 100
       UniqueFireIdentifier: CALFIRE-f2a78d1c-66be-40f8-a2d8-5756eb265162
@@ -60426,7 +60500,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=f2a78d1c-66be-40f8-a2d8-5756eb265162
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-15T01:36:45.041Z'
+          RetrievedOn: '2019-08-15T02:03:32.678Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -60440,8 +60514,8 @@ Database:
     Lat: 39.088333
     incident_name: Spring Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-08-15T01:33Z'
-    incident_date_last_updateEpoch: 1565832838000
+    incident_date_last_update: '2019-08-15T01:51Z'
+    incident_date_last_updateEpoch: 1565833912000
     incident_date_created: '2019-08-14T19:52Z'
     incident_date_createdEpoch: 1565812320000
     incident_administrative_unit: CAL FIRE Sonoma Lake Napa Unit & William Fire Department
@@ -60462,13 +60536,13 @@ Database:
     incident_type: Wildfire
     incident_id: f2a78d1c-66be-40f8-a2d8-5756eb265162
     incident_url: 'https://www.fire.ca.gov/incidents/2019/8/14/spring-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
+    incident_date_extinguished: '2019-08-14 18:51:00'
+    incident_dateonly_extinguished: '2019-08-14'
     incident_dateonly_created: '2019-08-14'
     is_active: 'Y'
     Fire_Name: Spring Fire
-    ModifiedOnDateTime: '2019-08-15T01:33Z'
-    ModifiedOnDateTimeEpoch: 1565832838000
+    ModifiedOnDateTime: '2019-08-15T01:51Z'
+    ModifiedOnDateTimeEpoch: 1565833912000
     DailyAcres: 20
     PercentContained: 100
     UniqueFireIdentifier: CALFIRE-f2a78d1c-66be-40f8-a2d8-5756eb265162
@@ -60490,8 +60564,8 @@ Database:
     Final_Fire_Name: Spring Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-15T01:33Z-PER-none-ID-CALFIRE-f2a78d1c-66be-40f8-a2d8-5756eb265162-NAME-SpringFire-S-C
-      Code: f37cc92c0b0932ae6782ec189f8c9077e4701feaadf501b1381a8b84575784b2
+        UPD-2019-08-15T01:51Z-PER-none-ID-CALFIRE-f2a78d1c-66be-40f8-a2d8-5756eb265162-NAME-SpringFire-S-C
+      Code: c0b89af8c9c86bd560ad018f660408bde4cc3c3afa559816790f769843494297
   2019-CAFHL-001853:
     Source_NFSA_Join:
       Lon: -121.26821551016026
