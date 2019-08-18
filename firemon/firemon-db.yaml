@@ -63234,7 +63234,7 @@ Database:
       UpdateId: >-
         UPD-2019-08-18T04:32Z-PER-none-ID-2019-TXTXS-190244-NAME-SpurRanchHeadquarters-S-N
       Code: 3b0100f4fcfe3a7e01174bde64c3d1569ab6854c580e8ef62281c041413934af
-  CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c:
+  2019-CAMMU-017127:
     Source_CALFIRE:
       Lon: -120.177018
       Lat: 37.536069
@@ -63275,7 +63275,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=547b7d19-9b75-4c11-8b88-56adb6460a3c
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T01:28:40.973Z'
+          RetrievedOn: '2019-08-18T13:01:31.535Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -63293,11 +63293,11 @@ Database:
       Fire_Name: GAINES
       UniqueFireIdentifier: 2019-CAMMU-017127
       DailyAcres: 1300
-      PercentContained: 30
+      PercentContained: 40
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-18T00:30Z'
-      ICS209ReportDateTimeEpoch: 1566088200000
+      ICS209ReportDateTime: '2019-08-18T11:45Z'
+      ICS209ReportDateTimeEpoch: 1566128700000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
@@ -63310,21 +63310,21 @@ Database:
       LocalIncidentIdentifier: '017127'
       POOCounty: Mariposa
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-18T00:30Z'
-      ModifiedOnDateTimeEpoch: 1566088200000
+      ModifiedOnDateTime: '2019-08-18T11:45Z'
+      ModifiedOnDateTimeEpoch: 1566128700000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAMMU-017127
-      ModifiedOnDateTime_Raw: '2019-08-18T00:52Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566089579000
+      ModifiedOnDateTime_Raw: '2019-08-18T12:52Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566132744000
       Hashtag: '#GainesFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T01:28:40.971Z'
+          RetrievedOn: '2019-08-18T13:01:31.533Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63335,7 +63335,7 @@ Database:
     Source_GEOMAC:
       Lon: -120.17695724049197
       Lat: 37.53583838507064
-      objectid: 29
+      objectid: 28
       latitude: 37.5358333
       longitude: -120.1769444
       acres: 1300
@@ -63344,9 +63344,9 @@ Database:
       state: CA
       status: U
       firecause: Unknown
-      reportdatetime: '2019-08-18T00:30Z'
-      reportdatetimeEpoch: 1566088200000
-      percentcontained: 30
+      reportdatetime: '2019-08-18T11:45Z'
+      reportdatetimeEpoch: 1566128700000
+      percentcontained: 40
       uniquefireidentifier: 2019-CAMMU-017127
       firediscoverydatetime: '2019-08-16T20:08Z'
       firediscoverydatetimeEpoch: 1565986080000
@@ -63355,11 +63355,11 @@ Database:
       incidentname: GAINES
       iscomplex: 'false'
       irwinid: '{E99A7666-D5C3-4C8C-B589-177EAEC08033}'
-      irwinmodifiedon: '2019-08-18T00:52Z'
-      irwinmodifiedonEpoch: 1566089579000
+      irwinmodifiedon: '2019-08-18T12:52Z'
+      irwinmodifiedonEpoch: 1566132744000
       mapsymbol: '1'
-      datecurrent: '2019-08-17T19:00Z'
-      datecurrentEpoch: 1566068433000
+      datecurrent: '2019-08-18T07:00Z'
+      datecurrentEpoch: 1566111636000
       pooownerunit: CAMMU
       fireyear: 2019
       localincidentidentifier: '017127'
@@ -63369,9 +63369,9 @@ Database:
       complexname: null
       DailyAcres: 1300
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-08-18T00:30Z'
-      ModifiedOnDateTimeEpoch: 1566088200000
-      PercentContained: 30
+      ModifiedOnDateTime: '2019-08-18T11:45Z'
+      ModifiedOnDateTimeEpoch: 1566128700000
+      PercentContained: 40
       UniqueFireIdentifier: 2019-CAMMU-017127
       FireDiscoveryDateTime: '2019-08-16T20:08Z'
       FireDiscoveryDateTimeEpoch: 1565986080000
@@ -63381,7 +63381,7 @@ Database:
       Hashtag: '#GainesFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T01:28:40.972Z'
+          RetrievedOn: '2019-08-18T13:01:31.534Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -63398,55 +63398,51 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CAMMU-017127
-    Lon: -120.177018
-    Lat: 37.536069
-    incident_name: Gaines Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-08-18T01:27Z'
-    incident_date_last_updateEpoch: 1566091645000
-    incident_date_created: '2019-08-16T21:11Z'
-    incident_date_createdEpoch: 1565989862000
-    incident_administrative_unit: CAL FIRE Madera-Mariposa-Merced Unit
-    incident_administrative_unit_url: ''
-    incident_county: Mariposa
-    incident_location: 'Mt Gaines Rd and Bear Valley Rd, Bear Valley'
-    incident_acres_burned: 1300
-    incident_containment: 30
-    incident_control: 'Evacuation advisory Bear Valley, Pendola Garden Rd and Hwy 49.'
-    incident_cooperating_agencies: ''
-    incident_longitude: -120.177018
-    incident_latitude: 37.536069
-    incident_type: Wildfire
-    incident_id: 547b7d19-9b75-4c11-8b88-56adb6460a3c
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/16/gaines-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-08-16'
-    is_active: 'Y'
-    Fire_Name: Gaines Fire
-    ModifiedOnDateTime: '2019-08-18T01:27Z'
-    ModifiedOnDateTimeEpoch: 1566091645000
+    Lon: -120.18390404646378
+    Lat: 37.53444739544267
+    id: 129159
+    Name: GAINES
+    Fire_Name: GAINES
+    UniqueFireIdentifier: 2019-CAMMU-017127
     DailyAcres: 1300
-    PercentContained: 30
-    UniqueFireIdentifier: CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c
-    Name: Gaines Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#GainesFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=547b7d19-9b75-4c11-8b88-56adb6460a3c
+    PercentContained: 40
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-08-18T11:45Z'
+    ICS209ReportDateTimeEpoch: 1566128700000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1338021
+    FireCause: Unknown
+    TotalIncidentPersonnel: 457
+    FireDiscoveryDateTime: '2019-08-16T20:08Z'
+    FireDiscoveryDateTimeEpoch: 1565986080000
+    DispatchCenterID: CAMMCC
+    LocalIncidentIdentifier: '017127'
+    POOCounty: Mariposa
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-18T11:45Z'
+    ModifiedOnDateTimeEpoch: 1566128700000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-CAMMU-017127
       - CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c
+    ModifiedOnDateTime_Raw: '2019-08-18T12:52Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566132744000
+    Hashtag: '#GainesFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: 547b7d19
-    unitMention: null
+    unitId: CAMMU
+    unitMention: Merced-Mariposa Unit
     Final_Fire_Name: Gaines Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-08-18T01:27Z-PER-none-ID-CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c-NAME-GainesFire-S-C
-      Code: 75dcb8f7aafa8584b7186549f248a2126a6d376f377e8a4b66252924e5c15b41
+      UpdateId: 'UPD-2019-08-18T11:45Z-PER-none-ID-2019-CAMMU-017127-NAME-GAINES-S-N'
+      Code: c37d280bf480aa39750c5860eda22a634e774117557032636cf6d2e10ca3d74d
