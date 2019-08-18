@@ -62802,7 +62802,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T01:01:41.690Z'
+          RetrievedOn: '2019-08-18T04:30:39.096Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -62810,42 +62810,120 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -101.35606010768569
-    Lat: 34.91064664405478
-    id: 129272
-    Name: Green Juniper
-    Fire_Name: Green Juniper
-    UniqueFireIdentifier: 2019-TXTXS-190240
+    Source_GEOMAC:
+      Lon: -101.35605978553305
+      Lat: 34.910644508599326
+      objectid: 31
+      latitude: 34.91063861
+      longitude: -101.35605099
+      acres: 300
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-18T02:00Z'
+      reportdatetimeEpoch: 1566093600000
+      percentcontained: 95
+      uniquefireidentifier: 2019-TXTXS-190240
+      firediscoverydatetime: '2019-08-17T19:34Z'
+      firediscoverydatetimeEpoch: 1566070499000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Green Juniper
+      iscomplex: 'false'
+      irwinid: '{29F5FCBF-8CA4-4F72-9515-544305CDE13D}'
+      irwinmodifiedon: '2019-08-18T04:05Z'
+      irwinmodifiedonEpoch: 1566101150000
+      mapsymbol: '1'
+      datecurrent: '2019-08-17T22:30Z'
+      datecurrentEpoch: 1566081026000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190240'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 300
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-18T02:00Z'
+      ModifiedOnDateTimeEpoch: 1566093600000
+      PercentContained: 95
+      UniqueFireIdentifier: 2019-TXTXS-190240
+      FireDiscoveryDateTime: '2019-08-17T19:34Z'
+      FireDiscoveryDateTimeEpoch: 1566070499000
+      Fire_Name: Green Juniper
+      Name: Green Juniper
+      Source: GEOMAC
+      Hashtag: '#GreenJuniperFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-18T04:30:39.097Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190240
+    Lon: -101.35605978553305
+    Lat: 34.910644508599326
+    objectid: 31
+    latitude: 34.91063861
+    longitude: -101.35605099
+    acres: 300
+    gacc: SWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: TX
+    status: I
+    firecause: Unknown
+    reportdatetime: '2019-08-18T02:00Z'
+    reportdatetimeEpoch: 1566093600000
+    percentcontained: 95
+    uniquefireidentifier: 2019-TXTXS-190240
+    firediscoverydatetime: '2019-08-17T19:34Z'
+    firediscoverydatetimeEpoch: 1566070499000
+    complexparentirwinid: null
+    pooresponsibleunit: TXTXS
+    incidentname: Green Juniper
+    iscomplex: 'false'
+    irwinid: '{29F5FCBF-8CA4-4F72-9515-544305CDE13D}'
+    irwinmodifiedon: '2019-08-18T04:05Z'
+    irwinmodifiedonEpoch: 1566101150000
+    mapsymbol: '1'
+    datecurrent: '2019-08-17T22:30Z'
+    datecurrentEpoch: 1566081026000
+    pooownerunit: TXTXS
+    fireyear: 2019
+    localincidentidentifier: '190240'
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
     DailyAcres: 300
-    PercentContained: 95
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2019-08-18T02:00Z'
+    ModifiedOnDateTimeEpoch: 1566093600000
+    PercentContained: 95
+    UniqueFireIdentifier: 2019-TXTXS-190240
     FireDiscoveryDateTime: '2019-08-17T19:34Z'
     FireDiscoveryDateTimeEpoch: 1566070499000
-    DispatchCenterID: TXTIC
-    LocalIncidentIdentifier: '190240'
-    POOCounty: Armstrong
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-18T00:38Z'
-    ModifiedOnDateTimeEpoch: 1566088696000
-    ModifiedBySystem: wires
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Green Juniper
+    Name: Green Juniper
+    Source: GEOMAC
+    Hashtag: '#GreenJuniperFire'
     _CorrelationIds:
       - 2019-TXTXS-190240
-    ModifiedOnDateTime_Raw: '2019-08-18T00:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566088696000
-    Hashtag: '#GreenJuniperFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -62856,8 +62934,8 @@ Database:
     Final_Fire_Name: Green Juniper Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-18T00:38Z-PER-none-ID-2019-TXTXS-190240-NAME-GreenJuniper-S-N
-      Code: 5d8a49eacb0a6910d8eabbdbcda7efb7642371c12ea314372c33e2960e32685b
+        UPD-2019-08-18T02:00Z-PER-none-ID-2019-TXTXS-190240-NAME-GreenJuniper-S-G
+      Code: dfe6c44ed1658641df0c26f53bfa794ee2d9be6f98b7bcc5a44f8aa5e55fd199
   2019-WYPDD-019303:
     Source_NFSA_Join:
       Lon: -109.70411302616124
