@@ -63191,36 +63191,36 @@ Database:
       DailyAcres: 7000
       PercentContained: 25
       FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-19T02:45Z'
+      ICS209ReportDateTimeEpoch: 1566182700000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 1
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 16
       FireDiscoveryDateTime: '2019-08-18T03:50Z'
       FireDiscoveryDateTimeEpoch: 1566100205000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190246'
       POOCounty: Cottle
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-18T23:41Z'
-      ModifiedOnDateTimeEpoch: 1566171719000
-      ModifiedBySystem: wires
+      ModifiedOnDateTime: '2019-08-19T02:45Z'
+      ModifiedOnDateTimeEpoch: 1566182700000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190246
-      ModifiedOnDateTime_Raw: '2019-08-18T23:41Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566171719000
+      ModifiedOnDateTime_Raw: '2019-08-19T03:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566185387000
       Hashtag: '#BirdRanchFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T00:00:14.794Z'
+          RetrievedOn: '2019-08-19T04:01:34.853Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63228,6 +63228,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -100.4208068198363
+      Lat: 34.02981740022647
+      objectid: 30
+      latitude: 34.0298116
+      longitude: -100.42079832
+      acres: 7000
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-19T02:45Z'
+      reportdatetimeEpoch: 1566182700000
+      percentcontained: 25
+      uniquefireidentifier: 2019-TXTXS-190246
+      firediscoverydatetime: '2019-08-18T03:50Z'
+      firediscoverydatetimeEpoch: 1566100205000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Bird Ranch
+      iscomplex: 'false'
+      irwinid: '{C107816C-60F6-45C7-AE5E-5CEAA516F228}'
+      irwinmodifiedon: '2019-08-19T03:29Z'
+      irwinmodifiedonEpoch: 1566185388000
+      mapsymbol: '1'
+      datecurrent: '2019-08-18T22:00Z'
+      datecurrentEpoch: 1566165627000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190246'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 7000
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-19T02:45Z'
+      ModifiedOnDateTimeEpoch: 1566182700000
+      PercentContained: 25
+      UniqueFireIdentifier: 2019-TXTXS-190246
+      FireDiscoveryDateTime: '2019-08-18T03:50Z'
+      FireDiscoveryDateTimeEpoch: 1566100205000
+      Fire_Name: Bird Ranch
+      Name: Bird Ranch
+      Source: GEOMAC
+      Hashtag: '#BirdRanchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-19T04:01:34.854Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190246
     Lon: -100.42080609908318
     Lat: 34.02981384514629
     id: 129352
@@ -63237,31 +63303,31 @@ Database:
     DailyAcres: 7000
     PercentContained: 25
     FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-19T02:45Z'
+    ICS209ReportDateTimeEpoch: 1566182700000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 1
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 16
     FireDiscoveryDateTime: '2019-08-18T03:50Z'
     FireDiscoveryDateTimeEpoch: 1566100205000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190246'
     POOCounty: Cottle
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-18T23:41Z'
-    ModifiedOnDateTimeEpoch: 1566171719000
-    ModifiedBySystem: wires
+    ModifiedOnDateTime: '2019-08-19T02:45Z'
+    ModifiedOnDateTimeEpoch: 1566182700000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190246
-    ModifiedOnDateTime_Raw: '2019-08-18T23:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566171719000
+    ModifiedOnDateTime_Raw: '2019-08-19T03:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566185387000
     Hashtag: '#BirdRanchFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -63273,8 +63339,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Bird Ranch Fire
     _Update:
-      UpdateId: 'UPD-2019-08-18T23:41Z-PER-none-ID-2019-TXTXS-190246-NAME-BirdRanch-S-N'
-      Code: 332cbe7ec53f7ccab7cff467fe46c2e13c76014b95ed2f004a2aa52dcba354fa
+      UpdateId: 'UPD-2019-08-19T02:45Z-PER-none-ID-2019-TXTXS-190246-NAME-BirdRanch-S-N'
+      Code: 857a3abdaffa2f4b2b3f7c7d31c6d692571f3f1d33dda0b85dd99fc97c351f25
   2019-TXTXS-190248:
     Source_NFSA_Join:
       Lon: -101.20168462610975
