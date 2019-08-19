@@ -35414,15 +35414,15 @@ Database:
       Fire_Name: Beeskove
       UniqueFireIdentifier: 2019-MTLNF-001232
       DailyAcres: 430
-      PercentContained: 71
+      PercentContained: 72
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-18T22:45Z'
-      ICS209ReportDateTimeEpoch: 1566168300000
+      ICS209ReportDateTime: '2019-08-19T23:00Z'
+      ICS209ReportDateTimeEpoch: 1566255600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 7150000
+      EstimatedCostToDate: 7160000
       FireCause: Natural
       TotalIncidentPersonnel: 58
       FireDiscoveryDateTime: '2019-07-23T16:56Z'
@@ -35431,21 +35431,21 @@ Database:
       LocalIncidentIdentifier: '001232'
       POOCounty: Missoula
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-18T22:45Z'
-      ModifiedOnDateTimeEpoch: 1566168300000
+      ModifiedOnDateTime: '2019-08-19T23:00Z'
+      ModifiedOnDateTimeEpoch: 1566255600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-MTLNF-001232
-      ModifiedOnDateTime_Raw: '2019-08-18T22:53Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566168816000
+      ModifiedOnDateTime_Raw: '2019-08-19T23:11Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566256269000
       Hashtag: '#BeeskoveFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T23:00:33.306Z'
+          RetrievedOn: '2019-08-19T23:33:05.232Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -35453,6 +35453,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -113.86751320281299
+      Lat: 46.96222866244058
+      objectid: 4
+      latitude: 46.9622222
+      longitude: -113.8675
+      acres: 430
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-08-19T23:00Z'
+      reportdatetimeEpoch: 1566255600000
+      percentcontained: 72
+      uniquefireidentifier: 2019-MTLNF-001232
+      firediscoverydatetime: '2019-07-23T16:56Z'
+      firediscoverydatetimeEpoch: 1563900960000
+      complexparentirwinid: null
+      pooresponsibleunit: MTLNF
+      incidentname: Beeskove
+      iscomplex: 'false'
+      irwinid: '{A1A6C299-6BF7-4808-A552-3C2FF5494DCD}'
+      irwinmodifiedon: '2019-08-19T23:11Z'
+      irwinmodifiedonEpoch: 1566256270000
+      mapsymbol: '1'
+      datecurrent: '2019-08-19T17:30Z'
+      datecurrentEpoch: 1566235841000
+      pooownerunit: MTLNF
+      fireyear: 2019
+      localincidentidentifier: '001232'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 430
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-19T23:00Z'
+      ModifiedOnDateTimeEpoch: 1566255600000
+      PercentContained: 72
+      UniqueFireIdentifier: 2019-MTLNF-001232
+      FireDiscoveryDateTime: '2019-07-23T16:56Z'
+      FireDiscoveryDateTimeEpoch: 1563900960000
+      Fire_Name: Beeskove
+      Name: Beeskove
+      Source: GEOMAC
+      Hashtag: '#BeeskoveFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-19T23:33:05.233Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTLNF-001232
     Lon: -113.87071490957578
     Lat: 46.960113445842566
     id: 124349
@@ -35460,15 +35526,15 @@ Database:
     Fire_Name: Beeskove
     UniqueFireIdentifier: 2019-MTLNF-001232
     DailyAcres: 430
-    PercentContained: 71
+    PercentContained: 72
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-18T22:45Z'
-    ICS209ReportDateTimeEpoch: 1566168300000
+    ICS209ReportDateTime: '2019-08-19T23:00Z'
+    ICS209ReportDateTimeEpoch: 1566255600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 7150000
+    EstimatedCostToDate: 7160000
     FireCause: Natural
     TotalIncidentPersonnel: 58
     FireDiscoveryDateTime: '2019-07-23T16:56Z'
@@ -35477,16 +35543,16 @@ Database:
     LocalIncidentIdentifier: '001232'
     POOCounty: Missoula
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-18T22:45Z'
-    ModifiedOnDateTimeEpoch: 1566168300000
+    ModifiedOnDateTime: '2019-08-19T23:00Z'
+    ModifiedOnDateTimeEpoch: 1566255600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-MTLNF-001232
-    ModifiedOnDateTime_Raw: '2019-08-18T22:53Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566168816000
+    ModifiedOnDateTime_Raw: '2019-08-19T23:11Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566256269000
     Hashtag: '#BeeskoveFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-16T16:12Z'
@@ -35495,7 +35561,7 @@ Database:
       Acres: 429.51136273
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T17:06:13.939Z'
+          RetrievedOn: '2019-08-19T23:33:12.539Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -35516,8 +35582,8 @@ Database:
     Final_Fire_Name: Beeskove Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-18T22:45Z-PER-2019-08-16T16:12Z-ID-2019-MTLNF-001232-NAME-Beeskove-S-N
-      Code: 6af707a58fd21cd0df01bbfd73d875e06d78f20187c6e000860cb1a18e5d159d
+        UPD-2019-08-19T23:00Z-PER-2019-08-16T16:12Z-ID-2019-MTLNF-001232-NAME-Beeskove-S-N
+      Code: ea036c7f61f450d612a9eec2846c876414da9e51421b3a2a62f3985e494bb439
   2019-WAOWF-000321:
     Source_NFSA_Join:
       Lon: -120.87391798250167
@@ -48713,38 +48779,38 @@ Database:
       Fire_Name: Horsefly
       UniqueFireIdentifier: 2019-MTHLF-000162
       DailyAcres: 1350
-      PercentContained: 55
+      PercentContained: 56
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-18T23:15Z'
-      ICS209ReportDateTimeEpoch: 1566170100000
+      ICS209ReportDateTime: '2019-08-19T23:00Z'
+      ICS209ReportDateTimeEpoch: 1566255600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 5600000
+      EstimatedCostToDate: 5700000
       FireCause: Unknown
-      TotalIncidentPersonnel: 93
+      TotalIncidentPersonnel: 94
       FireDiscoveryDateTime: '2019-08-05T18:27Z'
       FireDiscoveryDateTimeEpoch: 1565029620000
       DispatchCenterID: MTHDC
       LocalIncidentIdentifier: '000162'
       POOCounty: Lewis and Clark
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-18T23:15Z'
-      ModifiedOnDateTimeEpoch: 1566170100000
+      ModifiedOnDateTime: '2019-08-19T23:00Z'
+      ModifiedOnDateTimeEpoch: 1566255600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-MTHLF-000162
-      ModifiedOnDateTime_Raw: '2019-08-18T23:28Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566170911000
+      ModifiedOnDateTime_Raw: '2019-08-19T23:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566257128000
       Hashtag: '#HorseflyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T23:30:40.714Z'
+          RetrievedOn: '2019-08-19T23:33:05.232Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -48755,7 +48821,7 @@ Database:
     Source_GEOMAC:
       Lon: -112.44084590719488
       Lat: 46.96306260439156
-      objectid: 17
+      objectid: 16
       latitude: 46.963056
       longitude: -112.440833
       acres: 1350
@@ -48764,9 +48830,9 @@ Database:
       state: MT
       status: U
       firecause: Unknown
-      reportdatetime: '2019-08-18T23:15Z'
-      reportdatetimeEpoch: 1566170100000
-      percentcontained: 55
+      reportdatetime: '2019-08-19T23:00Z'
+      reportdatetimeEpoch: 1566255600000
+      percentcontained: 56
       uniquefireidentifier: 2019-MTHLF-000162
       firediscoverydatetime: '2019-08-05T18:27Z'
       firediscoverydatetimeEpoch: 1565029620000
@@ -48775,11 +48841,11 @@ Database:
       incidentname: Horsefly
       iscomplex: 'false'
       irwinid: '{3A7E9370-F824-404E-8936-50607249ED1B}'
-      irwinmodifiedon: '2019-08-18T23:28Z'
-      irwinmodifiedonEpoch: 1566170912000
+      irwinmodifiedon: '2019-08-19T23:25Z'
+      irwinmodifiedonEpoch: 1566257128000
       mapsymbol: '1'
-      datecurrent: '2019-08-18T17:30Z'
-      datecurrentEpoch: 1566149430000
+      datecurrent: '2019-08-19T17:30Z'
+      datecurrentEpoch: 1566235841000
       pooownerunit: MTHNF
       fireyear: 2019
       localincidentidentifier: '000162'
@@ -48789,9 +48855,9 @@ Database:
       complexname: null
       DailyAcres: 1350
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-08-18T23:15Z'
-      ModifiedOnDateTimeEpoch: 1566170100000
-      PercentContained: 55
+      ModifiedOnDateTime: '2019-08-19T23:00Z'
+      ModifiedOnDateTimeEpoch: 1566255600000
+      PercentContained: 56
       UniqueFireIdentifier: 2019-MTHLF-000162
       FireDiscoveryDateTime: '2019-08-05T18:27Z'
       FireDiscoveryDateTimeEpoch: 1565029620000
@@ -48801,7 +48867,7 @@ Database:
       Hashtag: '#HorseflyFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T23:30:40.715Z'
+          RetrievedOn: '2019-08-19T23:33:05.233Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -48825,33 +48891,33 @@ Database:
     Fire_Name: Horsefly
     UniqueFireIdentifier: 2019-MTHLF-000162
     DailyAcres: 1350
-    PercentContained: 55
+    PercentContained: 56
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-18T23:15Z'
-    ICS209ReportDateTimeEpoch: 1566170100000
+    ICS209ReportDateTime: '2019-08-19T23:00Z'
+    ICS209ReportDateTimeEpoch: 1566255600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 5600000
+    EstimatedCostToDate: 5700000
     FireCause: Unknown
-    TotalIncidentPersonnel: 93
+    TotalIncidentPersonnel: 94
     FireDiscoveryDateTime: '2019-08-05T18:27Z'
     FireDiscoveryDateTimeEpoch: 1565029620000
     DispatchCenterID: MTHDC
     LocalIncidentIdentifier: '000162'
     POOCounty: Lewis and Clark
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-18T23:15Z'
-    ModifiedOnDateTimeEpoch: 1566170100000
+    ModifiedOnDateTime: '2019-08-19T23:00Z'
+    ModifiedOnDateTimeEpoch: 1566255600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-MTHLF-000162
-    ModifiedOnDateTime_Raw: '2019-08-18T23:28Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566170911000
+    ModifiedOnDateTime_Raw: '2019-08-19T23:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566257128000
     Hashtag: '#HorseflyFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-15T00:18Z'
@@ -48860,7 +48926,7 @@ Database:
       Acres: 1351.87374279
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-18T23:30:44.504Z'
+          RetrievedOn: '2019-08-19T23:33:12.539Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -48881,8 +48947,8 @@ Database:
     Final_Fire_Name: Horsefly Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-18T23:15Z-PER-2019-08-15T00:18Z-ID-2019-MTHLF-000162-NAME-Horsefly-S-N
-      Code: cee4b04b6e45b8044083c774131cb9a07848a04deb2ef0799d2438c1006af207
+        UPD-2019-08-19T23:00Z-PER-2019-08-15T00:18Z-ID-2019-MTHLF-000162-NAME-Horsefly-S-N
+      Code: 971eaf969a76149bd9533b283b2c0e81c3561cf233adba588cbe9b72a0755ef4
   CALFIRE-0089d3c4-c554-46e1-8eb9-af95e4dfae0c:
     Source_CALFIRE:
       Lon: -117.333728
@@ -59865,37 +59931,37 @@ Database:
       UniqueFireIdentifier: 2019-UTUOA-100174
       DailyAcres: 111
       PercentContained: 80
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-18T23:15Z'
-      ICS209ReportDateTimeEpoch: 1566170100000
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-19T22:45Z'
+      ICS209ReportDateTimeEpoch: 1566254700000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 200000
+      EstimatedCostToDate: 250000
       FireCause: Natural
-      TotalIncidentPersonnel: 23
+      TotalIncidentPersonnel: 14
       FireDiscoveryDateTime: '2019-08-14T23:43Z'
       FireDiscoveryDateTimeEpoch: 1565826180000
       DispatchCenterID: UTUBC
       LocalIncidentIdentifier: '100174'
       POOCounty: Duchesne
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-18T23:15Z'
-      ModifiedOnDateTimeEpoch: 1566170100000
+      ModifiedOnDateTime: '2019-08-19T22:45Z'
+      ModifiedOnDateTimeEpoch: 1566254700000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTUOA-100174
-      ModifiedOnDateTime_Raw: '2019-08-18T23:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566172118000
+      ModifiedOnDateTime_Raw: '2019-08-19T23:15Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566256543000
       Hashtag: '#AvintaquinRidgeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T00:00:14.794Z'
+          RetrievedOn: '2019-08-19T23:33:05.232Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -59906,18 +59972,18 @@ Database:
     Source_GEOMAC:
       Lon: -110.76501140608435
       Lat: 40.003476036344914
-      objectid: 25
+      objectid: 23
       latitude: 40.00347
       longitude: -110.765
       acres: 111
       gacc: GBCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: UT
-      status: I
+      status: U
       firecause: Natural
-      reportdatetime: '2019-08-15T22:45Z'
-      reportdatetimeEpoch: 1565909100000
-      percentcontained: 0
+      reportdatetime: '2019-08-19T22:45Z'
+      reportdatetimeEpoch: 1566254700000
+      percentcontained: 80
       uniquefireidentifier: 2019-UTUOA-100174
       firediscoverydatetime: '2019-08-14T23:43Z'
       firediscoverydatetimeEpoch: 1565826180000
@@ -59926,11 +59992,11 @@ Database:
       incidentname: AVINTAQUIN RIDGE
       iscomplex: 'false'
       irwinid: '{E7D52547-5FA3-4E55-80AC-6E987F654F44}'
-      irwinmodifiedon: '2019-08-18T23:26Z'
-      irwinmodifiedonEpoch: 1566170795000
+      irwinmodifiedon: '2019-08-19T23:15Z'
+      irwinmodifiedonEpoch: 1566256543000
       mapsymbol: '1'
-      datecurrent: '2019-08-18T17:30Z'
-      datecurrentEpoch: 1566149428000
+      datecurrent: '2019-08-19T17:30Z'
+      datecurrentEpoch: 1566235841000
       pooownerunit: USTUOA
       fireyear: 2019
       localincidentidentifier: '100174'
@@ -59940,9 +60006,9 @@ Database:
       complexname: null
       DailyAcres: 111
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-15T22:45Z'
-      ModifiedOnDateTimeEpoch: 1565909100000
-      PercentContained: 0
+      ModifiedOnDateTime: '2019-08-19T22:45Z'
+      ModifiedOnDateTimeEpoch: 1566254700000
+      PercentContained: 80
       UniqueFireIdentifier: 2019-UTUOA-100174
       FireDiscoveryDateTime: '2019-08-14T23:43Z'
       FireDiscoveryDateTimeEpoch: 1565826180000
@@ -59952,7 +60018,7 @@ Database:
       Hashtag: '#AvintaquinRidgeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T00:00:14.797Z'
+          RetrievedOn: '2019-08-19T23:33:05.233Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -59977,32 +60043,32 @@ Database:
     UniqueFireIdentifier: 2019-UTUOA-100174
     DailyAcres: 111
     PercentContained: 80
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-18T23:15Z'
-    ICS209ReportDateTimeEpoch: 1566170100000
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-19T22:45Z'
+    ICS209ReportDateTimeEpoch: 1566254700000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 200000
+    EstimatedCostToDate: 250000
     FireCause: Natural
-    TotalIncidentPersonnel: 23
+    TotalIncidentPersonnel: 14
     FireDiscoveryDateTime: '2019-08-14T23:43Z'
     FireDiscoveryDateTimeEpoch: 1565826180000
     DispatchCenterID: UTUBC
     LocalIncidentIdentifier: '100174'
     POOCounty: Duchesne
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-18T23:15Z'
-    ModifiedOnDateTimeEpoch: 1566170100000
+    ModifiedOnDateTime: '2019-08-19T22:45Z'
+    ModifiedOnDateTimeEpoch: 1566254700000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTUOA-100174
-    ModifiedOnDateTime_Raw: '2019-08-18T23:48Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566172118000
+    ModifiedOnDateTime_Raw: '2019-08-19T23:15Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566256543000
     Hashtag: '#AvintaquinRidgeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -60015,8 +60081,8 @@ Database:
     Final_Fire_Name: Avintaquin Ridge Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-18T23:15Z-PER-none-ID-2019-UTUOA-100174-NAME-AVINTAQUINRIDGE-S-N
-      Code: 78e108c0baefe1525ce5008e0e3a04f190af6c3f2d0c80339400b4afb376fd99
+        UPD-2019-08-19T22:45Z-PER-none-ID-2019-UTUOA-100174-NAME-AVINTAQUINRIDGE-S-N
+      Code: 911638e984884a56ae344fa3a0732a931499f2e326c6a25299ea26139ea1f98c
   2019-OKOKS-100109:
     Source_NFSA_Join:
       Lon: -94.76000945413412
@@ -63980,3 +64046,164 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-19T21:25Z-PER-none-ID-2019-TXTXS-190255-NAME-SideOats-S-N'
       Code: 66b46692973691bb2706394a5c772851b7f6fbe08ae42d8c0faef37552c791d1
+  2019-MTLG29-000170:
+    Source_NFSA_Join:
+      Lon: -106.53171260029316
+      Lat: 45.228815366955686
+      id: 129274
+      Name: Victor
+      Fire_Name: Victor
+      UniqueFireIdentifier: 2019-MTLG29-000170
+      DailyAcres: 1500
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-19T21:45Z'
+      ICS209ReportDateTimeEpoch: 1566251100000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 13
+      FireDiscoveryDateTime: '2019-08-15T19:20Z'
+      FireDiscoveryDateTimeEpoch: 1565896800000
+      DispatchCenterID: MTMCC
+      LocalIncidentIdentifier: '000170'
+      POOCounty: Rosebud
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-19T21:45Z'
+      ModifiedOnDateTimeEpoch: 1566251100000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-MTLG29-000170
+      ModifiedOnDateTime_Raw: '2019-08-19T23:21Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566256903000
+      Hashtag: '#VictorFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-19T23:33:05.232Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -106.50831124617272
+      Lat: 45.202156980856316
+      objectid: 28
+      latitude: 45.20215
+      longitude: -106.5083
+      acres: 1500
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-19T21:45Z'
+      reportdatetimeEpoch: 1566251100000
+      percentcontained: 0
+      uniquefireidentifier: 2019-MTLG29-000170
+      firediscoverydatetime: '2019-08-15T19:20Z'
+      firediscoverydatetimeEpoch: 1565896800000
+      complexparentirwinid: null
+      pooresponsibleunit: MTLG29
+      incidentname: Victor
+      iscomplex: 'false'
+      irwinid: '{0788D1EE-E09B-4BEF-9B79-F43B91350D18}'
+      irwinmodifiedon: '2019-08-19T23:21Z'
+      irwinmodifiedonEpoch: 1566256904000
+      mapsymbol: '1'
+      datecurrent: '2019-08-19T17:30Z'
+      datecurrentEpoch: 1566235841000
+      pooownerunit: MTMCD
+      fireyear: 2019
+      localincidentidentifier: '000170'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1500
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-19T21:45Z'
+      ModifiedOnDateTimeEpoch: 1566251100000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-MTLG29-000170
+      FireDiscoveryDateTime: '2019-08-15T19:20Z'
+      FireDiscoveryDateTimeEpoch: 1565896800000
+      Fire_Name: Victor
+      Name: Victor
+      Source: GEOMAC
+      Hashtag: '#VictorFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-19T23:33:05.233Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTLG29-000170
+    Lon: -106.53171260029316
+    Lat: 45.228815366955686
+    id: 129274
+    Name: Victor
+    Fire_Name: Victor
+    UniqueFireIdentifier: 2019-MTLG29-000170
+    DailyAcres: 1500
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-19T21:45Z'
+    ICS209ReportDateTimeEpoch: 1566251100000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 13
+    FireDiscoveryDateTime: '2019-08-15T19:20Z'
+    FireDiscoveryDateTimeEpoch: 1565896800000
+    DispatchCenterID: MTMCC
+    LocalIncidentIdentifier: '000170'
+    POOCounty: Rosebud
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-19T21:45Z'
+    ModifiedOnDateTimeEpoch: 1566251100000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-MTLG29-000170
+    ModifiedOnDateTime_Raw: '2019-08-19T23:21Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566256903000
+    Hashtag: '#VictorFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: MTLG29
+    unitMention: Rosebud Co.
+    Final_Fire_Name: Victor Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-19T21:45Z-PER-none-ID-2019-MTLG29-000170-NAME-Victor-S-N'
+      Code: e28c9c7f6e77b9fc403f0a55add3ad0b33fb6ad2b0d399d9f3da97da6dad24d6
