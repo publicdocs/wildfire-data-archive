@@ -63466,14 +63466,14 @@ Database:
       UpdateId: >-
         UPD-2019-08-18T23:41Z-PER-none-ID-2019-AKMSS-901736-NAME-DeshkaLanding-S-N
       Code: 76ad2c5208f908117113cc380b8fed1f3cc9e046a674c0623469f0ffc81bcb73
-  2019-CAMMU-017127:
+  CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c:
     Source_CALFIRE:
       Lon: -120.177018
       Lat: 37.536069
       incident_name: Gaines Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-08-18T14:03Z'
-      incident_date_last_updateEpoch: 1566137016000
+      incident_date_last_update: '2019-08-19T02:02Z'
+      incident_date_last_updateEpoch: 1566180130000
       incident_date_created: '2019-08-16T21:11Z'
       incident_date_createdEpoch: 1565989862000
       incident_administrative_unit: CAL FIRE Madera-Mariposa-Merced Unit
@@ -63481,7 +63481,7 @@ Database:
       incident_county: Mariposa
       incident_location: 'Mt Gaines Rd and Bear Valley Rd, Bear Valley'
       incident_acres_burned: 1300
-      incident_containment: 40
+      incident_containment: 60
       incident_control: 'Evacuation advisory Bear Valley, Pendola Garden Rd and Hwy 49.'
       incident_cooperating_agencies: ''
       incident_longitude: -120.177018
@@ -63494,10 +63494,10 @@ Database:
       incident_dateonly_created: '2019-08-16'
       is_active: 'Y'
       Fire_Name: Gaines Fire
-      ModifiedOnDateTime: '2019-08-18T14:03Z'
-      ModifiedOnDateTimeEpoch: 1566137016000
+      ModifiedOnDateTime: '2019-08-19T02:02Z'
+      ModifiedOnDateTimeEpoch: 1566180130000
       DailyAcres: 1300
-      PercentContained: 40
+      PercentContained: 60
       UniqueFireIdentifier: CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c
       Name: Gaines Fire
       Source: CALFIRE
@@ -63507,7 +63507,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=547b7d19-9b75-4c11-8b88-56adb6460a3c
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T00:30:48.466Z'
+          RetrievedOn: '2019-08-19T02:03:20.501Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -63556,7 +63556,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T00:30:48.465Z'
+          RetrievedOn: '2019-08-19T02:03:20.500Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63590,8 +63590,8 @@ Database:
       irwinmodifiedon: '2019-08-19T00:25Z'
       irwinmodifiedonEpoch: 1566174304000
       mapsymbol: '1'
-      datecurrent: '2019-08-18T18:30Z'
-      datecurrentEpoch: 1566153030000
+      datecurrent: '2019-08-18T20:00Z'
+      datecurrentEpoch: 1566158438000
       pooownerunit: CAMMU
       fireyear: 2019
       localincidentidentifier: '017127'
@@ -63613,7 +63613,7 @@ Database:
       Hashtag: '#GainesFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T00:30:48.465Z'
+          RetrievedOn: '2019-08-19T02:03:20.501Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -63630,51 +63630,55 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CAMMU-017127
-    Lon: -120.18390404646378
-    Lat: 37.53444739544267
-    id: 129159
-    Name: GAINES
-    Fire_Name: GAINES
-    UniqueFireIdentifier: 2019-CAMMU-017127
+    Lon: -120.177018
+    Lat: 37.536069
+    incident_name: Gaines Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-08-19T02:02Z'
+    incident_date_last_updateEpoch: 1566180130000
+    incident_date_created: '2019-08-16T21:11Z'
+    incident_date_createdEpoch: 1565989862000
+    incident_administrative_unit: CAL FIRE Madera-Mariposa-Merced Unit
+    incident_administrative_unit_url: ''
+    incident_county: Mariposa
+    incident_location: 'Mt Gaines Rd and Bear Valley Rd, Bear Valley'
+    incident_acres_burned: 1300
+    incident_containment: 60
+    incident_control: 'Evacuation advisory Bear Valley, Pendola Garden Rd and Hwy 49.'
+    incident_cooperating_agencies: ''
+    incident_longitude: -120.177018
+    incident_latitude: 37.536069
+    incident_type: Wildfire
+    incident_id: 547b7d19-9b75-4c11-8b88-56adb6460a3c
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/16/gaines-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-08-16'
+    is_active: 'Y'
+    Fire_Name: Gaines Fire
+    ModifiedOnDateTime: '2019-08-19T02:02Z'
+    ModifiedOnDateTimeEpoch: 1566180130000
     DailyAcres: 1300
     PercentContained: 60
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-18T23:45Z'
-    ICS209ReportDateTimeEpoch: 1566171900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2042082
-    FireCause: Unknown
-    TotalIncidentPersonnel: 411
-    FireDiscoveryDateTime: '2019-08-16T20:08Z'
-    FireDiscoveryDateTimeEpoch: 1565986080000
-    DispatchCenterID: CAMMCC
-    LocalIncidentIdentifier: '017127'
-    POOCounty: Mariposa
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-18T23:45Z'
-    ModifiedOnDateTimeEpoch: 1566171900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c
+    Name: Gaines Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#GainesFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=547b7d19-9b75-4c11-8b88-56adb6460a3c
     _CorrelationIds:
       - 2019-CAMMU-017127
       - CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c
-    ModifiedOnDateTime_Raw: '2019-08-19T00:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566174303000
-    Hashtag: '#GainesFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CAMMU
-    unitMention: Merced-Mariposa Unit
+    unitId: 547b7d19
+    unitMention: null
     Final_Fire_Name: Gaines Fire
     _Update:
-      UpdateId: 'UPD-2019-08-18T23:45Z-PER-none-ID-2019-CAMMU-017127-NAME-GAINES-S-N'
-      Code: a5ac93fa22a586dd653fecba24083b38c412282728cf87e66f48cd85f7a74aeb
+      UpdateId: >-
+        UPD-2019-08-19T02:02Z-PER-none-ID-CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c-NAME-GainesFire-S-C
+      Code: 045c2309128d7c1b86c99d15015921331e363366a85126059b080b81de0e0aca
