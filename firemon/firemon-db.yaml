@@ -63536,39 +63536,39 @@ Database:
       Name: Deshka Landing
       Fire_Name: Deshka Landing
       UniqueFireIdentifier: 2019-AKMSS-901736
-      DailyAcres: 950
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 1800
+      PercentContained: 5
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-20T04:00Z'
+      ICS209ReportDateTimeEpoch: 1566273600000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 31547
       FireCause: Human
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 46
       FireDiscoveryDateTime: '2019-08-17T22:29Z'
       FireDiscoveryDateTimeEpoch: 1566080978000
       DispatchCenterID: AKMSSC
       LocalIncidentIdentifier: '901736'
       POOCounty: Matanuska-Susitna
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-08-18T23:41Z'
-      ModifiedOnDateTimeEpoch: 1566171671000
+      ModifiedOnDateTime: '2019-08-20T04:00Z'
+      ModifiedOnDateTimeEpoch: 1566273600000
       ModifiedBySystem: ifm
       popupinfo: null
-      calc_symboltype: ImsrOther
+      calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AKMSS-901736
-      ModifiedOnDateTime_Raw: '2019-08-18T23:41Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566171671000
+      ModifiedOnDateTime_Raw: '2019-08-20T17:40Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566322828000
       Hashtag: '#DeshkaLandingFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T00:00:14.794Z'
+          RetrievedOn: '2019-08-20T18:01:35.020Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63576,40 +63576,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -150.17594340310063
+      Lat: 61.722868559268896
+      objectid: 29
+      latitude: 61.722867
+      longitude: -150.17592
+      acres: 1800
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: I
+      firecause: Human
+      reportdatetime: '2019-08-20T04:00Z'
+      reportdatetimeEpoch: 1566273600000
+      percentcontained: 5
+      uniquefireidentifier: 2019-AKMSS-901736
+      firediscoverydatetime: '2019-08-17T22:29Z'
+      firediscoverydatetimeEpoch: 1566080978000
+      complexparentirwinid: null
+      pooresponsibleunit: AKMSS
+      incidentname: Deshka Landing
+      iscomplex: 'false'
+      irwinid: '{C612FAFE-C3EC-4666-9F2F-8CD6D7C1291F}'
+      irwinmodifiedon: '2019-08-20T17:40Z'
+      irwinmodifiedonEpoch: 1566322829000
+      mapsymbol: '1'
+      datecurrent: '2019-08-20T12:00Z'
+      datecurrentEpoch: 1566302435000
+      pooownerunit: AKAKS
+      fireyear: 2019
+      localincidentidentifier: '901736'
+      incidenttypecategory: WF
+      owneragency: State
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 1800
+      FireCause: Human
+      ModifiedOnDateTime: '2019-08-20T04:00Z'
+      ModifiedOnDateTimeEpoch: 1566273600000
+      PercentContained: 5
+      UniqueFireIdentifier: 2019-AKMSS-901736
+      FireDiscoveryDateTime: '2019-08-17T22:29Z'
+      FireDiscoveryDateTimeEpoch: 1566080978000
+      Fire_Name: Deshka Landing
+      Name: Deshka Landing
+      Source: GEOMAC
+      Hashtag: '#DeshkaLandingFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-20T18:01:35.021Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKMSS-901736
     Lon: -150.16335307392606
     Lat: 61.70833560406284
     id: 129297
     Name: Deshka Landing
     Fire_Name: Deshka Landing
     UniqueFireIdentifier: 2019-AKMSS-901736
-    DailyAcres: 950
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 1800
+    PercentContained: 5
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-20T04:00Z'
+    ICS209ReportDateTimeEpoch: 1566273600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 31547
     FireCause: Human
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 46
     FireDiscoveryDateTime: '2019-08-17T22:29Z'
     FireDiscoveryDateTimeEpoch: 1566080978000
     DispatchCenterID: AKMSSC
     LocalIncidentIdentifier: '901736'
     POOCounty: Matanuska-Susitna
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-08-18T23:41Z'
-    ModifiedOnDateTimeEpoch: 1566171671000
+    ModifiedOnDateTime: '2019-08-20T04:00Z'
+    ModifiedOnDateTimeEpoch: 1566273600000
     ModifiedBySystem: ifm
     popupinfo: null
-    calc_symboltype: ImsrOther
+    calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-AKMSS-901736
-    ModifiedOnDateTime_Raw: '2019-08-18T23:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566171671000
+    ModifiedOnDateTime_Raw: '2019-08-20T17:40Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566322828000
     Hashtag: '#DeshkaLandingFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-18T20:17Z'
@@ -63618,7 +63684,7 @@ Database:
       Acres: 1361.58670058
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T17:06:17.318Z'
+          RetrievedOn: '2019-08-20T18:01:42.524Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -63639,8 +63705,8 @@ Database:
     Final_Fire_Name: Deshka Landing Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-18T23:41Z-PER-2019-08-18T20:17Z-ID-2019-AKMSS-901736-NAME-DeshkaLanding-S-N
-      Code: c8ff2cf6c9433df2d46b2e20d7c3d63ced334dae09dbdaf0a6a9503e5198311b
+        UPD-2019-08-20T04:00Z-PER-2019-08-18T20:17Z-ID-2019-AKMSS-901736-NAME-DeshkaLanding-S-N
+      Code: 99a9489af1f365aa33142242e9c3e715a34317eab50c36c359c70d0d8f7244e0
   2019-AKMSS-901738:
     Source_NFSA_Join:
       Lon: -150.05785492695907
