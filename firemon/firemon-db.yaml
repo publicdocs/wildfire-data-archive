@@ -63836,36 +63836,36 @@ Database:
       DailyAcres: 350
       PercentContained: 95
       FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-08-20T01:00Z'
+      ICS209ReportDateTimeEpoch: 1566262800000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 1
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 17
       FireDiscoveryDateTime: '2019-08-19T18:58Z'
       FireDiscoveryDateTimeEpoch: 1566241115000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190255'
       POOCounty: Cottle
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-20T00:51Z'
-      ModifiedOnDateTimeEpoch: 1566262307000
-      ModifiedBySystem: wires
+      ModifiedOnDateTime: '2019-08-20T01:00Z'
+      ModifiedOnDateTimeEpoch: 1566262800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190255
-      ModifiedOnDateTime_Raw: '2019-08-20T00:51Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566262307000
+      ModifiedOnDateTime_Raw: '2019-08-20T02:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566268081000
       Hashtag: '#SideOatsFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-20T01:01:35.689Z'
+          RetrievedOn: '2019-08-20T02:30:52.167Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63873,6 +63873,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -100.39917515654012
+      Lat: 33.90000577667148
+      objectid: 32
+      latitude: 33.9
+      longitude: -100.39916667
+      acres: 350
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-08-20T01:00Z'
+      reportdatetimeEpoch: 1566262800000
+      percentcontained: 95
+      uniquefireidentifier: 2019-TXTXS-190255
+      firediscoverydatetime: '2019-08-19T18:58Z'
+      firediscoverydatetimeEpoch: 1566241115000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Side Oats
+      iscomplex: 'false'
+      irwinid: '{1525A6DB-80EB-415F-BF54-74614CC3E8F3}'
+      irwinmodifiedon: '2019-08-20T02:28Z'
+      irwinmodifiedonEpoch: 1566268081000
+      mapsymbol: '1'
+      datecurrent: '2019-08-19T20:30Z'
+      datecurrentEpoch: 1566246628000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190255'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 350
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-20T01:00Z'
+      ModifiedOnDateTimeEpoch: 1566262800000
+      PercentContained: 95
+      UniqueFireIdentifier: 2019-TXTXS-190255
+      FireDiscoveryDateTime: '2019-08-19T18:58Z'
+      FireDiscoveryDateTimeEpoch: 1566241115000
+      Fire_Name: Side Oats
+      Name: Side Oats
+      Source: GEOMAC
+      Hashtag: '#SideOatsFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-20T02:30:52.168Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190255
     Lon: -100.39917466704158
     Lat: 33.9000047713758
     id: 129505
@@ -63882,31 +63948,31 @@ Database:
     DailyAcres: 350
     PercentContained: 95
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-08-20T01:00Z'
+    ICS209ReportDateTimeEpoch: 1566262800000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 1
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 17
     FireDiscoveryDateTime: '2019-08-19T18:58Z'
     FireDiscoveryDateTimeEpoch: 1566241115000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190255'
     POOCounty: Cottle
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-20T00:51Z'
-    ModifiedOnDateTimeEpoch: 1566262307000
-    ModifiedBySystem: wires
+    ModifiedOnDateTime: '2019-08-20T01:00Z'
+    ModifiedOnDateTimeEpoch: 1566262800000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190255
-    ModifiedOnDateTime_Raw: '2019-08-20T00:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566262307000
+    ModifiedOnDateTime_Raw: '2019-08-20T02:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566268081000
     Hashtag: '#SideOatsFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -63918,8 +63984,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Side Oats Fire
     _Update:
-      UpdateId: 'UPD-2019-08-20T00:51Z-PER-none-ID-2019-TXTXS-190255-NAME-SideOats-S-N'
-      Code: 498c981e5b32fad8496c199e3bcb4685124d9149c79ddf0876ee08d7d7f28e4a
+      UpdateId: 'UPD-2019-08-20T01:00Z-PER-none-ID-2019-TXTXS-190255-NAME-SideOats-S-N'
+      Code: 2dace3411531fa36fc7722a54d5650a9af02edc10b186883169a1355fadea75d
   2019-MTLG29-000170:
     Source_NFSA_Join:
       Lon: -106.53171260029316
@@ -64344,3 +64410,98 @@ Database:
       UpdateId: >-
         UPD-2019-08-20T01:03Z-PER-none-ID-CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c-NAME-GainesFire-S-C
       Code: b23c0b8e56d5011fb2666e0e39524900cb49885b4ec1cf923467af188e6619fb
+  2019-CASQF-001708:
+    Source_NFSA_Join:
+      Lon: -118.11048457288186
+      Lat: 36.09911479976353
+      id: 128108
+      Name: BRODER
+      Fire_Name: BRODER
+      UniqueFireIdentifier: 2019-CASQF-001708
+      DailyAcres: 97
+      PercentContained: 1
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-08-20T00:00Z'
+      ICS209ReportDateTimeEpoch: 1566259200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 75000
+      FireCause: Natural
+      TotalIncidentPersonnel: 55
+      FireDiscoveryDateTime: '2019-08-08T15:00Z'
+      FireDiscoveryDateTimeEpoch: 1565276400000
+      DispatchCenterID: CACCCC
+      LocalIncidentIdentifier: 001708
+      POOCounty: Tulare
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-20T00:00Z'
+      ModifiedOnDateTimeEpoch: 1566259200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CASQF-001708
+      ModifiedOnDateTime_Raw: '2019-08-20T02:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566267928000
+      Hashtag: '#BroderFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-20T02:30:52.167Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -118.11048457288186
+    Lat: 36.09911479976353
+    id: 128108
+    Name: BRODER
+    Fire_Name: BRODER
+    UniqueFireIdentifier: 2019-CASQF-001708
+    DailyAcres: 97
+    PercentContained: 1
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-08-20T00:00Z'
+    ICS209ReportDateTimeEpoch: 1566259200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 75000
+    FireCause: Natural
+    TotalIncidentPersonnel: 55
+    FireDiscoveryDateTime: '2019-08-08T15:00Z'
+    FireDiscoveryDateTimeEpoch: 1565276400000
+    DispatchCenterID: CACCCC
+    LocalIncidentIdentifier: 001708
+    POOCounty: Tulare
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-20T00:00Z'
+    ModifiedOnDateTimeEpoch: 1566259200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CASQF-001708
+    ModifiedOnDateTime_Raw: '2019-08-20T02:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566267928000
+    Hashtag: '#BroderFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CASQF
+    unitMention: '@SequoiaForest'
+    Final_Fire_Name: Broder Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-20T00:00Z-PER-none-ID-2019-CASQF-001708-NAME-BRODER-S-N'
+      Code: 3a5532b4106ae61be4b01d67099b6e25c2ff17f2edfdf0b48d648b4a17a31eb6
