@@ -63649,39 +63649,39 @@ Database:
       Name: Mckinley
       Fire_Name: Mckinley
       UniqueFireIdentifier: 2019-AKMSS-901738
-      DailyAcres: 1800
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 2000
+      PercentContained: 0
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 2 Team
+      ICS209ReportDateTime: '2019-08-20T01:30Z'
+      ICS209ReportDateTimeEpoch: 1566264600000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 138215
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 101
       FireDiscoveryDateTime: '2019-08-18T00:20Z'
       FireDiscoveryDateTimeEpoch: 1566087627000
       DispatchCenterID: AKMSSC
       LocalIncidentIdentifier: '901738'
       POOCounty: Matanuska-Susitna
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2019-08-19T06:15Z'
-      ModifiedOnDateTimeEpoch: 1566195352000
-      ModifiedBySystem: ifm
+      ModifiedOnDateTime: '2019-08-20T01:30Z'
+      ModifiedOnDateTimeEpoch: 1566264600000
+      ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: ImsrOther
+      calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AKMSS-901738
-      ModifiedOnDateTime_Raw: '2019-08-19T06:15Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566195352000
+      ModifiedOnDateTime_Raw: '2019-08-20T06:21Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566282117000
       Hashtag: '#MckinleyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T06:31:20.872Z'
+          RetrievedOn: '2019-08-20T06:30:27.665Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63689,40 +63689,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -150.05785663299037
+      Lat: 62.03100155842389
+      objectid: 29
+      latitude: 62.031
+      longitude: -150.057833
+      acres: 2000
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-08-20T01:30Z'
+      reportdatetimeEpoch: 1566264600000
+      percentcontained: 0
+      uniquefireidentifier: 2019-AKMSS-901738
+      firediscoverydatetime: '2019-08-18T00:20Z'
+      firediscoverydatetimeEpoch: 1566087627000
+      complexparentirwinid: null
+      pooresponsibleunit: AKMSS
+      incidentname: Mckinley
+      iscomplex: 'false'
+      irwinid: '{61A7374C-9361-4D15-8BD2-FD6C6C47C1F9}'
+      irwinmodifiedon: '2019-08-20T06:21Z'
+      irwinmodifiedonEpoch: 1566282118000
+      mapsymbol: '1'
+      datecurrent: '2019-08-20T00:30Z'
+      datecurrentEpoch: 1566261027000
+      pooownerunit: AKPRI
+      fireyear: 2019
+      localincidentidentifier: '901738'
+      incidenttypecategory: WF
+      owneragency: Private
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 2000
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-20T01:30Z'
+      ModifiedOnDateTimeEpoch: 1566264600000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-AKMSS-901738
+      FireDiscoveryDateTime: '2019-08-18T00:20Z'
+      FireDiscoveryDateTimeEpoch: 1566087627000
+      Fire_Name: Mckinley
+      Name: Mckinley
+      Source: GEOMAC
+      Hashtag: '#MckinleyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-20T06:30:27.666Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKMSS-901738
     Lon: -150.05785492695907
     Lat: 62.031003550369014
     id: 129315
     Name: Mckinley
     Fire_Name: Mckinley
     UniqueFireIdentifier: 2019-AKMSS-901738
-    DailyAcres: 1800
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 2000
+    PercentContained: 0
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 2 Team
+    ICS209ReportDateTime: '2019-08-20T01:30Z'
+    ICS209ReportDateTimeEpoch: 1566264600000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 138215
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 101
     FireDiscoveryDateTime: '2019-08-18T00:20Z'
     FireDiscoveryDateTimeEpoch: 1566087627000
     DispatchCenterID: AKMSSC
     LocalIncidentIdentifier: '901738'
     POOCounty: Matanuska-Susitna
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-08-19T06:15Z'
-    ModifiedOnDateTimeEpoch: 1566195352000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-08-20T01:30Z'
+    ModifiedOnDateTimeEpoch: 1566264600000
+    ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: ImsrOther
+    calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-AKMSS-901738
-    ModifiedOnDateTime_Raw: '2019-08-19T06:15Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566195352000
+    ModifiedOnDateTime_Raw: '2019-08-20T06:21Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566282117000
     Hashtag: '#MckinleyFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-18T20:17Z'
@@ -63731,7 +63797,7 @@ Database:
       Acres: 1540.64087208
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-19T17:06:13.939Z'
+          RetrievedOn: '2019-08-20T06:30:38.147Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -63752,8 +63818,8 @@ Database:
     Final_Fire_Name: Mckinley Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-19T06:15Z-PER-2019-08-18T20:17Z-ID-2019-AKMSS-901738-NAME-Mckinley-S-N
-      Code: 5118f642a1007cb74a41e39f01118e03b266b5f8b8e7ab64a2deb1793a22ac4a
+        UPD-2019-08-20T01:30Z-PER-2019-08-18T20:17Z-ID-2019-AKMSS-901738-NAME-Mckinley-S-N
+      Code: 0568560edd56165411235c78bff46ddd6cfbf611ac63e645651ec6bb36be6098
   2019-OKOKS-100116:
     Source_NFSA_Join:
       Lon: -95.3656715849932
