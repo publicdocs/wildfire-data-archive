@@ -65471,38 +65471,38 @@ Database:
       Fire_Name: Caribou Lake
       UniqueFireIdentifier: 2019-AKKKS-903754
       DailyAcres: 700
-      PercentContained: null
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 10
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-21T15:00Z'
+      ICS209ReportDateTimeEpoch: 1566399600000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 216200
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 28
       FireDiscoveryDateTime: '2019-08-19T22:57Z'
       FireDiscoveryDateTimeEpoch: 1566255464000
       DispatchCenterID: AKKIDC
       LocalIncidentIdentifier: '903754'
       POOCounty: Kenai Peninsula
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-08-21T03:03Z'
-      ModifiedOnDateTimeEpoch: 1566356592000
-      ModifiedBySystem: ifm
+      ModifiedOnDateTime: '2019-08-21T15:00Z'
+      ModifiedOnDateTimeEpoch: 1566399600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AKKKS-903754
-      ModifiedOnDateTime_Raw: '2019-08-21T03:03Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566356592000
+      ModifiedOnDateTime_Raw: '2019-08-21T17:18Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566407917000
       Hashtag: '#CaribouLakeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-21T03:31:24.340Z'
+          RetrievedOn: '2019-08-21T17:31:50.976Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -65510,6 +65510,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -151.11552215632648
+      Lat: 59.91350152759835
+      objectid: 33
+      latitude: 59.9135
+      longitude: -151.1155
+      acres: 700
+      gacc: AKCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AK
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-21T15:00Z'
+      reportdatetimeEpoch: 1566399600000
+      percentcontained: 10
+      uniquefireidentifier: 2019-AKKKS-903754
+      firediscoverydatetime: '2019-08-19T22:57Z'
+      firediscoverydatetimeEpoch: 1566255464000
+      complexparentirwinid: null
+      pooresponsibleunit: AKKKS
+      incidentname: Caribou Lake
+      iscomplex: 'false'
+      irwinid: '{09A79D34-4B12-4AE1-AEB9-434CEF5093A3}'
+      irwinmodifiedon: '2019-08-21T17:18Z'
+      irwinmodifiedonEpoch: 1566407918000
+      mapsymbol: '1'
+      datecurrent: '2019-08-21T11:30Z'
+      datecurrentEpoch: 1566387029000
+      pooownerunit: AKAKS
+      fireyear: 2019
+      localincidentidentifier: '903754'
+      incidenttypecategory: WF
+      owneragency: State
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 700
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-21T15:00Z'
+      ModifiedOnDateTimeEpoch: 1566399600000
+      PercentContained: 10
+      UniqueFireIdentifier: 2019-AKKKS-903754
+      FireDiscoveryDateTime: '2019-08-19T22:57Z'
+      FireDiscoveryDateTimeEpoch: 1566255464000
+      Fire_Name: Caribou Lake
+      Name: Caribou Lake
+      Source: GEOMAC
+      Hashtag: '#CaribouLakeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-21T17:31:50.976Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AKKKS-903754
     Lon: -151.11552235932857
     Lat: 59.913501143923654
     id: 129555
@@ -65517,33 +65583,33 @@ Database:
     Fire_Name: Caribou Lake
     UniqueFireIdentifier: 2019-AKKKS-903754
     DailyAcres: 700
-    PercentContained: null
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 10
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-21T15:00Z'
+    ICS209ReportDateTimeEpoch: 1566399600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 216200
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 28
     FireDiscoveryDateTime: '2019-08-19T22:57Z'
     FireDiscoveryDateTimeEpoch: 1566255464000
     DispatchCenterID: AKKIDC
     LocalIncidentIdentifier: '903754'
     POOCounty: Kenai Peninsula
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-08-21T03:03Z'
-    ModifiedOnDateTimeEpoch: 1566356592000
-    ModifiedBySystem: ifm
+    ModifiedOnDateTime: '2019-08-21T15:00Z'
+    ModifiedOnDateTimeEpoch: 1566399600000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AKKKS-903754
-    ModifiedOnDateTime_Raw: '2019-08-21T03:03Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566356592000
+    ModifiedOnDateTime_Raw: '2019-08-21T17:18Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566407917000
     Hashtag: '#CaribouLakeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -65555,8 +65621,8 @@ Database:
     unitMention: Kenai-Kodiak Area Forestry
     Final_Fire_Name: Caribou Lake Fire
     _Update:
-      UpdateId: 'UPD-2019-08-21T03:03Z-PER-none-ID-2019-AKKKS-903754-NAME-CaribouLake-S-N'
-      Code: 8f7f7401a81ca08bf2589fa3133a949597e5bca4f041861ae11870b4c442af3f
+      UpdateId: 'UPD-2019-08-21T15:00Z-PER-none-ID-2019-AKKKS-903754-NAME-CaribouLake-S-N'
+      Code: 575874180af72b03bf7eae4932997866637fb47388fa8ac7aa2a13f3dbbb6179
   2019-ORMAF-019204:
     Source_NFSA_Join:
       Lon: -118.46051312333901
