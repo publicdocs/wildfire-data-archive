@@ -60916,120 +60916,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-18T02:00Z-PER-none-ID-2019-TXTXS-190227-NAME-HendersonRobertson-S-N
       Code: cfafcb8ef48440f59f855c8f36e5ba19ea1ab84ae990ce79ea79a767ef0d4d6a
-  2019-ORLAD-000243:
-    Source_NFSA_Join:
-      Lon: -122.17541513243972
-      Lat: 42.03249312517715
-      id: 127746
-      Name: Ward
-      Fire_Name: Ward
-      UniqueFireIdentifier: 2019-ORLAD-000243
-      DailyAcres: 1301
-      PercentContained: 91
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-18T01:15Z'
-      ICS209ReportDateTimeEpoch: 1566090900000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 3283000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 118
-      FireDiscoveryDateTime: '2019-08-09T20:22Z'
-      FireDiscoveryDateTimeEpoch: 1565382120000
-      DispatchCenterID: ORLFC
-      LocalIncidentIdentifier: '000243'
-      POOCounty: Klamath
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-18T01:15Z'
-      ModifiedOnDateTimeEpoch: 1566090900000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-ORLAD-000243
-      ModifiedOnDateTime_Raw: '2019-08-18T01:33Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566092027000
-      Hashtag: '#WardFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-18T02:01:53.687Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -122.17541513243972
-    Lat: 42.03249312517715
-    id: 127746
-    Name: Ward
-    Fire_Name: Ward
-    UniqueFireIdentifier: 2019-ORLAD-000243
-    DailyAcres: 1301
-    PercentContained: 91
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-18T01:15Z'
-    ICS209ReportDateTimeEpoch: 1566090900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3283000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 118
-    FireDiscoveryDateTime: '2019-08-09T20:22Z'
-    FireDiscoveryDateTimeEpoch: 1565382120000
-    DispatchCenterID: ORLFC
-    LocalIncidentIdentifier: '000243'
-    POOCounty: Klamath
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-18T01:15Z'
-    ModifiedOnDateTimeEpoch: 1566090900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-ORLAD-000243
-      - CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
-    ModifiedOnDateTime_Raw: '2019-08-18T01:33Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566092027000
-    Hashtag: '#WardFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-14T22:30Z'
-    PerimeterData:
-      DateTime: '2019-08-14T22:30Z'
-      Acres: 1299.64763324
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-18T02:01:57.853Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: ORLAD
-    unitMention: Lakeview District
-    Final_Fire_Name: Ward Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-18T01:15Z-PER-2019-08-14T22:30Z-ID-2019-ORLAD-000243-NAME-Ward-S-N
-      Code: fdbec8ac844b52f35c9f74fdf42bc956bac0de5da45ac5ded509e3b8e3b7cbb9
   2019-TXTXS-190234:
     Source_NFSA_Join:
       Lon: -100.52693306674905
@@ -67212,3 +67098,123 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-22T21:00Z-PER-none-ID-2019-COGMF-000171-NAME-Sparling-S-N'
       Code: 61b02ff71bb4a864efa1980d3dfb8c6e9a00cc5479ab2ecd23937ffb50e90ed1
+  CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9:
+    Source_CALFIRE:
+      Lon: -122.175
+      Lat: 42.033
+      incident_name: Ward Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-08-22T23:33Z'
+      incident_date_last_updateEpoch: 1566516827000
+      incident_date_created: '2019-08-10T06:08Z'
+      incident_date_createdEpoch: 1565417305000
+      incident_administrative_unit: Oregon Department of Forestry
+      incident_administrative_unit_url: ''
+      incident_county: State of Oregon
+      incident_location: 'Highway 66 and Ward Rd, 13 miles west of Keno, Oregon'
+      incident_acres_burned: 1301
+      incident_containment: 100
+      incident_control: All CAL FIRE Resources have been released from this incident.
+      incident_cooperating_agencies: Southwest Oregon District - Oregon Department of Forestry
+      incident_longitude: -122.175
+      incident_latitude: 42.033
+      incident_type: Wildfire
+      incident_id: e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/9/ward-fire/'
+      incident_date_extinguished: '2019-08-18 16:33:00'
+      incident_dateonly_extinguished: '2019-08-18'
+      incident_dateonly_created: '2019-08-09'
+      is_active: 'N'
+      Fire_Name: Ward Fire
+      ModifiedOnDateTime: '2019-08-22T23:33Z'
+      ModifiedOnDateTimeEpoch: 1566516827000
+      DailyAcres: 1301
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+      Name: Ward Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#WardFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-22T23:34:35.973Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+    Lon: -122.175
+    Lat: 42.033
+    incident_name: Ward Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-08-22T23:33Z'
+    incident_date_last_updateEpoch: 1566516827000
+    incident_date_created: '2019-08-10T06:08Z'
+    incident_date_createdEpoch: 1565417305000
+    incident_administrative_unit: Oregon Department of Forestry
+    incident_administrative_unit_url: ''
+    incident_county: State of Oregon
+    incident_location: 'Highway 66 and Ward Rd, 13 miles west of Keno, Oregon'
+    incident_acres_burned: 1301
+    incident_containment: 100
+    incident_control: All CAL FIRE Resources have been released from this incident.
+    incident_cooperating_agencies: Southwest Oregon District - Oregon Department of Forestry
+    incident_longitude: -122.175
+    incident_latitude: 42.033
+    incident_type: Wildfire
+    incident_id: e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/9/ward-fire/'
+    incident_date_extinguished: '2019-08-18 16:33:00'
+    incident_dateonly_extinguished: '2019-08-18'
+    incident_dateonly_created: '2019-08-09'
+    is_active: 'N'
+    Fire_Name: Ward Fire
+    ModifiedOnDateTime: '2019-08-22T23:33Z'
+    ModifiedOnDateTimeEpoch: 1566516827000
+    DailyAcres: 1301
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+    Name: Ward Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#WardFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+    _CorrelationIds:
+      - CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9
+      - 2019-ORLAD-000243
+    PerimDateTime: '2019-08-14T22:30Z'
+    PerimeterData:
+      DateTime: '2019-08-14T22:30Z'
+      Acres: 1299.64763324
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-22T23:34:43.330Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: e3d66b1b
+    unitMention: null
+    Final_Fire_Name: Ward Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-22T23:33Z-PER-2019-08-14T22:30Z-ID-CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9-NAME-WardFire-S-C
+      Code: bb854a430de35a807fb32ecc7930699b6fb4ee359f0de46a36b667846592862e
