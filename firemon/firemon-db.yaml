@@ -69215,108 +69215,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-24T23:00Z-PER-none-ID-2019-NMBAP-000439-NAME-Redondo-S-N'
       Code: d4b0bcbcfa293370e6fe8ffdbbee48c3abe1ff9239c121853001f337a1855805
-  CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397:
-    Source_CALFIRE:
-      Lon: -120.029722
-      Lat: 39.892222
-      incident_name: Long Valley Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-08-25T00:27Z'
-      incident_date_last_updateEpoch: 1566692853000
-      incident_date_created: '2019-08-25T00:25Z'
-      incident_date_createdEpoch: 1566692704000
-      incident_administrative_unit: Bureau of Land Management
-      incident_administrative_unit_url: ''
-      incident_county: Lassen
-      incident_location: 'Off Highway 395 and Red Rock Road, North of Hallelujah Junction'
-      incident_acres_burned: 150
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: Bureau of Land Management
-      incident_longitude: -120.029722
-      incident_latitude: 39.892222
-      incident_type: Wildfire
-      incident_id: 2ce810c9-88f1-4efe-9254-8cbd339d2397
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/long-valley-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-08-24'
-      is_active: 'Y'
-      Fire_Name: Long Valley Fire
-      ModifiedOnDateTime: '2019-08-25T00:27Z'
-      ModifiedOnDateTimeEpoch: 1566692853000
-      DailyAcres: 150
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
-      Name: Long Valley Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#LongValleyFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=2ce810c9-88f1-4efe-9254-8cbd339d2397
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-25T00:51:12.178Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
-    Lon: -120.029722
-    Lat: 39.892222
-    incident_name: Long Valley Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-08-25T00:27Z'
-    incident_date_last_updateEpoch: 1566692853000
-    incident_date_created: '2019-08-25T00:25Z'
-    incident_date_createdEpoch: 1566692704000
-    incident_administrative_unit: Bureau of Land Management
-    incident_administrative_unit_url: ''
-    incident_county: Lassen
-    incident_location: 'Off Highway 395 and Red Rock Road, North of Hallelujah Junction'
-    incident_acres_burned: 150
-    incident_containment: 0
-    incident_control: ''
-    incident_cooperating_agencies: Bureau of Land Management
-    incident_longitude: -120.029722
-    incident_latitude: 39.892222
-    incident_type: Wildfire
-    incident_id: 2ce810c9-88f1-4efe-9254-8cbd339d2397
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/long-valley-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-08-24'
-    is_active: 'Y'
-    Fire_Name: Long Valley Fire
-    ModifiedOnDateTime: '2019-08-25T00:27Z'
-    ModifiedOnDateTimeEpoch: 1566692853000
-    DailyAcres: 150
-    PercentContained: 0
-    UniqueFireIdentifier: CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
-    Name: Long Valley Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#LongValleyFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=2ce810c9-88f1-4efe-9254-8cbd339d2397
-    _CorrelationIds:
-      - CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 2ce810c9
-    unitMention: null
-    Final_Fire_Name: Long Valley Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-25T00:27Z-PER-none-ID-CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397-NAME-LongValleyFire-S-C
-      Code: 25d904df54d8ab274541743e020f7d53e14855cc5d9d4d565d4611687a6a2e03
   2019-CASHU-009030:
     Source_CALFIRE:
       Lon: -122.241944
@@ -69633,3 +69531,99 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-25T00:51Z-PER-none-ID-2019-TXTXS-190282-NAME-CRM-S-N'
       Code: d9c949114bc20cfbd40269b86a76c167175aae4b6dff7857f5dbc3df035e81db
+  2019-NVCCD-030580:
+    Source_NFSA_Join:
+      Lon: -120.0254142808866
+      Lat: 39.87968635016533
+      id: 130227
+      Name: Long Valley
+      Fire_Name: Long Valley
+      UniqueFireIdentifier: 2019-NVCCD-030580
+      DailyAcres: 400
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-08-24T21:51Z'
+      FireDiscoveryDateTimeEpoch: 1566683460000
+      DispatchCenterID: NVSFC
+      LocalIncidentIdentifier: 030580
+      POOCounty: Lassen
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-25T01:28Z'
+      ModifiedOnDateTimeEpoch: 1566696521000
+      ModifiedBySystem: wfdss
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NVCCD-030580
+      ModifiedOnDateTime_Raw: '2019-08-25T01:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566696521000
+      Hashtag: '#LongValleyFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-25T01:40:10.781Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -120.0254142808866
+    Lat: 39.87968635016533
+    id: 130227
+    Name: Long Valley
+    Fire_Name: Long Valley
+    UniqueFireIdentifier: 2019-NVCCD-030580
+    DailyAcres: 400
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-08-24T21:51Z'
+    FireDiscoveryDateTimeEpoch: 1566683460000
+    DispatchCenterID: NVSFC
+    LocalIncidentIdentifier: 030580
+    POOCounty: Lassen
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-25T01:28Z'
+    ModifiedOnDateTimeEpoch: 1566696521000
+    ModifiedBySystem: wfdss
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NVCCD-030580
+      - CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
+    ModifiedOnDateTime_Raw: '2019-08-25T01:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566696521000
+    Hashtag: '#LongValleyFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: NVCCD
+    unitMention: Carson City District Office
+    Final_Fire_Name: Long Valley Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-25T01:28Z-PER-none-ID-2019-NVCCD-030580-NAME-LongValley-S-N'
+      Code: 1fac128625f252fb9fbdafd488bd12ca68ad14f786d7e57d14f047ceb18789f6
