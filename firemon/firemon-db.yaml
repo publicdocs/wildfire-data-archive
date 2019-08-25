@@ -68286,39 +68286,39 @@ Database:
       Name: WAR BONNET
       Fire_Name: WAR BONNET
       UniqueFireIdentifier: 2019-AZA3S-001523
-      DailyAcres: 600
-      PercentContained: 0
+      DailyAcres: 1450
+      PercentContained: 31
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-23T18:15Z'
-      ICS209ReportDateTimeEpoch: 1566584100000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-08-25T20:45Z'
+      ICS209ReportDateTimeEpoch: 1566765900000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 20000
+      EstimatedCostToDate: 85000
       FireCause: Unknown
-      TotalIncidentPersonnel: 30
+      TotalIncidentPersonnel: 72
       FireDiscoveryDateTime: '2019-08-22T01:27Z'
       FireDiscoveryDateTimeEpoch: 1566437220000
       DispatchCenterID: AZADC
       LocalIncidentIdentifier: '001523'
       POOCounty: Cochise
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-23T18:15Z'
-      ModifiedOnDateTimeEpoch: 1566584100000
+      ModifiedOnDateTime: '2019-08-25T20:45Z'
+      ModifiedOnDateTimeEpoch: 1566765900000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZA3S-001523
-      ModifiedOnDateTime_Raw: '2019-08-23T21:23Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566595418000
+      ModifiedOnDateTime_Raw: '2019-08-25T21:04Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566767070000
       Hashtag: '#WarBonnetFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-23T21:30:39.398Z'
+          RetrievedOn: '2019-08-25T21:31:05.767Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -68326,40 +68326,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -110.0687105355013
+      Lat: 32.25172504638728
+      objectid: 36
+      latitude: 32.25172
+      longitude: -110.0687
+      acres: 1450
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-08-25T20:45Z'
+      reportdatetimeEpoch: 1566765900000
+      percentcontained: 31
+      uniquefireidentifier: 2019-AZA3S-001523
+      firediscoverydatetime: '2019-08-22T01:27Z'
+      firediscoverydatetimeEpoch: 1566437220000
+      complexparentirwinid: null
+      pooresponsibleunit: AZA3S
+      incidentname: WAR BONNET
+      iscomplex: 'false'
+      irwinid: '{96F9FEEE-822C-4FA9-98AC-38C77D614B77}'
+      irwinmodifiedon: '2019-08-25T21:04Z'
+      irwinmodifiedonEpoch: 1566767070000
+      mapsymbol: '1'
+      datecurrent: '2019-08-25T15:30Z'
+      datecurrentEpoch: 1566747030000
+      pooownerunit: AZAZS
+      fireyear: 2019
+      localincidentidentifier: '001523'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1450
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-25T20:45Z'
+      ModifiedOnDateTimeEpoch: 1566765900000
+      PercentContained: 31
+      UniqueFireIdentifier: 2019-AZA3S-001523
+      FireDiscoveryDateTime: '2019-08-22T01:27Z'
+      FireDiscoveryDateTimeEpoch: 1566437220000
+      Fire_Name: WAR BONNET
+      Name: WAR BONNET
+      Source: GEOMAC
+      Hashtag: '#WarBonnetFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-25T21:31:05.768Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZA3S-001523
     Lon: -110.09020893527583
     Lat: 32.245426802561305
     id: 129892
     Name: WAR BONNET
     Fire_Name: WAR BONNET
     UniqueFireIdentifier: 2019-AZA3S-001523
-    DailyAcres: 600
-    PercentContained: 0
+    DailyAcres: 1450
+    PercentContained: 31
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-23T18:15Z'
-    ICS209ReportDateTimeEpoch: 1566584100000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-08-25T20:45Z'
+    ICS209ReportDateTimeEpoch: 1566765900000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 20000
+    EstimatedCostToDate: 85000
     FireCause: Unknown
-    TotalIncidentPersonnel: 30
+    TotalIncidentPersonnel: 72
     FireDiscoveryDateTime: '2019-08-22T01:27Z'
     FireDiscoveryDateTimeEpoch: 1566437220000
     DispatchCenterID: AZADC
     LocalIncidentIdentifier: '001523'
     POOCounty: Cochise
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-23T18:15Z'
-    ModifiedOnDateTimeEpoch: 1566584100000
+    ModifiedOnDateTime: '2019-08-25T20:45Z'
+    ModifiedOnDateTimeEpoch: 1566765900000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZA3S-001523
-    ModifiedOnDateTime_Raw: '2019-08-23T21:23Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566595418000
+    ModifiedOnDateTime_Raw: '2019-08-25T21:04Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566767070000
     Hashtag: '#WarBonnetFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -68371,8 +68437,8 @@ Database:
     unitMention: '@AZStateForestry'
     Final_Fire_Name: War Bonnet Fire
     _Update:
-      UpdateId: 'UPD-2019-08-23T18:15Z-PER-none-ID-2019-AZA3S-001523-NAME-WARBONNET-S-N'
-      Code: e666d046406273524424a89022492911460b267c05357c3e2a6f25b3aedcc787
+      UpdateId: 'UPD-2019-08-25T20:45Z-PER-none-ID-2019-AZA3S-001523-NAME-WARBONNET-S-N'
+      Code: 554b539e883427d7259050efb9730bf4856e2ece08d10530155bb666f5547b48
   2019-NVELD-040117:
     Source_NFSA_Join:
       Lon: -114.86661418300919
@@ -69564,21 +69630,21 @@ Database:
       LocalIncidentIdentifier: 019341
       POOCounty: Carbon
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-25T19:31Z'
-      ModifiedOnDateTimeEpoch: 1566761462000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-08-25T21:23Z'
+      ModifiedOnDateTimeEpoch: 1566768201000
+      ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WYRAD-019341
-      ModifiedOnDateTime_Raw: '2019-08-25T19:31Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566761462000
+      ModifiedOnDateTime_Raw: '2019-08-25T21:23Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566768201000
       Hashtag: '#PedroMountainFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-25T20:01:19.676Z'
+          RetrievedOn: '2019-08-25T21:31:05.767Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -69610,16 +69676,16 @@ Database:
     LocalIncidentIdentifier: 019341
     POOCounty: Carbon
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-25T19:31Z'
-    ModifiedOnDateTimeEpoch: 1566761462000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-08-25T21:23Z'
+    ModifiedOnDateTimeEpoch: 1566768201000
+    ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-WYRAD-019341
-    ModifiedOnDateTime_Raw: '2019-08-25T19:31Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566761462000
+    ModifiedOnDateTime_Raw: '2019-08-25T21:23Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566768201000
     Hashtag: '#PedroMountainFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -69632,8 +69698,8 @@ Database:
     Final_Fire_Name: Pedro Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-25T19:31Z-PER-none-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
-      Code: f5b0638f7b2dec19fd719765c44b13aaee4c83072b5397fcf0462cacb8afc75b
+        UPD-2019-08-25T21:23Z-PER-none-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
+      Code: d8c2e73e3175cf81806e6a6cce064971d01459097463a5130960a41278b6be88
   CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92:
     Source_CALFIRE:
       Lon: -120.544
