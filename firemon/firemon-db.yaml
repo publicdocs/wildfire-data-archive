@@ -37943,185 +37943,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-29T22:45Z-PER-2019-07-30T00:00Z-ID-2019-COSUA-000543-NAME-PineTree-S-N
       Code: 5fe4033b73afa8818168bcea3c8435f6f96b4fbd932572f725bccdb229946a99
-  2019-ORWWF-000609:
-    Source_NFSA_Join:
-      Lon: -117.42701037211233
-      Lat: 45.177996154509046
-      id: 125612
-      Name: Granite Gulch
-      Fire_Name: Granite Gulch
-      UniqueFireIdentifier: 2019-ORWWF-000609
-      DailyAcres: 4600
-      PercentContained: 0
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-23T23:00Z'
-      ICS209ReportDateTimeEpoch: 1566601200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 220000
-      FireCause: Natural
-      TotalIncidentPersonnel: 15
-      FireDiscoveryDateTime: '2019-07-29T00:36Z'
-      FireDiscoveryDateTimeEpoch: 1564360560000
-      DispatchCenterID: ORBMC
-      LocalIncidentIdentifier: 000609
-      POOCounty: Wallowa
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-23T23:00Z'
-      ModifiedOnDateTimeEpoch: 1566601200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-ORWWF-000609
-      ModifiedOnDateTime_Raw: '2019-08-24T00:29Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566606554000
-      Hashtag: '#GraniteGulchFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T00:31:22.923Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -117.42701352546068
-      Lat: 45.1779959675307
-      objectid: 14
-      latitude: 45.17799
-      longitude: -117.427
-      acres: 4600
-      gacc: NWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: OR
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-08-23T23:00Z'
-      reportdatetimeEpoch: 1566601200000
-      percentcontained: 0
-      uniquefireidentifier: 2019-ORWWF-000609
-      firediscoverydatetime: '2019-07-29T00:36Z'
-      firediscoverydatetimeEpoch: 1564360560000
-      complexparentirwinid: null
-      pooresponsibleunit: ORWWF
-      incidentname: Granite Gulch
-      iscomplex: 'false'
-      irwinid: '{026F0FC5-D38C-4F7B-928A-59F37BE81BAA}'
-      irwinmodifiedon: '2019-08-24T00:29Z'
-      irwinmodifiedonEpoch: 1566606554000
-      mapsymbol: '1'
-      datecurrent: '2019-08-23T18:30Z'
-      datecurrentEpoch: 1566585034000
-      pooownerunit: ORWWF
-      fireyear: 2019
-      localincidentidentifier: 000609
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 4600
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-08-23T23:00Z'
-      ModifiedOnDateTimeEpoch: 1566601200000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-ORWWF-000609
-      FireDiscoveryDateTime: '2019-07-29T00:36Z'
-      FireDiscoveryDateTimeEpoch: 1564360560000
-      Fire_Name: Granite Gulch
-      Name: Granite Gulch
-      Source: GEOMAC
-      Hashtag: '#GraniteGulchFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T00:31:22.924Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-ORWWF-000609
-    Lon: -117.42701037211233
-    Lat: 45.177996154509046
-    id: 125612
-    Name: Granite Gulch
-    Fire_Name: Granite Gulch
-    UniqueFireIdentifier: 2019-ORWWF-000609
-    DailyAcres: 4600
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-23T23:00Z'
-    ICS209ReportDateTimeEpoch: 1566601200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 220000
-    FireCause: Natural
-    TotalIncidentPersonnel: 15
-    FireDiscoveryDateTime: '2019-07-29T00:36Z'
-    FireDiscoveryDateTimeEpoch: 1564360560000
-    DispatchCenterID: ORBMC
-    LocalIncidentIdentifier: 000609
-    POOCounty: Wallowa
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-23T23:00Z'
-    ModifiedOnDateTimeEpoch: 1566601200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-ORWWF-000609
-    ModifiedOnDateTime_Raw: '2019-08-24T00:29Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566606554000
-    Hashtag: '#GraniteGulchFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-22T19:00Z'
-    PerimeterData:
-      DateTime: '2019-08-22T19:00Z'
-      Acres: 4601.60269025
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T00:31:28.166Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: ORWWF
-    unitMention: Wallowa-Whitman NF
-    Final_Fire_Name: Granite Gulch Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-23T23:00Z-PER-2019-08-22T19:00Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
-      Code: 7e5fad12f8212661158f0ee42935aba5d3e8f59252dc57a79596cf7faac3fb95
   CALFIRE-626b3431-1d91-4542-a675-cafd9ce907c9:
     Source_CALFIRE:
       Lon: -120.984167
@@ -44421,17 +44242,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566679636000
     Hashtag: '#MiddleMammFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-08-24T10:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-08-24T10:00Z'
+      Acres: 113.61920474
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T18:21:35.615Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: COWRF
     unitMention: White River NF
     Final_Fire_Name: Middle Mamm Fire
     _Update:
-      UpdateId: 'UPD-2019-08-24T20:00Z-PER-none-ID-2019-COWRF-000161-NAME-MiddleMamm-S-N'
-      Code: 6d0a5304a49c08086415a8c32fae9556da8c247dc4a46df6a597c4e10589f16a
+      UpdateId: >-
+        UPD-2019-08-24T20:00Z-PER-2019-08-24T10:00Z-ID-2019-COWRF-000161-NAME-MiddleMamm-S-N
+      Code: be6db1c8be5f7d24e7a0f2d9dff8628a48d7429a02cb78578841e4ca650ef548
   2019-WACOA-190106:
     Source_NFSA_Join:
       Lon: -118.62401548820161
@@ -56931,185 +56770,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-14T22:12Z-PER-none-ID-2019-TXTXS-190212-NAME-PeaseRiver-S-N'
       Code: 803338c65018ece6126d1ed3d82ed7ab7e38e88cf275d7edf91e9806b32dc91f
-  2019-AZGCP-000053:
-    Source_NFSA_Join:
-      Lon: -112.28561064128836
-      Lat: 36.347935635025244
-      id: 124986
-      Name: IKES
-      Fire_Name: IKES
-      UniqueFireIdentifier: 2019-AZGCP-000053
-      DailyAcres: 6020
-      PercentContained: 77
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-24T02:15Z'
-      ICS209ReportDateTimeEpoch: 1566612900000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1777000
-      FireCause: Natural
-      TotalIncidentPersonnel: 61
-      FireDiscoveryDateTime: '2019-07-25T23:31Z'
-      FireDiscoveryDateTimeEpoch: 1564097460000
-      DispatchCenterID: AZWDC
-      LocalIncidentIdentifier: '000053'
-      POOCounty: Coconino
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-24T02:15Z'
-      ModifiedOnDateTimeEpoch: 1566612900000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AZGCP-000053
-      ModifiedOnDateTime_Raw: '2019-08-24T02:28Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566613712000
-      Hashtag: '#IkesFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T02:30:53.608Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -112.28561130662155
-      Lat: 36.34793548516679
-      objectid: 9
-      latitude: 36.34793
-      longitude: -112.2856
-      acres: 6020
-      gacc: SWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AZ
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-08-24T02:15Z'
-      reportdatetimeEpoch: 1566612900000
-      percentcontained: 77
-      uniquefireidentifier: 2019-AZGCP-000053
-      firediscoverydatetime: '2019-07-25T23:31Z'
-      firediscoverydatetimeEpoch: 1564097460000
-      complexparentirwinid: null
-      pooresponsibleunit: AZGCP
-      incidentname: IKES
-      iscomplex: 'false'
-      irwinid: '{9748204A-8A87-4B99-9559-6A2BF4A785EE}'
-      irwinmodifiedon: '2019-08-24T02:28Z'
-      irwinmodifiedonEpoch: 1566613713000
-      mapsymbol: '1'
-      datecurrent: '2019-08-23T20:30Z'
-      datecurrentEpoch: 1566592237000
-      pooownerunit: AZGCP
-      fireyear: 2019
-      localincidentidentifier: '000053'
-      incidenttypecategory: WF
-      owneragency: NPS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 6020
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-08-24T02:15Z'
-      ModifiedOnDateTimeEpoch: 1566612900000
-      PercentContained: 77
-      UniqueFireIdentifier: 2019-AZGCP-000053
-      FireDiscoveryDateTime: '2019-07-25T23:31Z'
-      FireDiscoveryDateTimeEpoch: 1564097460000
-      Fire_Name: IKES
-      Name: IKES
-      Source: GEOMAC
-      Hashtag: '#IkesFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T02:30:53.609Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AZGCP-000053
-    Lon: -112.28561064128836
-    Lat: 36.347935635025244
-    id: 124986
-    Name: IKES
-    Fire_Name: IKES
-    UniqueFireIdentifier: 2019-AZGCP-000053
-    DailyAcres: 6020
-    PercentContained: 77
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-24T02:15Z'
-    ICS209ReportDateTimeEpoch: 1566612900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1777000
-    FireCause: Natural
-    TotalIncidentPersonnel: 61
-    FireDiscoveryDateTime: '2019-07-25T23:31Z'
-    FireDiscoveryDateTimeEpoch: 1564097460000
-    DispatchCenterID: AZWDC
-    LocalIncidentIdentifier: '000053'
-    POOCounty: Coconino
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-24T02:15Z'
-    ModifiedOnDateTimeEpoch: 1566612900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AZGCP-000053
-    ModifiedOnDateTime_Raw: '2019-08-24T02:28Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566613712000
-    Hashtag: '#IkesFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-22T17:00Z'
-    PerimeterData:
-      DateTime: '2019-08-22T17:00Z'
-      Acres: 5935.07850808
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T02:30:58.273Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: AZGCP
-    unitMention: Grand Canyon NP
-    Final_Fire_Name: Ikes Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-24T02:15Z-PER-2019-08-22T17:00Z-ID-2019-AZGCP-000053-NAME-IKES-S-N
-      Code: 3ea406c596613bf82fe02449fea8d16086834607ccbf19a598bf342a223c106d
   2019-IDPAF-000523:
     Source_NFSA_Join:
       Lon: -115.58611082667188
@@ -58233,13 +57893,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566771785000
     Hashtag: '#LittleBearFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-22T21:59Z'
+    PerimDateTime: '2019-08-25T00:00Z'
     PerimeterData:
-      DateTime: '2019-08-22T21:59Z'
-      Acres: 1370.29349576
+      DateTime: '2019-08-25T00:00Z'
+      Acres: 1919.82127784
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-25T22:32:13.831Z'
+          RetrievedOn: '2019-08-26T18:21:35.615Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -58260,8 +57920,8 @@ Database:
     Final_Fire_Name: Little Bear Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-25T22:15Z-PER-2019-08-22T21:59Z-ID-2019-UTDIF-000408-NAME-LittleBear-S-N
-      Code: e8fca708d16a655f886a1d04cfd268d9e33aafd5fe12e1d1513f56b1f011e8bd
+        UPD-2019-08-25T22:15Z-PER-2019-08-25T00:00Z-ID-2019-UTDIF-000408-NAME-LittleBear-S-N
+      Code: ddd6fd2e33ca78806e8cdaf41d2e08a12b8a7c628f4024ecc16ace9ae20ced09
   2019-AZCOF-000931:
     Source_NFSA_Join:
       Lon: -111.90150899210454
@@ -63232,13 +62892,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566778147000
     Hashtag: '#BroderFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-21T09:00Z'
+    PerimDateTime: '2019-08-25T19:00Z'
     PerimeterData:
-      DateTime: '2019-08-21T09:00Z'
-      Acres: 100.36564062
+      DateTime: '2019-08-25T19:00Z'
+      Acres: 260.70614949
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-26T00:32:36.673Z'
+          RetrievedOn: '2019-08-26T18:21:35.615Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -63259,8 +62919,8 @@ Database:
     Final_Fire_Name: Broder Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-26T00:00Z-PER-2019-08-21T09:00Z-ID-2019-CASQF-001708-NAME-BRODER-S-N
-      Code: 26b504b7a8a0110e1e75c48923cdbdec2dc0942e3fa98f572850dc641a4a031c
+        UPD-2019-08-26T00:00Z-PER-2019-08-25T19:00Z-ID-2019-CASQF-001708-NAME-BRODER-S-N
+      Code: 1bc14bcbd5d5a8643a8652cb9171ef696a3b7fa4d83f9adf9582b24f4bd50c83
   CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c:
     Source_CALFIRE:
       Lon: -120.177018
@@ -64443,13 +64103,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566790184000
     Hashtag: '#CaribouLakeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-21T18:00Z'
+    PerimDateTime: '2019-08-23T23:30Z'
     PerimeterData:
-      DateTime: '2019-08-21T18:00Z'
-      Acres: 688.51975795
+      DateTime: '2019-08-23T23:30Z'
+      Acres: 895.99331714
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-26T03:31:31.596Z'
+          RetrievedOn: '2019-08-26T18:21:35.615Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -64470,8 +64130,8 @@ Database:
     Final_Fire_Name: Caribou Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-26T02:00Z-PER-2019-08-21T18:00Z-ID-2019-AKKKS-903754-NAME-CaribouLake-S-N
-      Code: 1680e3babf176fb93d20f793f1f5bf4a24dc012c989a430228b7708e8cadf578
+        UPD-2019-08-26T02:00Z-PER-2019-08-23T23:30Z-ID-2019-AKKKS-903754-NAME-CaribouLake-S-N
+      Code: 533b47770337fea3883f456e53ca77bcfea70b386398714e69f14b16f19abc89
   2019-ORMAF-019204:
     Source_NFSA_Join:
       Lon: -118.46051312333901
@@ -64622,13 +64282,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566826865000
     Hashtag: '#204CowFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-24T23:31Z'
+    PerimDateTime: '2019-08-26T00:00Z'
     PerimeterData:
-      DateTime: '2019-08-24T23:31Z'
-      Acres: 2422.01980338
+      DateTime: '2019-08-26T00:00Z'
+      Acres: 2924.52927049
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-26T16:45:09.606Z'
+          RetrievedOn: '2019-08-26T18:21:35.615Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -64649,8 +64309,8 @@ Database:
     Final_Fire_Name: 204 Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-26T00:00Z-PER-2019-08-24T23:31Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
-      Code: e177d16d475ca8e09356e92812ad064e4170b3f06273b6e292b46f63d2e1aed5
+        UPD-2019-08-26T00:00Z-PER-2019-08-26T00:00Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
+      Code: f46d1cb73bcabfa5b48f35fecef807da1e6a9441e35ea46cc867f860acbf1a71
   2019-TXTXS-190262:
     Source_NFSA_Join:
       Lon: -99.75316021361986
@@ -69370,18 +69030,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566780471000
     Hashtag: '#PedroMountainFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-08-25T09:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-08-25T09:00Z'
+      Acres: 764.71196239
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T18:21:35.615Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: WYRAD
     unitMention: Rawlins Field Office
     Final_Fire_Name: Pedro Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-26T00:00Z-PER-none-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
-      Code: 91080efc0ccfa97c88e14369bbf3aaac3658c340f0150a73c3b8bb0487c8966a
+        UPD-2019-08-26T00:00Z-PER-2019-08-25T09:00Z-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
+      Code: 27e1a3a3ee713e60462fe572135a45a39f443e7255615fe6493db12320aeb578
   CALFIRE-cb87a6f4-a560-41a5-81c0-1064d0c368b6:
     Source_CALFIRE:
       Lon: -117.487578
@@ -70004,17 +69681,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566781410000
     Hashtag: '#LongValleyFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-08-24T18:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-08-24T18:00Z'
+      Acres: 1661.5046135
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T18:21:35.615Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: NVCCD
     unitMention: Carson City District Office
     Final_Fire_Name: Long Valley Fire
     _Update:
-      UpdateId: 'UPD-2019-08-26T00:00Z-PER-none-ID-2019-NVCCD-030580-NAME-LongValley-S-N'
-      Code: a3ebd7c9d21fc48ddce08994e304bff6bff84a7ff6dd16413dc9a93d50bd5951
+      UpdateId: >-
+        UPD-2019-08-26T00:00Z-PER-2019-08-24T18:00Z-ID-2019-NVCCD-030580-NAME-LongValley-S-N
+      Code: b9efff2ca3c180aabc3e16b5943ceb96f6bd9734d01818b4b864b9671fb43125
   CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19:
     Source_CALFIRE:
       Lon: -122.241944
