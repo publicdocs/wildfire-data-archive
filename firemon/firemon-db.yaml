@@ -69689,38 +69689,38 @@ Database:
       Fire_Name: '30'
       UniqueFireIdentifier: 2019-TXTXS-190284
       DailyAcres: 320
-      PercentContained: 50
+      PercentContained: 85
       FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-26T02:30Z'
+      ICS209ReportDateTimeEpoch: 1566786600000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 1
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 14
       FireDiscoveryDateTime: '2019-08-25T17:15Z'
       FireDiscoveryDateTimeEpoch: 1566753327000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190284'
       POOCounty: Brooks
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-26T01:45Z'
-      ModifiedOnDateTimeEpoch: 1566783902000
-      ModifiedBySystem: wires
+      ModifiedOnDateTime: '2019-08-26T02:30Z'
+      ModifiedOnDateTimeEpoch: 1566786600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190284
-      ModifiedOnDateTime_Raw: '2019-08-26T01:45Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566783902000
+      ModifiedOnDateTime_Raw: '2019-08-26T02:39Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566787165000
       Hashtag: '#30Fire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-26T02:02:05.237Z'
+          RetrievedOn: '2019-08-26T03:01:13.279Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -69728,6 +69728,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -98.32717430997609
+      Lat: 27.1365045679576
+      objectid: 40
+      latitude: 27.1365
+      longitude: -98.32716667
+      acres: 320
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-08-26T02:30Z'
+      reportdatetimeEpoch: 1566786600000
+      percentcontained: 85
+      uniquefireidentifier: 2019-TXTXS-190284
+      firediscoverydatetime: '2019-08-25T17:15Z'
+      firediscoverydatetimeEpoch: 1566753327000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: '30'
+      iscomplex: 'false'
+      irwinid: '{170BA079-77A8-47F5-AFF5-740099AECFA8}'
+      irwinmodifiedon: '2019-08-26T02:39Z'
+      irwinmodifiedonEpoch: 1566787165000
+      mapsymbol: '1'
+      datecurrent: '2019-08-25T21:00Z'
+      datecurrentEpoch: 1566766833000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190284'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 320
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-26T02:30Z'
+      ModifiedOnDateTimeEpoch: 1566786600000
+      PercentContained: 85
+      UniqueFireIdentifier: 2019-TXTXS-190284
+      FireDiscoveryDateTime: '2019-08-25T17:15Z'
+      FireDiscoveryDateTimeEpoch: 1566753327000
+      Fire_Name: '30'
+      Name: '30'
+      Source: GEOMAC
+      Hashtag: '#30Fire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T03:01:13.280Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190284
     Lon: -98.37434506717766
     Lat: 27.11501726382038
     id: 130316
@@ -69735,33 +69801,33 @@ Database:
     Fire_Name: '30'
     UniqueFireIdentifier: 2019-TXTXS-190284
     DailyAcres: 320
-    PercentContained: 50
+    PercentContained: 85
     FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-26T02:30Z'
+    ICS209ReportDateTimeEpoch: 1566786600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 1
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 14
     FireDiscoveryDateTime: '2019-08-25T17:15Z'
     FireDiscoveryDateTimeEpoch: 1566753327000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190284'
     POOCounty: Brooks
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-26T01:45Z'
-    ModifiedOnDateTimeEpoch: 1566783902000
-    ModifiedBySystem: wires
+    ModifiedOnDateTime: '2019-08-26T02:30Z'
+    ModifiedOnDateTimeEpoch: 1566786600000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190284
-    ModifiedOnDateTime_Raw: '2019-08-26T01:45Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566783902000
+    ModifiedOnDateTime_Raw: '2019-08-26T02:39Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566787165000
     Hashtag: '#30Fire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -69773,8 +69839,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: 30 Fire
     _Update:
-      UpdateId: 'UPD-2019-08-26T01:45Z-PER-none-ID-2019-TXTXS-190284-NAME-30-S-N'
-      Code: f8bfd9c8409f8590f2c1f652fda7b6b9b333818c53b67b0ee0157a9cced2ea57
+      UpdateId: 'UPD-2019-08-26T02:30Z-PER-none-ID-2019-TXTXS-190284-NAME-30-S-N'
+      Code: 39f616cb0313cbb8f0965b6ec345c3b30407ff5950acd4753da7ab30feb551ea
   2019-CANOD-004779:
     Source_CALFIRE:
       Lon: -120.544
