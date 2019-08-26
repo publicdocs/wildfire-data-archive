@@ -69274,240 +69274,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-25T13:39Z-PER-none-ID-2019-TXTXS-190282-NAME-CRM-S-N'
       Code: ced6690304a14da8d2dd9b78e6a634326ea0acbcce23400b5ac59de2e1934565
-  CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19:
-    Source_CALFIRE:
-      Lon: -122.241944
-      Lat: 40.715556
-      incident_name: Mountain Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-08-25T16:20Z'
-      incident_date_last_updateEpoch: 1566750045000
-      incident_date_created: '2019-08-22T18:02Z'
-      incident_date_createdEpoch: 1566496929000
-      incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
-      incident_administrative_unit_url: ''
-      incident_county: Shasta
-      incident_location: 'Bear Mountain Road and Dry Creek Road, north of Bella Vista'
-      incident_acres_burned: 600
-      incident_containment: 80
-      incident_control: >-
-        Please see Shasta County Sheriff's website under agencies for updated
-        evacuation and road closure information.
-
-
-        Evacuation Center:  Crosspointe Community Church 2960 Hartnell Road
-        Redding  96001
-
-
-        Shasta College Campus is closed
-      incident_cooperating_agencies: Shasta County Sheriff's Office
-      incident_longitude: -122.241944
-      incident_latitude: 40.715556
-      incident_type: Wildfire
-      incident_id: 1bf3e829-5fb3-43d2-9179-6c337709df19
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/22/mountain-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-08-22'
-      is_active: 'Y'
-      Fire_Name: Mountain Fire
-      ModifiedOnDateTime: '2019-08-25T16:20Z'
-      ModifiedOnDateTimeEpoch: 1566750045000
-      DailyAcres: 600
-      PercentContained: 80
-      UniqueFireIdentifier: CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19
-      Name: Mountain Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#MountainFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=1bf3e829-5fb3-43d2-9179-6c337709df19
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-25T16:23:31.345Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19
-    Source_NFSA_Join:
-      Lon: -122.24182758139469
-      Lat: 40.71563540245354
-      id: 129923
-      Name: MOUNTAIN
-      Fire_Name: MOUNTAIN
-      UniqueFireIdentifier: 2019-CASHU-009030
-      DailyAcres: 600
-      PercentContained: 70
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-25T00:15Z'
-      ICS209ReportDateTimeEpoch: 1566692100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2957360
-      FireCause: Unknown
-      TotalIncidentPersonnel: 811
-      FireDiscoveryDateTime: '2019-08-22T18:02Z'
-      FireDiscoveryDateTimeEpoch: 1566496975000
-      DispatchCenterID: CARICC
-      LocalIncidentIdentifier: 009030
-      POOCounty: Shasta
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-25T00:15Z'
-      ModifiedOnDateTimeEpoch: 1566692100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CASHU-009030
-      ModifiedOnDateTime_Raw: '2019-08-25T00:50Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566694246000
-      Hashtag: '#MountainFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-25T16:23:31.344Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -122.2418235724384
-      Lat: 40.71563518841495
-      objectid: 38
-      latitude: 40.71563
-      longitude: -122.24181
-      acres: 600
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-08-25T00:15Z'
-      reportdatetimeEpoch: 1566692100000
-      percentcontained: 70
-      uniquefireidentifier: 2019-CASHU-009030
-      firediscoverydatetime: '2019-08-22T18:02Z'
-      firediscoverydatetimeEpoch: 1566496975000
-      complexparentirwinid: null
-      pooresponsibleunit: CASHU
-      incidentname: MOUNTAIN
-      iscomplex: 'false'
-      irwinid: '{6D9A776E-17A6-4EBF-A763-5197DFB02A09}'
-      irwinmodifiedon: '2019-08-25T00:50Z'
-      irwinmodifiedonEpoch: 1566694247000
-      mapsymbol: '1'
-      datecurrent: '2019-08-25T10:00Z'
-      datecurrentEpoch: 1566727240000
-      pooownerunit: CASHU
-      fireyear: 2019
-      localincidentidentifier: 009030
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 600
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-08-25T00:15Z'
-      ModifiedOnDateTimeEpoch: 1566692100000
-      PercentContained: 70
-      UniqueFireIdentifier: 2019-CASHU-009030
-      FireDiscoveryDateTime: '2019-08-22T18:02Z'
-      FireDiscoveryDateTimeEpoch: 1566496975000
-      Fire_Name: MOUNTAIN
-      Name: MOUNTAIN
-      Source: GEOMAC
-      Hashtag: '#MountainFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-25T16:23:31.345Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CASHU-009030
-    Lon: -122.241944
-    Lat: 40.715556
-    incident_name: Mountain Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-08-25T16:20Z'
-    incident_date_last_updateEpoch: 1566750045000
-    incident_date_created: '2019-08-22T18:02Z'
-    incident_date_createdEpoch: 1566496929000
-    incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
-    incident_administrative_unit_url: ''
-    incident_county: Shasta
-    incident_location: 'Bear Mountain Road and Dry Creek Road, north of Bella Vista'
-    incident_acres_burned: 600
-    incident_containment: 80
-    incident_control: >-
-      Please see Shasta County Sheriff's website under agencies for updated
-      evacuation and road closure information.
-
-
-      Evacuation Center:  Crosspointe Community Church 2960 Hartnell Road
-      Redding  96001
-
-
-      Shasta College Campus is closed
-    incident_cooperating_agencies: Shasta County Sheriff's Office
-    incident_longitude: -122.241944
-    incident_latitude: 40.715556
-    incident_type: Wildfire
-    incident_id: 1bf3e829-5fb3-43d2-9179-6c337709df19
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/22/mountain-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-08-22'
-    is_active: 'Y'
-    Fire_Name: Mountain Fire
-    ModifiedOnDateTime: '2019-08-25T16:20Z'
-    ModifiedOnDateTimeEpoch: 1566750045000
-    DailyAcres: 600
-    PercentContained: 80
-    UniqueFireIdentifier: CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19
-    Name: Mountain Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#MountainFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=1bf3e829-5fb3-43d2-9179-6c337709df19
-    _CorrelationIds:
-      - 2019-CASHU-009030
-      - CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 1bf3e829
-    unitMention: null
-    Final_Fire_Name: Mountain Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-25T16:20Z-PER-none-ID-CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19-NAME-MountainFire-S-C
-      Code: b1e4a900a5e729182142bb366e2ee83dfc8f4dbe16c6d43d4b74de50f3705747
   2019-WYRAD-019341:
     Source_NFSA_Join:
       Lon: -106.89660826870251
@@ -69517,38 +69283,38 @@ Database:
       Fire_Name: PEDRO MOUNTAIN
       UniqueFireIdentifier: 2019-WYRAD-019341
       DailyAcres: 850
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-26T00:00Z'
+      ICS209ReportDateTimeEpoch: 1566777600000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 2000000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 146
       FireDiscoveryDateTime: '2019-08-24T17:26Z'
       FireDiscoveryDateTimeEpoch: 1566667560000
       DispatchCenterID: WYCPC
       LocalIncidentIdentifier: 019341
       POOCounty: Carbon
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-25T22:55Z'
-      ModifiedOnDateTimeEpoch: 1566773718000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-08-26T00:00Z'
+      ModifiedOnDateTimeEpoch: 1566777600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WYRAD-019341
-      ModifiedOnDateTime_Raw: '2019-08-25T22:55Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566773718000
+      ModifiedOnDateTime_Raw: '2019-08-26T00:47Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566780471000
       Hashtag: '#PedroMountainFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-25T23:00:40.738Z'
+          RetrievedOn: '2019-08-26T01:00:38.657Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -69563,33 +69329,33 @@ Database:
     Fire_Name: PEDRO MOUNTAIN
     UniqueFireIdentifier: 2019-WYRAD-019341
     DailyAcres: 850
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-26T00:00Z'
+    ICS209ReportDateTimeEpoch: 1566777600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 2000000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 146
     FireDiscoveryDateTime: '2019-08-24T17:26Z'
     FireDiscoveryDateTimeEpoch: 1566667560000
     DispatchCenterID: WYCPC
     LocalIncidentIdentifier: 019341
     POOCounty: Carbon
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-25T22:55Z'
-    ModifiedOnDateTimeEpoch: 1566773718000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2019-08-26T00:00Z'
+    ModifiedOnDateTimeEpoch: 1566777600000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-WYRAD-019341
-    ModifiedOnDateTime_Raw: '2019-08-25T22:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566773718000
+    ModifiedOnDateTime_Raw: '2019-08-26T00:47Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566780471000
     Hashtag: '#PedroMountainFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -69602,224 +69368,8 @@ Database:
     Final_Fire_Name: Pedro Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-25T22:55Z-PER-none-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
-      Code: 1b361ab961802b41e2e63ad31533fc7f0d5f60b4f851bda755995b39eab416ec
-  CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92:
-    Source_CALFIRE:
-      Lon: -120.544
-      Lat: 40.562
-      incident_name: Horse Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-08-25T16:26Z'
-      incident_date_last_updateEpoch: 1566750384000
-      incident_date_created: '2019-08-24T23:33Z'
-      incident_date_createdEpoch: 1566689638000
-      incident_administrative_unit: Bureau of Land Management
-      incident_administrative_unit_url: ''
-      incident_county: Lassen
-      incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
-      incident_acres_burned: 352
-      incident_containment: 55
-      incident_control: ''
-      incident_cooperating_agencies: Bureau of Land Management
-      incident_longitude: -120.544
-      incident_latitude: 40.562
-      incident_type: Wildfire
-      incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-08-24'
-      is_active: 'Y'
-      Fire_Name: Horse Fire
-      ModifiedOnDateTime: '2019-08-25T16:26Z'
-      ModifiedOnDateTimeEpoch: 1566750384000
-      DailyAcres: 352
-      PercentContained: 55
-      UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
-      Name: Horse Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#HorseFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-25T16:29:22.899Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
-    Source_NFSA_Join:
-      Lon: -120.53973571365637
-      Lat: 40.55695066396239
-      id: 130230
-      Name: HORSE
-      Fire_Name: HORSE
-      UniqueFireIdentifier: 2019-CANOD-004779
-      DailyAcres: 352
-      PercentContained: 55
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-25T11:00Z'
-      ICS209ReportDateTimeEpoch: 1566730800000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 165000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 149
-      FireDiscoveryDateTime: '2019-08-24T21:14Z'
-      FireDiscoveryDateTimeEpoch: 1566681240000
-      DispatchCenterID: CASIFC
-      LocalIncidentIdentifier: 004779
-      POOCounty: Lassen
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-25T11:00Z'
-      ModifiedOnDateTimeEpoch: 1566730800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CANOD-004779
-      ModifiedOnDateTime_Raw: '2019-08-25T13:19Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566739179000
-      Hashtag: '#HorseFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-25T16:29:22.898Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -120.53967998277594
-      Lat: 40.55700531872672
-      objectid: 43
-      latitude: 40.557
-      longitude: -120.5396667
-      acres: 352
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-08-25T11:00Z'
-      reportdatetimeEpoch: 1566730800000
-      percentcontained: 55
-      uniquefireidentifier: 2019-CANOD-004779
-      firediscoverydatetime: '2019-08-24T21:14Z'
-      firediscoverydatetimeEpoch: 1566681240000
-      complexparentirwinid: null
-      pooresponsibleunit: CANOD
-      incidentname: HORSE
-      iscomplex: 'false'
-      irwinid: '{1258B3A7-9F0E-4CF1-9246-3FDDD2A61037}'
-      irwinmodifiedon: '2019-08-25T13:19Z'
-      irwinmodifiedonEpoch: 1566739180000
-      mapsymbol: '1'
-      datecurrent: '2019-08-25T10:00Z'
-      datecurrentEpoch: 1566727251000
-      pooownerunit: CANOD
-      fireyear: 2019
-      localincidentidentifier: 004779
-      incidenttypecategory: WF
-      owneragency: BLM
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 352
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-08-25T11:00Z'
-      ModifiedOnDateTimeEpoch: 1566730800000
-      PercentContained: 55
-      UniqueFireIdentifier: 2019-CANOD-004779
-      FireDiscoveryDateTime: '2019-08-24T21:14Z'
-      FireDiscoveryDateTimeEpoch: 1566681240000
-      Fire_Name: HORSE
-      Name: HORSE
-      Source: GEOMAC
-      Hashtag: '#HorseFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-25T16:29:22.898Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CANOD-004779
-    Lon: -120.544
-    Lat: 40.562
-    incident_name: Horse Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-08-25T16:26Z'
-    incident_date_last_updateEpoch: 1566750384000
-    incident_date_created: '2019-08-24T23:33Z'
-    incident_date_createdEpoch: 1566689638000
-    incident_administrative_unit: Bureau of Land Management
-    incident_administrative_unit_url: ''
-    incident_county: Lassen
-    incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
-    incident_acres_burned: 352
-    incident_containment: 55
-    incident_control: ''
-    incident_cooperating_agencies: Bureau of Land Management
-    incident_longitude: -120.544
-    incident_latitude: 40.562
-    incident_type: Wildfire
-    incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-08-24'
-    is_active: 'Y'
-    Fire_Name: Horse Fire
-    ModifiedOnDateTime: '2019-08-25T16:26Z'
-    ModifiedOnDateTimeEpoch: 1566750384000
-    DailyAcres: 352
-    PercentContained: 55
-    UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
-    Name: Horse Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#HorseFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
-    _CorrelationIds:
-      - 2019-CANOD-004779
-      - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 97c4d72f
-    unitMention: null
-    Final_Fire_Name: Horse Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-25T16:26Z-PER-none-ID-CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92-NAME-HorseFire-S-C
-      Code: 64472ce9b6a2db2a475d54b132ff4f216d5605d4e5cc8be694785bd9241c3343
+        UPD-2019-08-26T00:00Z-PER-none-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
+      Code: 91080efc0ccfa97c88e14369bbf3aaac3658c340f0150a73c3b8bb0487c8966a
   CALFIRE-cb87a6f4-a560-41a5-81c0-1064d0c368b6:
     Source_CALFIRE:
       Lon: -117.487578
@@ -70328,3 +69878,436 @@ Database:
       UpdateId: >-
         UPD-2019-08-25T23:55Z-PER-none-ID-CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397-NAME-LongValleyFire-S-C
       Code: b52ab0419a1ecb405fff8a2998fef08d384a5cd5cdf825e566f7f0dbf7ee7ae1
+  2019-CASHU-009030:
+    Source_CALFIRE:
+      Lon: -122.241944
+      Lat: 40.715556
+      incident_name: Mountain Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-08-25T16:20Z'
+      incident_date_last_updateEpoch: 1566750045000
+      incident_date_created: '2019-08-22T18:02Z'
+      incident_date_createdEpoch: 1566496929000
+      incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
+      incident_administrative_unit_url: ''
+      incident_county: Shasta
+      incident_location: 'Bear Mountain Road and Dry Creek Road, north of Bella Vista'
+      incident_acres_burned: 600
+      incident_containment: 80
+      incident_control: >-
+        Please see Shasta County Sheriff's website under agencies for updated
+        evacuation and road closure information.
+
+
+        Evacuation Center:  Crosspointe Community Church 2960 Hartnell Road
+        Redding  96001
+
+
+        Shasta College Campus is closed
+      incident_cooperating_agencies: Shasta County Sheriff's Office
+      incident_longitude: -122.241944
+      incident_latitude: 40.715556
+      incident_type: Wildfire
+      incident_id: 1bf3e829-5fb3-43d2-9179-6c337709df19
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/22/mountain-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-08-22'
+      is_active: 'Y'
+      Fire_Name: Mountain Fire
+      ModifiedOnDateTime: '2019-08-25T16:20Z'
+      ModifiedOnDateTimeEpoch: 1566750045000
+      DailyAcres: 600
+      PercentContained: 80
+      UniqueFireIdentifier: CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19
+      Name: Mountain Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#MountainFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=1bf3e829-5fb3-43d2-9179-6c337709df19
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T01:00:38.660Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19
+    Source_NFSA_Join:
+      Lon: -122.24182758139469
+      Lat: 40.71563540245354
+      id: 129923
+      Name: MOUNTAIN
+      Fire_Name: MOUNTAIN
+      UniqueFireIdentifier: 2019-CASHU-009030
+      DailyAcres: 600
+      PercentContained: 90
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-26T00:45Z'
+      ICS209ReportDateTimeEpoch: 1566780300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3541758
+      FireCause: Unknown
+      TotalIncidentPersonnel: 493
+      FireDiscoveryDateTime: '2019-08-22T18:02Z'
+      FireDiscoveryDateTimeEpoch: 1566496975000
+      DispatchCenterID: CARICC
+      LocalIncidentIdentifier: 009030
+      POOCounty: Shasta
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-26T00:45Z'
+      ModifiedOnDateTimeEpoch: 1566780300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CASHU-009030
+      ModifiedOnDateTime_Raw: '2019-08-26T00:47Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566780466000
+      Hashtag: '#MountainFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T01:00:38.657Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -122.2418235724384
+      Lat: 40.71563518841495
+      objectid: 38
+      latitude: 40.71563
+      longitude: -122.24181
+      acres: 600
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-08-25T00:15Z'
+      reportdatetimeEpoch: 1566692100000
+      percentcontained: 70
+      uniquefireidentifier: 2019-CASHU-009030
+      firediscoverydatetime: '2019-08-22T18:02Z'
+      firediscoverydatetimeEpoch: 1566496975000
+      complexparentirwinid: null
+      pooresponsibleunit: CASHU
+      incidentname: MOUNTAIN
+      iscomplex: 'false'
+      irwinid: '{6D9A776E-17A6-4EBF-A763-5197DFB02A09}'
+      irwinmodifiedon: '2019-08-25T00:50Z'
+      irwinmodifiedonEpoch: 1566694247000
+      mapsymbol: '1'
+      datecurrent: '2019-08-25T18:30Z'
+      datecurrentEpoch: 1566757831000
+      pooownerunit: CASHU
+      fireyear: 2019
+      localincidentidentifier: 009030
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 600
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-25T00:15Z'
+      ModifiedOnDateTimeEpoch: 1566692100000
+      PercentContained: 70
+      UniqueFireIdentifier: 2019-CASHU-009030
+      FireDiscoveryDateTime: '2019-08-22T18:02Z'
+      FireDiscoveryDateTimeEpoch: 1566496975000
+      Fire_Name: MOUNTAIN
+      Name: MOUNTAIN
+      Source: GEOMAC
+      Hashtag: '#MountainFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T01:00:38.659Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CASHU-009030
+    Lon: -122.24182758139469
+    Lat: 40.71563540245354
+    id: 129923
+    Name: MOUNTAIN
+    Fire_Name: MOUNTAIN
+    UniqueFireIdentifier: 2019-CASHU-009030
+    DailyAcres: 600
+    PercentContained: 90
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-26T00:45Z'
+    ICS209ReportDateTimeEpoch: 1566780300000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3541758
+    FireCause: Unknown
+    TotalIncidentPersonnel: 493
+    FireDiscoveryDateTime: '2019-08-22T18:02Z'
+    FireDiscoveryDateTimeEpoch: 1566496975000
+    DispatchCenterID: CARICC
+    LocalIncidentIdentifier: 009030
+    POOCounty: Shasta
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-26T00:45Z'
+    ModifiedOnDateTimeEpoch: 1566780300000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CASHU-009030
+      - CALFIRE-1bf3e829-5fb3-43d2-9179-6c337709df19
+    ModifiedOnDateTime_Raw: '2019-08-26T00:47Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566780466000
+    Hashtag: '#MountainFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CASHU
+    unitMention: '@CALFIRESHU'
+    Final_Fire_Name: Mountain Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-26T00:45Z-PER-none-ID-2019-CASHU-009030-NAME-MOUNTAIN-S-N'
+      Code: 03b4c7bf8211222866644773b52e3214a0af70bff91cfbc30225088bcba936c3
+  2019-CANOD-004779:
+    Source_CALFIRE:
+      Lon: -120.544
+      Lat: 40.562
+      incident_name: Horse Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-08-25T16:26Z'
+      incident_date_last_updateEpoch: 1566750384000
+      incident_date_created: '2019-08-24T23:33Z'
+      incident_date_createdEpoch: 1566689638000
+      incident_administrative_unit: Bureau of Land Management
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
+      incident_acres_burned: 352
+      incident_containment: 55
+      incident_control: ''
+      incident_cooperating_agencies: Bureau of Land Management
+      incident_longitude: -120.544
+      incident_latitude: 40.562
+      incident_type: Wildfire
+      incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-08-24'
+      is_active: 'Y'
+      Fire_Name: Horse Fire
+      ModifiedOnDateTime: '2019-08-25T16:26Z'
+      ModifiedOnDateTimeEpoch: 1566750384000
+      DailyAcres: 352
+      PercentContained: 55
+      UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+      Name: Horse Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HorseFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T01:00:38.660Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    Source_NFSA_Join:
+      Lon: -120.53973571365637
+      Lat: 40.55695066396239
+      id: 130230
+      Name: HORSE
+      Fire_Name: HORSE
+      UniqueFireIdentifier: 2019-CANOD-004779
+      DailyAcres: 131
+      PercentContained: 80
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-26T00:00Z'
+      ICS209ReportDateTimeEpoch: 1566777600000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 350000
+      FireCause: Human
+      TotalIncidentPersonnel: 218
+      FireDiscoveryDateTime: '2019-08-24T21:14Z'
+      FireDiscoveryDateTimeEpoch: 1566681240000
+      DispatchCenterID: CASIFC
+      LocalIncidentIdentifier: 004779
+      POOCounty: Lassen
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-26T00:00Z'
+      ModifiedOnDateTimeEpoch: 1566777600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CANOD-004779
+      ModifiedOnDateTime_Raw: '2019-08-26T00:32Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566779570000
+      Hashtag: '#HorseFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T01:00:38.657Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -120.53967998277594
+      Lat: 40.55700531872672
+      objectid: 42
+      latitude: 40.557
+      longitude: -120.5396667
+      acres: 352
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-08-25T11:00Z'
+      reportdatetimeEpoch: 1566730800000
+      percentcontained: 55
+      uniquefireidentifier: 2019-CANOD-004779
+      firediscoverydatetime: '2019-08-24T21:14Z'
+      firediscoverydatetimeEpoch: 1566681240000
+      complexparentirwinid: null
+      pooresponsibleunit: CANOD
+      incidentname: HORSE
+      iscomplex: 'false'
+      irwinid: '{1258B3A7-9F0E-4CF1-9246-3FDDD2A61037}'
+      irwinmodifiedon: '2019-08-25T13:19Z'
+      irwinmodifiedonEpoch: 1566739180000
+      mapsymbol: '1'
+      datecurrent: '2019-08-25T18:30Z'
+      datecurrentEpoch: 1566757831000
+      pooownerunit: CANOD
+      fireyear: 2019
+      localincidentidentifier: 004779
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 352
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-08-25T11:00Z'
+      ModifiedOnDateTimeEpoch: 1566730800000
+      PercentContained: 55
+      UniqueFireIdentifier: 2019-CANOD-004779
+      FireDiscoveryDateTime: '2019-08-24T21:14Z'
+      FireDiscoveryDateTimeEpoch: 1566681240000
+      Fire_Name: HORSE
+      Name: HORSE
+      Source: GEOMAC
+      Hashtag: '#HorseFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T01:00:38.659Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CANOD-004779
+    Lon: -120.53973571365637
+    Lat: 40.55695066396239
+    id: 130230
+    Name: HORSE
+    Fire_Name: HORSE
+    UniqueFireIdentifier: 2019-CANOD-004779
+    DailyAcres: 131
+    PercentContained: 80
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-26T00:00Z'
+    ICS209ReportDateTimeEpoch: 1566777600000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 350000
+    FireCause: Human
+    TotalIncidentPersonnel: 218
+    FireDiscoveryDateTime: '2019-08-24T21:14Z'
+    FireDiscoveryDateTimeEpoch: 1566681240000
+    DispatchCenterID: CASIFC
+    LocalIncidentIdentifier: 004779
+    POOCounty: Lassen
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-26T00:00Z'
+    ModifiedOnDateTimeEpoch: 1566777600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CANOD-004779
+      - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    ModifiedOnDateTime_Raw: '2019-08-26T00:32Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566779570000
+    Hashtag: '#HorseFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CANOD
+    unitMention: Northern California District
+    Final_Fire_Name: Horse Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-26T00:00Z-PER-none-ID-2019-CANOD-004779-NAME-HORSE-S-N'
+      Code: 81e1789c51adaef8cb005526ad212b7c312be3ef4296bb936cfae6bcfdd89872
