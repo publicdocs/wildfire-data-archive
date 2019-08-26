@@ -69853,218 +69853,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-26T02:30Z-PER-none-ID-2019-TXTXS-190284-NAME-30-S-N'
       Code: 39f616cb0313cbb8f0965b6ec345c3b30407ff5950acd4753da7ab30feb551ea
-  2019-CANOD-004779:
-    Source_CALFIRE:
-      Lon: -120.544
-      Lat: 40.562
-      incident_name: Horse Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-08-25T16:26Z'
-      incident_date_last_updateEpoch: 1566750384000
-      incident_date_created: '2019-08-24T23:33Z'
-      incident_date_createdEpoch: 1566689638000
-      incident_administrative_unit: Bureau of Land Management
-      incident_administrative_unit_url: ''
-      incident_county: Lassen
-      incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
-      incident_acres_burned: 352
-      incident_containment: 55
-      incident_control: ''
-      incident_cooperating_agencies: Bureau of Land Management
-      incident_longitude: -120.544
-      incident_latitude: 40.562
-      incident_type: Wildfire
-      incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-08-24'
-      is_active: 'Y'
-      Fire_Name: Horse Fire
-      ModifiedOnDateTime: '2019-08-25T16:26Z'
-      ModifiedOnDateTimeEpoch: 1566750384000
-      DailyAcres: 352
-      PercentContained: 55
-      UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
-      Name: Horse Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#HorseFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-26T01:00:38.660Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
-    Source_NFSA_Join:
-      Lon: -120.53973571365637
-      Lat: 40.55695066396239
-      id: 130230
-      Name: HORSE
-      Fire_Name: HORSE
-      UniqueFireIdentifier: 2019-CANOD-004779
-      DailyAcres: 131
-      PercentContained: 80
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-26T00:00Z'
-      ICS209ReportDateTimeEpoch: 1566777600000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 350000
-      FireCause: Human
-      TotalIncidentPersonnel: 218
-      FireDiscoveryDateTime: '2019-08-24T21:14Z'
-      FireDiscoveryDateTimeEpoch: 1566681240000
-      DispatchCenterID: CASIFC
-      LocalIncidentIdentifier: 004779
-      POOCounty: Lassen
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-26T00:00Z'
-      ModifiedOnDateTimeEpoch: 1566777600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CANOD-004779
-      ModifiedOnDateTime_Raw: '2019-08-26T00:32Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566779570000
-      Hashtag: '#HorseFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-26T01:00:38.657Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -120.53967998277594
-      Lat: 40.55700531872672
-      objectid: 42
-      latitude: 40.557
-      longitude: -120.5396667
-      acres: 352
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-08-25T11:00Z'
-      reportdatetimeEpoch: 1566730800000
-      percentcontained: 55
-      uniquefireidentifier: 2019-CANOD-004779
-      firediscoverydatetime: '2019-08-24T21:14Z'
-      firediscoverydatetimeEpoch: 1566681240000
-      complexparentirwinid: null
-      pooresponsibleunit: CANOD
-      incidentname: HORSE
-      iscomplex: 'false'
-      irwinid: '{1258B3A7-9F0E-4CF1-9246-3FDDD2A61037}'
-      irwinmodifiedon: '2019-08-25T13:19Z'
-      irwinmodifiedonEpoch: 1566739180000
-      mapsymbol: '1'
-      datecurrent: '2019-08-25T18:30Z'
-      datecurrentEpoch: 1566757831000
-      pooownerunit: CANOD
-      fireyear: 2019
-      localincidentidentifier: 004779
-      incidenttypecategory: WF
-      owneragency: BLM
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 352
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-08-25T11:00Z'
-      ModifiedOnDateTimeEpoch: 1566730800000
-      PercentContained: 55
-      UniqueFireIdentifier: 2019-CANOD-004779
-      FireDiscoveryDateTime: '2019-08-24T21:14Z'
-      FireDiscoveryDateTimeEpoch: 1566681240000
-      Fire_Name: HORSE
-      Name: HORSE
-      Source: GEOMAC
-      Hashtag: '#HorseFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-26T01:00:38.659Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CANOD-004779
-    Lon: -120.53973571365637
-    Lat: 40.55695066396239
-    id: 130230
-    Name: HORSE
-    Fire_Name: HORSE
-    UniqueFireIdentifier: 2019-CANOD-004779
-    DailyAcres: 131
-    PercentContained: 80
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-26T00:00Z'
-    ICS209ReportDateTimeEpoch: 1566777600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 350000
-    FireCause: Human
-    TotalIncidentPersonnel: 218
-    FireDiscoveryDateTime: '2019-08-24T21:14Z'
-    FireDiscoveryDateTimeEpoch: 1566681240000
-    DispatchCenterID: CASIFC
-    LocalIncidentIdentifier: 004779
-    POOCounty: Lassen
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-26T00:00Z'
-    ModifiedOnDateTimeEpoch: 1566777600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CANOD-004779
-      - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
-    ModifiedOnDateTime_Raw: '2019-08-26T00:32Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566779570000
-    Hashtag: '#HorseFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CANOD
-    unitMention: Northern California District
-    Final_Fire_Name: Horse Fire
-    _Update:
-      UpdateId: 'UPD-2019-08-26T00:00Z-PER-none-ID-2019-CANOD-004779-NAME-HORSE-S-N'
-      Code: 81e1789c51adaef8cb005526ad212b7c312be3ef4296bb936cfae6bcfdd89872
   2019-NVCCD-030580:
     Source_NFSA_Join:
       Lon: -120.0254142808866
@@ -70662,3 +70450,153 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-26T06:15Z-PER-none-ID-2019-TXTXS-190290-NAME-Greta-S-N'
       Code: e429b3c9bf9984b22ef489b7cc97edbe1d69785c25395c0730b7d59c2157d66c
+  CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92:
+    Source_CALFIRE:
+      Lon: -120.544
+      Lat: 40.562
+      incident_name: Horse Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-08-26T14:32Z'
+      incident_date_last_updateEpoch: 1566829976000
+      incident_date_created: '2019-08-24T23:33Z'
+      incident_date_createdEpoch: 1566689638000
+      incident_administrative_unit: Bureau of Land Management
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
+      incident_acres_burned: 131
+      incident_containment: 80
+      incident_control: ''
+      incident_cooperating_agencies: Bureau of Land Management
+      incident_longitude: -120.544
+      incident_latitude: 40.562
+      incident_type: Wildfire
+      incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-08-24'
+      is_active: 'Y'
+      Fire_Name: Horse Fire
+      ModifiedOnDateTime: '2019-08-26T14:32Z'
+      ModifiedOnDateTimeEpoch: 1566829976000
+      DailyAcres: 131
+      PercentContained: 80
+      UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+      Name: Horse Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HorseFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T14:34:07.998Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    Source_NFSA_Join:
+      Lon: -120.53973571365637
+      Lat: 40.55695066396239
+      id: 130230
+      Name: HORSE
+      Fire_Name: HORSE
+      UniqueFireIdentifier: 2019-CANOD-004779
+      DailyAcres: 131
+      PercentContained: 80
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-26T00:00Z'
+      ICS209ReportDateTimeEpoch: 1566777600000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 350000
+      FireCause: Human
+      TotalIncidentPersonnel: 218
+      FireDiscoveryDateTime: '2019-08-24T21:14Z'
+      FireDiscoveryDateTimeEpoch: 1566681240000
+      DispatchCenterID: CASIFC
+      LocalIncidentIdentifier: 004779
+      POOCounty: Lassen
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-26T00:00Z'
+      ModifiedOnDateTimeEpoch: 1566777600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CANOD-004779
+      ModifiedOnDateTime_Raw: '2019-08-26T00:32Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566779570000
+      Hashtag: '#HorseFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-26T14:34:07.997Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -120.544
+    Lat: 40.562
+    incident_name: Horse Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-08-26T14:32Z'
+    incident_date_last_updateEpoch: 1566829976000
+    incident_date_created: '2019-08-24T23:33Z'
+    incident_date_createdEpoch: 1566689638000
+    incident_administrative_unit: Bureau of Land Management
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
+    incident_acres_burned: 131
+    incident_containment: 80
+    incident_control: ''
+    incident_cooperating_agencies: Bureau of Land Management
+    incident_longitude: -120.544
+    incident_latitude: 40.562
+    incident_type: Wildfire
+    incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-08-24'
+    is_active: 'Y'
+    Fire_Name: Horse Fire
+    ModifiedOnDateTime: '2019-08-26T14:32Z'
+    ModifiedOnDateTimeEpoch: 1566829976000
+    DailyAcres: 131
+    PercentContained: 80
+    UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    Name: Horse Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#HorseFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
+    _CorrelationIds:
+      - 2019-CANOD-004779
+      - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 97c4d72f
+    unitMention: null
+    Final_Fire_Name: Horse Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-26T14:32Z-PER-none-ID-CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92-NAME-HorseFire-S-C
+      Code: 07a30eb8dd0d4caaf8cb0ad46a845e1d4b8e2806a280afaf389a123177a538f4
