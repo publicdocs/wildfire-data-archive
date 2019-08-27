@@ -63496,12 +63496,12 @@ Database:
       Name: Triple Nickle
       Fire_Name: Triple Nickle
       UniqueFireIdentifier: 2019-NMCIF-000199
-      DailyAcres: 4286
+      DailyAcres: 4627
       PercentContained: 23
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-26T23:00Z'
-      ICS209ReportDateTimeEpoch: 1566860400000
+      ICS209ReportDateTime: '2019-08-27T15:30Z'
+      ICS209ReportDateTimeEpoch: 1566919800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
@@ -63514,21 +63514,21 @@ Database:
       LocalIncidentIdentifier: 000199
       POOCounty: McKinley
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-26T23:00Z'
-      ModifiedOnDateTimeEpoch: 1566860400000
+      ModifiedOnDateTime: '2019-08-27T15:30Z'
+      ModifiedOnDateTimeEpoch: 1566919800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMCIF-000199
-      ModifiedOnDateTime_Raw: '2019-08-26T23:04Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566860694000
+      ModifiedOnDateTime_Raw: '2019-08-27T16:02Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566921765000
       Hashtag: '#TripleNickleFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-26T23:30:13.534Z'
+          RetrievedOn: '2019-08-27T16:31:50.556Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63536,18 +63536,84 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -107.52711023466124
+      Lat: 35.34539563401505
+      objectid: 22
+      latitude: 35.34539
+      longitude: -107.5271
+      acres: 4627
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-08-27T15:30Z'
+      reportdatetimeEpoch: 1566919800000
+      percentcontained: 23
+      uniquefireidentifier: 2019-NMCIF-000199
+      firediscoverydatetime: '2019-08-04T21:28Z'
+      firediscoverydatetimeEpoch: 1564954080000
+      complexparentirwinid: null
+      pooresponsibleunit: NMCIF
+      incidentname: Triple Nickle
+      iscomplex: 'false'
+      irwinid: '{9EF373BE-A6BE-47EB-83C3-1F513320C8EC}'
+      irwinmodifiedon: '2019-08-27T16:02Z'
+      irwinmodifiedonEpoch: 1566921765000
+      mapsymbol: '1'
+      datecurrent: '2019-08-27T10:30Z'
+      datecurrentEpoch: 1566901832000
+      pooownerunit: NMCIF
+      fireyear: 2019
+      localincidentidentifier: 000199
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 4627
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-27T15:30Z'
+      ModifiedOnDateTimeEpoch: 1566919800000
+      PercentContained: 23
+      UniqueFireIdentifier: 2019-NMCIF-000199
+      FireDiscoveryDateTime: '2019-08-04T21:28Z'
+      FireDiscoveryDateTimeEpoch: 1564954080000
+      Fire_Name: Triple Nickle
+      Name: Triple Nickle
+      Source: GEOMAC
+      Hashtag: '#TripleNickleFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-27T16:31:50.557Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NMCIF-000199
     Lon: -107.52710881716747
     Lat: 35.34539812365562
     id: 127063
     Name: Triple Nickle
     Fire_Name: Triple Nickle
     UniqueFireIdentifier: 2019-NMCIF-000199
-    DailyAcres: 4286
+    DailyAcres: 4627
     PercentContained: 23
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-26T23:00Z'
-    ICS209ReportDateTimeEpoch: 1566860400000
+    ICS209ReportDateTime: '2019-08-27T15:30Z'
+    ICS209ReportDateTimeEpoch: 1566919800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -63560,16 +63626,16 @@ Database:
     LocalIncidentIdentifier: 000199
     POOCounty: McKinley
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-26T23:00Z'
-    ModifiedOnDateTimeEpoch: 1566860400000
+    ModifiedOnDateTime: '2019-08-27T15:30Z'
+    ModifiedOnDateTimeEpoch: 1566919800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NMCIF-000199
-    ModifiedOnDateTime_Raw: '2019-08-26T23:04Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566860694000
+    ModifiedOnDateTime_Raw: '2019-08-27T16:02Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566921765000
     Hashtag: '#TripleNickleFire'
     NFSAType: Large WF
     PerimDateTime: '2019-08-24T18:00Z'
@@ -63578,10 +63644,10 @@ Database:
       Acres: 4099.04037116
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-26T23:30:22.137Z'
+          RetrievedOn: '2019-08-27T16:31:55.141Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -63593,14 +63659,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: NMCIF
     unitMention: Cibola NF
     Final_Fire_Name: Triple Nickle Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-26T23:00Z-PER-2019-08-24T18:00Z-ID-2019-NMCIF-000199-NAME-TripleNickle-S-N
-      Code: 3748a9011e34e5d25150933c3bfcda07188643ce7cbbcd3591a39ba17e8edb73
+        UPD-2019-08-27T15:30Z-PER-2019-08-24T18:00Z-ID-2019-NMCIF-000199-NAME-TripleNickle-S-N
+      Code: 2abd0a57a4eb3f684883e583659305bb5b02c2fc49971a37a1f38c67b0049f97
   2019-IDIPF-000512:
     Source_NFSA_Join:
       Lon: -116.28581758462543
@@ -70355,3 +70421,98 @@ Database:
       UpdateId: >-
         UPD-2019-08-27T00:00Z-PER-2019-08-24T11:13Z-ID-2019-AKSWS-904516-NAME-EthelCreek-S-N
       Code: 372243fb8d659a2357c39ad71fea3f37aea53106edff0ee38dc5c7745f86acc3
+  2019-TXTXS-190297:
+    Source_NFSA_Join:
+      Lon: -99.98900390831261
+      Lat: 30.829004676170946
+      id: 130615
+      Name: Crumlee
+      Fire_Name: Crumlee
+      UniqueFireIdentifier: 2019-TXTXS-190297
+      DailyAcres: 350
+      PercentContained: 25
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-08-27T04:19Z'
+      FireDiscoveryDateTimeEpoch: 1566879595000
+      DispatchCenterID: TXTIC
+      LocalIncidentIdentifier: '190297'
+      POOCounty: Menard
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-27T16:04Z'
+      ModifiedOnDateTimeEpoch: 1566921845000
+      ModifiedBySystem: wires
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-TXTXS-190297
+      ModifiedOnDateTime_Raw: '2019-08-27T16:04Z'
+      ModifiedOnDateTimeEpoch_Raw: 1566921845000
+      Hashtag: '#CrumleeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-27T16:31:50.556Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -99.98900390831261
+    Lat: 30.829004676170946
+    id: 130615
+    Name: Crumlee
+    Fire_Name: Crumlee
+    UniqueFireIdentifier: 2019-TXTXS-190297
+    DailyAcres: 350
+    PercentContained: 25
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-08-27T04:19Z'
+    FireDiscoveryDateTimeEpoch: 1566879595000
+    DispatchCenterID: TXTIC
+    LocalIncidentIdentifier: '190297'
+    POOCounty: Menard
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-27T16:04Z'
+    ModifiedOnDateTimeEpoch: 1566921845000
+    ModifiedBySystem: wires
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-TXTXS-190297
+    ModifiedOnDateTime_Raw: '2019-08-27T16:04Z'
+    ModifiedOnDateTimeEpoch_Raw: 1566921845000
+    Hashtag: '#CrumleeFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: TXTXS
+    unitMention: '@AllHazardsTFS'
+    Final_Fire_Name: Crumlee Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-27T16:04Z-PER-none-ID-2019-TXTXS-190297-NAME-Crumlee-S-N'
+      Code: ffaf69e42028a1734f10a35fcf2e0530f9eb6cf96d9e77dcd836617bfc67d333
