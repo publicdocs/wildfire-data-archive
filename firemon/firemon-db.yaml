@@ -68407,9 +68407,9 @@ Database:
       Lon: -120.029722
       Lat: 39.892222
       incident_name: Long Valley Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-08-27T01:35Z'
-      incident_date_last_updateEpoch: 1566869748000
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-08-28T16:01Z'
+      incident_date_last_updateEpoch: 1567008083000
       incident_date_created: '2019-08-25T00:25Z'
       incident_date_createdEpoch: 1566692704000
       incident_administrative_unit: Bureau of Land Management
@@ -68417,7 +68417,7 @@ Database:
       incident_county: Lassen
       incident_location: 'Off Highway 395 and Red Rock Road, North of Hallelujah Junction'
       incident_acres_burned: 2438
-      incident_containment: 65
+      incident_containment: 100
       incident_control: ''
       incident_cooperating_agencies: Bureau of Land Management
       incident_longitude: -120.029722
@@ -68425,15 +68425,15 @@ Database:
       incident_type: Wildfire
       incident_id: 2ce810c9-88f1-4efe-9254-8cbd339d2397
       incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/long-valley-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
+      incident_date_extinguished: '2019-08-27 09:01:00'
+      incident_dateonly_extinguished: '2019-08-27'
       incident_dateonly_created: '2019-08-24'
-      is_active: 'Y'
+      is_active: 'N'
       Fire_Name: Long Valley Fire
-      ModifiedOnDateTime: '2019-08-27T01:35Z'
-      ModifiedOnDateTimeEpoch: 1566869748000
+      ModifiedOnDateTime: '2019-08-28T16:01Z'
+      ModifiedOnDateTimeEpoch: 1567008083000
       DailyAcres: 2438
-      PercentContained: 65
+      PercentContained: 100
       UniqueFireIdentifier: CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
       Name: Long Valley Fire
       Source: CALFIRE
@@ -68443,7 +68443,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=2ce810c9-88f1-4efe-9254-8cbd339d2397
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-27T01:37:02.409Z'
+          RetrievedOn: '2019-08-28T16:01:57.514Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -68456,9 +68456,9 @@ Database:
     Lon: -120.029722
     Lat: 39.892222
     incident_name: Long Valley Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-08-27T01:35Z'
-    incident_date_last_updateEpoch: 1566869748000
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-08-28T16:01Z'
+    incident_date_last_updateEpoch: 1567008083000
     incident_date_created: '2019-08-25T00:25Z'
     incident_date_createdEpoch: 1566692704000
     incident_administrative_unit: Bureau of Land Management
@@ -68466,7 +68466,7 @@ Database:
     incident_county: Lassen
     incident_location: 'Off Highway 395 and Red Rock Road, North of Hallelujah Junction'
     incident_acres_burned: 2438
-    incident_containment: 65
+    incident_containment: 100
     incident_control: ''
     incident_cooperating_agencies: Bureau of Land Management
     incident_longitude: -120.029722
@@ -68474,15 +68474,15 @@ Database:
     incident_type: Wildfire
     incident_id: 2ce810c9-88f1-4efe-9254-8cbd339d2397
     incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/long-valley-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
+    incident_date_extinguished: '2019-08-27 09:01:00'
+    incident_dateonly_extinguished: '2019-08-27'
     incident_dateonly_created: '2019-08-24'
-    is_active: 'Y'
+    is_active: 'N'
     Fire_Name: Long Valley Fire
-    ModifiedOnDateTime: '2019-08-27T01:35Z'
-    ModifiedOnDateTimeEpoch: 1566869748000
+    ModifiedOnDateTime: '2019-08-28T16:01Z'
+    ModifiedOnDateTimeEpoch: 1567008083000
     DailyAcres: 2438
-    PercentContained: 65
+    PercentContained: 100
     UniqueFireIdentifier: CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
     Name: Long Valley Fire
     Source: CALFIRE
@@ -68492,36 +68492,18 @@ Database:
       https://www.fire.ca.gov/incident/?incident=2ce810c9-88f1-4efe-9254-8cbd339d2397
     _CorrelationIds:
       - CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397
-      - 2019-NVCCD-030580
-    PerimDateTime: '2019-08-24T18:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-08-24T18:00Z'
-      Acres: 1661.5046135
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-27T01:37:07.377Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: 2ce810c9
     unitMention: null
     Final_Fire_Name: Long Valley Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-27T01:35Z-PER-2019-08-24T18:00Z-ID-CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397-NAME-LongValleyFire-S-C
-      Code: cdd02bfcf6035d63652642bf75bbc21bc196f1e3c16e9ca2a9498252d405359d
+        UPD-2019-08-28T16:01Z-PER-none-ID-CALFIRE-2ce810c9-88f1-4efe-9254-8cbd339d2397-NAME-LongValleyFire-S-C
+      Code: 0648f11036681a3f147101e3a91d1199fb92c119aeb30494c7b7f92b35197544
   2019-AKSWS-904516:
     Source_NFSA_Join:
       Lon: -156.51748742146424
