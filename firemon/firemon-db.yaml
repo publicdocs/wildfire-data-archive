@@ -1431,13 +1431,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566959230000
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-26T00:00Z'
+    PerimDateTime: '2019-08-26T15:00Z'
     PerimeterData:
-      DateTime: '2019-08-26T00:00Z'
-      Acres: 153170.577062
+      DateTime: '2019-08-26T15:00Z'
+      Acres: 158042.222536
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-28T02:31:44.186Z'
+          RetrievedOn: '2019-08-28T17:37:48.182Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1458,8 +1458,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-28T02:00Z-PER-2019-08-26T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
-      Code: 6dd90d14e133d736e95cc97db2840096854802b5f7365ac6dc95e7c8fc6bef87
+        UPD-2019-08-28T02:00Z-PER-2019-08-26T15:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
+      Code: 542e96f330c154908748acbb2bb4849accb4ddff345714b0b9cb19208c7e9341
   CALFIRE-7a0029c7-64c8-442d-8c7a-080a553e2b8e:
     Source_CALFIRE:
       Lon: -121.534827
@@ -42611,185 +42611,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-23T01:00Z-PER-2019-07-30T20:57Z-ID-2019-UTFIF-190225-NAME-ParkRidge-S-N
       Code: bcf1779ce0f1719b0a8b8d72c24664abd4caa823e0eed4732306ff61e18d5861
-  2019-COWRF-000161:
-    Source_NFSA_Join:
-      Lon: -107.78751245172805
-      Lat: 39.36887962483032
-      id: 125786
-      Name: Middle Mamm
-      Fire_Name: Middle Mamm
-      UniqueFireIdentifier: 2019-COWRF-000161
-      DailyAcres: 113
-      PercentContained: 0
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-24T20:00Z'
-      ICS209ReportDateTimeEpoch: 1566676800000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 15000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-28T18:51Z'
-      FireDiscoveryDateTimeEpoch: 1564339860000
-      DispatchCenterID: COGJC
-      LocalIncidentIdentifier: '000161'
-      POOCounty: Garfield
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-24T20:00Z'
-      ModifiedOnDateTimeEpoch: 1566676800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-COWRF-000161
-      ModifiedOnDateTime_Raw: '2019-08-24T20:47Z'
-      ModifiedOnDateTimeEpoch_Raw: 1566679636000
-      Hashtag: '#MiddleMammFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T21:01:42.242Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -107.78751069486805
-      Lat: 39.36887617372715
-      objectid: 15
-      latitude: 39.36887
-      longitude: -107.7875
-      acres: 113
-      gacc: RMCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CO
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-08-24T20:00Z'
-      reportdatetimeEpoch: 1566676800000
-      percentcontained: 0
-      uniquefireidentifier: 2019-COWRF-000161
-      firediscoverydatetime: '2019-07-28T18:51Z'
-      firediscoverydatetimeEpoch: 1564339860000
-      complexparentirwinid: null
-      pooresponsibleunit: COWRF
-      incidentname: Middle Mamm
-      iscomplex: 'false'
-      irwinid: '{61017CCC-46A3-4D79-9CB6-56C13330BC6F}'
-      irwinmodifiedon: '2019-08-24T20:47Z'
-      irwinmodifiedonEpoch: 1566679637000
-      mapsymbol: '1'
-      datecurrent: '2019-08-24T15:00Z'
-      datecurrentEpoch: 1566658841000
-      pooownerunit: COWRF
-      fireyear: 2019
-      localincidentidentifier: '000161'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 113
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-08-24T20:00Z'
-      ModifiedOnDateTimeEpoch: 1566676800000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-COWRF-000161
-      FireDiscoveryDateTime: '2019-07-28T18:51Z'
-      FireDiscoveryDateTimeEpoch: 1564339860000
-      Fire_Name: Middle Mamm
-      Name: Middle Mamm
-      Source: GEOMAC
-      Hashtag: '#MiddleMammFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-24T21:01:42.243Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-COWRF-000161
-    Lon: -107.78751245172805
-    Lat: 39.36887962483032
-    id: 125786
-    Name: Middle Mamm
-    Fire_Name: Middle Mamm
-    UniqueFireIdentifier: 2019-COWRF-000161
-    DailyAcres: 113
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-24T20:00Z'
-    ICS209ReportDateTimeEpoch: 1566676800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 15000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-28T18:51Z'
-    FireDiscoveryDateTimeEpoch: 1564339860000
-    DispatchCenterID: COGJC
-    LocalIncidentIdentifier: '000161'
-    POOCounty: Garfield
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-24T20:00Z'
-    ModifiedOnDateTimeEpoch: 1566676800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-COWRF-000161
-    ModifiedOnDateTime_Raw: '2019-08-24T20:47Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566679636000
-    Hashtag: '#MiddleMammFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-24T10:00Z'
-    PerimeterData:
-      DateTime: '2019-08-24T10:00Z'
-      Acres: 113.61920474
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-26T18:21:35.615Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: COWRF
-    unitMention: White River NF
-    Final_Fire_Name: Middle Mamm Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-24T20:00Z-PER-2019-08-24T10:00Z-ID-2019-COWRF-000161-NAME-MiddleMamm-S-N
-      Code: be6db1c8be5f7d24e7a0f2d9dff8628a48d7429a02cb78578841e4ca650ef548
   CALFIRE-1f576988-2ad0-4a7b-afed-f650caafc579:
     Source_CALFIRE:
       Lon: -121.872941
@@ -57664,18 +57485,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566942873000
     Hashtag: '#CopperBreaksFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-08-24T14:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-08-24T14:00Z'
+      Acres: 7206.06307129
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-28T17:37:51.203Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: TXTXS
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Copper Breaks Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-27T21:30Z-PER-none-ID-2019-TXTXS-190226-NAME-CopperBreaks-S-N
-      Code: 069aca42bd515febfdc26d73c5a1fa7b5dd239dd225f4c8b0747772ca881a19a
+        UPD-2019-08-27T21:30Z-PER-2019-08-24T14:00Z-ID-2019-TXTXS-190226-NAME-CopperBreaks-S-N
+      Code: 7704dca5e4dd51c70a26c72ef6f562f2d4e3f7949fc5df9cba5e7cd10b17c168
   2019-MSMNF-020028:
     Source_NFSA_Join:
       Lon: -89.07667407870652
@@ -61658,13 +61496,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566961197000
     Hashtag: '#204CowFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-26T00:00Z'
+    PerimDateTime: '2019-08-28T00:00Z'
     PerimeterData:
-      DateTime: '2019-08-26T00:00Z'
-      Acres: 3452.39240204
+      DateTime: '2019-08-28T00:00Z'
+      Acres: 3793.81971364
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-28T03:01:34.693Z'
+          RetrievedOn: '2019-08-28T17:37:48.182Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -61685,8 +61523,8 @@ Database:
     Final_Fire_Name: 204 Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-28T00:00Z-PER-2019-08-26T00:00Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
-      Code: f20ebf39d8a21e2d044c89089f779cc6aafc2949bf2078d86dbb1fc1fe2ceca5
+        UPD-2019-08-28T00:00Z-PER-2019-08-28T00:00Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
+      Code: 18b2d0ad4fbe4aec3a8330cefa86da2df1f3be301c65b969cea42f608a7616f6
   2019-TXTXS-190262:
     Source_NFSA_Join:
       Lon: -99.75316021361986
@@ -61837,13 +61675,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566943071000
     Hashtag: '#VivianFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-22T10:00Z'
+    PerimDateTime: '2019-08-27T14:00Z'
     PerimeterData:
-      DateTime: '2019-08-22T10:00Z'
-      Acres: 8874.35111895
+      DateTime: '2019-08-27T14:00Z'
+      Acres: 11928.757626
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-27T22:01:01.450Z'
+          RetrievedOn: '2019-08-28T17:37:48.182Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -61864,8 +61702,8 @@ Database:
     Final_Fire_Name: Vivian Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-27T21:30Z-PER-2019-08-22T10:00Z-ID-2019-TXTXS-190262-NAME-Vivian-S-N
-      Code: 1d6b407135a299b830f56b1a2ccffa58f92b0689973e6b72cbb021654b71d265
+        UPD-2019-08-27T21:30Z-PER-2019-08-27T14:00Z-ID-2019-TXTXS-190262-NAME-Vivian-S-N
+      Code: 415e38adcd6e04831504d04354bc2a264c88aaf675f7961463159b7c1f2f80fd
   2019-AKKKS-903751:
     Source_NFSA_Join:
       Lon: -151.65494272113662
@@ -66055,13 +65893,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1566951188000
     Hashtag: '#PedroMountainFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-27T16:34Z'
+    PerimDateTime: '2019-08-27T22:24Z'
     PerimeterData:
-      DateTime: '2019-08-27T16:34Z'
-      Acres: 10258.1499415
+      DateTime: '2019-08-27T22:24Z'
+      Acres: 11086.5110493
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-28T17:04:00.440Z'
+          RetrievedOn: '2019-08-28T17:37:51.203Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -66082,8 +65920,8 @@ Database:
     Final_Fire_Name: Pedro Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-27T23:00Z-PER-2019-08-27T16:34Z-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
-      Code: 75b5cae0fc2e0ed9785bb867f6adf9071bbafe2ba9cdaa3212971583b0cda5d1
+        UPD-2019-08-27T23:00Z-PER-2019-08-27T22:24Z-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
+      Code: d7338e2290ecca5bcd26ce7186ea152bcab3d0a15eb011da4f98e35d4d524027
   CALFIRE-cb87a6f4-a560-41a5-81c0-1064d0c368b6:
     Source_CALFIRE:
       Lon: -117.487578
