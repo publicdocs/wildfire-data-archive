@@ -68307,3 +68307,164 @@ Database:
       UpdateId: >-
         UPD-2019-08-29T02:48Z-PER-none-ID-CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826-NAME-R1FirenotaCALFIREincident-S-C
       Code: ae4089bf4f9f9e41f63b052ecc6ba212f10055c79ab7bd4398f1ff21250c93d6
+  2019-CANOD-004869:
+    Source_NFSA_Join:
+      Lon: -120.57529103260181
+      Lat: 40.58861818439127
+      id: 130973
+      Name: R-1  Ranch
+      Fire_Name: R-1  Ranch
+      UniqueFireIdentifier: 2019-CANOD-004869
+      DailyAcres: 1000
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-08-29T01:30Z'
+      ICS209ReportDateTimeEpoch: 1567042200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 150000
+      FireCause: Natural
+      TotalIncidentPersonnel: 299
+      FireDiscoveryDateTime: '2019-08-28T23:30Z'
+      FireDiscoveryDateTimeEpoch: 1567035000000
+      DispatchCenterID: CASIFC
+      LocalIncidentIdentifier: 004869
+      POOCounty: Lassen
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-08-29T01:30Z'
+      ModifiedOnDateTimeEpoch: 1567042200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CANOD-004869
+      ModifiedOnDateTime_Raw: '2019-08-29T04:15Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567052120000
+      Hashtag: '#R1RanchFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-29T04:30:59.404Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -120.57529109302388
+      Lat: 40.58861641832953
+      objectid: 33
+      latitude: 40.5886111
+      longitude: -120.5752778
+      acres: 1000
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-08-29T01:30Z'
+      reportdatetimeEpoch: 1567042200000
+      percentcontained: 0
+      uniquefireidentifier: 2019-CANOD-004869
+      firediscoverydatetime: '2019-08-28T23:30Z'
+      firediscoverydatetimeEpoch: 1567035000000
+      complexparentirwinid: null
+      pooresponsibleunit: CANOD
+      incidentname: R-1  Ranch
+      iscomplex: 'false'
+      irwinid: '{6F799B16-61C8-4AAF-82CC-B310CE2E1437}'
+      irwinmodifiedon: '2019-08-29T04:15Z'
+      irwinmodifiedonEpoch: 1567052120000
+      mapsymbol: '1'
+      datecurrent: '2019-08-28T22:30Z'
+      datecurrentEpoch: 1567031427000
+      pooownerunit: CALMU
+      fireyear: 2019
+      localincidentidentifier: 004869
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1000
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-08-29T01:30Z'
+      ModifiedOnDateTimeEpoch: 1567042200000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-CANOD-004869
+      FireDiscoveryDateTime: '2019-08-28T23:30Z'
+      FireDiscoveryDateTimeEpoch: 1567035000000
+      Fire_Name: R-1  Ranch
+      Name: R-1  Ranch
+      Source: GEOMAC
+      Hashtag: '#R1RanchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-29T04:30:59.405Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CANOD-004869
+    Lon: -120.57529103260181
+    Lat: 40.58861818439127
+    id: 130973
+    Name: R-1  Ranch
+    Fire_Name: R-1  Ranch
+    UniqueFireIdentifier: 2019-CANOD-004869
+    DailyAcres: 1000
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-08-29T01:30Z'
+    ICS209ReportDateTimeEpoch: 1567042200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 150000
+    FireCause: Natural
+    TotalIncidentPersonnel: 299
+    FireDiscoveryDateTime: '2019-08-28T23:30Z'
+    FireDiscoveryDateTimeEpoch: 1567035000000
+    DispatchCenterID: CASIFC
+    LocalIncidentIdentifier: 004869
+    POOCounty: Lassen
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-08-29T01:30Z'
+    ModifiedOnDateTimeEpoch: 1567042200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CANOD-004869
+    ModifiedOnDateTime_Raw: '2019-08-29T04:15Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567052120000
+    Hashtag: '#R1RanchFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CANOD
+    unitMention: Northern California District
+    Final_Fire_Name: R 1 Ranch Fire
+    _Update:
+      UpdateId: 'UPD-2019-08-29T01:30Z-PER-none-ID-2019-CANOD-004869-NAME-R1Ranch-S-N'
+      Code: 3467e8ed1b5c727704204c4761931a622151f25ea042d005c27cfc3c131d91da
