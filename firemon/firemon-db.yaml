@@ -68449,3 +68449,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-29T18:36Z-PER-none-ID-2019-TXTXS-190300-NAME-Wyatt-S-N'
       Code: 80c2d6e1739bd243cdae317b9b1e47826d04f12511c7d72fc89d0cd6e23357ea
+  2019-IDNCF-000829:
+    Source_NFSA_Join:
+      Lon: -114.98991693890744
+      Lat: 46.71623636852767
+      id: 130720
+      Name: Shale Creek
+      Fire_Name: Shale Creek
+      UniqueFireIdentifier: 2019-IDNCF-000829
+      DailyAcres: 75
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-29T18:45Z'
+      ICS209ReportDateTimeEpoch: 1567104300000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 15000
+      FireCause: Natural
+      TotalIncidentPersonnel: 5
+      FireDiscoveryDateTime: '2019-08-26T22:28Z'
+      FireDiscoveryDateTimeEpoch: 1566858537000
+      DispatchCenterID: IDGVC
+      LocalIncidentIdentifier: 000829
+      POOCounty: Clearwater
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-29T18:45Z'
+      ModifiedOnDateTimeEpoch: 1567104300000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDNCF-000829
+      ModifiedOnDateTime_Raw: '2019-08-29T19:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567105762000
+      Hashtag: '#ShaleCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-29T19:30:48.960Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -114.98991693890744
+    Lat: 46.71623636852767
+    id: 130720
+    Name: Shale Creek
+    Fire_Name: Shale Creek
+    UniqueFireIdentifier: 2019-IDNCF-000829
+    DailyAcres: 75
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-29T18:45Z'
+    ICS209ReportDateTimeEpoch: 1567104300000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 15000
+    FireCause: Natural
+    TotalIncidentPersonnel: 5
+    FireDiscoveryDateTime: '2019-08-26T22:28Z'
+    FireDiscoveryDateTimeEpoch: 1566858537000
+    DispatchCenterID: IDGVC
+    LocalIncidentIdentifier: 000829
+    POOCounty: Clearwater
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-29T18:45Z'
+    ModifiedOnDateTimeEpoch: 1567104300000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDNCF-000829
+    ModifiedOnDateTime_Raw: '2019-08-29T19:09Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567105762000
+    Hashtag: '#ShaleCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-27T16:00Z'
+    PerimeterData:
+      DateTime: '2019-08-27T16:00Z'
+      Acres: 31.64295661
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-29T19:30:57.784Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: IDNCF
+    unitMention: Nez Perce - Clearwater NFs
+    Final_Fire_Name: Shale Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-29T18:45Z-PER-2019-08-27T16:00Z-ID-2019-IDNCF-000829-NAME-ShaleCreek-S-N
+      Code: 2ab352c6c80909741f2b6fad77822a00cb600752f58a7dd4abd52111910be14e
