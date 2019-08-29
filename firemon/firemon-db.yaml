@@ -62877,7 +62877,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-28T06:01:52.106Z'
+          RetrievedOn: '2019-08-29T06:30:29.162Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -62888,7 +62888,7 @@ Database:
     Source_GEOMAC:
       Lon: -156.8989103496982
       Lat: 59.157500676063485
-      objectid: 31
+      objectid: 29
       latitude: 59.1575
       longitude: -156.8988889
       acres: 6863
@@ -62897,8 +62897,8 @@ Database:
       state: AK
       status: U
       firecause: Unknown
-      reportdatetime: '2019-08-28T05:00Z'
-      reportdatetimeEpoch: 1566968400000
+      reportdatetime: '2019-08-29T05:00Z'
+      reportdatetimeEpoch: 1567054800000
       percentcontained: 5
       uniquefireidentifier: 2019-AKSWS-904752
       firediscoverydatetime: '2019-08-19T05:12Z'
@@ -62908,11 +62908,11 @@ Database:
       incidentname: Levelock
       iscomplex: 'false'
       irwinid: '{900ED437-0764-4E3B-8C1B-5C3AE002EC2A}'
-      irwinmodifiedon: '2019-08-28T05:31Z'
-      irwinmodifiedonEpoch: 1566970306000
+      irwinmodifiedon: '2019-08-29T06:07Z'
+      irwinmodifiedonEpoch: 1567058848000
       mapsymbol: '1'
-      datecurrent: '2019-08-28T00:00Z'
-      datecurrentEpoch: 1566950429000
+      datecurrent: '2019-08-29T00:30Z'
+      datecurrentEpoch: 1567038627000
       pooownerunit: AKVLN
       fireyear: 2019
       localincidentidentifier: '904752'
@@ -62922,8 +62922,8 @@ Database:
       complexname: null
       DailyAcres: 6863
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-08-28T05:00Z'
-      ModifiedOnDateTimeEpoch: 1566968400000
+      ModifiedOnDateTime: '2019-08-29T05:00Z'
+      ModifiedOnDateTimeEpoch: 1567054800000
       PercentContained: 5
       UniqueFireIdentifier: 2019-AKSWS-904752
       FireDiscoveryDateTime: '2019-08-19T05:12Z'
@@ -62934,7 +62934,7 @@ Database:
       Hashtag: '#LevelockFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-28T06:01:52.108Z'
+          RetrievedOn: '2019-08-29T06:30:29.163Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -62951,49 +62951,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKSWS-904752
-    Lon: -156.89885819218432
-    Lat: 59.15750078177722
-    id: 129472
-    Name: Levelock
-    Fire_Name: Levelock
-    UniqueFireIdentifier: 2019-AKSWS-904752
+    Lon: -156.8989103496982
+    Lat: 59.157500676063485
+    objectid: 29
+    latitude: 59.1575
+    longitude: -156.8988889
+    acres: 6863
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-08-29T05:00Z'
+    reportdatetimeEpoch: 1567054800000
+    percentcontained: 5
+    uniquefireidentifier: 2019-AKSWS-904752
+    firediscoverydatetime: '2019-08-19T05:12Z'
+    firediscoverydatetimeEpoch: 1566191551000
+    complexparentirwinid: null
+    pooresponsibleunit: AKSWS
+    incidentname: Levelock
+    iscomplex: 'false'
+    irwinid: '{900ED437-0764-4E3B-8C1B-5C3AE002EC2A}'
+    irwinmodifiedon: '2019-08-29T06:07Z'
+    irwinmodifiedonEpoch: 1567058848000
+    mapsymbol: '1'
+    datecurrent: '2019-08-29T00:30Z'
+    datecurrentEpoch: 1567038627000
+    pooownerunit: AKVLN
+    fireyear: 2019
+    localincidentidentifier: '904752'
+    incidenttypecategory: WF
+    owneragency: ANCSA
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 6863
-    PercentContained: 5
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-28T05:00Z'
-    ICS209ReportDateTimeEpoch: 1566968400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 684631
     FireCause: Unknown
-    TotalIncidentPersonnel: 63
+    ModifiedOnDateTime: '2019-08-29T05:00Z'
+    ModifiedOnDateTimeEpoch: 1567054800000
+    PercentContained: 5
+    UniqueFireIdentifier: 2019-AKSWS-904752
     FireDiscoveryDateTime: '2019-08-19T05:12Z'
     FireDiscoveryDateTimeEpoch: 1566191551000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904752'
-    POOCounty: Lake and Peninsula
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2019-08-28T05:00Z'
-    ModifiedOnDateTimeEpoch: 1566968400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Levelock
+    Name: Levelock
+    Source: GEOMAC
+    Hashtag: '#LevelockFire'
     _CorrelationIds:
       - 2019-AKSWS-904752
-    ModifiedOnDateTime_Raw: '2019-08-28T05:31Z'
-    ModifiedOnDateTimeEpoch_Raw: 1566970305000
-    Hashtag: '#LevelockFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-26T12:29Z'
     PerimeterData:
       DateTime: '2019-08-26T12:29Z'
       Acres: 6863.45604275
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-28T06:02:00.671Z'
+          RetrievedOn: '2019-08-29T06:30:40.839Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -63014,8 +63026,8 @@ Database:
     Final_Fire_Name: Levelock Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-28T05:00Z-PER-2019-08-26T12:29Z-ID-2019-AKSWS-904752-NAME-Levelock-S-N
-      Code: 85db7f3d5e44f893a8d22647a00d14c1d384b817d38177fc4498d8043f7d6a65
+        UPD-2019-08-29T05:00Z-PER-2019-08-26T12:29Z-ID-2019-AKSWS-904752-NAME-Levelock-S-G
+      Code: 72415e86a1ac88368e56f4eb4e218f1d2cbb715367da13c04b9b89cba4edd036
   2019-AZPHD-001290:
     Source_NFSA_Join:
       Lon: -112.11091526798565
