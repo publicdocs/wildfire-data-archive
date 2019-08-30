@@ -68918,7 +68918,7 @@ Database:
       Name: Sing
       Fire_Name: Sing
       UniqueFireIdentifier: 2019-TXTXS-190303
-      DailyAcres: 300
+      DailyAcres: 750
       PercentContained: 80
       FireMgmtComplexity: Type 5 Incident
       IncidentManagementOrganization: null
@@ -68936,21 +68936,21 @@ Database:
       LocalIncidentIdentifier: '190303'
       POOCounty: Brooks
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-30T17:24Z'
-      ModifiedOnDateTimeEpoch: 1567185867000
+      ModifiedOnDateTime: '2019-08-30T18:29Z'
+      ModifiedOnDateTimeEpoch: 1567189743000
       ModifiedBySystem: wires
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190303
-      ModifiedOnDateTime_Raw: '2019-08-30T17:24Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567185867000
+      ModifiedOnDateTime_Raw: '2019-08-30T18:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567189743000
       Hashtag: '#SingFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-30T17:31:14.503Z'
+          RetrievedOn: '2019-08-30T18:31:29.199Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -68964,7 +68964,7 @@ Database:
     Name: Sing
     Fire_Name: Sing
     UniqueFireIdentifier: 2019-TXTXS-190303
-    DailyAcres: 300
+    DailyAcres: 750
     PercentContained: 80
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: null
@@ -68982,16 +68982,16 @@ Database:
     LocalIncidentIdentifier: '190303'
     POOCounty: Brooks
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-30T17:24Z'
-    ModifiedOnDateTimeEpoch: 1567185867000
+    ModifiedOnDateTime: '2019-08-30T18:29Z'
+    ModifiedOnDateTimeEpoch: 1567189743000
     ModifiedBySystem: wires
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190303
-    ModifiedOnDateTime_Raw: '2019-08-30T17:24Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567185867000
+    ModifiedOnDateTime_Raw: '2019-08-30T18:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567189743000
     Hashtag: '#SingFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -69003,8 +69003,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Sing Fire
     _Update:
-      UpdateId: 'UPD-2019-08-30T17:24Z-PER-none-ID-2019-TXTXS-190303-NAME-Sing-S-N'
-      Code: cfd078136d4a839cdcacf4b26aedf865abd0f86ea74df77ec012f21a154cfe22
+      UpdateId: 'UPD-2019-08-30T18:29Z-PER-none-ID-2019-TXTXS-190303-NAME-Sing-S-N'
+      Code: 932147c39c52f09443749f069706265cf7c3714daed80d5a0fff18d835880eb5
   2019-COWRF-000161:
     Source_NFSA_Join:
       Lon: -107.78751245172805
@@ -69381,18 +69381,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567121873000
     Hashtag: '#TumaloCreek0823NwFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-08-29T00:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-08-29T00:00Z'
+      Acres: 23.10357134
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-30T18:31:39.790Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: ORDEF
     unitMention: Deschutes NF
     Final_Fire_Name: Tumalo Creek 0823 Nw Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-29T23:30Z-PER-none-ID-2019-ORDEF-000823-NAME-TUMALOCREEK0823NW-S-N
-      Code: 7b9068e0957cbba065325abda07e1d5c0ba1db1d2c050f75dd9cdf37fadcd1c1
+        UPD-2019-08-29T23:30Z-PER-2019-08-29T00:00Z-ID-2019-ORDEF-000823-NAME-TUMALOCREEK0823NW-S-N
+      Code: e42444cec7cd5c5ce6c5a4bbb20ec43eb869d3b6f8948f46a5ca9d05e5d848d6
   2019-ORWWF-000609:
     Source_NFSA_Join:
       Lon: -117.42701037211233
@@ -69985,21 +70002,21 @@ Database:
       LocalIncidentIdentifier: '190304'
       POOCounty: Shackelford
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-30T06:27Z'
-      ModifiedOnDateTimeEpoch: 1567146476000
+      ModifiedOnDateTime: '2019-08-30T18:29Z'
+      ModifiedOnDateTimeEpoch: 1567189740000
       ModifiedBySystem: wires
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190304
-      ModifiedOnDateTime_Raw: '2019-08-30T06:27Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567146476000
+      ModifiedOnDateTime_Raw: '2019-08-30T18:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567189740000
       Hashtag: '#Dc3Fire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-30T06:31:49.823Z'
+          RetrievedOn: '2019-08-30T18:31:29.199Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -70031,16 +70048,16 @@ Database:
     LocalIncidentIdentifier: '190304'
     POOCounty: Shackelford
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-30T06:27Z'
-    ModifiedOnDateTimeEpoch: 1567146476000
+    ModifiedOnDateTime: '2019-08-30T18:29Z'
+    ModifiedOnDateTimeEpoch: 1567189740000
     ModifiedBySystem: wires
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190304
-    ModifiedOnDateTime_Raw: '2019-08-30T06:27Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567146476000
+    ModifiedOnDateTime_Raw: '2019-08-30T18:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567189740000
     Hashtag: '#Dc3Fire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -70052,5 +70069,5 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Dc3 Fire
     _Update:
-      UpdateId: 'UPD-2019-08-30T06:27Z-PER-none-ID-2019-TXTXS-190304-NAME-DC3-S-N'
-      Code: afb0b4e4c2f25f0618b266b6615a01f0322731259d194e917ebf3ddde4125eab
+      UpdateId: 'UPD-2019-08-30T18:29Z-PER-none-ID-2019-TXTXS-190304-NAME-DC3-S-N'
+      Code: 3e6c8773f026242eb287f5aa9a3c36e127c88ae92df567fc0f45a6a1c69c7366
