@@ -68918,7 +68918,7 @@ Database:
       Name: Sing
       Fire_Name: Sing
       UniqueFireIdentifier: 2019-TXTXS-190303
-      DailyAcres: 750
+      DailyAcres: 700
       PercentContained: 80
       FireMgmtComplexity: Type 5 Incident
       IncidentManagementOrganization: null
@@ -68936,21 +68936,21 @@ Database:
       LocalIncidentIdentifier: '190303'
       POOCounty: Brooks
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-30T18:29Z'
-      ModifiedOnDateTimeEpoch: 1567189743000
+      ModifiedOnDateTime: '2019-08-30T20:33Z'
+      ModifiedOnDateTimeEpoch: 1567197235000
       ModifiedBySystem: wires
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190303
-      ModifiedOnDateTime_Raw: '2019-08-30T18:29Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567189743000
+      ModifiedOnDateTime_Raw: '2019-08-30T20:33Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567197235000
       Hashtag: '#SingFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-30T18:31:29.199Z'
+          RetrievedOn: '2019-08-30T21:01:23.325Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -68964,7 +68964,7 @@ Database:
     Name: Sing
     Fire_Name: Sing
     UniqueFireIdentifier: 2019-TXTXS-190303
-    DailyAcres: 750
+    DailyAcres: 700
     PercentContained: 80
     FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: null
@@ -68982,16 +68982,16 @@ Database:
     LocalIncidentIdentifier: '190303'
     POOCounty: Brooks
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-30T18:29Z'
-    ModifiedOnDateTimeEpoch: 1567189743000
+    ModifiedOnDateTime: '2019-08-30T20:33Z'
+    ModifiedOnDateTimeEpoch: 1567197235000
     ModifiedBySystem: wires
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190303
-    ModifiedOnDateTime_Raw: '2019-08-30T18:29Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567189743000
+    ModifiedOnDateTime_Raw: '2019-08-30T20:33Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567197235000
     Hashtag: '#SingFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -69003,8 +69003,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Sing Fire
     _Update:
-      UpdateId: 'UPD-2019-08-30T18:29Z-PER-none-ID-2019-TXTXS-190303-NAME-Sing-S-N'
-      Code: 932147c39c52f09443749f069706265cf7c3714daed80d5a0fff18d835880eb5
+      UpdateId: 'UPD-2019-08-30T20:33Z-PER-none-ID-2019-TXTXS-190303-NAME-Sing-S-N'
+      Code: 5532b4dfe877839d024f3c1b8002169d409f5db9191b113a088f478fc8d0f260
   2019-COWRF-000161:
     Source_NFSA_Join:
       Lon: -107.78751245172805
@@ -70071,3 +70071,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-30T19:24Z-PER-none-ID-2019-TXTXS-190304-NAME-DC3-S-N'
       Code: d7307c6a633a8218e0de474c8a45010df41b7afe978a45a113928b3e01f73939
+  2019-IDNCF-000744:
+    Source_NFSA_Join:
+      Lon: -115.42611189141735
+      Lat: 46.2465969440936
+      id: 129048
+      Name: Tumble
+      Fire_Name: Tumble
+      UniqueFireIdentifier: 2019-IDNCF-000744
+      DailyAcres: 1
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-30T20:00Z'
+      ICS209ReportDateTimeEpoch: 1567195200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5000
+      FireCause: Natural
+      TotalIncidentPersonnel: 1
+      FireDiscoveryDateTime: '2019-08-16T00:09Z'
+      FireDiscoveryDateTimeEpoch: 1565914171000
+      DispatchCenterID: IDGVC
+      LocalIncidentIdentifier: '000744'
+      POOCounty: Idaho
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-30T20:00Z'
+      ModifiedOnDateTimeEpoch: 1567195200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-IDNCF-000744
+      ModifiedOnDateTime_Raw: '2019-08-30T20:53Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567198383000
+      Hashtag: '#TumbleFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-30T21:01:23.325Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -115.42611189141735
+    Lat: 46.2465969440936
+    id: 129048
+    Name: Tumble
+    Fire_Name: Tumble
+    UniqueFireIdentifier: 2019-IDNCF-000744
+    DailyAcres: 1
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-08-30T20:00Z'
+    ICS209ReportDateTimeEpoch: 1567195200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5000
+    FireCause: Natural
+    TotalIncidentPersonnel: 1
+    FireDiscoveryDateTime: '2019-08-16T00:09Z'
+    FireDiscoveryDateTimeEpoch: 1565914171000
+    DispatchCenterID: IDGVC
+    LocalIncidentIdentifier: '000744'
+    POOCounty: Idaho
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-08-30T20:00Z'
+    ModifiedOnDateTimeEpoch: 1567195200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-IDNCF-000744
+    ModifiedOnDateTime_Raw: '2019-08-30T20:53Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567198383000
+    Hashtag: '#TumbleFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-29T22:31Z'
+    PerimeterData:
+      DateTime: '2019-08-29T22:31Z'
+      Acres: 1.20998702
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-30T21:01:31.247Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: IDNCF
+    unitMention: Nez Perce - Clearwater NFs
+    Final_Fire_Name: Tumble Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-08-30T20:00Z-PER-2019-08-29T22:31Z-ID-2019-IDNCF-000744-NAME-Tumble-S-N
+      Code: acd11d06c10f36e512922da735bd8972bf0ff2bd11bfe929c1dee7164389dcb7
