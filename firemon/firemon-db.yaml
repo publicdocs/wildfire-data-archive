@@ -71118,8 +71118,8 @@ Database:
     Link: >-
       https://www.fire.ca.gov/incident/?incident=8faaa845-634f-4f94-b25e-f5ae78703da6
     _CorrelationIds:
-      - CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6
       - 2019-CATUU-000684
+      - CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -71132,3 +71132,147 @@ Database:
       UpdateId: >-
         UPD-2019-09-01T14:25Z-PER-none-ID-CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6-NAME-CreekFire-S-C
       Code: 06f932cd3f69e54630531b563b51a3b0de951d69b6efc23fbbab7618bd6eed53
+  2019-WAOWF-000362:
+    Source_GEOMAC:
+      Lon: -120.72557078793989
+      Lat: 48.26222782911097
+      objectid: 11
+      latitude: 48.262222
+      longitude: -120.725556
+      acres: 630
+      gacc: NWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: WA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-01T15:45Z'
+      reportdatetimeEpoch: 1567352700000
+      percentcontained: 0
+      uniquefireidentifier: 2019-WAOWF-000362
+      firediscoverydatetime: '2019-07-26T22:34Z'
+      firediscoverydatetimeEpoch: 1564180440000
+      complexparentirwinid: null
+      pooresponsibleunit: WAOWF
+      incidentname: DEVORE CREEK
+      iscomplex: 'false'
+      irwinid: '{880CB9FC-683C-40D3-A8B5-7ED3C6126F69}'
+      irwinmodifiedon: '2019-09-01T16:00Z'
+      irwinmodifiedonEpoch: 1567353632000
+      mapsymbol: '1'
+      datecurrent: '2019-09-01T10:31Z'
+      datecurrentEpoch: 1567333890000
+      pooownerunit: WAOWF
+      fireyear: 2019
+      localincidentidentifier: '000362'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 630
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-01T15:45Z'
+      ModifiedOnDateTimeEpoch: 1567352700000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-WAOWF-000362
+      FireDiscoveryDateTime: '2019-07-26T22:34Z'
+      FireDiscoveryDateTimeEpoch: 1564180440000
+      Fire_Name: DEVORE CREEK
+      Name: DEVORE CREEK
+      Source: GEOMAC
+      Hashtag: '#DevoreCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-01T16:33:06.368Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-WAOWF-000362
+    Lon: -120.72557078793989
+    Lat: 48.26222782911097
+    objectid: 11
+    latitude: 48.262222
+    longitude: -120.725556
+    acres: 630
+    gacc: NWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: WA
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-09-01T15:45Z'
+    reportdatetimeEpoch: 1567352700000
+    percentcontained: 0
+    uniquefireidentifier: 2019-WAOWF-000362
+    firediscoverydatetime: '2019-07-26T22:34Z'
+    firediscoverydatetimeEpoch: 1564180440000
+    complexparentirwinid: null
+    pooresponsibleunit: WAOWF
+    incidentname: DEVORE CREEK
+    iscomplex: 'false'
+    irwinid: '{880CB9FC-683C-40D3-A8B5-7ED3C6126F69}'
+    irwinmodifiedon: '2019-09-01T16:00Z'
+    irwinmodifiedonEpoch: 1567353632000
+    mapsymbol: '1'
+    datecurrent: '2019-09-01T10:31Z'
+    datecurrentEpoch: 1567333890000
+    pooownerunit: WAOWF
+    fireyear: 2019
+    localincidentidentifier: '000362'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 630
+    FireCause: Unknown
+    ModifiedOnDateTime: '2019-09-01T15:45Z'
+    ModifiedOnDateTimeEpoch: 1567352700000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-WAOWF-000362
+    FireDiscoveryDateTime: '2019-07-26T22:34Z'
+    FireDiscoveryDateTimeEpoch: 1564180440000
+    Fire_Name: DEVORE CREEK
+    Name: DEVORE CREEK
+    Source: GEOMAC
+    Hashtag: '#DevoreCreekFire'
+    _CorrelationIds:
+      - 2019-WAOWF-000362
+    PerimDateTime: '2019-08-21T03:37Z'
+    PerimeterData:
+      DateTime: '2019-08-21T03:37Z'
+      Acres: 502.54762833
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-01T16:33:11.026Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: WAOWF
+    unitMention: Okanogan-Wenatchee NF
+    Final_Fire_Name: Devore Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-01T15:45Z-PER-2019-08-21T03:37Z-ID-2019-WAOWF-000362-NAME-DEVORECREEK-S-G
+      Code: 063f8efb2aa0676f351a8baf0e7bd796e2abd5ca47cb730360af581fdda022ad
