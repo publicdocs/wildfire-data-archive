@@ -1321,7 +1321,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:32:07.754Z'
+          RetrievedOn: '2019-09-01T01:32:32.133Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -1341,9 +1341,9 @@ Database:
       state: AK
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-31T01:00Z'
-      reportdatetimeEpoch: 1567213200000
-      percentcontained: 28
+      reportdatetime: '2019-09-01T01:00Z'
+      reportdatetimeEpoch: 1567299600000
+      percentcontained: 29
       uniquefireidentifier: 2019-AKKKS-903181
       firediscoverydatetime: '2019-06-06T02:52Z'
       firediscoverydatetimeEpoch: 1559789537000
@@ -1352,11 +1352,11 @@ Database:
       incidentname: Swan Lake
       iscomplex: 'false'
       irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
-      irwinmodifiedon: '2019-08-31T02:02Z'
-      irwinmodifiedonEpoch: 1567216935000
+      irwinmodifiedon: '2019-09-01T01:15Z'
+      irwinmodifiedonEpoch: 1567300527000
       mapsymbol: '5'
-      datecurrent: '2019-08-30T20:30Z'
-      datecurrentEpoch: 1567197040000
+      datecurrent: '2019-08-31T19:30Z'
+      datecurrentEpoch: 1567279838000
       pooownerunit: AKKNR
       fireyear: 2019
       localincidentidentifier: '903181'
@@ -1366,9 +1366,9 @@ Database:
       complexname: null
       DailyAcres: 162179
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-31T01:00Z'
-      ModifiedOnDateTimeEpoch: 1567213200000
-      PercentContained: 28
+      ModifiedOnDateTime: '2019-09-01T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567299600000
+      PercentContained: 29
       UniqueFireIdentifier: 2019-AKKKS-903181
       FireDiscoveryDateTime: '2019-06-06T02:52Z'
       FireDiscoveryDateTimeEpoch: 1559789537000
@@ -1378,7 +1378,7 @@ Database:
       Hashtag: '#SwanLakeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:32:07.755Z'
+          RetrievedOn: '2019-09-01T01:32:32.134Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -1395,49 +1395,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKKKS-903181
-    Lon: -150.4376895785433
-    Lat: 60.63051903798901
-    id: 118050
-    Name: Swan Lake
-    Fire_Name: Swan Lake
-    UniqueFireIdentifier: 2019-AKKKS-903181
+    Lon: -150.4378006349888
+    Lat: 60.6305575885759
+    objectid: 1
+    latitude: 60.630556
+    longitude: -150.437778
+    acres: 162179
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-09-01T01:00Z'
+    reportdatetimeEpoch: 1567299600000
+    percentcontained: 29
+    uniquefireidentifier: 2019-AKKKS-903181
+    firediscoverydatetime: '2019-06-06T02:52Z'
+    firediscoverydatetimeEpoch: 1559789537000
+    complexparentirwinid: null
+    pooresponsibleunit: AKKKS
+    incidentname: Swan Lake
+    iscomplex: 'false'
+    irwinid: '{836450FA-2D41-41A0-B38F-5A4B17766214}'
+    irwinmodifiedon: '2019-09-01T01:15Z'
+    irwinmodifiedonEpoch: 1567300527000
+    mapsymbol: '5'
+    datecurrent: '2019-08-31T19:30Z'
+    datecurrentEpoch: 1567279838000
+    pooownerunit: AKKNR
+    fireyear: 2019
+    localincidentidentifier: '903181'
+    incidenttypecategory: WF
+    owneragency: USFWS
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 162179
-    PercentContained: 28
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2019-08-31T01:00Z'
-    ICS209ReportDateTimeEpoch: 1567213200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 34800000
     FireCause: Natural
-    TotalIncidentPersonnel: 751
+    ModifiedOnDateTime: '2019-09-01T01:00Z'
+    ModifiedOnDateTimeEpoch: 1567299600000
+    PercentContained: 29
+    UniqueFireIdentifier: 2019-AKKKS-903181
     FireDiscoveryDateTime: '2019-06-06T02:52Z'
     FireDiscoveryDateTimeEpoch: 1559789537000
-    DispatchCenterID: AKKIDC
-    LocalIncidentIdentifier: '903181'
-    POOCounty: Kenai Peninsula
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-31T01:00Z'
-    ModifiedOnDateTimeEpoch: 1567213200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
+    Fire_Name: Swan Lake
+    Name: Swan Lake
+    Source: GEOMAC
+    Hashtag: '#SwanLakeFire'
     _CorrelationIds:
       - 2019-AKKKS-903181
-    ModifiedOnDateTime_Raw: '2019-08-31T02:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567216935000
-    Hashtag: '#SwanLakeFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-29T00:00Z'
     PerimeterData:
       DateTime: '2019-08-29T00:00Z'
       Acres: 161921.748003
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:32:12.343Z'
+          RetrievedOn: '2019-09-01T01:32:36.701Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1458,8 +1470,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-31T01:00Z-PER-2019-08-29T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
-      Code: c6080a30227b3ad3d78a7459ac0815977e580f6628519a1e27d6d9dfe004ac21
+        UPD-2019-09-01T01:00Z-PER-2019-08-29T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-G
+      Code: 8cde0c2650bf6216700c9929b383c74db7ba716a9d6fd0d7734f5018340cf1eb
   CALFIRE-7a0029c7-64c8-442d-8c7a-080a553e2b8e:
     Source_CALFIRE:
       Lon: -121.534827
@@ -61085,7 +61097,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:32:07.754Z'
+          RetrievedOn: '2019-09-01T01:32:32.133Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -61096,7 +61108,7 @@ Database:
     Source_GEOMAC:
       Lon: -151.11557815639537
       Lat: 59.913612527581996
-      objectid: 32
+      objectid: 30
       latitude: 59.913611
       longitude: -151.115556
       acres: 904
@@ -61105,8 +61117,8 @@ Database:
       state: AK
       status: U
       firecause: Unknown
-      reportdatetime: '2019-08-31T00:00Z'
-      reportdatetimeEpoch: 1567209600000
+      reportdatetime: '2019-09-01T01:00Z'
+      reportdatetimeEpoch: 1567299600000
       percentcontained: 85
       uniquefireidentifier: 2019-AKKKS-903754
       firediscoverydatetime: '2019-08-19T22:57Z'
@@ -61116,11 +61128,11 @@ Database:
       incidentname: Caribou Lake
       iscomplex: 'false'
       irwinid: '{09A79D34-4B12-4AE1-AEB9-434CEF5093A3}'
-      irwinmodifiedon: '2019-08-31T02:11Z'
-      irwinmodifiedonEpoch: 1567217463000
+      irwinmodifiedon: '2019-09-01T01:18Z'
+      irwinmodifiedonEpoch: 1567300701000
       mapsymbol: '1'
-      datecurrent: '2019-08-30T20:30Z'
-      datecurrentEpoch: 1567197040000
+      datecurrent: '2019-08-31T19:30Z'
+      datecurrentEpoch: 1567279838000
       pooownerunit: AKAKS
       fireyear: 2019
       localincidentidentifier: '903754'
@@ -61130,8 +61142,8 @@ Database:
       complexname: null
       DailyAcres: 904
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-08-31T00:00Z'
-      ModifiedOnDateTimeEpoch: 1567209600000
+      ModifiedOnDateTime: '2019-09-01T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567299600000
       PercentContained: 85
       UniqueFireIdentifier: 2019-AKKKS-903754
       FireDiscoveryDateTime: '2019-08-19T22:57Z'
@@ -61142,7 +61154,7 @@ Database:
       Hashtag: '#CaribouLakeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:32:07.755Z'
+          RetrievedOn: '2019-09-01T01:32:32.134Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -61159,49 +61171,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-AKKKS-903754
-    Lon: -151.11552235932857
-    Lat: 59.913501143923654
-    id: 129555
-    Name: Caribou Lake
-    Fire_Name: Caribou Lake
-    UniqueFireIdentifier: 2019-AKKKS-903754
+    Lon: -151.11557815639537
+    Lat: 59.913612527581996
+    objectid: 30
+    latitude: 59.913611
+    longitude: -151.115556
+    acres: 904
+    gacc: AKCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: AK
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-09-01T01:00Z'
+    reportdatetimeEpoch: 1567299600000
+    percentcontained: 85
+    uniquefireidentifier: 2019-AKKKS-903754
+    firediscoverydatetime: '2019-08-19T22:57Z'
+    firediscoverydatetimeEpoch: 1566255464000
+    complexparentirwinid: null
+    pooresponsibleunit: AKKKS
+    incidentname: Caribou Lake
+    iscomplex: 'false'
+    irwinid: '{09A79D34-4B12-4AE1-AEB9-434CEF5093A3}'
+    irwinmodifiedon: '2019-09-01T01:18Z'
+    irwinmodifiedonEpoch: 1567300701000
+    mapsymbol: '1'
+    datecurrent: '2019-08-31T19:30Z'
+    datecurrentEpoch: 1567279838000
+    pooownerunit: AKAKS
+    fireyear: 2019
+    localincidentidentifier: '903754'
+    incidenttypecategory: WF
+    owneragency: State
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 904
-    PercentContained: 85
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2019-08-31T00:00Z'
-    ICS209ReportDateTimeEpoch: 1567209600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1400000
     FireCause: Unknown
-    TotalIncidentPersonnel: 73
+    ModifiedOnDateTime: '2019-09-01T01:00Z'
+    ModifiedOnDateTimeEpoch: 1567299600000
+    PercentContained: 85
+    UniqueFireIdentifier: 2019-AKKKS-903754
     FireDiscoveryDateTime: '2019-08-19T22:57Z'
     FireDiscoveryDateTimeEpoch: 1566255464000
-    DispatchCenterID: AKKIDC
-    LocalIncidentIdentifier: '903754'
-    POOCounty: Kenai Peninsula
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-08-31T00:00Z'
-    ModifiedOnDateTimeEpoch: 1567209600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Caribou Lake
+    Name: Caribou Lake
+    Source: GEOMAC
+    Hashtag: '#CaribouLakeFire'
     _CorrelationIds:
       - 2019-AKKKS-903754
-    ModifiedOnDateTime_Raw: '2019-08-31T02:11Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567217463000
-    Hashtag: '#CaribouLakeFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-29T00:00Z'
     PerimeterData:
       DateTime: '2019-08-29T00:00Z'
       Acres: 904.71763058
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:32:12.343Z'
+          RetrievedOn: '2019-09-01T01:32:36.701Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -61222,8 +61246,8 @@ Database:
     Final_Fire_Name: Caribou Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-31T00:00Z-PER-2019-08-29T00:00Z-ID-2019-AKKKS-903754-NAME-CaribouLake-S-N
-      Code: 000ace8b17d46b1fa2c4140af03a843aeb2f8a8affc995d8f89a45713502fb58
+        UPD-2019-09-01T01:00Z-PER-2019-08-29T00:00Z-ID-2019-AKKKS-903754-NAME-CaribouLake-S-G
+      Code: 86330c916c6e1da86e90cd5cae0001a4894382e11f3b247d67a542924a3ee974
   2019-ORMAF-019204:
     Source_NFSA_Join:
       Lon: -118.46051312333901
@@ -61264,7 +61288,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:01:38.761Z'
+          RetrievedOn: '2019-09-01T01:32:32.133Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -61275,17 +61299,17 @@ Database:
     Source_GEOMAC:
       Lon: -118.45981354097592
       Lat: 44.2850557992008
-      objectid: 24
+      objectid: 23
       latitude: 44.28505
       longitude: -118.4598
-      acres: 5516
+      acres: 6108
       gacc: NWCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: OR
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-31T01:30Z'
-      reportdatetimeEpoch: 1567215000000
+      reportdatetime: '2019-09-01T01:00Z'
+      reportdatetimeEpoch: 1567299600000
       percentcontained: 5
       uniquefireidentifier: 2019-ORMAF-019204
       firediscoverydatetime: '2019-08-10T02:34Z'
@@ -61295,11 +61319,11 @@ Database:
       incidentname: 204 Cow
       iscomplex: 'false'
       irwinid: '{6FB0FEFD-A96D-4F23-BD34-60936BFCD93F}'
-      irwinmodifiedon: '2019-08-31T01:38Z'
-      irwinmodifiedonEpoch: 1567215489000
+      irwinmodifiedon: '2019-09-01T01:00Z'
+      irwinmodifiedonEpoch: 1567299638000
       mapsymbol: '1'
-      datecurrent: '2019-08-30T20:01Z'
-      datecurrentEpoch: 1567195262000
+      datecurrent: '2019-08-31T19:30Z'
+      datecurrentEpoch: 1567279838000
       pooownerunit: ORMAF
       fireyear: 2019
       localincidentidentifier: 019204
@@ -61307,10 +61331,10 @@ Database:
       owneragency: USFS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 5516
+      DailyAcres: 6108
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-31T01:30Z'
-      ModifiedOnDateTimeEpoch: 1567215000000
+      ModifiedOnDateTime: '2019-09-01T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567299600000
       PercentContained: 5
       UniqueFireIdentifier: 2019-ORMAF-019204
       FireDiscoveryDateTime: '2019-08-10T02:34Z'
@@ -61321,7 +61345,7 @@ Database:
       Hashtag: '#204CowFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:01:38.763Z'
+          RetrievedOn: '2019-09-01T01:32:32.134Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -61338,49 +61362,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-ORMAF-019204
-    Lon: -118.46051312333901
-    Lat: 44.285565643990886
-    id: 128002
-    Name: 204 Cow
-    Fire_Name: 204 Cow
-    UniqueFireIdentifier: 2019-ORMAF-019204
-    DailyAcres: 5516
-    PercentContained: 5
-    FireMgmtComplexity: Type 2 Incident
-    IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-08-31T01:30Z'
-    ICS209ReportDateTimeEpoch: 1567215000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 5085688
+    Lon: -118.45981354097592
+    Lat: 44.2850557992008
+    objectid: 23
+    latitude: 44.28505
+    longitude: -118.4598
+    acres: 6108
+    gacc: NWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: OR
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-09-01T01:00Z'
+    reportdatetimeEpoch: 1567299600000
+    percentcontained: 5
+    uniquefireidentifier: 2019-ORMAF-019204
+    firediscoverydatetime: '2019-08-10T02:34Z'
+    firediscoverydatetimeEpoch: 1565404440000
+    complexparentirwinid: null
+    pooresponsibleunit: ORMAF
+    incidentname: 204 Cow
+    iscomplex: 'false'
+    irwinid: '{6FB0FEFD-A96D-4F23-BD34-60936BFCD93F}'
+    irwinmodifiedon: '2019-09-01T01:00Z'
+    irwinmodifiedonEpoch: 1567299638000
+    mapsymbol: '1'
+    datecurrent: '2019-08-31T19:30Z'
+    datecurrentEpoch: 1567279838000
+    pooownerunit: ORMAF
+    fireyear: 2019
+    localincidentidentifier: 019204
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 6108
     FireCause: Natural
-    TotalIncidentPersonnel: 593
+    ModifiedOnDateTime: '2019-09-01T01:00Z'
+    ModifiedOnDateTimeEpoch: 1567299600000
+    PercentContained: 5
+    UniqueFireIdentifier: 2019-ORMAF-019204
     FireDiscoveryDateTime: '2019-08-10T02:34Z'
     FireDiscoveryDateTimeEpoch: 1565404440000
-    DispatchCenterID: ORJDCC
-    LocalIncidentIdentifier: 019204
-    POOCounty: Baker
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-31T01:30Z'
-    ModifiedOnDateTimeEpoch: 1567215000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType2
-    Source: NFSA
+    Fire_Name: 204 Cow
+    Name: 204 Cow
+    Source: GEOMAC
+    Hashtag: '#204CowFire'
     _CorrelationIds:
       - 2019-ORMAF-019204
-    ModifiedOnDateTime_Raw: '2019-08-31T01:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567215488000
-    Hashtag: '#204CowFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-29T13:52Z'
     PerimeterData:
       DateTime: '2019-08-29T13:52Z'
       Acres: 5515.88936383
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:01:43.396Z'
+          RetrievedOn: '2019-09-01T01:32:36.701Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -61401,8 +61437,8 @@ Database:
     Final_Fire_Name: 204 Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-31T01:30Z-PER-2019-08-29T13:52Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
-      Code: f32f440efa55bfb66f59eabb3908e7bd9bac76b35dc29d5142e9cab5f1c1356c
+        UPD-2019-09-01T01:00Z-PER-2019-08-29T13:52Z-ID-2019-ORMAF-019204-NAME-204Cow-S-G
+      Code: eb68cc07bba5f9749b9cf541d14343839564b8e0a8116809e5b9bab5bf2120a0
   2019-TXTXS-190262:
     Source_NFSA_Join:
       Lon: -99.75316021361986
@@ -63824,7 +63860,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:01:38.761Z'
+          RetrievedOn: '2019-09-01T01:32:32.133Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63838,14 +63874,14 @@ Database:
       objectid: 7
       latitude: 36.2838
       longitude: -118.2276
-      acres: 1250
+      acres: 1350
       gacc: OSCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: CA
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-31T00:45Z'
-      reportdatetimeEpoch: 1567212300000
+      reportdatetime: '2019-09-01T00:30Z'
+      reportdatetimeEpoch: 1567297800000
       percentcontained: 15
       uniquefireidentifier: 2019-CAINF-001435
       firediscoverydatetime: '2019-07-25T15:13Z'
@@ -63855,11 +63891,11 @@ Database:
       incidentname: COW
       iscomplex: 'false'
       irwinid: '{514B7AAC-D243-4A14-9509-A0BDA0B2C61D}'
-      irwinmodifiedon: '2019-08-31T01:31Z'
-      irwinmodifiedonEpoch: 1567215060000
+      irwinmodifiedon: '2019-09-01T01:11Z'
+      irwinmodifiedonEpoch: 1567300280000
       mapsymbol: '1'
-      datecurrent: '2019-08-30T20:01Z'
-      datecurrentEpoch: 1567195262000
+      datecurrent: '2019-08-31T19:30Z'
+      datecurrentEpoch: 1567279838000
       pooownerunit: CAINF
       fireyear: 2019
       localincidentidentifier: '001435'
@@ -63867,10 +63903,10 @@ Database:
       owneragency: USFS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 1250
+      DailyAcres: 1350
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-31T00:45Z'
-      ModifiedOnDateTimeEpoch: 1567212300000
+      ModifiedOnDateTime: '2019-09-01T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567297800000
       PercentContained: 15
       UniqueFireIdentifier: 2019-CAINF-001435
       FireDiscoveryDateTime: '2019-07-25T15:13Z'
@@ -63881,7 +63917,7 @@ Database:
       Hashtag: '#CowFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:01:38.763Z'
+          RetrievedOn: '2019-09-01T01:32:32.134Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -63898,49 +63934,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CAINF-001435
-    Lon: -118.279215132698
-    Lat: 36.28518734407914
-    id: 124891
-    Name: COW
-    Fire_Name: COW
-    UniqueFireIdentifier: 2019-CAINF-001435
-    DailyAcres: 1250
-    PercentContained: 15
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-31T00:45Z'
-    ICS209ReportDateTimeEpoch: 1567212300000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1500000
+    Lon: -118.2276123867199
+    Lat: 36.28380509582787
+    objectid: 7
+    latitude: 36.2838
+    longitude: -118.2276
+    acres: 1350
+    gacc: OSCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CA
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-09-01T00:30Z'
+    reportdatetimeEpoch: 1567297800000
+    percentcontained: 15
+    uniquefireidentifier: 2019-CAINF-001435
+    firediscoverydatetime: '2019-07-25T15:13Z'
+    firediscoverydatetimeEpoch: 1564067580000
+    complexparentirwinid: null
+    pooresponsibleunit: CAINF
+    incidentname: COW
+    iscomplex: 'false'
+    irwinid: '{514B7AAC-D243-4A14-9509-A0BDA0B2C61D}'
+    irwinmodifiedon: '2019-09-01T01:11Z'
+    irwinmodifiedonEpoch: 1567300280000
+    mapsymbol: '1'
+    datecurrent: '2019-08-31T19:30Z'
+    datecurrentEpoch: 1567279838000
+    pooownerunit: CAINF
+    fireyear: 2019
+    localincidentidentifier: '001435'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 1350
     FireCause: Natural
-    TotalIncidentPersonnel: 84
+    ModifiedOnDateTime: '2019-09-01T00:30Z'
+    ModifiedOnDateTimeEpoch: 1567297800000
+    PercentContained: 15
+    UniqueFireIdentifier: 2019-CAINF-001435
     FireDiscoveryDateTime: '2019-07-25T15:13Z'
     FireDiscoveryDateTimeEpoch: 1564067580000
-    DispatchCenterID: CAOVCC
-    LocalIncidentIdentifier: '001435'
-    POOCounty: Tulare
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-31T00:45Z'
-    ModifiedOnDateTimeEpoch: 1567212300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: COW
+    Name: COW
+    Source: GEOMAC
+    Hashtag: '#CowFire'
     _CorrelationIds:
       - 2019-CAINF-001435
-    ModifiedOnDateTime_Raw: '2019-08-31T01:30Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567215059000
-    Hashtag: '#CowFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-25T17:50Z'
     PerimeterData:
       DateTime: '2019-08-25T17:50Z'
       Acres: 612.09916894
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T02:01:43.396Z'
+          RetrievedOn: '2019-09-01T01:32:36.701Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -63961,8 +64009,8 @@ Database:
     Final_Fire_Name: Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-31T00:45Z-PER-2019-08-25T17:50Z-ID-2019-CAINF-001435-NAME-COW-S-N
-      Code: e814b6c7dfa1cb2a0f9e9f1e4678e3d13153d0a8917e4c4acdff8f1d49b9cc3e
+        UPD-2019-09-01T00:30Z-PER-2019-08-25T17:50Z-ID-2019-CAINF-001435-NAME-COW-S-G
+      Code: 9629c66910919e569151e37b7cd783feff8cafcb14099173e7a4031c86f09a10
   CALFIRE-46896a04-8502-403c-b362-e4adc9e7ad4d:
     Source_CALFIRE:
       Lon: -116.857817
@@ -68186,7 +68234,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T13:01:53.794Z'
+          RetrievedOn: '2019-09-01T01:32:32.133Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -68206,9 +68254,9 @@ Database:
       state: CA
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-31T12:45Z'
-      reportdatetimeEpoch: 1567255500000
-      percentcontained: 35
+      reportdatetime: '2019-09-01T01:00Z'
+      reportdatetimeEpoch: 1567299600000
+      percentcontained: 65
       uniquefireidentifier: 2019-CANOD-004869
       firediscoverydatetime: '2019-08-28T23:30Z'
       firediscoverydatetimeEpoch: 1567035000000
@@ -68217,11 +68265,11 @@ Database:
       incidentname: R-1  Ranch
       iscomplex: 'false'
       irwinid: '{6F799B16-61C8-4AAF-82CC-B310CE2E1437}'
-      irwinmodifiedon: '2019-08-31T12:58Z'
-      irwinmodifiedonEpoch: 1567256298000
+      irwinmodifiedon: '2019-09-01T01:18Z'
+      irwinmodifiedonEpoch: 1567300721000
       mapsymbol: '1'
-      datecurrent: '2019-08-31T07:00Z'
-      datecurrentEpoch: 1567234830000
+      datecurrent: '2019-08-31T19:30Z'
+      datecurrentEpoch: 1567279838000
       pooownerunit: CALMU
       fireyear: 2019
       localincidentidentifier: 004869
@@ -68231,9 +68279,9 @@ Database:
       complexname: null
       DailyAcres: 3340
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-31T12:45Z'
-      ModifiedOnDateTimeEpoch: 1567255500000
-      PercentContained: 35
+      ModifiedOnDateTime: '2019-09-01T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567299600000
+      PercentContained: 65
       UniqueFireIdentifier: 2019-CANOD-004869
       FireDiscoveryDateTime: '2019-08-28T23:30Z'
       FireDiscoveryDateTimeEpoch: 1567035000000
@@ -68243,7 +68291,7 @@ Database:
       Hashtag: '#R1RanchFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T13:01:53.795Z'
+          RetrievedOn: '2019-09-01T01:32:32.134Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -68271,9 +68319,9 @@ Database:
     state: CA
     status: U
     firecause: Natural
-    reportdatetime: '2019-08-31T12:45Z'
-    reportdatetimeEpoch: 1567255500000
-    percentcontained: 35
+    reportdatetime: '2019-09-01T01:00Z'
+    reportdatetimeEpoch: 1567299600000
+    percentcontained: 65
     uniquefireidentifier: 2019-CANOD-004869
     firediscoverydatetime: '2019-08-28T23:30Z'
     firediscoverydatetimeEpoch: 1567035000000
@@ -68282,11 +68330,11 @@ Database:
     incidentname: R-1  Ranch
     iscomplex: 'false'
     irwinid: '{6F799B16-61C8-4AAF-82CC-B310CE2E1437}'
-    irwinmodifiedon: '2019-08-31T12:58Z'
-    irwinmodifiedonEpoch: 1567256298000
+    irwinmodifiedon: '2019-09-01T01:18Z'
+    irwinmodifiedonEpoch: 1567300721000
     mapsymbol: '1'
-    datecurrent: '2019-08-31T07:00Z'
-    datecurrentEpoch: 1567234830000
+    datecurrent: '2019-08-31T19:30Z'
+    datecurrentEpoch: 1567279838000
     pooownerunit: CALMU
     fireyear: 2019
     localincidentidentifier: 004869
@@ -68296,9 +68344,9 @@ Database:
     complexname: null
     DailyAcres: 3340
     FireCause: Natural
-    ModifiedOnDateTime: '2019-08-31T12:45Z'
-    ModifiedOnDateTimeEpoch: 1567255500000
-    PercentContained: 35
+    ModifiedOnDateTime: '2019-09-01T01:00Z'
+    ModifiedOnDateTimeEpoch: 1567299600000
+    PercentContained: 65
     UniqueFireIdentifier: 2019-CANOD-004869
     FireDiscoveryDateTime: '2019-08-28T23:30Z'
     FireDiscoveryDateTimeEpoch: 1567035000000
@@ -68317,8 +68365,8 @@ Database:
     unitMention: Northern California District
     Final_Fire_Name: R 1 Ranch Fire
     _Update:
-      UpdateId: 'UPD-2019-08-31T12:45Z-PER-none-ID-2019-CANOD-004869-NAME-R1Ranch-S-G'
-      Code: 2c46e753b70b7add059dd765697b1bad2c0133e07a8c233fbbd399025601e0fb
+      UpdateId: 'UPD-2019-09-01T01:00Z-PER-none-ID-2019-CANOD-004869-NAME-R1Ranch-S-G'
+      Code: a193ac35476ac3b66e47e13805b5b276af2a0023e0b68104d4828f5ce4619a51
   2019-WYSHF-000428:
     Source_NFSA_Join:
       Lon: -109.62570806816329
