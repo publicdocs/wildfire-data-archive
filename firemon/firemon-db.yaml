@@ -59945,7 +59945,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T01:00:50.173Z'
+          RetrievedOn: '2019-09-01T00:32:22.217Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -59956,7 +59956,7 @@ Database:
     Source_GEOMAC:
       Lon: -118.184456367676
       Lat: 36.16556108636377
-      objectid: 25
+      objectid: 24
       latitude: 36.165556
       longitude: -118.184444
       acres: 265
@@ -59965,8 +59965,8 @@ Database:
       state: CA
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-30T23:45Z'
-      reportdatetimeEpoch: 1567208700000
+      reportdatetime: '2019-08-31T23:45Z'
+      reportdatetimeEpoch: 1567295100000
       percentcontained: 10
       uniquefireidentifier: 2019-CASQF-001708
       firediscoverydatetime: '2019-08-08T15:00Z'
@@ -59976,11 +59976,11 @@ Database:
       incidentname: BRODER
       iscomplex: 'false'
       irwinid: '{D8377BAF-8559-4A8A-A886-318FA8B415C4}'
-      irwinmodifiedon: '2019-08-31T00:32Z'
-      irwinmodifiedonEpoch: 1567211524000
+      irwinmodifiedon: '2019-09-01T00:01Z'
+      irwinmodifiedonEpoch: 1567296109000
       mapsymbol: '1'
-      datecurrent: '2019-08-30T19:00Z'
-      datecurrentEpoch: 1567191647000
+      datecurrent: '2019-08-31T18:30Z'
+      datecurrentEpoch: 1567276240000
       pooownerunit: CASQF
       fireyear: 2019
       localincidentidentifier: 001708
@@ -59990,8 +59990,8 @@ Database:
       complexname: null
       DailyAcres: 265
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-30T23:45Z'
-      ModifiedOnDateTimeEpoch: 1567208700000
+      ModifiedOnDateTime: '2019-08-31T23:45Z'
+      ModifiedOnDateTimeEpoch: 1567295100000
       PercentContained: 10
       UniqueFireIdentifier: 2019-CASQF-001708
       FireDiscoveryDateTime: '2019-08-08T15:00Z'
@@ -60002,7 +60002,7 @@ Database:
       Hashtag: '#BroderFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T01:00:50.174Z'
+          RetrievedOn: '2019-09-01T00:32:22.219Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -60019,49 +60019,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CASQF-001708
-    Lon: -118.11048457288186
-    Lat: 36.09911479976353
-    id: 128108
-    Name: BRODER
-    Fire_Name: BRODER
-    UniqueFireIdentifier: 2019-CASQF-001708
+    Lon: -118.184456367676
+    Lat: 36.16556108636377
+    objectid: 24
+    latitude: 36.165556
+    longitude: -118.184444
+    acres: 265
+    gacc: OSCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CA
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-08-31T23:45Z'
+    reportdatetimeEpoch: 1567295100000
+    percentcontained: 10
+    uniquefireidentifier: 2019-CASQF-001708
+    firediscoverydatetime: '2019-08-08T15:00Z'
+    firediscoverydatetimeEpoch: 1565276400000
+    complexparentirwinid: null
+    pooresponsibleunit: CASQF
+    incidentname: BRODER
+    iscomplex: 'false'
+    irwinid: '{D8377BAF-8559-4A8A-A886-318FA8B415C4}'
+    irwinmodifiedon: '2019-09-01T00:01Z'
+    irwinmodifiedonEpoch: 1567296109000
+    mapsymbol: '1'
+    datecurrent: '2019-08-31T18:30Z'
+    datecurrentEpoch: 1567276240000
+    pooownerunit: CASQF
+    fireyear: 2019
+    localincidentidentifier: 001708
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 265
-    PercentContained: 10
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-30T23:45Z'
-    ICS209ReportDateTimeEpoch: 1567208700000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 524000
     FireCause: Natural
-    TotalIncidentPersonnel: 63
+    ModifiedOnDateTime: '2019-08-31T23:45Z'
+    ModifiedOnDateTimeEpoch: 1567295100000
+    PercentContained: 10
+    UniqueFireIdentifier: 2019-CASQF-001708
     FireDiscoveryDateTime: '2019-08-08T15:00Z'
     FireDiscoveryDateTimeEpoch: 1565276400000
-    DispatchCenterID: CACCCC
-    LocalIncidentIdentifier: 001708
-    POOCounty: Tulare
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-30T23:45Z'
-    ModifiedOnDateTimeEpoch: 1567208700000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: BRODER
+    Name: BRODER
+    Source: GEOMAC
+    Hashtag: '#BroderFire'
     _CorrelationIds:
       - 2019-CASQF-001708
-    ModifiedOnDateTime_Raw: '2019-08-31T00:32Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567211523000
-    Hashtag: '#BroderFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-28T10:49Z'
     PerimeterData:
       DateTime: '2019-08-28T10:49Z'
       Acres: 202.62098531
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T01:00:54.877Z'
+          RetrievedOn: '2019-09-01T00:32:27.051Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -60082,8 +60094,8 @@ Database:
     Final_Fire_Name: Broder Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-30T23:45Z-PER-2019-08-28T10:49Z-ID-2019-CASQF-001708-NAME-BRODER-S-N
-      Code: 566e3e6e215119a3cbd475e038e70a38f934bd49d18564c92f0b9a1d483c096f
+        UPD-2019-08-31T23:45Z-PER-2019-08-28T10:49Z-ID-2019-CASQF-001708-NAME-BRODER-S-G
+      Code: 3b0e4ea4ee0debec5cc64ed16fca5d30d21a9bceba187540efe0b545bcf8fe12
   CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c:
     Source_CALFIRE:
       Lon: -120.177018
@@ -65745,7 +65757,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T00:30:51.611Z'
+          RetrievedOn: '2019-09-01T00:32:22.217Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -65756,17 +65768,17 @@ Database:
     Source_GEOMAC:
       Lon: -106.8966775835813
       Lat: 42.349173316009626
-      objectid: 34
+      objectid: 32
       latitude: 42.3491667
       longitude: -106.8966667
-      acres: 15063
+      acres: 16590
       gacc: RMCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: WY
       status: U
       firecause: Natural
-      reportdatetime: '2019-08-31T00:00Z'
-      reportdatetimeEpoch: 1567209600000
+      reportdatetime: '2019-09-01T00:00Z'
+      reportdatetimeEpoch: 1567296000000
       percentcontained: 27
       uniquefireidentifier: 2019-WYRAD-019341
       firediscoverydatetime: '2019-08-24T17:26Z'
@@ -65776,11 +65788,11 @@ Database:
       incidentname: PEDRO MOUNTAIN
       iscomplex: 'false'
       irwinid: '{DE8D0134-9714-4D14-9B62-310C726A17EE}'
-      irwinmodifiedon: '2019-08-31T00:04Z'
-      irwinmodifiedonEpoch: 1567209864000
+      irwinmodifiedon: '2019-09-01T00:13Z'
+      irwinmodifiedonEpoch: 1567296822000
       mapsymbol: '2'
-      datecurrent: '2019-08-30T18:30Z'
-      datecurrentEpoch: 1567189839000
+      datecurrent: '2019-08-31T18:30Z'
+      datecurrentEpoch: 1567276240000
       pooownerunit: WYRAD
       fireyear: 2019
       localincidentidentifier: 019341
@@ -65788,10 +65800,10 @@ Database:
       owneragency: ''
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 15063
+      DailyAcres: 16590
       FireCause: Natural
-      ModifiedOnDateTime: '2019-08-31T00:00Z'
-      ModifiedOnDateTimeEpoch: 1567209600000
+      ModifiedOnDateTime: '2019-09-01T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567296000000
       PercentContained: 27
       UniqueFireIdentifier: 2019-WYRAD-019341
       FireDiscoveryDateTime: '2019-08-24T17:26Z'
@@ -65802,7 +65814,7 @@ Database:
       Hashtag: '#PedroMountainFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T00:30:51.612Z'
+          RetrievedOn: '2019-09-01T00:32:22.219Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -65819,49 +65831,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-WYRAD-019341
-    Lon: -106.89660826870251
-    Lat: 42.349277742966855
-    id: 130206
-    Name: PEDRO MOUNTAIN
-    Fire_Name: PEDRO MOUNTAIN
-    UniqueFireIdentifier: 2019-WYRAD-019341
-    DailyAcres: 15063
-    PercentContained: 27
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-31T00:00Z'
-    ICS209ReportDateTimeEpoch: 1567209600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3997126
+    Lon: -106.8966775835813
+    Lat: 42.349173316009626
+    objectid: 32
+    latitude: 42.3491667
+    longitude: -106.8966667
+    acres: 16590
+    gacc: RMCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: WY
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-09-01T00:00Z'
+    reportdatetimeEpoch: 1567296000000
+    percentcontained: 27
+    uniquefireidentifier: 2019-WYRAD-019341
+    firediscoverydatetime: '2019-08-24T17:26Z'
+    firediscoverydatetimeEpoch: 1566667560000
+    complexparentirwinid: null
+    pooresponsibleunit: WYRAD
+    incidentname: PEDRO MOUNTAIN
+    iscomplex: 'false'
+    irwinid: '{DE8D0134-9714-4D14-9B62-310C726A17EE}'
+    irwinmodifiedon: '2019-09-01T00:13Z'
+    irwinmodifiedonEpoch: 1567296822000
+    mapsymbol: '2'
+    datecurrent: '2019-08-31T18:30Z'
+    datecurrentEpoch: 1567276240000
+    pooownerunit: WYRAD
+    fireyear: 2019
+    localincidentidentifier: 019341
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 16590
     FireCause: Natural
-    TotalIncidentPersonnel: 369
+    ModifiedOnDateTime: '2019-09-01T00:00Z'
+    ModifiedOnDateTimeEpoch: 1567296000000
+    PercentContained: 27
+    UniqueFireIdentifier: 2019-WYRAD-019341
     FireDiscoveryDateTime: '2019-08-24T17:26Z'
     FireDiscoveryDateTimeEpoch: 1566667560000
-    DispatchCenterID: WYCPC
-    LocalIncidentIdentifier: 019341
-    POOCounty: Carbon
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-31T00:00Z'
-    ModifiedOnDateTimeEpoch: 1567209600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: PEDRO MOUNTAIN
+    Name: PEDRO MOUNTAIN
+    Source: GEOMAC
+    Hashtag: '#PedroMountainFire'
     _CorrelationIds:
       - 2019-WYRAD-019341
-    ModifiedOnDateTime_Raw: '2019-08-31T00:04Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567209863000
-    Hashtag: '#PedroMountainFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-08-30T01:44Z'
     PerimeterData:
       DateTime: '2019-08-30T01:44Z'
       Acres: 15066.1690013
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-08-31T00:31:00.278Z'
+          RetrievedOn: '2019-09-01T00:32:27.051Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -65882,8 +65906,8 @@ Database:
     Final_Fire_Name: Pedro Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-08-31T00:00Z-PER-2019-08-30T01:44Z-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
-      Code: bbf84c874ee2de461c99bbdc04f29ace94faddd72797d0724a24f7219eaefdf0
+        UPD-2019-09-01T00:00Z-PER-2019-08-30T01:44Z-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-G
+      Code: 9329e483305a4d85057d9705321b2d546df215427b8c0bff1009e4b2135c7cb8
   CALFIRE-cb87a6f4-a560-41a5-81c0-1064d0c368b6:
     Source_CALFIRE:
       Lon: -117.487578
