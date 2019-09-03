@@ -70467,3 +70467,116 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-03T15:00Z-PER-none-ID-2019-UTUWF-000697-NAME-Snoqualmie-S-N'
       Code: c6be85ce7c0a84abc4d9bd9283d155004491e2723591f05d259bd42046301cf6
+  2019-NMEMP-000234:
+    Source_NFSA_Join:
+      Lon: -108.0498115315381
+      Lat: 34.93253724337552
+      id: 129978
+      Name: Lava 18
+      Fire_Name: Lava 18
+      UniqueFireIdentifier: 2019-NMEMP-000234
+      DailyAcres: 69
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-03T18:00Z'
+      ICS209ReportDateTimeEpoch: 1567533600000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 75000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 45
+      FireDiscoveryDateTime: '2019-08-22T17:51Z'
+      FireDiscoveryDateTimeEpoch: 1566496260000
+      DispatchCenterID: NMABC
+      LocalIncidentIdentifier: '000234'
+      POOCounty: Cibola
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-03T18:00Z'
+      ModifiedOnDateTimeEpoch: 1567533600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NMEMP-000234
+      ModifiedOnDateTime_Raw: '2019-09-03T18:40Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567536017000
+      Hashtag: '#Lava18Fire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-03T19:00:54.336Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -108.0498115315381
+    Lat: 34.93253724337552
+    id: 129978
+    Name: Lava 18
+    Fire_Name: Lava 18
+    UniqueFireIdentifier: 2019-NMEMP-000234
+    DailyAcres: 69
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-03T18:00Z'
+    ICS209ReportDateTimeEpoch: 1567533600000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 75000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 45
+    FireDiscoveryDateTime: '2019-08-22T17:51Z'
+    FireDiscoveryDateTimeEpoch: 1566496260000
+    DispatchCenterID: NMABC
+    LocalIncidentIdentifier: '000234'
+    POOCounty: Cibola
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-03T18:00Z'
+    ModifiedOnDateTimeEpoch: 1567533600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NMEMP-000234
+    ModifiedOnDateTime_Raw: '2019-09-03T18:40Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567536017000
+    Hashtag: '#Lava18Fire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-30T14:00Z'
+    PerimeterData:
+      DateTime: '2019-08-30T14:00Z'
+      Acres: 10.65625862
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-03T19:01:04.465Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: NMEMP
+    unitMention: El Malpais National Monument
+    Final_Fire_Name: Lava 18 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-03T18:00Z-PER-2019-08-30T14:00Z-ID-2019-NMEMP-000234-NAME-Lava18-S-N
+      Code: a9164752d441cea237f4b3eecce2fcf055052813b4bcbb1d232a6fec1b318f23
