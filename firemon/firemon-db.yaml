@@ -63415,38 +63415,38 @@ Database:
       Fire_Name: Redondo
       UniqueFireIdentifier: 2019-NMBAP-000439
       DailyAcres: 317
-      PercentContained: 35
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-30T23:00Z'
-      ICS209ReportDateTimeEpoch: 1567206000000
+      PercentContained: 80
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-03T21:00Z'
+      ICS209ReportDateTimeEpoch: 1567544400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 110000
+      EstimatedCostToDate: 225000
       FireCause: Natural
-      TotalIncidentPersonnel: 62
+      TotalIncidentPersonnel: 4
       FireDiscoveryDateTime: '2019-08-12T14:48Z'
       FireDiscoveryDateTimeEpoch: 1565621280000
       DispatchCenterID: NMSFC
       LocalIncidentIdentifier: 000439
       POOCounty: Sandoval
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-30T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567206000000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-09-03T21:00Z'
+      ModifiedOnDateTimeEpoch: 1567544400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMBAP-000439
-      ModifiedOnDateTime_Raw: '2019-08-31T01:04Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567213441000
+      ModifiedOnDateTime_Raw: '2019-09-03T21:24Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567545871000
       Hashtag: '#RedondoFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-02T23:32:20.561Z'
+          RetrievedOn: '2019-09-03T21:30:47.338Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63457,7 +63457,7 @@ Database:
     Source_GEOMAC:
       Lon: -106.6031100778321
       Lat: 35.86180576293453
-      objectid: 24
+      objectid: 25
       latitude: 35.8618
       longitude: -106.6031
       acres: 317
@@ -63466,8 +63466,8 @@ Database:
       state: NM
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-02T23:00Z'
-      reportdatetimeEpoch: 1567465200000
+      reportdatetime: '2019-09-03T21:00Z'
+      reportdatetimeEpoch: 1567544400000
       percentcontained: 80
       uniquefireidentifier: 2019-NMBAP-000439
       firediscoverydatetime: '2019-08-12T14:48Z'
@@ -63477,11 +63477,11 @@ Database:
       incidentname: Redondo
       iscomplex: 'false'
       irwinid: '{98CCA555-90BB-4B6E-AC31-5AD1AFA46DDE}'
-      irwinmodifiedon: '2019-09-02T23:21Z'
-      irwinmodifiedonEpoch: 1567466487000
+      irwinmodifiedon: '2019-09-03T21:24Z'
+      irwinmodifiedonEpoch: 1567545872000
       mapsymbol: '1'
-      datecurrent: '2019-09-02T17:30Z'
-      datecurrentEpoch: 1567445448000
+      datecurrent: '2019-09-03T15:30Z'
+      datecurrentEpoch: 1567524648000
       pooownerunit: NMSNF
       fireyear: 2019
       localincidentidentifier: 000439
@@ -63491,8 +63491,8 @@ Database:
       complexname: null
       DailyAcres: 317
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-02T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567465200000
+      ModifiedOnDateTime: '2019-09-03T21:00Z'
+      ModifiedOnDateTimeEpoch: 1567544400000
       PercentContained: 80
       UniqueFireIdentifier: 2019-NMBAP-000439
       FireDiscoveryDateTime: '2019-08-12T14:48Z'
@@ -63503,7 +63503,7 @@ Database:
       Hashtag: '#RedondoFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-02T23:32:20.561Z'
+          RetrievedOn: '2019-09-03T21:30:47.339Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -63520,64 +63520,52 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-NMBAP-000439
-    Lon: -106.6031100778321
-    Lat: 35.86180576293453
-    objectid: 24
-    latitude: 35.8618
-    longitude: -106.6031
-    acres: 317
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: NM
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-02T23:00Z'
-    reportdatetimeEpoch: 1567465200000
-    percentcontained: 80
-    uniquefireidentifier: 2019-NMBAP-000439
-    firediscoverydatetime: '2019-08-12T14:48Z'
-    firediscoverydatetimeEpoch: 1565621280000
-    complexparentirwinid: null
-    pooresponsibleunit: NMBAP
-    incidentname: Redondo
-    iscomplex: 'false'
-    irwinid: '{98CCA555-90BB-4B6E-AC31-5AD1AFA46DDE}'
-    irwinmodifiedon: '2019-09-02T23:21Z'
-    irwinmodifiedonEpoch: 1567466487000
-    mapsymbol: '1'
-    datecurrent: '2019-09-02T17:30Z'
-    datecurrentEpoch: 1567445448000
-    pooownerunit: NMSNF
-    fireyear: 2019
-    localincidentidentifier: 000439
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 317
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-02T23:00Z'
-    ModifiedOnDateTimeEpoch: 1567465200000
-    PercentContained: 80
+    Lon: -106.61681000715781
+    Lat: 35.86479292401771
+    id: 128461
+    Name: Redondo
+    Fire_Name: Redondo
     UniqueFireIdentifier: 2019-NMBAP-000439
+    DailyAcres: 317
+    PercentContained: 80
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-03T21:00Z'
+    ICS209ReportDateTimeEpoch: 1567544400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 225000
+    FireCause: Natural
+    TotalIncidentPersonnel: 4
     FireDiscoveryDateTime: '2019-08-12T14:48Z'
     FireDiscoveryDateTimeEpoch: 1565621280000
-    Fire_Name: Redondo
-    Name: Redondo
-    Source: GEOMAC
-    Hashtag: '#RedondoFire'
+    DispatchCenterID: NMSFC
+    LocalIncidentIdentifier: 000439
+    POOCounty: Sandoval
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-03T21:00Z'
+    ModifiedOnDateTimeEpoch: 1567544400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-NMBAP-000439
+    ModifiedOnDateTime_Raw: '2019-09-03T21:24Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567545871000
+    Hashtag: '#RedondoFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-08-28T00:00Z'
     PerimeterData:
       DateTime: '2019-08-28T00:00Z'
       Acres: 195.08550182
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-02T23:32:30.959Z'
+          RetrievedOn: '2019-09-03T21:30:55.220Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -63589,14 +63577,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: NMBAP
     unitMention: Bandelier National Monument
     Final_Fire_Name: Redondo Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-02T23:00Z-PER-2019-08-28T00:00Z-ID-2019-NMBAP-000439-NAME-Redondo-S-G
-      Code: 64a46d2a148d3eeeb5eb7bcd2fe2b040e3f206fdbfcb0ed3964e0da98ab81395
+        UPD-2019-09-03T21:00Z-PER-2019-08-28T00:00Z-ID-2019-NMBAP-000439-NAME-Redondo-S-N
+      Code: ab6002fe40f1bf96c0a2b8b8cf931e55351e302f078ab29f93bc5a415a6e7ca0
   2019-TXTXS-190282:
     Source_NFSA_Join:
       Lon: -99.76101148920307
