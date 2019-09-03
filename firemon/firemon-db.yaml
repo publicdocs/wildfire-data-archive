@@ -72102,14 +72102,14 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-02T23:00Z-PER-none-ID-2019-WYRSD-019368-NAME-CURRANT-S-G'
       Code: e6035e5234e8dc2cefd52480148f86c643a196db684054d3e49facf7b731712a
-  2019-CATUU-000684:
+  CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6:
     Source_CALFIRE:
       Lon: -119.030621
       Lat: 36.40193
       incident_name: Creek Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-02T15:19Z'
-      incident_date_last_updateEpoch: 1567437569000
+      incident_date_last_update: '2019-09-03T01:16Z'
+      incident_date_last_updateEpoch: 1567473371000
       incident_date_created: '2019-08-31T22:31Z'
       incident_date_createdEpoch: 1567290719000
       incident_administrative_unit: CAL FIRE Tulare Unit
@@ -72117,7 +72117,7 @@ Database:
       incident_county: Tulare
       incident_location: 'Cry Creek Dr and Lomitas Drive, east of Woodlake'
       incident_acres_burned: 756
-      incident_containment: 65
+      incident_containment: 80
       incident_control: ''
       incident_cooperating_agencies: ''
       incident_longitude: -119.030621
@@ -72130,10 +72130,10 @@ Database:
       incident_dateonly_created: '2019-08-31'
       is_active: 'Y'
       Fire_Name: Creek Fire
-      ModifiedOnDateTime: '2019-09-02T15:19Z'
-      ModifiedOnDateTimeEpoch: 1567437569000
+      ModifiedOnDateTime: '2019-09-03T01:16Z'
+      ModifiedOnDateTimeEpoch: 1567473371000
       DailyAcres: 756
-      PercentContained: 65
+      PercentContained: 80
       UniqueFireIdentifier: CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6
       Name: Creek Fire
       Source: CALFIRE
@@ -72143,7 +72143,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=8faaa845-634f-4f94-b25e-f5ae78703da6
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T00:31:57.366Z'
+          RetrievedOn: '2019-09-03T01:16:52.571Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -72156,7 +72156,7 @@ Database:
     Source_GEOMAC:
       Lon: -119.02973473251873
       Lat: 36.40056065489314
-      objectid: 36
+      objectid: 35
       latitude: 36.4005556
       longitude: -119.0297222
       acres: 756
@@ -72179,8 +72179,8 @@ Database:
       irwinmodifiedon: '2019-09-03T00:00Z'
       irwinmodifiedonEpoch: 1567468849000
       mapsymbol: '1'
-      datecurrent: '2019-09-02T18:31Z'
-      datecurrentEpoch: 1567449061000
+      datecurrent: '2019-09-02T19:00Z'
+      datecurrentEpoch: 1567450839000
       pooownerunit: CATUU
       fireyear: 2019
       localincidentidentifier: 000684
@@ -72202,7 +72202,7 @@ Database:
       Hashtag: '#CreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T00:31:57.366Z'
+          RetrievedOn: '2019-09-03T01:16:52.570Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -72219,52 +72219,43 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CATUU-000684
-    Lon: -119.02973473251873
-    Lat: 36.40056065489314
-    objectid: 36
-    latitude: 36.4005556
-    longitude: -119.0297222
-    acres: 756
-    gacc: OSCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-09-03T00:00Z'
-    reportdatetimeEpoch: 1567468800000
-    percentcontained: 80
-    uniquefireidentifier: 2019-CATUU-000684
-    firediscoverydatetime: '2019-08-31T22:01Z'
-    firediscoverydatetimeEpoch: 1567288860000
-    complexparentirwinid: null
-    pooresponsibleunit: CATUU
-    incidentname: CREEK
-    iscomplex: 'false'
-    irwinid: '{A70BC41C-7ABC-47F8-85A3-C5B86339034E}'
-    irwinmodifiedon: '2019-09-03T00:00Z'
-    irwinmodifiedonEpoch: 1567468849000
-    mapsymbol: '1'
-    datecurrent: '2019-09-02T18:31Z'
-    datecurrentEpoch: 1567449061000
-    pooownerunit: CATUU
-    fireyear: 2019
-    localincidentidentifier: 000684
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'N'
-    complexname: null
+    Lon: -119.030621
+    Lat: 36.40193
+    incident_name: Creek Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-03T01:16Z'
+    incident_date_last_updateEpoch: 1567473371000
+    incident_date_created: '2019-08-31T22:31Z'
+    incident_date_createdEpoch: 1567290719000
+    incident_administrative_unit: CAL FIRE Tulare Unit
+    incident_administrative_unit_url: ''
+    incident_county: Tulare
+    incident_location: 'Cry Creek Dr and Lomitas Drive, east of Woodlake'
+    incident_acres_burned: 756
+    incident_containment: 80
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -119.030621
+    incident_latitude: 36.40193
+    incident_type: Wildfire
+    incident_id: 8faaa845-634f-4f94-b25e-f5ae78703da6
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/31/creek-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-08-31'
+    is_active: 'Y'
+    Fire_Name: Creek Fire
+    ModifiedOnDateTime: '2019-09-03T01:16Z'
+    ModifiedOnDateTimeEpoch: 1567473371000
     DailyAcres: 756
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-09-03T00:00Z'
-    ModifiedOnDateTimeEpoch: 1567468800000
     PercentContained: 80
-    UniqueFireIdentifier: 2019-CATUU-000684
-    FireDiscoveryDateTime: '2019-08-31T22:01Z'
-    FireDiscoveryDateTimeEpoch: 1567288860000
-    Fire_Name: CREEK
-    Name: CREEK
-    Source: GEOMAC
+    UniqueFireIdentifier: CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6
+    Name: Creek Fire
+    Source: CALFIRE
+    State: CA
     Hashtag: '#CreekFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=8faaa845-634f-4f94-b25e-f5ae78703da6
     _CorrelationIds:
       - 2019-CATUU-000684
       - CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6
@@ -72273,9 +72264,10 @@ Database:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CATUU
-    unitMention: '@calfire_tuu'
+    unitId: 8faaa845
+    unitMention: null
     Final_Fire_Name: Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-09-03T00:00Z-PER-none-ID-2019-CATUU-000684-NAME-CREEK-S-G'
-      Code: 56ecf9a653c6d03031f7b845564f1f69831c0d7b7d4260e9b3479eebc9e5b3d3
+      UpdateId: >-
+        UPD-2019-09-03T01:16Z-PER-none-ID-CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6-NAME-CreekFire-S-C
+      Code: f1e831f4300e92977017eace91a5b78330889c884e1929ee66e07375c0dc3d2f
