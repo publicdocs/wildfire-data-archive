@@ -1431,13 +1431,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567570687000
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-02T00:00Z'
+    PerimDateTime: '2019-09-03T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-02T00:00Z'
-      Acres: 162179.588615
+      DateTime: '2019-09-03T00:00Z'
+      Acres: 162179.561473
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T04:31:18.925Z'
+          RetrievedOn: '2019-09-04T16:30:13.513Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1458,8 +1458,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-04T00:45Z-PER-2019-09-02T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
-      Code: b1e7be8008f1e7462e1d915f046a9a06ea0a1e85b5a1a20f8af56315f49a44ff
+        UPD-2019-09-04T00:45Z-PER-2019-09-03T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
+      Code: b35c8f27abbfcbbe7792976bfff88af9a2ed19c345cd97e6a91a7d9b8878c332
   CALFIRE-c6e38284-336a-4435-a3a1-b2b91ee84a91:
     Source_CALFIRE:
       Lon: -117.15738
@@ -4537,185 +4537,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-07-18T23:00Z-PER-none-ID-2019-IDCTF-000018-NAME-SpringCreek-S-N'
       Code: 59e7246390bba417671781702991e7803686ff48b2162e03093b290ac4ad4a88
-  2019-AKUYD-000324:
-    Source_NFSA_Join:
-      Lon: -148.35923055621745
-      Lat: 65.69930218890838
-      id: 119818
-      Name: Hess Creek
-      Fire_Name: Hess Creek
-      UniqueFireIdentifier: 2019-AKUYD-000324
-      DailyAcres: 28269.5
-      PercentContained: 75
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-03T21:15Z'
-      ICS209ReportDateTimeEpoch: 1564866900000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 3002369
-      FireCause: Natural
-      TotalIncidentPersonnel: 24
-      FireDiscoveryDateTime: '2019-06-22T04:14Z'
-      FireDiscoveryDateTimeEpoch: 1561176840000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000324'
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-08-03T21:15Z'
-      ModifiedOnDateTimeEpoch: 1564866900000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000324
-      ModifiedOnDateTime_Raw: '2019-08-03T21:30Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564867855000
-      Hashtag: '#HessCreekFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-03T22:00:55.822Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -148.35919387908913
-      Lat: 65.6991686081648
-      objectid: 4
-      latitude: 65.699167
-      longitude: -148.359167
-      acres: 28269.5
-      gacc: AKCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AK
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-08-03T21:15Z'
-      reportdatetimeEpoch: 1564866900000
-      percentcontained: 75
-      uniquefireidentifier: 2019-AKUYD-000324
-      firediscoverydatetime: '2019-06-22T04:14Z'
-      firediscoverydatetimeEpoch: 1561176840000
-      complexparentirwinid: null
-      pooresponsibleunit: AKUYD
-      incidentname: Hess Creek
-      iscomplex: 'false'
-      irwinid: '{4AB4BF76-9D3B-4C1C-90B0-4BC9EE81B40A}'
-      irwinmodifiedon: '2019-08-03T21:30Z'
-      irwinmodifiedonEpoch: 1564867855000
-      mapsymbol: '3'
-      datecurrent: '2019-08-03T16:00Z'
-      datecurrentEpoch: 1564848032000
-      pooownerunit: AKAKS
-      fireyear: 2019
-      localincidentidentifier: '000324'
-      incidenttypecategory: WF
-      owneragency: State
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 28269.5
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-08-03T21:15Z'
-      ModifiedOnDateTimeEpoch: 1564866900000
-      PercentContained: 75
-      UniqueFireIdentifier: 2019-AKUYD-000324
-      FireDiscoveryDateTime: '2019-06-22T04:14Z'
-      FireDiscoveryDateTimeEpoch: 1561176840000
-      Fire_Name: Hess Creek
-      Name: Hess Creek
-      Source: GEOMAC
-      Hashtag: '#HessCreekFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-03T22:00:55.823Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AKUYD-000324
-    Lon: -148.35923055621745
-    Lat: 65.69930218890838
-    id: 119818
-    Name: Hess Creek
-    Fire_Name: Hess Creek
-    UniqueFireIdentifier: 2019-AKUYD-000324
-    DailyAcres: 28269.5
-    PercentContained: 75
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-08-03T21:15Z'
-    ICS209ReportDateTimeEpoch: 1564866900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3002369
-    FireCause: Natural
-    TotalIncidentPersonnel: 24
-    FireDiscoveryDateTime: '2019-06-22T04:14Z'
-    FireDiscoveryDateTimeEpoch: 1561176840000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000324'
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-08-03T21:15Z'
-    ModifiedOnDateTimeEpoch: 1564866900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000324
-    ModifiedOnDateTime_Raw: '2019-08-03T21:30Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564867855000
-    Hashtag: '#HessCreekFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-31T15:29Z'
-    PerimeterData:
-      DateTime: '2019-07-31T15:29Z'
-      Acres: 189369.031126
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-03T22:01:04.831Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Hess Creek Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-03T21:15Z-PER-2019-07-31T15:29Z-ID-2019-AKUYD-000324-NAME-HessCreek-S-N
-      Code: c1423896d7b22ec1373d51d6c0e7d641a2595996cf1b7e2a1f047950636d7e3b
   2019-AKUYD-000355:
     Source_NFSA_Join:
       Lon: -141.08392778373175
@@ -26964,232 +26785,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-25T18:45Z-PER-2019-07-20T12:59Z-ID-2019-AZCOF-000703-NAME-Newman-S-N
       Code: b8b71b6e142d772a7e0144ab1eabec26d8b19dfe6ab76b8b9e3da2c9fc9ba7cd
-  2019-AKUYD-000217:
-    Source_NFSA_Join:
-      Lon: -142.62172676915745
-      Lat: 65.41109355226104
-      id: 118548
-      Name: Yukon Charley
-      Fire_Name: Yukon Charley
-      UniqueFireIdentifier: 2019-AKUYD-000217
-      DailyAcres: 3075
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-28T19:00Z'
-      ICS209ReportDateTimeEpoch: 1564340400000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2400
-      FireCause: Natural
-      TotalIncidentPersonnel: 8
-      FireDiscoveryDateTime: '2019-06-10T18:28Z'
-      FireDiscoveryDateTimeEpoch: 1560191280000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000217'
-      POOCounty: Southeast Fairbanks
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-28T19:00Z'
-      ModifiedOnDateTimeEpoch: 1564340400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000217
-      ModifiedOnDateTime_Raw: '2019-07-28T20:01Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564344068000
-      Hashtag: '#YukonCharleyFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-28T20:31:59.496Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -142.62172676915745
-    Lat: 65.41109355226104
-    id: 118548
-    Name: Yukon Charley
-    Fire_Name: Yukon Charley
-    UniqueFireIdentifier: 2019-AKUYD-000217
-    DailyAcres: 3075
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-28T19:00Z'
-    ICS209ReportDateTimeEpoch: 1564340400000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2400
-    FireCause: Natural
-    TotalIncidentPersonnel: 8
-    FireDiscoveryDateTime: '2019-06-10T18:28Z'
-    FireDiscoveryDateTimeEpoch: 1560191280000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000217'
-    POOCounty: Southeast Fairbanks
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-28T19:00Z'
-    ModifiedOnDateTimeEpoch: 1564340400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000217
-    ModifiedOnDateTime_Raw: '2019-07-28T20:01Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564344068000
-    Hashtag: '#YukonCharleyFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-28T14:43Z'
-    PerimeterData:
-      DateTime: '2019-07-28T14:43Z'
-      Acres: 3075.25425805
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-29T18:17:29.242Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Yukon Charley Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-28T19:00Z-PER-2019-07-28T14:43Z-ID-2019-AKUYD-000217-NAME-YukonCharley-S-N
-      Code: 79ab19891d761e0841165d3b0507bae95b90de69ebcf3395fa1abd73d7b3c86e
-  2019-AKUYD-000392:
-    Source_NFSA_Join:
-      Lon: -142.59752615540324
-      Lat: 65.40789368682067
-      id: 120380
-      Name: Biederman Bluff
-      Fire_Name: Biederman Bluff
-      UniqueFireIdentifier: 2019-AKUYD-000392
-      DailyAcres: 3418
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-07-28T19:15Z'
-      ICS209ReportDateTimeEpoch: 1564341300000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 10000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-06-27T02:41Z'
-      FireDiscoveryDateTimeEpoch: 1561603260000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: 000392
-      POOCounty: Yukon-Koyukuk
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-07-28T19:15Z'
-      ModifiedOnDateTimeEpoch: 1564341300000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKUYD-000392
-      ModifiedOnDateTime_Raw: '2019-07-28T20:02Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564344141000
-      Hashtag: '#BiedermanBluffFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-28T20:31:59.496Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -142.59752615540324
-    Lat: 65.40789368682067
-    id: 120380
-    Name: Biederman Bluff
-    Fire_Name: Biederman Bluff
-    UniqueFireIdentifier: 2019-AKUYD-000392
-    DailyAcres: 3418
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-07-28T19:15Z'
-    ICS209ReportDateTimeEpoch: 1564341300000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 10000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-06-27T02:41Z'
-    FireDiscoveryDateTimeEpoch: 1561603260000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: 000392
-    POOCounty: Yukon-Koyukuk
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-07-28T19:15Z'
-    ModifiedOnDateTimeEpoch: 1564341300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKUYD-000392
-    ModifiedOnDateTime_Raw: '2019-07-28T20:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564344141000
-    Hashtag: '#BiedermanBluffFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-28T13:39Z'
-    PerimeterData:
-      DateTime: '2019-07-28T13:39Z'
-      Acres: 3418.26183604
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-29T18:17:29.242Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKUYD
-    unitMention: Alaska Fire Service - Upper Yukon Zone
-    Final_Fire_Name: Biederman Bluff Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-28T19:15Z-PER-2019-07-28T13:39Z-ID-2019-AKUYD-000392-NAME-BiedermanBluff-S-N
-      Code: 8176feb57173003938856bdb06f80b03bfff8d88c91cad2d338a1b1818d93f8d
   2019-COPSF-000869:
     Source_NFSA_Join:
       Lon: -116.20001050868632
@@ -38832,232 +38427,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-08T22:00Z-PER-none-ID-2019-COGND-000116-NAME-BurntCreek-S-N'
       Code: c4c3e1ea0552573706491d811042a2bb481361f70735c687ced988faf71b794e
-  2019-AKSWS-904481:
-    Source_NFSA_Join:
-      Lon: -159.3544569202421
-      Lat: 61.04725616708745
-      id: 122451
-      Name: Pit Peak
-      Fire_Name: Pit Peak
-      UniqueFireIdentifier: 2019-AKSWS-904481
-      DailyAcres: 156.7
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-01T20:00Z'
-      ICS209ReportDateTimeEpoch: 1564689600000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 8415
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-10T17:00Z'
-      FireDiscoveryDateTimeEpoch: 1562778032000
-      DispatchCenterID: AKMSSC
-      LocalIncidentIdentifier: '904481'
-      POOCounty: Bethel
-      POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-08-01T20:00Z'
-      ModifiedOnDateTimeEpoch: 1564689600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKSWS-904481
-      ModifiedOnDateTime_Raw: '2019-08-01T22:44Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564699476000
-      Hashtag: '#PitPeakFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-01T23:01:46.129Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -159.3544569202421
-    Lat: 61.04725616708745
-    id: 122451
-    Name: Pit Peak
-    Fire_Name: Pit Peak
-    UniqueFireIdentifier: 2019-AKSWS-904481
-    DailyAcres: 156.7
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-01T20:00Z'
-    ICS209ReportDateTimeEpoch: 1564689600000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 8415
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-10T17:00Z'
-    FireDiscoveryDateTimeEpoch: 1562778032000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904481'
-    POOCounty: Bethel
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-08-01T20:00Z'
-    ModifiedOnDateTimeEpoch: 1564689600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKSWS-904481
-    ModifiedOnDateTime_Raw: '2019-08-01T22:44Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564699476000
-    Hashtag: '#PitPeakFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-30T17:04Z'
-    PerimeterData:
-      DateTime: '2019-07-30T17:04Z'
-      Acres: 156.72212509
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-01T23:01:52.872Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKSWS
-    unitMention: Southwest Area Forestry
-    Final_Fire_Name: Pit Peak Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-01T20:00Z-PER-2019-07-30T17:04Z-ID-2019-AKSWS-904481-NAME-PitPeak-S-N
-      Code: bde743575139e08dfa89aa7a71b203dc2bff6ff69af8089b9603fa438b9f4aa5
-  2019-AKSWS-904480:
-    Source_NFSA_Join:
-      Lon: -159.28560105371432
-      Lat: 61.119365730039355
-      id: 122453
-      Name: Swift Creek
-      Fire_Name: Swift Creek
-      UniqueFireIdentifier: 2019-AKSWS-904480
-      DailyAcres: 3287.9
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-08-06T23:30Z'
-      ICS209ReportDateTimeEpoch: 1565134200000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 13408
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-10T17:05Z'
-      FireDiscoveryDateTimeEpoch: 1562778335000
-      DispatchCenterID: AKMSSC
-      LocalIncidentIdentifier: '904480'
-      POOCounty: Bethel
-      POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-08-06T23:30Z'
-      ModifiedOnDateTimeEpoch: 1565134200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKSWS-904480
-      ModifiedOnDateTime_Raw: '2019-08-07T01:27Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565141230000
-      Hashtag: '#SwiftCreekFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-07T01:31:26.143Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -159.28560105371432
-    Lat: 61.119365730039355
-    id: 122453
-    Name: Swift Creek
-    Fire_Name: Swift Creek
-    UniqueFireIdentifier: 2019-AKSWS-904480
-    DailyAcres: 3287.9
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-08-06T23:30Z'
-    ICS209ReportDateTimeEpoch: 1565134200000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 13408
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-10T17:05Z'
-    FireDiscoveryDateTimeEpoch: 1562778335000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904480'
-    POOCounty: Bethel
-    POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-08-06T23:30Z'
-    ModifiedOnDateTimeEpoch: 1565134200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKSWS-904480
-    ModifiedOnDateTime_Raw: '2019-08-07T01:27Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565141230000
-    Hashtag: '#SwiftCreekFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-30T17:08Z'
-    PerimeterData:
-      DateTime: '2019-07-30T17:08Z'
-      Acres: 3287.92282164
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-07T01:31:33.088Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKSWS
-    unitMention: Southwest Area Forestry
-    Final_Fire_Name: Swift Creek Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-06T23:30Z-PER-2019-07-30T17:08Z-ID-2019-AKSWS-904480-NAME-SwiftCreek-S-N
-      Code: 90b36bab83176cfec9fcc26885941000e2ccef656bccf9f365fcd09b18225770
   2019-MTBRF-019223:
     Source_NFSA_Join:
       Lon: -114.65817808763495
@@ -39427,119 +38796,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-02T01:00Z-PER-none-ID-2019-TXTXS-190154-NAME-BlackRanch-S-N'
       Code: 476558afd96d7d48070d8d4cea291164bed1f1ac6c938d63175cf1755be22c5d
-  2019-AKSWS-904506:
-    Source_NFSA_Join:
-      Lon: -158.68602051732876
-      Lat: 61.7381673343713
-      id: 122630
-      Name: Horn Foothills
-      Fire_Name: Horn Foothills
-      UniqueFireIdentifier: 2019-AKSWS-904506
-      DailyAcres: 3907.8
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-07T00:00Z'
-      ICS209ReportDateTimeEpoch: 1565136000000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 4350
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-12T00:06Z'
-      FireDiscoveryDateTimeEpoch: 1562890006000
-      DispatchCenterID: AKMSSC
-      LocalIncidentIdentifier: '904506'
-      POOCounty: Bethel
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-07T00:00Z'
-      ModifiedOnDateTimeEpoch: 1565136000000
-      ModifiedBySystem: ifm
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKSWS-904506
-      ModifiedOnDateTime_Raw: '2019-08-07T00:07Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565136428000
-      Hashtag: '#HornFoothillsFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-07T00:31:37.815Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -158.68602051732876
-    Lat: 61.7381673343713
-    id: 122630
-    Name: Horn Foothills
-    Fire_Name: Horn Foothills
-    UniqueFireIdentifier: 2019-AKSWS-904506
-    DailyAcres: 3907.8
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-08-07T00:00Z'
-    ICS209ReportDateTimeEpoch: 1565136000000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 4350
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-12T00:06Z'
-    FireDiscoveryDateTimeEpoch: 1562890006000
-    DispatchCenterID: AKMSSC
-    LocalIncidentIdentifier: '904506'
-    POOCounty: Bethel
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-07T00:00Z'
-    ModifiedOnDateTimeEpoch: 1565136000000
-    ModifiedBySystem: ifm
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKSWS-904506
-    ModifiedOnDateTime_Raw: '2019-08-07T00:07Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565136428000
-    Hashtag: '#HornFoothillsFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-30T15:21Z'
-    PerimeterData:
-      DateTime: '2019-07-30T15:21Z'
-      Acres: 3907.84348432
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-07T00:31:44.235Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKSWS
-    unitMention: Southwest Area Forestry
-    Final_Fire_Name: Horn Foothills Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-07T00:00Z-PER-2019-07-30T15:21Z-ID-2019-AKSWS-904506-NAME-HornFoothills-S-N
-      Code: 1ad3d4f4b693df86b7f0d1bba6253446f7504e3f5192e183631fe0d6b53f308f
   2019-AZTNF-001199:
     Source_NFSA_Join:
       Lon: -111.78541072478492
@@ -53753,13 +53009,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567550566000
     Hashtag: '#LittleBearFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-01T00:41Z'
+    PerimDateTime: '2019-09-04T01:03Z'
     PerimeterData:
-      DateTime: '2019-09-01T00:41Z'
-      Acres: 2583.59140664
+      DateTime: '2019-09-04T01:03Z'
+      Acres: 2651.00816632
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T23:02:14.816Z'
+          RetrievedOn: '2019-09-04T16:30:13.513Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -53780,8 +53036,8 @@ Database:
     Final_Fire_Name: Little Bear Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T22:30Z-PER-2019-09-01T00:41Z-ID-2019-UTDIF-000408-NAME-LittleBear-S-N
-      Code: 19f6ef6acd784700b1a271e5781e4333530a6fec877a11f999c929f7a414f10b
+        UPD-2019-09-03T22:30Z-PER-2019-09-04T01:03Z-ID-2019-UTDIF-000408-NAME-LittleBear-S-N
+      Code: 456e9162029563e752b58863bdc8879a6923d02a096d9cc62cd6bc4b7ceab3ba
   2019-AZCOF-000931:
     Source_NFSA_Join:
       Lon: -111.90150899210454
@@ -59221,13 +58477,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567556920000
     Hashtag: '#204CowFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-02T20:25Z'
+    PerimDateTime: '2019-09-04T09:04Z'
     PerimeterData:
-      DateTime: '2019-09-02T20:25Z'
-      Acres: 8452.30029416
+      DateTime: '2019-09-04T09:04Z'
+      Acres: 8842.19904068
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T00:31:16.717Z'
+          RetrievedOn: '2019-09-04T16:30:13.513Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -59248,8 +58504,8 @@ Database:
     Final_Fire_Name: 204 Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-04T00:00Z-PER-2019-09-02T20:25Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
-      Code: 5289270be4df70348b4944aa9179173fa8d49069f166a9950773648e05fdc5a3
+        UPD-2019-09-04T00:00Z-PER-2019-09-04T09:04Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
+      Code: 8c03240b0c7f771166dd159e10b3f761db44672200b488f6749a92077cb835d9
   2019-TXTXS-190262:
     Source_NFSA_Join:
       Lon: -99.75316021361986
@@ -61525,13 +60781,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567557657000
     Hashtag: '#CowFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-02T18:42Z'
+    PerimDateTime: '2019-09-03T00:42Z'
     PerimeterData:
-      DateTime: '2019-09-02T18:42Z'
-      Acres: 1875.98811948
+      DateTime: '2019-09-03T00:42Z'
+      Acres: 1875.98772841
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T01:02:03.443Z'
+          RetrievedOn: '2019-09-04T16:30:13.513Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -61552,8 +60808,8 @@ Database:
     Final_Fire_Name: Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-04T00:30Z-PER-2019-09-02T18:42Z-ID-2019-CAINF-001435-NAME-COW-S-N
-      Code: af3a70f4dc7aaa84bb4755d2a7499e79d1b11f16c0931698db6cb310c9659cab
+        UPD-2019-09-04T00:30Z-PER-2019-09-03T00:42Z-ID-2019-CAINF-001435-NAME-COW-S-N
+      Code: d33166826a8050be881d9076cdeb4abaeff0f50386570b027b8cb51ba6c50058
   CALFIRE-46896a04-8502-403c-b362-e4adc9e7ad4d:
     Source_CALFIRE:
       Lon: -116.857817
@@ -65201,13 +64457,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567550218000
     Hashtag: '#SmithKnobFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-03T08:31Z'
+    PerimDateTime: '2019-09-04T09:13Z'
     PerimeterData:
-      DateTime: '2019-09-03T08:31Z'
-      Acres: 413.74775065
+      DateTime: '2019-09-04T09:13Z'
+      Acres: 769.60495963
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T23:02:14.816Z'
+          RetrievedOn: '2019-09-04T16:30:13.513Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -65228,8 +64484,8 @@ Database:
     Final_Fire_Name: Smith Knob Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T22:15Z-PER-2019-09-03T08:31Z-ID-2019-IDPAF-000524-NAME-SmithKnob-S-N
-      Code: 1215405c1706397f51f6c8f683bab1e79dc3a2d731cb3bb000994bc22c945242
+        UPD-2019-09-03T22:15Z-PER-2019-09-04T09:13Z-ID-2019-IDPAF-000524-NAME-SmithKnob-S-N
+      Code: dcfdb7d1861414cfa11fd17fbb8aeb02bbf5f21568377e2f64fa315afee28cbe
   2019-MTFNF-000573:
     Source_NFSA_Join:
       Lon: -113.8568089889776
@@ -67314,150 +66570,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-31T19:55Z-PER-none-ID-CALFIRE-40ce99a7-fbca-4b41-b3bf-e2f863fdcc7e-NAME-CarrollFire-S-C
       Code: 70d8fd93fb02e4718a9f7c4542e2fe2ca744ebb77f751f79c6b3f05990a04e0d
-  2019-WAOWF-000362:
-    Source_GEOMAC:
-      Lon: -120.72557078793989
-      Lat: 48.26222782911097
-      objectid: 11
-      latitude: 48.262222
-      longitude: -120.725556
-      acres: 630
-      gacc: NWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: WA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-01T15:45Z'
-      reportdatetimeEpoch: 1567352700000
-      percentcontained: 0
-      uniquefireidentifier: 2019-WAOWF-000362
-      firediscoverydatetime: '2019-07-26T22:34Z'
-      firediscoverydatetimeEpoch: 1564180440000
-      complexparentirwinid: null
-      pooresponsibleunit: WAOWF
-      incidentname: DEVORE CREEK
-      iscomplex: 'false'
-      irwinid: '{880CB9FC-683C-40D3-A8B5-7ED3C6126F69}'
-      irwinmodifiedon: '2019-09-01T16:00Z'
-      irwinmodifiedonEpoch: 1567353632000
-      mapsymbol: '1'
-      datecurrent: '2019-09-01T10:31Z'
-      datecurrentEpoch: 1567333890000
-      pooownerunit: WAOWF
-      fireyear: 2019
-      localincidentidentifier: '000362'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 630
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-01T15:45Z'
-      ModifiedOnDateTimeEpoch: 1567352700000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-WAOWF-000362
-      FireDiscoveryDateTime: '2019-07-26T22:34Z'
-      FireDiscoveryDateTimeEpoch: 1564180440000
-      Fire_Name: DEVORE CREEK
-      Name: DEVORE CREEK
-      Source: GEOMAC
-      Hashtag: '#DevoreCreekFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-01T16:33:06.368Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-WAOWF-000362
-    Lon: -120.72557078793989
-    Lat: 48.26222782911097
-    objectid: 11
-    latitude: 48.262222
-    longitude: -120.725556
-    acres: 630
-    gacc: NWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: WA
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-09-01T15:45Z'
-    reportdatetimeEpoch: 1567352700000
-    percentcontained: 0
-    uniquefireidentifier: 2019-WAOWF-000362
-    firediscoverydatetime: '2019-07-26T22:34Z'
-    firediscoverydatetimeEpoch: 1564180440000
-    complexparentirwinid: null
-    pooresponsibleunit: WAOWF
-    incidentname: DEVORE CREEK
-    iscomplex: 'false'
-    irwinid: '{880CB9FC-683C-40D3-A8B5-7ED3C6126F69}'
-    irwinmodifiedon: '2019-09-01T16:00Z'
-    irwinmodifiedonEpoch: 1567353632000
-    mapsymbol: '1'
-    datecurrent: '2019-09-01T10:31Z'
-    datecurrentEpoch: 1567333890000
-    pooownerunit: WAOWF
-    fireyear: 2019
-    localincidentidentifier: '000362'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 630
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-09-01T15:45Z'
-    ModifiedOnDateTimeEpoch: 1567352700000
-    PercentContained: 0
-    UniqueFireIdentifier: 2019-WAOWF-000362
-    FireDiscoveryDateTime: '2019-07-26T22:34Z'
-    FireDiscoveryDateTimeEpoch: 1564180440000
-    Fire_Name: DEVORE CREEK
-    Name: DEVORE CREEK
-    Source: GEOMAC
-    Hashtag: '#DevoreCreekFire'
-    _CorrelationIds:
-      - 2019-WAOWF-000362
-    PerimDateTime: '2019-08-21T03:37Z'
-    PerimeterData:
-      DateTime: '2019-08-21T03:37Z'
-      Acres: 502.54762833
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-01T16:33:11.026Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: WAOWF
-    unitMention: Okanogan-Wenatchee NF
-    Final_Fire_Name: Devore Creek Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-01T15:45Z-PER-2019-08-21T03:37Z-ID-2019-WAOWF-000362-NAME-DEVORECREEK-S-G
-      Code: 063f8efb2aa0676f351a8baf0e7bd796e2abd5ca47cb730360af581fdda022ad
   2019-AZSCA-001481:
     Source_NFSA_Join:
       Lon: -110.62181395411206
@@ -67833,9 +66945,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
     _CorrelationIds:
       - CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
-    PerimDateTime: '2019-09-03T09:58Z'
+    PerimDateTime: '2019-09-04T09:13Z'
     PerimeterData:
-      DateTime: '2019-09-03T09:58Z'
+      DateTime: '2019-09-04T09:13Z'
       Acres: null
       _Provenance: null
     unitId: 1b6cdbc8
@@ -67843,8 +66955,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T22:23Z-PER-2019-09-03T09:58Z-ID-CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc-NAME--S-C
-      Code: aa05a94942e5e1ecf5df93f2aa222cf54f0e88ffe49fb93c20b2a3c74f9180b2
+        UPD-2019-09-03T22:23Z-PER-2019-09-04T09:13Z-ID-CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc-NAME--S-C
+      Code: 5fdff0ad795955124567e479b68fec7bf98b23fa29bb8b6a9d712cf3b333ad45
   2019-CALPF-002048:
     Source_NFSA_Join:
       Lon: -119.3710095627112
@@ -69089,9 +68201,9 @@ Database:
     _CorrelationIds:
       - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
       - CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826
-    PerimDateTime: '2019-09-03T09:58Z'
+    PerimDateTime: '2019-09-04T09:13Z'
     PerimeterData:
-      DateTime: '2019-09-03T09:58Z'
+      DateTime: '2019-09-04T09:13Z'
       Acres: null
       _Provenance: null
     unitId: 97c4d72f
@@ -69099,8 +68211,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T17:44Z-PER-2019-09-03T09:58Z-ID-CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92-NAME--S-C
-      Code: b83de750dd280828d227e6ba4397757f1010b7650a4b0e160424a2581cf162e7
+        UPD-2019-09-03T17:44Z-PER-2019-09-04T09:13Z-ID-CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92-NAME--S-C
+      Code: 0fd093ccaff874083a80a8e07e555e857a0cea0f6aa38c5e368d7dc5eaec738a
   2019-AKSWS-904516:
     Source_NFSA_Join:
       Lon: -156.51748742146424
@@ -69924,17 +69036,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567544042000
     Hashtag: '#FishhawkFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-09-03T20:19Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-09-03T20:19Z'
+      Acres: 4584.06266128
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-04T16:30:13.513Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: WYSHF
     unitMention: Shoshone NF
     Final_Fire_Name: Fishhawk Fire
     _Update:
-      UpdateId: 'UPD-2019-09-03T20:54Z-PER-none-ID-2019-WYSHF-000449-NAME-FISHHAWK-S-N'
-      Code: 8931b6dd16592d4556213581795dfb244d102a4184d6f8d48da77c6dab5646a7
+      UpdateId: >-
+        UPD-2019-09-03T20:54Z-PER-2019-09-03T20:19Z-ID-2019-WYSHF-000449-NAME-FISHHAWK-S-N
+      Code: 3c9881a7d3003ddc93b47b14fc910ad2da79dc59f16d2b6fab8d655b0fe92d9a
   2019-UTUWF-000697:
     Source_NFSA_Join:
       Lon: -111.9002154180954
@@ -70019,17 +69149,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567564798000
     Hashtag: '#SnoqualmieFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-09-04T07:51Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-09-04T07:51Z'
+      Acres: 128.00867701
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-04T16:30:16.732Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: UTUWF
     unitMention: Uinta-Wasatch-Cache NF
     Final_Fire_Name: Snoqualmie Fire
     _Update:
-      UpdateId: 'UPD-2019-09-04T00:45Z-PER-none-ID-2019-UTUWF-000697-NAME-Snoqualmie-S-N'
-      Code: 838dea020c5c1fb54bcbb32ed3f7a07fac4cc1e463c74fe09f78889aa5349d4f
+      UpdateId: >-
+        UPD-2019-09-04T00:45Z-PER-2019-09-04T07:51Z-ID-2019-UTUWF-000697-NAME-Snoqualmie-S-N
+      Code: 20f29156c28e93ff5fd526fe0daed84dad0adff1a8796733abfd27c82f19a638
   2019-NMEMP-000234:
     Source_NFSA_Join:
       Lon: -108.0498115315381
@@ -70913,13 +70061,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567558733000
     Hashtag: '#GraniteGulchFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-30T22:43Z'
+    PerimDateTime: '2019-09-03T21:46Z'
     PerimeterData:
-      DateTime: '2019-08-30T22:43Z'
-      Acres: 5324.17107536
+      DateTime: '2019-09-03T21:46Z'
+      Acres: 5439.23939736
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T01:02:03.443Z'
+          RetrievedOn: '2019-09-04T16:30:13.513Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -70940,8 +70088,8 @@ Database:
     Final_Fire_Name: Granite Gulch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-04T00:00Z-PER-2019-08-30T22:43Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
-      Code: b398fd6cc779f76da7ac04298af32b78d6856444e1b6607a4ac53788a18d36e4
+        UPD-2019-09-04T00:00Z-PER-2019-09-03T21:46Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
+      Code: 5330f485900a6fc91e7b60c964a11455cb1602e57cfefcf0c86322de83e866b3
   2019-IDNCF-000829:
     Source_NFSA_Join:
       Lon: -114.98991693890744
