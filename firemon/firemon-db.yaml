@@ -49285,37 +49285,37 @@ Database:
       UniqueFireIdentifier: 2019-UTMLF-009127
       DailyAcres: 600
       PercentContained: 60
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-29T22:00Z'
-      ICS209ReportDateTimeEpoch: 1567116000000
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-03T23:00Z'
+      ICS209ReportDateTimeEpoch: 1567551600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 550000
+      EstimatedCostToDate: 0
       FireCause: Natural
-      TotalIncidentPersonnel: 25
+      TotalIncidentPersonnel: 68
       FireDiscoveryDateTime: '2019-07-24T13:50Z'
       FireDiscoveryDateTimeEpoch: 1563976200000
       DispatchCenterID: UTMFC
       LocalIncidentIdentifier: 009127
       POOCounty: Sanpete
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-29T22:00Z'
-      ModifiedOnDateTimeEpoch: 1567116000000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-09-03T23:00Z'
+      ModifiedOnDateTimeEpoch: 1567551600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTMLF-009127
-      ModifiedOnDateTime_Raw: '2019-08-30T14:30Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567175414000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:38Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567557482000
       Hashtag: '#MammothFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T04:01:07.452Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -49324,19 +49324,19 @@ Database:
             json: true
         Modified: true
     Source_GEOMAC:
-      Lon: -111.27101145662837
-      Lat: 39.57558594824571
+      Lon: -111.27112255664801
+      Lat: 39.575561548234596
       objectid: 4
-      latitude: 39.57558
-      longitude: -111.271
+      latitude: 39.5755556
+      longitude: -111.2711111
       acres: 600
       gacc: GBCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: UT
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-02T23:00Z'
-      reportdatetimeEpoch: 1567465200000
+      reportdatetime: '2019-09-03T23:00Z'
+      reportdatetimeEpoch: 1567551600000
       percentcontained: 60
       uniquefireidentifier: 2019-UTMLF-009127
       firediscoverydatetime: '2019-07-24T13:50Z'
@@ -49346,11 +49346,11 @@ Database:
       incidentname: Mammoth
       iscomplex: 'false'
       irwinid: '{227077D9-E4EA-417A-A70A-F499276B4117}'
-      irwinmodifiedon: '2019-09-03T03:35Z'
-      irwinmodifiedonEpoch: 1567481701000
+      irwinmodifiedon: '2019-09-04T00:38Z'
+      irwinmodifiedonEpoch: 1567557483000
       mapsymbol: '1'
-      datecurrent: '2019-09-02T22:00Z'
-      datecurrentEpoch: 1567461636000
+      datecurrent: '2019-09-03T19:00Z'
+      datecurrentEpoch: 1567537248000
       pooownerunit: USTMLF
       fireyear: 2019
       localincidentidentifier: 009127
@@ -49360,8 +49360,8 @@ Database:
       complexname: null
       DailyAcres: 600
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-02T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567465200000
+      ModifiedOnDateTime: '2019-09-03T23:00Z'
+      ModifiedOnDateTimeEpoch: 1567551600000
       PercentContained: 60
       UniqueFireIdentifier: 2019-UTMLF-009127
       FireDiscoveryDateTime: '2019-07-24T13:50Z'
@@ -49372,7 +49372,7 @@ Database:
       Hashtag: '#MammothFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T04:01:07.453Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -49389,61 +49389,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-UTMLF-009127
-    Lon: -111.27101145662837
-    Lat: 39.57558594824571
-    objectid: 4
-    latitude: 39.57558
-    longitude: -111.271
-    acres: 600
-    gacc: GBCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: UT
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-02T23:00Z'
-    reportdatetimeEpoch: 1567465200000
-    percentcontained: 60
-    uniquefireidentifier: 2019-UTMLF-009127
-    firediscoverydatetime: '2019-07-24T13:50Z'
-    firediscoverydatetimeEpoch: 1563976200000
-    complexparentirwinid: null
-    pooresponsibleunit: UTMLF
-    incidentname: Mammoth
-    iscomplex: 'false'
-    irwinid: '{227077D9-E4EA-417A-A70A-F499276B4117}'
-    irwinmodifiedon: '2019-09-03T03:35Z'
-    irwinmodifiedonEpoch: 1567481701000
-    mapsymbol: '1'
-    datecurrent: '2019-09-02T22:00Z'
-    datecurrentEpoch: 1567461636000
-    pooownerunit: USTMLF
-    fireyear: 2019
-    localincidentidentifier: 009127
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 600
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-02T23:00Z'
-    ModifiedOnDateTimeEpoch: 1567465200000
-    PercentContained: 60
+    Lon: -111.26921181307132
+    Lat: 39.577885344459084
+    id: 124599
+    Name: Mammoth
+    Fire_Name: Mammoth
     UniqueFireIdentifier: 2019-UTMLF-009127
+    DailyAcres: 600
+    PercentContained: 60
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-03T23:00Z'
+    ICS209ReportDateTimeEpoch: 1567551600000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 0
+    FireCause: Natural
+    TotalIncidentPersonnel: 68
     FireDiscoveryDateTime: '2019-07-24T13:50Z'
     FireDiscoveryDateTimeEpoch: 1563976200000
-    Fire_Name: Mammoth
-    Name: Mammoth
-    Source: GEOMAC
-    Hashtag: '#MammothFire'
+    DispatchCenterID: UTMFC
+    LocalIncidentIdentifier: 009127
+    POOCounty: Sanpete
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-03T23:00Z'
+    ModifiedOnDateTimeEpoch: 1567551600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-UTMLF-009127
+    ModifiedOnDateTime_Raw: '2019-09-04T00:38Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567557482000
+    Hashtag: '#MammothFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-08-22T17:00Z'
     PerimeterData:
       DateTime: '2019-08-22T17:00Z'
       Acres: 780.63921347
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T04:01:11.982Z'
+          RetrievedOn: '2019-09-04T01:02:03.443Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -49464,8 +49452,8 @@ Database:
     Final_Fire_Name: Mammoth Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-02T23:00Z-PER-2019-08-22T17:00Z-ID-2019-UTMLF-009127-NAME-Mammoth-S-G
-      Code: 5b9bef44965f7ad8f3c7967e1be0428176e2789080b3068527dca8bdfb2ac5b1
+        UPD-2019-09-03T23:00Z-PER-2019-08-22T17:00Z-ID-2019-UTMLF-009127-NAME-Mammoth-S-N
+      Code: 4b505685d8f8787587fa727ba82ce7036aec03a23d208031a17f022384cb3aa2
   2019-AZASD-000485:
     Source_NFSA_Join:
       Lon: -113.48700851911697
@@ -53456,39 +53444,39 @@ Database:
       Name: Shady
       Fire_Name: Shady
       UniqueFireIdentifier: 2019-IDSCF-019120
-      DailyAcres: 5857
+      DailyAcres: 6101
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-29T21:30Z'
-      ICS209ReportDateTimeEpoch: 1567114200000
+      ICS209ReportDateTime: '2019-09-04T00:30Z'
+      ICS209ReportDateTimeEpoch: 1567557000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 380000
+      EstimatedCostToDate: 395000
       FireCause: Natural
-      TotalIncidentPersonnel: 5
+      TotalIncidentPersonnel: 15
       FireDiscoveryDateTime: '2019-07-11T00:01Z'
       FireDiscoveryDateTimeEpoch: 1562803260000
       DispatchCenterID: IDCIC
       LocalIncidentIdentifier: 019120
       POOCounty: Custer
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-29T21:30Z'
-      ModifiedOnDateTimeEpoch: 1567114200000
+      ModifiedOnDateTime: '2019-09-04T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567557000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDSCF-019120
-      ModifiedOnDateTime_Raw: '2019-08-29T21:45Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567115135000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567558206000
       Hashtag: '#ShadyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:31:57.605Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -53508,8 +53496,8 @@ Database:
       state: ID
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-03T00:30Z'
-      reportdatetimeEpoch: 1567470600000
+      reportdatetime: '2019-09-04T00:30Z'
+      reportdatetimeEpoch: 1567557000000
       percentcontained: 0
       uniquefireidentifier: 2019-IDSCF-019120
       firediscoverydatetime: '2019-07-11T00:01Z'
@@ -53519,11 +53507,11 @@ Database:
       incidentname: Shady
       iscomplex: 'false'
       irwinid: '{30BCC069-947B-43F3-B139-0761FD79C4BD}'
-      irwinmodifiedon: '2019-09-03T01:11Z'
-      irwinmodifiedonEpoch: 1567473079000
+      irwinmodifiedon: '2019-09-04T00:50Z'
+      irwinmodifiedonEpoch: 1567558206000
       mapsymbol: '1'
-      datecurrent: '2019-09-02T19:31Z'
-      datecurrentEpoch: 1567452661000
+      datecurrent: '2019-09-03T19:00Z'
+      datecurrentEpoch: 1567537248000
       pooownerunit: IDSCF
       fireyear: 2019
       localincidentidentifier: 019120
@@ -53533,8 +53521,8 @@ Database:
       complexname: null
       DailyAcres: 6101
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-03T00:30Z'
-      ModifiedOnDateTimeEpoch: 1567470600000
+      ModifiedOnDateTime: '2019-09-04T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567557000000
       PercentContained: 0
       UniqueFireIdentifier: 2019-IDSCF-019120
       FireDiscoveryDateTime: '2019-07-11T00:01Z'
@@ -53545,7 +53533,7 @@ Database:
       Hashtag: '#ShadyFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:31:57.606Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -53562,61 +53550,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-IDSCF-019120
-    Lon: -115.01891294802671
-    Lat: 44.51693614291138
-    objectid: 3
-    latitude: 44.51693
-    longitude: -115.0189
-    acres: 6101
-    gacc: GBCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: ID
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-03T00:30Z'
-    reportdatetimeEpoch: 1567470600000
-    percentcontained: 0
-    uniquefireidentifier: 2019-IDSCF-019120
-    firediscoverydatetime: '2019-07-11T00:01Z'
-    firediscoverydatetimeEpoch: 1562803260000
-    complexparentirwinid: null
-    pooresponsibleunit: IDSCF
-    incidentname: Shady
-    iscomplex: 'false'
-    irwinid: '{30BCC069-947B-43F3-B139-0761FD79C4BD}'
-    irwinmodifiedon: '2019-09-03T01:11Z'
-    irwinmodifiedonEpoch: 1567473079000
-    mapsymbol: '1'
-    datecurrent: '2019-09-02T19:31Z'
-    datecurrentEpoch: 1567452661000
-    pooownerunit: IDSCF
-    fireyear: 2019
-    localincidentidentifier: 019120
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 6101
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-03T00:30Z'
-    ModifiedOnDateTimeEpoch: 1567470600000
-    PercentContained: 0
+    Lon: -115.01891455627884
+    Lat: 44.51693696980626
+    id: 122486
+    Name: Shady
+    Fire_Name: Shady
     UniqueFireIdentifier: 2019-IDSCF-019120
+    DailyAcres: 6101
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-04T00:30Z'
+    ICS209ReportDateTimeEpoch: 1567557000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 395000
+    FireCause: Natural
+    TotalIncidentPersonnel: 15
     FireDiscoveryDateTime: '2019-07-11T00:01Z'
     FireDiscoveryDateTimeEpoch: 1562803260000
-    Fire_Name: Shady
-    Name: Shady
-    Source: GEOMAC
-    Hashtag: '#ShadyFire'
+    DispatchCenterID: IDCIC
+    LocalIncidentIdentifier: 019120
+    POOCounty: Custer
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-04T00:30Z'
+    ModifiedOnDateTimeEpoch: 1567557000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-IDSCF-019120
+    ModifiedOnDateTime_Raw: '2019-09-04T00:50Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567558206000
+    Hashtag: '#ShadyFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-09-01T00:00Z'
     PerimeterData:
       DateTime: '2019-09-01T00:00Z'
       Acres: 6091.12079999
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T16:47:53.384Z'
+          RetrievedOn: '2019-09-04T01:02:03.443Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -53637,8 +53613,8 @@ Database:
     Final_Fire_Name: Shady Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T00:30Z-PER-2019-09-01T00:00Z-ID-2019-IDSCF-019120-NAME-Shady-S-G
-      Code: 4051d1fc3b53e0c9699fdd09ef2512bf427395ece453dfc042771e0d7549cae4
+        UPD-2019-09-04T00:30Z-PER-2019-09-01T00:00Z-ID-2019-IDSCF-019120-NAME-Shady-S-N
+      Code: eb9fcec998bf857b90ba05c806dc93b2bf865ce1e10d39da1dd6b946bd7def4a
   2019-UTDIF-000408:
     Source_NFSA_Join:
       Lon: -112.32130969067926
@@ -58018,39 +57994,39 @@ Database:
       Name: BRODER
       Fire_Name: BRODER
       UniqueFireIdentifier: 2019-CASQF-001708
-      DailyAcres: 265
-      PercentContained: 10
+      DailyAcres: 370
+      PercentContained: 30
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-08-30T23:45Z'
-      ICS209ReportDateTimeEpoch: 1567208700000
+      ICS209ReportDateTime: '2019-09-04T00:00Z'
+      ICS209ReportDateTimeEpoch: 1567555200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 524000
+      EstimatedCostToDate: 571412
       FireCause: Natural
-      TotalIncidentPersonnel: 63
+      TotalIncidentPersonnel: 72
       FireDiscoveryDateTime: '2019-08-08T15:00Z'
       FireDiscoveryDateTimeEpoch: 1565276400000
       DispatchCenterID: CACCCC
       LocalIncidentIdentifier: 001708
       POOCounty: Tulare
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-30T23:45Z'
-      ModifiedOnDateTimeEpoch: 1567208700000
+      ModifiedOnDateTime: '2019-09-04T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567555200000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CASQF-001708
-      ModifiedOnDateTime_Raw: '2019-08-31T00:32Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567211523000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:38Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567557491000
       Hashtag: '#BroderFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:01:05.505Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -58064,14 +58040,14 @@ Database:
       objectid: 23
       latitude: 36.165556
       longitude: -118.184444
-      acres: 350
+      acres: 370
       gacc: OSCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: CA
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-03T00:30Z'
-      reportdatetimeEpoch: 1567470600000
+      reportdatetime: '2019-09-04T00:00Z'
+      reportdatetimeEpoch: 1567555200000
       percentcontained: 30
       uniquefireidentifier: 2019-CASQF-001708
       firediscoverydatetime: '2019-08-08T15:00Z'
@@ -58081,11 +58057,11 @@ Database:
       incidentname: BRODER
       iscomplex: 'false'
       irwinid: '{D8377BAF-8559-4A8A-A886-318FA8B415C4}'
-      irwinmodifiedon: '2019-09-03T00:49Z'
-      irwinmodifiedonEpoch: 1567471755000
+      irwinmodifiedon: '2019-09-04T00:38Z'
+      irwinmodifiedonEpoch: 1567557492000
       mapsymbol: '1'
-      datecurrent: '2019-09-02T19:00Z'
-      datecurrentEpoch: 1567450839000
+      datecurrent: '2019-09-03T19:00Z'
+      datecurrentEpoch: 1567537248000
       pooownerunit: CASQF
       fireyear: 2019
       localincidentidentifier: 001708
@@ -58093,10 +58069,10 @@ Database:
       owneragency: USFS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 350
+      DailyAcres: 370
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-03T00:30Z'
-      ModifiedOnDateTimeEpoch: 1567470600000
+      ModifiedOnDateTime: '2019-09-04T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567555200000
       PercentContained: 30
       UniqueFireIdentifier: 2019-CASQF-001708
       FireDiscoveryDateTime: '2019-08-08T15:00Z'
@@ -58107,7 +58083,7 @@ Database:
       Hashtag: '#BroderFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:01:05.506Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -58124,61 +58100,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CASQF-001708
-    Lon: -118.184456367676
-    Lat: 36.16556108636377
-    objectid: 23
-    latitude: 36.165556
-    longitude: -118.184444
-    acres: 350
-    gacc: OSCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-03T00:30Z'
-    reportdatetimeEpoch: 1567470600000
-    percentcontained: 30
-    uniquefireidentifier: 2019-CASQF-001708
-    firediscoverydatetime: '2019-08-08T15:00Z'
-    firediscoverydatetimeEpoch: 1565276400000
-    complexparentirwinid: null
-    pooresponsibleunit: CASQF
-    incidentname: BRODER
-    iscomplex: 'false'
-    irwinid: '{D8377BAF-8559-4A8A-A886-318FA8B415C4}'
-    irwinmodifiedon: '2019-09-03T00:49Z'
-    irwinmodifiedonEpoch: 1567471755000
-    mapsymbol: '1'
-    datecurrent: '2019-09-02T19:00Z'
-    datecurrentEpoch: 1567450839000
-    pooownerunit: CASQF
-    fireyear: 2019
-    localincidentidentifier: 001708
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 350
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-03T00:30Z'
-    ModifiedOnDateTimeEpoch: 1567470600000
-    PercentContained: 30
+    Lon: -118.11048457288186
+    Lat: 36.09911479976353
+    id: 128108
+    Name: BRODER
+    Fire_Name: BRODER
     UniqueFireIdentifier: 2019-CASQF-001708
+    DailyAcres: 370
+    PercentContained: 30
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-09-04T00:00Z'
+    ICS209ReportDateTimeEpoch: 1567555200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 571412
+    FireCause: Natural
+    TotalIncidentPersonnel: 72
     FireDiscoveryDateTime: '2019-08-08T15:00Z'
     FireDiscoveryDateTimeEpoch: 1565276400000
-    Fire_Name: BRODER
-    Name: BRODER
-    Source: GEOMAC
-    Hashtag: '#BroderFire'
+    DispatchCenterID: CACCCC
+    LocalIncidentIdentifier: 001708
+    POOCounty: Tulare
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-04T00:00Z'
+    ModifiedOnDateTimeEpoch: 1567555200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-CASQF-001708
+    ModifiedOnDateTime_Raw: '2019-09-04T00:38Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567557491000
+    Hashtag: '#BroderFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-08-28T10:49Z'
     PerimeterData:
       DateTime: '2019-08-28T10:49Z'
       Acres: 202.62098531
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:01:10.210Z'
+          RetrievedOn: '2019-09-04T01:02:03.443Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -58199,8 +58163,8 @@ Database:
     Final_Fire_Name: Broder Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T00:30Z-PER-2019-08-28T10:49Z-ID-2019-CASQF-001708-NAME-BRODER-S-G
-      Code: 4de4460ea6fe6df337c80ebb9f4995020d304e64bf1e73dc88d4e02e798fb64f
+        UPD-2019-09-04T00:00Z-PER-2019-08-28T10:49Z-ID-2019-CASQF-001708-NAME-BRODER-S-N
+      Code: 5d31def9df7321c5c8817ce0b7c27cf280d0d2ee5b511da840100abc01828e68
   CALFIRE-547b7d19-9b75-4c11-8b88-56adb6460a3c:
     Source_CALFIRE:
       Lon: -120.177018
@@ -61509,39 +61473,39 @@ Database:
       Name: COW
       Fire_Name: COW
       UniqueFireIdentifier: 2019-CAINF-001435
-      DailyAcres: 1250
-      PercentContained: 15
+      DailyAcres: 1875
+      PercentContained: 30
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-08-31T00:45Z'
-      ICS209ReportDateTimeEpoch: 1567212300000
+      ICS209ReportDateTime: '2019-09-04T00:30Z'
+      ICS209ReportDateTimeEpoch: 1567557000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 1500000
+      EstimatedCostToDate: 1780000
       FireCause: Natural
-      TotalIncidentPersonnel: 84
+      TotalIncidentPersonnel: 73
       FireDiscoveryDateTime: '2019-07-25T15:13Z'
       FireDiscoveryDateTimeEpoch: 1564067580000
       DispatchCenterID: CAOVCC
       LocalIncidentIdentifier: '001435'
       POOCounty: Tulare
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-31T00:45Z'
-      ModifiedOnDateTimeEpoch: 1567212300000
+      ModifiedOnDateTime: '2019-09-04T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567557000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAINF-001435
-      ModifiedOnDateTime_Raw: '2019-08-31T01:30Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567215059000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:40Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567557657000
       Hashtag: '#CowFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:01:05.505Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -61552,17 +61516,17 @@ Database:
     Source_GEOMAC:
       Lon: -118.2276123867199
       Lat: 36.28380509582787
-      objectid: 5
+      objectid: 6
       latitude: 36.2838
       longitude: -118.2276
-      acres: 1800
+      acres: 1875
       gacc: OSCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: CA
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-03T00:15Z'
-      reportdatetimeEpoch: 1567469700000
+      reportdatetime: '2019-09-04T00:30Z'
+      reportdatetimeEpoch: 1567557000000
       percentcontained: 30
       uniquefireidentifier: 2019-CAINF-001435
       firediscoverydatetime: '2019-07-25T15:13Z'
@@ -61572,11 +61536,11 @@ Database:
       incidentname: COW
       iscomplex: 'false'
       irwinid: '{514B7AAC-D243-4A14-9509-A0BDA0B2C61D}'
-      irwinmodifiedon: '2019-09-03T00:42Z'
-      irwinmodifiedonEpoch: 1567471359000
+      irwinmodifiedon: '2019-09-04T00:40Z'
+      irwinmodifiedonEpoch: 1567557658000
       mapsymbol: '1'
-      datecurrent: '2019-09-02T19:00Z'
-      datecurrentEpoch: 1567450839000
+      datecurrent: '2019-09-03T19:00Z'
+      datecurrentEpoch: 1567537248000
       pooownerunit: CAINF
       fireyear: 2019
       localincidentidentifier: '001435'
@@ -61584,10 +61548,10 @@ Database:
       owneragency: USFS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 1800
+      DailyAcres: 1875
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-03T00:15Z'
-      ModifiedOnDateTimeEpoch: 1567469700000
+      ModifiedOnDateTime: '2019-09-04T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567557000000
       PercentContained: 30
       UniqueFireIdentifier: 2019-CAINF-001435
       FireDiscoveryDateTime: '2019-07-25T15:13Z'
@@ -61598,7 +61562,7 @@ Database:
       Hashtag: '#CowFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:01:05.506Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -61615,61 +61579,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CAINF-001435
-    Lon: -118.2276123867199
-    Lat: 36.28380509582787
-    objectid: 5
-    latitude: 36.2838
-    longitude: -118.2276
-    acres: 1800
-    gacc: OSCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-03T00:15Z'
-    reportdatetimeEpoch: 1567469700000
-    percentcontained: 30
-    uniquefireidentifier: 2019-CAINF-001435
-    firediscoverydatetime: '2019-07-25T15:13Z'
-    firediscoverydatetimeEpoch: 1564067580000
-    complexparentirwinid: null
-    pooresponsibleunit: CAINF
-    incidentname: COW
-    iscomplex: 'false'
-    irwinid: '{514B7AAC-D243-4A14-9509-A0BDA0B2C61D}'
-    irwinmodifiedon: '2019-09-03T00:42Z'
-    irwinmodifiedonEpoch: 1567471359000
-    mapsymbol: '1'
-    datecurrent: '2019-09-02T19:00Z'
-    datecurrentEpoch: 1567450839000
-    pooownerunit: CAINF
-    fireyear: 2019
-    localincidentidentifier: '001435'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 1800
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-03T00:15Z'
-    ModifiedOnDateTimeEpoch: 1567469700000
-    PercentContained: 30
+    Lon: -118.279215132698
+    Lat: 36.28518734407914
+    id: 124891
+    Name: COW
+    Fire_Name: COW
     UniqueFireIdentifier: 2019-CAINF-001435
+    DailyAcres: 1875
+    PercentContained: 30
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-09-04T00:30Z'
+    ICS209ReportDateTimeEpoch: 1567557000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1780000
+    FireCause: Natural
+    TotalIncidentPersonnel: 73
     FireDiscoveryDateTime: '2019-07-25T15:13Z'
     FireDiscoveryDateTimeEpoch: 1564067580000
-    Fire_Name: COW
-    Name: COW
-    Source: GEOMAC
-    Hashtag: '#CowFire'
+    DispatchCenterID: CAOVCC
+    LocalIncidentIdentifier: '001435'
+    POOCounty: Tulare
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-04T00:30Z'
+    ModifiedOnDateTimeEpoch: 1567557000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-CAINF-001435
+    ModifiedOnDateTime_Raw: '2019-09-04T00:40Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567557657000
+    Hashtag: '#CowFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-09-02T18:42Z'
     PerimeterData:
       DateTime: '2019-09-02T18:42Z'
       Acres: 1875.98811948
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T16:47:53.384Z'
+          RetrievedOn: '2019-09-04T01:02:03.443Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -61690,8 +61642,8 @@ Database:
     Final_Fire_Name: Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T00:15Z-PER-2019-09-02T18:42Z-ID-2019-CAINF-001435-NAME-COW-S-G
-      Code: d036495d9657dde66362c5c4131cce87795ca135aab7fb5df1d67dc0d3e416b0
+        UPD-2019-09-04T00:30Z-PER-2019-09-02T18:42Z-ID-2019-CAINF-001435-NAME-COW-S-N
+      Code: af3a70f4dc7aaa84bb4755d2a7499e79d1b11f16c0931698db6cb310c9659cab
   CALFIRE-46896a04-8502-403c-b362-e4adc9e7ad4d:
     Source_CALFIRE:
       Lon: -116.857817
@@ -70734,21 +70686,21 @@ Database:
       LocalIncidentIdentifier: 000698
       POOCounty: Tooele
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-03T23:19Z'
-      ModifiedOnDateTimeEpoch: 1567552751000
+      ModifiedOnDateTime: '2019-09-04T00:49Z'
+      ModifiedOnDateTimeEpoch: 1567558184000
       ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTSLD-000698
-      ModifiedOnDateTime_Raw: '2019-09-03T23:19Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567552751000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:49Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567558184000
       Hashtag: '#GreenRavineFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T23:32:07.695Z'
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -70780,16 +70732,16 @@ Database:
     LocalIncidentIdentifier: 000698
     POOCounty: Tooele
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-03T23:19Z'
-    ModifiedOnDateTimeEpoch: 1567552751000
+    ModifiedOnDateTime: '2019-09-04T00:49Z'
+    ModifiedOnDateTimeEpoch: 1567558184000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTSLD-000698
-    ModifiedOnDateTime_Raw: '2019-09-03T23:19Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567552751000
+    ModifiedOnDateTime_Raw: '2019-09-04T00:49Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567558184000
     Hashtag: '#GreenRavineFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -70801,8 +70753,8 @@ Database:
     unitMention: Salt Lake Field Office
     Final_Fire_Name: Green Ravine Fire
     _Update:
-      UpdateId: 'UPD-2019-09-03T23:19Z-PER-none-ID-2019-UTSLD-000698-NAME-GreenRavine-S-N'
-      Code: 855bc0269a218761157f180a766b418dc2948710b432f674020154546bfc512b
+      UpdateId: 'UPD-2019-09-04T00:49Z-PER-none-ID-2019-UTSLD-000698-NAME-GreenRavine-S-N'
+      Code: b3b95c8435a3cca29c608f7e5211d2dfef90ce0fb8d634990dfa9d66de4734aa
   2019-AZASD-000575:
     Source_NFSA_Join:
       Lon: -113.64850764089597
@@ -70898,3 +70850,182 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-03T23:45Z-PER-none-ID-2019-AZASD-000575-NAME-George-S-N'
       Code: 6a79dec247138ab47f76df7c745b0313ceadbdef021365ab66a90c87d392b956
+  2019-ORWWF-000609:
+    Source_NFSA_Join:
+      Lon: -117.42701037211233
+      Lat: 45.177996154509046
+      id: 125612
+      Name: Granite Gulch
+      Fire_Name: Granite Gulch
+      UniqueFireIdentifier: 2019-ORWWF-000609
+      DailyAcres: 5400
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-04T00:00Z'
+      ICS209ReportDateTimeEpoch: 1567555200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 440000
+      FireCause: Natural
+      TotalIncidentPersonnel: 15
+      FireDiscoveryDateTime: '2019-07-29T00:36Z'
+      FireDiscoveryDateTimeEpoch: 1564360560000
+      DispatchCenterID: ORBMC
+      LocalIncidentIdentifier: 000609
+      POOCounty: Wallowa
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-04T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567555200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-ORWWF-000609
+      ModifiedOnDateTime_Raw: '2019-09-04T00:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567558733000
+      Hashtag: '#GraniteGulchFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -117.42701352546068
+      Lat: 45.1779959675307
+      objectid: 12
+      latitude: 45.17799
+      longitude: -117.427
+      acres: 5400
+      gacc: NWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OR
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-04T00:00Z'
+      reportdatetimeEpoch: 1567555200000
+      percentcontained: 0
+      uniquefireidentifier: 2019-ORWWF-000609
+      firediscoverydatetime: '2019-07-29T00:36Z'
+      firediscoverydatetimeEpoch: 1564360560000
+      complexparentirwinid: null
+      pooresponsibleunit: ORWWF
+      incidentname: Granite Gulch
+      iscomplex: 'false'
+      irwinid: '{026F0FC5-D38C-4F7B-928A-59F37BE81BAA}'
+      irwinmodifiedon: '2019-09-04T00:58Z'
+      irwinmodifiedonEpoch: 1567558733000
+      mapsymbol: '1'
+      datecurrent: '2019-09-03T19:00Z'
+      datecurrentEpoch: 1567537248000
+      pooownerunit: ORWWF
+      fireyear: 2019
+      localincidentidentifier: 000609
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 5400
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-04T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567555200000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-ORWWF-000609
+      FireDiscoveryDateTime: '2019-07-29T00:36Z'
+      FireDiscoveryDateTimeEpoch: 1564360560000
+      Fire_Name: Granite Gulch
+      Name: Granite Gulch
+      Source: GEOMAC
+      Hashtag: '#GraniteGulchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-04T01:01:58.555Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-ORWWF-000609
+    Lon: -117.42701037211233
+    Lat: 45.177996154509046
+    id: 125612
+    Name: Granite Gulch
+    Fire_Name: Granite Gulch
+    UniqueFireIdentifier: 2019-ORWWF-000609
+    DailyAcres: 5400
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-04T00:00Z'
+    ICS209ReportDateTimeEpoch: 1567555200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 440000
+    FireCause: Natural
+    TotalIncidentPersonnel: 15
+    FireDiscoveryDateTime: '2019-07-29T00:36Z'
+    FireDiscoveryDateTimeEpoch: 1564360560000
+    DispatchCenterID: ORBMC
+    LocalIncidentIdentifier: 000609
+    POOCounty: Wallowa
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-04T00:00Z'
+    ModifiedOnDateTimeEpoch: 1567555200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-ORWWF-000609
+    ModifiedOnDateTime_Raw: '2019-09-04T00:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567558733000
+    Hashtag: '#GraniteGulchFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-30T22:43Z'
+    PerimeterData:
+      DateTime: '2019-08-30T22:43Z'
+      Acres: 5324.17107536
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-04T01:02:03.443Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: ORWWF
+    unitMention: Wallowa-Whitman NF
+    Final_Fire_Name: Granite Gulch Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-04T00:00Z-PER-2019-08-30T22:43Z-ID-2019-ORWWF-000609-NAME-GraniteGulch-S-N
+      Code: b398fd6cc779f76da7ac04298af32b78d6856444e1b6607a4ac53788a18d36e4
