@@ -57905,39 +57905,39 @@ Database:
       Name: McClusky
       Fire_Name: McClusky
       UniqueFireIdentifier: 2019-MTBDF-006289
-      DailyAcres: 173
+      DailyAcres: 212
       PercentContained: 51
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-30T23:30Z'
-      ICS209ReportDateTimeEpoch: 1567207800000
+      ICS209ReportDateTime: '2019-09-03T23:30Z'
+      ICS209ReportDateTimeEpoch: 1567553400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 575000
+      EstimatedCostToDate: 755000
       FireCause: Natural
-      TotalIncidentPersonnel: 75
+      TotalIncidentPersonnel: 72
       FireDiscoveryDateTime: '2019-08-16T23:08Z'
       FireDiscoveryDateTimeEpoch: 1565996880000
       DispatchCenterID: MTDDC
       LocalIncidentIdentifier: 006289
       POOCounty: Jefferson
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-30T23:30Z'
-      ModifiedOnDateTimeEpoch: 1567207800000
+      ModifiedOnDateTime: '2019-09-03T23:30Z'
+      ModifiedOnDateTimeEpoch: 1567553400000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-MTBDF-006289
-      ModifiedOnDateTime_Raw: '2019-08-30T23:58Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567209496000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:07Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567555634000
       Hashtag: '#McCluskyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T15:02:47.364Z'
+          RetrievedOn: '2019-09-04T00:31:11.548Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -57945,127 +57945,49 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -112.2772126795179
-      Lat: 46.01439653592454
-      objectid: 27
-      latitude: 46.01439
-      longitude: -112.2772
-      acres: 212
-      gacc: NRCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: MT
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-09-03T00:00Z'
-      reportdatetimeEpoch: 1567468800000
-      percentcontained: 51
-      uniquefireidentifier: 2019-MTBDF-006289
-      firediscoverydatetime: '2019-08-16T23:08Z'
-      firediscoverydatetimeEpoch: 1565996880000
-      complexparentirwinid: null
-      pooresponsibleunit: MTBDF
-      incidentname: McClusky
-      iscomplex: 'false'
-      irwinid: '{F3BAEC6B-8E29-4368-B40C-E1AC8953D4BA}'
-      irwinmodifiedon: '2019-09-03T14:35Z'
-      irwinmodifiedonEpoch: 1567521301000
-      mapsymbol: '1'
-      datecurrent: '2019-09-03T09:01Z'
-      datecurrentEpoch: 1567501279000
-      pooownerunit: MTBDF
-      fireyear: 2019
-      localincidentidentifier: 006289
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 212
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-09-03T00:00Z'
-      ModifiedOnDateTimeEpoch: 1567468800000
-      PercentContained: 51
-      UniqueFireIdentifier: 2019-MTBDF-006289
-      FireDiscoveryDateTime: '2019-08-16T23:08Z'
-      FireDiscoveryDateTimeEpoch: 1565996880000
-      Fire_Name: McClusky
-      Name: McClusky
-      Source: GEOMAC
-      Hashtag: '#McCluskyFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-03T15:02:47.365Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-MTBDF-006289
-    Lon: -112.2772126795179
-    Lat: 46.01439653592454
-    objectid: 27
-    latitude: 46.01439
-    longitude: -112.2772
-    acres: 212
-    gacc: NRCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: MT
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-03T00:00Z'
-    reportdatetimeEpoch: 1567468800000
-    percentcontained: 51
-    uniquefireidentifier: 2019-MTBDF-006289
-    firediscoverydatetime: '2019-08-16T23:08Z'
-    firediscoverydatetimeEpoch: 1565996880000
-    complexparentirwinid: null
-    pooresponsibleunit: MTBDF
-    incidentname: McClusky
-    iscomplex: 'false'
-    irwinid: '{F3BAEC6B-8E29-4368-B40C-E1AC8953D4BA}'
-    irwinmodifiedon: '2019-09-03T14:35Z'
-    irwinmodifiedonEpoch: 1567521301000
-    mapsymbol: '1'
-    datecurrent: '2019-09-03T09:01Z'
-    datecurrentEpoch: 1567501279000
-    pooownerunit: MTBDF
-    fireyear: 2019
-    localincidentidentifier: 006289
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 212
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-03T00:00Z'
-    ModifiedOnDateTimeEpoch: 1567468800000
-    PercentContained: 51
+    Lon: -112.27161488916178
+    Lat: 46.0076486093788
+    id: 129224
+    Name: McClusky
+    Fire_Name: McClusky
     UniqueFireIdentifier: 2019-MTBDF-006289
+    DailyAcres: 212
+    PercentContained: 51
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-03T23:30Z'
+    ICS209ReportDateTimeEpoch: 1567553400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 755000
+    FireCause: Natural
+    TotalIncidentPersonnel: 72
     FireDiscoveryDateTime: '2019-08-16T23:08Z'
     FireDiscoveryDateTimeEpoch: 1565996880000
-    Fire_Name: McClusky
-    Name: McClusky
-    Source: GEOMAC
-    Hashtag: '#McCluskyFire'
+    DispatchCenterID: MTDDC
+    LocalIncidentIdentifier: 006289
+    POOCounty: Jefferson
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-03T23:30Z'
+    ModifiedOnDateTimeEpoch: 1567553400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-MTBDF-006289
+    ModifiedOnDateTime_Raw: '2019-09-04T00:07Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567555634000
+    Hashtag: '#McCluskyFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-09-02T22:30Z'
     PerimeterData:
       DateTime: '2019-09-02T22:30Z'
       Acres: 406.11493659
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T16:47:53.384Z'
+          RetrievedOn: '2019-09-04T00:31:16.717Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -58086,8 +58008,8 @@ Database:
     Final_Fire_Name: Mc Clusky Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T00:00Z-PER-2019-09-02T22:30Z-ID-2019-MTBDF-006289-NAME-McClusky-S-G
-      Code: efdb6a09b92d249888b1ded382d070af41d22d43c20dacfb9a70145bcaea61d5
+        UPD-2019-09-03T23:30Z-PER-2019-09-02T22:30Z-ID-2019-MTBDF-006289-NAME-McClusky-S-N
+      Code: ef8c1c92ab26532d68eca0dbd5bb2126447a5469d33d71ea6154442287628320
   2019-CASQF-001708:
     Source_NFSA_Join:
       Lon: -118.11048457288186
@@ -59271,39 +59193,39 @@ Database:
       Name: 204 Cow
       Fire_Name: 204 Cow
       UniqueFireIdentifier: 2019-ORMAF-019204
-      DailyAcres: 5516
-      PercentContained: 5
+      DailyAcres: 8452
+      PercentContained: 55
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-08-31T01:30Z'
-      ICS209ReportDateTimeEpoch: 1567215000000
+      ICS209ReportDateTime: '2019-09-04T00:00Z'
+      ICS209ReportDateTimeEpoch: 1567555200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 5085688
+      EstimatedCostToDate: 8327626
       FireCause: Natural
-      TotalIncidentPersonnel: 593
+      TotalIncidentPersonnel: 624
       FireDiscoveryDateTime: '2019-08-10T02:34Z'
       FireDiscoveryDateTimeEpoch: 1565404440000
       DispatchCenterID: ORJDCC
       LocalIncidentIdentifier: 019204
       POOCounty: Baker
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-31T01:30Z'
-      ModifiedOnDateTimeEpoch: 1567215000000
+      ModifiedOnDateTime: '2019-09-04T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567555200000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-ORMAF-019204
-      ModifiedOnDateTime_Raw: '2019-08-31T01:38Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567215488000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567556920000
       Hashtag: '#204CowFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T01:01:05.505Z'
+          RetrievedOn: '2019-09-04T00:31:11.548Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -59311,127 +59233,49 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -118.45981354097592
-      Lat: 44.2850557992008
-      objectid: 22
-      latitude: 44.28505
-      longitude: -118.4598
-      acres: 7866
-      gacc: NWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: OR
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-09-03T00:30Z'
-      reportdatetimeEpoch: 1567470600000
-      percentcontained: 30
-      uniquefireidentifier: 2019-ORMAF-019204
-      firediscoverydatetime: '2019-08-10T02:34Z'
-      firediscoverydatetimeEpoch: 1565404440000
-      complexparentirwinid: null
-      pooresponsibleunit: ORMAF
-      incidentname: 204 Cow
-      iscomplex: 'false'
-      irwinid: '{6FB0FEFD-A96D-4F23-BD34-60936BFCD93F}'
-      irwinmodifiedon: '2019-09-03T00:56Z'
-      irwinmodifiedonEpoch: 1567472171000
-      mapsymbol: '1'
-      datecurrent: '2019-09-02T19:00Z'
-      datecurrentEpoch: 1567450839000
-      pooownerunit: ORMAF
-      fireyear: 2019
-      localincidentidentifier: 019204
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 7866
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-09-03T00:30Z'
-      ModifiedOnDateTimeEpoch: 1567470600000
-      PercentContained: 30
-      UniqueFireIdentifier: 2019-ORMAF-019204
-      FireDiscoveryDateTime: '2019-08-10T02:34Z'
-      FireDiscoveryDateTimeEpoch: 1565404440000
-      Fire_Name: 204 Cow
-      Name: 204 Cow
-      Source: GEOMAC
-      Hashtag: '#204CowFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-03T01:01:05.506Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-ORMAF-019204
-    Lon: -118.45981354097592
-    Lat: 44.2850557992008
-    objectid: 22
-    latitude: 44.28505
-    longitude: -118.4598
-    acres: 7866
-    gacc: NWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: OR
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-03T00:30Z'
-    reportdatetimeEpoch: 1567470600000
-    percentcontained: 30
-    uniquefireidentifier: 2019-ORMAF-019204
-    firediscoverydatetime: '2019-08-10T02:34Z'
-    firediscoverydatetimeEpoch: 1565404440000
-    complexparentirwinid: null
-    pooresponsibleunit: ORMAF
-    incidentname: 204 Cow
-    iscomplex: 'false'
-    irwinid: '{6FB0FEFD-A96D-4F23-BD34-60936BFCD93F}'
-    irwinmodifiedon: '2019-09-03T00:56Z'
-    irwinmodifiedonEpoch: 1567472171000
-    mapsymbol: '1'
-    datecurrent: '2019-09-02T19:00Z'
-    datecurrentEpoch: 1567450839000
-    pooownerunit: ORMAF
-    fireyear: 2019
-    localincidentidentifier: 019204
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 7866
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-03T00:30Z'
-    ModifiedOnDateTimeEpoch: 1567470600000
-    PercentContained: 30
+    Lon: -118.46051312333901
+    Lat: 44.285565643990886
+    id: 128002
+    Name: 204 Cow
+    Fire_Name: 204 Cow
     UniqueFireIdentifier: 2019-ORMAF-019204
+    DailyAcres: 8452
+    PercentContained: 55
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 2 Team
+    ICS209ReportDateTime: '2019-09-04T00:00Z'
+    ICS209ReportDateTimeEpoch: 1567555200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 8327626
+    FireCause: Natural
+    TotalIncidentPersonnel: 624
     FireDiscoveryDateTime: '2019-08-10T02:34Z'
     FireDiscoveryDateTimeEpoch: 1565404440000
-    Fire_Name: 204 Cow
-    Name: 204 Cow
-    Source: GEOMAC
-    Hashtag: '#204CowFire'
+    DispatchCenterID: ORJDCC
+    LocalIncidentIdentifier: 019204
+    POOCounty: Baker
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-04T00:00Z'
+    ModifiedOnDateTimeEpoch: 1567555200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType2
+    Source: NFSA
     _CorrelationIds:
       - 2019-ORMAF-019204
+    ModifiedOnDateTime_Raw: '2019-09-04T00:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567556920000
+    Hashtag: '#204CowFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-09-02T20:25Z'
     PerimeterData:
       DateTime: '2019-09-02T20:25Z'
       Acres: 8452.30029416
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T16:47:53.384Z'
+          RetrievedOn: '2019-09-04T00:31:16.717Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -59452,8 +59296,8 @@ Database:
     Final_Fire_Name: 204 Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T00:30Z-PER-2019-09-02T20:25Z-ID-2019-ORMAF-019204-NAME-204Cow-S-G
-      Code: f087928b9511fd97614d47f754da74e07b78249b3a3a07a21c0ae5bb3b32e5b6
+        UPD-2019-09-04T00:00Z-PER-2019-09-02T20:25Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
+      Code: 5289270be4df70348b4944aa9179173fa8d49069f166a9950773648e05fdc5a3
   2019-TXTXS-190262:
     Source_NFSA_Join:
       Lon: -99.75316021361986
@@ -69145,8 +68989,8 @@ Database:
     Link: >-
       https://www.fire.ca.gov/incident/?incident=8faaa845-634f-4f94-b25e-f5ae78703da6
     _CorrelationIds:
-      - 2019-CATUU-000684
       - CALFIRE-8faaa845-634f-4f94-b25e-f5ae78703da6
+      - 2019-CATUU-000684
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -70968,38 +70812,38 @@ Database:
       Fire_Name: George
       UniqueFireIdentifier: 2019-AZASD-000575
       DailyAcres: 567
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-03T23:45Z'
+      ICS209ReportDateTimeEpoch: 1567554300000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 250000
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 42
       FireDiscoveryDateTime: '2019-09-03T15:03Z'
       FireDiscoveryDateTimeEpoch: 1567522980000
       DispatchCenterID: UTCDC
       LocalIncidentIdentifier: '000575'
       POOCounty: Mohave
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-03T23:38Z'
-      ModifiedOnDateTimeEpoch: 1567553916000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-09-03T23:45Z'
+      ModifiedOnDateTimeEpoch: 1567554300000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZASD-000575
-      ModifiedOnDateTime_Raw: '2019-09-03T23:38Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567553916000
+      ModifiedOnDateTime_Raw: '2019-09-04T00:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567556905000
       Hashtag: '#GeorgeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T00:01:42.858Z'
+          RetrievedOn: '2019-09-04T00:31:11.548Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -71014,33 +70858,33 @@ Database:
     Fire_Name: George
     UniqueFireIdentifier: 2019-AZASD-000575
     DailyAcres: 567
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-03T23:45Z'
+    ICS209ReportDateTimeEpoch: 1567554300000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 250000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 42
     FireDiscoveryDateTime: '2019-09-03T15:03Z'
     FireDiscoveryDateTimeEpoch: 1567522980000
     DispatchCenterID: UTCDC
     LocalIncidentIdentifier: '000575'
     POOCounty: Mohave
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-03T23:38Z'
-    ModifiedOnDateTimeEpoch: 1567553916000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-09-03T23:45Z'
+    ModifiedOnDateTimeEpoch: 1567554300000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZASD-000575
-    ModifiedOnDateTime_Raw: '2019-09-03T23:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567553916000
+    ModifiedOnDateTime_Raw: '2019-09-04T00:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567556905000
     Hashtag: '#GeorgeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -71052,5 +70896,5 @@ Database:
     unitMention: Arizona Strip Field Office
     Final_Fire_Name: George Fire
     _Update:
-      UpdateId: 'UPD-2019-09-03T23:38Z-PER-none-ID-2019-AZASD-000575-NAME-George-S-N'
-      Code: 0cffd97d286334a404a6c34e51032b76e207952b7454a84c0e26732abf1f80d7
+      UpdateId: 'UPD-2019-09-03T23:45Z-PER-none-ID-2019-AZASD-000575-NAME-George-S-N'
+      Code: 6a79dec247138ab47f76df7c745b0313ceadbdef021365ab66a90c87d392b956
