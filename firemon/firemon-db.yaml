@@ -57117,35 +57117,35 @@ Database:
       PercentContained: 51
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-03T23:30Z'
-      ICS209ReportDateTimeEpoch: 1567553400000
+      ICS209ReportDateTime: '2019-09-04T23:30Z'
+      ICS209ReportDateTimeEpoch: 1567639800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 755000
+      EstimatedCostToDate: 800000
       FireCause: Natural
-      TotalIncidentPersonnel: 72
+      TotalIncidentPersonnel: 85
       FireDiscoveryDateTime: '2019-08-16T23:08Z'
       FireDiscoveryDateTimeEpoch: 1565996880000
       DispatchCenterID: MTDDC
       LocalIncidentIdentifier: 006289
       POOCounty: Jefferson
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-03T23:30Z'
-      ModifiedOnDateTimeEpoch: 1567553400000
-      ModifiedBySystem: ics209
+      ModifiedOnDateTime: '2019-09-04T23:30Z'
+      ModifiedOnDateTimeEpoch: 1567639800000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-MTBDF-006289
-      ModifiedOnDateTime_Raw: '2019-09-04T00:07Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567555634000
+      ModifiedOnDateTime_Raw: '2019-09-04T23:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567641274000
       Hashtag: '#McCluskyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T00:31:11.548Z'
+          RetrievedOn: '2019-09-05T00:02:16.347Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -57153,6 +57153,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -112.2772126795179
+      Lat: 46.01439653592454
+      objectid: 26
+      latitude: 46.01439
+      longitude: -112.2772
+      acres: 212
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-04T23:30Z'
+      reportdatetimeEpoch: 1567639800000
+      percentcontained: 51
+      uniquefireidentifier: 2019-MTBDF-006289
+      firediscoverydatetime: '2019-08-16T23:08Z'
+      firediscoverydatetimeEpoch: 1565996880000
+      complexparentirwinid: null
+      pooresponsibleunit: MTBDF
+      incidentname: McClusky
+      iscomplex: 'false'
+      irwinid: '{F3BAEC6B-8E29-4368-B40C-E1AC8953D4BA}'
+      irwinmodifiedon: '2019-09-04T23:54Z'
+      irwinmodifiedonEpoch: 1567641274000
+      mapsymbol: '1'
+      datecurrent: '2019-09-04T18:00Z'
+      datecurrentEpoch: 1567620059000
+      pooownerunit: MTBDF
+      fireyear: 2019
+      localincidentidentifier: 006289
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 212
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-04T23:30Z'
+      ModifiedOnDateTimeEpoch: 1567639800000
+      PercentContained: 51
+      UniqueFireIdentifier: 2019-MTBDF-006289
+      FireDiscoveryDateTime: '2019-08-16T23:08Z'
+      FireDiscoveryDateTimeEpoch: 1565996880000
+      Fire_Name: McClusky
+      Name: McClusky
+      Source: GEOMAC
+      Hashtag: '#McCluskyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T00:02:16.348Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTBDF-006289
     Lon: -112.27161488916178
     Lat: 46.0076486093788
     id: 129224
@@ -57163,30 +57229,30 @@ Database:
     PercentContained: 51
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-03T23:30Z'
-    ICS209ReportDateTimeEpoch: 1567553400000
+    ICS209ReportDateTime: '2019-09-04T23:30Z'
+    ICS209ReportDateTimeEpoch: 1567639800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 755000
+    EstimatedCostToDate: 800000
     FireCause: Natural
-    TotalIncidentPersonnel: 72
+    TotalIncidentPersonnel: 85
     FireDiscoveryDateTime: '2019-08-16T23:08Z'
     FireDiscoveryDateTimeEpoch: 1565996880000
     DispatchCenterID: MTDDC
     LocalIncidentIdentifier: 006289
     POOCounty: Jefferson
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-03T23:30Z'
-    ModifiedOnDateTimeEpoch: 1567553400000
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2019-09-04T23:30Z'
+    ModifiedOnDateTimeEpoch: 1567639800000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-MTBDF-006289
-    ModifiedOnDateTime_Raw: '2019-09-04T00:07Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567555634000
+    ModifiedOnDateTime_Raw: '2019-09-04T23:54Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567641274000
     Hashtag: '#McCluskyFire'
     NFSAType: Large WF
     PerimDateTime: '2019-09-02T22:30Z'
@@ -57195,7 +57261,7 @@ Database:
       Acres: 406.11493659
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T00:31:16.717Z'
+          RetrievedOn: '2019-09-05T00:02:21.418Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -57216,8 +57282,8 @@ Database:
     Final_Fire_Name: Mc Clusky Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T23:30Z-PER-2019-09-02T22:30Z-ID-2019-MTBDF-006289-NAME-McClusky-S-N
-      Code: ef8c1c92ab26532d68eca0dbd5bb2126447a5469d33d71ea6154442287628320
+        UPD-2019-09-04T23:30Z-PER-2019-09-02T22:30Z-ID-2019-MTBDF-006289-NAME-McClusky-S-N
+      Code: 8431ad86a6176141905bdd0428f73bf3a9c5d23f523def029247935b8fe5ea97
   2019-CASQF-001708:
     Source_NFSA_Join:
       Lon: -118.11048457288186
@@ -62548,39 +62614,39 @@ Database:
       Name: PEDRO MOUNTAIN
       Fire_Name: PEDRO MOUNTAIN
       UniqueFireIdentifier: 2019-WYRAD-019341
-      DailyAcres: 21463
-      PercentContained: 60
+      DailyAcres: 23408
+      PercentContained: 82
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-03T23:00Z'
-      ICS209ReportDateTimeEpoch: 1567551600000
+      ICS209ReportDateTime: '2019-09-04T23:30Z'
+      ICS209ReportDateTimeEpoch: 1567639800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 5969104
+      EstimatedCostToDate: 6342599
       FireCause: Natural
-      TotalIncidentPersonnel: 292
+      TotalIncidentPersonnel: 191
       FireDiscoveryDateTime: '2019-08-24T17:26Z'
       FireDiscoveryDateTimeEpoch: 1566667560000
       DispatchCenterID: WYCPC
       LocalIncidentIdentifier: 019341
       POOCounty: Carbon
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-03T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567551600000
+      ModifiedOnDateTime: '2019-09-04T23:30Z'
+      ModifiedOnDateTimeEpoch: 1567639800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WYRAD-019341
-      ModifiedOnDateTime_Raw: '2019-09-03T23:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567554998000
+      ModifiedOnDateTime_Raw: '2019-09-04T23:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567641451000
       Hashtag: '#PedroMountainFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T00:01:42.858Z'
+          RetrievedOn: '2019-09-05T00:02:16.347Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -62591,18 +62657,18 @@ Database:
     Source_GEOMAC:
       Lon: -106.8966775835813
       Lat: 42.349173316009626
-      objectid: 29
+      objectid: 28
       latitude: 42.3491667
       longitude: -106.8966667
-      acres: 21463
+      acres: 23408
       gacc: RMCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: WY
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-03T23:00Z'
-      reportdatetimeEpoch: 1567551600000
-      percentcontained: 60
+      reportdatetime: '2019-09-04T23:30Z'
+      reportdatetimeEpoch: 1567639800000
+      percentcontained: 82
       uniquefireidentifier: 2019-WYRAD-019341
       firediscoverydatetime: '2019-08-24T17:26Z'
       firediscoverydatetimeEpoch: 1566667560000
@@ -62611,11 +62677,11 @@ Database:
       incidentname: PEDRO MOUNTAIN
       iscomplex: 'false'
       irwinid: '{DE8D0134-9714-4D14-9B62-310C726A17EE}'
-      irwinmodifiedon: '2019-09-03T23:56Z'
-      irwinmodifiedonEpoch: 1567554998000
+      irwinmodifiedon: '2019-09-04T23:57Z'
+      irwinmodifiedonEpoch: 1567641451000
       mapsymbol: '2'
-      datecurrent: '2019-09-03T18:00Z'
-      datecurrentEpoch: 1567533646000
+      datecurrent: '2019-09-04T18:00Z'
+      datecurrentEpoch: 1567620059000
       pooownerunit: WYRAD
       fireyear: 2019
       localincidentidentifier: 019341
@@ -62623,11 +62689,11 @@ Database:
       owneragency: ''
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 21463
+      DailyAcres: 23408
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-03T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567551600000
-      PercentContained: 60
+      ModifiedOnDateTime: '2019-09-04T23:30Z'
+      ModifiedOnDateTimeEpoch: 1567639800000
+      PercentContained: 82
       UniqueFireIdentifier: 2019-WYRAD-019341
       FireDiscoveryDateTime: '2019-08-24T17:26Z'
       FireDiscoveryDateTimeEpoch: 1566667560000
@@ -62637,7 +62703,7 @@ Database:
       Hashtag: '#PedroMountainFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T00:01:42.859Z'
+          RetrievedOn: '2019-09-05T00:02:16.348Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -62660,34 +62726,34 @@ Database:
     Name: PEDRO MOUNTAIN
     Fire_Name: PEDRO MOUNTAIN
     UniqueFireIdentifier: 2019-WYRAD-019341
-    DailyAcres: 21463
-    PercentContained: 60
+    DailyAcres: 23408
+    PercentContained: 82
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-03T23:00Z'
-    ICS209ReportDateTimeEpoch: 1567551600000
+    ICS209ReportDateTime: '2019-09-04T23:30Z'
+    ICS209ReportDateTimeEpoch: 1567639800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 5969104
+    EstimatedCostToDate: 6342599
     FireCause: Natural
-    TotalIncidentPersonnel: 292
+    TotalIncidentPersonnel: 191
     FireDiscoveryDateTime: '2019-08-24T17:26Z'
     FireDiscoveryDateTimeEpoch: 1566667560000
     DispatchCenterID: WYCPC
     LocalIncidentIdentifier: 019341
     POOCounty: Carbon
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-03T23:00Z'
-    ModifiedOnDateTimeEpoch: 1567551600000
+    ModifiedOnDateTime: '2019-09-04T23:30Z'
+    ModifiedOnDateTimeEpoch: 1567639800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-WYRAD-019341
-    ModifiedOnDateTime_Raw: '2019-09-03T23:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567554998000
+    ModifiedOnDateTime_Raw: '2019-09-04T23:57Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567641451000
     Hashtag: '#PedroMountainFire'
     NFSAType: Large WF
     PerimDateTime: '2019-09-02T17:10Z'
@@ -62696,7 +62762,7 @@ Database:
       Acres: 20834.559605
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T00:01:47.420Z'
+          RetrievedOn: '2019-09-05T00:02:21.418Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -62717,8 +62783,8 @@ Database:
     Final_Fire_Name: Pedro Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T23:00Z-PER-2019-09-02T17:10Z-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
-      Code: 469d18c69663055d8f21a6c09a0dff494ea44ded3896f46b2a047c864a9d32cb
+        UPD-2019-09-04T23:30Z-PER-2019-09-02T17:10Z-ID-2019-WYRAD-019341-NAME-PEDROMOUNTAIN-S-N
+      Code: 20a96e415d5ebfa08875209afcd53f7666365515046d87a8dc2575beec56666b
   CALFIRE-cb87a6f4-a560-41a5-81c0-1064d0c368b6:
     Source_CALFIRE:
       Lon: -117.487578
@@ -67320,38 +67386,38 @@ Database:
       Fire_Name: CURRANT
       UniqueFireIdentifier: 2019-WYRSD-019368
       DailyAcres: 383
-      PercentContained: 50
+      PercentContained: 79
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-03T23:00Z'
-      ICS209ReportDateTimeEpoch: 1567551600000
+      ICS209ReportDateTime: '2019-09-04T23:00Z'
+      ICS209ReportDateTimeEpoch: 1567638000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 0
       FireCause: Natural
-      TotalIncidentPersonnel: 84
+      TotalIncidentPersonnel: 60
       FireDiscoveryDateTime: '2019-09-01T19:24Z'
       FireDiscoveryDateTimeEpoch: 1567365840000
       DispatchCenterID: WYCPC
       LocalIncidentIdentifier: 019368
       POOCounty: Sweetwater
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-03T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567551600000
+      ModifiedOnDateTime: '2019-09-04T23:00Z'
+      ModifiedOnDateTimeEpoch: 1567638000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WYRSD-019368
-      ModifiedOnDateTime_Raw: '2019-09-03T23:28Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567553298000
+      ModifiedOnDateTime_Raw: '2019-09-04T23:49Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567640961000
       Hashtag: '#CurrantFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T23:32:07.695Z'
+          RetrievedOn: '2019-09-05T00:02:16.347Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -67362,7 +67428,7 @@ Database:
     Source_GEOMAC:
       Lon: -109.36584456974566
       Lat: 41.21028408574818
-      objectid: 34
+      objectid: 33
       latitude: 41.2102778
       longitude: -109.3658333
       acres: 383
@@ -67371,9 +67437,9 @@ Database:
       state: WY
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-03T23:00Z'
-      reportdatetimeEpoch: 1567551600000
-      percentcontained: 50
+      reportdatetime: '2019-09-04T23:00Z'
+      reportdatetimeEpoch: 1567638000000
+      percentcontained: 79
       uniquefireidentifier: 2019-WYRSD-019368
       firediscoverydatetime: '2019-09-01T19:24Z'
       firediscoverydatetimeEpoch: 1567365840000
@@ -67382,11 +67448,11 @@ Database:
       incidentname: CURRANT
       iscomplex: 'false'
       irwinid: '{6CC3E627-C7DE-4A9E-B91D-6646DE8745AF}'
-      irwinmodifiedon: '2019-09-03T23:28Z'
-      irwinmodifiedonEpoch: 1567553299000
+      irwinmodifiedon: '2019-09-04T23:49Z'
+      irwinmodifiedonEpoch: 1567640962000
       mapsymbol: '1'
-      datecurrent: '2019-09-03T17:30Z'
-      datecurrentEpoch: 1567531855000
+      datecurrent: '2019-09-04T18:00Z'
+      datecurrentEpoch: 1567620059000
       pooownerunit: WYRSD
       fireyear: 2019
       localincidentidentifier: 019368
@@ -67396,9 +67462,9 @@ Database:
       complexname: null
       DailyAcres: 383
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-03T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567551600000
-      PercentContained: 50
+      ModifiedOnDateTime: '2019-09-04T23:00Z'
+      ModifiedOnDateTimeEpoch: 1567638000000
+      PercentContained: 79
       UniqueFireIdentifier: 2019-WYRSD-019368
       FireDiscoveryDateTime: '2019-09-01T19:24Z'
       FireDiscoveryDateTimeEpoch: 1567365840000
@@ -67408,7 +67474,7 @@ Database:
       Hashtag: '#CurrantFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T23:32:07.696Z'
+          RetrievedOn: '2019-09-05T00:02:16.348Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -67432,33 +67498,33 @@ Database:
     Fire_Name: CURRANT
     UniqueFireIdentifier: 2019-WYRSD-019368
     DailyAcres: 383
-    PercentContained: 50
+    PercentContained: 79
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-03T23:00Z'
-    ICS209ReportDateTimeEpoch: 1567551600000
+    ICS209ReportDateTime: '2019-09-04T23:00Z'
+    ICS209ReportDateTimeEpoch: 1567638000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 0
     FireCause: Natural
-    TotalIncidentPersonnel: 84
+    TotalIncidentPersonnel: 60
     FireDiscoveryDateTime: '2019-09-01T19:24Z'
     FireDiscoveryDateTimeEpoch: 1567365840000
     DispatchCenterID: WYCPC
     LocalIncidentIdentifier: 019368
     POOCounty: Sweetwater
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-03T23:00Z'
-    ModifiedOnDateTimeEpoch: 1567551600000
+    ModifiedOnDateTime: '2019-09-04T23:00Z'
+    ModifiedOnDateTimeEpoch: 1567638000000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-WYRSD-019368
-    ModifiedOnDateTime_Raw: '2019-09-03T23:28Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567553298000
+    ModifiedOnDateTime_Raw: '2019-09-04T23:49Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567640961000
     Hashtag: '#CurrantFire'
     NFSAType: Large WF
     PerimDateTime: '2019-09-02T00:00Z'
@@ -67467,10 +67533,10 @@ Database:
       Acres: 381.9454556
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-03T23:32:15.371Z'
+          RetrievedOn: '2019-09-05T00:02:21.418Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -67482,14 +67548,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: WYRSD
     unitMention: Rock Springs Field Office
     Final_Fire_Name: Currant Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T23:00Z-PER-2019-09-02T00:00Z-ID-2019-WYRSD-019368-NAME-CURRANT-S-N
-      Code: 596e3430b077fc572ec8f6f0eb42db9cf119e96420222d5453864c3162864d64
+        UPD-2019-09-04T23:00Z-PER-2019-09-02T00:00Z-ID-2019-WYRSD-019368-NAME-CURRANT-S-N
+      Code: b5625b044179ee92c01e94ec498eba4759fa80789c365f066cfd49f23e6124a6
   CALFIRE-a5331bf6-d695-4309-a846-96808e41d757:
     Source_CALFIRE:
       Lon: -117.343833
@@ -68548,39 +68614,39 @@ Database:
       Name: Montoya Springs
       Fire_Name: Montoya Springs
       UniqueFireIdentifier: 2019-NMCAF-000466
-      DailyAcres: 1.5
+      DailyAcres: 350
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-03T23:00Z'
-      ICS209ReportDateTimeEpoch: 1567551600000
+      ICS209ReportDateTime: '2019-09-04T22:30Z'
+      ICS209ReportDateTimeEpoch: 1567636200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 72000
+      EstimatedCostToDate: 110000
       FireCause: Natural
-      TotalIncidentPersonnel: 64
+      TotalIncidentPersonnel: 67
       FireDiscoveryDateTime: '2019-08-29T15:11Z'
       FireDiscoveryDateTimeEpoch: 1567091474000
       DispatchCenterID: NMTDC
       LocalIncidentIdentifier: '000466'
       POOCounty: Rio Arriba
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-03T23:00Z'
-      ModifiedOnDateTimeEpoch: 1567551600000
+      ModifiedOnDateTime: '2019-09-04T22:30Z'
+      ModifiedOnDateTimeEpoch: 1567636200000
       ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMCAF-000466
-      ModifiedOnDateTime_Raw: '2019-09-04T04:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567570371000
+      ModifiedOnDateTime_Raw: '2019-09-04T23:52Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567641174000
       Hashtag: '#MontoyaSpringsFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-04T04:31:14.324Z'
+          RetrievedOn: '2019-09-05T00:02:16.347Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -68588,40 +68654,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -106.39101008653782
+      Lat: 36.47963586599607
+      objectid: 31
+      latitude: 36.47963
+      longitude: -106.391
+      acres: 350
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-04T22:30Z'
+      reportdatetimeEpoch: 1567636200000
+      percentcontained: 0
+      uniquefireidentifier: 2019-NMCAF-000466
+      firediscoverydatetime: '2019-08-29T15:11Z'
+      firediscoverydatetimeEpoch: 1567091474000
+      complexparentirwinid: null
+      pooresponsibleunit: NMCAF
+      incidentname: Montoya Springs
+      iscomplex: 'false'
+      irwinid: '{59F735C9-350F-4B47-8104-7F2F4559C8BB}'
+      irwinmodifiedon: '2019-09-04T23:52Z'
+      irwinmodifiedonEpoch: 1567641174000
+      mapsymbol: '1'
+      datecurrent: '2019-09-04T18:00Z'
+      datecurrentEpoch: 1567620059000
+      pooownerunit: NMCAF
+      fireyear: 2019
+      localincidentidentifier: '000466'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 350
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-04T22:30Z'
+      ModifiedOnDateTimeEpoch: 1567636200000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-NMCAF-000466
+      FireDiscoveryDateTime: '2019-08-29T15:11Z'
+      FireDiscoveryDateTimeEpoch: 1567091474000
+      Fire_Name: Montoya Springs
+      Name: Montoya Springs
+      Source: GEOMAC
+      Hashtag: '#MontoyaSpringsFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T00:02:16.348Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NMCAF-000466
     Lon: -106.39100947734153
     Lat: 36.47963716036023
     id: 131230
     Name: Montoya Springs
     Fire_Name: Montoya Springs
     UniqueFireIdentifier: 2019-NMCAF-000466
-    DailyAcres: 1.5
+    DailyAcres: 350
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-03T23:00Z'
-    ICS209ReportDateTimeEpoch: 1567551600000
+    ICS209ReportDateTime: '2019-09-04T22:30Z'
+    ICS209ReportDateTimeEpoch: 1567636200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 72000
+    EstimatedCostToDate: 110000
     FireCause: Natural
-    TotalIncidentPersonnel: 64
+    TotalIncidentPersonnel: 67
     FireDiscoveryDateTime: '2019-08-29T15:11Z'
     FireDiscoveryDateTimeEpoch: 1567091474000
     DispatchCenterID: NMTDC
     LocalIncidentIdentifier: '000466'
     POOCounty: Rio Arriba
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-03T23:00Z'
-    ModifiedOnDateTimeEpoch: 1567551600000
+    ModifiedOnDateTime: '2019-09-04T22:30Z'
+    ModifiedOnDateTimeEpoch: 1567636200000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NMCAF-000466
-    ModifiedOnDateTime_Raw: '2019-09-04T04:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567570371000
+    ModifiedOnDateTime_Raw: '2019-09-04T23:52Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567641174000
     Hashtag: '#MontoyaSpringsFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -68634,8 +68766,8 @@ Database:
     Final_Fire_Name: Montoya Springs Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-03T23:00Z-PER-none-ID-2019-NMCAF-000466-NAME-MontoyaSprings-S-N
-      Code: dd9a7b6ae472f98070e1096aa06a1a6f33526c208713deadfa5e95fe15cafb63
+        UPD-2019-09-04T22:30Z-PER-none-ID-2019-NMCAF-000466-NAME-MontoyaSprings-S-N
+      Code: 9c8aa0fe46755b1350b90fce429851369b6d076cd89637b88bd1a3abbbcc5321
   2019-ORDEF-000847:
     Source_NFSA_Join:
       Lon: -121.81941278534318
@@ -70882,3 +71014,98 @@ Database:
       UpdateId: >-
         UPD-2019-09-04T23:44Z-PER-none-ID-CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74-NAME-Tenaja-S-C
       Code: 596d7a13302107ee43eafa76cb5d618aaf0c1c827d221d8adb713da3a99a3ee6
+  2019-MTFHA-000165:
+    Source_NFSA_Join:
+      Lon: -114.74751554264063
+      Lat: 47.58973050004708
+      id: 131513
+      Name: WELCOME 1002
+      Fire_Name: WELCOME 1002
+      UniqueFireIdentifier: 2019-MTFHA-000165
+      DailyAcres: 40
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-09-04T22:30Z'
+      ICS209ReportDateTimeEpoch: 1567636200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 300000
+      FireCause: Natural
+      TotalIncidentPersonnel: 136
+      FireDiscoveryDateTime: '2019-09-01T22:10Z'
+      FireDiscoveryDateTimeEpoch: 1567375800000
+      DispatchCenterID: MTFHA
+      LocalIncidentIdentifier: '000165'
+      POOCounty: Sanders
+      POOLandownerKind: Other
+      ModifiedOnDateTime: '2019-09-04T22:30Z'
+      ModifiedOnDateTimeEpoch: 1567636200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-MTFHA-000165
+      ModifiedOnDateTime_Raw: '2019-09-04T23:34Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567640088000
+      Hashtag: WELCOME 1002
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T00:02:16.347Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -114.74751554264063
+    Lat: 47.58973050004708
+    id: 131513
+    Name: WELCOME 1002
+    Fire_Name: WELCOME 1002
+    UniqueFireIdentifier: 2019-MTFHA-000165
+    DailyAcres: 40
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-09-04T22:30Z'
+    ICS209ReportDateTimeEpoch: 1567636200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 300000
+    FireCause: Natural
+    TotalIncidentPersonnel: 136
+    FireDiscoveryDateTime: '2019-09-01T22:10Z'
+    FireDiscoveryDateTimeEpoch: 1567375800000
+    DispatchCenterID: MTFHA
+    LocalIncidentIdentifier: '000165'
+    POOCounty: Sanders
+    POOLandownerKind: Other
+    ModifiedOnDateTime: '2019-09-04T22:30Z'
+    ModifiedOnDateTimeEpoch: 1567636200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-MTFHA-000165
+    ModifiedOnDateTime_Raw: '2019-09-04T23:34Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567640088000
+    Hashtag: WELCOME 1002
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: MTFHA
+    unitMention: Flathead Agency
+    Final_Fire_Name: Welcome 1002 Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-04T22:30Z-PER-none-ID-2019-MTFHA-000165-NAME-WELCOME1002-S-N'
+      Code: c6856968c3dfb577a53264eb83b1972944a9d296b3ff5d2ab33bfdced26f68aa
