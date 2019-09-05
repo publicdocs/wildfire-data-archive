@@ -71179,39 +71179,39 @@ Database:
       Name: WELCOME 1002
       Fire_Name: WELCOME 1002
       UniqueFireIdentifier: 2019-MTFHA-000165
-      DailyAcres: 40
-      PercentContained: 0
+      DailyAcres: 50
+      PercentContained: 5
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-04T22:30Z'
-      ICS209ReportDateTimeEpoch: 1567636200000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-09-05T22:00Z'
+      ICS209ReportDateTimeEpoch: 1567720800000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 300000
+      EstimatedCostToDate: 350000
       FireCause: Natural
-      TotalIncidentPersonnel: 136
+      TotalIncidentPersonnel: 127
       FireDiscoveryDateTime: '2019-09-01T22:10Z'
       FireDiscoveryDateTimeEpoch: 1567375800000
       DispatchCenterID: MTFHA
       LocalIncidentIdentifier: '000165'
       POOCounty: Sanders
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-09-04T22:30Z'
-      ModifiedOnDateTimeEpoch: 1567636200000
+      ModifiedOnDateTime: '2019-09-05T22:00Z'
+      ModifiedOnDateTimeEpoch: 1567720800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-MTFHA-000165
-      ModifiedOnDateTime_Raw: '2019-09-04T23:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567640088000
+      ModifiedOnDateTime_Raw: '2019-09-05T22:18Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567721932000
       Hashtag: WELCOME 1002
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-05T00:02:16.347Z'
+          RetrievedOn: '2019-09-05T22:31:58.601Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -71225,34 +71225,34 @@ Database:
     Name: WELCOME 1002
     Fire_Name: WELCOME 1002
     UniqueFireIdentifier: 2019-MTFHA-000165
-    DailyAcres: 40
-    PercentContained: 0
+    DailyAcres: 50
+    PercentContained: 5
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-04T22:30Z'
-    ICS209ReportDateTimeEpoch: 1567636200000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-09-05T22:00Z'
+    ICS209ReportDateTimeEpoch: 1567720800000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 300000
+    EstimatedCostToDate: 350000
     FireCause: Natural
-    TotalIncidentPersonnel: 136
+    TotalIncidentPersonnel: 127
     FireDiscoveryDateTime: '2019-09-01T22:10Z'
     FireDiscoveryDateTimeEpoch: 1567375800000
     DispatchCenterID: MTFHA
     LocalIncidentIdentifier: '000165'
     POOCounty: Sanders
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-09-04T22:30Z'
-    ModifiedOnDateTimeEpoch: 1567636200000
+    ModifiedOnDateTime: '2019-09-05T22:00Z'
+    ModifiedOnDateTimeEpoch: 1567720800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-MTFHA-000165
-    ModifiedOnDateTime_Raw: '2019-09-04T23:34Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567640088000
+    ModifiedOnDateTime_Raw: '2019-09-05T22:18Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567721932000
     Hashtag: WELCOME 1002
     NFSAType: Large WF
     PerimDateTime: '2019-09-04T09:00Z'
@@ -71261,7 +71261,7 @@ Database:
       Acres: 38.74720741
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-05T18:07:21.320Z'
+          RetrievedOn: '2019-09-05T22:32:07.522Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -71282,8 +71282,8 @@ Database:
     Final_Fire_Name: Welcome 1002 Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-04T22:30Z-PER-2019-09-04T09:00Z-ID-2019-MTFHA-000165-NAME-WELCOME1002-S-N
-      Code: cab98a7ea1ab7123971d710a760fa27a10122a790c5bf594ce8790b1c952f383
+        UPD-2019-09-05T22:00Z-PER-2019-09-04T09:00Z-ID-2019-MTFHA-000165-NAME-WELCOME1002-S-N
+      Code: 59598ddad93e491d67fdcbece093ab33771625193c63df35f94217c69de74fa9
   CALFIRE-da7fa4d6-cbf3-4cf9-babf-1cc79aa2f536:
     Source_CALFIRE:
       Lon: -122.642572
@@ -72764,3 +72764,182 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-05T21:45Z-PER-none-ID-2019-MTBRF-019334-NAME-Balsam-S-N'
       Code: 87d471be5c57ff8fcee8d8feed58358eb062f4ea478fc6c5d5d945f9a1720a2f
+  2019-MTLNF-001782:
+    Source_NFSA_Join:
+      Lon: -113.75750921747104
+      Lat: 46.4728544828313
+      id: 129516
+      Name: Miller Gulch
+      Fire_Name: Miller Gulch
+      UniqueFireIdentifier: 2019-MTLNF-001782
+      DailyAcres: 297
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-05T22:00Z'
+      ICS209ReportDateTimeEpoch: 1567720800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 250000
+      FireCause: Natural
+      TotalIncidentPersonnel: 12
+      FireDiscoveryDateTime: '2019-08-19T20:43Z'
+      FireDiscoveryDateTimeEpoch: 1566247405000
+      DispatchCenterID: MTMDC
+      LocalIncidentIdentifier: 001782
+      POOCounty: Granite
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-05T22:00Z'
+      ModifiedOnDateTimeEpoch: 1567720800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-MTLNF-001782
+      ModifiedOnDateTime_Raw: '2019-09-05T22:11Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567721472000
+      Hashtag: '#MillerGulchFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T22:31:58.601Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -113.76029087795999
+      Lat: 46.47167313210539
+      objectid: 26
+      latitude: 46.4716667
+      longitude: -113.7602778
+      acres: 297
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-05T22:00Z'
+      reportdatetimeEpoch: 1567720800000
+      percentcontained: 0
+      uniquefireidentifier: 2019-MTLNF-001782
+      firediscoverydatetime: '2019-08-19T20:43Z'
+      firediscoverydatetimeEpoch: 1566247405000
+      complexparentirwinid: null
+      pooresponsibleunit: MTLNF
+      incidentname: Miller Gulch
+      iscomplex: 'false'
+      irwinid: '{CC7BC985-F2D9-4F5B-AC01-5C977AF90F9C}'
+      irwinmodifiedon: '2019-09-05T22:11Z'
+      irwinmodifiedonEpoch: 1567721473000
+      mapsymbol: '1'
+      datecurrent: '2019-09-05T16:30Z'
+      datecurrentEpoch: 1567701045000
+      pooownerunit: MTLNF
+      fireyear: 2019
+      localincidentidentifier: 001782
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 297
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-05T22:00Z'
+      ModifiedOnDateTimeEpoch: 1567720800000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-MTLNF-001782
+      FireDiscoveryDateTime: '2019-08-19T20:43Z'
+      FireDiscoveryDateTimeEpoch: 1566247405000
+      Fire_Name: Miller Gulch
+      Name: Miller Gulch
+      Source: GEOMAC
+      Hashtag: '#MillerGulchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T22:31:58.602Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTLNF-001782
+    Lon: -113.75750921747104
+    Lat: 46.4728544828313
+    id: 129516
+    Name: Miller Gulch
+    Fire_Name: Miller Gulch
+    UniqueFireIdentifier: 2019-MTLNF-001782
+    DailyAcres: 297
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-05T22:00Z'
+    ICS209ReportDateTimeEpoch: 1567720800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 250000
+    FireCause: Natural
+    TotalIncidentPersonnel: 12
+    FireDiscoveryDateTime: '2019-08-19T20:43Z'
+    FireDiscoveryDateTimeEpoch: 1566247405000
+    DispatchCenterID: MTMDC
+    LocalIncidentIdentifier: 001782
+    POOCounty: Granite
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-05T22:00Z'
+    ModifiedOnDateTimeEpoch: 1567720800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-MTLNF-001782
+    ModifiedOnDateTime_Raw: '2019-09-05T22:11Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567721472000
+    Hashtag: '#MillerGulchFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-09-04T23:01Z'
+    PerimeterData:
+      DateTime: '2019-09-04T23:01Z'
+      Acres: 296.54066008
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T22:32:07.522Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: MTLNF
+    unitMention: Lolo NF
+    Final_Fire_Name: Miller Gulch Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-05T22:00Z-PER-2019-09-04T23:01Z-ID-2019-MTLNF-001782-NAME-MillerGulch-S-N
+      Code: e505387ff15d2bd4f2610f8e8aead5a584539fc35d223315fa258c45bb31768f
