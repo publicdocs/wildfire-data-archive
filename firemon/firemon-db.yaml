@@ -72089,3 +72089,165 @@ Database:
       UpdateId: >-
         UPD-2019-09-05T14:45Z-PER-2019-09-04T22:29Z-ID-2019-IDNCF-000619-NAME-HungryCreek-S-N
       Code: 3d39fd08fae46b7d5e1ff94e11118a328fdf59ffba95dfcffdf84bfa7c75d08c
+  2019-OKOKS-100131:
+    Source_NFSA_Join:
+      Lon: -95.4227864707575
+      Lat: 34.27639665237715
+      id: 132204
+      Name: Fish Creek Fire
+      Fire_Name: Fish Creek Fire
+      UniqueFireIdentifier: 2019-OKOKS-100131
+      DailyAcres: 152
+      PercentContained: 60
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-05T17:15Z'
+      ICS209ReportDateTimeEpoch: 1567703700000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5954
+      FireCause: Human
+      TotalIncidentPersonnel: 11
+      FireDiscoveryDateTime: '2019-09-04T17:00Z'
+      FireDiscoveryDateTimeEpoch: 1567616400000
+      DispatchCenterID: ARAOC
+      LocalIncidentIdentifier: '100131'
+      POOCounty: Pushmataha
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-05T17:15Z'
+      ModifiedOnDateTimeEpoch: 1567703700000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-OKOKS-100131
+      ModifiedOnDateTime_Raw: '2019-09-05T17:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567704959000
+      Hashtag: '#FishCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T18:01:59.505Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -95.42278506753756
+      Lat: 34.27639498013793
+      objectid: 42
+      latitude: 34.2763889
+      longitude: -95.4227778
+      acres: 152
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: I
+      firecause: Human
+      reportdatetime: '2019-09-05T17:15Z'
+      reportdatetimeEpoch: 1567703700000
+      percentcontained: 60
+      uniquefireidentifier: 2019-OKOKS-100131
+      firediscoverydatetime: '2019-09-04T17:00Z'
+      firediscoverydatetimeEpoch: 1567616400000
+      complexparentirwinid: null
+      pooresponsibleunit: OKOKS
+      incidentname: Fish Creek Fire
+      iscomplex: 'false'
+      irwinid: '{964E588D-5275-4373-B698-D4B47DB8F845}'
+      irwinmodifiedon: '2019-09-05T17:36Z'
+      irwinmodifiedonEpoch: 1567704960000
+      mapsymbol: '1'
+      datecurrent: '2019-09-05T12:01Z'
+      datecurrentEpoch: 1567684861000
+      pooownerunit: OKOKS
+      fireyear: 2019
+      localincidentidentifier: '100131'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 152
+      FireCause: Human
+      ModifiedOnDateTime: '2019-09-05T17:15Z'
+      ModifiedOnDateTimeEpoch: 1567703700000
+      PercentContained: 60
+      UniqueFireIdentifier: 2019-OKOKS-100131
+      FireDiscoveryDateTime: '2019-09-04T17:00Z'
+      FireDiscoveryDateTimeEpoch: 1567616400000
+      Fire_Name: Fish Creek Fire
+      Name: Fish Creek Fire
+      Source: GEOMAC
+      Hashtag: '#FishCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-05T18:01:59.506Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-OKOKS-100131
+    Lon: -95.4227864707575
+    Lat: 34.27639665237715
+    id: 132204
+    Name: Fish Creek Fire
+    Fire_Name: Fish Creek Fire
+    UniqueFireIdentifier: 2019-OKOKS-100131
+    DailyAcres: 152
+    PercentContained: 60
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-05T17:15Z'
+    ICS209ReportDateTimeEpoch: 1567703700000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5954
+    FireCause: Human
+    TotalIncidentPersonnel: 11
+    FireDiscoveryDateTime: '2019-09-04T17:00Z'
+    FireDiscoveryDateTimeEpoch: 1567616400000
+    DispatchCenterID: ARAOC
+    LocalIncidentIdentifier: '100131'
+    POOCounty: Pushmataha
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-05T17:15Z'
+    ModifiedOnDateTimeEpoch: 1567703700000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-OKOKS-100131
+    ModifiedOnDateTime_Raw: '2019-09-05T17:35Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567704959000
+    Hashtag: '#FishCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: OKOKS
+    unitMention: Oklahoma Division of Forestry
+    Final_Fire_Name: Fish Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-05T17:15Z-PER-none-ID-2019-OKOKS-100131-NAME-FishCreekFire-S-N
+      Code: 3db353a1e761a955f03ec8ebf3ba7b0c4d2ef7e49813ebcafbfd59ecb296a729
