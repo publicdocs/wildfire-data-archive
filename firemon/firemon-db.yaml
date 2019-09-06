@@ -1431,13 +1431,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567741251000
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-04T00:00Z'
+    PerimDateTime: '2019-09-05T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-04T00:00Z'
-      Acres: 163159.481746
+      DateTime: '2019-09-05T00:00Z'
+      Acres: 163713.520067
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T04:00:39.520Z'
+          RetrievedOn: '2019-09-06T17:50:50.259Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1458,8 +1458,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-06T01:00Z-PER-2019-09-04T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
-      Code: 00bc6b7f22fc347980e08c48d4781b31e25120e64096d86525ec4792049b1de3
+        UPD-2019-09-06T01:00Z-PER-2019-09-05T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
+      Code: 46c57d2649768012e4c88a8bbb10adf7942dda2e3eabd4a105702ae05b52391b
   CALFIRE-c6e38284-336a-4435-a3a1-b2b91ee84a91:
     Source_CALFIRE:
       Lon: -117.15738
@@ -33535,119 +33535,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-27T21:00Z-PER-2019-07-26T08:00Z-ID-2019-NVEKD-010163-NAME-Texas-S-N
       Code: fbb0df6f8f3d447dff94ffa801a916b6c9a6b028cbdd256f4aeae2dd07ba2d48
-  2019-AKMID-000390:
-    Source_NFSA_Join:
-      Lon: -146.4376263656517
-      Lat: 64.75970302357989
-      id: 120352
-      Name: Beaver
-      Fire_Name: Beaver
-      UniqueFireIdentifier: 2019-AKMID-000390
-      DailyAcres: 14316
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-08-08T22:45Z'
-      ICS209ReportDateTimeEpoch: 1565304300000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 345000
-      FireCause: Natural
-      TotalIncidentPersonnel: 2
-      FireDiscoveryDateTime: '2019-06-26T23:21Z'
-      FireDiscoveryDateTimeEpoch: 1561591260000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: 000390
-      POOCounty: Fairbanks North Star
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-08T22:45Z'
-      ModifiedOnDateTimeEpoch: 1565304300000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKMID-000390
-      ModifiedOnDateTime_Raw: '2019-08-08T22:55Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565304902000
-      Hashtag: '#BeaverFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-08T23:01:25.840Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -146.4376263656517
-    Lat: 64.75970302357989
-    id: 120352
-    Name: Beaver
-    Fire_Name: Beaver
-    UniqueFireIdentifier: 2019-AKMID-000390
-    DailyAcres: 14316
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-08-08T22:45Z'
-    ICS209ReportDateTimeEpoch: 1565304300000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 345000
-    FireCause: Natural
-    TotalIncidentPersonnel: 2
-    FireDiscoveryDateTime: '2019-06-26T23:21Z'
-    FireDiscoveryDateTimeEpoch: 1561591260000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: 000390
-    POOCounty: Fairbanks North Star
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-08T22:45Z'
-    ModifiedOnDateTimeEpoch: 1565304300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKMID-000390
-    ModifiedOnDateTime_Raw: '2019-08-08T22:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565304902000
-    Hashtag: '#BeaverFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-01T10:49Z'
-    PerimeterData:
-      DateTime: '2019-08-01T10:49Z'
-      Acres: 14316.0976944
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-08T23:01:34.600Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKMID
-    unitMention: Alaska Fire Service - Military Zone
-    Final_Fire_Name: Beaver Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-08T22:45Z-PER-2019-08-01T10:49Z-ID-2019-AKMID-000390-NAME-Beaver-S-N
-      Code: 9c509000a530695486a25469885dc42a0ca3827f3c46d3bc47f61eb47f3930d8
   2019-AKGAD-000287:
     Source_NFSA_Join:
       Lon: -162.51392160601887
@@ -38153,119 +38040,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-08T21:00Z-PER-2019-07-29T20:00Z-ID-2019-COGMF-000139-NAME-RoundMountain-S-N
       Code: db836f7335d9d9c587b3dd04dea9463d68a8f802971433cff079ba8064d67f30
-  2019-AKMID-000471:
-    Source_NFSA_Join:
-      Lon: -147.3532252358377
-      Lat: 64.41926268329463
-      id: 122366
-      Name: Dry Creek 2
-      Fire_Name: Dry Creek 2
-      UniqueFireIdentifier: 2019-AKMID-000471
-      DailyAcres: 2396.7
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-08-01T18:30Z'
-      ICS209ReportDateTimeEpoch: 1564684200000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 10000
-      FireCause: Natural
-      TotalIncidentPersonnel: null
-      FireDiscoveryDateTime: '2019-07-10T04:10Z'
-      FireDiscoveryDateTimeEpoch: 1562731800000
-      DispatchCenterID: AKYTDC
-      LocalIncidentIdentifier: '000471'
-      POOCounty: Fairbanks North Star
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-08-01T18:30Z'
-      ModifiedOnDateTimeEpoch: 1564684200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AKMID-000471
-      ModifiedOnDateTime_Raw: '2019-08-01T18:36Z'
-      ModifiedOnDateTimeEpoch_Raw: 1564684572000
-      Hashtag: '#DryCreek2Fire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-01T19:01:23.254Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -147.3532252358377
-    Lat: 64.41926268329463
-    id: 122366
-    Name: Dry Creek 2
-    Fire_Name: Dry Creek 2
-    UniqueFireIdentifier: 2019-AKMID-000471
-    DailyAcres: 2396.7
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-08-01T18:30Z'
-    ICS209ReportDateTimeEpoch: 1564684200000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 10000
-    FireCause: Natural
-    TotalIncidentPersonnel: null
-    FireDiscoveryDateTime: '2019-07-10T04:10Z'
-    FireDiscoveryDateTimeEpoch: 1562731800000
-    DispatchCenterID: AKYTDC
-    LocalIncidentIdentifier: '000471'
-    POOCounty: Fairbanks North Star
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-08-01T18:30Z'
-    ModifiedOnDateTimeEpoch: 1564684200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AKMID-000471
-    ModifiedOnDateTime_Raw: '2019-08-01T18:36Z'
-    ModifiedOnDateTimeEpoch_Raw: 1564684572000
-    Hashtag: '#DryCreek2Fire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-28T13:55Z'
-    PerimeterData:
-      DateTime: '2019-07-28T13:55Z'
-      Acres: 2396.65068801
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-01T19:01:28.777Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: AKMID
-    unitMention: Alaska Fire Service - Military Zone
-    Final_Fire_Name: Dry Creek 2 Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-01T18:30Z-PER-2019-07-28T13:55Z-ID-2019-AKMID-000471-NAME-DryCreek2-S-N
-      Code: d91ce44609f00cc10ffc88dc88a8259b29f1179b81de9841266f8a04fdbe333f
   2019-COGND-000116:
     Source_NFSA_Join:
       Lon: -107.12281304039664
@@ -48316,13 +48090,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1567743825000
     Hashtag: '#Tokaina2Fire'
     NFSAType: Large WF
-    PerimDateTime: '2019-08-29T12:27Z'
+    PerimDateTime: '2019-09-05T14:04Z'
     PerimeterData:
-      DateTime: '2019-08-29T12:27Z'
-      Acres: 4980.40181479
+      DateTime: '2019-09-05T14:04Z'
+      Acres: 10244.6094325
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T04:31:36.673Z'
+          RetrievedOn: '2019-09-06T17:50:53.810Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -48343,8 +48117,8 @@ Database:
     Final_Fire_Name: Tokaina 2 Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-05T20:00Z-PER-2019-08-29T12:27Z-ID-2019-AKCRS-914611-NAME-Tokaina2-S-N
-      Code: cb40aecad69ae07bdf9b5e84c84d9c1ad89fd7010fd5644e8b5bd5926cdb8aed
+        UPD-2019-09-05T20:00Z-PER-2019-09-05T14:04Z-ID-2019-AKCRS-914611-NAME-Tokaina2-S-N
+      Code: 74c7471c7343723eb8ceda4db14592d891b8a7a7c76d0ab0938185d65dfd5ccd
   2019-TXTXS-190184:
     Source_NFSA_Join:
       Lon: -101.11610212899168
