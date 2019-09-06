@@ -73603,38 +73603,38 @@ Database:
       Fire_Name: LONE
       UniqueFireIdentifier: 2019-CAMDF-000836
       DailyAcres: 2592
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-09-06T11:45Z'
+      ICS209ReportDateTimeEpoch: 1567770300000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 100000
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 113
       FireDiscoveryDateTime: '2019-09-05T23:14Z'
       FireDiscoveryDateTimeEpoch: 1567725240000
       DispatchCenterID: CAMICC
       LocalIncidentIdentifier: 000836
       POOCounty: Modoc
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-06T05:17Z'
-      ModifiedOnDateTimeEpoch: 1567747073000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-09-06T11:45Z'
+      ModifiedOnDateTimeEpoch: 1567770300000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAMDF-000836
-      ModifiedOnDateTime_Raw: '2019-09-06T05:17Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567747073000
+      ModifiedOnDateTime_Raw: '2019-09-06T12:01Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567771301000
       Hashtag: '#LoneFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T05:31:19.215Z'
+          RetrievedOn: '2019-09-06T12:30:53.254Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -73642,6 +73642,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -121.05571354356574
+      Lat: 41.74760536792312
+      objectid: 40
+      latitude: 41.7476
+      longitude: -121.0557
+      acres: 2592
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-09-06T11:45Z'
+      reportdatetimeEpoch: 1567770300000
+      percentcontained: 0
+      uniquefireidentifier: 2019-CAMDF-000836
+      firediscoverydatetime: '2019-09-05T23:14Z'
+      firediscoverydatetimeEpoch: 1567725240000
+      complexparentirwinid: null
+      pooresponsibleunit: CAMDF
+      incidentname: LONE
+      iscomplex: 'false'
+      irwinid: '{78671156-FBFB-4BA4-A6AA-5DAC0C7B023F}'
+      irwinmodifiedon: '2019-09-06T12:01Z'
+      irwinmodifiedonEpoch: 1567771302000
+      mapsymbol: '1'
+      datecurrent: '2019-09-06T06:30Z'
+      datecurrentEpoch: 1567751431000
+      pooownerunit: CAMDF
+      fireyear: 2019
+      localincidentidentifier: 000836
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 2592
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-06T11:45Z'
+      ModifiedOnDateTimeEpoch: 1567770300000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-CAMDF-000836
+      FireDiscoveryDateTime: '2019-09-05T23:14Z'
+      FireDiscoveryDateTimeEpoch: 1567725240000
+      Fire_Name: LONE
+      Name: LONE
+      Source: GEOMAC
+      Hashtag: '#LoneFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-06T12:30:53.255Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAMDF-000836
     Lon: -121.12911138841434
     Lat: 41.712572729251576
     id: 132327
@@ -73649,33 +73715,33 @@ Database:
     Fire_Name: LONE
     UniqueFireIdentifier: 2019-CAMDF-000836
     DailyAcres: 2592
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-09-06T11:45Z'
+    ICS209ReportDateTimeEpoch: 1567770300000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 100000
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 113
     FireDiscoveryDateTime: '2019-09-05T23:14Z'
     FireDiscoveryDateTimeEpoch: 1567725240000
     DispatchCenterID: CAMICC
     LocalIncidentIdentifier: 000836
     POOCounty: Modoc
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-06T05:17Z'
-    ModifiedOnDateTimeEpoch: 1567747073000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-09-06T11:45Z'
+    ModifiedOnDateTimeEpoch: 1567770300000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-CAMDF-000836
-    ModifiedOnDateTime_Raw: '2019-09-06T05:17Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567747073000
+    ModifiedOnDateTime_Raw: '2019-09-06T12:01Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567771301000
     Hashtag: '#LoneFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -73687,8 +73753,8 @@ Database:
     unitMention: Modoc NF
     Final_Fire_Name: Lone Fire
     _Update:
-      UpdateId: 'UPD-2019-09-06T05:17Z-PER-none-ID-2019-CAMDF-000836-NAME-LONE-S-N'
-      Code: 0b81a10ddaeef482c1b3f4913d5fc4e4217e735c81a7ac4e84393276361e3f02
+      UpdateId: 'UPD-2019-09-06T11:45Z-PER-none-ID-2019-CAMDF-000836-NAME-LONE-S-N'
+      Code: 0a906199f8cec372c957240641f291ce9b215e404ba5532ec3973c48dad7ec6d
   2019-UTCCD-000596:
     Source_NFSA_Join:
       Lon: -113.1516135246381
