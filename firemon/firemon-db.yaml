@@ -72346,39 +72346,39 @@ Database:
       Name: MIDDLE
       Fire_Name: MIDDLE
       UniqueFireIdentifier: 2019-NMLNF-000401
-      DailyAcres: 470
-      PercentContained: 20
+      DailyAcres: 785
+      PercentContained: 25
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-06T21:30Z'
-      ICS209ReportDateTimeEpoch: 1567805400000
+      ICS209ReportDateTime: '2019-09-07T22:00Z'
+      ICS209ReportDateTimeEpoch: 1567893600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 20000
       FireCause: Natural
-      TotalIncidentPersonnel: 22
+      TotalIncidentPersonnel: 42
       FireDiscoveryDateTime: '2019-09-01T23:20Z'
       FireDiscoveryDateTimeEpoch: 1567380000000
       DispatchCenterID: NMADC
       LocalIncidentIdentifier: '000401'
       POOCounty: Otero
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-06T21:30Z'
-      ModifiedOnDateTimeEpoch: 1567805400000
+      ModifiedOnDateTime: '2019-09-07T22:00Z'
+      ModifiedOnDateTimeEpoch: 1567893600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMLNF-000401
-      ModifiedOnDateTime_Raw: '2019-09-06T21:39Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567805944000
+      ModifiedOnDateTime_Raw: '2019-09-07T22:10Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567894248000
       Hashtag: '#MiddleFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T22:04:16.506Z'
+          RetrievedOn: '2019-09-07T22:31:42.734Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -72386,40 +72386,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -105.36139846632426
+      Lat: 32.7700053488628
+      objectid: 36
+      latitude: 32.77
+      longitude: -105.3613889
+      acres: 785
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-07T22:00Z'
+      reportdatetimeEpoch: 1567893600000
+      percentcontained: 25
+      uniquefireidentifier: 2019-NMLNF-000401
+      firediscoverydatetime: '2019-09-01T23:20Z'
+      firediscoverydatetimeEpoch: 1567380000000
+      complexparentirwinid: null
+      pooresponsibleunit: NMLNF
+      incidentname: MIDDLE
+      iscomplex: 'false'
+      irwinid: '{D88FE236-D326-4E65-B7D4-D3D4E2499ED5}'
+      irwinmodifiedon: '2019-09-07T22:10Z'
+      irwinmodifiedonEpoch: 1567894249000
+      mapsymbol: '1'
+      datecurrent: '2019-09-07T16:31Z'
+      datecurrentEpoch: 1567873890000
+      pooownerunit: NMLNF
+      fireyear: 2019
+      localincidentidentifier: '000401'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 785
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-07T22:00Z'
+      ModifiedOnDateTimeEpoch: 1567893600000
+      PercentContained: 25
+      UniqueFireIdentifier: 2019-NMLNF-000401
+      FireDiscoveryDateTime: '2019-09-01T23:20Z'
+      FireDiscoveryDateTimeEpoch: 1567380000000
+      Fire_Name: MIDDLE
+      Name: MIDDLE
+      Source: GEOMAC
+      Hashtag: '#MiddleFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-07T22:31:42.735Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NMLNF-000401
     Lon: -105.36151321228202
     Lat: 32.770075898163455
     id: 131779
     Name: MIDDLE
     Fire_Name: MIDDLE
     UniqueFireIdentifier: 2019-NMLNF-000401
-    DailyAcres: 470
-    PercentContained: 20
+    DailyAcres: 785
+    PercentContained: 25
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-06T21:30Z'
-    ICS209ReportDateTimeEpoch: 1567805400000
+    ICS209ReportDateTime: '2019-09-07T22:00Z'
+    ICS209ReportDateTimeEpoch: 1567893600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 20000
     FireCause: Natural
-    TotalIncidentPersonnel: 22
+    TotalIncidentPersonnel: 42
     FireDiscoveryDateTime: '2019-09-01T23:20Z'
     FireDiscoveryDateTimeEpoch: 1567380000000
     DispatchCenterID: NMADC
     LocalIncidentIdentifier: '000401'
     POOCounty: Otero
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-06T21:30Z'
-    ModifiedOnDateTimeEpoch: 1567805400000
+    ModifiedOnDateTime: '2019-09-07T22:00Z'
+    ModifiedOnDateTimeEpoch: 1567893600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NMLNF-000401
-    ModifiedOnDateTime_Raw: '2019-09-06T21:39Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567805944000
+    ModifiedOnDateTime_Raw: '2019-09-07T22:10Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567894248000
     Hashtag: '#MiddleFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -72431,8 +72497,8 @@ Database:
     unitMention: Lincoln NF
     Final_Fire_Name: Middle Fire
     _Update:
-      UpdateId: 'UPD-2019-09-06T21:30Z-PER-none-ID-2019-NMLNF-000401-NAME-MIDDLE-S-N'
-      Code: dae4d8b4a917a1f5747d320ac87733e220803b89fe7a149d386929cbf00b12b8
+      UpdateId: 'UPD-2019-09-07T22:00Z-PER-none-ID-2019-NMLNF-000401-NAME-MIDDLE-S-N'
+      Code: def8976d532247cdd755c21cff80cf02f3925cc0457b09b09838aa630c349bbc
   2019-WYPAX-000453:
     Source_NFSA_Join:
       Lon: -109.73221232824851
@@ -75435,39 +75501,39 @@ Database:
       Name: HUNT
       Fire_Name: HUNT
       UniqueFireIdentifier: 2019-COWRD-000299
-      DailyAcres: 0.5
+      DailyAcres: 1834
       PercentContained: 0
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-06T23:15Z'
-      ICS209ReportDateTimeEpoch: 1567811700000
-      ICS209ReportStatus: I
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-09-07T22:00Z'
+      ICS209ReportDateTimeEpoch: 1567893600000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 50000
+      EstimatedCostToDate: 75000
       FireCause: Natural
-      TotalIncidentPersonnel: 11
+      TotalIncidentPersonnel: 93
       FireDiscoveryDateTime: '2019-09-05T21:28Z'
       FireDiscoveryDateTimeEpoch: 1567718880000
       DispatchCenterID: COCRC
       LocalIncidentIdentifier: 000299
       POOCounty: Rio Blanco
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-06T23:15Z'
-      ModifiedOnDateTimeEpoch: 1567811700000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-09-07T22:00Z'
+      ModifiedOnDateTimeEpoch: 1567893600000
+      ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-COWRD-000299
-      ModifiedOnDateTime_Raw: '2019-09-07T00:10Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567815025000
+      ModifiedOnDateTime_Raw: '2019-09-07T22:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567895298000
       Hashtag: '#HuntFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-07T00:31:59.224Z'
+          RetrievedOn: '2019-09-07T22:31:42.734Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -75475,40 +75541,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -108.31612195581361
+      Lat: 39.75278398548111
+      objectid: 45
+      latitude: 39.7527778
+      longitude: -108.3161111
+      acres: 1834
+      gacc: RMCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CO
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-07T22:00Z'
+      reportdatetimeEpoch: 1567893600000
+      percentcontained: 0
+      uniquefireidentifier: 2019-COWRD-000299
+      firediscoverydatetime: '2019-09-05T21:28Z'
+      firediscoverydatetimeEpoch: 1567718880000
+      complexparentirwinid: null
+      pooresponsibleunit: COWRD
+      incidentname: HUNT
+      iscomplex: 'false'
+      irwinid: '{ED076D93-4E1B-4102-A4B8-C02B6BBC7453}'
+      irwinmodifiedon: '2019-09-07T22:28Z'
+      irwinmodifiedonEpoch: 1567895299000
+      mapsymbol: '1'
+      datecurrent: '2019-09-07T16:31Z'
+      datecurrentEpoch: 1567873890000
+      pooownerunit: COWRD
+      fireyear: 2019
+      localincidentidentifier: 000299
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1834
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-07T22:00Z'
+      ModifiedOnDateTimeEpoch: 1567893600000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-COWRD-000299
+      FireDiscoveryDateTime: '2019-09-05T21:28Z'
+      FireDiscoveryDateTimeEpoch: 1567718880000
+      Fire_Name: HUNT
+      Name: HUNT
+      Source: GEOMAC
+      Hashtag: '#HuntFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-07T22:31:42.735Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-COWRD-000299
     Lon: -108.30780768113723
     Lat: 39.75287869121286
     id: 132335
     Name: HUNT
     Fire_Name: HUNT
     UniqueFireIdentifier: 2019-COWRD-000299
-    DailyAcres: 0.5
+    DailyAcres: 1834
     PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-06T23:15Z'
-    ICS209ReportDateTimeEpoch: 1567811700000
-    ICS209ReportStatus: I
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-09-07T22:00Z'
+    ICS209ReportDateTimeEpoch: 1567893600000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 50000
+    EstimatedCostToDate: 75000
     FireCause: Natural
-    TotalIncidentPersonnel: 11
+    TotalIncidentPersonnel: 93
     FireDiscoveryDateTime: '2019-09-05T21:28Z'
     FireDiscoveryDateTimeEpoch: 1567718880000
     DispatchCenterID: COCRC
     LocalIncidentIdentifier: 000299
     POOCounty: Rio Blanco
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-06T23:15Z'
-    ModifiedOnDateTimeEpoch: 1567811700000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-09-07T22:00Z'
+    ModifiedOnDateTimeEpoch: 1567893600000
+    ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-COWRD-000299
-    ModifiedOnDateTime_Raw: '2019-09-07T00:10Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567815025000
+    ModifiedOnDateTime_Raw: '2019-09-07T22:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567895298000
     Hashtag: '#HuntFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -75520,8 +75652,8 @@ Database:
     unitMention: White River Field Office
     Final_Fire_Name: Hunt Fire
     _Update:
-      UpdateId: 'UPD-2019-09-06T23:15Z-PER-none-ID-2019-COWRD-000299-NAME-HUNT-S-N'
-      Code: b86584aa2b0741918d81a13d9670f02b8fad1105cf7f0a08b6d7177eb7df6818
+      UpdateId: 'UPD-2019-09-07T22:00Z-PER-none-ID-2019-COWRD-000299-NAME-HUNT-S-N'
+      Code: 700b5c8ce34860a6e83dc1dab8c1ec367cfed0d8850379d73c9bede8fab3cb78
   2019-AZASD-000590:
     Source_NFSA_Join:
       Lon: -113.20301512519542
@@ -77033,6 +77165,262 @@ Database:
       UpdateId: >-
         UPD-2019-09-07T22:20Z-PER-none-ID-CALFIRE-25e65946-2e28-453b-bcb4-617b623be750-NAME-OakFire-S-C
       Code: 07a0311c9d700c06c5f62bdcd79fc166a2e5e8435bd101d25597c6cf0fcf21b2
+  2019-CASHF-001217:
+    Source_NFSA_Join:
+      Lon: -122.62011713069025
+      Lat: 41.1667469529405
+      id: 132531
+      Name: RAMSHORN
+      Fire_Name: RAMSHORN
+      UniqueFireIdentifier: 2019-CASHF-001217
+      DailyAcres: 238
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-09-07T19:15Z'
+      ICS209ReportDateTimeEpoch: 1567883700000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 300000
+      FireCause: Natural
+      TotalIncidentPersonnel: 145
+      FireDiscoveryDateTime: '2019-09-06T00:39Z'
+      FireDiscoveryDateTimeEpoch: 1567730358000
+      DispatchCenterID: CARICC
+      LocalIncidentIdentifier: '001217'
+      POOCounty: Trinity
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-07T19:15Z'
+      ModifiedOnDateTimeEpoch: 1567883700000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CASHF-001217
+      ModifiedOnDateTime_Raw: '2019-09-07T22:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567895109000
+      Hashtag: '#RamshornFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-07T22:31:42.734Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -122.62011369689833
+      Lat: 41.166745188906305
+      objectid: 49
+      latitude: 41.16674
+      longitude: -122.6201
+      acres: 238
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-09-07T19:15Z'
+      reportdatetimeEpoch: 1567883700000
+      percentcontained: 0
+      uniquefireidentifier: 2019-CASHF-001217
+      firediscoverydatetime: '2019-09-06T00:39Z'
+      firediscoverydatetimeEpoch: 1567730358000
+      complexparentirwinid: null
+      pooresponsibleunit: CASHF
+      incidentname: RAMSHORN
+      iscomplex: 'false'
+      irwinid: '{55564A5F-7024-4379-AAD1-B3156CAA936E}'
+      irwinmodifiedon: '2019-09-07T22:25Z'
+      irwinmodifiedonEpoch: 1567895109000
+      mapsymbol: '1'
+      datecurrent: '2019-09-07T16:31Z'
+      datecurrentEpoch: 1567873890000
+      pooownerunit: CASHF
+      fireyear: 2019
+      localincidentidentifier: '001217'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 238
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-07T19:15Z'
+      ModifiedOnDateTimeEpoch: 1567883700000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-CASHF-001217
+      FireDiscoveryDateTime: '2019-09-06T00:39Z'
+      FireDiscoveryDateTimeEpoch: 1567730358000
+      Fire_Name: RAMSHORN
+      Name: RAMSHORN
+      Source: GEOMAC
+      Hashtag: '#RamshornFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-07T22:31:42.735Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CASHF-001217
+    Lon: -122.62011713069025
+    Lat: 41.1667469529405
+    id: 132531
+    Name: RAMSHORN
+    Fire_Name: RAMSHORN
+    UniqueFireIdentifier: 2019-CASHF-001217
+    DailyAcres: 238
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-09-07T19:15Z'
+    ICS209ReportDateTimeEpoch: 1567883700000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 300000
+    FireCause: Natural
+    TotalIncidentPersonnel: 145
+    FireDiscoveryDateTime: '2019-09-06T00:39Z'
+    FireDiscoveryDateTimeEpoch: 1567730358000
+    DispatchCenterID: CARICC
+    LocalIncidentIdentifier: '001217'
+    POOCounty: Trinity
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-07T19:15Z'
+    ModifiedOnDateTimeEpoch: 1567883700000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CASHF-001217
+    ModifiedOnDateTime_Raw: '2019-09-07T22:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567895109000
+    Hashtag: '#RamshornFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CASHF
+    unitMention: '@ShastaTrinityNF'
+    Final_Fire_Name: Ramshorn Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-07T19:15Z-PER-none-ID-2019-CASHF-001217-NAME-RAMSHORN-S-N'
+      Code: 06d9c7b11e2529551ee72547cfda878953407246ccc39aecd1a2d7e0c5b9b220
+  2019-TXTXS-190353:
+    Source_NFSA_Join:
+      Lon: -101.11833893404915
+      Lat: 32.17361552048092
+      id: 132873
+      Name: Bodine 1
+      Fire_Name: Bodine 1
+      UniqueFireIdentifier: 2019-TXTXS-190353
+      DailyAcres: 300
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-09-07T21:00Z'
+      FireDiscoveryDateTimeEpoch: 1567890003000
+      DispatchCenterID: TXTIC
+      LocalIncidentIdentifier: '190353'
+      POOCounty: Mitchell
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-07T22:19Z'
+      ModifiedOnDateTimeEpoch: 1567894783000
+      ModifiedBySystem: wires
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-TXTXS-190353
+      ModifiedOnDateTime_Raw: '2019-09-07T22:19Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567894783000
+      Hashtag: '#Bodine1Fire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-07T22:31:42.734Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -101.11833893404915
+    Lat: 32.17361552048092
+    id: 132873
+    Name: Bodine 1
+    Fire_Name: Bodine 1
+    UniqueFireIdentifier: 2019-TXTXS-190353
+    DailyAcres: 300
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-09-07T21:00Z'
+    FireDiscoveryDateTimeEpoch: 1567890003000
+    DispatchCenterID: TXTIC
+    LocalIncidentIdentifier: '190353'
+    POOCounty: Mitchell
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-07T22:19Z'
+    ModifiedOnDateTimeEpoch: 1567894783000
+    ModifiedBySystem: wires
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-TXTXS-190353
+    ModifiedOnDateTime_Raw: '2019-09-07T22:19Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567894783000
+    Hashtag: '#Bodine1Fire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: TXTXS
+    unitMention: '@AllHazardsTFS'
+    Final_Fire_Name: Bodine 1 Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-07T22:19Z-PER-none-ID-2019-TXTXS-190353-NAME-Bodine1-S-N'
+      Code: bafc269dbb0825d88aae557ff18d967f7ca108fd774065c8b8cf05569f527ccc
   2019-CAMEU-010876:
     Source_NFSA_Join:
       Lon: -123.15223418923846
