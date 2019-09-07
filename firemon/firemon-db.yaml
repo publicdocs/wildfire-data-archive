@@ -42368,185 +42368,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-09T23:00Z-PER-2019-08-08T00:00Z-ID-2019-NVEKD-010193-NAME-Goose-S-N
       Code: d1c66616bca2f59188781e85f1ebdca6fa42c2a34fec977bfcbc866daa03e1df
-  2019-MTFNF-000402:
-    Source_NFSA_Join:
-      Lon: -113.40001566700283
-      Lat: 47.70343477573955
-      id: 126492
-      Name: Snow Creek
-      Fire_Name: Snow Creek
-      UniqueFireIdentifier: 2019-MTFNF-000402
-      DailyAcres: 1815
-      PercentContained: 3
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-08-29T21:30Z'
-      ICS209ReportDateTimeEpoch: 1567114200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 77000
-      FireCause: Natural
-      TotalIncidentPersonnel: 4
-      FireDiscoveryDateTime: '2019-08-03T22:55Z'
-      FireDiscoveryDateTimeEpoch: 1564872900000
-      DispatchCenterID: MTKIC
-      LocalIncidentIdentifier: '000402'
-      POOCounty: Flathead
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-29T21:30Z'
-      ModifiedOnDateTimeEpoch: 1567114200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-MTFNF-000402
-      ModifiedOnDateTime_Raw: '2019-08-29T21:43Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567114986000
-      Hashtag: '#SnowCreekFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-29T22:00:58.087Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -113.40001326872407
-      Lat: 47.70333987034997
-      objectid: 17
-      latitude: 47.7033333
-      longitude: -113.4
-      acres: 1815
-      gacc: NRCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: MT
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-08-29T21:30Z'
-      reportdatetimeEpoch: 1567114200000
-      percentcontained: 3
-      uniquefireidentifier: 2019-MTFNF-000402
-      firediscoverydatetime: '2019-08-03T22:55Z'
-      firediscoverydatetimeEpoch: 1564872900000
-      complexparentirwinid: null
-      pooresponsibleunit: MTFNF
-      incidentname: Snow Creek
-      iscomplex: 'false'
-      irwinid: '{9F0F1D23-0C16-4BCC-AE9B-2623BB9E8069}'
-      irwinmodifiedon: '2019-08-29T21:43Z'
-      irwinmodifiedonEpoch: 1567114986000
-      mapsymbol: '1'
-      datecurrent: '2019-08-29T16:00Z'
-      datecurrentEpoch: 1567094441000
-      pooownerunit: MTFNF
-      fireyear: 2019
-      localincidentidentifier: '000402'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 1815
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-08-29T21:30Z'
-      ModifiedOnDateTimeEpoch: 1567114200000
-      PercentContained: 3
-      UniqueFireIdentifier: 2019-MTFNF-000402
-      FireDiscoveryDateTime: '2019-08-03T22:55Z'
-      FireDiscoveryDateTimeEpoch: 1564872900000
-      Fire_Name: Snow Creek
-      Name: Snow Creek
-      Source: GEOMAC
-      Hashtag: '#SnowCreekFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-29T22:00:58.088Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-MTFNF-000402
-    Lon: -113.40001566700283
-    Lat: 47.70343477573955
-    id: 126492
-    Name: Snow Creek
-    Fire_Name: Snow Creek
-    UniqueFireIdentifier: 2019-MTFNF-000402
-    DailyAcres: 1815
-    PercentContained: 3
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-08-29T21:30Z'
-    ICS209ReportDateTimeEpoch: 1567114200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 77000
-    FireCause: Natural
-    TotalIncidentPersonnel: 4
-    FireDiscoveryDateTime: '2019-08-03T22:55Z'
-    FireDiscoveryDateTimeEpoch: 1564872900000
-    DispatchCenterID: MTKIC
-    LocalIncidentIdentifier: '000402'
-    POOCounty: Flathead
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-29T21:30Z'
-    ModifiedOnDateTimeEpoch: 1567114200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-MTFNF-000402
-    ModifiedOnDateTime_Raw: '2019-08-29T21:43Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567114986000
-    Hashtag: '#SnowCreekFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-08T23:02Z'
-    PerimeterData:
-      DateTime: '2019-08-08T23:02Z'
-      Acres: 1814.81851308
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-29T22:01:04.148Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: MTFNF
-    unitMention: Flathead NF
-    Final_Fire_Name: Snow Creek Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-29T21:30Z-PER-2019-08-08T23:02Z-ID-2019-MTFNF-000402-NAME-SnowCreek-S-N
-      Code: 537acccc50ca3bc973f8ca58714067996fb976e91648ed689f19ad69d2a28c87
   2019-UTBRS-000483:
     Source_NFSA_Join:
       Lon: -112.90371443883248
@@ -70424,12 +70245,12 @@ Database:
       PercentContained: 5
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-06T21:45Z'
-      ICS209ReportDateTimeEpoch: 1567806300000
+      ICS209ReportDateTime: '2019-09-07T21:15Z'
+      ICS209ReportDateTimeEpoch: 1567890900000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 375000
+      EstimatedCostToDate: 400000
       FireCause: Natural
       TotalIncidentPersonnel: 127
       FireDiscoveryDateTime: '2019-09-01T22:10Z'
@@ -70438,21 +70259,21 @@ Database:
       LocalIncidentIdentifier: '000165'
       POOCounty: Sanders
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2019-09-06T21:45Z'
-      ModifiedOnDateTimeEpoch: 1567806300000
+      ModifiedOnDateTime: '2019-09-07T21:15Z'
+      ModifiedOnDateTimeEpoch: 1567890900000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-MTFHA-000165
-      ModifiedOnDateTime_Raw: '2019-09-06T21:55Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567806932000
+      ModifiedOnDateTime_Raw: '2019-09-07T21:32Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567891930000
       Hashtag: WELCOME 1002
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T22:04:16.506Z'
+          RetrievedOn: '2019-09-07T22:01:35.516Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -70470,12 +70291,12 @@ Database:
     PercentContained: 5
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-06T21:45Z'
-    ICS209ReportDateTimeEpoch: 1567806300000
+    ICS209ReportDateTime: '2019-09-07T21:15Z'
+    ICS209ReportDateTimeEpoch: 1567890900000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 375000
+    EstimatedCostToDate: 400000
     FireCause: Natural
     TotalIncidentPersonnel: 127
     FireDiscoveryDateTime: '2019-09-01T22:10Z'
@@ -70484,16 +70305,16 @@ Database:
     LocalIncidentIdentifier: '000165'
     POOCounty: Sanders
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2019-09-06T21:45Z'
-    ModifiedOnDateTimeEpoch: 1567806300000
+    ModifiedOnDateTime: '2019-09-07T21:15Z'
+    ModifiedOnDateTimeEpoch: 1567890900000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-MTFHA-000165
-    ModifiedOnDateTime_Raw: '2019-09-06T21:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567806932000
+    ModifiedOnDateTime_Raw: '2019-09-07T21:32Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567891930000
     Hashtag: WELCOME 1002
     NFSAType: Large WF
     PerimDateTime: '2019-09-04T09:00Z'
@@ -70502,7 +70323,7 @@ Database:
       Acres: 38.74720741
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T22:04:25.708Z'
+          RetrievedOn: '2019-09-07T22:01:45.662Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -70523,8 +70344,8 @@ Database:
     Final_Fire_Name: Welcome 1002 Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-06T21:45Z-PER-2019-09-04T09:00Z-ID-2019-MTFHA-000165-NAME-WELCOME1002-S-N
-      Code: 39b0932b37c6fecfe7c881a2080ef84ff2d8eb938fe9ebcbf219045a75ac593f
+        UPD-2019-09-07T21:15Z-PER-2019-09-04T09:00Z-ID-2019-MTFHA-000165-NAME-WELCOME1002-S-N
+      Code: bc9bb2dcd0064e2bab80207bba56c2d818104e5b7af6f1956aeeaa56467edfa8
   CALFIRE-da7fa4d6-cbf3-4cf9-babf-1cc79aa2f536:
     Source_CALFIRE:
       Lon: -122.642572
@@ -75044,39 +74865,39 @@ Database:
       Name: Apache
       Fire_Name: Apache
       UniqueFireIdentifier: 2019-NMGNF-000527
-      DailyAcres: 30
+      DailyAcres: 147
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-06T21:45Z'
-      ICS209ReportDateTimeEpoch: 1567806300000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-09-07T21:30Z'
+      ICS209ReportDateTimeEpoch: 1567891800000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 10000
+      EstimatedCostToDate: 25000
       FireCause: Natural
-      TotalIncidentPersonnel: 10
+      TotalIncidentPersonnel: 26
       FireDiscoveryDateTime: '2019-09-04T16:15Z'
       FireDiscoveryDateTimeEpoch: 1567613700000
       DispatchCenterID: NMSDC
       LocalIncidentIdentifier: '000527'
       POOCounty: Catron
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-06T21:45Z'
-      ModifiedOnDateTimeEpoch: 1567806300000
+      ModifiedOnDateTime: '2019-09-07T21:30Z'
+      ModifiedOnDateTimeEpoch: 1567891800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-NMGNF-000527
-      ModifiedOnDateTime_Raw: '2019-09-06T22:00Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567807213000
+      ModifiedOnDateTime_Raw: '2019-09-07T21:41Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567892513000
       Hashtag: '#ApacheFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T22:35:02.238Z'
+          RetrievedOn: '2019-09-07T22:01:35.516Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -75090,34 +74911,34 @@ Database:
     Name: Apache
     Fire_Name: Apache
     UniqueFireIdentifier: 2019-NMGNF-000527
-    DailyAcres: 30
+    DailyAcres: 147
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-06T21:45Z'
-    ICS209ReportDateTimeEpoch: 1567806300000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-09-07T21:30Z'
+    ICS209ReportDateTimeEpoch: 1567891800000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 10000
+    EstimatedCostToDate: 25000
     FireCause: Natural
-    TotalIncidentPersonnel: 10
+    TotalIncidentPersonnel: 26
     FireDiscoveryDateTime: '2019-09-04T16:15Z'
     FireDiscoveryDateTimeEpoch: 1567613700000
     DispatchCenterID: NMSDC
     LocalIncidentIdentifier: '000527'
     POOCounty: Catron
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-06T21:45Z'
-    ModifiedOnDateTimeEpoch: 1567806300000
+    ModifiedOnDateTime: '2019-09-07T21:30Z'
+    ModifiedOnDateTimeEpoch: 1567891800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-NMGNF-000527
-    ModifiedOnDateTime_Raw: '2019-09-06T22:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567807213000
+    ModifiedOnDateTime_Raw: '2019-09-07T21:41Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567892513000
     Hashtag: '#ApacheFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -75129,8 +74950,8 @@ Database:
     unitMention: Gila NF
     Final_Fire_Name: Apache Fire
     _Update:
-      UpdateId: 'UPD-2019-09-06T21:45Z-PER-none-ID-2019-NMGNF-000527-NAME-Apache-S-N'
-      Code: 981e038e3e5cd977a6767d37fb165bbf3d43ed756f1c39855dee032a7cbd7200
+      UpdateId: 'UPD-2019-09-07T21:30Z-PER-none-ID-2019-NMGNF-000527-NAME-Apache-S-N'
+      Code: 1323db343da6fb85d4db76610f4edca0cb3f7c6f22e012d138b7571a2e481983
   2019-WAOWF-000320:
     Source_NFSA_Join:
       Lon: -120.89791198374051
