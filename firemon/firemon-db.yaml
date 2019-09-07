@@ -73387,39 +73387,39 @@ Database:
       Name: Neck
       Fire_Name: Neck
       UniqueFireIdentifier: 2019-UTCCD-000596
-      DailyAcres: 3500
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 30000
+      PercentContained: 15
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-09-07T01:00Z'
+      ICS209ReportDateTimeEpoch: 1567818000000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 300000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 57
       FireDiscoveryDateTime: '2019-09-05T23:18Z'
       FireDiscoveryDateTimeEpoch: 1567725480000
       DispatchCenterID: UTCDC
       LocalIncidentIdentifier: 000596
       POOCounty: Iron
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-06T01:45Z'
-      ModifiedOnDateTimeEpoch: 1567734313000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-09-07T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567818000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTCCD-000596
-      ModifiedOnDateTime_Raw: '2019-09-06T01:45Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567734313000
+      ModifiedOnDateTime_Raw: '2019-09-07T01:42Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567820545000
       Hashtag: '#NeckFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-06T02:01:23.970Z'
+          RetrievedOn: '2019-09-07T02:01:01.203Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -73427,40 +73427,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -113.15161164677066
+      Lat: 38.002675628704516
+      objectid: 42
+      latitude: 38.00267
+      longitude: -113.1516
+      acres: 30000
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: UT
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-07T01:00Z'
+      reportdatetimeEpoch: 1567818000000
+      percentcontained: 15
+      uniquefireidentifier: 2019-UTCCD-000596
+      firediscoverydatetime: '2019-09-05T23:18Z'
+      firediscoverydatetimeEpoch: 1567725480000
+      complexparentirwinid: null
+      pooresponsibleunit: UTCCD
+      incidentname: Neck
+      iscomplex: 'false'
+      irwinid: '{C9110519-A48C-4ED0-B3B5-C2A40A3A31CB}'
+      irwinmodifiedon: '2019-09-07T01:42Z'
+      irwinmodifiedonEpoch: 1567820546000
+      mapsymbol: '3'
+      datecurrent: '2019-09-06T20:00Z'
+      datecurrentEpoch: 1567800040000
+      pooownerunit: USTCCD
+      fireyear: 2019
+      localincidentidentifier: 000596
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 30000
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-07T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567818000000
+      PercentContained: 15
+      UniqueFireIdentifier: 2019-UTCCD-000596
+      FireDiscoveryDateTime: '2019-09-05T23:18Z'
+      FireDiscoveryDateTimeEpoch: 1567725480000
+      Fire_Name: Neck
+      Name: Neck
+      Source: GEOMAC
+      Hashtag: '#NeckFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-07T02:01:01.203Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-UTCCD-000596
     Lon: -113.1516135246381
     Lat: 38.002677070147485
     id: 132339
     Name: Neck
     Fire_Name: Neck
     UniqueFireIdentifier: 2019-UTCCD-000596
-    DailyAcres: 3500
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 30000
+    PercentContained: 15
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-09-07T01:00Z'
+    ICS209ReportDateTimeEpoch: 1567818000000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 300000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 57
     FireDiscoveryDateTime: '2019-09-05T23:18Z'
     FireDiscoveryDateTimeEpoch: 1567725480000
     DispatchCenterID: UTCDC
     LocalIncidentIdentifier: 000596
     POOCounty: Iron
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-06T01:45Z'
-    ModifiedOnDateTimeEpoch: 1567734313000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-09-07T01:00Z'
+    ModifiedOnDateTimeEpoch: 1567818000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTCCD-000596
-    ModifiedOnDateTime_Raw: '2019-09-06T01:45Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567734313000
+    ModifiedOnDateTime_Raw: '2019-09-07T01:42Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567820545000
     Hashtag: '#NeckFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -73472,8 +73538,8 @@ Database:
     unitMention: Cedar City Field Office
     Final_Fire_Name: Neck Fire
     _Update:
-      UpdateId: 'UPD-2019-09-06T01:45Z-PER-none-ID-2019-UTCCD-000596-NAME-Neck-S-N'
-      Code: 89b95a98bbbce7e1bd24c3080ab7742e109d1f0f59d24aaf5f389a13601b8253
+      UpdateId: 'UPD-2019-09-07T01:00Z-PER-none-ID-2019-UTCCD-000596-NAME-Neck-S-N'
+      Code: f9c7ff0961c8678324ff586bbf6c0d5db6532c8e3101a5f3e317c573f2fa2755
   CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea:
     Source_CALFIRE:
       Lon: -122.880075
