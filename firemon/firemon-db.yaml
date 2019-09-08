@@ -78203,3 +78203,116 @@ Database:
       UpdateId: >-
         UPD-2019-09-08T14:00Z-PER-none-ID-2019-ALPRI-20190907-4-NAME-AlabamaPort-S-N
       Code: 0763a2ed7207255126da5fae48995b0cab4e0c0f91e00e21317160aad323313b
+  2019-WYYNP-001910:
+    Source_NFSA_Join:
+      Lon: -110.22640251550118
+      Lat: 44.377504861191966
+      id: 130569
+      Name: BRIMSTONE
+      Fire_Name: BRIMSTONE
+      UniqueFireIdentifier: 2019-WYYNP-001910
+      DailyAcres: 79
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-09-08T20:00Z'
+      ICS209ReportDateTimeEpoch: 1567972800000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5000
+      FireCause: Natural
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-08-26T22:00Z'
+      FireDiscoveryDateTimeEpoch: 1566856800000
+      DispatchCenterID: WYYNPC
+      LocalIncidentIdentifier: 001910
+      POOCounty: Park
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-08T20:00Z'
+      ModifiedOnDateTimeEpoch: 1567972800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-WYYNP-001910
+      ModifiedOnDateTime_Raw: '2019-09-08T20:23Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567974215000
+      Hashtag: '#BrimstoneFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-08T20:31:37.518Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -110.22640251550118
+    Lat: 44.377504861191966
+    id: 130569
+    Name: BRIMSTONE
+    Fire_Name: BRIMSTONE
+    UniqueFireIdentifier: 2019-WYYNP-001910
+    DailyAcres: 79
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-09-08T20:00Z'
+    ICS209ReportDateTimeEpoch: 1567972800000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5000
+    FireCause: Natural
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-08-26T22:00Z'
+    FireDiscoveryDateTimeEpoch: 1566856800000
+    DispatchCenterID: WYYNPC
+    LocalIncidentIdentifier: 001910
+    POOCounty: Park
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-08T20:00Z'
+    ModifiedOnDateTimeEpoch: 1567972800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-WYYNP-001910
+    ModifiedOnDateTime_Raw: '2019-09-08T20:23Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567974215000
+    Hashtag: '#BrimstoneFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-08-29T11:00Z'
+    PerimeterData:
+      DateTime: '2019-08-29T11:00Z'
+      Acres: 81.65620289
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-08T20:31:48.894Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: WYYNP
+    unitMention: Yellowstone NP
+    Final_Fire_Name: Brimstone Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-08T20:00Z-PER-2019-08-29T11:00Z-ID-2019-WYYNP-001910-NAME-BRIMSTONE-S-N
+      Code: 6c17e6a9593c5dfdbbec3bcd62db98adb95f943e5e3e5e994370137cbdcdff36
