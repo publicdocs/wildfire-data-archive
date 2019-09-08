@@ -75014,12 +75014,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-08T00:15Z'
-      ICS209ReportDateTimeEpoch: 1567901700000
+      ICS209ReportDateTime: '2019-09-08T12:30Z'
+      ICS209ReportDateTimeEpoch: 1567945800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 50000
+      EstimatedCostToDate: 250000
       FireCause: Natural
       TotalIncidentPersonnel: 99
       FireDiscoveryDateTime: '2019-09-05T20:50Z'
@@ -75028,21 +75028,21 @@ Database:
       LocalIncidentIdentifier: 001209
       POOCounty: Tehama
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-08T00:15Z'
-      ModifiedOnDateTimeEpoch: 1567901700000
+      ModifiedOnDateTime: '2019-09-08T12:30Z'
+      ModifiedOnDateTimeEpoch: 1567945800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-CASHF-001209
-      ModifiedOnDateTime_Raw: '2019-09-08T00:30Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567902654000
+      ModifiedOnDateTime_Raw: '2019-09-08T13:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567949292000
       Hashtag: '#SouthFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T01:00:31.820Z'
+          RetrievedOn: '2019-09-08T13:31:15.497Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -75050,6 +75050,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -122.7889135682239
+      Lat: 40.10883509779839
+      objectid: 45
+      latitude: 40.10883
+      longitude: -122.7889
+      acres: 1665
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-08T12:30Z'
+      reportdatetimeEpoch: 1567945800000
+      percentcontained: 0
+      uniquefireidentifier: 2019-CASHF-001209
+      firediscoverydatetime: '2019-09-05T20:50Z'
+      firediscoverydatetimeEpoch: 1567716600000
+      complexparentirwinid: null
+      pooresponsibleunit: CASHF
+      incidentname: SOUTH
+      iscomplex: 'false'
+      irwinid: '{3C414AA1-6948-4BF3-B6CD-417691D8633E}'
+      irwinmodifiedon: '2019-09-08T13:28Z'
+      irwinmodifiedonEpoch: 1567949292000
+      mapsymbol: '1'
+      datecurrent: '2019-09-08T07:30Z'
+      datecurrentEpoch: 1567927842000
+      pooownerunit: CATGU
+      fireyear: 2019
+      localincidentidentifier: 001209
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1665
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-08T12:30Z'
+      ModifiedOnDateTimeEpoch: 1567945800000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-CASHF-001209
+      FireDiscoveryDateTime: '2019-09-05T20:50Z'
+      FireDiscoveryDateTimeEpoch: 1567716600000
+      Fire_Name: SOUTH
+      Name: SOUTH
+      Source: GEOMAC
+      Hashtag: '#SouthFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-08T13:31:15.498Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CASHF-001209
     Lon: -122.78891057257631
     Lat: 40.108838351175926
     id: 132266
@@ -75060,12 +75126,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-08T00:15Z'
-    ICS209ReportDateTimeEpoch: 1567901700000
+    ICS209ReportDateTime: '2019-09-08T12:30Z'
+    ICS209ReportDateTimeEpoch: 1567945800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 50000
+    EstimatedCostToDate: 250000
     FireCause: Natural
     TotalIncidentPersonnel: 99
     FireDiscoveryDateTime: '2019-09-05T20:50Z'
@@ -75074,16 +75140,16 @@ Database:
     LocalIncidentIdentifier: 001209
     POOCounty: Tehama
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-08T00:15Z'
-    ModifiedOnDateTimeEpoch: 1567901700000
+    ModifiedOnDateTime: '2019-09-08T12:30Z'
+    ModifiedOnDateTimeEpoch: 1567945800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-CASHF-001209
-    ModifiedOnDateTime_Raw: '2019-09-08T00:30Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567902654000
+    ModifiedOnDateTime_Raw: '2019-09-08T13:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567949292000
     Hashtag: '#SouthFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -75095,8 +75161,8 @@ Database:
     unitMention: '@ShastaTrinityNF'
     Final_Fire_Name: South Fire
     _Update:
-      UpdateId: 'UPD-2019-09-08T00:15Z-PER-none-ID-2019-CASHF-001209-NAME-SOUTH-S-N'
-      Code: 5ccaea7da4af834a69f45b0b0c6cf11d9cef75691c5e8d2f125725233ce32efa
+      UpdateId: 'UPD-2019-09-08T12:30Z-PER-none-ID-2019-CASHF-001209-NAME-SOUTH-S-N'
+      Code: 7aa827fc42fc782ad1ea4bfdd695b8fb58f343d47b89a3215b20cf78145bf4b6
   2019-COWRD-000299:
     Source_NFSA_Join:
       Lon: -108.30780768113723
@@ -75361,39 +75427,39 @@ Database:
       Name: LIME
       Fire_Name: LIME
       UniqueFireIdentifier: 2019-CAKNF-007074
-      DailyAcres: 200
+      DailyAcres: 253
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-08T00:45Z'
-      ICS209ReportDateTimeEpoch: 1567903500000
+      ICS209ReportDateTime: '2019-09-08T13:00Z'
+      ICS209ReportDateTimeEpoch: 1567947600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 2100000
       FireCause: Unknown
-      TotalIncidentPersonnel: 168
+      TotalIncidentPersonnel: 174
       FireDiscoveryDateTime: '2019-09-05T18:19Z'
       FireDiscoveryDateTimeEpoch: 1567707586000
       DispatchCenterID: CAYICC
       LocalIncidentIdentifier: '007074'
       POOCounty: Siskiyou
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-08T00:45Z'
-      ModifiedOnDateTimeEpoch: 1567903500000
+      ModifiedOnDateTime: '2019-09-08T13:00Z'
+      ModifiedOnDateTimeEpoch: 1567947600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-CAKNF-007074
-      ModifiedOnDateTime_Raw: '2019-09-08T00:46Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567903580000
+      ModifiedOnDateTime_Raw: '2019-09-08T13:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567947643000
       Hashtag: '#LimeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T01:00:31.820Z'
+          RetrievedOn: '2019-09-08T13:31:15.497Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -75407,34 +75473,34 @@ Database:
     Name: LIME
     Fire_Name: LIME
     UniqueFireIdentifier: 2019-CAKNF-007074
-    DailyAcres: 200
+    DailyAcres: 253
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-08T00:45Z'
-    ICS209ReportDateTimeEpoch: 1567903500000
+    ICS209ReportDateTime: '2019-09-08T13:00Z'
+    ICS209ReportDateTimeEpoch: 1567947600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 2100000
     FireCause: Unknown
-    TotalIncidentPersonnel: 168
+    TotalIncidentPersonnel: 174
     FireDiscoveryDateTime: '2019-09-05T18:19Z'
     FireDiscoveryDateTimeEpoch: 1567707586000
     DispatchCenterID: CAYICC
     LocalIncidentIdentifier: '007074'
     POOCounty: Siskiyou
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-08T00:45Z'
-    ModifiedOnDateTimeEpoch: 1567903500000
+    ModifiedOnDateTime: '2019-09-08T13:00Z'
+    ModifiedOnDateTimeEpoch: 1567947600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-CAKNF-007074
-    ModifiedOnDateTime_Raw: '2019-09-08T00:46Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567903580000
+    ModifiedOnDateTime_Raw: '2019-09-08T13:00Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567947643000
     Hashtag: '#LimeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -75446,8 +75512,8 @@ Database:
     unitMention: '@Klamath_NF'
     Final_Fire_Name: Lime Fire
     _Update:
-      UpdateId: 'UPD-2019-09-08T00:45Z-PER-none-ID-2019-CAKNF-007074-NAME-LIME-S-N'
-      Code: d116bb72c22e37b121fe3b78b7f39262608b257da62ddc5f6c1a18d69966c8bf
+      UpdateId: 'UPD-2019-09-08T13:00Z-PER-none-ID-2019-CAKNF-007074-NAME-LIME-S-N'
+      Code: 8c94f5025fbd9c00e3906bdd4328f5411dae5e68e3872703515f93c088e8f825
   2019-AKSWS-904457:
     Source_NFSA_Join:
       Lon: -154.99768169117945
@@ -75734,12 +75800,12 @@ Database:
       PercentContained: 50
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-08T00:30Z'
-      ICS209ReportDateTimeEpoch: 1567902600000
+      ICS209ReportDateTime: '2019-09-08T13:00Z'
+      ICS209ReportDateTimeEpoch: 1567947600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 140000
+      EstimatedCostToDate: 150000
       FireCause: Natural
       TotalIncidentPersonnel: 67
       FireDiscoveryDateTime: '2019-09-06T20:08Z'
@@ -75748,21 +75814,21 @@ Database:
       LocalIncidentIdentifier: 005099
       POOCounty: Lassen
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-08T00:30Z'
-      ModifiedOnDateTimeEpoch: 1567902600000
+      ModifiedOnDateTime: '2019-09-08T13:00Z'
+      ModifiedOnDateTimeEpoch: 1567947600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-CANOD-005099
-      ModifiedOnDateTime_Raw: '2019-09-08T00:58Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567904318000
+      ModifiedOnDateTime_Raw: '2019-09-08T13:10Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567948226000
       Hashtag: '#R6Fire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T01:00:31.820Z'
+          RetrievedOn: '2019-09-08T13:31:15.497Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -75780,12 +75846,12 @@ Database:
     PercentContained: 50
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-08T00:30Z'
-    ICS209ReportDateTimeEpoch: 1567902600000
+    ICS209ReportDateTime: '2019-09-08T13:00Z'
+    ICS209ReportDateTimeEpoch: 1567947600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 140000
+    EstimatedCostToDate: 150000
     FireCause: Natural
     TotalIncidentPersonnel: 67
     FireDiscoveryDateTime: '2019-09-06T20:08Z'
@@ -75794,16 +75860,16 @@ Database:
     LocalIncidentIdentifier: 005099
     POOCounty: Lassen
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-08T00:30Z'
-    ModifiedOnDateTimeEpoch: 1567902600000
+    ModifiedOnDateTime: '2019-09-08T13:00Z'
+    ModifiedOnDateTimeEpoch: 1567947600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-CANOD-005099
-    ModifiedOnDateTime_Raw: '2019-09-08T00:58Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567904318000
+    ModifiedOnDateTime_Raw: '2019-09-08T13:10Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567948226000
     Hashtag: '#R6Fire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -75815,8 +75881,8 @@ Database:
     unitMention: Northern California District
     Final_Fire_Name: R 6 Fire
     _Update:
-      UpdateId: 'UPD-2019-09-08T00:30Z-PER-none-ID-2019-CANOD-005099-NAME-R6-S-N'
-      Code: 48aae471b16a75e47a9c539e4cb53529c314f1c49fa302f3af36c3fbfa668d7f
+      UpdateId: 'UPD-2019-09-08T13:00Z-PER-none-ID-2019-CANOD-005099-NAME-R6-S-N'
+      Code: d5d077dc6a8088d27da97286270b205354c3508e6dc48d362791fbb522b28065
   CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b:
     Source_CALFIRE:
       Lon: -122.6294539
@@ -77120,169 +77186,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-07T22:00Z-PER-none-ID-2019-CASHF-001196-NAME-MIDDLE-S-N'
       Code: 58a3e0e4df442e1879c4c6db9c1ab6c52513f64a90ca212fb42728ca71a76d52
-  2019-CAMNF-010876:
-    Source_NFSA_Join:
-      Lon: -123.15223418923846
-      Lat: 40.01111766616411
-      id: 132442
-      Name: HENTHORNE
-      Fire_Name: HENTHORNE
-      UniqueFireIdentifier: 2019-CAMNF-010876
-      DailyAcres: 380
-      PercentContained: 15
-      FireMgmtComplexity: Type 2 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-07T14:15Z'
-      ICS209ReportDateTimeEpoch: 1567865700000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 750000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 532
-      FireDiscoveryDateTime: '2019-09-05T15:20Z'
-      FireDiscoveryDateTimeEpoch: 1567696800000
-      DispatchCenterID: CAMNFC
-      LocalIncidentIdentifier: 000485
-      POOCounty: Trinity
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-07T14:15Z'
-      ModifiedOnDateTimeEpoch: 1567865700000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType2
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAMNF-010876
-      ModifiedOnDateTime_Raw: '2019-09-08T01:07Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567904869000
-      Hashtag: '#HenthorneFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T01:31:32.979Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -123.16301360917703
-      Lat: 40.005005059386974
-      objectid: 50
-      latitude: 40.005
-      longitude: -123.163
-      acres: 380
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-07T14:15Z'
-      reportdatetimeEpoch: 1567865700000
-      percentcontained: 15
-      uniquefireidentifier: 2019-CAMNF-010876
-      firediscoverydatetime: '2019-09-05T15:20Z'
-      firediscoverydatetimeEpoch: 1567696800000
-      complexparentirwinid: null
-      pooresponsibleunit: CAMNF
-      incidentname: HENTHORNE
-      iscomplex: 'false'
-      irwinid: '{DAC76C2F-3329-499E-AF99-2A9095241639}'
-      irwinmodifiedon: '2019-09-08T01:07Z'
-      irwinmodifiedonEpoch: 1567904870000
-      mapsymbol: '1'
-      datecurrent: '2019-09-07T19:30Z'
-      datecurrentEpoch: 1567884647000
-      pooownerunit: CANOD
-      fireyear: 2019
-      localincidentidentifier: 000485
-      incidenttypecategory: WF
-      owneragency: BLM
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 380
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-07T14:15Z'
-      ModifiedOnDateTimeEpoch: 1567865700000
-      PercentContained: 15
-      UniqueFireIdentifier: 2019-CAMNF-010876
-      FireDiscoveryDateTime: '2019-09-05T15:20Z'
-      FireDiscoveryDateTimeEpoch: 1567696800000
-      Fire_Name: HENTHORNE
-      Name: HENTHORNE
-      Source: GEOMAC
-      Hashtag: '#HenthorneFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T01:31:32.980Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAMNF-010876
-    Lon: -123.15223418923846
-    Lat: 40.01111766616411
-    id: 132442
-    Name: HENTHORNE
-    Fire_Name: HENTHORNE
-    UniqueFireIdentifier: 2019-CAMNF-010876
-    DailyAcres: 380
-    PercentContained: 15
-    FireMgmtComplexity: Type 2 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-07T14:15Z'
-    ICS209ReportDateTimeEpoch: 1567865700000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 750000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 532
-    FireDiscoveryDateTime: '2019-09-05T15:20Z'
-    FireDiscoveryDateTimeEpoch: 1567696800000
-    DispatchCenterID: CAMNFC
-    LocalIncidentIdentifier: 000485
-    POOCounty: Trinity
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-07T14:15Z'
-    ModifiedOnDateTimeEpoch: 1567865700000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType2
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAMNF-010876
-      - 2019-CAMNF-000485
-      - 2019-CAMEU-010876
-    ModifiedOnDateTime_Raw: '2019-09-08T01:07Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567904869000
-    Hashtag: '#HenthorneFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CAMNF
-    unitMention: '@MendocinoNF'
-    Final_Fire_Name: Henthorne Fire
-    _Update:
-      UpdateId: 'UPD-2019-09-07T14:15Z-PER-none-ID-2019-CAMNF-010876-NAME-HENTHORNE-S-N'
-      Code: 4749b37f0e069eb37eaa75e044f310c09847da9f7bd3e2c6f6e52621217b3ae7
   CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002:
     Source_CALFIRE:
       Lon: -117.3063
@@ -78031,3 +77934,166 @@ Database:
       UpdateId: >-
         UPD-2019-09-08T13:22Z-PER-none-ID-CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f-NAME-SwedesFire-S-C
       Code: eab1a8d5aaf878e58bc04f2bfb475a3b28185bf2033ef57127b26000604074bd
+  2019-CAMNF-000485:
+    Source_NFSA_Join:
+      Lon: -123.15223418923846
+      Lat: 40.01111766616411
+      id: 132442
+      Name: HENTHORNE
+      Fire_Name: HENTHORNE
+      UniqueFireIdentifier: 2019-CAMNF-000485
+      DailyAcres: 380
+      PercentContained: 15
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-09-08T12:00Z'
+      ICS209ReportDateTimeEpoch: 1567944000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 950000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 512
+      FireDiscoveryDateTime: '2019-09-05T15:20Z'
+      FireDiscoveryDateTimeEpoch: 1567696800000
+      DispatchCenterID: CAMNFC
+      LocalIncidentIdentifier: 000485
+      POOCounty: Trinity
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-08T12:00Z'
+      ModifiedOnDateTimeEpoch: 1567944000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType2
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAMNF-000485
+      ModifiedOnDateTime_Raw: '2019-09-08T13:02Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567947772000
+      Hashtag: '#HenthorneFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-08T13:31:15.497Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -123.15223580844018
+      Lat: 40.01111616071772
+      objectid: 50
+      latitude: 40.0111111
+      longitude: -123.1522222
+      acres: 380
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-08T12:00Z'
+      reportdatetimeEpoch: 1567944000000
+      percentcontained: 15
+      uniquefireidentifier: 2019-CAMNF-000485
+      firediscoverydatetime: '2019-09-05T15:20Z'
+      firediscoverydatetimeEpoch: 1567696800000
+      complexparentirwinid: null
+      pooresponsibleunit: CAMNF
+      incidentname: HENTHORNE
+      iscomplex: 'false'
+      irwinid: '{DAC76C2F-3329-499E-AF99-2A9095241639}'
+      irwinmodifiedon: '2019-09-08T13:02Z'
+      irwinmodifiedonEpoch: 1567947773000
+      mapsymbol: '1'
+      datecurrent: '2019-09-08T07:30Z'
+      datecurrentEpoch: 1567927842000
+      pooownerunit: CANOD
+      fireyear: 2019
+      localincidentidentifier: 000485
+      incidenttypecategory: WF
+      owneragency: BLM
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 380
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-08T12:00Z'
+      ModifiedOnDateTimeEpoch: 1567944000000
+      PercentContained: 15
+      UniqueFireIdentifier: 2019-CAMNF-000485
+      FireDiscoveryDateTime: '2019-09-05T15:20Z'
+      FireDiscoveryDateTimeEpoch: 1567696800000
+      Fire_Name: HENTHORNE
+      Name: HENTHORNE
+      Source: GEOMAC
+      Hashtag: '#HenthorneFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-08T13:31:15.498Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAMNF-000485
+    Lon: -123.15223418923846
+    Lat: 40.01111766616411
+    id: 132442
+    Name: HENTHORNE
+    Fire_Name: HENTHORNE
+    UniqueFireIdentifier: 2019-CAMNF-000485
+    DailyAcres: 380
+    PercentContained: 15
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-09-08T12:00Z'
+    ICS209ReportDateTimeEpoch: 1567944000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 950000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 512
+    FireDiscoveryDateTime: '2019-09-05T15:20Z'
+    FireDiscoveryDateTimeEpoch: 1567696800000
+    DispatchCenterID: CAMNFC
+    LocalIncidentIdentifier: 000485
+    POOCounty: Trinity
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-08T12:00Z'
+    ModifiedOnDateTimeEpoch: 1567944000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType2
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CAMNF-000485
+      - 2019-CAMNF-010876
+      - 2019-CAMEU-010876
+    ModifiedOnDateTime_Raw: '2019-09-08T13:02Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567947772000
+    Hashtag: '#HenthorneFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CAMNF
+    unitMention: '@MendocinoNF'
+    Final_Fire_Name: Henthorne Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-08T12:00Z-PER-none-ID-2019-CAMNF-000485-NAME-HENTHORNE-S-N'
+      Code: 96e201b8e7ad3b3e44d379703e72822f777de11b2542ccc7da13b54e96059c71
