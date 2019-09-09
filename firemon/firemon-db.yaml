@@ -78306,154 +78306,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-09T02:24Z-PER-none-ID-2019-AZA3S-001692-NAME-ASH-S-N'
       Code: 01a4fa1db8296861de00501729f7a8767445941b2ec5b4866d654d3b455c402f
-  2019-CARRU-113828:
-    Source_CALFIRE:
-      Lon: -117.273157
-      Lat: 33.528469
-      incident_name: Tenaja
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-09T03:18Z'
-      incident_date_last_updateEpoch: 1567999097000
-      incident_date_created: '2019-09-04T23:43Z'
-      incident_date_createdEpoch: 1567640616000
-      incident_administrative_unit: >-
-        Unified Command: CAL FIRE/Riverside County Fire Department & City of
-        Murrieta
-      incident_administrative_unit_url: ''
-      incident_county: Riverside
-      incident_location: 'Tenaja Road and Clinton Keith Road, in La Cresta'
-      incident_acres_burned: 1926
-      incident_containment: 73
-      incident_control: ''
-      incident_cooperating_agencies: 'CAL FIRE / Riverside County Fire, City of Murrieta'
-      incident_longitude: -117.273157
-      incident_latitude: 33.528469
-      incident_type: Wildfire
-      incident_id: f68808fb-a705-4083-a136-1a45c61c7f74
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/tenaja/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-04'
-      is_active: 'Y'
-      Fire_Name: Tenaja
-      ModifiedOnDateTime: '2019-09-09T03:18Z'
-      ModifiedOnDateTimeEpoch: 1567999097000
-      DailyAcres: 1926
-      PercentContained: 73
-      UniqueFireIdentifier: CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
-      Name: Tenaja
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#TenajaFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=f68808fb-a705-4083-a136-1a45c61c7f74
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T13:02:21.101Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
-    Source_NFSA_Join:
-      Lon: -117.27316489655404
-      Lat: 33.52847417809506
-      id: 132037
-      Name: TENAJA
-      Fire_Name: TENAJA
-      UniqueFireIdentifier: 2019-CARRU-113828
-      DailyAcres: 1926
-      PercentContained: 90
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-09T12:45Z'
-      ICS209ReportDateTimeEpoch: 1568033100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 3057587
-      FireCause: Unknown
-      TotalIncidentPersonnel: 392
-      FireDiscoveryDateTime: '2019-09-04T22:57Z'
-      FireDiscoveryDateTimeEpoch: 1567637856000
-      DispatchCenterID: CARRCC
-      LocalIncidentIdentifier: '113828'
-      POOCounty: Riverside
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-09T12:45Z'
-      ModifiedOnDateTimeEpoch: 1568033100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CARRU-113828
-      ModifiedOnDateTime_Raw: '2019-09-09T12:57Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568033840000
-      Hashtag: '#TenajaFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T13:02:21.099Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -117.27316489655404
-    Lat: 33.52847417809506
-    id: 132037
-    Name: TENAJA
-    Fire_Name: TENAJA
-    UniqueFireIdentifier: 2019-CARRU-113828
-    DailyAcres: 1926
-    PercentContained: 90
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-09T12:45Z'
-    ICS209ReportDateTimeEpoch: 1568033100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3057587
-    FireCause: Unknown
-    TotalIncidentPersonnel: 392
-    FireDiscoveryDateTime: '2019-09-04T22:57Z'
-    FireDiscoveryDateTimeEpoch: 1567637856000
-    DispatchCenterID: CARRCC
-    LocalIncidentIdentifier: '113828'
-    POOCounty: Riverside
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-09T12:45Z'
-    ModifiedOnDateTimeEpoch: 1568033100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CARRU-113828
-      - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
-    ModifiedOnDateTime_Raw: '2019-09-09T12:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568033840000
-    Hashtag: '#TenajaFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CARRU
-    unitMention: '@CALFIRERRU'
-    Final_Fire_Name: Tenaja Fire
-    _Update:
-      UpdateId: 'UPD-2019-09-09T12:45Z-PER-none-ID-2019-CARRU-113828-NAME-TENAJA-S-N'
-      Code: cca100a09ff9220fdbff527394a5e56f03666a1280b93fcd4bf15bd535904418
   2019-CATGU-009386:
     Source_CALFIRE:
       Lon: -122.64
@@ -79039,3 +78891,157 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-09T12:45Z-PER-none-ID-2019-CABTU-010635-NAME-SWEDES-S-N'
       Code: e0f5fc6a76f64855f5731c7e6735f4b7bbb0f0058e5cd795099bdf75df124558
+  CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74:
+    Source_CALFIRE:
+      Lon: -117.273157
+      Lat: 33.528469
+      incident_name: Tenaja
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-09T14:23Z'
+      incident_date_last_updateEpoch: 1568039011000
+      incident_date_created: '2019-09-04T23:43Z'
+      incident_date_createdEpoch: 1567640616000
+      incident_administrative_unit: >-
+        Unified Command: CAL FIRE/Riverside County Fire Department & City of
+        Murrieta
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: 'Tenaja Road and Clinton Keith Road, in La Cresta'
+      incident_acres_burned: 1926
+      incident_containment: 90
+      incident_control: ''
+      incident_cooperating_agencies: 'CAL FIRE / Riverside County Fire, City of Murrieta'
+      incident_longitude: -117.273157
+      incident_latitude: 33.528469
+      incident_type: Wildfire
+      incident_id: f68808fb-a705-4083-a136-1a45c61c7f74
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/tenaja/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-04'
+      is_active: 'Y'
+      Fire_Name: Tenaja
+      ModifiedOnDateTime: '2019-09-09T14:23Z'
+      ModifiedOnDateTimeEpoch: 1568039011000
+      DailyAcres: 1926
+      PercentContained: 90
+      UniqueFireIdentifier: CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
+      Name: Tenaja
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#TenajaFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=f68808fb-a705-4083-a136-1a45c61c7f74
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:23:50.300Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
+    Source_NFSA_Join:
+      Lon: -117.27316489655404
+      Lat: 33.52847417809506
+      id: 132037
+      Name: TENAJA
+      Fire_Name: TENAJA
+      UniqueFireIdentifier: 2019-CARRU-113828
+      DailyAcres: 1926
+      PercentContained: 90
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-09-09T12:45Z'
+      ICS209ReportDateTimeEpoch: 1568033100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3057587
+      FireCause: Unknown
+      TotalIncidentPersonnel: 392
+      FireDiscoveryDateTime: '2019-09-04T22:57Z'
+      FireDiscoveryDateTimeEpoch: 1567637856000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '113828'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-09T12:45Z'
+      ModifiedOnDateTimeEpoch: 1568033100000
+      ModifiedBySystem: cfcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CARRU-113828
+      ModifiedOnDateTime_Raw: '2019-09-09T13:49Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568036962000
+      Hashtag: '#TenajaFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:23:50.299Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -117.273157
+    Lat: 33.528469
+    incident_name: Tenaja
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-09T14:23Z'
+    incident_date_last_updateEpoch: 1568039011000
+    incident_date_created: '2019-09-04T23:43Z'
+    incident_date_createdEpoch: 1567640616000
+    incident_administrative_unit: >-
+      Unified Command: CAL FIRE/Riverside County Fire Department & City of
+      Murrieta
+    incident_administrative_unit_url: ''
+    incident_county: Riverside
+    incident_location: 'Tenaja Road and Clinton Keith Road, in La Cresta'
+    incident_acres_burned: 1926
+    incident_containment: 90
+    incident_control: ''
+    incident_cooperating_agencies: 'CAL FIRE / Riverside County Fire, City of Murrieta'
+    incident_longitude: -117.273157
+    incident_latitude: 33.528469
+    incident_type: Wildfire
+    incident_id: f68808fb-a705-4083-a136-1a45c61c7f74
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/tenaja/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-04'
+    is_active: 'Y'
+    Fire_Name: Tenaja
+    ModifiedOnDateTime: '2019-09-09T14:23Z'
+    ModifiedOnDateTimeEpoch: 1568039011000
+    DailyAcres: 1926
+    PercentContained: 90
+    UniqueFireIdentifier: CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
+    Name: Tenaja
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#TenajaFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=f68808fb-a705-4083-a136-1a45c61c7f74
+    _CorrelationIds:
+      - 2019-CARRU-113828
+      - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: f68808fb
+    unitMention: null
+    Final_Fire_Name: Tenaja Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-09T14:23Z-PER-none-ID-CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74-NAME-Tenaja-S-C
+      Code: 49f213bd9a17cab5238b2348a84232ba50049d1f1a8f3129e31f9ec108dc77e5
