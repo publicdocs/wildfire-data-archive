@@ -58032,39 +58032,39 @@ Database:
       Name: 204 Cow
       Fire_Name: 204 Cow
       UniqueFireIdentifier: 2019-ORMAF-019204
-      DailyAcres: 9602
-      PercentContained: 72
+      DailyAcres: 9668
+      PercentContained: 73
       FireMgmtComplexity: Type 1 Incident
       IncidentManagementOrganization: NIMO
-      ICS209ReportDateTime: '2019-09-07T23:15Z'
-      ICS209ReportDateTimeEpoch: 1567898100000
+      ICS209ReportDateTime: '2019-09-09T01:00Z'
+      ICS209ReportDateTimeEpoch: 1567990800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 9927885
+      EstimatedCostToDate: 10300000
       FireCause: Natural
-      TotalIncidentPersonnel: 328
+      TotalIncidentPersonnel: 263
       FireDiscoveryDateTime: '2019-08-10T02:34Z'
       FireDiscoveryDateTimeEpoch: 1565404440000
       DispatchCenterID: ORJDCC
       LocalIncidentIdentifier: 019204
       POOCounty: Baker
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-07T23:15Z'
-      ModifiedOnDateTimeEpoch: 1567898100000
+      ModifiedOnDateTime: '2019-09-09T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567990800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType1
       Source: NFSA
       _CorrelationIds:
         - 2019-ORMAF-019204
-      ModifiedOnDateTime_Raw: '2019-09-08T00:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567903699000
+      ModifiedOnDateTime_Raw: '2019-09-09T02:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567997798000
       Hashtag: '#204CowFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T01:00:31.820Z'
+          RetrievedOn: '2019-09-09T03:01:12.240Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -58072,40 +58072,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -118.45981354097592
+      Lat: 44.2850557992008
+      objectid: 19
+      latitude: 44.28505
+      longitude: -118.4598
+      acres: 9668
+      gacc: NWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OR
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-09T01:00Z'
+      reportdatetimeEpoch: 1567990800000
+      percentcontained: 73
+      uniquefireidentifier: 2019-ORMAF-019204
+      firediscoverydatetime: '2019-08-10T02:34Z'
+      firediscoverydatetimeEpoch: 1565404440000
+      complexparentirwinid: null
+      pooresponsibleunit: ORMAF
+      incidentname: 204 Cow
+      iscomplex: 'false'
+      irwinid: '{6FB0FEFD-A96D-4F23-BD34-60936BFCD93F}'
+      irwinmodifiedon: '2019-09-09T02:56Z'
+      irwinmodifiedonEpoch: 1567997799000
+      mapsymbol: '1'
+      datecurrent: '2019-09-08T21:00Z'
+      datecurrentEpoch: 1567976437000
+      pooownerunit: ORMAF
+      fireyear: 2019
+      localincidentidentifier: 019204
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 9668
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-09T01:00Z'
+      ModifiedOnDateTimeEpoch: 1567990800000
+      PercentContained: 73
+      UniqueFireIdentifier: 2019-ORMAF-019204
+      FireDiscoveryDateTime: '2019-08-10T02:34Z'
+      FireDiscoveryDateTimeEpoch: 1565404440000
+      Fire_Name: 204 Cow
+      Name: 204 Cow
+      Source: GEOMAC
+      Hashtag: '#204CowFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T03:01:12.241Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-ORMAF-019204
     Lon: -118.46051312333901
     Lat: 44.285565643990886
     id: 128002
     Name: 204 Cow
     Fire_Name: 204 Cow
     UniqueFireIdentifier: 2019-ORMAF-019204
-    DailyAcres: 9602
-    PercentContained: 72
+    DailyAcres: 9668
+    PercentContained: 73
     FireMgmtComplexity: Type 1 Incident
     IncidentManagementOrganization: NIMO
-    ICS209ReportDateTime: '2019-09-07T23:15Z'
-    ICS209ReportDateTimeEpoch: 1567898100000
+    ICS209ReportDateTime: '2019-09-09T01:00Z'
+    ICS209ReportDateTimeEpoch: 1567990800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 9927885
+    EstimatedCostToDate: 10300000
     FireCause: Natural
-    TotalIncidentPersonnel: 328
+    TotalIncidentPersonnel: 263
     FireDiscoveryDateTime: '2019-08-10T02:34Z'
     FireDiscoveryDateTimeEpoch: 1565404440000
     DispatchCenterID: ORJDCC
     LocalIncidentIdentifier: 019204
     POOCounty: Baker
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-07T23:15Z'
-    ModifiedOnDateTimeEpoch: 1567898100000
+    ModifiedOnDateTime: '2019-09-09T01:00Z'
+    ModifiedOnDateTimeEpoch: 1567990800000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType1
     Source: NFSA
     _CorrelationIds:
       - 2019-ORMAF-019204
-    ModifiedOnDateTime_Raw: '2019-09-08T00:48Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567903699000
+    ModifiedOnDateTime_Raw: '2019-09-09T02:56Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567997798000
     Hashtag: '#204CowFire'
     NFSAType: Large WF
     PerimDateTime: '2019-09-06T07:47Z'
@@ -58114,7 +58180,7 @@ Database:
       Acres: 9601.73923887
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T01:00:39.839Z'
+          RetrievedOn: '2019-09-09T03:01:20.053Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -58135,8 +58201,8 @@ Database:
     Final_Fire_Name: 204 Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-07T23:15Z-PER-2019-09-06T07:47Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
-      Code: f0c40b7ec893ebba3af88f358a6689634bcab948fce9ca219d662885f805c04e
+        UPD-2019-09-09T01:00Z-PER-2019-09-06T07:47Z-ID-2019-ORMAF-019204-NAME-204Cow-S-N
+      Code: c768f44113dc1f26d8cf15b304d93b872d2f3b74d4cf5d62adf4a1e003da90c8
   2019-TXTXS-190262:
     Source_NFSA_Join:
       Lon: -99.75316021361986
@@ -78181,21 +78247,21 @@ Database:
       LocalIncidentIdentifier: '190412'
       POOCounty: Millard
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-09T02:24Z'
-      ModifiedOnDateTimeEpoch: 1567995846000
+      ModifiedOnDateTime: '2019-09-09T02:30Z'
+      ModifiedOnDateTimeEpoch: 1567996228000
       ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTSCS-190412
-      ModifiedOnDateTime_Raw: '2019-09-09T02:24Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567995846000
+      ModifiedOnDateTime_Raw: '2019-09-09T02:30Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567996228000
       Hashtag: '#MeadowCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-09T02:31:58.625Z'
+          RetrievedOn: '2019-09-09T03:01:12.240Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -78227,16 +78293,16 @@ Database:
     LocalIncidentIdentifier: '190412'
     POOCounty: Millard
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-09T02:24Z'
-    ModifiedOnDateTimeEpoch: 1567995846000
+    ModifiedOnDateTime: '2019-09-09T02:30Z'
+    ModifiedOnDateTimeEpoch: 1567996228000
     ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTSCS-190412
-    ModifiedOnDateTime_Raw: '2019-09-09T02:24Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567995846000
+    ModifiedOnDateTime_Raw: '2019-09-09T02:30Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567996228000
     Hashtag: '#MeadowCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -78248,8 +78314,8 @@ Database:
     unitMention: Central Area
     Final_Fire_Name: Meadow Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-09-09T02:24Z-PER-none-ID-2019-UTSCS-190412-NAME-MeadowCreek-S-N'
-      Code: d9b50c4ca3d061bb8a653e3d18d444e425c1994ccafcc6ebf2646c080d178394
+      UpdateId: 'UPD-2019-09-09T02:30Z-PER-none-ID-2019-UTSCS-190412-NAME-MeadowCreek-S-N'
+      Code: 7486db86251e898800124c088c66a5ac874e79c09c2638a0dd368811958d4350
   2019-ORBUD-009118:
     Source_NFSA_Join:
       Lon: -118.6110168660404
@@ -78258,7 +78324,7 @@ Database:
       Name: Diamond Valley
       Fire_Name: Diamond Valley
       UniqueFireIdentifier: 2019-ORBUD-009118
-      DailyAcres: 767
+      DailyAcres: 773
       PercentContained: null
       FireMgmtComplexity: null
       IncidentManagementOrganization: null
@@ -78268,7 +78334,7 @@ Database:
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: null
-      FireCause: Unknown
+      FireCause: Natural
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-09-08T20:04Z'
       FireDiscoveryDateTimeEpoch: 1567973040000
@@ -78276,21 +78342,21 @@ Database:
       LocalIncidentIdentifier: 009118
       POOCounty: Harney
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-09T01:42Z'
-      ModifiedOnDateTimeEpoch: 1567993377000
+      ModifiedOnDateTime: '2019-09-09T02:47Z'
+      ModifiedOnDateTimeEpoch: 1567997221000
       ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-ORBUD-009118
-      ModifiedOnDateTime_Raw: '2019-09-09T01:42Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567993377000
+      ModifiedOnDateTime_Raw: '2019-09-09T02:47Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567997221000
       Hashtag: '#DiamondValleyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-09T02:02:01.805Z'
+          RetrievedOn: '2019-09-09T03:01:12.240Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -78304,7 +78370,7 @@ Database:
     Name: Diamond Valley
     Fire_Name: Diamond Valley
     UniqueFireIdentifier: 2019-ORBUD-009118
-    DailyAcres: 767
+    DailyAcres: 773
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -78314,7 +78380,7 @@ Database:
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-09-08T20:04Z'
     FireDiscoveryDateTimeEpoch: 1567973040000
@@ -78322,16 +78388,16 @@ Database:
     LocalIncidentIdentifier: 009118
     POOCounty: Harney
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-09T01:42Z'
-    ModifiedOnDateTimeEpoch: 1567993377000
+    ModifiedOnDateTime: '2019-09-09T02:47Z'
+    ModifiedOnDateTimeEpoch: 1567997221000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-ORBUD-009118
-    ModifiedOnDateTime_Raw: '2019-09-09T01:42Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567993377000
+    ModifiedOnDateTime_Raw: '2019-09-09T02:47Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567997221000
     Hashtag: '#DiamondValleyFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -78344,8 +78410,8 @@ Database:
     Final_Fire_Name: Diamond Valley Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-09T01:42Z-PER-none-ID-2019-ORBUD-009118-NAME-DiamondValley-S-N
-      Code: 42e557dcb9068f4d03f3cac84e35c74a61f0e7e1eab40a3d1150cdc6f6cb0f45
+        UPD-2019-09-09T02:47Z-PER-none-ID-2019-ORBUD-009118-NAME-DiamondValley-S-N
+      Code: 05758f8a89010685dc6dc68a63bd7e46522e05119285adb431b15dc2462fc0ca
   CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142:
     Source_CALFIRE:
       Lon: -122.64
