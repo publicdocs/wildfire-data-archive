@@ -74078,222 +74078,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-06T19:40Z-PER-2019-09-06T07:47Z-ID-CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f-NAME--S-C
       Code: 4b861ed5458bf390bd74d65809f3010133aec260f90c317f2221b3aa766d8f10
-  CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
-    Source_CALFIRE:
-      Lon: -118.345
-      Lat: 37.034
-      incident_name: Taboose Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-09T03:15Z'
-      incident_date_last_updateEpoch: 1567998907000
-      incident_date_created: '2019-09-06T19:43Z'
-      incident_date_createdEpoch: 1567799015000
-      incident_administrative_unit: CAL FIRE San Bernardino Unit and Inyo National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Inyo
-      incident_location: south west of Big Pine and north west of Aberdeen
-      incident_acres_burned: 4000
-      incident_containment: 10
-      incident_control: ''
-      incident_cooperating_agencies: Inyo National Forest
-      incident_longitude: -118.345
-      incident_latitude: 37.034
-      incident_type: Wildfire
-      incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-06'
-      is_active: 'Y'
-      Fire_Name: Taboose Fire
-      ModifiedOnDateTime: '2019-09-09T03:15Z'
-      ModifiedOnDateTimeEpoch: 1567998907000
-      DailyAcres: 4000
-      PercentContained: 10
-      UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      Name: Taboose Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#TabooseFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T03:15:52.921Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    Source_NFSA_Join:
-      Lon: -118.32991604733373
-      Lat: 37.01154404194937
-      id: 132083
-      Name: TABOOSE
-      Fire_Name: TABOOSE
-      UniqueFireIdentifier: 2019-CAINF-002018
-      DailyAcres: 10500
-      PercentContained: 10
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-09T00:30Z'
-      ICS209ReportDateTimeEpoch: 1567989000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1500000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 367
-      FireDiscoveryDateTime: '2019-09-05T01:12Z'
-      FireDiscoveryDateTimeEpoch: 1567645920000
-      DispatchCenterID: CAOVCC
-      LocalIncidentIdentifier: 002018
-      POOCounty: Inyo
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-09T00:30Z'
-      ModifiedOnDateTimeEpoch: 1567989000000
-      ModifiedBySystem: wfdss
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAINF-002018
-      ModifiedOnDateTime_Raw: '2019-09-09T01:39Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567993175000
-      Hashtag: '#TabooseFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T03:15:52.920Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -118.34529048401087
-      Lat: 37.034172164604605
-      objectid: 37
-      latitude: 37.034167
-      longitude: -118.345278
-      acres: 10500
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-09T00:30Z'
-      reportdatetimeEpoch: 1567989000000
-      percentcontained: 10
-      uniquefireidentifier: 2019-CAINF-002018
-      firediscoverydatetime: '2019-09-05T01:12Z'
-      firediscoverydatetimeEpoch: 1567645920000
-      complexparentirwinid: null
-      pooresponsibleunit: CAINF
-      incidentname: TABOOSE
-      iscomplex: 'false'
-      irwinid: '{FB038107-3B06-4407-8AEE-D09C0BFD9A0A}'
-      irwinmodifiedon: '2019-09-09T01:39Z'
-      irwinmodifiedonEpoch: 1567993175000
-      mapsymbol: '2'
-      datecurrent: '2019-09-08T21:00Z'
-      datecurrentEpoch: 1567976437000
-      pooownerunit: CAINF
-      fireyear: 2019
-      localincidentidentifier: 002018
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 10500
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-09T00:30Z'
-      ModifiedOnDateTimeEpoch: 1567989000000
-      PercentContained: 10
-      UniqueFireIdentifier: 2019-CAINF-002018
-      FireDiscoveryDateTime: '2019-09-05T01:12Z'
-      FireDiscoveryDateTimeEpoch: 1567645920000
-      Fire_Name: TABOOSE
-      Name: TABOOSE
-      Source: GEOMAC
-      Hashtag: '#TabooseFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T03:15:52.920Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAINF-002018
-    Lon: -118.345
-    Lat: 37.034
-    incident_name: Taboose Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-09-09T03:15Z'
-    incident_date_last_updateEpoch: 1567998907000
-    incident_date_created: '2019-09-06T19:43Z'
-    incident_date_createdEpoch: 1567799015000
-    incident_administrative_unit: CAL FIRE San Bernardino Unit and Inyo National Forest
-    incident_administrative_unit_url: ''
-    incident_county: Inyo
-    incident_location: south west of Big Pine and north west of Aberdeen
-    incident_acres_burned: 4000
-    incident_containment: 10
-    incident_control: ''
-    incident_cooperating_agencies: Inyo National Forest
-    incident_longitude: -118.345
-    incident_latitude: 37.034
-    incident_type: Wildfire
-    incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-09-06'
-    is_active: 'Y'
-    Fire_Name: Taboose Fire
-    ModifiedOnDateTime: '2019-09-09T03:15Z'
-    ModifiedOnDateTimeEpoch: 1567998907000
-    DailyAcres: 4000
-    PercentContained: 10
-    UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    Name: Taboose Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#TabooseFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    _CorrelationIds:
-      - 2019-CAINF-002018
-      - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: e7ea56c5
-    unitMention: null
-    Final_Fire_Name: Taboose Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-09T03:15Z-PER-none-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME-TabooseFire-S-C
-      Code: c4b6e368858756eedac786fd9adab0df2c73e15462b2e79702244044241e54cb
   2019-WYMRF-019376:
     Source_NFSA_Join:
       Lon: -105.41241175628024
@@ -78467,218 +78251,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-09T11:00Z-PER-none-ID-2019-CAKNF-007099-NAME-KIDDER2-S-N'
       Code: 78d3eedf3ac8007d4fee259b95ca43a46dfb015623aa7649276840f42724d9e5
-  2019-CABTU-010635:
-    Source_CALFIRE:
-      Lon: -121.412619
-      Lat: 39.45296
-      incident_name: Swedes Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-09T02:52Z'
-      incident_date_last_updateEpoch: 1567997544000
-      incident_date_created: '2019-09-07T22:06Z'
-      incident_date_createdEpoch: 1567893960000
-      incident_administrative_unit: CAL FIRE Butte County Fire
-      incident_administrative_unit_url: ''
-      incident_county: Butte
-      incident_location: 'Swedes Flat Road and Oro Bangor Highway, east of Oroville'
-      incident_acres_burned: 400
-      incident_containment: 30
-      incident_control: ''
-      incident_cooperating_agencies: CAL FIRE Butte County Fire
-      incident_longitude: -121.412619
-      incident_latitude: 39.45296
-      incident_type: Wildfire
-      incident_id: 63a43984-64ce-40aa-bbc3-98330a46353f
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/swedes-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-07'
-      is_active: 'Y'
-      Fire_Name: Swedes Fire
-      ModifiedOnDateTime: '2019-09-09T02:52Z'
-      ModifiedOnDateTimeEpoch: 1567997544000
-      DailyAcres: 400
-      PercentContained: 30
-      UniqueFireIdentifier: CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
-      Name: Swedes Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#SwedesFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=63a43984-64ce-40aa-bbc3-98330a46353f
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T13:32:08.475Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
-    Source_NFSA_Join:
-      Lon: -121.43304738164335
-      Lat: 39.44324527702861
-      id: 132862
-      Name: SWEDES
-      Fire_Name: SWEDES
-      UniqueFireIdentifier: 2019-CABTU-010635
-      DailyAcres: 400
-      PercentContained: 40
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-09T12:45Z'
-      ICS209ReportDateTimeEpoch: 1568033100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 702253
-      FireCause: Unknown
-      TotalIncidentPersonnel: 338
-      FireDiscoveryDateTime: '2019-09-07T21:59Z'
-      FireDiscoveryDateTimeEpoch: 1567893582000
-      DispatchCenterID: CABTCC
-      LocalIncidentIdentifier: '010635'
-      POOCounty: Butte
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-09T12:45Z'
-      ModifiedOnDateTimeEpoch: 1568033100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CABTU-010635
-      ModifiedOnDateTime_Raw: '2019-09-09T13:00Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568034041000
-      Hashtag: '#SwedesFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T13:32:08.473Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -121.41263226938833
-      Lat: 39.452965158180696
-      objectid: 44
-      latitude: 39.45296
-      longitude: -121.412619
-      acres: 400
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-09T12:45Z'
-      reportdatetimeEpoch: 1568033100000
-      percentcontained: 40
-      uniquefireidentifier: 2019-CABTU-010635
-      firediscoverydatetime: '2019-09-07T21:59Z'
-      firediscoverydatetimeEpoch: 1567893582000
-      complexparentirwinid: null
-      pooresponsibleunit: CABTU
-      incidentname: SWEDES
-      iscomplex: 'false'
-      irwinid: '{A21ACD03-412E-49A0-BFB9-9F4A9E8DA230}'
-      irwinmodifiedon: '2019-09-09T13:00Z'
-      irwinmodifiedonEpoch: 1568034042000
-      mapsymbol: '1'
-      datecurrent: '2019-09-09T07:30Z'
-      datecurrentEpoch: 1568014244000
-      pooownerunit: CABTU
-      fireyear: 2019
-      localincidentidentifier: '010635'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 400
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-09T12:45Z'
-      ModifiedOnDateTimeEpoch: 1568033100000
-      PercentContained: 40
-      UniqueFireIdentifier: 2019-CABTU-010635
-      FireDiscoveryDateTime: '2019-09-07T21:59Z'
-      FireDiscoveryDateTimeEpoch: 1567893582000
-      Fire_Name: SWEDES
-      Name: SWEDES
-      Source: GEOMAC
-      Hashtag: '#SwedesFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-09T13:32:08.474Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CABTU-010635
-    Lon: -121.43304738164335
-    Lat: 39.44324527702861
-    id: 132862
-    Name: SWEDES
-    Fire_Name: SWEDES
-    UniqueFireIdentifier: 2019-CABTU-010635
-    DailyAcres: 400
-    PercentContained: 40
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-09T12:45Z'
-    ICS209ReportDateTimeEpoch: 1568033100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 702253
-    FireCause: Unknown
-    TotalIncidentPersonnel: 338
-    FireDiscoveryDateTime: '2019-09-07T21:59Z'
-    FireDiscoveryDateTimeEpoch: 1567893582000
-    DispatchCenterID: CABTCC
-    LocalIncidentIdentifier: '010635'
-    POOCounty: Butte
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-09T12:45Z'
-    ModifiedOnDateTimeEpoch: 1568033100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CABTU-010635
-      - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
-    ModifiedOnDateTime_Raw: '2019-09-09T13:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568034041000
-    Hashtag: '#SwedesFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CABTU
-    unitMention: '@CALFIRE_ButteCo'
-    Final_Fire_Name: Swedes Fire
-    _Update:
-      UpdateId: 'UPD-2019-09-09T12:45Z-PER-none-ID-2019-CABTU-010635-NAME-SWEDES-S-N'
-      Code: e0f5fc6a76f64855f5731c7e6735f4b7bbb0f0058e5cd795099bdf75df124558
   CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74:
     Source_CALFIRE:
       Lon: -117.273157
@@ -78839,8 +78411,8 @@ Database:
       Lat: 40.12
       incident_name: Red Bank Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-09T14:25Z'
-      incident_date_last_updateEpoch: 1568039152000
+      incident_date_last_update: '2019-09-09T14:31Z'
+      incident_date_last_updateEpoch: 1568039464000
       incident_date_created: '2019-09-05T20:19Z'
       incident_date_createdEpoch: 1567714796000
       incident_administrative_unit: CAL FIRE Tehama Glenn Unit
@@ -78861,8 +78433,8 @@ Database:
       incident_dateonly_created: '2019-09-05'
       is_active: 'Y'
       Fire_Name: Red Bank Fire
-      ModifiedOnDateTime: '2019-09-09T14:25Z'
-      ModifiedOnDateTimeEpoch: 1568039152000
+      ModifiedOnDateTime: '2019-09-09T14:31Z'
+      ModifiedOnDateTimeEpoch: 1568039464000
       DailyAcres: 8838
       PercentContained: 50
       UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
@@ -78874,7 +78446,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=14ad161c-bfc6-41ae-af84-a464084a4142
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-09T14:27:11.507Z'
+          RetrievedOn: '2019-09-09T14:31:56.960Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -78923,7 +78495,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-09T14:27:11.506Z'
+          RetrievedOn: '2019-09-09T14:31:56.959Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -78957,8 +78529,8 @@ Database:
       irwinmodifiedon: '2019-09-09T12:46Z'
       irwinmodifiedonEpoch: 1568033169000
       mapsymbol: '1'
-      datecurrent: '2019-09-09T08:00Z'
-      datecurrentEpoch: 1568016033000
+      datecurrent: '2019-09-09T08:30Z'
+      datecurrentEpoch: 1568017856000
       pooownerunit: CATGU
       fireyear: 2019
       localincidentidentifier: 009386
@@ -78980,7 +78552,7 @@ Database:
       Hashtag: '#RedBankFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-09T14:27:11.507Z'
+          RetrievedOn: '2019-09-09T14:31:56.960Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -79001,8 +78573,8 @@ Database:
     Lat: 40.12
     incident_name: Red Bank Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-09-09T14:25Z'
-    incident_date_last_updateEpoch: 1568039152000
+    incident_date_last_update: '2019-09-09T14:31Z'
+    incident_date_last_updateEpoch: 1568039464000
     incident_date_created: '2019-09-05T20:19Z'
     incident_date_createdEpoch: 1567714796000
     incident_administrative_unit: CAL FIRE Tehama Glenn Unit
@@ -79023,8 +78595,8 @@ Database:
     incident_dateonly_created: '2019-09-05'
     is_active: 'Y'
     Fire_Name: Red Bank Fire
-    ModifiedOnDateTime: '2019-09-09T14:25Z'
-    ModifiedOnDateTimeEpoch: 1568039152000
+    ModifiedOnDateTime: '2019-09-09T14:31Z'
+    ModifiedOnDateTimeEpoch: 1568039464000
     DailyAcres: 8838
     PercentContained: 50
     UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
@@ -79047,5 +78619,433 @@ Database:
     Final_Fire_Name: Red Bank Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-09T14:25Z-PER-none-ID-CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142-NAME-RedBankFire-S-C
-      Code: 35a7f555a5ebf2445b5cc4ce52e6344c934c0c9e7f56a6e8938c27f0f04dcc85
+        UPD-2019-09-09T14:31Z-PER-none-ID-CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142-NAME-RedBankFire-S-C
+      Code: 620453ca28834b8b3c35d8e614204ab1822b3973b2839a696f7323142e52fcb0
+  2019-CAINF-002018:
+    Source_CALFIRE:
+      Lon: -118.345
+      Lat: 37.034
+      incident_name: Taboose Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-09T03:15Z'
+      incident_date_last_updateEpoch: 1567998907000
+      incident_date_created: '2019-09-06T19:43Z'
+      incident_date_createdEpoch: 1567799015000
+      incident_administrative_unit: CAL FIRE San Bernardino Unit and Inyo National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Inyo
+      incident_location: south west of Big Pine and north west of Aberdeen
+      incident_acres_burned: 4000
+      incident_containment: 10
+      incident_control: ''
+      incident_cooperating_agencies: Inyo National Forest
+      incident_longitude: -118.345
+      incident_latitude: 37.034
+      incident_type: Wildfire
+      incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-06'
+      is_active: 'Y'
+      Fire_Name: Taboose Fire
+      ModifiedOnDateTime: '2019-09-09T03:15Z'
+      ModifiedOnDateTimeEpoch: 1567998907000
+      DailyAcres: 4000
+      PercentContained: 10
+      UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
+      Name: Taboose Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#TabooseFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:31:56.960Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
+    Source_NFSA_Join:
+      Lon: -118.32991604733373
+      Lat: 37.01154404194937
+      id: 132083
+      Name: TABOOSE
+      Fire_Name: TABOOSE
+      UniqueFireIdentifier: 2019-CAINF-002018
+      DailyAcres: 10500
+      PercentContained: 10
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-09-09T13:30Z'
+      ICS209ReportDateTimeEpoch: 1568035800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 500000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 367
+      FireDiscoveryDateTime: '2019-09-05T01:12Z'
+      FireDiscoveryDateTimeEpoch: 1567645920000
+      DispatchCenterID: CAOVCC
+      LocalIncidentIdentifier: 002018
+      POOCounty: Inyo
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-09T13:30Z'
+      ModifiedOnDateTimeEpoch: 1568035800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAINF-002018
+      ModifiedOnDateTime_Raw: '2019-09-09T14:02Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568037730000
+      Hashtag: '#TabooseFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:31:56.959Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -118.34529028401083
+      Lat: 37.03417186460457
+      objectid: 34
+      latitude: 37.0341667
+      longitude: -118.3452778
+      acres: 10500
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-09T13:30Z'
+      reportdatetimeEpoch: 1568035800000
+      percentcontained: 10
+      uniquefireidentifier: 2019-CAINF-002018
+      firediscoverydatetime: '2019-09-05T01:12Z'
+      firediscoverydatetimeEpoch: 1567645920000
+      complexparentirwinid: null
+      pooresponsibleunit: CAINF
+      incidentname: TABOOSE
+      iscomplex: 'false'
+      irwinid: '{FB038107-3B06-4407-8AEE-D09C0BFD9A0A}'
+      irwinmodifiedon: '2019-09-09T14:02Z'
+      irwinmodifiedonEpoch: 1568037731000
+      mapsymbol: '2'
+      datecurrent: '2019-09-09T08:30Z'
+      datecurrentEpoch: 1568017856000
+      pooownerunit: CAINF
+      fireyear: 2019
+      localincidentidentifier: 002018
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 10500
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-09T13:30Z'
+      ModifiedOnDateTimeEpoch: 1568035800000
+      PercentContained: 10
+      UniqueFireIdentifier: 2019-CAINF-002018
+      FireDiscoveryDateTime: '2019-09-05T01:12Z'
+      FireDiscoveryDateTimeEpoch: 1567645920000
+      Fire_Name: TABOOSE
+      Name: TABOOSE
+      Source: GEOMAC
+      Hashtag: '#TabooseFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:31:56.960Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAINF-002018
+    Lon: -118.32991604733373
+    Lat: 37.01154404194937
+    id: 132083
+    Name: TABOOSE
+    Fire_Name: TABOOSE
+    UniqueFireIdentifier: 2019-CAINF-002018
+    DailyAcres: 10500
+    PercentContained: 10
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-09-09T13:30Z'
+    ICS209ReportDateTimeEpoch: 1568035800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 500000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 367
+    FireDiscoveryDateTime: '2019-09-05T01:12Z'
+    FireDiscoveryDateTimeEpoch: 1567645920000
+    DispatchCenterID: CAOVCC
+    LocalIncidentIdentifier: 002018
+    POOCounty: Inyo
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-09T13:30Z'
+    ModifiedOnDateTimeEpoch: 1568035800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CAINF-002018
+      - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
+    ModifiedOnDateTime_Raw: '2019-09-09T14:02Z'
+    ModifiedOnDateTimeEpoch_Raw: 1568037730000
+    Hashtag: '#TabooseFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CAINF
+    unitMention: '@InyoInfo'
+    Final_Fire_Name: Taboose Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-09T13:30Z-PER-none-ID-2019-CAINF-002018-NAME-TABOOSE-S-N'
+      Code: faa995e10da720fae3a8793c1a9f529c63412d8485760ff067705c121817c023
+  CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f:
+    Source_CALFIRE:
+      Lon: -121.412619
+      Lat: 39.45296
+      incident_name: Swedes Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-09T14:31Z'
+      incident_date_last_updateEpoch: 1568039476000
+      incident_date_created: '2019-09-07T22:06Z'
+      incident_date_createdEpoch: 1567893960000
+      incident_administrative_unit: CAL FIRE Butte County Fire
+      incident_administrative_unit_url: ''
+      incident_county: Butte
+      incident_location: 'Swedes Flat Road and Oro Bangor Highway, east of Oroville'
+      incident_acres_burned: 400
+      incident_containment: 40
+      incident_control: ''
+      incident_cooperating_agencies: CAL FIRE Butte County Fire
+      incident_longitude: -121.412619
+      incident_latitude: 39.45296
+      incident_type: Wildfire
+      incident_id: 63a43984-64ce-40aa-bbc3-98330a46353f
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/swedes-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-07'
+      is_active: 'Y'
+      Fire_Name: Swedes Fire
+      ModifiedOnDateTime: '2019-09-09T14:31Z'
+      ModifiedOnDateTimeEpoch: 1568039476000
+      DailyAcres: 400
+      PercentContained: 40
+      UniqueFireIdentifier: CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+      Name: Swedes Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#SwedesFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=63a43984-64ce-40aa-bbc3-98330a46353f
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:31:56.960Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+    Source_NFSA_Join:
+      Lon: -121.43304738164335
+      Lat: 39.44324527702861
+      id: 132862
+      Name: SWEDES
+      Fire_Name: SWEDES
+      UniqueFireIdentifier: 2019-CABTU-010635
+      DailyAcres: 400
+      PercentContained: 40
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-09-09T12:45Z'
+      ICS209ReportDateTimeEpoch: 1568033100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 702253
+      FireCause: Unknown
+      TotalIncidentPersonnel: 338
+      FireDiscoveryDateTime: '2019-09-07T21:59Z'
+      FireDiscoveryDateTimeEpoch: 1567893582000
+      DispatchCenterID: CABTCC
+      LocalIncidentIdentifier: '010635'
+      POOCounty: Butte
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-09T12:45Z'
+      ModifiedOnDateTimeEpoch: 1568033100000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CABTU-010635
+      ModifiedOnDateTime_Raw: '2019-09-09T13:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568034041000
+      Hashtag: '#SwedesFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:31:56.959Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -121.41263226938833
+      Lat: 39.452965158180696
+      objectid: 44
+      latitude: 39.45296
+      longitude: -121.412619
+      acres: 400
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-09T12:45Z'
+      reportdatetimeEpoch: 1568033100000
+      percentcontained: 40
+      uniquefireidentifier: 2019-CABTU-010635
+      firediscoverydatetime: '2019-09-07T21:59Z'
+      firediscoverydatetimeEpoch: 1567893582000
+      complexparentirwinid: null
+      pooresponsibleunit: CABTU
+      incidentname: SWEDES
+      iscomplex: 'false'
+      irwinid: '{A21ACD03-412E-49A0-BFB9-9F4A9E8DA230}'
+      irwinmodifiedon: '2019-09-09T13:00Z'
+      irwinmodifiedonEpoch: 1568034042000
+      mapsymbol: '1'
+      datecurrent: '2019-09-09T08:30Z'
+      datecurrentEpoch: 1568017856000
+      pooownerunit: CABTU
+      fireyear: 2019
+      localincidentidentifier: '010635'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 400
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-09T12:45Z'
+      ModifiedOnDateTimeEpoch: 1568033100000
+      PercentContained: 40
+      UniqueFireIdentifier: 2019-CABTU-010635
+      FireDiscoveryDateTime: '2019-09-07T21:59Z'
+      FireDiscoveryDateTimeEpoch: 1567893582000
+      Fire_Name: SWEDES
+      Name: SWEDES
+      Source: GEOMAC
+      Hashtag: '#SwedesFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T14:31:56.960Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CABTU-010635
+    Lon: -121.412619
+    Lat: 39.45296
+    incident_name: Swedes Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-09T14:31Z'
+    incident_date_last_updateEpoch: 1568039476000
+    incident_date_created: '2019-09-07T22:06Z'
+    incident_date_createdEpoch: 1567893960000
+    incident_administrative_unit: CAL FIRE Butte County Fire
+    incident_administrative_unit_url: ''
+    incident_county: Butte
+    incident_location: 'Swedes Flat Road and Oro Bangor Highway, east of Oroville'
+    incident_acres_burned: 400
+    incident_containment: 40
+    incident_control: ''
+    incident_cooperating_agencies: CAL FIRE Butte County Fire
+    incident_longitude: -121.412619
+    incident_latitude: 39.45296
+    incident_type: Wildfire
+    incident_id: 63a43984-64ce-40aa-bbc3-98330a46353f
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/swedes-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-07'
+    is_active: 'Y'
+    Fire_Name: Swedes Fire
+    ModifiedOnDateTime: '2019-09-09T14:31Z'
+    ModifiedOnDateTimeEpoch: 1568039476000
+    DailyAcres: 400
+    PercentContained: 40
+    UniqueFireIdentifier: CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+    Name: Swedes Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SwedesFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=63a43984-64ce-40aa-bbc3-98330a46353f
+    _CorrelationIds:
+      - 2019-CABTU-010635
+      - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 63a43984
+    unitMention: null
+    Final_Fire_Name: Swedes Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-09T14:31Z-PER-none-ID-CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f-NAME-SwedesFire-S-C
+      Code: e420fd0b9880c942d815104f9e358c73bb9b155e56fd7a9984d22da276ef81a8
