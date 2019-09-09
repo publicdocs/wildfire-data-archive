@@ -69568,16 +69568,16 @@ Database:
       Name: River
       Fire_Name: River
       UniqueFireIdentifier: 2019-AZTNF-001535
-      DailyAcres: 6928
-      PercentContained: 30
+      DailyAcres: 7900
+      PercentContained: 35
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-08T00:30Z'
-      ICS209ReportDateTimeEpoch: 1567902600000
+      ICS209ReportDateTime: '2019-09-09T00:30Z'
+      ICS209ReportDateTimeEpoch: 1567989000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 400000
+      EstimatedCostToDate: 450000
       FireCause: Natural
       TotalIncidentPersonnel: 56
       FireDiscoveryDateTime: '2019-09-04T02:04Z'
@@ -69586,21 +69586,21 @@ Database:
       LocalIncidentIdentifier: '001535'
       POOCounty: Maricopa
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-08T00:30Z'
-      ModifiedOnDateTimeEpoch: 1567902600000
+      ModifiedOnDateTime: '2019-09-09T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567989000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZTNF-001535
-      ModifiedOnDateTime_Raw: '2019-09-08T00:49Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567903791000
+      ModifiedOnDateTime_Raw: '2019-09-09T00:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567990592000
       Hashtag: '#RiverFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T01:00:31.820Z'
+          RetrievedOn: '2019-09-09T01:01:56.312Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -69608,22 +69608,88 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -112.01195544491554
+      Lat: 33.953060788856575
+      objectid: 34
+      latitude: 33.9530556
+      longitude: -112.0119444
+      acres: 7900
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-09T00:30Z'
+      reportdatetimeEpoch: 1567989000000
+      percentcontained: 35
+      uniquefireidentifier: 2019-AZTNF-001535
+      firediscoverydatetime: '2019-09-04T02:04Z'
+      firediscoverydatetimeEpoch: 1567562640000
+      complexparentirwinid: null
+      pooresponsibleunit: AZTNF
+      incidentname: River
+      iscomplex: 'false'
+      irwinid: '{094DE97E-055E-4489-81EA-9FE7AB80F221}'
+      irwinmodifiedon: '2019-09-09T00:56Z'
+      irwinmodifiedonEpoch: 1567990593000
+      mapsymbol: '1'
+      datecurrent: '2019-09-08T19:00Z'
+      datecurrentEpoch: 1567969257000
+      pooownerunit: AZTNF
+      fireyear: 2019
+      localincidentidentifier: '001535'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 7900
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-09T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567989000000
+      PercentContained: 35
+      UniqueFireIdentifier: 2019-AZTNF-001535
+      FireDiscoveryDateTime: '2019-09-04T02:04Z'
+      FireDiscoveryDateTimeEpoch: 1567562640000
+      Fire_Name: River
+      Name: River
+      Source: GEOMAC
+      Hashtag: '#RiverFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.313Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZTNF-001535
     Lon: -112.01191194052282
     Lat: 33.95313547520465
     id: 131966
     Name: River
     Fire_Name: River
     UniqueFireIdentifier: 2019-AZTNF-001535
-    DailyAcres: 6928
-    PercentContained: 30
+    DailyAcres: 7900
+    PercentContained: 35
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-08T00:30Z'
-    ICS209ReportDateTimeEpoch: 1567902600000
+    ICS209ReportDateTime: '2019-09-09T00:30Z'
+    ICS209ReportDateTimeEpoch: 1567989000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 400000
+    EstimatedCostToDate: 450000
     FireCause: Natural
     TotalIncidentPersonnel: 56
     FireDiscoveryDateTime: '2019-09-04T02:04Z'
@@ -69632,16 +69698,16 @@ Database:
     LocalIncidentIdentifier: '001535'
     POOCounty: Maricopa
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-08T00:30Z'
-    ModifiedOnDateTimeEpoch: 1567902600000
+    ModifiedOnDateTime: '2019-09-09T00:30Z'
+    ModifiedOnDateTimeEpoch: 1567989000000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZTNF-001535
-    ModifiedOnDateTime_Raw: '2019-09-08T00:49Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567903791000
+    ModifiedOnDateTime_Raw: '2019-09-09T00:56Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567990592000
     Hashtag: '#RiverFire'
     NFSAType: Large WF
     PerimDateTime: '2019-09-05T09:00Z'
@@ -69650,7 +69716,7 @@ Database:
       Acres: 2170.82402439
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T01:00:39.839Z'
+          RetrievedOn: '2019-09-09T01:02:01.927Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -69671,8 +69737,8 @@ Database:
     Final_Fire_Name: River Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-08T00:30Z-PER-2019-09-05T09:00Z-ID-2019-AZTNF-001535-NAME-River-S-N
-      Code: ca19614ec1ed9b9e98aebd9e5f1606170bb42875dc42cfd83fa60dbcaf2518b7
+        UPD-2019-09-09T00:30Z-PER-2019-09-05T09:00Z-ID-2019-AZTNF-001535-NAME-River-S-N
+      Code: 55dbe19301d1f9eb26727004ec4099471381059efc934e0bf41cd0471a9804d2
   2019-MTFNF-000615:
     Source_NFSA_Join:
       Lon: -114.44931080092431
@@ -72582,39 +72648,39 @@ Database:
       Name: TABOOSE
       Fire_Name: TABOOSE
       UniqueFireIdentifier: 2019-CAINF-002018
-      DailyAcres: 4000
+      DailyAcres: 10500
       PercentContained: 10
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-08T14:00Z'
-      ICS209ReportDateTimeEpoch: 1567951200000
+      ICS209ReportDateTime: '2019-09-09T00:30Z'
+      ICS209ReportDateTimeEpoch: 1567989000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 330000
+      EstimatedCostToDate: 1500000
       FireCause: Unknown
-      TotalIncidentPersonnel: 113
+      TotalIncidentPersonnel: 367
       FireDiscoveryDateTime: '2019-09-05T01:12Z'
       FireDiscoveryDateTimeEpoch: 1567645920000
       DispatchCenterID: CAOVCC
       LocalIncidentIdentifier: 002018
       POOCounty: Inyo
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-08T14:00Z'
-      ModifiedOnDateTimeEpoch: 1567951200000
+      ModifiedOnDateTime: '2019-09-09T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567989000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAINF-002018
-      ModifiedOnDateTime_Raw: '2019-09-08T14:58Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567954733000
+      ModifiedOnDateTime_Raw: '2019-09-09T00:59Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567990782000
       Hashtag: '#TabooseFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T15:10:05.322Z'
+          RetrievedOn: '2019-09-09T01:01:56.312Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -72623,11 +72689,11 @@ Database:
             json: true
         Modified: true
     Source_GEOMAC:
-      Lon: -118.34529028401083
-      Lat: 37.03417186460457
-      objectid: 43
-      latitude: 37.0341667
-      longitude: -118.3452778
+      Lon: -118.34529048401087
+      Lat: 37.034172164604605
+      objectid: 38
+      latitude: 37.034167
+      longitude: -118.345278
       acres: 4000
       gacc: OSCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
@@ -72645,11 +72711,11 @@ Database:
       incidentname: TABOOSE
       iscomplex: 'false'
       irwinid: '{FB038107-3B06-4407-8AEE-D09C0BFD9A0A}'
-      irwinmodifiedon: '2019-09-08T14:58Z'
-      irwinmodifiedonEpoch: 1567954734000
+      irwinmodifiedon: '2019-09-09T00:18Z'
+      irwinmodifiedonEpoch: 1567988289000
       mapsymbol: '1'
-      datecurrent: '2019-09-08T09:00Z'
-      datecurrentEpoch: 1567933244000
+      datecurrent: '2019-09-08T19:00Z'
+      datecurrentEpoch: 1567969257000
       pooownerunit: CAINF
       fireyear: 2019
       localincidentidentifier: 002018
@@ -72671,7 +72737,7 @@ Database:
       Hashtag: '#TabooseFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T15:10:05.322Z'
+          RetrievedOn: '2019-09-09T01:01:56.313Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -72694,34 +72760,34 @@ Database:
     Name: TABOOSE
     Fire_Name: TABOOSE
     UniqueFireIdentifier: 2019-CAINF-002018
-    DailyAcres: 4000
+    DailyAcres: 10500
     PercentContained: 10
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-08T14:00Z'
-    ICS209ReportDateTimeEpoch: 1567951200000
+    ICS209ReportDateTime: '2019-09-09T00:30Z'
+    ICS209ReportDateTimeEpoch: 1567989000000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 330000
+    EstimatedCostToDate: 1500000
     FireCause: Unknown
-    TotalIncidentPersonnel: 113
+    TotalIncidentPersonnel: 367
     FireDiscoveryDateTime: '2019-09-05T01:12Z'
     FireDiscoveryDateTimeEpoch: 1567645920000
     DispatchCenterID: CAOVCC
     LocalIncidentIdentifier: 002018
     POOCounty: Inyo
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-08T14:00Z'
-    ModifiedOnDateTimeEpoch: 1567951200000
+    ModifiedOnDateTime: '2019-09-09T00:30Z'
+    ModifiedOnDateTimeEpoch: 1567989000000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-CAINF-002018
-    ModifiedOnDateTime_Raw: '2019-09-08T14:58Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567954733000
+    ModifiedOnDateTime_Raw: '2019-09-09T00:59Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567990782000
     Hashtag: '#TabooseFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -72733,8 +72799,8 @@ Database:
     unitMention: '@InyoInfo'
     Final_Fire_Name: Taboose Fire
     _Update:
-      UpdateId: 'UPD-2019-09-08T14:00Z-PER-none-ID-2019-CAINF-002018-NAME-TABOOSE-S-N'
-      Code: 92c1e209d6f30d12704a09fb596f5a02f5568e4d6c92c2702a039472ecf347d0
+      UpdateId: 'UPD-2019-09-09T00:30Z-PER-none-ID-2019-CAINF-002018-NAME-TABOOSE-S-N'
+      Code: 463cd0b2f4c9c1de86e5f1fde7fb226bb2f9e9b1c24a19bb6b6df49bca887cbf
   CALFIRE-791059a2-b50f-4ab0-924a-bfdac001e4b9:
     Source_CALFIRE:
       Lon: -123.222196
@@ -72849,39 +72915,39 @@ Database:
       Name: LONE
       Fire_Name: LONE
       UniqueFireIdentifier: 2019-CAMDF-000836
-      DailyAcres: 5533
+      DailyAcres: 5737
       PercentContained: 55
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-08T12:15Z'
-      ICS209ReportDateTimeEpoch: 1567944900000
+      ICS209ReportDateTime: '2019-09-09T00:00Z'
+      ICS209ReportDateTimeEpoch: 1567987200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 800000
+      EstimatedCostToDate: 950000
       FireCause: Natural
-      TotalIncidentPersonnel: 136
+      TotalIncidentPersonnel: 116
       FireDiscoveryDateTime: '2019-09-05T23:14Z'
       FireDiscoveryDateTimeEpoch: 1567725240000
       DispatchCenterID: CAMICC
       LocalIncidentIdentifier: 000836
       POOCounty: Modoc
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-08T12:15Z'
-      ModifiedOnDateTimeEpoch: 1567944900000
+      ModifiedOnDateTime: '2019-09-09T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567987200000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAMDF-000836
-      ModifiedOnDateTime_Raw: '2019-09-08T12:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567946137000
+      ModifiedOnDateTime_Raw: '2019-09-09T00:31Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567989112000
       Hashtag: '#LoneFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T13:00:54.665Z'
+          RetrievedOn: '2019-09-09T01:01:56.312Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -72892,17 +72958,17 @@ Database:
     Source_GEOMAC:
       Lon: -121.05571354356574
       Lat: 41.74760536792312
-      objectid: 46
+      objectid: 41
       latitude: 41.7476
       longitude: -121.0557
-      acres: 5533
+      acres: 5737
       gacc: ONCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: CA
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-08T12:15Z'
-      reportdatetimeEpoch: 1567944900000
+      reportdatetime: '2019-09-09T00:00Z'
+      reportdatetimeEpoch: 1567987200000
       percentcontained: 55
       uniquefireidentifier: 2019-CAMDF-000836
       firediscoverydatetime: '2019-09-05T23:14Z'
@@ -72912,11 +72978,11 @@ Database:
       incidentname: LONE
       iscomplex: 'false'
       irwinid: '{78671156-FBFB-4BA4-A6AA-5DAC0C7B023F}'
-      irwinmodifiedon: '2019-09-08T12:35Z'
-      irwinmodifiedonEpoch: 1567946137000
+      irwinmodifiedon: '2019-09-09T00:31Z'
+      irwinmodifiedonEpoch: 1567989112000
       mapsymbol: '1'
-      datecurrent: '2019-09-08T07:00Z'
-      datecurrentEpoch: 1567926029000
+      datecurrent: '2019-09-08T19:00Z'
+      datecurrentEpoch: 1567969257000
       pooownerunit: CAMDF
       fireyear: 2019
       localincidentidentifier: 000836
@@ -72924,10 +72990,10 @@ Database:
       owneragency: USFS
       perimexist: 'N'
       complexname: null
-      DailyAcres: 5533
+      DailyAcres: 5737
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-08T12:15Z'
-      ModifiedOnDateTimeEpoch: 1567944900000
+      ModifiedOnDateTime: '2019-09-09T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567987200000
       PercentContained: 55
       UniqueFireIdentifier: 2019-CAMDF-000836
       FireDiscoveryDateTime: '2019-09-05T23:14Z'
@@ -72938,7 +73004,7 @@ Database:
       Hashtag: '#LoneFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T13:00:54.666Z'
+          RetrievedOn: '2019-09-09T01:01:56.313Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -72961,34 +73027,34 @@ Database:
     Name: LONE
     Fire_Name: LONE
     UniqueFireIdentifier: 2019-CAMDF-000836
-    DailyAcres: 5533
+    DailyAcres: 5737
     PercentContained: 55
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-08T12:15Z'
-    ICS209ReportDateTimeEpoch: 1567944900000
+    ICS209ReportDateTime: '2019-09-09T00:00Z'
+    ICS209ReportDateTimeEpoch: 1567987200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 800000
+    EstimatedCostToDate: 950000
     FireCause: Natural
-    TotalIncidentPersonnel: 136
+    TotalIncidentPersonnel: 116
     FireDiscoveryDateTime: '2019-09-05T23:14Z'
     FireDiscoveryDateTimeEpoch: 1567725240000
     DispatchCenterID: CAMICC
     LocalIncidentIdentifier: 000836
     POOCounty: Modoc
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-08T12:15Z'
-    ModifiedOnDateTimeEpoch: 1567944900000
+    ModifiedOnDateTime: '2019-09-09T00:00Z'
+    ModifiedOnDateTimeEpoch: 1567987200000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-CAMDF-000836
-    ModifiedOnDateTime_Raw: '2019-09-08T12:35Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567946137000
+    ModifiedOnDateTime_Raw: '2019-09-09T00:31Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567989112000
     Hashtag: '#LoneFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -73000,8 +73066,8 @@ Database:
     unitMention: Modoc NF
     Final_Fire_Name: Lone Fire
     _Update:
-      UpdateId: 'UPD-2019-09-08T12:15Z-PER-none-ID-2019-CAMDF-000836-NAME-LONE-S-N'
-      Code: 782073455b76ba9ed9240a7edcb058ad4aaecda15dec5a9881adef5e819e9118
+      UpdateId: 'UPD-2019-09-09T00:00Z-PER-none-ID-2019-CAMDF-000836-NAME-LONE-S-N'
+      Code: aaa7fa87ee78d4d4940dffb25a96e74b8979c583ae4249973a7be0ca431a4506
   2019-UTCCD-000596:
     Source_NFSA_Join:
       Lon: -113.1516135246381
@@ -75493,12 +75559,12 @@ Database:
       Name: LIME
       Fire_Name: LIME
       UniqueFireIdentifier: 2019-CAKNF-007074
-      DailyAcres: 253
+      DailyAcres: 1100
       PercentContained: 0
       FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-08T13:00Z'
-      ICS209ReportDateTimeEpoch: 1567947600000
+      IncidentManagementOrganization: Type 2 Team
+      ICS209ReportDateTime: '2019-09-09T00:00Z'
+      ICS209ReportDateTimeEpoch: 1567987200000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
@@ -75511,21 +75577,21 @@ Database:
       LocalIncidentIdentifier: '007074'
       POOCounty: Siskiyou
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-08T13:00Z'
-      ModifiedOnDateTimeEpoch: 1567947600000
+      ModifiedOnDateTime: '2019-09-09T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567987200000
       ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAKNF-007074
-      ModifiedOnDateTime_Raw: '2019-09-08T13:00Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567947643000
+      ModifiedOnDateTime_Raw: '2019-09-09T00:55Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567990510000
       Hashtag: '#LimeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T13:31:15.497Z'
+          RetrievedOn: '2019-09-09T01:01:56.312Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -75533,18 +75599,84 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -122.67029181316029
+      Lat: 41.86583823359064
+      objectid: 46
+      latitude: 41.865833
+      longitude: -122.670278
+      acres: 1100
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-09T00:00Z'
+      reportdatetimeEpoch: 1567987200000
+      percentcontained: 0
+      uniquefireidentifier: 2019-CAKNF-007074
+      firediscoverydatetime: '2019-09-05T18:19Z'
+      firediscoverydatetimeEpoch: 1567707586000
+      complexparentirwinid: null
+      pooresponsibleunit: CAKNF
+      incidentname: LIME
+      iscomplex: 'false'
+      irwinid: '{75B69E99-7108-4156-8ECE-64DA2CD36C49}'
+      irwinmodifiedon: '2019-09-09T00:55Z'
+      irwinmodifiedonEpoch: 1567990511000
+      mapsymbol: '1'
+      datecurrent: '2019-09-08T19:00Z'
+      datecurrentEpoch: 1567969257000
+      pooownerunit: CAKNF
+      fireyear: 2019
+      localincidentidentifier: '007074'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1100
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-09T00:00Z'
+      ModifiedOnDateTimeEpoch: 1567987200000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-CAKNF-007074
+      FireDiscoveryDateTime: '2019-09-05T18:19Z'
+      FireDiscoveryDateTimeEpoch: 1567707586000
+      Fire_Name: LIME
+      Name: LIME
+      Source: GEOMAC
+      Hashtag: '#LimeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.313Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAKNF-007074
     Lon: -122.67016227516855
     Lat: 41.86581950463133
     id: 132506
     Name: LIME
     Fire_Name: LIME
     UniqueFireIdentifier: 2019-CAKNF-007074
-    DailyAcres: 253
+    DailyAcres: 1100
     PercentContained: 0
     FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-08T13:00Z'
-    ICS209ReportDateTimeEpoch: 1567947600000
+    IncidentManagementOrganization: Type 2 Team
+    ICS209ReportDateTime: '2019-09-09T00:00Z'
+    ICS209ReportDateTimeEpoch: 1567987200000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -75557,16 +75689,16 @@ Database:
     LocalIncidentIdentifier: '007074'
     POOCounty: Siskiyou
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-08T13:00Z'
-    ModifiedOnDateTimeEpoch: 1567947600000
+    ModifiedOnDateTime: '2019-09-09T00:00Z'
+    ModifiedOnDateTimeEpoch: 1567987200000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-CAKNF-007074
-    ModifiedOnDateTime_Raw: '2019-09-08T13:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567947643000
+    ModifiedOnDateTime_Raw: '2019-09-09T00:55Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567990510000
     Hashtag: '#LimeFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -75578,8 +75710,8 @@ Database:
     unitMention: '@Klamath_NF'
     Final_Fire_Name: Lime Fire
     _Update:
-      UpdateId: 'UPD-2019-09-08T13:00Z-PER-none-ID-2019-CAKNF-007074-NAME-LIME-S-N'
-      Code: 8c94f5025fbd9c00e3906bdd4328f5411dae5e68e3872703515f93c088e8f825
+      UpdateId: 'UPD-2019-09-09T00:00Z-PER-none-ID-2019-CAKNF-007074-NAME-LIME-S-N'
+      Code: 636f9b968ad8711c5d858431991fe4e8646a1be8c4310c538451c1be19f76561
   2019-AKSWS-904457:
     Source_NFSA_Join:
       Lon: -154.99768169117945
@@ -77648,39 +77780,39 @@ Database:
       Name: HENTHORNE
       Fire_Name: HENTHORNE
       UniqueFireIdentifier: 2019-CAMNF-000485
-      DailyAcres: 380
+      DailyAcres: 237
       PercentContained: 15
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-08T12:00Z'
-      ICS209ReportDateTimeEpoch: 1567944000000
+      ICS209ReportDateTime: '2019-09-09T00:15Z'
+      ICS209ReportDateTimeEpoch: 1567988100000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 950000
+      EstimatedCostToDate: 1250000
       FireCause: Unknown
-      TotalIncidentPersonnel: 512
+      TotalIncidentPersonnel: 475
       FireDiscoveryDateTime: '2019-09-05T15:20Z'
       FireDiscoveryDateTimeEpoch: 1567696800000
       DispatchCenterID: CAMNFC
       LocalIncidentIdentifier: 000485
       POOCounty: Trinity
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-08T12:00Z'
-      ModifiedOnDateTimeEpoch: 1567944000000
+      ModifiedOnDateTime: '2019-09-09T00:15Z'
+      ModifiedOnDateTimeEpoch: 1567988100000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-CAMNF-000485
-      ModifiedOnDateTime_Raw: '2019-09-08T13:02Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567947772000
+      ModifiedOnDateTime_Raw: '2019-09-09T00:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567990085000
       Hashtag: '#HenthorneFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-08T13:31:15.497Z'
+          RetrievedOn: '2019-09-09T01:01:56.312Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -77688,108 +77820,40 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -123.15223580844018
-      Lat: 40.01111616071772
-      objectid: 50
-      latitude: 40.0111111
-      longitude: -123.1522222
-      acres: 380
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-08T12:00Z'
-      reportdatetimeEpoch: 1567944000000
-      percentcontained: 15
-      uniquefireidentifier: 2019-CAMNF-000485
-      firediscoverydatetime: '2019-09-05T15:20Z'
-      firediscoverydatetimeEpoch: 1567696800000
-      complexparentirwinid: null
-      pooresponsibleunit: CAMNF
-      incidentname: HENTHORNE
-      iscomplex: 'false'
-      irwinid: '{DAC76C2F-3329-499E-AF99-2A9095241639}'
-      irwinmodifiedon: '2019-09-08T13:02Z'
-      irwinmodifiedonEpoch: 1567947773000
-      mapsymbol: '1'
-      datecurrent: '2019-09-08T07:30Z'
-      datecurrentEpoch: 1567927842000
-      pooownerunit: CANOD
-      fireyear: 2019
-      localincidentidentifier: 000485
-      incidenttypecategory: WF
-      owneragency: BLM
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 380
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-08T12:00Z'
-      ModifiedOnDateTimeEpoch: 1567944000000
-      PercentContained: 15
-      UniqueFireIdentifier: 2019-CAMNF-000485
-      FireDiscoveryDateTime: '2019-09-05T15:20Z'
-      FireDiscoveryDateTimeEpoch: 1567696800000
-      Fire_Name: HENTHORNE
-      Name: HENTHORNE
-      Source: GEOMAC
-      Hashtag: '#HenthorneFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T13:31:15.498Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAMNF-000485
     Lon: -123.15223418923846
     Lat: 40.01111766616411
     id: 132442
     Name: HENTHORNE
     Fire_Name: HENTHORNE
     UniqueFireIdentifier: 2019-CAMNF-000485
-    DailyAcres: 380
+    DailyAcres: 237
     PercentContained: 15
     FireMgmtComplexity: Type 2 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-08T12:00Z'
-    ICS209ReportDateTimeEpoch: 1567944000000
+    ICS209ReportDateTime: '2019-09-09T00:15Z'
+    ICS209ReportDateTimeEpoch: 1567988100000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 950000
+    EstimatedCostToDate: 1250000
     FireCause: Unknown
-    TotalIncidentPersonnel: 512
+    TotalIncidentPersonnel: 475
     FireDiscoveryDateTime: '2019-09-05T15:20Z'
     FireDiscoveryDateTimeEpoch: 1567696800000
     DispatchCenterID: CAMNFC
     LocalIncidentIdentifier: 000485
     POOCounty: Trinity
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-08T12:00Z'
-    ModifiedOnDateTimeEpoch: 1567944000000
+    ModifiedOnDateTime: '2019-09-09T00:15Z'
+    ModifiedOnDateTimeEpoch: 1567988100000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrType2
     Source: NFSA
     _CorrelationIds:
       - 2019-CAMNF-000485
-      - 2019-CAMNF-010876
-      - 2019-CAMEU-010876
-    ModifiedOnDateTime_Raw: '2019-09-08T13:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567947772000
+    ModifiedOnDateTime_Raw: '2019-09-09T00:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567990085000
     Hashtag: '#HenthorneFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -77801,444 +77865,8 @@ Database:
     unitMention: '@MendocinoNF'
     Final_Fire_Name: Henthorne Fire
     _Update:
-      UpdateId: 'UPD-2019-09-08T12:00Z-PER-none-ID-2019-CAMNF-000485-NAME-HENTHORNE-S-N'
-      Code: 96e201b8e7ad3b3e44d379703e72822f777de11b2542ccc7da13b54e96059c71
-  CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142:
-    Source_CALFIRE:
-      Lon: -122.64
-      Lat: 40.12
-      incident_name: Red Bank Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-08T20:26Z'
-      incident_date_last_updateEpoch: 1567974385000
-      incident_date_created: '2019-09-05T20:19Z'
-      incident_date_createdEpoch: 1567714796000
-      incident_administrative_unit: CAL FIRE Tehama Glenn Unit
-      incident_administrative_unit_url: ''
-      incident_county: Tehama
-      incident_location: 'Off Hammer Loop Road and Petty John Road, West of Red Bluff'
-      incident_acres_burned: 8838
-      incident_containment: 20
-      incident_control: ''
-      incident_cooperating_agencies: Tehama County Sheriff's Office
-      incident_longitude: -122.64
-      incident_latitude: 40.12
-      incident_type: Wildfire
-      incident_id: 14ad161c-bfc6-41ae-af84-a464084a4142
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/red-bank-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-05'
-      is_active: 'Y'
-      Fire_Name: Red Bank Fire
-      ModifiedOnDateTime: '2019-09-08T20:26Z'
-      ModifiedOnDateTimeEpoch: 1567974385000
-      DailyAcres: 8838
-      PercentContained: 20
-      UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-      Name: Red Bank Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#RedBankFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=14ad161c-bfc6-41ae-af84-a464084a4142
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T20:26:46.202Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-    Source_NFSA_Join:
-      Lon: -122.64001481423351
-      Lat: 40.12000201883323
-      id: 132432
-      Name: RED BANK
-      Fire_Name: RED BANK
-      UniqueFireIdentifier: 2019-CATGU-009386
-      DailyAcres: 8838
-      PercentContained: 20
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2019-09-08T12:45Z'
-      ICS209ReportDateTimeEpoch: 1567946700000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 4000000
-      FireCause: Natural
-      TotalIncidentPersonnel: 1930
-      FireDiscoveryDateTime: '2019-09-05T19:19Z'
-      FireDiscoveryDateTimeEpoch: 1567711140000
-      DispatchCenterID: CATGCC
-      LocalIncidentIdentifier: 009386
-      POOCounty: Tehama
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-08T12:45Z'
-      ModifiedOnDateTimeEpoch: 1567946700000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CATGU-009386
-      ModifiedOnDateTime_Raw: '2019-09-08T12:58Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567947511000
-      Hashtag: '#RedBankFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T20:26:46.201Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -122.640013547518
-      Lat: 40.120005110900905
-      objectid: 48
-      latitude: 40.12
-      longitude: -122.64
-      acres: 8838
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-09-08T12:45Z'
-      reportdatetimeEpoch: 1567946700000
-      percentcontained: 20
-      uniquefireidentifier: 2019-CATGU-009386
-      firediscoverydatetime: '2019-09-05T19:19Z'
-      firediscoverydatetimeEpoch: 1567711140000
-      complexparentirwinid: null
-      pooresponsibleunit: CATGU
-      incidentname: RED BANK
-      iscomplex: 'false'
-      irwinid: '{CC70F3A6-0402-4CAC-9054-8B160525E251}'
-      irwinmodifiedon: '2019-09-08T12:58Z'
-      irwinmodifiedonEpoch: 1567947512000
-      mapsymbol: '1'
-      datecurrent: '2019-09-08T14:01Z'
-      datecurrentEpoch: 1567951271000
-      pooownerunit: CATGU
-      fireyear: 2019
-      localincidentidentifier: 009386
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 8838
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-09-08T12:45Z'
-      ModifiedOnDateTimeEpoch: 1567946700000
-      PercentContained: 20
-      UniqueFireIdentifier: 2019-CATGU-009386
-      FireDiscoveryDateTime: '2019-09-05T19:19Z'
-      FireDiscoveryDateTimeEpoch: 1567711140000
-      Fire_Name: RED BANK
-      Name: RED BANK
-      Source: GEOMAC
-      Hashtag: '#RedBankFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T20:26:46.202Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CATGU-009386
-    Lon: -122.64
-    Lat: 40.12
-    incident_name: Red Bank Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-09-08T20:26Z'
-    incident_date_last_updateEpoch: 1567974385000
-    incident_date_created: '2019-09-05T20:19Z'
-    incident_date_createdEpoch: 1567714796000
-    incident_administrative_unit: CAL FIRE Tehama Glenn Unit
-    incident_administrative_unit_url: ''
-    incident_county: Tehama
-    incident_location: 'Off Hammer Loop Road and Petty John Road, West of Red Bluff'
-    incident_acres_burned: 8838
-    incident_containment: 20
-    incident_control: ''
-    incident_cooperating_agencies: Tehama County Sheriff's Office
-    incident_longitude: -122.64
-    incident_latitude: 40.12
-    incident_type: Wildfire
-    incident_id: 14ad161c-bfc6-41ae-af84-a464084a4142
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/red-bank-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-09-05'
-    is_active: 'Y'
-    Fire_Name: Red Bank Fire
-    ModifiedOnDateTime: '2019-09-08T20:26Z'
-    ModifiedOnDateTimeEpoch: 1567974385000
-    DailyAcres: 8838
-    PercentContained: 20
-    UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-    Name: Red Bank Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#RedBankFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=14ad161c-bfc6-41ae-af84-a464084a4142
-    _CorrelationIds:
-      - 2019-CATGU-009386
-      - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 14ad161c
-    unitMention: null
-    Final_Fire_Name: Red Bank Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-08T20:26Z-PER-none-ID-CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142-NAME-RedBankFire-S-C
-      Code: 221a3a84de2bdd811e7a6165701011d003a850db34cbc80fba235865706bdc33
-  CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74:
-    Source_CALFIRE:
-      Lon: -117.273157
-      Lat: 33.528469
-      incident_name: Tenaja
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-08T14:34Z'
-      incident_date_last_updateEpoch: 1567953249000
-      incident_date_created: '2019-09-04T23:43Z'
-      incident_date_createdEpoch: 1567640616000
-      incident_administrative_unit: >-
-        Unified Command: CAL FIRE/Riverside County Fire Department & City of
-        Murrieta
-      incident_administrative_unit_url: ''
-      incident_county: Riverside
-      incident_location: 'Tenaja Road and Clinton Keith Road, in La Cresta'
-      incident_acres_burned: 1940
-      incident_containment: 56
-      incident_control: ''
-      incident_cooperating_agencies: 'CAL FIRE / Riverside County Fire, City of Murrieta'
-      incident_longitude: -117.273157
-      incident_latitude: 33.528469
-      incident_type: Wildfire
-      incident_id: f68808fb-a705-4083-a136-1a45c61c7f74
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/tenaja/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-04'
-      is_active: 'Y'
-      Fire_Name: Tenaja
-      ModifiedOnDateTime: '2019-09-08T14:34Z'
-      ModifiedOnDateTimeEpoch: 1567953249000
-      DailyAcres: 1940
-      PercentContained: 56
-      UniqueFireIdentifier: CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
-      Name: Tenaja
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#TenajaFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=f68808fb-a705-4083-a136-1a45c61c7f74
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T14:35:05.937Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
-    Source_NFSA_Join:
-      Lon: -117.27316489655404
-      Lat: 33.52847417809506
-      id: 132037
-      Name: TENAJA
-      Fire_Name: TENAJA
-      UniqueFireIdentifier: 2019-CARRU-113828
-      DailyAcres: 1926
-      PercentContained: 56
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-08T12:00Z'
-      ICS209ReportDateTimeEpoch: 1567944000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2420484
-      FireCause: Unknown
-      TotalIncidentPersonnel: 708
-      FireDiscoveryDateTime: '2019-09-04T22:57Z'
-      FireDiscoveryDateTimeEpoch: 1567637856000
-      DispatchCenterID: CARRCC
-      LocalIncidentIdentifier: '113828'
-      POOCounty: Riverside
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-08T12:00Z'
-      ModifiedOnDateTimeEpoch: 1567944000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CARRU-113828
-      ModifiedOnDateTime_Raw: '2019-09-08T12:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567946914000
-      Hashtag: '#TenajaFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T14:35:05.934Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -117.27316898065996
-      Lat: 33.5284738504489
-      objectid: 42
-      latitude: 33.528469
-      longitude: -117.273157
-      acres: 1926
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-08T12:00Z'
-      reportdatetimeEpoch: 1567944000000
-      percentcontained: 56
-      uniquefireidentifier: 2019-CARRU-113828
-      firediscoverydatetime: '2019-09-04T22:57Z'
-      firediscoverydatetimeEpoch: 1567637856000
-      complexparentirwinid: null
-      pooresponsibleunit: CARRU
-      incidentname: TENAJA
-      iscomplex: 'false'
-      irwinid: '{12D435C8-627E-438F-994A-1105E5DBB56F}'
-      irwinmodifiedon: '2019-09-08T12:48Z'
-      irwinmodifiedonEpoch: 1567946915000
-      mapsymbol: '1'
-      datecurrent: '2019-09-08T08:31Z'
-      datecurrentEpoch: 1567931502000
-      pooownerunit: CARRU
-      fireyear: 2019
-      localincidentidentifier: '113828'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 1926
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-08T12:00Z'
-      ModifiedOnDateTimeEpoch: 1567944000000
-      PercentContained: 56
-      UniqueFireIdentifier: 2019-CARRU-113828
-      FireDiscoveryDateTime: '2019-09-04T22:57Z'
-      FireDiscoveryDateTimeEpoch: 1567637856000
-      Fire_Name: TENAJA
-      Name: TENAJA
-      Source: GEOMAC
-      Hashtag: '#TenajaFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-08T14:35:05.936Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CARRU-113828
-    Lon: -117.273157
-    Lat: 33.528469
-    incident_name: Tenaja
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-09-08T14:34Z'
-    incident_date_last_updateEpoch: 1567953249000
-    incident_date_created: '2019-09-04T23:43Z'
-    incident_date_createdEpoch: 1567640616000
-    incident_administrative_unit: >-
-      Unified Command: CAL FIRE/Riverside County Fire Department & City of
-      Murrieta
-    incident_administrative_unit_url: ''
-    incident_county: Riverside
-    incident_location: 'Tenaja Road and Clinton Keith Road, in La Cresta'
-    incident_acres_burned: 1940
-    incident_containment: 56
-    incident_control: ''
-    incident_cooperating_agencies: 'CAL FIRE / Riverside County Fire, City of Murrieta'
-    incident_longitude: -117.273157
-    incident_latitude: 33.528469
-    incident_type: Wildfire
-    incident_id: f68808fb-a705-4083-a136-1a45c61c7f74
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/tenaja/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-09-04'
-    is_active: 'Y'
-    Fire_Name: Tenaja
-    ModifiedOnDateTime: '2019-09-08T14:34Z'
-    ModifiedOnDateTimeEpoch: 1567953249000
-    DailyAcres: 1940
-    PercentContained: 56
-    UniqueFireIdentifier: CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
-    Name: Tenaja
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#TenajaFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=f68808fb-a705-4083-a136-1a45c61c7f74
-    _CorrelationIds:
-      - 2019-CARRU-113828
-      - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: f68808fb
-    unitMention: null
-    Final_Fire_Name: Tenaja Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-08T14:34Z-PER-none-ID-CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74-NAME-Tenaja-S-C
-      Code: d4da86b3e8cedb31d2c9e260eddeb28407f17359cb4f76d474e4d6f875c0adec
+      UpdateId: 'UPD-2019-09-09T00:15Z-PER-none-ID-2019-CAMNF-000485-NAME-HENTHORNE-S-N'
+      Code: b364781ccf5abb6b0c4216029563c430f648e820bc928b1d6145601d7d009ee8
   2019-ALPRI-20190907-4:
     Source_NFSA_Join:
       Lon: -88.14389043713533
@@ -78638,3 +78266,429 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-08T22:32Z-PER-none-ID-2019-UTSCS-190412-NAME-MeadowCreek-S-N'
       Code: 2d31818dac342538d11ea3d2c51a579a52c8ec84fa752ec0c985f0f7eeff5bbe
+  2019-CARRU-113828:
+    Source_CALFIRE:
+      Lon: -117.273157
+      Lat: 33.528469
+      incident_name: Tenaja
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-08T14:34Z'
+      incident_date_last_updateEpoch: 1567953249000
+      incident_date_created: '2019-09-04T23:43Z'
+      incident_date_createdEpoch: 1567640616000
+      incident_administrative_unit: >-
+        Unified Command: CAL FIRE/Riverside County Fire Department & City of
+        Murrieta
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: 'Tenaja Road and Clinton Keith Road, in La Cresta'
+      incident_acres_burned: 1940
+      incident_containment: 56
+      incident_control: ''
+      incident_cooperating_agencies: 'CAL FIRE / Riverside County Fire, City of Murrieta'
+      incident_longitude: -117.273157
+      incident_latitude: 33.528469
+      incident_type: Wildfire
+      incident_id: f68808fb-a705-4083-a136-1a45c61c7f74
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/tenaja/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-04'
+      is_active: 'Y'
+      Fire_Name: Tenaja
+      ModifiedOnDateTime: '2019-09-08T14:34Z'
+      ModifiedOnDateTimeEpoch: 1567953249000
+      DailyAcres: 1940
+      PercentContained: 56
+      UniqueFireIdentifier: CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
+      Name: Tenaja
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#TenajaFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=f68808fb-a705-4083-a136-1a45c61c7f74
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.314Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
+    Source_NFSA_Join:
+      Lon: -117.27316489655404
+      Lat: 33.52847417809506
+      id: 132037
+      Name: TENAJA
+      Fire_Name: TENAJA
+      UniqueFireIdentifier: 2019-CARRU-113828
+      DailyAcres: 1926
+      PercentContained: 73
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-09-09T00:45Z'
+      ICS209ReportDateTimeEpoch: 1567989900000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3057587
+      FireCause: Unknown
+      TotalIncidentPersonnel: 392
+      FireDiscoveryDateTime: '2019-09-04T22:57Z'
+      FireDiscoveryDateTimeEpoch: 1567637856000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '113828'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-09T00:45Z'
+      ModifiedOnDateTimeEpoch: 1567989900000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CARRU-113828
+      ModifiedOnDateTime_Raw: '2019-09-09T00:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567990118000
+      Hashtag: '#TenajaFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.312Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -117.27316898065996
+      Lat: 33.5284738504489
+      objectid: 37
+      latitude: 33.528469
+      longitude: -117.273157
+      acres: 1926
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-09T00:45Z'
+      reportdatetimeEpoch: 1567989900000
+      percentcontained: 73
+      uniquefireidentifier: 2019-CARRU-113828
+      firediscoverydatetime: '2019-09-04T22:57Z'
+      firediscoverydatetimeEpoch: 1567637856000
+      complexparentirwinid: null
+      pooresponsibleunit: CARRU
+      incidentname: TENAJA
+      iscomplex: 'false'
+      irwinid: '{12D435C8-627E-438F-994A-1105E5DBB56F}'
+      irwinmodifiedon: '2019-09-09T00:48Z'
+      irwinmodifiedonEpoch: 1567990119000
+      mapsymbol: '1'
+      datecurrent: '2019-09-08T19:00Z'
+      datecurrentEpoch: 1567969257000
+      pooownerunit: CARRU
+      fireyear: 2019
+      localincidentidentifier: '113828'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1926
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-09T00:45Z'
+      ModifiedOnDateTimeEpoch: 1567989900000
+      PercentContained: 73
+      UniqueFireIdentifier: 2019-CARRU-113828
+      FireDiscoveryDateTime: '2019-09-04T22:57Z'
+      FireDiscoveryDateTimeEpoch: 1567637856000
+      Fire_Name: TENAJA
+      Name: TENAJA
+      Source: GEOMAC
+      Hashtag: '#TenajaFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.313Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CARRU-113828
+    Lon: -117.27316489655404
+    Lat: 33.52847417809506
+    id: 132037
+    Name: TENAJA
+    Fire_Name: TENAJA
+    UniqueFireIdentifier: 2019-CARRU-113828
+    DailyAcres: 1926
+    PercentContained: 73
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-09-09T00:45Z'
+    ICS209ReportDateTimeEpoch: 1567989900000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3057587
+    FireCause: Unknown
+    TotalIncidentPersonnel: 392
+    FireDiscoveryDateTime: '2019-09-04T22:57Z'
+    FireDiscoveryDateTimeEpoch: 1567637856000
+    DispatchCenterID: CARRCC
+    LocalIncidentIdentifier: '113828'
+    POOCounty: Riverside
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-09T00:45Z'
+    ModifiedOnDateTimeEpoch: 1567989900000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CARRU-113828
+      - CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74
+    ModifiedOnDateTime_Raw: '2019-09-09T00:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567990118000
+    Hashtag: '#TenajaFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CARRU
+    unitMention: '@CALFIRERRU'
+    Final_Fire_Name: Tenaja Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-09T00:45Z-PER-none-ID-2019-CARRU-113828-NAME-TENAJA-S-N'
+      Code: 614ad6dcd46029a416f663620e71f70491836a19adde493913b20e1f70822c6b
+  2019-CATGU-009386:
+    Source_CALFIRE:
+      Lon: -122.64
+      Lat: 40.12
+      incident_name: Red Bank Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-08T20:26Z'
+      incident_date_last_updateEpoch: 1567974385000
+      incident_date_created: '2019-09-05T20:19Z'
+      incident_date_createdEpoch: 1567714796000
+      incident_administrative_unit: CAL FIRE Tehama Glenn Unit
+      incident_administrative_unit_url: ''
+      incident_county: Tehama
+      incident_location: 'Off Hammer Loop Road and Petty John Road, West of Red Bluff'
+      incident_acres_burned: 8838
+      incident_containment: 20
+      incident_control: ''
+      incident_cooperating_agencies: Tehama County Sheriff's Office
+      incident_longitude: -122.64
+      incident_latitude: 40.12
+      incident_type: Wildfire
+      incident_id: 14ad161c-bfc6-41ae-af84-a464084a4142
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/red-bank-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-05'
+      is_active: 'Y'
+      Fire_Name: Red Bank Fire
+      ModifiedOnDateTime: '2019-09-08T20:26Z'
+      ModifiedOnDateTimeEpoch: 1567974385000
+      DailyAcres: 8838
+      PercentContained: 20
+      UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
+      Name: Red Bank Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#RedBankFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=14ad161c-bfc6-41ae-af84-a464084a4142
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.314Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
+    Source_NFSA_Join:
+      Lon: -122.64001481423351
+      Lat: 40.12000201883323
+      id: 132432
+      Name: RED BANK
+      Fire_Name: RED BANK
+      UniqueFireIdentifier: 2019-CATGU-009386
+      DailyAcres: 8838
+      PercentContained: 50
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2019-09-09T00:30Z'
+      ICS209ReportDateTimeEpoch: 1567989000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5500000
+      FireCause: Natural
+      TotalIncidentPersonnel: 2307
+      FireDiscoveryDateTime: '2019-09-05T19:19Z'
+      FireDiscoveryDateTimeEpoch: 1567711140000
+      DispatchCenterID: CATGCC
+      LocalIncidentIdentifier: 009386
+      POOCounty: Tehama
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-09T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567989000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CATGU-009386
+      ModifiedOnDateTime_Raw: '2019-09-09T00:45Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567989940000
+      Hashtag: '#RedBankFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.312Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -122.640013547518
+      Lat: 40.120005110900905
+      objectid: 44
+      latitude: 40.12
+      longitude: -122.64
+      acres: 8838
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-09T00:30Z'
+      reportdatetimeEpoch: 1567989000000
+      percentcontained: 50
+      uniquefireidentifier: 2019-CATGU-009386
+      firediscoverydatetime: '2019-09-05T19:19Z'
+      firediscoverydatetimeEpoch: 1567711140000
+      complexparentirwinid: null
+      pooresponsibleunit: CATGU
+      incidentname: RED BANK
+      iscomplex: 'false'
+      irwinid: '{CC70F3A6-0402-4CAC-9054-8B160525E251}'
+      irwinmodifiedon: '2019-09-09T00:45Z'
+      irwinmodifiedonEpoch: 1567989940000
+      mapsymbol: '1'
+      datecurrent: '2019-09-08T19:00Z'
+      datecurrentEpoch: 1567969257000
+      pooownerunit: CATGU
+      fireyear: 2019
+      localincidentidentifier: 009386
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 8838
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-09T00:30Z'
+      ModifiedOnDateTimeEpoch: 1567989000000
+      PercentContained: 50
+      UniqueFireIdentifier: 2019-CATGU-009386
+      FireDiscoveryDateTime: '2019-09-05T19:19Z'
+      FireDiscoveryDateTimeEpoch: 1567711140000
+      Fire_Name: RED BANK
+      Name: RED BANK
+      Source: GEOMAC
+      Hashtag: '#RedBankFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-09T01:01:56.313Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CATGU-009386
+    Lon: -122.64001481423351
+    Lat: 40.12000201883323
+    id: 132432
+    Name: RED BANK
+    Fire_Name: RED BANK
+    UniqueFireIdentifier: 2019-CATGU-009386
+    DailyAcres: 8838
+    PercentContained: 50
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: Type 1 Team
+    ICS209ReportDateTime: '2019-09-09T00:30Z'
+    ICS209ReportDateTimeEpoch: 1567989000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5500000
+    FireCause: Natural
+    TotalIncidentPersonnel: 2307
+    FireDiscoveryDateTime: '2019-09-05T19:19Z'
+    FireDiscoveryDateTimeEpoch: 1567711140000
+    DispatchCenterID: CATGCC
+    LocalIncidentIdentifier: 009386
+    POOCounty: Tehama
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-09T00:30Z'
+    ModifiedOnDateTimeEpoch: 1567989000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CATGU-009386
+      - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
+    ModifiedOnDateTime_Raw: '2019-09-09T00:45Z'
+    ModifiedOnDateTimeEpoch_Raw: 1567989940000
+    Hashtag: '#RedBankFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CATGU
+    unitMention: Tehama-Glenn Unit
+    Final_Fire_Name: Red Bank Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-09T00:30Z-PER-none-ID-2019-CATGU-009386-NAME-REDBANK-S-N'
+      Code: c4a4a3b0bfccf024552b0c3c788854a063a32fcd41ed228ad39ac658092a8167
