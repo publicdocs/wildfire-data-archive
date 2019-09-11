@@ -78335,39 +78335,39 @@ Database:
       Name: Whiskey
       Fire_Name: Whiskey
       UniqueFireIdentifier: 2019-AZCOF-001199
-      DailyAcres: 100
-      PercentContained: 0
+      DailyAcres: 158
+      PercentContained: 5
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-10T23:00Z'
-      ICS209ReportDateTimeEpoch: 1568156400000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-09-11T19:00Z'
+      ICS209ReportDateTimeEpoch: 1568228400000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 20000
+      EstimatedCostToDate: 60000
       FireCause: Natural
-      TotalIncidentPersonnel: 46
+      TotalIncidentPersonnel: 71
       FireDiscoveryDateTime: '2019-09-03T00:24Z'
       FireDiscoveryDateTimeEpoch: 1567470240000
       DispatchCenterID: AZFDC
       LocalIncidentIdentifier: 001199
       POOCounty: Coconino
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-10T23:00Z'
-      ModifiedOnDateTimeEpoch: 1568156400000
-      ModifiedBySystem: ics209
+      ModifiedOnDateTime: '2019-09-11T19:00Z'
+      ModifiedOnDateTimeEpoch: 1568228400000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZCOF-001199
-      ModifiedOnDateTime_Raw: '2019-09-11T00:40Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568162449000
+      ModifiedOnDateTime_Raw: '2019-09-11T20:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568234926000
       Hashtag: '#WhiskeyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-11T01:01:14.541Z'
+          RetrievedOn: '2019-09-11T21:00:59.915Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -78375,40 +78375,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -111.83991110031619
+      Lat: 35.04416534411585
+      objectid: 27
+      latitude: 35.04416
+      longitude: -111.8399
+      acres: 158
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-11T19:00Z'
+      reportdatetimeEpoch: 1568228400000
+      percentcontained: 5
+      uniquefireidentifier: 2019-AZCOF-001199
+      firediscoverydatetime: '2019-09-03T00:24Z'
+      firediscoverydatetimeEpoch: 1567470240000
+      complexparentirwinid: null
+      pooresponsibleunit: AZCOF
+      incidentname: Whiskey
+      iscomplex: 'false'
+      irwinid: '{7E44CE02-B28E-4977-AD48-00FDC48226A8}'
+      irwinmodifiedon: '2019-09-11T20:48Z'
+      irwinmodifiedonEpoch: 1568234927000
+      mapsymbol: '1'
+      datecurrent: '2019-09-11T15:00Z'
+      datecurrentEpoch: 1568214033000
+      pooownerunit: AZCOF
+      fireyear: 2019
+      localincidentidentifier: 001199
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 158
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-11T19:00Z'
+      ModifiedOnDateTimeEpoch: 1568228400000
+      PercentContained: 5
+      UniqueFireIdentifier: 2019-AZCOF-001199
+      FireDiscoveryDateTime: '2019-09-03T00:24Z'
+      FireDiscoveryDateTimeEpoch: 1567470240000
+      Fire_Name: Whiskey
+      Name: Whiskey
+      Source: GEOMAC
+      Hashtag: '#WhiskeyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-11T21:00:59.916Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZCOF-001199
     Lon: -111.83991151307245
     Lat: 35.044167853293
     id: 131824
     Name: Whiskey
     Fire_Name: Whiskey
     UniqueFireIdentifier: 2019-AZCOF-001199
-    DailyAcres: 100
-    PercentContained: 0
+    DailyAcres: 158
+    PercentContained: 5
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-10T23:00Z'
-    ICS209ReportDateTimeEpoch: 1568156400000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-09-11T19:00Z'
+    ICS209ReportDateTimeEpoch: 1568228400000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 20000
+    EstimatedCostToDate: 60000
     FireCause: Natural
-    TotalIncidentPersonnel: 46
+    TotalIncidentPersonnel: 71
     FireDiscoveryDateTime: '2019-09-03T00:24Z'
     FireDiscoveryDateTimeEpoch: 1567470240000
     DispatchCenterID: AZFDC
     LocalIncidentIdentifier: 001199
     POOCounty: Coconino
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-10T23:00Z'
-    ModifiedOnDateTimeEpoch: 1568156400000
-    ModifiedBySystem: ics209
+    ModifiedOnDateTime: '2019-09-11T19:00Z'
+    ModifiedOnDateTimeEpoch: 1568228400000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZCOF-001199
-    ModifiedOnDateTime_Raw: '2019-09-11T00:40Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568162449000
+    ModifiedOnDateTime_Raw: '2019-09-11T20:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1568234926000
     Hashtag: '#WhiskeyFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -78420,8 +78486,8 @@ Database:
     unitMention: '@CoconinoNF'
     Final_Fire_Name: Whiskey Fire
     _Update:
-      UpdateId: 'UPD-2019-09-10T23:00Z-PER-none-ID-2019-AZCOF-001199-NAME-Whiskey-S-N'
-      Code: 4920dc1ce7209f72f96c596ecd5fa373b357b997e6caa67ed9ab8a23a339a70d
+      UpdateId: 'UPD-2019-09-11T19:00Z-PER-none-ID-2019-AZCOF-001199-NAME-Whiskey-S-N'
+      Code: 1053dd2ee3ba85c8984d509e9f9d556f333ef8b8d0794a77f76c9b6353d1a61a
   CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142:
     Source_CALFIRE:
       Lon: -122.64
