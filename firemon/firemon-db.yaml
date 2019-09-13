@@ -79535,170 +79535,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-12T23:56Z-PER-2019-09-10T13:00Z-ID-2019-AZGCP-000053-NAME-IKES-S-N
       Code: 35ebfb428c7dadd8d762592fbc13c8eaf048bfe87c348a23f3e08bbb99961d24
-  2019-CATGU-009386:
-    Source_CALFIRE:
-      Lon: -122.64
-      Lat: 40.12
-      incident_name: Red Bank Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-12T14:29Z'
-      incident_date_last_updateEpoch: 1568298579000
-      incident_date_created: '2019-09-05T20:19Z'
-      incident_date_createdEpoch: 1567714796000
-      incident_administrative_unit: CAL FIRE Tehama Glenn Unit
-      incident_administrative_unit_url: ''
-      incident_county: Tehama
-      incident_location: 'Off Hammer Loop Road and Petty John Road, West of Red Bluff'
-      incident_acres_burned: 8838
-      incident_containment: 90
-      incident_control: ''
-      incident_cooperating_agencies: Tehama County Sheriff's Office
-      incident_longitude: -122.64
-      incident_latitude: 40.12
-      incident_type: Wildfire
-      incident_id: 14ad161c-bfc6-41ae-af84-a464084a4142
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/red-bank-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-05'
-      is_active: 'Y'
-      Fire_Name: Red Bank Fire
-      ModifiedOnDateTime: '2019-09-12T14:29Z'
-      ModifiedOnDateTimeEpoch: 1568298579000
-      DailyAcres: 8838
-      PercentContained: 90
-      UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-      Name: Red Bank Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#RedBankFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=14ad161c-bfc6-41ae-af84-a464084a4142
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-13T01:01:53.186Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-    Source_NFSA_Join:
-      Lon: -122.64001481423351
-      Lat: 40.12000201883323
-      id: 132432
-      Name: RED BANK
-      Fire_Name: RED BANK
-      UniqueFireIdentifier: 2019-CATGU-009386
-      DailyAcres: 8838
-      PercentContained: 95
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2019-09-13T00:45Z'
-      ICS209ReportDateTimeEpoch: 1568335500000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 18600000
-      FireCause: Natural
-      TotalIncidentPersonnel: 1162
-      FireDiscoveryDateTime: '2019-09-05T19:19Z'
-      FireDiscoveryDateTimeEpoch: 1567711140000
-      DispatchCenterID: CATGCC
-      LocalIncidentIdentifier: 009386
-      POOCounty: Tehama
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-13T00:45Z'
-      ModifiedOnDateTimeEpoch: 1568335500000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CATGU-009386
-      ModifiedOnDateTime_Raw: '2019-09-13T00:47Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568335640000
-      Hashtag: '#RedBankFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-13T01:01:53.185Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -122.64001481423351
-    Lat: 40.12000201883323
-    id: 132432
-    Name: RED BANK
-    Fire_Name: RED BANK
-    UniqueFireIdentifier: 2019-CATGU-009386
-    DailyAcres: 8838
-    PercentContained: 95
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2019-09-13T00:45Z'
-    ICS209ReportDateTimeEpoch: 1568335500000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 18600000
-    FireCause: Natural
-    TotalIncidentPersonnel: 1162
-    FireDiscoveryDateTime: '2019-09-05T19:19Z'
-    FireDiscoveryDateTimeEpoch: 1567711140000
-    DispatchCenterID: CATGCC
-    LocalIncidentIdentifier: 009386
-    POOCounty: Tehama
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-13T00:45Z'
-    ModifiedOnDateTimeEpoch: 1568335500000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CATGU-009386
-      - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-    ModifiedOnDateTime_Raw: '2019-09-13T00:47Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568335640000
-    Hashtag: '#RedBankFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-11T22:46Z'
-    PerimeterData:
-      DateTime: '2019-09-11T22:46Z'
-      Acres: 8821.83929911
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-13T01:02:01.820Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CATGU
-    unitMention: Tehama-Glenn Unit
-    Final_Fire_Name: Red Bank Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-13T00:45Z-PER-2019-09-11T22:46Z-ID-2019-CATGU-009386-NAME-REDBANK-S-N
-      Code: 7e317389d2654c32781dbc69f92155426dc84e0654168a22d7536cbca5d156e1
   CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
@@ -80082,3 +79918,170 @@ Database:
       UpdateId: >-
         UPD-2019-09-13T01:20Z-PER-none-ID-CALFIRE-f68808fb-a705-4083-a136-1a45c61c7f74-NAME-Tenaja-S-C
       Code: 498fc3c0096c6c3e89b7645498a7918dc5f9b4997f2fe9a0369171fcbea7ecdb
+  CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142:
+    Source_CALFIRE:
+      Lon: -122.64
+      Lat: 40.12
+      incident_name: Red Bank Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-13T01:46Z'
+      incident_date_last_updateEpoch: 1568339195000
+      incident_date_created: '2019-09-05T20:19Z'
+      incident_date_createdEpoch: 1567714796000
+      incident_administrative_unit: CAL FIRE Tehama Glenn Unit
+      incident_administrative_unit_url: ''
+      incident_county: Tehama
+      incident_location: 'Off Hammer Loop Road and Petty John Road, West of Red Bluff'
+      incident_acres_burned: 8838
+      incident_containment: 95
+      incident_control: ''
+      incident_cooperating_agencies: Tehama County Sheriff's Office
+      incident_longitude: -122.64
+      incident_latitude: 40.12
+      incident_type: Wildfire
+      incident_id: 14ad161c-bfc6-41ae-af84-a464084a4142
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/red-bank-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-05'
+      is_active: 'Y'
+      Fire_Name: Red Bank Fire
+      ModifiedOnDateTime: '2019-09-13T01:46Z'
+      ModifiedOnDateTimeEpoch: 1568339195000
+      DailyAcres: 8838
+      PercentContained: 95
+      UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
+      Name: Red Bank Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#RedBankFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=14ad161c-bfc6-41ae-af84-a464084a4142
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-13T01:46:48.281Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
+    Source_NFSA_Join:
+      Lon: -122.64001481423351
+      Lat: 40.12000201883323
+      id: 132432
+      Name: RED BANK
+      Fire_Name: RED BANK
+      UniqueFireIdentifier: 2019-CATGU-009386
+      DailyAcres: 8838
+      PercentContained: 95
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2019-09-13T00:45Z'
+      ICS209ReportDateTimeEpoch: 1568335500000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 18600000
+      FireCause: Natural
+      TotalIncidentPersonnel: 1162
+      FireDiscoveryDateTime: '2019-09-05T19:19Z'
+      FireDiscoveryDateTimeEpoch: 1567711140000
+      DispatchCenterID: CATGCC
+      LocalIncidentIdentifier: 009386
+      POOCounty: Tehama
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-13T00:45Z'
+      ModifiedOnDateTimeEpoch: 1568335500000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CATGU-009386
+      ModifiedOnDateTime_Raw: '2019-09-13T00:47Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568335640000
+      Hashtag: '#RedBankFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-13T01:46:48.280Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -122.64
+    Lat: 40.12
+    incident_name: Red Bank Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-13T01:46Z'
+    incident_date_last_updateEpoch: 1568339195000
+    incident_date_created: '2019-09-05T20:19Z'
+    incident_date_createdEpoch: 1567714796000
+    incident_administrative_unit: CAL FIRE Tehama Glenn Unit
+    incident_administrative_unit_url: ''
+    incident_county: Tehama
+    incident_location: 'Off Hammer Loop Road and Petty John Road, West of Red Bluff'
+    incident_acres_burned: 8838
+    incident_containment: 95
+    incident_control: ''
+    incident_cooperating_agencies: Tehama County Sheriff's Office
+    incident_longitude: -122.64
+    incident_latitude: 40.12
+    incident_type: Wildfire
+    incident_id: 14ad161c-bfc6-41ae-af84-a464084a4142
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/red-bank-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-05'
+    is_active: 'Y'
+    Fire_Name: Red Bank Fire
+    ModifiedOnDateTime: '2019-09-13T01:46Z'
+    ModifiedOnDateTimeEpoch: 1568339195000
+    DailyAcres: 8838
+    PercentContained: 95
+    UniqueFireIdentifier: CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
+    Name: Red Bank Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#RedBankFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=14ad161c-bfc6-41ae-af84-a464084a4142
+    _CorrelationIds:
+      - 2019-CATGU-009386
+      - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
+    PerimDateTime: '2019-09-11T22:46Z'
+    PerimeterData:
+      DateTime: '2019-09-11T22:46Z'
+      Acres: 8821.83929911
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-13T01:46:56.708Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 14ad161c
+    unitMention: null
+    Final_Fire_Name: Red Bank Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-13T01:46Z-PER-2019-09-11T22:46Z-ID-CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142-NAME-RedBankFire-S-C
+      Code: 6d9d6c73f599c135ed2edb45b14538066626eabf268f8d35c2456a8d2949e3c6
