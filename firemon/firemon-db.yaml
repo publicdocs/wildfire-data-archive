@@ -79808,152 +79808,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-13T03:31Z-PER-none-ID-CALFIRE-b277af3b-3785-44c1-bdfb-c5a5ba766d2b-NAME-RedwoodFire-S-C
       Code: eb1e55592cc38cc036b377a3c12f0c806262089adaad7683b8488ba9cba97e53
-  2019-CABTU-010635:
-    Source_CALFIRE:
-      Lon: -121.412619
-      Lat: 39.45296
-      incident_name: Swedes Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-13T03:32Z'
-      incident_date_last_updateEpoch: 1568345530000
-      incident_date_created: '2019-09-07T22:06Z'
-      incident_date_createdEpoch: 1567893960000
-      incident_administrative_unit: CAL FIRE Butte County Fire
-      incident_administrative_unit_url: ''
-      incident_county: Butte
-      incident_location: 'Swedes Flat Road and Oro Bangor Highway, east of Oroville'
-      incident_acres_burned: 496
-      incident_containment: 98
-      incident_control: ''
-      incident_cooperating_agencies: CAL FIRE Butte County Fire
-      incident_longitude: -121.412619
-      incident_latitude: 39.45296
-      incident_type: Wildfire
-      incident_id: 63a43984-64ce-40aa-bbc3-98330a46353f
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/swedes-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-07'
-      is_active: 'Y'
-      Fire_Name: Swedes Fire
-      ModifiedOnDateTime: '2019-09-13T03:32Z'
-      ModifiedOnDateTimeEpoch: 1568345530000
-      DailyAcres: 496
-      PercentContained: 98
-      UniqueFireIdentifier: CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
-      Name: Swedes Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#SwedesFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=63a43984-64ce-40aa-bbc3-98330a46353f
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-13T13:01:16.569Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
-    Source_NFSA_Join:
-      Lon: -121.43304738164335
-      Lat: 39.44324527702861
-      id: 132862
-      Name: SWEDES
-      Fire_Name: SWEDES
-      UniqueFireIdentifier: 2019-CABTU-010635
-      DailyAcres: 496
-      PercentContained: 93
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-09-13T12:30Z'
-      ICS209ReportDateTimeEpoch: 1568377800000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2437756
-      FireCause: Unknown
-      TotalIncidentPersonnel: 51
-      FireDiscoveryDateTime: '2019-09-07T21:59Z'
-      FireDiscoveryDateTimeEpoch: 1567893582000
-      DispatchCenterID: CABTCC
-      LocalIncidentIdentifier: '010635'
-      POOCounty: Butte
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-13T12:30Z'
-      ModifiedOnDateTimeEpoch: 1568377800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CABTU-010635
-      ModifiedOnDateTime_Raw: '2019-09-13T12:57Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568379439000
-      Hashtag: '#SwedesFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-13T13:01:16.567Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -121.43304738164335
-    Lat: 39.44324527702861
-    id: 132862
-    Name: SWEDES
-    Fire_Name: SWEDES
-    UniqueFireIdentifier: 2019-CABTU-010635
-    DailyAcres: 496
-    PercentContained: 93
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-09-13T12:30Z'
-    ICS209ReportDateTimeEpoch: 1568377800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2437756
-    FireCause: Unknown
-    TotalIncidentPersonnel: 51
-    FireDiscoveryDateTime: '2019-09-07T21:59Z'
-    FireDiscoveryDateTimeEpoch: 1567893582000
-    DispatchCenterID: CABTCC
-    LocalIncidentIdentifier: '010635'
-    POOCounty: Butte
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-13T12:30Z'
-    ModifiedOnDateTimeEpoch: 1568377800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CABTU-010635
-      - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
-    ModifiedOnDateTime_Raw: '2019-09-13T12:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568379439000
-    Hashtag: '#SwedesFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CABTU
-    unitMention: '@CALFIRE_ButteCo'
-    Final_Fire_Name: Swedes Fire
-    _Update:
-      UpdateId: 'UPD-2019-09-13T12:30Z-PER-none-ID-2019-CABTU-010635-NAME-SWEDES-S-N'
-      Code: c742be560d29ef9768cbb58560b1af9acb61b658398a3cc1477f0cbf65a52a00
   CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
@@ -80187,3 +80041,153 @@ Database:
       UpdateId: >-
         UPD-2019-09-13T14:03Z-PER-2019-09-11T22:14Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME-TabooseFire-S-C
       Code: c419f0479806f1fdd6030e1116a833bd2a72dd1b1ee2c523b6d3cfe1451e6cf5
+  CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f:
+    Source_CALFIRE:
+      Lon: -121.412619
+      Lat: 39.45296
+      incident_name: Swedes Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-13T14:09Z'
+      incident_date_last_updateEpoch: 1568383795000
+      incident_date_created: '2019-09-07T22:06Z'
+      incident_date_createdEpoch: 1567893960000
+      incident_administrative_unit: CAL FIRE Butte County Fire
+      incident_administrative_unit_url: ''
+      incident_county: Butte
+      incident_location: 'Swedes Flat Road and Oro Bangor Highway, east of Oroville'
+      incident_acres_burned: 496
+      incident_containment: 98
+      incident_control: ''
+      incident_cooperating_agencies: CAL FIRE Butte County Fire
+      incident_longitude: -121.412619
+      incident_latitude: 39.45296
+      incident_type: Wildfire
+      incident_id: 63a43984-64ce-40aa-bbc3-98330a46353f
+      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/9/7/swedes-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-07'
+      is_active: 'Y'
+      Fire_Name: Swedes Fire
+      ModifiedOnDateTime: '2019-09-13T14:09Z'
+      ModifiedOnDateTimeEpoch: 1568383795000
+      DailyAcres: 496
+      PercentContained: 98
+      UniqueFireIdentifier: CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+      Name: Swedes Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#SwedesFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=63a43984-64ce-40aa-bbc3-98330a46353f
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-13T14:11:29.701Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+    Source_NFSA_Join:
+      Lon: -121.43304738164335
+      Lat: 39.44324527702861
+      id: 132862
+      Name: SWEDES
+      Fire_Name: SWEDES
+      UniqueFireIdentifier: 2019-CABTU-010635
+      DailyAcres: 496
+      PercentContained: 93
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-09-13T12:30Z'
+      ICS209ReportDateTimeEpoch: 1568377800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 2437756
+      FireCause: Unknown
+      TotalIncidentPersonnel: 51
+      FireDiscoveryDateTime: '2019-09-07T21:59Z'
+      FireDiscoveryDateTimeEpoch: 1567893582000
+      DispatchCenterID: CABTCC
+      LocalIncidentIdentifier: '010635'
+      POOCounty: Butte
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-13T12:30Z'
+      ModifiedOnDateTimeEpoch: 1568377800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CABTU-010635
+      ModifiedOnDateTime_Raw: '2019-09-13T12:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568379439000
+      Hashtag: '#SwedesFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-13T14:11:29.698Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -121.412619
+    Lat: 39.45296
+    incident_name: Swedes Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-13T14:09Z'
+    incident_date_last_updateEpoch: 1568383795000
+    incident_date_created: '2019-09-07T22:06Z'
+    incident_date_createdEpoch: 1567893960000
+    incident_administrative_unit: CAL FIRE Butte County Fire
+    incident_administrative_unit_url: ''
+    incident_county: Butte
+    incident_location: 'Swedes Flat Road and Oro Bangor Highway, east of Oroville'
+    incident_acres_burned: 496
+    incident_containment: 98
+    incident_control: ''
+    incident_cooperating_agencies: CAL FIRE Butte County Fire
+    incident_longitude: -121.412619
+    incident_latitude: 39.45296
+    incident_type: Wildfire
+    incident_id: 63a43984-64ce-40aa-bbc3-98330a46353f
+    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/9/7/swedes-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-07'
+    is_active: 'Y'
+    Fire_Name: Swedes Fire
+    ModifiedOnDateTime: '2019-09-13T14:09Z'
+    ModifiedOnDateTimeEpoch: 1568383795000
+    DailyAcres: 496
+    PercentContained: 98
+    UniqueFireIdentifier: CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+    Name: Swedes Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SwedesFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=63a43984-64ce-40aa-bbc3-98330a46353f
+    _CorrelationIds:
+      - 2019-CABTU-010635
+      - CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 63a43984
+    unitMention: null
+    Final_Fire_Name: Swedes Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-13T14:09Z-PER-none-ID-CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f-NAME-SwedesFire-S-C
+      Code: 020fb99754c9966a9750e0fbc5e1c0fa2d2f221e37d28e961b66ad00909b6d94
