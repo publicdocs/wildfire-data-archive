@@ -1431,13 +1431,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568341287000
     Hashtag: '#SwanLakeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-08T00:00Z'
+    PerimDateTime: '2019-09-12T20:47Z'
     PerimeterData:
-      DateTime: '2019-09-08T00:00Z'
-      Acres: 163713.520067
+      DateTime: '2019-09-12T20:47Z'
+      Acres: 163759.998855
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T02:30:30.294Z'
+          RetrievedOn: '2019-09-13T16:34:22.888Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -1458,8 +1458,8 @@ Database:
     Final_Fire_Name: Swan Lake Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-12T23:30Z-PER-2019-09-08T00:00Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
-      Code: d83eb464a197e4147d299c19bbab4c1930984513c58549e10c723c686bbb423c
+        UPD-2019-09-12T23:30Z-PER-2019-09-12T20:47Z-ID-2019-AKKKS-903181-NAME-SwanLake-S-N
+      Code: cfb3ad8fac00bba6ccc10a1be11cd972d10bd6248620ee200f16caf24cf880b3
   CALFIRE-c6e38284-336a-4435-a3a1-b2b91ee84a91:
     Source_CALFIRE:
       Lon: -117.15738
@@ -50640,185 +50640,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-23T23:30Z-PER-2019-08-19T21:20Z-ID-2019-AZKNF-000653-NAME-BOULIN-S-N
       Code: c121ce67e2ee33cec21851d66ae50ba1bcffad2f1c4a64ccd4fd0a57ec428d8f
-  2019-AZASD-000462:
-    Source_NFSA_Join:
-      Lon: -113.11981316358026
-      Lat: 36.420978116309584
-      id: 126984
-      Name: Trumbull
-      Fire_Name: Trumbull
-      UniqueFireIdentifier: 2019-AZASD-000462
-      DailyAcres: 2925
-      PercentContained: 0
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-09-05T21:00Z'
-      ICS209ReportDateTimeEpoch: 1567717200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 550000
-      FireCause: Natural
-      TotalIncidentPersonnel: 88
-      FireDiscoveryDateTime: '2019-08-05T22:57Z'
-      FireDiscoveryDateTimeEpoch: 1565045820000
-      DispatchCenterID: UTCDC
-      LocalIncidentIdentifier: '000462'
-      POOCounty: Mohave
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-05T21:00Z'
-      ModifiedOnDateTimeEpoch: 1567717200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AZASD-000462
-      ModifiedOnDateTime_Raw: '2019-09-05T21:04Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567717481000
-      Hashtag: '#TrumbullFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-05T21:30:41.743Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -113.14091147915823
-      Lat: 36.41204543897016
-      objectid: 20
-      latitude: 36.41204
-      longitude: -113.1409
-      acres: 2925
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AZ
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-09-05T21:00Z'
-      reportdatetimeEpoch: 1567717200000
-      percentcontained: 0
-      uniquefireidentifier: 2019-AZASD-000462
-      firediscoverydatetime: '2019-08-05T22:57Z'
-      firediscoverydatetimeEpoch: 1565045820000
-      complexparentirwinid: null
-      pooresponsibleunit: AZASD
-      incidentname: Trumbull
-      iscomplex: 'false'
-      irwinid: '{42111DA0-1CC0-4396-A0B3-37BB75400D29}'
-      irwinmodifiedon: '2019-09-05T21:04Z'
-      irwinmodifiedonEpoch: 1567717482000
-      mapsymbol: '1'
-      datecurrent: '2019-09-05T15:30Z'
-      datecurrentEpoch: 1567697430000
-      pooownerunit: USTPAP
-      fireyear: 2019
-      localincidentidentifier: '000462'
-      incidenttypecategory: WF
-      owneragency: BLM
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 2925
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-09-05T21:00Z'
-      ModifiedOnDateTimeEpoch: 1567717200000
-      PercentContained: 0
-      UniqueFireIdentifier: 2019-AZASD-000462
-      FireDiscoveryDateTime: '2019-08-05T22:57Z'
-      FireDiscoveryDateTimeEpoch: 1565045820000
-      Fire_Name: Trumbull
-      Name: Trumbull
-      Source: GEOMAC
-      Hashtag: '#TrumbullFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-05T21:30:41.744Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AZASD-000462
-    Lon: -113.11981316358026
-    Lat: 36.420978116309584
-    id: 126984
-    Name: Trumbull
-    Fire_Name: Trumbull
-    UniqueFireIdentifier: 2019-AZASD-000462
-    DailyAcres: 2925
-    PercentContained: 0
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-09-05T21:00Z'
-    ICS209ReportDateTimeEpoch: 1567717200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 550000
-    FireCause: Natural
-    TotalIncidentPersonnel: 88
-    FireDiscoveryDateTime: '2019-08-05T22:57Z'
-    FireDiscoveryDateTimeEpoch: 1565045820000
-    DispatchCenterID: UTCDC
-    LocalIncidentIdentifier: '000462'
-    POOCounty: Mohave
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-05T21:00Z'
-    ModifiedOnDateTimeEpoch: 1567717200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AZASD-000462
-    ModifiedOnDateTime_Raw: '2019-09-05T21:04Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567717481000
-    Hashtag: '#TrumbullFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-25T00:00Z'
-    PerimeterData:
-      DateTime: '2019-08-25T00:00Z'
-      Acres: 2930.23505594
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-05T21:30:46.634Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: AZASD
-    unitMention: Arizona Strip Field Office
-    Final_Fire_Name: Trumbull Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-05T21:00Z-PER-2019-08-25T00:00Z-ID-2019-AZASD-000462-NAME-Trumbull-S-N
-      Code: fca281f0a0dd6b6fa4665a26a5f81c23ca878cd4c915bd8e5af235e81598a873
   CALFIRE-eb975e90-a689-40fc-8f44-b13c774de0e8:
     Source_CALFIRE:
       Lon: -118.342239
@@ -69204,9 +69025,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=3a48b649-8714-433d-9952-ff2bf9e8c90a
     _CorrelationIds:
       - CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a
-    PerimDateTime: '2019-09-12T06:44Z'
+    PerimDateTime: '2019-09-13T03:38Z'
     PerimeterData:
-      DateTime: '2019-09-12T06:44Z'
+      DateTime: '2019-09-13T03:38Z'
       Acres: null
       _Provenance: null
     unitId: 3a48b649
@@ -69214,8 +69035,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-12T18:41Z-PER-2019-09-12T06:44Z-ID-CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a-NAME--S-C
-      Code: fe50ec7a73ab0b3f52c2a044bba526cec3a22725b4b2efd1ff8b87a19b5cd32b
+        UPD-2019-09-12T18:41Z-PER-2019-09-13T03:38Z-ID-CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a-NAME--S-C
+      Code: 9b82871a76eeee4f612c9e5f917aa9af63b69a9cd8075402eca02054631baaa1
   2019-AKKKS-903798:
     Source_NFSA_Join:
       Lon: -151.32023942942655
@@ -69968,13 +69789,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568379303000
     Hashtag: '#WalkerFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-11T23:24Z'
+    PerimDateTime: '2019-09-12T23:59Z'
     PerimeterData:
-      DateTime: '2019-09-11T23:24Z'
-      Acres: 48653.1040516
+      DateTime: '2019-09-12T23:59Z'
+      Acres: 49359.6943284
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T13:01:22.239Z'
+          RetrievedOn: '2019-09-13T16:34:22.888Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -69995,8 +69816,8 @@ Database:
     Final_Fire_Name: Walker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-13T12:45Z-PER-2019-09-11T23:24Z-ID-2019-CAPNF-001324-NAME-Walker-S-N
-      Code: 898b19fb66566d6ea2112be64ee9ed824a990b929e4fd51ae833b23185be52d2
+        UPD-2019-09-13T12:45Z-PER-2019-09-12T23:59Z-ID-2019-CAPNF-001324-NAME-Walker-S-N
+      Code: 99d9ef8f212ec77f6ea6b528dced21da5ad163d2b5769852f89c30be7cbd5696
   2019-IDNCF-000619:
     Source_NFSA_Join:
       Lon: -115.46361655452934
@@ -72903,13 +72724,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568327149000
     Hashtag: '#ApacheFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-07T00:00Z'
+    PerimDateTime: '2019-09-12T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-07T00:00Z'
-      Acres: 116.07516364
+      DateTime: '2019-09-12T00:00Z'
+      Acres: 109.86314803
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-12T22:31:27.702Z'
+          RetrievedOn: '2019-09-13T16:34:28.823Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -72930,8 +72751,8 @@ Database:
     Final_Fire_Name: Apache Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-12T22:15Z-PER-2019-09-07T00:00Z-ID-2019-NMGNF-000527-NAME-Apache-S-N
-      Code: ae142ff7b0a3409b2fb75ef2e1f3e4c3ad73f701a037e25c53a6a86bb913f2e9
+        UPD-2019-09-12T22:15Z-PER-2019-09-12T00:00Z-ID-2019-NMGNF-000527-NAME-Apache-S-N
+      Code: 4f4b0f3b6f845c0b0483f1184f4e9f59c644c1034a7ea807b9203f821995904c
   2019-WAOWF-000320:
     Source_NFSA_Join:
       Lon: -120.89791198374051
@@ -73480,13 +73301,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568379313000
     Hashtag: '#SouthFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-12T00:24Z'
+    PerimDateTime: '2019-09-12T22:59Z'
     PerimeterData:
-      DateTime: '2019-09-12T00:24Z'
-      Acres: 3282.17691018
+      DateTime: '2019-09-12T22:59Z'
+      Acres: 3184.78412057
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T13:01:22.239Z'
+          RetrievedOn: '2019-09-13T16:34:22.888Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -73507,8 +73328,8 @@ Database:
     Final_Fire_Name: South Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-13T12:30Z-PER-2019-09-12T00:24Z-ID-2019-CASHF-001209-NAME-SOUTH-S-N
-      Code: 8aa3b50feac644a512649131d61db692d13bc50aa11a0e1c5689d576791d8c03
+        UPD-2019-09-13T12:30Z-PER-2019-09-12T22:59Z-ID-2019-CASHF-001209-NAME-SOUTH-S-N
+      Code: 7f0e8edc00f2772fb50ffc2fa3c55337c742250ee10b9259681fedc975883cbb
   2019-COWRD-000299:
     Source_NFSA_Join:
       Lon: -108.30780768113723
@@ -73838,13 +73659,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568378963000
     Hashtag: '#LimeFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-12T06:27Z'
+    PerimDateTime: '2019-09-12T23:48Z'
     PerimeterData:
-      DateTime: '2019-09-12T06:27Z'
-      Acres: 1874.81912479
+      DateTime: '2019-09-12T23:48Z'
+      Acres: 1872.49252277
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T13:01:22.239Z'
+          RetrievedOn: '2019-09-13T16:34:22.888Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -73865,8 +73686,8 @@ Database:
     Final_Fire_Name: Lime Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-13T12:15Z-PER-2019-09-12T06:27Z-ID-2019-CAKNF-007074-NAME-LIME-S-N
-      Code: 3f7f448cfae24fc7fa30d06354ddac3005c8105fcafdf8521983a0015f827799
+        UPD-2019-09-13T12:15Z-PER-2019-09-12T23:48Z-ID-2019-CAKNF-007074-NAME-LIME-S-N
+      Code: bdcd45f662c280c63f31c240061cc43c43aa6b42e6dedc9be729bc135cb5b9c6
   2019-AKSWS-904457:
     Source_NFSA_Join:
       Lon: -154.99768169117945
@@ -74349,9 +74170,9 @@ Database:
     _CorrelationIds:
       - CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
       - CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b
-    PerimDateTime: '2019-09-12T06:44Z'
+    PerimDateTime: '2019-09-13T03:38Z'
     PerimeterData:
-      DateTime: '2019-09-12T06:44Z'
+      DateTime: '2019-09-13T03:38Z'
       Acres: null
       _Provenance: null
     unitId: 5c74d3fc
@@ -74359,8 +74180,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-12T18:42Z-PER-2019-09-12T06:44Z-ID-CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b-NAME--S-C
-      Code: a7723db7275091144b62e13e3f4a710bb49875c03592e7e3030631061ca8debf
+        UPD-2019-09-12T18:42Z-PER-2019-09-13T03:38Z-ID-CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b-NAME--S-C
+      Code: ed99e4b5722d937089306db0fc7a77e26c50b351a3cc082b377942e2c17759c5
   CALFIRE-69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7:
     Source_CALFIRE:
       Lon: -123.2129356
@@ -74561,9 +74382,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=b24dc89c-632d-46a1-8984-2ce037e37834
     _CorrelationIds:
       - CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834
-    PerimDateTime: '2019-09-12T06:44Z'
+    PerimDateTime: '2019-09-13T03:38Z'
     PerimeterData:
-      DateTime: '2019-09-12T06:44Z'
+      DateTime: '2019-09-13T03:38Z'
       Acres: null
       _Provenance: null
     unitId: b24dc89c
@@ -74571,8 +74392,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-12T18:46Z-PER-2019-09-12T06:44Z-ID-CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834-NAME--S-C
-      Code: cc893e77c4c9246a6ed7c72ae4b6c2a3dac6144ae98134cb8b01bfe40f8c48ec
+        UPD-2019-09-12T18:46Z-PER-2019-09-13T03:38Z-ID-CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834-NAME--S-C
+      Code: 81566d959d2c740619bcf5ab98a5035428734956286fb5d504ebaeb13702c0a5
   2019-AZASF-000830:
     Source_NFSA_Join:
       Lon: -109.78771024650142
@@ -75618,13 +75439,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568334504000
     Hashtag: '#MiddleFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-12T06:44Z'
+    PerimDateTime: '2019-09-13T00:27Z'
     PerimeterData:
-      DateTime: '2019-09-12T06:44Z'
-      Acres: 360.34941791
+      DateTime: '2019-09-13T00:27Z'
+      Acres: 394.32896465
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T00:31:11.719Z'
+          RetrievedOn: '2019-09-13T16:34:22.888Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -75645,8 +75466,8 @@ Database:
     Final_Fire_Name: Middle Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-12T20:00Z-PER-2019-09-12T06:44Z-ID-2019-CASHF-001196-NAME-MIDDLE-S-N
-      Code: 0759864314aff9580cf6ba9f4ced54bd2b9e96fa5109a9c6d8d1c49349cad7ac
+        UPD-2019-09-12T20:00Z-PER-2019-09-13T00:27Z-ID-2019-CASHF-001196-NAME-MIDDLE-S-N
+      Code: 83da39d1cd70d78367ade255912e378a88374d6cc1531c12aafa26ef36d72716
   CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002:
     Source_CALFIRE:
       Lon: -117.3063
@@ -76725,13 +76546,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568379240000
     Hashtag: '#Kidder2Fire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-12T00:00Z'
+    PerimDateTime: '2019-09-13T00:41Z'
     PerimeterData:
-      DateTime: '2019-09-12T00:00Z'
-      Acres: 155.59595327
+      DateTime: '2019-09-13T00:41Z'
+      Acres: 173.36613033
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T13:01:22.239Z'
+          RetrievedOn: '2019-09-13T16:34:22.888Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -76752,8 +76573,8 @@ Database:
     Final_Fire_Name: Kidder 2 Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-13T12:45Z-PER-2019-09-12T00:00Z-ID-2019-CAKNF-007099-NAME-KIDDER2-S-N
-      Code: 52e183ae9482e9dc27f588e454a9ab1a89744e898c0f80c73b1ef2f361afe05e
+        UPD-2019-09-13T12:45Z-PER-2019-09-13T00:41Z-ID-2019-CAKNF-007099-NAME-KIDDER2-S-N
+      Code: b1e577dc0f1d46865f7d3eeb16deb8541908c1b33572a79811c1c9f515b7cf2a
   CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f:
     Source_CALFIRE:
       Lon: -118.185
@@ -79677,13 +79498,13 @@ Database:
     _CorrelationIds:
       - 2019-CATGU-009386
       - CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142
-    PerimDateTime: '2019-09-11T22:46Z'
+    PerimDateTime: '2019-09-12T20:42Z'
     PerimeterData:
-      DateTime: '2019-09-11T22:46Z'
+      DateTime: '2019-09-12T20:42Z'
       Acres: 8821.83929911
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T14:09:51.292Z'
+          RetrievedOn: '2019-09-13T16:34:28.823Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -79704,8 +79525,8 @@ Database:
     Final_Fire_Name: Red Bank Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-13T14:07Z-PER-2019-09-11T22:46Z-ID-CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142-NAME-RedBankFire-S-C
-      Code: 16bc048e375d821b150881d3e20f3c1cb40a8506872440436bbd94d0c48369d1
+        UPD-2019-09-13T14:07Z-PER-2019-09-12T20:42Z-ID-CALFIRE-14ad161c-bfc6-41ae-af84-a464084a4142-NAME-RedBankFire-S-C
+      Code: 192ac7d5fadaa1366ec6cc9a06eac73d1c65ea125304484e2304998ede7fcc20
   CALFIRE-b277af3b-3785-44c1-bdfb-c5a5ba766d2b:
     Source_CALFIRE:
       Lon: -117.270144
@@ -80012,13 +79833,13 @@ Database:
     _CorrelationIds:
       - 2019-CAINF-002018
       - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    PerimDateTime: '2019-09-11T22:14Z'
+    PerimDateTime: '2019-09-13T03:38Z'
     PerimeterData:
-      DateTime: '2019-09-11T22:14Z'
-      Acres: 9118.03758963
+      DateTime: '2019-09-13T03:38Z'
+      Acres: 8591.95180515
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T14:04:26.752Z'
+          RetrievedOn: '2019-09-13T16:34:22.888Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -80039,8 +79860,8 @@ Database:
     Final_Fire_Name: Taboose Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-13T14:03Z-PER-2019-09-11T22:14Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME-TabooseFire-S-C
-      Code: c419f0479806f1fdd6030e1116a833bd2a72dd1b1ee2c523b6d3cfe1451e6cf5
+        UPD-2019-09-13T14:03Z-PER-2019-09-13T03:38Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME-TabooseFire-S-C
+      Code: 442ee23e221df3c0dfa8a439e30deb009c07c50f9b4c827f65698df6324fa825
   CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f:
     Source_CALFIRE:
       Lon: -121.412619
