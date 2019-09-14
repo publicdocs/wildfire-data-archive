@@ -78466,16 +78466,16 @@ Database:
       Name: 344 D
       Fire_Name: 344 D
       UniqueFireIdentifier: 2019-FLFNF-000505
-      DailyAcres: 204
-      PercentContained: 80
+      DailyAcres: 2246
+      PercentContained: 82
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-12T16:00Z'
-      ICS209ReportDateTimeEpoch: 1568304000000
-      ICS209ReportStatus: I
+      ICS209ReportDateTime: '2019-09-13T16:00Z'
+      ICS209ReportDateTimeEpoch: 1568390400000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 20000
+      EstimatedCostToDate: 24000
       FireCause: Natural
       TotalIncidentPersonnel: 27
       FireDiscoveryDateTime: '2019-09-11T15:40Z'
@@ -78484,21 +78484,21 @@ Database:
       LocalIncidentIdentifier: '000505'
       POOCounty: Leon
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-12T16:00Z'
-      ModifiedOnDateTimeEpoch: 1568304000000
+      ModifiedOnDateTime: '2019-09-13T16:00Z'
+      ModifiedOnDateTimeEpoch: 1568390400000
       ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-FLFNF-000505
-      ModifiedOnDateTime_Raw: '2019-09-12T19:28Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568316512000
+      ModifiedOnDateTime_Raw: '2019-09-13T23:51Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568418694000
       Hashtag: '#344DFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-12T19:32:05.401Z'
+          RetrievedOn: '2019-09-14T00:00:39.864Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -78506,22 +78506,88 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -84.63876411614909
+      Lat: 30.373575679945368
+      objectid: 38
+      latitude: 30.37357
+      longitude: -84.63876
+      acres: 2246
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: FL
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-13T16:00Z'
+      reportdatetimeEpoch: 1568390400000
+      percentcontained: 82
+      uniquefireidentifier: 2019-FLFNF-000505
+      firediscoverydatetime: '2019-09-11T15:40Z'
+      firediscoverydatetimeEpoch: 1568216400000
+      complexparentirwinid: null
+      pooresponsibleunit: FLFNF
+      incidentname: 344 D
+      iscomplex: 'false'
+      irwinid: '{823F618B-F10A-4654-B787-8E5E3D4C3A61}'
+      irwinmodifiedon: '2019-09-13T23:51Z'
+      irwinmodifiedonEpoch: 1568418695000
+      mapsymbol: '1'
+      datecurrent: '2019-09-13T18:00Z'
+      datecurrentEpoch: 1568397621000
+      pooownerunit: FLFNF
+      fireyear: 2019
+      localincidentidentifier: '000505'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 2246
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-13T16:00Z'
+      ModifiedOnDateTimeEpoch: 1568390400000
+      PercentContained: 82
+      UniqueFireIdentifier: 2019-FLFNF-000505
+      FireDiscoveryDateTime: '2019-09-11T15:40Z'
+      FireDiscoveryDateTimeEpoch: 1568216400000
+      Fire_Name: 344 D
+      Name: 344 D
+      Source: GEOMAC
+      Hashtag: '#344DFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-14T00:00:39.865Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-FLFNF-000505
     Lon: -84.6387630131822
     Lat: 30.373572070132397
     id: 133491
     Name: 344 D
     Fire_Name: 344 D
     UniqueFireIdentifier: 2019-FLFNF-000505
-    DailyAcres: 204
-    PercentContained: 80
+    DailyAcres: 2246
+    PercentContained: 82
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-12T16:00Z'
-    ICS209ReportDateTimeEpoch: 1568304000000
-    ICS209ReportStatus: I
+    ICS209ReportDateTime: '2019-09-13T16:00Z'
+    ICS209ReportDateTimeEpoch: 1568390400000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 20000
+    EstimatedCostToDate: 24000
     FireCause: Natural
     TotalIncidentPersonnel: 27
     FireDiscoveryDateTime: '2019-09-11T15:40Z'
@@ -78530,16 +78596,16 @@ Database:
     LocalIncidentIdentifier: '000505'
     POOCounty: Leon
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-12T16:00Z'
-    ModifiedOnDateTimeEpoch: 1568304000000
+    ModifiedOnDateTime: '2019-09-13T16:00Z'
+    ModifiedOnDateTimeEpoch: 1568390400000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-FLFNF-000505
-    ModifiedOnDateTime_Raw: '2019-09-12T19:28Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568316512000
+    ModifiedOnDateTime_Raw: '2019-09-13T23:51Z'
+    ModifiedOnDateTimeEpoch_Raw: 1568418694000
     Hashtag: '#344DFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -78551,8 +78617,8 @@ Database:
     unitMention: NFs in Florida
     Final_Fire_Name: 344 D Fire
     _Update:
-      UpdateId: 'UPD-2019-09-12T16:00Z-PER-none-ID-2019-FLFNF-000505-NAME-344D-S-N'
-      Code: 0527b7cbb030c0f5cc57d6e79d4a8d15dfacfc38ad6f2f9c2d145017fb417b5b
+      UpdateId: 'UPD-2019-09-13T16:00Z-PER-none-ID-2019-FLFNF-000505-NAME-344D-S-N'
+      Code: eb2121b97edc98aa33399db5d3d87b7c648c58171fd4aa45687242dc5cb912bf
   2019-WAOLP-000185:
     Source_NFSA_Join:
       Lon: -123.48907547132475
@@ -80035,3 +80101,98 @@ Database:
       UpdateId: >-
         UPD-2019-09-13T15:16Z-PER-none-ID-CALFIRE-63a43984-64ce-40aa-bbc3-98330a46353f-NAME-SwedesFire-S-C
       Code: 860bd9e9678e64a86d18a26152d26cdcb194b52fa072d94ab08508f8a36de982
+  2019-UTRID-190409:
+    Source_NFSA_Join:
+      Lon: -113.30231489670199
+      Lat: 39.388203993912065
+      id: 132915
+      Name: Swasey Peak
+      Fire_Name: Swasey Peak
+      UniqueFireIdentifier: 2019-UTRID-190409
+      DailyAcres: 0.1
+      PercentContained: 0
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-09-13T23:00Z'
+      ICS209ReportDateTimeEpoch: 1568415600000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 1
+      FireDiscoveryDateTime: '2019-09-07T20:46Z'
+      FireDiscoveryDateTimeEpoch: 1567889160000
+      DispatchCenterID: UTRFC
+      LocalIncidentIdentifier: '190409'
+      POOCounty: Millard
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-13T23:00Z'
+      ModifiedOnDateTimeEpoch: 1568415600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-UTRID-190409
+      ModifiedOnDateTime_Raw: '2019-09-13T23:39Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568417942000
+      Hashtag: '#SwaseyPeakFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-14T00:00:39.864Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -113.30231489670199
+    Lat: 39.388203993912065
+    id: 132915
+    Name: Swasey Peak
+    Fire_Name: Swasey Peak
+    UniqueFireIdentifier: 2019-UTRID-190409
+    DailyAcres: 0.1
+    PercentContained: 0
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-09-13T23:00Z'
+    ICS209ReportDateTimeEpoch: 1568415600000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 1
+    FireDiscoveryDateTime: '2019-09-07T20:46Z'
+    FireDiscoveryDateTimeEpoch: 1567889160000
+    DispatchCenterID: UTRFC
+    LocalIncidentIdentifier: '190409'
+    POOCounty: Millard
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-13T23:00Z'
+    ModifiedOnDateTimeEpoch: 1568415600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-UTRID-190409
+    ModifiedOnDateTime_Raw: '2019-09-13T23:39Z'
+    ModifiedOnDateTimeEpoch_Raw: 1568417942000
+    Hashtag: '#SwaseyPeakFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: UTRID
+    unitMention: Richfield Field Office
+    Final_Fire_Name: Swasey Peak Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-13T23:00Z-PER-none-ID-2019-UTRID-190409-NAME-SwaseyPeak-S-N'
+      Code: f6ef9df99a7c0b412ef9a1c2f24f9fc43909c8033107e68847921b6827945b9a
