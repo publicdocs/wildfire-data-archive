@@ -73941,7 +73941,7 @@ Database:
       Name: Gopher
       Fire_Name: Gopher
       UniqueFireIdentifier: 2019-ORRSF-000434
-      DailyAcres: 1
+      DailyAcres: 354
       PercentContained: 20
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
@@ -73951,7 +73951,7 @@ Database:
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 2600000
-      FireCause: Unknown
+      FireCause: Natural
       TotalIncidentPersonnel: 367
       FireDiscoveryDateTime: '2019-09-06T00:16Z'
       FireDiscoveryDateTimeEpoch: 1567728960000
@@ -73961,19 +73961,19 @@ Database:
       POOLandownerKind: Federal
       ModifiedOnDateTime: '2019-09-13T00:00Z'
       ModifiedOnDateTimeEpoch: 1568332800000
-      ModifiedBySystem: ics209
+      ModifiedBySystem: wildcad
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-ORRSF-000434
-      ModifiedOnDateTime_Raw: '2019-09-13T03:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568344379000
+      ModifiedOnDateTime_Raw: '2019-09-13T14:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568386483000
       Hashtag: '#GopherFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T03:31:04.655Z'
+          RetrievedOn: '2019-09-14T05:01:49.451Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -73981,49 +73981,127 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -122.25531129380933
-    Lat: 42.71471577945957
-    id: 132467
-    Name: Gopher
-    Fire_Name: Gopher
-    UniqueFireIdentifier: 2019-ORRSF-000434
-    DailyAcres: 1
+    Source_GEOMAC:
+      Lon: -122.25531388935887
+      Lat: 42.71471532939948
+      objectid: 33
+      latitude: 42.71471
+      longitude: -122.2553
+      acres: 354
+      gacc: NWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OR
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-14T00:00Z'
+      reportdatetimeEpoch: 1568419200000
+      percentcontained: 20
+      uniquefireidentifier: 2019-ORRSF-000434
+      firediscoverydatetime: '2019-09-06T00:16Z'
+      firediscoverydatetimeEpoch: 1567728960000
+      complexparentirwinid: null
+      pooresponsibleunit: ORRSF
+      incidentname: Gopher
+      iscomplex: 'false'
+      irwinid: '{80C31EFD-E5B1-4C91-92E7-0CF268E117E5}'
+      irwinmodifiedon: '2019-09-14T04:46Z'
+      irwinmodifiedonEpoch: 1568436384000
+      mapsymbol: '1'
+      datecurrent: '2019-09-13T23:00Z'
+      datecurrentEpoch: 1568415621000
+      pooownerunit: ORRSF
+      fireyear: 2019
+      localincidentidentifier: '000434'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 354
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-14T00:00Z'
+      ModifiedOnDateTimeEpoch: 1568419200000
+      PercentContained: 20
+      UniqueFireIdentifier: 2019-ORRSF-000434
+      FireDiscoveryDateTime: '2019-09-06T00:16Z'
+      FireDiscoveryDateTimeEpoch: 1567728960000
+      Fire_Name: Gopher
+      Name: Gopher
+      Source: GEOMAC
+      Hashtag: '#GopherFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-14T05:01:49.452Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-ORRSF-000434
+    Lon: -122.25531388935887
+    Lat: 42.71471532939948
+    objectid: 33
+    latitude: 42.71471
+    longitude: -122.2553
+    acres: 354
+    gacc: NWCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: OR
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-09-14T00:00Z'
+    reportdatetimeEpoch: 1568419200000
+    percentcontained: 20
+    uniquefireidentifier: 2019-ORRSF-000434
+    firediscoverydatetime: '2019-09-06T00:16Z'
+    firediscoverydatetimeEpoch: 1567728960000
+    complexparentirwinid: null
+    pooresponsibleunit: ORRSF
+    incidentname: Gopher
+    iscomplex: 'false'
+    irwinid: '{80C31EFD-E5B1-4C91-92E7-0CF268E117E5}'
+    irwinmodifiedon: '2019-09-14T04:46Z'
+    irwinmodifiedonEpoch: 1568436384000
+    mapsymbol: '1'
+    datecurrent: '2019-09-13T23:00Z'
+    datecurrentEpoch: 1568415621000
+    pooownerunit: ORRSF
+    fireyear: 2019
+    localincidentidentifier: '000434'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
+    DailyAcres: 354
+    FireCause: Natural
+    ModifiedOnDateTime: '2019-09-14T00:00Z'
+    ModifiedOnDateTimeEpoch: 1568419200000
     PercentContained: 20
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-13T00:00Z'
-    ICS209ReportDateTimeEpoch: 1568332800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2600000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 367
+    UniqueFireIdentifier: 2019-ORRSF-000434
     FireDiscoveryDateTime: '2019-09-06T00:16Z'
     FireDiscoveryDateTimeEpoch: 1567728960000
-    DispatchCenterID: ORRVC
-    LocalIncidentIdentifier: '000434'
-    POOCounty: Klamath
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-13T00:00Z'
-    ModifiedOnDateTimeEpoch: 1568332800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
+    Fire_Name: Gopher
+    Name: Gopher
+    Source: GEOMAC
+    Hashtag: '#GopherFire'
     _CorrelationIds:
       - 2019-ORRSF-000434
-    ModifiedOnDateTime_Raw: '2019-09-13T03:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568344379000
-    Hashtag: '#GopherFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-09-12T01:45Z'
     PerimeterData:
       DateTime: '2019-09-12T01:45Z'
       Acres: 353.13956314
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-13T03:31:13.156Z'
+          RetrievedOn: '2019-09-14T05:01:59.143Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -74044,8 +74122,8 @@ Database:
     Final_Fire_Name: Gopher Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-13T00:00Z-PER-2019-09-12T01:45Z-ID-2019-ORRSF-000434-NAME-Gopher-S-N
-      Code: 0e32a33c49ae928188a8627c5ac40aab7518ebbf8d9eaa058c55f835b7df855e
+        UPD-2019-09-14T00:00Z-PER-2019-09-12T01:45Z-ID-2019-ORRSF-000434-NAME-Gopher-S-G
+      Code: 383632fac493c979d3a836b23c65ce62f1b2ff4e5d7b01284403541952869896
   2019-CANOD-005099:
     Source_NFSA_Join:
       Lon: -120.60362389666295
