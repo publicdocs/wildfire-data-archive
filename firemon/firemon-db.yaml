@@ -80215,14 +80215,14 @@ Database:
       UpdateId: >-
         UPD-2019-09-15T14:57Z-PER-none-ID-CALFIRE-c9327432-b3d3-4ea1-b810-d339dc9e25c3-NAME-HorseshoeFire-S-C
       Code: 68047a6cc6d61f2c19ce3ef7efc8de55d804c3c55fffc387a66181f57f30c6d7
-  2019-CAINF-002018:
+  CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
       Lat: 37.034
       incident_name: Taboose Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-15T01:18Z'
-      incident_date_last_updateEpoch: 1568510297000
+      incident_date_last_update: '2019-09-15T15:34Z'
+      incident_date_last_updateEpoch: 1568561641000
       incident_date_created: '2019-09-06T19:43Z'
       incident_date_createdEpoch: 1567799015000
       incident_administrative_unit: CAL FIRE San Bernardino Unit and Inyo National Forest
@@ -80243,8 +80243,8 @@ Database:
       incident_dateonly_created: '2019-09-06'
       is_active: 'Y'
       Fire_Name: Taboose Fire
-      ModifiedOnDateTime: '2019-09-15T01:18Z'
-      ModifiedOnDateTimeEpoch: 1568510297000
+      ModifiedOnDateTime: '2019-09-15T15:34Z'
+      ModifiedOnDateTimeEpoch: 1568561641000
       DailyAcres: 9438
       PercentContained: 59
       UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
@@ -80256,7 +80256,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-15T13:31:25.884Z'
+          RetrievedOn: '2019-09-15T15:34:11.708Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -80305,7 +80305,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-15T13:31:25.882Z'
+          RetrievedOn: '2019-09-15T15:34:11.707Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -80339,8 +80339,8 @@ Database:
       irwinmodifiedon: '2019-09-15T13:10Z'
       irwinmodifiedonEpoch: 1568553009000
       mapsymbol: '1'
-      datecurrent: '2019-09-15T07:30Z'
-      datecurrentEpoch: 1568532620000
+      datecurrent: '2019-09-15T09:30Z'
+      datecurrentEpoch: 1568539821000
       pooownerunit: CAINF
       fireyear: 2019
       localincidentidentifier: 002018
@@ -80362,7 +80362,7 @@ Database:
       Hashtag: '#TabooseFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-15T13:31:25.883Z'
+          RetrievedOn: '2019-09-15T15:34:11.708Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -80379,50 +80379,53 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CAINF-002018
-    Lon: -118.32991604733373
-    Lat: 37.01154404194937
-    id: 132083
-    Name: TABOOSE
-    Fire_Name: TABOOSE
-    UniqueFireIdentifier: 2019-CAINF-002018
+    Lon: -118.345
+    Lat: 37.034
+    incident_name: Taboose Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-15T15:34Z'
+    incident_date_last_updateEpoch: 1568561641000
+    incident_date_created: '2019-09-06T19:43Z'
+    incident_date_createdEpoch: 1567799015000
+    incident_administrative_unit: CAL FIRE San Bernardino Unit and Inyo National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Inyo
+    incident_location: south west of Big Pine and north west of Aberdeen
+    incident_acres_burned: 9438
+    incident_containment: 59
+    incident_control: ''
+    incident_cooperating_agencies: 'Inyo National Forest , Inyo County Sheriff''s Office'
+    incident_longitude: -118.345
+    incident_latitude: 37.034
+    incident_type: Wildfire
+    incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
+    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-06'
+    is_active: 'Y'
+    Fire_Name: Taboose Fire
+    ModifiedOnDateTime: '2019-09-15T15:34Z'
+    ModifiedOnDateTimeEpoch: 1568561641000
     DailyAcres: 9438
     PercentContained: 59
-    FireMgmtComplexity: Type 2 Incident
-    IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2019-09-15T13:00Z'
-    ICS209ReportDateTimeEpoch: 1568552400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 6500000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 636
-    FireDiscoveryDateTime: '2019-09-05T01:12Z'
-    FireDiscoveryDateTimeEpoch: 1567645920000
-    DispatchCenterID: CAOVCC
-    LocalIncidentIdentifier: 002018
-    POOCounty: Inyo
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-15T13:00Z'
-    ModifiedOnDateTimeEpoch: 1568552400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType2
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
+    Name: Taboose Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#TabooseFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
     _CorrelationIds:
       - 2019-CAINF-002018
       - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    ModifiedOnDateTime_Raw: '2019-09-15T13:10Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568553008000
-    Hashtag: '#TabooseFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-09-13T03:38Z'
     PerimeterData:
       DateTime: '2019-09-13T03:38Z'
       Acres: 8591.95180515
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-15T13:31:31.744Z'
+          RetrievedOn: '2019-09-15T15:34:17.187Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -80438,10 +80441,10 @@ Database:
             json: true
         Modified: true
         SourceLayer: '2'
-    unitId: CAINF
-    unitMention: '@InyoInfo'
+    unitId: e7ea56c5
+    unitMention: null
     Final_Fire_Name: Taboose Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-15T13:00Z-PER-2019-09-13T03:38Z-ID-2019-CAINF-002018-NAME-TABOOSE-S-N
-      Code: 4d3df84a0ec89990a38d737ffd968c4d0c623a1913a0d4e3b288fcc9b33a8fbd
+        UPD-2019-09-15T15:34Z-PER-2019-09-13T03:38Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME-TabooseFire-S-C
+      Code: bbd427f592fc45ace5ab5fc9c4ab2785c6908c86c681fbb67d552fd209c9b6a2
