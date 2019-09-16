@@ -81037,10 +81037,10 @@ Database:
     Source_CALFIRE:
       Lon: -116.801111
       Lat: 33.635
-      incident_name: Bautista Fire
+      incident_name: Bautista Fire (Not a CAL FIRE Incident)
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-16T15:06Z'
-      incident_date_last_updateEpoch: 1568646365000
+      incident_date_last_update: '2019-09-16T16:44Z'
+      incident_date_last_updateEpoch: 1568652267000
       incident_date_created: '2019-09-16T03:13Z'
       incident_date_createdEpoch: 1568603585000
       incident_administrative_unit: San Bernardino National Forest
@@ -81055,26 +81055,28 @@ Database:
       incident_latitude: 33.635
       incident_type: Wildfire
       incident_id: 980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bautista-fire/'
+      incident_url: >-
+        https://www.fire.ca.gov/incidents/2019/9/15/bautista-fire-not-a-cal-fire-incident/
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-09-15'
       is_active: 'Y'
-      Fire_Name: Bautista Fire
-      ModifiedOnDateTime: '2019-09-16T15:06Z'
-      ModifiedOnDateTimeEpoch: 1568646365000
+      Fire_Name: ''
+      ModifiedOnDateTime: '2019-09-16T16:44Z'
+      ModifiedOnDateTimeEpoch: 1568652267000
       DailyAcres: 163
       PercentContained: 15
       UniqueFireIdentifier: CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
-      Name: Bautista Fire
+      Notes: (Not a CAL FIRE Incident)
+      Name: ''
       Source: CALFIRE
       State: CA
-      Hashtag: '#BautistaFire'
+      Hashtag: '#Fire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-16T15:07:53.648Z'
+          RetrievedOn: '2019-09-16T16:45:09.380Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -81084,6 +81086,60 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    Lon: -116.801111
+    Lat: 33.635
+    incident_name: Bautista Fire (Not a CAL FIRE Incident)
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-16T16:44Z'
+    incident_date_last_updateEpoch: 1568652267000
+    incident_date_created: '2019-09-16T03:13Z'
+    incident_date_createdEpoch: 1568603585000
+    incident_administrative_unit: San Bernardino National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Riverside
+    incident_location: 'Bautista Road and Tripp Flats, West of Lake Hemet'
+    incident_acres_burned: 163
+    incident_containment: 15
+    incident_control: ''
+    incident_cooperating_agencies: San Bernardino National Forest
+    incident_longitude: -116.801111
+    incident_latitude: 33.635
+    incident_type: Wildfire
+    incident_id: 980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    incident_url: >-
+      https://www.fire.ca.gov/incidents/2019/9/15/bautista-fire-not-a-cal-fire-incident/
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-15'
+    is_active: 'Y'
+    Fire_Name: ''
+    ModifiedOnDateTime: '2019-09-16T16:44Z'
+    ModifiedOnDateTimeEpoch: 1568652267000
+    DailyAcres: 163
+    PercentContained: 15
+    UniqueFireIdentifier: CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    Notes: (Not a CAL FIRE Incident)
+    Name: ''
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#Fire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    _CorrelationIds:
+      - CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    PerimDateTime: '2019-09-13T03:38Z'
+    PerimeterData:
+      DateTime: '2019-09-13T03:38Z'
+      Acres: null
+      _Provenance: null
+    unitId: 980c4c7d
+    unitMention: null
+    Final_Fire_Name: Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-16T16:44Z-PER-2019-09-13T03:38Z-ID-CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9-NAME--S-C
+      Code: c247257d877d1992b6a94b19caaf9bf24bf1399a3a6e88291b631097dda16b1b
+  2019-CABDF-014540:
     Source_NFSA_Join:
       Lon: -116.80807114135399
       Lat: 33.64250798111384
@@ -81123,7 +81179,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-16T15:07:53.645Z'
+          RetrievedOn: '2019-09-16T16:45:09.377Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -81131,55 +81187,50 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -116.801111
-    Lat: 33.635
-    incident_name: Bautista Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-09-16T15:06Z'
-    incident_date_last_updateEpoch: 1568646365000
-    incident_date_created: '2019-09-16T03:13Z'
-    incident_date_createdEpoch: 1568603585000
-    incident_administrative_unit: San Bernardino National Forest
-    incident_administrative_unit_url: ''
-    incident_county: Riverside
-    incident_location: 'Bautista Road and Tripp Flats, West of Lake Hemet'
-    incident_acres_burned: 163
-    incident_containment: 15
-    incident_control: ''
-    incident_cooperating_agencies: San Bernardino National Forest
-    incident_longitude: -116.801111
-    incident_latitude: 33.635
-    incident_type: Wildfire
-    incident_id: 980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bautista-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-09-15'
-    is_active: 'Y'
-    Fire_Name: Bautista Fire
-    ModifiedOnDateTime: '2019-09-16T15:06Z'
-    ModifiedOnDateTimeEpoch: 1568646365000
-    DailyAcres: 163
-    PercentContained: 15
-    UniqueFireIdentifier: CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
-    Name: Bautista Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#BautistaFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    Lon: -116.80807114135399
+    Lat: 33.64250798111384
+    id: 133949
+    Name: BAUTISTA
+    Fire_Name: BAUTISTA
+    UniqueFireIdentifier: 2019-CABDF-014540
+    DailyAcres: 300
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-09-16T00:52Z'
+    FireDiscoveryDateTimeEpoch: 1568595120000
+    DispatchCenterID: CARRCC
+    LocalIncidentIdentifier: '014540'
+    POOCounty: Riverside
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-16T06:03Z'
+    ModifiedOnDateTimeEpoch: 1568613814000
+    ModifiedBySystem: cfcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-CABDF-014540
-      - CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    ModifiedOnDateTime_Raw: '2019-09-16T06:03Z'
+    ModifiedOnDateTimeEpoch_Raw: 1568613814000
+    Hashtag: '#BautistaFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: 980c4c7d
-    unitMention: null
+    unitId: CABDF
+    unitMention: '@SanBernardinoNF'
     Final_Fire_Name: Bautista Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-09-16T15:06Z-PER-none-ID-CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9-NAME-BautistaFire-S-C
-      Code: f9c820c86ada38d91fca41602e622f3bcf1a24a65286d0fdc18ac8e97afc9d03
+      UpdateId: 'UPD-2019-09-16T06:03Z-PER-none-ID-2019-CABDF-014540-NAME-BAUTISTA-S-N'
+      Code: 98872710f9a0d0413ba517f38678a17bce33e99633306dff955f31208dd4c64d
