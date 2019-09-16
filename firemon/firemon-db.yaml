@@ -80603,10 +80603,10 @@ Database:
     Source_CALFIRE:
       Lon: -123.000833
       Lat: 41.749667
-      incident_name: Bar Fire
+      incident_name: Bar Fire (Not a CAL FIRE Incident)
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-16T15:08Z'
-      incident_date_last_updateEpoch: 1568646494000
+      incident_date_last_update: '2019-09-16T16:05Z'
+      incident_date_last_updateEpoch: 1568649904000
       incident_date_created: '2019-09-15T22:52Z'
       incident_date_createdEpoch: 1568587920000
       incident_administrative_unit: Klamath National Forest
@@ -80621,26 +80621,28 @@ Database:
       incident_latitude: 41.749667
       incident_type: Wildfire
       incident_id: 8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bar-fire/'
+      incident_url: >-
+        https://www.fire.ca.gov/incidents/2019/9/15/bar-fire-not-a-cal-fire-incident/
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-09-15'
       is_active: 'Y'
-      Fire_Name: Bar Fire
-      ModifiedOnDateTime: '2019-09-16T15:08Z'
-      ModifiedOnDateTimeEpoch: 1568646494000
+      Fire_Name: ''
+      ModifiedOnDateTime: '2019-09-16T16:05Z'
+      ModifiedOnDateTimeEpoch: 1568649904000
       DailyAcres: 30
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
-      Name: Bar Fire
+      Notes: (Not a CAL FIRE Incident)
+      Name: ''
       Source: CALFIRE
       State: CA
-      Hashtag: '#BarFire'
+      Hashtag: '#Fire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-16T15:12:46.967Z'
+          RetrievedOn: '2019-09-16T16:05:56.805Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -80652,10 +80654,10 @@ Database:
         - CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
     Lon: -123.000833
     Lat: 41.749667
-    incident_name: Bar Fire
+    incident_name: Bar Fire (Not a CAL FIRE Incident)
     incident_is_final: 'False'
-    incident_date_last_update: '2019-09-16T15:08Z'
-    incident_date_last_updateEpoch: 1568646494000
+    incident_date_last_update: '2019-09-16T16:05Z'
+    incident_date_last_updateEpoch: 1568649904000
     incident_date_created: '2019-09-15T22:52Z'
     incident_date_createdEpoch: 1568587920000
     incident_administrative_unit: Klamath National Forest
@@ -80670,37 +80672,39 @@ Database:
     incident_latitude: 41.749667
     incident_type: Wildfire
     incident_id: 8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bar-fire/'
+    incident_url: >-
+      https://www.fire.ca.gov/incidents/2019/9/15/bar-fire-not-a-cal-fire-incident/
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-09-15'
     is_active: 'Y'
-    Fire_Name: Bar Fire
-    ModifiedOnDateTime: '2019-09-16T15:08Z'
-    ModifiedOnDateTimeEpoch: 1568646494000
+    Fire_Name: ''
+    ModifiedOnDateTime: '2019-09-16T16:05Z'
+    ModifiedOnDateTimeEpoch: 1568649904000
     DailyAcres: 30
     PercentContained: 0
     UniqueFireIdentifier: CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
-    Name: Bar Fire
+    Notes: (Not a CAL FIRE Incident)
+    Name: ''
     Source: CALFIRE
     State: CA
-    Hashtag: '#BarFire'
+    Hashtag: '#Fire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
     _CorrelationIds:
       - CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
-    PerimDateTime: null
+    PerimDateTime: '2019-09-13T03:38Z'
     PerimeterData:
-      DateTime: null
+      DateTime: '2019-09-13T03:38Z'
       Acres: null
       _Provenance: null
     unitId: 8b4a5b95
     unitMention: null
-    Final_Fire_Name: Bar Fire
+    Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-16T15:08Z-PER-none-ID-CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5-NAME-BarFire-S-C
-      Code: df14007796abf27b7689255445739ffa58a6a7329d0ac2314b270fd134c1e686
+        UPD-2019-09-16T16:05Z-PER-2019-09-13T03:38Z-ID-CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5-NAME--S-C
+      Code: 1a00621fa9b1c42d4916641d4fb18f347a657ad211fd22c70f2648b022243ce2
   2019-WYALX-019407:
     Source_NFSA_Join:
       Lon: -105.73240962678929
@@ -80709,7 +80713,7 @@ Database:
       Name: BUSH CREEK
       Fire_Name: BUSH CREEK
       UniqueFireIdentifier: 2019-WYALX-019407
-      DailyAcres: 550
+      DailyAcres: 470
       PercentContained: null
       FireMgmtComplexity: null
       IncidentManagementOrganization: null
@@ -80727,21 +80731,21 @@ Database:
       LocalIncidentIdentifier: 019407
       POOCounty: Albany
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-16T15:11Z'
-      ModifiedOnDateTimeEpoch: 1568646665000
+      ModifiedOnDateTime: '2019-09-16T15:56Z'
+      ModifiedOnDateTimeEpoch: 1568649390000
       ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WYALX-019407
-      ModifiedOnDateTime_Raw: '2019-09-16T15:11Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568646665000
+      ModifiedOnDateTime_Raw: '2019-09-16T15:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568649390000
       Hashtag: '#BushCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-16T15:40:12.645Z'
+          RetrievedOn: '2019-09-16T16:05:56.804Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -80755,7 +80759,7 @@ Database:
     Name: BUSH CREEK
     Fire_Name: BUSH CREEK
     UniqueFireIdentifier: 2019-WYALX-019407
-    DailyAcres: 550
+    DailyAcres: 470
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -80773,16 +80777,16 @@ Database:
     LocalIncidentIdentifier: 019407
     POOCounty: Albany
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-16T15:11Z'
-    ModifiedOnDateTimeEpoch: 1568646665000
+    ModifiedOnDateTime: '2019-09-16T15:56Z'
+    ModifiedOnDateTimeEpoch: 1568649390000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-WYALX-019407
-    ModifiedOnDateTime_Raw: '2019-09-16T15:11Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568646665000
+    ModifiedOnDateTime_Raw: '2019-09-16T15:56Z'
+    ModifiedOnDateTimeEpoch_Raw: 1568649390000
     Hashtag: '#BushCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -80794,8 +80798,8 @@ Database:
     unitMention: Albany Co.
     Final_Fire_Name: Bush Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-09-16T15:11Z-PER-none-ID-2019-WYALX-019407-NAME-BUSHCREEK-S-N'
-      Code: 8e4d5d9bdb309819e3d71c9e7f759ac9d7a939b01dda200ec702f5457568a0fe
+      UpdateId: 'UPD-2019-09-16T15:56Z-PER-none-ID-2019-WYALX-019407-NAME-BUSHCREEK-S-N'
+      Code: e6201d2d81fb9685d58145b54f7fcd1d27cbab330d0cd1f49132755471a87085
   CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
