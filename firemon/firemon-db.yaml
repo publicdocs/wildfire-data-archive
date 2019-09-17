@@ -80722,38 +80722,38 @@ Database:
       Fire_Name: Crooked Creek
       UniqueFireIdentifier: 2019-MTLG03-190551
       DailyAcres: 316
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 50
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-17T14:45Z'
+      ICS209ReportDateTimeEpoch: 1568731500000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 100000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 39
       FireDiscoveryDateTime: '2019-09-17T04:18Z'
       FireDiscoveryDateTimeEpoch: 1568693880000
       DispatchCenterID: MTBDC
       LocalIncidentIdentifier: '190551'
       POOCounty: Yellowstone
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-17T12:50Z'
-      ModifiedOnDateTimeEpoch: 1568724622000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-09-17T14:45Z'
+      ModifiedOnDateTimeEpoch: 1568731500000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-MTLG03-190551
-      ModifiedOnDateTime_Raw: '2019-09-17T12:50Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568724622000
+      ModifiedOnDateTime_Raw: '2019-09-17T15:17Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568733467000
       Hashtag: '#CrookedCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-17T13:00:58.853Z'
+          RetrievedOn: '2019-09-17T15:31:23.311Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -80761,6 +80761,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -108.52831185994586
+      Lat: 46.01328688702062
+      objectid: 34
+      latitude: 46.01328
+      longitude: -108.5283
+      acres: 316
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: MT
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-09-17T14:45Z'
+      reportdatetimeEpoch: 1568731500000
+      percentcontained: 50
+      uniquefireidentifier: 2019-MTLG03-190551
+      firediscoverydatetime: '2019-09-17T04:18Z'
+      firediscoverydatetimeEpoch: 1568693880000
+      complexparentirwinid: null
+      pooresponsibleunit: MTLG03
+      incidentname: Crooked Creek
+      iscomplex: 'false'
+      irwinid: '{07C82AA4-7A58-4964-BA7B-46D3EF4CB44E}'
+      irwinmodifiedon: '2019-09-17T15:17Z'
+      irwinmodifiedonEpoch: 1568733467000
+      mapsymbol: '1'
+      datecurrent: '2019-09-17T09:30Z'
+      datecurrentEpoch: 1568712629000
+      pooownerunit: MTMCD
+      fireyear: 2019
+      localincidentidentifier: '190551'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 316
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-17T14:45Z'
+      ModifiedOnDateTimeEpoch: 1568731500000
+      PercentContained: 50
+      UniqueFireIdentifier: 2019-MTLG03-190551
+      FireDiscoveryDateTime: '2019-09-17T04:18Z'
+      FireDiscoveryDateTimeEpoch: 1568693880000
+      Fire_Name: Crooked Creek
+      Name: Crooked Creek
+      Source: GEOMAC
+      Hashtag: '#CrookedCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-17T15:31:23.312Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-MTLG03-190551
     Lon: -108.50920996783682
     Lat: 46.01612724922337
     id: 134098
@@ -80768,33 +80834,33 @@ Database:
     Fire_Name: Crooked Creek
     UniqueFireIdentifier: 2019-MTLG03-190551
     DailyAcres: 316
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 50
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-17T14:45Z'
+    ICS209ReportDateTimeEpoch: 1568731500000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 100000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 39
     FireDiscoveryDateTime: '2019-09-17T04:18Z'
     FireDiscoveryDateTimeEpoch: 1568693880000
     DispatchCenterID: MTBDC
     LocalIncidentIdentifier: '190551'
     POOCounty: Yellowstone
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-17T12:50Z'
-    ModifiedOnDateTimeEpoch: 1568724622000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-09-17T14:45Z'
+    ModifiedOnDateTimeEpoch: 1568731500000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-MTLG03-190551
-    ModifiedOnDateTime_Raw: '2019-09-17T12:50Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568724622000
+    ModifiedOnDateTime_Raw: '2019-09-17T15:17Z'
+    ModifiedOnDateTimeEpoch_Raw: 1568733467000
     Hashtag: '#CrookedCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -80807,8 +80873,8 @@ Database:
     Final_Fire_Name: Crooked Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-17T12:50Z-PER-none-ID-2019-MTLG03-190551-NAME-CrookedCreek-S-N
-      Code: abcab32375ca02d7332d5d19969609d0d9f9aa5b8faff41155a7bface1fe2a2a
+        UPD-2019-09-17T14:45Z-PER-none-ID-2019-MTLG03-190551-NAME-CrookedCreek-S-N
+      Code: 990e98f450e80fe603ce2ec5bd92c9275db0c4a6679a4418748c8f375e1b3626
   CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
