@@ -74863,13 +74863,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568928698000
     Hashtag: '#DeckerFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-15T14:00Z'
+    PerimDateTime: '2019-09-19T19:32Z'
     PerimeterData:
-      DateTime: '2019-09-15T14:00Z'
-      Acres: 851.82197412
+      DateTime: '2019-09-19T19:32Z'
+      Acres: 905.25909964
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-19T22:00:56.303Z'
+          RetrievedOn: '2019-09-20T16:55:41.871Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -74890,8 +74890,8 @@ Database:
     Final_Fire_Name: Decker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-19T21:15Z-PER-2019-09-15T14:00Z-ID-2019-CORGF-001388-NAME-Decker-S-N
-      Code: c51c8eba16e0bad79e7cebbb7091a88e1620f4ecdfa5a0fa6ccfc56896536006
+        UPD-2019-09-19T21:15Z-PER-2019-09-19T19:32Z-ID-2019-CORGF-001388-NAME-Decker-S-N
+      Code: 3b411e7a3d5edf09aea7da7256290a111af73e354a98c0853daa11f61b3a150c
   2019-AZCOF-001199:
     Source_NFSA_Join:
       Lon: -111.83991151307245
@@ -76726,17 +76726,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1568932884000
     Hashtag: '#SwaseyPeakFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-09-19T00:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-09-19T00:00Z'
+      Acres: 29.80831938
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-20T16:55:41.871Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: UTRID
     unitMention: Richfield Field Office
     Final_Fire_Name: Swasey Peak Fire
     _Update:
-      UpdateId: 'UPD-2019-09-19T22:15Z-PER-none-ID-2019-UTRID-190409-NAME-SwaseyPeak-S-N'
-      Code: 4a71f48806a6ff355d8bc6f9e86ae3a80338f77348d424f4b236b2c85daa0c6b
+      UpdateId: >-
+        UPD-2019-09-19T22:15Z-PER-2019-09-19T00:00Z-ID-2019-UTRID-190409-NAME-SwaseyPeak-S-N
+      Code: 07463c7cfbb30c4b039169f444fcc4c661167231848a8fb4f3ee1ac1197cf1a7
   2019-UTMLF-009266:
     Source_NFSA_Join:
       Lon: -109.69100660616594
