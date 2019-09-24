@@ -82240,3 +82240,164 @@ Database:
       UpdateId: >-
         UPD-2019-09-24T20:43Z-PER-2019-09-23T23:41Z-ID-CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918-NAME--S-C
       Code: bf28369118d93e8ee3067fcbc15824e3b01b6d30c61016135bcb7c688ea21fc4
+  2019-FLEAQ-019011:
+    Source_NFSA_Join:
+      Lon: -86.68694881043324
+      Lat: 30.86805960541961
+      id: 134866
+      Name: PINCH
+      Fire_Name: PINCH
+      UniqueFireIdentifier: 2019-FLEAQ-019011
+      DailyAcres: 500
+      PercentContained: 80
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-24T21:15Z'
+      ICS209ReportDateTimeEpoch: 1569359700000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5000
+      FireCause: Human
+      TotalIncidentPersonnel: 3
+      FireDiscoveryDateTime: '2019-09-23T17:15Z'
+      FireDiscoveryDateTimeEpoch: 1569258900000
+      DispatchCenterID: FLFIC
+      LocalIncidentIdentifier: 019011
+      POOCounty: Okaloosa
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-24T21:15Z'
+      ModifiedOnDateTimeEpoch: 1569359700000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-FLEAQ-019011
+      ModifiedOnDateTime_Raw: '2019-09-24T21:23Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569360228000
+      Hashtag: '#PinchFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-24T21:32:04.645Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -86.6869491171025
+      Lat: 30.868061325724465
+      objectid: 26
+      latitude: 30.8680556
+      longitude: -86.6869444
+      acres: 500
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: FL
+      status: U
+      firecause: Human
+      reportdatetime: '2019-09-24T21:15Z'
+      reportdatetimeEpoch: 1569359700000
+      percentcontained: 80
+      uniquefireidentifier: 2019-FLEAQ-019011
+      firediscoverydatetime: '2019-09-23T17:15Z'
+      firediscoverydatetimeEpoch: 1569258900000
+      complexparentirwinid: null
+      pooresponsibleunit: FLEAQ
+      incidentname: PINCH
+      iscomplex: 'false'
+      irwinid: '{E0827A14-7FAE-4A14-BDDA-AAB7DC061262}'
+      irwinmodifiedon: '2019-09-24T21:23Z'
+      irwinmodifiedonEpoch: 1569360229000
+      mapsymbol: '1'
+      datecurrent: '2019-09-24T15:30Z'
+      datecurrentEpoch: 1569339030000
+      pooownerunit: FLFLS
+      fireyear: 2019
+      localincidentidentifier: 019011
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 500
+      FireCause: Human
+      ModifiedOnDateTime: '2019-09-24T21:15Z'
+      ModifiedOnDateTimeEpoch: 1569359700000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-FLEAQ-019011
+      FireDiscoveryDateTime: '2019-09-23T17:15Z'
+      FireDiscoveryDateTimeEpoch: 1569258900000
+      Fire_Name: PINCH
+      Name: PINCH
+      Source: GEOMAC
+      Hashtag: '#PinchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-24T21:32:04.646Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-FLEAQ-019011
+    Lon: -86.68694881043324
+    Lat: 30.86805960541961
+    id: 134866
+    Name: PINCH
+    Fire_Name: PINCH
+    UniqueFireIdentifier: 2019-FLEAQ-019011
+    DailyAcres: 500
+    PercentContained: 80
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-24T21:15Z'
+    ICS209ReportDateTimeEpoch: 1569359700000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 5000
+    FireCause: Human
+    TotalIncidentPersonnel: 3
+    FireDiscoveryDateTime: '2019-09-23T17:15Z'
+    FireDiscoveryDateTimeEpoch: 1569258900000
+    DispatchCenterID: FLFIC
+    LocalIncidentIdentifier: 019011
+    POOCounty: Okaloosa
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-09-24T21:15Z'
+    ModifiedOnDateTimeEpoch: 1569359700000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-FLEAQ-019011
+    ModifiedOnDateTime_Raw: '2019-09-24T21:23Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569360228000
+    Hashtag: '#PinchFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: FLEAQ
+    unitMention: '@TeamEglin'
+    Final_Fire_Name: Pinch Fire
+    _Update:
+      UpdateId: 'UPD-2019-09-24T21:15Z-PER-none-ID-2019-FLEAQ-019011-NAME-PINCH-S-N'
+      Code: 3fdf64fc16256d317e26d84050ef2c3065fb7c98dd4212c4caf9bce2eb576563
