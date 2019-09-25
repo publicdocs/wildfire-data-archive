@@ -72536,9 +72536,9 @@ Database:
       PercentContained: 89
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-24T23:30Z'
-      ICS209ReportDateTimeEpoch: 1569367800000
-      ICS209ReportStatus: F
+      ICS209ReportDateTime: '2019-09-25T00:00Z'
+      ICS209ReportDateTimeEpoch: 1569369600000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 2200000
@@ -72550,21 +72550,21 @@ Database:
       LocalIncidentIdentifier: 001196
       POOCounty: Trinity
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-24T23:30Z'
-      ModifiedOnDateTimeEpoch: 1569367800000
+      ModifiedOnDateTime: '2019-09-25T00:00Z'
+      ModifiedOnDateTimeEpoch: 1569369600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CASHF-001196
-      ModifiedOnDateTime_Raw: '2019-09-24T23:33Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569368001000
+      ModifiedOnDateTime_Raw: '2019-09-25T00:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569371331000
       Hashtag: '#MiddleFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-25T00:01:22.785Z'
+          RetrievedOn: '2019-09-25T00:31:11.971Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -72572,6 +72572,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -123.01390261390974
+      Lat: 40.88694953515646
+      objectid: 18
+      latitude: 40.8869444
+      longitude: -123.0138889
+      acres: 1339
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-25T00:00Z'
+      reportdatetimeEpoch: 1569369600000
+      percentcontained: 89
+      uniquefireidentifier: 2019-CASHF-001196
+      firediscoverydatetime: '2019-09-05T16:07Z'
+      firediscoverydatetimeEpoch: 1567699620000
+      complexparentirwinid: null
+      pooresponsibleunit: CASHF
+      incidentname: MIDDLE
+      iscomplex: 'false'
+      irwinid: '{20EEC0CB-93DD-4D5E-946D-2349AE51F360}'
+      irwinmodifiedon: '2019-09-25T00:28Z'
+      irwinmodifiedonEpoch: 1569371331000
+      mapsymbol: '1'
+      datecurrent: '2019-09-24T18:30Z'
+      datecurrentEpoch: 1569349827000
+      pooownerunit: CASHF
+      fireyear: 2019
+      localincidentidentifier: 001196
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 1339
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-25T00:00Z'
+      ModifiedOnDateTimeEpoch: 1569369600000
+      PercentContained: 89
+      UniqueFireIdentifier: 2019-CASHF-001196
+      FireDiscoveryDateTime: '2019-09-05T16:07Z'
+      FireDiscoveryDateTimeEpoch: 1567699620000
+      Fire_Name: MIDDLE
+      Name: MIDDLE
+      Source: GEOMAC
+      Hashtag: '#MiddleFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-25T00:31:11.972Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CASHF-001196
     Lon: -123.00541353920197
     Lat: 40.90562280712225
     id: 132186
@@ -72582,9 +72648,9 @@ Database:
     PercentContained: 89
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-24T23:30Z'
-    ICS209ReportDateTimeEpoch: 1569367800000
-    ICS209ReportStatus: F
+    ICS209ReportDateTime: '2019-09-25T00:00Z'
+    ICS209ReportDateTimeEpoch: 1569369600000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 2200000
@@ -72596,16 +72662,16 @@ Database:
     LocalIncidentIdentifier: 001196
     POOCounty: Trinity
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-24T23:30Z'
-    ModifiedOnDateTimeEpoch: 1569367800000
+    ModifiedOnDateTime: '2019-09-25T00:00Z'
+    ModifiedOnDateTimeEpoch: 1569369600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-CASHF-001196
-    ModifiedOnDateTime_Raw: '2019-09-24T23:33Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569368001000
+    ModifiedOnDateTime_Raw: '2019-09-25T00:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569371331000
     Hashtag: '#MiddleFire'
     NFSAType: Large WF
     PerimDateTime: '2019-09-23T19:52Z'
@@ -72614,7 +72680,7 @@ Database:
       Acres: 1339.76524371
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-25T00:01:29.035Z'
+          RetrievedOn: '2019-09-25T00:31:17.902Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -72635,8 +72701,8 @@ Database:
     Final_Fire_Name: Middle Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-24T23:30Z-PER-2019-09-23T19:52Z-ID-2019-CASHF-001196-NAME-MIDDLE-S-N
-      Code: e6e4acb2ab7cbe46c4bd5bc3ece46e006b5026ac968da5b3c5316bff89804dbe
+        UPD-2019-09-25T00:00Z-PER-2019-09-23T19:52Z-ID-2019-CASHF-001196-NAME-MIDDLE-S-N
+      Code: 68267b9ce33c9820ccf8d578b1ba6b2249aea51010b5db85634e41cdf7897610
   2019-CAMNF-000485:
     Source_NFSA_Join:
       Lon: -123.15223418923846
