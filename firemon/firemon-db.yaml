@@ -68536,13 +68536,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1569372326000
     Hashtag: '#WalkerFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-24T22:50Z'
+    PerimDateTime: '2019-09-26T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-24T22:50Z'
+      DateTime: '2019-09-26T00:00Z'
       Acres: 54615.4071721
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-25T16:35:35.883Z'
+          RetrievedOn: '2019-09-26T16:28:16.785Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -68563,8 +68563,8 @@ Database:
     Final_Fire_Name: Walker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-25T00:45Z-PER-2019-09-24T22:50Z-ID-2019-CAPNF-001324-NAME-Walker-S-N
-      Code: 69688f5f247c67ebf2025fd99bdfd9ab223e75bac4d4bef28eea0b8bfb350e86
+        UPD-2019-09-25T00:45Z-PER-2019-09-26T00:00Z-ID-2019-CAPNF-001324-NAME-Walker-S-N
+      Code: d0e97fb413734012250f4928246a2677f2600086e9dddc25ad4addc53190b480
   2019-IDNCF-000619:
     Source_NFSA_Join:
       Lon: -115.46361655452934
@@ -80544,113 +80544,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-25T01:28Z-PER-none-ID-CALFIRE-3934f762-ba99-471a-b1d9-dc064276c383-NAME-ReservoirFire-S-C
       Code: 4d8c9d596af3802f0b1721a8938bbc82037541f358e6f4c8a2c7faacbcf71e5e
-  CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b:
-    Source_CALFIRE:
-      Lon: -122.662258
-      Lat: 41.862237
-      incident_name: Lime Fire (Not a CAL FIRE Incident)
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-23T21:19Z'
-      incident_date_last_updateEpoch: 1569273554000
-      incident_date_created: '2019-09-07T15:36Z'
-      incident_date_createdEpoch: 1567870592000
-      incident_administrative_unit: Klamath National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Siskiyou
-      incident_location: 'Ash Creek and Highway 96, Southwest of Hornbrook'
-      incident_acres_burned: 1872
-      incident_containment: 99
-      incident_control: ''
-      incident_cooperating_agencies: Klamath National Forest
-      incident_longitude: -122.662258
-      incident_latitude: 41.862237
-      incident_type: Wildfire
-      incident_id: 5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/9/7/lime-fire-not-a-cal-fire-incident/
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-07'
-      is_active: 'N'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-09-23T21:19Z'
-      ModifiedOnDateTimeEpoch: 1569273554000
-      DailyAcres: 1872
-      PercentContained: 99
-      UniqueFireIdentifier: CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#Fire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-24T12:02:15.419Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-    Lon: -122.662258
-    Lat: 41.862237
-    incident_name: Lime Fire (Not a CAL FIRE Incident)
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-09-23T21:19Z'
-    incident_date_last_updateEpoch: 1569273554000
-    incident_date_created: '2019-09-07T15:36Z'
-    incident_date_createdEpoch: 1567870592000
-    incident_administrative_unit: Klamath National Forest
-    incident_administrative_unit_url: ''
-    incident_county: Siskiyou
-    incident_location: 'Ash Creek and Highway 96, Southwest of Hornbrook'
-    incident_acres_burned: 1872
-    incident_containment: 99
-    incident_control: ''
-    incident_cooperating_agencies: Klamath National Forest
-    incident_longitude: -122.662258
-    incident_latitude: 41.862237
-    incident_type: Wildfire
-    incident_id: 5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/9/7/lime-fire-not-a-cal-fire-incident/
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-09-07'
-    is_active: 'N'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-09-23T21:19Z'
-    ModifiedOnDateTimeEpoch: 1569273554000
-    DailyAcres: 1872
-    PercentContained: 99
-    UniqueFireIdentifier: CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#Fire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-    _CorrelationIds:
-      - CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
-      - CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b
-    PerimDateTime: '2019-09-25T02:14Z'
-    PerimeterData:
-      DateTime: '2019-09-25T02:14Z'
-      Acres: null
-      _Provenance: null
-    unitId: 5c74d3fc
-    unitMention: null
-    Final_Fire_Name: Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-23T21:19Z-PER-2019-09-25T02:14Z-ID-CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b-NAME--S-C
-      Code: 784ac44e603062a3c1bbc7dc9a5127c5e0f067cc007f5b38af1883130cd92f3b
   CALFIRE-7b283f4f-c613-4840-aa90-1f6e9fa1573a:
     Source_CALFIRE:
       Lon: -117.170588
@@ -81009,13 +80902,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1569458781000
     Hashtag: '#JohnsonFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-24T20:03Z'
+    PerimDateTime: '2019-09-25T18:14Z'
     PerimeterData:
-      DateTime: '2019-09-24T20:03Z'
-      Acres: 210.37030539
+      DateTime: '2019-09-25T18:14Z'
+      Acres: 166.17211518
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-26T01:01:31.388Z'
+          RetrievedOn: '2019-09-26T16:28:14.489Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -81036,8 +80929,8 @@ Database:
     Final_Fire_Name: Johnson Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-26T00:30Z-PER-2019-09-24T20:03Z-ID-2019-AZPNF-001556-NAME-Johnson-S-N
-      Code: 56d135f07d7065a8b2c150f65351bf2d6758b9689190d2ed75c7fd8634c1bcf5
+        UPD-2019-09-26T00:30Z-PER-2019-09-25T18:14Z-ID-2019-AZPNF-001556-NAME-Johnson-S-N
+      Code: f3cca5cd1259205b15a346ac5e9982f548af235f7767202c97fcc0f88e1eabb7
   2019-MTFHA-000176:
     Source_NFSA_Join:
       Lon: -114.2994538452275
@@ -81913,9 +81806,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=3a48b649-8714-433d-9952-ff2bf9e8c90a
     _CorrelationIds:
       - CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a
-    PerimDateTime: '2019-09-25T02:14Z'
+    PerimDateTime: '2019-09-26T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-25T02:14Z'
+      DateTime: '2019-09-26T00:00Z'
       Acres: null
       _Provenance: null
     unitId: 3a48b649
@@ -81923,8 +81816,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-24T20:42Z-PER-2019-09-25T02:14Z-ID-CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a-NAME--S-C
-      Code: 59c94e9ea293999f7ad070994048bd1a2b14ad2faf956fa77c7a8ada51e6e56a
+        UPD-2019-09-24T20:42Z-PER-2019-09-26T00:00Z-ID-CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a-NAME--S-C
+      Code: 18700b7f319db5a5ddf70a1314282fca17c7ecd6df0a930ba0a7bd84de3df0c3
   CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918:
     Source_CALFIRE:
       Lon: -118.872
@@ -82019,9 +81912,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=226da8c8-26c0-49d7-b5ef-952cd969f918
     _CorrelationIds:
       - CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918
-    PerimDateTime: '2019-09-25T02:14Z'
+    PerimDateTime: '2019-09-26T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-25T02:14Z'
+      DateTime: '2019-09-26T00:00Z'
       Acres: null
       _Provenance: null
     unitId: 226da8c8
@@ -82029,8 +81922,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-24T20:43Z-PER-2019-09-25T02:14Z-ID-CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918-NAME--S-C
-      Code: 8d077f881cbc9f138336cc80e789476ec47fca59b47010ebdc8fc6396b5356a7
+        UPD-2019-09-24T20:43Z-PER-2019-09-26T00:00Z-ID-CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918-NAME--S-C
+      Code: 6c023b51f90a32c0b264208928315eac2deb76ea39986f28aca26706a67a7a79
   2019-FLEAQ-019011:
     Source_NFSA_Join:
       Lon: -86.68694881043324
@@ -82693,9 +82586,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
     _CorrelationIds:
       - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    PerimDateTime: '2019-09-25T02:14Z'
+    PerimDateTime: '2019-09-26T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-25T02:14Z'
+      DateTime: '2019-09-26T00:00Z'
       Acres: null
       _Provenance: null
     unitId: e7ea56c5
@@ -82703,8 +82596,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-26T13:31Z-PER-2019-09-25T02:14Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME--S-C
-      Code: 35aac801bf9dc2cc1be7392eccc657315a794f21ae4c9f6a6ff8c5b42d15b1d2
+        UPD-2019-09-26T13:31Z-PER-2019-09-26T00:00Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME--S-C
+      Code: cbd023be06de44e7af940aa09b095b264473802f503e569e051de6db1ef28780
   CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea:
     Source_CALFIRE:
       Lon: -122.789
@@ -82799,9 +82692,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=38d46a2f-d1f6-4ed8-a502-e57e393844ea
     _CorrelationIds:
       - CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea
-    PerimDateTime: '2019-09-25T02:14Z'
+    PerimDateTime: '2019-09-26T00:00Z'
     PerimeterData:
-      DateTime: '2019-09-25T02:14Z'
+      DateTime: '2019-09-26T00:00Z'
       Acres: null
       _Provenance: null
     unitId: 38d46a2f
@@ -82809,8 +82702,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-26T13:34Z-PER-2019-09-25T02:14Z-ID-CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea-NAME--S-C
-      Code: 48cccf8a8ed61fd5628f95b07a47f5d34183d70f1781eddbe19f3b1894658b0d
+        UPD-2019-09-26T13:34Z-PER-2019-09-26T00:00Z-ID-CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea-NAME--S-C
+      Code: 4d5eeacb47284e80be55baf2398738da80451023390004ab399306d09a1a24d7
   CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03:
     Source_CALFIRE:
       Lon: -120.455883
