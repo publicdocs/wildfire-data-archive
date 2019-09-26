@@ -22472,185 +22472,6 @@ Database:
       UpdateId: >-
         UPD-2019-07-16T04:55Z-PER-none-ID-CALFIRE-c1574fd4-92ca-400f-84cb-b10f18ebb4bd-NAME-SouthFire-S-C
       Code: 6a2e8845a74d72cbcdfbf9d590d8961930929bff5ee17c33a936dc183e22c6f4
-  2019-NVCCD-030378:
-    Source_NFSA_Join:
-      Lon: -119.77917707835658
-      Lat: 39.61895235947819
-      id: 122927
-      Name: Jasper
-      Fire_Name: Jasper
-      UniqueFireIdentifier: 2019-NVCCD-030378
-      DailyAcres: 1151
-      PercentContained: 80
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-07-15T23:30Z'
-      ICS209ReportDateTimeEpoch: 1563233400000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 740000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 123
-      FireDiscoveryDateTime: '2019-07-13T22:02Z'
-      FireDiscoveryDateTimeEpoch: 1563055320000
-      DispatchCenterID: NVSFC
-      LocalIncidentIdentifier: 030378
-      POOCounty: Washoe
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-07-15T23:30Z'
-      ModifiedOnDateTimeEpoch: 1563233400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-NVCCD-030378
-      ModifiedOnDateTime_Raw: '2019-07-15T23:53Z'
-      ModifiedOnDateTimeEpoch_Raw: 1563234813000
-      Hashtag: '#JasperFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T00:01:32.930Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -119.78251303235895
-      Lat: 39.63028310220059
-      objectid: 32
-      latitude: 39.6302778
-      longitude: -119.7825
-      acres: 1151
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: NV
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-07-15T23:30Z'
-      reportdatetimeEpoch: 1563233400000
-      percentcontained: 80
-      uniquefireidentifier: 2019-NVCCD-030378
-      firediscoverydatetime: '2019-07-13T22:02Z'
-      firediscoverydatetimeEpoch: 1563055320000
-      complexparentirwinid: null
-      pooresponsibleunit: NVCCD
-      incidentname: Jasper
-      iscomplex: 'false'
-      irwinid: '{E5235D35-E3F1-4B1B-A88F-82AB902B0FAB}'
-      irwinmodifiedon: '2019-07-15T23:53Z'
-      irwinmodifiedonEpoch: 1563234813000
-      mapsymbol: '1'
-      datecurrent: '2019-07-15T18:00Z'
-      datecurrentEpoch: 1563213625000
-      pooownerunit: NVCCD
-      fireyear: 2019
-      localincidentidentifier: 030378
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 1151
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-07-15T23:30Z'
-      ModifiedOnDateTimeEpoch: 1563233400000
-      PercentContained: 80
-      UniqueFireIdentifier: 2019-NVCCD-030378
-      FireDiscoveryDateTime: '2019-07-13T22:02Z'
-      FireDiscoveryDateTimeEpoch: 1563055320000
-      Fire_Name: Jasper
-      Name: Jasper
-      Source: GEOMAC
-      Hashtag: '#JasperFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T00:01:32.931Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-NVCCD-030378
-    Lon: -119.77917707835658
-    Lat: 39.61895235947819
-    id: 122927
-    Name: Jasper
-    Fire_Name: Jasper
-    UniqueFireIdentifier: 2019-NVCCD-030378
-    DailyAcres: 1151
-    PercentContained: 80
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-07-15T23:30Z'
-    ICS209ReportDateTimeEpoch: 1563233400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 740000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 123
-    FireDiscoveryDateTime: '2019-07-13T22:02Z'
-    FireDiscoveryDateTimeEpoch: 1563055320000
-    DispatchCenterID: NVSFC
-    LocalIncidentIdentifier: 030378
-    POOCounty: Washoe
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-07-15T23:30Z'
-    ModifiedOnDateTimeEpoch: 1563233400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-NVCCD-030378
-    ModifiedOnDateTime_Raw: '2019-07-15T23:53Z'
-    ModifiedOnDateTimeEpoch_Raw: 1563234813000
-    Hashtag: '#JasperFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-07-14T16:00Z'
-    PerimeterData:
-      DateTime: '2019-07-14T16:00Z'
-      Acres: 1164.61945675
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-07-16T00:01:34.951Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: NVCCD
-    unitMention: Carson City District Office
-    Final_Fire_Name: Jasper Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-07-15T23:30Z-PER-2019-07-14T16:00Z-ID-2019-NVCCD-030378-NAME-Jasper-S-N
-      Code: 31822d45fb746dbf88861051c80238e80e2adbec9b8e5876f9044859c8027a7a
   2019-WASPD-000270:
     Source_NFSA_Join:
       Lon: -119.93391188604616
@@ -36132,119 +35953,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-01T23:00Z-PER-2019-07-31T13:00Z-ID-2019-NVELD-040082-NAME-BaileyCreek-S-N
       Code: 98441005d55d62594f7091f4acbd5be61ab2607163fb9ca44b50f7f3d53292d7
-  2019-CALPF-001678:
-    Source_NFSA_Join:
-      Lon: -121.49621691242264
-      Lat: 35.9885428473121
-      id: 125737
-      Name: MILL
-      Fire_Name: MILL
-      UniqueFireIdentifier: 2019-CALPF-001678
-      DailyAcres: 280
-      PercentContained: 98
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-08-13T00:00Z'
-      ICS209ReportDateTimeEpoch: 1565654400000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 5100000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 25
-      FireDiscoveryDateTime: '2019-07-30T12:36Z'
-      FireDiscoveryDateTimeEpoch: 1564490160000
-      DispatchCenterID: CALPCC
-      LocalIncidentIdentifier: 001678
-      POOCounty: Monterey
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-13T00:00Z'
-      ModifiedOnDateTimeEpoch: 1565654400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALPF-001678
-      ModifiedOnDateTime_Raw: '2019-08-13T00:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565657696000
-      Hashtag: '#MillFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-13T01:01:54.158Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -121.49621691242264
-    Lat: 35.9885428473121
-    id: 125737
-    Name: MILL
-    Fire_Name: MILL
-    UniqueFireIdentifier: 2019-CALPF-001678
-    DailyAcres: 280
-    PercentContained: 98
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-08-13T00:00Z'
-    ICS209ReportDateTimeEpoch: 1565654400000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 5100000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 25
-    FireDiscoveryDateTime: '2019-07-30T12:36Z'
-    FireDiscoveryDateTimeEpoch: 1564490160000
-    DispatchCenterID: CALPCC
-    LocalIncidentIdentifier: 001678
-    POOCounty: Monterey
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-13T00:00Z'
-    ModifiedOnDateTimeEpoch: 1565654400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CALPF-001678
-    ModifiedOnDateTime_Raw: '2019-08-13T00:54Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565657696000
-    Hashtag: '#MillFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-03T14:59Z'
-    PerimeterData:
-      DateTime: '2019-08-03T14:59Z'
-      Acres: 321.53874759
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-13T01:02:03.328Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CALPF
-    unitMention: '@LosPadresNF'
-    Final_Fire_Name: Mill Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-08-13T00:00Z-PER-2019-08-03T14:59Z-ID-2019-CALPF-001678-NAME-MILL-S-N
-      Code: a8de57e7b513bb3a03b0dc3f905907b78ac6d881b59725dd66a6420e8aea15f4
   2019-CAINF-001464:
     Source_NFSA_Join:
       Lon: -118.67141060259176
@@ -38635,101 +38343,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-03T04:42Z-PER-none-ID-CALFIRE-12e44df4-d425-4f09-96b9-25256ffbdcb2-NAME-BrownsFire-S-C
       Code: 7d82978c9b23b57fe4ea3d941717954fa022dd01a8eb0b8863d327cd49e2e4ab
-  2019-CALPF-001664:
-    Source_NFSA_Join:
-      Lon: -119.9159096477524
-      Lat: 34.68315422856288
-      id: 125542
-      Name: Range
-      Fire_Name: Range
-      UniqueFireIdentifier: 2019-CALPF-001664
-      DailyAcres: 100
-      PercentContained: 99
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-08-05T13:00Z'
-      ICS209ReportDateTimeEpoch: 1565010000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 0
-      FireCause: Unknown
-      TotalIncidentPersonnel: 7
-      FireDiscoveryDateTime: '2019-07-29T05:50Z'
-      FireDiscoveryDateTimeEpoch: 1564379400000
-      DispatchCenterID: CALPCC
-      LocalIncidentIdentifier: '001664'
-      POOCounty: Santa Barbara
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-08-05T13:00Z'
-      ModifiedOnDateTimeEpoch: 1565010000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALPF-001664
-      ModifiedOnDateTime_Raw: '2019-08-05T13:41Z'
-      ModifiedOnDateTimeEpoch_Raw: 1565012505000
-      Hashtag: '#RangeFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-08-05T14:02:17.865Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -119.9159096477524
-    Lat: 34.68315422856288
-    id: 125542
-    Name: Range
-    Fire_Name: Range
-    UniqueFireIdentifier: 2019-CALPF-001664
-    DailyAcres: 100
-    PercentContained: 99
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-08-05T13:00Z'
-    ICS209ReportDateTimeEpoch: 1565010000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 0
-    FireCause: Unknown
-    TotalIncidentPersonnel: 7
-    FireDiscoveryDateTime: '2019-07-29T05:50Z'
-    FireDiscoveryDateTimeEpoch: 1564379400000
-    DispatchCenterID: CALPCC
-    LocalIncidentIdentifier: '001664'
-    POOCounty: Santa Barbara
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-08-05T13:00Z'
-    ModifiedOnDateTimeEpoch: 1565010000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CALPF-001664
-    ModifiedOnDateTime_Raw: '2019-08-05T13:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1565012505000
-    Hashtag: '#RangeFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALPF
-    unitMention: '@LosPadresNF'
-    Final_Fire_Name: Range Fire
-    _Update:
-      UpdateId: 'UPD-2019-08-05T13:00Z-PER-none-ID-2019-CALPF-001664-NAME-Range-S-N'
-      Code: 4c7e9b9edbab5074f2cb10e1019b41b9976c3c3514590992e26af8459952c58c
   2019-WAWFS-000391:
     Source_NFSA_Join:
       Lon: -118.72121320194334
@@ -55997,12 +55610,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-19T15:00Z'
-      ICS209ReportDateTimeEpoch: 1568905200000
+      ICS209ReportDateTime: '2019-09-26T14:15Z'
+      ICS209ReportDateTimeEpoch: 1569507300000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 20000
+      EstimatedCostToDate: 25000
       FireCause: Natural
       TotalIncidentPersonnel: 1
       FireDiscoveryDateTime: '2019-08-05T19:19Z'
@@ -56011,21 +55624,21 @@ Database:
       LocalIncidentIdentifier: 019257
       POOCounty: Ravalli
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-19T15:00Z'
-      ModifiedOnDateTimeEpoch: 1568905200000
+      ModifiedOnDateTime: '2019-09-26T14:15Z'
+      ModifiedOnDateTimeEpoch: 1569507300000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-MTBRF-019257
-      ModifiedOnDateTime_Raw: '2019-09-19T15:23Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568906638000
+      ModifiedOnDateTime_Raw: '2019-09-26T21:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569533725000
       Hashtag: '#PackboxFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-19T15:31:18.201Z'
+          RetrievedOn: '2019-09-26T22:11:55.808Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -56043,12 +55656,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-19T15:00Z'
-    ICS209ReportDateTimeEpoch: 1568905200000
+    ICS209ReportDateTime: '2019-09-26T14:15Z'
+    ICS209ReportDateTimeEpoch: 1569507300000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 20000
+    EstimatedCostToDate: 25000
     FireCause: Natural
     TotalIncidentPersonnel: 1
     FireDiscoveryDateTime: '2019-08-05T19:19Z'
@@ -56057,16 +55670,16 @@ Database:
     LocalIncidentIdentifier: 019257
     POOCounty: Ravalli
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-19T15:00Z'
-    ModifiedOnDateTimeEpoch: 1568905200000
+    ModifiedOnDateTime: '2019-09-26T14:15Z'
+    ModifiedOnDateTimeEpoch: 1569507300000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-MTBRF-019257
-    ModifiedOnDateTime_Raw: '2019-09-19T15:23Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568906638000
+    ModifiedOnDateTime_Raw: '2019-09-26T21:35Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569533725000
     Hashtag: '#PackboxFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -56078,8 +55691,8 @@ Database:
     unitMention: Bitterroot NF
     Final_Fire_Name: Packbox Fire
     _Update:
-      UpdateId: 'UPD-2019-09-19T15:00Z-PER-none-ID-2019-MTBRF-019257-NAME-Packbox-S-N'
-      Code: 770a222afae29fd087118eb959296b6782cc1f7e14b960770fb3f0e0fa2a57d1
+      UpdateId: 'UPD-2019-09-26T14:15Z-PER-none-ID-2019-MTBRF-019257-NAME-Packbox-S-N'
+      Code: 8baa95cf6a386a63ce09313cd32ba00203c73a85468a813e7629da34d51895e3
   2019-NMCIF-000199:
     Source_NFSA_Join:
       Lon: -107.52710881716747
@@ -59142,8 +58755,8 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-19T22:00Z'
-      ICS209ReportDateTimeEpoch: 1568930400000
+      ICS209ReportDateTime: '2019-09-26T20:45Z'
+      ICS209ReportDateTimeEpoch: 1569530700000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
@@ -59156,21 +58769,21 @@ Database:
       LocalIncidentIdentifier: 019278
       POOCounty: Idaho
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-19T22:00Z'
-      ModifiedOnDateTimeEpoch: 1568930400000
+      ModifiedOnDateTime: '2019-09-26T20:45Z'
+      ModifiedOnDateTimeEpoch: 1569530700000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-MTBRF-019278
-      ModifiedOnDateTime_Raw: '2019-09-19T22:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568933775000
+      ModifiedOnDateTime_Raw: '2019-09-26T21:46Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569534398000
       Hashtag: '#GrassGulchFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-19T23:11:47.831Z'
+          RetrievedOn: '2019-09-26T22:11:55.808Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -59188,8 +58801,8 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-19T22:00Z'
-    ICS209ReportDateTimeEpoch: 1568930400000
+    ICS209ReportDateTime: '2019-09-26T20:45Z'
+    ICS209ReportDateTimeEpoch: 1569530700000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
@@ -59202,16 +58815,16 @@ Database:
     LocalIncidentIdentifier: 019278
     POOCounty: Idaho
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-19T22:00Z'
-    ModifiedOnDateTimeEpoch: 1568930400000
+    ModifiedOnDateTime: '2019-09-26T20:45Z'
+    ModifiedOnDateTimeEpoch: 1569530700000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-MTBRF-019278
-    ModifiedOnDateTime_Raw: '2019-09-19T22:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568933775000
+    ModifiedOnDateTime_Raw: '2019-09-26T21:46Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569534398000
     Hashtag: '#GrassGulchFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -59223,8 +58836,8 @@ Database:
     unitMention: Bitterroot NF
     Final_Fire_Name: Grass Gulch Fire
     _Update:
-      UpdateId: 'UPD-2019-09-19T22:00Z-PER-none-ID-2019-MTBRF-019278-NAME-GrassGulch-S-N'
-      Code: b68417a519bdc88e28c9616ae57618c09af46c43e73147a326b69677a77080cc
+      UpdateId: 'UPD-2019-09-26T20:45Z-PER-none-ID-2019-MTBRF-019278-NAME-GrassGulch-S-N'
+      Code: c2a3f4f463e69b141e476a895bb29717f41be14edded76ce373a35769fdcfe96
   2019-OKOKS-100125:
     Source_NFSA_Join:
       Lon: -95.26167362455067
@@ -59494,12 +59107,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-19T22:00Z'
-      ICS209ReportDateTimeEpoch: 1568930400000
+      ICS209ReportDateTime: '2019-09-26T20:45Z'
+      ICS209ReportDateTimeEpoch: 1569530700000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 2500
+      EstimatedCostToDate: 3000
       FireCause: Natural
       TotalIncidentPersonnel: 1
       FireDiscoveryDateTime: '2019-08-16T00:59Z'
@@ -59508,21 +59121,21 @@ Database:
       LocalIncidentIdentifier: 019296
       POOCounty: Idaho
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-19T22:00Z'
-      ModifiedOnDateTimeEpoch: 1568930400000
+      ModifiedOnDateTime: '2019-09-26T20:45Z'
+      ModifiedOnDateTimeEpoch: 1569530700000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2019-MTBRF-019296
-      ModifiedOnDateTime_Raw: '2019-09-19T22:58Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568933896000
+      ModifiedOnDateTime_Raw: '2019-09-26T21:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569534891000
       Hashtag: Trail 536
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-19T23:11:47.831Z'
+          RetrievedOn: '2019-09-26T22:11:55.808Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -59540,12 +59153,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-19T22:00Z'
-    ICS209ReportDateTimeEpoch: 1568930400000
+    ICS209ReportDateTime: '2019-09-26T20:45Z'
+    ICS209ReportDateTimeEpoch: 1569530700000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 2500
+    EstimatedCostToDate: 3000
     FireCause: Natural
     TotalIncidentPersonnel: 1
     FireDiscoveryDateTime: '2019-08-16T00:59Z'
@@ -59554,16 +59167,16 @@ Database:
     LocalIncidentIdentifier: 019296
     POOCounty: Idaho
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-19T22:00Z'
-    ModifiedOnDateTimeEpoch: 1568930400000
+    ModifiedOnDateTime: '2019-09-26T20:45Z'
+    ModifiedOnDateTimeEpoch: 1569530700000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2019-MTBRF-019296
-    ModifiedOnDateTime_Raw: '2019-09-19T22:58Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568933896000
+    ModifiedOnDateTime_Raw: '2019-09-26T21:54Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569534891000
     Hashtag: Trail 536
     NFSAType: Large WF
     PerimDateTime: null
@@ -59575,8 +59188,8 @@ Database:
     unitMention: Bitterroot NF
     Final_Fire_Name: Trail 536 Fire
     _Update:
-      UpdateId: 'UPD-2019-09-19T22:00Z-PER-none-ID-2019-MTBRF-019296-NAME-Trail536-S-N'
-      Code: 7627a5146d65b740d38765a730550a195183b6c9e1a4c8eaa0990bb19582e5e0
+      UpdateId: 'UPD-2019-09-26T20:45Z-PER-none-ID-2019-MTBRF-019296-NAME-Trail536-S-N'
+      Code: f52a358411da6e39327ed33bc5d37f7e27225ca70d764bf8a6e92a5efe617ae8
   2019-AZA3S-001523:
     Source_NFSA_Join:
       Lon: -110.09020893527583
@@ -82552,8 +82165,8 @@ Database:
     Link: >-
       https://www.fire.ca.gov/incident/?incident=1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
     _CorrelationIds:
-      - 2019-CALPF-002048
       - CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+      - 2019-CALPF-002048
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -82804,8 +82417,8 @@ Database:
     Link: >-
       https://www.fire.ca.gov/incident/?incident=81977367-45ad-4962-92f3-ae30f22ef723
     _CorrelationIds:
-      - 2019-CAMDF-000836
       - CALFIRE-81977367-45ad-4962-92f3-ae30f22ef723
+      - 2019-CAMDF-000836
     PerimDateTime: '2019-09-09T20:46Z'
     PerimeterData:
       DateTime: '2019-09-09T20:46Z'
@@ -83037,8 +82650,8 @@ Database:
     Link: >-
       https://www.fire.ca.gov/incident/?incident=c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
     _CorrelationIds:
-      - 2019-CAINF-001435
       - CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+      - 2019-CAINF-001435
     PerimDateTime: '2019-09-03T00:42Z'
     PerimeterData:
       DateTime: '2019-09-03T00:42Z'
@@ -83408,8 +83021,8 @@ Database:
     Link: >-
       https://www.fire.ca.gov/incident/?incident=5c74d3fc-eaeb-4a75-9a07-5f8af961237b
     _CorrelationIds:
-      - 2019-CAKNF-007074
       - CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+      - 2019-CAKNF-007074
     PerimDateTime: '2019-09-17T22:03Z'
     PerimeterData:
       DateTime: '2019-09-17T22:03Z'
@@ -83983,8 +83596,8 @@ Database:
     Link: >-
       https://www.fire.ca.gov/incident/?incident=980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
     _CorrelationIds:
-      - 2019-CABDF-014540
       - CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+      - 2019-CABDF-014540
     PerimDateTime: '2019-09-16T12:00Z'
     PerimeterData:
       DateTime: '2019-09-16T12:00Z'
@@ -84014,3 +83627,1447 @@ Database:
       UpdateId: >-
         UPD-2019-09-26T21:44Z-PER-2019-09-16T12:00Z-ID-CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9-NAME-BautistaFire-S-C
       Code: 1469f9ef166ba721e804a2900584207e65fc2af59916648ced5b87d4d760a7f7
+  2019-UTCBP-000577:
+    Source_NFSA_Join:
+      Lon: -112.8519085963973
+      Lat: 37.63562531010679
+      id: 131835
+      Name: Chessman Canyon
+      Fire_Name: Chessman Canyon
+      UniqueFireIdentifier: 2019-UTCBP-000577
+      DailyAcres: 413
+      PercentContained: 20
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-26T21:30Z'
+      ICS209ReportDateTimeEpoch: 1569533400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 70000
+      FireCause: Natural
+      TotalIncidentPersonnel: 18
+      FireDiscoveryDateTime: '2019-09-03T20:13Z'
+      FireDiscoveryDateTimeEpoch: 1567541580000
+      DispatchCenterID: UTCDC
+      LocalIncidentIdentifier: '000577'
+      POOCounty: Iron
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-26T21:30Z'
+      ModifiedOnDateTimeEpoch: 1569533400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-UTCBP-000577
+      ModifiedOnDateTime_Raw: '2019-09-26T21:51Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569534715000
+      Hashtag: '#ChessmanCanyonFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.808Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -112.85751155027624
+      Lat: 37.64251560636609
+      objectid: 13
+      latitude: 37.64251
+      longitude: -112.8575
+      acres: 413
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: UT
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-26T21:30Z'
+      reportdatetimeEpoch: 1569533400000
+      percentcontained: 20
+      uniquefireidentifier: 2019-UTCBP-000577
+      firediscoverydatetime: '2019-09-03T20:13Z'
+      firediscoverydatetimeEpoch: 1567541580000
+      complexparentirwinid: null
+      pooresponsibleunit: UTCBP
+      incidentname: Chessman Canyon
+      iscomplex: 'false'
+      irwinid: '{FAC0ED3C-5064-4A78-BF96-9820DAE6E7A6}'
+      irwinmodifiedon: '2019-09-26T21:51Z'
+      irwinmodifiedonEpoch: 1569534715000
+      mapsymbol: '1'
+      datecurrent: '2019-09-26T16:00Z'
+      datecurrentEpoch: 1569513621000
+      pooownerunit: USTCBP
+      fireyear: 2019
+      localincidentidentifier: '000577'
+      incidenttypecategory: WF
+      owneragency: NPS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 413
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-26T21:30Z'
+      ModifiedOnDateTimeEpoch: 1569533400000
+      PercentContained: 20
+      UniqueFireIdentifier: 2019-UTCBP-000577
+      FireDiscoveryDateTime: '2019-09-03T20:13Z'
+      FireDiscoveryDateTimeEpoch: 1567541580000
+      Fire_Name: Chessman Canyon
+      Name: Chessman Canyon
+      Source: GEOMAC
+      Hashtag: '#ChessmanCanyonFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-UTCBP-000577
+    Lon: -112.8519085963973
+    Lat: 37.63562531010679
+    id: 131835
+    Name: Chessman Canyon
+    Fire_Name: Chessman Canyon
+    UniqueFireIdentifier: 2019-UTCBP-000577
+    DailyAcres: 413
+    PercentContained: 20
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-26T21:30Z'
+    ICS209ReportDateTimeEpoch: 1569533400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 70000
+    FireCause: Natural
+    TotalIncidentPersonnel: 18
+    FireDiscoveryDateTime: '2019-09-03T20:13Z'
+    FireDiscoveryDateTimeEpoch: 1567541580000
+    DispatchCenterID: UTCDC
+    LocalIncidentIdentifier: '000577'
+    POOCounty: Iron
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-26T21:30Z'
+    ModifiedOnDateTimeEpoch: 1569533400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-UTCBP-000577
+    ModifiedOnDateTime_Raw: '2019-09-26T21:51Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569534715000
+    Hashtag: '#ChessmanCanyonFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-09-23T10:00Z'
+    PerimeterData:
+      DateTime: '2019-09-23T10:00Z'
+      Acres: 372.61234294
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:12:05.224Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: UTCBP
+    unitMention: Cedar Breaks National Monument
+    Final_Fire_Name: Chessman Canyon Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:30Z-PER-2019-09-23T10:00Z-ID-2019-UTCBP-000577-NAME-ChessmanCanyon-S-N
+      Code: 08ca801325bcf03710a162d7c5bd848ae827162f7abb9a5d8cad6763eaee53f7
+  CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9:
+    Source_CALFIRE:
+      Lon: -119.769881
+      Lat: 39.631945
+      incident_name: Jasper Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:50Z'
+      incident_date_last_updateEpoch: 1569534602000
+      incident_date_created: '2019-07-14T01:42Z'
+      incident_date_createdEpoch: 1563068542000
+      incident_administrative_unit: CAL FIRE NEU
+      incident_administrative_unit_url: ''
+      incident_county: State of Nevada
+      incident_location: 'Chimney Rd and Barrel Springs Rd, 2 miles North of Sun Valley Nevada'
+      incident_acres_burned: 1165
+      incident_containment: 100
+      incident_control: Full containment expected on 7/16 at 6 p.m.
+      incident_cooperating_agencies: Truckee Meadows Fire Protection District
+      incident_longitude: -119.769881
+      incident_latitude: 39.631945
+      incident_type: Wildfire
+      incident_id: 3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/13/jasper-fire/'
+      incident_date_extinguished: '2019-07-16 08:50:00'
+      incident_dateonly_extinguished: '2019-07-16'
+      incident_dateonly_created: '2019-07-13'
+      is_active: 'N'
+      Fire_Name: Jasper Fire
+      ModifiedOnDateTime: '2019-09-26T21:50Z'
+      ModifiedOnDateTimeEpoch: 1569534602000
+      DailyAcres: 1165
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+      Name: Jasper Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#JasperFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+    Lon: -119.769881
+    Lat: 39.631945
+    incident_name: Jasper Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:50Z'
+    incident_date_last_updateEpoch: 1569534602000
+    incident_date_created: '2019-07-14T01:42Z'
+    incident_date_createdEpoch: 1563068542000
+    incident_administrative_unit: CAL FIRE NEU
+    incident_administrative_unit_url: ''
+    incident_county: State of Nevada
+    incident_location: 'Chimney Rd and Barrel Springs Rd, 2 miles North of Sun Valley Nevada'
+    incident_acres_burned: 1165
+    incident_containment: 100
+    incident_control: Full containment expected on 7/16 at 6 p.m.
+    incident_cooperating_agencies: Truckee Meadows Fire Protection District
+    incident_longitude: -119.769881
+    incident_latitude: 39.631945
+    incident_type: Wildfire
+    incident_id: 3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/13/jasper-fire/'
+    incident_date_extinguished: '2019-07-16 08:50:00'
+    incident_dateonly_extinguished: '2019-07-16'
+    incident_dateonly_created: '2019-07-13'
+    is_active: 'N'
+    Fire_Name: Jasper Fire
+    ModifiedOnDateTime: '2019-09-26T21:50Z'
+    ModifiedOnDateTimeEpoch: 1569534602000
+    DailyAcres: 1165
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+    Name: Jasper Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#JasperFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+    _CorrelationIds:
+      - CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9
+      - 2019-NVCCD-030378
+    PerimDateTime: '2019-07-14T16:00Z'
+    PerimeterData:
+      DateTime: '2019-07-14T16:00Z'
+      Acres: 1164.61945675
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:12:05.224Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 3086ac2b
+    unitMention: null
+    Final_Fire_Name: Jasper Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:50Z-PER-2019-07-14T16:00Z-ID-CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9-NAME-JasperFire-S-C
+      Code: 9d3dfbb0a98887b9e34da694c39e465132655f2c33547bfe737b9209ccbe9d28
+  CALFIRE-0ab090de-1ec9-41db-b6cf-c7acd370626a:
+    Source_CALFIRE:
+      Lon: -120.158273
+      Lat: 40.072739
+      incident_name: Doyle Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:49Z'
+      incident_date_last_updateEpoch: 1569534589000
+      incident_date_created: '2019-07-14T21:02Z'
+      incident_date_createdEpoch: 1563138151000
+      incident_administrative_unit: Bureau of Land Management
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Off Old Highway and Cowboy Joe Road, Northwest of Doyle'
+      incident_acres_burned: 193
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: BLM Northern CA District
+      incident_longitude: -120.158273
+      incident_latitude: 40.072739
+      incident_type: Wildfire
+      incident_id: 0ab090de-1ec9-41db-b6cf-c7acd370626a
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/14/doyle-fire/'
+      incident_date_extinguished: '2019-07-16 09:00:00'
+      incident_dateonly_extinguished: '2019-07-16'
+      incident_dateonly_created: '2019-07-14'
+      is_active: 'N'
+      Fire_Name: Doyle Fire
+      ModifiedOnDateTime: '2019-09-26T21:49Z'
+      ModifiedOnDateTimeEpoch: 1569534589000
+      DailyAcres: 193
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-0ab090de-1ec9-41db-b6cf-c7acd370626a
+      Name: Doyle Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#DoyleFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=0ab090de-1ec9-41db-b6cf-c7acd370626a
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-0ab090de-1ec9-41db-b6cf-c7acd370626a
+    Lon: -120.158273
+    Lat: 40.072739
+    incident_name: Doyle Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:49Z'
+    incident_date_last_updateEpoch: 1569534589000
+    incident_date_created: '2019-07-14T21:02Z'
+    incident_date_createdEpoch: 1563138151000
+    incident_administrative_unit: Bureau of Land Management
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'Off Old Highway and Cowboy Joe Road, Northwest of Doyle'
+    incident_acres_burned: 193
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: BLM Northern CA District
+    incident_longitude: -120.158273
+    incident_latitude: 40.072739
+    incident_type: Wildfire
+    incident_id: 0ab090de-1ec9-41db-b6cf-c7acd370626a
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/14/doyle-fire/'
+    incident_date_extinguished: '2019-07-16 09:00:00'
+    incident_dateonly_extinguished: '2019-07-16'
+    incident_dateonly_created: '2019-07-14'
+    is_active: 'N'
+    Fire_Name: Doyle Fire
+    ModifiedOnDateTime: '2019-09-26T21:49Z'
+    ModifiedOnDateTimeEpoch: 1569534589000
+    DailyAcres: 193
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-0ab090de-1ec9-41db-b6cf-c7acd370626a
+    Name: Doyle Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#DoyleFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=0ab090de-1ec9-41db-b6cf-c7acd370626a
+    _CorrelationIds:
+      - CALFIRE-0ab090de-1ec9-41db-b6cf-c7acd370626a
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 0ab090de
+    unitMention: null
+    Final_Fire_Name: Doyle Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:49Z-PER-none-ID-CALFIRE-0ab090de-1ec9-41db-b6cf-c7acd370626a-NAME-DoyleFire-S-C
+      Code: a9fc7f5d06206e0eb89d80d13a921e15847349fb702ddabdd1152d90a95ce2d6
+  CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19:
+    Source_CALFIRE:
+      Lon: -120.306
+      Lat: 41.909
+      incident_name: Goose 2 Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:49Z'
+      incident_date_last_updateEpoch: 1569534577000
+      incident_date_created: '2019-07-17T23:13Z'
+      incident_date_createdEpoch: 1563405221000
+      incident_administrative_unit: Modoc National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Modoc
+      incident_location: 'Off Highway 395 and South Willow Ranch Road, West of Fort Bidwell'
+      incident_acres_burned: 128
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Modoc National Forest
+      incident_longitude: -120.306
+      incident_latitude: 41.909
+      incident_type: Wildfire
+      incident_id: d5ebf295-49d5-4a6a-ae13-47a921355e19
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/17/goose-2-fire/'
+      incident_date_extinguished: '2019-07-20 09:05:00'
+      incident_dateonly_extinguished: '2019-07-20'
+      incident_dateonly_created: '2019-07-17'
+      is_active: 'N'
+      Fire_Name: Goose 2 Fire
+      ModifiedOnDateTime: '2019-09-26T21:49Z'
+      ModifiedOnDateTimeEpoch: 1569534577000
+      DailyAcres: 128
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19
+      Name: Goose 2 Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#Goose2Fire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=d5ebf295-49d5-4a6a-ae13-47a921355e19
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19
+    Lon: -120.306
+    Lat: 41.909
+    incident_name: Goose 2 Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:49Z'
+    incident_date_last_updateEpoch: 1569534577000
+    incident_date_created: '2019-07-17T23:13Z'
+    incident_date_createdEpoch: 1563405221000
+    incident_administrative_unit: Modoc National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Modoc
+    incident_location: 'Off Highway 395 and South Willow Ranch Road, West of Fort Bidwell'
+    incident_acres_burned: 128
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Modoc National Forest
+    incident_longitude: -120.306
+    incident_latitude: 41.909
+    incident_type: Wildfire
+    incident_id: d5ebf295-49d5-4a6a-ae13-47a921355e19
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/17/goose-2-fire/'
+    incident_date_extinguished: '2019-07-20 09:05:00'
+    incident_dateonly_extinguished: '2019-07-20'
+    incident_dateonly_created: '2019-07-17'
+    is_active: 'N'
+    Fire_Name: Goose 2 Fire
+    ModifiedOnDateTime: '2019-09-26T21:49Z'
+    ModifiedOnDateTimeEpoch: 1569534577000
+    DailyAcres: 128
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19
+    Name: Goose 2 Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#Goose2Fire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=d5ebf295-49d5-4a6a-ae13-47a921355e19
+    _CorrelationIds:
+      - CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: d5ebf295
+    unitMention: null
+    Final_Fire_Name: Goose 2 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:49Z-PER-none-ID-CALFIRE-d5ebf295-49d5-4a6a-ae13-47a921355e19-NAME-Goose2Fire-S-C
+      Code: 2eb0b74f82c0603fa167299cbaad2c090443aeda734a3707e6bb8d40b1f6e29c
+  CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b:
+    Source_CALFIRE:
+      Lon: -122.656569
+      Lat: 41.834366
+      incident_name: Tree Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T21:49Z'
+      incident_date_last_updateEpoch: 1569534567000
+      incident_date_created: '2019-07-27T17:15Z'
+      incident_date_createdEpoch: 1564247700000
+      incident_administrative_unit: Klamath National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Siskiyou
+      incident_location: 'Tree of Heaven Campground, east of Gottsville'
+      incident_acres_burned: 83
+      incident_containment: 100
+      incident_control: >-
+        Not a CAL FIRE Incident. Please contact the Klamath National Forest for
+        more information.
+      incident_cooperating_agencies: Klamath National Forest
+      incident_longitude: -122.656569
+      incident_latitude: 41.834366
+      incident_type: Wildfire
+      incident_id: 4ba68199-b45d-49da-91e8-bee9921b621b
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/27/tree-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-07-27'
+      is_active: 'N'
+      Fire_Name: Tree Fire
+      ModifiedOnDateTime: '2019-09-26T21:49Z'
+      ModifiedOnDateTimeEpoch: 1569534567000
+      DailyAcres: 83
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b
+      Name: Tree Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#TreeFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=4ba68199-b45d-49da-91e8-bee9921b621b
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b
+    Lon: -122.656569
+    Lat: 41.834366
+    incident_name: Tree Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T21:49Z'
+    incident_date_last_updateEpoch: 1569534567000
+    incident_date_created: '2019-07-27T17:15Z'
+    incident_date_createdEpoch: 1564247700000
+    incident_administrative_unit: Klamath National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Siskiyou
+    incident_location: 'Tree of Heaven Campground, east of Gottsville'
+    incident_acres_burned: 83
+    incident_containment: 100
+    incident_control: >-
+      Not a CAL FIRE Incident. Please contact the Klamath National Forest for
+      more information.
+    incident_cooperating_agencies: Klamath National Forest
+    incident_longitude: -122.656569
+    incident_latitude: 41.834366
+    incident_type: Wildfire
+    incident_id: 4ba68199-b45d-49da-91e8-bee9921b621b
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/27/tree-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-07-27'
+    is_active: 'N'
+    Fire_Name: Tree Fire
+    ModifiedOnDateTime: '2019-09-26T21:49Z'
+    ModifiedOnDateTimeEpoch: 1569534567000
+    DailyAcres: 83
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b
+    Name: Tree Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#TreeFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=4ba68199-b45d-49da-91e8-bee9921b621b
+    _CorrelationIds:
+      - CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 4ba68199
+    unitMention: null
+    Final_Fire_Name: Tree Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:49Z-PER-none-ID-CALFIRE-4ba68199-b45d-49da-91e8-bee9921b621b-NAME-TreeFire-S-C
+      Code: 1989fa792113a8776c82219d1f79cc464bb32ea0e2e628832c3b07de7b068273
+  CALFIRE-ee681e0b-54a3-48ad-900c-8037eeb88159:
+    Source_CALFIRE:
+      Lon: -122.845
+      Lat: 41.838
+      incident_name: Community Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T21:49Z'
+      incident_date_last_updateEpoch: 1569534559000
+      incident_date_created: '2019-07-27T17:15Z'
+      incident_date_createdEpoch: 1564247700000
+      incident_administrative_unit: Klamath National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Siskiyou
+      incident_location: Hwy 96 near the Klamath River Community Hall
+      incident_acres_burned: 35
+      incident_containment: 100
+      incident_control: >-
+        Not a CAL FIRE Incident. Please contact the Klamath National Forest for
+        more information.
+      incident_cooperating_agencies: Klamath National Forest
+      incident_longitude: -122.845
+      incident_latitude: 41.838
+      incident_type: Wildfire
+      incident_id: ee681e0b-54a3-48ad-900c-8037eeb88159
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/27/community-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-07-27'
+      is_active: 'N'
+      Fire_Name: Community Fire
+      ModifiedOnDateTime: '2019-09-26T21:49Z'
+      ModifiedOnDateTimeEpoch: 1569534559000
+      DailyAcres: 35
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-ee681e0b-54a3-48ad-900c-8037eeb88159
+      Name: Community Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#CommunityFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=ee681e0b-54a3-48ad-900c-8037eeb88159
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-ee681e0b-54a3-48ad-900c-8037eeb88159
+    Lon: -122.845
+    Lat: 41.838
+    incident_name: Community Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T21:49Z'
+    incident_date_last_updateEpoch: 1569534559000
+    incident_date_created: '2019-07-27T17:15Z'
+    incident_date_createdEpoch: 1564247700000
+    incident_administrative_unit: Klamath National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Siskiyou
+    incident_location: Hwy 96 near the Klamath River Community Hall
+    incident_acres_burned: 35
+    incident_containment: 100
+    incident_control: >-
+      Not a CAL FIRE Incident. Please contact the Klamath National Forest for
+      more information.
+    incident_cooperating_agencies: Klamath National Forest
+    incident_longitude: -122.845
+    incident_latitude: 41.838
+    incident_type: Wildfire
+    incident_id: ee681e0b-54a3-48ad-900c-8037eeb88159
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/27/community-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-07-27'
+    is_active: 'N'
+    Fire_Name: Community Fire
+    ModifiedOnDateTime: '2019-09-26T21:49Z'
+    ModifiedOnDateTimeEpoch: 1569534559000
+    DailyAcres: 35
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-ee681e0b-54a3-48ad-900c-8037eeb88159
+    Name: Community Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CommunityFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=ee681e0b-54a3-48ad-900c-8037eeb88159
+    _CorrelationIds:
+      - CALFIRE-ee681e0b-54a3-48ad-900c-8037eeb88159
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: ee681e0b
+    unitMention: null
+    Final_Fire_Name: Community Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:49Z-PER-none-ID-CALFIRE-ee681e0b-54a3-48ad-900c-8037eeb88159-NAME-CommunityFire-S-C
+      Code: 5f0747fe5fad9d0789901631808adef70b5845566a6458cf5a7282e87c157c10
+  CALFIRE-2939928b-0308-4d76-b232-246f064ddd11:
+    Source_CALFIRE:
+      Lon: -121.260305
+      Lat: 41.79591
+      incident_name: Tucker Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:49Z'
+      incident_date_last_updateEpoch: 1569534548000
+      incident_date_created: '2019-07-28T22:58Z'
+      incident_date_createdEpoch: 1564354680000
+      incident_administrative_unit: Modoc National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Modoc
+      incident_location: 'Hwy 139 and Tucker Butte Rd, 6 miles SW of Clear Lake Reservoir'
+      incident_acres_burned: 14217
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Modoc National Forest
+      incident_longitude: -121.260305
+      incident_latitude: 41.79591
+      incident_type: Wildfire
+      incident_id: 2939928b-0308-4d76-b232-246f064ddd11
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/tucker-fire/'
+      incident_date_extinguished: '2019-08-11 12:16:00'
+      incident_dateonly_extinguished: '2019-08-11'
+      incident_dateonly_created: '2019-07-28'
+      is_active: 'N'
+      Fire_Name: Tucker Fire
+      ModifiedOnDateTime: '2019-09-26T21:49Z'
+      ModifiedOnDateTimeEpoch: 1569534548000
+      DailyAcres: 14217
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+      Name: Tucker Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#TuckerFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=2939928b-0308-4d76-b232-246f064ddd11
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+    Lon: -121.260305
+    Lat: 41.79591
+    incident_name: Tucker Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:49Z'
+    incident_date_last_updateEpoch: 1569534548000
+    incident_date_created: '2019-07-28T22:58Z'
+    incident_date_createdEpoch: 1564354680000
+    incident_administrative_unit: Modoc National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Modoc
+    incident_location: 'Hwy 139 and Tucker Butte Rd, 6 miles SW of Clear Lake Reservoir'
+    incident_acres_burned: 14217
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Modoc National Forest
+    incident_longitude: -121.260305
+    incident_latitude: 41.79591
+    incident_type: Wildfire
+    incident_id: 2939928b-0308-4d76-b232-246f064ddd11
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/tucker-fire/'
+    incident_date_extinguished: '2019-08-11 12:16:00'
+    incident_dateonly_extinguished: '2019-08-11'
+    incident_dateonly_created: '2019-07-28'
+    is_active: 'N'
+    Fire_Name: Tucker Fire
+    ModifiedOnDateTime: '2019-09-26T21:49Z'
+    ModifiedOnDateTimeEpoch: 1569534548000
+    DailyAcres: 14217
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+    Name: Tucker Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#TuckerFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=2939928b-0308-4d76-b232-246f064ddd11
+    _CorrelationIds:
+      - CALFIRE-2939928b-0308-4d76-b232-246f064ddd11
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 2939928b
+    unitMention: null
+    Final_Fire_Name: Tucker Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:49Z-PER-none-ID-CALFIRE-2939928b-0308-4d76-b232-246f064ddd11-NAME-TuckerFire-S-C
+      Code: 3e0c3686a6858a5d6840cf7be735249de5135150038ca63b3825b59a2313ad4e
+  CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce:
+    Source_CALFIRE:
+      Lon: -119.94974
+      Lat: 34.665699
+      incident_name: Range Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:48Z'
+      incident_date_last_updateEpoch: 1569534539000
+      incident_date_created: '2019-07-29T05:39Z'
+      incident_date_createdEpoch: 1564378745000
+      incident_administrative_unit: Los Padres National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Santa Barbara
+      incident_location: north of Lake Cachuma
+      incident_acres_burned: 100
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Los Padres National Forest
+      incident_longitude: -119.94974
+      incident_latitude: 34.665699
+      incident_type: Wildfire
+      incident_id: bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/range-fire/'
+      incident_date_extinguished: '2019-08-05 12:27:00'
+      incident_dateonly_extinguished: '2019-08-05'
+      incident_dateonly_created: '2019-07-28'
+      is_active: 'N'
+      Fire_Name: Range Fire
+      ModifiedOnDateTime: '2019-09-26T21:48Z'
+      ModifiedOnDateTimeEpoch: 1569534539000
+      DailyAcres: 100
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+      Name: Range Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#RangeFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+    Source_NFSA_Join:
+      Lon: -119.9159096477524
+      Lat: 34.68315422856288
+      id: 125542
+      Name: Range
+      Fire_Name: Range
+      UniqueFireIdentifier: 2019-CALPF-001664
+      DailyAcres: 100
+      PercentContained: 99
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-08-05T13:00Z'
+      ICS209ReportDateTimeEpoch: 1565010000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 0
+      FireCause: Unknown
+      TotalIncidentPersonnel: 7
+      FireDiscoveryDateTime: '2019-07-29T05:50Z'
+      FireDiscoveryDateTimeEpoch: 1564379400000
+      DispatchCenterID: CALPCC
+      LocalIncidentIdentifier: '001664'
+      POOCounty: Santa Barbara
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-05T13:00Z'
+      ModifiedOnDateTimeEpoch: 1565010000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALPF-001664
+      ModifiedOnDateTime_Raw: '2019-08-05T13:41Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565012505000
+      Hashtag: '#RangeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-05T14:02:17.865Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -119.94974
+    Lat: 34.665699
+    incident_name: Range Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:48Z'
+    incident_date_last_updateEpoch: 1569534539000
+    incident_date_created: '2019-07-29T05:39Z'
+    incident_date_createdEpoch: 1564378745000
+    incident_administrative_unit: Los Padres National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Santa Barbara
+    incident_location: north of Lake Cachuma
+    incident_acres_burned: 100
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Los Padres National Forest
+    incident_longitude: -119.94974
+    incident_latitude: 34.665699
+    incident_type: Wildfire
+    incident_id: bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/28/range-fire/'
+    incident_date_extinguished: '2019-08-05 12:27:00'
+    incident_dateonly_extinguished: '2019-08-05'
+    incident_dateonly_created: '2019-07-28'
+    is_active: 'N'
+    Fire_Name: Range Fire
+    ModifiedOnDateTime: '2019-09-26T21:48Z'
+    ModifiedOnDateTimeEpoch: 1569534539000
+    DailyAcres: 100
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+    Name: Range Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#RangeFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+    _CorrelationIds:
+      - 2019-CALPF-001664
+      - CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: bc2edb86
+    unitMention: null
+    Final_Fire_Name: Range Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:48Z-PER-none-ID-CALFIRE-bc2edb86-fb4b-4dba-a9e0-5339f27d9bce-NAME-RangeFire-S-C
+      Code: 1ef76b32bb873b17490b4df207464988506b6e635bff8230720f4ddbbdf05095
+  CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8:
+    Source_CALFIRE:
+      Lon: -121.466944
+      Lat: 36.008889
+      incident_name: Mill Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:48Z'
+      incident_date_last_updateEpoch: 1569534531000
+      incident_date_created: '2019-07-30T20:28Z'
+      incident_date_createdEpoch: 1564518497000
+      incident_administrative_unit: Los Padres National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Monterey
+      incident_location: 'In Los Padres National Forest, West of Fort Hunter Liggett'
+      incident_acres_burned: 280
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Los Padres National Forest
+      incident_longitude: -121.466944
+      incident_latitude: 36.008889
+      incident_type: Wildfire
+      incident_id: 233708cc-ed2d-4b85-ba8c-60cf71c912c8
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/7/30/mill-fire/'
+      incident_date_extinguished: '2019-08-12 08:20:00'
+      incident_dateonly_extinguished: '2019-08-12'
+      incident_dateonly_created: '2019-07-30'
+      is_active: 'N'
+      Fire_Name: Mill Fire
+      ModifiedOnDateTime: '2019-09-26T21:48Z'
+      ModifiedOnDateTimeEpoch: 1569534531000
+      DailyAcres: 280
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8
+      Name: Mill Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#MillFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=233708cc-ed2d-4b85-ba8c-60cf71c912c8
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8
+    Source_NFSA_Join:
+      Lon: -121.49621691242264
+      Lat: 35.9885428473121
+      id: 125737
+      Name: MILL
+      Fire_Name: MILL
+      UniqueFireIdentifier: 2019-CALPF-001678
+      DailyAcres: 280
+      PercentContained: 98
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-08-13T00:00Z'
+      ICS209ReportDateTimeEpoch: 1565654400000
+      ICS209ReportStatus: F
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 5100000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 25
+      FireDiscoveryDateTime: '2019-07-30T12:36Z'
+      FireDiscoveryDateTimeEpoch: 1564490160000
+      DispatchCenterID: CALPCC
+      LocalIncidentIdentifier: 001678
+      POOCounty: Monterey
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-08-13T00:00Z'
+      ModifiedOnDateTimeEpoch: 1565654400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALPF-001678
+      ModifiedOnDateTime_Raw: '2019-08-13T00:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1565657696000
+      Hashtag: '#MillFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-08-13T01:01:54.158Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -121.466944
+    Lat: 36.008889
+    incident_name: Mill Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:48Z'
+    incident_date_last_updateEpoch: 1569534531000
+    incident_date_created: '2019-07-30T20:28Z'
+    incident_date_createdEpoch: 1564518497000
+    incident_administrative_unit: Los Padres National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Monterey
+    incident_location: 'In Los Padres National Forest, West of Fort Hunter Liggett'
+    incident_acres_burned: 280
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Los Padres National Forest
+    incident_longitude: -121.466944
+    incident_latitude: 36.008889
+    incident_type: Wildfire
+    incident_id: 233708cc-ed2d-4b85-ba8c-60cf71c912c8
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/7/30/mill-fire/'
+    incident_date_extinguished: '2019-08-12 08:20:00'
+    incident_dateonly_extinguished: '2019-08-12'
+    incident_dateonly_created: '2019-07-30'
+    is_active: 'N'
+    Fire_Name: Mill Fire
+    ModifiedOnDateTime: '2019-09-26T21:48Z'
+    ModifiedOnDateTimeEpoch: 1569534531000
+    DailyAcres: 280
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8
+    Name: Mill Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#MillFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=233708cc-ed2d-4b85-ba8c-60cf71c912c8
+    _CorrelationIds:
+      - 2019-CALPF-001678
+      - CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8
+    PerimDateTime: '2019-08-03T14:59Z'
+    PerimeterData:
+      DateTime: '2019-08-03T14:59Z'
+      Acres: 321.53874759
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:12:05.224Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 233708cc
+    unitMention: null
+    Final_Fire_Name: Mill Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:48Z-PER-2019-08-03T14:59Z-ID-CALFIRE-233708cc-ed2d-4b85-ba8c-60cf71c912c8-NAME-MillFire-S-C
+      Code: fdd45d56ea7814f5d3477bfb5edb5bebf4c1ecd9322700c9ad18600f15f94142
+  CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131:
+    Source_CALFIRE:
+      Lon: -117.026667
+      Lat: 32.575556
+      incident_name: Caliente Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:48Z'
+      incident_date_last_updateEpoch: 1569534519000
+      incident_date_created: '2019-08-01T21:53Z'
+      incident_date_createdEpoch: 1564696395000
+      incident_administrative_unit: City of San Diego Fire-Rescue
+      incident_administrative_unit_url: ''
+      incident_county: San Diego
+      incident_location: 'Off Airway Road and Caliente Ave, in San Ysidro'
+      incident_acres_burned: 448
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: City of San Diego Fire-Rescue
+      incident_longitude: -117.026667
+      incident_latitude: 32.575556
+      incident_type: Wildfire
+      incident_id: ca65fae0-e6d7-4600-890c-62da03753131
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/1/caliente-fire/'
+      incident_date_extinguished: '2019-08-03 09:10:00'
+      incident_dateonly_extinguished: '2019-08-03'
+      incident_dateonly_created: '2019-08-01'
+      is_active: 'N'
+      Fire_Name: Caliente Fire
+      ModifiedOnDateTime: '2019-09-26T21:48Z'
+      ModifiedOnDateTimeEpoch: 1569534519000
+      DailyAcres: 448
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131
+      Name: Caliente Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#CalienteFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=ca65fae0-e6d7-4600-890c-62da03753131
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131
+    Lon: -117.026667
+    Lat: 32.575556
+    incident_name: Caliente Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:48Z'
+    incident_date_last_updateEpoch: 1569534519000
+    incident_date_created: '2019-08-01T21:53Z'
+    incident_date_createdEpoch: 1564696395000
+    incident_administrative_unit: City of San Diego Fire-Rescue
+    incident_administrative_unit_url: ''
+    incident_county: San Diego
+    incident_location: 'Off Airway Road and Caliente Ave, in San Ysidro'
+    incident_acres_burned: 448
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: City of San Diego Fire-Rescue
+    incident_longitude: -117.026667
+    incident_latitude: 32.575556
+    incident_type: Wildfire
+    incident_id: ca65fae0-e6d7-4600-890c-62da03753131
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/1/caliente-fire/'
+    incident_date_extinguished: '2019-08-03 09:10:00'
+    incident_dateonly_extinguished: '2019-08-03'
+    incident_dateonly_created: '2019-08-01'
+    is_active: 'N'
+    Fire_Name: Caliente Fire
+    ModifiedOnDateTime: '2019-09-26T21:48Z'
+    ModifiedOnDateTimeEpoch: 1569534519000
+    DailyAcres: 448
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131
+    Name: Caliente Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CalienteFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=ca65fae0-e6d7-4600-890c-62da03753131
+    _CorrelationIds:
+      - CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: ca65fae0
+    unitMention: null
+    Final_Fire_Name: Caliente Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:48Z-PER-none-ID-CALFIRE-ca65fae0-e6d7-4600-890c-62da03753131-NAME-CalienteFire-S-C
+      Code: e0b7ec451761b0a310d9bdccc5ea60dd6540f9097da0f6906d2e05793e815cb2
+  CALFIRE-ed5e111d-e34a-42c0-9ce7-818270037c2c:
+    Source_CALFIRE:
+      Lon: -118.752395
+      Lat: 34.677864
+      incident_name: Five Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:48Z'
+      incident_date_last_updateEpoch: 1569534494000
+      incident_date_created: '2019-08-04T00:01Z'
+      incident_date_createdEpoch: 1564876875000
+      incident_administrative_unit: Angeles National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Los Angeles
+      incident_location: Off Interstate 5 & Templin Hwy
+      incident_acres_burned: 156
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Angeles National Forest
+      incident_longitude: -118.752395
+      incident_latitude: 34.677864
+      incident_type: Wildfire
+      incident_id: ed5e111d-e34a-42c0-9ce7-818270037c2c
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/3/five-fire/'
+      incident_date_extinguished: '2019-08-05 12:25:00'
+      incident_dateonly_extinguished: '2019-08-05'
+      incident_dateonly_created: '2019-08-03'
+      is_active: 'N'
+      Fire_Name: Five Fire
+      ModifiedOnDateTime: '2019-09-26T21:48Z'
+      ModifiedOnDateTimeEpoch: 1569534494000
+      DailyAcres: 156
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-ed5e111d-e34a-42c0-9ce7-818270037c2c
+      Name: Five Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#FiveFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=ed5e111d-e34a-42c0-9ce7-818270037c2c
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-ed5e111d-e34a-42c0-9ce7-818270037c2c
+    Lon: -118.752395
+    Lat: 34.677864
+    incident_name: Five Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:48Z'
+    incident_date_last_updateEpoch: 1569534494000
+    incident_date_created: '2019-08-04T00:01Z'
+    incident_date_createdEpoch: 1564876875000
+    incident_administrative_unit: Angeles National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Los Angeles
+    incident_location: Off Interstate 5 & Templin Hwy
+    incident_acres_burned: 156
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Angeles National Forest
+    incident_longitude: -118.752395
+    incident_latitude: 34.677864
+    incident_type: Wildfire
+    incident_id: ed5e111d-e34a-42c0-9ce7-818270037c2c
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/3/five-fire/'
+    incident_date_extinguished: '2019-08-05 12:25:00'
+    incident_dateonly_extinguished: '2019-08-05'
+    incident_dateonly_created: '2019-08-03'
+    is_active: 'N'
+    Fire_Name: Five Fire
+    ModifiedOnDateTime: '2019-09-26T21:48Z'
+    ModifiedOnDateTimeEpoch: 1569534494000
+    DailyAcres: 156
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-ed5e111d-e34a-42c0-9ce7-818270037c2c
+    Name: Five Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#FiveFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=ed5e111d-e34a-42c0-9ce7-818270037c2c
+    _CorrelationIds:
+      - CALFIRE-ed5e111d-e34a-42c0-9ce7-818270037c2c
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: ed5e111d
+    unitMention: null
+    Final_Fire_Name: Five Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:48Z-PER-none-ID-CALFIRE-ed5e111d-e34a-42c0-9ce7-818270037c2c-NAME-FiveFire-S-C
+      Code: 2b45e79ec7c0a0b468b2a1655880a713eab331ab07ddd59c972965d92d67936d
+  CALFIRE-e338f506-b9fa-44c0-ae64-324ed0e590d4:
+    Source_CALFIRE:
+      Lon: -121.678172
+      Lat: 37.968494
+      incident_name: Sellers Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:48Z'
+      incident_date_last_updateEpoch: 1569534485000
+      incident_date_created: '2019-08-07T22:13Z'
+      incident_date_createdEpoch: 1565216032000
+      incident_administrative_unit: East Contra Costa Fire Protection District
+      incident_administrative_unit_url: ''
+      incident_county: Contra Costa
+      incident_location: 'Sellers Ave and Delta Rd, 2 miles northeast of Brentwood'
+      incident_acres_burned: 58
+      incident_containment: 100
+      incident_control: >-
+        Forward spread has been stopped. Crews will continue with mop up
+        operations to establish full containment.
+      incident_cooperating_agencies: East Contra Costa Fire Protection District
+      incident_longitude: -121.678172
+      incident_latitude: 37.968494
+      incident_type: Wildfire
+      incident_id: e338f506-b9fa-44c0-ae64-324ed0e590d4
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/7/sellers-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-08-07'
+      is_active: 'N'
+      Fire_Name: Sellers Fire
+      ModifiedOnDateTime: '2019-09-26T21:48Z'
+      ModifiedOnDateTimeEpoch: 1569534485000
+      DailyAcres: 58
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-e338f506-b9fa-44c0-ae64-324ed0e590d4
+      Name: Sellers Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#SellersFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=e338f506-b9fa-44c0-ae64-324ed0e590d4
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T22:11:55.809Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-e338f506-b9fa-44c0-ae64-324ed0e590d4
+    Lon: -121.678172
+    Lat: 37.968494
+    incident_name: Sellers Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:48Z'
+    incident_date_last_updateEpoch: 1569534485000
+    incident_date_created: '2019-08-07T22:13Z'
+    incident_date_createdEpoch: 1565216032000
+    incident_administrative_unit: East Contra Costa Fire Protection District
+    incident_administrative_unit_url: ''
+    incident_county: Contra Costa
+    incident_location: 'Sellers Ave and Delta Rd, 2 miles northeast of Brentwood'
+    incident_acres_burned: 58
+    incident_containment: 100
+    incident_control: >-
+      Forward spread has been stopped. Crews will continue with mop up
+      operations to establish full containment.
+    incident_cooperating_agencies: East Contra Costa Fire Protection District
+    incident_longitude: -121.678172
+    incident_latitude: 37.968494
+    incident_type: Wildfire
+    incident_id: e338f506-b9fa-44c0-ae64-324ed0e590d4
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/7/sellers-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-08-07'
+    is_active: 'N'
+    Fire_Name: Sellers Fire
+    ModifiedOnDateTime: '2019-09-26T21:48Z'
+    ModifiedOnDateTimeEpoch: 1569534485000
+    DailyAcres: 58
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-e338f506-b9fa-44c0-ae64-324ed0e590d4
+    Name: Sellers Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SellersFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=e338f506-b9fa-44c0-ae64-324ed0e590d4
+    _CorrelationIds:
+      - CALFIRE-e338f506-b9fa-44c0-ae64-324ed0e590d4
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: e338f506
+    unitMention: null
+    Final_Fire_Name: Sellers Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:48Z-PER-none-ID-CALFIRE-e338f506-b9fa-44c0-ae64-324ed0e590d4-NAME-SellersFire-S-C
+      Code: 076dcf115765270b50ac407bc7341456de8eb50dab4f619c4e7e858d26395cd8
