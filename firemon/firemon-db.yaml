@@ -63227,35 +63227,35 @@ Database:
       PercentContained: 2
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-12T21:00Z'
-      ICS209ReportDateTimeEpoch: 1568322000000
+      ICS209ReportDateTime: '2019-09-26T18:00Z'
+      ICS209ReportDateTimeEpoch: 1569520800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 493000
+      EstimatedCostToDate: 528000
       FireCause: Natural
-      TotalIncidentPersonnel: 7
+      TotalIncidentPersonnel: 3
       FireDiscoveryDateTime: '2019-07-28T18:51Z'
       FireDiscoveryDateTimeEpoch: 1564339860000
       DispatchCenterID: COGJC
       LocalIncidentIdentifier: '000161'
       POOCounty: Garfield
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-12T21:00Z'
-      ModifiedOnDateTimeEpoch: 1568322000000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-09-26T18:00Z'
+      ModifiedOnDateTimeEpoch: 1569520800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-COWRF-000161
-      ModifiedOnDateTime_Raw: '2019-09-12T23:20Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568330422000
+      ModifiedOnDateTime_Raw: '2019-09-26T19:03Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569524599000
       Hashtag: '#MiddleMammFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-20T17:00:38.685Z'
+          RetrievedOn: '2019-09-26T19:31:41.830Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -63266,7 +63266,7 @@ Database:
     Source_GEOMAC:
       Lon: -107.78751069487026
       Lat: 39.36889507372961
-      objectid: 6
+      objectid: 4
       latitude: 39.3688889
       longitude: -107.7875
       acres: 275
@@ -63275,8 +63275,8 @@ Database:
       state: CO
       status: U
       firecause: Natural
-      reportdatetime: '2019-09-19T22:00Z'
-      reportdatetimeEpoch: 1568930400000
+      reportdatetime: '2019-09-26T18:00Z'
+      reportdatetimeEpoch: 1569520800000
       percentcontained: 2
       uniquefireidentifier: 2019-COWRF-000161
       firediscoverydatetime: '2019-07-28T18:51Z'
@@ -63286,11 +63286,11 @@ Database:
       incidentname: Middle Mamm
       iscomplex: 'false'
       irwinid: '{61017CCC-46A3-4D79-9CB6-56C13330BC6F}'
-      irwinmodifiedon: '2019-09-20T16:52Z'
-      irwinmodifiedonEpoch: 1568998348000
+      irwinmodifiedon: '2019-09-26T19:03Z'
+      irwinmodifiedonEpoch: 1569524600000
       mapsymbol: '1'
-      datecurrent: '2019-09-20T11:00Z'
-      datecurrentEpoch: 1568977222000
+      datecurrent: '2019-09-26T13:30Z'
+      datecurrentEpoch: 1569504635000
       pooownerunit: COWRF
       fireyear: 2019
       localincidentidentifier: '000161'
@@ -63300,8 +63300,8 @@ Database:
       complexname: null
       DailyAcres: 275
       FireCause: Natural
-      ModifiedOnDateTime: '2019-09-19T22:00Z'
-      ModifiedOnDateTimeEpoch: 1568930400000
+      ModifiedOnDateTime: '2019-09-26T18:00Z'
+      ModifiedOnDateTimeEpoch: 1569520800000
       PercentContained: 2
       UniqueFireIdentifier: 2019-COWRF-000161
       FireDiscoveryDateTime: '2019-07-28T18:51Z'
@@ -63312,7 +63312,7 @@ Database:
       Hashtag: '#MiddleMammFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-20T17:00:38.686Z'
+          RetrievedOn: '2019-09-26T19:31:41.831Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -63329,64 +63329,52 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-COWRF-000161
-    Lon: -107.78751069487026
-    Lat: 39.36889507372961
-    objectid: 6
-    latitude: 39.3688889
-    longitude: -107.7875
-    acres: 275
-    gacc: RMCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CO
-    status: U
-    firecause: Natural
-    reportdatetime: '2019-09-19T22:00Z'
-    reportdatetimeEpoch: 1568930400000
-    percentcontained: 2
-    uniquefireidentifier: 2019-COWRF-000161
-    firediscoverydatetime: '2019-07-28T18:51Z'
-    firediscoverydatetimeEpoch: 1564339860000
-    complexparentirwinid: null
-    pooresponsibleunit: COWRF
-    incidentname: Middle Mamm
-    iscomplex: 'false'
-    irwinid: '{61017CCC-46A3-4D79-9CB6-56C13330BC6F}'
-    irwinmodifiedon: '2019-09-20T16:52Z'
-    irwinmodifiedonEpoch: 1568998348000
-    mapsymbol: '1'
-    datecurrent: '2019-09-20T11:00Z'
-    datecurrentEpoch: 1568977222000
-    pooownerunit: COWRF
-    fireyear: 2019
-    localincidentidentifier: '000161'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 275
-    FireCause: Natural
-    ModifiedOnDateTime: '2019-09-19T22:00Z'
-    ModifiedOnDateTimeEpoch: 1568930400000
-    PercentContained: 2
+    Lon: -107.78751245172805
+    Lat: 39.36887962483032
+    id: 125786
+    Name: Middle Mamm
+    Fire_Name: Middle Mamm
     UniqueFireIdentifier: 2019-COWRF-000161
+    DailyAcres: 275
+    PercentContained: 2
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-26T18:00Z'
+    ICS209ReportDateTimeEpoch: 1569520800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 528000
+    FireCause: Natural
+    TotalIncidentPersonnel: 3
     FireDiscoveryDateTime: '2019-07-28T18:51Z'
     FireDiscoveryDateTimeEpoch: 1564339860000
-    Fire_Name: Middle Mamm
-    Name: Middle Mamm
-    Source: GEOMAC
-    Hashtag: '#MiddleMammFire'
+    DispatchCenterID: COGJC
+    LocalIncidentIdentifier: '000161'
+    POOCounty: Garfield
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-26T18:00Z'
+    ModifiedOnDateTimeEpoch: 1569520800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-COWRF-000161
+    ModifiedOnDateTime_Raw: '2019-09-26T19:03Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569524599000
+    Hashtag: '#MiddleMammFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-08-27T18:00Z'
     PerimeterData:
       DateTime: '2019-08-27T18:00Z'
       Acres: 250.10537586
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-20T17:00:48.522Z'
+          RetrievedOn: '2019-09-26T19:31:47.752Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -63398,14 +63386,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: COWRF
     unitMention: White River NF
     Final_Fire_Name: Middle Mamm Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-19T22:00Z-PER-2019-08-27T18:00Z-ID-2019-COWRF-000161-NAME-MiddleMamm-S-G
-      Code: 10178365c19551717c96a6807bad60063a81d9750ac78dd02ce5f7314d3ac723
+        UPD-2019-09-26T18:00Z-PER-2019-08-27T18:00Z-ID-2019-COWRF-000161-NAME-MiddleMamm-S-N
+      Code: f521c16a8c82c8452fc3cddec4b8ba9e4dd4333d30ea337bf66be3346624567f
   2019-IDCTF-000100:
     Source_NFSA_Join:
       Lon: -111.28741168072759
