@@ -58933,185 +58933,6 @@ Database:
       UpdateId: >-
         UPD-2019-08-22T23:33Z-PER-2019-08-14T22:30Z-ID-CALFIRE-e3d66b1b-3b3b-40a3-96ec-574c1a27cbe9-NAME-WardFire-S-C
       Code: bb854a430de35a807fb32ecc7930699b6fb4ee359f0de46a36b667846592862e
-  2019-CAINF-001435:
-    Source_NFSA_Join:
-      Lon: -118.279215132698
-      Lat: 36.28518734407914
-      id: 124891
-      Name: COW
-      Fire_Name: COW
-      UniqueFireIdentifier: 2019-CAINF-001435
-      DailyAcres: 2025
-      PercentContained: 70
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-12T22:30Z'
-      ICS209ReportDateTimeEpoch: 1568327400000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1900000
-      FireCause: Natural
-      TotalIncidentPersonnel: 27
-      FireDiscoveryDateTime: '2019-07-25T15:13Z'
-      FireDiscoveryDateTimeEpoch: 1564067580000
-      DispatchCenterID: CAOVCC
-      LocalIncidentIdentifier: '001435'
-      POOCounty: Tulare
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-12T22:30Z'
-      ModifiedOnDateTimeEpoch: 1568327400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAINF-001435
-      ModifiedOnDateTime_Raw: '2019-09-12T23:25Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568330707000
-      Hashtag: '#CowFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-12T23:32:08.432Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -118.2276123867199
-      Lat: 36.28380509582787
-      objectid: 5
-      latitude: 36.2838
-      longitude: -118.2276
-      acres: 2025
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-09-12T22:30Z'
-      reportdatetimeEpoch: 1568327400000
-      percentcontained: 70
-      uniquefireidentifier: 2019-CAINF-001435
-      firediscoverydatetime: '2019-07-25T15:13Z'
-      firediscoverydatetimeEpoch: 1564067580000
-      complexparentirwinid: null
-      pooresponsibleunit: CAINF
-      incidentname: COW
-      iscomplex: 'false'
-      irwinid: '{514B7AAC-D243-4A14-9509-A0BDA0B2C61D}'
-      irwinmodifiedon: '2019-09-12T23:25Z'
-      irwinmodifiedonEpoch: 1568330707000
-      mapsymbol: '1'
-      datecurrent: '2019-09-12T17:30Z'
-      datecurrentEpoch: 1568309450000
-      pooownerunit: CAINF
-      fireyear: 2019
-      localincidentidentifier: '001435'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 2025
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-09-12T22:30Z'
-      ModifiedOnDateTimeEpoch: 1568327400000
-      PercentContained: 70
-      UniqueFireIdentifier: 2019-CAINF-001435
-      FireDiscoveryDateTime: '2019-07-25T15:13Z'
-      FireDiscoveryDateTimeEpoch: 1564067580000
-      Fire_Name: COW
-      Name: COW
-      Source: GEOMAC
-      Hashtag: '#CowFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-12T23:32:08.433Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAINF-001435
-    Lon: -118.279215132698
-    Lat: 36.28518734407914
-    id: 124891
-    Name: COW
-    Fire_Name: COW
-    UniqueFireIdentifier: 2019-CAINF-001435
-    DailyAcres: 2025
-    PercentContained: 70
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-12T22:30Z'
-    ICS209ReportDateTimeEpoch: 1568327400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1900000
-    FireCause: Natural
-    TotalIncidentPersonnel: 27
-    FireDiscoveryDateTime: '2019-07-25T15:13Z'
-    FireDiscoveryDateTimeEpoch: 1564067580000
-    DispatchCenterID: CAOVCC
-    LocalIncidentIdentifier: '001435'
-    POOCounty: Tulare
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-12T22:30Z'
-    ModifiedOnDateTimeEpoch: 1568327400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAINF-001435
-    ModifiedOnDateTime_Raw: '2019-09-12T23:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568330707000
-    Hashtag: '#CowFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-03T00:42Z'
-    PerimeterData:
-      DateTime: '2019-09-03T00:42Z'
-      Acres: 1875.98772841
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-12T23:32:13.805Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: CAINF
-    unitMention: '@InyoInfo'
-    Final_Fire_Name: Cow Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-12T22:30Z-PER-2019-09-03T00:42Z-ID-2019-CAINF-001435-NAME-COW-S-N
-      Code: ad540a042530b05e638610859bb5d786c0125baf5b8563d3ae934411be939a52
   CALFIRE-46896a04-8502-403c-b362-e4adc9e7ad4d:
     Source_CALFIRE:
       Lon: -116.857817
@@ -64723,101 +64544,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-03T17:19Z-PER-none-ID-CALFIRE-954bfbe7-424c-49e0-9611-23e9f7a475a2-NAME-JolonFire-S-C
       Code: f320e247a0c8fd1bc3debf1f890d91ee81be5052a7ae238d1afca17e5d8c091f
-  2019-CALPF-002048:
-    Source_NFSA_Join:
-      Lon: -119.3710095627112
-      Lat: 34.71868521118672
-      id: 131491
-      Name: Snail
-      Fire_Name: Snail
-      UniqueFireIdentifier: 2019-CALPF-002048
-      DailyAcres: 279
-      PercentContained: 99
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-06T22:30Z'
-      ICS209ReportDateTimeEpoch: 1567809000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1060000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 51
-      FireDiscoveryDateTime: '2019-09-01T21:54Z'
-      FireDiscoveryDateTimeEpoch: 1567374840000
-      DispatchCenterID: CALPCC
-      LocalIncidentIdentifier: 002048
-      POOCounty: Ventura
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-06T22:30Z'
-      ModifiedOnDateTimeEpoch: 1567809000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALPF-002048
-      ModifiedOnDateTime_Raw: '2019-09-06T23:25Z'
-      ModifiedOnDateTimeEpoch_Raw: 1567812335000
-      Hashtag: '#SnailFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-06T23:31:23.291Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -119.3710095627112
-    Lat: 34.71868521118672
-    id: 131491
-    Name: Snail
-    Fire_Name: Snail
-    UniqueFireIdentifier: 2019-CALPF-002048
-    DailyAcres: 279
-    PercentContained: 99
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-06T22:30Z'
-    ICS209ReportDateTimeEpoch: 1567809000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1060000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 51
-    FireDiscoveryDateTime: '2019-09-01T21:54Z'
-    FireDiscoveryDateTimeEpoch: 1567374840000
-    DispatchCenterID: CALPCC
-    LocalIncidentIdentifier: 002048
-    POOCounty: Ventura
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-06T22:30Z'
-    ModifiedOnDateTimeEpoch: 1567809000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CALPF-002048
-    ModifiedOnDateTime_Raw: '2019-09-06T23:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1567812335000
-    Hashtag: '#SnailFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALPF
-    unitMention: '@LosPadresNF'
-    Final_Fire_Name: Snail Fire
-    _Update:
-      UpdateId: 'UPD-2019-09-06T22:30Z-PER-none-ID-2019-CALPF-002048-NAME-Snail-S-N'
-      Code: 06a480d25a26e8edaca0d98c460a3454820e99ac29438ccab3446b61c063b357
   2019-AKSWS-904770:
     Source_NFSA_Join:
       Lon: -157.1481855992917
@@ -69697,119 +69423,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-19T21:15Z-PER-2019-09-08T00:46Z-ID-2019-WYPAX-000453-NAME-STINKWATER-S-N
       Code: 327dbc1a218d6260ac2211c57bae0365b45fb52310c70059abe93db5661469e9
-  2019-CAMDF-000836:
-    Source_NFSA_Join:
-      Lon: -121.12911138841434
-      Lat: 41.712572729251576
-      id: 132327
-      Name: LONE
-      Fire_Name: LONE
-      UniqueFireIdentifier: 2019-CAMDF-000836
-      DailyAcres: 5737
-      PercentContained: 95
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-16T12:30Z'
-      ICS209ReportDateTimeEpoch: 1568637000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1600000
-      FireCause: Natural
-      TotalIncidentPersonnel: 40
-      FireDiscoveryDateTime: '2019-09-05T23:14Z'
-      FireDiscoveryDateTimeEpoch: 1567725240000
-      DispatchCenterID: CAMICC
-      LocalIncidentIdentifier: 000836
-      POOCounty: Modoc
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-16T12:30Z'
-      ModifiedOnDateTimeEpoch: 1568637000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAMDF-000836
-      ModifiedOnDateTime_Raw: '2019-09-16T12:43Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568637831000
-      Hashtag: '#LoneFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-16T13:01:12.020Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -121.12911138841434
-    Lat: 41.712572729251576
-    id: 132327
-    Name: LONE
-    Fire_Name: LONE
-    UniqueFireIdentifier: 2019-CAMDF-000836
-    DailyAcres: 5737
-    PercentContained: 95
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-16T12:30Z'
-    ICS209ReportDateTimeEpoch: 1568637000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1600000
-    FireCause: Natural
-    TotalIncidentPersonnel: 40
-    FireDiscoveryDateTime: '2019-09-05T23:14Z'
-    FireDiscoveryDateTimeEpoch: 1567725240000
-    DispatchCenterID: CAMICC
-    LocalIncidentIdentifier: 000836
-    POOCounty: Modoc
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-16T12:30Z'
-    ModifiedOnDateTimeEpoch: 1568637000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAMDF-000836
-    ModifiedOnDateTime_Raw: '2019-09-16T12:43Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568637831000
-    Hashtag: '#LoneFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-09T20:46Z'
-    PerimeterData:
-      DateTime: '2019-09-09T20:46Z'
-      Acres: 5590.20456566
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-16T13:01:21.215Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CAMDF
-    unitMention: Modoc NF
-    Final_Fire_Name: Lone Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-16T12:30Z-PER-2019-09-09T20:46Z-ID-2019-CAMDF-000836-NAME-LONE-S-N
-      Code: 893f51fc967abedfd3ee1884643c20cc1d00609da95150e45ffc1d28cfc94347
   2019-UTCCD-000596:
     Source_NFSA_Join:
       Lon: -113.1516135246381
@@ -70932,119 +70545,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-19T22:30Z-PER-2019-09-15T11:54Z-ID-2019-COWRD-000299-NAME-HUNT-S-N
       Code: b9347a34d6646631a59e0b9e88704c4ce05a86a53ed81dba9e811a76fe147ede
-  2019-CAKNF-007074:
-    Source_NFSA_Join:
-      Lon: -122.67016227516855
-      Lat: 41.86581950463133
-      id: 132506
-      Name: LIME
-      Fire_Name: LIME
-      UniqueFireIdentifier: 2019-CAKNF-007074
-      DailyAcres: 1872
-      PercentContained: 99
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-20T00:30Z'
-      ICS209ReportDateTimeEpoch: 1568939400000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 9060000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 42
-      FireDiscoveryDateTime: '2019-09-05T18:19Z'
-      FireDiscoveryDateTimeEpoch: 1567707586000
-      DispatchCenterID: CAYICC
-      LocalIncidentIdentifier: '007074'
-      POOCounty: Siskiyou
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-20T00:30Z'
-      ModifiedOnDateTimeEpoch: 1568939400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAKNF-007074
-      ModifiedOnDateTime_Raw: '2019-09-20T00:37Z'
-      ModifiedOnDateTimeEpoch_Raw: 1568939873000
-      Hashtag: '#LimeFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-20T01:01:55.646Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -122.67016227516855
-    Lat: 41.86581950463133
-    id: 132506
-    Name: LIME
-    Fire_Name: LIME
-    UniqueFireIdentifier: 2019-CAKNF-007074
-    DailyAcres: 1872
-    PercentContained: 99
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-20T00:30Z'
-    ICS209ReportDateTimeEpoch: 1568939400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 9060000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 42
-    FireDiscoveryDateTime: '2019-09-05T18:19Z'
-    FireDiscoveryDateTimeEpoch: 1567707586000
-    DispatchCenterID: CAYICC
-    LocalIncidentIdentifier: '007074'
-    POOCounty: Siskiyou
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-20T00:30Z'
-    ModifiedOnDateTimeEpoch: 1568939400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAKNF-007074
-    ModifiedOnDateTime_Raw: '2019-09-20T00:37Z'
-    ModifiedOnDateTimeEpoch_Raw: 1568939873000
-    Hashtag: '#LimeFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-17T22:03Z'
-    PerimeterData:
-      DateTime: '2019-09-17T22:03Z'
-      Acres: 1849.00377207
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-20T01:02:05.750Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CAKNF
-    unitMention: '@Klamath_NF'
-    Final_Fire_Name: Lime Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-20T00:30Z-PER-2019-09-17T22:03Z-ID-2019-CAKNF-007074-NAME-LIME-S-N
-      Code: 102d388f24bff70c689b24b96923977ace148cb3f0a84d381613499c8e421a43
   2019-AKSWS-904457:
     Source_NFSA_Join:
       Lon: -154.99768169117945
@@ -77202,119 +76702,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-19T23:30Z-PER-none-ID-2019-WYALX-019407-NAME-BRUSHCREEK-S-N'
       Code: 521c091cfc868ef7e25414ec01936c9d6d8179cb9752c9953f7d8491b75be59b
-  2019-CABDF-014540:
-    Source_NFSA_Join:
-      Lon: -116.80807114135399
-      Lat: 33.64250798111384
-      id: 133949
-      Name: BAUTISTA
-      Fire_Name: BAUTISTA
-      UniqueFireIdentifier: 2019-CABDF-014540
-      DailyAcres: 167
-      PercentContained: 95
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-23T00:00Z'
-      ICS209ReportDateTimeEpoch: 1569196800000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 557500
-      FireCause: Unknown
-      TotalIncidentPersonnel: 29
-      FireDiscoveryDateTime: '2019-09-16T00:52Z'
-      FireDiscoveryDateTimeEpoch: 1568595120000
-      DispatchCenterID: CARRCC
-      LocalIncidentIdentifier: '014540'
-      POOCounty: Riverside
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-23T00:00Z'
-      ModifiedOnDateTimeEpoch: 1569196800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CABDF-014540
-      ModifiedOnDateTime_Raw: '2019-09-23T01:39Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569202754000
-      Hashtag: '#BautistaFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-23T02:01:49.879Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -116.80807114135399
-    Lat: 33.64250798111384
-    id: 133949
-    Name: BAUTISTA
-    Fire_Name: BAUTISTA
-    UniqueFireIdentifier: 2019-CABDF-014540
-    DailyAcres: 167
-    PercentContained: 95
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-23T00:00Z'
-    ICS209ReportDateTimeEpoch: 1569196800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 557500
-    FireCause: Unknown
-    TotalIncidentPersonnel: 29
-    FireDiscoveryDateTime: '2019-09-16T00:52Z'
-    FireDiscoveryDateTimeEpoch: 1568595120000
-    DispatchCenterID: CARRCC
-    LocalIncidentIdentifier: '014540'
-    POOCounty: Riverside
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-23T00:00Z'
-    ModifiedOnDateTimeEpoch: 1569196800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CABDF-014540
-    ModifiedOnDateTime_Raw: '2019-09-23T01:39Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569202754000
-    Hashtag: '#BautistaFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-16T12:00Z'
-    PerimeterData:
-      DateTime: '2019-09-16T12:00Z'
-      Acres: 183.02014903
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-23T02:01:58.761Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CABDF
-    unitMention: '@SanBernardinoNF'
-    Final_Fire_Name: Bautista Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-23T00:00Z-PER-2019-09-16T12:00Z-ID-2019-CABDF-014540-NAME-BAUTISTA-S-N
-      Code: b8f713ea66d10c3209b081a835fdd452b50b0011bc80b559ea2a3344b6f7d123
   2019-ALPRI-2019091413:
     Source_NFSA_Join:
       Lon: -88.12806212182913
@@ -78312,185 +77699,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-19T00:00Z-PER-none-ID-2019-KYKYS-19-3002-NAME-ClarkBranch2-S-N
       Code: 5ab9d6384aacbb357f280aca53c1940fb45096b3b38c2c9e40a1e6fbc6939cac
-  2019-CAINF-002018:
-    Source_NFSA_Join:
-      Lon: -118.32991604733373
-      Lat: 37.01154404194937
-      id: 132083
-      Name: TABOOSE
-      Fire_Name: TABOOSE
-      UniqueFireIdentifier: 2019-CAINF-002018
-      DailyAcres: 10296
-      PercentContained: 75
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-25T23:30Z'
-      ICS209ReportDateTimeEpoch: 1569454200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 10900000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 48
-      FireDiscoveryDateTime: '2019-09-05T01:12Z'
-      FireDiscoveryDateTimeEpoch: 1567645920000
-      DispatchCenterID: CAOVCC
-      LocalIncidentIdentifier: 002018
-      POOCounty: Inyo
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-25T23:30Z'
-      ModifiedOnDateTimeEpoch: 1569454200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAINF-002018
-      ModifiedOnDateTime_Raw: '2019-09-26T00:24Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569457491000
-      Hashtag: '#TabooseFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T00:30:27.934Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -118.34529048401087
-      Lat: 37.034172164604605
-      objectid: 17
-      latitude: 37.034167
-      longitude: -118.345278
-      acres: 10296
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-25T00:00Z'
-      reportdatetimeEpoch: 1569369600000
-      percentcontained: 75
-      uniquefireidentifier: 2019-CAINF-002018
-      firediscoverydatetime: '2019-09-05T01:12Z'
-      firediscoverydatetimeEpoch: 1567645920000
-      complexparentirwinid: null
-      pooresponsibleunit: CAINF
-      incidentname: TABOOSE
-      iscomplex: 'false'
-      irwinid: '{FB038107-3B06-4407-8AEE-D09C0BFD9A0A}'
-      irwinmodifiedon: '2019-09-25T01:33Z'
-      irwinmodifiedonEpoch: 1569375191000
-      mapsymbol: '2'
-      datecurrent: '2019-09-25T18:00Z'
-      datecurrentEpoch: 1569434422000
-      pooownerunit: CAINF
-      fireyear: 2019
-      localincidentidentifier: 002018
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 10296
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-25T00:00Z'
-      ModifiedOnDateTimeEpoch: 1569369600000
-      PercentContained: 75
-      UniqueFireIdentifier: 2019-CAINF-002018
-      FireDiscoveryDateTime: '2019-09-05T01:12Z'
-      FireDiscoveryDateTimeEpoch: 1567645920000
-      Fire_Name: TABOOSE
-      Name: TABOOSE
-      Source: GEOMAC
-      Hashtag: '#TabooseFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T00:30:27.935Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAINF-002018
-    Lon: -118.32991604733373
-    Lat: 37.01154404194937
-    id: 132083
-    Name: TABOOSE
-    Fire_Name: TABOOSE
-    UniqueFireIdentifier: 2019-CAINF-002018
-    DailyAcres: 10296
-    PercentContained: 75
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-25T23:30Z'
-    ICS209ReportDateTimeEpoch: 1569454200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 10900000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 48
-    FireDiscoveryDateTime: '2019-09-05T01:12Z'
-    FireDiscoveryDateTimeEpoch: 1567645920000
-    DispatchCenterID: CAOVCC
-    LocalIncidentIdentifier: 002018
-    POOCounty: Inyo
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-25T23:30Z'
-    ModifiedOnDateTimeEpoch: 1569454200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAINF-002018
-    ModifiedOnDateTime_Raw: '2019-09-26T00:24Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569457491000
-    Hashtag: '#TabooseFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-23T22:04Z'
-    PerimeterData:
-      DateTime: '2019-09-23T22:04Z'
-      Acres: 10296.1749511
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T00:30:33.818Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: CAINF
-    unitMention: '@InyoInfo'
-    Final_Fire_Name: Taboose Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-25T23:30Z-PER-2019-09-23T22:04Z-ID-2019-CAINF-002018-NAME-TABOOSE-S-N
-      Code: a5b1dca3d669945b8b12ca1565a5d438a759f90001d07c09af55b8af7707b9bf
   2019-ALPRI-20190917-4:
     Source_NFSA_Join:
       Lon: -86.30416768471707
@@ -81292,10 +80500,10 @@ Database:
     Source_CALFIRE:
       Lon: -120.680556
       Lat: 40.061389
-      incident_name: Walker Fire (Not a CAL FIRE incident)
+      incident_name: Walker Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-24T20:42Z'
-      incident_date_last_updateEpoch: 1569357762000
+      incident_date_last_update: '2019-09-26T21:46Z'
+      incident_date_last_updateEpoch: 1569534418000
       incident_date_created: '2019-09-04T22:17Z'
       incident_date_createdEpoch: 1567635451000
       incident_administrative_unit: USFS Plumas National Forest
@@ -81310,28 +80518,26 @@ Database:
       incident_latitude: 40.061389
       incident_type: Wildfire
       incident_id: 3a48b649-8714-433d-9952-ff2bf9e8c90a
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/9/4/walker-fire-not-a-cal-fire-incident/
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/walker-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-09-04'
       is_active: 'N'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-09-24T20:42Z'
-      ModifiedOnDateTimeEpoch: 1569357762000
+      Fire_Name: Walker Fire
+      ModifiedOnDateTime: '2019-09-26T21:46Z'
+      ModifiedOnDateTimeEpoch: 1569534418000
       DailyAcres: 54612
       PercentContained: 98
       UniqueFireIdentifier: CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
+      Name: Walker Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#Fire'
+      Hashtag: '#WalkerFire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=3a48b649-8714-433d-9952-ff2bf9e8c90a
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-24T20:43:43.732Z'
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -81343,10 +80549,10 @@ Database:
         - CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a
     Lon: -120.680556
     Lat: 40.061389
-    incident_name: Walker Fire (Not a CAL FIRE incident)
+    incident_name: Walker Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-09-24T20:42Z'
-    incident_date_last_updateEpoch: 1569357762000
+    incident_date_last_update: '2019-09-26T21:46Z'
+    incident_date_last_updateEpoch: 1569534418000
     incident_date_created: '2019-09-04T22:17Z'
     incident_date_createdEpoch: 1567635451000
     incident_administrative_unit: USFS Plumas National Forest
@@ -81361,47 +80567,45 @@ Database:
     incident_latitude: 40.061389
     incident_type: Wildfire
     incident_id: 3a48b649-8714-433d-9952-ff2bf9e8c90a
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/9/4/walker-fire-not-a-cal-fire-incident/
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/4/walker-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-09-04'
     is_active: 'N'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-09-24T20:42Z'
-    ModifiedOnDateTimeEpoch: 1569357762000
+    Fire_Name: Walker Fire
+    ModifiedOnDateTime: '2019-09-26T21:46Z'
+    ModifiedOnDateTimeEpoch: 1569534418000
     DailyAcres: 54612
     PercentContained: 98
     UniqueFireIdentifier: CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
+    Name: Walker Fire
     Source: CALFIRE
     State: CA
-    Hashtag: '#Fire'
+    Hashtag: '#WalkerFire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=3a48b649-8714-433d-9952-ff2bf9e8c90a
     _CorrelationIds:
       - CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a
-    PerimDateTime: '2019-09-26T00:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-09-26T00:00Z'
+      DateTime: null
       Acres: null
       _Provenance: null
     unitId: 3a48b649
     unitMention: null
-    Final_Fire_Name: Fire
+    Final_Fire_Name: Walker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-24T20:42Z-PER-2019-09-26T00:00Z-ID-CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a-NAME--S-C
-      Code: 18700b7f319db5a5ddf70a1314282fca17c7ecd6df0a930ba0a7bd84de3df0c3
+        UPD-2019-09-26T21:46Z-PER-none-ID-CALFIRE-3a48b649-8714-433d-9952-ff2bf9e8c90a-NAME-WalkerFire-S-C
+      Code: 8df43175f1d94347c161e47f7a0ac5d8f88e33aa6720dfe6b7442b3582a69b00
   CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918:
     Source_CALFIRE:
       Lon: -118.872
       Lat: 37.826
-      incident_name: Springs Fire (Not A CAL FIRE Incident)
+      incident_name: Springs Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-24T20:43Z'
-      incident_date_last_updateEpoch: 1569357801000
+      incident_date_last_update: '2019-09-26T21:46Z'
+      incident_date_last_updateEpoch: 1569534397000
       incident_date_created: '2019-09-06T18:24Z'
       incident_date_createdEpoch: 1567794251000
       incident_administrative_unit: USFS - Inyo National Forest
@@ -81416,28 +80620,26 @@ Database:
       incident_latitude: 37.826
       incident_type: Wildfire
       incident_id: 226da8c8-26c0-49d7-b5ef-952cd969f918
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/9/6/springs-fire-not-a-cal-fire-incident/
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/springs-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-09-06'
       is_active: 'N'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-09-24T20:43Z'
-      ModifiedOnDateTimeEpoch: 1569357801000
+      Fire_Name: Springs Fire
+      ModifiedOnDateTime: '2019-09-26T21:46Z'
+      ModifiedOnDateTimeEpoch: 1569534397000
       DailyAcres: 4840
       PercentContained: 98
       UniqueFireIdentifier: CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
+      Name: Springs Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#Fire'
+      Hashtag: '#SpringsFire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=226da8c8-26c0-49d7-b5ef-952cd969f918
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-24T20:43:43.732Z'
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -81449,10 +80651,10 @@ Database:
         - CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918
     Lon: -118.872
     Lat: 37.826
-    incident_name: Springs Fire (Not A CAL FIRE Incident)
+    incident_name: Springs Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-09-24T20:43Z'
-    incident_date_last_updateEpoch: 1569357801000
+    incident_date_last_update: '2019-09-26T21:46Z'
+    incident_date_last_updateEpoch: 1569534397000
     incident_date_created: '2019-09-06T18:24Z'
     incident_date_createdEpoch: 1567794251000
     incident_administrative_unit: USFS - Inyo National Forest
@@ -81467,39 +80669,37 @@ Database:
     incident_latitude: 37.826
     incident_type: Wildfire
     incident_id: 226da8c8-26c0-49d7-b5ef-952cd969f918
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/9/6/springs-fire-not-a-cal-fire-incident/
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/springs-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-09-06'
     is_active: 'N'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-09-24T20:43Z'
-    ModifiedOnDateTimeEpoch: 1569357801000
+    Fire_Name: Springs Fire
+    ModifiedOnDateTime: '2019-09-26T21:46Z'
+    ModifiedOnDateTimeEpoch: 1569534397000
     DailyAcres: 4840
     PercentContained: 98
     UniqueFireIdentifier: CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
+    Name: Springs Fire
     Source: CALFIRE
     State: CA
-    Hashtag: '#Fire'
+    Hashtag: '#SpringsFire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=226da8c8-26c0-49d7-b5ef-952cd969f918
     _CorrelationIds:
       - CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918
-    PerimDateTime: '2019-09-26T00:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-09-26T00:00Z'
+      DateTime: null
       Acres: null
       _Provenance: null
     unitId: 226da8c8
     unitMention: null
-    Final_Fire_Name: Fire
+    Final_Fire_Name: Springs Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-24T20:43Z-PER-2019-09-26T00:00Z-ID-CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918-NAME--S-C
-      Code: 6c023b51f90a32c0b264208928315eac2deb76ea39986f28aca26706a67a7a79
+        UPD-2019-09-26T21:46Z-PER-none-ID-CALFIRE-226da8c8-26c0-49d7-b5ef-952cd969f918-NAME-SpringsFire-S-C
+      Code: eec063468fe89e261ecafb2ad09174915c0a2f8f1ee00a709d93b985433cea2d
   2019-FLEAQ-019011:
     Source_NFSA_Join:
       Lon: -86.68694881043324
@@ -82072,10 +81272,10 @@ Database:
     Source_CALFIRE:
       Lon: -118.345
       Lat: 37.034
-      incident_name: Taboose Fire (Not a CAL FIRE Incident)
+      incident_name: Taboose Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-09-26T13:31Z'
-      incident_date_last_updateEpoch: 1569504674000
+      incident_date_last_update: '2019-09-26T21:44Z'
+      incident_date_last_updateEpoch: 1569534268000
       incident_date_created: '2019-09-06T19:43Z'
       incident_date_createdEpoch: 1567799015000
       incident_administrative_unit: Inyo National Forest
@@ -82090,28 +81290,26 @@ Database:
       incident_latitude: 37.034
       incident_type: Wildfire
       incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire-not-a-cal-fire-incident/
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-09-06'
       is_active: 'Y'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-09-26T13:31Z'
-      ModifiedOnDateTimeEpoch: 1569504674000
+      Fire_Name: Taboose Fire
+      ModifiedOnDateTime: '2019-09-26T21:44Z'
+      ModifiedOnDateTimeEpoch: 1569534268000
       DailyAcres: 10293
       PercentContained: 75
       UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
+      Name: Taboose Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#Fire'
+      Hashtag: '#TabooseFire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-26T13:31:49.165Z'
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -82121,12 +81319,125 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
+    Source_NFSA_Join:
+      Lon: -118.32991604733373
+      Lat: 37.01154404194937
+      id: 132083
+      Name: TABOOSE
+      Fire_Name: TABOOSE
+      UniqueFireIdentifier: 2019-CAINF-002018
+      DailyAcres: 10296
+      PercentContained: 75
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-25T23:30Z'
+      ICS209ReportDateTimeEpoch: 1569454200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 10900000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 48
+      FireDiscoveryDateTime: '2019-09-05T01:12Z'
+      FireDiscoveryDateTimeEpoch: 1567645920000
+      DispatchCenterID: CAOVCC
+      LocalIncidentIdentifier: 002018
+      POOCounty: Inyo
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-25T23:30Z'
+      ModifiedOnDateTimeEpoch: 1569454200000
+      ModifiedBySystem: wfdss
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAINF-002018
+      ModifiedOnDateTime_Raw: '2019-09-26T01:27Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569461220000
+      Hashtag: '#TabooseFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.636Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -118.34529048401087
+      Lat: 37.034172164604605
+      objectid: 14
+      latitude: 37.034167
+      longitude: -118.345278
+      acres: 10296
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-09-25T23:30Z'
+      reportdatetimeEpoch: 1569454200000
+      percentcontained: 75
+      uniquefireidentifier: 2019-CAINF-002018
+      firediscoverydatetime: '2019-09-05T01:12Z'
+      firediscoverydatetimeEpoch: 1567645920000
+      complexparentirwinid: null
+      pooresponsibleunit: CAINF
+      incidentname: TABOOSE
+      iscomplex: 'false'
+      irwinid: '{FB038107-3B06-4407-8AEE-D09C0BFD9A0A}'
+      irwinmodifiedon: '2019-09-26T01:27Z'
+      irwinmodifiedonEpoch: 1569461221000
+      mapsymbol: '2'
+      datecurrent: '2019-09-26T15:30Z'
+      datecurrentEpoch: 1569511819000
+      pooownerunit: CAINF
+      fireyear: 2019
+      localincidentidentifier: 002018
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 10296
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-09-25T23:30Z'
+      ModifiedOnDateTimeEpoch: 1569454200000
+      PercentContained: 75
+      UniqueFireIdentifier: 2019-CAINF-002018
+      FireDiscoveryDateTime: '2019-09-05T01:12Z'
+      FireDiscoveryDateTimeEpoch: 1567645920000
+      Fire_Name: TABOOSE
+      Name: TABOOSE
+      Source: GEOMAC
+      Hashtag: '#TabooseFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAINF-002018
     Lon: -118.345
     Lat: 37.034
-    incident_name: Taboose Fire (Not a CAL FIRE Incident)
+    incident_name: Taboose Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-09-26T13:31Z'
-    incident_date_last_updateEpoch: 1569504674000
+    incident_date_last_update: '2019-09-26T21:44Z'
+    incident_date_last_updateEpoch: 1569534268000
     incident_date_created: '2019-09-06T19:43Z'
     incident_date_createdEpoch: 1567799015000
     incident_administrative_unit: Inyo National Forest
@@ -82141,39 +81452,55 @@ Database:
     incident_latitude: 37.034
     incident_type: Wildfire
     incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire-not-a-cal-fire-incident/
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-09-06'
     is_active: 'Y'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-09-26T13:31Z'
-    ModifiedOnDateTimeEpoch: 1569504674000
+    Fire_Name: Taboose Fire
+    ModifiedOnDateTime: '2019-09-26T21:44Z'
+    ModifiedOnDateTimeEpoch: 1569534268000
     DailyAcres: 10293
     PercentContained: 75
     UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
+    Name: Taboose Fire
     Source: CALFIRE
     State: CA
-    Hashtag: '#Fire'
+    Hashtag: '#TabooseFire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
     _CorrelationIds:
+      - 2019-CAINF-002018
       - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    PerimDateTime: '2019-09-26T00:00Z'
+    PerimDateTime: '2019-09-23T22:04Z'
     PerimeterData:
-      DateTime: '2019-09-26T00:00Z'
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-09-23T22:04Z'
+      Acres: 10296.1749511
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:48:02.926Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: e7ea56c5
     unitMention: null
-    Final_Fire_Name: Fire
+    Final_Fire_Name: Taboose Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-26T13:31Z-PER-2019-09-26T00:00Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME--S-C
-      Code: cbd023be06de44e7af940aa09b095b264473802f503e569e051de6db1ef28780
+        UPD-2019-09-26T21:44Z-PER-2019-09-23T22:04Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME-TabooseFire-S-C
+      Code: 5cbb224852aee569e7dad32d1b8d258c4294d9eeb028df30b2ca79413c4f52ab
   CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea:
     Source_CALFIRE:
       Lon: -122.789
@@ -82783,3 +82110,1907 @@ Database:
       UpdateId: >-
         UPD-2019-09-26T21:11Z-PER-2019-09-26T00:00Z-ID-CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3-NAME--S-C
       Code: 95b7e467c39b60afb0f152ecb39e574920ff310d026a9a5ea4d22d41521a6585
+  CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37:
+    Source_CALFIRE:
+      Lon: -120.336977
+      Lat: 40.886677
+      incident_name: R-1 Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:47Z'
+      incident_date_last_updateEpoch: 1569534475000
+      incident_date_created: '2019-08-08T00:21Z'
+      incident_date_createdEpoch: 1565223673000
+      incident_administrative_unit: BLM Northern California District
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Juniper Ridge Road and Juniper Tree Road, north of Ravendale'
+      incident_acres_burned: 130
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: BLM Northern California District
+      incident_longitude: -120.336977
+      incident_latitude: 40.886677
+      incident_type: Wildfire
+      incident_id: 5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/7/r-1-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-08-07'
+      is_active: 'N'
+      Fire_Name: R-1 Fire
+      ModifiedOnDateTime: '2019-09-26T21:47Z'
+      ModifiedOnDateTimeEpoch: 1569534475000
+      DailyAcres: 130
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+      Name: R-1 Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#R1Fire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+    Lon: -120.336977
+    Lat: 40.886677
+    incident_name: R-1 Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:47Z'
+    incident_date_last_updateEpoch: 1569534475000
+    incident_date_created: '2019-08-08T00:21Z'
+    incident_date_createdEpoch: 1565223673000
+    incident_administrative_unit: BLM Northern California District
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'Juniper Ridge Road and Juniper Tree Road, north of Ravendale'
+    incident_acres_burned: 130
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: BLM Northern California District
+    incident_longitude: -120.336977
+    incident_latitude: 40.886677
+    incident_type: Wildfire
+    incident_id: 5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/7/r-1-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-08-07'
+    is_active: 'N'
+    Fire_Name: R-1 Fire
+    ModifiedOnDateTime: '2019-09-26T21:47Z'
+    ModifiedOnDateTimeEpoch: 1569534475000
+    DailyAcres: 130
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+    Name: R-1 Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#R1Fire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+    _CorrelationIds:
+      - CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 5f7b19a6
+    unitMention: null
+    Final_Fire_Name: R 1 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:47Z-PER-none-ID-CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37-NAME-R1Fire-S-C
+      Code: be14381526eafba9b26e5a0da4b450425a15765dff73d3c7f809d4ce3bdb637a
+  CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92:
+    Source_CALFIRE:
+      Lon: -120.544
+      Lat: 40.562
+      incident_name: Horse Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:47Z'
+      incident_date_last_updateEpoch: 1569534455000
+      incident_date_created: '2019-08-24T23:33Z'
+      incident_date_createdEpoch: 1566689638000
+      incident_administrative_unit: Bureau of Land Management
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
+      incident_acres_burned: 131
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Bureau of Land Management
+      incident_longitude: -120.544
+      incident_latitude: 40.562
+      incident_type: Wildfire
+      incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
+      incident_date_extinguished: '2019-08-27 10:44:00'
+      incident_dateonly_extinguished: '2019-08-27'
+      incident_dateonly_created: '2019-08-24'
+      is_active: 'N'
+      Fire_Name: Horse Fire
+      ModifiedOnDateTime: '2019-09-26T21:47Z'
+      ModifiedOnDateTimeEpoch: 1569534455000
+      DailyAcres: 131
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+      Name: Horse Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HorseFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    Lon: -120.544
+    Lat: 40.562
+    incident_name: Horse Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:47Z'
+    incident_date_last_updateEpoch: 1569534455000
+    incident_date_created: '2019-08-24T23:33Z'
+    incident_date_createdEpoch: 1566689638000
+    incident_administrative_unit: Bureau of Land Management
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'Off Highway 139  and Horselake Road, North of Susanville'
+    incident_acres_burned: 131
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Bureau of Land Management
+    incident_longitude: -120.544
+    incident_latitude: 40.562
+    incident_type: Wildfire
+    incident_id: 97c4d72f-c1e9-425e-9dcf-44150047af92
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/24/horse-fire/'
+    incident_date_extinguished: '2019-08-27 10:44:00'
+    incident_dateonly_extinguished: '2019-08-27'
+    incident_dateonly_created: '2019-08-24'
+    is_active: 'N'
+    Fire_Name: Horse Fire
+    ModifiedOnDateTime: '2019-09-26T21:47Z'
+    ModifiedOnDateTimeEpoch: 1569534455000
+    DailyAcres: 131
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    Name: Horse Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#HorseFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=97c4d72f-c1e9-425e-9dcf-44150047af92
+    _CorrelationIds:
+      - CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 97c4d72f
+    unitMention: null
+    Final_Fire_Name: Horse Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:47Z-PER-none-ID-CALFIRE-97c4d72f-c1e9-425e-9dcf-44150047af92-NAME-HorseFire-S-C
+      Code: 3455f851ac3f901b61f686e27b23f6487f617d814449dae1033cdf028f09dc1a
+  CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826:
+    Source_CALFIRE:
+      Lon: -120.581
+      Lat: 40.593
+      incident_name: R-1 Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:47Z'
+      incident_date_last_updateEpoch: 1569534443000
+      incident_date_created: '2019-08-29T02:48Z'
+      incident_date_createdEpoch: 1567046894000
+      incident_administrative_unit: Bureau of Land Management
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Hagata Canyon, east of Eagle Lake'
+      incident_acres_burned: 3380
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Bureau of Land Management
+      incident_longitude: -120.581
+      incident_latitude: 40.593
+      incident_type: Wildfire
+      incident_id: 4ee8f023-1c92-4266-bb79-d41fdb3a5826
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/8/28/r-1-fire/'
+      incident_date_extinguished: '2019-09-04 16:22:00'
+      incident_dateonly_extinguished: '2019-09-04'
+      incident_dateonly_created: '2019-08-28'
+      is_active: 'N'
+      Fire_Name: R-1 Fire
+      ModifiedOnDateTime: '2019-09-26T21:47Z'
+      ModifiedOnDateTimeEpoch: 1569534443000
+      DailyAcres: 3380
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826
+      Name: R-1 Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#R1Fire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=4ee8f023-1c92-4266-bb79-d41fdb3a5826
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826
+    Lon: -120.581
+    Lat: 40.593
+    incident_name: R-1 Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:47Z'
+    incident_date_last_updateEpoch: 1569534443000
+    incident_date_created: '2019-08-29T02:48Z'
+    incident_date_createdEpoch: 1567046894000
+    incident_administrative_unit: Bureau of Land Management
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'Hagata Canyon, east of Eagle Lake'
+    incident_acres_burned: 3380
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Bureau of Land Management
+    incident_longitude: -120.581
+    incident_latitude: 40.593
+    incident_type: Wildfire
+    incident_id: 4ee8f023-1c92-4266-bb79-d41fdb3a5826
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/8/28/r-1-fire/'
+    incident_date_extinguished: '2019-09-04 16:22:00'
+    incident_dateonly_extinguished: '2019-09-04'
+    incident_dateonly_created: '2019-08-28'
+    is_active: 'N'
+    Fire_Name: R-1 Fire
+    ModifiedOnDateTime: '2019-09-26T21:47Z'
+    ModifiedOnDateTimeEpoch: 1569534443000
+    DailyAcres: 3380
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826
+    Name: R-1 Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#R1Fire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=4ee8f023-1c92-4266-bb79-d41fdb3a5826
+    _CorrelationIds:
+      - CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 4ee8f023
+    unitMention: null
+    Final_Fire_Name: R 1 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:47Z-PER-none-ID-CALFIRE-4ee8f023-1c92-4266-bb79-d41fdb3a5826-NAME-R1Fire-S-C
+      Code: 87db2fddc3c2319f0494cd876e91e359f60ec3bb481b7107a4ccfbf6259380ea
+  CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc:
+    Source_CALFIRE:
+      Lon: -119.3547
+      Lat: 34.71011
+      incident_name: Snail Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:47Z'
+      incident_date_last_updateEpoch: 1569534434000
+      incident_date_created: '2019-09-02T00:37Z'
+      incident_date_createdEpoch: 1567384663000
+      incident_administrative_unit: Los Padres National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Ventura
+      incident_location: 3 miles northwest of Reyes Creek
+      incident_acres_burned: 279
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Los Padres National Forest
+      incident_longitude: -119.3547
+      incident_latitude: 34.71011
+      incident_type: Wildfire
+      incident_id: 1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/1/snail-fire/'
+      incident_date_extinguished: '2019-09-05 08:14:00'
+      incident_dateonly_extinguished: '2019-09-05'
+      incident_dateonly_created: '2019-09-01'
+      is_active: 'N'
+      Fire_Name: Snail Fire
+      ModifiedOnDateTime: '2019-09-26T21:47Z'
+      ModifiedOnDateTimeEpoch: 1569534434000
+      DailyAcres: 279
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+      Name: Snail Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#SnailFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+    Source_NFSA_Join:
+      Lon: -119.3710095627112
+      Lat: 34.71868521118672
+      id: 131491
+      Name: Snail
+      Fire_Name: Snail
+      UniqueFireIdentifier: 2019-CALPF-002048
+      DailyAcres: 279
+      PercentContained: 99
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-06T22:30Z'
+      ICS209ReportDateTimeEpoch: 1567809000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1060000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 51
+      FireDiscoveryDateTime: '2019-09-01T21:54Z'
+      FireDiscoveryDateTimeEpoch: 1567374840000
+      DispatchCenterID: CALPCC
+      LocalIncidentIdentifier: 002048
+      POOCounty: Ventura
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-06T22:30Z'
+      ModifiedOnDateTimeEpoch: 1567809000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALPF-002048
+      ModifiedOnDateTime_Raw: '2019-09-06T23:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1567812335000
+      Hashtag: '#SnailFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-06T23:31:23.291Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -119.3547
+    Lat: 34.71011
+    incident_name: Snail Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:47Z'
+    incident_date_last_updateEpoch: 1569534434000
+    incident_date_created: '2019-09-02T00:37Z'
+    incident_date_createdEpoch: 1567384663000
+    incident_administrative_unit: Los Padres National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Ventura
+    incident_location: 3 miles northwest of Reyes Creek
+    incident_acres_burned: 279
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Los Padres National Forest
+    incident_longitude: -119.3547
+    incident_latitude: 34.71011
+    incident_type: Wildfire
+    incident_id: 1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/1/snail-fire/'
+    incident_date_extinguished: '2019-09-05 08:14:00'
+    incident_dateonly_extinguished: '2019-09-05'
+    incident_dateonly_created: '2019-09-01'
+    is_active: 'N'
+    Fire_Name: Snail Fire
+    ModifiedOnDateTime: '2019-09-26T21:47Z'
+    ModifiedOnDateTimeEpoch: 1569534434000
+    DailyAcres: 279
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+    Name: Snail Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SnailFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+    _CorrelationIds:
+      - 2019-CALPF-002048
+      - CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 1b6cdbc8
+    unitMention: null
+    Final_Fire_Name: Snail Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:47Z-PER-none-ID-CALFIRE-1b6cdbc8-4ab9-49e9-b6ed-e38d55e263cc-NAME-SnailFire-S-C
+      Code: a8a5be308d9e36aa10d0d3a895756e07f54608f1e046e75dc696b18abc435ab6
+  CALFIRE-791059a2-b50f-4ab0-924a-bfdac001e4b9:
+    Source_CALFIRE:
+      Lon: -123.222196
+      Lat: 40.062304
+      incident_name: Henthorne Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:46Z'
+      incident_date_last_updateEpoch: 1569534407000
+      incident_date_created: '2019-09-05T16:25Z'
+      incident_date_createdEpoch: 1567700700000
+      incident_administrative_unit: USFS Mendocino National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Trinity
+      incident_location: 'Yolla Bolly Middle Eel Wilderness near Henthorne Lake, North of Covelo'
+      incident_acres_burned: 244
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Mendocino National Forest
+      incident_longitude: -123.222196
+      incident_latitude: 40.062304
+      incident_type: Wildfire
+      incident_id: 791059a2-b50f-4ab0-924a-bfdac001e4b9
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/henthorne-fire/'
+      incident_date_extinguished: '2019-09-18 12:17:00'
+      incident_dateonly_extinguished: '2019-09-18'
+      incident_dateonly_created: '2019-09-05'
+      is_active: 'N'
+      Fire_Name: Henthorne Fire
+      ModifiedOnDateTime: '2019-09-26T21:46Z'
+      ModifiedOnDateTimeEpoch: 1569534407000
+      DailyAcres: 244
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-791059a2-b50f-4ab0-924a-bfdac001e4b9
+      Name: Henthorne Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HenthorneFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=791059a2-b50f-4ab0-924a-bfdac001e4b9
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-791059a2-b50f-4ab0-924a-bfdac001e4b9
+    Lon: -123.222196
+    Lat: 40.062304
+    incident_name: Henthorne Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:46Z'
+    incident_date_last_updateEpoch: 1569534407000
+    incident_date_created: '2019-09-05T16:25Z'
+    incident_date_createdEpoch: 1567700700000
+    incident_administrative_unit: USFS Mendocino National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Trinity
+    incident_location: 'Yolla Bolly Middle Eel Wilderness near Henthorne Lake, North of Covelo'
+    incident_acres_burned: 244
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Mendocino National Forest
+    incident_longitude: -123.222196
+    incident_latitude: 40.062304
+    incident_type: Wildfire
+    incident_id: 791059a2-b50f-4ab0-924a-bfdac001e4b9
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/5/henthorne-fire/'
+    incident_date_extinguished: '2019-09-18 12:17:00'
+    incident_dateonly_extinguished: '2019-09-18'
+    incident_dateonly_created: '2019-09-05'
+    is_active: 'N'
+    Fire_Name: Henthorne Fire
+    ModifiedOnDateTime: '2019-09-26T21:46Z'
+    ModifiedOnDateTimeEpoch: 1569534407000
+    DailyAcres: 244
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-791059a2-b50f-4ab0-924a-bfdac001e4b9
+    Name: Henthorne Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#HenthorneFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=791059a2-b50f-4ab0-924a-bfdac001e4b9
+    _CorrelationIds:
+      - CALFIRE-791059a2-b50f-4ab0-924a-bfdac001e4b9
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 791059a2
+    unitMention: null
+    Final_Fire_Name: Henthorne Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:46Z-PER-none-ID-CALFIRE-791059a2-b50f-4ab0-924a-bfdac001e4b9-NAME-HenthorneFire-S-C
+      Code: 1b01b259b049087835093367cc19f0fbb5b325c9e1af5dee4d77d31c3f74f08f
+  CALFIRE-81977367-45ad-4962-92f3-ae30f22ef723:
+    Source_CALFIRE:
+      Lon: -121.056
+      Lat: 41.748
+      incident_name: Lone Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:46Z'
+      incident_date_last_updateEpoch: 1569534386000
+      incident_date_created: '2019-09-06T18:34Z'
+      incident_date_createdEpoch: 1567794867000
+      incident_administrative_unit: USFS - Modoc National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Modoc
+      incident_location: 'Pinnacle Lake, Doublehead Ranger district, Modoc National Forest'
+      incident_acres_burned: 5737
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: USFS - Modoc National Forest
+      incident_longitude: -121.056
+      incident_latitude: 41.748
+      incident_type: Wildfire
+      incident_id: 81977367-45ad-4962-92f3-ae30f22ef723
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/lone-fire/'
+      incident_date_extinguished: '2019-09-13 07:19:00'
+      incident_dateonly_extinguished: '2019-09-13'
+      incident_dateonly_created: '2019-09-06'
+      is_active: 'N'
+      Fire_Name: Lone Fire
+      ModifiedOnDateTime: '2019-09-26T21:46Z'
+      ModifiedOnDateTimeEpoch: 1569534386000
+      DailyAcres: 5737
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-81977367-45ad-4962-92f3-ae30f22ef723
+      Name: Lone Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#LoneFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=81977367-45ad-4962-92f3-ae30f22ef723
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-81977367-45ad-4962-92f3-ae30f22ef723
+    Source_NFSA_Join:
+      Lon: -121.12911138841434
+      Lat: 41.712572729251576
+      id: 132327
+      Name: LONE
+      Fire_Name: LONE
+      UniqueFireIdentifier: 2019-CAMDF-000836
+      DailyAcres: 5737
+      PercentContained: 95
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-16T12:30Z'
+      ICS209ReportDateTimeEpoch: 1568637000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1600000
+      FireCause: Natural
+      TotalIncidentPersonnel: 40
+      FireDiscoveryDateTime: '2019-09-05T23:14Z'
+      FireDiscoveryDateTimeEpoch: 1567725240000
+      DispatchCenterID: CAMICC
+      LocalIncidentIdentifier: 000836
+      POOCounty: Modoc
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-16T12:30Z'
+      ModifiedOnDateTimeEpoch: 1568637000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAMDF-000836
+      ModifiedOnDateTime_Raw: '2019-09-16T12:43Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568637831000
+      Hashtag: '#LoneFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-16T13:01:12.020Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -121.056
+    Lat: 41.748
+    incident_name: Lone Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:46Z'
+    incident_date_last_updateEpoch: 1569534386000
+    incident_date_created: '2019-09-06T18:34Z'
+    incident_date_createdEpoch: 1567794867000
+    incident_administrative_unit: USFS - Modoc National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Modoc
+    incident_location: 'Pinnacle Lake, Doublehead Ranger district, Modoc National Forest'
+    incident_acres_burned: 5737
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: USFS - Modoc National Forest
+    incident_longitude: -121.056
+    incident_latitude: 41.748
+    incident_type: Wildfire
+    incident_id: 81977367-45ad-4962-92f3-ae30f22ef723
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/lone-fire/'
+    incident_date_extinguished: '2019-09-13 07:19:00'
+    incident_dateonly_extinguished: '2019-09-13'
+    incident_dateonly_created: '2019-09-06'
+    is_active: 'N'
+    Fire_Name: Lone Fire
+    ModifiedOnDateTime: '2019-09-26T21:46Z'
+    ModifiedOnDateTimeEpoch: 1569534386000
+    DailyAcres: 5737
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-81977367-45ad-4962-92f3-ae30f22ef723
+    Name: Lone Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#LoneFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=81977367-45ad-4962-92f3-ae30f22ef723
+    _CorrelationIds:
+      - 2019-CAMDF-000836
+      - CALFIRE-81977367-45ad-4962-92f3-ae30f22ef723
+    PerimDateTime: '2019-09-09T20:46Z'
+    PerimeterData:
+      DateTime: '2019-09-09T20:46Z'
+      Acres: 5590.20456566
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:48:05.241Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: '81977367'
+    unitMention: null
+    Final_Fire_Name: Lone Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:46Z-PER-2019-09-09T20:46Z-ID-CALFIRE-81977367-45ad-4962-92f3-ae30f22ef723-NAME-LoneFire-S-C
+      Code: 2b8ce265b59b83e1811819b68a852113cb56eec7b19f933dc83dc00bc3b2ed07
+  CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462:
+    Source_CALFIRE:
+      Lon: -118.228
+      Lat: 36.284
+      incident_name: Cow Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T21:44Z'
+      incident_date_last_updateEpoch: 1569534287000
+      incident_date_created: '2019-09-06T19:23Z'
+      incident_date_createdEpoch: 1567797780000
+      incident_administrative_unit: USFS - Inyo National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Inyo
+      incident_location: 'Golden Trout Wilderness, Inyo National Forest'
+      incident_acres_burned: 1975
+      incident_containment: 30
+      incident_control: ''
+      incident_cooperating_agencies: Inyo National Forest
+      incident_longitude: -118.228
+      incident_latitude: 36.284
+      incident_type: Wildfire
+      incident_id: c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/cow-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-06'
+      is_active: 'Y'
+      Fire_Name: Cow Fire
+      ModifiedOnDateTime: '2019-09-26T21:44Z'
+      ModifiedOnDateTimeEpoch: 1569534287000
+      DailyAcres: 1975
+      PercentContained: 30
+      UniqueFireIdentifier: CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+      Name: Cow Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#CowFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+    Source_NFSA_Join:
+      Lon: -118.279215132698
+      Lat: 36.28518734407914
+      id: 124891
+      Name: COW
+      Fire_Name: COW
+      UniqueFireIdentifier: 2019-CAINF-001435
+      DailyAcres: 2025
+      PercentContained: 70
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-12T22:30Z'
+      ICS209ReportDateTimeEpoch: 1568327400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1900000
+      FireCause: Natural
+      TotalIncidentPersonnel: 27
+      FireDiscoveryDateTime: '2019-07-25T15:13Z'
+      FireDiscoveryDateTimeEpoch: 1564067580000
+      DispatchCenterID: CAOVCC
+      LocalIncidentIdentifier: '001435'
+      POOCounty: Tulare
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-12T22:30Z'
+      ModifiedOnDateTimeEpoch: 1568327400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAINF-001435
+      ModifiedOnDateTime_Raw: '2019-09-12T23:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568330707000
+      Hashtag: '#CowFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-12T23:32:08.432Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -118.2276123867199
+      Lat: 36.28380509582787
+      objectid: 5
+      latitude: 36.2838
+      longitude: -118.2276
+      acres: 2025
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-12T22:30Z'
+      reportdatetimeEpoch: 1568327400000
+      percentcontained: 70
+      uniquefireidentifier: 2019-CAINF-001435
+      firediscoverydatetime: '2019-07-25T15:13Z'
+      firediscoverydatetimeEpoch: 1564067580000
+      complexparentirwinid: null
+      pooresponsibleunit: CAINF
+      incidentname: COW
+      iscomplex: 'false'
+      irwinid: '{514B7AAC-D243-4A14-9509-A0BDA0B2C61D}'
+      irwinmodifiedon: '2019-09-12T23:25Z'
+      irwinmodifiedonEpoch: 1568330707000
+      mapsymbol: '1'
+      datecurrent: '2019-09-12T17:30Z'
+      datecurrentEpoch: 1568309450000
+      pooownerunit: CAINF
+      fireyear: 2019
+      localincidentidentifier: '001435'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 2025
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-12T22:30Z'
+      ModifiedOnDateTimeEpoch: 1568327400000
+      PercentContained: 70
+      UniqueFireIdentifier: 2019-CAINF-001435
+      FireDiscoveryDateTime: '2019-07-25T15:13Z'
+      FireDiscoveryDateTimeEpoch: 1564067580000
+      Fire_Name: COW
+      Name: COW
+      Source: GEOMAC
+      Hashtag: '#CowFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-12T23:32:08.433Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAINF-001435
+    Lon: -118.228
+    Lat: 36.284
+    incident_name: Cow Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T21:44Z'
+    incident_date_last_updateEpoch: 1569534287000
+    incident_date_created: '2019-09-06T19:23Z'
+    incident_date_createdEpoch: 1567797780000
+    incident_administrative_unit: USFS - Inyo National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Inyo
+    incident_location: 'Golden Trout Wilderness, Inyo National Forest'
+    incident_acres_burned: 1975
+    incident_containment: 30
+    incident_control: ''
+    incident_cooperating_agencies: Inyo National Forest
+    incident_longitude: -118.228
+    incident_latitude: 36.284
+    incident_type: Wildfire
+    incident_id: c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/cow-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-06'
+    is_active: 'Y'
+    Fire_Name: Cow Fire
+    ModifiedOnDateTime: '2019-09-26T21:44Z'
+    ModifiedOnDateTimeEpoch: 1569534287000
+    DailyAcres: 1975
+    PercentContained: 30
+    UniqueFireIdentifier: CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+    Name: Cow Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CowFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+    _CorrelationIds:
+      - 2019-CAINF-001435
+      - CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+    PerimDateTime: '2019-09-03T00:42Z'
+    PerimeterData:
+      DateTime: '2019-09-03T00:42Z'
+      Acres: 1875.98772841
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:48:05.241Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: c3b236b9
+    unitMention: null
+    Final_Fire_Name: Cow Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:44Z-PER-2019-09-03T00:42Z-ID-CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462-NAME-CowFire-S-C
+      Code: 7b00b1a967e401d85996bd9c5394227b0741b4e422610795cb14d0ce61d572d4
+  CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f:
+    Source_CALFIRE:
+      Lon: -118.185
+      Lat: 36.151
+      incident_name: Broder Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:46Z'
+      incident_date_last_updateEpoch: 1569534371000
+      incident_date_created: '2019-09-06T19:39Z'
+      incident_date_createdEpoch: 1567798758000
+      incident_administrative_unit: USFS - Sequoia National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Tulare
+      incident_location: Northeast of Broder Meadow
+      incident_acres_burned: 381
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Sequoia National Forest
+      incident_longitude: -118.185
+      incident_latitude: 36.151
+      incident_type: Wildfire
+      incident_id: 737ef617-abaa-44a1-9bbc-f46240468b8f
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/broder-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-06'
+      is_active: 'N'
+      Fire_Name: Broder Fire
+      ModifiedOnDateTime: '2019-09-26T21:46Z'
+      ModifiedOnDateTimeEpoch: 1569534371000
+      DailyAcres: 381
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f
+      Name: Broder Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BroderFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=737ef617-abaa-44a1-9bbc-f46240468b8f
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f
+    Lon: -118.185
+    Lat: 36.151
+    incident_name: Broder Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:46Z'
+    incident_date_last_updateEpoch: 1569534371000
+    incident_date_created: '2019-09-06T19:39Z'
+    incident_date_createdEpoch: 1567798758000
+    incident_administrative_unit: USFS - Sequoia National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Tulare
+    incident_location: Northeast of Broder Meadow
+    incident_acres_burned: 381
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Sequoia National Forest
+    incident_longitude: -118.185
+    incident_latitude: 36.151
+    incident_type: Wildfire
+    incident_id: 737ef617-abaa-44a1-9bbc-f46240468b8f
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/broder-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-06'
+    is_active: 'N'
+    Fire_Name: Broder Fire
+    ModifiedOnDateTime: '2019-09-26T21:46Z'
+    ModifiedOnDateTimeEpoch: 1569534371000
+    DailyAcres: 381
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f
+    Name: Broder Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#BroderFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=737ef617-abaa-44a1-9bbc-f46240468b8f
+    _CorrelationIds:
+      - CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 737ef617
+    unitMention: null
+    Final_Fire_Name: Broder Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:46Z-PER-none-ID-CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f-NAME-BroderFire-S-C
+      Code: b0202346715c7a02f54f04844cd7204a4bd442ceb084099d445f1e325388f503
+  CALFIRE-393edada-d2bf-4a33-94f2-2d2123357015:
+    Source_CALFIRE:
+      Lon: -120.606
+      Lat: 44.734
+      incident_name: R-6 Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:46Z'
+      incident_date_last_updateEpoch: 1569534360000
+      incident_date_created: '2019-09-06T20:20Z'
+      incident_date_createdEpoch: 1567801200000
+      incident_administrative_unit: Bureau of Land Management - Northern CA District
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'North of Fredonyer Peak, southwest of Termo'
+      incident_acres_burned: 260
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Bureau of Land Management - Northern CA District
+      incident_longitude: -120.606
+      incident_latitude: 44.734
+      incident_type: Wildfire
+      incident_id: 393edada-d2bf-4a33-94f2-2d2123357015
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/r-6-fire/'
+      incident_date_extinguished: '2019-09-11 18:30:00'
+      incident_dateonly_extinguished: '2019-09-11'
+      incident_dateonly_created: '2019-09-06'
+      is_active: 'N'
+      Fire_Name: R-6 Fire
+      ModifiedOnDateTime: '2019-09-26T21:46Z'
+      ModifiedOnDateTimeEpoch: 1569534360000
+      DailyAcres: 260
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-393edada-d2bf-4a33-94f2-2d2123357015
+      Name: R-6 Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#R6Fire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=393edada-d2bf-4a33-94f2-2d2123357015
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-393edada-d2bf-4a33-94f2-2d2123357015
+    Lon: -120.606
+    Lat: 44.734
+    incident_name: R-6 Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:46Z'
+    incident_date_last_updateEpoch: 1569534360000
+    incident_date_created: '2019-09-06T20:20Z'
+    incident_date_createdEpoch: 1567801200000
+    incident_administrative_unit: Bureau of Land Management - Northern CA District
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'North of Fredonyer Peak, southwest of Termo'
+    incident_acres_burned: 260
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Bureau of Land Management - Northern CA District
+    incident_longitude: -120.606
+    incident_latitude: 44.734
+    incident_type: Wildfire
+    incident_id: 393edada-d2bf-4a33-94f2-2d2123357015
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/r-6-fire/'
+    incident_date_extinguished: '2019-09-11 18:30:00'
+    incident_dateonly_extinguished: '2019-09-11'
+    incident_dateonly_created: '2019-09-06'
+    is_active: 'N'
+    Fire_Name: R-6 Fire
+    ModifiedOnDateTime: '2019-09-26T21:46Z'
+    ModifiedOnDateTimeEpoch: 1569534360000
+    DailyAcres: 260
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-393edada-d2bf-4a33-94f2-2d2123357015
+    Name: R-6 Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#R6Fire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=393edada-d2bf-4a33-94f2-2d2123357015
+    _CorrelationIds:
+      - CALFIRE-393edada-d2bf-4a33-94f2-2d2123357015
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 393edada
+    unitMention: null
+    Final_Fire_Name: R 6 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:46Z-PER-none-ID-CALFIRE-393edada-d2bf-4a33-94f2-2d2123357015-NAME-R6Fire-S-C
+      Code: 7d50617171ec6e96c0ccc39481170800a967214c19013995ac33ba2996c9d13b
+  CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b:
+    Source_CALFIRE:
+      Lon: -122.662258
+      Lat: 41.862237
+      incident_name: Lime Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T21:45Z'
+      incident_date_last_updateEpoch: 1569534345000
+      incident_date_created: '2019-09-07T15:36Z'
+      incident_date_createdEpoch: 1567870592000
+      incident_administrative_unit: Klamath National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Siskiyou
+      incident_location: 'Ash Creek and Highway 96, Southwest of Hornbrook'
+      incident_acres_burned: 1872
+      incident_containment: 99
+      incident_control: ''
+      incident_cooperating_agencies: Klamath National Forest
+      incident_longitude: -122.662258
+      incident_latitude: 41.862237
+      incident_type: Wildfire
+      incident_id: 5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/lime-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-07'
+      is_active: 'N'
+      Fire_Name: Lime Fire
+      ModifiedOnDateTime: '2019-09-26T21:45Z'
+      ModifiedOnDateTimeEpoch: 1569534345000
+      DailyAcres: 1872
+      PercentContained: 99
+      UniqueFireIdentifier: CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+      Name: Lime Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#LimeFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+    Source_NFSA_Join:
+      Lon: -122.67016227516855
+      Lat: 41.86581950463133
+      id: 132506
+      Name: LIME
+      Fire_Name: LIME
+      UniqueFireIdentifier: 2019-CAKNF-007074
+      DailyAcres: 1872
+      PercentContained: 99
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-09-20T00:30Z'
+      ICS209ReportDateTimeEpoch: 1568939400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 9060000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 42
+      FireDiscoveryDateTime: '2019-09-05T18:19Z'
+      FireDiscoveryDateTimeEpoch: 1567707586000
+      DispatchCenterID: CAYICC
+      LocalIncidentIdentifier: '007074'
+      POOCounty: Siskiyou
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-09-20T00:30Z'
+      ModifiedOnDateTimeEpoch: 1568939400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAKNF-007074
+      ModifiedOnDateTime_Raw: '2019-09-20T00:37Z'
+      ModifiedOnDateTimeEpoch_Raw: 1568939873000
+      Hashtag: '#LimeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-20T01:01:55.646Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -122.662258
+    Lat: 41.862237
+    incident_name: Lime Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T21:45Z'
+    incident_date_last_updateEpoch: 1569534345000
+    incident_date_created: '2019-09-07T15:36Z'
+    incident_date_createdEpoch: 1567870592000
+    incident_administrative_unit: Klamath National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Siskiyou
+    incident_location: 'Ash Creek and Highway 96, Southwest of Hornbrook'
+    incident_acres_burned: 1872
+    incident_containment: 99
+    incident_control: ''
+    incident_cooperating_agencies: Klamath National Forest
+    incident_longitude: -122.662258
+    incident_latitude: 41.862237
+    incident_type: Wildfire
+    incident_id: 5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/lime-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-07'
+    is_active: 'N'
+    Fire_Name: Lime Fire
+    ModifiedOnDateTime: '2019-09-26T21:45Z'
+    ModifiedOnDateTimeEpoch: 1569534345000
+    DailyAcres: 1872
+    PercentContained: 99
+    UniqueFireIdentifier: CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+    Name: Lime Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#LimeFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+    _CorrelationIds:
+      - 2019-CAKNF-007074
+      - CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b
+    PerimDateTime: '2019-09-17T22:03Z'
+    PerimeterData:
+      DateTime: '2019-09-17T22:03Z'
+      Acres: 1849.00377207
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:48:05.241Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 5c74d3fc
+    unitMention: null
+    Final_Fire_Name: Lime Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:45Z-PER-2019-09-17T22:03Z-ID-CALFIRE-5c74d3fc-eaeb-4a75-9a07-5f8af961237b-NAME-LimeFire-S-C
+      Code: 71d32e9864398974330387e82af91d81c13ab16c2d876cd2ed202af4d571f4d0
+  CALFIRE-69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7:
+    Source_CALFIRE:
+      Lon: -123.2129356
+      Lat: 41.4929742
+      incident_name: Kidder 2 Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T21:43Z'
+      incident_date_last_updateEpoch: 1569534234000
+      incident_date_created: '2019-09-07T15:47Z'
+      incident_date_createdEpoch: 1567871266000
+      incident_administrative_unit: Klamath National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Siskiyou
+      incident_location: 'Marble Mountain Wilderness and Kidder Creek, Northwest of Etna'
+      incident_acres_burned: 227
+      incident_containment: 50
+      incident_control: ''
+      incident_cooperating_agencies: Klamath National Forest
+      incident_longitude: -123.2129356
+      incident_latitude: 41.4929742
+      incident_type: Wildfire
+      incident_id: 69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/kidder-2-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-07'
+      is_active: 'Y'
+      Fire_Name: Kidder 2 Fire
+      ModifiedOnDateTime: '2019-09-26T21:43Z'
+      ModifiedOnDateTimeEpoch: 1569534234000
+      DailyAcres: 227
+      PercentContained: 50
+      UniqueFireIdentifier: CALFIRE-69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+      Name: Kidder 2 Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#Kidder2Fire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+    Lon: -123.2129356
+    Lat: 41.4929742
+    incident_name: Kidder 2 Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T21:43Z'
+    incident_date_last_updateEpoch: 1569534234000
+    incident_date_created: '2019-09-07T15:47Z'
+    incident_date_createdEpoch: 1567871266000
+    incident_administrative_unit: Klamath National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Siskiyou
+    incident_location: 'Marble Mountain Wilderness and Kidder Creek, Northwest of Etna'
+    incident_acres_burned: 227
+    incident_containment: 50
+    incident_control: ''
+    incident_cooperating_agencies: Klamath National Forest
+    incident_longitude: -123.2129356
+    incident_latitude: 41.4929742
+    incident_type: Wildfire
+    incident_id: 69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/kidder-2-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-07'
+    is_active: 'Y'
+    Fire_Name: Kidder 2 Fire
+    ModifiedOnDateTime: '2019-09-26T21:43Z'
+    ModifiedOnDateTimeEpoch: 1569534234000
+    DailyAcres: 227
+    PercentContained: 50
+    UniqueFireIdentifier: CALFIRE-69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+    Name: Kidder 2 Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#Kidder2Fire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+    _CorrelationIds:
+      - CALFIRE-69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 69b0cca6
+    unitMention: null
+    Final_Fire_Name: Kidder 2 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:43Z-PER-none-ID-CALFIRE-69b0cca6-c0c6-4a96-8f61-07ebb0ff9dc7-NAME-Kidder2Fire-S-C
+      Code: d6e648eefd62896ef66c13d7d3a011acb4f67d94b546a9e9c16c74fd13e38e7f
+  CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834:
+    Source_CALFIRE:
+      Lon: -122.634108
+      Lat: 41.150392
+      incident_name: Rams Horn Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:45Z'
+      incident_date_last_updateEpoch: 1569534336000
+      incident_date_created: '2019-09-07T15:49Z'
+      incident_date_createdEpoch: 1567871398000
+      incident_administrative_unit: Shasta-Trinity National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Trinity
+      incident_location: 'Highway 3 and Bear Creek Loop, Northeast of Coffee Creek'
+      incident_acres_burned: 280
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Shasta-Trinity National Forest
+      incident_longitude: -122.634108
+      incident_latitude: 41.150392
+      incident_type: Wildfire
+      incident_id: b24dc89c-632d-46a1-8984-2ce037e37834
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/rams-horn-fire/'
+      incident_date_extinguished: '2019-09-12 10:08:00'
+      incident_dateonly_extinguished: '2019-09-12'
+      incident_dateonly_created: '2019-09-07'
+      is_active: 'N'
+      Fire_Name: Rams Horn Fire
+      ModifiedOnDateTime: '2019-09-26T21:45Z'
+      ModifiedOnDateTimeEpoch: 1569534336000
+      DailyAcres: 280
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834
+      Name: Rams Horn Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#RamsHornFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=b24dc89c-632d-46a1-8984-2ce037e37834
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834
+    Lon: -122.634108
+    Lat: 41.150392
+    incident_name: Rams Horn Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:45Z'
+    incident_date_last_updateEpoch: 1569534336000
+    incident_date_created: '2019-09-07T15:49Z'
+    incident_date_createdEpoch: 1567871398000
+    incident_administrative_unit: Shasta-Trinity National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Trinity
+    incident_location: 'Highway 3 and Bear Creek Loop, Northeast of Coffee Creek'
+    incident_acres_burned: 280
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Shasta-Trinity National Forest
+    incident_longitude: -122.634108
+    incident_latitude: 41.150392
+    incident_type: Wildfire
+    incident_id: b24dc89c-632d-46a1-8984-2ce037e37834
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/rams-horn-fire/'
+    incident_date_extinguished: '2019-09-12 10:08:00'
+    incident_dateonly_extinguished: '2019-09-12'
+    incident_dateonly_created: '2019-09-07'
+    is_active: 'N'
+    Fire_Name: Rams Horn Fire
+    ModifiedOnDateTime: '2019-09-26T21:45Z'
+    ModifiedOnDateTimeEpoch: 1569534336000
+    DailyAcres: 280
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834
+    Name: Rams Horn Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#RamsHornFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=b24dc89c-632d-46a1-8984-2ce037e37834
+    _CorrelationIds:
+      - CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: b24dc89c
+    unitMention: null
+    Final_Fire_Name: Rams Horn Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:45Z-PER-none-ID-CALFIRE-b24dc89c-632d-46a1-8984-2ce037e37834-NAME-RamsHornFire-S-C
+      Code: 1ce2c47ee3934739e2aa4dcf01c850e59646c4cbf3304ce5d8b93ce6326636df
+  CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002:
+    Source_CALFIRE:
+      Lon: -117.3063
+      Lat: 33.9369
+      incident_name: Sycamore Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-09-26T21:45Z'
+      incident_date_last_updateEpoch: 1569534322000
+      incident_date_created: '2019-09-08T03:31Z'
+      incident_date_createdEpoch: 1567913506000
+      incident_administrative_unit: Riverside City Fire Department
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: 'Kangaroo Court and River Ridge Drive, Riverside'
+      incident_acres_burned: 250
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Riverside City Fire Department
+      incident_longitude: -117.3063
+      incident_latitude: 33.9369
+      incident_type: Wildfire
+      incident_id: a14c1f49-8e49-4709-a21b-6c06471a1002
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/sycamore-fire/'
+      incident_date_extinguished: '2019-09-08 18:00:00'
+      incident_dateonly_extinguished: '2019-09-08'
+      incident_dateonly_created: '2019-09-07'
+      is_active: 'N'
+      Fire_Name: Sycamore Fire
+      ModifiedOnDateTime: '2019-09-26T21:45Z'
+      ModifiedOnDateTimeEpoch: 1569534322000
+      DailyAcres: 250
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002
+      Name: Sycamore Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#SycamoreFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=a14c1f49-8e49-4709-a21b-6c06471a1002
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002
+    Lon: -117.3063
+    Lat: 33.9369
+    incident_name: Sycamore Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-09-26T21:45Z'
+    incident_date_last_updateEpoch: 1569534322000
+    incident_date_created: '2019-09-08T03:31Z'
+    incident_date_createdEpoch: 1567913506000
+    incident_administrative_unit: Riverside City Fire Department
+    incident_administrative_unit_url: ''
+    incident_county: Riverside
+    incident_location: 'Kangaroo Court and River Ridge Drive, Riverside'
+    incident_acres_burned: 250
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Riverside City Fire Department
+    incident_longitude: -117.3063
+    incident_latitude: 33.9369
+    incident_type: Wildfire
+    incident_id: a14c1f49-8e49-4709-a21b-6c06471a1002
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/7/sycamore-fire/'
+    incident_date_extinguished: '2019-09-08 18:00:00'
+    incident_dateonly_extinguished: '2019-09-08'
+    incident_dateonly_created: '2019-09-07'
+    is_active: 'N'
+    Fire_Name: Sycamore Fire
+    ModifiedOnDateTime: '2019-09-26T21:45Z'
+    ModifiedOnDateTimeEpoch: 1569534322000
+    DailyAcres: 250
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002
+    Name: Sycamore Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SycamoreFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=a14c1f49-8e49-4709-a21b-6c06471a1002
+    _CorrelationIds:
+      - CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: a14c1f49
+    unitMention: null
+    Final_Fire_Name: Sycamore Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:45Z-PER-none-ID-CALFIRE-a14c1f49-8e49-4709-a21b-6c06471a1002-NAME-SycamoreFire-S-C
+      Code: 368335b02b1c54f0ab4a293c1e6580325617c476c42d301d8fe9a696fc5237e6
+  CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5:
+    Source_CALFIRE:
+      Lon: -123.000833
+      Lat: 41.749667
+      incident_name: Bar Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T21:45Z'
+      incident_date_last_updateEpoch: 1569534308000
+      incident_date_created: '2019-09-15T22:52Z'
+      incident_date_createdEpoch: 1568587920000
+      incident_administrative_unit: Klamath National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Siskiyou
+      incident_location: 'Southwest of Bald Mountain and Klamath Bar, Klamath National Forest'
+      incident_acres_burned: 91
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: Klamath National Forest
+      incident_longitude: -123.000833
+      incident_latitude: 41.749667
+      incident_type: Wildfire
+      incident_id: 8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bar-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-15'
+      is_active: 'N'
+      Fire_Name: Bar Fire
+      ModifiedOnDateTime: '2019-09-26T21:45Z'
+      ModifiedOnDateTimeEpoch: 1569534308000
+      DailyAcres: 91
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+      Name: Bar Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BarFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+    Lon: -123.000833
+    Lat: 41.749667
+    incident_name: Bar Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T21:45Z'
+    incident_date_last_updateEpoch: 1569534308000
+    incident_date_created: '2019-09-15T22:52Z'
+    incident_date_createdEpoch: 1568587920000
+    incident_administrative_unit: Klamath National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Siskiyou
+    incident_location: 'Southwest of Bald Mountain and Klamath Bar, Klamath National Forest'
+    incident_acres_burned: 91
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: Klamath National Forest
+    incident_longitude: -123.000833
+    incident_latitude: 41.749667
+    incident_type: Wildfire
+    incident_id: 8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bar-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-15'
+    is_active: 'N'
+    Fire_Name: Bar Fire
+    ModifiedOnDateTime: '2019-09-26T21:45Z'
+    ModifiedOnDateTimeEpoch: 1569534308000
+    DailyAcres: 91
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+    Name: Bar Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#BarFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+    _CorrelationIds:
+      - CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 8b4a5b95
+    unitMention: null
+    Final_Fire_Name: Bar Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:45Z-PER-none-ID-CALFIRE-8b4a5b95-3f51-4038-a7ea-b5ed3c73c2e5-NAME-BarFire-S-C
+      Code: ba98d4cc04a2321ad4172cc595407effbd6fb6cf6c0ec613e837b0326dee9b6a
+  CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9:
+    Source_CALFIRE:
+      Lon: -116.801111
+      Lat: 33.635
+      incident_name: Bautista Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T21:44Z'
+      incident_date_last_updateEpoch: 1569534256000
+      incident_date_created: '2019-09-16T03:13Z'
+      incident_date_createdEpoch: 1568603585000
+      incident_administrative_unit: San Bernardino National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: 'Bautista Road and Tripp Flats, West of Lake Hemet'
+      incident_acres_burned: 167
+      incident_containment: 95
+      incident_control: ''
+      incident_cooperating_agencies: San Bernardino National Forest
+      incident_longitude: -116.801111
+      incident_latitude: 33.635
+      incident_type: Wildfire
+      incident_id: 980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bautista-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-15'
+      is_active: 'Y'
+      Fire_Name: Bautista Fire
+      ModifiedOnDateTime: '2019-09-26T21:44Z'
+      ModifiedOnDateTimeEpoch: 1569534256000
+      DailyAcres: 167
+      PercentContained: 95
+      UniqueFireIdentifier: CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+      Name: Bautista Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BautistaFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:47:56.637Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    Source_NFSA_Join:
+      Lon: -116.80807114135399
+      Lat: 33.64250798111384
+      id: 133949
+      Name: BAUTISTA
+      Fire_Name: BAUTISTA
+      UniqueFireIdentifier: 2019-CABDF-014540
+      DailyAcres: 167
+      PercentContained: 95
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-23T00:00Z'
+      ICS209ReportDateTimeEpoch: 1569196800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 557500
+      FireCause: Unknown
+      TotalIncidentPersonnel: 29
+      FireDiscoveryDateTime: '2019-09-16T00:52Z'
+      FireDiscoveryDateTimeEpoch: 1568595120000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '014540'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-23T00:00Z'
+      ModifiedOnDateTimeEpoch: 1569196800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CABDF-014540
+      ModifiedOnDateTime_Raw: '2019-09-23T01:39Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569202754000
+      Hashtag: '#BautistaFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-23T02:01:49.879Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -116.801111
+    Lat: 33.635
+    incident_name: Bautista Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T21:44Z'
+    incident_date_last_updateEpoch: 1569534256000
+    incident_date_created: '2019-09-16T03:13Z'
+    incident_date_createdEpoch: 1568603585000
+    incident_administrative_unit: San Bernardino National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Riverside
+    incident_location: 'Bautista Road and Tripp Flats, West of Lake Hemet'
+    incident_acres_burned: 167
+    incident_containment: 95
+    incident_control: ''
+    incident_cooperating_agencies: San Bernardino National Forest
+    incident_longitude: -116.801111
+    incident_latitude: 33.635
+    incident_type: Wildfire
+    incident_id: 980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/15/bautista-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-15'
+    is_active: 'Y'
+    Fire_Name: Bautista Fire
+    ModifiedOnDateTime: '2019-09-26T21:44Z'
+    ModifiedOnDateTimeEpoch: 1569534256000
+    DailyAcres: 167
+    PercentContained: 95
+    UniqueFireIdentifier: CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    Name: Bautista Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#BautistaFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    _CorrelationIds:
+      - 2019-CABDF-014540
+      - CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9
+    PerimDateTime: '2019-09-16T12:00Z'
+    PerimeterData:
+      DateTime: '2019-09-16T12:00Z'
+      Acres: 183.02014903
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T21:48:05.241Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 980c4c7d
+    unitMention: null
+    Final_Fire_Name: Bautista Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T21:44Z-PER-2019-09-16T12:00Z-ID-CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9-NAME-BautistaFire-S-C
+      Code: 1469f9ef166ba721e804a2900584207e65fc2af59916648ced5b87d4d760a7f7
