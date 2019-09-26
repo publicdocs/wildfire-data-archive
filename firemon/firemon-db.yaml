@@ -82599,174 +82599,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-26T03:04Z-PER-none-ID-CALFIRE-abdb011f-15d8-475b-b08e-4df583700411-NAME-WillowFire-S-C
       Code: 43041157bfb76e55def4bfeef5814ea0831553059f3c18aab2ed3cae6ddc9180
-  2019-CASLU-012773:
-    Source_CALFIRE:
-      Lon: -120.455883
-      Lat: 35.214364
-      incident_name: Lopez Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-25T13:59Z'
-      incident_date_last_updateEpoch: 1569419973000
-      incident_date_created: '2019-09-21T21:26Z'
-      incident_date_createdEpoch: 1569101160000
-      incident_administrative_unit: >-
-        Unified Command: CAL FIRE San Luis Obispo Unit & Los Padres National
-        Forest
-      incident_administrative_unit_url: ''
-      incident_county: San Luis Obispo
-      incident_location: >-
-        Upper Lopez Canyon Road & Wittenberg Creek Rd, southeast of San Luis
-        Obispo
-      incident_acres_burned: 220
-      incident_containment: 70
-      incident_control: ''
-      incident_cooperating_agencies: Los Padres National Forest
-      incident_longitude: -120.455883
-      incident_latitude: 35.214364
-      incident_type: Wildfire
-      incident_id: 840010ca-aef0-4f91-b771-3bf196317d03
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/21/lopez-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-21'
-      is_active: 'Y'
-      Fire_Name: Lopez Fire
-      ModifiedOnDateTime: '2019-09-25T13:59Z'
-      ModifiedOnDateTimeEpoch: 1569419973000
-      DailyAcres: 220
-      PercentContained: 70
-      UniqueFireIdentifier: CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
-      Name: Lopez Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#LopezFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=840010ca-aef0-4f91-b771-3bf196317d03
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T13:31:49.165Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
-    Source_NFSA_Join:
-      Lon: -120.45792614073162
-      Lat: 35.18983513995669
-      id: 134552
-      Name: LOPEZ
-      Fire_Name: LOPEZ
-      UniqueFireIdentifier: 2019-CASLU-012773
-      DailyAcres: 220
-      PercentContained: 85
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-09-26T12:45Z'
-      ICS209ReportDateTimeEpoch: 1569501900000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 3225000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 306
-      FireDiscoveryDateTime: '2019-09-21T21:26Z'
-      FireDiscoveryDateTimeEpoch: 1569101167000
-      DispatchCenterID: CASLCC
-      LocalIncidentIdentifier: '012773'
-      POOCounty: San Luis Obispo
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-09-26T12:45Z'
-      ModifiedOnDateTimeEpoch: 1569501900000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CASLU-012773
-      ModifiedOnDateTime_Raw: '2019-09-26T13:10Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569503441000
-      Hashtag: '#LopezFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T13:31:49.163Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -120.45792614073162
-    Lat: 35.18983513995669
-    id: 134552
-    Name: LOPEZ
-    Fire_Name: LOPEZ
-    UniqueFireIdentifier: 2019-CASLU-012773
-    DailyAcres: 220
-    PercentContained: 85
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-09-26T12:45Z'
-    ICS209ReportDateTimeEpoch: 1569501900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3225000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 306
-    FireDiscoveryDateTime: '2019-09-21T21:26Z'
-    FireDiscoveryDateTimeEpoch: 1569101167000
-    DispatchCenterID: CASLCC
-    LocalIncidentIdentifier: '012773'
-    POOCounty: San Luis Obispo
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-09-26T12:45Z'
-    ModifiedOnDateTimeEpoch: 1569501900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CASLU-012773
-      - CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
-    ModifiedOnDateTime_Raw: '2019-09-26T13:10Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569503441000
-    Hashtag: '#LopezFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-24T00:00Z'
-    PerimeterData:
-      DateTime: '2019-09-24T00:00Z'
-      Acres: 205.19243706
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T13:31:57.896Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CASLU
-    unitMention: San Luis Obispo Unit
-    Final_Fire_Name: Lopez Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-26T12:45Z-PER-2019-09-24T00:00Z-ID-2019-CASLU-012773-NAME-LOPEZ-S-N
-      Code: 6ade4085dacf32bad38a158c72f2a5cb878ef22de0ccc33c2f918a2aefc52137
   CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
@@ -82979,3 +82811,178 @@ Database:
       UpdateId: >-
         UPD-2019-09-26T13:34Z-PER-2019-09-25T02:14Z-ID-CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea-NAME--S-C
       Code: 48cccf8a8ed61fd5628f95b07a47f5d34183d70f1781eddbe19f3b1894658b0d
+  CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03:
+    Source_CALFIRE:
+      Lon: -120.455883
+      Lat: 35.214364
+      incident_name: Lopez Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-09-26T13:55Z'
+      incident_date_last_updateEpoch: 1569506101000
+      incident_date_created: '2019-09-21T21:26Z'
+      incident_date_createdEpoch: 1569101160000
+      incident_administrative_unit: >-
+        Unified Command: CAL FIRE San Luis Obispo Unit & Los Padres National
+        Forest
+      incident_administrative_unit_url: ''
+      incident_county: San Luis Obispo
+      incident_location: >-
+        Upper Lopez Canyon Road & Wittenberg Creek Rd, southeast of San Luis
+        Obispo
+      incident_acres_burned: 220
+      incident_containment: 85
+      incident_control: ''
+      incident_cooperating_agencies: Los Padres National Forest
+      incident_longitude: -120.455883
+      incident_latitude: 35.214364
+      incident_type: Wildfire
+      incident_id: 840010ca-aef0-4f91-b771-3bf196317d03
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/21/lopez-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-09-21'
+      is_active: 'Y'
+      Fire_Name: Lopez Fire
+      ModifiedOnDateTime: '2019-09-26T13:55Z'
+      ModifiedOnDateTimeEpoch: 1569506101000
+      DailyAcres: 220
+      PercentContained: 85
+      UniqueFireIdentifier: CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
+      Name: Lopez Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#LopezFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=840010ca-aef0-4f91-b771-3bf196317d03
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T13:57:19.686Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
+    Source_NFSA_Join:
+      Lon: -120.45792614073162
+      Lat: 35.18983513995669
+      id: 134552
+      Name: LOPEZ
+      Fire_Name: LOPEZ
+      UniqueFireIdentifier: 2019-CASLU-012773
+      DailyAcres: 220
+      PercentContained: 85
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-09-26T12:45Z'
+      ICS209ReportDateTimeEpoch: 1569501900000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3225000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 306
+      FireDiscoveryDateTime: '2019-09-21T21:26Z'
+      FireDiscoveryDateTimeEpoch: 1569101167000
+      DispatchCenterID: CASLCC
+      LocalIncidentIdentifier: '012773'
+      POOCounty: San Luis Obispo
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-09-26T12:45Z'
+      ModifiedOnDateTimeEpoch: 1569501900000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CASLU-012773
+      ModifiedOnDateTime_Raw: '2019-09-26T13:10Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569503441000
+      Hashtag: '#LopezFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T13:57:19.685Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -120.455883
+    Lat: 35.214364
+    incident_name: Lopez Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-09-26T13:55Z'
+    incident_date_last_updateEpoch: 1569506101000
+    incident_date_created: '2019-09-21T21:26Z'
+    incident_date_createdEpoch: 1569101160000
+    incident_administrative_unit: >-
+      Unified Command: CAL FIRE San Luis Obispo Unit & Los Padres National
+      Forest
+    incident_administrative_unit_url: ''
+    incident_county: San Luis Obispo
+    incident_location: >-
+      Upper Lopez Canyon Road & Wittenberg Creek Rd, southeast of San Luis
+      Obispo
+    incident_acres_burned: 220
+    incident_containment: 85
+    incident_control: ''
+    incident_cooperating_agencies: Los Padres National Forest
+    incident_longitude: -120.455883
+    incident_latitude: 35.214364
+    incident_type: Wildfire
+    incident_id: 840010ca-aef0-4f91-b771-3bf196317d03
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/21/lopez-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-09-21'
+    is_active: 'Y'
+    Fire_Name: Lopez Fire
+    ModifiedOnDateTime: '2019-09-26T13:55Z'
+    ModifiedOnDateTimeEpoch: 1569506101000
+    DailyAcres: 220
+    PercentContained: 85
+    UniqueFireIdentifier: CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
+    Name: Lopez Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#LopezFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=840010ca-aef0-4f91-b771-3bf196317d03
+    _CorrelationIds:
+      - 2019-CASLU-012773
+      - CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
+    PerimDateTime: '2019-09-24T00:00Z'
+    PerimeterData:
+      DateTime: '2019-09-24T00:00Z'
+      Acres: 205.19243706
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-26T13:57:28.881Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 840010ca
+    unitMention: null
+    Final_Fire_Name: Lopez Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-09-26T13:55Z-PER-2019-09-24T00:00Z-ID-CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03-NAME-LopezFire-S-C
+      Code: eda470575cac1a990da028aa5b9c73ff0d7d93adbce77a5ef3e75f224d51ba6f
