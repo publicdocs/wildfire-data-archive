@@ -55698,12 +55698,12 @@ Database:
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-26T23:00Z'
-      ICS209ReportDateTimeEpoch: 1569538800000
+      ICS209ReportDateTime: '2019-09-27T03:45Z'
+      ICS209ReportDateTimeEpoch: 1569555900000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 65000
+      EstimatedCostToDate: 90000
       FireCause: Natural
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-08-15T23:44Z'
@@ -55712,21 +55712,21 @@ Database:
       LocalIncidentIdentifier: '000512'
       POOCounty: Shoshone
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-26T23:00Z'
-      ModifiedOnDateTimeEpoch: 1569538800000
+      ModifiedOnDateTime: '2019-09-27T03:45Z'
+      ModifiedOnDateTimeEpoch: 1569555900000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-IDIPF-000512
-      ModifiedOnDateTime_Raw: '2019-09-26T23:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569540374000
+      ModifiedOnDateTime_Raw: '2019-09-27T04:03Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569557023000
       Hashtag: '#SnowPeakFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-26T23:31:14.997Z'
+          RetrievedOn: '2019-09-27T04:31:50.561Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -55734,6 +55734,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -116.28581390630814
+      Lat: 47.95833629011973
+      objectid: 12
+      latitude: 47.95833
+      longitude: -116.2858
+      acres: 110
+      gacc: NRCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: ID
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-27T03:45Z'
+      reportdatetimeEpoch: 1569555900000
+      percentcontained: 0
+      uniquefireidentifier: 2019-IDIPF-000512
+      firediscoverydatetime: '2019-08-15T23:44Z'
+      firediscoverydatetimeEpoch: 1565912698000
+      complexparentirwinid: null
+      pooresponsibleunit: IDIPF
+      incidentname: Snow Peak
+      iscomplex: 'false'
+      irwinid: '{DF6A444F-24E4-452F-A915-AFBB2EDACED0}'
+      irwinmodifiedon: '2019-09-27T04:03Z'
+      irwinmodifiedonEpoch: 1569557024000
+      mapsymbol: '1'
+      datecurrent: '2019-09-26T22:30Z'
+      datecurrentEpoch: 1569537023000
+      pooownerunit: IDIPF
+      fireyear: 2019
+      localincidentidentifier: '000512'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 110
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-27T03:45Z'
+      ModifiedOnDateTimeEpoch: 1569555900000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-IDIPF-000512
+      FireDiscoveryDateTime: '2019-08-15T23:44Z'
+      FireDiscoveryDateTimeEpoch: 1565912698000
+      Fire_Name: Snow Peak
+      Name: Snow Peak
+      Source: GEOMAC
+      Hashtag: '#SnowPeakFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-27T04:31:50.562Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-IDIPF-000512
     Lon: -116.28581758462543
     Lat: 47.95833463653449
     id: 129040
@@ -55744,12 +55810,12 @@ Database:
     PercentContained: 0
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-26T23:00Z'
-    ICS209ReportDateTimeEpoch: 1569538800000
+    ICS209ReportDateTime: '2019-09-27T03:45Z'
+    ICS209ReportDateTimeEpoch: 1569555900000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 65000
+    EstimatedCostToDate: 90000
     FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2019-08-15T23:44Z'
@@ -55758,16 +55824,16 @@ Database:
     LocalIncidentIdentifier: '000512'
     POOCounty: Shoshone
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-26T23:00Z'
-    ModifiedOnDateTimeEpoch: 1569538800000
+    ModifiedOnDateTime: '2019-09-27T03:45Z'
+    ModifiedOnDateTimeEpoch: 1569555900000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-IDIPF-000512
-    ModifiedOnDateTime_Raw: '2019-09-26T23:26Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569540374000
+    ModifiedOnDateTime_Raw: '2019-09-27T04:03Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569557023000
     Hashtag: '#SnowPeakFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -55779,8 +55845,8 @@ Database:
     unitMention: Idaho Panhandle NF
     Final_Fire_Name: Snow Peak Fire
     _Update:
-      UpdateId: 'UPD-2019-09-26T23:00Z-PER-none-ID-2019-IDIPF-000512-NAME-SnowPeak-S-N'
-      Code: 9284996702b140a796f0b42ccb41dd1d2b2c8854756aa0f4a7253396608d70ff
+      UpdateId: 'UPD-2019-09-27T03:45Z-PER-none-ID-2019-IDIPF-000512-NAME-SnowPeak-S-N'
+      Code: c2b0b3246f8ff67bb06a41bfc10d4d445ea7cead8165290c8bc1aab0f2107c55
   2019-TXTXS-190263:
     Source_NFSA_Join:
       Lon: -100.21667293391985
