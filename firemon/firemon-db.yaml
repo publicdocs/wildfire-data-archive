@@ -79191,13 +79191,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1569543677000
     Hashtag: '#JohnsonFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-25T18:14Z'
+    PerimDateTime: '2019-09-26T10:48Z'
     PerimeterData:
-      DateTime: '2019-09-25T18:14Z'
+      DateTime: '2019-09-26T10:48Z'
       Acres: 166.17211518
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-27T00:31:49.404Z'
+          RetrievedOn: '2019-09-27T17:02:52.740Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -79218,8 +79218,8 @@ Database:
     Final_Fire_Name: Johnson Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-26T22:45Z-PER-2019-09-25T18:14Z-ID-2019-AZPNF-001556-NAME-Johnson-S-N
-      Code: c1d69bf546c6dab5bf320696044b25aae8b30f8fe393c792917b704133770e8b
+        UPD-2019-09-26T22:45Z-PER-2019-09-26T10:48Z-ID-2019-AZPNF-001556-NAME-Johnson-S-N
+      Code: f3e2bad88f36d4c27d726bf542fd9a3ae085ae25fcf7f3749f794b251c20409f
   2019-MTFHA-000176:
     Source_NFSA_Join:
       Lon: -114.2994538452275
@@ -80896,9 +80896,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=2f735b66-c275-4557-a8ad-0ff60e0552f3
     _CorrelationIds:
       - CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3
-    PerimDateTime: '2019-09-26T00:00Z'
+    PerimDateTime: '2019-09-27T00:31Z'
     PerimeterData:
-      DateTime: '2019-09-26T00:00Z'
+      DateTime: '2019-09-27T00:31Z'
       Acres: null
       _Provenance: null
     unitId: 2f735b66
@@ -80906,8 +80906,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-26T21:11Z-PER-2019-09-26T00:00Z-ID-CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3-NAME--S-C
-      Code: 95b7e467c39b60afb0f152ecb39e574920ff310d026a9a5ea4d22d41521a6585
+        UPD-2019-09-26T21:11Z-PER-2019-09-27T00:31Z-ID-CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3-NAME--S-C
+      Code: a40e9ebc238b0b9c2580b590cca30cc876d919eb5f6f9f20853c1a4c1875cfc6
   CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37:
     Source_CALFIRE:
       Lon: -120.336977
@@ -84219,9 +84219,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=178b2af3-340c-409d-80e6-21ac119969f0
     _CorrelationIds:
       - CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0
-    PerimDateTime: '2019-09-26T00:00Z'
+    PerimDateTime: '2019-09-27T00:31Z'
     PerimeterData:
-      DateTime: '2019-09-26T00:00Z'
+      DateTime: '2019-09-27T00:31Z'
       Acres: null
       _Provenance: null
     unitId: 178b2af3
@@ -84229,8 +84229,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-27T01:46Z-PER-2019-09-26T00:00Z-ID-CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0-NAME--S-C
-      Code: 57c62b78ed5a9d820398839e5ed664e32c7f6301e8f209040b7555892ffe7a97
+        UPD-2019-09-27T01:46Z-PER-2019-09-27T00:31Z-ID-CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0-NAME--S-C
+      Code: feee89677b91b20fe21b066e1d58277b9661159e43dbddbb6eb6841cd17fc77b
   2019-CAPNF-001438:
     Source_NFSA_Join:
       Lon: -120.79991476939591
@@ -84315,17 +84315,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1569544140000
     Hashtag: '#WestFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-09-25T16:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-09-25T16:00Z'
+      Acres: 0.45350317
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-27T17:02:55.175Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: CAPNF
     unitMention: '@USFSPlumas'
     Final_Fire_Name: West Fire
     _Update:
-      UpdateId: 'UPD-2019-09-26T21:00Z-PER-none-ID-2019-CAPNF-001438-NAME-West-S-N'
-      Code: 6602dfc492843a7117eead20044c96d4a49678b1fdd68dab3020418d7b018a6d
+      UpdateId: >-
+        UPD-2019-09-26T21:00Z-PER-2019-09-25T16:00Z-ID-2019-CAPNF-001438-NAME-West-S-N
+      Code: 6f47775d6322d3a1344171be60e5b3ce9d81b06951d3e9d0d53204c02bd8a6cd
   CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03:
     Source_CALFIRE:
       Lon: -120.455883
@@ -84424,9 +84442,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=840010ca-aef0-4f91-b771-3bf196317d03
     _CorrelationIds:
       - CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03
-    PerimDateTime: '2019-09-26T00:00Z'
+    PerimDateTime: '2019-09-27T00:31Z'
     PerimeterData:
-      DateTime: '2019-09-26T00:00Z'
+      DateTime: '2019-09-27T00:31Z'
       Acres: null
       _Provenance: null
     unitId: 840010ca
@@ -84434,8 +84452,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-27T02:04Z-PER-2019-09-26T00:00Z-ID-CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03-NAME--S-C
-      Code: 67d6f2c86f24df5284dc21715994ebba29933a35224a06d9ac170323892e6f47
+        UPD-2019-09-27T02:04Z-PER-2019-09-27T00:31Z-ID-CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03-NAME--S-C
+      Code: 1508468a59a2aaec8ad640cadf797ceab596488b28ba5457e974815c87f8afd1
   2019-CASLU-012773:
     Source_NFSA_Join:
       Lon: -120.45792614073162
