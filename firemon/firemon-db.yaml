@@ -79062,38 +79062,38 @@ Database:
       Fire_Name: Johnson
       UniqueFireIdentifier: 2019-AZPNF-001556
       DailyAcres: 166
-      PercentContained: 66
-      FireMgmtComplexity: Type 2 Incident
-      IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-09-26T22:45Z'
-      ICS209ReportDateTimeEpoch: 1569537900000
+      PercentContained: 80
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-09-29T00:30Z'
+      ICS209ReportDateTimeEpoch: 1569717000000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 1146673
+      EstimatedCostToDate: 1399000
       FireCause: Unknown
-      TotalIncidentPersonnel: 153
+      TotalIncidentPersonnel: 50
       FireDiscoveryDateTime: '2019-09-22T20:39Z'
       FireDiscoveryDateTimeEpoch: 1569184740000
       DispatchCenterID: AZPDC
       LocalIncidentIdentifier: '001556'
       POOCounty: Yavapai
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-26T22:45Z'
-      ModifiedOnDateTimeEpoch: 1569537900000
+      ModifiedOnDateTime: '2019-09-29T00:30Z'
+      ModifiedOnDateTimeEpoch: 1569717000000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-AZPNF-001556
-      ModifiedOnDateTime_Raw: '2019-09-27T00:21Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569543677000
+      ModifiedOnDateTime_Raw: '2019-09-29T00:59Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569718754000
       Hashtag: '#JohnsonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-27T23:30:31.092Z'
+          RetrievedOn: '2019-09-29T01:00:49.491Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -79101,127 +79101,49 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -112.4780667704956
-      Lat: 34.38889412137265
-      objectid: 20
-      latitude: 34.3888889
-      longitude: -112.4780556
-      acres: 166
-      gacc: SWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: AZ
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-09-27T09:15Z'
-      reportdatetimeEpoch: 1569575700000
-      percentcontained: 75
-      uniquefireidentifier: 2019-AZPNF-001556
-      firediscoverydatetime: '2019-09-22T20:39Z'
-      firediscoverydatetimeEpoch: 1569184740000
-      complexparentirwinid: null
-      pooresponsibleunit: AZPNF
-      incidentname: Johnson
-      iscomplex: 'false'
-      irwinid: '{310E2F9E-5D61-4396-8920-0C17A7BFAADB}'
-      irwinmodifiedon: '2019-09-27T23:11Z'
-      irwinmodifiedonEpoch: 1569625910000
-      mapsymbol: '1'
-      datecurrent: '2019-09-27T17:30Z'
-      datecurrentEpoch: 1569605418000
-      pooownerunit: AZPNF
-      fireyear: 2019
-      localincidentidentifier: '001556'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 166
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-09-27T09:15Z'
-      ModifiedOnDateTimeEpoch: 1569575700000
-      PercentContained: 75
-      UniqueFireIdentifier: 2019-AZPNF-001556
-      FireDiscoveryDateTime: '2019-09-22T20:39Z'
-      FireDiscoveryDateTimeEpoch: 1569184740000
-      Fire_Name: Johnson
-      Name: Johnson
-      Source: GEOMAC
-      Hashtag: '#JohnsonFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-27T23:30:31.093Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-AZPNF-001556
-    Lon: -112.4780667704956
-    Lat: 34.38889412137265
-    objectid: 20
-    latitude: 34.3888889
-    longitude: -112.4780556
-    acres: 166
-    gacc: SWCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: AZ
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-09-27T09:15Z'
-    reportdatetimeEpoch: 1569575700000
-    percentcontained: 75
-    uniquefireidentifier: 2019-AZPNF-001556
-    firediscoverydatetime: '2019-09-22T20:39Z'
-    firediscoverydatetimeEpoch: 1569184740000
-    complexparentirwinid: null
-    pooresponsibleunit: AZPNF
-    incidentname: Johnson
-    iscomplex: 'false'
-    irwinid: '{310E2F9E-5D61-4396-8920-0C17A7BFAADB}'
-    irwinmodifiedon: '2019-09-27T23:11Z'
-    irwinmodifiedonEpoch: 1569625910000
-    mapsymbol: '1'
-    datecurrent: '2019-09-27T17:30Z'
-    datecurrentEpoch: 1569605418000
-    pooownerunit: AZPNF
-    fireyear: 2019
-    localincidentidentifier: '001556'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 166
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-09-27T09:15Z'
-    ModifiedOnDateTimeEpoch: 1569575700000
-    PercentContained: 75
+    Lon: -112.47811062352234
+    Lat: 34.38900302486527
+    id: 134639
+    Name: Johnson
+    Fire_Name: Johnson
     UniqueFireIdentifier: 2019-AZPNF-001556
+    DailyAcres: 166
+    PercentContained: 80
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-09-29T00:30Z'
+    ICS209ReportDateTimeEpoch: 1569717000000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1399000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 50
     FireDiscoveryDateTime: '2019-09-22T20:39Z'
     FireDiscoveryDateTimeEpoch: 1569184740000
-    Fire_Name: Johnson
-    Name: Johnson
-    Source: GEOMAC
-    Hashtag: '#JohnsonFire'
+    DispatchCenterID: AZPDC
+    LocalIncidentIdentifier: '001556'
+    POOCounty: Yavapai
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-09-29T00:30Z'
+    ModifiedOnDateTimeEpoch: 1569717000000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType2
+    Source: NFSA
     _CorrelationIds:
       - 2019-AZPNF-001556
+    ModifiedOnDateTime_Raw: '2019-09-29T00:59Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569718754000
+    Hashtag: '#JohnsonFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-09-26T10:48Z'
     PerimeterData:
       DateTime: '2019-09-26T10:48Z'
       Acres: 166.17211518
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-27T23:30:37.298Z'
+          RetrievedOn: '2019-09-29T01:00:55.044Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -79242,8 +79164,8 @@ Database:
     Final_Fire_Name: Johnson Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-27T09:15Z-PER-2019-09-26T10:48Z-ID-2019-AZPNF-001556-NAME-Johnson-S-G
-      Code: fbe33e5532e18e3d13d39f5199c611617dccb4941a638091dbb144fc66a9dd5f
+        UPD-2019-09-29T00:30Z-PER-2019-09-26T10:48Z-ID-2019-AZPNF-001556-NAME-Johnson-S-N
+      Code: 15522b72cad7a278e1384a6b6854dacf2760fcba0d58b712ecb68691eaeb72ff
   2019-MTFHA-000176:
     Source_NFSA_Join:
       Lon: -114.2994538452275
