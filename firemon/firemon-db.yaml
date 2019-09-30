@@ -71159,119 +71159,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-11T21:26Z-PER-none-ID-CALFIRE-efba4d61-2027-4b05-8506-04d9858154ca-NAME-DuzelFire-S-C
       Code: 37b1803e7b921544d47d33255779b360fc92a4c9f52396f77404f1b35bb5e6e1
-  2019-CASHF-001196:
-    Source_NFSA_Join:
-      Lon: -123.00541353920197
-      Lat: 40.90562280712225
-      id: 132186
-      Name: MIDDLE
-      Fire_Name: MIDDLE
-      UniqueFireIdentifier: 2019-CASHF-001196
-      DailyAcres: 1339
-      PercentContained: 90
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-26T22:00Z'
-      ICS209ReportDateTimeEpoch: 1569535200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2200000
-      FireCause: Natural
-      TotalIncidentPersonnel: 38
-      FireDiscoveryDateTime: '2019-09-05T16:07Z'
-      FireDiscoveryDateTimeEpoch: 1567699620000
-      DispatchCenterID: CARICC
-      LocalIncidentIdentifier: 001196
-      POOCounty: Trinity
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-26T22:00Z'
-      ModifiedOnDateTimeEpoch: 1569535200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CASHF-001196
-      ModifiedOnDateTime_Raw: '2019-09-26T22:23Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569536603000
-      Hashtag: '#MiddleFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T22:33:17.890Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -123.00541353920197
-    Lat: 40.90562280712225
-    id: 132186
-    Name: MIDDLE
-    Fire_Name: MIDDLE
-    UniqueFireIdentifier: 2019-CASHF-001196
-    DailyAcres: 1339
-    PercentContained: 90
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-26T22:00Z'
-    ICS209ReportDateTimeEpoch: 1569535200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2200000
-    FireCause: Natural
-    TotalIncidentPersonnel: 38
-    FireDiscoveryDateTime: '2019-09-05T16:07Z'
-    FireDiscoveryDateTimeEpoch: 1567699620000
-    DispatchCenterID: CARICC
-    LocalIncidentIdentifier: 001196
-    POOCounty: Trinity
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-26T22:00Z'
-    ModifiedOnDateTimeEpoch: 1569535200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CASHF-001196
-    ModifiedOnDateTime_Raw: '2019-09-26T22:23Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569536603000
-    Hashtag: '#MiddleFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-24T08:06Z'
-    PerimeterData:
-      DateTime: '2019-09-24T08:06Z'
-      Acres: 1339.59542558
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T22:33:24.153Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: CASHF
-    unitMention: '@ShastaTrinityNF'
-    Final_Fire_Name: Middle Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-26T22:00Z-PER-2019-09-24T08:06Z-ID-2019-CASHF-001196-NAME-MIDDLE-S-N
-      Code: 78ab4398feaf9afb1416e742ca7405c03e1d5b3daf77175af8b2502c09164f17
   2019-CAMNF-000485:
     Source_NFSA_Join:
       Lon: -123.15223418923846
@@ -72973,16 +72860,16 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1569795519000
     Hashtag: '#DeckerFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-09-23T00:00Z'
+    PerimDateTime: '2019-09-29T21:44Z'
     PerimeterData:
-      DateTime: '2019-09-23T00:00Z'
-      Acres: 1015.5133664
+      DateTime: '2019-09-29T21:44Z'
+      Acres: 1591.9060461
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-29T22:30:52.283Z'
+          RetrievedOn: '2019-09-30T18:00:35.106Z'
           Request:
             uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
             qs:
               outFields: '*'
               returnGeometry: true
@@ -72994,14 +72881,14 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-        SourceLayer: '3'
+        SourceLayer: '2'
     unitId: CORGF
     unitMention: Rio Grande NF
     Final_Fire_Name: Decker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-29T20:00Z-PER-2019-09-23T00:00Z-ID-2019-CORGF-001388-NAME-Decker-S-N
-      Code: df0429b38daacb36c878a063ed72d881a50630a09ecade8ab307cb245c96626a
+        UPD-2019-09-29T20:00Z-PER-2019-09-29T21:44Z-ID-2019-CORGF-001388-NAME-Decker-S-N
+      Code: 56feae0cb5efd3a9ee62bf326f043df3f07f4d91b6fb7d9fd3acf5697411a8e1
   2019-AZCOF-001199:
     Source_NFSA_Join:
       Lon: -111.83991151307245
@@ -80748,112 +80635,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-09-26T18:00Z-PER-none-ID-2019-WYBTF-001924-NAME-Highline-S-N'
       Code: 67ebfb3c39c879f355b6a314918116384692e538745ee9f8398fc6fbb89ebff6
-  CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3:
-    Source_CALFIRE:
-      Lon: -120.23976
-      Lat: 41.43783
-      incident_name: Meadow Fire (Not a CAL FIRE incident)
-      incident_is_final: 'True'
-      incident_date_last_update: '2019-09-26T21:11Z'
-      incident_date_last_updateEpoch: 1569532277000
-      incident_date_created: '2019-08-02T23:53Z'
-      incident_date_createdEpoch: 1564789998000
-      incident_administrative_unit: Davis Creek Fire Department
-      incident_administrative_unit_url: ''
-      incident_county: Modoc
-      incident_location: 'County Road 48 and Highway 395, northeast of Alturas'
-      incident_acres_burned: 103
-      incident_containment: 100
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -120.23976
-      incident_latitude: 41.43783
-      incident_type: Wildfire
-      incident_id: 2f735b66-c275-4557-a8ad-0ff60e0552f3
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/8/2/meadow-fire-not-a-cal-fire-incident/
-      incident_date_extinguished: '2019-08-02 21:39:00'
-      incident_dateonly_extinguished: '2019-08-02'
-      incident_dateonly_created: '2019-08-02'
-      is_active: 'N'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-09-26T21:11Z'
-      ModifiedOnDateTimeEpoch: 1569532277000
-      DailyAcres: 103
-      PercentContained: 100
-      UniqueFireIdentifier: CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#Fire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=2f735b66-c275-4557-a8ad-0ff60e0552f3
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T21:12:42.130Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3
-    Lon: -120.23976
-    Lat: 41.43783
-    incident_name: Meadow Fire (Not a CAL FIRE incident)
-    incident_is_final: 'True'
-    incident_date_last_update: '2019-09-26T21:11Z'
-    incident_date_last_updateEpoch: 1569532277000
-    incident_date_created: '2019-08-02T23:53Z'
-    incident_date_createdEpoch: 1564789998000
-    incident_administrative_unit: Davis Creek Fire Department
-    incident_administrative_unit_url: ''
-    incident_county: Modoc
-    incident_location: 'County Road 48 and Highway 395, northeast of Alturas'
-    incident_acres_burned: 103
-    incident_containment: 100
-    incident_control: ''
-    incident_cooperating_agencies: ''
-    incident_longitude: -120.23976
-    incident_latitude: 41.43783
-    incident_type: Wildfire
-    incident_id: 2f735b66-c275-4557-a8ad-0ff60e0552f3
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/8/2/meadow-fire-not-a-cal-fire-incident/
-    incident_date_extinguished: '2019-08-02 21:39:00'
-    incident_dateonly_extinguished: '2019-08-02'
-    incident_dateonly_created: '2019-08-02'
-    is_active: 'N'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-09-26T21:11Z'
-    ModifiedOnDateTimeEpoch: 1569532277000
-    DailyAcres: 103
-    PercentContained: 100
-    UniqueFireIdentifier: CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#Fire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=2f735b66-c275-4557-a8ad-0ff60e0552f3
-    _CorrelationIds:
-      - CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3
-    PerimDateTime: '2019-09-27T00:31Z'
-    PerimeterData:
-      DateTime: '2019-09-27T00:31Z'
-      Acres: null
-      _Provenance: null
-    unitId: 2f735b66
-    unitMention: null
-    Final_Fire_Name: Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-26T21:11Z-PER-2019-09-27T00:31Z-ID-CALFIRE-2f735b66-c275-4557-a8ad-0ff60e0552f3-NAME--S-C
-      Code: a40e9ebc238b0b9c2580b590cca30cc876d919eb5f6f9f20853c1a4c1875cfc6
   CALFIRE-5f7b19a6-5f22-49ac-bf0e-ecef96385d37:
     Source_CALFIRE:
       Lon: -120.336977
@@ -82562,185 +82343,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-30T16:39Z-PER-none-ID-CALFIRE-980c4c7d-dcc9-45b3-b5c1-181c1cd445e9-NAME-BautistaFire-S-C
       Code: 7c46a448c929543a4ba79ac2575a464d0943b37629fc37eff0d13cd96378e815
-  2019-UTCBP-000577:
-    Source_NFSA_Join:
-      Lon: -112.8519085963973
-      Lat: 37.63562531010679
-      id: 131835
-      Name: Chessman Canyon
-      Fire_Name: Chessman Canyon
-      UniqueFireIdentifier: 2019-UTCBP-000577
-      DailyAcres: 413
-      PercentContained: 20
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-26T21:30Z'
-      ICS209ReportDateTimeEpoch: 1569533400000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 70000
-      FireCause: Natural
-      TotalIncidentPersonnel: 18
-      FireDiscoveryDateTime: '2019-09-03T20:13Z'
-      FireDiscoveryDateTimeEpoch: 1567541580000
-      DispatchCenterID: UTCDC
-      LocalIncidentIdentifier: '000577'
-      POOCounty: Iron
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-26T21:30Z'
-      ModifiedOnDateTimeEpoch: 1569533400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-UTCBP-000577
-      ModifiedOnDateTime_Raw: '2019-09-26T21:51Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569534715000
-      Hashtag: '#ChessmanCanyonFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T22:11:55.808Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -112.85751155027624
-      Lat: 37.64251560636609
-      objectid: 13
-      latitude: 37.64251
-      longitude: -112.8575
-      acres: 413
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: UT
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-09-26T21:30Z'
-      reportdatetimeEpoch: 1569533400000
-      percentcontained: 20
-      uniquefireidentifier: 2019-UTCBP-000577
-      firediscoverydatetime: '2019-09-03T20:13Z'
-      firediscoverydatetimeEpoch: 1567541580000
-      complexparentirwinid: null
-      pooresponsibleunit: UTCBP
-      incidentname: Chessman Canyon
-      iscomplex: 'false'
-      irwinid: '{FAC0ED3C-5064-4A78-BF96-9820DAE6E7A6}'
-      irwinmodifiedon: '2019-09-26T21:51Z'
-      irwinmodifiedonEpoch: 1569534715000
-      mapsymbol: '1'
-      datecurrent: '2019-09-26T16:00Z'
-      datecurrentEpoch: 1569513621000
-      pooownerunit: USTCBP
-      fireyear: 2019
-      localincidentidentifier: '000577'
-      incidenttypecategory: WF
-      owneragency: NPS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 413
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-09-26T21:30Z'
-      ModifiedOnDateTimeEpoch: 1569533400000
-      PercentContained: 20
-      UniqueFireIdentifier: 2019-UTCBP-000577
-      FireDiscoveryDateTime: '2019-09-03T20:13Z'
-      FireDiscoveryDateTimeEpoch: 1567541580000
-      Fire_Name: Chessman Canyon
-      Name: Chessman Canyon
-      Source: GEOMAC
-      Hashtag: '#ChessmanCanyonFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T22:11:55.809Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-UTCBP-000577
-    Lon: -112.8519085963973
-    Lat: 37.63562531010679
-    id: 131835
-    Name: Chessman Canyon
-    Fire_Name: Chessman Canyon
-    UniqueFireIdentifier: 2019-UTCBP-000577
-    DailyAcres: 413
-    PercentContained: 20
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-26T21:30Z'
-    ICS209ReportDateTimeEpoch: 1569533400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 70000
-    FireCause: Natural
-    TotalIncidentPersonnel: 18
-    FireDiscoveryDateTime: '2019-09-03T20:13Z'
-    FireDiscoveryDateTimeEpoch: 1567541580000
-    DispatchCenterID: UTCDC
-    LocalIncidentIdentifier: '000577'
-    POOCounty: Iron
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-26T21:30Z'
-    ModifiedOnDateTimeEpoch: 1569533400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-UTCBP-000577
-    ModifiedOnDateTime_Raw: '2019-09-26T21:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569534715000
-    Hashtag: '#ChessmanCanyonFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-23T10:00Z'
-    PerimeterData:
-      DateTime: '2019-09-23T10:00Z'
-      Acres: 372.61234294
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T22:12:05.224Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: UTCBP
-    unitMention: Cedar Breaks National Monument
-    Final_Fire_Name: Chessman Canyon Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-26T21:30Z-PER-2019-09-23T10:00Z-ID-2019-UTCBP-000577-NAME-ChessmanCanyon-S-N
-      Code: 08ca801325bcf03710a162d7c5bd848ae827162f7abb9a5d8cad6763eaee53f7
   CALFIRE-3086ac2b-bbb3-4321-81e3-3cfdb9e571e9:
     Source_CALFIRE:
       Lon: -119.769881
@@ -84006,112 +83608,6 @@ Database:
       UpdateId: >-
         UPD-2019-09-26T21:48Z-PER-none-ID-CALFIRE-e338f506-b9fa-44c0-ae64-324ed0e590d4-NAME-SellersFire-S-C
       Code: 076dcf115765270b50ac407bc7341456de8eb50dab4f619c4e7e858d26395cd8
-  CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0:
-    Source_CALFIRE:
-      Lon: -122.25611111
-      Lat: 38.07944444
-      incident_name: Mare Fire (Not a CAL FIRE Incident)
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-09-27T01:46Z'
-      incident_date_last_updateEpoch: 1569548811000
-      incident_date_created: '2019-09-26T22:29Z'
-      incident_date_createdEpoch: 1569536946000
-      incident_administrative_unit: City of Vallejo Fire Department
-      incident_administrative_unit_url: ''
-      incident_county: Solano
-      incident_location: 'Off Tyler Road and Jennings Road, Southwest of Vallejo'
-      incident_acres_burned: 30
-      incident_containment: 100
-      incident_control: ''
-      incident_cooperating_agencies: City of Vallejo Fire Department
-      incident_longitude: -122.25611111
-      incident_latitude: 38.07944444
-      incident_type: Wildfire
-      incident_id: 178b2af3-340c-409d-80e6-21ac119969f0
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/9/26/mare-fire-not-a-cal-fire-incident/
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-26'
-      is_active: 'N'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-09-27T01:46Z'
-      ModifiedOnDateTimeEpoch: 1569548811000
-      DailyAcres: 30
-      PercentContained: 100
-      UniqueFireIdentifier: CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#Fire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=178b2af3-340c-409d-80e6-21ac119969f0
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-27T01:47:17.800Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0
-    Lon: -122.25611111
-    Lat: 38.07944444
-    incident_name: Mare Fire (Not a CAL FIRE Incident)
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-09-27T01:46Z'
-    incident_date_last_updateEpoch: 1569548811000
-    incident_date_created: '2019-09-26T22:29Z'
-    incident_date_createdEpoch: 1569536946000
-    incident_administrative_unit: City of Vallejo Fire Department
-    incident_administrative_unit_url: ''
-    incident_county: Solano
-    incident_location: 'Off Tyler Road and Jennings Road, Southwest of Vallejo'
-    incident_acres_burned: 30
-    incident_containment: 100
-    incident_control: ''
-    incident_cooperating_agencies: City of Vallejo Fire Department
-    incident_longitude: -122.25611111
-    incident_latitude: 38.07944444
-    incident_type: Wildfire
-    incident_id: 178b2af3-340c-409d-80e6-21ac119969f0
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/9/26/mare-fire-not-a-cal-fire-incident/
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-09-26'
-    is_active: 'N'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-09-27T01:46Z'
-    ModifiedOnDateTimeEpoch: 1569548811000
-    DailyAcres: 30
-    PercentContained: 100
-    UniqueFireIdentifier: CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#Fire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=178b2af3-340c-409d-80e6-21ac119969f0
-    _CorrelationIds:
-      - CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0
-    PerimDateTime: '2019-09-27T00:31Z'
-    PerimeterData:
-      DateTime: '2019-09-27T00:31Z'
-      Acres: null
-      _Provenance: null
-    unitId: 178b2af3
-    unitMention: null
-    Final_Fire_Name: Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-27T01:46Z-PER-2019-09-27T00:31Z-ID-CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0-NAME--S-C
-      Code: feee89677b91b20fe21b066e1d58277b9661159e43dbddbb6eb6841cd17fc77b
   2019-CAPNF-001438:
     Source_NFSA_Join:
       Lon: -120.79991476939591
@@ -85289,13 +84785,13 @@ Database:
     _CorrelationIds:
       - 2019-CASHF-001209
       - CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea
-    PerimDateTime: '2019-09-25T02:14Z'
+    PerimDateTime: '2019-09-29T00:30Z'
     PerimeterData:
-      DateTime: '2019-09-25T02:14Z'
-      Acres: 5252.75167338
+      DateTime: '2019-09-29T00:30Z'
+      Acres: 5329.86487452
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-30T16:39:29.292Z'
+          RetrievedOn: '2019-09-30T18:00:35.106Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -85316,8 +84812,8 @@ Database:
     Final_Fire_Name: South Fire
     _Update:
       UpdateId: >-
-        UPD-2019-09-30T16:38Z-PER-2019-09-25T02:14Z-ID-CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea-NAME-SouthFire-S-C
-      Code: 9d94ce6750aed65b9de73088c38bf0f38746f152437faa61a7a1a814e64445cf
+        UPD-2019-09-30T16:38Z-PER-2019-09-29T00:30Z-ID-CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea-NAME-SouthFire-S-C
+      Code: 89b970ec4b04a9c55183a75bc401ddf2d9e5c5c590b398a8701f7ddab10051b0
   CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
