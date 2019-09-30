@@ -84326,7 +84326,7 @@ Database:
       Name: Granite lake
       Fire_Name: Granite lake
       UniqueFireIdentifier: 2019-COWRF-000302
-      DailyAcres: 113
+      DailyAcres: 694
       PercentContained: 0
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
@@ -84339,26 +84339,26 @@ Database:
       FireCause: Natural
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2019-09-21T19:43Z'
-      FireDiscoveryDateTimeEpoch: 1569095000000
+      FireDiscoveryDateTimeEpoch: 1569094980000
       DispatchCenterID: COGJC
       LocalIncidentIdentifier: '000302'
       POOCounty: Pitkin
       POOLandownerKind: Federal
       ModifiedOnDateTime: '2019-09-30T14:00Z'
       ModifiedOnDateTimeEpoch: 1569852000000
-      ModifiedBySystem: wildcad
+      ModifiedBySystem: wfdss
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-COWRF-000302
-      ModifiedOnDateTime_Raw: '2019-09-30T14:52Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569855145000
+      ModifiedOnDateTime_Raw: '2019-09-30T21:36Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569879362000
       Hashtag: '#GraniteLakeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-09-30T15:00:54.237Z'
+          RetrievedOn: '2019-09-30T23:30:40.156Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -84366,42 +84366,120 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -106.57931432719866
-    Lat: 39.20567696028184
-    id: 134549
-    Name: Granite lake
-    Fire_Name: Granite lake
-    UniqueFireIdentifier: 2019-COWRF-000302
-    DailyAcres: 113
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-30T14:00Z'
-    ICS209ReportDateTimeEpoch: 1569852000000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 5000
+    Source_GEOMAC:
+      Lon: -106.57917710851011
+      Lat: 39.205561836309506
+      objectid: 16
+      latitude: 39.2055556
+      longitude: -106.5791667
+      acres: 694
+      gacc: RMCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CO
+      status: U
+      firecause: Natural
+      reportdatetime: '2019-09-30T23:00Z'
+      reportdatetimeEpoch: 1569884400000
+      percentcontained: 0
+      uniquefireidentifier: 2019-COWRF-000302
+      firediscoverydatetime: '2019-09-21T19:43Z'
+      firediscoverydatetimeEpoch: 1569094980000
+      complexparentirwinid: null
+      pooresponsibleunit: COWRF
+      incidentname: Granite lake
+      iscomplex: 'false'
+      irwinid: '{BA0081A1-D26D-4CAE-B5BF-05A828DEC39F}'
+      irwinmodifiedon: '2019-09-30T23:24Z'
+      irwinmodifiedonEpoch: 1569885853000
+      mapsymbol: '1'
+      datecurrent: '2019-09-30T17:30Z'
+      datecurrentEpoch: 1569864614000
+      pooownerunit: COWRF
+      fireyear: 2019
+      localincidentidentifier: '000302'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 694
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-09-30T23:00Z'
+      ModifiedOnDateTimeEpoch: 1569884400000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-COWRF-000302
+      FireDiscoveryDateTime: '2019-09-21T19:43Z'
+      FireDiscoveryDateTimeEpoch: 1569094980000
+      Fire_Name: Granite lake
+      Name: Granite lake
+      Source: GEOMAC
+      Hashtag: '#GraniteLakeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-09-30T23:30:40.158Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-COWRF-000302
+    Lon: -106.57917710851011
+    Lat: 39.205561836309506
+    objectid: 16
+    latitude: 39.2055556
+    longitude: -106.5791667
+    acres: 694
+    gacc: RMCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CO
+    status: U
+    firecause: Natural
+    reportdatetime: '2019-09-30T23:00Z'
+    reportdatetimeEpoch: 1569884400000
+    percentcontained: 0
+    uniquefireidentifier: 2019-COWRF-000302
+    firediscoverydatetime: '2019-09-21T19:43Z'
+    firediscoverydatetimeEpoch: 1569094980000
+    complexparentirwinid: null
+    pooresponsibleunit: COWRF
+    incidentname: Granite lake
+    iscomplex: 'false'
+    irwinid: '{BA0081A1-D26D-4CAE-B5BF-05A828DEC39F}'
+    irwinmodifiedon: '2019-09-30T23:24Z'
+    irwinmodifiedonEpoch: 1569885853000
+    mapsymbol: '1'
+    datecurrent: '2019-09-30T17:30Z'
+    datecurrentEpoch: 1569864614000
+    pooownerunit: COWRF
+    fireyear: 2019
+    localincidentidentifier: '000302'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 694
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2019-09-30T23:00Z'
+    ModifiedOnDateTimeEpoch: 1569884400000
+    PercentContained: 0
+    UniqueFireIdentifier: 2019-COWRF-000302
     FireDiscoveryDateTime: '2019-09-21T19:43Z'
-    FireDiscoveryDateTimeEpoch: 1569095000000
-    DispatchCenterID: COGJC
-    LocalIncidentIdentifier: '000302'
-    POOCounty: Pitkin
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-30T14:00Z'
-    ModifiedOnDateTimeEpoch: 1569852000000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
+    FireDiscoveryDateTimeEpoch: 1569094980000
+    Fire_Name: Granite lake
+    Name: Granite lake
+    Source: GEOMAC
+    Hashtag: '#GraniteLakeFire'
     _CorrelationIds:
       - 2019-COWRF-000302
-    ModifiedOnDateTime_Raw: '2019-09-30T14:52Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569855145000
-    Hashtag: '#GraniteLakeFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -84411,8 +84489,8 @@ Database:
     unitMention: White River NF
     Final_Fire_Name: Granite Lake Fire
     _Update:
-      UpdateId: 'UPD-2019-09-30T14:00Z-PER-none-ID-2019-COWRF-000302-NAME-Granitelake-S-N'
-      Code: db5b1e62243591a6865558204b3c30418ff7298892ed035b5e46abafe53ecb73
+      UpdateId: 'UPD-2019-09-30T23:00Z-PER-none-ID-2019-COWRF-000302-NAME-Granitelake-S-G'
+      Code: 0ba49fbbabeac2d2b7968c695061f56c51709b7839e15f5774e7ec18c38eac27
   CALFIRE-1e85b2a3-0d55-4c3a-9fbb-5208d615cccd:
     Source_CALFIRE:
       Lon: -117.033598
