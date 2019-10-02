@@ -84678,38 +84678,38 @@ Database:
       Fire_Name: Rockcastle
       UniqueFireIdentifier: 2019-KYKYS-190113
       DailyAcres: 175
-      PercentContained: 10
+      PercentContained: 15
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-10-01T02:15Z'
-      ICS209ReportDateTimeEpoch: 1569896100000
+      ICS209ReportDateTime: '2019-10-01T23:00Z'
+      ICS209ReportDateTimeEpoch: 1569970800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 10000
+      EstimatedCostToDate: 25000
       FireCause: Unknown
-      TotalIncidentPersonnel: 26
+      TotalIncidentPersonnel: 45
       FireDiscoveryDateTime: '2019-09-30T17:46Z'
       FireDiscoveryDateTimeEpoch: 1569865560000
       DispatchCenterID: KYKIC
       LocalIncidentIdentifier: '190113'
       POOCounty: Pulaski
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-01T02:15Z'
-      ModifiedOnDateTimeEpoch: 1569896100000
+      ModifiedOnDateTime: '2019-10-01T23:00Z'
+      ModifiedOnDateTimeEpoch: 1569970800000
       ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-KYKYS-190113
-      ModifiedOnDateTime_Raw: '2019-10-01T02:55Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569898545000
+      ModifiedOnDateTime_Raw: '2019-10-02T00:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569974974000
       Hashtag: '#RockcastleFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-01T03:01:01.990Z'
+          RetrievedOn: '2019-10-02T00:30:38.319Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -84717,6 +84717,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -84.3126743817677
+      Lat: 37.10067413047546
+      objectid: 18
+      latitude: 37.100667
+      longitude: -84.31267
+      acres: 175
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: KY
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-01T23:00Z'
+      reportdatetimeEpoch: 1569970800000
+      percentcontained: 15
+      uniquefireidentifier: 2019-KYKYS-190113
+      firediscoverydatetime: '2019-09-30T17:46Z'
+      firediscoverydatetimeEpoch: 1569865560000
+      complexparentirwinid: null
+      pooresponsibleunit: KYKYS
+      incidentname: Rockcastle
+      iscomplex: 'false'
+      irwinid: '{ECCD2986-C528-49DC-8D95-4AA2BA49A2B2}'
+      irwinmodifiedon: '2019-10-02T00:09Z'
+      irwinmodifiedonEpoch: 1569974975000
+      mapsymbol: '1'
+      datecurrent: '2019-10-01T18:30Z'
+      datecurrentEpoch: 1569954616000
+      pooownerunit: KYKYS
+      fireyear: 2019
+      localincidentidentifier: '190113'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 175
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-01T23:00Z'
+      ModifiedOnDateTimeEpoch: 1569970800000
+      PercentContained: 15
+      UniqueFireIdentifier: 2019-KYKYS-190113
+      FireDiscoveryDateTime: '2019-09-30T17:46Z'
+      FireDiscoveryDateTimeEpoch: 1569865560000
+      Fire_Name: Rockcastle
+      Name: Rockcastle
+      Source: GEOMAC
+      Hashtag: '#RockcastleFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-02T00:30:38.319Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-KYKYS-190113
     Lon: -84.31267456504682
     Lat: 37.10067579077567
     id: 135409
@@ -84724,33 +84790,33 @@ Database:
     Fire_Name: Rockcastle
     UniqueFireIdentifier: 2019-KYKYS-190113
     DailyAcres: 175
-    PercentContained: 10
+    PercentContained: 15
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-10-01T02:15Z'
-    ICS209ReportDateTimeEpoch: 1569896100000
+    ICS209ReportDateTime: '2019-10-01T23:00Z'
+    ICS209ReportDateTimeEpoch: 1569970800000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 10000
+    EstimatedCostToDate: 25000
     FireCause: Unknown
-    TotalIncidentPersonnel: 26
+    TotalIncidentPersonnel: 45
     FireDiscoveryDateTime: '2019-09-30T17:46Z'
     FireDiscoveryDateTimeEpoch: 1569865560000
     DispatchCenterID: KYKIC
     LocalIncidentIdentifier: '190113'
     POOCounty: Pulaski
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-01T02:15Z'
-    ModifiedOnDateTimeEpoch: 1569896100000
+    ModifiedOnDateTime: '2019-10-01T23:00Z'
+    ModifiedOnDateTimeEpoch: 1569970800000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-KYKYS-190113
-    ModifiedOnDateTime_Raw: '2019-10-01T02:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569898545000
+    ModifiedOnDateTime_Raw: '2019-10-02T00:09Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569974974000
     Hashtag: '#RockcastleFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -84762,8 +84828,8 @@ Database:
     unitMention: Kentucky Division of Forestry
     Final_Fire_Name: Rockcastle Fire
     _Update:
-      UpdateId: 'UPD-2019-10-01T02:15Z-PER-none-ID-2019-KYKYS-190113-NAME-Rockcastle-S-N'
-      Code: 20f932ab1422e29a91f1d2ca95cd884a3e3e126e384ba937c4855c747262b6a5
+      UpdateId: 'UPD-2019-10-01T23:00Z-PER-none-ID-2019-KYKYS-190113-NAME-Rockcastle-S-N'
+      Code: 8a4f155cd615716aeb8f0e76c4b2a0ec59a544c3f9b238dbc0c286df3ffa3cd8
   2019-KYDBF-190109:
     Source_NFSA_Join:
       Lon: -83.58444629682249
@@ -84961,3 +85027,98 @@ Database:
       UpdateId: >-
         UPD-2019-10-01T13:34Z-PER-none-ID-CALFIRE-05b9432b-a5cf-4a8f-bf0e-9b95a04bbdde-NAME-FrameFire-S-C
       Code: 2ccec5dfdea1fbca752fde58f6fac1e070b0b74bcde5117cccbe7c7f5fef29ca
+  2019-NMCAF-000532:
+    Source_NFSA_Join:
+      Lon: -106.25000991034611
+      Lat: 36.50000353368022
+      id: 135537
+      Name: Maton
+      Fire_Name: Maton
+      UniqueFireIdentifier: 2019-NMCAF-000532
+      DailyAcres: 200
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-10-01T19:19Z'
+      FireDiscoveryDateTimeEpoch: 1569957562000
+      DispatchCenterID: NMTDC
+      LocalIncidentIdentifier: '000532'
+      POOCounty: Rio Arriba
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-10-02T00:29Z'
+      ModifiedOnDateTimeEpoch: 1569976151000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-NMCAF-000532
+      ModifiedOnDateTime_Raw: '2019-10-02T00:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1569976151000
+      Hashtag: '#MatonFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-02T00:30:38.319Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -106.25000991034611
+    Lat: 36.50000353368022
+    id: 135537
+    Name: Maton
+    Fire_Name: Maton
+    UniqueFireIdentifier: 2019-NMCAF-000532
+    DailyAcres: 200
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-10-01T19:19Z'
+    FireDiscoveryDateTimeEpoch: 1569957562000
+    DispatchCenterID: NMTDC
+    LocalIncidentIdentifier: '000532'
+    POOCounty: Rio Arriba
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-10-02T00:29Z'
+    ModifiedOnDateTimeEpoch: 1569976151000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-NMCAF-000532
+    ModifiedOnDateTime_Raw: '2019-10-02T00:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1569976151000
+    Hashtag: '#MatonFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: NMCAF
+    unitMention: Carson NF
+    Final_Fire_Name: Maton Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-02T00:29Z-PER-none-ID-2019-NMCAF-000532-NAME-Maton-S-N'
+      Code: fcc74d87c4947357ced4a6866bcdbf3371e3c22d1c795df59d397f4e396c7218
