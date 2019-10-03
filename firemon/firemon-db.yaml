@@ -61812,185 +61812,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-08-31T00:34Z-PER-none-ID-2019-TXTXS-190303-NAME-Sing-S-N'
       Code: 3abb02a85feea0dd257f1d77f1bb80b6feaa323e568f2bcfc9b076de9e859166
-  2019-COWRF-000161:
-    Source_NFSA_Join:
-      Lon: -107.78751245172805
-      Lat: 39.36887962483032
-      id: 125786
-      Name: Middle Mamm
-      Fire_Name: Middle Mamm
-      UniqueFireIdentifier: 2019-COWRF-000161
-      DailyAcres: 275
-      PercentContained: 2
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-09-26T18:00Z'
-      ICS209ReportDateTimeEpoch: 1569520800000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 528000
-      FireCause: Natural
-      TotalIncidentPersonnel: 3
-      FireDiscoveryDateTime: '2019-07-28T18:51Z'
-      FireDiscoveryDateTimeEpoch: 1564339860000
-      DispatchCenterID: COGJC
-      LocalIncidentIdentifier: '000161'
-      POOCounty: Garfield
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-09-26T18:00Z'
-      ModifiedOnDateTimeEpoch: 1569520800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-COWRF-000161
-      ModifiedOnDateTime_Raw: '2019-09-26T19:03Z'
-      ModifiedOnDateTimeEpoch_Raw: 1569524599000
-      Hashtag: '#MiddleMammFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T19:31:41.830Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -107.78751069487026
-      Lat: 39.36889507372961
-      objectid: 4
-      latitude: 39.3688889
-      longitude: -107.7875
-      acres: 275
-      gacc: RMCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CO
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-09-26T18:00Z'
-      reportdatetimeEpoch: 1569520800000
-      percentcontained: 2
-      uniquefireidentifier: 2019-COWRF-000161
-      firediscoverydatetime: '2019-07-28T18:51Z'
-      firediscoverydatetimeEpoch: 1564339860000
-      complexparentirwinid: null
-      pooresponsibleunit: COWRF
-      incidentname: Middle Mamm
-      iscomplex: 'false'
-      irwinid: '{61017CCC-46A3-4D79-9CB6-56C13330BC6F}'
-      irwinmodifiedon: '2019-09-26T19:03Z'
-      irwinmodifiedonEpoch: 1569524600000
-      mapsymbol: '1'
-      datecurrent: '2019-09-26T13:30Z'
-      datecurrentEpoch: 1569504635000
-      pooownerunit: COWRF
-      fireyear: 2019
-      localincidentidentifier: '000161'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 275
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-09-26T18:00Z'
-      ModifiedOnDateTimeEpoch: 1569520800000
-      PercentContained: 2
-      UniqueFireIdentifier: 2019-COWRF-000161
-      FireDiscoveryDateTime: '2019-07-28T18:51Z'
-      FireDiscoveryDateTimeEpoch: 1564339860000
-      Fire_Name: Middle Mamm
-      Name: Middle Mamm
-      Source: GEOMAC
-      Hashtag: '#MiddleMammFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T19:31:41.831Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-COWRF-000161
-    Lon: -107.78751245172805
-    Lat: 39.36887962483032
-    id: 125786
-    Name: Middle Mamm
-    Fire_Name: Middle Mamm
-    UniqueFireIdentifier: 2019-COWRF-000161
-    DailyAcres: 275
-    PercentContained: 2
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-09-26T18:00Z'
-    ICS209ReportDateTimeEpoch: 1569520800000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 528000
-    FireCause: Natural
-    TotalIncidentPersonnel: 3
-    FireDiscoveryDateTime: '2019-07-28T18:51Z'
-    FireDiscoveryDateTimeEpoch: 1564339860000
-    DispatchCenterID: COGJC
-    LocalIncidentIdentifier: '000161'
-    POOCounty: Garfield
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-09-26T18:00Z'
-    ModifiedOnDateTimeEpoch: 1569520800000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-COWRF-000161
-    ModifiedOnDateTime_Raw: '2019-09-26T19:03Z'
-    ModifiedOnDateTimeEpoch_Raw: 1569524599000
-    Hashtag: '#MiddleMammFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-08-27T18:00Z'
-    PerimeterData:
-      DateTime: '2019-08-27T18:00Z'
-      Acres: 250.10537586
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-09-26T19:31:47.752Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: COWRF
-    unitMention: White River NF
-    Final_Fire_Name: Middle Mamm Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-09-26T18:00Z-PER-2019-08-27T18:00Z-ID-2019-COWRF-000161-NAME-MiddleMamm-S-N
-      Code: f521c16a8c82c8452fc3cddec4b8ba9e4dd4333d30ea337bf66be3346624567f
   2019-IDCTF-000100:
     Source_NFSA_Join:
       Lon: -111.28741168072759
@@ -80695,9 +80516,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
     _CorrelationIds:
       - CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
-    PerimDateTime: '2019-10-02T01:27Z'
+    PerimDateTime: '2019-10-02T23:24Z'
     PerimeterData:
-      DateTime: '2019-10-02T01:27Z'
+      DateTime: '2019-10-02T23:24Z'
       Acres: null
       _Provenance: null
     unitId: c3b236b9
@@ -80705,8 +80526,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-02T21:19Z-PER-2019-10-02T01:27Z-ID-CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462-NAME--S-C
-      Code: 308f2a3672265e038425c36190a8836a756d7b73c6c20aff04575e86bed43cf4
+        UPD-2019-10-02T21:19Z-PER-2019-10-02T23:24Z-ID-CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462-NAME--S-C
+      Code: 153c61416d83a2c2247d5ad6e57aa2714e78dc50bf337623fe46e47a5481f3f4
   CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f:
     Source_CALFIRE:
       Lon: -118.185
@@ -84399,17 +84220,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1570069393000
     Hashtag: '#RockcastleFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-10-02T10:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-02T10:00Z'
+      Acres: 272.48008968
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-03T16:33:59.174Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: KYKYS
     unitMention: Kentucky Division of Forestry
     Final_Fire_Name: Rockcastle Fire
     _Update:
-      UpdateId: 'UPD-2019-10-03T01:00Z-PER-none-ID-2019-KYKYS-190113-NAME-Rockcastle-S-N'
-      Code: 0a8653c650dd2dfd904d0f6e6cd36d822cd33792115b2473b9e595f3401da35d
+      UpdateId: >-
+        UPD-2019-10-03T01:00Z-PER-2019-10-02T10:00Z-ID-2019-KYKYS-190113-NAME-Rockcastle-S-N
+      Code: 33f689b23870ee5b595468d8bff64821af818d8f5880bd3b026da5603b4b76e4
   2019-KYDBF-190109:
     Source_NFSA_Join:
       Lon: -83.58444629682249
@@ -84494,17 +84333,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1570067464000
     Hashtag: '#SkyBridgeFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-10-02T10:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-02T10:00Z'
+      Acres: 94.09449208
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-03T16:34:06.393Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: KYDBF
     unitMention: Daniel Boone NF
     Final_Fire_Name: Sky Bridge Fire
     _Update:
-      UpdateId: 'UPD-2019-10-03T01:00Z-PER-none-ID-2019-KYDBF-190109-NAME-SkyBridge-S-N'
-      Code: c9afafda5d040e080796b6b445c007d51395d16599d085b649bc9ab2375aac70
+      UpdateId: >-
+        UPD-2019-10-03T01:00Z-PER-2019-10-02T10:00Z-ID-2019-KYDBF-190109-NAME-SkyBridge-S-N
+      Code: 26f328f3eda0c8b55480665df136cae0b3db131863a68b1083fce658efb48949
   CALFIRE-05b9432b-a5cf-4a8f-bf0e-9b95a04bbdde:
     Source_CALFIRE:
       Lon: -120.634179
@@ -84796,9 +84653,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=e2a0252b-2da9-4967-ba33-7abe3ced1efa
     _CorrelationIds:
       - CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
-    PerimDateTime: '2019-10-02T01:27Z'
+    PerimDateTime: '2019-10-02T23:24Z'
     PerimeterData:
-      DateTime: '2019-10-02T01:27Z'
+      DateTime: '2019-10-02T23:24Z'
       Acres: null
       _Provenance: null
     unitId: e2a0252b
@@ -84806,8 +84663,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-03T00:27Z-PER-2019-10-02T01:27Z-ID-CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa-NAME--S-C
-      Code: 68304820751f3b841e66f21bbf36155e79b6f8c853e0db128a8dfbe88c906e29
+        UPD-2019-10-03T00:27Z-PER-2019-10-02T23:24Z-ID-CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa-NAME--S-C
+      Code: 85d20cf00700af6e04ffbfdaf56276e742aaea7c4ff8e3ae4e25bf545ecee786
   2019-TXTXS-190454:
     Source_NFSA_Join:
       Lon: -95.17196786027849
@@ -85092,9 +84949,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=38d46a2f-d1f6-4ed8-a502-e57e393844ea
     _CorrelationIds:
       - CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea
-    PerimDateTime: '2019-10-02T01:27Z'
+    PerimDateTime: '2019-10-02T23:24Z'
     PerimeterData:
-      DateTime: '2019-10-02T01:27Z'
+      DateTime: '2019-10-02T23:24Z'
       Acres: null
       _Provenance: null
     unitId: 38d46a2f
@@ -85102,8 +84959,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-02T21:19Z-PER-2019-10-02T01:27Z-ID-CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea-NAME--S-C
-      Code: b52e07dd6a7e06cd3ca401af08912c89f5a10fc1bac0e774ecf9c1e6a0015c23
+        UPD-2019-10-02T21:19Z-PER-2019-10-02T23:24Z-ID-CALFIRE-38d46a2f-d1f6-4ed8-a502-e57e393844ea-NAME--S-C
+      Code: b0a55dd149a54a12ce7c237b48361759080ed8411105ed76cf6d2074c8969e2d
   CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700:
     Source_CALFIRE:
       Lon: -118.345
@@ -85198,9 +85055,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
     _CorrelationIds:
       - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    PerimDateTime: '2019-10-02T01:27Z'
+    PerimDateTime: '2019-10-02T23:24Z'
     PerimeterData:
-      DateTime: '2019-10-02T01:27Z'
+      DateTime: '2019-10-02T23:24Z'
       Acres: null
       _Provenance: null
     unitId: e7ea56c5
@@ -85208,8 +85065,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-02T21:18Z-PER-2019-10-02T01:27Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME--S-C
-      Code: b3302b34042e10a99004245c0d8c69bb0a1d2d9ddf8650c63de603082d380929
+        UPD-2019-10-02T21:18Z-PER-2019-10-02T23:24Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME--S-C
+      Code: 3a33b8e46ffa4ec9a5c1526e4aebfcccd93d172b73e13840566ef341e429a8cd
   CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0:
     Source_CALFIRE:
       Lon: -122.25611111
@@ -85304,9 +85161,9 @@ Database:
       https://www.fire.ca.gov/incident/?incident=178b2af3-340c-409d-80e6-21ac119969f0
     _CorrelationIds:
       - CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0
-    PerimDateTime: '2019-10-02T01:27Z'
+    PerimDateTime: '2019-10-02T23:24Z'
     PerimeterData:
-      DateTime: '2019-10-02T01:27Z'
+      DateTime: '2019-10-02T23:24Z'
       Acres: null
       _Provenance: null
     unitId: 178b2af3
@@ -85314,8 +85171,8 @@ Database:
     Final_Fire_Name: Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-02T23:03Z-PER-2019-10-02T01:27Z-ID-CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0-NAME--S-C
-      Code: a8d7bf77a8352d60475915aa76db42227425de604d7ad8184aa77d5706cec3f9
+        UPD-2019-10-02T23:03Z-PER-2019-10-02T23:24Z-ID-CALFIRE-178b2af3-340c-409d-80e6-21ac119969f0-NAME--S-C
+      Code: 0a9b0a9cd11a8f71c0fd9555dc710b175c403f459ab9e72352b6614308deebca
   2019-ALALF-000190:
     Source_NFSA_Join:
       Lon: -87.4955852797391
