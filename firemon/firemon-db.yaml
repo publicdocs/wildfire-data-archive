@@ -80174,10 +80174,10 @@ Database:
     Source_CALFIRE:
       Lon: -118.228
       Lat: 36.284
-      incident_name: Cow Fire (Not a CAL FIRE Incident)
+      incident_name: Cow Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-04T20:50Z'
-      incident_date_last_updateEpoch: 1570222231000
+      incident_date_last_update: '2019-10-05T01:15Z'
+      incident_date_last_updateEpoch: 1570238140000
       incident_date_created: '2019-09-06T19:23Z'
       incident_date_createdEpoch: 1567797780000
       incident_administrative_unit: USFS - Inyo National Forest
@@ -80192,28 +80192,26 @@ Database:
       incident_latitude: 36.284
       incident_type: Wildfire
       incident_id: c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/9/6/cow-fire-not-a-cal-fire-incident/
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/cow-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-09-06'
       is_active: 'Y'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-10-04T20:50Z'
-      ModifiedOnDateTimeEpoch: 1570222231000
+      Fire_Name: Cow Fire
+      ModifiedOnDateTime: '2019-10-05T01:15Z'
+      ModifiedOnDateTimeEpoch: 1570238140000
       DailyAcres: 0
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
+      Name: Cow Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#Fire'
+      Hashtag: '#CowFire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-04T21:45:22.636Z'
+          RetrievedOn: '2019-10-05T01:16:00.792Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -80223,12 +80221,59 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
+    Source_NFSA_Join:
+      Lon: -118.279215132698
+      Lat: 36.28518734407914
+      id: 124891
+      Name: COW
+      Fire_Name: COW
+      UniqueFireIdentifier: 2019-CAINF-001435
+      DailyAcres: 2025
+      PercentContained: 95
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-10-04T00:00Z'
+      ICS209ReportDateTimeEpoch: 1570147200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 2100000
+      FireCause: Natural
+      TotalIncidentPersonnel: 0
+      FireDiscoveryDateTime: '2019-07-25T15:13Z'
+      FireDiscoveryDateTimeEpoch: 1564067580000
+      DispatchCenterID: CAOVCC
+      LocalIncidentIdentifier: '001435'
+      POOCounty: Tulare
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-10-04T00:00Z'
+      ModifiedOnDateTimeEpoch: 1570147200000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAINF-001435
+      ModifiedOnDateTime_Raw: '2019-10-04T16:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570206362000
+      Hashtag: '#CowFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-05T01:16:00.791Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Lon: -118.228
     Lat: 36.284
-    incident_name: Cow Fire (Not a CAL FIRE Incident)
+    incident_name: Cow Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-04T20:50Z'
-    incident_date_last_updateEpoch: 1570222231000
+    incident_date_last_update: '2019-10-05T01:15Z'
+    incident_date_last_updateEpoch: 1570238140000
     incident_date_created: '2019-09-06T19:23Z'
     incident_date_createdEpoch: 1567797780000
     incident_administrative_unit: USFS - Inyo National Forest
@@ -80243,39 +80288,55 @@ Database:
     incident_latitude: 36.284
     incident_type: Wildfire
     incident_id: c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/9/6/cow-fire-not-a-cal-fire-incident/
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/cow-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-09-06'
     is_active: 'Y'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-10-04T20:50Z'
-    ModifiedOnDateTimeEpoch: 1570222231000
+    Fire_Name: Cow Fire
+    ModifiedOnDateTime: '2019-10-05T01:15Z'
+    ModifiedOnDateTimeEpoch: 1570238140000
     DailyAcres: 0
     PercentContained: 0
     UniqueFireIdentifier: CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
+    Name: Cow Fire
     Source: CALFIRE
     State: CA
-    Hashtag: '#Fire'
+    Hashtag: '#CowFire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
     _CorrelationIds:
+      - 2019-CAINF-001435
       - CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462
-    PerimDateTime: '2019-10-03T23:41Z'
+    PerimDateTime: '2019-09-03T00:42Z'
     PerimeterData:
-      DateTime: '2019-10-03T23:41Z'
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-09-03T00:42Z'
+      Acres: 1875.98772841
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-05T01:16:09.663Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: c3b236b9
     unitMention: null
-    Final_Fire_Name: Fire
+    Final_Fire_Name: Cow Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-04T20:50Z-PER-2019-10-03T23:41Z-ID-CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462-NAME--S-C
-      Code: 402d1ab355fcd279716929272e196391ec1bb3341c458b1bc650c5499d1db0db
+        UPD-2019-10-05T01:15Z-PER-2019-09-03T00:42Z-ID-CALFIRE-c3b236b9-3a1d-481d-b1eb-b0aa77c5b462-NAME-CowFire-S-C
+      Code: 2144ff9d040eda454b882e82bd464c65fcf04b1b7b6b9578533cbb8fbe986277
   CALFIRE-737ef617-abaa-44a1-9bbc-f46240468b8f:
     Source_CALFIRE:
       Lon: -118.185
@@ -85007,236 +85068,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-03T20:30Z-PER-2019-09-24T23:08Z-ID-2019-UTCBP-000577-NAME-ChessmanCanyon-S-N
       Code: 2b1715cac87de90076e9e9371d552ebfd8b24d02a97888e8cfec1c3e0ec82cd9
-  2019-CAINF-002018:
-    Source_CALFIRE:
-      Lon: -118.345
-      Lat: 37.034
-      incident_name: Taboose Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-03T17:01Z'
-      incident_date_last_updateEpoch: 1570122083000
-      incident_date_created: '2019-09-06T19:43Z'
-      incident_date_createdEpoch: 1567799015000
-      incident_administrative_unit: Inyo National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Inyo
-      incident_location: south west of Big Pine and north west of Aberdeen
-      incident_acres_burned: 0
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: 'Inyo National Forest , Inyo County Sheriff''s Office'
-      incident_longitude: -118.345
-      incident_latitude: 37.034
-      incident_type: Wildfire
-      incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-09-06'
-      is_active: 'Y'
-      Fire_Name: Taboose Fire
-      ModifiedOnDateTime: '2019-10-03T17:01Z'
-      ModifiedOnDateTimeEpoch: 1570122083000
-      DailyAcres: 0
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      Name: Taboose Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#TabooseFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T12:12:50.333Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    Source_NFSA_Join:
-      Lon: -118.32991604733373
-      Lat: 37.01154404194937
-      id: 132083
-      Name: TABOOSE
-      Fire_Name: TABOOSE
-      UniqueFireIdentifier: 2019-CAINF-002018
-      DailyAcres: 10296
-      PercentContained: 75
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-10-04T00:15Z'
-      ICS209ReportDateTimeEpoch: 1570148100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 10900000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 25
-      FireDiscoveryDateTime: '2019-09-05T01:12Z'
-      FireDiscoveryDateTimeEpoch: 1567645920000
-      DispatchCenterID: CAOVCC
-      LocalIncidentIdentifier: 002018
-      POOCounty: Inyo
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-04T00:15Z'
-      ModifiedOnDateTimeEpoch: 1570148100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAINF-002018
-      ModifiedOnDateTime_Raw: '2019-10-04T00:32Z'
-      ModifiedOnDateTimeEpoch_Raw: 1570149132000
-      Hashtag: '#TabooseFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T12:12:50.331Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -118.34529048401087
-      Lat: 37.034172164604605
-      objectid: 8
-      latitude: 37.034167
-      longitude: -118.345278
-      acres: 10296
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-04T00:15Z'
-      reportdatetimeEpoch: 1570148100000
-      percentcontained: 75
-      uniquefireidentifier: 2019-CAINF-002018
-      firediscoverydatetime: '2019-09-05T01:12Z'
-      firediscoverydatetimeEpoch: 1567645920000
-      complexparentirwinid: null
-      pooresponsibleunit: CAINF
-      incidentname: TABOOSE
-      iscomplex: 'false'
-      irwinid: '{FB038107-3B06-4407-8AEE-D09C0BFD9A0A}'
-      irwinmodifiedon: '2019-10-04T00:32Z'
-      irwinmodifiedonEpoch: 1570149133000
-      mapsymbol: '2'
-      datecurrent: '2019-10-04T06:00Z'
-      datecurrentEpoch: 1570168813000
-      pooownerunit: CAINF
-      fireyear: 2019
-      localincidentidentifier: 002018
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 10296
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-04T00:15Z'
-      ModifiedOnDateTimeEpoch: 1570148100000
-      PercentContained: 75
-      UniqueFireIdentifier: 2019-CAINF-002018
-      FireDiscoveryDateTime: '2019-09-05T01:12Z'
-      FireDiscoveryDateTimeEpoch: 1567645920000
-      Fire_Name: TABOOSE
-      Name: TABOOSE
-      Source: GEOMAC
-      Hashtag: '#TabooseFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T12:12:50.332Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAINF-002018
-    Lon: -118.32991604733373
-    Lat: 37.01154404194937
-    id: 132083
-    Name: TABOOSE
-    Fire_Name: TABOOSE
-    UniqueFireIdentifier: 2019-CAINF-002018
-    DailyAcres: 10296
-    PercentContained: 75
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-10-04T00:15Z'
-    ICS209ReportDateTimeEpoch: 1570148100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 10900000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 25
-    FireDiscoveryDateTime: '2019-09-05T01:12Z'
-    FireDiscoveryDateTimeEpoch: 1567645920000
-    DispatchCenterID: CAOVCC
-    LocalIncidentIdentifier: 002018
-    POOCounty: Inyo
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-04T00:15Z'
-    ModifiedOnDateTimeEpoch: 1570148100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAINF-002018
-      - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    ModifiedOnDateTime_Raw: '2019-10-04T00:32Z'
-    ModifiedOnDateTimeEpoch_Raw: 1570149132000
-    Hashtag: '#TabooseFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-23T22:04Z'
-    PerimeterData:
-      DateTime: '2019-09-23T22:04Z'
-      Acres: 10296.1749511
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T12:12:57.664Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: CAINF
-    unitMention: '@InyoInfo'
-    Final_Fire_Name: Taboose Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-04T00:15Z-PER-2019-09-23T22:04Z-ID-2019-CAINF-002018-NAME-TABOOSE-S-N
-      Code: c7aea253a802aaf2aee341fcb1bf75c42db7b494bf5bcd4eb5ea89d18b732c2a
   2019-CASHF-001196:
     Source_NFSA_Join:
       Lon: -123.00541353920197
@@ -85580,152 +85411,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-03T23:00Z-PER-2019-10-03T22:45Z-ID-2019-CASHF-001209-NAME-SOUTH-S-N
       Code: 2661bb9212f0b01ccb8bce7d57bf9fbda8cdb029aebcb67084d3f6177f49297f
-  2019-CALPF-002348:
-    Source_CALFIRE:
-      Lon: -120.1755
-      Lat: 35.189783
-      incident_name: Ranch Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-03T17:00Z'
-      incident_date_last_updateEpoch: 1570122040000
-      incident_date_created: '2019-10-02T05:35Z'
-      incident_date_createdEpoch: 1569994552000
-      incident_administrative_unit: Los Padres National Forest
-      incident_administrative_unit_url: ''
-      incident_county: San Luis Obispo
-      incident_location: 'Off of Pozo Road and Avenales Ranch Rd, Southeast of Pozo'
-      incident_acres_burned: 0
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: Los Padres National Forest
-      incident_longitude: -120.1755
-      incident_latitude: 35.189783
-      incident_type: Wildfire
-      incident_id: e2a0252b-2da9-4967-ba33-7abe3ced1efa
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/1/ranch-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-01'
-      is_active: 'Y'
-      Fire_Name: Ranch Fire
-      ModifiedOnDateTime: '2019-10-03T17:00Z'
-      ModifiedOnDateTimeEpoch: 1570122040000
-      DailyAcres: 0
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
-      Name: Ranch Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#RanchFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=e2a0252b-2da9-4967-ba33-7abe3ced1efa
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T12:12:50.333Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
-    Source_NFSA_Join:
-      Lon: -120.17541496702886
-      Lat: 35.18972501804114
-      id: 135554
-      Name: RANCH
-      Fire_Name: RANCH
-      UniqueFireIdentifier: 2019-CALPF-002348
-      DailyAcres: 50
-      PercentContained: 85
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-10-03T23:30Z'
-      ICS209ReportDateTimeEpoch: 1570145400000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 250000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 114
-      FireDiscoveryDateTime: '2019-10-02T04:00Z'
-      FireDiscoveryDateTimeEpoch: 1569988800000
-      DispatchCenterID: CALPCC
-      LocalIncidentIdentifier: 002348
-      POOCounty: San Luis Obispo
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-03T23:30Z'
-      ModifiedOnDateTimeEpoch: 1570145400000
-      ModifiedBySystem: wildcad
-      popupinfo: null
-      calc_symboltype: NonImsr
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALPF-002348
-      ModifiedOnDateTime_Raw: '2019-10-04T01:13Z'
-      ModifiedOnDateTimeEpoch_Raw: 1570151592000
-      Hashtag: '#RanchFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T12:12:50.331Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -120.17541496702886
-    Lat: 35.18972501804114
-    id: 135554
-    Name: RANCH
-    Fire_Name: RANCH
-    UniqueFireIdentifier: 2019-CALPF-002348
-    DailyAcres: 50
-    PercentContained: 85
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-10-03T23:30Z'
-    ICS209ReportDateTimeEpoch: 1570145400000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 250000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 114
-    FireDiscoveryDateTime: '2019-10-02T04:00Z'
-    FireDiscoveryDateTimeEpoch: 1569988800000
-    DispatchCenterID: CALPCC
-    LocalIncidentIdentifier: 002348
-    POOCounty: San Luis Obispo
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-03T23:30Z'
-    ModifiedOnDateTimeEpoch: 1570145400000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CALPF-002348
-      - CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
-    ModifiedOnDateTime_Raw: '2019-10-04T01:13Z'
-    ModifiedOnDateTimeEpoch_Raw: 1570151592000
-    Hashtag: '#RanchFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALPF
-    unitMention: '@LosPadresNF'
-    Final_Fire_Name: Ranch Fire
-    _Update:
-      UpdateId: 'UPD-2019-10-03T23:30Z-PER-none-ID-2019-CALPF-002348-NAME-RANCH-S-N'
-      Code: a1bd60355b841fafb2c4ed41fa66a8215994942c8912a1b384c9cea0fdeb7a52
   2019-KYKYS-19-3003:
     Source_NFSA_Join:
       Lon: -82.9547272826547
@@ -85923,119 +85608,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-04T17:39Z-PER-none-ID-CALFIRE-2e4017ba-5c18-4de6-8098-54b2a6caf5bd-NAME-DelFire-S-C
       Code: 2b2fc5f0490c92508fceba6a9bafe3e8de78ce13a16104980d32785341f98b45
-  2019-CAINF-001435:
-    Source_NFSA_Join:
-      Lon: -118.279215132698
-      Lat: 36.28518734407914
-      id: 124891
-      Name: COW
-      Fire_Name: COW
-      UniqueFireIdentifier: 2019-CAINF-001435
-      DailyAcres: 2025
-      PercentContained: 95
-      FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2019-10-04T00:00Z'
-      ICS209ReportDateTimeEpoch: 1570147200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2100000
-      FireCause: Natural
-      TotalIncidentPersonnel: 0
-      FireDiscoveryDateTime: '2019-07-25T15:13Z'
-      FireDiscoveryDateTimeEpoch: 1564067580000
-      DispatchCenterID: CAOVCC
-      LocalIncidentIdentifier: '001435'
-      POOCounty: Tulare
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-04T00:00Z'
-      ModifiedOnDateTimeEpoch: 1570147200000
-      ModifiedBySystem: wildcad
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAINF-001435
-      ModifiedOnDateTime_Raw: '2019-10-04T16:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1570206362000
-      Hashtag: '#CowFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T21:45:22.632Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -118.279215132698
-    Lat: 36.28518734407914
-    id: 124891
-    Name: COW
-    Fire_Name: COW
-    UniqueFireIdentifier: 2019-CAINF-001435
-    DailyAcres: 2025
-    PercentContained: 95
-    FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2019-10-04T00:00Z'
-    ICS209ReportDateTimeEpoch: 1570147200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2100000
-    FireCause: Natural
-    TotalIncidentPersonnel: 0
-    FireDiscoveryDateTime: '2019-07-25T15:13Z'
-    FireDiscoveryDateTimeEpoch: 1564067580000
-    DispatchCenterID: CAOVCC
-    LocalIncidentIdentifier: '001435'
-    POOCounty: Tulare
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-04T00:00Z'
-    ModifiedOnDateTimeEpoch: 1570147200000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAINF-001435
-    ModifiedOnDateTime_Raw: '2019-10-04T16:26Z'
-    ModifiedOnDateTimeEpoch_Raw: 1570206362000
-    Hashtag: '#CowFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-09-03T00:42Z'
-    PerimeterData:
-      DateTime: '2019-09-03T00:42Z'
-      Acres: 1875.98772841
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-04T21:45:36.454Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CAINF
-    unitMention: '@InyoInfo'
-    Final_Fire_Name: Cow Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-04T00:00Z-PER-2019-09-03T00:42Z-ID-2019-CAINF-001435-NAME-COW-S-N
-      Code: 7d31dbfab4fc80b582bf874a33f5d82b7df8a217014a11773b9f2913c920e159
   2019-CALNP-004540:
     Source_NFSA_Join:
       Lon: -121.26528700233402
@@ -86259,10 +85831,10 @@ Database:
     Source_CALFIRE:
       Lon: -118.345
       Lat: 37.034
-      incident_name: Taboose Fire (Not a CAL FIRE Incident)
+      incident_name: Taboose Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-04T20:49Z'
-      incident_date_last_updateEpoch: 1570222194000
+      incident_date_last_update: '2019-10-05T01:15Z'
+      incident_date_last_updateEpoch: 1570238111000
       incident_date_created: '2019-09-06T19:43Z'
       incident_date_createdEpoch: 1567799015000
       incident_administrative_unit: Inyo National Forest
@@ -86277,28 +85849,26 @@ Database:
       incident_latitude: 37.034
       incident_type: Wildfire
       incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire-not-a-cal-fire-incident/
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-09-06'
       is_active: 'Y'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-10-04T20:49Z'
-      ModifiedOnDateTimeEpoch: 1570222194000
+      Fire_Name: Taboose Fire
+      ModifiedOnDateTime: '2019-10-05T01:15Z'
+      ModifiedOnDateTimeEpoch: 1570238111000
       DailyAcres: 0
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
+      Name: Taboose Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#Fire'
+      Hashtag: '#TabooseFire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-04T21:45:22.636Z'
+          RetrievedOn: '2019-10-05T01:16:00.792Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -86308,12 +85878,125 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
+    Source_NFSA_Join:
+      Lon: -118.32991604733373
+      Lat: 37.01154404194937
+      id: 132083
+      Name: TABOOSE
+      Fire_Name: TABOOSE
+      UniqueFireIdentifier: 2019-CAINF-002018
+      DailyAcres: 10296
+      PercentContained: 75
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-10-04T00:15Z'
+      ICS209ReportDateTimeEpoch: 1570148100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 10900000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 25
+      FireDiscoveryDateTime: '2019-09-05T01:12Z'
+      FireDiscoveryDateTimeEpoch: 1567645920000
+      DispatchCenterID: CAOVCC
+      LocalIncidentIdentifier: 002018
+      POOCounty: Inyo
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-10-04T00:15Z'
+      ModifiedOnDateTimeEpoch: 1570148100000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAINF-002018
+      ModifiedOnDateTime_Raw: '2019-10-04T00:32Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570149132000
+      Hashtag: '#TabooseFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-05T01:16:00.791Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -118.34529048401087
+      Lat: 37.034172164604605
+      objectid: 8
+      latitude: 37.034167
+      longitude: -118.345278
+      acres: 10296
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-04T00:15Z'
+      reportdatetimeEpoch: 1570148100000
+      percentcontained: 75
+      uniquefireidentifier: 2019-CAINF-002018
+      firediscoverydatetime: '2019-09-05T01:12Z'
+      firediscoverydatetimeEpoch: 1567645920000
+      complexparentirwinid: null
+      pooresponsibleunit: CAINF
+      incidentname: TABOOSE
+      iscomplex: 'false'
+      irwinid: '{FB038107-3B06-4407-8AEE-D09C0BFD9A0A}'
+      irwinmodifiedon: '2019-10-04T00:32Z'
+      irwinmodifiedonEpoch: 1570149133000
+      mapsymbol: '2'
+      datecurrent: '2019-10-04T19:00Z'
+      datecurrentEpoch: 1570215613000
+      pooownerunit: CAINF
+      fireyear: 2019
+      localincidentidentifier: 002018
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 10296
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-04T00:15Z'
+      ModifiedOnDateTimeEpoch: 1570148100000
+      PercentContained: 75
+      UniqueFireIdentifier: 2019-CAINF-002018
+      FireDiscoveryDateTime: '2019-09-05T01:12Z'
+      FireDiscoveryDateTimeEpoch: 1567645920000
+      Fire_Name: TABOOSE
+      Name: TABOOSE
+      Source: GEOMAC
+      Hashtag: '#TabooseFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-05T01:16:00.792Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAINF-002018
     Lon: -118.345
     Lat: 37.034
-    incident_name: Taboose Fire (Not a CAL FIRE Incident)
+    incident_name: Taboose Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-04T20:49Z'
-    incident_date_last_updateEpoch: 1570222194000
+    incident_date_last_update: '2019-10-05T01:15Z'
+    incident_date_last_updateEpoch: 1570238111000
     incident_date_created: '2019-09-06T19:43Z'
     incident_date_createdEpoch: 1567799015000
     incident_administrative_unit: Inyo National Forest
@@ -86328,47 +86011,63 @@ Database:
     incident_latitude: 37.034
     incident_type: Wildfire
     incident_id: e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire-not-a-cal-fire-incident/
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/9/6/taboose-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-09-06'
     is_active: 'Y'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-10-04T20:49Z'
-    ModifiedOnDateTimeEpoch: 1570222194000
+    Fire_Name: Taboose Fire
+    ModifiedOnDateTime: '2019-10-05T01:15Z'
+    ModifiedOnDateTimeEpoch: 1570238111000
     DailyAcres: 0
     PercentContained: 0
     UniqueFireIdentifier: CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
+    Name: Taboose Fire
     Source: CALFIRE
     State: CA
-    Hashtag: '#Fire'
+    Hashtag: '#TabooseFire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=e7ea56c5-4290-4406-b0a5-c9d1718e9700
     _CorrelationIds:
+      - 2019-CAINF-002018
       - CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700
-    PerimDateTime: '2019-10-03T23:41Z'
+    PerimDateTime: '2019-09-23T22:04Z'
     PerimeterData:
-      DateTime: '2019-10-03T23:41Z'
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-09-23T22:04Z'
+      Acres: 10296.1749511
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-05T01:16:06.598Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: e7ea56c5
     unitMention: null
-    Final_Fire_Name: Fire
+    Final_Fire_Name: Taboose Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-04T20:49Z-PER-2019-10-03T23:41Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME--S-C
-      Code: 0bbf6ca70ed341797ba30ecc79b5494c38a82065498b60331093c792fb05cd80
+        UPD-2019-10-05T01:15Z-PER-2019-09-23T22:04Z-ID-CALFIRE-e7ea56c5-4290-4406-b0a5-c9d1718e9700-NAME-TabooseFire-S-C
+      Code: 3effd46629a9f0a7121bcedc2df720e228fb4a09f8acc5dc7a17ad4e24f36036
   CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa:
     Source_CALFIRE:
       Lon: -120.1755
       Lat: 35.189783
-      incident_name: Ranch Fire (Not a CAL FIRE Incident)
+      incident_name: Ranch Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-04T20:49Z'
-      incident_date_last_updateEpoch: 1570222178000
+      incident_date_last_update: '2019-10-05T01:15Z'
+      incident_date_last_updateEpoch: 1570238124000
       incident_date_created: '2019-10-02T05:35Z'
       incident_date_createdEpoch: 1569994552000
       incident_administrative_unit: Los Padres National Forest
@@ -86383,28 +86082,26 @@ Database:
       incident_latitude: 35.189783
       incident_type: Wildfire
       incident_id: e2a0252b-2da9-4967-ba33-7abe3ced1efa
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/10/1/ranch-fire-not-a-cal-fire-incident/
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/1/ranch-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-01'
       is_active: 'Y'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-10-04T20:49Z'
-      ModifiedOnDateTimeEpoch: 1570222178000
+      Fire_Name: Ranch Fire
+      ModifiedOnDateTime: '2019-10-05T01:15Z'
+      ModifiedOnDateTimeEpoch: 1570238124000
       DailyAcres: 0
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
+      Name: Ranch Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#Fire'
+      Hashtag: '#RanchFire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=e2a0252b-2da9-4967-ba33-7abe3ced1efa
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-04T21:45:22.636Z'
+          RetrievedOn: '2019-10-05T01:16:00.792Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -86414,12 +86111,59 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
+    Source_NFSA_Join:
+      Lon: -120.17541496702886
+      Lat: 35.18972501804114
+      id: 135554
+      Name: RANCH
+      Fire_Name: RANCH
+      UniqueFireIdentifier: 2019-CALPF-002348
+      DailyAcres: 50
+      PercentContained: 85
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-10-03T23:30Z'
+      ICS209ReportDateTimeEpoch: 1570145400000
+      ICS209ReportStatus: F
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 250000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 114
+      FireDiscoveryDateTime: '2019-10-02T04:00Z'
+      FireDiscoveryDateTimeEpoch: 1569988800000
+      DispatchCenterID: CALPCC
+      LocalIncidentIdentifier: 002348
+      POOCounty: San Luis Obispo
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-03T23:30Z'
+      ModifiedOnDateTimeEpoch: 1570145400000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALPF-002348
+      ModifiedOnDateTime_Raw: '2019-10-04T17:44Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570211055000
+      Hashtag: '#RanchFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-05T01:16:00.791Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Lon: -120.1755
     Lat: 35.189783
-    incident_name: Ranch Fire (Not a CAL FIRE Incident)
+    incident_name: Ranch Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-04T20:49Z'
-    incident_date_last_updateEpoch: 1570222178000
+    incident_date_last_update: '2019-10-05T01:15Z'
+    incident_date_last_updateEpoch: 1570238124000
     incident_date_created: '2019-10-02T05:35Z'
     incident_date_createdEpoch: 1569994552000
     incident_administrative_unit: Los Padres National Forest
@@ -86434,39 +86178,38 @@ Database:
     incident_latitude: 35.189783
     incident_type: Wildfire
     incident_id: e2a0252b-2da9-4967-ba33-7abe3ced1efa
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/10/1/ranch-fire-not-a-cal-fire-incident/
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/1/ranch-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-10-01'
     is_active: 'Y'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-10-04T20:49Z'
-    ModifiedOnDateTimeEpoch: 1570222178000
+    Fire_Name: Ranch Fire
+    ModifiedOnDateTime: '2019-10-05T01:15Z'
+    ModifiedOnDateTimeEpoch: 1570238124000
     DailyAcres: 0
     PercentContained: 0
     UniqueFireIdentifier: CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
+    Name: Ranch Fire
     Source: CALFIRE
     State: CA
-    Hashtag: '#Fire'
+    Hashtag: '#RanchFire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=e2a0252b-2da9-4967-ba33-7abe3ced1efa
     _CorrelationIds:
+      - 2019-CALPF-002348
       - CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa
-    PerimDateTime: '2019-10-03T23:41Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-10-03T23:41Z'
+      DateTime: null
       Acres: null
       _Provenance: null
     unitId: e2a0252b
     unitMention: null
-    Final_Fire_Name: Fire
+    Final_Fire_Name: Ranch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-04T20:49Z-PER-2019-10-03T23:41Z-ID-CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa-NAME--S-C
-      Code: d212c9be96f8be518e92524e0ab7ae4311ba6e3b2264a270f64f1aceb6991d79
+        UPD-2019-10-05T01:15Z-PER-none-ID-CALFIRE-e2a0252b-2da9-4967-ba33-7abe3ced1efa-NAME-RanchFire-S-C
+      Code: 0a204a17909567e002bf7f56b5d044174068a4ece7dc7e32947e599142e75b69
   CALFIRE-082bd2d3-457b-496b-a469-0d2550aac7ef:
     Source_CALFIRE:
       Lon: -122.52441
