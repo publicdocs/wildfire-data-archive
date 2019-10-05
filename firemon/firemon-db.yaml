@@ -83912,39 +83912,39 @@ Database:
       Name: Maton
       Fire_Name: Maton
       UniqueFireIdentifier: 2019-NMCAF-000532
-      DailyAcres: 99
-      PercentContained: 40
+      DailyAcres: 105
+      PercentContained: 75
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-10-03T22:45Z'
-      ICS209ReportDateTimeEpoch: 1570142700000
+      ICS209ReportDateTime: '2019-10-04T22:45Z'
+      ICS209ReportDateTimeEpoch: 1570229100000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 75000
+      EstimatedCostToDate: 130000
       FireCause: Unknown
-      TotalIncidentPersonnel: 56
+      TotalIncidentPersonnel: 52
       FireDiscoveryDateTime: '2019-10-01T19:19Z'
       FireDiscoveryDateTimeEpoch: 1569957540000
       DispatchCenterID: NMTDC
       LocalIncidentIdentifier: '000532'
       POOCounty: Rio Arriba
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-03T22:45Z'
-      ModifiedOnDateTimeEpoch: 1570142700000
+      ModifiedOnDateTime: '2019-10-04T22:45Z'
+      ModifiedOnDateTimeEpoch: 1570229100000
       ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: NonImsr
+      calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-NMCAF-000532
-      ModifiedOnDateTime_Raw: '2019-10-04T00:00Z'
-      ModifiedOnDateTimeEpoch_Raw: 1570147250000
+      ModifiedOnDateTime_Raw: '2019-10-05T00:01Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570233677000
       Hashtag: '#MatonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-04T12:12:50.331Z'
+          RetrievedOn: '2019-10-05T00:31:18.020Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -83952,40 +83952,106 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -106.24667675160576
+      Lat: 36.44778366999534
+      objectid: 14
+      latitude: 36.4477778
+      longitude: -106.2466667
+      acres: 105
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: NM
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-04T22:45Z'
+      reportdatetimeEpoch: 1570229100000
+      percentcontained: 75
+      uniquefireidentifier: 2019-NMCAF-000532
+      firediscoverydatetime: '2019-10-01T19:19Z'
+      firediscoverydatetimeEpoch: 1569957540000
+      complexparentirwinid: null
+      pooresponsibleunit: NMCAF
+      incidentname: Maton
+      iscomplex: 'false'
+      irwinid: '{11C60982-65B0-4AB6-8981-3185DBE19785}'
+      irwinmodifiedon: '2019-10-05T00:01Z'
+      irwinmodifiedonEpoch: 1570233677000
+      mapsymbol: '1'
+      datecurrent: '2019-10-04T18:30Z'
+      datecurrentEpoch: 1570213812000
+      pooownerunit: NMCAF
+      fireyear: 2019
+      localincidentidentifier: '000532'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 105
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-04T22:45Z'
+      ModifiedOnDateTimeEpoch: 1570229100000
+      PercentContained: 75
+      UniqueFireIdentifier: 2019-NMCAF-000532
+      FireDiscoveryDateTime: '2019-10-01T19:19Z'
+      FireDiscoveryDateTimeEpoch: 1569957540000
+      Fire_Name: Maton
+      Name: Maton
+      Source: GEOMAC
+      Hashtag: '#MatonFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-05T00:31:18.021Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-NMCAF-000532
     Lon: -106.25000991034611
     Lat: 36.50000353368022
     id: 135537
     Name: Maton
     Fire_Name: Maton
     UniqueFireIdentifier: 2019-NMCAF-000532
-    DailyAcres: 99
-    PercentContained: 40
+    DailyAcres: 105
+    PercentContained: 75
     FireMgmtComplexity: Type 3 Incident
     IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-10-03T22:45Z'
-    ICS209ReportDateTimeEpoch: 1570142700000
+    ICS209ReportDateTime: '2019-10-04T22:45Z'
+    ICS209ReportDateTimeEpoch: 1570229100000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 75000
+    EstimatedCostToDate: 130000
     FireCause: Unknown
-    TotalIncidentPersonnel: 56
+    TotalIncidentPersonnel: 52
     FireDiscoveryDateTime: '2019-10-01T19:19Z'
     FireDiscoveryDateTimeEpoch: 1569957540000
     DispatchCenterID: NMTDC
     LocalIncidentIdentifier: '000532'
     POOCounty: Rio Arriba
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-03T22:45Z'
-    ModifiedOnDateTimeEpoch: 1570142700000
+    ModifiedOnDateTime: '2019-10-04T22:45Z'
+    ModifiedOnDateTimeEpoch: 1570229100000
     ModifiedBySystem: ics209
     popupinfo: null
-    calc_symboltype: NonImsr
+    calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-NMCAF-000532
-    ModifiedOnDateTime_Raw: '2019-10-04T00:00Z'
-    ModifiedOnDateTimeEpoch_Raw: 1570147250000
+    ModifiedOnDateTime_Raw: '2019-10-05T00:01Z'
+    ModifiedOnDateTimeEpoch_Raw: 1570233677000
     Hashtag: '#MatonFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -83997,8 +84063,8 @@ Database:
     unitMention: Carson NF
     Final_Fire_Name: Maton Fire
     _Update:
-      UpdateId: 'UPD-2019-10-03T22:45Z-PER-none-ID-2019-NMCAF-000532-NAME-Maton-S-N'
-      Code: 96d4a1fae22d38468c759640696f0940f39d28750acca6bdf2e3c0d00daca4a4
+      UpdateId: 'UPD-2019-10-04T22:45Z-PER-none-ID-2019-NMCAF-000532-NAME-Maton-S-N'
+      Code: a114abdf58ee4fd3a533a8eb5ea8a15e3f637e5dc274a9a3f7c3d1da6876cd3a
   2019-TXTXS-190454:
     Source_NFSA_Join:
       Lon: -95.17196786027849
