@@ -86569,185 +86569,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-05T14:59Z-PER-none-ID-2019-TXTXS-190465-NAME-ValVerde1953-S-N
       Code: 7b6667254dbf0b615a7197b4e173de19c39ef0adab77858f4e7bc00834782684
-  2019-CALNU-018056:
-    Source_CALFIRE:
-      Lon: -122.211671
-      Lat: 38.165873
-      incident_name: American Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-07T03:23Z'
-      incident_date_last_updateEpoch: 1570418618000
-      incident_date_created: '2019-10-06T23:36Z'
-      incident_date_createdEpoch: 1570405010000
-      incident_administrative_unit: >-
-        Unified Command: CalFire Sonoma-Lake Unit and American Canyon Fire
-        Protection District
-      incident_administrative_unit_url: ''
-      incident_county: Napa
-      incident_location: 'American Canyon and Highway 80, east of American Canyon'
-      incident_acres_burned: 526
-      incident_containment: 30
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -122.211671
-      incident_latitude: 38.165873
-      incident_type: Wildfire
-      incident_id: 74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
-      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/6/american-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-06'
-      is_active: 'Y'
-      Fire_Name: American Fire
-      ModifiedOnDateTime: '2019-10-07T03:23Z'
-      ModifiedOnDateTimeEpoch: 1570418618000
-      DailyAcres: 526
-      PercentContained: 30
-      UniqueFireIdentifier: CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
-      Name: American Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#AmericanFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-07T08:00:45.887Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
-    Source_GEOMAC:
-      Lon: -122.24408823626176
-      Lat: 38.17703199015
-      objectid: 15
-      latitude: 38.177027
-      longitude: -122.244075
-      acres: 562
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: I
-      firecause: Unknown
-      reportdatetime: '2019-10-07T07:15Z'
-      reportdatetimeEpoch: 1570432500000
-      percentcontained: 60
-      uniquefireidentifier: 2019-CALNU-018056
-      firediscoverydatetime: '2019-10-06T22:14Z'
-      firediscoverydatetimeEpoch: 1570400061000
-      complexparentirwinid: null
-      pooresponsibleunit: CALNU
-      incidentname: AMERICAN
-      iscomplex: 'false'
-      irwinid: '{15142569-469A-4220-A8CE-0105F7687A81}'
-      irwinmodifiedon: '2019-10-07T07:47Z'
-      irwinmodifiedonEpoch: 1570434449000
-      mapsymbol: '1'
-      datecurrent: '2019-10-07T02:00Z'
-      datecurrentEpoch: 1570413615000
-      pooownerunit: CALNU
-      fireyear: 2019
-      localincidentidentifier: 018056
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 562
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-07T07:15Z'
-      ModifiedOnDateTimeEpoch: 1570432500000
-      PercentContained: 60
-      UniqueFireIdentifier: 2019-CALNU-018056
-      FireDiscoveryDateTime: '2019-10-06T22:14Z'
-      FireDiscoveryDateTimeEpoch: 1570400061000
-      Fire_Name: AMERICAN
-      Name: AMERICAN
-      Source: GEOMAC
-      Hashtag: '#AmericanFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-07T08:00:45.887Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CALNU-018056
-    Lon: -122.24408823626176
-    Lat: 38.17703199015
-    objectid: 15
-    latitude: 38.177027
-    longitude: -122.244075
-    acres: 562
-    gacc: ONCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: I
-    firecause: Unknown
-    reportdatetime: '2019-10-07T07:15Z'
-    reportdatetimeEpoch: 1570432500000
-    percentcontained: 60
-    uniquefireidentifier: 2019-CALNU-018056
-    firediscoverydatetime: '2019-10-06T22:14Z'
-    firediscoverydatetimeEpoch: 1570400061000
-    complexparentirwinid: null
-    pooresponsibleunit: CALNU
-    incidentname: AMERICAN
-    iscomplex: 'false'
-    irwinid: '{15142569-469A-4220-A8CE-0105F7687A81}'
-    irwinmodifiedon: '2019-10-07T07:47Z'
-    irwinmodifiedonEpoch: 1570434449000
-    mapsymbol: '1'
-    datecurrent: '2019-10-07T02:00Z'
-    datecurrentEpoch: 1570413615000
-    pooownerunit: CALNU
-    fireyear: 2019
-    localincidentidentifier: 018056
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 562
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-10-07T07:15Z'
-    ModifiedOnDateTimeEpoch: 1570432500000
-    PercentContained: 60
-    UniqueFireIdentifier: 2019-CALNU-018056
-    FireDiscoveryDateTime: '2019-10-06T22:14Z'
-    FireDiscoveryDateTimeEpoch: 1570400061000
-    Fire_Name: AMERICAN
-    Name: AMERICAN
-    Source: GEOMAC
-    Hashtag: '#AmericanFire'
-    _CorrelationIds:
-      - 2019-CALNU-018056
-      - CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALNU
-    unitMention: Sonoma-Lake Napa Unit
-    Final_Fire_Name: American Fire
-    _Update:
-      UpdateId: 'UPD-2019-10-07T07:15Z-PER-none-ID-2019-CALNU-018056-NAME-AMERICAN-S-G'
-      Code: 8d997bfcbfbbb865bc0bcf29e88041535866db80c67b03dc82325632c815e551
   CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411:
     Source_CALFIRE:
       Lon: -119.96606
@@ -86898,3 +86719,223 @@ Database:
       UpdateId: >-
         UPD-2019-10-07T14:03Z-PER-none-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
       Code: a957a23d7b409ac74d0bb876d9805a6f23fcf5096aca5eb894f224ae58f2949a
+  CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d:
+    Source_CALFIRE:
+      Lon: -122.211671
+      Lat: 38.165873
+      incident_name: American Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-07T14:08Z'
+      incident_date_last_updateEpoch: 1570457329000
+      incident_date_created: '2019-10-06T23:36Z'
+      incident_date_createdEpoch: 1570405010000
+      incident_administrative_unit: >-
+        Unified Command: CAL FIRE Sonoma Lake-Napa Unit and American Canyon Fire
+        Protection District
+      incident_administrative_unit_url: ''
+      incident_county: Napa
+      incident_location: 'American Canyon and Highway 80, east of American Canyon'
+      incident_acres_burned: 562
+      incident_containment: 60
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -122.211671
+      incident_latitude: 38.165873
+      incident_type: Wildfire
+      incident_id: 74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/6/american-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-06'
+      is_active: 'Y'
+      Fire_Name: American Fire
+      ModifiedOnDateTime: '2019-10-07T14:08Z'
+      ModifiedOnDateTimeEpoch: 1570457329000
+      DailyAcres: 562
+      PercentContained: 60
+      UniqueFireIdentifier: CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+      Name: American Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#AmericanFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-07T14:09:53.515Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+    Source_NFSA_Join:
+      Lon: -122.21168012045962
+      Lat: 38.16587527702808
+      id: 136013
+      Name: AMERICAN
+      Fire_Name: AMERICAN
+      UniqueFireIdentifier: 2019-CALNU-018056
+      DailyAcres: 562
+      PercentContained: 60
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-10-07T07:15Z'
+      ICS209ReportDateTimeEpoch: 1570432500000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 100000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 153
+      FireDiscoveryDateTime: '2019-10-06T22:14Z'
+      FireDiscoveryDateTimeEpoch: 1570400061000
+      DispatchCenterID: CALNCC
+      LocalIncidentIdentifier: 018056
+      POOCounty: Napa
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-07T07:15Z'
+      ModifiedOnDateTimeEpoch: 1570432500000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALNU-018056
+      ModifiedOnDateTime_Raw: '2019-10-07T07:47Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570434448000
+      Hashtag: '#AmericanFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-07T14:09:53.513Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -122.24408823626176
+      Lat: 38.17703199015
+      objectid: 15
+      latitude: 38.177027
+      longitude: -122.244075
+      acres: 562
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-10-07T07:15Z'
+      reportdatetimeEpoch: 1570432500000
+      percentcontained: 60
+      uniquefireidentifier: 2019-CALNU-018056
+      firediscoverydatetime: '2019-10-06T22:14Z'
+      firediscoverydatetimeEpoch: 1570400061000
+      complexparentirwinid: null
+      pooresponsibleunit: CALNU
+      incidentname: AMERICAN
+      iscomplex: 'false'
+      irwinid: '{15142569-469A-4220-A8CE-0105F7687A81}'
+      irwinmodifiedon: '2019-10-07T07:47Z'
+      irwinmodifiedonEpoch: 1570434449000
+      mapsymbol: '1'
+      datecurrent: '2019-10-07T08:00Z'
+      datecurrentEpoch: 1570435216000
+      pooownerunit: CALNU
+      fireyear: 2019
+      localincidentidentifier: 018056
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 562
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-07T07:15Z'
+      ModifiedOnDateTimeEpoch: 1570432500000
+      PercentContained: 60
+      UniqueFireIdentifier: 2019-CALNU-018056
+      FireDiscoveryDateTime: '2019-10-06T22:14Z'
+      FireDiscoveryDateTimeEpoch: 1570400061000
+      Fire_Name: AMERICAN
+      Name: AMERICAN
+      Source: GEOMAC
+      Hashtag: '#AmericanFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-07T14:09:53.514Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALNU-018056
+    Lon: -122.211671
+    Lat: 38.165873
+    incident_name: American Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-10-07T14:08Z'
+    incident_date_last_updateEpoch: 1570457329000
+    incident_date_created: '2019-10-06T23:36Z'
+    incident_date_createdEpoch: 1570405010000
+    incident_administrative_unit: >-
+      Unified Command: CAL FIRE Sonoma Lake-Napa Unit and American Canyon Fire
+      Protection District
+    incident_administrative_unit_url: ''
+    incident_county: Napa
+    incident_location: 'American Canyon and Highway 80, east of American Canyon'
+    incident_acres_burned: 562
+    incident_containment: 60
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -122.211671
+    incident_latitude: 38.165873
+    incident_type: Wildfire
+    incident_id: 74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/6/american-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-06'
+    is_active: 'Y'
+    Fire_Name: American Fire
+    ModifiedOnDateTime: '2019-10-07T14:08Z'
+    ModifiedOnDateTimeEpoch: 1570457329000
+    DailyAcres: 562
+    PercentContained: 60
+    UniqueFireIdentifier: CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+    Name: American Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#AmericanFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+    _CorrelationIds:
+      - 2019-CALNU-018056
+      - CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 74c3d01f
+    unitMention: null
+    Final_Fire_Name: American Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-10-07T14:08Z-PER-none-ID-CALFIRE-74c3d01f-8809-40bc-a0e2-b1cc24bf1a7d-NAME-AmericanFire-S-C
+      Code: a1ac65ad2c450a2051249cdbee91471f1a5b59b7363e082e4cf575fef8713e30
