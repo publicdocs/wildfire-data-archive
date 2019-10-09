@@ -86948,3 +86948,164 @@ Database:
       UpdateId: >-
         UPD-2019-10-09T15:31Z-PER-none-ID-CALFIRE-18fe1e24-799d-4aa9-a7ec-fa8e331ae3e9-NAME-CorningFire-S-C
       Code: 0eeda1b9c1d32d048cfb632d50e7bf55abecb57b2cb4ae83d38453670f76e529
+  2019-LASBR-000001:
+    Source_NFSA_Join:
+      Lon: -93.54861332719327
+      Lat: 29.937230822840725
+      id: 136192
+      Name: SAC A LAIT
+      Fire_Name: SAC A LAIT
+      UniqueFireIdentifier: 2019-LASBR-000001
+      DailyAcres: 400
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-10-08T20:00Z'
+      ICS209ReportDateTimeEpoch: 1570564800000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 15000
+      FireCause: Natural
+      TotalIncidentPersonnel: 11
+      FireDiscoveryDateTime: '2019-10-07T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1570478400000
+      DispatchCenterID: LALIC
+      LocalIncidentIdentifier: '000001'
+      POOCounty: Cameron
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-10-08T20:00Z'
+      ModifiedOnDateTimeEpoch: 1570564800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-LASBR-000001
+      ModifiedOnDateTime_Raw: '2019-10-09T16:28Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570638523000
+      Hashtag: '#SacALaitFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-09T16:31:47.288Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -93.54861763949019
+      Lat: 29.937227495336312
+      objectid: 14
+      latitude: 29.9372222
+      longitude: -93.5486111
+      acres: 400
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: LA
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-10-08T20:00Z'
+      reportdatetimeEpoch: 1570564800000
+      percentcontained: 0
+      uniquefireidentifier: 2019-LASBR-000001
+      firediscoverydatetime: '2019-10-07T20:00Z'
+      firediscoverydatetimeEpoch: 1570478400000
+      complexparentirwinid: null
+      pooresponsibleunit: LASBR
+      incidentname: SAC A LAIT
+      iscomplex: 'false'
+      irwinid: '{8C569D1D-5D40-4051-BA6B-1700A3B5BEA9}'
+      irwinmodifiedon: '2019-10-09T16:28Z'
+      irwinmodifiedonEpoch: 1570638523000
+      mapsymbol: '1'
+      datecurrent: '2019-10-09T10:30Z'
+      datecurrentEpoch: 1570617012000
+      pooownerunit: LASBR
+      fireyear: 2019
+      localincidentidentifier: '000001'
+      incidenttypecategory: WF
+      owneragency: USFWS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 400
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-10-08T20:00Z'
+      ModifiedOnDateTimeEpoch: 1570564800000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-LASBR-000001
+      FireDiscoveryDateTime: '2019-10-07T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1570478400000
+      Fire_Name: SAC A LAIT
+      Name: SAC A LAIT
+      Source: GEOMAC
+      Hashtag: '#SacALaitFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-09T16:31:47.289Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-LASBR-000001
+    Lon: -93.54861332719327
+    Lat: 29.937230822840725
+    id: 136192
+    Name: SAC A LAIT
+    Fire_Name: SAC A LAIT
+    UniqueFireIdentifier: 2019-LASBR-000001
+    DailyAcres: 400
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-10-08T20:00Z'
+    ICS209ReportDateTimeEpoch: 1570564800000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 15000
+    FireCause: Natural
+    TotalIncidentPersonnel: 11
+    FireDiscoveryDateTime: '2019-10-07T20:00Z'
+    FireDiscoveryDateTimeEpoch: 1570478400000
+    DispatchCenterID: LALIC
+    LocalIncidentIdentifier: '000001'
+    POOCounty: Cameron
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-10-08T20:00Z'
+    ModifiedOnDateTimeEpoch: 1570564800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-LASBR-000001
+    ModifiedOnDateTime_Raw: '2019-10-09T16:28Z'
+    ModifiedOnDateTimeEpoch_Raw: 1570638523000
+    Hashtag: '#SacALaitFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: LASBR
+    unitMention: Sabine NWR
+    Final_Fire_Name: Sac A Lait Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-08T20:00Z-PER-none-ID-2019-LASBR-000001-NAME-SACALAIT-S-N'
+      Code: bfde08f9c27d564958a8ca90eacdc06456feb0ea6f4292b6de7294b3f3273307
