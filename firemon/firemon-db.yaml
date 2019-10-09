@@ -71064,13 +71064,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1570578292000
     Hashtag: '#DeckerFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-10-07T21:47Z'
+    PerimDateTime: '2019-10-08T10:09Z'
     PerimeterData:
-      DateTime: '2019-10-07T21:47Z'
-      Acres: 6481.70312522
+      DateTime: '2019-10-08T10:09Z'
+      Acres: 6485.67928139
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-09T00:01:30.315Z'
+          RetrievedOn: '2019-10-09T17:10:19.299Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -71091,8 +71091,8 @@ Database:
     Final_Fire_Name: Decker Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-08T19:30Z-PER-2019-10-07T21:47Z-ID-2019-CORGF-001388-NAME-Decker-S-N
-      Code: 1756ad08e48584de1aa3726674e84cf18395395479b07755827b84148b941dbd
+        UPD-2019-10-08T19:30Z-PER-2019-10-08T10:09Z-ID-2019-CORGF-001388-NAME-Decker-S-N
+      Code: 87eb0f1731a9756216e50f7ef828be43f122a56fdc6615562282386442f4ba95
   2019-AZCOF-001199:
     Source_NFSA_Join:
       Lon: -111.83991151307245
@@ -82976,167 +82976,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-02T23:03Z-PER-none-ID-CALFIRE-05b9432b-a5cf-4a8f-bf0e-9b95a04bbdde-NAME-FrameFire-S-C
       Code: 4d5704ac26f293f859fff8039062e34c4a7d2dcfc3e07cbfa43d7ce60821ac34
-  2019-NMCAF-000532:
-    Source_NFSA_Join:
-      Lon: -106.25000991034611
-      Lat: 36.50000353368022
-      id: 135537
-      Name: Maton
-      Fire_Name: Maton
-      UniqueFireIdentifier: 2019-NMCAF-000532
-      DailyAcres: 105
-      PercentContained: 75
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-10-04T22:45Z'
-      ICS209ReportDateTimeEpoch: 1570229100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 130000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 52
-      FireDiscoveryDateTime: '2019-10-01T19:19Z'
-      FireDiscoveryDateTimeEpoch: 1569957540000
-      DispatchCenterID: NMTDC
-      LocalIncidentIdentifier: '000532'
-      POOCounty: Rio Arriba
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-04T22:45Z'
-      ModifiedOnDateTimeEpoch: 1570229100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-NMCAF-000532
-      ModifiedOnDateTime_Raw: '2019-10-05T00:01Z'
-      ModifiedOnDateTimeEpoch_Raw: 1570233677000
-      Hashtag: '#MatonFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-05T00:31:18.020Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -106.24667675160576
-      Lat: 36.44778366999534
-      objectid: 14
-      latitude: 36.4477778
-      longitude: -106.2466667
-      acres: 105
-      gacc: SWCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: NM
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-04T22:45Z'
-      reportdatetimeEpoch: 1570229100000
-      percentcontained: 75
-      uniquefireidentifier: 2019-NMCAF-000532
-      firediscoverydatetime: '2019-10-01T19:19Z'
-      firediscoverydatetimeEpoch: 1569957540000
-      complexparentirwinid: null
-      pooresponsibleunit: NMCAF
-      incidentname: Maton
-      iscomplex: 'false'
-      irwinid: '{11C60982-65B0-4AB6-8981-3185DBE19785}'
-      irwinmodifiedon: '2019-10-05T00:01Z'
-      irwinmodifiedonEpoch: 1570233677000
-      mapsymbol: '1'
-      datecurrent: '2019-10-04T18:30Z'
-      datecurrentEpoch: 1570213812000
-      pooownerunit: NMCAF
-      fireyear: 2019
-      localincidentidentifier: '000532'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 105
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-04T22:45Z'
-      ModifiedOnDateTimeEpoch: 1570229100000
-      PercentContained: 75
-      UniqueFireIdentifier: 2019-NMCAF-000532
-      FireDiscoveryDateTime: '2019-10-01T19:19Z'
-      FireDiscoveryDateTimeEpoch: 1569957540000
-      Fire_Name: Maton
-      Name: Maton
-      Source: GEOMAC
-      Hashtag: '#MatonFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-05T00:31:18.021Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-NMCAF-000532
-    Lon: -106.25000991034611
-    Lat: 36.50000353368022
-    id: 135537
-    Name: Maton
-    Fire_Name: Maton
-    UniqueFireIdentifier: 2019-NMCAF-000532
-    DailyAcres: 105
-    PercentContained: 75
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-10-04T22:45Z'
-    ICS209ReportDateTimeEpoch: 1570229100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 130000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 52
-    FireDiscoveryDateTime: '2019-10-01T19:19Z'
-    FireDiscoveryDateTimeEpoch: 1569957540000
-    DispatchCenterID: NMTDC
-    LocalIncidentIdentifier: '000532'
-    POOCounty: Rio Arriba
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-04T22:45Z'
-    ModifiedOnDateTimeEpoch: 1570229100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-NMCAF-000532
-    ModifiedOnDateTime_Raw: '2019-10-05T00:01Z'
-    ModifiedOnDateTimeEpoch_Raw: 1570233677000
-    Hashtag: '#MatonFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: NMCAF
-    unitMention: Carson NF
-    Final_Fire_Name: Maton Fire
-    _Update:
-      UpdateId: 'UPD-2019-10-04T22:45Z-PER-none-ID-2019-NMCAF-000532-NAME-Maton-S-N'
-      Code: a114abdf58ee4fd3a533a8eb5ea8a15e3f637e5dc274a9a3f7c3d1da6876cd3a
   2019-TXTXS-190454:
     Source_NFSA_Join:
       Lon: -95.17196786027849
@@ -83692,13 +83531,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1570574932000
     Hashtag: '#MiddleMammFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-10-07T15:14Z'
+    PerimDateTime: '2019-10-08T21:47Z'
     PerimeterData:
-      DateTime: '2019-10-07T15:14Z'
-      Acres: 960.45053573
+      DateTime: '2019-10-08T21:47Z'
+      Acres: 977.43140181
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-08T23:00:58.647Z'
+          RetrievedOn: '2019-10-09T17:10:19.299Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -83719,8 +83558,8 @@ Database:
     Final_Fire_Name: Middle Mamm Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-08T22:30Z-PER-2019-10-07T15:14Z-ID-2019-COWRF-000161-NAME-MiddleMamm-S-N
-      Code: ebf8bf2b67fb6a5c23d9b696c618ec13b491a45743dd5283ee30f1c79d4da83d
+        UPD-2019-10-08T22:30Z-PER-2019-10-08T21:47Z-ID-2019-COWRF-000161-NAME-MiddleMamm-S-N
+      Code: b01145da498aa5f02ceb17c7e39e507afa84d9b9630d60d2a314dd3005d36ef0
   2019-IDNCF-000548:
     Source_NFSA_Join:
       Lon: -114.73101349087136
@@ -86070,17 +85909,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1570491979000
     Hashtag: '#SkullFlat2Fire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-10-05T00:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-05T00:00Z'
+      Acres: 0.75119304
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-09T17:10:22.324Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: UTFIF
     unitMention: Fishlake NF
     Final_Fire_Name: Skull Flat 2 Fire
     _Update:
-      UpdateId: 'UPD-2019-10-07T23:30Z-PER-none-ID-2019-UTFIF-190477-NAME-SkullFlat2-S-N'
-      Code: ff22e699e52ebe7730cb52a453468e082bbacf83625c69748484b21f4fb6bd7c
+      UpdateId: >-
+        UPD-2019-10-07T23:30Z-PER-2019-10-05T00:00Z-ID-2019-UTFIF-190477-NAME-SkullFlat2-S-N
+      Code: da77953dfded5eb684c86594141415856c9956c2981f28249c9929290b9af38f
   2019-TXTXS-190477:
     Source_NFSA_Join:
       Lon: -100.57170510050958
@@ -86817,13 +86674,13 @@ Database:
     _CorrelationIds:
       - 2019-CAMMU-021257
       - CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
-    PerimDateTime: '2019-10-08T06:00Z'
+    PerimDateTime: '2019-10-09T06:00Z'
     PerimeterData:
-      DateTime: '2019-10-08T06:00Z'
-      Acres: 1055.97393358
+      DateTime: '2019-10-09T06:00Z'
+      Acres: 3476.89601203
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-09T14:11:44.002Z'
+          RetrievedOn: '2019-10-09T17:10:19.299Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -86844,8 +86701,8 @@ Database:
     Final_Fire_Name: Briceburg Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-09T14:10Z-PER-2019-10-08T06:00Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
-      Code: 21641443c6183821771b665ae3fc30bf52fbad43b9a2c5348dc6d06b054aa008
+        UPD-2019-10-09T14:10Z-PER-2019-10-09T06:00Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
+      Code: 992f87909aedde05bc1bb5f64bcbb0c404d4467758dadbb417615a4284af4f38
   CALFIRE-18fe1e24-799d-4aa9-a7ec-fa8e331ae3e9:
     Source_CALFIRE:
       Lon: -122.1604
