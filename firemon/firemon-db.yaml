@@ -87718,13 +87718,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1570881921000
     Hashtag: '#CaplesFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-10-10T00:00Z'
+    PerimDateTime: '2019-10-11T21:19Z'
     PerimeterData:
-      DateTime: '2019-10-10T00:00Z'
-      Acres: 1982.14275222
+      DateTime: '2019-10-11T21:19Z'
+      Acres: 2664.03116073
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-12T12:31:45.448Z'
+          RetrievedOn: '2019-10-12T15:20:02.653Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -87745,8 +87745,8 @@ Database:
     Final_Fire_Name: Caples Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-12T12:00Z-PER-2019-10-10T00:00Z-ID-2019-CAENF-030945-NAME-CAPLES-S-N
-      Code: 1e935602658745126c9f6c160fa943919c350e2b5daff86772c7460b91743c7c
+        UPD-2019-10-12T12:00Z-PER-2019-10-11T21:19Z-ID-2019-CAENF-030945-NAME-CAPLES-S-N
+      Code: 983e3f13656c66f44ecafb85693cec21ed8570430afb387b59473b25f56dfdb0
   2019-CALFD-001582:
     Source_NFSA_Join:
       Lon: -118.79612371348607
@@ -87897,17 +87897,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1570885151000
     Hashtag: '#SaddleRidgeFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-10-12T04:51Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-12T04:51Z'
+      Acres: 7551.60982295
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-12T15:20:02.653Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: CALFD
     unitMention: '@LAFD'
     Final_Fire_Name: Saddle Ridge Fire
     _Update:
-      UpdateId: 'UPD-2019-10-12T12:30Z-PER-none-ID-2019-CALFD-001582-NAME-SADDLERIDGE-S-N'
-      Code: 8124b350fe4d1dfc6241424b8dd59a7385bceb31f2a150188ac084ae11c4b943
+      UpdateId: >-
+        UPD-2019-10-12T12:30Z-PER-2019-10-12T04:51Z-ID-2019-CALFD-001582-NAME-SADDLERIDGE-S-N
+      Code: 0b3637ef469ae04789448c3d726bd8876f3cd5254ac2ce013e3ef1e4f40b1a14
   CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411:
     Source_CALFIRE:
       Lon: -119.96606
@@ -88118,13 +88136,13 @@ Database:
     _CorrelationIds:
       - 2019-CAMMU-021257
       - CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
-    PerimDateTime: '2019-10-10T23:57Z'
+    PerimDateTime: '2019-10-11T22:50Z'
     PerimeterData:
-      DateTime: '2019-10-10T23:57Z'
-      Acres: 5556.22787647
+      DateTime: '2019-10-11T22:50Z'
+      Acres: 5561.50177635
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-12T13:55:50.356Z'
+          RetrievedOn: '2019-10-12T15:20:02.653Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -88145,8 +88163,8 @@ Database:
     Final_Fire_Name: Briceburg Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-12T13:54Z-PER-2019-10-10T23:57Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
-      Code: ea1d6ffcc0b69d0c74b8498398859982a035785add36e5ce80a043c24993e0f2
+        UPD-2019-10-12T13:54Z-PER-2019-10-11T22:50Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
+      Code: 55d71b64fc1f418515fced37d2cc20d1cf390dd3c0e2116b2499148ee3ec53d8
   CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33:
     Source_CALFIRE:
       Lon: -117.059167
