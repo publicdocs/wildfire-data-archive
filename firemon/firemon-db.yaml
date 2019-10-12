@@ -87908,222 +87908,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-12T12:30Z-PER-none-ID-2019-CALFD-001582-NAME-SADDLERIDGE-S-N'
       Code: 8124b350fe4d1dfc6241424b8dd59a7385bceb31f2a150188ac084ae11c4b943
-  2019-CARRU-130233:
-    Source_CALFIRE:
-      Lon: -117.059167
-      Lat: 33.9925
-      incident_name: Sandalwood Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-12T01:41Z'
-      incident_date_last_updateEpoch: 1570844511000
-      incident_date_created: '2019-10-10T22:38Z'
-      incident_date_createdEpoch: 1570747124000
-      incident_administrative_unit: >-
-        CAL FIRE/Riverside County Fire Department, Calimesa and Redlands Fire
-        Departments
-      incident_administrative_unit_url: ''
-      incident_county: Riverside
-      incident_location: Calimesa Boulevard and Sandalwood Drive
-      incident_acres_burned: 823
-      incident_containment: 10
-      incident_control: ''
-      incident_cooperating_agencies: >-
-        CAL FIRE/Riverside County Fire Department, Redlands City Fire , Calimesa
-        Fire Department
-      incident_longitude: -117.059167
-      incident_latitude: 33.9925
-      incident_type: Wildfire
-      incident_id: 7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/sandalwood-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-10'
-      is_active: 'Y'
-      Fire_Name: Sandalwood Fire
-      ModifiedOnDateTime: '2019-10-12T01:41Z'
-      ModifiedOnDateTimeEpoch: 1570844511000
-      DailyAcres: 823
-      PercentContained: 10
-      UniqueFireIdentifier: CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
-      Name: Sandalwood Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#SandalwoodFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-12T13:01:54.855Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
-    Source_NFSA_Join:
-      Lon: -117.05922212848812
-      Lat: 33.992462731331486
-      id: 136469
-      Name: SANDALWOOD
-      Fire_Name: SANDALWOOD
-      UniqueFireIdentifier: 2019-CARRU-130233
-      DailyAcres: 823
-      PercentContained: 25
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-10-12T12:30Z'
-      ICS209ReportDateTimeEpoch: 1570883400000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1100000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 487
-      FireDiscoveryDateTime: '2019-10-10T21:00Z'
-      FireDiscoveryDateTimeEpoch: 1570741204000
-      DispatchCenterID: CARRCC
-      LocalIncidentIdentifier: '130233'
-      POOCounty: Riverside
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-12T12:30Z'
-      ModifiedOnDateTimeEpoch: 1570883400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CARRU-130233
-      ModifiedOnDateTime_Raw: '2019-10-12T12:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1570884981000
-      Hashtag: '#SandalwoodFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-12T13:01:54.853Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -117.05922198035819
-      Lat: 33.9924649159179
-      objectid: 16
-      latitude: 33.99246
-      longitude: -117.05921
-      acres: 823
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-12T12:30Z'
-      reportdatetimeEpoch: 1570883400000
-      percentcontained: 25
-      uniquefireidentifier: 2019-CARRU-130233
-      firediscoverydatetime: '2019-10-10T21:00Z'
-      firediscoverydatetimeEpoch: 1570741204000
-      complexparentirwinid: null
-      pooresponsibleunit: CARRU
-      incidentname: SANDALWOOD
-      iscomplex: 'false'
-      irwinid: '{2ABFE1D2-64B3-44FE-BF31-B85CD7BD49A7}'
-      irwinmodifiedon: '2019-10-12T12:56Z'
-      irwinmodifiedonEpoch: 1570884982000
-      mapsymbol: '1'
-      datecurrent: '2019-10-12T07:00Z'
-      datecurrentEpoch: 1570863613000
-      pooownerunit: CARRU
-      fireyear: 2019
-      localincidentidentifier: '130233'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 823
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-12T12:30Z'
-      ModifiedOnDateTimeEpoch: 1570883400000
-      PercentContained: 25
-      UniqueFireIdentifier: 2019-CARRU-130233
-      FireDiscoveryDateTime: '2019-10-10T21:00Z'
-      FireDiscoveryDateTimeEpoch: 1570741204000
-      Fire_Name: SANDALWOOD
-      Name: SANDALWOOD
-      Source: GEOMAC
-      Hashtag: '#SandalwoodFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-12T13:01:54.854Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CARRU-130233
-    Lon: -117.05922212848812
-    Lat: 33.992462731331486
-    id: 136469
-    Name: SANDALWOOD
-    Fire_Name: SANDALWOOD
-    UniqueFireIdentifier: 2019-CARRU-130233
-    DailyAcres: 823
-    PercentContained: 25
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-10-12T12:30Z'
-    ICS209ReportDateTimeEpoch: 1570883400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1100000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 487
-    FireDiscoveryDateTime: '2019-10-10T21:00Z'
-    FireDiscoveryDateTimeEpoch: 1570741204000
-    DispatchCenterID: CARRCC
-    LocalIncidentIdentifier: '130233'
-    POOCounty: Riverside
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-12T12:30Z'
-    ModifiedOnDateTimeEpoch: 1570883400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CARRU-130233
-      - CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
-    ModifiedOnDateTime_Raw: '2019-10-12T12:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1570884981000
-    Hashtag: '#SandalwoodFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CARRU
-    unitMention: '@CALFIRERRU'
-    Final_Fire_Name: Sandalwood Fire
-    _Update:
-      UpdateId: 'UPD-2019-10-12T12:30Z-PER-none-ID-2019-CARRU-130233-NAME-SANDALWOOD-S-N'
-      Code: f508ef86376e085935ada55853373f4e25c2c2847363d3ef19e167cd3e17b364
   2019-CARRU-130198:
     Source_CALFIRE:
       Lon: -117.207068
@@ -88342,8 +88126,8 @@ Database:
       Lat: 37.604638
       incident_name: Briceburg Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-12T13:45Z'
-      incident_date_last_updateEpoch: 1570887923000
+      incident_date_last_update: '2019-10-12T13:54Z'
+      incident_date_last_updateEpoch: 1570888488000
       incident_date_created: '2019-10-06T23:15Z'
       incident_date_createdEpoch: 1570403712000
       incident_administrative_unit: CAL FIRE Madera Mariposa Merced Unit
@@ -88367,8 +88151,8 @@ Database:
       incident_dateonly_created: '2019-10-06'
       is_active: 'Y'
       Fire_Name: Briceburg Fire
-      ModifiedOnDateTime: '2019-10-12T13:45Z'
-      ModifiedOnDateTimeEpoch: 1570887923000
+      ModifiedOnDateTime: '2019-10-12T13:54Z'
+      ModifiedOnDateTimeEpoch: 1570888488000
       DailyAcres: 5190
       PercentContained: 49
       UniqueFireIdentifier: CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
@@ -88380,7 +88164,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-12T13:45:27.254Z'
+          RetrievedOn: '2019-10-12T13:55:44.558Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -88429,7 +88213,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-12T13:45:27.252Z'
+          RetrievedOn: '2019-10-12T13:55:44.557Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -88486,7 +88270,7 @@ Database:
       Hashtag: '#BriceburgFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-12T13:45:27.253Z'
+          RetrievedOn: '2019-10-12T13:55:44.557Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -88507,8 +88291,8 @@ Database:
     Lat: 37.604638
     incident_name: Briceburg Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-12T13:45Z'
-    incident_date_last_updateEpoch: 1570887923000
+    incident_date_last_update: '2019-10-12T13:54Z'
+    incident_date_last_updateEpoch: 1570888488000
     incident_date_created: '2019-10-06T23:15Z'
     incident_date_createdEpoch: 1570403712000
     incident_administrative_unit: CAL FIRE Madera Mariposa Merced Unit
@@ -88532,8 +88316,8 @@ Database:
     incident_dateonly_created: '2019-10-06'
     is_active: 'Y'
     Fire_Name: Briceburg Fire
-    ModifiedOnDateTime: '2019-10-12T13:45Z'
-    ModifiedOnDateTimeEpoch: 1570887923000
+    ModifiedOnDateTime: '2019-10-12T13:54Z'
+    ModifiedOnDateTimeEpoch: 1570888488000
     DailyAcres: 5190
     PercentContained: 49
     UniqueFireIdentifier: CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
@@ -88552,7 +88336,7 @@ Database:
       Acres: 5556.22787647
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-12T13:45:33.403Z'
+          RetrievedOn: '2019-10-12T13:55:50.356Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -88573,5 +88357,229 @@ Database:
     Final_Fire_Name: Briceburg Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-12T13:45Z-PER-2019-10-10T23:57Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
-      Code: ea23a84b38af65990c661cf94f106f412aa558ef0f9a28708cb11e59bf09e3a1
+        UPD-2019-10-12T13:54Z-PER-2019-10-10T23:57Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
+      Code: ea1d6ffcc0b69d0c74b8498398859982a035785add36e5ce80a043c24993e0f2
+  CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33:
+    Source_CALFIRE:
+      Lon: -117.059167
+      Lat: 33.9925
+      incident_name: Sandalwood Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-12T13:55Z'
+      incident_date_last_updateEpoch: 1570888513000
+      incident_date_created: '2019-10-10T22:38Z'
+      incident_date_createdEpoch: 1570747124000
+      incident_administrative_unit: >-
+        CAL FIRE/Riverside County Fire Department, Calimesa and Redlands Fire
+        Departments
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: Calimesa Boulevard and Sandalwood Drive
+      incident_acres_burned: 823
+      incident_containment: 25
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        CAL FIRE/Riverside County Fire Department, Redlands City Fire , Calimesa
+        Fire Department
+      incident_longitude: -117.059167
+      incident_latitude: 33.9925
+      incident_type: Wildfire
+      incident_id: 7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/sandalwood-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-10'
+      is_active: 'Y'
+      Fire_Name: Sandalwood Fire
+      ModifiedOnDateTime: '2019-10-12T13:55Z'
+      ModifiedOnDateTimeEpoch: 1570888513000
+      DailyAcres: 823
+      PercentContained: 25
+      UniqueFireIdentifier: CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+      Name: Sandalwood Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#SandalwoodFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-12T13:55:44.558Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+    Source_NFSA_Join:
+      Lon: -117.05922212848812
+      Lat: 33.992462731331486
+      id: 136469
+      Name: SANDALWOOD
+      Fire_Name: SANDALWOOD
+      UniqueFireIdentifier: 2019-CARRU-130233
+      DailyAcres: 823
+      PercentContained: 25
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-10-12T12:30Z'
+      ICS209ReportDateTimeEpoch: 1570883400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1100000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 487
+      FireDiscoveryDateTime: '2019-10-10T21:00Z'
+      FireDiscoveryDateTimeEpoch: 1570741204000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '130233'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-12T12:30Z'
+      ModifiedOnDateTimeEpoch: 1570883400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CARRU-130233
+      ModifiedOnDateTime_Raw: '2019-10-12T12:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570884981000
+      Hashtag: '#SandalwoodFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-12T13:55:44.557Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -117.05922198035819
+      Lat: 33.9924649159179
+      objectid: 16
+      latitude: 33.99246
+      longitude: -117.05921
+      acres: 823
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-12T12:30Z'
+      reportdatetimeEpoch: 1570883400000
+      percentcontained: 25
+      uniquefireidentifier: 2019-CARRU-130233
+      firediscoverydatetime: '2019-10-10T21:00Z'
+      firediscoverydatetimeEpoch: 1570741204000
+      complexparentirwinid: null
+      pooresponsibleunit: CARRU
+      incidentname: SANDALWOOD
+      iscomplex: 'false'
+      irwinid: '{2ABFE1D2-64B3-44FE-BF31-B85CD7BD49A7}'
+      irwinmodifiedon: '2019-10-12T12:56Z'
+      irwinmodifiedonEpoch: 1570884982000
+      mapsymbol: '1'
+      datecurrent: '2019-10-12T07:30Z'
+      datecurrentEpoch: 1570865419000
+      pooownerunit: CARRU
+      fireyear: 2019
+      localincidentidentifier: '130233'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 823
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-12T12:30Z'
+      ModifiedOnDateTimeEpoch: 1570883400000
+      PercentContained: 25
+      UniqueFireIdentifier: 2019-CARRU-130233
+      FireDiscoveryDateTime: '2019-10-10T21:00Z'
+      FireDiscoveryDateTimeEpoch: 1570741204000
+      Fire_Name: SANDALWOOD
+      Name: SANDALWOOD
+      Source: GEOMAC
+      Hashtag: '#SandalwoodFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-12T13:55:44.557Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CARRU-130233
+    Lon: -117.059167
+    Lat: 33.9925
+    incident_name: Sandalwood Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-10-12T13:55Z'
+    incident_date_last_updateEpoch: 1570888513000
+    incident_date_created: '2019-10-10T22:38Z'
+    incident_date_createdEpoch: 1570747124000
+    incident_administrative_unit: >-
+      CAL FIRE/Riverside County Fire Department, Calimesa and Redlands Fire
+      Departments
+    incident_administrative_unit_url: ''
+    incident_county: Riverside
+    incident_location: Calimesa Boulevard and Sandalwood Drive
+    incident_acres_burned: 823
+    incident_containment: 25
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      CAL FIRE/Riverside County Fire Department, Redlands City Fire , Calimesa
+      Fire Department
+    incident_longitude: -117.059167
+    incident_latitude: 33.9925
+    incident_type: Wildfire
+    incident_id: 7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/sandalwood-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-10'
+    is_active: 'Y'
+    Fire_Name: Sandalwood Fire
+    ModifiedOnDateTime: '2019-10-12T13:55Z'
+    ModifiedOnDateTimeEpoch: 1570888513000
+    DailyAcres: 823
+    PercentContained: 25
+    UniqueFireIdentifier: CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+    Name: Sandalwood Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SandalwoodFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+    _CorrelationIds:
+      - 2019-CARRU-130233
+      - CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 7ff84b11
+    unitMention: null
+    Final_Fire_Name: Sandalwood Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-10-12T13:55Z-PER-none-ID-CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33-NAME-SandalwoodFire-S-C
+      Code: 1e0c38cfd799c339241e103689b7f1eaef53a7f67289530d81bae5d217d57625
