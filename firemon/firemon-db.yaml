@@ -87928,152 +87928,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-13T12:30Z-PER-2019-10-12T04:51Z-ID-2019-CALFD-001582-NAME-SADDLERIDGE-S-N
       Code: 675ed8926e9bcd47ea2f7fd4d3c930f52f861a38df6026ecf68e39884302cda1
-  2019-CARRU-130198:
-    Source_CALFIRE:
-      Lon: -117.207068
-      Lat: 33.975405
-      incident_name: Reche Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-12T23:57Z'
-      incident_date_last_updateEpoch: 1570924678000
-      incident_date_created: '2019-10-10T21:18Z'
-      incident_date_createdEpoch: 1570742297000
-      incident_administrative_unit: CAL FIRE / Riverside County Fire
-      incident_administrative_unit_url: ''
-      incident_county: Riverside
-      incident_location: 'Reche Canyon Rd and Jordan Dr, Moreno Valley'
-      incident_acres_burned: 350
-      incident_containment: 97
-      incident_control: ''
-      incident_cooperating_agencies: CAL FIRE / Riverside County Fire
-      incident_longitude: -117.207068
-      incident_latitude: 33.975405
-      incident_type: Wildfire
-      incident_id: 8739a46c-9d9b-464c-87d0-31738601d96f
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/reche-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-10'
-      is_active: 'Y'
-      Fire_Name: Reche Fire
-      ModifiedOnDateTime: '2019-10-12T23:57Z'
-      ModifiedOnDateTimeEpoch: 1570924678000
-      DailyAcres: 350
-      PercentContained: 97
-      UniqueFireIdentifier: CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f
-      Name: Reche Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#RecheFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=8739a46c-9d9b-464c-87d0-31738601d96f
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-13T01:31:10.008Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f
-    Source_NFSA_Join:
-      Lon: -117.21795443919204
-      Lat: 33.98482070690493
-      id: 136458
-      Name: RECHE
-      Fire_Name: RECHE
-      UniqueFireIdentifier: 2019-CARRU-130198
-      DailyAcres: 350
-      PercentContained: 97
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-10-13T01:15Z'
-      ICS209ReportDateTimeEpoch: 1570929300000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 350000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 30
-      FireDiscoveryDateTime: '2019-10-10T19:56Z'
-      FireDiscoveryDateTimeEpoch: 1570737415000
-      DispatchCenterID: CARRCC
-      LocalIncidentIdentifier: '130198'
-      POOCounty: Riverside
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-13T01:15Z'
-      ModifiedOnDateTimeEpoch: 1570929300000
-      ModifiedBySystem: cfcad
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CARRU-130198
-      ModifiedOnDateTime_Raw: '2019-10-13T01:22Z'
-      ModifiedOnDateTimeEpoch_Raw: 1570929732000
-      Hashtag: '#RecheFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-13T01:31:10.006Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-    Lon: -117.21795443919204
-    Lat: 33.98482070690493
-    id: 136458
-    Name: RECHE
-    Fire_Name: RECHE
-    UniqueFireIdentifier: 2019-CARRU-130198
-    DailyAcres: 350
-    PercentContained: 97
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-10-13T01:15Z'
-    ICS209ReportDateTimeEpoch: 1570929300000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 350000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 30
-    FireDiscoveryDateTime: '2019-10-10T19:56Z'
-    FireDiscoveryDateTimeEpoch: 1570737415000
-    DispatchCenterID: CARRCC
-    LocalIncidentIdentifier: '130198'
-    POOCounty: Riverside
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-13T01:15Z'
-    ModifiedOnDateTimeEpoch: 1570929300000
-    ModifiedBySystem: cfcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CARRU-130198
-      - CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f
-    ModifiedOnDateTime_Raw: '2019-10-13T01:22Z'
-    ModifiedOnDateTimeEpoch_Raw: 1570929732000
-    Hashtag: '#RecheFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CARRU
-    unitMention: '@CALFIRERRU'
-    Final_Fire_Name: Reche Fire
-    _Update:
-      UpdateId: 'UPD-2019-10-13T01:15Z-PER-none-ID-2019-CARRU-130198-NAME-RECHE-S-N'
-      Code: ba41af85c0496b7644252a1f6f698dbbb734c531ed3cc9e0eb5ee54fcbe970cb
   2019-CARRU-130233:
     Source_CALFIRE:
       Lon: -117.059167
@@ -88529,3 +88383,153 @@ Database:
       UpdateId: >-
         UPD-2019-10-13T13:59Z-PER-2019-10-11T22:50Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
       Code: 8212fdfbd2ea502016a4333ddf1d086ef757f2ffe8ed3b1b2b39513187d5328c
+  CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f:
+    Source_CALFIRE:
+      Lon: -117.207068
+      Lat: 33.975405
+      incident_name: Reche Fire
+      incident_is_final: 'True'
+      incident_date_last_update: '2019-10-13T14:22Z'
+      incident_date_last_updateEpoch: 1570976549000
+      incident_date_created: '2019-10-10T21:18Z'
+      incident_date_createdEpoch: 1570742297000
+      incident_administrative_unit: CAL FIRE / Riverside County Fire
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: 'Reche Canyon Rd and Jordan Dr, Moreno Valley'
+      incident_acres_burned: 350
+      incident_containment: 100
+      incident_control: ''
+      incident_cooperating_agencies: CAL FIRE / Riverside County Fire
+      incident_longitude: -117.207068
+      incident_latitude: 33.975405
+      incident_type: Wildfire
+      incident_id: 8739a46c-9d9b-464c-87d0-31738601d96f
+      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/10/reche-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-10'
+      is_active: 'Y'
+      Fire_Name: Reche Fire
+      ModifiedOnDateTime: '2019-10-13T14:22Z'
+      ModifiedOnDateTimeEpoch: 1570976549000
+      DailyAcres: 350
+      PercentContained: 100
+      UniqueFireIdentifier: CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f
+      Name: Reche Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#RecheFire'
+      Link: >-
+        https://www.fire.ca.gov/incident/?incident=8739a46c-9d9b-464c-87d0-31738601d96f
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-13T14:23:31.729Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f
+    Source_NFSA_Join:
+      Lon: -117.21795443919204
+      Lat: 33.98482070690493
+      id: 136458
+      Name: RECHE
+      Fire_Name: RECHE
+      UniqueFireIdentifier: 2019-CARRU-130198
+      DailyAcres: 350
+      PercentContained: 97
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-10-13T01:15Z'
+      ICS209ReportDateTimeEpoch: 1570929300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 350000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 30
+      FireDiscoveryDateTime: '2019-10-10T19:56Z'
+      FireDiscoveryDateTimeEpoch: 1570737415000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '130198'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-13T01:15Z'
+      ModifiedOnDateTimeEpoch: 1570929300000
+      ModifiedBySystem: cfcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CARRU-130198
+      ModifiedOnDateTime_Raw: '2019-10-13T01:22Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570929732000
+      Hashtag: '#RecheFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-13T01:31:10.006Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -117.207068
+    Lat: 33.975405
+    incident_name: Reche Fire
+    incident_is_final: 'True'
+    incident_date_last_update: '2019-10-13T14:22Z'
+    incident_date_last_updateEpoch: 1570976549000
+    incident_date_created: '2019-10-10T21:18Z'
+    incident_date_createdEpoch: 1570742297000
+    incident_administrative_unit: CAL FIRE / Riverside County Fire
+    incident_administrative_unit_url: ''
+    incident_county: Riverside
+    incident_location: 'Reche Canyon Rd and Jordan Dr, Moreno Valley'
+    incident_acres_burned: 350
+    incident_containment: 100
+    incident_control: ''
+    incident_cooperating_agencies: CAL FIRE / Riverside County Fire
+    incident_longitude: -117.207068
+    incident_latitude: 33.975405
+    incident_type: Wildfire
+    incident_id: 8739a46c-9d9b-464c-87d0-31738601d96f
+    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/10/reche-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-10'
+    is_active: 'Y'
+    Fire_Name: Reche Fire
+    ModifiedOnDateTime: '2019-10-13T14:22Z'
+    ModifiedOnDateTimeEpoch: 1570976549000
+    DailyAcres: 350
+    PercentContained: 100
+    UniqueFireIdentifier: CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f
+    Name: Reche Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#RecheFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=8739a46c-9d9b-464c-87d0-31738601d96f
+    _CorrelationIds:
+      - 2019-CARRU-130198
+      - CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 8739a46c
+    unitMention: null
+    Final_Fire_Name: Reche Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-10-13T14:22Z-PER-none-ID-CALFIRE-8739a46c-9d9b-464c-87d0-31738601d96f-NAME-RecheFire-S-C
+      Code: 5ed7388adc5655ecdf853bd9c55bef10102cc49393109a5f7885c4bceb0ff0d8
