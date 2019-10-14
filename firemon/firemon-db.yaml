@@ -88675,3 +88675,116 @@ Database:
       UpdateId: >-
         UPD-2019-10-14T22:33Z-PER-none-ID-CALFIRE-8bf75401-999f-42bd-8c0a-8db508591545-NAME-JohnsonFire-S-C
       Code: 23eea8959c59903c2c6ed05639f6df02794d497d5ffb67b46e216e53f98f67e3
+  2019-UTFIF-190477:
+    Source_NFSA_Join:
+      Lon: -112.50071223607077
+      Lat: 38.29908446179833
+      id: 135696
+      Name: Skull Flat 2
+      Fire_Name: Skull Flat 2
+      UniqueFireIdentifier: 2019-UTFIF-190477
+      DailyAcres: 390
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-10-14T23:15Z'
+      ICS209ReportDateTimeEpoch: 1571094900000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3000
+      FireCause: Natural
+      TotalIncidentPersonnel: 5
+      FireDiscoveryDateTime: '2019-10-02T19:58Z'
+      FireDiscoveryDateTimeEpoch: 1570046280000
+      DispatchCenterID: UTRFC
+      LocalIncidentIdentifier: '190477'
+      POOCounty: Beaver
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-10-14T23:15Z'
+      ModifiedOnDateTimeEpoch: 1571094900000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-UTFIF-190477
+      ModifiedOnDateTime_Raw: '2019-10-14T23:24Z'
+      ModifiedOnDateTimeEpoch_Raw: 1571095498000
+      Hashtag: '#SkullFlat2Fire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-14T23:33:20.334Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Lon: -112.50071223607077
+    Lat: 38.29908446179833
+    id: 135696
+    Name: Skull Flat 2
+    Fire_Name: Skull Flat 2
+    UniqueFireIdentifier: 2019-UTFIF-190477
+    DailyAcres: 390
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-10-14T23:15Z'
+    ICS209ReportDateTimeEpoch: 1571094900000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3000
+    FireCause: Natural
+    TotalIncidentPersonnel: 5
+    FireDiscoveryDateTime: '2019-10-02T19:58Z'
+    FireDiscoveryDateTimeEpoch: 1570046280000
+    DispatchCenterID: UTRFC
+    LocalIncidentIdentifier: '190477'
+    POOCounty: Beaver
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-10-14T23:15Z'
+    ModifiedOnDateTimeEpoch: 1571094900000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-UTFIF-190477
+    ModifiedOnDateTime_Raw: '2019-10-14T23:24Z'
+    ModifiedOnDateTimeEpoch_Raw: 1571095498000
+    Hashtag: '#SkullFlat2Fire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-10-10T00:00Z'
+    PerimeterData:
+      DateTime: '2019-10-10T00:00Z'
+      Acres: 96.37468539
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-14T23:33:28.925Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: UTFIF
+    unitMention: Fishlake NF
+    Final_Fire_Name: Skull Flat 2 Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-10-14T23:15Z-PER-2019-10-10T00:00Z-ID-2019-UTFIF-190477-NAME-SkullFlat2-S-N
+      Code: ad137b3a217d687ec78d7f6ebc32cf2af473435a382b77262251b2f12b4524a6
