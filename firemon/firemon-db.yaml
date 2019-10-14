@@ -88347,14 +88347,14 @@ Database:
       UpdateId: >-
         UPD-2019-10-14T12:15Z-PER-2019-10-12T21:58Z-ID-2019-CAMMU-021257-NAME-BRICEBURG-S-N
       Code: 1b6ac16bc1af7448194f3cc9dddc2daa1489481b88656945fbe273eed0e76313
-  2019-CARRU-130233:
+  CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33:
     Source_CALFIRE:
       Lon: -117.059167
       Lat: 33.9925
       incident_name: Sandalwood Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-14T01:56Z'
-      incident_date_last_updateEpoch: 1571018176000
+      incident_date_last_update: '2019-10-14T13:37Z'
+      incident_date_last_updateEpoch: 1571060233000
       incident_date_created: '2019-10-10T22:38Z'
       incident_date_createdEpoch: 1570747124000
       incident_administrative_unit: >-
@@ -88364,7 +88364,7 @@ Database:
       incident_county: Riverside
       incident_location: Calimesa Boulevard and Sandalwood Drive
       incident_acres_burned: 1011
-      incident_containment: 86
+      incident_containment: 94
       incident_control: ''
       incident_cooperating_agencies: >-
         CAL FIRE/Riverside County Fire Department, City of Calimesa , City of
@@ -88373,16 +88373,16 @@ Database:
       incident_latitude: 33.9925
       incident_type: Wildfire
       incident_id: 7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
-      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/10/sandalwood-fire/'
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/sandalwood-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-10'
       is_active: 'Y'
       Fire_Name: Sandalwood Fire
-      ModifiedOnDateTime: '2019-10-14T01:56Z'
-      ModifiedOnDateTimeEpoch: 1571018176000
+      ModifiedOnDateTime: '2019-10-14T13:37Z'
+      ModifiedOnDateTimeEpoch: 1571060233000
       DailyAcres: 1011
-      PercentContained: 86
+      PercentContained: 94
       UniqueFireIdentifier: CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
       Name: Sandalwood Fire
       Source: CALFIRE
@@ -88392,7 +88392,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-14T13:02:10.454Z'
+          RetrievedOn: '2019-10-14T13:37:22.920Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -88441,7 +88441,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-14T13:02:10.452Z'
+          RetrievedOn: '2019-10-14T13:37:22.919Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -88449,51 +88449,59 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -117.05922212848812
-    Lat: 33.992462731331486
-    id: 136469
-    Name: SANDALWOOD
-    Fire_Name: SANDALWOOD
-    UniqueFireIdentifier: 2019-CARRU-130233
+    Lon: -117.059167
+    Lat: 33.9925
+    incident_name: Sandalwood Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-10-14T13:37Z'
+    incident_date_last_updateEpoch: 1571060233000
+    incident_date_created: '2019-10-10T22:38Z'
+    incident_date_createdEpoch: 1570747124000
+    incident_administrative_unit: >-
+      Unified Command: CAL FIRE/Riverside County Fire Department, City of
+      Calimesa and City of Yucaipa
+    incident_administrative_unit_url: ''
+    incident_county: Riverside
+    incident_location: Calimesa Boulevard and Sandalwood Drive
+    incident_acres_burned: 1011
+    incident_containment: 94
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      CAL FIRE/Riverside County Fire Department, City of Calimesa , City of
+      Yucaipa
+    incident_longitude: -117.059167
+    incident_latitude: 33.9925
+    incident_type: Wildfire
+    incident_id: 7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/sandalwood-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-10'
+    is_active: 'Y'
+    Fire_Name: Sandalwood Fire
+    ModifiedOnDateTime: '2019-10-14T13:37Z'
+    ModifiedOnDateTimeEpoch: 1571060233000
     DailyAcres: 1011
     PercentContained: 94
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-10-14T12:30Z'
-    ICS209ReportDateTimeEpoch: 1571056200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 3000000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 247
-    FireDiscoveryDateTime: '2019-10-10T21:00Z'
-    FireDiscoveryDateTimeEpoch: 1570741204000
-    DispatchCenterID: CARRCC
-    LocalIncidentIdentifier: '130233'
-    POOCounty: Riverside
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-14T12:30Z'
-    ModifiedOnDateTimeEpoch: 1571056200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
+    Name: Sandalwood Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SandalwoodFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
     _CorrelationIds:
       - 2019-CARRU-130233
       - CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33
-    ModifiedOnDateTime_Raw: '2019-10-14T12:41Z'
-    ModifiedOnDateTimeEpoch_Raw: 1571056891000
-    Hashtag: '#SandalwoodFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CARRU
-    unitMention: '@CALFIRERRU'
+    unitId: 7ff84b11
+    unitMention: null
     Final_Fire_Name: Sandalwood Fire
     _Update:
-      UpdateId: 'UPD-2019-10-14T12:30Z-PER-none-ID-2019-CARRU-130233-NAME-SANDALWOOD-S-N'
-      Code: dfe11d2cf634f5c723bda8a514cfd567ad99c3e3f7a354bf524ebe5fd75e3b4c
+      UpdateId: >-
+        UPD-2019-10-14T13:37Z-PER-none-ID-CALFIRE-7ff84b11-c3fb-4f5c-8a00-07243d4a4e33-NAME-SandalwoodFire-S-C
+      Code: 665e37bc770b0721919ceac3f701f6ef3d2f7ed13dee8c011330660b19866417
