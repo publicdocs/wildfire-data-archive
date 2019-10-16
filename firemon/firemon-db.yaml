@@ -88621,36 +88621,36 @@ Database:
       DailyAcres: 400
       PercentContained: 50
       FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-10-16T22:00Z'
+      ICS209ReportDateTimeEpoch: 1571263200000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 0
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 14
       FireDiscoveryDateTime: '2019-10-16T15:38Z'
       FireDiscoveryDateTimeEpoch: 1571240322000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190501'
       POOCounty: Throckmorton
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-16T21:56Z'
-      ModifiedOnDateTimeEpoch: 1571263002000
-      ModifiedBySystem: wires
+      ModifiedOnDateTime: '2019-10-16T22:00Z'
+      ModifiedOnDateTimeEpoch: 1571263200000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190501
-      ModifiedOnDateTime_Raw: '2019-10-16T21:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1571263002000
+      ModifiedOnDateTime_Raw: '2019-10-16T22:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1571264740000
       Hashtag: '#TecumsehRanchFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-16T22:02:14.095Z'
+          RetrievedOn: '2019-10-16T22:31:29.714Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -88658,6 +88658,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -99.30860816681931
+      Lat: 33.041005674932755
+      objectid: 14
+      latitude: 33.041
+      longitude: -99.3086
+      acres: 400
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-10-16T22:00Z'
+      reportdatetimeEpoch: 1571263200000
+      percentcontained: 50
+      uniquefireidentifier: 2019-TXTXS-190501
+      firediscoverydatetime: '2019-10-16T15:38Z'
+      firediscoverydatetimeEpoch: 1571240322000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Tecumseh Ranch
+      iscomplex: 'false'
+      irwinid: '{B3B01661-2766-4AAA-A3E4-403F207990D3}'
+      irwinmodifiedon: '2019-10-16T22:25Z'
+      irwinmodifiedonEpoch: 1571264741000
+      mapsymbol: '1'
+      datecurrent: '2019-10-16T16:30Z'
+      datecurrentEpoch: 1571243410000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190501'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 400
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-16T22:00Z'
+      ModifiedOnDateTimeEpoch: 1571263200000
+      PercentContained: 50
+      UniqueFireIdentifier: 2019-TXTXS-190501
+      FireDiscoveryDateTime: '2019-10-16T15:38Z'
+      FireDiscoveryDateTimeEpoch: 1571240322000
+      Fire_Name: Tecumseh Ranch
+      Name: Tecumseh Ranch
+      Source: GEOMAC
+      Hashtag: '#TecumsehRanchFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-16T22:31:29.715Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190501
     Lon: -99.30861092896764
     Lat: 33.041005324070746
     id: 136962
@@ -88667,31 +88733,31 @@ Database:
     DailyAcres: 400
     PercentContained: 50
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-10-16T22:00Z'
+    ICS209ReportDateTimeEpoch: 1571263200000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 0
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 14
     FireDiscoveryDateTime: '2019-10-16T15:38Z'
     FireDiscoveryDateTimeEpoch: 1571240322000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190501'
     POOCounty: Throckmorton
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-16T21:56Z'
-    ModifiedOnDateTimeEpoch: 1571263002000
-    ModifiedBySystem: wires
+    ModifiedOnDateTime: '2019-10-16T22:00Z'
+    ModifiedOnDateTimeEpoch: 1571263200000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190501
-    ModifiedOnDateTime_Raw: '2019-10-16T21:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1571263002000
+    ModifiedOnDateTime_Raw: '2019-10-16T22:25Z'
+    ModifiedOnDateTimeEpoch_Raw: 1571264740000
     Hashtag: '#TecumsehRanchFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -88704,5 +88770,5 @@ Database:
     Final_Fire_Name: Tecumseh Ranch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-16T21:56Z-PER-none-ID-2019-TXTXS-190501-NAME-TecumsehRanch-S-N
-      Code: 8682e58a1757821676577e174315063253a390dc5bff333fb8b2fc3a9bbd50a0
+        UPD-2019-10-16T22:00Z-PER-none-ID-2019-TXTXS-190501-NAME-TecumsehRanch-S-N
+      Code: a73756200a431780121bd8f4a922d76d668dafa9223074c37196b92f5b58c999
