@@ -86518,12 +86518,12 @@ Database:
     Source_CALFIRE:
       Lon: -118.48161
       Lat: 34.32988
-      incident_name: Saddleridge Fire
+      incident_name: Saddle Ridge Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-17T04:06Z'
-      incident_date_last_updateEpoch: 1571285174000
-      incident_date_created: '2019-10-11T04:39Z'
-      incident_date_createdEpoch: 1570768782000
+      incident_date_last_update: '2019-10-17T15:51Z'
+      incident_date_last_updateEpoch: 1571327477000
+      incident_date_created: '2019-10-11T04:02Z'
+      incident_date_createdEpoch: 1570766520000
       incident_administrative_unit: >-
         Unified Command: Los Angeles County Fire Department and Los Angeles City
         Fire Department and USFS
@@ -86531,7 +86531,7 @@ Database:
       incident_county: Los Angeles
       incident_location: 'Saddle Ridge Rd, Sylmar'
       incident_acres_burned: 8391
-      incident_containment: 52
+      incident_containment: 56
       incident_control: ''
       incident_cooperating_agencies: >-
         Los Angeles City Fire Department, LA Emergency Management Department
@@ -86544,26 +86544,26 @@ Database:
       incident_latitude: 34.32988
       incident_type: Wildfire
       incident_id: c52717d6-0297-4c5b-a0f1-f17abcd7ac27
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/saddleridge-fire/'
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/saddle-ridge-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-10'
       is_active: 'Y'
-      Fire_Name: Saddleridge Fire
-      ModifiedOnDateTime: '2019-10-17T04:06Z'
-      ModifiedOnDateTimeEpoch: 1571285174000
+      Fire_Name: Saddle Ridge Fire
+      ModifiedOnDateTime: '2019-10-17T15:51Z'
+      ModifiedOnDateTimeEpoch: 1571327477000
       DailyAcres: 8391
-      PercentContained: 52
+      PercentContained: 56
       UniqueFireIdentifier: CALFIRE-c52717d6-0297-4c5b-a0f1-f17abcd7ac27
-      Name: Saddleridge Fire
+      Name: Saddle Ridge Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#SaddleridgeFire'
+      Hashtag: '#SaddleRidgeFire'
       Link: >-
         https://www.fire.ca.gov/incident/?incident=c52717d6-0297-4c5b-a0f1-f17abcd7ac27
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-17T05:32:59.305Z'
+          RetrievedOn: '2019-10-17T15:51:32.332Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -86573,14 +86573,61 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-c52717d6-0297-4c5b-a0f1-f17abcd7ac27
+    Source_NFSA_Join:
+      Lon: -118.47973707041918
+      Lat: 34.32361626072379
+      id: 136509
+      Name: Saddle Ridge
+      Fire_Name: Saddle Ridge
+      UniqueFireIdentifier: 2019-CALFD-0001582
+      DailyAcres: 4600
+      PercentContained: 0
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-10-11T13:00Z'
+      ICS209ReportDateTimeEpoch: 1570798800000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 650000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 929
+      FireDiscoveryDateTime: '2019-10-11T04:00Z'
+      FireDiscoveryDateTimeEpoch: 1570766400000
+      DispatchCenterID: CALACC
+      LocalIncidentIdentifier: 0001582
+      POOCounty: Los Angeles
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-11T13:00Z'
+      ModifiedOnDateTimeEpoch: 1570798800000
+      ModifiedBySystem: irwin
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALFD-0001582
+      ModifiedOnDateTime_Raw: '2019-10-11T21:02Z'
+      ModifiedOnDateTimeEpoch_Raw: 1570827752000
+      Hashtag: '#SaddleRidgeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-17T15:51:32.330Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
     Lon: -118.48161
     Lat: 34.32988
-    incident_name: Saddleridge Fire
+    incident_name: Saddle Ridge Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-17T04:06Z'
-    incident_date_last_updateEpoch: 1571285174000
-    incident_date_created: '2019-10-11T04:39Z'
-    incident_date_createdEpoch: 1570768782000
+    incident_date_last_update: '2019-10-17T15:51Z'
+    incident_date_last_updateEpoch: 1571327477000
+    incident_date_created: '2019-10-11T04:02Z'
+    incident_date_createdEpoch: 1570766520000
     incident_administrative_unit: >-
       Unified Command: Los Angeles County Fire Department and Los Angeles City
       Fire Department and USFS
@@ -86588,7 +86635,7 @@ Database:
     incident_county: Los Angeles
     incident_location: 'Saddle Ridge Rd, Sylmar'
     incident_acres_burned: 8391
-    incident_containment: 52
+    incident_containment: 56
     incident_control: ''
     incident_cooperating_agencies: >-
       Los Angeles City Fire Department, LA Emergency Management Department
@@ -86601,24 +86648,25 @@ Database:
     incident_latitude: 34.32988
     incident_type: Wildfire
     incident_id: c52717d6-0297-4c5b-a0f1-f17abcd7ac27
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/saddleridge-fire/'
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/10/saddle-ridge-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-10-10'
     is_active: 'Y'
-    Fire_Name: Saddleridge Fire
-    ModifiedOnDateTime: '2019-10-17T04:06Z'
-    ModifiedOnDateTimeEpoch: 1571285174000
+    Fire_Name: Saddle Ridge Fire
+    ModifiedOnDateTime: '2019-10-17T15:51Z'
+    ModifiedOnDateTimeEpoch: 1571327477000
     DailyAcres: 8391
-    PercentContained: 52
+    PercentContained: 56
     UniqueFireIdentifier: CALFIRE-c52717d6-0297-4c5b-a0f1-f17abcd7ac27
-    Name: Saddleridge Fire
+    Name: Saddle Ridge Fire
     Source: CALFIRE
     State: CA
-    Hashtag: '#SaddleridgeFire'
+    Hashtag: '#SaddleRidgeFire'
     Link: >-
       https://www.fire.ca.gov/incident/?incident=c52717d6-0297-4c5b-a0f1-f17abcd7ac27
     _CorrelationIds:
+      - 2019-CALFD-0001582
       - CALFIRE-c52717d6-0297-4c5b-a0f1-f17abcd7ac27
     PerimDateTime: null
     PerimeterData:
@@ -86627,11 +86675,11 @@ Database:
       _Provenance: null
     unitId: c52717d6
     unitMention: null
-    Final_Fire_Name: Saddleridge Fire
+    Final_Fire_Name: Saddle Ridge Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-17T04:06Z-PER-none-ID-CALFIRE-c52717d6-0297-4c5b-a0f1-f17abcd7ac27-NAME-SaddleridgeFire-S-C
-      Code: adb024fc956b91b0c0b8914f5828055483431e1705d9cf6befbe1a5163eca803
+        UPD-2019-10-17T15:51Z-PER-none-ID-CALFIRE-c52717d6-0297-4c5b-a0f1-f17abcd7ac27-NAME-SaddleRidgeFire-S-C
+      Code: 8a1260ac1a8061379570a9fafe09a5cec68fe02ccfe9d2fb2efe6ed39c731c46
   2019-ALALF-000214:
     Source_NFSA_Join:
       Lon: -86.9958075714192
