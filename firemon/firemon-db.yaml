@@ -90051,14 +90051,14 @@ Database:
       UpdateId: >-
         UPD-2019-10-20T00:44Z-PER-none-ID-2019-TXTXS-190506-NAME-DoubleMountain-S-N
       Code: 50e840e621594e53618c5ac003b05f83ca7f3e99736874d511e58323abc2af00
-  2019-CAMMU-021257:
+  CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411:
     Source_CALFIRE:
       Lon: -119.96606
       Lat: 37.604638
       incident_name: Briceburg Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-19T14:06Z'
-      incident_date_last_updateEpoch: 1571494009000
+      incident_date_last_update: '2019-10-20T01:55Z'
+      incident_date_last_updateEpoch: 1571536500000
       incident_date_created: '2019-10-06T23:15Z'
       incident_date_createdEpoch: 1570403712000
       incident_administrative_unit: CAL FIRE Madera Mariposa Merced Unit
@@ -90082,8 +90082,8 @@ Database:
       incident_dateonly_created: '2019-10-06'
       is_active: 'Y'
       Fire_Name: Briceburg Fire
-      ModifiedOnDateTime: '2019-10-19T14:06Z'
-      ModifiedOnDateTimeEpoch: 1571494009000
+      ModifiedOnDateTime: '2019-10-20T01:55Z'
+      ModifiedOnDateTimeEpoch: 1571536500000
       DailyAcres: 5563
       PercentContained: 98
       UniqueFireIdentifier: CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
@@ -90095,7 +90095,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-20T00:31:44.381Z'
+          RetrievedOn: '2019-10-20T01:55:47.690Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -90144,7 +90144,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-20T00:31:44.379Z'
+          RetrievedOn: '2019-10-20T01:55:47.687Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -90152,50 +90152,56 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Lon: -119.96607157321766
-    Lat: 37.604645153901025
-    id: 136008
-    Name: BRICEBURG
-    Fire_Name: BRICEBURG
-    UniqueFireIdentifier: 2019-CAMMU-021257
+    Lon: -119.96606
+    Lat: 37.604638
+    incident_name: Briceburg Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-10-20T01:55Z'
+    incident_date_last_updateEpoch: 1571536500000
+    incident_date_created: '2019-10-06T23:15Z'
+    incident_date_createdEpoch: 1570403712000
+    incident_administrative_unit: CAL FIRE Madera Mariposa Merced Unit
+    incident_administrative_unit_url: ''
+    incident_county: Mariposa
+    incident_location: Highway 140 and Briceburg Bridge Road north of Midpines
+    incident_acres_burned: 5563
+    incident_containment: 98
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      Mariposa County Sheriff’s Office -- California Highway Patrol -- CALTRANS
+      -- California Department of Corrections and Rehabilitation -- U.S. Forest
+      Service -- Bureau of Land Management -- American Red Cross
+    incident_longitude: -119.96606
+    incident_latitude: 37.604638
+    incident_type: Wildfire
+    incident_id: e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
+    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/6/briceburg-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-06'
+    is_active: 'Y'
+    Fire_Name: Briceburg Fire
+    ModifiedOnDateTime: '2019-10-20T01:55Z'
+    ModifiedOnDateTimeEpoch: 1571536500000
     DailyAcres: 5563
     PercentContained: 98
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-10-20T00:00Z'
-    ICS209ReportDateTimeEpoch: 1571529600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 15378388
-    FireCause: Unknown
-    TotalIncidentPersonnel: 100
-    FireDiscoveryDateTime: '2019-10-06T21:34Z'
-    FireDiscoveryDateTimeEpoch: 1570397642000
-    DispatchCenterID: CAMMCC
-    LocalIncidentIdentifier: '021257'
-    POOCounty: Mariposa
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-20T00:00Z'
-    ModifiedOnDateTimeEpoch: 1571529600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
+    Name: Briceburg Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#BriceburgFire'
+    Link: >-
+      https://www.fire.ca.gov/incident/?incident=e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
     _CorrelationIds:
       - 2019-CAMMU-021257
       - CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411
-    ModifiedOnDateTime_Raw: '2019-10-20T00:03Z'
-    ModifiedOnDateTimeEpoch_Raw: 1571529800000
-    Hashtag: '#BriceburgFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-10-13T09:49Z'
     PerimeterData:
       DateTime: '2019-10-13T09:49Z'
       Acres: 5561.31548847
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-20T00:31:52.882Z'
+          RetrievedOn: '2019-10-20T01:55:56.084Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -90211,10 +90217,10 @@ Database:
             json: true
         Modified: true
         SourceLayer: '3'
-    unitId: CAMMU
-    unitMention: Merced-Mariposa Unit
+    unitId: e7aeb204
+    unitMention: null
     Final_Fire_Name: Briceburg Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-20T00:00Z-PER-2019-10-13T09:49Z-ID-2019-CAMMU-021257-NAME-BRICEBURG-S-N
-      Code: 0e7e457d9c53dde3c252c8161510d3b6d3717dbc17392f46c678efc14794f29e
+        UPD-2019-10-20T01:55Z-PER-2019-10-13T09:49Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
+      Code: 6d128a44777aa77af2b0eafa9524e9d5995b99220d69a427b6ff7f9b8697e8d3
