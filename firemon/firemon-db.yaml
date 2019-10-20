@@ -90078,7 +90078,7 @@ Database:
       UpdateId: >-
         UPD-2019-10-20T02:13Z-PER-2019-10-13T09:49Z-ID-CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411-NAME-BriceburgFire-S-C
       Code: e24a0e15b20f12b58516f2133f40121055b0215cc76cfa197156c5147f4e0be1
-  CALFIRE-baa2a51c-40bc-420c-9f88-db4783872d65:
+  2019-CASBC-013465:
     Source_CALFIRE:
       Lon: -120.190833
       Lat: 34.484722
@@ -90119,7 +90119,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=baa2a51c-40bc-420c-9f88-db4783872d65
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-20T02:02:02.207Z'
+          RetrievedOn: '2019-10-20T12:31:05.423Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -90140,35 +90140,35 @@ Database:
       PercentContained: 80
       FireMgmtComplexity: Type 3 Incident
       IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-10-20T00:15Z'
-      ICS209ReportDateTimeEpoch: 1571530500000
+      ICS209ReportDateTime: '2019-10-20T12:00Z'
+      ICS209ReportDateTimeEpoch: 1571572800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 675000
+      EstimatedCostToDate: 720000
       FireCause: Unknown
-      TotalIncidentPersonnel: 73
+      TotalIncidentPersonnel: 70
       FireDiscoveryDateTime: '2019-10-17T23:30Z'
       FireDiscoveryDateTimeEpoch: 1571355000000
       DispatchCenterID: CASBDC
       LocalIncidentIdentifier: '013465'
       POOCounty: Santa Barbara
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-20T00:15Z'
-      ModifiedOnDateTimeEpoch: 1571530500000
+      ModifiedOnDateTime: '2019-10-20T12:00Z'
+      ModifiedOnDateTimeEpoch: 1571572800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CASBC-013465
-      ModifiedOnDateTime_Raw: '2019-10-20T00:25Z'
-      ModifiedOnDateTimeEpoch_Raw: 1571531119000
+      ModifiedOnDateTime_Raw: '2019-10-20T12:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1571573383000
       Hashtag: '#RealFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-20T02:02:02.205Z'
+          RetrievedOn: '2019-10-20T12:31:05.421Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -90188,8 +90188,8 @@ Database:
       state: CA
       status: U
       firecause: Unknown
-      reportdatetime: '2019-10-20T00:15Z'
-      reportdatetimeEpoch: 1571530500000
+      reportdatetime: '2019-10-20T12:00Z'
+      reportdatetimeEpoch: 1571572800000
       percentcontained: 80
       uniquefireidentifier: 2019-CASBC-013465
       firediscoverydatetime: '2019-10-17T23:30Z'
@@ -90199,11 +90199,11 @@ Database:
       incidentname: REAL
       iscomplex: 'false'
       irwinid: '{23C1997D-281E-4F50-822F-0A0CC56FFC7C}'
-      irwinmodifiedon: '2019-10-20T00:25Z'
-      irwinmodifiedonEpoch: 1571531120000
+      irwinmodifiedon: '2019-10-20T12:09Z'
+      irwinmodifiedonEpoch: 1571573383000
       mapsymbol: '1'
-      datecurrent: '2019-10-19T20:00Z'
-      datecurrentEpoch: 1571515208000
+      datecurrent: '2019-10-20T06:30Z'
+      datecurrentEpoch: 1571553023000
       pooownerunit: CASBC
       fireyear: 2019
       localincidentidentifier: '013465'
@@ -90213,8 +90213,8 @@ Database:
       complexname: null
       DailyAcres: 420
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-20T00:15Z'
-      ModifiedOnDateTimeEpoch: 1571530500000
+      ModifiedOnDateTime: '2019-10-20T12:00Z'
+      ModifiedOnDateTimeEpoch: 1571572800000
       PercentContained: 80
       UniqueFireIdentifier: 2019-CASBC-013465
       FireDiscoveryDateTime: '2019-10-17T23:30Z'
@@ -90225,7 +90225,7 @@ Database:
       Hashtag: '#RealFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-20T02:02:02.206Z'
+          RetrievedOn: '2019-10-20T12:31:05.422Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -90242,55 +90242,51 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CASBC-013465
-    Lon: -120.190833
-    Lat: 34.484722
-    incident_name: Real Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-10-20T02:01Z'
-    incident_date_last_updateEpoch: 1571536895000
-    incident_date_created: '2019-10-17T23:31Z'
-    incident_date_createdEpoch: 1571355060000
-    incident_administrative_unit: Santa Barbara County Fire Department
-    incident_administrative_unit_url: ''
-    incident_county: Santa Barbara
-    incident_location: Calle Real & Hwy 101 west of El Capitan
-    incident_acres_burned: 420
-    incident_containment: 80
-    incident_control: ''
-    incident_cooperating_agencies: Santa Barbara County Fire
-    incident_longitude: -120.190833
-    incident_latitude: 34.484722
-    incident_type: Wildfire
-    incident_id: baa2a51c-40bc-420c-9f88-db4783872d65
-    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/17/real-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-10-17'
-    is_active: 'Y'
-    Fire_Name: Real Fire
-    ModifiedOnDateTime: '2019-10-20T02:01Z'
-    ModifiedOnDateTimeEpoch: 1571536895000
+    Lon: -120.19084802361004
+    Lat: 34.484725393704664
+    id: 137093
+    Name: REAL
+    Fire_Name: REAL
+    UniqueFireIdentifier: 2019-CASBC-013465
     DailyAcres: 420
     PercentContained: 80
-    UniqueFireIdentifier: CALFIRE-baa2a51c-40bc-420c-9f88-db4783872d65
-    Name: Real Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#RealFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=baa2a51c-40bc-420c-9f88-db4783872d65
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-10-20T12:00Z'
+    ICS209ReportDateTimeEpoch: 1571572800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 720000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 70
+    FireDiscoveryDateTime: '2019-10-17T23:30Z'
+    FireDiscoveryDateTimeEpoch: 1571355000000
+    DispatchCenterID: CASBDC
+    LocalIncidentIdentifier: '013465'
+    POOCounty: Santa Barbara
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-20T12:00Z'
+    ModifiedOnDateTimeEpoch: 1571572800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
       - 2019-CASBC-013465
       - CALFIRE-baa2a51c-40bc-420c-9f88-db4783872d65
+    ModifiedOnDateTime_Raw: '2019-10-20T12:09Z'
+    ModifiedOnDateTimeEpoch_Raw: 1571573383000
+    Hashtag: '#RealFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: baa2a51c
-    unitMention: null
+    unitId: CASBC
+    unitMention: '@SBCFireInfo'
     Final_Fire_Name: Real Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-10-20T02:01Z-PER-none-ID-CALFIRE-baa2a51c-40bc-420c-9f88-db4783872d65-NAME-RealFire-S-C
-      Code: a1ee515006c51fd525a1b3358b7af9da3670fe0c4bdd3f7b6aa1d89852e42daf
+      UpdateId: 'UPD-2019-10-20T12:00Z-PER-none-ID-2019-CASBC-013465-NAME-REAL-S-N'
+      Code: 036a292e67b9dc77c67c35bec7b04fb420f1f606de257b589ac7d699267df43b
