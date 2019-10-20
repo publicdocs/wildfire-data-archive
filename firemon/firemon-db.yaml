@@ -88002,7 +88002,7 @@ Database:
       incident_latitude: 38.724
       incident_type: Wildfire
       incident_id: 451c3012-2831-44c1-8fc7-146fd02d2ce0
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/11/caples-fire/'
+      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/11/caples-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-11'
@@ -88021,7 +88021,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=451c3012-2831-44c1-8fc7-146fd02d2ce0
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-19T13:01:22.913Z'
+          RetrievedOn: '2019-10-20T01:00:24.126Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -88070,7 +88070,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-19T13:01:22.912Z'
+          RetrievedOn: '2019-10-20T01:00:24.125Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -88090,9 +88090,9 @@ Database:
       state: CA
       status: U
       firecause: Unknown
-      reportdatetime: '2019-10-19T12:00Z'
-      reportdatetimeEpoch: 1571486400000
-      percentcontained: 55
+      reportdatetime: '2019-10-20T00:30Z'
+      reportdatetimeEpoch: 1571531400000
+      percentcontained: 61
       uniquefireidentifier: 2019-CAENF-030945
       firediscoverydatetime: '2019-10-10T20:43Z'
       firediscoverydatetimeEpoch: 1570740226000
@@ -88101,11 +88101,11 @@ Database:
       incidentname: CAPLES
       iscomplex: 'false'
       irwinid: '{604CD457-415F-423B-8D85-9F8422A6969A}'
-      irwinmodifiedon: '2019-10-19T12:38Z'
-      irwinmodifiedonEpoch: 1571488728000
+      irwinmodifiedon: '2019-10-20T00:55Z'
+      irwinmodifiedonEpoch: 1571532953000
       mapsymbol: '1'
-      datecurrent: '2019-10-19T07:00Z'
-      datecurrentEpoch: 1571468409000
+      datecurrent: '2019-10-19T19:00Z'
+      datecurrentEpoch: 1571511611000
       pooownerunit: CAENF
       fireyear: 2019
       localincidentidentifier: 030945
@@ -88115,9 +88115,9 @@ Database:
       complexname: null
       DailyAcres: 3434
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-19T12:00Z'
-      ModifiedOnDateTimeEpoch: 1571486400000
-      PercentContained: 55
+      ModifiedOnDateTime: '2019-10-20T00:30Z'
+      ModifiedOnDateTimeEpoch: 1571531400000
+      PercentContained: 61
       UniqueFireIdentifier: 2019-CAENF-030945
       FireDiscoveryDateTime: '2019-10-10T20:43Z'
       FireDiscoveryDateTimeEpoch: 1570740226000
@@ -88127,7 +88127,7 @@ Database:
       Hashtag: '#CaplesFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-19T13:01:22.913Z'
+          RetrievedOn: '2019-10-20T01:00:24.126Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -88144,50 +88144,62 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CAENF-030945
-    Lon: -120.14551903437338
-    Lat: 38.72396707915769
-    id: 136465
-    Name: CAPLES
-    Fire_Name: CAPLES
-    UniqueFireIdentifier: 2019-CAENF-030945
+    Lon: -120.14556897545773
+    Lat: 38.72389419456285
+    objectid: 12
+    latitude: 38.723889
+    longitude: -120.145556
+    acres: 3434
+    gacc: ONCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CA
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-10-20T00:30Z'
+    reportdatetimeEpoch: 1571531400000
+    percentcontained: 61
+    uniquefireidentifier: 2019-CAENF-030945
+    firediscoverydatetime: '2019-10-10T20:43Z'
+    firediscoverydatetimeEpoch: 1570740226000
+    complexparentirwinid: null
+    pooresponsibleunit: CAENF
+    incidentname: CAPLES
+    iscomplex: 'false'
+    irwinid: '{604CD457-415F-423B-8D85-9F8422A6969A}'
+    irwinmodifiedon: '2019-10-20T00:55Z'
+    irwinmodifiedonEpoch: 1571532953000
+    mapsymbol: '1'
+    datecurrent: '2019-10-19T19:00Z'
+    datecurrentEpoch: 1571511611000
+    pooownerunit: CAENF
+    fireyear: 2019
+    localincidentidentifier: 030945
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 3434
-    PercentContained: 55
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2019-10-19T12:00Z'
-    ICS209ReportDateTimeEpoch: 1571486400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 4868931
     FireCause: Unknown
-    TotalIncidentPersonnel: 358
+    ModifiedOnDateTime: '2019-10-20T00:30Z'
+    ModifiedOnDateTimeEpoch: 1571531400000
+    PercentContained: 61
+    UniqueFireIdentifier: 2019-CAENF-030945
     FireDiscoveryDateTime: '2019-10-10T20:43Z'
     FireDiscoveryDateTimeEpoch: 1570740226000
-    DispatchCenterID: CACICC
-    LocalIncidentIdentifier: 030945
-    POOCounty: El Dorado
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-19T12:00Z'
-    ModifiedOnDateTimeEpoch: 1571486400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: CAPLES
+    Name: CAPLES
+    Source: GEOMAC
+    Hashtag: '#CaplesFire'
     _CorrelationIds:
       - 2019-CAENF-030945
       - CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
-    ModifiedOnDateTime_Raw: '2019-10-19T12:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1571488728000
-    Hashtag: '#CaplesFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-10-17T16:57Z'
     PerimeterData:
       DateTime: '2019-10-17T16:57Z'
       Acres: 3267.54727669
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-19T13:01:29.361Z'
+          RetrievedOn: '2019-10-20T01:00:31.026Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -88208,8 +88220,8 @@ Database:
     Final_Fire_Name: Caples Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-19T12:00Z-PER-2019-10-17T16:57Z-ID-2019-CAENF-030945-NAME-CAPLES-S-N
-      Code: 0acb006bddbac486452a2e7e27a1d165e699236971d336c338f374a759529639
+        UPD-2019-10-20T00:30Z-PER-2019-10-17T16:57Z-ID-2019-CAENF-030945-NAME-CAPLES-S-G
+      Code: f7638c64e8c1694b95f85a75961c5375ddaef690e597abcafa0375022fc28368
   CALFIRE-0baff961-3ce3-45ec-80f1-a72957f2f3f4:
     Source_CALFIRE:
       Lon: -122.245186
