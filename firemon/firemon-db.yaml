@@ -89754,36 +89754,36 @@ Database:
       DailyAcres: 400
       PercentContained: 95
       FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-10-20T01:30Z'
+      ICS209ReportDateTimeEpoch: 1571535000000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 1
       FireCause: Natural
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 19
       FireDiscoveryDateTime: '2019-10-19T13:27Z'
       FireDiscoveryDateTimeEpoch: 1571491665000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190506'
       POOCounty: Stephens
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-20T00:44Z'
-      ModifiedOnDateTimeEpoch: 1571532258000
-      ModifiedBySystem: wires
+      ModifiedOnDateTime: '2019-10-20T01:30Z'
+      ModifiedOnDateTimeEpoch: 1571535000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190506
-      ModifiedOnDateTime_Raw: '2019-10-20T00:44Z'
-      ModifiedOnDateTimeEpoch_Raw: 1571532258000
+      ModifiedOnDateTime_Raw: '2019-10-20T02:05Z'
+      ModifiedOnDateTimeEpoch_Raw: 1571537154000
       Hashtag: '#DoubleMountainFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-20T01:04:13.418Z'
+          RetrievedOn: '2019-10-20T02:31:11.844Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -89791,6 +89791,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -98.92914137761987
+      Lat: 32.57440560662765
+      objectid: 16
+      latitude: 32.5744
+      longitude: -98.92913333
+      acres: 400
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Natural
+      reportdatetime: '2019-10-20T01:30Z'
+      reportdatetimeEpoch: 1571535000000
+      percentcontained: 95
+      uniquefireidentifier: 2019-TXTXS-190506
+      firediscoverydatetime: '2019-10-19T13:27Z'
+      firediscoverydatetimeEpoch: 1571491665000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Double Mountain
+      iscomplex: 'false'
+      irwinid: '{D5354CE7-9601-4733-AC54-F67770988D8A}'
+      irwinmodifiedon: '2019-10-20T02:05Z'
+      irwinmodifiedonEpoch: 1571537155000
+      mapsymbol: '1'
+      datecurrent: '2019-10-19T20:30Z'
+      datecurrentEpoch: 1571517009000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190506'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 400
+      FireCause: Natural
+      ModifiedOnDateTime: '2019-10-20T01:30Z'
+      ModifiedOnDateTimeEpoch: 1571535000000
+      PercentContained: 95
+      UniqueFireIdentifier: 2019-TXTXS-190506
+      FireDiscoveryDateTime: '2019-10-19T13:27Z'
+      FireDiscoveryDateTimeEpoch: 1571491665000
+      Fire_Name: Double Mountain
+      Name: Double Mountain
+      Source: GEOMAC
+      Hashtag: '#DoubleMountainFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-20T02:31:11.846Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190506
     Lon: -98.92920746871975
     Lat: 32.57490732552488
     id: 137189
@@ -89800,31 +89866,31 @@ Database:
     DailyAcres: 400
     PercentContained: 95
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-10-20T01:30Z'
+    ICS209ReportDateTimeEpoch: 1571535000000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 1
     FireCause: Natural
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 19
     FireDiscoveryDateTime: '2019-10-19T13:27Z'
     FireDiscoveryDateTimeEpoch: 1571491665000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190506'
     POOCounty: Stephens
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-20T00:44Z'
-    ModifiedOnDateTimeEpoch: 1571532258000
-    ModifiedBySystem: wires
+    ModifiedOnDateTime: '2019-10-20T01:30Z'
+    ModifiedOnDateTimeEpoch: 1571535000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190506
-    ModifiedOnDateTime_Raw: '2019-10-20T00:44Z'
-    ModifiedOnDateTimeEpoch_Raw: 1571532258000
+    ModifiedOnDateTime_Raw: '2019-10-20T02:05Z'
+    ModifiedOnDateTimeEpoch_Raw: 1571537154000
     Hashtag: '#DoubleMountainFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -89837,8 +89903,8 @@ Database:
     Final_Fire_Name: Double Mountain Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-20T00:44Z-PER-none-ID-2019-TXTXS-190506-NAME-DoubleMountain-S-N
-      Code: 50e840e621594e53618c5ac003b05f83ca7f3e99736874d511e58323abc2af00
+        UPD-2019-10-20T01:30Z-PER-none-ID-2019-TXTXS-190506-NAME-DoubleMountain-S-N
+      Code: 8d65fddc33af9db3fbdad6dba27e266a221eb8749dc2e6f2104e78abe0e1411c
   CALFIRE-e7aeb204-15af-4a2a-8f2a-bfd2c8dbe411:
     Source_CALFIRE:
       Lon: -119.96606
