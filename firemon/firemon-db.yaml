@@ -89007,39 +89007,39 @@ Database:
       Name: Cow Creek
       Fire_Name: Cow Creek
       UniqueFireIdentifier: 2019-COGMF-000235
-      DailyAcres: 270
-      PercentContained: 2
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-10-18T23:00Z'
-      ICS209ReportDateTimeEpoch: 1571439600000
+      DailyAcres: 785
+      PercentContained: 0
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 2 Team
+      ICS209ReportDateTime: '2019-10-20T23:00Z'
+      ICS209ReportDateTimeEpoch: 1571612400000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 600000
+      EstimatedCostToDate: 575000
       FireCause: Unknown
-      TotalIncidentPersonnel: 74
+      TotalIncidentPersonnel: 202
       FireDiscoveryDateTime: '2019-10-16T13:56Z'
       FireDiscoveryDateTimeEpoch: 1571234160000
       DispatchCenterID: COMTC
       LocalIncidentIdentifier: '000235'
       POOCounty: Ouray
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-18T23:00Z'
-      ModifiedOnDateTimeEpoch: 1571439600000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2019-10-20T23:00Z'
+      ModifiedOnDateTimeEpoch: 1571612400000
+      ModifiedBySystem: ics209
       popupinfo: null
-      calc_symboltype: ImsrOther
+      calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-COGMF-000235
-      ModifiedOnDateTime_Raw: '2019-10-19T00:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1571446088000
+      ModifiedOnDateTime_Raw: '2019-10-20T23:15Z'
+      ModifiedOnDateTimeEpoch_Raw: 1571613327000
       Hashtag: '#CowCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-19T23:30:43.798Z'
+          RetrievedOn: '2019-10-20T23:31:29.958Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -89048,12 +89048,12 @@ Database:
             json: true
         Modified: true
     Source_GEOMAC:
-      Lon: -107.60139941415295
-      Lat: 38.11222821930686
+      Lon: -107.60151051418327
+      Lat: 38.11228601930732
       objectid: 14
-      latitude: 38.1122222
-      longitude: -107.6013889
-      acres: 270
+      latitude: 38.11228
+      longitude: -107.6015
+      acres: 650
       gacc: RMCC
       hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
       state: CO
@@ -89070,11 +89070,11 @@ Database:
       incidentname: Cow Creek
       iscomplex: 'false'
       irwinid: '{8A69C26F-3A60-4237-BA4A-834912435E97}'
-      irwinmodifiedon: '2019-10-19T23:19Z'
-      irwinmodifiedonEpoch: 1571527155000
+      irwinmodifiedon: '2019-10-20T01:37Z'
+      irwinmodifiedonEpoch: 1571535448000
       mapsymbol: '1'
-      datecurrent: '2019-10-19T17:30Z'
-      datecurrentEpoch: 1571506211000
+      datecurrent: '2019-10-20T09:00Z'
+      datecurrentEpoch: 1571562011000
       pooownerunit: COGMF
       fireyear: 2019
       localincidentidentifier: '000235'
@@ -89082,7 +89082,7 @@ Database:
       owneragency: USFS
       perimexist: 'Y'
       complexname: null
-      DailyAcres: 270
+      DailyAcres: 650
       FireCause: Unknown
       ModifiedOnDateTime: '2019-10-19T22:30Z'
       ModifiedOnDateTimeEpoch: 1571524200000
@@ -89096,7 +89096,7 @@ Database:
       Hashtag: '#CowCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-19T23:30:43.799Z'
+          RetrievedOn: '2019-10-20T23:31:29.959Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -89113,61 +89113,49 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-COGMF-000235
-    Lon: -107.60139941415295
-    Lat: 38.11222821930686
-    objectid: 14
-    latitude: 38.1122222
-    longitude: -107.6013889
-    acres: 270
-    gacc: RMCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CO
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-10-19T22:30Z'
-    reportdatetimeEpoch: 1571524200000
-    percentcontained: 0
-    uniquefireidentifier: 2019-COGMF-000235
-    firediscoverydatetime: '2019-10-16T13:56Z'
-    firediscoverydatetimeEpoch: 1571234160000
-    complexparentirwinid: null
-    pooresponsibleunit: COGMF
-    incidentname: Cow Creek
-    iscomplex: 'false'
-    irwinid: '{8A69C26F-3A60-4237-BA4A-834912435E97}'
-    irwinmodifiedon: '2019-10-19T23:19Z'
-    irwinmodifiedonEpoch: 1571527155000
-    mapsymbol: '1'
-    datecurrent: '2019-10-19T17:30Z'
-    datecurrentEpoch: 1571506211000
-    pooownerunit: COGMF
-    fireyear: 2019
-    localincidentidentifier: '000235'
-    incidenttypecategory: WF
-    owneragency: USFS
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 270
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-10-19T22:30Z'
-    ModifiedOnDateTimeEpoch: 1571524200000
-    PercentContained: 0
+    Lon: -107.60000710247377
+    Lat: 38.11076478090997
+    id: 136924
+    Name: Cow Creek
+    Fire_Name: Cow Creek
     UniqueFireIdentifier: 2019-COGMF-000235
+    DailyAcres: 785
+    PercentContained: 0
+    FireMgmtComplexity: Type 2 Incident
+    IncidentManagementOrganization: Type 2 Team
+    ICS209ReportDateTime: '2019-10-20T23:00Z'
+    ICS209ReportDateTimeEpoch: 1571612400000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 575000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 202
     FireDiscoveryDateTime: '2019-10-16T13:56Z'
     FireDiscoveryDateTimeEpoch: 1571234160000
-    Fire_Name: Cow Creek
-    Name: Cow Creek
-    Source: GEOMAC
-    Hashtag: '#CowCreekFire'
+    DispatchCenterID: COMTC
+    LocalIncidentIdentifier: '000235'
+    POOCounty: Ouray
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-10-20T23:00Z'
+    ModifiedOnDateTimeEpoch: 1571612400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType2
+    Source: NFSA
     _CorrelationIds:
       - 2019-COGMF-000235
+    ModifiedOnDateTime_Raw: '2019-10-20T23:15Z'
+    ModifiedOnDateTimeEpoch_Raw: 1571613327000
+    Hashtag: '#CowCreekFire'
+    NFSAType: Large WF
     PerimDateTime: '2019-10-17T22:04Z'
     PerimeterData:
       DateTime: '2019-10-17T22:04Z'
       Acres: 655.16971622
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-19T23:30:50.656Z'
+          RetrievedOn: '2019-10-20T23:31:37.512Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -89188,8 +89176,8 @@ Database:
     Final_Fire_Name: Cow Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-19T22:30Z-PER-2019-10-17T22:04Z-ID-2019-COGMF-000235-NAME-CowCreek-S-G
-      Code: a5f67b18fc3ed6b89238f79028bc8667a66e55002cb21de78077b42641e5a453
+        UPD-2019-10-20T23:00Z-PER-2019-10-17T22:04Z-ID-2019-COGMF-000235-NAME-CowCreek-S-N
+      Code: 74e51a6eaf7d955d0cf25320e6b61c8da31ad8f40750c9d85991c619a11b4645
   2019-UTMLF-009311:
     Source_NFSA_Join:
       Lon: -111.30551273370259
