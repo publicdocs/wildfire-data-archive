@@ -90489,8 +90489,8 @@ Database:
       Lat: 38.792458
       incident_name: Kincade Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-24T13:55Z'
-      incident_date_last_updateEpoch: 1571925343000
+      incident_date_last_update: '2019-10-24T14:40Z'
+      incident_date_last_updateEpoch: 1571928012000
       incident_date_created: '2019-10-24T11:26Z'
       incident_date_createdEpoch: 1571916383000
       incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
@@ -90515,8 +90515,8 @@ Database:
       incident_dateonly_created: '2019-10-24'
       is_active: 'Y'
       Fire_Name: Kincade Fire
-      ModifiedOnDateTime: '2019-10-24T13:55Z'
-      ModifiedOnDateTimeEpoch: 1571925343000
+      ModifiedOnDateTime: '2019-10-24T14:40Z'
+      ModifiedOnDateTimeEpoch: 1571928012000
       DailyAcres: 10000
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
@@ -90528,7 +90528,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=809d101c-8aa3-4a53-bf20-f38ae7ec7941
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-24T13:56:14.871Z'
+          RetrievedOn: '2019-10-24T14:41:17.617Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -90538,12 +90538,125 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+    Source_NFSA_Join:
+      Lon: -122.76663235353014
+      Lat: 38.79620789503068
+      id: 137568
+      Name: KINCADE
+      Fire_Name: KINCADE
+      UniqueFireIdentifier: 2019-CALNU-019376
+      DailyAcres: 10000
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-10-24T13:00Z'
+      ICS209ReportDateTimeEpoch: 1571922000000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 600000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 1001
+      FireDiscoveryDateTime: '2019-10-24T04:24Z'
+      FireDiscoveryDateTimeEpoch: 1571891099000
+      DispatchCenterID: CALNCC
+      LocalIncidentIdentifier: 019376
+      POOCounty: Sonoma
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-24T13:00Z'
+      ModifiedOnDateTimeEpoch: 1571922000000
+      ModifiedBySystem: cfcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALNU-019376
+      ModifiedOnDateTime_Raw: '2019-10-24T14:27Z'
+      ModifiedOnDateTimeEpoch_Raw: 1571927271000
+      Hashtag: '#KincadeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-24T14:41:17.616Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -122.76663639044507
+      Lat: 38.79620799993593
+      objectid: 13
+      latitude: 38.796203
+      longitude: -122.766623
+      acres: 10000
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-10-24T13:00Z'
+      reportdatetimeEpoch: 1571922000000
+      percentcontained: 0
+      uniquefireidentifier: 2019-CALNU-019376
+      firediscoverydatetime: '2019-10-24T04:24Z'
+      firediscoverydatetimeEpoch: 1571891099000
+      complexparentirwinid: null
+      pooresponsibleunit: CALNU
+      incidentname: KINCADE
+      iscomplex: 'false'
+      irwinid: '{FE8285DB-86DE-4F8C-B54E-3FE4A9F2182A}'
+      irwinmodifiedon: '2019-10-24T14:27Z'
+      irwinmodifiedonEpoch: 1571927272000
+      mapsymbol: '2'
+      datecurrent: '2019-10-24T08:30Z'
+      datecurrentEpoch: 1571905819000
+      pooownerunit: CALNU
+      fireyear: 2019
+      localincidentidentifier: 019376
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 10000
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-24T13:00Z'
+      ModifiedOnDateTimeEpoch: 1571922000000
+      PercentContained: 0
+      UniqueFireIdentifier: 2019-CALNU-019376
+      FireDiscoveryDateTime: '2019-10-24T04:24Z'
+      FireDiscoveryDateTimeEpoch: 1571891099000
+      Fire_Name: KINCADE
+      Name: KINCADE
+      Source: GEOMAC
+      Hashtag: '#KincadeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-24T14:41:17.617Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALNU-019376
     Lon: -122.780053
     Lat: 38.792458
     incident_name: Kincade Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-24T13:55Z'
-    incident_date_last_updateEpoch: 1571925343000
+    incident_date_last_update: '2019-10-24T14:40Z'
+    incident_date_last_updateEpoch: 1571928012000
     incident_date_created: '2019-10-24T11:26Z'
     incident_date_createdEpoch: 1571916383000
     incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
@@ -90568,8 +90681,8 @@ Database:
     incident_dateonly_created: '2019-10-24'
     is_active: 'Y'
     Fire_Name: Kincade Fire
-    ModifiedOnDateTime: '2019-10-24T13:55Z'
-    ModifiedOnDateTimeEpoch: 1571925343000
+    ModifiedOnDateTime: '2019-10-24T14:40Z'
+    ModifiedOnDateTimeEpoch: 1571928012000
     DailyAcres: 10000
     PercentContained: 0
     UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
@@ -90592,16 +90705,16 @@ Database:
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-24T13:55Z-PER-none-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: 1cb2a87e9d81337d256b5ad2da8d01f7938b293d4f9b7f737d1d3a2d40624b3b
+        UPD-2019-10-24T14:40Z-PER-none-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: 280343227f95926036e45ccccd7238b3c2f378b0c31c2ec3aee564c14489f811
   CALFIRE-956f8cd5-f4fb-43d7-8a34-1bb5db551995:
     Source_CALFIRE:
       Lon: -117.274276
       Lat: 34.183624
       incident_name: Old Water Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-24T14:27Z'
-      incident_date_last_updateEpoch: 1571927274000
+      incident_date_last_update: '2019-10-24T14:34Z'
+      incident_date_last_updateEpoch: 1571927674000
       incident_date_created: '2019-10-24T11:53Z'
       incident_date_createdEpoch: 1571917997000
       incident_administrative_unit: San Bernardino National Forest / San Bernardino County Fire
@@ -90622,8 +90735,8 @@ Database:
       incident_dateonly_created: '2019-10-24'
       is_active: 'Y'
       Fire_Name: Old Water Fire
-      ModifiedOnDateTime: '2019-10-24T14:27Z'
-      ModifiedOnDateTimeEpoch: 1571927274000
+      ModifiedOnDateTime: '2019-10-24T14:34Z'
+      ModifiedOnDateTimeEpoch: 1571927674000
       DailyAcres: 0
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-956f8cd5-f4fb-43d7-8a34-1bb5db551995
@@ -90635,7 +90748,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=956f8cd5-f4fb-43d7-8a34-1bb5db551995
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-24T14:28:02.298Z'
+          RetrievedOn: '2019-10-24T14:41:17.617Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -90649,8 +90762,8 @@ Database:
     Lat: 34.183624
     incident_name: Old Water Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-24T14:27Z'
-    incident_date_last_updateEpoch: 1571927274000
+    incident_date_last_update: '2019-10-24T14:34Z'
+    incident_date_last_updateEpoch: 1571927674000
     incident_date_created: '2019-10-24T11:53Z'
     incident_date_createdEpoch: 1571917997000
     incident_administrative_unit: San Bernardino National Forest / San Bernardino County Fire
@@ -90671,8 +90784,8 @@ Database:
     incident_dateonly_created: '2019-10-24'
     is_active: 'Y'
     Fire_Name: Old Water Fire
-    ModifiedOnDateTime: '2019-10-24T14:27Z'
-    ModifiedOnDateTimeEpoch: 1571927274000
+    ModifiedOnDateTime: '2019-10-24T14:34Z'
+    ModifiedOnDateTimeEpoch: 1571927674000
     DailyAcres: 0
     PercentContained: 0
     UniqueFireIdentifier: CALFIRE-956f8cd5-f4fb-43d7-8a34-1bb5db551995
@@ -90694,5 +90807,5 @@ Database:
     Final_Fire_Name: Old Water Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-24T14:27Z-PER-none-ID-CALFIRE-956f8cd5-f4fb-43d7-8a34-1bb5db551995-NAME-OldWaterFire-S-C
-      Code: 5abafde65f33369b281a11bebd9fe4853ff863a505bc238d00cc0f94676fa786
+        UPD-2019-10-24T14:34Z-PER-none-ID-CALFIRE-956f8cd5-f4fb-43d7-8a34-1bb5db551995-NAME-OldWaterFire-S-C
+      Code: 3ac08c477c38cf7b3f265aee11c13d84847dd4baae68ad0ce13aa26920eecf80
