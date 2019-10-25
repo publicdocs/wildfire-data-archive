@@ -81023,13 +81023,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1571957720000
     Hashtag: '#WestFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-10-15T16:00Z'
+    PerimDateTime: '2019-10-23T16:00Z'
     PerimeterData:
-      DateTime: '2019-10-15T16:00Z'
-      Acres: 6.42004567
+      DateTime: '2019-10-23T16:00Z'
+      Acres: 8.96508058
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-24T23:23:29.962Z'
+          RetrievedOn: '2019-10-25T15:12:02.009Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
@@ -81050,8 +81050,8 @@ Database:
     Final_Fire_Name: West Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-24T22:00Z-PER-2019-10-15T16:00Z-ID-2019-CAPNF-001438-NAME-West-S-N
-      Code: d6c3ef1ea54742106df0be95b6dc03082bf61d8f4f032e3708ea925051c929a4
+        UPD-2019-10-24T22:00Z-PER-2019-10-23T16:00Z-ID-2019-CAPNF-001438-NAME-West-S-N
+      Code: 36b1ddd7b75d4301163bcf1dc80f5e4ff9af8b0eaae2f94eb61a733b73c95454
   CALFIRE-840010ca-aef0-4f91-b771-3bf196317d03:
     Source_CALFIRE:
       Lon: -120.455883
@@ -91294,18 +91294,35 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: null
+    PerimDateTime: '2019-10-25T02:37Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-25T02:37Z'
+      Acres: 18726.8764833
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-25T15:11:59.993Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: 809d101c
     unitMention: null
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T14:35Z-PER-none-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: abf15524881bd32161c4c629584fe167b714399d4e65e9639b99e6278d35820e
+        UPD-2019-10-25T14:35Z-PER-2019-10-25T02:37Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: 298898c68acee407e28ad262703dfaa1357141dbb544501167f7cd4fa4415d29
   CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5:
     Source_CALFIRE:
       Lon: -118.368056
