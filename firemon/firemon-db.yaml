@@ -87760,17 +87760,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1572128198000
     Hashtag: '#CaplesFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-10-20T19:33Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-20T19:33Z'
+      Acres: 3402.74883822
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-26T23:24:19.196Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: CAENF
     unitMention: '@EldoradoNF'
     Final_Fire_Name: Caples Fire
     _Update:
-      UpdateId: 'UPD-2019-10-26T22:00Z-PER-none-ID-2019-CAENF-030945-NAME-CAPLES-S-N'
-      Code: 38185b9aa7188064ec5c4c0f95846dbc615e1ecd15744457d1d750bb3c7871ed
+      UpdateId: >-
+        UPD-2019-10-26T22:00Z-PER-2019-10-20T19:33Z-ID-2019-CAENF-030945-NAME-CAPLES-S-N
+      Code: 42a65655eba4a9e9c3fed33ec033746a7b50cc341209e3fb146aee0defdecc3a
   CALFIRE-0baff961-3ce3-45ec-80f1-a72957f2f3f4:
     Source_CALFIRE:
       Lon: -122.245186
@@ -88656,17 +88674,35 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1572129457000
     Hashtag: '#CowCreekFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-10-24T23:10Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-24T23:10Z'
+      Acres: 858.65524333
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-26T23:24:19.196Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: COGMF
     unitMention: 'Grand Mesa, Uncompahgre and Gunnison NFs'
     Final_Fire_Name: Cow Creek Fire
     _Update:
-      UpdateId: 'UPD-2019-10-26T22:00Z-PER-none-ID-2019-COGMF-000235-NAME-CowCreek-S-N'
-      Code: 16d78e35b9c061957d47c30db93161b9d0d1013becabfadb582cd5ddeea531f1
+      UpdateId: >-
+        UPD-2019-10-26T22:00Z-PER-2019-10-24T23:10Z-ID-2019-COGMF-000235-NAME-CowCreek-S-N
+      Code: f8c84a93ec285d63bf7b82b2b77114bdaff4f2a29bce6c58b2b87b48e955e169
   2019-UTMLF-009311:
     Source_NFSA_Join:
       Lon: -111.30551273370259
@@ -91060,18 +91096,35 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: null
+    PerimDateTime: '2019-10-25T02:37Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-25T02:37Z'
+      Acres: 18726.8764833
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-26T23:24:19.196Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: 809d101c
     unitMention: null
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-26T17:28Z-PER-none-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: ee6136dbff74d2da5f0b967cd2d4c8f4ef64808b2a119a54a2852df226dda396
+        UPD-2019-10-26T17:28Z-PER-2019-10-25T02:37Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: 63572ae630a666ef1a88588a1157cb695f165a5218984c5b7ae0982ed6d515e2
   CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5:
     Source_CALFIRE:
       Lon: -118.368056
@@ -91210,18 +91263,35 @@ Database:
     _CorrelationIds:
       - 2019-CALAC-326166
       - CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
-    PerimDateTime: null
+    PerimDateTime: '2019-10-25T00:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-25T00:00Z'
+      Acres: 4581.73908516
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-26T23:24:19.196Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: 020310d3
     unitMention: null
     Final_Fire_Name: Tick Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-26T14:21Z-PER-none-ID-CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5-NAME-TickFire-S-C
-      Code: f780ca5e2732abbca8977ddddadc225bae691cc00af68b6b1988de2fbf312e50
+        UPD-2019-10-26T14:21Z-PER-2019-10-25T00:00Z-ID-CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5-NAME-TickFire-S-C
+      Code: ec7f7a69c7c50b14394e2ff928a4ec4faac6c815896f6084e0374e2d021d31bc
   CALFIRE-a6701bb9-7086-4dbc-ac5f-8c98eeb0279a:
     Source_CALFIRE:
       Lon: -116.742508
