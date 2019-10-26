@@ -26,7 +26,7 @@ __META:
     author or data provider has been advised of the possibility of such losses,
     costs, expenses, or damages.
   Host: fireunoff-twitbot-g1-wnrc
-  Version: 3.4.7
+  Version: 3.5.0
 Database:
   2019-NMLNF-000184:
     Source_GEOMAC:
@@ -87666,7 +87666,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=451c3012-2831-44c1-8fc7-146fd02d2ce0
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-24T23:23:07.134Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -87684,15 +87684,15 @@ Database:
       Fire_Name: CAPLES
       UniqueFireIdentifier: 2019-CAENF-030945
       DailyAcres: 3434
-      PercentContained: 80
+      PercentContained: 87
       FireMgmtComplexity: Type 4 Incident
       IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-10-24T20:30Z'
-      ICS209ReportDateTimeEpoch: 1571949000000
+      ICS209ReportDateTime: '2019-10-26T01:00Z'
+      ICS209ReportDateTimeEpoch: 1572051600000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 6130000
+      EstimatedCostToDate: 6200000
       FireCause: Unknown
       TotalIncidentPersonnel: 65
       FireDiscoveryDateTime: '2019-10-10T20:43Z'
@@ -87701,21 +87701,21 @@ Database:
       LocalIncidentIdentifier: 030945
       POOCounty: El Dorado
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-24T20:30Z'
-      ModifiedOnDateTimeEpoch: 1571949000000
+      ModifiedOnDateTime: '2019-10-26T01:00Z'
+      ModifiedOnDateTimeEpoch: 1572051600000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CAENF-030945
-      ModifiedOnDateTime_Raw: '2019-10-24T20:31Z'
-      ModifiedOnDateTimeEpoch_Raw: 1571949094000
+      ModifiedOnDateTime_Raw: '2019-10-26T01:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572053170000
       Hashtag: '#CaplesFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-24T23:23:07.129Z'
+          RetrievedOn: '2019-10-26T21:41:04.337Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -87723,72 +87723,6 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -120.14556897545773
-      Lat: 38.72389419456285
-      objectid: 8
-      latitude: 38.723889
-      longitude: -120.145556
-      acres: 3434
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-24T20:30Z'
-      reportdatetimeEpoch: 1571949000000
-      percentcontained: 80
-      uniquefireidentifier: 2019-CAENF-030945
-      firediscoverydatetime: '2019-10-10T20:43Z'
-      firediscoverydatetimeEpoch: 1570740226000
-      complexparentirwinid: null
-      pooresponsibleunit: CAENF
-      incidentname: CAPLES
-      iscomplex: 'false'
-      irwinid: '{604CD457-415F-423B-8D85-9F8422A6969A}'
-      irwinmodifiedon: '2019-10-24T20:31Z'
-      irwinmodifiedonEpoch: 1571949094000
-      mapsymbol: '1'
-      datecurrent: '2019-10-24T17:00Z'
-      datecurrentEpoch: 1571936412000
-      pooownerunit: CAENF
-      fireyear: 2019
-      localincidentidentifier: 030945
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 3434
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-24T20:30Z'
-      ModifiedOnDateTimeEpoch: 1571949000000
-      PercentContained: 80
-      UniqueFireIdentifier: 2019-CAENF-030945
-      FireDiscoveryDateTime: '2019-10-10T20:43Z'
-      FireDiscoveryDateTimeEpoch: 1570740226000
-      Fire_Name: CAPLES
-      Name: CAPLES
-      Source: GEOMAC
-      Hashtag: '#CaplesFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-24T23:23:07.131Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAENF-030945
     Lon: -120.14551903437338
     Lat: 38.72396707915769
     id: 136465
@@ -87796,15 +87730,15 @@ Database:
     Fire_Name: CAPLES
     UniqueFireIdentifier: 2019-CAENF-030945
     DailyAcres: 3434
-    PercentContained: 80
+    PercentContained: 87
     FireMgmtComplexity: Type 4 Incident
     IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-10-24T20:30Z'
-    ICS209ReportDateTimeEpoch: 1571949000000
+    ICS209ReportDateTime: '2019-10-26T01:00Z'
+    ICS209ReportDateTimeEpoch: 1572051600000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 6130000
+    EstimatedCostToDate: 6200000
     FireCause: Unknown
     TotalIncidentPersonnel: 65
     FireDiscoveryDateTime: '2019-10-10T20:43Z'
@@ -87813,8 +87747,8 @@ Database:
     LocalIncidentIdentifier: 030945
     POOCounty: El Dorado
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-24T20:30Z'
-    ModifiedOnDateTimeEpoch: 1571949000000
+    ModifiedOnDateTime: '2019-10-26T01:00Z'
+    ModifiedOnDateTimeEpoch: 1572051600000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
@@ -87822,39 +87756,21 @@ Database:
     _CorrelationIds:
       - 2019-CAENF-030945
       - CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
-    ModifiedOnDateTime_Raw: '2019-10-24T20:31Z'
-    ModifiedOnDateTimeEpoch_Raw: 1571949094000
+    ModifiedOnDateTime_Raw: '2019-10-26T01:26Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572053170000
     Hashtag: '#CaplesFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-10-20T19:33Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-10-20T19:33Z'
-      Acres: 3402.74883822
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-24T23:23:29.076Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: CAENF
     unitMention: '@EldoradoNF'
     Final_Fire_Name: Caples Fire
     _Update:
-      UpdateId: >-
-        UPD-2019-10-24T20:30Z-PER-2019-10-20T19:33Z-ID-2019-CAENF-030945-NAME-CAPLES-S-N
-      Code: 927e67aa47c2cf4c590032d1640f0bfd369afb5cf3d44053d875d5b1ac822180
+      UpdateId: 'UPD-2019-10-26T01:00Z-PER-none-ID-2019-CAENF-030945-NAME-CAPLES-S-N'
+      Code: 77cd42e77a2e7200208aa0d4bf31fab805d13abb99ae9772e20cbad5b84bf7e5
   CALFIRE-0baff961-3ce3-45ec-80f1-a72957f2f3f4:
     Source_CALFIRE:
       Lon: -122.245186
@@ -90680,16 +90596,16 @@ Database:
       Lat: 37.896231
       incident_name: Muir Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-25T16:20Z'
-      incident_date_last_updateEpoch: 1572020449000
+      incident_date_last_update: '2019-10-26T01:14Z'
+      incident_date_last_updateEpoch: 1572052484000
       incident_date_created: '2019-10-24T19:15Z'
       incident_date_createdEpoch: 1571944533000
       incident_administrative_unit: Marin County Fire
       incident_administrative_unit_url: ''
       incident_county: Marin
       incident_location: 'Highway 1 and Panoramic Hwy, Stinson Beach'
-      incident_acres_burned: 58
-      incident_containment: 50
+      incident_acres_burned: 67
+      incident_containment: 100
       incident_control: ''
       incident_cooperating_agencies: Marin County Fire
       incident_longitude: -122.636471
@@ -90700,12 +90616,12 @@ Database:
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-24'
-      is_active: 'Y'
+      is_active: 'N'
       Fire_Name: Muir Fire
-      ModifiedOnDateTime: '2019-10-25T16:20Z'
-      ModifiedOnDateTimeEpoch: 1572020449000
-      DailyAcres: 58
-      PercentContained: 50
+      ModifiedOnDateTime: '2019-10-26T01:14Z'
+      ModifiedOnDateTimeEpoch: 1572052484000
+      DailyAcres: 67
+      PercentContained: 100
       UniqueFireIdentifier: CALFIRE-16b1921b-f753-4a36-85bc-d903555f0af4
       Name: Muir Fire
       Source: CALFIRE
@@ -90715,7 +90631,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=16b1921b-f753-4a36-85bc-d903555f0af4
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T16:20:51.771Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -90729,16 +90645,16 @@ Database:
     Lat: 37.896231
     incident_name: Muir Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-25T16:20Z'
-    incident_date_last_updateEpoch: 1572020449000
+    incident_date_last_update: '2019-10-26T01:14Z'
+    incident_date_last_updateEpoch: 1572052484000
     incident_date_created: '2019-10-24T19:15Z'
     incident_date_createdEpoch: 1571944533000
     incident_administrative_unit: Marin County Fire
     incident_administrative_unit_url: ''
     incident_county: Marin
     incident_location: 'Highway 1 and Panoramic Hwy, Stinson Beach'
-    incident_acres_burned: 58
-    incident_containment: 50
+    incident_acres_burned: 67
+    incident_containment: 100
     incident_control: ''
     incident_cooperating_agencies: Marin County Fire
     incident_longitude: -122.636471
@@ -90749,12 +90665,12 @@ Database:
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-10-24'
-    is_active: 'Y'
+    is_active: 'N'
     Fire_Name: Muir Fire
-    ModifiedOnDateTime: '2019-10-25T16:20Z'
-    ModifiedOnDateTimeEpoch: 1572020449000
-    DailyAcres: 58
-    PercentContained: 50
+    ModifiedOnDateTime: '2019-10-26T01:14Z'
+    ModifiedOnDateTimeEpoch: 1572052484000
+    DailyAcres: 67
+    PercentContained: 100
     UniqueFireIdentifier: CALFIRE-16b1921b-f753-4a36-85bc-d903555f0af4
     Name: Muir Fire
     Source: CALFIRE
@@ -90774,8 +90690,8 @@ Database:
     Final_Fire_Name: Muir Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T16:20Z-PER-none-ID-CALFIRE-16b1921b-f753-4a36-85bc-d903555f0af4-NAME-MuirFire-S-C
-      Code: 642c4c220683d90b2e6bdc8ec4cd24ec0c95f6c0882d68c3f141e7c4bd2a78cd
+        UPD-2019-10-26T01:14Z-PER-none-ID-CALFIRE-16b1921b-f753-4a36-85bc-d903555f0af4-NAME-MuirFire-S-C
+      Code: 197e7e6af4b9d6c9d18ecbf7832c08d9bcc4763184c01b416e2a34bcf5234e8f
   CALFIRE-6890469e-78d7-4dac-b162-6c23498fabcc:
     Source_CALFIRE:
       Lon: -121.800538
@@ -90884,16 +90800,16 @@ Database:
       Lat: 37.166674
       incident_name: Cabrillo Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-25T14:46Z'
-      incident_date_last_updateEpoch: 1572014804000
+      incident_date_last_update: '2019-10-26T14:12Z'
+      incident_date_last_updateEpoch: 1572099149000
       incident_date_created: '2019-10-25T03:15Z'
       incident_date_createdEpoch: 1571973336000
       incident_administrative_unit: CAL FIRE San Mateo- Santa Cruz Unit
       incident_administrative_unit_url: ''
       incident_county: San Mateo
       incident_location: 'Highway 1 and Gazos Creek Rd, south of Pescadero'
-      incident_acres_burned: 95
-      incident_containment: 55
+      incident_acres_burned: 62
+      incident_containment: 95
       incident_control: ''
       incident_cooperating_agencies: CAL FIRE San Mateo- Santa Cruz Unit
       incident_longitude: -122.361112
@@ -90906,10 +90822,10 @@ Database:
       incident_dateonly_created: '2019-10-24'
       is_active: 'Y'
       Fire_Name: Cabrillo Fire
-      ModifiedOnDateTime: '2019-10-25T14:46Z'
-      ModifiedOnDateTimeEpoch: 1572014804000
-      DailyAcres: 95
-      PercentContained: 55
+      ModifiedOnDateTime: '2019-10-26T14:12Z'
+      ModifiedOnDateTimeEpoch: 1572099149000
+      DailyAcres: 62
+      PercentContained: 95
       UniqueFireIdentifier: CALFIRE-ab8109fd-e8eb-4690-9f5c-3a8c9c47ff48
       Name: Cabrillo Fire
       Source: CALFIRE
@@ -90919,7 +90835,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=ab8109fd-e8eb-4690-9f5c-3a8c9c47ff48
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T14:51:02.121Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -90933,16 +90849,16 @@ Database:
     Lat: 37.166674
     incident_name: Cabrillo Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-25T14:46Z'
-    incident_date_last_updateEpoch: 1572014804000
+    incident_date_last_update: '2019-10-26T14:12Z'
+    incident_date_last_updateEpoch: 1572099149000
     incident_date_created: '2019-10-25T03:15Z'
     incident_date_createdEpoch: 1571973336000
     incident_administrative_unit: CAL FIRE San Mateo- Santa Cruz Unit
     incident_administrative_unit_url: ''
     incident_county: San Mateo
     incident_location: 'Highway 1 and Gazos Creek Rd, south of Pescadero'
-    incident_acres_burned: 95
-    incident_containment: 55
+    incident_acres_burned: 62
+    incident_containment: 95
     incident_control: ''
     incident_cooperating_agencies: CAL FIRE San Mateo- Santa Cruz Unit
     incident_longitude: -122.361112
@@ -90955,10 +90871,10 @@ Database:
     incident_dateonly_created: '2019-10-24'
     is_active: 'Y'
     Fire_Name: Cabrillo Fire
-    ModifiedOnDateTime: '2019-10-25T14:46Z'
-    ModifiedOnDateTimeEpoch: 1572014804000
-    DailyAcres: 95
-    PercentContained: 55
+    ModifiedOnDateTime: '2019-10-26T14:12Z'
+    ModifiedOnDateTimeEpoch: 1572099149000
+    DailyAcres: 62
+    PercentContained: 95
     UniqueFireIdentifier: CALFIRE-ab8109fd-e8eb-4690-9f5c-3a8c9c47ff48
     Name: Cabrillo Fire
     Source: CALFIRE
@@ -90978,24 +90894,24 @@ Database:
     Final_Fire_Name: Cabrillo Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T14:46Z-PER-none-ID-CALFIRE-ab8109fd-e8eb-4690-9f5c-3a8c9c47ff48-NAME-CabrilloFire-S-C
-      Code: 5058a110585452179ba04bb7a1c6aefada530e357ce3cacbb89eb58e46547880
+        UPD-2019-10-26T14:12Z-PER-none-ID-CALFIRE-ab8109fd-e8eb-4690-9f5c-3a8c9c47ff48-NAME-CabrilloFire-S-C
+      Code: 4a35c25efd321e68569d0a394f5728e54646c974934ac0705bd5aba2618fef4a
   CALFIRE-87404846-bc30-41b8-82fe-31c9aedb9ef7:
     Source_CALFIRE:
       Lon: -121.68598
       Lat: 37.62782
       incident_name: Mines Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-25T14:41Z'
-      incident_date_last_updateEpoch: 1572014473000
+      incident_date_last_update: '2019-10-26T14:47Z'
+      incident_date_last_updateEpoch: 1572101256000
       incident_date_created: '2019-10-25T06:16Z'
       incident_date_createdEpoch: 1571984178000
       incident_administrative_unit: CAL FIRE Santa Clara Unit
       incident_administrative_unit_url: ''
       incident_county: Alameda
       incident_location: 'Mines Rd and Del Valle Rd, southeast of Livermore'
-      incident_acres_burned: 50
-      incident_containment: 60
+      incident_acres_burned: 35
+      incident_containment: 95
       incident_control: ''
       incident_cooperating_agencies: CAL FIRE Santa Clara Unit
       incident_longitude: -121.68598
@@ -91008,10 +90924,10 @@ Database:
       incident_dateonly_created: '2019-10-24'
       is_active: 'Y'
       Fire_Name: Mines Fire
-      ModifiedOnDateTime: '2019-10-25T14:41Z'
-      ModifiedOnDateTimeEpoch: 1572014473000
-      DailyAcres: 50
-      PercentContained: 60
+      ModifiedOnDateTime: '2019-10-26T14:47Z'
+      ModifiedOnDateTimeEpoch: 1572101256000
+      DailyAcres: 35
+      PercentContained: 95
       UniqueFireIdentifier: CALFIRE-87404846-bc30-41b8-82fe-31c9aedb9ef7
       Name: Mines Fire
       Source: CALFIRE
@@ -91021,7 +90937,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=87404846-bc30-41b8-82fe-31c9aedb9ef7
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T14:41:32.185Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -91035,16 +90951,16 @@ Database:
     Lat: 37.62782
     incident_name: Mines Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-25T14:41Z'
-    incident_date_last_updateEpoch: 1572014473000
+    incident_date_last_update: '2019-10-26T14:47Z'
+    incident_date_last_updateEpoch: 1572101256000
     incident_date_created: '2019-10-25T06:16Z'
     incident_date_createdEpoch: 1571984178000
     incident_administrative_unit: CAL FIRE Santa Clara Unit
     incident_administrative_unit_url: ''
     incident_county: Alameda
     incident_location: 'Mines Rd and Del Valle Rd, southeast of Livermore'
-    incident_acres_burned: 50
-    incident_containment: 60
+    incident_acres_burned: 35
+    incident_containment: 95
     incident_control: ''
     incident_cooperating_agencies: CAL FIRE Santa Clara Unit
     incident_longitude: -121.68598
@@ -91057,10 +90973,10 @@ Database:
     incident_dateonly_created: '2019-10-24'
     is_active: 'Y'
     Fire_Name: Mines Fire
-    ModifiedOnDateTime: '2019-10-25T14:41Z'
-    ModifiedOnDateTimeEpoch: 1572014473000
-    DailyAcres: 50
-    PercentContained: 60
+    ModifiedOnDateTime: '2019-10-26T14:47Z'
+    ModifiedOnDateTimeEpoch: 1572101256000
+    DailyAcres: 35
+    PercentContained: 95
     UniqueFireIdentifier: CALFIRE-87404846-bc30-41b8-82fe-31c9aedb9ef7
     Name: Mines Fire
     Source: CALFIRE
@@ -91080,24 +90996,24 @@ Database:
     Final_Fire_Name: Mines Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T14:41Z-PER-none-ID-CALFIRE-87404846-bc30-41b8-82fe-31c9aedb9ef7-NAME-MinesFire-S-C
-      Code: 4cfdfdaaa773f4e9f1b36bff94b848f514d53e996fed78bfab0b6a8b0b96b3b1
+        UPD-2019-10-26T14:47Z-PER-none-ID-CALFIRE-87404846-bc30-41b8-82fe-31c9aedb9ef7-NAME-MinesFire-S-C
+      Code: c2c690387760b0b5ffd53bbb8167f1ce186ae02fe8ea10e7e7cf4f026494f376
   CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941:
     Source_CALFIRE:
       Lon: -122.780053
       Lat: 38.792458
       incident_name: Kincade Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-25T16:30Z'
-      incident_date_last_updateEpoch: 1572021000000
+      incident_date_last_update: '2019-10-26T17:28Z'
+      incident_date_last_updateEpoch: 1572110901000
       incident_date_created: '2019-10-24T04:24Z'
       incident_date_createdEpoch: 1571891040000
       incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
       incident_administrative_unit_url: ''
       incident_county: Sonoma
       incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
-      incident_acres_burned: 21900
-      incident_containment: 5
+      incident_acres_burned: 25455
+      incident_containment: 10
       incident_control: ''
       incident_cooperating_agencies: >-
         Cooperating Agencies: CAL FIRE, Cloverdale Fire Protection District,
@@ -91108,16 +91024,16 @@ Database:
       incident_latitude: 38.792458
       incident_type: Wildfire
       incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
-      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-23'
       is_active: 'Y'
       Fire_Name: Kincade Fire
-      ModifiedOnDateTime: '2019-10-25T16:30Z'
-      ModifiedOnDateTimeEpoch: 1572021000000
-      DailyAcres: 21900
-      PercentContained: 5
+      ModifiedOnDateTime: '2019-10-26T17:28Z'
+      ModifiedOnDateTimeEpoch: 1572110901000
+      DailyAcres: 25455
+      PercentContained: 10
       UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
       Name: Kincade Fire
       Source: CALFIRE
@@ -91127,7 +91043,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=809d101c-8aa3-4a53-bf20-f38ae7ec7941
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T16:31:27.756Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -91144,39 +91060,39 @@ Database:
       Name: KINCADE
       Fire_Name: KINCADE
       UniqueFireIdentifier: 2019-CALNU-019376
-      DailyAcres: 21900
-      PercentContained: 5
+      DailyAcres: 25455
+      PercentContained: 10
       FireMgmtComplexity: Type 1 Incident
       IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2019-10-25T12:45Z'
-      ICS209ReportDateTimeEpoch: 1572007500000
+      ICS209ReportDateTime: '2019-10-26T12:45Z'
+      ICS209ReportDateTimeEpoch: 1572093900000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 3800000
+      EstimatedCostToDate: 7450250
       FireCause: Unknown
-      TotalIncidentPersonnel: 1283
+      TotalIncidentPersonnel: 2090
       FireDiscoveryDateTime: '2019-10-24T04:24Z'
       FireDiscoveryDateTimeEpoch: 1571891099000
       DispatchCenterID: CALNCC
       LocalIncidentIdentifier: 019376
       POOCounty: Sonoma
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-25T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572007500000
+      ModifiedOnDateTime: '2019-10-26T12:45Z'
+      ModifiedOnDateTimeEpoch: 1572093900000
       ModifiedBySystem: cfcad
       popupinfo: null
       calc_symboltype: ImsrType1
       Source: NFSA
       _CorrelationIds:
         - 2019-CALNU-019376
-      ModifiedOnDateTime_Raw: '2019-10-25T16:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572020808000
+      ModifiedOnDateTime_Raw: '2019-10-26T20:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572123023000
       Hashtag: '#KincadeFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T16:31:27.754Z'
+          RetrievedOn: '2019-10-26T21:41:04.337Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -91184,86 +91100,20 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -122.76663639044507
-      Lat: 38.79620799993593
-      objectid: 10
-      latitude: 38.796203
-      longitude: -122.766623
-      acres: 21900
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-25T12:45Z'
-      reportdatetimeEpoch: 1572007500000
-      percentcontained: 5
-      uniquefireidentifier: 2019-CALNU-019376
-      firediscoverydatetime: '2019-10-24T04:24Z'
-      firediscoverydatetimeEpoch: 1571891099000
-      complexparentirwinid: null
-      pooresponsibleunit: CALNU
-      incidentname: KINCADE
-      iscomplex: 'false'
-      irwinid: '{FE8285DB-86DE-4F8C-B54E-3FE4A9F2182A}'
-      irwinmodifiedon: '2019-10-25T16:26Z'
-      irwinmodifiedonEpoch: 1572020809000
-      mapsymbol: '2'
-      datecurrent: '2019-10-25T10:30Z'
-      datecurrentEpoch: 1571999409000
-      pooownerunit: CALNU
-      fireyear: 2019
-      localincidentidentifier: 019376
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 21900
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-25T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572007500000
-      PercentContained: 5
-      UniqueFireIdentifier: 2019-CALNU-019376
-      FireDiscoveryDateTime: '2019-10-24T04:24Z'
-      FireDiscoveryDateTimeEpoch: 1571891099000
-      Fire_Name: KINCADE
-      Name: KINCADE
-      Source: GEOMAC
-      Hashtag: '#KincadeFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-25T16:31:27.755Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CALNU-019376
     Lon: -122.780053
     Lat: 38.792458
     incident_name: Kincade Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-25T16:30Z'
-    incident_date_last_updateEpoch: 1572021000000
+    incident_date_last_update: '2019-10-26T17:28Z'
+    incident_date_last_updateEpoch: 1572110901000
     incident_date_created: '2019-10-24T04:24Z'
     incident_date_createdEpoch: 1571891040000
     incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
     incident_administrative_unit_url: ''
     incident_county: Sonoma
     incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
-    incident_acres_burned: 21900
-    incident_containment: 5
+    incident_acres_burned: 25455
+    incident_containment: 10
     incident_control: ''
     incident_cooperating_agencies: >-
       Cooperating Agencies: CAL FIRE, Cloverdale Fire Protection District,
@@ -91274,16 +91124,16 @@ Database:
     incident_latitude: 38.792458
     incident_type: Wildfire
     incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-10-23'
     is_active: 'Y'
     Fire_Name: Kincade Fire
-    ModifiedOnDateTime: '2019-10-25T16:30Z'
-    ModifiedOnDateTimeEpoch: 1572021000000
-    DailyAcres: 21900
-    PercentContained: 5
+    ModifiedOnDateTime: '2019-10-26T17:28Z'
+    ModifiedOnDateTimeEpoch: 1572110901000
+    DailyAcres: 25455
+    PercentContained: 10
     UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
     Name: Kincade Fire
     Source: CALFIRE
@@ -91294,51 +91144,34 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: '2019-10-25T02:37Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-10-25T02:37Z'
-      Acres: 18726.8764833
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-25T16:31:34.874Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: 809d101c
     unitMention: null
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T16:30Z-PER-2019-10-25T02:37Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: d67a12f0ca90522da9b083242d47cdb03ff045d11301b72275323b0b5038d0ca
+        UPD-2019-10-26T17:28Z-PER-none-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: ee6136dbff74d2da5f0b967cd2d4c8f4ef64808b2a119a54a2852df226dda396
   CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5:
     Source_CALFIRE:
       Lon: -118.368056
       Lat: 34.472778
       incident_name: Tick Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-25T14:13Z'
-      incident_date_last_updateEpoch: 1572012807000
+      incident_date_last_update: '2019-10-26T14:21Z'
+      incident_date_last_updateEpoch: 1572099701000
       incident_date_created: '2019-10-24T21:51Z'
       incident_date_createdEpoch: 1571953906000
       incident_administrative_unit: Los Angeles County Fire Department the Can
       incident_administrative_unit_url: ''
       incident_county: Los Angeles
       incident_location: 'Tick Canyon Rd and Summit Knoll Rd, Canyon Country'
-      incident_acres_burned: 4300
-      incident_containment: 5
+      incident_acres_burned: 4615
+      incident_containment: 25
       incident_control: ''
       incident_cooperating_agencies: Los Angeles County Fire Department
       incident_longitude: -118.368056
@@ -91351,10 +91184,10 @@ Database:
       incident_dateonly_created: '2019-10-24'
       is_active: 'Y'
       Fire_Name: Tick Fire
-      ModifiedOnDateTime: '2019-10-25T14:13Z'
-      ModifiedOnDateTimeEpoch: 1572012807000
-      DailyAcres: 4300
-      PercentContained: 5
+      ModifiedOnDateTime: '2019-10-26T14:21Z'
+      ModifiedOnDateTimeEpoch: 1572099701000
+      DailyAcres: 4615
+      PercentContained: 25
       UniqueFireIdentifier: CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
       Name: Tick Fire
       Source: CALFIRE
@@ -91364,7 +91197,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=020310d3-7834-4f57-a125-eff0eb3f54e5
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T14:19:11.347Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -91381,39 +91214,39 @@ Database:
       Name: TICK
       Fire_Name: TICK
       UniqueFireIdentifier: 2019-CALAC-326166
-      DailyAcres: 3950
-      PercentContained: 5
+      DailyAcres: 4615
+      PercentContained: 25
       FireMgmtComplexity: Type 2 Incident
       IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-10-25T12:45Z'
-      ICS209ReportDateTimeEpoch: 1572007500000
+      ICS209ReportDateTime: '2019-10-26T13:00Z'
+      ICS209ReportDateTimeEpoch: 1572094800000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 3500000
+      EstimatedCostToDate: 6900000
       FireCause: Unknown
-      TotalIncidentPersonnel: 574
+      TotalIncidentPersonnel: 1325
       FireDiscoveryDateTime: '2019-10-24T20:42Z'
       FireDiscoveryDateTimeEpoch: 1571949764000
       DispatchCenterID: CALACC
       LocalIncidentIdentifier: '326166'
       POOCounty: Los Angeles
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-25T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572007500000
+      ModifiedOnDateTime: '2019-10-26T13:00Z'
+      ModifiedOnDateTimeEpoch: 1572094800000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrType2
       Source: NFSA
       _CorrelationIds:
         - 2019-CALAC-326166
-      ModifiedOnDateTime_Raw: '2019-10-25T12:54Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572008077000
+      ModifiedOnDateTime_Raw: '2019-10-26T13:27Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572096435000
       Hashtag: '#TickFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T14:19:11.345Z'
+          RetrievedOn: '2019-10-26T21:41:04.337Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -91421,86 +91254,20 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
-    Source_GEOMAC:
-      Lon: -118.36806784308966
-      Lat: 34.47278269493159
-      objectid: 11
-      latitude: 34.4727778
-      longitude: -118.3680556
-      acres: 3950
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-25T12:45Z'
-      reportdatetimeEpoch: 1572007500000
-      percentcontained: 5
-      uniquefireidentifier: 2019-CALAC-326166
-      firediscoverydatetime: '2019-10-24T20:42Z'
-      firediscoverydatetimeEpoch: 1571949764000
-      complexparentirwinid: null
-      pooresponsibleunit: CALAC
-      incidentname: TICK
-      iscomplex: 'false'
-      irwinid: '{31A016C8-AC09-4C58-ACA3-789CFCA0B830}'
-      irwinmodifiedon: '2019-10-25T12:54Z'
-      irwinmodifiedonEpoch: 1572008078000
-      mapsymbol: '1'
-      datecurrent: '2019-10-25T08:00Z'
-      datecurrentEpoch: 1571990415000
-      pooownerunit: CAANF
-      fireyear: 2019
-      localincidentidentifier: '326166'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 3950
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-25T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572007500000
-      PercentContained: 5
-      UniqueFireIdentifier: 2019-CALAC-326166
-      FireDiscoveryDateTime: '2019-10-24T20:42Z'
-      FireDiscoveryDateTimeEpoch: 1571949764000
-      Fire_Name: TICK
-      Name: TICK
-      Source: GEOMAC
-      Hashtag: '#TickFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-25T14:19:11.346Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CALAC-326166
     Lon: -118.368056
     Lat: 34.472778
     incident_name: Tick Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-25T14:13Z'
-    incident_date_last_updateEpoch: 1572012807000
+    incident_date_last_update: '2019-10-26T14:21Z'
+    incident_date_last_updateEpoch: 1572099701000
     incident_date_created: '2019-10-24T21:51Z'
     incident_date_createdEpoch: 1571953906000
     incident_administrative_unit: Los Angeles County Fire Department the Can
     incident_administrative_unit_url: ''
     incident_county: Los Angeles
     incident_location: 'Tick Canyon Rd and Summit Knoll Rd, Canyon Country'
-    incident_acres_burned: 4300
-    incident_containment: 5
+    incident_acres_burned: 4615
+    incident_containment: 25
     incident_control: ''
     incident_cooperating_agencies: Los Angeles County Fire Department
     incident_longitude: -118.368056
@@ -91513,10 +91280,10 @@ Database:
     incident_dateonly_created: '2019-10-24'
     is_active: 'Y'
     Fire_Name: Tick Fire
-    ModifiedOnDateTime: '2019-10-25T14:13Z'
-    ModifiedOnDateTimeEpoch: 1572012807000
-    DailyAcres: 4300
-    PercentContained: 5
+    ModifiedOnDateTime: '2019-10-26T14:21Z'
+    ModifiedOnDateTimeEpoch: 1572099701000
+    DailyAcres: 4615
+    PercentContained: 25
     UniqueFireIdentifier: CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
     Name: Tick Fire
     Source: CALFIRE
@@ -91527,43 +91294,26 @@ Database:
     _CorrelationIds:
       - 2019-CALAC-326166
       - CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
-    PerimDateTime: '2019-10-25T00:00Z'
+    PerimDateTime: null
     PerimeterData:
-      DateTime: '2019-10-25T00:00Z'
-      Acres: 4581.73908516
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-25T21:49:06.195Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            json: true
-        Modified: true
-        SourceLayer: '2'
+      DateTime: null
+      Acres: null
+      _Provenance: null
     unitId: 020310d3
     unitMention: null
     Final_Fire_Name: Tick Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T14:13Z-PER-2019-10-25T00:00Z-ID-CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5-NAME-TickFire-S-C
-      Code: 89d1d3ca110d86ee949252b8da728d233fc5ff4054bff12d4df89392c44fbb14
+        UPD-2019-10-26T14:21Z-PER-none-ID-CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5-NAME-TickFire-S-C
+      Code: f780ca5e2732abbca8977ddddadc225bae691cc00af68b6b1988de2fbf312e50
   CALFIRE-a6701bb9-7086-4dbc-ac5f-8c98eeb0279a:
     Source_CALFIRE:
       Lon: -116.742508
       Lat: 33.055124
       incident_name: Sawday Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-25T21:11Z'
-      incident_date_last_updateEpoch: 1572037865000
+      incident_date_last_update: '2019-10-26T14:10Z'
+      incident_date_last_updateEpoch: 1572099002000
       incident_date_created: '2019-10-25T17:52Z'
       incident_date_createdEpoch: 1572025924000
       incident_administrative_unit: CALFIRE San Diego
@@ -91571,37 +91321,23 @@ Database:
       incident_county: San Diego
       incident_location: 'Sawday Truck Trail and Little Page Rd, Community of Witch Creek'
       incident_acres_burned: 97
-      incident_containment: 15
-      incident_control: >-
-        <p>The forward rate of spread has been stopped. A total of 170 people
-        have been evacuated.
-
-
-        <p>An evacuation order has been issued for the following streets in the
-        area of the fire. Sawday Truck Trail, Littlepage Rd, Littlepage Ln, Old
-        Julian Hwy, Creek Hollow Dr, Creek Hollow Rd
-
-
-        <p> Evacuation Center: A temporary evacuation point has been established
-        at the Ramona Fair Grounds.
-
-
-        <p> Road Closures: Old Julian Hwy between Hwy 78 and Vista Ramona
+      incident_containment: 70
+      incident_control: ''
       incident_cooperating_agencies: ''
       incident_longitude: -116.742508
       incident_latitude: 33.055124
       incident_type: Wildfire
       incident_id: a6701bb9-7086-4dbc-ac5f-8c98eeb0279a
-      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/25/sawday-fire/'
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/25/sawday-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-25'
       is_active: 'Y'
       Fire_Name: Sawday Fire
-      ModifiedOnDateTime: '2019-10-25T21:11Z'
-      ModifiedOnDateTimeEpoch: 1572037865000
+      ModifiedOnDateTime: '2019-10-26T14:10Z'
+      ModifiedOnDateTimeEpoch: 1572099002000
       DailyAcres: 97
-      PercentContained: 15
+      PercentContained: 70
       UniqueFireIdentifier: CALFIRE-a6701bb9-7086-4dbc-ac5f-8c98eeb0279a
       Name: Sawday Fire
       Source: CALFIRE
@@ -91611,7 +91347,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=a6701bb9-7086-4dbc-ac5f-8c98eeb0279a
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T21:48:58.355Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -91625,8 +91361,8 @@ Database:
     Lat: 33.055124
     incident_name: Sawday Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-25T21:11Z'
-    incident_date_last_updateEpoch: 1572037865000
+    incident_date_last_update: '2019-10-26T14:10Z'
+    incident_date_last_updateEpoch: 1572099002000
     incident_date_created: '2019-10-25T17:52Z'
     incident_date_createdEpoch: 1572025924000
     incident_administrative_unit: CALFIRE San Diego
@@ -91634,37 +91370,23 @@ Database:
     incident_county: San Diego
     incident_location: 'Sawday Truck Trail and Little Page Rd, Community of Witch Creek'
     incident_acres_burned: 97
-    incident_containment: 15
-    incident_control: >-
-      <p>The forward rate of spread has been stopped. A total of 170 people have
-      been evacuated.
-
-
-      <p>An evacuation order has been issued for the following streets in the
-      area of the fire. Sawday Truck Trail, Littlepage Rd, Littlepage Ln, Old
-      Julian Hwy, Creek Hollow Dr, Creek Hollow Rd
-
-
-      <p> Evacuation Center: A temporary evacuation point has been established
-      at the Ramona Fair Grounds.
-
-
-      <p> Road Closures: Old Julian Hwy between Hwy 78 and Vista Ramona
+    incident_containment: 70
+    incident_control: ''
     incident_cooperating_agencies: ''
     incident_longitude: -116.742508
     incident_latitude: 33.055124
     incident_type: Wildfire
     incident_id: a6701bb9-7086-4dbc-ac5f-8c98eeb0279a
-    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/25/sawday-fire/'
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/25/sawday-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-10-25'
     is_active: 'Y'
     Fire_Name: Sawday Fire
-    ModifiedOnDateTime: '2019-10-25T21:11Z'
-    ModifiedOnDateTimeEpoch: 1572037865000
+    ModifiedOnDateTime: '2019-10-26T14:10Z'
+    ModifiedOnDateTimeEpoch: 1572099002000
     DailyAcres: 97
-    PercentContained: 15
+    PercentContained: 70
     UniqueFireIdentifier: CALFIRE-a6701bb9-7086-4dbc-ac5f-8c98eeb0279a
     Name: Sawday Fire
     Source: CALFIRE
@@ -91684,16 +91406,16 @@ Database:
     Final_Fire_Name: Sawday Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T21:11Z-PER-none-ID-CALFIRE-a6701bb9-7086-4dbc-ac5f-8c98eeb0279a-NAME-SawdayFire-S-C
-      Code: 6c993d3375332c134188ea9f73b80c1e72e6a670734de3518e3f73e500ba74b9
+        UPD-2019-10-26T14:10Z-PER-none-ID-CALFIRE-a6701bb9-7086-4dbc-ac5f-8c98eeb0279a-NAME-SawdayFire-S-C
+      Code: cfdc63cbaeea72d6e05f3465612920acc852651fa0925084c3d37433fd6a917b
   CALFIRE-7ff229e4-be94-4319-8916-19eb43753843:
     Source_CALFIRE:
       Lon: -117.027333
       Lat: 33.259861
       incident_name: Miller Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-25T23:12Z'
-      incident_date_last_updateEpoch: 1572045132000
+      incident_date_last_update: '2019-10-26T13:39Z'
+      incident_date_last_updateEpoch: 1572097187000
       incident_date_created: '2019-10-25T22:05Z'
       incident_date_createdEpoch: 1572041152000
       incident_administrative_unit: CAL FIRE San Diego County Fire
@@ -91701,23 +91423,23 @@ Database:
       incident_county: San Diego
       incident_location: 'Miller Lane and Cole Grade Lane, North of Valley Center'
       incident_acres_burned: 37
-      incident_containment: 20
+      incident_containment: 70
       incident_control: ''
       incident_cooperating_agencies: ''
       incident_longitude: -117.027333
       incident_latitude: 33.259861
       incident_type: Wildfire
       incident_id: 7ff229e4-be94-4319-8916-19eb43753843
-      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/25/miller-fire/'
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/25/miller-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-10-25'
       is_active: 'Y'
       Fire_Name: Miller Fire
-      ModifiedOnDateTime: '2019-10-25T23:12Z'
-      ModifiedOnDateTimeEpoch: 1572045132000
+      ModifiedOnDateTime: '2019-10-26T13:39Z'
+      ModifiedOnDateTimeEpoch: 1572097187000
       DailyAcres: 37
-      PercentContained: 20
+      PercentContained: 70
       UniqueFireIdentifier: CALFIRE-7ff229e4-be94-4319-8916-19eb43753843
       Name: Miller Fire
       Source: CALFIRE
@@ -91727,7 +91449,7 @@ Database:
         https://www.fire.ca.gov/incident/?incident=7ff229e4-be94-4319-8916-19eb43753843
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-25T23:12:31.488Z'
+          RetrievedOn: '2019-10-26T21:41:04.340Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -91741,8 +91463,8 @@ Database:
     Lat: 33.259861
     incident_name: Miller Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-25T23:12Z'
-    incident_date_last_updateEpoch: 1572045132000
+    incident_date_last_update: '2019-10-26T13:39Z'
+    incident_date_last_updateEpoch: 1572097187000
     incident_date_created: '2019-10-25T22:05Z'
     incident_date_createdEpoch: 1572041152000
     incident_administrative_unit: CAL FIRE San Diego County Fire
@@ -91750,23 +91472,23 @@ Database:
     incident_county: San Diego
     incident_location: 'Miller Lane and Cole Grade Lane, North of Valley Center'
     incident_acres_burned: 37
-    incident_containment: 20
+    incident_containment: 70
     incident_control: ''
     incident_cooperating_agencies: ''
     incident_longitude: -117.027333
     incident_latitude: 33.259861
     incident_type: Wildfire
     incident_id: 7ff229e4-be94-4319-8916-19eb43753843
-    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/25/miller-fire/'
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/25/miller-fire/'
     incident_date_extinguished: ''
     incident_dateonly_extinguished: ''
     incident_dateonly_created: '2019-10-25'
     is_active: 'Y'
     Fire_Name: Miller Fire
-    ModifiedOnDateTime: '2019-10-25T23:12Z'
-    ModifiedOnDateTimeEpoch: 1572045132000
+    ModifiedOnDateTime: '2019-10-26T13:39Z'
+    ModifiedOnDateTimeEpoch: 1572097187000
     DailyAcres: 37
-    PercentContained: 20
+    PercentContained: 70
     UniqueFireIdentifier: CALFIRE-7ff229e4-be94-4319-8916-19eb43753843
     Name: Miller Fire
     Source: CALFIRE
@@ -91786,5 +91508,5 @@ Database:
     Final_Fire_Name: Miller Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-25T23:12Z-PER-none-ID-CALFIRE-7ff229e4-be94-4319-8916-19eb43753843-NAME-MillerFire-S-C
-      Code: 814b855fdf5cc985201c0c40c3172a228145cebd0f66d5314ae1bb441bbfcd41
+        UPD-2019-10-26T13:39Z-PER-none-ID-CALFIRE-7ff229e4-be94-4319-8916-19eb43753843-NAME-MillerFire-S-C
+      Code: 94cb9a3466a508b65025624d60fdb2dd25047d875fce3b32ddaf50570f3f9c96
