@@ -91163,38 +91163,38 @@ Database:
       Fire_Name: Leamington
       UniqueFireIdentifier: 2019-UTSCS-190511
       DailyAcres: 1216
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 20
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-10-27T01:00Z'
+      ICS209ReportDateTimeEpoch: 1572138000000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 10000
       FireCause: Human
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 29
       FireDiscoveryDateTime: '2019-10-26T20:23Z'
       FireDiscoveryDateTimeEpoch: 1572121380000
       DispatchCenterID: UTRFC
       LocalIncidentIdentifier: '190511'
       POOCounty: Millard
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-27T00:06Z'
-      ModifiedOnDateTimeEpoch: 1572134761000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-10-27T01:00Z'
+      ModifiedOnDateTimeEpoch: 1572138000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-UTSCS-190511
-      ModifiedOnDateTime_Raw: '2019-10-27T00:06Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572134761000
+      ModifiedOnDateTime_Raw: '2019-10-27T01:27Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572139640000
       Hashtag: '#LeamingtonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-27T00:31:49.095Z'
+          RetrievedOn: '2019-10-27T01:31:06.103Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -91202,6 +91202,72 @@ Database:
               User-Agent: Request-Promise; Bot
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -112.25581164926717
+      Lat: 39.52634586965875
+      objectid: 14
+      latitude: 39.52634
+      longitude: -112.2558
+      acres: 1216
+      gacc: GBCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: UT
+      status: I
+      firecause: Human
+      reportdatetime: '2019-10-27T01:00Z'
+      reportdatetimeEpoch: 1572138000000
+      percentcontained: 20
+      uniquefireidentifier: 2019-UTSCS-190511
+      firediscoverydatetime: '2019-10-26T20:23Z'
+      firediscoverydatetimeEpoch: 1572121380000
+      complexparentirwinid: null
+      pooresponsibleunit: UTSCS
+      incidentname: Leamington
+      iscomplex: 'false'
+      irwinid: '{32176236-1B80-4070-BDD3-BBCF798681A8}'
+      irwinmodifiedon: '2019-10-27T01:27Z'
+      irwinmodifiedonEpoch: 1572139641000
+      mapsymbol: '1'
+      datecurrent: '2019-10-26T19:30Z'
+      datecurrentEpoch: 1572118209000
+      pooownerunit: UTUTS
+      fireyear: 2019
+      localincidentidentifier: '190511'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1216
+      FireCause: Human
+      ModifiedOnDateTime: '2019-10-27T01:00Z'
+      ModifiedOnDateTimeEpoch: 1572138000000
+      PercentContained: 20
+      UniqueFireIdentifier: 2019-UTSCS-190511
+      FireDiscoveryDateTime: '2019-10-26T20:23Z'
+      FireDiscoveryDateTimeEpoch: 1572121380000
+      Fire_Name: Leamington
+      Name: Leamington
+      Source: GEOMAC
+      Hashtag: '#LeamingtonFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-27T01:31:06.104Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-UTSCS-190511
     Lon: -112.25581352331412
     Lat: 39.5263458475039
     id: 137859
@@ -91209,33 +91275,33 @@ Database:
     Fire_Name: Leamington
     UniqueFireIdentifier: 2019-UTSCS-190511
     DailyAcres: 1216
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 20
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-10-27T01:00Z'
+    ICS209ReportDateTimeEpoch: 1572138000000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 10000
     FireCause: Human
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 29
     FireDiscoveryDateTime: '2019-10-26T20:23Z'
     FireDiscoveryDateTimeEpoch: 1572121380000
     DispatchCenterID: UTRFC
     LocalIncidentIdentifier: '190511'
     POOCounty: Millard
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-27T00:06Z'
-    ModifiedOnDateTimeEpoch: 1572134761000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-10-27T01:00Z'
+    ModifiedOnDateTimeEpoch: 1572138000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-UTSCS-190511
-    ModifiedOnDateTime_Raw: '2019-10-27T00:06Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572134761000
+    ModifiedOnDateTime_Raw: '2019-10-27T01:27Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572139640000
     Hashtag: '#LeamingtonFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -91247,8 +91313,8 @@ Database:
     unitMention: Central Area
     Final_Fire_Name: Leamington Fire
     _Update:
-      UpdateId: 'UPD-2019-10-27T00:06Z-PER-none-ID-2019-UTSCS-190511-NAME-Leamington-S-N'
-      Code: 9266da96dc71936c0bd2bef7d9a242a4e805460880e12165eaa53c8ac5338c69
+      UpdateId: 'UPD-2019-10-27T01:00Z-PER-none-ID-2019-UTSCS-190511-NAME-Leamington-S-N'
+      Code: d8da743f97110af400ccfcb206bb63566684e3db1c845101e05ccab3649d1767
   2019-UTUWF-000883:
     Source_NFSA_Join:
       Lon: -111.41821536924823
