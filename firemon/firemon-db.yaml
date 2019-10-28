@@ -92338,13 +92338,13 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: '2019-10-27T02:00Z'
+    PerimDateTime: '2019-10-28T03:31Z'
     PerimeterData:
-      DateTime: '2019-10-27T02:00Z'
-      Acres: 28396.587135
+      DateTime: '2019-10-28T03:31Z'
+      Acres: 76062.9710271
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-28T15:32:13.539Z'
+          RetrievedOn: '2019-10-28T16:18:54.409Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -92366,8 +92366,8 @@ Database:
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-28T14:43Z-PER-2019-10-27T02:00Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: e643caf921a0552a41c5a50b966b30fdfd16fb7741223461b590a6bdbbb8ceb6
+        UPD-2019-10-28T14:43Z-PER-2019-10-28T03:31Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: ae5b91422f00a64ec35fb9b12dacaf4d2fb4b729398f8b5475977d0492aa0c65
     Damage:
       structuresDamaged: 16
       structuresDestroyed: 96
@@ -92826,3 +92826,99 @@ Database:
     Damage:
       structuresDamaged: 27
       structuresDestroyed: 22
+  2019-TXTXS-190530:
+    Source_NFSA_Join:
+      Lon: -98.59383942369941
+      Lat: 33.71600585879689
+      id: 137953
+      Name: Switch House
+      Fire_Name: Switch House
+      UniqueFireIdentifier: 2019-TXTXS-190530
+      DailyAcres: 350
+      PercentContained: 50
+      FireMgmtComplexity: Type 5 Incident
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Human
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-10-27T22:18Z'
+      FireDiscoveryDateTimeEpoch: 1572214729000
+      DispatchCenterID: TXTIC
+      LocalIncidentIdentifier: '190530'
+      POOCounty: Archer
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-28T15:50Z'
+      ModifiedOnDateTimeEpoch: 1572277852000
+      ModifiedBySystem: wires
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-TXTXS-190530
+      ModifiedOnDateTime_Raw: '2019-10-28T15:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572277852000
+      Hashtag: '#SwitchHouseFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-28T16:18:46.161Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -98.59383942369941
+    Lat: 33.71600585879689
+    id: 137953
+    Name: Switch House
+    Fire_Name: Switch House
+    UniqueFireIdentifier: 2019-TXTXS-190530
+    DailyAcres: 350
+    PercentContained: 50
+    FireMgmtComplexity: Type 5 Incident
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-10-27T22:18Z'
+    FireDiscoveryDateTimeEpoch: 1572214729000
+    DispatchCenterID: TXTIC
+    LocalIncidentIdentifier: '190530'
+    POOCounty: Archer
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-28T15:50Z'
+    ModifiedOnDateTimeEpoch: 1572277852000
+    ModifiedBySystem: wires
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-TXTXS-190530
+    ModifiedOnDateTime_Raw: '2019-10-28T15:50Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572277852000
+    Hashtag: '#SwitchHouseFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: TXTXS
+    unitMention: '@AllHazardsTFS'
+    Final_Fire_Name: Switch House Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-28T15:50Z-PER-none-ID-2019-TXTXS-190530-NAME-SwitchHouse-S-N'
+      Code: 454abe8f806e55c61633a8a1efcb1cb192ff83f41c8f7b8c8d668378daedcdf9
