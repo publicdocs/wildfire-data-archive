@@ -92999,134 +92999,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-28T19:00Z-PER-none-ID-2019-COCJX-001713-NAME-G18-S-N'
       Code: bbe03dfe20d6506aabae87aa6f0c50f44866a1652c929e900f1cc995c7049444
-  2019-CALFD-001583:
-    Source_GEOMAC:
-      Lon: -118.79017898457656
-      Lat: 34.130004833445106
-      objectid: 14
-      latitude: 34.13
-      longitude: -118.7901667
-      acres: 618.62
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: I
-      firecause: Unknown
-      reportdatetime: '2019-10-28T19:21Z'
-      reportdatetimeEpoch: 1572290460000
-      percentcontained: 2
-      uniquefireidentifier: 2019-CALFD-001583
-      firediscoverydatetime: '2019-10-28T09:43Z'
-      firediscoverydatetimeEpoch: 1572255780000
-      complexparentirwinid: null
-      pooresponsibleunit: CALFD
-      incidentname: GETTY
-      iscomplex: 'false'
-      irwinid: '{0866B07E-CA4D-4103-B5A9-7E2D94779E84}'
-      irwinmodifiedon: '2019-10-28T20:46Z'
-      irwinmodifiedonEpoch: 1572295591000
-      mapsymbol: '1'
-      datecurrent: '2019-10-28T15:00Z'
-      datecurrentEpoch: 1572274810000
-      pooownerunit: CASMP
-      fireyear: 2019
-      localincidentidentifier: 001583
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 618.62
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-28T19:21Z'
-      ModifiedOnDateTimeEpoch: 1572290460000
-      PercentContained: 2
-      UniqueFireIdentifier: 2019-CALFD-001583
-      FireDiscoveryDateTime: '2019-10-28T09:43Z'
-      FireDiscoveryDateTimeEpoch: 1572255780000
-      Fire_Name: GETTY
-      Name: GETTY
-      Source: GEOMAC
-      Hashtag: '#GettyFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-28T21:00:10.805Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CALFD-001583
-    Lon: -118.79017898457656
-    Lat: 34.130004833445106
-    objectid: 14
-    latitude: 34.13
-    longitude: -118.7901667
-    acres: 618.62
-    gacc: OSCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: I
-    firecause: Unknown
-    reportdatetime: '2019-10-28T19:21Z'
-    reportdatetimeEpoch: 1572290460000
-    percentcontained: 2
-    uniquefireidentifier: 2019-CALFD-001583
-    firediscoverydatetime: '2019-10-28T09:43Z'
-    firediscoverydatetimeEpoch: 1572255780000
-    complexparentirwinid: null
-    pooresponsibleunit: CALFD
-    incidentname: GETTY
-    iscomplex: 'false'
-    irwinid: '{0866B07E-CA4D-4103-B5A9-7E2D94779E84}'
-    irwinmodifiedon: '2019-10-28T20:46Z'
-    irwinmodifiedonEpoch: 1572295591000
-    mapsymbol: '1'
-    datecurrent: '2019-10-28T15:00Z'
-    datecurrentEpoch: 1572274810000
-    pooownerunit: CASMP
-    fireyear: 2019
-    localincidentidentifier: 001583
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'N'
-    complexname: null
-    DailyAcres: 618.62
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-10-28T19:21Z'
-    ModifiedOnDateTimeEpoch: 1572290460000
-    PercentContained: 2
-    UniqueFireIdentifier: 2019-CALFD-001583
-    FireDiscoveryDateTime: '2019-10-28T09:43Z'
-    FireDiscoveryDateTimeEpoch: 1572255780000
-    Fire_Name: GETTY
-    Name: GETTY
-    Source: GEOMAC
-    Hashtag: '#GettyFire'
-    _CorrelationIds:
-      - 2019-CALFD-001583
-      - CALFIRE-e693477a-37d2-4aba-9e73-a63421a2b3a6
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALFD
-    unitMention: '@LAFD'
-    Final_Fire_Name: Getty Fire
-    _Update:
-      UpdateId: 'UPD-2019-10-28T19:21Z-PER-none-ID-2019-CALFD-001583-NAME-GETTY-S-G'
-      Code: c20343298d37d67c8bd6d554549ec30f64505903367dea34cec623a1ebf43d57
   2019-AZCNF-000710:
     Source_NFSA_Join:
       Lon: -110.69050812388868
@@ -93223,3 +93095,150 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-28T21:48Z-PER-none-ID-2019-AZCNF-000710-NAME-MOLINO-S-N'
       Code: a36cbae8d1eb54f72f73edc29ff7852144706f41d79f1d7e337d31e0aaa3cd2b
+  2019-CALFD-001583:
+    Source_CALFIRE:
+      Lon: -118.478717
+      Lat: 34.098191
+      incident_name: Getty Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-28T13:47Z'
+      incident_date_last_updateEpoch: 1572270427000
+      incident_date_created: '2019-10-28T13:46Z'
+      incident_date_createdEpoch: 1572270415000
+      incident_administrative_unit: Los Angeles Fire Department
+      incident_administrative_unit_url: ''
+      incident_county: Los Angeles
+      incident_location: East Sepulveda Blvd and I-405 near Los Angeles City
+      incident_acres_burned: 0
+      incident_containment: 0
+      incident_control: ''
+      incident_cooperating_agencies: Los Angeles Fire Department
+      incident_longitude: -118.478717
+      incident_latitude: 34.098191
+      incident_type: Wildfire
+      incident_id: e693477a-37d2-4aba-9e73-a63421a2b3a6
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/28/getty-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-28'
+      is_active: 'Y'
+      Fire_Name: Getty Fire
+      ModifiedOnDateTime: '2019-10-28T13:47Z'
+      ModifiedOnDateTimeEpoch: 1572270427000
+      DailyAcres: 0
+      PercentContained: 0
+      UniqueFireIdentifier: CALFIRE-e693477a-37d2-4aba-9e73-a63421a2b3a6
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/28/getty-fire/'
+      Name: Getty Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#GettyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-28T23:06:24.662Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-e693477a-37d2-4aba-9e73-a63421a2b3a6
+    Source_NFSA_Join:
+      Lon: -118.47778772625263
+      Lat: 34.10083683993276
+      id: 137968
+      Name: GETTY
+      Fire_Name: GETTY
+      UniqueFireIdentifier: 2019-CALFD-001583
+      DailyAcres: 618.62
+      PercentContained: 2
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-10-28T19:21Z'
+      ICS209ReportDateTimeEpoch: 1572290460000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1155248
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2019-10-28T09:43Z'
+      FireDiscoveryDateTimeEpoch: 1572255780000
+      DispatchCenterID: CALACC
+      LocalIncidentIdentifier: 001583
+      POOCounty: Los Angeles
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-28T19:21Z'
+      ModifiedOnDateTimeEpoch: 1572290460000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALFD-001583
+      ModifiedOnDateTime_Raw: '2019-10-28T20:46Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572295590000
+      Hashtag: '#GettyFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-28T23:06:24.650Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -118.47778772625263
+    Lat: 34.10083683993276
+    id: 137968
+    Name: GETTY
+    Fire_Name: GETTY
+    UniqueFireIdentifier: 2019-CALFD-001583
+    DailyAcres: 618.62
+    PercentContained: 2
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-10-28T19:21Z'
+    ICS209ReportDateTimeEpoch: 1572290460000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1155248
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2019-10-28T09:43Z'
+    FireDiscoveryDateTimeEpoch: 1572255780000
+    DispatchCenterID: CALACC
+    LocalIncidentIdentifier: 001583
+    POOCounty: Los Angeles
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-28T19:21Z'
+    ModifiedOnDateTimeEpoch: 1572290460000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CALFD-001583
+      - CALFIRE-e693477a-37d2-4aba-9e73-a63421a2b3a6
+    ModifiedOnDateTime_Raw: '2019-10-28T20:46Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572295590000
+    Hashtag: '#GettyFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CALFD
+    unitMention: '@LAFD'
+    Final_Fire_Name: Getty Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-28T19:21Z-PER-none-ID-2019-CALFD-001583-NAME-GETTY-S-N'
+      Code: b02e18469812c6fc587d73b922760eec6db7a2ef4daa96ef4ac924684aeb992a
