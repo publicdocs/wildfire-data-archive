@@ -88692,24 +88692,25 @@ Database:
       Source: NFSA
       _CorrelationIds:
         - 2019-COGMF-000235
-      ModifiedOnDateTime_Raw: '2019-10-27T19:57Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572206262000
+      ModifiedOnDateTime_Raw: '2019-10-28T15:42Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572277332000
       Hashtag: '#CowCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-27T20:01:05.982Z'
+          RetrievedOn: '2019-10-28T21:00:10.804Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
             headers:
               User-Agent: Request-Promise; Bot
+            timeout: 120000
             json: true
         Modified: true
     Source_GEOMAC:
       Lon: -107.60141051415535
       Lat: 38.112228019306066
-      objectid: 11
+      objectid: 10
       latitude: 38.112222
       longitude: -107.6014
       acres: 859
@@ -88718,9 +88719,9 @@ Database:
       state: CO
       status: U
       firecause: Unknown
-      reportdatetime: '2019-10-27T19:15Z'
-      reportdatetimeEpoch: 1572203700000
-      percentcontained: 15
+      reportdatetime: '2019-10-28T20:45Z'
+      reportdatetimeEpoch: 1572295500000
+      percentcontained: 20
       uniquefireidentifier: 2019-COGMF-000235
       firediscoverydatetime: '2019-10-16T12:30Z'
       firediscoverydatetimeEpoch: 1571229000000
@@ -88729,11 +88730,11 @@ Database:
       incidentname: Cow Creek
       iscomplex: 'false'
       irwinid: '{8A69C26F-3A60-4237-BA4A-834912435E97}'
-      irwinmodifiedon: '2019-10-27T19:57Z'
-      irwinmodifiedonEpoch: 1572206262000
+      irwinmodifiedon: '2019-10-28T20:57Z'
+      irwinmodifiedonEpoch: 1572296238000
       mapsymbol: '1'
-      datecurrent: '2019-10-27T14:00Z'
-      datecurrentEpoch: 1572184811000
+      datecurrent: '2019-10-28T15:00Z'
+      datecurrentEpoch: 1572274810000
       pooownerunit: COGMF
       fireyear: 2019
       localincidentidentifier: '000235'
@@ -88743,9 +88744,9 @@ Database:
       complexname: null
       DailyAcres: 859
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-27T19:15Z'
-      ModifiedOnDateTimeEpoch: 1572203700000
-      PercentContained: 15
+      ModifiedOnDateTime: '2019-10-28T20:45Z'
+      ModifiedOnDateTimeEpoch: 1572295500000
+      PercentContained: 20
       UniqueFireIdentifier: 2019-COGMF-000235
       FireDiscoveryDateTime: '2019-10-16T12:30Z'
       FireDiscoveryDateTimeEpoch: 1571229000000
@@ -88755,7 +88756,7 @@ Database:
       Hashtag: '#CowCreekFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-27T20:01:05.983Z'
+          RetrievedOn: '2019-10-28T21:00:10.805Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -88768,53 +88769,66 @@ Database:
               resultRecordCount: 10000
             headers:
               User-Agent: Request-Promise; Bot
+            timeout: 120000
             json: true
         Modified: true
       _CorrelationIds:
         - 2019-COGMF-000235
-    Lon: -107.60000710247377
-    Lat: 38.11076478090997
-    id: 136924
-    Name: Cow Creek
-    Fire_Name: Cow Creek
-    UniqueFireIdentifier: 2019-COGMF-000235
+    Lon: -107.60141051415535
+    Lat: 38.112228019306066
+    objectid: 10
+    latitude: 38.112222
+    longitude: -107.6014
+    acres: 859
+    gacc: RMCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CO
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-10-28T20:45Z'
+    reportdatetimeEpoch: 1572295500000
+    percentcontained: 20
+    uniquefireidentifier: 2019-COGMF-000235
+    firediscoverydatetime: '2019-10-16T12:30Z'
+    firediscoverydatetimeEpoch: 1571229000000
+    complexparentirwinid: null
+    pooresponsibleunit: COGMF
+    incidentname: Cow Creek
+    iscomplex: 'false'
+    irwinid: '{8A69C26F-3A60-4237-BA4A-834912435E97}'
+    irwinmodifiedon: '2019-10-28T20:57Z'
+    irwinmodifiedonEpoch: 1572296238000
+    mapsymbol: '1'
+    datecurrent: '2019-10-28T15:00Z'
+    datecurrentEpoch: 1572274810000
+    pooownerunit: COGMF
+    fireyear: 2019
+    localincidentidentifier: '000235'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'Y'
+    complexname: null
     DailyAcres: 859
-    PercentContained: 15
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-10-27T19:15Z'
-    ICS209ReportDateTimeEpoch: 1572203700000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2295000
     FireCause: Unknown
-    TotalIncidentPersonnel: 30
+    ModifiedOnDateTime: '2019-10-28T20:45Z'
+    ModifiedOnDateTimeEpoch: 1572295500000
+    PercentContained: 20
+    UniqueFireIdentifier: 2019-COGMF-000235
     FireDiscoveryDateTime: '2019-10-16T12:30Z'
     FireDiscoveryDateTimeEpoch: 1571229000000
-    DispatchCenterID: COMTC
-    LocalIncidentIdentifier: '000235'
-    POOCounty: Ouray
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-27T19:15Z'
-    ModifiedOnDateTimeEpoch: 1572203700000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Cow Creek
+    Name: Cow Creek
+    Source: GEOMAC
+    Hashtag: '#CowCreekFire'
     _CorrelationIds:
       - 2019-COGMF-000235
-    ModifiedOnDateTime_Raw: '2019-10-27T19:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572206262000
-    Hashtag: '#CowCreekFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-10-24T23:10Z'
     PerimeterData:
       DateTime: '2019-10-24T23:10Z'
       Acres: 858.65524333
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-27T20:01:12.658Z'
+          RetrievedOn: '2019-10-28T21:00:17.581Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -88827,6 +88841,7 @@ Database:
               resultRecordCount: 10000
             headers:
               User-Agent: Request-Promise; Bot
+            timeout: 120000
             json: true
         Modified: true
         SourceLayer: '2'
@@ -88835,8 +88850,8 @@ Database:
     Final_Fire_Name: Cow Creek Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-27T19:15Z-PER-2019-10-24T23:10Z-ID-2019-COGMF-000235-NAME-CowCreek-S-N
-      Code: db5dc02bffae4432680ca79b320326256285188a515ed1ee763c6cfbd477c089
+        UPD-2019-10-28T20:45Z-PER-2019-10-24T23:10Z-ID-2019-COGMF-000235-NAME-CowCreek-S-G
+      Code: e96e3117682318ef2ac00bce45d87cb0f5d9114e72fefbf839e7e6a8796fb19f
   2019-UTMLF-009311:
     Source_NFSA_Join:
       Lon: -111.30551273370259
@@ -93085,3 +93100,130 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-28T19:00Z-PER-none-ID-2019-COCJX-001713-NAME-G18-S-N'
       Code: bbe03dfe20d6506aabae87aa6f0c50f44866a1652c929e900f1cc995c7049444
+  2019-CALFD-001583:
+    Source_GEOMAC:
+      Lon: -118.79017898457656
+      Lat: 34.130004833445106
+      objectid: 14
+      latitude: 34.13
+      longitude: -118.7901667
+      acres: 618.62
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-10-28T19:21Z'
+      reportdatetimeEpoch: 1572290460000
+      percentcontained: 2
+      uniquefireidentifier: 2019-CALFD-001583
+      firediscoverydatetime: '2019-10-28T09:43Z'
+      firediscoverydatetimeEpoch: 1572255780000
+      complexparentirwinid: null
+      pooresponsibleunit: CALFD
+      incidentname: GETTY
+      iscomplex: 'false'
+      irwinid: '{0866B07E-CA4D-4103-B5A9-7E2D94779E84}'
+      irwinmodifiedon: '2019-10-28T20:46Z'
+      irwinmodifiedonEpoch: 1572295591000
+      mapsymbol: '1'
+      datecurrent: '2019-10-28T15:00Z'
+      datecurrentEpoch: 1572274810000
+      pooownerunit: CASMP
+      fireyear: 2019
+      localincidentidentifier: 001583
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 618.62
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-28T19:21Z'
+      ModifiedOnDateTimeEpoch: 1572290460000
+      PercentContained: 2
+      UniqueFireIdentifier: 2019-CALFD-001583
+      FireDiscoveryDateTime: '2019-10-28T09:43Z'
+      FireDiscoveryDateTimeEpoch: 1572255780000
+      Fire_Name: GETTY
+      Name: GETTY
+      Source: GEOMAC
+      Hashtag: '#GettyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-28T21:00:10.805Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALFD-001583
+    Lon: -118.79017898457656
+    Lat: 34.130004833445106
+    objectid: 14
+    latitude: 34.13
+    longitude: -118.7901667
+    acres: 618.62
+    gacc: OSCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CA
+    status: I
+    firecause: Unknown
+    reportdatetime: '2019-10-28T19:21Z'
+    reportdatetimeEpoch: 1572290460000
+    percentcontained: 2
+    uniquefireidentifier: 2019-CALFD-001583
+    firediscoverydatetime: '2019-10-28T09:43Z'
+    firediscoverydatetimeEpoch: 1572255780000
+    complexparentirwinid: null
+    pooresponsibleunit: CALFD
+    incidentname: GETTY
+    iscomplex: 'false'
+    irwinid: '{0866B07E-CA4D-4103-B5A9-7E2D94779E84}'
+    irwinmodifiedon: '2019-10-28T20:46Z'
+    irwinmodifiedonEpoch: 1572295591000
+    mapsymbol: '1'
+    datecurrent: '2019-10-28T15:00Z'
+    datecurrentEpoch: 1572274810000
+    pooownerunit: CASMP
+    fireyear: 2019
+    localincidentidentifier: 001583
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 618.62
+    FireCause: Unknown
+    ModifiedOnDateTime: '2019-10-28T19:21Z'
+    ModifiedOnDateTimeEpoch: 1572290460000
+    PercentContained: 2
+    UniqueFireIdentifier: 2019-CALFD-001583
+    FireDiscoveryDateTime: '2019-10-28T09:43Z'
+    FireDiscoveryDateTimeEpoch: 1572255780000
+    Fire_Name: GETTY
+    Name: GETTY
+    Source: GEOMAC
+    Hashtag: '#GettyFire'
+    _CorrelationIds:
+      - 2019-CALFD-001583
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CALFD
+    unitMention: '@LAFD'
+    Final_Fire_Name: Getty Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-28T19:21Z-PER-none-ID-2019-CALFD-001583-NAME-GETTY-S-G'
+      Code: c20343298d37d67c8bd6d554549ec30f64505903367dea34cec623a1ebf43d57
