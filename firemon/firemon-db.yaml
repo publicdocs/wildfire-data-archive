@@ -92922,3 +92922,166 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-28T16:52Z-PER-none-ID-2019-TXTXS-190530-NAME-Switchhouse-S-N'
       Code: 0d3c1588caa8693ebbb8f78fea7be26e1b637f1b53a4f53eb4b4e77e22989770
+  2019-COCJX-001713:
+    Source_NFSA_Join:
+      Lon: -105.94222912770108
+      Lat: 37.08167247933494
+      id: 138013
+      Name: G18
+      Fire_Name: G18
+      UniqueFireIdentifier: 2019-COCJX-001713
+      DailyAcres: 2183
+      PercentContained: 80
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-10-28T19:00Z'
+      ICS209ReportDateTimeEpoch: 1572289200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 0
+      FireCause: Unknown
+      TotalIncidentPersonnel: 84
+      FireDiscoveryDateTime: '2019-10-27T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1572206400000
+      DispatchCenterID: COPBC
+      LocalIncidentIdentifier: '001713'
+      POOCounty: Conejos
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-28T19:00Z'
+      ModifiedOnDateTimeEpoch: 1572289200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-COCJX-001713
+      ModifiedOnDateTime_Raw: '2019-10-28T19:52Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572292350000
+      Hashtag: '#G18Fire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-28T20:01:41.808Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -105.94223224324193
+      Lat: 37.0816726808145
+      objectid: 14
+      latitude: 37.0816667
+      longitude: -105.9422222
+      acres: 2183
+      gacc: RMCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CO
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-10-28T19:00Z'
+      reportdatetimeEpoch: 1572289200000
+      percentcontained: 80
+      uniquefireidentifier: 2019-COCJX-001713
+      firediscoverydatetime: '2019-10-27T20:00Z'
+      firediscoverydatetimeEpoch: 1572206400000
+      complexparentirwinid: null
+      pooresponsibleunit: COCJX
+      incidentname: G18
+      iscomplex: 'false'
+      irwinid: '{044FCDB3-02B4-4166-A0E2-21D01913F3ED}'
+      irwinmodifiedon: '2019-10-28T19:52Z'
+      irwinmodifiedonEpoch: 1572292350000
+      mapsymbol: '1'
+      datecurrent: '2019-10-28T14:00Z'
+      datecurrentEpoch: 1572271213000
+      pooownerunit: COCJX
+      fireyear: 2019
+      localincidentidentifier: '001713'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 2183
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-28T19:00Z'
+      ModifiedOnDateTimeEpoch: 1572289200000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-COCJX-001713
+      FireDiscoveryDateTime: '2019-10-27T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1572206400000
+      Fire_Name: G18
+      Name: G18
+      Source: GEOMAC
+      Hashtag: '#G18Fire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-28T20:01:41.809Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-COCJX-001713
+    Lon: -105.94222912770108
+    Lat: 37.08167247933494
+    id: 138013
+    Name: G18
+    Fire_Name: G18
+    UniqueFireIdentifier: 2019-COCJX-001713
+    DailyAcres: 2183
+    PercentContained: 80
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-10-28T19:00Z'
+    ICS209ReportDateTimeEpoch: 1572289200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 0
+    FireCause: Unknown
+    TotalIncidentPersonnel: 84
+    FireDiscoveryDateTime: '2019-10-27T20:00Z'
+    FireDiscoveryDateTimeEpoch: 1572206400000
+    DispatchCenterID: COPBC
+    LocalIncidentIdentifier: '001713'
+    POOCounty: Conejos
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-28T19:00Z'
+    ModifiedOnDateTimeEpoch: 1572289200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-COCJX-001713
+    ModifiedOnDateTime_Raw: '2019-10-28T19:52Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572292350000
+    Hashtag: '#G18Fire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: COCJX
+    unitMention: Conejos Co. Office
+    Final_Fire_Name: G18 Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-28T19:00Z-PER-none-ID-2019-COCJX-001713-NAME-G18-S-N'
+      Code: bbe03dfe20d6506aabae87aa6f0c50f44866a1652c929e900f1cc995c7049444
