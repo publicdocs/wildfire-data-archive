@@ -93135,7 +93135,7 @@ Database:
       Hashtag: '#GettyFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-28T23:06:24.662Z'
+          RetrievedOn: '2019-10-28T23:16:50.538Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -93185,7 +93185,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-28T23:06:24.650Z'
+          RetrievedOn: '2019-10-28T23:16:50.529Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -93194,6 +93194,73 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -118.79017898457656
+      Lat: 34.130004833445106
+      objectid: 14
+      latitude: 34.13
+      longitude: -118.7901667
+      acres: 618.62
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-10-28T19:21Z'
+      reportdatetimeEpoch: 1572290460000
+      percentcontained: 2
+      uniquefireidentifier: 2019-CALFD-001583
+      firediscoverydatetime: '2019-10-28T09:43Z'
+      firediscoverydatetimeEpoch: 1572255780000
+      complexparentirwinid: null
+      pooresponsibleunit: CALFD
+      incidentname: GETTY
+      iscomplex: 'false'
+      irwinid: '{0866B07E-CA4D-4103-B5A9-7E2D94779E84}'
+      irwinmodifiedon: '2019-10-28T20:46Z'
+      irwinmodifiedonEpoch: 1572295591000
+      mapsymbol: '1'
+      datecurrent: '2019-10-28T17:00Z'
+      datecurrentEpoch: 1572282009000
+      pooownerunit: CASMP
+      fireyear: 2019
+      localincidentidentifier: 001583
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 618.62
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-28T19:21Z'
+      ModifiedOnDateTimeEpoch: 1572290460000
+      PercentContained: 2
+      UniqueFireIdentifier: 2019-CALFD-001583
+      FireDiscoveryDateTime: '2019-10-28T09:43Z'
+      FireDiscoveryDateTimeEpoch: 1572255780000
+      Fire_Name: GETTY
+      Name: GETTY
+      Source: GEOMAC
+      Hashtag: '#GettyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-28T23:16:50.537Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALFD-001583
     Lon: -118.47778772625263
     Lat: 34.10083683993276
     id: 137968
