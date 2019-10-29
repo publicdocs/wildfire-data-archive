@@ -92406,251 +92406,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-28T23:00Z-PER-none-ID-2019-AZCNF-000710-NAME-MOLINO-S-N'
       Code: 46e151e32450d0eb6aef02fd1f63e7eda5ada9fbc0a2b8a12f45a748245cdcd8
-  2019-CALAC-326166:
-    Source_CALFIRE:
-      Lon: -118.368056
-      Lat: 34.472778
-      incident_name: Tick Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-28T15:02Z'
-      incident_date_last_updateEpoch: 1572274921000
-      incident_date_created: '2019-10-24T21:51Z'
-      incident_date_createdEpoch: 1571953906000
-      incident_administrative_unit: Los Angeles County Fire Department the Can
-      incident_administrative_unit_url: ''
-      incident_county: Los Angeles
-      incident_location: 'Tick Canyon Rd and Summit Knoll Rd, Canyon Country'
-      incident_acres_burned: 4615
-      incident_containment: 70
-      incident_control: ''
-      incident_cooperating_agencies: Los Angeles County Fire Department
-      incident_longitude: -118.368056
-      incident_latitude: 34.472778
-      incident_type: Wildfire
-      incident_id: 020310d3-7834-4f57-a125-eff0eb3f54e5
-      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/24/tick-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-24'
-      is_active: 'Y'
-      Fire_Name: Tick Fire
-      ModifiedOnDateTime: '2019-10-28T15:02Z'
-      ModifiedOnDateTimeEpoch: 1572274921000
-      DailyAcres: 4615
-      PercentContained: 70
-      UniqueFireIdentifier: CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/24/tick-fire/'
-      Name: Tick Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#TickFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-29T01:30:50.945Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
-    Source_NFSA_Join:
-      Lon: -118.36816631213154
-      Lat: 34.472914208364
-      id: 137665
-      Name: TICK
-      Fire_Name: TICK
-      UniqueFireIdentifier: 2019-CALAC-326166
-      DailyAcres: 4615
-      PercentContained: 79
-      FireMgmtComplexity: Type 2 Incident
-      IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2019-10-29T00:30Z'
-      ICS209ReportDateTimeEpoch: 1572309000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 7975000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 200
-      FireDiscoveryDateTime: '2019-10-24T20:42Z'
-      FireDiscoveryDateTimeEpoch: 1571949764000
-      DispatchCenterID: CALACC
-      LocalIncidentIdentifier: '326166'
-      POOCounty: Los Angeles
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-29T00:30Z'
-      ModifiedOnDateTimeEpoch: 1572309000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType2
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALAC-326166
-      ModifiedOnDateTime_Raw: '2019-10-29T00:39Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572309567000
-      Hashtag: '#TickFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-29T01:30:50.944Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -118.36806784308966
-      Lat: 34.47278269493159
-      objectid: 11
-      latitude: 34.4727778
-      longitude: -118.3680556
-      acres: 4615
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-29T01:00Z'
-      reportdatetimeEpoch: 1572310800000
-      percentcontained: 82
-      uniquefireidentifier: 2019-CALAC-326166
-      firediscoverydatetime: '2019-10-24T20:42Z'
-      firediscoverydatetimeEpoch: 1571949764000
-      complexparentirwinid: null
-      pooresponsibleunit: CALAC
-      incidentname: TICK
-      iscomplex: 'false'
-      irwinid: '{31A016C8-AC09-4C58-ACA3-789CFCA0B830}'
-      irwinmodifiedon: '2019-10-29T01:19Z'
-      irwinmodifiedonEpoch: 1572311992000
-      mapsymbol: '1'
-      datecurrent: '2019-10-28T19:30Z'
-      datecurrentEpoch: 1572291007000
-      pooownerunit: CAANF
-      fireyear: 2019
-      localincidentidentifier: '326166'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 4615
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-29T01:00Z'
-      ModifiedOnDateTimeEpoch: 1572310800000
-      PercentContained: 82
-      UniqueFireIdentifier: 2019-CALAC-326166
-      FireDiscoveryDateTime: '2019-10-24T20:42Z'
-      FireDiscoveryDateTimeEpoch: 1571949764000
-      Fire_Name: TICK
-      Name: TICK
-      Source: GEOMAC
-      Hashtag: '#TickFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-29T01:30:50.945Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CALAC-326166
-    Lon: -118.36806784308966
-    Lat: 34.47278269493159
-    objectid: 11
-    latitude: 34.4727778
-    longitude: -118.3680556
-    acres: 4615
-    gacc: OSCC
-    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-    state: CA
-    status: U
-    firecause: Unknown
-    reportdatetime: '2019-10-29T01:00Z'
-    reportdatetimeEpoch: 1572310800000
-    percentcontained: 82
-    uniquefireidentifier: 2019-CALAC-326166
-    firediscoverydatetime: '2019-10-24T20:42Z'
-    firediscoverydatetimeEpoch: 1571949764000
-    complexparentirwinid: null
-    pooresponsibleunit: CALAC
-    incidentname: TICK
-    iscomplex: 'false'
-    irwinid: '{31A016C8-AC09-4C58-ACA3-789CFCA0B830}'
-    irwinmodifiedon: '2019-10-29T01:19Z'
-    irwinmodifiedonEpoch: 1572311992000
-    mapsymbol: '1'
-    datecurrent: '2019-10-28T19:30Z'
-    datecurrentEpoch: 1572291007000
-    pooownerunit: CAANF
-    fireyear: 2019
-    localincidentidentifier: '326166'
-    incidenttypecategory: WF
-    owneragency: ''
-    perimexist: 'Y'
-    complexname: null
-    DailyAcres: 4615
-    FireCause: Unknown
-    ModifiedOnDateTime: '2019-10-29T01:00Z'
-    ModifiedOnDateTimeEpoch: 1572310800000
-    PercentContained: 82
-    UniqueFireIdentifier: 2019-CALAC-326166
-    FireDiscoveryDateTime: '2019-10-24T20:42Z'
-    FireDiscoveryDateTimeEpoch: 1571949764000
-    Fire_Name: TICK
-    Name: TICK
-    Source: GEOMAC
-    Hashtag: '#TickFire'
-    _CorrelationIds:
-      - 2019-CALAC-326166
-      - CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
-    PerimDateTime: '2019-10-25T00:00Z'
-    PerimeterData:
-      DateTime: '2019-10-25T00:00Z'
-      Acres: 4581.73908516
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-29T01:30:57.806Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: CALAC
-    unitMention: '@LACoFDPIO'
-    Final_Fire_Name: Tick Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-29T01:00Z-PER-2019-10-25T00:00Z-ID-2019-CALAC-326166-NAME-TICK-S-G
-      Code: f9f0314551ca52f54a45a951fe239e06b5e3170c4fa9261ccf501c5072efcb1a
   CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941:
     Source_CALFIRE:
       Lon: -122.780053
@@ -93323,3 +93078,238 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-29T01:00Z-PER-none-ID-2019-CALFD-001583-NAME-GETTY-S-N'
       Code: f28198cb19aa19893f60a6766d7ba4bf22a11b10ad98631d57a30f61f837b788
+  CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5:
+    Source_CALFIRE:
+      Lon: -118.368056
+      Lat: 34.472778
+      incident_name: Tick Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-29T02:35Z'
+      incident_date_last_updateEpoch: 1572316532000
+      incident_date_created: '2019-10-24T21:51Z'
+      incident_date_createdEpoch: 1571953906000
+      incident_administrative_unit: Los Angeles County Fire Department the Can
+      incident_administrative_unit_url: ''
+      incident_county: Los Angeles
+      incident_location: 'Tick Canyon Rd and Summit Knoll Rd, Canyon Country'
+      incident_acres_burned: 4615
+      incident_containment: 82
+      incident_control: ''
+      incident_cooperating_agencies: Los Angeles County Fire Department
+      incident_longitude: -118.368056
+      incident_latitude: 34.472778
+      incident_type: Wildfire
+      incident_id: 020310d3-7834-4f57-a125-eff0eb3f54e5
+      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/24/tick-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-24'
+      is_active: 'Y'
+      Fire_Name: Tick Fire
+      ModifiedOnDateTime: '2019-10-29T02:35Z'
+      ModifiedOnDateTimeEpoch: 1572316532000
+      DailyAcres: 4615
+      PercentContained: 82
+      UniqueFireIdentifier: CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/24/tick-fire/'
+      Name: Tick Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#TickFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:36:31.303Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
+    Source_NFSA_Join:
+      Lon: -118.36816631213154
+      Lat: 34.472914208364
+      id: 137665
+      Name: TICK
+      Fire_Name: TICK
+      UniqueFireIdentifier: 2019-CALAC-326166
+      DailyAcres: 4615
+      PercentContained: 82
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 2 Team
+      ICS209ReportDateTime: '2019-10-29T01:00Z'
+      ICS209ReportDateTimeEpoch: 1572310800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 7975000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 200
+      FireDiscoveryDateTime: '2019-10-24T20:42Z'
+      FireDiscoveryDateTimeEpoch: 1571949764000
+      DispatchCenterID: CALACC
+      LocalIncidentIdentifier: '326166'
+      POOCounty: Los Angeles
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-29T01:00Z'
+      ModifiedOnDateTimeEpoch: 1572310800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType2
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALAC-326166
+      ModifiedOnDateTime_Raw: '2019-10-29T01:19Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572311992000
+      Hashtag: '#TickFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:36:31.302Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -118.36806784308966
+      Lat: 34.47278269493159
+      objectid: 11
+      latitude: 34.4727778
+      longitude: -118.3680556
+      acres: 4615
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-29T01:00Z'
+      reportdatetimeEpoch: 1572310800000
+      percentcontained: 82
+      uniquefireidentifier: 2019-CALAC-326166
+      firediscoverydatetime: '2019-10-24T20:42Z'
+      firediscoverydatetimeEpoch: 1571949764000
+      complexparentirwinid: null
+      pooresponsibleunit: CALAC
+      incidentname: TICK
+      iscomplex: 'false'
+      irwinid: '{31A016C8-AC09-4C58-ACA3-789CFCA0B830}'
+      irwinmodifiedon: '2019-10-29T01:19Z'
+      irwinmodifiedonEpoch: 1572311992000
+      mapsymbol: '1'
+      datecurrent: '2019-10-28T20:30Z'
+      datecurrentEpoch: 1572294608000
+      pooownerunit: CAANF
+      fireyear: 2019
+      localincidentidentifier: '326166'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 4615
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-29T01:00Z'
+      ModifiedOnDateTimeEpoch: 1572310800000
+      PercentContained: 82
+      UniqueFireIdentifier: 2019-CALAC-326166
+      FireDiscoveryDateTime: '2019-10-24T20:42Z'
+      FireDiscoveryDateTimeEpoch: 1571949764000
+      Fire_Name: TICK
+      Name: TICK
+      Source: GEOMAC
+      Hashtag: '#TickFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:36:31.303Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALAC-326166
+    Lon: -118.368056
+    Lat: 34.472778
+    incident_name: Tick Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-10-29T02:35Z'
+    incident_date_last_updateEpoch: 1572316532000
+    incident_date_created: '2019-10-24T21:51Z'
+    incident_date_createdEpoch: 1571953906000
+    incident_administrative_unit: Los Angeles County Fire Department the Can
+    incident_administrative_unit_url: ''
+    incident_county: Los Angeles
+    incident_location: 'Tick Canyon Rd and Summit Knoll Rd, Canyon Country'
+    incident_acres_burned: 4615
+    incident_containment: 82
+    incident_control: ''
+    incident_cooperating_agencies: Los Angeles County Fire Department
+    incident_longitude: -118.368056
+    incident_latitude: 34.472778
+    incident_type: Wildfire
+    incident_id: 020310d3-7834-4f57-a125-eff0eb3f54e5
+    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/24/tick-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-24'
+    is_active: 'Y'
+    Fire_Name: Tick Fire
+    ModifiedOnDateTime: '2019-10-29T02:35Z'
+    ModifiedOnDateTimeEpoch: 1572316532000
+    DailyAcres: 4615
+    PercentContained: 82
+    UniqueFireIdentifier: CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
+    Link: 'https://www.fire.ca.gov/incidents/2019/10/24/tick-fire/'
+    Name: Tick Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#TickFire'
+    _CorrelationIds:
+      - 2019-CALAC-326166
+      - CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5
+    PerimDateTime: '2019-10-25T00:00Z'
+    PerimeterData:
+      DateTime: '2019-10-25T00:00Z'
+      Acres: 4581.73908516
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:36:38.094Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: 020310d3
+    unitMention: null
+    Final_Fire_Name: Tick Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-10-29T02:35Z-PER-2019-10-25T00:00Z-ID-CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5-NAME-TickFire-S-C
+      Code: 4b163ae786276481c8a1ffec64466328ff6ff0a6d4b808a20736604b0acc5cdc
