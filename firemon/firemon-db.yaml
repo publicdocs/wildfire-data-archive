@@ -92514,17 +92514,36 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1572357171000
     Hashtag: '#GettyFire'
     NFSAType: Large WF
-    PerimDateTime: null
+    PerimDateTime: '2019-10-29T00:19Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-29T00:19Z'
+      Acres: 656.52000949
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T17:58:23.691Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: CALFD
     unitMention: '@LAFD'
     Final_Fire_Name: Getty Fire
     _Update:
-      UpdateId: 'UPD-2019-10-29T13:00Z-PER-none-ID-2019-CALFD-001583-NAME-GETTY-S-N'
-      Code: af5290c1f6d17a5d7a851ab0b42303d27c3c939ed906ed2ae6f523d41787f19b
+      UpdateId: >-
+        UPD-2019-10-29T13:00Z-PER-2019-10-29T00:19Z-ID-2019-CALFD-001583-NAME-GETTY-S-N
+      Code: 863a67c4fddd288842bccff74f728256df12535bebb0c105645ade0f055b2b18
   CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e:
     Source_CALFIRE:
       Lon: -123.12887
