@@ -92990,8 +92990,8 @@ Database:
       Lat: 38.792458
       incident_name: Kincade Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-29T23:07Z'
-      incident_date_last_updateEpoch: 1572390449000
+      incident_date_last_update: '2019-10-29T23:08Z'
+      incident_date_last_updateEpoch: 1572390491000
       incident_date_created: '2019-10-24T04:27Z'
       incident_date_createdEpoch: 1571891220000
       incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
@@ -93015,8 +93015,8 @@ Database:
       incident_dateonly_created: '2019-10-23'
       is_active: 'Y'
       Fire_Name: Kincade Fire
-      ModifiedOnDateTime: '2019-10-29T23:07Z'
-      ModifiedOnDateTimeEpoch: 1572390449000
+      ModifiedOnDateTime: '2019-10-29T23:08Z'
+      ModifiedOnDateTimeEpoch: 1572390491000
       DailyAcres: 75415
       PercentContained: 15
       UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
@@ -93027,7 +93027,7 @@ Database:
       Hashtag: '#KincadeFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-29T23:08:08.314Z'
+          RetrievedOn: '2019-10-29T23:10:19.290Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -93077,7 +93077,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-29T23:08:08.313Z'
+          RetrievedOn: '2019-10-29T23:10:19.289Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -93086,12 +93086,79 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -122.76663639044507
+      Lat: 38.79620799993593
+      objectid: 10
+      latitude: 38.796203
+      longitude: -122.766623
+      acres: 75415
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-29T12:45Z'
+      reportdatetimeEpoch: 1572353100000
+      percentcontained: 15
+      uniquefireidentifier: 2019-CALNU-019376
+      firediscoverydatetime: '2019-10-24T04:24Z'
+      firediscoverydatetimeEpoch: 1571891099000
+      complexparentirwinid: null
+      pooresponsibleunit: CALNU
+      incidentname: KINCADE
+      iscomplex: 'false'
+      irwinid: '{FE8285DB-86DE-4F8C-B54E-3FE4A9F2182A}'
+      irwinmodifiedon: '2019-10-29T15:34Z'
+      irwinmodifiedonEpoch: 1572363250000
+      mapsymbol: '4'
+      datecurrent: '2019-10-29T16:30Z'
+      datecurrentEpoch: 1572366607000
+      pooownerunit: CALNU
+      fireyear: 2019
+      localincidentidentifier: 019376
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 75415
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-29T12:45Z'
+      ModifiedOnDateTimeEpoch: 1572353100000
+      PercentContained: 15
+      UniqueFireIdentifier: 2019-CALNU-019376
+      FireDiscoveryDateTime: '2019-10-24T04:24Z'
+      FireDiscoveryDateTimeEpoch: 1571891099000
+      Fire_Name: KINCADE
+      Name: KINCADE
+      Source: GEOMAC
+      Hashtag: '#KincadeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T23:10:19.290Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALNU-019376
     Lon: -122.780053
     Lat: 38.792458
     incident_name: Kincade Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-29T23:07Z'
-    incident_date_last_updateEpoch: 1572390449000
+    incident_date_last_update: '2019-10-29T23:08Z'
+    incident_date_last_updateEpoch: 1572390491000
     incident_date_created: '2019-10-24T04:27Z'
     incident_date_createdEpoch: 1571891220000
     incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
@@ -93115,8 +93182,8 @@ Database:
     incident_dateonly_created: '2019-10-23'
     is_active: 'Y'
     Fire_Name: Kincade Fire
-    ModifiedOnDateTime: '2019-10-29T23:07Z'
-    ModifiedOnDateTimeEpoch: 1572390449000
+    ModifiedOnDateTime: '2019-10-29T23:08Z'
+    ModifiedOnDateTimeEpoch: 1572390491000
     DailyAcres: 75415
     PercentContained: 15
     UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
@@ -93128,18 +93195,36 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: null
+    PerimDateTime: '2019-10-29T03:05Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-29T03:05Z'
+      Acres: 75736.489351
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T23:10:26.014Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: 809d101c
     unitMention: null
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-29T23:07Z-PER-none-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: d20ca66477d77e8941a9dd871b9c63dc3f2ac0081beba4250df06780dd04ec2c
+        UPD-2019-10-29T23:08Z-PER-2019-10-29T03:05Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: ba1b4993588962e7761c2324e60ab35a29709ad55fb8c7b080a6815149133958
     Damage:
       structuresDamaged: 23
       structuresDestroyed: 124
