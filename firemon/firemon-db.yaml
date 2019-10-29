@@ -91984,223 +91984,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-28T23:28Z-PER-none-ID-CALFIRE-b36ed23e-a3de-4aff-bdbc-d6ebf8d8f077-NAME-ForestFire-S-C
       Code: 3ad90dc3bdded477aa70f8fc8d072a68a09c8e3f10a76515e28b99c4a0d2b092
-  CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e:
-    Source_CALFIRE:
-      Lon: -123.12887
-      Lat: 39.22431
-      incident_name: Burris Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-28T14:55Z'
-      incident_date_last_updateEpoch: 1572274521000
-      incident_date_created: '2019-10-27T21:54Z'
-      incident_date_createdEpoch: 1572213280000
-      incident_administrative_unit: CAL FIRE Mendocino Unit
-      incident_administrative_unit_url: ''
-      incident_county: Mendocino
-      incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
-      incident_acres_burned: 350
-      incident_containment: 20
-      incident_control: ''
-      incident_cooperating_agencies: CAL FIRE Mendocino Unit
-      incident_longitude: -123.12887
-      incident_latitude: 39.22431
-      incident_type: Wildfire
-      incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-27'
-      is_active: 'Y'
-      Fire_Name: Burris Fire
-      ModifiedOnDateTime: '2019-10-28T14:55Z'
-      ModifiedOnDateTimeEpoch: 1572274521000
-      DailyAcres: 350
-      PercentContained: 20
-      UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-      Name: Burris Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#BurrisFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-28T14:57:45.853Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    Source_NFSA_Join:
-      Lon: -123.10256633717948
-      Lat: 39.27030682806777
-      id: 137899
-      Name: BURRIS
-      Fire_Name: BURRIS
-      UniqueFireIdentifier: 2019-CAMEU-013345
-      DailyAcres: 350
-      PercentContained: 20
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-10-28T12:45Z'
-      ICS209ReportDateTimeEpoch: 1572266700000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 800000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 1008
-      FireDiscoveryDateTime: '2019-10-27T11:24Z'
-      FireDiscoveryDateTimeEpoch: 1572175465000
-      DispatchCenterID: CAMECC
-      LocalIncidentIdentifier: '013345'
-      POOCounty: Mendocino
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-28T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572266700000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAMEU-013345
-      ModifiedOnDateTime_Raw: '2019-10-28T12:57Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572267432000
-      Hashtag: '#BurrisFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-28T14:57:45.852Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -123.10256550104226
-      Lat: 39.27030700993026
-      objectid: 13
-      latitude: 39.270302
-      longitude: -123.102552
-      acres: 350
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: I
-      firecause: Unknown
-      reportdatetime: '2019-10-28T12:45Z'
-      reportdatetimeEpoch: 1572266700000
-      percentcontained: 20
-      uniquefireidentifier: 2019-CAMEU-013345
-      firediscoverydatetime: '2019-10-27T11:24Z'
-      firediscoverydatetimeEpoch: 1572175465000
-      complexparentirwinid: null
-      pooresponsibleunit: CAMEU
-      incidentname: BURRIS
-      iscomplex: 'false'
-      irwinid: '{0F9130F8-CA50-4307-A13C-FB510389980C}'
-      irwinmodifiedon: '2019-10-28T12:57Z'
-      irwinmodifiedonEpoch: 1572267433000
-      mapsymbol: '1'
-      datecurrent: '2019-10-28T08:30Z'
-      datecurrentEpoch: 1572251418000
-      pooownerunit: CAMEU
-      fireyear: 2019
-      localincidentidentifier: '013345'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 350
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-28T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572266700000
-      PercentContained: 20
-      UniqueFireIdentifier: 2019-CAMEU-013345
-      FireDiscoveryDateTime: '2019-10-27T11:24Z'
-      FireDiscoveryDateTimeEpoch: 1572175465000
-      Fire_Name: BURRIS
-      Name: BURRIS
-      Source: GEOMAC
-      Hashtag: '#BurrisFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-28T14:57:45.853Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAMEU-013345
-    Lon: -123.12887
-    Lat: 39.22431
-    incident_name: Burris Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-10-28T14:55Z'
-    incident_date_last_updateEpoch: 1572274521000
-    incident_date_created: '2019-10-27T21:54Z'
-    incident_date_createdEpoch: 1572213280000
-    incident_administrative_unit: CAL FIRE Mendocino Unit
-    incident_administrative_unit_url: ''
-    incident_county: Mendocino
-    incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
-    incident_acres_burned: 350
-    incident_containment: 20
-    incident_control: ''
-    incident_cooperating_agencies: CAL FIRE Mendocino Unit
-    incident_longitude: -123.12887
-    incident_latitude: 39.22431
-    incident_type: Wildfire
-    incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-10-27'
-    is_active: 'Y'
-    Fire_Name: Burris Fire
-    ModifiedOnDateTime: '2019-10-28T14:55Z'
-    ModifiedOnDateTimeEpoch: 1572274521000
-    DailyAcres: 350
-    PercentContained: 20
-    UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-    Name: Burris Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#BurrisFire'
-    _CorrelationIds:
-      - 2019-CAMEU-013345
-      - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 9cc1af36
-    unitMention: null
-    Final_Fire_Name: Burris Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-28T14:55Z-PER-none-ID-CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e-NAME-BurrisFire-S-C
-      Code: 366322905f2e8bf1a070ad792f3b6ae6b8e59e3d29545465d43e27196c45c178
   2019-TXTXS-190530:
     Source_NFSA_Join:
       Lon: -98.59383942369941
@@ -92469,38 +92252,38 @@ Database:
       Fire_Name: MOLINO
       UniqueFireIdentifier: 2019-AZCNF-000710
       DailyAcres: 318
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 25
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-10-28T23:00Z'
+      ICS209ReportDateTimeEpoch: 1572303600000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 50000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 80
       FireDiscoveryDateTime: '2019-10-27T22:27Z'
       FireDiscoveryDateTimeEpoch: 1572215220000
       DispatchCenterID: AZTDC
       LocalIncidentIdentifier: '000710'
       POOCounty: Pima
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-28T21:48Z'
-      ModifiedOnDateTimeEpoch: 1572299299000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-10-28T23:00Z'
+      ModifiedOnDateTimeEpoch: 1572303600000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-AZCNF-000710
-      ModifiedOnDateTime_Raw: '2019-10-28T21:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572299299000
+      ModifiedOnDateTime_Raw: '2019-10-29T01:54Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572314086000
       Hashtag: '#MolinoFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-28T22:05:38.113Z'
+          RetrievedOn: '2019-10-29T02:00:50.330Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -92509,6 +92292,73 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -110.70441066890025
+      Lat: 32.32751502743357
+      objectid: 13
+      latitude: 32.32751
+      longitude: -110.7044
+      acres: 318
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: AZ
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-10-28T23:00Z'
+      reportdatetimeEpoch: 1572303600000
+      percentcontained: 25
+      uniquefireidentifier: 2019-AZCNF-000710
+      firediscoverydatetime: '2019-10-27T22:27Z'
+      firediscoverydatetimeEpoch: 1572215220000
+      complexparentirwinid: null
+      pooresponsibleunit: AZCNF
+      incidentname: MOLINO
+      iscomplex: 'false'
+      irwinid: '{31FA5CB7-0560-4D36-AF63-1D54B5AF339B}'
+      irwinmodifiedon: '2019-10-29T01:54Z'
+      irwinmodifiedonEpoch: 1572314087000
+      mapsymbol: '1'
+      datecurrent: '2019-10-28T20:00Z'
+      datecurrentEpoch: 1572292809000
+      pooownerunit: AZCNF
+      fireyear: 2019
+      localincidentidentifier: '000710'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 318
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-28T23:00Z'
+      ModifiedOnDateTimeEpoch: 1572303600000
+      PercentContained: 25
+      UniqueFireIdentifier: 2019-AZCNF-000710
+      FireDiscoveryDateTime: '2019-10-27T22:27Z'
+      FireDiscoveryDateTimeEpoch: 1572215220000
+      Fire_Name: MOLINO
+      Name: MOLINO
+      Source: GEOMAC
+      Hashtag: '#MolinoFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:00:50.331Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-AZCNF-000710
     Lon: -110.69050812388868
     Lat: 32.33736536911442
     id: 137947
@@ -92516,33 +92366,33 @@ Database:
     Fire_Name: MOLINO
     UniqueFireIdentifier: 2019-AZCNF-000710
     DailyAcres: 318
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 25
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-10-28T23:00Z'
+    ICS209ReportDateTimeEpoch: 1572303600000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 50000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 80
     FireDiscoveryDateTime: '2019-10-27T22:27Z'
     FireDiscoveryDateTimeEpoch: 1572215220000
     DispatchCenterID: AZTDC
     LocalIncidentIdentifier: '000710'
     POOCounty: Pima
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-28T21:48Z'
-    ModifiedOnDateTimeEpoch: 1572299299000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-10-28T23:00Z'
+    ModifiedOnDateTimeEpoch: 1572303600000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-AZCNF-000710
-    ModifiedOnDateTime_Raw: '2019-10-28T21:48Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572299299000
+    ModifiedOnDateTime_Raw: '2019-10-29T01:54Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572314086000
     Hashtag: '#MolinoFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -92554,8 +92404,8 @@ Database:
     unitMention: '@CoronadoNF'
     Final_Fire_Name: Molino Fire
     _Update:
-      UpdateId: 'UPD-2019-10-28T21:48Z-PER-none-ID-2019-AZCNF-000710-NAME-MOLINO-S-N'
-      Code: a36cbae8d1eb54f72f73edc29ff7852144706f41d79f1d7e337d31e0aaa3cd2b
+      UpdateId: 'UPD-2019-10-28T23:00Z-PER-none-ID-2019-AZCNF-000710-NAME-MOLINO-S-N'
+      Code: 46e151e32450d0eb6aef02fd1f63e7eda5ada9fbc0a2b8a12f45a748245cdcd8
   2019-CALAC-326166:
     Source_CALFIRE:
       Lon: -118.368056
@@ -93256,3 +93106,217 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-29T01:00Z-PER-none-ID-2019-CALFD-001583-NAME-GETTY-S-N'
       Code: f28198cb19aa19893f60a6766d7ba4bf22a11b10ad98631d57a30f61f837b788
+  2019-CAMEU-013345:
+    Source_CALFIRE:
+      Lon: -123.12887
+      Lat: 39.22431
+      incident_name: Burris Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-28T14:55Z'
+      incident_date_last_updateEpoch: 1572274521000
+      incident_date_created: '2019-10-27T21:54Z'
+      incident_date_createdEpoch: 1572213280000
+      incident_administrative_unit: CAL FIRE Mendocino Unit
+      incident_administrative_unit_url: ''
+      incident_county: Mendocino
+      incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
+      incident_acres_burned: 350
+      incident_containment: 20
+      incident_control: ''
+      incident_cooperating_agencies: CAL FIRE Mendocino Unit
+      incident_longitude: -123.12887
+      incident_latitude: 39.22431
+      incident_type: Wildfire
+      incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
+      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-27'
+      is_active: 'Y'
+      Fire_Name: Burris Fire
+      ModifiedOnDateTime: '2019-10-28T14:55Z'
+      ModifiedOnDateTimeEpoch: 1572274521000
+      DailyAcres: 350
+      PercentContained: 20
+      UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+      Name: Burris Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BurrisFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:00:50.331Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    Source_NFSA_Join:
+      Lon: -123.10256633717948
+      Lat: 39.27030682806777
+      id: 137899
+      Name: BURRIS
+      Fire_Name: BURRIS
+      UniqueFireIdentifier: 2019-CAMEU-013345
+      DailyAcres: 350
+      PercentContained: 50
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-10-29T01:00Z'
+      ICS209ReportDateTimeEpoch: 1572310800000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1600000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 1008
+      FireDiscoveryDateTime: '2019-10-27T11:24Z'
+      FireDiscoveryDateTimeEpoch: 1572175465000
+      DispatchCenterID: CAMECC
+      LocalIncidentIdentifier: '013345'
+      POOCounty: Mendocino
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-29T01:00Z'
+      ModifiedOnDateTimeEpoch: 1572310800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAMEU-013345
+      ModifiedOnDateTime_Raw: '2019-10-29T01:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572312921000
+      Hashtag: '#BurrisFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:00:50.330Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -123.10256550104226
+      Lat: 39.27030700993026
+      objectid: 12
+      latitude: 39.270302
+      longitude: -123.102552
+      acres: 350
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-29T01:00Z'
+      reportdatetimeEpoch: 1572310800000
+      percentcontained: 50
+      uniquefireidentifier: 2019-CAMEU-013345
+      firediscoverydatetime: '2019-10-27T11:24Z'
+      firediscoverydatetimeEpoch: 1572175465000
+      complexparentirwinid: null
+      pooresponsibleunit: CAMEU
+      incidentname: BURRIS
+      iscomplex: 'false'
+      irwinid: '{0F9130F8-CA50-4307-A13C-FB510389980C}'
+      irwinmodifiedon: '2019-10-29T01:35Z'
+      irwinmodifiedonEpoch: 1572312921000
+      mapsymbol: '1'
+      datecurrent: '2019-10-28T20:00Z'
+      datecurrentEpoch: 1572292809000
+      pooownerunit: CAMEU
+      fireyear: 2019
+      localincidentidentifier: '013345'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 350
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-29T01:00Z'
+      ModifiedOnDateTimeEpoch: 1572310800000
+      PercentContained: 50
+      UniqueFireIdentifier: 2019-CAMEU-013345
+      FireDiscoveryDateTime: '2019-10-27T11:24Z'
+      FireDiscoveryDateTimeEpoch: 1572175465000
+      Fire_Name: BURRIS
+      Name: BURRIS
+      Source: GEOMAC
+      Hashtag: '#BurrisFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-29T02:00:50.331Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAMEU-013345
+    Lon: -123.10256633717948
+    Lat: 39.27030682806777
+    id: 137899
+    Name: BURRIS
+    Fire_Name: BURRIS
+    UniqueFireIdentifier: 2019-CAMEU-013345
+    DailyAcres: 350
+    PercentContained: 50
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-10-29T01:00Z'
+    ICS209ReportDateTimeEpoch: 1572310800000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1600000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 1008
+    FireDiscoveryDateTime: '2019-10-27T11:24Z'
+    FireDiscoveryDateTimeEpoch: 1572175465000
+    DispatchCenterID: CAMECC
+    LocalIncidentIdentifier: '013345'
+    POOCounty: Mendocino
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-29T01:00Z'
+    ModifiedOnDateTimeEpoch: 1572310800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CAMEU-013345
+      - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    ModifiedOnDateTime_Raw: '2019-10-29T01:35Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572312921000
+    Hashtag: '#BurrisFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CAMEU
+    unitMention: Mendocino Unit
+    Final_Fire_Name: Burris Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-29T01:00Z-PER-none-ID-2019-CAMEU-013345-NAME-BURRIS-S-N'
+      Code: 59c80e38d4d72207bdef490b9561244c9cbf1883d719a090742f5504d7390fe0
