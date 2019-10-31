@@ -93449,13 +93449,13 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: '2019-10-30T02:29Z'
+    PerimDateTime: '2019-10-31T01:13Z'
     PerimeterData:
-      DateTime: '2019-10-30T02:29Z'
-      Acres: 77737.8142189
+      DateTime: '2019-10-31T01:13Z'
+      Acres: 77760.703483
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-31T15:43:30.455Z'
+          RetrievedOn: '2019-10-31T16:45:15.652Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -93477,8 +93477,8 @@ Database:
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-31T15:42Z-PER-2019-10-30T02:29Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: cbc94645bd24db8a61482478dfc2e414e02e9960a31ff0a998df73e3593ac9d1
+        UPD-2019-10-31T15:42Z-PER-2019-10-31T01:13Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: beffaf0e73bd6bc192d2f7842d50ce675564f3ff2c5d09f2191c2cebbd05c248
     Damage:
       structuresDamaged: 47
       structuresDestroyed: 266
@@ -93621,18 +93621,36 @@ Database:
     _CorrelationIds:
       - 2019-CAMEU-013345
       - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    PerimDateTime: null
+    PerimDateTime: '2019-10-30T18:08Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-10-30T18:08Z'
+      Acres: 703.35580616
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T16:45:16.621Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '3'
     unitId: 9cc1af36
     unitMention: null
     Final_Fire_Name: Burris Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-31T14:28Z-PER-none-ID-CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e-NAME-BurrisFire-S-C
-      Code: 0e85eaa95dd5b09bcd2b6b5c9cdf888ce0163dfdd1f4d6cbef70b7a0ebcf4a26
+        UPD-2019-10-31T14:28Z-PER-2019-10-30T18:08Z-ID-CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e-NAME-BurrisFire-S-C
+      Code: 2f2e6e2a6c9e00b05cb85a222c5f1068df68bb07484f97caafd9230f8cbf2316
   CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69:
     Source_CALFIRE:
       Lon: -117.4625
