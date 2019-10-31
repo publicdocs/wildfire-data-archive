@@ -92626,468 +92626,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-30T00:12Z-PER-none-ID-2019-WASPD-000645-NAME-MILEPOST20-S-N'
       Code: aab3864f9f017ce74bf94ba6714b3c4cd13cbbcefd88b0df78a9cc37924d36ad
-  CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941:
-    Source_CALFIRE:
-      Lon: -122.780053
-      Lat: 38.792458
-      incident_name: Kincade Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-30T14:04Z'
-      incident_date_last_updateEpoch: 1572444278000
-      incident_date_created: '2019-10-24T04:27Z'
-      incident_date_createdEpoch: 1571891220000
-      incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
-      incident_administrative_unit_url: ''
-      incident_county: Sonoma
-      incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
-      incident_acres_burned: 76825
-      incident_containment: 30
-      incident_control: ''
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: Cooperating Agencies: Geyserville Fire Protection
-        District, Numerous Sonoma County Fire Agencies, CDCR, Cal OES, CHP, CCC,
-        Sonoma County Sheriff’s Department, BIA, BLM, California National Guard.
-      incident_longitude: -122.780053
-      incident_latitude: 38.792458
-      incident_type: Wildfire
-      incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-23'
-      is_active: 'Y'
-      Fire_Name: Kincade Fire
-      ModifiedOnDateTime: '2019-10-30T14:04Z'
-      ModifiedOnDateTimeEpoch: 1572444278000
-      DailyAcres: 76825
-      PercentContained: 30
-      UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
-      Name: Kincade Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#KincadeFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T14:05:58.539Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    Source_NFSA_Join:
-      Lon: -122.76663235353014
-      Lat: 38.79620789503068
-      id: 137568
-      Name: KINCADE
-      Fire_Name: KINCADE
-      UniqueFireIdentifier: 2019-CALNU-019376
-      DailyAcres: 76825
-      PercentContained: 30
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2019-10-30T12:45Z'
-      ICS209ReportDateTimeEpoch: 1572439500000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 34385750
-      FireCause: Unknown
-      TotalIncidentPersonnel: 5001
-      FireDiscoveryDateTime: '2019-10-24T04:24Z'
-      FireDiscoveryDateTimeEpoch: 1571891099000
-      DispatchCenterID: CALNCC
-      LocalIncidentIdentifier: 019376
-      POOCounty: Sonoma
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-30T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572439500000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALNU-019376
-      ModifiedOnDateTime_Raw: '2019-10-30T12:49Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572439789000
-      Hashtag: '#KincadeFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T14:05:58.537Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -122.76663639044507
-      Lat: 38.79620799993593
-      objectid: 10
-      latitude: 38.796203
-      longitude: -122.766623
-      acres: 76825
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-30T12:45Z'
-      reportdatetimeEpoch: 1572439500000
-      percentcontained: 30
-      uniquefireidentifier: 2019-CALNU-019376
-      firediscoverydatetime: '2019-10-24T04:24Z'
-      firediscoverydatetimeEpoch: 1571891099000
-      complexparentirwinid: null
-      pooresponsibleunit: CALNU
-      incidentname: KINCADE
-      iscomplex: 'false'
-      irwinid: '{FE8285DB-86DE-4F8C-B54E-3FE4A9F2182A}'
-      irwinmodifiedon: '2019-10-30T12:49Z'
-      irwinmodifiedonEpoch: 1572439789000
-      mapsymbol: '4'
-      datecurrent: '2019-10-30T07:30Z'
-      datecurrentEpoch: 1572420609000
-      pooownerunit: CALNU
-      fireyear: 2019
-      localincidentidentifier: 019376
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 76825
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-30T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572439500000
-      PercentContained: 30
-      UniqueFireIdentifier: 2019-CALNU-019376
-      FireDiscoveryDateTime: '2019-10-24T04:24Z'
-      FireDiscoveryDateTimeEpoch: 1571891099000
-      Fire_Name: KINCADE
-      Name: KINCADE
-      Source: GEOMAC
-      Hashtag: '#KincadeFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T14:05:58.538Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CALNU-019376
-    Lon: -122.780053
-    Lat: 38.792458
-    incident_name: Kincade Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-10-30T14:04Z'
-    incident_date_last_updateEpoch: 1572444278000
-    incident_date_created: '2019-10-24T04:27Z'
-    incident_date_createdEpoch: 1571891220000
-    incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
-    incident_administrative_unit_url: ''
-    incident_county: Sonoma
-    incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
-    incident_acres_burned: 76825
-    incident_containment: 30
-    incident_control: ''
-    incident_cooperating_agencies: >-
-      Cooperating Agencies: Cooperating Agencies: Geyserville Fire Protection
-      District, Numerous Sonoma County Fire Agencies, CDCR, Cal OES, CHP, CCC,
-      Sonoma County Sheriff’s Department, BIA, BLM, California National Guard.
-    incident_longitude: -122.780053
-    incident_latitude: 38.792458
-    incident_type: Wildfire
-    incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-10-23'
-    is_active: 'Y'
-    Fire_Name: Kincade Fire
-    ModifiedOnDateTime: '2019-10-30T14:04Z'
-    ModifiedOnDateTimeEpoch: 1572444278000
-    DailyAcres: 76825
-    PercentContained: 30
-    UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    Link: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
-    Name: Kincade Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#KincadeFire'
-    _CorrelationIds:
-      - 2019-CALNU-019376
-      - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: '2019-10-30T02:29Z'
-    PerimeterData:
-      DateTime: '2019-10-30T02:29Z'
-      Acres: 77737.8142189
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T15:54:18.685Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: 809d101c
-    unitMention: null
-    Final_Fire_Name: Kincade Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-30T14:04Z-PER-2019-10-30T02:29Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: ec98d50d81c763209e6df4f96088ffad73096aa90e5f923fd0a01b85de777009
-    Damage:
-      structuresDamaged: 40
-      structuresDestroyed: 206
-      injuries: 2
-  CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e:
-    Source_CALFIRE:
-      Lon: -123.12887
-      Lat: 39.22431
-      incident_name: Burris Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-30T14:10Z'
-      incident_date_last_updateEpoch: 1572444657000
-      incident_date_created: '2019-10-27T21:54Z'
-      incident_date_createdEpoch: 1572213280000
-      incident_administrative_unit: CAL FIRE Mendocino Unit
-      incident_administrative_unit_url: ''
-      incident_county: Mendocino
-      incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
-      incident_acres_burned: 703
-      incident_containment: 85
-      incident_control: ''
-      incident_cooperating_agencies: CAL FIRE Mendocino Unit
-      incident_longitude: -123.12887
-      incident_latitude: 39.22431
-      incident_type: Wildfire
-      incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-27'
-      is_active: 'Y'
-      Fire_Name: Burris Fire
-      ModifiedOnDateTime: '2019-10-30T14:10Z'
-      ModifiedOnDateTimeEpoch: 1572444657000
-      DailyAcres: 703
-      PercentContained: 85
-      UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-      Name: Burris Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#BurrisFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T14:12:02.347Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    Source_NFSA_Join:
-      Lon: -123.10256633717948
-      Lat: 39.27030682806777
-      id: 137899
-      Name: BURRIS
-      Fire_Name: BURRIS
-      UniqueFireIdentifier: 2019-CAMEU-013345
-      DailyAcres: 703
-      PercentContained: 85
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-10-30T12:30Z'
-      ICS209ReportDateTimeEpoch: 1572438600000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2000000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 962
-      FireDiscoveryDateTime: '2019-10-27T11:24Z'
-      FireDiscoveryDateTimeEpoch: 1572175465000
-      DispatchCenterID: CAMECC
-      LocalIncidentIdentifier: '013345'
-      POOCounty: Mendocino
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-30T12:30Z'
-      ModifiedOnDateTimeEpoch: 1572438600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAMEU-013345
-      ModifiedOnDateTime_Raw: '2019-10-30T12:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572440206000
-      Hashtag: '#BurrisFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T14:12:02.346Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -123.10256550104226
-      Lat: 39.27030700993026
-      objectid: 11
-      latitude: 39.270302
-      longitude: -123.102552
-      acres: 703
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-30T12:30Z'
-      reportdatetimeEpoch: 1572438600000
-      percentcontained: 85
-      uniquefireidentifier: 2019-CAMEU-013345
-      firediscoverydatetime: '2019-10-27T11:24Z'
-      firediscoverydatetimeEpoch: 1572175465000
-      complexparentirwinid: null
-      pooresponsibleunit: CAMEU
-      incidentname: BURRIS
-      iscomplex: 'false'
-      irwinid: '{0F9130F8-CA50-4307-A13C-FB510389980C}'
-      irwinmodifiedon: '2019-10-30T12:56Z'
-      irwinmodifiedonEpoch: 1572440207000
-      mapsymbol: '1'
-      datecurrent: '2019-10-30T07:30Z'
-      datecurrentEpoch: 1572420609000
-      pooownerunit: CAMEU
-      fireyear: 2019
-      localincidentidentifier: '013345'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 703
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-30T12:30Z'
-      ModifiedOnDateTimeEpoch: 1572438600000
-      PercentContained: 85
-      UniqueFireIdentifier: 2019-CAMEU-013345
-      FireDiscoveryDateTime: '2019-10-27T11:24Z'
-      FireDiscoveryDateTimeEpoch: 1572175465000
-      Fire_Name: BURRIS
-      Name: BURRIS
-      Source: GEOMAC
-      Hashtag: '#BurrisFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T14:12:02.347Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CAMEU-013345
-    Lon: -123.12887
-    Lat: 39.22431
-    incident_name: Burris Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-10-30T14:10Z'
-    incident_date_last_updateEpoch: 1572444657000
-    incident_date_created: '2019-10-27T21:54Z'
-    incident_date_createdEpoch: 1572213280000
-    incident_administrative_unit: CAL FIRE Mendocino Unit
-    incident_administrative_unit_url: ''
-    incident_county: Mendocino
-    incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
-    incident_acres_burned: 703
-    incident_containment: 85
-    incident_control: ''
-    incident_cooperating_agencies: CAL FIRE Mendocino Unit
-    incident_longitude: -123.12887
-    incident_latitude: 39.22431
-    incident_type: Wildfire
-    incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-10-27'
-    is_active: 'Y'
-    Fire_Name: Burris Fire
-    ModifiedOnDateTime: '2019-10-30T14:10Z'
-    ModifiedOnDateTimeEpoch: 1572444657000
-    DailyAcres: 703
-    PercentContained: 85
-    UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-    Name: Burris Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#BurrisFire'
-    _CorrelationIds:
-      - 2019-CAMEU-013345
-      - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 9cc1af36
-    unitMention: null
-    Final_Fire_Name: Burris Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-30T14:10Z-PER-none-ID-CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e-NAME-BurrisFire-S-C
-      Code: 4f2209786a3c0f8257d0b61640b90a07c7202695f21ebb5de438d642b41c2fca
   CALFIRE-00e6d6d5-f168-45fa-817a-f7758a5170b7:
     Source_CALFIRE:
       Lon: -118.803389
@@ -93189,107 +92727,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-30T19:57Z-PER-none-ID-CALFIRE-00e6d6d5-f168-45fa-817a-f7758a5170b7-NAME-EasyFire-S-C
       Code: b5e85733b6c8c07f96f1ef728ee19a9cc1adcc0c70dffbd3b615b273129c74c9
-  CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69:
-    Source_CALFIRE:
-      Lon: -117.4625
-      Lat: 34.01778
-      incident_name: Hill Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-30T21:11Z'
-      incident_date_last_updateEpoch: 1572469901000
-      incident_date_created: '2019-10-30T18:19Z'
-      incident_date_createdEpoch: 1572459540000
-      incident_administrative_unit: CAL FIRE Riverside County Fire Department
-      incident_administrative_unit_url: ''
-      incident_county: Riverside
-      incident_location: 'Granite Valley and Pyrite Street, in Jurupa Valley'
-      incident_acres_burned: 200
-      incident_containment: 5
-      incident_control: ''
-      incident_cooperating_agencies: 'CAL FIRE: Riverside County Fire Department'
-      incident_longitude: -117.4625
-      incident_latitude: 34.01778
-      incident_type: Wildfire
-      incident_id: 8f23653c-1a4c-4609-bfb3-72b1665eab69
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-30'
-      is_active: 'Y'
-      Fire_Name: Hill Fire
-      ModifiedOnDateTime: '2019-10-30T21:11Z'
-      ModifiedOnDateTimeEpoch: 1572469901000
-      DailyAcres: 200
-      PercentContained: 5
-      UniqueFireIdentifier: CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-      Name: Hill Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#HillFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T21:12:16.736Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-    Lon: -117.4625
-    Lat: 34.01778
-    incident_name: Hill Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-10-30T21:11Z'
-    incident_date_last_updateEpoch: 1572469901000
-    incident_date_created: '2019-10-30T18:19Z'
-    incident_date_createdEpoch: 1572459540000
-    incident_administrative_unit: CAL FIRE Riverside County Fire Department
-    incident_administrative_unit_url: ''
-    incident_county: Riverside
-    incident_location: 'Granite Valley and Pyrite Street, in Jurupa Valley'
-    incident_acres_burned: 200
-    incident_containment: 5
-    incident_control: ''
-    incident_cooperating_agencies: 'CAL FIRE: Riverside County Fire Department'
-    incident_longitude: -117.4625
-    incident_latitude: 34.01778
-    incident_type: Wildfire
-    incident_id: 8f23653c-1a4c-4609-bfb3-72b1665eab69
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-10-30'
-    is_active: 'Y'
-    Fire_Name: Hill Fire
-    ModifiedOnDateTime: '2019-10-30T21:11Z'
-    ModifiedOnDateTimeEpoch: 1572469901000
-    DailyAcres: 200
-    PercentContained: 5
-    UniqueFireIdentifier: CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-    Link: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-    Name: Hill Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#HillFire'
-    _CorrelationIds:
-      - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 8f23653c
-    unitMention: null
-    Final_Fire_Name: Hill Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-30T21:11Z-PER-none-ID-CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69-NAME-HillFire-S-C
-      Code: d3d5b328b069a8b127c0bccccc5920f993316aa67645ca0c47f228db8e78a9a0
   2019-CALAC-326166:
     Source_CALFIRE:
       Lon: -118.368056
@@ -93456,3 +92893,600 @@ Database:
       UpdateId: >-
         UPD-2019-10-31T00:00Z-PER-2019-10-25T00:00Z-ID-2019-CALAC-326166-NAME-TICK-S-N
       Code: e58bf0c661359eb509fd48bb030b2d3835ca0759e9e168f6746e86d6760ca765
+  2019-CALNU-019376:
+    Source_CALFIRE:
+      Lon: -122.780053
+      Lat: 38.792458
+      incident_name: Kincade Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-30T14:04Z'
+      incident_date_last_updateEpoch: 1572444278000
+      incident_date_created: '2019-10-24T04:27Z'
+      incident_date_createdEpoch: 1571891220000
+      incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
+      incident_administrative_unit_url: ''
+      incident_county: Sonoma
+      incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
+      incident_acres_burned: 76825
+      incident_containment: 30
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: Cooperating Agencies: Geyserville Fire Protection
+        District, Numerous Sonoma County Fire Agencies, CDCR, Cal OES, CHP, CCC,
+        Sonoma County Sheriff’s Department, BIA, BLM, California National Guard.
+      incident_longitude: -122.780053
+      incident_latitude: 38.792458
+      incident_type: Wildfire
+      incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-23'
+      is_active: 'Y'
+      Fire_Name: Kincade Fire
+      ModifiedOnDateTime: '2019-10-30T14:04Z'
+      ModifiedOnDateTimeEpoch: 1572444278000
+      DailyAcres: 76825
+      PercentContained: 30
+      UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+      Name: Kincade Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#KincadeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.351Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+    Source_NFSA_Join:
+      Lon: -122.76663235353014
+      Lat: 38.79620789503068
+      id: 137568
+      Name: KINCADE
+      Fire_Name: KINCADE
+      UniqueFireIdentifier: 2019-CALNU-019376
+      DailyAcres: 76825
+      PercentContained: 45
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2019-10-30T23:45Z'
+      ICS209ReportDateTimeEpoch: 1572479100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 40579100
+      FireCause: Unknown
+      TotalIncidentPersonnel: 5245
+      FireDiscoveryDateTime: '2019-10-24T04:24Z'
+      FireDiscoveryDateTimeEpoch: 1571891099000
+      DispatchCenterID: CALNCC
+      LocalIncidentIdentifier: 019376
+      POOCounty: Sonoma
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-30T23:45Z'
+      ModifiedOnDateTimeEpoch: 1572479100000
+      ModifiedBySystem: cfcad
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALNU-019376
+      ModifiedOnDateTime_Raw: '2019-10-31T00:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572483461000
+      Hashtag: '#KincadeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.349Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -122.76663639044507
+      Lat: 38.79620799993593
+      objectid: 10
+      latitude: 38.796203
+      longitude: -122.766623
+      acres: 76825
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-30T12:45Z'
+      reportdatetimeEpoch: 1572439500000
+      percentcontained: 30
+      uniquefireidentifier: 2019-CALNU-019376
+      firediscoverydatetime: '2019-10-24T04:24Z'
+      firediscoverydatetimeEpoch: 1571891099000
+      complexparentirwinid: null
+      pooresponsibleunit: CALNU
+      incidentname: KINCADE
+      iscomplex: 'false'
+      irwinid: '{FE8285DB-86DE-4F8C-B54E-3FE4A9F2182A}'
+      irwinmodifiedon: '2019-10-30T19:24Z'
+      irwinmodifiedonEpoch: 1572463459000
+      mapsymbol: '4'
+      datecurrent: '2019-10-30T18:30Z'
+      datecurrentEpoch: 1572460212000
+      pooownerunit: CALNU
+      fireyear: 2019
+      localincidentidentifier: 019376
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 76825
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-30T12:45Z'
+      ModifiedOnDateTimeEpoch: 1572439500000
+      PercentContained: 30
+      UniqueFireIdentifier: 2019-CALNU-019376
+      FireDiscoveryDateTime: '2019-10-24T04:24Z'
+      FireDiscoveryDateTimeEpoch: 1571891099000
+      Fire_Name: KINCADE
+      Name: KINCADE
+      Source: GEOMAC
+      Hashtag: '#KincadeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.350Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALNU-019376
+    Lon: -122.76663235353014
+    Lat: 38.79620789503068
+    id: 137568
+    Name: KINCADE
+    Fire_Name: KINCADE
+    UniqueFireIdentifier: 2019-CALNU-019376
+    DailyAcres: 76825
+    PercentContained: 45
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: Type 1 Team
+    ICS209ReportDateTime: '2019-10-30T23:45Z'
+    ICS209ReportDateTimeEpoch: 1572479100000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 40579100
+    FireCause: Unknown
+    TotalIncidentPersonnel: 5245
+    FireDiscoveryDateTime: '2019-10-24T04:24Z'
+    FireDiscoveryDateTimeEpoch: 1571891099000
+    DispatchCenterID: CALNCC
+    LocalIncidentIdentifier: 019376
+    POOCounty: Sonoma
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-30T23:45Z'
+    ModifiedOnDateTimeEpoch: 1572479100000
+    ModifiedBySystem: cfcad
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CALNU-019376
+      - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+    ModifiedOnDateTime_Raw: '2019-10-31T00:57Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572483461000
+    Hashtag: '#KincadeFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-10-30T02:29Z'
+    PerimeterData:
+      DateTime: '2019-10-30T02:29Z'
+      Acres: 77737.8142189
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:44.773Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: CALNU
+    unitMention: Sonoma-Lake Napa Unit
+    Final_Fire_Name: Kincade Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-10-30T23:45Z-PER-2019-10-30T02:29Z-ID-2019-CALNU-019376-NAME-KINCADE-S-N
+      Code: f3912111d92a931d2010e8bd5ef2941f01904d134d988104f38387c86c8b128e
+  2019-CAMEU-013345:
+    Source_CALFIRE:
+      Lon: -123.12887
+      Lat: 39.22431
+      incident_name: Burris Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-30T14:10Z'
+      incident_date_last_updateEpoch: 1572444657000
+      incident_date_created: '2019-10-27T21:54Z'
+      incident_date_createdEpoch: 1572213280000
+      incident_administrative_unit: CAL FIRE Mendocino Unit
+      incident_administrative_unit_url: ''
+      incident_county: Mendocino
+      incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
+      incident_acres_burned: 703
+      incident_containment: 85
+      incident_control: ''
+      incident_cooperating_agencies: CAL FIRE Mendocino Unit
+      incident_longitude: -123.12887
+      incident_latitude: 39.22431
+      incident_type: Wildfire
+      incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-27'
+      is_active: 'Y'
+      Fire_Name: Burris Fire
+      ModifiedOnDateTime: '2019-10-30T14:10Z'
+      ModifiedOnDateTimeEpoch: 1572444657000
+      DailyAcres: 703
+      PercentContained: 85
+      UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+      Name: Burris Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BurrisFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.351Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    Source_NFSA_Join:
+      Lon: -123.10256633717948
+      Lat: 39.27030682806777
+      id: 137899
+      Name: BURRIS
+      Fire_Name: BURRIS
+      UniqueFireIdentifier: 2019-CAMEU-013345
+      DailyAcres: 703
+      PercentContained: 90
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-10-31T00:15Z'
+      ICS209ReportDateTimeEpoch: 1572480900000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 2000000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 304
+      FireDiscoveryDateTime: '2019-10-27T11:24Z'
+      FireDiscoveryDateTimeEpoch: 1572175465000
+      DispatchCenterID: CAMECC
+      LocalIncidentIdentifier: '013345'
+      POOCounty: Mendocino
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-31T00:15Z'
+      ModifiedOnDateTimeEpoch: 1572480900000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAMEU-013345
+      ModifiedOnDateTime_Raw: '2019-10-31T00:43Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572482633000
+      Hashtag: '#BurrisFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.349Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -123.10256550104226
+      Lat: 39.27030700993026
+      objectid: 11
+      latitude: 39.270302
+      longitude: -123.102552
+      acres: 703
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-30T12:30Z'
+      reportdatetimeEpoch: 1572438600000
+      percentcontained: 85
+      uniquefireidentifier: 2019-CAMEU-013345
+      firediscoverydatetime: '2019-10-27T11:24Z'
+      firediscoverydatetimeEpoch: 1572175465000
+      complexparentirwinid: null
+      pooresponsibleunit: CAMEU
+      incidentname: BURRIS
+      iscomplex: 'false'
+      irwinid: '{0F9130F8-CA50-4307-A13C-FB510389980C}'
+      irwinmodifiedon: '2019-10-30T12:56Z'
+      irwinmodifiedonEpoch: 1572440207000
+      mapsymbol: '1'
+      datecurrent: '2019-10-30T18:30Z'
+      datecurrentEpoch: 1572460212000
+      pooownerunit: CAMEU
+      fireyear: 2019
+      localincidentidentifier: '013345'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 703
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-30T12:30Z'
+      ModifiedOnDateTimeEpoch: 1572438600000
+      PercentContained: 85
+      UniqueFireIdentifier: 2019-CAMEU-013345
+      FireDiscoveryDateTime: '2019-10-27T11:24Z'
+      FireDiscoveryDateTimeEpoch: 1572175465000
+      Fire_Name: BURRIS
+      Name: BURRIS
+      Source: GEOMAC
+      Hashtag: '#BurrisFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.350Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CAMEU-013345
+    Lon: -123.10256633717948
+    Lat: 39.27030682806777
+    id: 137899
+    Name: BURRIS
+    Fire_Name: BURRIS
+    UniqueFireIdentifier: 2019-CAMEU-013345
+    DailyAcres: 703
+    PercentContained: 90
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2019-10-31T00:15Z'
+    ICS209ReportDateTimeEpoch: 1572480900000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 2000000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 304
+    FireDiscoveryDateTime: '2019-10-27T11:24Z'
+    FireDiscoveryDateTimeEpoch: 1572175465000
+    DispatchCenterID: CAMECC
+    LocalIncidentIdentifier: '013345'
+    POOCounty: Mendocino
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-31T00:15Z'
+    ModifiedOnDateTimeEpoch: 1572480900000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CAMEU-013345
+      - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    ModifiedOnDateTime_Raw: '2019-10-31T00:43Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572482633000
+    Hashtag: '#BurrisFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CAMEU
+    unitMention: Mendocino Unit
+    Final_Fire_Name: Burris Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-31T00:15Z-PER-none-ID-2019-CAMEU-013345-NAME-BURRIS-S-N'
+      Code: f8cbdec0e69fc021761c632eba21882ea6be60fdf5889730505488a37178842a
+  2019-CARRU-139654:
+    Source_CALFIRE:
+      Lon: -117.4625
+      Lat: 34.01778
+      incident_name: Hill Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-30T21:11Z'
+      incident_date_last_updateEpoch: 1572469901000
+      incident_date_created: '2019-10-30T18:19Z'
+      incident_date_createdEpoch: 1572459540000
+      incident_administrative_unit: CAL FIRE Riverside County Fire Department
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: 'Granite Valley and Pyrite Street, in Jurupa Valley'
+      incident_acres_burned: 200
+      incident_containment: 5
+      incident_control: ''
+      incident_cooperating_agencies: 'CAL FIRE: Riverside County Fire Department'
+      incident_longitude: -117.4625
+      incident_latitude: 34.01778
+      incident_type: Wildfire
+      incident_id: 8f23653c-1a4c-4609-bfb3-72b1665eab69
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-30'
+      is_active: 'Y'
+      Fire_Name: Hill Fire
+      ModifiedOnDateTime: '2019-10-30T21:11Z'
+      ModifiedOnDateTimeEpoch: 1572469901000
+      DailyAcres: 200
+      PercentContained: 5
+      UniqueFireIdentifier: CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
+      Name: Hill Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HillFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.351Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
+    Source_NFSA_Join:
+      Lon: -117.46237704484814
+      Lat: 34.01781204928182
+      id: 138193
+      Name: HILL
+      Fire_Name: HILL
+      UniqueFireIdentifier: 2019-CARRU-139654
+      DailyAcres: 300
+      PercentContained: 15
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-10-31T00:30Z'
+      ICS209ReportDateTimeEpoch: 1572481800000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 300000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 297
+      FireDiscoveryDateTime: '2019-10-30T17:00Z'
+      FireDiscoveryDateTimeEpoch: 1572454854000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '139654'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-31T00:30Z'
+      ModifiedOnDateTimeEpoch: 1572481800000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CARRU-139654
+      ModifiedOnDateTime_Raw: '2019-10-31T00:43Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572482627000
+      Hashtag: '#HillFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T01:01:38.349Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -117.46237704484814
+    Lat: 34.01781204928182
+    id: 138193
+    Name: HILL
+    Fire_Name: HILL
+    UniqueFireIdentifier: 2019-CARRU-139654
+    DailyAcres: 300
+    PercentContained: 15
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-10-31T00:30Z'
+    ICS209ReportDateTimeEpoch: 1572481800000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 300000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 297
+    FireDiscoveryDateTime: '2019-10-30T17:00Z'
+    FireDiscoveryDateTimeEpoch: 1572454854000
+    DispatchCenterID: CARRCC
+    LocalIncidentIdentifier: '139654'
+    POOCounty: Riverside
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-31T00:30Z'
+    ModifiedOnDateTimeEpoch: 1572481800000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CARRU-139654
+      - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
+    ModifiedOnDateTime_Raw: '2019-10-31T00:43Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572482627000
+    Hashtag: '#HillFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CARRU
+    unitMention: '@CALFIRERRU'
+    Final_Fire_Name: Hill Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-31T00:30Z-PER-none-ID-2019-CARRU-139654-NAME-HILL-S-N'
+      Code: d4d0cc43702ea07a8db47ac93a89f927f414937bbfc53ee44f5f147524808dcc
