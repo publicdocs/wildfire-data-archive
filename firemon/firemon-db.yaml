@@ -92893,242 +92893,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-31T00:00Z-PER-2019-10-25T00:00Z-ID-2019-CALAC-326166-NAME-TICK-S-N
       Code: e58bf0c661359eb509fd48bb030b2d3835ca0759e9e168f6746e86d6760ca765
-  2019-CALNU-019376:
-    Source_CALFIRE:
-      Lon: -122.780053
-      Lat: 38.792458
-      incident_name: Kincade Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-30T14:04Z'
-      incident_date_last_updateEpoch: 1572444278000
-      incident_date_created: '2019-10-24T04:27Z'
-      incident_date_createdEpoch: 1571891220000
-      incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
-      incident_administrative_unit_url: ''
-      incident_county: Sonoma
-      incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
-      incident_acres_burned: 76825
-      incident_containment: 30
-      incident_control: ''
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: Cooperating Agencies: Geyserville Fire Protection
-        District, Numerous Sonoma County Fire Agencies, CDCR, Cal OES, CHP, CCC,
-        Sonoma County Sheriff’s Department, BIA, BLM, California National Guard.
-      incident_longitude: -122.780053
-      incident_latitude: 38.792458
-      incident_type: Wildfire
-      incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-23'
-      is_active: 'Y'
-      Fire_Name: Kincade Fire
-      ModifiedOnDateTime: '2019-10-30T14:04Z'
-      ModifiedOnDateTimeEpoch: 1572444278000
-      DailyAcres: 76825
-      PercentContained: 30
-      UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
-      Name: Kincade Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#KincadeFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T01:01:38.351Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    Source_NFSA_Join:
-      Lon: -122.76663235353014
-      Lat: 38.79620789503068
-      id: 137568
-      Name: KINCADE
-      Fire_Name: KINCADE
-      UniqueFireIdentifier: 2019-CALNU-019376
-      DailyAcres: 76825
-      PercentContained: 45
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2019-10-30T23:45Z'
-      ICS209ReportDateTimeEpoch: 1572479100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 40579100
-      FireCause: Unknown
-      TotalIncidentPersonnel: 5245
-      FireDiscoveryDateTime: '2019-10-24T04:24Z'
-      FireDiscoveryDateTimeEpoch: 1571891099000
-      DispatchCenterID: CALNCC
-      LocalIncidentIdentifier: 019376
-      POOCounty: Sonoma
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-30T23:45Z'
-      ModifiedOnDateTimeEpoch: 1572479100000
-      ModifiedBySystem: cfcad
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CALNU-019376
-      ModifiedOnDateTime_Raw: '2019-10-31T00:57Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572483461000
-      Hashtag: '#KincadeFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T01:01:38.349Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -122.76663639044507
-      Lat: 38.79620799993593
-      objectid: 10
-      latitude: 38.796203
-      longitude: -122.766623
-      acres: 76825
-      gacc: ONCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: U
-      firecause: Unknown
-      reportdatetime: '2019-10-30T12:45Z'
-      reportdatetimeEpoch: 1572439500000
-      percentcontained: 30
-      uniquefireidentifier: 2019-CALNU-019376
-      firediscoverydatetime: '2019-10-24T04:24Z'
-      firediscoverydatetimeEpoch: 1571891099000
-      complexparentirwinid: null
-      pooresponsibleunit: CALNU
-      incidentname: KINCADE
-      iscomplex: 'false'
-      irwinid: '{FE8285DB-86DE-4F8C-B54E-3FE4A9F2182A}'
-      irwinmodifiedon: '2019-10-30T19:24Z'
-      irwinmodifiedonEpoch: 1572463459000
-      mapsymbol: '4'
-      datecurrent: '2019-10-30T18:30Z'
-      datecurrentEpoch: 1572460212000
-      pooownerunit: CALNU
-      fireyear: 2019
-      localincidentidentifier: 019376
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 76825
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-30T12:45Z'
-      ModifiedOnDateTimeEpoch: 1572439500000
-      PercentContained: 30
-      UniqueFireIdentifier: 2019-CALNU-019376
-      FireDiscoveryDateTime: '2019-10-24T04:24Z'
-      FireDiscoveryDateTimeEpoch: 1571891099000
-      Fire_Name: KINCADE
-      Name: KINCADE
-      Source: GEOMAC
-      Hashtag: '#KincadeFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T01:01:38.350Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CALNU-019376
-    Lon: -122.76663235353014
-    Lat: 38.79620789503068
-    id: 137568
-    Name: KINCADE
-    Fire_Name: KINCADE
-    UniqueFireIdentifier: 2019-CALNU-019376
-    DailyAcres: 76825
-    PercentContained: 45
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2019-10-30T23:45Z'
-    ICS209ReportDateTimeEpoch: 1572479100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 40579100
-    FireCause: Unknown
-    TotalIncidentPersonnel: 5245
-    FireDiscoveryDateTime: '2019-10-24T04:24Z'
-    FireDiscoveryDateTimeEpoch: 1571891099000
-    DispatchCenterID: CALNCC
-    LocalIncidentIdentifier: 019376
-    POOCounty: Sonoma
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-10-30T23:45Z'
-    ModifiedOnDateTimeEpoch: 1572479100000
-    ModifiedBySystem: cfcad
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CALNU-019376
-      - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    ModifiedOnDateTime_Raw: '2019-10-31T00:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572483461000
-    Hashtag: '#KincadeFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-10-30T02:29Z'
-    PerimeterData:
-      DateTime: '2019-10-30T02:29Z'
-      Acres: 77737.8142189
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T01:01:44.773Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-        SourceLayer: '2'
-    unitId: CALNU
-    unitMention: Sonoma-Lake Napa Unit
-    Final_Fire_Name: Kincade Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-30T23:45Z-PER-2019-10-30T02:29Z-ID-2019-CALNU-019376-NAME-KINCADE-S-N
-      Code: f3912111d92a931d2010e8bd5ef2941f01904d134d988104f38387c86c8b128e
   2019-CAMEU-013345:
     Source_CALFIRE:
       Lon: -123.12887
@@ -93490,3 +93254,244 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-31T00:30Z-PER-none-ID-2019-CARRU-139654-NAME-HILL-S-N'
       Code: d4d0cc43702ea07a8db47ac93a89f927f414937bbfc53ee44f5f147524808dcc
+  CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941:
+    Source_CALFIRE:
+      Lon: -122.780053
+      Lat: 38.792458
+      incident_name: Kincade Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-31T02:20Z'
+      incident_date_last_updateEpoch: 1572488418000
+      incident_date_created: '2019-10-24T04:27Z'
+      incident_date_createdEpoch: 1571891220000
+      incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
+      incident_administrative_unit_url: ''
+      incident_county: Sonoma
+      incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
+      incident_acres_burned: 76825
+      incident_containment: 45
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: Cooperating Agencies: Geyserville Fire Protection
+        District, Numerous Sonoma County Fire Agencies, CDCR, Cal OES, CHP, CCC,
+        Sonoma County Sheriff’s Department, BIA, BLM, California National Guard.
+      incident_longitude: -122.780053
+      incident_latitude: 38.792458
+      incident_type: Wildfire
+      incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-23'
+      is_active: 'Y'
+      Fire_Name: Kincade Fire
+      ModifiedOnDateTime: '2019-10-31T02:20Z'
+      ModifiedOnDateTimeEpoch: 1572488418000
+      DailyAcres: 76825
+      PercentContained: 45
+      UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+      Name: Kincade Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#KincadeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T02:20:43.644Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+    Source_NFSA_Join:
+      Lon: -122.76663235353014
+      Lat: 38.79620789503068
+      id: 137568
+      Name: KINCADE
+      Fire_Name: KINCADE
+      UniqueFireIdentifier: 2019-CALNU-019376
+      DailyAcres: 76825
+      PercentContained: 45
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2019-10-30T23:45Z'
+      ICS209ReportDateTimeEpoch: 1572479100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 40579100
+      FireCause: Unknown
+      TotalIncidentPersonnel: 5245
+      FireDiscoveryDateTime: '2019-10-24T04:24Z'
+      FireDiscoveryDateTimeEpoch: 1571891099000
+      DispatchCenterID: CALNCC
+      LocalIncidentIdentifier: 019376
+      POOCounty: Sonoma
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-30T23:45Z'
+      ModifiedOnDateTimeEpoch: 1572479100000
+      ModifiedBySystem: cfcad
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALNU-019376
+      ModifiedOnDateTime_Raw: '2019-10-31T01:23Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572484989000
+      Hashtag: '#KincadeFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T02:20:43.642Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -122.76663639044507
+      Lat: 38.79620799993593
+      objectid: 10
+      latitude: 38.796203
+      longitude: -122.766623
+      acres: 76825
+      gacc: ONCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-30T23:45Z'
+      reportdatetimeEpoch: 1572479100000
+      percentcontained: 45
+      uniquefireidentifier: 2019-CALNU-019376
+      firediscoverydatetime: '2019-10-24T04:24Z'
+      firediscoverydatetimeEpoch: 1571891099000
+      complexparentirwinid: null
+      pooresponsibleunit: CALNU
+      incidentname: KINCADE
+      iscomplex: 'false'
+      irwinid: '{FE8285DB-86DE-4F8C-B54E-3FE4A9F2182A}'
+      irwinmodifiedon: '2019-10-31T01:23Z'
+      irwinmodifiedonEpoch: 1572484990000
+      mapsymbol: '4'
+      datecurrent: '2019-10-30T19:30Z'
+      datecurrentEpoch: 1572463808000
+      pooownerunit: CALNU
+      fireyear: 2019
+      localincidentidentifier: 019376
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'Y'
+      complexname: null
+      DailyAcres: 76825
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-30T23:45Z'
+      ModifiedOnDateTimeEpoch: 1572479100000
+      PercentContained: 45
+      UniqueFireIdentifier: 2019-CALNU-019376
+      FireDiscoveryDateTime: '2019-10-24T04:24Z'
+      FireDiscoveryDateTimeEpoch: 1571891099000
+      Fire_Name: KINCADE
+      Name: KINCADE
+      Source: GEOMAC
+      Hashtag: '#KincadeFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T02:20:43.643Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CALNU-019376
+    Lon: -122.780053
+    Lat: 38.792458
+    incident_name: Kincade Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-10-31T02:20Z'
+    incident_date_last_updateEpoch: 1572488418000
+    incident_date_created: '2019-10-24T04:27Z'
+    incident_date_createdEpoch: 1571891220000
+    incident_administrative_unit: CAL FIRE Sonoma-Lake-Napa Unit
+    incident_administrative_unit_url: ''
+    incident_county: Sonoma
+    incident_location: 'John Kincade Road and Burned Mountain Road, northeast of Geyserville'
+    incident_acres_burned: 76825
+    incident_containment: 45
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      Cooperating Agencies: Cooperating Agencies: Geyserville Fire Protection
+      District, Numerous Sonoma County Fire Agencies, CDCR, Cal OES, CHP, CCC,
+      Sonoma County Sheriff’s Department, BIA, BLM, California National Guard.
+    incident_longitude: -122.780053
+    incident_latitude: 38.792458
+    incident_type: Wildfire
+    incident_id: 809d101c-8aa3-4a53-bf20-f38ae7ec7941
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-23'
+    is_active: 'Y'
+    Fire_Name: Kincade Fire
+    ModifiedOnDateTime: '2019-10-31T02:20Z'
+    ModifiedOnDateTimeEpoch: 1572488418000
+    DailyAcres: 76825
+    PercentContained: 45
+    UniqueFireIdentifier: CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+    Link: 'https://www.fire.ca.gov/incidents/2019/10/23/kincade-fire/'
+    Name: Kincade Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#KincadeFire'
+    _CorrelationIds:
+      - 2019-CALNU-019376
+      - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
+    PerimDateTime: '2019-10-30T02:29Z'
+    PerimeterData:
+      DateTime: '2019-10-30T02:29Z'
+      Acres: 77737.8142189
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T02:20:50.205Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: 809d101c
+    unitMention: null
+    Final_Fire_Name: Kincade Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-10-31T02:20Z-PER-2019-10-30T02:29Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: 3adb831afd715c065b945df6b4a54c15e077eae71db8f032ae30750dd6b103d4
