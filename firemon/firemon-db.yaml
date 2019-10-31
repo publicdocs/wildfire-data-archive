@@ -92968,223 +92968,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-31T02:22Z-PER-2019-10-30T02:29Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
       Code: c9312612d886b86bd496182a2bf0f7728652da575019fa01726973fd28aed670
-  CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69:
-    Source_CALFIRE:
-      Lon: -117.4625
-      Lat: 34.01778
-      incident_name: Hill Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-31T02:29Z'
-      incident_date_last_updateEpoch: 1572488975000
-      incident_date_created: '2019-10-30T18:19Z'
-      incident_date_createdEpoch: 1572459540000
-      incident_administrative_unit: CAL FIRE Riverside County Fire Department
-      incident_administrative_unit_url: ''
-      incident_county: Riverside
-      incident_location: 'Granite Valley and Pyrite Street, in Jurupa Valley'
-      incident_acres_burned: 300
-      incident_containment: 15
-      incident_control: ''
-      incident_cooperating_agencies: 'CAL FIRE: Riverside County Fire Department'
-      incident_longitude: -117.4625
-      incident_latitude: 34.01778
-      incident_type: Wildfire
-      incident_id: 8f23653c-1a4c-4609-bfb3-72b1665eab69
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-30'
-      is_active: 'Y'
-      Fire_Name: Hill Fire
-      ModifiedOnDateTime: '2019-10-31T02:29Z'
-      ModifiedOnDateTimeEpoch: 1572488975000
-      DailyAcres: 300
-      PercentContained: 15
-      UniqueFireIdentifier: CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-      Name: Hill Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#HillFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T02:29:51.203Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-    Source_NFSA_Join:
-      Lon: -117.46237704484814
-      Lat: 34.01781204928182
-      id: 138193
-      Name: HILL
-      Fire_Name: HILL
-      UniqueFireIdentifier: 2019-CARRU-139654
-      DailyAcres: 300
-      PercentContained: 15
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2019-10-31T00:30Z'
-      ICS209ReportDateTimeEpoch: 1572481800000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 300000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 297
-      FireDiscoveryDateTime: '2019-10-30T17:00Z'
-      FireDiscoveryDateTimeEpoch: 1572454854000
-      DispatchCenterID: CARRCC
-      LocalIncidentIdentifier: '139654'
-      POOCounty: Riverside
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-10-31T00:30Z'
-      ModifiedOnDateTimeEpoch: 1572481800000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CARRU-139654
-      ModifiedOnDateTime_Raw: '2019-10-31T00:43Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572482627000
-      Hashtag: '#HillFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T02:29:51.202Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -117.46251205191004
-      Lat: 34.017782696194594
-      objectid: 14
-      latitude: 34.0177778
-      longitude: -117.4625
-      acres: 300
-      gacc: OSCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: CA
-      status: I
-      firecause: Unknown
-      reportdatetime: '2019-10-31T00:30Z'
-      reportdatetimeEpoch: 1572481800000
-      percentcontained: 15
-      uniquefireidentifier: 2019-CARRU-139654
-      firediscoverydatetime: '2019-10-30T17:00Z'
-      firediscoverydatetimeEpoch: 1572454854000
-      complexparentirwinid: null
-      pooresponsibleunit: CARRU
-      incidentname: HILL
-      iscomplex: 'false'
-      irwinid: '{277C04B5-4AAC-48A8-80B2-D1D570C3F911}'
-      irwinmodifiedon: '2019-10-31T00:43Z'
-      irwinmodifiedonEpoch: 1572482628000
-      mapsymbol: '1'
-      datecurrent: '2019-10-30T19:30Z'
-      datecurrentEpoch: 1572463808000
-      pooownerunit: CARRU
-      fireyear: 2019
-      localincidentidentifier: '139654'
-      incidenttypecategory: WF
-      owneragency: ''
-      perimexist: 'N'
-      complexname: null
-      DailyAcres: 300
-      FireCause: Unknown
-      ModifiedOnDateTime: '2019-10-31T00:30Z'
-      ModifiedOnDateTimeEpoch: 1572481800000
-      PercentContained: 15
-      UniqueFireIdentifier: 2019-CARRU-139654
-      FireDiscoveryDateTime: '2019-10-30T17:00Z'
-      FireDiscoveryDateTimeEpoch: 1572454854000
-      Fire_Name: HILL
-      Name: HILL
-      Source: GEOMAC
-      Hashtag: '#HillFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T02:29:51.203Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-CARRU-139654
-    Lon: -117.4625
-    Lat: 34.01778
-    incident_name: Hill Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-10-31T02:29Z'
-    incident_date_last_updateEpoch: 1572488975000
-    incident_date_created: '2019-10-30T18:19Z'
-    incident_date_createdEpoch: 1572459540000
-    incident_administrative_unit: CAL FIRE Riverside County Fire Department
-    incident_administrative_unit_url: ''
-    incident_county: Riverside
-    incident_location: 'Granite Valley and Pyrite Street, in Jurupa Valley'
-    incident_acres_burned: 300
-    incident_containment: 15
-    incident_control: ''
-    incident_cooperating_agencies: 'CAL FIRE: Riverside County Fire Department'
-    incident_longitude: -117.4625
-    incident_latitude: 34.01778
-    incident_type: Wildfire
-    incident_id: 8f23653c-1a4c-4609-bfb3-72b1665eab69
-    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-10-30'
-    is_active: 'Y'
-    Fire_Name: Hill Fire
-    ModifiedOnDateTime: '2019-10-31T02:29Z'
-    ModifiedOnDateTimeEpoch: 1572488975000
-    DailyAcres: 300
-    PercentContained: 15
-    UniqueFireIdentifier: CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-    Link: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
-    Name: Hill Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#HillFire'
-    _CorrelationIds:
-      - 2019-CARRU-139654
-      - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 8f23653c
-    unitMention: null
-    Final_Fire_Name: Hill Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-31T02:29Z-PER-none-ID-CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69-NAME-HillFire-S-C
-      Code: 788e916e18b219eb238971cf8c9953978be9fc18ae61b7daa00f3fcdb60631b8
   CALFIRE-020310d3-7834-4f57-a125-eff0eb3f54e5:
     Source_CALFIRE:
       Lon: -118.368056
@@ -93500,3 +93283,313 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-31T11:15Z-PER-none-ID-2019-CAMEU-013345-NAME-BURRIS-S-N'
       Code: f761be92b7147ff1bff8ba312d453ca0ee0b3a948d1498afbe1f4d6174f40716
+  2019-CARRU-139654:
+    Source_CALFIRE:
+      Lon: -117.4625
+      Lat: 34.01778
+      incident_name: Hill Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-10-31T02:29Z'
+      incident_date_last_updateEpoch: 1572488975000
+      incident_date_created: '2019-10-30T18:19Z'
+      incident_date_createdEpoch: 1572459540000
+      incident_administrative_unit: CAL FIRE Riverside County Fire Department
+      incident_administrative_unit_url: ''
+      incident_county: Riverside
+      incident_location: 'Granite Valley and Pyrite Street, in Jurupa Valley'
+      incident_acres_burned: 300
+      incident_containment: 15
+      incident_control: ''
+      incident_cooperating_agencies: 'CAL FIRE: Riverside County Fire Department'
+      incident_longitude: -117.4625
+      incident_latitude: 34.01778
+      incident_type: Wildfire
+      incident_id: 8f23653c-1a4c-4609-bfb3-72b1665eab69
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-30'
+      is_active: 'Y'
+      Fire_Name: Hill Fire
+      ModifiedOnDateTime: '2019-10-31T02:29Z'
+      ModifiedOnDateTimeEpoch: 1572488975000
+      DailyAcres: 300
+      PercentContained: 15
+      UniqueFireIdentifier: CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/30/hill-fire/'
+      Name: Hill Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HillFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T12:31:23.917Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
+    Source_NFSA_Join:
+      Lon: -117.46237704484814
+      Lat: 34.01781204928182
+      id: 138193
+      Name: HILL
+      Fire_Name: HILL
+      UniqueFireIdentifier: 2019-CARRU-139654
+      DailyAcres: 626
+      PercentContained: 80
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-10-31T12:00Z'
+      ICS209ReportDateTimeEpoch: 1572523200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 300000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 297
+      FireDiscoveryDateTime: '2019-10-30T17:00Z'
+      FireDiscoveryDateTimeEpoch: 1572454854000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '139654'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-31T12:00Z'
+      ModifiedOnDateTimeEpoch: 1572523200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CARRU-139654
+      ModifiedOnDateTime_Raw: '2019-10-31T12:10Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572523846000
+      Hashtag: '#HillFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T12:31:23.916Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -117.46251205191004
+      Lat: 34.017782696194594
+      objectid: 14
+      latitude: 34.0177778
+      longitude: -117.4625
+      acres: 626
+      gacc: OSCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CA
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-10-31T12:00Z'
+      reportdatetimeEpoch: 1572523200000
+      percentcontained: 80
+      uniquefireidentifier: 2019-CARRU-139654
+      firediscoverydatetime: '2019-10-30T17:00Z'
+      firediscoverydatetimeEpoch: 1572454854000
+      complexparentirwinid: null
+      pooresponsibleunit: CARRU
+      incidentname: HILL
+      iscomplex: 'false'
+      irwinid: '{277C04B5-4AAC-48A8-80B2-D1D570C3F911}'
+      irwinmodifiedon: '2019-10-31T12:10Z'
+      irwinmodifiedonEpoch: 1572523847000
+      mapsymbol: '1'
+      datecurrent: '2019-10-31T06:30Z'
+      datecurrentEpoch: 1572503408000
+      pooownerunit: CARRU
+      fireyear: 2019
+      localincidentidentifier: '139654'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 626
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-10-31T12:00Z'
+      ModifiedOnDateTimeEpoch: 1572523200000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-CARRU-139654
+      FireDiscoveryDateTime: '2019-10-30T17:00Z'
+      FireDiscoveryDateTimeEpoch: 1572454854000
+      Fire_Name: HILL
+      Name: HILL
+      Source: GEOMAC
+      Hashtag: '#HillFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T12:31:23.917Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-CARRU-139654
+    Lon: -117.46237704484814
+    Lat: 34.01781204928182
+    id: 138193
+    Name: HILL
+    Fire_Name: HILL
+    UniqueFireIdentifier: 2019-CARRU-139654
+    DailyAcres: 626
+    PercentContained: 80
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-10-31T12:00Z'
+    ICS209ReportDateTimeEpoch: 1572523200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 300000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 297
+    FireDiscoveryDateTime: '2019-10-30T17:00Z'
+    FireDiscoveryDateTimeEpoch: 1572454854000
+    DispatchCenterID: CARRCC
+    LocalIncidentIdentifier: '139654'
+    POOCounty: Riverside
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-31T12:00Z'
+    ModifiedOnDateTimeEpoch: 1572523200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CARRU-139654
+      - CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69
+    ModifiedOnDateTime_Raw: '2019-10-31T12:10Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572523846000
+    Hashtag: '#HillFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CARRU
+    unitMention: '@CALFIRERRU'
+    Final_Fire_Name: Hill Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-31T12:00Z-PER-none-ID-2019-CARRU-139654-NAME-HILL-S-N'
+      Code: 5b7721f06150e3ab0d3bf73a186ac860c7ac20f96339bbbe7cd5139307292c09
+  2019-CARRU-139997:
+    Source_NFSA_Join:
+      Lon: -117.41412853093807
+      Lat: 33.985967799238786
+      id: 138286
+      Name: 46TH
+      Fire_Name: 46TH
+      UniqueFireIdentifier: 2019-CARRU-139997
+      DailyAcres: 100
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-10-31T12:00Z'
+      ICS209ReportDateTimeEpoch: 1572523200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 40000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 265
+      FireDiscoveryDateTime: '2019-10-31T07:39Z'
+      FireDiscoveryDateTimeEpoch: 1572507563000
+      DispatchCenterID: CARRCC
+      LocalIncidentIdentifier: '139997'
+      POOCounty: Riverside
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-10-31T12:00Z'
+      ModifiedOnDateTimeEpoch: 1572523200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CARRU-139997
+      ModifiedOnDateTime_Raw: '2019-10-31T12:01Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572523261000
+      Hashtag: '#46ThFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-31T12:31:23.916Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -117.41412853093807
+    Lat: 33.985967799238786
+    id: 138286
+    Name: 46TH
+    Fire_Name: 46TH
+    UniqueFireIdentifier: 2019-CARRU-139997
+    DailyAcres: 100
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-10-31T12:00Z'
+    ICS209ReportDateTimeEpoch: 1572523200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 40000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 265
+    FireDiscoveryDateTime: '2019-10-31T07:39Z'
+    FireDiscoveryDateTimeEpoch: 1572507563000
+    DispatchCenterID: CARRCC
+    LocalIncidentIdentifier: '139997'
+    POOCounty: Riverside
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-10-31T12:00Z'
+    ModifiedOnDateTimeEpoch: 1572523200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CARRU-139997
+    ModifiedOnDateTime_Raw: '2019-10-31T12:01Z'
+    ModifiedOnDateTimeEpoch_Raw: 1572523261000
+    Hashtag: '#46ThFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CARRU
+    unitMention: '@CALFIRERRU'
+    Final_Fire_Name: 46 Th Fire
+    _Update:
+      UpdateId: 'UPD-2019-10-31T12:00Z-PER-none-ID-2019-CARRU-139997-NAME-46TH-S-N'
+      Code: c2aa065050718003075accd76129b7bc07033b395ec201cad018a4d33c5f3e2b
