@@ -93332,18 +93332,36 @@ Database:
     _CorrelationIds:
       - 2019-CAVNC-090135
       - CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3
-    PerimDateTime: null
+    PerimDateTime: '2019-11-01T06:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-11-01T06:00Z'
+      Acres: 11982.2751074
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-01T20:54:34.501Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: 31852a71
     unitMention: null
     Final_Fire_Name: Maria Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-01T14:30Z-PER-none-ID-CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3-NAME-MariaFire-S-C
-      Code: c91d818bd11bc025ff98c8623860f26055ba58396587fc81fee53cb585285a25
+        UPD-2019-11-01T14:30Z-PER-2019-11-01T06:00Z-ID-CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3-NAME-MariaFire-S-C
+      Code: 7f4f06c2e99f665de6f885aa88a000667d5660dea37388df6a76bfd3a1156fb6
   CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0:
     Source_CALFIRE:
       Lon: -120.145
