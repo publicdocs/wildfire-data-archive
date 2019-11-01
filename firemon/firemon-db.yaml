@@ -93374,172 +93374,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-31T20:00Z-PER-2019-10-27T00:00Z-ID-2019-UTFIF-190477-NAME-SkullFlat2-S-N
       Code: bea523aa8fec11b3ef3c88d3d89828c81d9f7ff3fdcf5d3242aa974557b521f2
-  2019-CAMEU-013345:
-    Source_CALFIRE:
-      Lon: -123.12887
-      Lat: 39.22431
-      incident_name: Burris Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-31T14:28Z'
-      incident_date_last_updateEpoch: 1572532107000
-      incident_date_created: '2019-10-27T21:54Z'
-      incident_date_createdEpoch: 1572213280000
-      incident_administrative_unit: CAL FIRE Mendocino Unit
-      incident_administrative_unit_url: ''
-      incident_county: Mendocino
-      incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
-      incident_acres_burned: 703
-      incident_containment: 92
-      incident_control: ''
-      incident_cooperating_agencies: CAL FIRE Mendocino Unit
-      incident_longitude: -123.12887
-      incident_latitude: 39.22431
-      incident_type: Wildfire
-      incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-27'
-      is_active: 'Y'
-      Fire_Name: Burris Fire
-      ModifiedOnDateTime: '2019-10-31T14:28Z'
-      ModifiedOnDateTimeEpoch: 1572532107000
-      DailyAcres: 703
-      PercentContained: 92
-      UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
-      Name: Burris Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#BurrisFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-11-01T01:19:27.589Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    Source_NFSA_Join:
-      Lon: -123.10256633717948
-      Lat: 39.27030682806777
-      id: 137899
-      Name: BURRIS
-      Fire_Name: BURRIS
-      UniqueFireIdentifier: 2019-CAMEU-013345
-      DailyAcres: 703
-      PercentContained: 93
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-11-01T00:15Z'
-      ICS209ReportDateTimeEpoch: 1572567300000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2100000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 169
-      FireDiscoveryDateTime: '2019-10-27T11:24Z'
-      FireDiscoveryDateTimeEpoch: 1572175465000
-      DispatchCenterID: CAMECC
-      LocalIncidentIdentifier: '013345'
-      POOCounty: Mendocino
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-01T00:15Z'
-      ModifiedOnDateTimeEpoch: 1572567300000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAMEU-013345
-      ModifiedOnDateTime_Raw: '2019-11-01T00:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572568459000
-      Hashtag: '#BurrisFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-11-01T01:19:27.571Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -123.10256633717948
-    Lat: 39.27030682806777
-    id: 137899
-    Name: BURRIS
-    Fire_Name: BURRIS
-    UniqueFireIdentifier: 2019-CAMEU-013345
-    DailyAcres: 703
-    PercentContained: 93
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-11-01T00:15Z'
-    ICS209ReportDateTimeEpoch: 1572567300000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2100000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 169
-    FireDiscoveryDateTime: '2019-10-27T11:24Z'
-    FireDiscoveryDateTimeEpoch: 1572175465000
-    DispatchCenterID: CAMECC
-    LocalIncidentIdentifier: '013345'
-    POOCounty: Mendocino
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-01T00:15Z'
-    ModifiedOnDateTimeEpoch: 1572567300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAMEU-013345
-      - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
-    ModifiedOnDateTime_Raw: '2019-11-01T00:34Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572568459000
-    Hashtag: '#BurrisFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-10-30T18:08Z'
-    PerimeterData:
-      DateTime: '2019-10-30T18:08Z'
-      Acres: 703.35580616
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-11-01T01:19:42.199Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CAMEU
-    unitMention: Mendocino Unit
-    Final_Fire_Name: Burris Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-11-01T00:15Z-PER-2019-10-30T18:08Z-ID-2019-CAMEU-013345-NAME-BURRIS-S-N
-      Code: e1be89b2891907f26508b29c555586db9278009c82e660a7aeba573cd4f8a934
   CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941:
     Source_CALFIRE:
       Lon: -122.780053
@@ -93931,3 +93765,171 @@ Database:
       UpdateId: >-
         UPD-2019-11-01T02:12Z-PER-none-ID-CALFIRE-8f23653c-1a4c-4609-bfb3-72b1665eab69-NAME-HillFire-S-C
       Code: 850a6e57cbd5527c1f8bab5eb4909b82b9b77bed2a770de39bac161b49e56c86
+  CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e:
+    Source_CALFIRE:
+      Lon: -123.12887
+      Lat: 39.22431
+      incident_name: Burris Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-11-01T02:29Z'
+      incident_date_last_updateEpoch: 1572575349000
+      incident_date_created: '2019-10-27T21:54Z'
+      incident_date_createdEpoch: 1572213280000
+      incident_administrative_unit: CAL FIRE Mendocino Unit
+      incident_administrative_unit_url: ''
+      incident_county: Mendocino
+      incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
+      incident_acres_burned: 703
+      incident_containment: 93
+      incident_control: ''
+      incident_cooperating_agencies: CAL FIRE Mendocino Unit
+      incident_longitude: -123.12887
+      incident_latitude: 39.22431
+      incident_type: Wildfire
+      incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-27'
+      is_active: 'Y'
+      Fire_Name: Burris Fire
+      ModifiedOnDateTime: '2019-11-01T02:29Z'
+      ModifiedOnDateTimeEpoch: 1572575349000
+      DailyAcres: 703
+      PercentContained: 93
+      UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+      Name: Burris Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BurrisFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-01T02:29:14.180Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    Source_NFSA_Join:
+      Lon: -123.10256633717948
+      Lat: 39.27030682806777
+      id: 137899
+      Name: BURRIS
+      Fire_Name: BURRIS
+      UniqueFireIdentifier: 2019-CAMEU-013345
+      DailyAcres: 703
+      PercentContained: 93
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2019-11-01T00:15Z'
+      ICS209ReportDateTimeEpoch: 1572567300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 2100000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 169
+      FireDiscoveryDateTime: '2019-10-27T11:24Z'
+      FireDiscoveryDateTimeEpoch: 1572175465000
+      DispatchCenterID: CAMECC
+      LocalIncidentIdentifier: '013345'
+      POOCounty: Mendocino
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-11-01T00:15Z'
+      ModifiedOnDateTimeEpoch: 1572567300000
+      ModifiedBySystem: cfcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAMEU-013345
+      ModifiedOnDateTime_Raw: '2019-11-01T01:33Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572572038000
+      Hashtag: '#BurrisFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-01T02:29:14.179Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -123.12887
+    Lat: 39.22431
+    incident_name: Burris Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-11-01T02:29Z'
+    incident_date_last_updateEpoch: 1572575349000
+    incident_date_created: '2019-10-27T21:54Z'
+    incident_date_createdEpoch: 1572213280000
+    incident_administrative_unit: CAL FIRE Mendocino Unit
+    incident_administrative_unit_url: ''
+    incident_county: Mendocino
+    incident_location: 'Potter Valley Road and  Highway 20, east of Calpella in Mendocino County'
+    incident_acres_burned: 703
+    incident_containment: 93
+    incident_control: ''
+    incident_cooperating_agencies: CAL FIRE Mendocino Unit
+    incident_longitude: -123.12887
+    incident_latitude: 39.22431
+    incident_type: Wildfire
+    incident_id: 9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-27'
+    is_active: 'Y'
+    Fire_Name: Burris Fire
+    ModifiedOnDateTime: '2019-11-01T02:29Z'
+    ModifiedOnDateTimeEpoch: 1572575349000
+    DailyAcres: 703
+    PercentContained: 93
+    UniqueFireIdentifier: CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    Link: 'https://www.fire.ca.gov/incidents/2019/10/27/burris-fire/'
+    Name: Burris Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#BurrisFire'
+    _CorrelationIds:
+      - 2019-CAMEU-013345
+      - CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e
+    PerimDateTime: '2019-10-30T18:08Z'
+    PerimeterData:
+      DateTime: '2019-10-30T18:08Z'
+      Acres: 703.35580616
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-01T02:29:22.423Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 9cc1af36
+    unitMention: null
+    Final_Fire_Name: Burris Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-11-01T02:29Z-PER-2019-10-30T18:08Z-ID-CALFIRE-9cc1af36-29f2-4af5-afa7-23b9ce17630e-NAME-BurrisFire-S-C
+      Code: b57b2a27afe8517b1a0c3d464d7da2696187c2a0f01831b2f5b4101bd8c367c0
