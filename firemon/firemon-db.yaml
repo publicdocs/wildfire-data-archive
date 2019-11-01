@@ -87578,172 +87578,6 @@ Database:
       UpdateId: >-
         UPD-2019-10-30T17:14Z-PER-none-ID-CALFIRE-8bf75401-999f-42bd-8c0a-8db508591545-NAME-JohnsonFire-S-C
       Code: 7ea2bd2382808081e6c47cc33a51b8fec696c37a862f2f4ed346b27e38259ed4
-  2019-CAENF-030945:
-    Source_CALFIRE:
-      Lon: -120.145
-      Lat: 38.724
-      incident_name: Caples Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2019-10-14T21:00Z'
-      incident_date_last_updateEpoch: 1571086836000
-      incident_date_created: '2019-10-11T19:47Z'
-      incident_date_createdEpoch: 1570823279000
-      incident_administrative_unit: USFS El Dorado National Forest
-      incident_administrative_unit_url: ''
-      incident_county: El Dorado
-      incident_location: Northern ridge above Caples Creek north of Highway 88
-      incident_acres_burned: 0
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: USFS El Dorado National Forest
-      incident_longitude: -120.145
-      incident_latitude: 38.724
-      incident_type: Wildfire
-      incident_id: 451c3012-2831-44c1-8fc7-146fd02d2ce0
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/11/caples-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2019-10-11'
-      is_active: 'Y'
-      Fire_Name: Caples Fire
-      ModifiedOnDateTime: '2019-10-14T21:00Z'
-      ModifiedOnDateTimeEpoch: 1571086836000
-      DailyAcres: 0
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
-      Link: 'https://www.fire.ca.gov/incidents/2019/10/11/caples-fire/'
-      Name: Caples Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#CaplesFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T19:30:20.154Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
-    Source_NFSA_Join:
-      Lon: -120.14551903437338
-      Lat: 38.72396707915769
-      id: 136465
-      Name: CAPLES
-      Fire_Name: CAPLES
-      UniqueFireIdentifier: 2019-CAENF-030945
-      DailyAcres: 3435
-      PercentContained: 92
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-10-30T19:00Z'
-      ICS209ReportDateTimeEpoch: 1572462000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 6350000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 56
-      FireDiscoveryDateTime: '2019-10-10T20:43Z'
-      FireDiscoveryDateTimeEpoch: 1570740226000
-      DispatchCenterID: CACICC
-      LocalIncidentIdentifier: 030945
-      POOCounty: El Dorado
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-30T19:00Z'
-      ModifiedOnDateTimeEpoch: 1572462000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-CAENF-030945
-      ModifiedOnDateTime_Raw: '2019-10-30T19:26Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572463567000
-      Hashtag: '#CaplesFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T19:30:20.153Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.14551903437338
-    Lat: 38.72396707915769
-    id: 136465
-    Name: CAPLES
-    Fire_Name: CAPLES
-    UniqueFireIdentifier: 2019-CAENF-030945
-    DailyAcres: 3435
-    PercentContained: 92
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-10-30T19:00Z'
-    ICS209ReportDateTimeEpoch: 1572462000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 6350000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 56
-    FireDiscoveryDateTime: '2019-10-10T20:43Z'
-    FireDiscoveryDateTimeEpoch: 1570740226000
-    DispatchCenterID: CACICC
-    LocalIncidentIdentifier: 030945
-    POOCounty: El Dorado
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-30T19:00Z'
-    ModifiedOnDateTimeEpoch: 1572462000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-CAENF-030945
-      - CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
-    ModifiedOnDateTime_Raw: '2019-10-30T19:26Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572463567000
-    Hashtag: '#CaplesFire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-10-20T19:33Z'
-    PerimeterData:
-      DateTime: '2019-10-20T19:33Z'
-      Acres: 3402.74883822
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-30T19:30:31.809Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: CAENF
-    unitMention: '@EldoradoNF'
-    Final_Fire_Name: Caples Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-30T19:00Z-PER-2019-10-20T19:33Z-ID-2019-CAENF-030945-NAME-CAPLES-S-N
-      Code: 29cf4e7430836195007f5e88fafc6043967c3a4d11cca5618eea17a7fc395d93
   CALFIRE-0baff961-3ce3-45ec-80f1-a72957f2f3f4:
     Source_CALFIRE:
       Lon: -122.245186
@@ -89699,8 +89533,8 @@ Database:
       Lat: 34.055768
       incident_name: Palisades Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-10-22T17:06Z'
-      incident_date_last_updateEpoch: 1571764000000
+      incident_date_last_update: '2019-11-01T13:48Z'
+      incident_date_last_updateEpoch: 1572616094000
       incident_date_created: '2019-10-21T18:52Z'
       incident_date_createdEpoch: 1571683972000
       incident_administrative_unit: Los Angeles Fire Department
@@ -89721,25 +89555,25 @@ Database:
       incident_dateonly_created: '2019-10-21'
       is_active: 'Y'
       Fire_Name: Palisades Fire
-      ModifiedOnDateTime: '2019-10-22T17:06Z'
-      ModifiedOnDateTimeEpoch: 1571764000000
+      ModifiedOnDateTime: '2019-11-01T13:48Z'
+      ModifiedOnDateTimeEpoch: 1572616094000
       DailyAcres: 0
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-24eb323e-b97f-4087-886b-7efae8937bae
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/21/palisades-fire/'
       Name: Palisades Fire
       Source: CALFIRE
       State: CA
       Hashtag: '#PalisadesFire'
-      Link: >-
-        https://www.fire.ca.gov/incident/?incident=24eb323e-b97f-4087-886b-7efae8937bae
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-10-22T17:08:37.150Z'
+          RetrievedOn: '2019-11-01T13:49:15.763Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
             headers:
               User-Agent: Request-Promise; Bot
+            timeout: 120000
             json: false
         Modified: true
       _CorrelationIds:
@@ -89748,8 +89582,8 @@ Database:
     Lat: 34.055768
     incident_name: Palisades Fire
     incident_is_final: 'False'
-    incident_date_last_update: '2019-10-22T17:06Z'
-    incident_date_last_updateEpoch: 1571764000000
+    incident_date_last_update: '2019-11-01T13:48Z'
+    incident_date_last_updateEpoch: 1572616094000
     incident_date_created: '2019-10-21T18:52Z'
     incident_date_createdEpoch: 1571683972000
     incident_administrative_unit: Los Angeles Fire Department
@@ -89770,17 +89604,16 @@ Database:
     incident_dateonly_created: '2019-10-21'
     is_active: 'Y'
     Fire_Name: Palisades Fire
-    ModifiedOnDateTime: '2019-10-22T17:06Z'
-    ModifiedOnDateTimeEpoch: 1571764000000
+    ModifiedOnDateTime: '2019-11-01T13:48Z'
+    ModifiedOnDateTimeEpoch: 1572616094000
     DailyAcres: 0
     PercentContained: 0
     UniqueFireIdentifier: CALFIRE-24eb323e-b97f-4087-886b-7efae8937bae
+    Link: 'https://www.fire.ca.gov/incidents/2019/10/21/palisades-fire/'
     Name: Palisades Fire
     Source: CALFIRE
     State: CA
     Hashtag: '#PalisadesFire'
-    Link: >-
-      https://www.fire.ca.gov/incident/?incident=24eb323e-b97f-4087-886b-7efae8937bae
     _CorrelationIds:
       - CALFIRE-24eb323e-b97f-4087-886b-7efae8937bae
     PerimDateTime: null
@@ -89793,8 +89626,8 @@ Database:
     Final_Fire_Name: Palisades Fire
     _Update:
       UpdateId: >-
-        UPD-2019-10-22T17:06Z-PER-none-ID-CALFIRE-24eb323e-b97f-4087-886b-7efae8937bae-NAME-PalisadesFire-S-C
-      Code: d0b315a28afe84c636a4febda10a7ba901f1cac51014904e3d3da1aa7a5b0c1b
+        UPD-2019-11-01T13:48Z-PER-none-ID-CALFIRE-24eb323e-b97f-4087-886b-7efae8937bae-NAME-PalisadesFire-S-C
+      Code: 317b627f70b4a77b912333e2f0afc54d4dc36604bb232441133891b4fd5e93e3
   CALFIRE-7264a106-e0f4-41de-8fd0-3f9110431e28:
     Source_CALFIRE:
       Lon: -117.403719
@@ -94027,3 +93860,171 @@ Database:
       UpdateId: >-
         UPD-2019-11-01T12:45Z-PER-2019-10-31T01:13Z-ID-2019-CALNU-019376-NAME-KINCADE-S-N
       Code: 15e164fb2956a16a4eabb4ebd31f2452ca215066262241f49208a268606f472c
+  CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0:
+    Source_CALFIRE:
+      Lon: -120.145
+      Lat: 38.724
+      incident_name: Caples Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2019-11-01T13:47Z'
+      incident_date_last_updateEpoch: 1572616079000
+      incident_date_created: '2019-10-11T19:47Z'
+      incident_date_createdEpoch: 1570823279000
+      incident_administrative_unit: USFS El Dorado National Forest
+      incident_administrative_unit_url: ''
+      incident_county: El Dorado
+      incident_location: Northern ridge above Caples Creek north of Highway 88
+      incident_acres_burned: 0
+      incident_containment: 0
+      incident_control: ''
+      incident_cooperating_agencies: USFS El Dorado National Forest
+      incident_longitude: -120.145
+      incident_latitude: 38.724
+      incident_type: Wildfire
+      incident_id: 451c3012-2831-44c1-8fc7-146fd02d2ce0
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/10/11/caples-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2019-10-11'
+      is_active: 'Y'
+      Fire_Name: Caples Fire
+      ModifiedOnDateTime: '2019-11-01T13:47Z'
+      ModifiedOnDateTimeEpoch: 1572616079000
+      DailyAcres: 0
+      PercentContained: 0
+      UniqueFireIdentifier: CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
+      Link: 'https://www.fire.ca.gov/incidents/2019/10/11/caples-fire/'
+      Name: Caples Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#CaplesFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-01T13:49:15.763Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
+    Source_NFSA_Join:
+      Lon: -120.14551903437338
+      Lat: 38.72396707915769
+      id: 136465
+      Name: CAPLES
+      Fire_Name: CAPLES
+      UniqueFireIdentifier: 2019-CAENF-030945
+      DailyAcres: 3435
+      PercentContained: 92
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-10-30T19:00Z'
+      ICS209ReportDateTimeEpoch: 1572462000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 6350000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 56
+      FireDiscoveryDateTime: '2019-10-10T20:43Z'
+      FireDiscoveryDateTimeEpoch: 1570740226000
+      DispatchCenterID: CACICC
+      LocalIncidentIdentifier: 030945
+      POOCounty: El Dorado
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-10-30T19:00Z'
+      ModifiedOnDateTimeEpoch: 1572462000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CAENF-030945
+      ModifiedOnDateTime_Raw: '2019-10-30T19:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1572463567000
+      Hashtag: '#CaplesFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-10-30T19:30:20.153Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.145
+    Lat: 38.724
+    incident_name: Caples Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-11-01T13:47Z'
+    incident_date_last_updateEpoch: 1572616079000
+    incident_date_created: '2019-10-11T19:47Z'
+    incident_date_createdEpoch: 1570823279000
+    incident_administrative_unit: USFS El Dorado National Forest
+    incident_administrative_unit_url: ''
+    incident_county: El Dorado
+    incident_location: Northern ridge above Caples Creek north of Highway 88
+    incident_acres_burned: 0
+    incident_containment: 0
+    incident_control: ''
+    incident_cooperating_agencies: USFS El Dorado National Forest
+    incident_longitude: -120.145
+    incident_latitude: 38.724
+    incident_type: Wildfire
+    incident_id: 451c3012-2831-44c1-8fc7-146fd02d2ce0
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/11/caples-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-11'
+    is_active: 'Y'
+    Fire_Name: Caples Fire
+    ModifiedOnDateTime: '2019-11-01T13:47Z'
+    ModifiedOnDateTimeEpoch: 1572616079000
+    DailyAcres: 0
+    PercentContained: 0
+    UniqueFireIdentifier: CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
+    Link: 'https://www.fire.ca.gov/incidents/2019/10/11/caples-fire/'
+    Name: Caples Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CaplesFire'
+    _CorrelationIds:
+      - 2019-CAENF-030945
+      - CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0
+    PerimDateTime: '2019-10-20T19:33Z'
+    PerimeterData:
+      DateTime: '2019-10-20T19:33Z'
+      Acres: 3402.74883822
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-01T13:49:24.562Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: 451c3012
+    unitMention: null
+    Final_Fire_Name: Caples Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-11-01T13:47Z-PER-2019-10-20T19:33Z-ID-CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0-NAME-CaplesFire-S-C
+      Code: c445c28d1b974db0ff3ac31dee3245048236faf3fbb476d87bb75e1d709e97b1
