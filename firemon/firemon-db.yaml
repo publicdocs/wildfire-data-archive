@@ -94053,14 +94053,14 @@ Database:
       UpdateId: >-
         UPD-2019-11-04T01:45Z-PER-2019-10-31T23:46Z-ID-2019-CALNU-019376-NAME-KINCADE-S-N
       Code: 352321071d1ed8d27d5e0045ccd569b0abc80899ceb48f997d62bd7fb9df94c3
-  2019-CAVNC-090135:
+  CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3:
     Source_CALFIRE:
       Lon: -118.997115
       Lat: 34.302212
       incident_name: Maria Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-11-03T17:08Z'
-      incident_date_last_updateEpoch: 1572800887000
+      incident_date_last_update: '2019-11-04T02:55Z'
+      incident_date_last_updateEpoch: 1572836136000
       incident_date_created: '2019-11-01T03:58Z'
       incident_date_createdEpoch: 1572580708000
       incident_administrative_unit: Ventura County Fire Department
@@ -94068,7 +94068,7 @@ Database:
       incident_county: Ventura
       incident_location: 'off of Bradley Road and Solano Verde Dr, Top of South Mt, Santa Paula'
       incident_acres_burned: 9412
-      incident_containment: 50
+      incident_containment: 70
       incident_control: ''
       incident_cooperating_agencies: Venture County Fire Department
       incident_longitude: -118.997115
@@ -94081,10 +94081,10 @@ Database:
       incident_dateonly_created: '2019-10-31'
       is_active: 'Y'
       Fire_Name: Maria Fire
-      ModifiedOnDateTime: '2019-11-03T17:08Z'
-      ModifiedOnDateTimeEpoch: 1572800887000
+      ModifiedOnDateTime: '2019-11-04T02:55Z'
+      ModifiedOnDateTimeEpoch: 1572836136000
       DailyAcres: 9412
-      PercentContained: 50
+      PercentContained: 70
       UniqueFireIdentifier: CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3
       Link: 'https://www.fire.ca.gov/incidents/2019/10/31/maria-fire/'
       Name: Maria Fire
@@ -94093,7 +94093,7 @@ Database:
       Hashtag: '#MariaFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-04T02:01:01.441Z'
+          RetrievedOn: '2019-11-04T02:56:17.483Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -94143,7 +94143,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-04T02:01:01.432Z'
+          RetrievedOn: '2019-11-04T02:56:17.482Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -94178,8 +94178,8 @@ Database:
       irwinmodifiedon: '2019-11-04T01:46Z'
       irwinmodifiedonEpoch: 1572831961000
       mapsymbol: '1'
-      datecurrent: '2019-11-03T19:00Z'
-      datecurrentEpoch: 1572807609000
+      datecurrent: '2019-11-03T19:30Z'
+      datecurrentEpoch: 1572809409000
       pooownerunit: CABDF
       fireyear: 2019
       localincidentidentifier: 090135
@@ -94201,7 +94201,7 @@ Database:
       Hashtag: '#MariaFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-04T02:01:01.440Z'
+          RetrievedOn: '2019-11-04T02:56:17.483Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -94219,50 +94219,52 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CAVNC-090135
-    Lon: -119.05334731194084
-    Lat: 34.337228801306715
-    id: 138384
-    Name: Maria
-    Fire_Name: Maria
-    UniqueFireIdentifier: 2019-CAVNC-090135
+    Lon: -118.997115
+    Lat: 34.302212
+    incident_name: Maria Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-11-04T02:55Z'
+    incident_date_last_updateEpoch: 1572836136000
+    incident_date_created: '2019-11-01T03:58Z'
+    incident_date_createdEpoch: 1572580708000
+    incident_administrative_unit: Ventura County Fire Department
+    incident_administrative_unit_url: ''
+    incident_county: Ventura
+    incident_location: 'off of Bradley Road and Solano Verde Dr, Top of South Mt, Santa Paula'
+    incident_acres_burned: 9412
+    incident_containment: 70
+    incident_control: ''
+    incident_cooperating_agencies: Venture County Fire Department
+    incident_longitude: -118.997115
+    incident_latitude: 34.302212
+    incident_type: Wildfire
+    incident_id: 31852a71-e639-496f-9e7d-0968d1c218b3
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/10/31/maria-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-10-31'
+    is_active: 'Y'
+    Fire_Name: Maria Fire
+    ModifiedOnDateTime: '2019-11-04T02:55Z'
+    ModifiedOnDateTimeEpoch: 1572836136000
     DailyAcres: 9412
     PercentContained: 70
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2019-11-04T01:45Z'
-    ICS209ReportDateTimeEpoch: 1572831900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 6670253
-    FireCause: Unknown
-    TotalIncidentPersonnel: 1140
-    FireDiscoveryDateTime: '2019-11-01T02:15Z'
-    FireDiscoveryDateTimeEpoch: 1572574500000
-    DispatchCenterID: CAVNCC
-    LocalIncidentIdentifier: 090135
-    POOCounty: Ventura
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-04T01:45Z'
-    ModifiedOnDateTimeEpoch: 1572831900000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3
+    Link: 'https://www.fire.ca.gov/incidents/2019/10/31/maria-fire/'
+    Name: Maria Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#MariaFire'
     _CorrelationIds:
       - 2019-CAVNC-090135
       - CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3
-    ModifiedOnDateTime_Raw: '2019-11-04T01:46Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572831960000
-    Hashtag: '#MariaFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-11-01T06:00Z'
     PerimeterData:
       DateTime: '2019-11-01T06:00Z'
       Acres: 11982.2751074
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-04T02:01:08.116Z'
+          RetrievedOn: '2019-11-04T02:56:24.287Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -94279,10 +94281,10 @@ Database:
             json: true
         Modified: true
         SourceLayer: '2'
-    unitId: CAVNC
-    unitMention: '@VCFD'
+    unitId: 31852a71
+    unitMention: null
     Final_Fire_Name: Maria Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-04T01:45Z-PER-2019-11-01T06:00Z-ID-2019-CAVNC-090135-NAME-Maria-S-N
-      Code: 37d5becbd3acd77cea4a3409e6c06fb71f7f614d5fb26ca69e9813fdd4661bbb
+        UPD-2019-11-04T02:55Z-PER-2019-11-01T06:00Z-ID-CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3-NAME-MariaFire-S-C
+      Code: b51f301a959941037deae4a36985ca4d87d4459c11a3b59aea813365512035c3
