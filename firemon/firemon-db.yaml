@@ -92107,13 +92107,13 @@ Database:
     ModifiedOnDateTimeEpoch_Raw: 1572874967000
     Hashtag: '#GettyFire'
     NFSAType: Large WF
-    PerimDateTime: '2019-11-01T00:00Z'
+    PerimDateTime: '2019-11-02T01:00Z'
     PerimeterData:
-      DateTime: '2019-11-01T00:00Z'
-      Acres: 745.16227363
+      DateTime: '2019-11-02T01:00Z'
+      Acres: 703.5350678
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-04T14:01:39.532Z'
+          RetrievedOn: '2019-11-04T18:06:16.938Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -92135,8 +92135,8 @@ Database:
     Final_Fire_Name: Getty Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-04T13:30Z-PER-2019-11-01T00:00Z-ID-2019-CALFD-001583-NAME-GETTY-S-N
-      Code: eff6b4838ad0011fec72c8c8e4331877496ad6d5a910ddda0c41d8670c4d2efb
+        UPD-2019-11-04T13:30Z-PER-2019-11-02T01:00Z-ID-2019-CALFD-001583-NAME-GETTY-S-N
+      Code: 483a4ecc11b9144dfc0e78d94042e9404ff16631370e5c9459e4b64e1d573d1b
   2019-WASPD-000645:
     Source_NFSA_Join:
       Lon: -120.041512090778
@@ -92842,188 +92842,6 @@ Database:
       UpdateId: >-
         UPD-2019-11-01T21:19Z-PER-none-ID-CALFIRE-dfc32e06-b88e-4d30-ae3d-22bc18792f5e-NAME-HillsideFire-S-C
       Code: e29adca62b0f160c5e53c614f85114e92db09b7a859a439256a6e7c0b1a271d1
-  2019-UTFIF-190477:
-    Source_NFSA_Join:
-      Lon: -112.50071223607077
-      Lat: 38.29908446179833
-      id: 135696
-      Name: Skull Flat 2
-      Fire_Name: Skull Flat 2
-      UniqueFireIdentifier: 2019-UTFIF-190477
-      DailyAcres: 1545
-      PercentContained: 1
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-10-31T20:00Z'
-      ICS209ReportDateTimeEpoch: 1572552000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 65000
-      FireCause: Natural
-      TotalIncidentPersonnel: 5
-      FireDiscoveryDateTime: '2019-10-02T19:58Z'
-      FireDiscoveryDateTimeEpoch: 1570046280000
-      DispatchCenterID: UTRFC
-      LocalIncidentIdentifier: '190477'
-      POOCounty: Beaver
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-31T20:00Z'
-      ModifiedOnDateTimeEpoch: 1572552000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-UTFIF-190477
-      ModifiedOnDateTime_Raw: '2019-10-31T20:17Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572553057000
-      Hashtag: '#SkullFlat2Fire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T20:30:22.621Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Source_GEOMAC:
-      Lon: -112.50071155267746
-      Lat: 38.29908570897807
-      objectid: 7
-      latitude: 38.29908
-      longitude: -112.5007
-      acres: 1545
-      gacc: GBCC
-      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
-      state: UT
-      status: U
-      firecause: Natural
-      reportdatetime: '2019-10-31T20:00Z'
-      reportdatetimeEpoch: 1572552000000
-      percentcontained: 1
-      uniquefireidentifier: 2019-UTFIF-190477
-      firediscoverydatetime: '2019-10-02T19:58Z'
-      firediscoverydatetimeEpoch: 1570046280000
-      complexparentirwinid: null
-      pooresponsibleunit: UTFIF
-      incidentname: Skull Flat 2
-      iscomplex: 'false'
-      irwinid: '{4805B2B6-9DC2-47B7-A1A7-C78E42B5DCA4}'
-      irwinmodifiedon: '2019-10-31T20:17Z'
-      irwinmodifiedonEpoch: 1572553058000
-      mapsymbol: '1'
-      datecurrent: '2019-10-31T14:30Z'
-      datecurrentEpoch: 1572532213000
-      pooownerunit: USTFIF
-      fireyear: 2019
-      localincidentidentifier: '190477'
-      incidenttypecategory: WF
-      owneragency: USFS
-      perimexist: 'Y'
-      complexname: null
-      DailyAcres: 1545
-      FireCause: Natural
-      ModifiedOnDateTime: '2019-10-31T20:00Z'
-      ModifiedOnDateTimeEpoch: 1572552000000
-      PercentContained: 1
-      UniqueFireIdentifier: 2019-UTFIF-190477
-      FireDiscoveryDateTime: '2019-10-02T19:58Z'
-      FireDiscoveryDateTimeEpoch: 1570046280000
-      Fire_Name: Skull Flat 2
-      Name: Skull Flat 2
-      Source: GEOMAC
-      Hashtag: '#SkullFlat2Fire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T20:30:22.622Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-      _CorrelationIds:
-        - 2019-UTFIF-190477
-    Lon: -112.50071223607077
-    Lat: 38.29908446179833
-    id: 135696
-    Name: Skull Flat 2
-    Fire_Name: Skull Flat 2
-    UniqueFireIdentifier: 2019-UTFIF-190477
-    DailyAcres: 1545
-    PercentContained: 1
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-10-31T20:00Z'
-    ICS209ReportDateTimeEpoch: 1572552000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 65000
-    FireCause: Natural
-    TotalIncidentPersonnel: 5
-    FireDiscoveryDateTime: '2019-10-02T19:58Z'
-    FireDiscoveryDateTimeEpoch: 1570046280000
-    DispatchCenterID: UTRFC
-    LocalIncidentIdentifier: '190477'
-    POOCounty: Beaver
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-31T20:00Z'
-    ModifiedOnDateTimeEpoch: 1572552000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-UTFIF-190477
-    ModifiedOnDateTime_Raw: '2019-10-31T20:17Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572553057000
-    Hashtag: '#SkullFlat2Fire'
-    NFSAType: Large WF
-    PerimDateTime: '2019-10-27T00:00Z'
-    PerimeterData:
-      DateTime: '2019-10-27T00:00Z'
-      Acres: 1545.5433485
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-10-31T20:31:51.072Z'
-          Request:
-            uri: >-
-              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
-            qs:
-              outFields: '*'
-              returnGeometry: true
-              outSR: '{"wkid": 4326}'
-              f: geojson
-              where: 1=1
-              resultRecordCount: 10000
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-        SourceLayer: '3'
-    unitId: UTFIF
-    unitMention: Fishlake NF
-    Final_Fire_Name: Skull Flat 2 Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-10-31T20:00Z-PER-2019-10-27T00:00Z-ID-2019-UTFIF-190477-NAME-SkullFlat2-S-N
-      Code: bea523aa8fec11b3ef3c88d3d89828c81d9f7ff3fdcf5d3242aa974557b521f2
   CALFIRE-451c3012-2831-44c1-8fc7-146fd02d2ce0:
     Source_CALFIRE:
       Lon: -120.145
@@ -93921,18 +93739,36 @@ Database:
     _CorrelationIds:
       - 2019-CATGU-011766
       - CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32
-    PerimDateTime: null
+    PerimDateTime: '2019-11-04T06:00Z'
     PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
+      DateTime: '2019-11-04T06:00Z'
+      Acres: 511.82698525
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-04T18:06:16.938Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
     unitId: 69d98a94
     unitMention: null
     Final_Fire_Name: Ranch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-04T14:58Z-PER-none-ID-CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32-NAME-RanchFire-S-C
-      Code: 99c95890f4f4cab6d3d75c22099c779019cbba6f427f1dacb729eb30e6ef82b8
+        UPD-2019-11-04T14:58Z-PER-2019-11-04T06:00Z-ID-CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32-NAME-RanchFire-S-C
+      Code: 368f8ebe9f03ba7ea539fbae89d0f296809a849f2b7ef11f94275eeb3ed5ef58
   CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3:
     Source_CALFIRE:
       Lon: -118.997115
@@ -94138,13 +93974,13 @@ Database:
     _CorrelationIds:
       - 2019-CAVNC-090135
       - CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3
-    PerimDateTime: '2019-11-01T06:00Z'
+    PerimDateTime: '2019-11-03T21:40Z'
     PerimeterData:
-      DateTime: '2019-11-01T06:00Z'
-      Acres: 11982.2751074
+      DateTime: '2019-11-03T21:40Z'
+      Acres: 10042.4589888
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-04T15:23:23.818Z'
+          RetrievedOn: '2019-11-04T18:06:16.938Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -94166,8 +94002,10 @@ Database:
     Final_Fire_Name: Maria Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-04T15:22Z-PER-2019-11-01T06:00Z-ID-CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3-NAME-MariaFire-S-C
-      Code: 48758b1bd9a7014188a79c4326b56e476cd07c6ea0d4138238be92239439f246
+        UPD-2019-11-04T15:22Z-PER-2019-11-03T21:40Z-ID-CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3-NAME-MariaFire-S-C
+      Code: ce44d420c5b0b4d4f05e58c291ec180ae9438041ab8c160213389b9b8e77c51f
+    Damage:
+      structuresDestroyed: 2
   CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941:
     Source_CALFIRE:
       Lon: -122.780053
@@ -94379,13 +94217,13 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: '2019-10-31T23:46Z'
+    PerimDateTime: '2019-11-03T20:03Z'
     PerimeterData:
-      DateTime: '2019-10-31T23:46Z'
-      Acres: 77775.0733377
+      DateTime: '2019-11-03T20:03Z'
+      Acres: 77762.1250356
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-04T15:14:49.965Z'
+          RetrievedOn: '2019-11-04T18:06:16.938Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -94407,5 +94245,9 @@ Database:
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-04T15:13Z-PER-2019-10-31T23:46Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: 068eef71431365c2aab3889c019b4135f9d55ecdb9a6ad7c6778945988407f6f
+        UPD-2019-11-04T15:13Z-PER-2019-11-03T20:03Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: 12069f5f4334c49fd3ba6e6dacb28cb00e04eadfb6dc92218128b9af80f6fad8
+    Damage:
+      structuresDamaged: 60
+      structuresDestroyed: 374
+      injuries: 4
