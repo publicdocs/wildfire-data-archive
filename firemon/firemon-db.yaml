@@ -91808,102 +91808,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-10-28T19:00Z-PER-none-ID-2019-COCJX-001713-NAME-G18-S-N'
       Code: bbe03dfe20d6506aabae87aa6f0c50f44866a1652c929e900f1cc995c7049444
-  2019-AZCNF-000710:
-    Source_NFSA_Join:
-      Lon: -110.69050812388868
-      Lat: 32.33736536911442
-      id: 137947
-      Name: MOLINO
-      Fire_Name: MOLINO
-      UniqueFireIdentifier: 2019-AZCNF-000710
-      DailyAcres: 540
-      PercentContained: 90
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2019-10-31T22:00Z'
-      ICS209ReportDateTimeEpoch: 1572559200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 65000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 2
-      FireDiscoveryDateTime: '2019-10-27T22:27Z'
-      FireDiscoveryDateTimeEpoch: 1572215220000
-      DispatchCenterID: AZTDC
-      LocalIncidentIdentifier: '000710'
-      POOCounty: Pima
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2019-10-31T22:00Z'
-      ModifiedOnDateTimeEpoch: 1572559200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-AZCNF-000710
-      ModifiedOnDateTime_Raw: '2019-10-31T23:55Z'
-      ModifiedOnDateTimeEpoch_Raw: 1572566133000
-      Hashtag: '#MolinoFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2019-11-01T00:00:31.368Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -110.69050812388868
-    Lat: 32.33736536911442
-    id: 137947
-    Name: MOLINO
-    Fire_Name: MOLINO
-    UniqueFireIdentifier: 2019-AZCNF-000710
-    DailyAcres: 540
-    PercentContained: 90
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2019-10-31T22:00Z'
-    ICS209ReportDateTimeEpoch: 1572559200000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 65000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 2
-    FireDiscoveryDateTime: '2019-10-27T22:27Z'
-    FireDiscoveryDateTimeEpoch: 1572215220000
-    DispatchCenterID: AZTDC
-    LocalIncidentIdentifier: '000710'
-    POOCounty: Pima
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2019-10-31T22:00Z'
-    ModifiedOnDateTimeEpoch: 1572559200000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2019-AZCNF-000710
-    ModifiedOnDateTime_Raw: '2019-10-31T23:55Z'
-    ModifiedOnDateTimeEpoch_Raw: 1572566133000
-    Hashtag: '#MolinoFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: AZCNF
-    unitMention: '@CoronadoNF'
-    Final_Fire_Name: Molino Fire
-    _Update:
-      UpdateId: 'UPD-2019-10-31T22:00Z-PER-none-ID-2019-AZCNF-000710-NAME-MOLINO-S-N'
-      Code: f0d1e2c162400eee3b30e63539365d11756f2c2f418817b3930c646ee28eb8a4
   2019-CALFD-001583:
     Source_CALFIRE:
       Lon: -118.478717
@@ -93672,13 +93576,13 @@ Database:
     _CorrelationIds:
       - 2019-CATGU-011766
       - CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32
-    PerimDateTime: '2019-11-04T06:00Z'
+    PerimDateTime: '2019-11-05T08:00Z'
     PerimeterData:
-      DateTime: '2019-11-04T06:00Z'
-      Acres: 511.82698525
+      DateTime: '2019-11-05T08:00Z'
+      Acres: 2076.91177343
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-05T14:39:52.641Z'
+          RetrievedOn: '2019-11-05T19:45:55.275Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -93700,8 +93604,8 @@ Database:
     Final_Fire_Name: Ranch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-05T14:38Z-PER-2019-11-04T06:00Z-ID-CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32-NAME-RanchFire-S-C
-      Code: ef5cb8009d11a8d13f6aca2333b049652b8bd3a60f765c030e0011315e588d7c
+        UPD-2019-11-05T14:38Z-PER-2019-11-05T08:00Z-ID-CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32-NAME-RanchFire-S-C
+      Code: f2e95f27396fc1a92f7aee0c1e809ca75420f9bb5e70095e3befb4878979a628
   CALFIRE-600d608d-6279-435d-bc9b-99aacaa5e80f:
     Source_CALFIRE:
       Lon: -122.496548
@@ -93949,13 +93853,13 @@ Database:
     _CorrelationIds:
       - 2019-CAVNC-090135
       - CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3
-    PerimDateTime: '2019-11-03T21:40Z'
+    PerimDateTime: '2019-11-05T01:15Z'
     PerimeterData:
-      DateTime: '2019-11-03T21:40Z'
-      Acres: 10042.4589888
+      DateTime: '2019-11-05T01:15Z'
+      Acres: 9999.71988246
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-05T14:55:46.424Z'
+          RetrievedOn: '2019-11-05T19:45:55.275Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -93977,8 +93881,10 @@ Database:
     Final_Fire_Name: Maria Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-05T14:54Z-PER-2019-11-03T21:40Z-ID-CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3-NAME-MariaFire-S-C
-      Code: 7d2efd8f954a2d88f002031f1efe75f5e42e689362e1a6cfb0950ae274d3b776
+        UPD-2019-11-05T14:54Z-PER-2019-11-05T01:15Z-ID-CALFIRE-31852a71-e639-496f-9e7d-0968d1c218b3-NAME-MariaFire-S-C
+      Code: 688bfafb2e5b1ae36b2cb0463b0a1b7ca4a145c0eef70110d9636e20c6c828c4
+    Damage:
+      structuresDestroyed: 4
   CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941:
     Source_CALFIRE:
       Lon: -122.780053
@@ -94190,13 +94096,13 @@ Database:
     _CorrelationIds:
       - 2019-CALNU-019376
       - CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941
-    PerimDateTime: '2019-11-03T20:03Z'
+    PerimDateTime: '2019-11-04T20:30Z'
     PerimeterData:
-      DateTime: '2019-11-03T20:03Z'
-      Acres: 77762.1250356
+      DateTime: '2019-11-04T20:30Z'
+      Acres: 77751.6678926
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-05T15:16:19.606Z'
+          RetrievedOn: '2019-11-05T19:45:55.275Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -94218,5 +94124,9 @@ Database:
     Final_Fire_Name: Kincade Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-05T15:15Z-PER-2019-11-03T20:03Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
-      Code: 24ad7ff8683fd9c2ad651b635f0f1a33f98ab2c337fdad60741a82b3eb55abfe
+        UPD-2019-11-05T15:15Z-PER-2019-11-04T20:30Z-ID-CALFIRE-809d101c-8aa3-4a53-bf20-f38ae7ec7941-NAME-KincadeFire-S-C
+      Code: 2aaa12787db1f426dfde7a14283df12b485ae2c0c5c3d9e66cbf2cf849f1543a
+    Damage:
+      structuresDamaged: 60
+      structuresDestroyed: 374
+      injuries: 4
