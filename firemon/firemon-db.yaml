@@ -93813,14 +93813,14 @@ Database:
       UpdateId: >-
         UPD-2019-11-06T13:30Z-PER-2019-11-04T20:30Z-ID-2019-CALNU-019376-NAME-KINCADE-S-N
       Code: 2d8b872838cc3c8c5de5040029a5b0db54ab874e4fc2006d60b08744b8fea8c6
-  2019-CATGU-011766:
+  CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32:
     Source_CALFIRE:
       Lon: -122.6376
       Lat: 40.03511
       incident_name: Ranch Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-11-06T04:15Z'
-      incident_date_last_updateEpoch: 1573013709000
+      incident_date_last_update: '2019-11-06T15:17Z'
+      incident_date_last_updateEpoch: 1573053452000
       incident_date_created: '2019-11-03T22:16Z'
       incident_date_createdEpoch: 1572819377000
       incident_administrative_unit: CAL FIRE Tehama-Glenn Unit
@@ -93837,14 +93837,14 @@ Database:
       incident_latitude: 40.03511
       incident_type: Wildfire
       incident_id: 69d98a94-4980-4dc0-b388-61c37c635f32
-      incident_url: 'https://www.fire.ca.gov/incidents/2019/11/3/ranch-fire/'
+      incident_url: 'https://osfm.fire.ca.gov/incidents/2019/11/3/ranch-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-11-03'
       is_active: 'Y'
       Fire_Name: Ranch Fire
-      ModifiedOnDateTime: '2019-11-06T04:15Z'
-      ModifiedOnDateTimeEpoch: 1573013709000
+      ModifiedOnDateTime: '2019-11-06T15:17Z'
+      ModifiedOnDateTimeEpoch: 1573053452000
       DailyAcres: 3768
       PercentContained: 15
       UniqueFireIdentifier: CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32
@@ -93855,7 +93855,7 @@ Database:
       Hashtag: '#RanchFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-06T14:01:18.244Z'
+          RetrievedOn: '2019-11-06T15:18:57.352Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -93905,7 +93905,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-06T14:01:18.242Z'
+          RetrievedOn: '2019-11-06T15:18:57.351Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -93940,8 +93940,8 @@ Database:
       irwinmodifiedon: '2019-11-06T13:57Z'
       irwinmodifiedonEpoch: 1573048639000
       mapsymbol: '1'
-      datecurrent: '2019-11-06T07:00Z'
-      datecurrentEpoch: 1573023609000
+      datecurrent: '2019-11-06T08:00Z'
+      datecurrentEpoch: 1573027213000
       pooownerunit: CATGU
       fireyear: 2019
       localincidentidentifier: '011766'
@@ -93963,7 +93963,7 @@ Database:
       Hashtag: '#RanchFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-06T14:01:18.243Z'
+          RetrievedOn: '2019-11-06T15:18:57.352Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -93981,50 +93981,54 @@ Database:
         Modified: true
       _CorrelationIds:
         - 2019-CATGU-011766
-    Lon: -122.60932836412799
-    Lat: 40.04015354484088
-    id: 138568
-    Name: RANCH
-    Fire_Name: RANCH
-    UniqueFireIdentifier: 2019-CATGU-011766
+    Lon: -122.6376
+    Lat: 40.03511
+    incident_name: Ranch Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-11-06T15:17Z'
+    incident_date_last_updateEpoch: 1573053452000
+    incident_date_created: '2019-11-03T22:16Z'
+    incident_date_createdEpoch: 1572819377000
+    incident_administrative_unit: CAL FIRE Tehama-Glenn Unit
+    incident_administrative_unit_url: ''
+    incident_county: Tehama
+    incident_location: 'Colyer Springs Rd and Raglin Ridge Rd, southwest of Red Bluff'
+    incident_acres_burned: 3768
+    incident_containment: 15
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      Cooperating Agencies: CDCR, Tehama County Sheriffs, BLM, Tehama County
+      Fire Dept, Mendocino National Forest
+    incident_longitude: -122.6376
+    incident_latitude: 40.03511
+    incident_type: Wildfire
+    incident_id: 69d98a94-4980-4dc0-b388-61c37c635f32
+    incident_url: 'https://osfm.fire.ca.gov/incidents/2019/11/3/ranch-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-11-03'
+    is_active: 'Y'
+    Fire_Name: Ranch Fire
+    ModifiedOnDateTime: '2019-11-06T15:17Z'
+    ModifiedOnDateTimeEpoch: 1573053452000
     DailyAcres: 3768
     PercentContained: 15
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-11-06T13:30Z'
-    ICS209ReportDateTimeEpoch: 1573047000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1300000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 1244
-    FireDiscoveryDateTime: '2019-11-03T20:07Z'
-    FireDiscoveryDateTimeEpoch: 1572811632000
-    DispatchCenterID: CATGCC
-    LocalIncidentIdentifier: '011766'
-    POOCounty: Tehama
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-06T13:30Z'
-    ModifiedOnDateTimeEpoch: 1573047000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32
+    Link: 'https://www.fire.ca.gov/incidents/2019/11/3/ranch-fire/'
+    Name: Ranch Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#RanchFire'
     _CorrelationIds:
       - 2019-CATGU-011766
       - CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32
-    ModifiedOnDateTime_Raw: '2019-11-06T13:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1573048638000
-    Hashtag: '#RanchFire'
-    NFSAType: Large WF
     PerimDateTime: '2019-11-05T08:00Z'
     PerimeterData:
       DateTime: '2019-11-05T08:00Z'
       Acres: 2076.91177343
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-06T14:01:26.878Z'
+          RetrievedOn: '2019-11-06T15:19:05.725Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
@@ -94041,10 +94045,10 @@ Database:
             json: true
         Modified: true
         SourceLayer: '2'
-    unitId: CATGU
-    unitMention: Tehama-Glenn Unit
+    unitId: 69d98a94
+    unitMention: null
     Final_Fire_Name: Ranch Fire
     _Update:
       UpdateId: >-
-        UPD-2019-11-06T13:30Z-PER-2019-11-05T08:00Z-ID-2019-CATGU-011766-NAME-RANCH-S-N
-      Code: 8d0f2354a40021527c1e67efa098dd5e322c133b882c3b42cb0e227a0a1b6092
+        UPD-2019-11-06T15:17Z-PER-2019-11-05T08:00Z-ID-CALFIRE-69d98a94-4980-4dc0-b388-61c37c635f32-NAME-RanchFire-S-C
+      Code: 67e607c6f8ac4ff030b53792739bf9ec54a8ab44bdeaddd71c1743cdfd65e536
