@@ -93947,3 +93947,118 @@ Database:
       UpdateId: >-
         UPD-2019-11-14T17:00Z-PER-2019-09-23T22:04Z-ID-2019-CAINF-002018-NAME-TABOOSE-S-G
       Code: 4dd1aa3ac2eef7916776fe400d552db6d122450e5953b4c8fe1764168cdd1c0e
+  2019-ORUMF-019341:
+    Source_NFSA_Join:
+      Lon: -119.4693122042524
+      Lat: 45.08617377035836
+      id: 138450
+      Name: 341 Skookum Creek
+      Fire_Name: 341 Skookum Creek
+      UniqueFireIdentifier: 2019-ORUMF-019341
+      DailyAcres: 120
+      PercentContained: 0
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-11-15T18:30Z'
+      ICS209ReportDateTimeEpoch: 1573842600000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 50000
+      FireCause: Human
+      TotalIncidentPersonnel: 3
+      FireDiscoveryDateTime: '2019-11-01T20:13Z'
+      FireDiscoveryDateTimeEpoch: 1572639180000
+      DispatchCenterID: ORJDCC
+      LocalIncidentIdentifier: 019341
+      POOCounty: Morrow
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-11-15T18:30Z'
+      ModifiedOnDateTimeEpoch: 1573842600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-ORUMF-019341
+      ModifiedOnDateTime_Raw: '2019-11-15T18:46Z'
+      ModifiedOnDateTimeEpoch_Raw: 1573843595000
+      Hashtag: '#341SkookumCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-15T19:02:19.550Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -119.4693122042524
+    Lat: 45.08617377035836
+    id: 138450
+    Name: 341 Skookum Creek
+    Fire_Name: 341 Skookum Creek
+    UniqueFireIdentifier: 2019-ORUMF-019341
+    DailyAcres: 120
+    PercentContained: 0
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-11-15T18:30Z'
+    ICS209ReportDateTimeEpoch: 1573842600000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 50000
+    FireCause: Human
+    TotalIncidentPersonnel: 3
+    FireDiscoveryDateTime: '2019-11-01T20:13Z'
+    FireDiscoveryDateTimeEpoch: 1572639180000
+    DispatchCenterID: ORJDCC
+    LocalIncidentIdentifier: 019341
+    POOCounty: Morrow
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-11-15T18:30Z'
+    ModifiedOnDateTimeEpoch: 1573842600000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-ORUMF-019341
+    ModifiedOnDateTime_Raw: '2019-11-15T18:46Z'
+    ModifiedOnDateTimeEpoch_Raw: 1573843595000
+    Hashtag: '#341SkookumCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-11-04T12:00Z'
+    PerimeterData:
+      DateTime: '2019-11-04T12:00Z'
+      Acres: 37.84742641
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-15T19:02:27.606Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/3/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '3'
+    unitId: ORUMF
+    unitMention: Umatilla NF
+    Final_Fire_Name: 341 Skookum Creek Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-11-15T18:30Z-PER-2019-11-04T12:00Z-ID-2019-ORUMF-019341-NAME-341SkookumCreek-S-N
+      Code: 72624bb238c099f93c86e7807afa711a3ae43fc8e8a401327e4a741ec1b3250e
