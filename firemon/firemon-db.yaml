@@ -94505,38 +94505,38 @@ Database:
       Fire_Name: Gandy
       UniqueFireIdentifier: 2019-TXTXS-190542
       DailyAcres: 668
-      PercentContained: 85
+      PercentContained: 90
       FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-11-17T23:45Z'
+      ICS209ReportDateTimeEpoch: 1574034300000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 1
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 6
       FireDiscoveryDateTime: '2019-11-16T22:22Z'
       FireDiscoveryDateTimeEpoch: 1573942929000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190542'
       POOCounty: Hall
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-17T22:05Z'
-      ModifiedOnDateTimeEpoch: 1574028346000
-      ModifiedBySystem: wires
+      ModifiedOnDateTime: '2019-11-17T23:45Z'
+      ModifiedOnDateTimeEpoch: 1574034300000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190542
-      ModifiedOnDateTime_Raw: '2019-11-17T22:05Z'
-      ModifiedOnDateTimeEpoch_Raw: 1574028346000
+      ModifiedOnDateTime_Raw: '2019-11-18T02:09Z'
+      ModifiedOnDateTimeEpoch_Raw: 1574042986000
       Hashtag: '#GandyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-17T22:33:03.404Z'
+          RetrievedOn: '2019-11-18T04:34:34.989Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -94545,6 +94545,73 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -100.46303954375131
+      Lat: 34.44520586799725
+      objectid: 7
+      latitude: 34.4452
+      longitude: -100.463031
+      acres: 668
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-11-17T23:45Z'
+      reportdatetimeEpoch: 1574034300000
+      percentcontained: 90
+      uniquefireidentifier: 2019-TXTXS-190542
+      firediscoverydatetime: '2019-11-16T22:22Z'
+      firediscoverydatetimeEpoch: 1573942929000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Gandy
+      iscomplex: 'false'
+      irwinid: '{589F42F4-A6C9-4137-9117-A285B3DB2429}'
+      irwinmodifiedon: '2019-11-18T02:09Z'
+      irwinmodifiedonEpoch: 1574042987000
+      mapsymbol: '1'
+      datecurrent: '2019-11-17T21:30Z'
+      datecurrentEpoch: 1574026209000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190542'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 668
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-11-17T23:45Z'
+      ModifiedOnDateTimeEpoch: 1574034300000
+      PercentContained: 90
+      UniqueFireIdentifier: 2019-TXTXS-190542
+      FireDiscoveryDateTime: '2019-11-16T22:22Z'
+      FireDiscoveryDateTimeEpoch: 1573942929000
+      Fire_Name: Gandy
+      Name: Gandy
+      Source: GEOMAC
+      Hashtag: '#GandyFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-18T04:34:34.991Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190542
     Lon: -100.46451812080844
     Lat: 34.42362242737003
     id: 139531
@@ -94552,33 +94619,33 @@ Database:
     Fire_Name: Gandy
     UniqueFireIdentifier: 2019-TXTXS-190542
     DailyAcres: 668
-    PercentContained: 85
+    PercentContained: 90
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-11-17T23:45Z'
+    ICS209ReportDateTimeEpoch: 1574034300000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 1
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 6
     FireDiscoveryDateTime: '2019-11-16T22:22Z'
     FireDiscoveryDateTimeEpoch: 1573942929000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190542'
     POOCounty: Hall
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-17T22:05Z'
-    ModifiedOnDateTimeEpoch: 1574028346000
-    ModifiedBySystem: wires
+    ModifiedOnDateTime: '2019-11-17T23:45Z'
+    ModifiedOnDateTimeEpoch: 1574034300000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190542
-    ModifiedOnDateTime_Raw: '2019-11-17T22:05Z'
-    ModifiedOnDateTimeEpoch_Raw: 1574028346000
+    ModifiedOnDateTime_Raw: '2019-11-18T02:09Z'
+    ModifiedOnDateTimeEpoch_Raw: 1574042986000
     Hashtag: '#GandyFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -94590,8 +94657,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Gandy Fire
     _Update:
-      UpdateId: 'UPD-2019-11-17T22:05Z-PER-none-ID-2019-TXTXS-190542-NAME-Gandy-S-N'
-      Code: 769233cd18525d6128f04a2e8e1bca10c773c435847caa1c65e8285f77cecf84
+      UpdateId: 'UPD-2019-11-17T23:45Z-PER-none-ID-2019-TXTXS-190542-NAME-Gandy-S-N'
+      Code: 18ab03ef68bd3eb5c49e8e4022947d22a9a81d8c76df22a94bbbf316b007cdc6
   2019-NENBF-190489:
     Source_NFSA_Join:
       Lon: -100.44960608709205
