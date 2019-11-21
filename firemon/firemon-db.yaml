@@ -95059,38 +95059,38 @@ Database:
       Fire_Name: Henderson
       UniqueFireIdentifier: 2019-TXTXS-190556
       DailyAcres: 400
-      PercentContained: 20
+      PercentContained: 25
       FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-11-20T23:15Z'
+      ICS209ReportDateTimeEpoch: 1574291700000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 1
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 42
       FireDiscoveryDateTime: '2019-11-20T20:21Z'
       FireDiscoveryDateTimeEpoch: 1574281287000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190556'
       POOCounty: Jack
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-20T23:09Z'
-      ModifiedOnDateTimeEpoch: 1574291363000
+      ModifiedOnDateTime: '2019-11-20T23:15Z'
+      ModifiedOnDateTimeEpoch: 1574291700000
       ModifiedBySystem: wires
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190556
-      ModifiedOnDateTime_Raw: '2019-11-20T23:09Z'
-      ModifiedOnDateTimeEpoch_Raw: 1574291363000
+      ModifiedOnDateTime_Raw: '2019-11-20T23:58Z'
+      ModifiedOnDateTimeEpoch_Raw: 1574294332000
       Hashtag: '#HendersonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-20T23:30:58.150Z'
+          RetrievedOn: '2019-11-21T00:01:20.826Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -95099,6 +95099,73 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -98.2475909240839
+      Lat: 33.31361885651303
+      objectid: 9
+      latitude: 33.31361308
+      longitude: -98.247583
+      acres: 400
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-11-20T23:15Z'
+      reportdatetimeEpoch: 1574291700000
+      percentcontained: 25
+      uniquefireidentifier: 2019-TXTXS-190556
+      firediscoverydatetime: '2019-11-20T20:21Z'
+      firediscoverydatetimeEpoch: 1574281287000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Henderson
+      iscomplex: 'false'
+      irwinid: '{B9B6894A-0955-4AAD-B14B-49267BCE06FA}'
+      irwinmodifiedon: '2019-11-20T23:58Z'
+      irwinmodifiedonEpoch: 1574294333000
+      mapsymbol: '1'
+      datecurrent: '2019-11-20T17:00Z'
+      datecurrentEpoch: 1574269208000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190556'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 400
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-11-20T23:15Z'
+      ModifiedOnDateTimeEpoch: 1574291700000
+      PercentContained: 25
+      UniqueFireIdentifier: 2019-TXTXS-190556
+      FireDiscoveryDateTime: '2019-11-20T20:21Z'
+      FireDiscoveryDateTimeEpoch: 1574281287000
+      Fire_Name: Henderson
+      Name: Henderson
+      Source: GEOMAC
+      Hashtag: '#HendersonFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-21T00:01:20.826Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190556
     Lon: -98.24759278058839
     Lat: 33.3136189189973
     id: 139828
@@ -95106,33 +95173,33 @@ Database:
     Fire_Name: Henderson
     UniqueFireIdentifier: 2019-TXTXS-190556
     DailyAcres: 400
-    PercentContained: 20
+    PercentContained: 25
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-11-20T23:15Z'
+    ICS209ReportDateTimeEpoch: 1574291700000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 1
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 42
     FireDiscoveryDateTime: '2019-11-20T20:21Z'
     FireDiscoveryDateTimeEpoch: 1574281287000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190556'
     POOCounty: Jack
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-20T23:09Z'
-    ModifiedOnDateTimeEpoch: 1574291363000
+    ModifiedOnDateTime: '2019-11-20T23:15Z'
+    ModifiedOnDateTimeEpoch: 1574291700000
     ModifiedBySystem: wires
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190556
-    ModifiedOnDateTime_Raw: '2019-11-20T23:09Z'
-    ModifiedOnDateTimeEpoch_Raw: 1574291363000
+    ModifiedOnDateTime_Raw: '2019-11-20T23:58Z'
+    ModifiedOnDateTimeEpoch_Raw: 1574294332000
     Hashtag: '#HendersonFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -95144,5 +95211,5 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Henderson Fire
     _Update:
-      UpdateId: 'UPD-2019-11-20T23:09Z-PER-none-ID-2019-TXTXS-190556-NAME-Henderson-S-N'
-      Code: c81cdb3e64e8360039bf7fc7e798e8e0aa6e639e2b71738d5081d318be813f0a
+      UpdateId: 'UPD-2019-11-20T23:15Z-PER-none-ID-2019-TXTXS-190556-NAME-Henderson-S-N'
+      Code: c625875fe279384449ed034012336f3bb9959a06e853d4f7a519d13065fadc07
