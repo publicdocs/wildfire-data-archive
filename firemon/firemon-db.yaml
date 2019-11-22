@@ -94772,90 +94772,121 @@ Database:
       UpdateId: 'UPD-2019-11-20T14:56Z-PER-none-ID-2019-OKOSA-001256-NAME-WATCHER-S-N'
       Code: 240e856bf21054f763e41ce18cd6a5fd11adff41daa60c4515c29865f9ea1e0c
   2019-FLMIR-000547:
-    Source_NFSA_Join:
-      Lon: -80.74174554653194
-      Lat: 28.626845360912544
-      id: 139817
-      Name: Peacock
-      Fire_Name: Peacock
-      UniqueFireIdentifier: 2019-FLMIR-000547
-      DailyAcres: 500
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: null
+    Source_GEOMAC:
+      Lon: -80.74444732597931
+      Lat: 28.61917207851325
+      objectid: 4
+      latitude: 28.6191667
+      longitude: -80.7444444
+      acres: 4196
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: FL
+      status: U
+      firecause: Unknown
+      reportdatetime: '2019-11-22T15:30Z'
+      reportdatetimeEpoch: 1574436600000
+      percentcontained: 70
+      uniquefireidentifier: 2019-FLMIR-000547
+      firediscoverydatetime: '2019-11-20T19:45Z'
+      firediscoverydatetimeEpoch: 1574279100000
+      complexparentirwinid: null
+      pooresponsibleunit: FLMIR
+      incidentname: Peacock
+      iscomplex: 'false'
+      irwinid: '{148011AA-DE63-4E79-B746-BE3718A8A620}'
+      irwinmodifiedon: '2019-11-22T15:51Z'
+      irwinmodifiedonEpoch: 1574437913000
+      mapsymbol: '1'
+      datecurrent: '2019-11-22T09:00Z'
+      datecurrentEpoch: 1574413206000
+      pooownerunit: FLMIR
+      fireyear: 2019
+      localincidentidentifier: '000547'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 4196
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      ModifiedOnDateTime: '2019-11-22T15:30Z'
+      ModifiedOnDateTimeEpoch: 1574436600000
+      PercentContained: 70
+      UniqueFireIdentifier: 2019-FLMIR-000547
       FireDiscoveryDateTime: '2019-11-20T19:45Z'
       FireDiscoveryDateTimeEpoch: 1574279100000
-      DispatchCenterID: FLFIC
-      LocalIncidentIdentifier: '000547'
-      POOCounty: Brevard
-      POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-21T14:22Z'
-      ModifiedOnDateTimeEpoch: 1574346154000
-      ModifiedBySystem: wildcad
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2019-FLMIR-000547
-      ModifiedOnDateTime_Raw: '2019-11-21T14:22Z'
-      ModifiedOnDateTimeEpoch_Raw: 1574346154000
+      Fire_Name: Peacock
+      Name: Peacock
+      Source: GEOMAC
       Hashtag: '#PeacockFire'
-      NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-21T14:31:50.672Z'
+          RetrievedOn: '2019-11-22T16:00:20.688Z'
           Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
             headers:
               User-Agent: Request-Promise; Bot
             timeout: 120000
             json: true
         Modified: true
-    Lon: -80.74174554653194
-    Lat: 28.626845360912544
-    id: 139817
-    Name: Peacock
-    Fire_Name: Peacock
-    UniqueFireIdentifier: 2019-FLMIR-000547
-    DailyAcres: 500
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
+      _CorrelationIds:
+        - 2019-FLMIR-000547
+    Lon: -80.74444732597931
+    Lat: 28.61917207851325
+    objectid: 4
+    latitude: 28.6191667
+    longitude: -80.7444444
+    acres: 4196
+    gacc: SACC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: FL
+    status: U
+    firecause: Unknown
+    reportdatetime: '2019-11-22T15:30Z'
+    reportdatetimeEpoch: 1574436600000
+    percentcontained: 70
+    uniquefireidentifier: 2019-FLMIR-000547
+    firediscoverydatetime: '2019-11-20T19:45Z'
+    firediscoverydatetimeEpoch: 1574279100000
+    complexparentirwinid: null
+    pooresponsibleunit: FLMIR
+    incidentname: Peacock
+    iscomplex: 'false'
+    irwinid: '{148011AA-DE63-4E79-B746-BE3718A8A620}'
+    irwinmodifiedon: '2019-11-22T15:51Z'
+    irwinmodifiedonEpoch: 1574437913000
+    mapsymbol: '1'
+    datecurrent: '2019-11-22T09:00Z'
+    datecurrentEpoch: 1574413206000
+    pooownerunit: FLMIR
+    fireyear: 2019
+    localincidentidentifier: '000547'
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 4196
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2019-11-22T15:30Z'
+    ModifiedOnDateTimeEpoch: 1574436600000
+    PercentContained: 70
+    UniqueFireIdentifier: 2019-FLMIR-000547
     FireDiscoveryDateTime: '2019-11-20T19:45Z'
     FireDiscoveryDateTimeEpoch: 1574279100000
-    DispatchCenterID: FLFIC
-    LocalIncidentIdentifier: '000547'
-    POOCounty: Brevard
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-21T14:22Z'
-    ModifiedOnDateTimeEpoch: 1574346154000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Peacock
+    Name: Peacock
+    Source: GEOMAC
+    Hashtag: '#PeacockFire'
     _CorrelationIds:
       - 2019-FLMIR-000547
-    ModifiedOnDateTime_Raw: '2019-11-21T14:22Z'
-    ModifiedOnDateTimeEpoch_Raw: 1574346154000
-    Hashtag: '#PeacockFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -94865,8 +94896,8 @@ Database:
     unitMention: Merritt Island NWR
     Final_Fire_Name: Peacock Fire
     _Update:
-      UpdateId: 'UPD-2019-11-21T14:22Z-PER-none-ID-2019-FLMIR-000547-NAME-Peacock-S-N'
-      Code: 81c5dafe1ef5b8e6817f5fdd4c18c1c4b3f12d79e9271d2395570192ca1dd471
+      UpdateId: 'UPD-2019-11-22T15:30Z-PER-none-ID-2019-FLMIR-000547-NAME-Peacock-S-G'
+      Code: a14aca38bed89f89b8d5f65c06dc328035d6e2d4effc7bdcd3a9d9d61cfb2030
   2019-TXTXS-190556:
     Source_NFSA_Join:
       Lon: -98.24759278058839
