@@ -95283,3 +95283,166 @@ Database:
       UpdateId: >-
         UPD-2019-11-24T21:30Z-PER-none-ID-2019-NCNCF-190272-NAME-COLDMOUNTAIN-S-N
       Code: 60e96987887cea4709defda47be31b5dec6216f6e5e513652269d5c922e45360
+  2019-SDRBA-000032:
+    Source_NFSA_Join:
+      Lon: -101.09612359707288
+      Lat: 43.0750092651841
+      id: 139983
+      Name: SANDHILLS
+      Fire_Name: SANDHILLS
+      UniqueFireIdentifier: 2019-SDRBA-000032
+      DailyAcres: 919
+      PercentContained: 95
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-11-24T08:30Z'
+      ICS209ReportDateTimeEpoch: 1574584200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 40000
+      FireCause: Human
+      TotalIncidentPersonnel: 55
+      FireDiscoveryDateTime: '2019-11-23T22:15Z'
+      FireDiscoveryDateTimeEpoch: 1574547300000
+      DispatchCenterID: SDGPC
+      LocalIncidentIdentifier: '000032'
+      POOCounty: Todd
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-11-24T08:30Z'
+      ModifiedOnDateTimeEpoch: 1574584200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-SDRBA-000032
+      ModifiedOnDateTime_Raw: '2019-11-25T16:37Z'
+      ModifiedOnDateTimeEpoch_Raw: 1574699838000
+      Hashtag: '#SandhillsFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-25T17:00:49.397Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -101.09612069434671
+      Lat: 43.075007156836115
+      objectid: 3
+      latitude: 43.075
+      longitude: -101.0961111
+      acres: 919
+      gacc: RMCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: SD
+      status: I
+      firecause: Human
+      reportdatetime: '2019-11-24T08:30Z'
+      reportdatetimeEpoch: 1574584200000
+      percentcontained: 95
+      uniquefireidentifier: 2019-SDRBA-000032
+      firediscoverydatetime: '2019-11-23T22:15Z'
+      firediscoverydatetimeEpoch: 1574547300000
+      complexparentirwinid: null
+      pooresponsibleunit: SDRBA
+      incidentname: SANDHILLS
+      iscomplex: 'false'
+      irwinid: '{FD822048-4AF2-46ED-8744-48E1968F65F3}'
+      irwinmodifiedon: '2019-11-25T16:37Z'
+      irwinmodifiedonEpoch: 1574699838000
+      mapsymbol: '1'
+      datecurrent: '2019-11-25T10:00Z'
+      datecurrentEpoch: 1574676009000
+      pooownerunit: USDRBA
+      fireyear: 2019
+      localincidentidentifier: '000032'
+      incidenttypecategory: WF
+      owneragency: BIA
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 919
+      FireCause: Human
+      ModifiedOnDateTime: '2019-11-24T08:30Z'
+      ModifiedOnDateTimeEpoch: 1574584200000
+      PercentContained: 95
+      UniqueFireIdentifier: 2019-SDRBA-000032
+      FireDiscoveryDateTime: '2019-11-23T22:15Z'
+      FireDiscoveryDateTimeEpoch: 1574547300000
+      Fire_Name: SANDHILLS
+      Name: SANDHILLS
+      Source: GEOMAC
+      Hashtag: '#SandhillsFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-25T17:00:49.398Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-SDRBA-000032
+    Lon: -101.09612359707288
+    Lat: 43.0750092651841
+    id: 139983
+    Name: SANDHILLS
+    Fire_Name: SANDHILLS
+    UniqueFireIdentifier: 2019-SDRBA-000032
+    DailyAcres: 919
+    PercentContained: 95
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-11-24T08:30Z'
+    ICS209ReportDateTimeEpoch: 1574584200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 40000
+    FireCause: Human
+    TotalIncidentPersonnel: 55
+    FireDiscoveryDateTime: '2019-11-23T22:15Z'
+    FireDiscoveryDateTimeEpoch: 1574547300000
+    DispatchCenterID: SDGPC
+    LocalIncidentIdentifier: '000032'
+    POOCounty: Todd
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-11-24T08:30Z'
+    ModifiedOnDateTimeEpoch: 1574584200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-SDRBA-000032
+    ModifiedOnDateTime_Raw: '2019-11-25T16:37Z'
+    ModifiedOnDateTimeEpoch_Raw: 1574699838000
+    Hashtag: '#SandhillsFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: SDRBA
+    unitMention: Rosebud Agency
+    Final_Fire_Name: Sandhills Fire
+    _Update:
+      UpdateId: 'UPD-2019-11-24T08:30Z-PER-none-ID-2019-SDRBA-000032-NAME-SANDHILLS-S-N'
+      Code: 7e0c13dc89bb502bd947260c995ea7eedf147ddf0bdf5634b43e3ccd385975c4
