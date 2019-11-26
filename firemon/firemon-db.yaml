@@ -95426,10 +95426,10 @@ Database:
     Source_CALFIRE:
       Lon: -119.785
       Lat: 34.5025
-      incident_name: Cave Fire (Not a CAL FIRE Incident)
+      incident_name: Cave Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2019-11-26T15:50Z'
-      incident_date_last_updateEpoch: 1574783427000
+      incident_date_last_update: '2019-11-26T15:51Z'
+      incident_date_last_updateEpoch: 1574783490000
       incident_date_created: '2019-11-26T03:59Z'
       incident_date_createdEpoch: 1574740752000
       incident_administrative_unit: Los Padres National Forest
@@ -95446,28 +95446,25 @@ Database:
       incident_latitude: 34.5025
       incident_type: Wildfire
       incident_id: 7555692b-f672-4660-8f15-d0dab068a193
-      incident_url: >-
-        https://www.fire.ca.gov/incidents/2019/11/25/cave-fire-not-a-cal-fire-incident/
+      incident_url: 'https://www.fire.ca.gov/incidents/2019/11/25/cave-fire/'
       incident_date_extinguished: ''
       incident_dateonly_extinguished: ''
       incident_dateonly_created: '2019-11-25'
       is_active: 'Y'
-      Fire_Name: ''
-      ModifiedOnDateTime: '2019-11-26T15:50Z'
-      ModifiedOnDateTimeEpoch: 1574783427000
+      Fire_Name: Cave Fire
+      ModifiedOnDateTime: '2019-11-26T15:51Z'
+      ModifiedOnDateTimeEpoch: 1574783490000
       DailyAcres: 3800
       PercentContained: 0
       UniqueFireIdentifier: CALFIRE-7555692b-f672-4660-8f15-d0dab068a193
-      Link: >-
-        https://www.fire.ca.gov/incidents/2019/11/25/cave-fire-not-a-cal-fire-incident/
-      Notes: (Not a CAL FIRE Incident)
-      Name: ''
+      Link: 'https://www.fire.ca.gov/incidents/2019/11/25/cave-fire/'
+      Name: Cave Fire
       Source: CALFIRE
       State: CA
-      Hashtag: '#Fire'
+      Hashtag: '#CaveFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-26T15:50:50.338Z'
+          RetrievedOn: '2019-11-26T15:52:23.943Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -95478,62 +95475,6 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-7555692b-f672-4660-8f15-d0dab068a193
-    Lon: -119.785
-    Lat: 34.5025
-    incident_name: Cave Fire (Not a CAL FIRE Incident)
-    incident_is_final: 'False'
-    incident_date_last_update: '2019-11-26T15:50Z'
-    incident_date_last_updateEpoch: 1574783427000
-    incident_date_created: '2019-11-26T03:59Z'
-    incident_date_createdEpoch: 1574740752000
-    incident_administrative_unit: Los Padres National Forest
-    incident_administrative_unit_url: ''
-    incident_county: Santa Barbara
-    incident_location: >-
-      Highway 154 and E Camino Cielo near Painted Cave in the Los Padres
-      National Forest
-    incident_acres_burned: 3800
-    incident_containment: 0
-    incident_control: ''
-    incident_cooperating_agencies: 'Santa Barbara County Fire Department, CAL FIRE San Luis Obispo Unit'
-    incident_longitude: -119.785
-    incident_latitude: 34.5025
-    incident_type: Wildfire
-    incident_id: 7555692b-f672-4660-8f15-d0dab068a193
-    incident_url: >-
-      https://www.fire.ca.gov/incidents/2019/11/25/cave-fire-not-a-cal-fire-incident/
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2019-11-25'
-    is_active: 'Y'
-    Fire_Name: ''
-    ModifiedOnDateTime: '2019-11-26T15:50Z'
-    ModifiedOnDateTimeEpoch: 1574783427000
-    DailyAcres: 3800
-    PercentContained: 0
-    UniqueFireIdentifier: CALFIRE-7555692b-f672-4660-8f15-d0dab068a193
-    Link: >-
-      https://www.fire.ca.gov/incidents/2019/11/25/cave-fire-not-a-cal-fire-incident/
-    Notes: (Not a CAL FIRE Incident)
-    Name: ''
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#Fire'
-    _CorrelationIds:
-      - CALFIRE-7555692b-f672-4660-8f15-d0dab068a193
-    PerimDateTime: '2019-11-22T17:51Z'
-    PerimeterData:
-      DateTime: '2019-11-22T17:51Z'
-      Acres: null
-      _Provenance: null
-    unitId: 7555692b
-    unitMention: null
-    Final_Fire_Name: Fire
-    _Update:
-      UpdateId: >-
-        UPD-2019-11-26T15:50Z-PER-2019-11-22T17:51Z-ID-CALFIRE-7555692b-f672-4660-8f15-d0dab068a193-NAME--S-C
-      Code: 27040a2e51d28264a2426a23c555068b3f8b7801a4d7980a84ded41f8c4e3d0f
-  2019-CALPF-002908:
     Source_NFSA_Join:
       Lon: -119.79281350436952
       Lat: 34.51455322244715
@@ -95573,7 +95514,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-26T15:01:45.902Z'
+          RetrievedOn: '2019-11-26T15:52:23.942Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -95582,50 +95523,56 @@ Database:
             timeout: 120000
             json: true
         Modified: true
-    Lon: -119.79281350436952
-    Lat: 34.51455322244715
-    id: 140083
-    Name: Cave
-    Fire_Name: Cave
-    UniqueFireIdentifier: 2019-CALPF-002908
-    DailyAcres: 0.1
+    Lon: -119.785
+    Lat: 34.5025
+    incident_name: Cave Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2019-11-26T15:51Z'
+    incident_date_last_updateEpoch: 1574783490000
+    incident_date_created: '2019-11-26T03:59Z'
+    incident_date_createdEpoch: 1574740752000
+    incident_administrative_unit: Los Padres National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Santa Barbara
+    incident_location: >-
+      Highway 154 and E Camino Cielo near Painted Cave in the Los Padres
+      National Forest
+    incident_acres_burned: 3800
+    incident_containment: 0
+    incident_control: ''
+    incident_cooperating_agencies: 'Santa Barbara County Fire Department, CAL FIRE San Luis Obispo Unit'
+    incident_longitude: -119.785
+    incident_latitude: 34.5025
+    incident_type: Wildfire
+    incident_id: 7555692b-f672-4660-8f15-d0dab068a193
+    incident_url: 'https://www.fire.ca.gov/incidents/2019/11/25/cave-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2019-11-25'
+    is_active: 'Y'
+    Fire_Name: Cave Fire
+    ModifiedOnDateTime: '2019-11-26T15:51Z'
+    ModifiedOnDateTimeEpoch: 1574783490000
+    DailyAcres: 3800
     PercentContained: 0
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-11-26T12:00Z'
-    ICS209ReportDateTimeEpoch: 1574769600000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 200000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 417
-    FireDiscoveryDateTime: '2019-11-26T00:15Z'
-    FireDiscoveryDateTimeEpoch: 1574727300000
-    DispatchCenterID: CALPCC
-    LocalIncidentIdentifier: 002908
-    POOCounty: Santa Barbara
-    POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-26T12:00Z'
-    ModifiedOnDateTimeEpoch: 1574769600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: NonImsr
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-7555692b-f672-4660-8f15-d0dab068a193
+    Link: 'https://www.fire.ca.gov/incidents/2019/11/25/cave-fire/'
+    Name: Cave Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CaveFire'
     _CorrelationIds:
       - 2019-CALPF-002908
-    ModifiedOnDateTime_Raw: '2019-11-26T14:58Z'
-    ModifiedOnDateTimeEpoch_Raw: 1574780286000
-    Hashtag: '#CaveFire'
-    NFSAType: Large WF
+      - CALFIRE-7555692b-f672-4660-8f15-d0dab068a193
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CALPF
-    unitMention: '@LosPadresNF'
+    unitId: 7555692b
+    unitMention: null
     Final_Fire_Name: Cave Fire
     _Update:
-      UpdateId: 'UPD-2019-11-26T12:00Z-PER-none-ID-2019-CALPF-002908-NAME-Cave-S-N'
-      Code: 2f43fe534a7c36a90c04d52d97e28792e7852f71dc5b054c97d03dafb5d2a63f
+      UpdateId: >-
+        UPD-2019-11-26T15:51Z-PER-none-ID-CALFIRE-7555692b-f672-4660-8f15-d0dab068a193-NAME-CaveFire-S-C
+      Code: 831a64dce7b5f9739024494e383520ac299abd8d055cb3b0fa703da4f9a1ef4a
