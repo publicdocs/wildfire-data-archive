@@ -96183,36 +96183,36 @@ Database:
       DailyAcres: 300
       PercentContained: 80
       FireMgmtComplexity: Type 5 Incident
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      IncidentManagementOrganization: Type 5 IC
+      ICS209ReportDateTime: '2019-11-27T16:00Z'
+      ICS209ReportDateTimeEpoch: 1574870400000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 0
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 8
       FireDiscoveryDateTime: '2019-11-27T01:03Z'
       FireDiscoveryDateTimeEpoch: 1574816581000
       DispatchCenterID: TXTIC
       LocalIncidentIdentifier: '190568'
       POOCounty: Armstrong
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-27T15:49Z'
-      ModifiedOnDateTimeEpoch: 1574869798000
-      ModifiedBySystem: wires
+      ModifiedOnDateTime: '2019-11-27T16:00Z'
+      ModifiedOnDateTimeEpoch: 1574870400000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-TXTXS-190568
-      ModifiedOnDateTime_Raw: '2019-11-27T15:49Z'
-      ModifiedOnDateTimeEpoch_Raw: 1574869798000
+      ModifiedOnDateTime_Raw: '2019-11-27T16:17Z'
+      ModifiedOnDateTimeEpoch_Raw: 1574871426000
       Hashtag: '#OlleningerFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-27T16:00:53.806Z'
+          RetrievedOn: '2019-11-27T16:31:38.483Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -96221,6 +96221,73 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -101.29217545859802
+      Lat: 35.08433926700316
+      objectid: 5
+      latitude: 35.08433333
+      longitude: -101.29216667
+      acres: 300
+      gacc: SWCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-11-27T16:00Z'
+      reportdatetimeEpoch: 1574870400000
+      percentcontained: 80
+      uniquefireidentifier: 2019-TXTXS-190568
+      firediscoverydatetime: '2019-11-27T01:03Z'
+      firediscoverydatetimeEpoch: 1574816581000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTXS
+      incidentname: Olleninger
+      iscomplex: 'false'
+      irwinid: '{A7058E1C-C07A-47F4-9BFA-F2742196D769}'
+      irwinmodifiedon: '2019-11-27T16:17Z'
+      irwinmodifiedonEpoch: 1574871427000
+      mapsymbol: '1'
+      datecurrent: '2019-11-27T09:30Z'
+      datecurrentEpoch: 1574847015000
+      pooownerunit: TXTXS
+      fireyear: 2019
+      localincidentidentifier: '190568'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 300
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-11-27T16:00Z'
+      ModifiedOnDateTimeEpoch: 1574870400000
+      PercentContained: 80
+      UniqueFireIdentifier: 2019-TXTXS-190568
+      FireDiscoveryDateTime: '2019-11-27T01:03Z'
+      FireDiscoveryDateTimeEpoch: 1574816581000
+      Fire_Name: Olleninger
+      Name: Olleninger
+      Source: GEOMAC
+      Hashtag: '#OlleningerFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-27T16:31:38.484Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTXS-190568
     Lon: -101.2899890185387
     Lat: 35.079991575365895
     id: 140177
@@ -96230,31 +96297,31 @@ Database:
     DailyAcres: 300
     PercentContained: 80
     FireMgmtComplexity: Type 5 Incident
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    IncidentManagementOrganization: Type 5 IC
+    ICS209ReportDateTime: '2019-11-27T16:00Z'
+    ICS209ReportDateTimeEpoch: 1574870400000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 0
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 8
     FireDiscoveryDateTime: '2019-11-27T01:03Z'
     FireDiscoveryDateTimeEpoch: 1574816581000
     DispatchCenterID: TXTIC
     LocalIncidentIdentifier: '190568'
     POOCounty: Armstrong
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-27T15:49Z'
-    ModifiedOnDateTimeEpoch: 1574869798000
-    ModifiedBySystem: wires
+    ModifiedOnDateTime: '2019-11-27T16:00Z'
+    ModifiedOnDateTimeEpoch: 1574870400000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-TXTXS-190568
-    ModifiedOnDateTime_Raw: '2019-11-27T15:49Z'
-    ModifiedOnDateTimeEpoch_Raw: 1574869798000
+    ModifiedOnDateTime_Raw: '2019-11-27T16:17Z'
+    ModifiedOnDateTimeEpoch_Raw: 1574871426000
     Hashtag: '#OlleningerFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -96266,8 +96333,8 @@ Database:
     unitMention: '@AllHazardsTFS'
     Final_Fire_Name: Olleninger Fire
     _Update:
-      UpdateId: 'UPD-2019-11-27T15:49Z-PER-none-ID-2019-TXTXS-190568-NAME-Olleninger-S-N'
-      Code: d3e0724ffbaa6fd4b7a091b9471fba981db23bf2a90afab30a6c48c539d3c74d
+      UpdateId: 'UPD-2019-11-27T16:00Z-PER-none-ID-2019-TXTXS-190568-NAME-Olleninger-S-N'
+      Code: 9e914bd50b04c283dfce26dc486d2c086e2359ece63e3b74a56ae8b55b3d5516
   2019-CALPF-002908:
     Source_CALFIRE:
       Lon: -119.785
