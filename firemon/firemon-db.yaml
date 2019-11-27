@@ -95768,3 +95768,166 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-11-26T23:06Z-PER-none-ID-2019-TXTXS-190566-NAME-Lippold-S-N'
       Code: 01bb9018a254a1e21400fa963ff3276e805770db21ee6b848c21b93bb82620eb
+  2019-OKOKS-400016:
+    Source_NFSA_Join:
+      Lon: -99.22833747517872
+      Lat: 36.42250332152474
+      id: 140172
+      Name: Highway 50
+      Fire_Name: Highway 50
+      UniqueFireIdentifier: 2019-OKOKS-400016
+      DailyAcres: 764
+      PercentContained: 60
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-11-26T23:00Z'
+      ICS209ReportDateTimeEpoch: 1574809200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 14750
+      FireCause: Unknown
+      TotalIncidentPersonnel: 45
+      FireDiscoveryDateTime: '2019-11-26T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1574798400000
+      DispatchCenterID: ARAOC
+      LocalIncidentIdentifier: '400016'
+      POOCounty: Woodward
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-11-26T23:00Z'
+      ModifiedOnDateTimeEpoch: 1574809200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-OKOKS-400016
+      ModifiedOnDateTime_Raw: '2019-11-26T23:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1574812674000
+      Hashtag: '#Highway50Fire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-27T00:01:15.724Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -99.22834169565738
+      Lat: 36.422506268994844
+      objectid: 2
+      latitude: 36.4225
+      longitude: -99.2283333
+      acres: 764
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-11-26T23:00Z'
+      reportdatetimeEpoch: 1574809200000
+      percentcontained: 60
+      uniquefireidentifier: 2019-OKOKS-400016
+      firediscoverydatetime: '2019-11-26T20:00Z'
+      firediscoverydatetimeEpoch: 1574798400000
+      complexparentirwinid: null
+      pooresponsibleunit: OKOKS
+      incidentname: Highway 50
+      iscomplex: 'false'
+      irwinid: '{504A0C50-163E-4A45-8581-7E48BD2ED578}'
+      irwinmodifiedon: '2019-11-26T23:57Z'
+      irwinmodifiedonEpoch: 1574812674000
+      mapsymbol: '1'
+      datecurrent: '2019-11-26T17:00Z'
+      datecurrentEpoch: 1574787609000
+      pooownerunit: OKCOA
+      fireyear: 2019
+      localincidentidentifier: '400016'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 764
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-11-26T23:00Z'
+      ModifiedOnDateTimeEpoch: 1574809200000
+      PercentContained: 60
+      UniqueFireIdentifier: 2019-OKOKS-400016
+      FireDiscoveryDateTime: '2019-11-26T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1574798400000
+      Fire_Name: Highway 50
+      Name: Highway 50
+      Source: GEOMAC
+      Hashtag: '#Highway50Fire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-27T00:01:15.725Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-OKOKS-400016
+    Lon: -99.22833747517872
+    Lat: 36.42250332152474
+    id: 140172
+    Name: Highway 50
+    Fire_Name: Highway 50
+    UniqueFireIdentifier: 2019-OKOKS-400016
+    DailyAcres: 764
+    PercentContained: 60
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-11-26T23:00Z'
+    ICS209ReportDateTimeEpoch: 1574809200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 14750
+    FireCause: Unknown
+    TotalIncidentPersonnel: 45
+    FireDiscoveryDateTime: '2019-11-26T20:00Z'
+    FireDiscoveryDateTimeEpoch: 1574798400000
+    DispatchCenterID: ARAOC
+    LocalIncidentIdentifier: '400016'
+    POOCounty: Woodward
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-11-26T23:00Z'
+    ModifiedOnDateTimeEpoch: 1574809200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-OKOKS-400016
+    ModifiedOnDateTime_Raw: '2019-11-26T23:57Z'
+    ModifiedOnDateTimeEpoch_Raw: 1574812674000
+    Hashtag: '#Highway50Fire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: OKOKS
+    unitMention: Oklahoma Division of Forestry
+    Final_Fire_Name: Highway 50 Fire
+    _Update:
+      UpdateId: 'UPD-2019-11-26T23:00Z-PER-none-ID-2019-OKOKS-400016-NAME-Highway50-S-N'
+      Code: ccc5c82629f86af5a46af8fa687afa277c6b73e85ea983e44fd22142ede816e3
