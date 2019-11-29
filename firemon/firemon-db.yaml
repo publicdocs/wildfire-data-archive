@@ -96210,38 +96210,38 @@ Database:
       Fire_Name: ONE HORSE
       UniqueFireIdentifier: 2019-OKANA-001276
       DailyAcres: 426
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 65
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-11-29T14:00Z'
+      ICS209ReportDateTimeEpoch: 1575036000000
+      ICS209ReportStatus: I
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 43000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 41
       FireDiscoveryDateTime: '2019-11-26T20:05Z'
       FireDiscoveryDateTimeEpoch: 1574798700000
       DispatchCenterID: ARAOC
       LocalIncidentIdentifier: '001276'
       POOCounty: Caddo
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-27T15:56Z'
-      ModifiedOnDateTimeEpoch: 1574870169000
-      ModifiedBySystem: firecode
+      ModifiedOnDateTime: '2019-11-29T14:00Z'
+      ModifiedOnDateTimeEpoch: 1575036000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-OKANA-001276
-      ModifiedOnDateTime_Raw: '2019-11-27T15:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1574870169000
+      ModifiedOnDateTime_Raw: '2019-11-29T21:39Z'
+      ModifiedOnDateTimeEpoch_Raw: 1575063570000
       Hashtag: '#OneHorseFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-27T16:00:53.806Z'
+          RetrievedOn: '2019-11-29T22:01:39.960Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -96250,6 +96250,73 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -98.58556373133652
+      Lat: 35.11056167796515
+      objectid: 2
+      latitude: 35.1105556
+      longitude: -98.5855556
+      acres: 426
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-11-29T14:00Z'
+      reportdatetimeEpoch: 1575036000000
+      percentcontained: 65
+      uniquefireidentifier: 2019-OKANA-001276
+      firediscoverydatetime: '2019-11-26T20:05Z'
+      firediscoverydatetimeEpoch: 1574798700000
+      complexparentirwinid: null
+      pooresponsibleunit: OKANA
+      incidentname: ONE HORSE
+      iscomplex: 'false'
+      irwinid: '{350D8C9D-7941-485A-9E74-577EC708113F}'
+      irwinmodifiedon: '2019-11-29T21:39Z'
+      irwinmodifiedonEpoch: 1575063571000
+      mapsymbol: '1'
+      datecurrent: '2019-11-29T15:00Z'
+      datecurrentEpoch: 1575039623000
+      pooownerunit: OKANA
+      fireyear: 2019
+      localincidentidentifier: '001276'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 426
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-11-29T14:00Z'
+      ModifiedOnDateTimeEpoch: 1575036000000
+      PercentContained: 65
+      UniqueFireIdentifier: 2019-OKANA-001276
+      FireDiscoveryDateTime: '2019-11-26T20:05Z'
+      FireDiscoveryDateTimeEpoch: 1574798700000
+      Fire_Name: ONE HORSE
+      Name: ONE HORSE
+      Source: GEOMAC
+      Hashtag: '#OneHorseFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-29T22:01:39.962Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-OKANA-001276
     Lon: -98.58555695677984
     Lat: 35.11050874202921
     id: 140188
@@ -96257,33 +96324,33 @@ Database:
     Fire_Name: ONE HORSE
     UniqueFireIdentifier: 2019-OKANA-001276
     DailyAcres: 426
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 65
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-11-29T14:00Z'
+    ICS209ReportDateTimeEpoch: 1575036000000
+    ICS209ReportStatus: I
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 43000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 41
     FireDiscoveryDateTime: '2019-11-26T20:05Z'
     FireDiscoveryDateTimeEpoch: 1574798700000
     DispatchCenterID: ARAOC
     LocalIncidentIdentifier: '001276'
     POOCounty: Caddo
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-27T15:56Z'
-    ModifiedOnDateTimeEpoch: 1574870169000
-    ModifiedBySystem: firecode
+    ModifiedOnDateTime: '2019-11-29T14:00Z'
+    ModifiedOnDateTimeEpoch: 1575036000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-OKANA-001276
-    ModifiedOnDateTime_Raw: '2019-11-27T15:56Z'
-    ModifiedOnDateTimeEpoch_Raw: 1574870169000
+    ModifiedOnDateTime_Raw: '2019-11-29T21:39Z'
+    ModifiedOnDateTimeEpoch_Raw: 1575063570000
     Hashtag: '#OneHorseFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -96295,8 +96362,8 @@ Database:
     unitMention: Anadarko Agency
     Final_Fire_Name: One Horse Fire
     _Update:
-      UpdateId: 'UPD-2019-11-27T15:56Z-PER-none-ID-2019-OKANA-001276-NAME-ONEHORSE-S-N'
-      Code: 7ef15b2b2d330ab046db9825a9331d0da190fa67f1c373ab81463dc587e44220
+      UpdateId: 'UPD-2019-11-29T14:00Z-PER-none-ID-2019-OKANA-001276-NAME-ONEHORSE-S-N'
+      Code: 363110a73ba22e3acc466c0df62ac7a4daa47675eaf3daf4c9ba8383eb1b2a1f
   2019-WVMOF-000106:
     Source_NFSA_Join:
       Lon: -79.2919006105744
