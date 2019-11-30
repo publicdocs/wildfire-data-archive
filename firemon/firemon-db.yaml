@@ -96372,39 +96372,39 @@ Database:
       Name: Dry Hollow
       Fire_Name: Dry Hollow
       UniqueFireIdentifier: 2019-WVMOF-000106
-      DailyAcres: 530
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 720
+      PercentContained: 60
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2019-11-30T03:00Z'
+      ICS209ReportDateTimeEpoch: 1575082800000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 100000
       FireCause: Human
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 59
       FireDiscoveryDateTime: '2019-11-28T08:00Z'
       FireDiscoveryDateTimeEpoch: 1574928000000
       DispatchCenterID: PAMACC
       LocalIncidentIdentifier: '000106'
       POOCounty: Pendleton
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-29T18:53Z'
-      ModifiedOnDateTimeEpoch: 1575053629000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2019-11-30T03:00Z'
+      ModifiedOnDateTimeEpoch: 1575082800000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-WVMOF-000106
-      ModifiedOnDateTime_Raw: '2019-11-29T18:53Z'
-      ModifiedOnDateTimeEpoch_Raw: 1575053629000
+      ModifiedOnDateTime_Raw: '2019-11-30T16:15Z'
+      ModifiedOnDateTimeEpoch_Raw: 1575130555000
       Hashtag: '#DryHollowFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-29T19:02:02.518Z'
+          RetrievedOn: '2019-11-30T16:31:34.792Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -96413,40 +96413,107 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -79.29472518875048
+      Lat: 38.82639658383447
+      objectid: 3
+      latitude: 38.8263889
+      longitude: -79.2947222
+      acres: 720
+      gacc: EACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: WV
+      status: U
+      firecause: Human
+      reportdatetime: '2019-11-30T03:00Z'
+      reportdatetimeEpoch: 1575082800000
+      percentcontained: 60
+      uniquefireidentifier: 2019-WVMOF-000106
+      firediscoverydatetime: '2019-11-28T08:00Z'
+      firediscoverydatetimeEpoch: 1574928000000
+      complexparentirwinid: null
+      pooresponsibleunit: WVMOF
+      incidentname: Dry Hollow
+      iscomplex: 'false'
+      irwinid: '{EF23A877-F776-4887-95F6-3865ADB26113}'
+      irwinmodifiedon: '2019-11-30T16:15Z'
+      irwinmodifiedonEpoch: 1575130555000
+      mapsymbol: '1'
+      datecurrent: '2019-11-30T09:30Z'
+      datecurrentEpoch: 1575106211000
+      pooownerunit: WVMOF
+      fireyear: 2019
+      localincidentidentifier: '000106'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 720
+      FireCause: Human
+      ModifiedOnDateTime: '2019-11-30T03:00Z'
+      ModifiedOnDateTimeEpoch: 1575082800000
+      PercentContained: 60
+      UniqueFireIdentifier: 2019-WVMOF-000106
+      FireDiscoveryDateTime: '2019-11-28T08:00Z'
+      FireDiscoveryDateTimeEpoch: 1574928000000
+      Fire_Name: Dry Hollow
+      Name: Dry Hollow
+      Source: GEOMAC
+      Hashtag: '#DryHollowFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-11-30T16:31:34.793Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-WVMOF-000106
     Lon: -79.2919006105744
     Lat: 38.64340951196514
     id: 140246
     Name: Dry Hollow
     Fire_Name: Dry Hollow
     UniqueFireIdentifier: 2019-WVMOF-000106
-    DailyAcres: 530
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 720
+    PercentContained: 60
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2019-11-30T03:00Z'
+    ICS209ReportDateTimeEpoch: 1575082800000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 100000
     FireCause: Human
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 59
     FireDiscoveryDateTime: '2019-11-28T08:00Z'
     FireDiscoveryDateTimeEpoch: 1574928000000
     DispatchCenterID: PAMACC
     LocalIncidentIdentifier: '000106'
     POOCounty: Pendleton
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-29T18:53Z'
-    ModifiedOnDateTimeEpoch: 1575053629000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2019-11-30T03:00Z'
+    ModifiedOnDateTimeEpoch: 1575082800000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2019-WVMOF-000106
-    ModifiedOnDateTime_Raw: '2019-11-29T18:53Z'
-    ModifiedOnDateTimeEpoch_Raw: 1575053629000
+    ModifiedOnDateTime_Raw: '2019-11-30T16:15Z'
+    ModifiedOnDateTimeEpoch_Raw: 1575130555000
     Hashtag: '#DryHollowFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -96458,8 +96525,8 @@ Database:
     unitMention: Monongahela NF
     Final_Fire_Name: Dry Hollow Fire
     _Update:
-      UpdateId: 'UPD-2019-11-29T18:53Z-PER-none-ID-2019-WVMOF-000106-NAME-DryHollow-S-N'
-      Code: c37bdf561e2dab4b2e7e76e22ceb6aebc553453f718ca699631d79cd57dd22d7
+      UpdateId: 'UPD-2019-11-30T03:00Z-PER-none-ID-2019-WVMOF-000106-NAME-DryHollow-S-N'
+      Code: 3db8b1107057933662543e16fe89a32c7e82c98b72b097501ca09229f0c60042
   2019-CALPF-002908:
     Source_CALFIRE:
       Lon: -119.785
@@ -96502,7 +96569,7 @@ Database:
       Hashtag: '#CaveFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-29T01:31:23.014Z'
+          RetrievedOn: '2019-11-30T16:31:34.793Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -96521,38 +96588,38 @@ Database:
       Fire_Name: Cave
       UniqueFireIdentifier: 2019-CALPF-002908
       DailyAcres: 3126
-      PercentContained: 70
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2019-11-29T01:00Z'
-      ICS209ReportDateTimeEpoch: 1574989200000
+      PercentContained: 85
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-11-30T00:45Z'
+      ICS209ReportDateTimeEpoch: 1575074700000
       ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 3600000
       FireCause: Unknown
-      TotalIncidentPersonnel: 135
+      TotalIncidentPersonnel: 91
       FireDiscoveryDateTime: '2019-11-26T00:15Z'
       FireDiscoveryDateTimeEpoch: 1574727300000
       DispatchCenterID: CALPCC
       LocalIncidentIdentifier: 002908
       POOCounty: Santa Barbara
       POOLandownerKind: null
-      ModifiedOnDateTime: '2019-11-29T01:00Z'
-      ModifiedOnDateTimeEpoch: 1574989200000
+      ModifiedOnDateTime: '2019-11-30T00:45Z'
+      ModifiedOnDateTimeEpoch: 1575074700000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2019-CALPF-002908
-      ModifiedOnDateTime_Raw: '2019-11-29T01:15Z'
-      ModifiedOnDateTimeEpoch_Raw: 1574990133000
+      ModifiedOnDateTime_Raw: '2019-11-30T16:14Z'
+      ModifiedOnDateTimeEpoch_Raw: 1575130454000
       Hashtag: '#CaveFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-29T01:31:23.013Z'
+          RetrievedOn: '2019-11-30T16:31:34.792Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -96573,9 +96640,9 @@ Database:
       state: CA
       status: U
       firecause: Unknown
-      reportdatetime: '2019-11-29T01:00Z'
-      reportdatetimeEpoch: 1574989200000
-      percentcontained: 70
+      reportdatetime: '2019-11-30T00:45Z'
+      reportdatetimeEpoch: 1575074700000
+      percentcontained: 85
       uniquefireidentifier: 2019-CALPF-002908
       firediscoverydatetime: '2019-11-26T00:15Z'
       firediscoverydatetimeEpoch: 1574727300000
@@ -96584,11 +96651,11 @@ Database:
       incidentname: Cave
       iscomplex: 'false'
       irwinid: '{3821BA3B-B9A5-45D1-99FC-299B4B452049}'
-      irwinmodifiedon: '2019-11-29T01:15Z'
-      irwinmodifiedonEpoch: 1574990133000
+      irwinmodifiedon: '2019-11-30T16:14Z'
+      irwinmodifiedonEpoch: 1575130454000
       mapsymbol: '1'
-      datecurrent: '2019-11-28T18:30Z'
-      datecurrentEpoch: 1574965805000
+      datecurrent: '2019-11-30T09:30Z'
+      datecurrentEpoch: 1575106211000
       pooownerunit: CALPF
       fireyear: 2019
       localincidentidentifier: 002908
@@ -96598,9 +96665,9 @@ Database:
       complexname: null
       DailyAcres: 3126
       FireCause: Unknown
-      ModifiedOnDateTime: '2019-11-29T01:00Z'
-      ModifiedOnDateTimeEpoch: 1574989200000
-      PercentContained: 70
+      ModifiedOnDateTime: '2019-11-30T00:45Z'
+      ModifiedOnDateTimeEpoch: 1575074700000
+      PercentContained: 85
       UniqueFireIdentifier: 2019-CALPF-002908
       FireDiscoveryDateTime: '2019-11-26T00:15Z'
       FireDiscoveryDateTimeEpoch: 1574727300000
@@ -96610,7 +96677,7 @@ Database:
       Hashtag: '#CaveFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2019-11-29T01:31:23.014Z'
+          RetrievedOn: '2019-11-30T16:31:34.793Z'
           Request:
             uri: >-
               https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
@@ -96635,25 +96702,25 @@ Database:
     Fire_Name: Cave
     UniqueFireIdentifier: 2019-CALPF-002908
     DailyAcres: 3126
-    PercentContained: 70
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2019-11-29T01:00Z'
-    ICS209ReportDateTimeEpoch: 1574989200000
+    PercentContained: 85
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-11-30T00:45Z'
+    ICS209ReportDateTimeEpoch: 1575074700000
     ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 3600000
     FireCause: Unknown
-    TotalIncidentPersonnel: 135
+    TotalIncidentPersonnel: 91
     FireDiscoveryDateTime: '2019-11-26T00:15Z'
     FireDiscoveryDateTimeEpoch: 1574727300000
     DispatchCenterID: CALPCC
     LocalIncidentIdentifier: 002908
     POOCounty: Santa Barbara
     POOLandownerKind: null
-    ModifiedOnDateTime: '2019-11-29T01:00Z'
-    ModifiedOnDateTimeEpoch: 1574989200000
+    ModifiedOnDateTime: '2019-11-30T00:45Z'
+    ModifiedOnDateTimeEpoch: 1575074700000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
@@ -96661,8 +96728,8 @@ Database:
     _CorrelationIds:
       - 2019-CALPF-002908
       - CALFIRE-7555692b-f672-4660-8f15-d0dab068a193
-    ModifiedOnDateTime_Raw: '2019-11-29T01:15Z'
-    ModifiedOnDateTimeEpoch_Raw: 1574990133000
+    ModifiedOnDateTime_Raw: '2019-11-30T16:14Z'
+    ModifiedOnDateTimeEpoch_Raw: 1575130454000
     Hashtag: '#CaveFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -96674,8 +96741,8 @@ Database:
     unitMention: '@LosPadresNF'
     Final_Fire_Name: Cave Fire
     _Update:
-      UpdateId: 'UPD-2019-11-29T01:00Z-PER-none-ID-2019-CALPF-002908-NAME-Cave-S-N'
-      Code: b8b3bceb2718b384096d8119f111c172e3195cfce04eaefc0f616b8d29b57eb4
+      UpdateId: 'UPD-2019-11-30T00:45Z-PER-none-ID-2019-CALPF-002908-NAME-Cave-S-N'
+      Code: d94e285ede72d66c2835c6ac617b52587da4235c097b94deef7edf49f8ee85d0
   2019-OKOSA-001277:
     Source_NFSA_Join:
       Lon: -96.34020892097026
