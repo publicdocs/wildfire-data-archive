@@ -96540,3 +96540,118 @@ Database:
       UpdateId: >-
         UPD-2019-12-03T20:03Z-PER-none-ID-CALFIRE-7555692b-f672-4660-8f15-d0dab068a193-NAME-CaveFireNoLongeraCALFIREIncident-S-C
       Code: bbd564c6c6adabbb67f9b2fe39fa23267073875c16da53260fcea7cbcea6e8f5
+  2019-CALPF-002908:
+    Source_NFSA_Join:
+      Lon: -119.79281350436952
+      Lat: 34.51455322244715
+      id: 140083
+      Name: Cave
+      Fire_Name: Cave
+      UniqueFireIdentifier: 2019-CALPF-002908
+      DailyAcres: 3126
+      PercentContained: 90
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-12-05T01:15Z'
+      ICS209ReportDateTimeEpoch: 1575508500000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3600000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 54
+      FireDiscoveryDateTime: '2019-11-26T00:15Z'
+      FireDiscoveryDateTimeEpoch: 1574727300000
+      DispatchCenterID: CALPCC
+      LocalIncidentIdentifier: 002908
+      POOCounty: Santa Barbara
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-12-05T01:15Z'
+      ModifiedOnDateTimeEpoch: 1575508500000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-CALPF-002908
+      ModifiedOnDateTime_Raw: '2019-12-05T01:23Z'
+      ModifiedOnDateTimeEpoch_Raw: 1575508986000
+      Hashtag: '#CaveFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-12-05T01:32:05.135Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -119.79281350436952
+    Lat: 34.51455322244715
+    id: 140083
+    Name: Cave
+    Fire_Name: Cave
+    UniqueFireIdentifier: 2019-CALPF-002908
+    DailyAcres: 3126
+    PercentContained: 90
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-12-05T01:15Z'
+    ICS209ReportDateTimeEpoch: 1575508500000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3600000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 54
+    FireDiscoveryDateTime: '2019-11-26T00:15Z'
+    FireDiscoveryDateTimeEpoch: 1574727300000
+    DispatchCenterID: CALPCC
+    LocalIncidentIdentifier: 002908
+    POOCounty: Santa Barbara
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-12-05T01:15Z'
+    ModifiedOnDateTimeEpoch: 1575508500000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-CALPF-002908
+    ModifiedOnDateTime_Raw: '2019-12-05T01:23Z'
+    ModifiedOnDateTimeEpoch_Raw: 1575508986000
+    Hashtag: '#CaveFire'
+    NFSAType: Large WF
+    PerimDateTime: '2019-11-27T00:00Z'
+    PerimeterData:
+      DateTime: '2019-11-27T00:00Z'
+      Acres: 3156.6532841
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-12-05T01:32:12.952Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/ArcGIS/rest/services/geomac_dyn/MapServer/2/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+        SourceLayer: '2'
+    unitId: CALPF
+    unitMention: '@LosPadresNF'
+    Final_Fire_Name: Cave Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-12-05T01:15Z-PER-2019-11-27T00:00Z-ID-2019-CALPF-002908-NAME-Cave-S-N
+      Code: feb27850bd650141a5c3dcd02c507d1ef2a2d9ac17ded51b28c4bd5e0584e130
