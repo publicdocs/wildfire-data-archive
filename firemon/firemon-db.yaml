@@ -97204,3 +97204,166 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-12-17T22:00Z-PER-none-ID-2019-OKOMA-001344-NAME-MCDOWELL-S-N'
       Code: 5307da3250954bc49da9d2a0716fc27798cc3e256e913b859f21d8294209d7d5
+  2019-OKWEA-001389:
+    Source_NFSA_Join:
+      Lon: -96.5163056661162
+      Lat: 36.38966503539441
+      id: 141129
+      Name: ROUGH CREEK
+      Fire_Name: ROUGH CREEK
+      UniqueFireIdentifier: 2019-OKWEA-001389
+      DailyAcres: 114.3
+      PercentContained: 50
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-12-24T16:00Z'
+      ICS209ReportDateTimeEpoch: 1577203200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 20000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 19
+      FireDiscoveryDateTime: '2019-12-23T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1577131200000
+      DispatchCenterID: ARAOC
+      LocalIncidentIdentifier: 001389
+      POOCounty: Seminole
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2019-12-24T16:00Z'
+      ModifiedOnDateTimeEpoch: 1577203200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-OKWEA-001389
+      ModifiedOnDateTime_Raw: '2019-12-24T16:48Z'
+      ModifiedOnDateTimeEpoch_Raw: 1577206084000
+      Hashtag: '#RoughCreekFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-12-24T17:01:40.765Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -96.51639652843474
+      Lat: 35.389728431621776
+      objectid: 1
+      latitude: 35.3897222
+      longitude: -96.5163889
+      acres: 114.3
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-12-24T16:00Z'
+      reportdatetimeEpoch: 1577203200000
+      percentcontained: 50
+      uniquefireidentifier: 2019-OKWEA-001389
+      firediscoverydatetime: '2019-12-23T20:00Z'
+      firediscoverydatetimeEpoch: 1577131200000
+      complexparentirwinid: null
+      pooresponsibleunit: OKWEA
+      incidentname: ROUGH CREEK
+      iscomplex: 'false'
+      irwinid: '{5212A39F-62B0-47BF-B0C8-E3A05C3B91B0}'
+      irwinmodifiedon: '2019-12-24T16:48Z'
+      irwinmodifiedonEpoch: 1577206085000
+      mapsymbol: '1'
+      datecurrent: '2019-12-24T10:00Z'
+      datecurrentEpoch: 1577181605000
+      pooownerunit: OKWEA
+      fireyear: 2019
+      localincidentidentifier: 001389
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 114.3
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-12-24T16:00Z'
+      ModifiedOnDateTimeEpoch: 1577203200000
+      PercentContained: 50
+      UniqueFireIdentifier: 2019-OKWEA-001389
+      FireDiscoveryDateTime: '2019-12-23T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1577131200000
+      Fire_Name: ROUGH CREEK
+      Name: ROUGH CREEK
+      Source: GEOMAC
+      Hashtag: '#RoughCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-12-24T17:01:40.766Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-OKWEA-001389
+    Lon: -96.5163056661162
+    Lat: 36.38966503539441
+    id: 141129
+    Name: ROUGH CREEK
+    Fire_Name: ROUGH CREEK
+    UniqueFireIdentifier: 2019-OKWEA-001389
+    DailyAcres: 114.3
+    PercentContained: 50
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-12-24T16:00Z'
+    ICS209ReportDateTimeEpoch: 1577203200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 20000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 19
+    FireDiscoveryDateTime: '2019-12-23T20:00Z'
+    FireDiscoveryDateTimeEpoch: 1577131200000
+    DispatchCenterID: ARAOC
+    LocalIncidentIdentifier: 001389
+    POOCounty: Seminole
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2019-12-24T16:00Z'
+    ModifiedOnDateTimeEpoch: 1577203200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-OKWEA-001389
+    ModifiedOnDateTime_Raw: '2019-12-24T16:48Z'
+    ModifiedOnDateTimeEpoch_Raw: 1577206084000
+    Hashtag: '#RoughCreekFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: OKWEA
+    unitMention: Wewoka Agency
+    Final_Fire_Name: Rough Creek Fire
+    _Update:
+      UpdateId: 'UPD-2019-12-24T16:00Z-PER-none-ID-2019-OKWEA-001389-NAME-ROUGHCREEK-S-N'
+      Code: aae6256ff7af9fca4ca0a7ad96f2f3cacc73908650dc06f830c9410d28c2dd26
