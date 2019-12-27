@@ -97530,3 +97530,167 @@ Database:
     _Update:
       UpdateId: 'UPD-2019-12-27T03:00Z-PER-none-ID-2019-OKOMA-001397-NAME-ARCHOLO-S-N'
       Code: 90bff1a9dec4304714c9e6b9008d36d06865a6edd45d07cc819980e9ee4e7518
+  2019-TXTPR-190003:
+    Source_NFSA_Join:
+      Lon: -93.9030615888483
+      Lat: 29.710840701130007
+      id: 141131
+      Name: TX POINT EAST CHRISTMAS EVE
+      Fire_Name: TX POINT EAST CHRISTMAS EVE
+      UniqueFireIdentifier: 2019-TXTPR-190003
+      DailyAcres: 700
+      PercentContained: 50
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2019-12-26T18:00Z'
+      ICS209ReportDateTimeEpoch: 1577383200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 2500
+      FireCause: Unknown
+      TotalIncidentPersonnel: 9
+      FireDiscoveryDateTime: '2019-12-24T16:00Z'
+      FireDiscoveryDateTimeEpoch: 1577203200000
+      DispatchCenterID: TXTIC
+      LocalIncidentIdentifier: '190003'
+      POOCounty: Jefferson
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2019-12-26T18:00Z'
+      ModifiedOnDateTimeEpoch: 1577383200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2019-TXTPR-190003
+      ModifiedOnDateTime_Raw: '2019-12-27T18:13Z'
+      ModifiedOnDateTimeEpoch_Raw: 1577470381000
+      Hashtag: '#TxPointEastChristmasEveFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-12-27T18:30:52.599Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -93.9050066227827
+      Lat: 29.71500523693843
+      objectid: 2
+      latitude: 29.715
+      longitude: -93.905
+      acres: 700
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: TX
+      status: I
+      firecause: Unknown
+      reportdatetime: '2019-12-26T18:00Z'
+      reportdatetimeEpoch: 1577383200000
+      percentcontained: 50
+      uniquefireidentifier: 2019-TXTPR-190003
+      firediscoverydatetime: '2019-12-24T16:00Z'
+      firediscoverydatetimeEpoch: 1577203200000
+      complexparentirwinid: null
+      pooresponsibleunit: TXTPR
+      incidentname: TX POINT EAST CHRISTMAS EVE
+      iscomplex: 'false'
+      irwinid: '{941907E0-5009-4632-8930-5F5B0CC5B437}'
+      irwinmodifiedon: '2019-12-27T18:13Z'
+      irwinmodifiedonEpoch: 1577470382000
+      mapsymbol: '1'
+      datecurrent: '2019-12-27T11:30Z'
+      datecurrentEpoch: 1577446204000
+      pooownerunit: TXMCR
+      fireyear: 2019
+      localincidentidentifier: '190003'
+      incidenttypecategory: WF
+      owneragency: USFWS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 700
+      FireCause: Unknown
+      ModifiedOnDateTime: '2019-12-26T18:00Z'
+      ModifiedOnDateTimeEpoch: 1577383200000
+      PercentContained: 50
+      UniqueFireIdentifier: 2019-TXTPR-190003
+      FireDiscoveryDateTime: '2019-12-24T16:00Z'
+      FireDiscoveryDateTimeEpoch: 1577203200000
+      Fire_Name: TX POINT EAST CHRISTMAS EVE
+      Name: TX POINT EAST CHRISTMAS EVE
+      Source: GEOMAC
+      Hashtag: '#TxPointEastChristmasEveFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2019-12-27T18:30:52.600Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2019-TXTPR-190003
+    Lon: -93.9030615888483
+    Lat: 29.710840701130007
+    id: 141131
+    Name: TX POINT EAST CHRISTMAS EVE
+    Fire_Name: TX POINT EAST CHRISTMAS EVE
+    UniqueFireIdentifier: 2019-TXTPR-190003
+    DailyAcres: 700
+    PercentContained: 50
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2019-12-26T18:00Z'
+    ICS209ReportDateTimeEpoch: 1577383200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 2500
+    FireCause: Unknown
+    TotalIncidentPersonnel: 9
+    FireDiscoveryDateTime: '2019-12-24T16:00Z'
+    FireDiscoveryDateTimeEpoch: 1577203200000
+    DispatchCenterID: TXTIC
+    LocalIncidentIdentifier: '190003'
+    POOCounty: Jefferson
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2019-12-26T18:00Z'
+    ModifiedOnDateTimeEpoch: 1577383200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2019-TXTPR-190003
+    ModifiedOnDateTime_Raw: '2019-12-27T18:13Z'
+    ModifiedOnDateTimeEpoch_Raw: 1577470381000
+    Hashtag: '#TxPointEastChristmasEveFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: TXTPR
+    unitMention: Texas Point NWR
+    Final_Fire_Name: Tx Point East Christmas Eve Fire
+    _Update:
+      UpdateId: >-
+        UPD-2019-12-26T18:00Z-PER-none-ID-2019-TXTPR-190003-NAME-TXPOINTEASTCHRISTMASEVE-S-N
+      Code: 232fc3cdcf286b12dfe90557957d23d2e537b34133314257f62b2b5f709703d0
