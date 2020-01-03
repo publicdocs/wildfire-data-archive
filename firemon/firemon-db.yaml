@@ -97382,38 +97382,38 @@ Database:
       Fire_Name: BRIAR CREEK
       UniqueFireIdentifier: 2020-OKOMA-000032
       DailyAcres: 1344
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      PercentContained: 75
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2020-01-03T14:00Z'
+      ICS209ReportDateTimeEpoch: 1578060000000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 20000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 8
       FireDiscoveryDateTime: '2020-01-01T20:00Z'
       FireDiscoveryDateTimeEpoch: 1577908800000
       DispatchCenterID: ARAOC
       LocalIncidentIdentifier: '000032'
       POOCounty: Okmulgee
       POOLandownerKind: null
-      ModifiedOnDateTime: '2020-01-02T16:23Z'
-      ModifiedOnDateTimeEpoch: 1577982203000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2020-01-03T14:00Z'
+      ModifiedOnDateTimeEpoch: 1578060000000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2020-OKOMA-000032
-      ModifiedOnDateTime_Raw: '2020-01-02T16:23Z'
-      ModifiedOnDateTimeEpoch_Raw: 1577982203000
+      ModifiedOnDateTime_Raw: '2020-01-03T14:30Z'
+      ModifiedOnDateTimeEpoch_Raw: 1578061810000
       Hashtag: '#BriarCreekFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-01-02T16:31:02.002Z'
+          RetrievedOn: '2020-01-03T15:01:03.107Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -97422,6 +97422,73 @@ Database:
             timeout: 120000
             json: true
         Modified: true
+    Source_GEOMAC:
+      Lon: -96.17596755295946
+      Lat: 35.55216627786132
+      objectid: 1
+      latitude: 35.55216
+      longitude: -96.17596
+      acres: 1344
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: U
+      firecause: Unknown
+      reportdatetime: '2020-01-03T14:00Z'
+      reportdatetimeEpoch: 1578060000000
+      percentcontained: 75
+      uniquefireidentifier: 2020-OKOMA-000032
+      firediscoverydatetime: '2020-01-01T20:00Z'
+      firediscoverydatetimeEpoch: 1577908800000
+      complexparentirwinid: null
+      pooresponsibleunit: OKOMA
+      incidentname: BRIAR CREEK
+      iscomplex: 'false'
+      irwinid: '{AFAA0704-7DA5-4CFE-AB74-9DA456AC0B50}'
+      irwinmodifiedon: '2020-01-03T14:30Z'
+      irwinmodifiedonEpoch: 1578061811000
+      mapsymbol: '1'
+      datecurrent: '2020-01-03T08:00Z'
+      datecurrentEpoch: 1578038410000
+      pooownerunit: OKOMA
+      fireyear: 2020
+      localincidentidentifier: '000032'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 1344
+      FireCause: Unknown
+      ModifiedOnDateTime: '2020-01-03T14:00Z'
+      ModifiedOnDateTimeEpoch: 1578060000000
+      PercentContained: 75
+      UniqueFireIdentifier: 2020-OKOMA-000032
+      FireDiscoveryDateTime: '2020-01-01T20:00Z'
+      FireDiscoveryDateTimeEpoch: 1577908800000
+      Fire_Name: BRIAR CREEK
+      Name: BRIAR CREEK
+      Source: GEOMAC
+      Hashtag: '#BriarCreekFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-01-03T15:01:03.108Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2020-OKOMA-000032
     Lon: -96.17596993757468
     Lat: 35.552167544672066
     id: 141294
@@ -97429,33 +97496,33 @@ Database:
     Fire_Name: BRIAR CREEK
     UniqueFireIdentifier: 2020-OKOMA-000032
     DailyAcres: 1344
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    PercentContained: 75
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2020-01-03T14:00Z'
+    ICS209ReportDateTimeEpoch: 1578060000000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 20000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 8
     FireDiscoveryDateTime: '2020-01-01T20:00Z'
     FireDiscoveryDateTimeEpoch: 1577908800000
     DispatchCenterID: ARAOC
     LocalIncidentIdentifier: '000032'
     POOCounty: Okmulgee
     POOLandownerKind: null
-    ModifiedOnDateTime: '2020-01-02T16:23Z'
-    ModifiedOnDateTimeEpoch: 1577982203000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2020-01-03T14:00Z'
+    ModifiedOnDateTimeEpoch: 1578060000000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2020-OKOMA-000032
-    ModifiedOnDateTime_Raw: '2020-01-02T16:23Z'
-    ModifiedOnDateTimeEpoch_Raw: 1577982203000
+    ModifiedOnDateTime_Raw: '2020-01-03T14:30Z'
+    ModifiedOnDateTimeEpoch_Raw: 1578061810000
     Hashtag: '#BriarCreekFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -97467,5 +97534,5 @@ Database:
     unitMention: Okmulgee Field Office
     Final_Fire_Name: Briar Creek Fire
     _Update:
-      UpdateId: 'UPD-2020-01-02T16:23Z-PER-none-ID-2020-OKOMA-000032-NAME-BRIARCREEK-S-N'
-      Code: dc9a974e475ccb7280ca46e56f65236d62e6a61c94334d1c2ca5bede653f7bf8
+      UpdateId: 'UPD-2020-01-03T14:00Z-PER-none-ID-2020-OKOMA-000032-NAME-BRIARCREEK-S-N'
+      Code: 3381da3b1f1e4b46584a5c6ad7dd55dade957f569aae816f38f1cdc5b16cbcf2
