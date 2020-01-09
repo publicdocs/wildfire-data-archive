@@ -97633,90 +97633,121 @@ Database:
       UpdateId: 'UPD-2020-01-09T14:08Z-PER-none-ID-2020-FLEVP-000010-NAME-FalseAlarm1-S-N'
       Code: d1b09f3e540563b1cdc6a4ccc430136bf6a26e6be9a5edda2d6e9fbe87488d0a
   2020-COPSF-000013:
-    Source_NFSA_Join:
-      Lon: -102.54190814794619
-      Lat: 37.046455037414
-      id: 141663
-      Name: Burrows Draw
-      Fire_Name: Burrows Draw
-      UniqueFireIdentifier: 2020-COPSF-000013
-      DailyAcres: 926
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: null
+    Source_GEOMAC:
+      Lon: -102.54190925574699
+      Lat: 37.046456181081794
+      objectid: 1
+      latitude: 37.04645
+      longitude: -102.5419
+      acres: 924
+      gacc: RMCC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: CO
+      status: I
+      firecause: Human
+      reportdatetime: '2020-01-09T21:30Z'
+      reportdatetimeEpoch: 1578605400000
+      percentcontained: 95
+      uniquefireidentifier: 2020-COPSF-000013
+      firediscoverydatetime: '2020-01-08T22:08Z'
+      firediscoverydatetimeEpoch: 1578521280000
+      complexparentirwinid: null
+      pooresponsibleunit: COPSF
+      incidentname: Burrows Draw
+      iscomplex: 'false'
+      irwinid: '{0EDAF775-06FC-4981-AC2D-A6015A4BB9D0}'
+      irwinmodifiedon: '2020-01-09T21:52Z'
+      irwinmodifiedonEpoch: 1578606721000
+      mapsymbol: '1'
+      datecurrent: '2020-01-09T15:00Z'
+      datecurrentEpoch: 1578582009000
+      pooownerunit: COPSF
+      fireyear: 2020
+      localincidentidentifier: '000013'
+      incidenttypecategory: WF
+      owneragency: USFS
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 924
       FireCause: Human
-      TotalIncidentPersonnel: null
+      ModifiedOnDateTime: '2020-01-09T21:30Z'
+      ModifiedOnDateTimeEpoch: 1578605400000
+      PercentContained: 95
+      UniqueFireIdentifier: 2020-COPSF-000013
       FireDiscoveryDateTime: '2020-01-08T22:08Z'
       FireDiscoveryDateTimeEpoch: 1578521280000
-      DispatchCenterID: COPBC
-      LocalIncidentIdentifier: '000013'
-      POOCounty: Baca
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-01-09T18:07Z'
-      ModifiedOnDateTimeEpoch: 1578593232000
-      ModifiedBySystem: wildcad
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-COPSF-000013
-      ModifiedOnDateTime_Raw: '2020-01-09T18:07Z'
-      ModifiedOnDateTimeEpoch_Raw: 1578593232000
+      Fire_Name: Burrows Draw
+      Name: Burrows Draw
+      Source: GEOMAC
       Hashtag: '#BurrowsDrawFire'
-      NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-01-09T19:10:33.707Z'
+          RetrievedOn: '2020-01-09T22:00:20.641Z'
           Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
             headers:
               User-Agent: Request-Promise; Bot
             timeout: 120000
             json: true
         Modified: true
-    Lon: -102.54190814794619
-    Lat: 37.046455037414
-    id: 141663
-    Name: Burrows Draw
-    Fire_Name: Burrows Draw
-    UniqueFireIdentifier: 2020-COPSF-000013
-    DailyAcres: 926
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: null
+      _CorrelationIds:
+        - 2020-COPSF-000013
+    Lon: -102.54190925574699
+    Lat: 37.046456181081794
+    objectid: 1
+    latitude: 37.04645
+    longitude: -102.5419
+    acres: 924
+    gacc: RMCC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: CO
+    status: I
+    firecause: Human
+    reportdatetime: '2020-01-09T21:30Z'
+    reportdatetimeEpoch: 1578605400000
+    percentcontained: 95
+    uniquefireidentifier: 2020-COPSF-000013
+    firediscoverydatetime: '2020-01-08T22:08Z'
+    firediscoverydatetimeEpoch: 1578521280000
+    complexparentirwinid: null
+    pooresponsibleunit: COPSF
+    incidentname: Burrows Draw
+    iscomplex: 'false'
+    irwinid: '{0EDAF775-06FC-4981-AC2D-A6015A4BB9D0}'
+    irwinmodifiedon: '2020-01-09T21:52Z'
+    irwinmodifiedonEpoch: 1578606721000
+    mapsymbol: '1'
+    datecurrent: '2020-01-09T15:00Z'
+    datecurrentEpoch: 1578582009000
+    pooownerunit: COPSF
+    fireyear: 2020
+    localincidentidentifier: '000013'
+    incidenttypecategory: WF
+    owneragency: USFS
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 924
     FireCause: Human
-    TotalIncidentPersonnel: null
+    ModifiedOnDateTime: '2020-01-09T21:30Z'
+    ModifiedOnDateTimeEpoch: 1578605400000
+    PercentContained: 95
+    UniqueFireIdentifier: 2020-COPSF-000013
     FireDiscoveryDateTime: '2020-01-08T22:08Z'
     FireDiscoveryDateTimeEpoch: 1578521280000
-    DispatchCenterID: COPBC
-    LocalIncidentIdentifier: '000013'
-    POOCounty: Baca
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-01-09T18:07Z'
-    ModifiedOnDateTimeEpoch: 1578593232000
-    ModifiedBySystem: wildcad
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    Fire_Name: Burrows Draw
+    Name: Burrows Draw
+    Source: GEOMAC
+    Hashtag: '#BurrowsDrawFire'
     _CorrelationIds:
       - 2020-COPSF-000013
-    ModifiedOnDateTime_Raw: '2020-01-09T18:07Z'
-    ModifiedOnDateTimeEpoch_Raw: 1578593232000
-    Hashtag: '#BurrowsDrawFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
@@ -97726,8 +97757,8 @@ Database:
     unitMention: '@PSICC_NF'
     Final_Fire_Name: Burrows Draw Fire
     _Update:
-      UpdateId: 'UPD-2020-01-09T18:07Z-PER-none-ID-2020-COPSF-000013-NAME-BurrowsDraw-S-N'
-      Code: a9cb1d19eb6cd5478667eea19a669c126b4fe9e391f94a3bd1b7e86981ecbd2d
+      UpdateId: 'UPD-2020-01-09T21:30Z-PER-none-ID-2020-COPSF-000013-NAME-BurrowsDraw-S-G'
+      Code: a4a628c58129b29200a1ce464dd1c9f1a659a2269ce0e56a545a102c84596cad
   2020-OKOKS-400002:
     Source_NFSA_Join:
       Lon: -98.65056803389156
@@ -98180,3 +98211,130 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-01-09T16:33Z-PER-none-ID-2020-OKPAA-000092-NAME-WALKERCREEK-S-N'
       Code: ca37e8cef10e7a9f6b6fd7dd70d3a0de379e18b882f7934f43697ac6f24b85fe
+  2020-OKOKS-400003:
+    Source_GEOMAC:
+      Lon: -97.44084109390602
+      Lat: 34.42000601150916
+      objectid: 3
+      latitude: 34.42
+      longitude: -97.4408333
+      acres: 400
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: I
+      firecause: ''
+      reportdatetime: '2020-01-09T21:15Z'
+      reportdatetimeEpoch: 1578604500000
+      percentcontained: 75
+      uniquefireidentifier: 2020-OKOKS-400003
+      firediscoverydatetime: '2020-01-08T18:00Z'
+      firediscoverydatetimeEpoch: 1578506400000
+      complexparentirwinid: null
+      pooresponsibleunit: OKOKS
+      incidentname: Laura Lynn
+      iscomplex: 'false'
+      irwinid: '{846857FD-ED53-4FBF-8A4A-D90BC621054B}'
+      irwinmodifiedon: '2020-01-09T21:36Z'
+      irwinmodifiedonEpoch: 1578605816000
+      mapsymbol: '1'
+      datecurrent: '2020-01-09T15:00Z'
+      datecurrentEpoch: 1578582009000
+      pooownerunit: OKCHA
+      fireyear: 2020
+      localincidentidentifier: '400003'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 400
+      FireCause: ''
+      ModifiedOnDateTime: '2020-01-09T21:15Z'
+      ModifiedOnDateTimeEpoch: 1578604500000
+      PercentContained: 75
+      UniqueFireIdentifier: 2020-OKOKS-400003
+      FireDiscoveryDateTime: '2020-01-08T18:00Z'
+      FireDiscoveryDateTimeEpoch: 1578506400000
+      Fire_Name: Laura Lynn
+      Name: Laura Lynn
+      Source: GEOMAC
+      Hashtag: '#LauraLynnFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-01-09T22:00:20.641Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2020-OKOKS-400003
+    Lon: -97.44084109390602
+    Lat: 34.42000601150916
+    objectid: 3
+    latitude: 34.42
+    longitude: -97.4408333
+    acres: 400
+    gacc: SACC
+    hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+    state: OK
+    status: I
+    firecause: ''
+    reportdatetime: '2020-01-09T21:15Z'
+    reportdatetimeEpoch: 1578604500000
+    percentcontained: 75
+    uniquefireidentifier: 2020-OKOKS-400003
+    firediscoverydatetime: '2020-01-08T18:00Z'
+    firediscoverydatetimeEpoch: 1578506400000
+    complexparentirwinid: null
+    pooresponsibleunit: OKOKS
+    incidentname: Laura Lynn
+    iscomplex: 'false'
+    irwinid: '{846857FD-ED53-4FBF-8A4A-D90BC621054B}'
+    irwinmodifiedon: '2020-01-09T21:36Z'
+    irwinmodifiedonEpoch: 1578605816000
+    mapsymbol: '1'
+    datecurrent: '2020-01-09T15:00Z'
+    datecurrentEpoch: 1578582009000
+    pooownerunit: OKCHA
+    fireyear: 2020
+    localincidentidentifier: '400003'
+    incidenttypecategory: WF
+    owneragency: ''
+    perimexist: 'N'
+    complexname: null
+    DailyAcres: 400
+    FireCause: ''
+    ModifiedOnDateTime: '2020-01-09T21:15Z'
+    ModifiedOnDateTimeEpoch: 1578604500000
+    PercentContained: 75
+    UniqueFireIdentifier: 2020-OKOKS-400003
+    FireDiscoveryDateTime: '2020-01-08T18:00Z'
+    FireDiscoveryDateTimeEpoch: 1578506400000
+    Fire_Name: Laura Lynn
+    Name: Laura Lynn
+    Source: GEOMAC
+    Hashtag: '#LauraLynnFire'
+    _CorrelationIds:
+      - 2020-OKOKS-400003
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: OKOKS
+    unitMention: Oklahoma Division of Forestry
+    Final_Fire_Name: Laura Lynn Fire
+    _Update:
+      UpdateId: 'UPD-2020-01-09T21:15Z-PER-none-ID-2020-OKOKS-400003-NAME-LauraLynn-S-G'
+      Code: 57ba3dac1dd88527f67e74e6c459b9cb530b984e32d063e23ff61738dfb1b321
