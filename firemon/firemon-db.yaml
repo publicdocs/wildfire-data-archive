@@ -97824,3 +97824,167 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-01-09T01:45Z-PER-none-ID-2020-OKOKS-400002-NAME-Quanah-S-N'
       Code: 868e4c0ab6047e0310962be73cf5ee7901776fdbdb17c67f635dbaefb37e0f70
+  2020-OKOKS-300015:
+    Source_NFSA_Join:
+      Lon: -95.12334205394912
+      Lat: 36.24117046157993
+      id: 141673
+      Name: Dogwood Trail
+      Fire_Name: Dogwood Trail
+      UniqueFireIdentifier: 2020-OKOKS-300015
+      DailyAcres: 250
+      PercentContained: 90
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2020-01-09T03:15Z'
+      ICS209ReportDateTimeEpoch: 1578539700000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 6000
+      FireCause: Human
+      TotalIncidentPersonnel: 4
+      FireDiscoveryDateTime: '2020-01-08T18:30Z'
+      FireDiscoveryDateTimeEpoch: 1578508200000
+      DispatchCenterID: ARAOC
+      LocalIncidentIdentifier: '300015'
+      POOCounty: Mayes
+      POOLandownerKind: null
+      ModifiedOnDateTime: '2020-01-09T03:15Z'
+      ModifiedOnDateTimeEpoch: 1578539700000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-OKOKS-300015
+      ModifiedOnDateTime_Raw: '2020-01-09T03:41Z'
+      ModifiedOnDateTimeEpoch_Raw: 1578541303000
+      Hashtag: '#DogwoodTrailFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-01-09T04:01:00.350Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Source_GEOMAC:
+      Lon: -95.12334063182514
+      Lat: 36.24117315508633
+      objectid: 2
+      latitude: 36.2411667
+      longitude: -95.1233333
+      acres: 250
+      gacc: SACC
+      hotlink: 'http://www.nifc.gov/fireInfo/nfn.htm'
+      state: OK
+      status: I
+      firecause: Human
+      reportdatetime: '2020-01-09T03:15Z'
+      reportdatetimeEpoch: 1578539700000
+      percentcontained: 90
+      uniquefireidentifier: 2020-OKOKS-300015
+      firediscoverydatetime: '2020-01-08T18:30Z'
+      firediscoverydatetimeEpoch: 1578508200000
+      complexparentirwinid: null
+      pooresponsibleunit: OKOKS
+      incidentname: Dogwood Trail
+      iscomplex: 'false'
+      irwinid: '{AA302C33-2DC5-44D0-9A55-19A133EF04B3}'
+      irwinmodifiedon: '2020-01-09T03:41Z'
+      irwinmodifiedonEpoch: 1578541303000
+      mapsymbol: '1'
+      datecurrent: '2020-01-08T21:00Z'
+      datecurrentEpoch: 1578517207000
+      pooownerunit: OKOKS
+      fireyear: 2020
+      localincidentidentifier: '300015'
+      incidenttypecategory: WF
+      owneragency: ''
+      perimexist: 'N'
+      complexname: null
+      DailyAcres: 250
+      FireCause: Human
+      ModifiedOnDateTime: '2020-01-09T03:15Z'
+      ModifiedOnDateTimeEpoch: 1578539700000
+      PercentContained: 90
+      UniqueFireIdentifier: 2020-OKOKS-300015
+      FireDiscoveryDateTime: '2020-01-08T18:30Z'
+      FireDiscoveryDateTimeEpoch: 1578508200000
+      Fire_Name: Dogwood Trail
+      Name: Dogwood Trail
+      Source: GEOMAC
+      Hashtag: '#DogwoodTrailFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-01-09T04:01:00.351Z'
+          Request:
+            uri: >-
+              https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_dyn/MapServer/0/query
+            qs:
+              outFields: '*'
+              returnGeometry: true
+              outSR: '{"wkid": 4326}'
+              f: geojson
+              where: 1=1
+              resultRecordCount: 10000
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+      _CorrelationIds:
+        - 2020-OKOKS-300015
+    Lon: -95.12334205394912
+    Lat: 36.24117046157993
+    id: 141673
+    Name: Dogwood Trail
+    Fire_Name: Dogwood Trail
+    UniqueFireIdentifier: 2020-OKOKS-300015
+    DailyAcres: 250
+    PercentContained: 90
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2020-01-09T03:15Z'
+    ICS209ReportDateTimeEpoch: 1578539700000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 6000
+    FireCause: Human
+    TotalIncidentPersonnel: 4
+    FireDiscoveryDateTime: '2020-01-08T18:30Z'
+    FireDiscoveryDateTimeEpoch: 1578508200000
+    DispatchCenterID: ARAOC
+    LocalIncidentIdentifier: '300015'
+    POOCounty: Mayes
+    POOLandownerKind: null
+    ModifiedOnDateTime: '2020-01-09T03:15Z'
+    ModifiedOnDateTimeEpoch: 1578539700000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-OKOKS-300015
+    ModifiedOnDateTime_Raw: '2020-01-09T03:41Z'
+    ModifiedOnDateTimeEpoch_Raw: 1578541303000
+    Hashtag: '#DogwoodTrailFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: OKOKS
+    unitMention: Oklahoma Division of Forestry
+    Final_Fire_Name: Dogwood Trail Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-01-09T03:15Z-PER-none-ID-2020-OKOKS-300015-NAME-DogwoodTrail-S-N
+      Code: 770152c0d1dcf7c6b5abfcddeab33b9e95a4912d8b08ed2309a0de9bc5aabb3f
