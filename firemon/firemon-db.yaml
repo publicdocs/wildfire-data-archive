@@ -102218,7 +102218,7 @@ Database:
       Name: Meadow Valley
       Fire_Name: Meadow Valley
       UniqueFireIdentifier: 2020-NVELD-040076
-      DailyAcres: 500
+      DailyAcres: 2500
       PercentContained: null
       FireMgmtComplexity: null
       IncidentManagementOrganization: null
@@ -102236,21 +102236,21 @@ Database:
       LocalIncidentIdentifier: '040076'
       POOCounty: Lincoln
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-08T02:21Z'
-      ModifiedOnDateTimeEpoch: 1594174905000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2020-07-08T03:31Z'
+      ModifiedOnDateTimeEpoch: 1594179079000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2020-NVELD-040076
-      ModifiedOnDateTime_Raw: '2020-07-08T02:21Z'
-      ModifiedOnDateTimeEpoch_Raw: 1594174905000
+      ModifiedOnDateTime_Raw: '2020-07-08T03:31Z'
+      ModifiedOnDateTimeEpoch_Raw: 1594179079000
       Hashtag: '#MeadowValleyFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-08T02:40:33.169Z'
+          RetrievedOn: '2020-07-08T03:59:55.202Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -102265,7 +102265,7 @@ Database:
     Name: Meadow Valley
     Fire_Name: Meadow Valley
     UniqueFireIdentifier: 2020-NVELD-040076
-    DailyAcres: 500
+    DailyAcres: 2500
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -102283,16 +102283,16 @@ Database:
     LocalIncidentIdentifier: '040076'
     POOCounty: Lincoln
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-07-08T02:21Z'
-    ModifiedOnDateTimeEpoch: 1594174905000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2020-07-08T03:31Z'
+    ModifiedOnDateTimeEpoch: 1594179079000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2020-NVELD-040076
-    ModifiedOnDateTime_Raw: '2020-07-08T02:21Z'
-    ModifiedOnDateTimeEpoch_Raw: 1594174905000
+    ModifiedOnDateTime_Raw: '2020-07-08T03:31Z'
+    ModifiedOnDateTimeEpoch_Raw: 1594179079000
     Hashtag: '#MeadowValleyFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -102305,8 +102305,8 @@ Database:
     Final_Fire_Name: Meadow Valley Fire
     _Update:
       UpdateId: >-
-        UPD-2020-07-08T02:21Z-PER-none-ID-2020-NVELD-040076-NAME-MeadowValley-S-N
-      Code: 9999dbb4fa1b772e1aa58f6bd96a2ebef35cd6143c497d03dcb520453ac288a6
+        UPD-2020-07-08T03:31Z-PER-none-ID-2020-NVELD-040076-NAME-MeadowValley-S-N
+      Code: 3272a141eb345399957bc510e85a26e36dabf0cdb86122a2b64fbe9e875d1600
   2020-NENES-200344:
     Source_NFSA_Join:
       Lon: -103.9046075181913
@@ -102403,3 +102403,99 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-08T03:26Z-PER-none-ID-2020-NENES-200344-NAME-Murphy-S-N'
       Code: 56bfba8f1e5712ba0bf940f7c0ab2e4a4be2975e47dc45d0eee22a78fd4dbf2b
+  2020-AZCNF-000574:
+    Source_NFSA_Join:
+      Lon: -111.41781112737037
+      Lat: 31.444534659032513
+      id: 163141
+      Name: FRESNAL
+      Fire_Name: FRESNAL
+      UniqueFireIdentifier: 2020-AZCNF-000574
+      DailyAcres: 56
+      PercentContained: 10
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2020-07-08T03:00Z'
+      ICS209ReportDateTimeEpoch: 1594177200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 100000
+      FireCause: Human
+      TotalIncidentPersonnel: 154
+      FireDiscoveryDateTime: '2020-07-07T02:32Z'
+      FireDiscoveryDateTimeEpoch: 1594089120000
+      DispatchCenterID: AZTDC
+      LocalIncidentIdentifier: '000574'
+      POOCounty: Pima
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-08T03:00Z'
+      ModifiedOnDateTimeEpoch: 1594177200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-AZCNF-000574
+      ModifiedOnDateTime_Raw: '2020-07-08T03:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1594178968000
+      Hashtag: '#FresnalFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-08T03:59:55.202Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -111.41781112737037
+    Lat: 31.444534659032513
+    id: 163141
+    Name: FRESNAL
+    Fire_Name: FRESNAL
+    UniqueFireIdentifier: 2020-AZCNF-000574
+    DailyAcres: 56
+    PercentContained: 10
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2020-07-08T03:00Z'
+    ICS209ReportDateTimeEpoch: 1594177200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 100000
+    FireCause: Human
+    TotalIncidentPersonnel: 154
+    FireDiscoveryDateTime: '2020-07-07T02:32Z'
+    FireDiscoveryDateTimeEpoch: 1594089120000
+    DispatchCenterID: AZTDC
+    LocalIncidentIdentifier: '000574'
+    POOCounty: Pima
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-07-08T03:00Z'
+    ModifiedOnDateTimeEpoch: 1594177200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-AZCNF-000574
+    ModifiedOnDateTime_Raw: '2020-07-08T03:29Z'
+    ModifiedOnDateTimeEpoch_Raw: 1594178968000
+    Hashtag: '#FresnalFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AZCNF
+    unitMention: '@CoronadoNF'
+    Final_Fire_Name: Fresnal Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-08T03:00Z-PER-none-ID-2020-AZCNF-000574-NAME-FRESNAL-S-N'
+      Code: e5beec1e8ccddcd2883ce5f45dde7568ad30a3c5dcffc2fc6dc8e4ac867fb16e
