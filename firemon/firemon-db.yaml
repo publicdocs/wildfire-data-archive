@@ -100238,157 +100238,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-09T00:00Z-PER-none-ID-2020-AZTNF-001830-NAME-Polles-S-N'
       Code: c9a239d8968b9e3dba4fa2a20d514a720748ca430d0a638c077c3c3389c1e2e2
-  2020-CALAC-197926:
-    Source_CALFIRE:
-      Lon: -118.328877
-      Lat: 34.467915
-      incident_name: Soledad Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-07T21:46Z'
-      incident_date_last_updateEpoch: 1594158401000
-      incident_date_created: '2020-07-06T00:18Z'
-      incident_date_createdEpoch: 1593994715000
-      incident_administrative_unit: >-
-        Unified Command: Los Angeles County Fire Department and Angeles National
-        Forest
-      incident_administrative_unit_url: ''
-      incident_county: Los Angeles
-      incident_location: 'Soledad Canyon Road and Agua Dulce Canyon Rd, South of Agua Dulce'
-      incident_acres_burned: 1498
-      incident_containment: 68
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -118.328877
-      incident_latitude: 34.467915
-      incident_type: Wildfire
-      incident_id: 2102ace4-f67b-4060-8795-f3cea12917e3
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/5/soledad-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-05'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Soledad Fire
-      ModifiedOnDateTime: '2020-07-07T21:46Z'
-      ModifiedOnDateTimeEpoch: 1594158401000
-      DailyAcres: 1498
-      PercentContained: 68
-      UniqueFireIdentifier: CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/5/soledad-fire/'
-      Name: Soledad Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#SoledadFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-09T02:47:03.180Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3
-    Source_NFSA_Join:
-      Lon: -118.32956570437292
-      Lat: 34.46642660153616
-      id: 162659
-      Name: SOLEDAD
-      Fire_Name: SOLEDAD
-      UniqueFireIdentifier: 2020-CALAC-197926
-      DailyAcres: 1525
-      PercentContained: 94
-      FireMgmtComplexity: Type 2 Incident
-      IncidentManagementOrganization: Type 2 Team
-      ICS209ReportDateTime: '2020-07-09T00:30Z'
-      ICS209ReportDateTimeEpoch: 1594254600000
-      ICS209ReportStatus: F
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2137000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 29
-      FireDiscoveryDateTime: '2020-07-05T22:27Z'
-      FireDiscoveryDateTimeEpoch: 1593988044000
-      DispatchCenterID: CALACC
-      LocalIncidentIdentifier: '197926'
-      POOCounty: Los Angeles
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-09T00:30Z'
-      ModifiedOnDateTimeEpoch: 1594254600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType2
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CALAC-197926
-      ModifiedOnDateTime_Raw: '2020-07-09T00:35Z'
-      ModifiedOnDateTimeEpoch_Raw: 1594254946000
-      Hashtag: '#SoledadFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-09T02:47:03.178Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -118.32956570437292
-    Lat: 34.46642660153616
-    id: 162659
-    Name: SOLEDAD
-    Fire_Name: SOLEDAD
-    UniqueFireIdentifier: 2020-CALAC-197926
-    DailyAcres: 1525
-    PercentContained: 94
-    FireMgmtComplexity: Type 2 Incident
-    IncidentManagementOrganization: Type 2 Team
-    ICS209ReportDateTime: '2020-07-09T00:30Z'
-    ICS209ReportDateTimeEpoch: 1594254600000
-    ICS209ReportStatus: F
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 2137000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 29
-    FireDiscoveryDateTime: '2020-07-05T22:27Z'
-    FireDiscoveryDateTimeEpoch: 1593988044000
-    DispatchCenterID: CALACC
-    LocalIncidentIdentifier: '197926'
-    POOCounty: Los Angeles
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-09T00:30Z'
-    ModifiedOnDateTimeEpoch: 1594254600000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType2
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CALAC-197926
-      - CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3
-    ModifiedOnDateTime_Raw: '2020-07-09T00:35Z'
-    ModifiedOnDateTimeEpoch_Raw: 1594254946000
-    Hashtag: '#SoledadFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALAC
-    unitMention: '@LACoFDPIO'
-    Final_Fire_Name: Soledad Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-09T00:30Z-PER-none-ID-2020-CALAC-197926-NAME-SOLEDAD-S-N'
-      Code: 919f0160bf54ca63ad04af14eefc8be94f412db5b215c4739d48b36dccecfeb0
   2020-WAMCR-000291:
     Source_NFSA_Join:
       Lon: -119.611317884366
@@ -102980,3 +102829,157 @@ Database:
       UpdateId: >-
         UPD-2020-07-09T14:39Z-PER-none-ID-2020-COLOX-000393-NAME-CountyRoad85-S-N
       Code: f52a935a52e4a7b5c26d793d3a954ebf8885a51f8c5cdc2f226c78beccdebd38
+  CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3:
+    Source_CALFIRE:
+      Lon: -118.328877
+      Lat: 34.467915
+      incident_name: Soledad Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-09T15:37Z'
+      incident_date_last_updateEpoch: 1594309051000
+      incident_date_created: '2020-07-06T00:18Z'
+      incident_date_createdEpoch: 1593994715000
+      incident_administrative_unit: Los Angeles County Fire Department and Angeles National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Los Angeles
+      incident_location: 'Soledad Canyon Road and Agua Dulce Canyon Rd, South of Agua Dulce'
+      incident_acres_burned: 1498
+      incident_containment: 68
+      incident_control: ''
+      incident_cooperating_agencies: USFS Angeles National Forest
+      incident_longitude: -118.328877
+      incident_latitude: 34.467915
+      incident_type: Wildfire
+      incident_id: 2102ace4-f67b-4060-8795-f3cea12917e3
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/5/soledad-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-05'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'False'
+      Fire_Name: Soledad Fire
+      ModifiedOnDateTime: '2020-07-09T15:37Z'
+      ModifiedOnDateTimeEpoch: 1594309051000
+      DailyAcres: 1498
+      PercentContained: 68
+      UniqueFireIdentifier: CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/5/soledad-fire/'
+      Name: Soledad Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#SoledadFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-09T15:37:55.168Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3
+    Source_NFSA_Join:
+      Lon: -118.32956570437292
+      Lat: 34.46642660153616
+      id: 162659
+      Name: SOLEDAD
+      Fire_Name: SOLEDAD
+      UniqueFireIdentifier: 2020-CALAC-197926
+      DailyAcres: 1525
+      PercentContained: 94
+      FireMgmtComplexity: Type 2 Incident
+      IncidentManagementOrganization: Type 2 Team
+      ICS209ReportDateTime: '2020-07-09T00:30Z'
+      ICS209ReportDateTimeEpoch: 1594254600000
+      ICS209ReportStatus: F
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 2137000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 29
+      FireDiscoveryDateTime: '2020-07-05T22:27Z'
+      FireDiscoveryDateTimeEpoch: 1593988044000
+      DispatchCenterID: CALACC
+      LocalIncidentIdentifier: '197926'
+      POOCounty: Los Angeles
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-09T00:30Z'
+      ModifiedOnDateTimeEpoch: 1594254600000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType2
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CALAC-197926
+      ModifiedOnDateTime_Raw: '2020-07-09T00:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1594254946000
+      Hashtag: '#SoledadFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-09T15:37:55.167Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -118.328877
+    Lat: 34.467915
+    incident_name: Soledad Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-09T15:37Z'
+    incident_date_last_updateEpoch: 1594309051000
+    incident_date_created: '2020-07-06T00:18Z'
+    incident_date_createdEpoch: 1593994715000
+    incident_administrative_unit: Los Angeles County Fire Department and Angeles National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Los Angeles
+    incident_location: 'Soledad Canyon Road and Agua Dulce Canyon Rd, South of Agua Dulce'
+    incident_acres_burned: 1498
+    incident_containment: 68
+    incident_control: ''
+    incident_cooperating_agencies: USFS Angeles National Forest
+    incident_longitude: -118.328877
+    incident_latitude: 34.467915
+    incident_type: Wildfire
+    incident_id: 2102ace4-f67b-4060-8795-f3cea12917e3
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/5/soledad-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-05'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'False'
+    Fire_Name: Soledad Fire
+    ModifiedOnDateTime: '2020-07-09T15:37Z'
+    ModifiedOnDateTimeEpoch: 1594309051000
+    DailyAcres: 1498
+    PercentContained: 68
+    UniqueFireIdentifier: CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/5/soledad-fire/'
+    Name: Soledad Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#SoledadFire'
+    _CorrelationIds:
+      - 2020-CALAC-197926
+      - CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 2102ace4
+    unitMention: null
+    Final_Fire_Name: Soledad Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-09T15:37Z-PER-none-ID-CALFIRE-2102ace4-f67b-4060-8795-f3cea12917e3-NAME-SoledadFire-S-C
+      Code: d82c8d0e2dac76f9be1b7806b339774ffdacaade70d8afe073177a46f4fad3a7
