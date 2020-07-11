@@ -104473,14 +104473,14 @@ Database:
       UpdateId: >-
         UPD-2020-07-11T02:21Z-PER-none-ID-2020-WYCOX-200307-NAME-ANTELOPECREEK-S-N
       Code: 7bc07748d60620bbd6195c680d767556b56d18ccc9ac69cf61cca4eb54c6db3a
-  2020-CASCU-004686:
+  CALFIRE-304a6ef7-53f6-4d2d-8d11-be431a7d75e8:
     Source_CALFIRE:
       Lon: -121.501532
       Lat: 37.034839
       incident_name: Crews Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2020-07-11T03:08Z'
-      incident_date_last_updateEpoch: 1594436912000
+      incident_date_last_update: '2020-07-11T14:38Z'
+      incident_date_last_updateEpoch: 1594478311000
       incident_date_created: '2020-07-05T21:55Z'
       incident_date_createdEpoch: 1593986149000
       incident_administrative_unit: CAL FIRE Santa Clara Unit
@@ -104488,7 +104488,7 @@ Database:
       incident_county: Santa Clara
       incident_location: 'Crews Road and Oak Spring Circle, North of Gilroy'
       incident_acres_burned: 5513
-      incident_containment: 93
+      incident_containment: 96
       incident_control: ''
       incident_cooperating_agencies: >-
         Morgan Hill Fire Department, Morgan Hill Police, Morgan Hill OES/EOC,
@@ -104508,12 +104508,12 @@ Database:
       incident_dateonly_created: '2020-07-05'
       is_active: 'Y'
       calfire_incident: 'True'
-      notification_desired: 'False'
+      notification_desired: 'True'
       Fire_Name: Crews Fire
-      ModifiedOnDateTime: '2020-07-11T03:08Z'
-      ModifiedOnDateTimeEpoch: 1594436912000
+      ModifiedOnDateTime: '2020-07-11T14:38Z'
+      ModifiedOnDateTimeEpoch: 1594478311000
       DailyAcres: 5513
-      PercentContained: 93
+      PercentContained: 96
       UniqueFireIdentifier: CALFIRE-304a6ef7-53f6-4d2d-8d11-be431a7d75e8
       Link: 'https://www.fire.ca.gov/incidents/2020/7/5/crews-fire/'
       Name: Crews Fire
@@ -104522,7 +104522,7 @@ Database:
       Hashtag: '#CrewsFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-11T13:20:09.610Z'
+          RetrievedOn: '2020-07-11T14:39:44.121Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -104572,7 +104572,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-11T13:20:09.608Z'
+          RetrievedOn: '2020-07-11T14:39:44.120Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -104581,51 +104581,62 @@ Database:
             timeout: 120000
             json: true
         Modified: true
-    Lon: -121.51373406046297
-    Lat: 37.02393827832262
-    id: 162620
-    Name: CREWS
-    Fire_Name: CREWS
-    UniqueFireIdentifier: 2020-CASCU-004686
+    Lon: -121.501532
+    Lat: 37.034839
+    incident_name: Crews Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-11T14:38Z'
+    incident_date_last_updateEpoch: 1594478311000
+    incident_date_created: '2020-07-05T21:55Z'
+    incident_date_createdEpoch: 1593986149000
+    incident_administrative_unit: CAL FIRE Santa Clara Unit
+    incident_administrative_unit_url: ''
+    incident_county: Santa Clara
+    incident_location: 'Crews Road and Oak Spring Circle, North of Gilroy'
+    incident_acres_burned: 5513
+    incident_containment: 96
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      Morgan Hill Fire Department, Morgan Hill Police, Morgan Hill OES/EOC,
+      Gilroy Fire Department, Gilroy Police, Santa Clara County Sheriff,
+      CalTrans, California Highway Patrol, CAL OES, PG&E, CALTRANS, CDCR, South
+      County Fire Protection District, County Parks, California State Parks,
+      Santa Clara Department of Public Health, Santa Clara Office of Emergency
+      Management, Santa Clara Road Department, California Fish and Wildlife.
+    incident_longitude: -121.501532
+    incident_latitude: 37.034839
+    incident_type: Wildfire
+    incident_id: 304a6ef7-53f6-4d2d-8d11-be431a7d75e8
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/5/crews-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-05'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Crews Fire
+    ModifiedOnDateTime: '2020-07-11T14:38Z'
+    ModifiedOnDateTimeEpoch: 1594478311000
     DailyAcres: 5513
     PercentContained: 96
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2020-07-11T12:45Z'
-    ICS209ReportDateTimeEpoch: 1594471500000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 7101796
-    FireCause: Unknown
-    TotalIncidentPersonnel: 310
-    FireDiscoveryDateTime: '2020-07-05T20:52Z'
-    FireDiscoveryDateTimeEpoch: 1593982373000
-    DispatchCenterID: CASCCC
-    LocalIncidentIdentifier: 004686
-    POOCounty: Santa Clara
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-11T12:45Z'
-    ModifiedOnDateTimeEpoch: 1594471500000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-304a6ef7-53f6-4d2d-8d11-be431a7d75e8
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/5/crews-fire/'
+    Name: Crews Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CrewsFire'
     _CorrelationIds:
       - 2020-CASCU-004686
       - CALFIRE-304a6ef7-53f6-4d2d-8d11-be431a7d75e8
-    ModifiedOnDateTime_Raw: '2020-07-11T12:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1594472251000
-    Hashtag: '#CrewsFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CASCU
-    unitMention: Santa Clara Unit
+    unitId: 304a6ef7
+    unitMention: null
     Final_Fire_Name: Crews Fire
     _Update:
-      UpdateId: 'UPD-2020-07-11T12:45Z-PER-none-ID-2020-CASCU-004686-NAME-CREWS-S-N'
-      Code: 1fbd34d1241286a32fd33a05c601d9fa084c3754d6e4ddd176f6fff7e93b1701
+      UpdateId: >-
+        UPD-2020-07-11T14:38Z-PER-none-ID-CALFIRE-304a6ef7-53f6-4d2d-8d11-be431a7d75e8-NAME-CrewsFire-S-C
+      Code: 8141a80497b4f5d6096a7f996ab53054ff8eb8e3b555207c60a612bc298b069c
