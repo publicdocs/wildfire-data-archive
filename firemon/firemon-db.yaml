@@ -109534,22 +109534,22 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-17T12:30Z-PER-none-ID-2020-CAFKU-010219-NAME-MINERAL-S-N'
       Code: 5ac12d3c539d7fe25037724f36f2660ee95358df4f1664850b36a51c5264876f
-  2020-CABEU-003441:
+  CALFIRE-03459423-a538-4952-ba0c-c020face9151:
     Source_CALFIRE:
       Lon: -121.04401
       Lat: 36.653
       incident_name: Coyote Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2020-07-17T02:05Z'
-      incident_date_last_updateEpoch: 1594951513000
+      incident_date_last_update: '2020-07-17T14:26Z'
+      incident_date_last_updateEpoch: 1594995996000
       incident_date_created: '2020-07-15T21:04Z'
       incident_date_createdEpoch: 1594847048000
       incident_administrative_unit: CAL FIRE San Benito- Monterey Unit
       incident_administrative_unit_url: ''
       incident_county: San Benito
       incident_location: 'Panoche Road and Coyote Creek, West of Panoche'
-      incident_acres_burned: 1400
-      incident_containment: 80
+      incident_acres_burned: 1508
+      incident_containment: 90
       incident_control: ''
       incident_cooperating_agencies: ''
       incident_longitude: -121.04401
@@ -109562,12 +109562,12 @@ Database:
       incident_dateonly_created: '2020-07-15'
       is_active: 'Y'
       calfire_incident: 'True'
-      notification_desired: 'False'
+      notification_desired: 'True'
       Fire_Name: Coyote Fire
-      ModifiedOnDateTime: '2020-07-17T02:05Z'
-      ModifiedOnDateTimeEpoch: 1594951513000
-      DailyAcres: 1400
-      PercentContained: 80
+      ModifiedOnDateTime: '2020-07-17T14:26Z'
+      ModifiedOnDateTimeEpoch: 1594995996000
+      DailyAcres: 1508
+      PercentContained: 90
       UniqueFireIdentifier: CALFIRE-03459423-a538-4952-ba0c-c020face9151
       Link: 'https://www.fire.ca.gov/incidents/2020/7/15/coyote-fire/'
       Name: Coyote Fire
@@ -109576,7 +109576,7 @@ Database:
       Hashtag: '#CoyoteFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-17T13:20:03.860Z'
+          RetrievedOn: '2020-07-17T14:28:00.230Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -109626,7 +109626,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-17T13:20:03.858Z'
+          RetrievedOn: '2020-07-17T14:28:00.228Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -109635,54 +109635,59 @@ Database:
             timeout: 120000
             json: true
         Modified: true
-    Lon: -121.01825029920117
-    Lat: 36.65459845667734
-    id: 164805
-    Name: COYOTE
-    Fire_Name: COYOTE
-    UniqueFireIdentifier: 2020-CABEU-003441
+    Lon: -121.04401
+    Lat: 36.653
+    incident_name: Coyote Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-17T14:26Z'
+    incident_date_last_updateEpoch: 1594995996000
+    incident_date_created: '2020-07-15T21:04Z'
+    incident_date_createdEpoch: 1594847048000
+    incident_administrative_unit: CAL FIRE San Benito- Monterey Unit
+    incident_administrative_unit_url: ''
+    incident_county: San Benito
+    incident_location: 'Panoche Road and Coyote Creek, West of Panoche'
+    incident_acres_burned: 1508
+    incident_containment: 90
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -121.04401
+    incident_latitude: 36.653
+    incident_type: Wildfire
+    incident_id: 03459423-a538-4952-ba0c-c020face9151
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/15/coyote-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-15'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Coyote Fire
+    ModifiedOnDateTime: '2020-07-17T14:26Z'
+    ModifiedOnDateTimeEpoch: 1594995996000
     DailyAcres: 1508
     PercentContained: 90
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2020-07-17T12:30Z'
-    ICS209ReportDateTimeEpoch: 1594989000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 350000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 118
-    FireDiscoveryDateTime: '2020-07-15T19:08Z'
-    FireDiscoveryDateTimeEpoch: 1594840115000
-    DispatchCenterID: CABECC
-    LocalIncidentIdentifier: '003441'
-    POOCounty: San Benito
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-17T12:30Z'
-    ModifiedOnDateTimeEpoch: 1594989000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-03459423-a538-4952-ba0c-c020face9151
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/15/coyote-fire/'
+    Name: Coyote Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CoyoteFire'
     _CorrelationIds:
       - 2020-CABEU-003441
       - CALFIRE-03459423-a538-4952-ba0c-c020face9151
-    ModifiedOnDateTime_Raw: '2020-07-17T12:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1594990272000
-    Hashtag: '#CoyoteFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CABEU
-    unitMention: '@calfirebeu'
+    unitId: 03459423
+    unitMention: null
     Final_Fire_Name: Coyote Fire
     _Update:
-      UpdateId: 'UPD-2020-07-17T12:30Z-PER-none-ID-2020-CABEU-003441-NAME-COYOTE-S-N'
-      Code: 1ea05c0a02489982e43d3f7ee8c420cfdf0b128c58d8fbac7ddc0851639a6d63
+      UpdateId: >-
+        UPD-2020-07-17T14:26Z-PER-none-ID-CALFIRE-03459423-a538-4952-ba0c-c020face9151-NAME-CoyoteFire-S-C
+      Code: f698458e5b9fdc899cde5aee21e13f399d2e94291409214dee8667a51879d06b
   2020-TXTXS-200284:
     Source_NFSA_Join:
       Lon: -101.65000683495528
