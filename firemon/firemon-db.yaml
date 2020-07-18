@@ -109677,162 +109677,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-17T21:55Z-PER-none-ID-2020-MTLG45-000144-NAME-TenMile-S-N'
       Code: 3a9c76fe3528b1950184598188512044858b986f76925bd17f8f48567d87f0f3
-  2020-CAFKU-010219:
-    Source_CALFIRE:
-      Lon: -120.52193
-      Lat: 36.09493
-      incident_name: Mineral Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-17T14:34Z'
-      incident_date_last_updateEpoch: 1594996468000
-      incident_date_created: '2020-07-13T23:40Z'
-      incident_date_createdEpoch: 1594683636000
-      incident_administrative_unit: CAL FIRE Fresno-Kings Unit
-      incident_administrative_unit_url: ''
-      incident_county: Fresno
-      incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
-      incident_acres_burned: 19500
-      incident_containment: 30
-      incident_control: >-
-        Fire is currently burning in difficult to access areas and in fuels with
-        no fire history. Containment efforts will be hampered due to extreme
-        fire behavior which includes rapid uphill and wind driven runs.
-      incident_cooperating_agencies: >-
-        Fresno County Sheriff’s Office, Coalinga City Police, Coalinga Public
-        Works, California Department of Corrections and Rehabilitation, Pacific
-        Gas and Electric, Bureau of Land Management, California Conservation
-        Corps, CalOES, CALTRANS
-      incident_longitude: -120.52193
-      incident_latitude: 36.09493
-      incident_type: Wildfire
-      incident_id: ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-13'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Mineral Fire
-      ModifiedOnDateTime: '2020-07-17T14:34Z'
-      ModifiedOnDateTimeEpoch: 1594996468000
-      DailyAcres: 19500
-      PercentContained: 30
-      UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
-      Name: Mineral Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#MineralFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-18T00:50:39.730Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-    Source_NFSA_Join:
-      Lon: -120.52191313841944
-      Lat: 36.09493386258359
-      id: 164436
-      Name: MINERAL
-      Fire_Name: MINERAL
-      UniqueFireIdentifier: 2020-CAFKU-010219
-      DailyAcres: 23000
-      PercentContained: 30
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2020-07-18T00:15Z'
-      ICS209ReportDateTimeEpoch: 1595031300000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 8700000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 1451
-      FireDiscoveryDateTime: '2020-07-13T22:31Z'
-      FireDiscoveryDateTimeEpoch: 1594679503000
-      DispatchCenterID: CAFKCC
-      LocalIncidentIdentifier: 010219
-      POOCounty: Fresno
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-18T00:15Z'
-      ModifiedOnDateTimeEpoch: 1595031300000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CAFKU-010219
-      ModifiedOnDateTime_Raw: '2020-07-18T00:25Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595031935000
-      Hashtag: '#MineralFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-18T00:50:39.728Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.52191313841944
-    Lat: 36.09493386258359
-    id: 164436
-    Name: MINERAL
-    Fire_Name: MINERAL
-    UniqueFireIdentifier: 2020-CAFKU-010219
-    DailyAcres: 23000
-    PercentContained: 30
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2020-07-18T00:15Z'
-    ICS209ReportDateTimeEpoch: 1595031300000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 8700000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 1451
-    FireDiscoveryDateTime: '2020-07-13T22:31Z'
-    FireDiscoveryDateTimeEpoch: 1594679503000
-    DispatchCenterID: CAFKCC
-    LocalIncidentIdentifier: 010219
-    POOCounty: Fresno
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-18T00:15Z'
-    ModifiedOnDateTimeEpoch: 1595031300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CAFKU-010219
-      - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-    ModifiedOnDateTime_Raw: '2020-07-18T00:25Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595031935000
-    Hashtag: '#MineralFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CAFKU
-    unitMention: '@FresnoCoFire'
-    Final_Fire_Name: Mineral Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-18T00:15Z-PER-none-ID-2020-CAFKU-010219-NAME-MINERAL-S-N'
-      Code: 1ebd3dbb5089e466311184c384e558888f5d08542e7f54aa9f971faf11024ff5
   2020-AZTCA-000551:
     Source_NFSA_Join:
       Lon: -112.57300865013671
@@ -110083,3 +109927,171 @@ Database:
       UpdateId: >-
         UPD-2020-07-18T02:28Z-PER-none-ID-CALFIRE-03459423-a538-4952-ba0c-c020face9151-NAME-CoyoteFire-S-C
       Code: 532091dcb4dc76cd143a4318aae9aa11ed104749ccef00b6a3a4f24324cc66a0
+  CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91:
+    Source_CALFIRE:
+      Lon: -120.52193
+      Lat: 36.09493
+      incident_name: Mineral Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-18T02:34Z'
+      incident_date_last_updateEpoch: 1595039681000
+      incident_date_created: '2020-07-13T23:40Z'
+      incident_date_createdEpoch: 1594683636000
+      incident_administrative_unit: CAL FIRE Fresno-Kings Unit
+      incident_administrative_unit_url: ''
+      incident_county: Fresno
+      incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
+      incident_acres_burned: 23000
+      incident_containment: 30
+      incident_control: >-
+        Fire is currently burning in difficult to access areas and in fuels with
+        no fire history. Containment efforts will be hampered due to extreme
+        fire behavior which includes rapid uphill and wind driven runs.
+      incident_cooperating_agencies: >-
+        Fresno County Sheriff’s Office, Coalinga City Police, Coalinga Public
+        Works, California Department of Corrections and Rehabilitation, Pacific
+        Gas and Electric, Bureau of Land Management, California Conservation
+        Corps, CalOES, CALTRANS
+      incident_longitude: -120.52193
+      incident_latitude: 36.09493
+      incident_type: Wildfire
+      incident_id: ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-13'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'True'
+      Fire_Name: Mineral Fire
+      ModifiedOnDateTime: '2020-07-18T02:34Z'
+      ModifiedOnDateTimeEpoch: 1595039681000
+      DailyAcres: 23000
+      PercentContained: 30
+      UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+      Name: Mineral Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#MineralFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-18T02:35:12.839Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    Source_NFSA_Join:
+      Lon: -120.52191313841944
+      Lat: 36.09493386258359
+      id: 164436
+      Name: MINERAL
+      Fire_Name: MINERAL
+      UniqueFireIdentifier: 2020-CAFKU-010219
+      DailyAcres: 23000
+      PercentContained: 30
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2020-07-18T00:15Z'
+      ICS209ReportDateTimeEpoch: 1595031300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 8700000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 1451
+      FireDiscoveryDateTime: '2020-07-13T22:31Z'
+      FireDiscoveryDateTimeEpoch: 1594679503000
+      DispatchCenterID: CAFKCC
+      LocalIncidentIdentifier: 010219
+      POOCounty: Fresno
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-18T00:15Z'
+      ModifiedOnDateTimeEpoch: 1595031300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CAFKU-010219
+      ModifiedOnDateTime_Raw: '2020-07-18T00:25Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595031935000
+      Hashtag: '#MineralFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-18T02:35:12.837Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.52193
+    Lat: 36.09493
+    incident_name: Mineral Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-18T02:34Z'
+    incident_date_last_updateEpoch: 1595039681000
+    incident_date_created: '2020-07-13T23:40Z'
+    incident_date_createdEpoch: 1594683636000
+    incident_administrative_unit: CAL FIRE Fresno-Kings Unit
+    incident_administrative_unit_url: ''
+    incident_county: Fresno
+    incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
+    incident_acres_burned: 23000
+    incident_containment: 30
+    incident_control: >-
+      Fire is currently burning in difficult to access areas and in fuels with
+      no fire history. Containment efforts will be hampered due to extreme fire
+      behavior which includes rapid uphill and wind driven runs.
+    incident_cooperating_agencies: >-
+      Fresno County Sheriff’s Office, Coalinga City Police, Coalinga Public
+      Works, California Department of Corrections and Rehabilitation, Pacific
+      Gas and Electric, Bureau of Land Management, California Conservation
+      Corps, CalOES, CALTRANS
+    incident_longitude: -120.52193
+    incident_latitude: 36.09493
+    incident_type: Wildfire
+    incident_id: ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-13'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Mineral Fire
+    ModifiedOnDateTime: '2020-07-18T02:34Z'
+    ModifiedOnDateTimeEpoch: 1595039681000
+    DailyAcres: 23000
+    PercentContained: 30
+    UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+    Name: Mineral Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#MineralFire'
+    _CorrelationIds:
+      - 2020-CAFKU-010219
+      - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: ef5e4d08
+    unitMention: null
+    Final_Fire_Name: Mineral Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-18T02:34Z-PER-none-ID-CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91-NAME-MineralFire-S-C
+      Code: 2300075107c48c8d80630b33e0f2a9ce775a8acb5e3b19cbe34932dffc71be79
