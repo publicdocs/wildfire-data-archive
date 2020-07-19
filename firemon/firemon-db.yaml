@@ -99694,155 +99694,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-07T01:15Z-PER-none-ID-2020-NVHTF-500732-NAME-MAHOGANY-S-N'
       Code: 908be57f7ed79a30c4eccdc316936373a7eb0261fd0f51190f57604ef984067d
-  2020-CAANF-002440:
-    Source_CALFIRE:
-      Lon: -118.324601
-      Lat: 34.542742
-      incident_name: Rowher Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-03T14:35Z'
-      incident_date_last_updateEpoch: 1593786959000
-      incident_date_created: '2020-07-01T23:43Z'
-      incident_date_createdEpoch: 1593646996000
-      incident_administrative_unit: Angeles National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Los Angeles
-      incident_location: 'Spring Canyon Road and Anthony Road, North of Santa Clarita'
-      incident_acres_burned: 0
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: Angeles National Forest
-      incident_longitude: -118.324601
-      incident_latitude: 34.542742
-      incident_type: Wildfire
-      incident_id: ba60e1c4-d812-4b33-9a2e-b240a1b29408
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/1/rowher-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-01'
-      is_active: 'Y'
-      calfire_incident: 'False'
-      notification_desired: 'False'
-      Fire_Name: Rowher Fire
-      ModifiedOnDateTime: '2020-07-03T14:35Z'
-      ModifiedOnDateTimeEpoch: 1593786959000
-      DailyAcres: 0
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/1/rowher-fire/'
-      Name: Rowher Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#RowherFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-09T02:54:53.812Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408
-    Source_NFSA_Join:
-      Lon: -118.3867165227486
-      Lat: 34.53263424557669
-      id: 161306
-      Name: ROWHER
-      Fire_Name: ROWHER
-      UniqueFireIdentifier: 2020-CAANF-002440
-      DailyAcres: 648
-      PercentContained: 98
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2020-07-09T02:00Z'
-      ICS209ReportDateTimeEpoch: 1594260000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 150000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 53
-      FireDiscoveryDateTime: '2020-07-01T21:41Z'
-      FireDiscoveryDateTimeEpoch: 1593639660000
-      DispatchCenterID: CAANCC
-      LocalIncidentIdentifier: '002440'
-      POOCounty: Los Angeles
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-09T02:00Z'
-      ModifiedOnDateTimeEpoch: 1594260000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CAANF-002440
-      ModifiedOnDateTime_Raw: '2020-07-09T02:29Z'
-      ModifiedOnDateTimeEpoch_Raw: 1594261777000
-      Hashtag: '#RowherFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-09T02:54:53.810Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -118.3867165227486
-    Lat: 34.53263424557669
-    id: 161306
-    Name: ROWHER
-    Fire_Name: ROWHER
-    UniqueFireIdentifier: 2020-CAANF-002440
-    DailyAcres: 648
-    PercentContained: 98
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2020-07-09T02:00Z'
-    ICS209ReportDateTimeEpoch: 1594260000000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 150000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 53
-    FireDiscoveryDateTime: '2020-07-01T21:41Z'
-    FireDiscoveryDateTimeEpoch: 1593639660000
-    DispatchCenterID: CAANCC
-    LocalIncidentIdentifier: '002440'
-    POOCounty: Los Angeles
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-07-09T02:00Z'
-    ModifiedOnDateTimeEpoch: 1594260000000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CAANF-002440
-      - CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408
-    ModifiedOnDateTime_Raw: '2020-07-09T02:29Z'
-    ModifiedOnDateTimeEpoch_Raw: 1594261777000
-    Hashtag: '#RowherFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CAANF
-    unitMention: '@Angeles_NF'
-    Final_Fire_Name: Rowher Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-09T02:00Z-PER-none-ID-2020-CAANF-002440-NAME-ROWHER-S-N'
-      Code: 89c5fc2e493b273491bae606700ae80916b0d4fc061e802eb88dfe5adfadc7a4
   2020-NVECFX-010112:
     Source_NFSA_Join:
       Lon: -114.04616486771717
@@ -110788,3 +110639,157 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-19T13:00Z-PER-none-ID-2020-CALMU-003874-NAME-HOG-S-N'
       Code: fc9d949c85cc79301e72522f0222736ebc6e09dd9f7038ec00537010507bc494
+  CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408:
+    Source_CALFIRE:
+      Lon: -118.324601
+      Lat: 34.542742
+      incident_name: Rowher Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-19T17:06Z'
+      incident_date_last_updateEpoch: 1595178386000
+      incident_date_created: '2020-07-01T23:43Z'
+      incident_date_createdEpoch: 1593646996000
+      incident_administrative_unit: Angeles National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Los Angeles
+      incident_location: 'Spring Canyon Road and Anthony Road, North of Santa Clarita'
+      incident_acres_burned: 0
+      incident_containment: 0
+      incident_control: ''
+      incident_cooperating_agencies: Angeles National Forest
+      incident_longitude: -118.324601
+      incident_latitude: 34.542742
+      incident_type: Wildfire
+      incident_id: ba60e1c4-d812-4b33-9a2e-b240a1b29408
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/1/rowher-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-01'
+      is_active: 'Y'
+      calfire_incident: 'False'
+      notification_desired: 'False'
+      Fire_Name: Rowher Fire
+      ModifiedOnDateTime: '2020-07-19T17:06Z'
+      ModifiedOnDateTimeEpoch: 1595178386000
+      DailyAcres: 0
+      PercentContained: 0
+      UniqueFireIdentifier: CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/1/rowher-fire/'
+      Name: Rowher Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#RowherFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-19T17:07:39.934Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408
+    Source_NFSA_Join:
+      Lon: -118.3867165227486
+      Lat: 34.53263424557669
+      id: 161306
+      Name: ROWHER
+      Fire_Name: ROWHER
+      UniqueFireIdentifier: 2020-CAANF-002440
+      DailyAcres: 648
+      PercentContained: 98
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2020-07-09T02:00Z'
+      ICS209ReportDateTimeEpoch: 1594260000000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 150000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 53
+      FireDiscoveryDateTime: '2020-07-01T21:41Z'
+      FireDiscoveryDateTimeEpoch: 1593639660000
+      DispatchCenterID: CAANCC
+      LocalIncidentIdentifier: '002440'
+      POOCounty: Los Angeles
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-09T02:00Z'
+      ModifiedOnDateTimeEpoch: 1594260000000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CAANF-002440
+      ModifiedOnDateTime_Raw: '2020-07-09T02:29Z'
+      ModifiedOnDateTimeEpoch_Raw: 1594261777000
+      Hashtag: '#RowherFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-09T02:54:53.810Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -118.324601
+    Lat: 34.542742
+    incident_name: Rowher Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-19T17:06Z'
+    incident_date_last_updateEpoch: 1595178386000
+    incident_date_created: '2020-07-01T23:43Z'
+    incident_date_createdEpoch: 1593646996000
+    incident_administrative_unit: Angeles National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Los Angeles
+    incident_location: 'Spring Canyon Road and Anthony Road, North of Santa Clarita'
+    incident_acres_burned: 0
+    incident_containment: 0
+    incident_control: ''
+    incident_cooperating_agencies: Angeles National Forest
+    incident_longitude: -118.324601
+    incident_latitude: 34.542742
+    incident_type: Wildfire
+    incident_id: ba60e1c4-d812-4b33-9a2e-b240a1b29408
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/1/rowher-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-01'
+    is_active: 'Y'
+    calfire_incident: 'False'
+    notification_desired: 'False'
+    Fire_Name: Rowher Fire
+    ModifiedOnDateTime: '2020-07-19T17:06Z'
+    ModifiedOnDateTimeEpoch: 1595178386000
+    DailyAcres: 0
+    PercentContained: 0
+    UniqueFireIdentifier: CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/1/rowher-fire/'
+    Name: Rowher Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#RowherFire'
+    _CorrelationIds:
+      - 2020-CAANF-002440
+      - CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: ba60e1c4
+    unitMention: null
+    Final_Fire_Name: Rowher Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-19T17:06Z-PER-none-ID-CALFIRE-ba60e1c4-d812-4b33-9a2e-b240a1b29408-NAME-RowherFire-S-C
+      Code: 533922257138b6ba8b51400dae04df5b2ceac24bb855ea063a127160ed037980
