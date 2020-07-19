@@ -110811,7 +110811,7 @@ Database:
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: null
-      FireCause: Unknown
+      FireCause: Natural
       TotalIncidentPersonnel: null
       FireDiscoveryDateTime: '2020-07-19T19:20Z'
       FireDiscoveryDateTimeEpoch: 1595186400000
@@ -110819,21 +110819,21 @@ Database:
       LocalIncidentIdentifier: 040082
       POOCounty: Lincoln
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-19T20:29Z'
-      ModifiedOnDateTimeEpoch: 1595190594000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2020-07-19T21:04Z'
+      ModifiedOnDateTimeEpoch: 1595192640000
+      ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2020-NVELD-040082
-      ModifiedOnDateTime_Raw: '2020-07-19T20:29Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595190594000
+      ModifiedOnDateTime_Raw: '2020-07-19T21:04Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595192640000
       Hashtag: '#StewartCanyonFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-19T20:50:33.350Z'
+          RetrievedOn: '2020-07-19T21:19:55.928Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -110858,7 +110858,7 @@ Database:
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: null
-    FireCause: Unknown
+    FireCause: Natural
     TotalIncidentPersonnel: null
     FireDiscoveryDateTime: '2020-07-19T19:20Z'
     FireDiscoveryDateTimeEpoch: 1595186400000
@@ -110866,16 +110866,16 @@ Database:
     LocalIncidentIdentifier: 040082
     POOCounty: Lincoln
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-07-19T20:29Z'
-    ModifiedOnDateTimeEpoch: 1595190594000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2020-07-19T21:04Z'
+    ModifiedOnDateTimeEpoch: 1595192640000
+    ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2020-NVELD-040082
-    ModifiedOnDateTime_Raw: '2020-07-19T20:29Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595190594000
+    ModifiedOnDateTime_Raw: '2020-07-19T21:04Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595192640000
     Hashtag: '#StewartCanyonFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -110888,5 +110888,101 @@ Database:
     Final_Fire_Name: Stewart Canyon Fire
     _Update:
       UpdateId: >-
-        UPD-2020-07-19T20:29Z-PER-none-ID-2020-NVELD-040082-NAME-StewartCanyon-S-N
-      Code: 979009b54e1b90044a78d229ca7e4df72207f165781c97e5421a9f3ee79d21cc
+        UPD-2020-07-19T21:04Z-PER-none-ID-2020-NVELD-040082-NAME-StewartCanyon-S-N
+      Code: 8bbe767b2c8356bc4325d369a95248cce5c65e66e7c5e206941f03ab712bd755
+  2020-MTLG14-000146:
+    Source_NFSA_Join:
+      Lon: -106.1387086466437
+      Lat: 45.797095255123395
+      id: 165576
+      Name: Red Butte
+      Fire_Name: Red Butte
+      UniqueFireIdentifier: 2020-MTLG14-000146
+      DailyAcres: 300
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2020-07-19T18:39Z'
+      FireDiscoveryDateTimeEpoch: 1595183940000
+      DispatchCenterID: MTMCC
+      LocalIncidentIdentifier: '000146'
+      POOCounty: Custer
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-19T21:01Z'
+      ModifiedOnDateTimeEpoch: 1595192461000
+      ModifiedBySystem: firecode
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-MTLG14-000146
+      ModifiedOnDateTime_Raw: '2020-07-19T21:01Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595192461000
+      Hashtag: '#RedButteFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-19T21:19:55.928Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -106.1387086466437
+    Lat: 45.797095255123395
+    id: 165576
+    Name: Red Butte
+    Fire_Name: Red Butte
+    UniqueFireIdentifier: 2020-MTLG14-000146
+    DailyAcres: 300
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2020-07-19T18:39Z'
+    FireDiscoveryDateTimeEpoch: 1595183940000
+    DispatchCenterID: MTMCC
+    LocalIncidentIdentifier: '000146'
+    POOCounty: Custer
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2020-07-19T21:01Z'
+    ModifiedOnDateTimeEpoch: 1595192461000
+    ModifiedBySystem: firecode
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-MTLG14-000146
+    ModifiedOnDateTime_Raw: '2020-07-19T21:01Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595192461000
+    Hashtag: '#RedButteFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: MTLG14
+    unitMention: Custer Co.
+    Final_Fire_Name: Red Butte Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-19T21:01Z-PER-none-ID-2020-MTLG14-000146-NAME-RedButte-S-N'
+      Code: 1fbe256d285c7544d4389eb68a44fef249831459e0b224d9996fce5f65616c99
