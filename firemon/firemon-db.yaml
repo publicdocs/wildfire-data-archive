@@ -111040,155 +111040,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-21T00:45Z-PER-none-ID-2020-UTRID-200342-NAME-HowellPeak-S-N'
       Code: 21719c42954cc974beb7a089e9d6b39c2ca48d641547de7b9e68f863ef34fe20
-  2020-CASKU-005356:
-    Source_CALFIRE:
-      Lon: -122.69296
-      Lat: 41.79319
-      incident_name: Badger Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-20T02:30Z'
-      incident_date_last_updateEpoch: 1595212242000
-      incident_date_created: '2020-07-19T00:18Z'
-      incident_date_createdEpoch: 1595117900000
-      incident_administrative_unit: CAL FIRE Siskiyou
-      incident_administrative_unit_url: ''
-      incident_county: Siskiyou
-      incident_location: Badger Mountain Road and Hawkinsville Humbug Road
-      incident_acres_burned: 450
-      incident_containment: 15
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -122.69296
-      incident_latitude: 41.79319
-      incident_type: Wildfire
-      incident_id: 9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-18'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Badger Fire
-      ModifiedOnDateTime: '2020-07-20T02:30Z'
-      ModifiedOnDateTimeEpoch: 1595212242000
-      DailyAcres: 450
-      PercentContained: 15
-      UniqueFireIdentifier: CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
-      Name: Badger Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#BadgerFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-21T01:21:06.518Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-    Source_NFSA_Join:
-      Lon: -122.65377700438621
-      Lat: 41.79462005644732
-      id: 165381
-      Name: BADGER
-      Fire_Name: BADGER
-      UniqueFireIdentifier: 2020-CASKU-005356
-      DailyAcres: 490
-      PercentContained: 30
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2020-07-21T00:45Z'
-      ICS209ReportDateTimeEpoch: 1595292300000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1813000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 226
-      FireDiscoveryDateTime: '2020-07-18T22:31Z'
-      FireDiscoveryDateTimeEpoch: 1595111496000
-      DispatchCenterID: CAYICC
-      LocalIncidentIdentifier: '005356'
-      POOCounty: Siskiyou
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-21T00:45Z'
-      ModifiedOnDateTimeEpoch: 1595292300000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CASKU-005356
-      ModifiedOnDateTime_Raw: '2020-07-21T01:04Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595293450000
-      Hashtag: '#BadgerFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-21T01:21:06.516Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -122.65377700438621
-    Lat: 41.79462005644732
-    id: 165381
-    Name: BADGER
-    Fire_Name: BADGER
-    UniqueFireIdentifier: 2020-CASKU-005356
-    DailyAcres: 490
-    PercentContained: 30
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2020-07-21T00:45Z'
-    ICS209ReportDateTimeEpoch: 1595292300000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1813000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 226
-    FireDiscoveryDateTime: '2020-07-18T22:31Z'
-    FireDiscoveryDateTimeEpoch: 1595111496000
-    DispatchCenterID: CAYICC
-    LocalIncidentIdentifier: '005356'
-    POOCounty: Siskiyou
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-07-21T00:45Z'
-    ModifiedOnDateTimeEpoch: 1595292300000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CASKU-005356
-      - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-    ModifiedOnDateTime_Raw: '2020-07-21T01:04Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595293450000
-    Hashtag: '#BadgerFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CASKU
-    unitMention: Siskiyou Unit
-    Final_Fire_Name: Badger Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-21T00:45Z-PER-none-ID-2020-CASKU-005356-NAME-BADGER-S-N'
-      Code: 9f3bdba8f26e0bc8eaa767530a8f0409b8a0de4754a7652c5d3725dd0eef35c6
   2020-NVECFX-010145:
     Source_NFSA_Join:
       Lon: -115.74880470777879
@@ -112784,3 +112635,157 @@ Database:
       UpdateId: >-
         UPD-2020-07-21T03:48Z-PER-none-ID-CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e-NAME-HogFire-S-C
       Code: d2603676fdf3c46eacc8442b078a3ceae5a8fbb7dce69f8ce2b911f602c3a588
+  CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0:
+    Source_CALFIRE:
+      Lon: -122.69296
+      Lat: 41.79319
+      incident_name: Badger Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-21T03:51Z'
+      incident_date_last_updateEpoch: 1595303495000
+      incident_date_created: '2020-07-19T00:18Z'
+      incident_date_createdEpoch: 1595117900000
+      incident_administrative_unit: CAL FIRE Siskiyou
+      incident_administrative_unit_url: ''
+      incident_county: Siskiyou
+      incident_location: Badger Mountain Road and Hawkinsville Humbug Road
+      incident_acres_burned: 490
+      incident_containment: 30
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -122.69296
+      incident_latitude: 41.79319
+      incident_type: Wildfire
+      incident_id: 9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-18'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'True'
+      Fire_Name: Badger Fire
+      ModifiedOnDateTime: '2020-07-21T03:51Z'
+      ModifiedOnDateTimeEpoch: 1595303495000
+      DailyAcres: 490
+      PercentContained: 30
+      UniqueFireIdentifier: CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
+      Name: Badger Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BadgerFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-21T03:51:35.360Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+    Source_NFSA_Join:
+      Lon: -122.65377700438621
+      Lat: 41.79462005644732
+      id: 165381
+      Name: BADGER
+      Fire_Name: BADGER
+      UniqueFireIdentifier: 2020-CASKU-005356
+      DailyAcres: 490
+      PercentContained: 30
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2020-07-21T00:45Z'
+      ICS209ReportDateTimeEpoch: 1595292300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1813000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 226
+      FireDiscoveryDateTime: '2020-07-18T22:31Z'
+      FireDiscoveryDateTimeEpoch: 1595111496000
+      DispatchCenterID: CAYICC
+      LocalIncidentIdentifier: '005356'
+      POOCounty: Siskiyou
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-21T00:45Z'
+      ModifiedOnDateTimeEpoch: 1595292300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CASKU-005356
+      ModifiedOnDateTime_Raw: '2020-07-21T01:04Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595293450000
+      Hashtag: '#BadgerFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-21T03:51:35.358Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -122.69296
+    Lat: 41.79319
+    incident_name: Badger Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-21T03:51Z'
+    incident_date_last_updateEpoch: 1595303495000
+    incident_date_created: '2020-07-19T00:18Z'
+    incident_date_createdEpoch: 1595117900000
+    incident_administrative_unit: CAL FIRE Siskiyou
+    incident_administrative_unit_url: ''
+    incident_county: Siskiyou
+    incident_location: Badger Mountain Road and Hawkinsville Humbug Road
+    incident_acres_burned: 490
+    incident_containment: 30
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -122.69296
+    incident_latitude: 41.79319
+    incident_type: Wildfire
+    incident_id: 9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-18'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Badger Fire
+    ModifiedOnDateTime: '2020-07-21T03:51Z'
+    ModifiedOnDateTimeEpoch: 1595303495000
+    DailyAcres: 490
+    PercentContained: 30
+    UniqueFireIdentifier: CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
+    Name: Badger Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#BadgerFire'
+    _CorrelationIds:
+      - 2020-CASKU-005356
+      - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 9520d0cb
+    unitMention: null
+    Final_Fire_Name: Badger Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-21T03:51Z-PER-none-ID-CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0-NAME-BadgerFire-S-C
+      Code: 6b1b92e2e86c06b4d6f4cbc641602a63575c32ae793204764f9f7850306e8c44
