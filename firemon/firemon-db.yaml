@@ -112160,158 +112160,6 @@ Database:
       UpdateId: >-
         UPD-2020-07-21T01:15Z-PER-none-ID-CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91-NAME-MineralFire-S-C
       Code: 6ae9858e1ca0ca7c289bccc052cb4a16409685e53b29d080c853aa00afa33630
-  2020-CASHU-007049:
-    Source_CALFIRE:
-      Lon: -122.792645
-      Lat: 40.462621
-      incident_name: Platina Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-20T15:48Z'
-      incident_date_last_updateEpoch: 1595260124000
-      incident_date_created: '2020-07-20T00:05Z'
-      incident_date_createdEpoch: 1595203541000
-      incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
-      incident_administrative_unit_url: ''
-      incident_county: Shasta
-      incident_location: 'Platina Rd and Big Foot Rd, southwest of Redding'
-      incident_acres_burned: 250
-      incident_containment: 15
-      incident_control: ''
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: Shasta County Fire Department, Millville Fire
-        Protection District, Happy Valley Fire Protection District, Redding Fire
-        Department, USFS, CDCR
-      incident_longitude: -122.792645
-      incident_latitude: 40.462621
-      incident_type: Wildfire
-      incident_id: c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-19'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Platina Fire
-      ModifiedOnDateTime: '2020-07-20T15:48Z'
-      ModifiedOnDateTimeEpoch: 1595260124000
-      DailyAcres: 250
-      PercentContained: 15
-      UniqueFireIdentifier: CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
-      Name: Platina Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#PlatinaFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-21T01:21:06.518Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-    Source_NFSA_Join:
-      Lon: -122.72686393590217
-      Lat: 40.43767258744994
-      id: 165635
-      Name: PLATINA
-      Fire_Name: PLATINA
-      UniqueFireIdentifier: 2020-CASHU-007049
-      DailyAcres: 340
-      PercentContained: 30
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2020-07-21T00:30Z'
-      ICS209ReportDateTimeEpoch: 1595291400000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 725000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 388
-      FireDiscoveryDateTime: '2020-07-19T22:46Z'
-      FireDiscoveryDateTimeEpoch: 1595198763000
-      DispatchCenterID: CARICC
-      LocalIncidentIdentifier: 007049
-      POOCounty: Shasta
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-21T00:30Z'
-      ModifiedOnDateTimeEpoch: 1595291400000
-      ModifiedBySystem: wfdss
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CASHU-007049
-      ModifiedOnDateTime_Raw: '2020-07-21T00:51Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595292688000
-      Hashtag: '#PlatinaFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-21T01:21:06.516Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -122.72686393590217
-    Lat: 40.43767258744994
-    id: 165635
-    Name: PLATINA
-    Fire_Name: PLATINA
-    UniqueFireIdentifier: 2020-CASHU-007049
-    DailyAcres: 340
-    PercentContained: 30
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2020-07-21T00:30Z'
-    ICS209ReportDateTimeEpoch: 1595291400000
-    ICS209ReportStatus: I
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 725000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 388
-    FireDiscoveryDateTime: '2020-07-19T22:46Z'
-    FireDiscoveryDateTimeEpoch: 1595198763000
-    DispatchCenterID: CARICC
-    LocalIncidentIdentifier: 007049
-    POOCounty: Shasta
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-21T00:30Z'
-    ModifiedOnDateTimeEpoch: 1595291400000
-    ModifiedBySystem: wfdss
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CASHU-007049
-      - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-    ModifiedOnDateTime_Raw: '2020-07-21T00:51Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595292688000
-    Hashtag: '#PlatinaFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CASHU
-    unitMention: '@CALFIRESHU'
-    Final_Fire_Name: Platina Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-21T00:30Z-PER-none-ID-2020-CASHU-007049-NAME-PLATINA-S-N'
-      Code: e5c54c2918ea916ef70be3591a12d6228476062fe772d6326a30c04f6823a247
   2020-CAHIA-000046:
     Source_NFSA_Join:
       Lon: -123.68445904562074
@@ -112771,3 +112619,163 @@ Database:
       UpdateId: >-
         UPD-2020-07-21T02:15Z-PER-none-ID-CALFIRE-8146a328-05df-4b38-b11e-1c6fcedb1df7-NAME-RabbitFire-S-C
       Code: 4646f0684e5ce166d28c00b471ddf93e96a7ed31b765a739babe901de7f99cc6
+  CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748:
+    Source_CALFIRE:
+      Lon: -122.792645
+      Lat: 40.462621
+      incident_name: Platina Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-21T02:22Z'
+      incident_date_last_updateEpoch: 1595298137000
+      incident_date_created: '2020-07-20T00:05Z'
+      incident_date_createdEpoch: 1595203541000
+      incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
+      incident_administrative_unit_url: ''
+      incident_county: Shasta
+      incident_location: 'Platina Rd and Big Foot Rd, southwest of Redding'
+      incident_acres_burned: 340
+      incident_containment: 30
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: Shasta County Fire Department, Millville Fire
+        Protection District, Happy Valley Fire Protection District, Redding Fire
+        Department, USFS, CDCR
+      incident_longitude: -122.792645
+      incident_latitude: 40.462621
+      incident_type: Wildfire
+      incident_id: c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-19'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'True'
+      Fire_Name: Platina Fire
+      ModifiedOnDateTime: '2020-07-21T02:22Z'
+      ModifiedOnDateTimeEpoch: 1595298137000
+      DailyAcres: 340
+      PercentContained: 30
+      UniqueFireIdentifier: CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
+      Name: Platina Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#PlatinaFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-21T02:22:36.421Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+    Source_NFSA_Join:
+      Lon: -122.72686393590217
+      Lat: 40.43767258744994
+      id: 165635
+      Name: PLATINA
+      Fire_Name: PLATINA
+      UniqueFireIdentifier: 2020-CASHU-007049
+      DailyAcres: 340
+      PercentContained: 30
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2020-07-21T00:30Z'
+      ICS209ReportDateTimeEpoch: 1595291400000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 725000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 388
+      FireDiscoveryDateTime: '2020-07-19T22:46Z'
+      FireDiscoveryDateTimeEpoch: 1595198763000
+      DispatchCenterID: CARICC
+      LocalIncidentIdentifier: 007049
+      POOCounty: Shasta
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-21T00:30Z'
+      ModifiedOnDateTimeEpoch: 1595291400000
+      ModifiedBySystem: wfdss
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CASHU-007049
+      ModifiedOnDateTime_Raw: '2020-07-21T00:51Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595292688000
+      Hashtag: '#PlatinaFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-21T02:22:36.419Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -122.792645
+    Lat: 40.462621
+    incident_name: Platina Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-21T02:22Z'
+    incident_date_last_updateEpoch: 1595298137000
+    incident_date_created: '2020-07-20T00:05Z'
+    incident_date_createdEpoch: 1595203541000
+    incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
+    incident_administrative_unit_url: ''
+    incident_county: Shasta
+    incident_location: 'Platina Rd and Big Foot Rd, southwest of Redding'
+    incident_acres_burned: 340
+    incident_containment: 30
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      Cooperating Agencies: Shasta County Fire Department, Millville Fire
+      Protection District, Happy Valley Fire Protection District, Redding Fire
+      Department, USFS, CDCR
+    incident_longitude: -122.792645
+    incident_latitude: 40.462621
+    incident_type: Wildfire
+    incident_id: c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-19'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Platina Fire
+    ModifiedOnDateTime: '2020-07-21T02:22Z'
+    ModifiedOnDateTimeEpoch: 1595298137000
+    DailyAcres: 340
+    PercentContained: 30
+    UniqueFireIdentifier: CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
+    Name: Platina Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#PlatinaFire'
+    _CorrelationIds:
+      - 2020-CASHU-007049
+      - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: c4d60e70
+    unitMention: null
+    Final_Fire_Name: Platina Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-21T02:22Z-PER-none-ID-CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748-NAME-PlatinaFire-S-C
+      Code: 5b92a111c6a1914cefdb455619e61541b38092fa5c5f9b832f1eb9b3ae3b2ea7
