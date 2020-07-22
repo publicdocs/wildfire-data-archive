@@ -112731,155 +112731,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-22T03:30Z-PER-none-ID-2020-AZASF-000607-NAME-WHOACanyon-S-N'
       Code: 48fa491d63b81b8296b5656edf6a9246fcdaf04f1a6823effa4edf9c23df9bff
-  2020-CALMU-003917:
-    Source_CALFIRE:
-      Lon: -120.923293
-      Lat: 41.11037
-      incident_name: Gold Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-22T02:19Z'
-      incident_date_last_updateEpoch: 1595384385000
-      incident_date_created: '2020-07-20T21:12Z'
-      incident_date_createdEpoch: 1595279545000
-      incident_administrative_unit: CAL FIRE Lassen-Modoc Unit / Modoc National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Lassen
-      incident_location: 'Highway 139 and County Road A-2, South of Adin'
-      incident_acres_burned: 8500
-      incident_containment: 5
-      incident_control: Evacuation orders in place
-      incident_cooperating_agencies: ''
-      incident_longitude: -120.923293
-      incident_latitude: 41.11037
-      incident_type: Wildfire
-      incident_id: 9d4f56ae-b319-49b0-9a77-10088a2defda
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/20/gold-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-20'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Gold Fire
-      ModifiedOnDateTime: '2020-07-22T02:19Z'
-      ModifiedOnDateTimeEpoch: 1595384385000
-      DailyAcres: 8500
-      PercentContained: 5
-      UniqueFireIdentifier: CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/20/gold-fire/'
-      Name: Gold Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#GoldFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T17:00:22.218Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda
-    Source_NFSA_Join:
-      Lon: -120.92140292842022
-      Lat: 41.113335336263006
-      id: 165784
-      Name: Gold
-      Fire_Name: Gold
-      UniqueFireIdentifier: 2020-CALMU-003917
-      DailyAcres: 14000
-      PercentContained: 5
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2020-07-22T12:45Z'
-      ICS209ReportDateTimeEpoch: 1595421900000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 750000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 301
-      FireDiscoveryDateTime: '2020-07-20T19:26Z'
-      FireDiscoveryDateTimeEpoch: 1595273160000
-      DispatchCenterID: CASIFC
-      LocalIncidentIdentifier: 003917
-      POOCounty: Lassen
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-22T12:45Z'
-      ModifiedOnDateTimeEpoch: 1595421900000
-      ModifiedBySystem: wfdss
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CALMU-003917
-      ModifiedOnDateTime_Raw: '2020-07-22T12:57Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595422658000
-      Hashtag: '#GoldFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T17:00:22.216Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.92140292842022
-    Lat: 41.113335336263006
-    id: 165784
-    Name: Gold
-    Fire_Name: Gold
-    UniqueFireIdentifier: 2020-CALMU-003917
-    DailyAcres: 14000
-    PercentContained: 5
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2020-07-22T12:45Z'
-    ICS209ReportDateTimeEpoch: 1595421900000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 750000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 301
-    FireDiscoveryDateTime: '2020-07-20T19:26Z'
-    FireDiscoveryDateTimeEpoch: 1595273160000
-    DispatchCenterID: CASIFC
-    LocalIncidentIdentifier: 003917
-    POOCounty: Lassen
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-22T12:45Z'
-    ModifiedOnDateTimeEpoch: 1595421900000
-    ModifiedBySystem: wfdss
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CALMU-003917
-      - CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda
-    ModifiedOnDateTime_Raw: '2020-07-22T12:57Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595422658000
-    Hashtag: '#GoldFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALMU
-    unitMention: Lassen-Modoc Unit
-    Final_Fire_Name: Gold Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-22T12:45Z-PER-none-ID-2020-CALMU-003917-NAME-Gold-S-N'
-      Code: a792d51077de617d67ffaeb12d1925db9cd6b32266d10758a05a5c0bac63fcd0
   2020-MTFHA-000060:
     Source_NFSA_Join:
       Lon: -114.57918024154948
@@ -113514,3 +113365,157 @@ Database:
       UpdateId: >-
         UPD-2020-07-22T17:27Z-PER-none-ID-CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0-NAME-BadgerFire-S-C
       Code: 0af9df717c4628dab04438d2737728ad3f8894e45e7ade4005fc223736028069
+  CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda:
+    Source_CALFIRE:
+      Lon: -120.923293
+      Lat: 41.11037
+      incident_name: Gold Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-22T17:31Z'
+      incident_date_last_updateEpoch: 1595439108000
+      incident_date_created: '2020-07-20T21:12Z'
+      incident_date_createdEpoch: 1595279545000
+      incident_administrative_unit: CAL FIRE Lassen-Modoc Unit / Modoc National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Highway 139 and County Road A-2, South of Adin'
+      incident_acres_burned: 14000
+      incident_containment: 5
+      incident_control: Evacuation orders in place
+      incident_cooperating_agencies: ''
+      incident_longitude: -120.923293
+      incident_latitude: 41.11037
+      incident_type: Wildfire
+      incident_id: 9d4f56ae-b319-49b0-9a77-10088a2defda
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/20/gold-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-20'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'True'
+      Fire_Name: Gold Fire
+      ModifiedOnDateTime: '2020-07-22T17:31Z'
+      ModifiedOnDateTimeEpoch: 1595439108000
+      DailyAcres: 14000
+      PercentContained: 5
+      UniqueFireIdentifier: CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/20/gold-fire/'
+      Name: Gold Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#GoldFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-22T17:32:06.701Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda
+    Source_NFSA_Join:
+      Lon: -120.92140292842022
+      Lat: 41.113335336263006
+      id: 165784
+      Name: Gold
+      Fire_Name: Gold
+      UniqueFireIdentifier: 2020-CALMU-003917
+      DailyAcres: 14000
+      PercentContained: 5
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2020-07-22T12:45Z'
+      ICS209ReportDateTimeEpoch: 1595421900000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 750000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 301
+      FireDiscoveryDateTime: '2020-07-20T19:26Z'
+      FireDiscoveryDateTimeEpoch: 1595273160000
+      DispatchCenterID: CASIFC
+      LocalIncidentIdentifier: 003917
+      POOCounty: Lassen
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-22T12:45Z'
+      ModifiedOnDateTimeEpoch: 1595421900000
+      ModifiedBySystem: wfdss
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CALMU-003917
+      ModifiedOnDateTime_Raw: '2020-07-22T12:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595422658000
+      Hashtag: '#GoldFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-22T17:32:06.700Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.923293
+    Lat: 41.11037
+    incident_name: Gold Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-22T17:31Z'
+    incident_date_last_updateEpoch: 1595439108000
+    incident_date_created: '2020-07-20T21:12Z'
+    incident_date_createdEpoch: 1595279545000
+    incident_administrative_unit: CAL FIRE Lassen-Modoc Unit / Modoc National Forest
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'Highway 139 and County Road A-2, South of Adin'
+    incident_acres_burned: 14000
+    incident_containment: 5
+    incident_control: Evacuation orders in place
+    incident_cooperating_agencies: ''
+    incident_longitude: -120.923293
+    incident_latitude: 41.11037
+    incident_type: Wildfire
+    incident_id: 9d4f56ae-b319-49b0-9a77-10088a2defda
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/20/gold-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-20'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Gold Fire
+    ModifiedOnDateTime: '2020-07-22T17:31Z'
+    ModifiedOnDateTimeEpoch: 1595439108000
+    DailyAcres: 14000
+    PercentContained: 5
+    UniqueFireIdentifier: CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/20/gold-fire/'
+    Name: Gold Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#GoldFire'
+    _CorrelationIds:
+      - 2020-CALMU-003917
+      - CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 9d4f56ae
+    unitMention: null
+    Final_Fire_Name: Gold Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-22T17:31Z-PER-none-ID-CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda-NAME-GoldFire-S-C
+      Code: faed6057fd5eb7daf8a57ff484e0f61499fe2e822959a0416a1385ada7336f7d
