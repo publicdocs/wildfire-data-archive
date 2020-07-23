@@ -109144,15 +109144,15 @@ Database:
       UniqueFireIdentifier: 2020-UTNES-200498
       DailyAcres: 438
       PercentContained: 95
-      FireMgmtComplexity: Type 4 Incident
+      FireMgmtComplexity: Type 5 Incident
       IncidentManagementOrganization: Type 5 IC
-      ICS209ReportDateTime: '2020-07-21T22:15Z'
-      ICS209ReportDateTimeEpoch: 1595369700000
-      ICS209ReportStatus: U
+      ICS209ReportDateTime: '2020-07-23T00:00Z'
+      ICS209ReportDateTimeEpoch: 1595462400000
+      ICS209ReportStatus: F
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
       EstimatedCostToDate: 325000
-      FireCause: Unknown
+      FireCause: Human
       TotalIncidentPersonnel: 5
       FireDiscoveryDateTime: '2020-07-16T23:32Z'
       FireDiscoveryDateTimeEpoch: 1594942320000
@@ -109160,21 +109160,21 @@ Database:
       LocalIncidentIdentifier: '200498'
       POOCounty: Wasatch
       POOLandownerKind: Other
-      ModifiedOnDateTime: '2020-07-21T22:15Z'
-      ModifiedOnDateTimeEpoch: 1595369700000
+      ModifiedOnDateTime: '2020-07-23T00:00Z'
+      ModifiedOnDateTimeEpoch: 1595462400000
       ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2020-UTNES-200498
-      ModifiedOnDateTime_Raw: '2020-07-21T22:38Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595371093000
+      ModifiedOnDateTime_Raw: '2020-07-23T00:42Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595464973000
       Hashtag: '#BigHollowFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-22T17:00:22.216Z'
+          RetrievedOn: '2020-07-23T01:00:48.412Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -109191,15 +109191,15 @@ Database:
     UniqueFireIdentifier: 2020-UTNES-200498
     DailyAcres: 438
     PercentContained: 95
-    FireMgmtComplexity: Type 4 Incident
+    FireMgmtComplexity: Type 5 Incident
     IncidentManagementOrganization: Type 5 IC
-    ICS209ReportDateTime: '2020-07-21T22:15Z'
-    ICS209ReportDateTimeEpoch: 1595369700000
-    ICS209ReportStatus: U
+    ICS209ReportDateTime: '2020-07-23T00:00Z'
+    ICS209ReportDateTimeEpoch: 1595462400000
+    ICS209ReportStatus: F
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
     EstimatedCostToDate: 325000
-    FireCause: Unknown
+    FireCause: Human
     TotalIncidentPersonnel: 5
     FireDiscoveryDateTime: '2020-07-16T23:32Z'
     FireDiscoveryDateTimeEpoch: 1594942320000
@@ -109207,16 +109207,16 @@ Database:
     LocalIncidentIdentifier: '200498'
     POOCounty: Wasatch
     POOLandownerKind: Other
-    ModifiedOnDateTime: '2020-07-21T22:15Z'
-    ModifiedOnDateTimeEpoch: 1595369700000
+    ModifiedOnDateTime: '2020-07-23T00:00Z'
+    ModifiedOnDateTimeEpoch: 1595462400000
     ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2020-UTNES-200498
-    ModifiedOnDateTime_Raw: '2020-07-21T22:38Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595371093000
+    ModifiedOnDateTime_Raw: '2020-07-23T00:42Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595464973000
     Hashtag: '#BigHollowFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -109228,8 +109228,8 @@ Database:
     unitMention: Northeast Area
     Final_Fire_Name: Big Hollow Fire
     _Update:
-      UpdateId: 'UPD-2020-07-21T22:15Z-PER-none-ID-2020-UTNES-200498-NAME-BigHollow-S-N'
-      Code: b3f3ecff9952e48b8c6c069cfa36d70e077b98cea1f099a9c168186c091e4280
+      UpdateId: 'UPD-2020-07-23T00:00Z-PER-none-ID-2020-UTNES-200498-NAME-BigHollow-S-N'
+      Code: 8d2ef1196ff9b6e97214218f03ce5986781d651e572bb31edd01aae85e30c740
   2020-TXTXS-200284:
     Source_NFSA_Join:
       Lon: -101.65000683495528
@@ -111740,172 +111740,6 @@ Database:
       UpdateId: >-
         UPD-2020-07-21T01:08Z-PER-none-ID-CALFIRE-cac8f4bf-d269-4f13-b59c-07670b34f81f-NAME-HollandFire-S-C
       Code: 40a1e68d3647f82cc1b8601ff3a42818cb0b6cc2518a8b76d62cc4a5df9ef67e
-  CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91:
-    Source_CALFIRE:
-      Lon: -120.52193
-      Lat: 36.09493
-      incident_name: Mineral Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-22T13:55Z'
-      incident_date_last_updateEpoch: 1595426130000
-      incident_date_created: '2020-07-13T23:40Z'
-      incident_date_createdEpoch: 1594683636000
-      incident_administrative_unit: CAL FIRE Fresno-Kings Unit
-      incident_administrative_unit_url: ''
-      incident_county: Fresno
-      incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
-      incident_acres_burned: 29667
-      incident_containment: 75
-      incident_control: ''
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: California Highway Patrol, Bureau of Land
-        Management, Fresno County Sheriff, Fresno County Office of Emergency
-        Services, Coalinga City Fire, Coalinga Police and Public Works,
-        California Conservation Corp, California Department of Corrections and
-        Rehabilitation.
-      incident_longitude: -120.52193
-      incident_latitude: 36.09493
-      incident_type: Wildfire
-      incident_id: ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-13'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Mineral Fire
-      ModifiedOnDateTime: '2020-07-22T13:55Z'
-      ModifiedOnDateTimeEpoch: 1595426130000
-      DailyAcres: 29667
-      PercentContained: 75
-      UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
-      Name: Mineral Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#MineralFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T16:18:21.491Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-    Source_NFSA_Join:
-      Lon: -120.52191313841944
-      Lat: 36.09493386258359
-      id: 164436
-      Name: MINERAL
-      Fire_Name: MINERAL
-      UniqueFireIdentifier: 2020-CAFKU-010219
-      DailyAcres: 28500
-      PercentContained: 62
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2020-07-20T23:45Z'
-      ICS209ReportDateTimeEpoch: 1595288700000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 20510791
-      FireCause: Unknown
-      TotalIncidentPersonnel: 1439
-      FireDiscoveryDateTime: '2020-07-13T22:31Z'
-      FireDiscoveryDateTimeEpoch: 1594679503000
-      DispatchCenterID: CAFKCC
-      LocalIncidentIdentifier: 010219
-      POOCounty: Fresno
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-20T23:45Z'
-      ModifiedOnDateTimeEpoch: 1595288700000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CAFKU-010219
-      ModifiedOnDateTime_Raw: '2020-07-21T00:21Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595290897000
-      Hashtag: '#MineralFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T16:18:21.489Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.52193
-    Lat: 36.09493
-    incident_name: Mineral Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2020-07-22T13:55Z'
-    incident_date_last_updateEpoch: 1595426130000
-    incident_date_created: '2020-07-13T23:40Z'
-    incident_date_createdEpoch: 1594683636000
-    incident_administrative_unit: CAL FIRE Fresno-Kings Unit
-    incident_administrative_unit_url: ''
-    incident_county: Fresno
-    incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
-    incident_acres_burned: 29667
-    incident_containment: 75
-    incident_control: ''
-    incident_cooperating_agencies: >-
-      Cooperating Agencies: California Highway Patrol, Bureau of Land
-      Management, Fresno County Sheriff, Fresno County Office of Emergency
-      Services, Coalinga City Fire, Coalinga Police and Public Works, California
-      Conservation Corp, California Department of Corrections and
-      Rehabilitation.
-    incident_longitude: -120.52193
-    incident_latitude: 36.09493
-    incident_type: Wildfire
-    incident_id: ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2020-07-13'
-    is_active: 'Y'
-    calfire_incident: 'True'
-    notification_desired: 'False'
-    Fire_Name: Mineral Fire
-    ModifiedOnDateTime: '2020-07-22T13:55Z'
-    ModifiedOnDateTimeEpoch: 1595426130000
-    DailyAcres: 29667
-    PercentContained: 75
-    UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-    Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
-    Name: Mineral Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#MineralFire'
-    _CorrelationIds:
-      - 2020-CAFKU-010219
-      - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: ef5e4d08
-    unitMention: null
-    Final_Fire_Name: Mineral Fire
-    _Update:
-      UpdateId: >-
-        UPD-2020-07-22T13:55Z-PER-none-ID-CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91-NAME-MineralFire-S-C
-      Code: 8b0118b9a43634c540bfc5ca03c0f9840529114093747fb48844bec20d2be99a
-    Damage:
-      structuresDestroyed: 7
   2020-CAHIA-000046:
     Source_NFSA_Join:
       Lon: -123.68445904562074
@@ -112212,429 +112046,6 @@ Database:
       UpdateId: >-
         UPD-2020-07-21T14:19Z-PER-none-ID-CALFIRE-8146a328-05df-4b38-b11e-1c6fcedb1df7-NAME-RabbitFire-S-C
       Code: fcce2f3a00a75b2a911437eff3503cad2a036482f38334589de43fd9e6ea80a7
-  CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748:
-    Source_CALFIRE:
-      Lon: -122.792645
-      Lat: 40.462621
-      incident_name: Platina Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-22T13:59Z'
-      incident_date_last_updateEpoch: 1595426386000
-      incident_date_created: '2020-07-20T00:05Z'
-      incident_date_createdEpoch: 1595203541000
-      incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
-      incident_administrative_unit_url: ''
-      incident_county: Shasta
-      incident_location: 'Platina Rd and Big Foot Rd, southwest of Redding'
-      incident_acres_burned: 340
-      incident_containment: 65
-      incident_control: ''
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: Shasta County Fire Dept., Millville Fire
-        Protection District, Happy Valley Fire Protection District, CDCR, AMR,
-        California National Guard, California Conservation Corps
-      incident_longitude: -122.792645
-      incident_latitude: 40.462621
-      incident_type: Wildfire
-      incident_id: c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-19'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Platina Fire
-      ModifiedOnDateTime: '2020-07-22T13:59Z'
-      ModifiedOnDateTimeEpoch: 1595426386000
-      DailyAcres: 340
-      PercentContained: 65
-      UniqueFireIdentifier: CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
-      Name: Platina Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#PlatinaFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T16:18:21.491Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-    Source_NFSA_Join:
-      Lon: -122.72686393590217
-      Lat: 40.43767258744994
-      id: 165635
-      Name: PLATINA
-      Fire_Name: PLATINA
-      UniqueFireIdentifier: 2020-CASHU-007049
-      DailyAcres: 340
-      PercentContained: 30
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2020-07-21T00:30Z'
-      ICS209ReportDateTimeEpoch: 1595291400000
-      ICS209ReportStatus: I
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 725000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 388
-      FireDiscoveryDateTime: '2020-07-19T22:46Z'
-      FireDiscoveryDateTimeEpoch: 1595198763000
-      DispatchCenterID: CARICC
-      LocalIncidentIdentifier: 007049
-      POOCounty: Shasta
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-21T00:30Z'
-      ModifiedOnDateTimeEpoch: 1595291400000
-      ModifiedBySystem: wfdss
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CASHU-007049
-      ModifiedOnDateTime_Raw: '2020-07-21T00:51Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595292688000
-      Hashtag: '#PlatinaFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T16:18:21.489Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -122.792645
-    Lat: 40.462621
-    incident_name: Platina Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2020-07-22T13:59Z'
-    incident_date_last_updateEpoch: 1595426386000
-    incident_date_created: '2020-07-20T00:05Z'
-    incident_date_createdEpoch: 1595203541000
-    incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
-    incident_administrative_unit_url: ''
-    incident_county: Shasta
-    incident_location: 'Platina Rd and Big Foot Rd, southwest of Redding'
-    incident_acres_burned: 340
-    incident_containment: 65
-    incident_control: ''
-    incident_cooperating_agencies: >-
-      Cooperating Agencies: Shasta County Fire Dept., Millville Fire Protection
-      District, Happy Valley Fire Protection District, CDCR, AMR, California
-      National Guard, California Conservation Corps
-    incident_longitude: -122.792645
-    incident_latitude: 40.462621
-    incident_type: Wildfire
-    incident_id: c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2020-07-19'
-    is_active: 'Y'
-    calfire_incident: 'True'
-    notification_desired: 'False'
-    Fire_Name: Platina Fire
-    ModifiedOnDateTime: '2020-07-22T13:59Z'
-    ModifiedOnDateTimeEpoch: 1595426386000
-    DailyAcres: 340
-    PercentContained: 65
-    UniqueFireIdentifier: CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-    Link: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
-    Name: Platina Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#PlatinaFire'
-    _CorrelationIds:
-      - 2020-CASHU-007049
-      - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: c4d60e70
-    unitMention: null
-    Final_Fire_Name: Platina Fire
-    _Update:
-      UpdateId: >-
-        UPD-2020-07-22T13:59Z-PER-none-ID-CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748-NAME-PlatinaFire-S-C
-      Code: 251e2197a58b5affb0939b7d640d9ad3c2e8688409d41cd2ef45853043c831d7
-  CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e:
-    Source_CALFIRE:
-      Lon: -120.86375
-      Lat: 40.420886
-      incident_name: Hog Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-22T14:28Z'
-      incident_date_last_updateEpoch: 1595428126000
-      incident_date_created: '2020-07-19T00:28Z'
-      incident_date_createdEpoch: 1595118498000
-      incident_administrative_unit: CAL FIRE  Lassen-Modoc
-      incident_administrative_unit_url: ''
-      incident_county: Lassen
-      incident_location: 'Hog Flat Reservoir, West of Susanville'
-      incident_acres_burned: 9420
-      incident_containment: 9
-      incident_control: Evacuation orders in place.
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: Lassen National Forest, California Highway Patrol,
-        Lassen County Sheriff, CALTRANS
-      incident_longitude: -120.86375
-      incident_latitude: 40.420886
-      incident_type: Wildfire
-      incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-18'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'True'
-      Fire_Name: Hog Fire
-      ModifiedOnDateTime: '2020-07-22T14:28Z'
-      ModifiedOnDateTimeEpoch: 1595428126000
-      DailyAcres: 9420
-      PercentContained: 9
-      UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-      Name: Hog Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#HogFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T16:18:21.491Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    Source_NFSA_Join:
-      Lon: -120.87118710403796
-      Lat: 40.44336088504746
-      id: 165377
-      Name: HOG
-      Fire_Name: HOG
-      UniqueFireIdentifier: 2020-CALMU-003874
-      DailyAcres: 12188
-      PercentContained: 0
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2020-07-21T01:00Z'
-      ICS209ReportDateTimeEpoch: 1595293200000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2000000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 514
-      FireDiscoveryDateTime: '2020-07-18T22:22Z'
-      FireDiscoveryDateTimeEpoch: 1595110928000
-      DispatchCenterID: CASIFC
-      LocalIncidentIdentifier: 003874
-      POOCounty: Lassen
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-21T01:00Z'
-      ModifiedOnDateTimeEpoch: 1595293200000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CALMU-003874
-      ModifiedOnDateTime_Raw: '2020-07-21T01:48Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595296114000
-      Hashtag: '#HogFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T16:18:21.489Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.86375
-    Lat: 40.420886
-    incident_name: Hog Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2020-07-22T14:28Z'
-    incident_date_last_updateEpoch: 1595428126000
-    incident_date_created: '2020-07-19T00:28Z'
-    incident_date_createdEpoch: 1595118498000
-    incident_administrative_unit: CAL FIRE  Lassen-Modoc
-    incident_administrative_unit_url: ''
-    incident_county: Lassen
-    incident_location: 'Hog Flat Reservoir, West of Susanville'
-    incident_acres_burned: 9420
-    incident_containment: 9
-    incident_control: Evacuation orders in place.
-    incident_cooperating_agencies: >-
-      Cooperating Agencies: Lassen National Forest, California Highway Patrol,
-      Lassen County Sheriff, CALTRANS
-    incident_longitude: -120.86375
-    incident_latitude: 40.420886
-    incident_type: Wildfire
-    incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
-    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2020-07-18'
-    is_active: 'Y'
-    calfire_incident: 'True'
-    notification_desired: 'True'
-    Fire_Name: Hog Fire
-    ModifiedOnDateTime: '2020-07-22T14:28Z'
-    ModifiedOnDateTimeEpoch: 1595428126000
-    DailyAcres: 9420
-    PercentContained: 9
-    UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-    Name: Hog Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#HogFire'
-    _CorrelationIds:
-      - 2020-CALMU-003874
-      - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: fc0b7761
-    unitMention: null
-    Final_Fire_Name: Hog Fire
-    _Update:
-      UpdateId: >-
-        UPD-2020-07-22T14:28Z-PER-none-ID-CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e-NAME-HogFire-S-C
-      Code: cbd06145909339820a378a4ab30f5f89efb967c32bd4c84f550cd4f51af40619
-  CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66:
-    Source_CALFIRE:
-      Lon: -118.711135
-      Lat: 37.518879
-      incident_name: Iris Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-22T02:26Z'
-      incident_date_last_updateEpoch: 1595384818000
-      incident_date_created: '2020-07-22T02:26Z'
-      incident_date_createdEpoch: 1595384818000
-      incident_administrative_unit: Inyo National Forest
-      incident_administrative_unit_url: ''
-      incident_county: Mono
-      incident_location: 'Iris Meadow and Rock Creek Rd, South of Crowley Lake'
-      incident_acres_burned: 0
-      incident_containment: 0
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -118.711135
-      incident_latitude: 37.518879
-      incident_type: Wildfire
-      incident_id: 1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/21/iris-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-21'
-      is_active: 'Y'
-      calfire_incident: 'False'
-      notification_desired: 'True'
-      Fire_Name: Iris Fire
-      ModifiedOnDateTime: '2020-07-22T02:26Z'
-      ModifiedOnDateTimeEpoch: 1595384818000
-      DailyAcres: 0
-      PercentContained: 0
-      UniqueFireIdentifier: CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/21/iris-fire/'
-      Name: Iris Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#IrisFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T02:27:40.630Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
-    Lon: -118.711135
-    Lat: 37.518879
-    incident_name: Iris Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2020-07-22T02:26Z'
-    incident_date_last_updateEpoch: 1595384818000
-    incident_date_created: '2020-07-22T02:26Z'
-    incident_date_createdEpoch: 1595384818000
-    incident_administrative_unit: Inyo National Forest
-    incident_administrative_unit_url: ''
-    incident_county: Mono
-    incident_location: 'Iris Meadow and Rock Creek Rd, South of Crowley Lake'
-    incident_acres_burned: 0
-    incident_containment: 0
-    incident_control: ''
-    incident_cooperating_agencies: ''
-    incident_longitude: -118.711135
-    incident_latitude: 37.518879
-    incident_type: Wildfire
-    incident_id: 1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
-    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/21/iris-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2020-07-21'
-    is_active: 'Y'
-    calfire_incident: 'False'
-    notification_desired: 'True'
-    Fire_Name: Iris Fire
-    ModifiedOnDateTime: '2020-07-22T02:26Z'
-    ModifiedOnDateTimeEpoch: 1595384818000
-    DailyAcres: 0
-    PercentContained: 0
-    UniqueFireIdentifier: CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
-    Link: 'https://www.fire.ca.gov/incidents/2020/7/21/iris-fire/'
-    Name: Iris Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#IrisFire'
-    _CorrelationIds:
-      - CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 1505ac89
-    unitMention: null
-    Final_Fire_Name: Iris Fire
-    _Update:
-      UpdateId: >-
-        UPD-2020-07-22T02:26Z-PER-none-ID-CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66-NAME-IrisFire-S-C
-      Code: 6d5f4b6752f9e19316cdafd5969e193b0687c462e9283211b16ee2539ed3c5f2
   2020-AZASF-000607:
     Source_NFSA_Join:
       Lon: -109.08941384354394
@@ -113211,160 +112622,6 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-22T23:30Z-PER-none-ID-2020-IDBOD-000454-NAME-ANTELOPE-S-N'
       Code: 8607252f2eba2873e9f28c7b5f3b240b800a9358a0529c6876b836065adeb220
-  CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0:
-    Source_CALFIRE:
-      Lon: -122.69296
-      Lat: 41.79319
-      incident_name: Badger Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-22T17:27Z'
-      incident_date_last_updateEpoch: 1595438864000
-      incident_date_created: '2020-07-19T00:18Z'
-      incident_date_createdEpoch: 1595117900000
-      incident_administrative_unit: CAL FIRE Siskiyou
-      incident_administrative_unit_url: ''
-      incident_county: Siskiyou
-      incident_location: Badger Mountain Road and Hawkinsville Humbug Road
-      incident_acres_burned: 557
-      incident_containment: 50
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -122.69296
-      incident_latitude: 41.79319
-      incident_type: Wildfire
-      incident_id: 9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-18'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'True'
-      Fire_Name: Badger Fire
-      ModifiedOnDateTime: '2020-07-22T17:27Z'
-      ModifiedOnDateTimeEpoch: 1595438864000
-      DailyAcres: 557
-      PercentContained: 50
-      UniqueFireIdentifier: CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
-      Name: Badger Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#BadgerFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T17:28:07.103Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-    Source_NFSA_Join:
-      Lon: -122.65377700438621
-      Lat: 41.79462005644732
-      id: 165381
-      Name: BADGER
-      Fire_Name: BADGER
-      UniqueFireIdentifier: 2020-CASKU-005356
-      DailyAcres: 557
-      PercentContained: 50
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2020-07-22T12:30Z'
-      ICS209ReportDateTimeEpoch: 1595421000000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 2400000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 188
-      FireDiscoveryDateTime: '2020-07-18T22:31Z'
-      FireDiscoveryDateTimeEpoch: 1595111496000
-      DispatchCenterID: CAYICC
-      LocalIncidentIdentifier: '005356'
-      POOCounty: Siskiyou
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-22T12:30Z'
-      ModifiedOnDateTimeEpoch: 1595421000000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CASKU-005356
-      ModifiedOnDateTime_Raw: '2020-07-22T12:56Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595422600000
-      Hashtag: '#BadgerFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-22T17:28:07.101Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -122.69296
-    Lat: 41.79319
-    incident_name: Badger Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2020-07-22T17:27Z'
-    incident_date_last_updateEpoch: 1595438864000
-    incident_date_created: '2020-07-19T00:18Z'
-    incident_date_createdEpoch: 1595117900000
-    incident_administrative_unit: CAL FIRE Siskiyou
-    incident_administrative_unit_url: ''
-    incident_county: Siskiyou
-    incident_location: Badger Mountain Road and Hawkinsville Humbug Road
-    incident_acres_burned: 557
-    incident_containment: 50
-    incident_control: ''
-    incident_cooperating_agencies: ''
-    incident_longitude: -122.69296
-    incident_latitude: 41.79319
-    incident_type: Wildfire
-    incident_id: 9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2020-07-18'
-    is_active: 'Y'
-    calfire_incident: 'True'
-    notification_desired: 'True'
-    Fire_Name: Badger Fire
-    ModifiedOnDateTime: '2020-07-22T17:27Z'
-    ModifiedOnDateTimeEpoch: 1595438864000
-    DailyAcres: 557
-    PercentContained: 50
-    UniqueFireIdentifier: CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-    Link: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
-    Name: Badger Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#BadgerFire'
-    _CorrelationIds:
-      - 2020-CASKU-005356
-      - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: 9520d0cb
-    unitMention: null
-    Final_Fire_Name: Badger Fire
-    _Update:
-      UpdateId: >-
-        UPD-2020-07-22T17:27Z-PER-none-ID-CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0-NAME-BadgerFire-S-C
-      Code: 0af9df717c4628dab04438d2737728ad3f8894e45e7ade4005fc223736028069
   CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda:
     Source_CALFIRE:
       Lon: -120.923293
@@ -113519,3 +112776,758 @@ Database:
       UpdateId: >-
         UPD-2020-07-22T21:48Z-PER-none-ID-CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda-NAME-GoldFire-S-C
       Code: 822c496161ca1b5af997e7338232022eadc8c6372fcf7b56844e844b84756c6f
+  2020-CAFKU-010219:
+    Source_CALFIRE:
+      Lon: -120.52193
+      Lat: 36.09493
+      incident_name: Mineral Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-22T13:55Z'
+      incident_date_last_updateEpoch: 1595426130000
+      incident_date_created: '2020-07-13T23:40Z'
+      incident_date_createdEpoch: 1594683636000
+      incident_administrative_unit: CAL FIRE Fresno-Kings Unit
+      incident_administrative_unit_url: ''
+      incident_county: Fresno
+      incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
+      incident_acres_burned: 29667
+      incident_containment: 75
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: California Highway Patrol, Bureau of Land
+        Management, Fresno County Sheriff, Fresno County Office of Emergency
+        Services, Coalinga City Fire, Coalinga Police and Public Works,
+        California Conservation Corp, California Department of Corrections and
+        Rehabilitation.
+      incident_longitude: -120.52193
+      incident_latitude: 36.09493
+      incident_type: Wildfire
+      incident_id: ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-13'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'False'
+      Fire_Name: Mineral Fire
+      ModifiedOnDateTime: '2020-07-22T13:55Z'
+      ModifiedOnDateTimeEpoch: 1595426130000
+      DailyAcres: 29667
+      PercentContained: 75
+      UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+      Name: Mineral Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#MineralFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.414Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    Source_NFSA_Join:
+      Lon: -120.52191313841944
+      Lat: 36.09493386258359
+      id: 164436
+      Name: MINERAL
+      Fire_Name: MINERAL
+      UniqueFireIdentifier: 2020-CAFKU-010219
+      DailyAcres: 29667
+      PercentContained: 80
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2020-07-23T00:15Z'
+      ICS209ReportDateTimeEpoch: 1595463300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 24329903
+      FireCause: Unknown
+      TotalIncidentPersonnel: 803
+      FireDiscoveryDateTime: '2020-07-13T22:31Z'
+      FireDiscoveryDateTimeEpoch: 1594679503000
+      DispatchCenterID: CAFKCC
+      LocalIncidentIdentifier: 010219
+      POOCounty: Fresno
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-23T00:15Z'
+      ModifiedOnDateTimeEpoch: 1595463300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CAFKU-010219
+      ModifiedOnDateTime_Raw: '2020-07-23T00:46Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595465180000
+      Hashtag: '#MineralFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.412Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.52191313841944
+    Lat: 36.09493386258359
+    id: 164436
+    Name: MINERAL
+    Fire_Name: MINERAL
+    UniqueFireIdentifier: 2020-CAFKU-010219
+    DailyAcres: 29667
+    PercentContained: 80
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: Type 1 Team
+    ICS209ReportDateTime: '2020-07-23T00:15Z'
+    ICS209ReportDateTimeEpoch: 1595463300000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 24329903
+    FireCause: Unknown
+    TotalIncidentPersonnel: 803
+    FireDiscoveryDateTime: '2020-07-13T22:31Z'
+    FireDiscoveryDateTimeEpoch: 1594679503000
+    DispatchCenterID: CAFKCC
+    LocalIncidentIdentifier: 010219
+    POOCounty: Fresno
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2020-07-23T00:15Z'
+    ModifiedOnDateTimeEpoch: 1595463300000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-CAFKU-010219
+      - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    ModifiedOnDateTime_Raw: '2020-07-23T00:46Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595465180000
+    Hashtag: '#MineralFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CAFKU
+    unitMention: '@FresnoCoFire'
+    Final_Fire_Name: Mineral Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-23T00:15Z-PER-none-ID-2020-CAFKU-010219-NAME-MINERAL-S-N'
+      Code: fd3f80bbd500b1942a1c85cc48ed70594581a47649e1bc17156d309dfc5ab1a3
+  2020-CALMU-003874:
+    Source_CALFIRE:
+      Lon: -120.86375
+      Lat: 40.420886
+      incident_name: Hog Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-22T14:28Z'
+      incident_date_last_updateEpoch: 1595428126000
+      incident_date_created: '2020-07-19T00:28Z'
+      incident_date_createdEpoch: 1595118498000
+      incident_administrative_unit: CAL FIRE  Lassen-Modoc
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Hog Flat Reservoir, West of Susanville'
+      incident_acres_burned: 9420
+      incident_containment: 9
+      incident_control: Evacuation orders in place.
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: Lassen National Forest, California Highway Patrol,
+        Lassen County Sheriff, CALTRANS
+      incident_longitude: -120.86375
+      incident_latitude: 40.420886
+      incident_type: Wildfire
+      incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-18'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'False'
+      Fire_Name: Hog Fire
+      ModifiedOnDateTime: '2020-07-22T14:28Z'
+      ModifiedOnDateTimeEpoch: 1595428126000
+      DailyAcres: 9420
+      PercentContained: 9
+      UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+      Name: Hog Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HogFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.414Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+    Source_NFSA_Join:
+      Lon: -120.87118710403796
+      Lat: 40.44336088504746
+      id: 165377
+      Name: HOG
+      Fire_Name: HOG
+      UniqueFireIdentifier: 2020-CALMU-003874
+      DailyAcres: 9517
+      PercentContained: 23
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2020-07-23T00:15Z'
+      ICS209ReportDateTimeEpoch: 1595463300000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 6667718
+      FireCause: Unknown
+      TotalIncidentPersonnel: 2168
+      FireDiscoveryDateTime: '2020-07-18T22:22Z'
+      FireDiscoveryDateTimeEpoch: 1595110928000
+      DispatchCenterID: CASIFC
+      LocalIncidentIdentifier: 003874
+      POOCounty: Lassen
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-23T00:15Z'
+      ModifiedOnDateTimeEpoch: 1595463300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CALMU-003874
+      ModifiedOnDateTime_Raw: '2020-07-23T00:35Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595464559000
+      Hashtag: '#HogFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.412Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.87118710403796
+    Lat: 40.44336088504746
+    id: 165377
+    Name: HOG
+    Fire_Name: HOG
+    UniqueFireIdentifier: 2020-CALMU-003874
+    DailyAcres: 9517
+    PercentContained: 23
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: Type 1 Team
+    ICS209ReportDateTime: '2020-07-23T00:15Z'
+    ICS209ReportDateTimeEpoch: 1595463300000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 6667718
+    FireCause: Unknown
+    TotalIncidentPersonnel: 2168
+    FireDiscoveryDateTime: '2020-07-18T22:22Z'
+    FireDiscoveryDateTimeEpoch: 1595110928000
+    DispatchCenterID: CASIFC
+    LocalIncidentIdentifier: 003874
+    POOCounty: Lassen
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-07-23T00:15Z'
+    ModifiedOnDateTimeEpoch: 1595463300000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-CALMU-003874
+      - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+    ModifiedOnDateTime_Raw: '2020-07-23T00:35Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595464559000
+    Hashtag: '#HogFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CALMU
+    unitMention: Lassen-Modoc Unit
+    Final_Fire_Name: Hog Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-23T00:15Z-PER-none-ID-2020-CALMU-003874-NAME-HOG-S-N'
+      Code: 508576701071a0cf07462e7805aecc200952156a0103253b3954ed8767e96c0c
+  2020-CASKU-005356:
+    Source_CALFIRE:
+      Lon: -122.69296
+      Lat: 41.79319
+      incident_name: Badger Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-22T17:27Z'
+      incident_date_last_updateEpoch: 1595438864000
+      incident_date_created: '2020-07-19T00:18Z'
+      incident_date_createdEpoch: 1595117900000
+      incident_administrative_unit: CAL FIRE Siskiyou
+      incident_administrative_unit_url: ''
+      incident_county: Siskiyou
+      incident_location: Badger Mountain Road and Hawkinsville Humbug Road
+      incident_acres_burned: 557
+      incident_containment: 50
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -122.69296
+      incident_latitude: 41.79319
+      incident_type: Wildfire
+      incident_id: 9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-18'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'False'
+      Fire_Name: Badger Fire
+      ModifiedOnDateTime: '2020-07-22T17:27Z'
+      ModifiedOnDateTimeEpoch: 1595438864000
+      DailyAcres: 557
+      PercentContained: 50
+      UniqueFireIdentifier: CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/badger-fire/'
+      Name: Badger Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#BadgerFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.414Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+    Source_NFSA_Join:
+      Lon: -122.65377700438621
+      Lat: 41.79462005644732
+      id: 165381
+      Name: BADGER
+      Fire_Name: BADGER
+      UniqueFireIdentifier: 2020-CASKU-005356
+      DailyAcres: 557
+      PercentContained: 55
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2020-07-23T00:30Z'
+      ICS209ReportDateTimeEpoch: 1595464200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 3100000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 65
+      FireDiscoveryDateTime: '2020-07-18T22:31Z'
+      FireDiscoveryDateTimeEpoch: 1595111496000
+      DispatchCenterID: CAYICC
+      LocalIncidentIdentifier: '005356'
+      POOCounty: Siskiyou
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-23T00:30Z'
+      ModifiedOnDateTimeEpoch: 1595464200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CASKU-005356
+      ModifiedOnDateTime_Raw: '2020-07-23T00:44Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595465059000
+      Hashtag: '#BadgerFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.412Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -122.65377700438621
+    Lat: 41.79462005644732
+    id: 165381
+    Name: BADGER
+    Fire_Name: BADGER
+    UniqueFireIdentifier: 2020-CASKU-005356
+    DailyAcres: 557
+    PercentContained: 55
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2020-07-23T00:30Z'
+    ICS209ReportDateTimeEpoch: 1595464200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 3100000
+    FireCause: Unknown
+    TotalIncidentPersonnel: 65
+    FireDiscoveryDateTime: '2020-07-18T22:31Z'
+    FireDiscoveryDateTimeEpoch: 1595111496000
+    DispatchCenterID: CAYICC
+    LocalIncidentIdentifier: '005356'
+    POOCounty: Siskiyou
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-07-23T00:30Z'
+    ModifiedOnDateTimeEpoch: 1595464200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-CASKU-005356
+      - CALFIRE-9520d0cb-1a4f-4dc0-bd38-967f5ee353f0
+    ModifiedOnDateTime_Raw: '2020-07-23T00:44Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595465059000
+    Hashtag: '#BadgerFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CASKU
+    unitMention: Siskiyou Unit
+    Final_Fire_Name: Badger Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-23T00:30Z-PER-none-ID-2020-CASKU-005356-NAME-BADGER-S-N'
+      Code: c9012b80ae557c1d53340401c52f750fe7b5f96948103e2fd588bd205fc5e787
+  2020-CASHU-007049:
+    Source_CALFIRE:
+      Lon: -122.792645
+      Lat: 40.462621
+      incident_name: Platina Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-22T13:59Z'
+      incident_date_last_updateEpoch: 1595426386000
+      incident_date_created: '2020-07-20T00:05Z'
+      incident_date_createdEpoch: 1595203541000
+      incident_administrative_unit: CAL FIRE Shasta-Trinity Unit
+      incident_administrative_unit_url: ''
+      incident_county: Shasta
+      incident_location: 'Platina Rd and Big Foot Rd, southwest of Redding'
+      incident_acres_burned: 340
+      incident_containment: 65
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: Shasta County Fire Dept., Millville Fire
+        Protection District, Happy Valley Fire Protection District, CDCR, AMR,
+        California National Guard, California Conservation Corps
+      incident_longitude: -122.792645
+      incident_latitude: 40.462621
+      incident_type: Wildfire
+      incident_id: c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-19'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'False'
+      Fire_Name: Platina Fire
+      ModifiedOnDateTime: '2020-07-22T13:59Z'
+      ModifiedOnDateTimeEpoch: 1595426386000
+      DailyAcres: 340
+      PercentContained: 65
+      UniqueFireIdentifier: CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/19/platina-fire/'
+      Name: Platina Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#PlatinaFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.414Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+    Source_NFSA_Join:
+      Lon: -122.72686393590217
+      Lat: 40.43767258744994
+      id: 165635
+      Name: PLATINA
+      Fire_Name: PLATINA
+      UniqueFireIdentifier: 2020-CASHU-007049
+      DailyAcres: 340
+      PercentContained: 75
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2020-07-23T00:30Z'
+      ICS209ReportDateTimeEpoch: 1595464200000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1621467
+      FireCause: Unknown
+      TotalIncidentPersonnel: 293
+      FireDiscoveryDateTime: '2020-07-19T22:46Z'
+      FireDiscoveryDateTimeEpoch: 1595198763000
+      DispatchCenterID: CARICC
+      LocalIncidentIdentifier: 007049
+      POOCounty: Shasta
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-23T00:30Z'
+      ModifiedOnDateTimeEpoch: 1595464200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CASHU-007049
+      ModifiedOnDateTime_Raw: '2020-07-23T00:32Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595464375000
+      Hashtag: '#PlatinaFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.412Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -122.72686393590217
+    Lat: 40.43767258744994
+    id: 165635
+    Name: PLATINA
+    Fire_Name: PLATINA
+    UniqueFireIdentifier: 2020-CASHU-007049
+    DailyAcres: 340
+    PercentContained: 75
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2020-07-23T00:30Z'
+    ICS209ReportDateTimeEpoch: 1595464200000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 1621467
+    FireCause: Unknown
+    TotalIncidentPersonnel: 293
+    FireDiscoveryDateTime: '2020-07-19T22:46Z'
+    FireDiscoveryDateTimeEpoch: 1595198763000
+    DispatchCenterID: CARICC
+    LocalIncidentIdentifier: 007049
+    POOCounty: Shasta
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2020-07-23T00:30Z'
+    ModifiedOnDateTimeEpoch: 1595464200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-CASHU-007049
+      - CALFIRE-c4d60e70-ee95-41f1-9e6e-4df4bdae3748
+    ModifiedOnDateTime_Raw: '2020-07-23T00:32Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595464375000
+    Hashtag: '#PlatinaFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CASHU
+    unitMention: '@CALFIRESHU'
+    Final_Fire_Name: Platina Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-23T00:30Z-PER-none-ID-2020-CASHU-007049-NAME-PLATINA-S-N'
+      Code: 0abe77a578179576003d2a74f1d2406160f9169e0cdd18f142edeae392b8d678
+  2020-CAINF-001585:
+    Source_CALFIRE:
+      Lon: -118.711135
+      Lat: 37.518879
+      incident_name: Iris Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-22T02:26Z'
+      incident_date_last_updateEpoch: 1595384818000
+      incident_date_created: '2020-07-22T02:26Z'
+      incident_date_createdEpoch: 1595384818000
+      incident_administrative_unit: Inyo National Forest
+      incident_administrative_unit_url: ''
+      incident_county: Mono
+      incident_location: 'Iris Meadow and Rock Creek Rd, South of Crowley Lake'
+      incident_acres_burned: 0
+      incident_containment: 0
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -118.711135
+      incident_latitude: 37.518879
+      incident_type: Wildfire
+      incident_id: 1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/21/iris-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-21'
+      is_active: 'Y'
+      calfire_incident: 'False'
+      notification_desired: 'False'
+      Fire_Name: Iris Fire
+      ModifiedOnDateTime: '2020-07-22T02:26Z'
+      ModifiedOnDateTimeEpoch: 1595384818000
+      DailyAcres: 0
+      PercentContained: 0
+      UniqueFireIdentifier: CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/21/iris-fire/'
+      Name: Iris Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#IrisFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.414Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
+    Source_NFSA_Join:
+      Lon: -118.71470939928632
+      Lat: 37.517142345552685
+      id: 166056
+      Name: IRIS
+      Fire_Name: IRIS
+      UniqueFireIdentifier: 2020-CAINF-001585
+      DailyAcres: 125
+      PercentContained: 20
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2020-07-23T00:15Z'
+      ICS209ReportDateTimeEpoch: 1595463300000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 200000
+      FireCause: Natural
+      TotalIncidentPersonnel: 150
+      FireDiscoveryDateTime: '2020-07-21T22:47Z'
+      FireDiscoveryDateTimeEpoch: 1595371660000
+      DispatchCenterID: CAOVCC
+      LocalIncidentIdentifier: 001585
+      POOCounty: Mono
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-23T00:15Z'
+      ModifiedOnDateTimeEpoch: 1595463300000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CAINF-001585
+      ModifiedOnDateTime_Raw: '2020-07-23T00:44Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595465061000
+      Hashtag: '#IrisFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-23T01:00:48.412Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -118.71470939928632
+    Lat: 37.517142345552685
+    id: 166056
+    Name: IRIS
+    Fire_Name: IRIS
+    UniqueFireIdentifier: 2020-CAINF-001585
+    DailyAcres: 125
+    PercentContained: 20
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2020-07-23T00:15Z'
+    ICS209ReportDateTimeEpoch: 1595463300000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 200000
+    FireCause: Natural
+    TotalIncidentPersonnel: 150
+    FireDiscoveryDateTime: '2020-07-21T22:47Z'
+    FireDiscoveryDateTimeEpoch: 1595371660000
+    DispatchCenterID: CAOVCC
+    LocalIncidentIdentifier: 001585
+    POOCounty: Mono
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-07-23T00:15Z'
+    ModifiedOnDateTimeEpoch: 1595463300000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-CAINF-001585
+      - CALFIRE-1505ac89-a71c-4c77-9ae4-fb3eb34dbc66
+    ModifiedOnDateTime_Raw: '2020-07-23T00:44Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595465061000
+    Hashtag: '#IrisFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CAINF
+    unitMention: '@InyoInfo'
+    Final_Fire_Name: Iris Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-23T00:15Z-PER-none-ID-2020-CAINF-001585-NAME-IRIS-S-N'
+      Code: aa8911d7adb0ac67f15ef5b40de5ce8eab9c7e56636b21fcb0bfad6975afc5a5
