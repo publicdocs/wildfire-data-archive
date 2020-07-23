@@ -114071,14 +114071,14 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-23T23:02Z-PER-none-ID-2020-WYJOX-200408-NAME-DOUBLECROSS-S-N'
       Code: 3356c494dd4eae78d92944c1c07f669a327f9ede74cd2710ce811973f34b3fa1
-  2020-CAFKU-010219:
+  CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91:
     Source_CALFIRE:
       Lon: -120.52193
       Lat: 36.09493
       incident_name: Mineral Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2020-07-23T13:42Z'
-      incident_date_last_updateEpoch: 1595511773000
+      incident_date_last_update: '2020-07-23T23:36Z'
+      incident_date_last_updateEpoch: 1595547414000
       incident_date_created: '2020-07-13T23:40Z'
       incident_date_createdEpoch: 1594683636000
       incident_administrative_unit: CAL FIRE Fresno-Kings Unit
@@ -114086,7 +114086,7 @@ Database:
       incident_county: Fresno
       incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
       incident_acres_burned: 29667
-      incident_containment: 85
+      incident_containment: 90
       incident_control: ''
       incident_cooperating_agencies: >-
         Cooperating Agencies: California Highway Patrol, Bureau of Land
@@ -114104,12 +114104,12 @@ Database:
       incident_dateonly_created: '2020-07-13'
       is_active: 'Y'
       calfire_incident: 'True'
-      notification_desired: 'False'
+      notification_desired: 'True'
       Fire_Name: Mineral Fire
-      ModifiedOnDateTime: '2020-07-23T13:42Z'
-      ModifiedOnDateTimeEpoch: 1595511773000
+      ModifiedOnDateTime: '2020-07-23T23:36Z'
+      ModifiedOnDateTimeEpoch: 1595547414000
       DailyAcres: 29667
-      PercentContained: 85
+      PercentContained: 90
       UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
       Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
       Name: Mineral Fire
@@ -114118,7 +114118,7 @@ Database:
       Hashtag: '#MineralFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-23T23:20:14.093Z'
+          RetrievedOn: '2020-07-23T23:36:53.672Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -114168,7 +114168,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-23T23:20:14.091Z'
+          RetrievedOn: '2020-07-23T23:36:53.670Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -114177,51 +114177,61 @@ Database:
             timeout: 120000
             json: true
         Modified: true
-    Lon: -120.52191313841944
-    Lat: 36.09493386258359
-    id: 164436
-    Name: MINERAL
-    Fire_Name: MINERAL
-    UniqueFireIdentifier: 2020-CAFKU-010219
+    Lon: -120.52193
+    Lat: 36.09493
+    incident_name: Mineral Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-23T23:36Z'
+    incident_date_last_updateEpoch: 1595547414000
+    incident_date_created: '2020-07-13T23:40Z'
+    incident_date_createdEpoch: 1594683636000
+    incident_administrative_unit: CAL FIRE Fresno-Kings Unit
+    incident_administrative_unit_url: ''
+    incident_county: Fresno
+    incident_location: 'Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga'
+    incident_acres_burned: 29667
+    incident_containment: 90
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      Cooperating Agencies: California Highway Patrol, Bureau of Land
+      Management, Fresno County Sheriff, Fresno County Office of Emergency
+      Services, Coalinga City Fire, Coalinga Police and Public Works, California
+      Conservation Corp, California Department of Corrections and
+      Rehabilitation.
+    incident_longitude: -120.52193
+    incident_latitude: 36.09493
+    incident_type: Wildfire
+    incident_id: ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-13'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Mineral Fire
+    ModifiedOnDateTime: '2020-07-23T23:36Z'
+    ModifiedOnDateTimeEpoch: 1595547414000
     DailyAcres: 29667
     PercentContained: 90
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2020-07-23T22:30Z'
-    ICS209ReportDateTimeEpoch: 1595543400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 25616260
-    FireCause: Unknown
-    TotalIncidentPersonnel: 545
-    FireDiscoveryDateTime: '2020-07-13T22:31Z'
-    FireDiscoveryDateTimeEpoch: 1594679503000
-    DispatchCenterID: CAFKCC
-    LocalIncidentIdentifier: 010219
-    POOCounty: Fresno
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-23T22:30Z'
-    ModifiedOnDateTimeEpoch: 1595543400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/13/mineral-fire/'
+    Name: Mineral Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#MineralFire'
     _CorrelationIds:
       - 2020-CAFKU-010219
       - CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91
-    ModifiedOnDateTime_Raw: '2020-07-23T23:02Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595545346000
-    Hashtag: '#MineralFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CAFKU
-    unitMention: '@FresnoCoFire'
+    unitId: ef5e4d08
+    unitMention: null
     Final_Fire_Name: Mineral Fire
     _Update:
-      UpdateId: 'UPD-2020-07-23T22:30Z-PER-none-ID-2020-CAFKU-010219-NAME-MINERAL-S-N'
-      Code: 5428df161c3d741b0efed18dcc662333de4b280b8a689610cd6552fb94a1ad14
+      UpdateId: >-
+        UPD-2020-07-23T23:36Z-PER-none-ID-CALFIRE-ef5e4d08-bf3f-4df1-90b7-92e4e2a2fc91-NAME-MineralFire-S-C
+      Code: d9705fa6ffafcd81908721c10befc94f70dec4d22f1d41d777e8279f0a7f3e60
