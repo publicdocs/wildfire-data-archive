@@ -116596,7 +116596,7 @@ Database:
       UpdateId: >-
         UPD-2020-07-27T17:59Z-PER-none-ID-CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda-NAME-CottonwoodFire-S-C
       Code: 487af694260bda1720848040730995033969da7fed540218c49287a1ab1bc815
-  CALFIRE-69aa5821-3027-464a-9c61-daa8b75e090f:
+  2020-CAPNF-000976:
     Source_CALFIRE:
       Lon: -120.025872
       Lat: 39.922415
@@ -116624,7 +116624,7 @@ Database:
       incident_dateonly_created: '2020-07-27'
       is_active: 'Y'
       calfire_incident: 'False'
-      notification_desired: 'True'
+      notification_desired: 'False'
       Fire_Name: Adams Fire
       ModifiedOnDateTime: '2020-07-27T16:35Z'
       ModifiedOnDateTimeEpoch: 1595867749000
@@ -116638,7 +116638,7 @@ Database:
       Hashtag: '#AdamsFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-27T16:36:35.843Z'
+          RetrievedOn: '2020-07-27T18:19:33.746Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -116649,55 +116649,99 @@ Database:
         Modified: true
       _CorrelationIds:
         - CALFIRE-69aa5821-3027-464a-9c61-daa8b75e090f
-    Lon: -120.025872
-    Lat: 39.922415
-    incident_name: Adams Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2020-07-27T16:35Z'
-    incident_date_last_updateEpoch: 1595867749000
-    incident_date_created: '2020-07-27T16:35Z'
-    incident_date_createdEpoch: 1595867749000
-    incident_administrative_unit: USFS Plumas National Forest
-    incident_administrative_unit_url: ''
-    incident_county: Lassen
-    incident_location: 'Scott Rd and Highway 395, south of Doyle'
-    incident_acres_burned: 0
-    incident_containment: 0
-    incident_control: ''
-    incident_cooperating_agencies: ''
-    incident_longitude: -120.025872
-    incident_latitude: 39.922415
-    incident_type: Wildfire
-    incident_id: 69aa5821-3027-464a-9c61-daa8b75e090f
-    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/27/adams-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2020-07-27'
-    is_active: 'Y'
-    calfire_incident: 'False'
-    notification_desired: 'True'
-    Fire_Name: Adams Fire
-    ModifiedOnDateTime: '2020-07-27T16:35Z'
-    ModifiedOnDateTimeEpoch: 1595867749000
-    DailyAcres: 0
-    PercentContained: 0
-    UniqueFireIdentifier: CALFIRE-69aa5821-3027-464a-9c61-daa8b75e090f
-    Link: 'https://www.fire.ca.gov/incidents/2020/7/27/adams-fire/'
-    Name: Adams Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#AdamsFire'
+    Source_NFSA_Join:
+      Lon: -120.03781103180744
+      Lat: 39.91394589439002
+      id: 167146
+      Name: Adams
+      Fire_Name: Adams
+      UniqueFireIdentifier: 2020-CAPNF-000976
+      DailyAcres: 500
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Unknown
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2020-07-27T02:30Z'
+      FireDiscoveryDateTimeEpoch: 1595817000000
+      DispatchCenterID: CAPNFC
+      LocalIncidentIdentifier: 000976
+      POOCounty: Lassen
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-27T18:00Z'
+      ModifiedOnDateTimeEpoch: 1595872842000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CAPNF-000976
+      ModifiedOnDateTime_Raw: '2020-07-27T18:00Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595872842000
+      Hashtag: '#AdamsFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-27T18:19:33.745Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.03781103180744
+    Lat: 39.91394589439002
+    id: 167146
+    Name: Adams
+    Fire_Name: Adams
+    UniqueFireIdentifier: 2020-CAPNF-000976
+    DailyAcres: 500
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Unknown
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2020-07-27T02:30Z'
+    FireDiscoveryDateTimeEpoch: 1595817000000
+    DispatchCenterID: CAPNFC
+    LocalIncidentIdentifier: 000976
+    POOCounty: Lassen
+    POOLandownerKind: Private
+    ModifiedOnDateTime: '2020-07-27T18:00Z'
+    ModifiedOnDateTimeEpoch: 1595872842000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
     _CorrelationIds:
+      - 2020-CAPNF-000976
       - CALFIRE-69aa5821-3027-464a-9c61-daa8b75e090f
+    ModifiedOnDateTime_Raw: '2020-07-27T18:00Z'
+    ModifiedOnDateTimeEpoch_Raw: 1595872842000
+    Hashtag: '#AdamsFire'
+    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: 69aa5821
-    unitMention: null
+    unitId: CAPNF
+    unitMention: '@USFSPlumas'
     Final_Fire_Name: Adams Fire
     _Update:
-      UpdateId: >-
-        UPD-2020-07-27T16:35Z-PER-none-ID-CALFIRE-69aa5821-3027-464a-9c61-daa8b75e090f-NAME-AdamsFire-S-C
-      Code: 8a7922d68a1456831019a89779faaf300d0d29aece5f48b0afdf182e5e54d66e
+      UpdateId: 'UPD-2020-07-27T18:00Z-PER-none-ID-2020-CAPNF-000976-NAME-Adams-S-N'
+      Code: 1078d07273e362839524381df9aed4c8956204cbb28060ac5f572a9129f0dab1
