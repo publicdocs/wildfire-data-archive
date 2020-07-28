@@ -117544,155 +117544,6 @@ Database:
       UpdateId: >-
         UPD-2020-07-28T01:50Z-PER-none-ID-CALFIRE-4751b58f-771f-4d9c-b742-4aad10ef45eb-NAME-LincolnFire-S-C
       Code: 0dccc182d846642b03b175e2ea21bb7c175011cb490ccdda1eed17564afac7e9
-  2020-CAMMU-016043:
-    Source_CALFIRE:
-      Lon: -121.101634
-      Lat: 37.083806
-      incident_name: Cottonwood Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-28T02:17Z'
-      incident_date_last_updateEpoch: 1595902620000
-      incident_date_created: '2020-07-27T16:28Z'
-      incident_date_createdEpoch: 1595867320000
-      incident_administrative_unit: CAL FIRE Madera-Mariposa-Merced Unit
-      incident_administrative_unit_url: ''
-      incident_county: Merced
-      incident_location: 'Hwy 152 and Romero Visitors Center, west of Santa Nella'
-      incident_acres_burned: 650
-      incident_containment: 45
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -121.101634
-      incident_latitude: 37.083806
-      incident_type: Wildfire
-      incident_id: 9810b7b8-b865-4413-a60c-5f47e8945eda
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/27/cottonwood-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-27'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Cottonwood Fire
-      ModifiedOnDateTime: '2020-07-28T02:17Z'
-      ModifiedOnDateTimeEpoch: 1595902620000
-      DailyAcres: 650
-      PercentContained: 45
-      UniqueFireIdentifier: CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/27/cottonwood-fire/'
-      Name: Cottonwood Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#CottonwoodFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-28T12:50:10.801Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda
-    Source_NFSA_Join:
-      Lon: -121.10156904180324
-      Lat: 37.083643255320084
-      id: 167171
-      Name: COTTONWOOD
-      Fire_Name: COTTONWOOD
-      UniqueFireIdentifier: 2020-CAMMU-016043
-      DailyAcres: 788
-      PercentContained: 50
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2020-07-28T12:35Z'
-      ICS209ReportDateTimeEpoch: 1595939700000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 110000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 121
-      FireDiscoveryDateTime: '2020-07-27T14:58Z'
-      FireDiscoveryDateTimeEpoch: 1595861937000
-      DispatchCenterID: CAMMCC
-      LocalIncidentIdentifier: '016043'
-      POOCounty: Merced
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-28T12:35Z'
-      ModifiedOnDateTimeEpoch: 1595939700000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CAMMU-016043
-      ModifiedOnDateTime_Raw: '2020-07-28T12:36Z'
-      ModifiedOnDateTimeEpoch_Raw: 1595939806000
-      Hashtag: '#CottonwoodFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-28T12:50:10.799Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -121.10156904180324
-    Lat: 37.083643255320084
-    id: 167171
-    Name: COTTONWOOD
-    Fire_Name: COTTONWOOD
-    UniqueFireIdentifier: 2020-CAMMU-016043
-    DailyAcres: 788
-    PercentContained: 50
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2020-07-28T12:35Z'
-    ICS209ReportDateTimeEpoch: 1595939700000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 110000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 121
-    FireDiscoveryDateTime: '2020-07-27T14:58Z'
-    FireDiscoveryDateTimeEpoch: 1595861937000
-    DispatchCenterID: CAMMCC
-    LocalIncidentIdentifier: '016043'
-    POOCounty: Merced
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-28T12:35Z'
-    ModifiedOnDateTimeEpoch: 1595939700000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CAMMU-016043
-      - CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda
-    ModifiedOnDateTime_Raw: '2020-07-28T12:36Z'
-    ModifiedOnDateTimeEpoch_Raw: 1595939806000
-    Hashtag: '#CottonwoodFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CAMMU
-    unitMention: Merced-Mariposa Unit
-    Final_Fire_Name: Cottonwood Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-28T12:35Z-PER-none-ID-2020-CAMMU-016043-NAME-COTTONWOOD-S-N'
-      Code: 6a56e399798d9bce2eaa99f3ee3a428944c1050be577437cb162fdb774ddb103
   2020-CALMU-003917:
     Source_CALFIRE:
       Lon: -120.923293
@@ -118002,3 +117853,157 @@ Database:
       UpdateId: >-
         UPD-2020-07-28T13:57Z-PER-none-ID-CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e-NAME-HogFire-S-C
       Code: f52d70c7c130b1dd6125b4970d5d19d4b03112dda126d06534440f6e702b4c47
+  CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda:
+    Source_CALFIRE:
+      Lon: -121.101634
+      Lat: 37.083806
+      incident_name: Cottonwood Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-28T13:59Z'
+      incident_date_last_updateEpoch: 1595944748000
+      incident_date_created: '2020-07-27T16:28Z'
+      incident_date_createdEpoch: 1595867320000
+      incident_administrative_unit: CAL FIRE Madera-Mariposa-Merced Unit
+      incident_administrative_unit_url: ''
+      incident_county: Merced
+      incident_location: 'Hwy 152 and Romero Visitors Center, west of Santa Nella'
+      incident_acres_burned: 788
+      incident_containment: 50
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -121.101634
+      incident_latitude: 37.083806
+      incident_type: Wildfire
+      incident_id: 9810b7b8-b865-4413-a60c-5f47e8945eda
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/27/cottonwood-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-27'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'True'
+      Fire_Name: Cottonwood Fire
+      ModifiedOnDateTime: '2020-07-28T13:59Z'
+      ModifiedOnDateTimeEpoch: 1595944748000
+      DailyAcres: 788
+      PercentContained: 50
+      UniqueFireIdentifier: CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/27/cottonwood-fire/'
+      Name: Cottonwood Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#CottonwoodFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-28T13:59:21.286Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda
+    Source_NFSA_Join:
+      Lon: -121.10156904180324
+      Lat: 37.083643255320084
+      id: 167171
+      Name: COTTONWOOD
+      Fire_Name: COTTONWOOD
+      UniqueFireIdentifier: 2020-CAMMU-016043
+      DailyAcres: 788
+      PercentContained: 50
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2020-07-28T12:35Z'
+      ICS209ReportDateTimeEpoch: 1595939700000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 110000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 121
+      FireDiscoveryDateTime: '2020-07-27T14:58Z'
+      FireDiscoveryDateTimeEpoch: 1595861937000
+      DispatchCenterID: CAMMCC
+      LocalIncidentIdentifier: '016043'
+      POOCounty: Merced
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-07-28T12:35Z'
+      ModifiedOnDateTimeEpoch: 1595939700000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CAMMU-016043
+      ModifiedOnDateTime_Raw: '2020-07-28T12:36Z'
+      ModifiedOnDateTimeEpoch_Raw: 1595939806000
+      Hashtag: '#CottonwoodFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-28T13:59:21.284Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -121.101634
+    Lat: 37.083806
+    incident_name: Cottonwood Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-28T13:59Z'
+    incident_date_last_updateEpoch: 1595944748000
+    incident_date_created: '2020-07-27T16:28Z'
+    incident_date_createdEpoch: 1595867320000
+    incident_administrative_unit: CAL FIRE Madera-Mariposa-Merced Unit
+    incident_administrative_unit_url: ''
+    incident_county: Merced
+    incident_location: 'Hwy 152 and Romero Visitors Center, west of Santa Nella'
+    incident_acres_burned: 788
+    incident_containment: 50
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -121.101634
+    incident_latitude: 37.083806
+    incident_type: Wildfire
+    incident_id: 9810b7b8-b865-4413-a60c-5f47e8945eda
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/27/cottonwood-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-27'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Cottonwood Fire
+    ModifiedOnDateTime: '2020-07-28T13:59Z'
+    ModifiedOnDateTimeEpoch: 1595944748000
+    DailyAcres: 788
+    PercentContained: 50
+    UniqueFireIdentifier: CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/27/cottonwood-fire/'
+    Name: Cottonwood Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#CottonwoodFire'
+    _CorrelationIds:
+      - 2020-CAMMU-016043
+      - CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 9810b7b8
+    unitMention: null
+    Final_Fire_Name: Cottonwood Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-28T13:59Z-PER-none-ID-CALFIRE-9810b7b8-b865-4413-a60c-5f47e8945eda-NAME-CottonwoodFire-S-C
+      Code: 5f99168e94da85c6ab03f95482cc06da6046959f67cd34e1a0d29b4ac1bc5502
