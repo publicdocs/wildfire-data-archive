@@ -118429,158 +118429,6 @@ Database:
       UpdateId: >-
         UPD-2020-07-28T23:40Z-PER-none-ID-2020-CASRF-000656-NAME-RedSalmonComplex-S-N
       Code: 2a804247769fa698ad51769230b2897de275889d91707dad84ec9324a9ecda04
-  2020-CALMU-003874:
-    Source_CALFIRE:
-      Lon: -120.86375
-      Lat: 40.420886
-      incident_name: Hog Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-07-29T01:31Z'
-      incident_date_last_updateEpoch: 1595986262000
-      incident_date_created: '2020-07-19T00:28Z'
-      incident_date_createdEpoch: 1595118498000
-      incident_administrative_unit: CAL FIRE  Lassen-Modoc
-      incident_administrative_unit_url: ''
-      incident_county: Lassen
-      incident_location: 'Hog Flat Reservoir, West of Susanville'
-      incident_acres_burned: 9564
-      incident_containment: 72
-      incident_control: Evacuation orders in place.to
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: Lassen National Forest, California Highway Patrol,
-        Lassen County Sheriff, CALTRANS, County of Lassen, EMSA CAL-MAT,
-        Susanville Police Department
-      incident_longitude: -120.86375
-      incident_latitude: 40.420886
-      incident_type: Wildfire
-      incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-18'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Hog Fire
-      ModifiedOnDateTime: '2020-07-29T01:31Z'
-      ModifiedOnDateTimeEpoch: 1595986262000
-      DailyAcres: 9564
-      PercentContained: 72
-      UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-      Name: Hog Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#HogFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-29T12:59:56.959Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    Source_NFSA_Join:
-      Lon: -120.87118710403796
-      Lat: 40.44336088504746
-      id: 165377
-      Name: HOG
-      Fire_Name: HOG
-      UniqueFireIdentifier: 2020-CALMU-003874
-      DailyAcres: 9564
-      PercentContained: 75
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 1 Team
-      ICS209ReportDateTime: '2020-07-29T11:45Z'
-      ICS209ReportDateTimeEpoch: 1596023100000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 28336000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 1647
-      FireDiscoveryDateTime: '2020-07-18T22:22Z'
-      FireDiscoveryDateTimeEpoch: 1595110928000
-      DispatchCenterID: CASIFC
-      LocalIncidentIdentifier: 003874
-      POOCounty: Lassen
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-29T11:45Z'
-      ModifiedOnDateTimeEpoch: 1596023100000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CALMU-003874
-      ModifiedOnDateTime_Raw: '2020-07-29T12:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1596026041000
-      Hashtag: '#HogFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-07-29T12:59:56.957Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.87118710403796
-    Lat: 40.44336088504746
-    id: 165377
-    Name: HOG
-    Fire_Name: HOG
-    UniqueFireIdentifier: 2020-CALMU-003874
-    DailyAcres: 9564
-    PercentContained: 75
-    FireMgmtComplexity: Type 1 Incident
-    IncidentManagementOrganization: Type 1 Team
-    ICS209ReportDateTime: '2020-07-29T11:45Z'
-    ICS209ReportDateTimeEpoch: 1596023100000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 28336000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 1647
-    FireDiscoveryDateTime: '2020-07-18T22:22Z'
-    FireDiscoveryDateTimeEpoch: 1595110928000
-    DispatchCenterID: CASIFC
-    LocalIncidentIdentifier: 003874
-    POOCounty: Lassen
-    POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-07-29T11:45Z'
-    ModifiedOnDateTimeEpoch: 1596023100000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrType1
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CALMU-003874
-      - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    ModifiedOnDateTime_Raw: '2020-07-29T12:34Z'
-    ModifiedOnDateTimeEpoch_Raw: 1596026041000
-    Hashtag: '#HogFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CALMU
-    unitMention: Lassen-Modoc Unit
-    Final_Fire_Name: Hog Fire
-    _Update:
-      UpdateId: 'UPD-2020-07-29T11:45Z-PER-none-ID-2020-CALMU-003874-NAME-HOG-S-N'
-      Code: 7cee931ae048b44e700b013852cc9994838d66a7b2d7b421fb8721bf21f87180
   CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d:
     Source_CALFIRE:
       Lon: -120.00521
@@ -118735,3 +118583,163 @@ Database:
       UpdateId: >-
         UPD-2020-07-29T13:46Z-PER-none-ID-CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d-NAME-BranchFire-S-C
       Code: 6a4eb8ce6b53cdfe28238edee9d41ad270573b58e88cf8b71f9afa68998da69a
+  CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e:
+    Source_CALFIRE:
+      Lon: -120.86375
+      Lat: 40.420886
+      incident_name: Hog Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-07-29T14:04Z'
+      incident_date_last_updateEpoch: 1596031447000
+      incident_date_created: '2020-07-19T00:28Z'
+      incident_date_createdEpoch: 1595118498000
+      incident_administrative_unit: CAL FIRE  Lassen-Modoc
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Hog Flat Reservoir, West of Susanville'
+      incident_acres_burned: 9564
+      incident_containment: 75
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: Lassen National Forest, California Highway Patrol,
+        Lassen County Sheriff, CALTRANS, County of Lassen, EMSA CAL-MAT,
+        Susanville Police Department
+      incident_longitude: -120.86375
+      incident_latitude: 40.420886
+      incident_type: Wildfire
+      incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-18'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'True'
+      Fire_Name: Hog Fire
+      ModifiedOnDateTime: '2020-07-29T14:04Z'
+      ModifiedOnDateTimeEpoch: 1596031447000
+      DailyAcres: 9564
+      PercentContained: 75
+      UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+      Name: Hog Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HogFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-29T14:04:11.411Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+    Source_NFSA_Join:
+      Lon: -120.87118710403796
+      Lat: 40.44336088504746
+      id: 165377
+      Name: HOG
+      Fire_Name: HOG
+      UniqueFireIdentifier: 2020-CALMU-003874
+      DailyAcres: 9564
+      PercentContained: 75
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 1 Team
+      ICS209ReportDateTime: '2020-07-29T11:45Z'
+      ICS209ReportDateTimeEpoch: 1596023100000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 28336000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 1647
+      FireDiscoveryDateTime: '2020-07-18T22:22Z'
+      FireDiscoveryDateTimeEpoch: 1595110928000
+      DispatchCenterID: CASIFC
+      LocalIncidentIdentifier: 003874
+      POOCounty: Lassen
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-29T11:45Z'
+      ModifiedOnDateTimeEpoch: 1596023100000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CALMU-003874
+      ModifiedOnDateTime_Raw: '2020-07-29T12:34Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596026041000
+      Hashtag: '#HogFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-29T14:04:11.409Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.86375
+    Lat: 40.420886
+    incident_name: Hog Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-29T14:04Z'
+    incident_date_last_updateEpoch: 1596031447000
+    incident_date_created: '2020-07-19T00:28Z'
+    incident_date_createdEpoch: 1595118498000
+    incident_administrative_unit: CAL FIRE  Lassen-Modoc
+    incident_administrative_unit_url: ''
+    incident_county: Lassen
+    incident_location: 'Hog Flat Reservoir, West of Susanville'
+    incident_acres_burned: 9564
+    incident_containment: 75
+    incident_control: ''
+    incident_cooperating_agencies: >-
+      Cooperating Agencies: Lassen National Forest, California Highway Patrol,
+      Lassen County Sheriff, CALTRANS, County of Lassen, EMSA CAL-MAT,
+      Susanville Police Department
+    incident_longitude: -120.86375
+    incident_latitude: 40.420886
+    incident_type: Wildfire
+    incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-18'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Hog Fire
+    ModifiedOnDateTime: '2020-07-29T14:04Z'
+    ModifiedOnDateTimeEpoch: 1596031447000
+    DailyAcres: 9564
+    PercentContained: 75
+    UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+    Name: Hog Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#HogFire'
+    _CorrelationIds:
+      - 2020-CALMU-003874
+      - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: fc0b7761
+    unitMention: null
+    Final_Fire_Name: Hog Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-07-29T14:04Z-PER-none-ID-CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e-NAME-HogFire-S-C
+      Code: 177af9b29747aca9985bc77ba5defdbc2300f8ae666b43871c2e07e06be8fc09
