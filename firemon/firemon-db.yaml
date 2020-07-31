@@ -120132,14 +120132,14 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-31T12:30Z-PER-none-ID-2020-CALMU-003917-NAME-GOLD-S-N'
       Code: 6fa67377ca562276b73860c5b5f4133d40b73d23713a3bb3684dd7d119fdd5d2
-  2020-CASLU-009669:
+  CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d:
     Source_CALFIRE:
       Lon: -120.00521
       Lat: 35.35146
       incident_name: Branch Fire
       incident_is_final: 'False'
-      incident_date_last_update: '2020-07-31T02:39Z'
-      incident_date_last_updateEpoch: 1596163143000
+      incident_date_last_update: '2020-07-31T14:10Z'
+      incident_date_last_updateEpoch: 1596204613000
       incident_date_created: '2020-07-28T21:59Z'
       incident_date_createdEpoch: 1595973578000
       incident_administrative_unit: CAL FIRE San Luis Obispo Unit
@@ -120147,7 +120147,7 @@ Database:
       incident_county: San Luis Obispo
       incident_location: 'Hwy 58 and Soda Lake Rd, California Valley'
       incident_acres_burned: 3022
-      incident_containment: 85
+      incident_containment: 90
       incident_control: ''
       incident_cooperating_agencies: ''
       incident_longitude: -120.00521
@@ -120160,12 +120160,12 @@ Database:
       incident_dateonly_created: '2020-07-28'
       is_active: 'Y'
       calfire_incident: 'True'
-      notification_desired: 'False'
+      notification_desired: 'True'
       Fire_Name: Branch Fire
-      ModifiedOnDateTime: '2020-07-31T02:39Z'
-      ModifiedOnDateTimeEpoch: 1596163143000
+      ModifiedOnDateTime: '2020-07-31T14:10Z'
+      ModifiedOnDateTimeEpoch: 1596204613000
       DailyAcres: 3022
-      PercentContained: 85
+      PercentContained: 90
       UniqueFireIdentifier: CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d
       Link: 'https://www.fire.ca.gov/incidents/2020/7/28/branch-fire/'
       Name: Branch Fire
@@ -120174,7 +120174,7 @@ Database:
       Hashtag: '#BranchFire'
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-31T14:00:20.157Z'
+          RetrievedOn: '2020-07-31T14:10:18.202Z'
           Request:
             uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
             qs: {}
@@ -120224,7 +120224,7 @@ Database:
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-31T14:00:20.156Z'
+          RetrievedOn: '2020-07-31T14:10:18.200Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -120233,51 +120233,56 @@ Database:
             timeout: 120000
             json: true
         Modified: true
-    Lon: -120.00523811960525
-    Lat: 35.35148694143126
-    id: 167569
-    Name: BRANCH
-    Fire_Name: BRANCH
-    UniqueFireIdentifier: 2020-CASLU-009669
+    Lon: -120.00521
+    Lat: 35.35146
+    incident_name: Branch Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-07-31T14:10Z'
+    incident_date_last_updateEpoch: 1596204613000
+    incident_date_created: '2020-07-28T21:59Z'
+    incident_date_createdEpoch: 1595973578000
+    incident_administrative_unit: CAL FIRE San Luis Obispo Unit
+    incident_administrative_unit_url: ''
+    incident_county: San Luis Obispo
+    incident_location: 'Hwy 58 and Soda Lake Rd, California Valley'
+    incident_acres_burned: 3022
+    incident_containment: 90
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -120.00521
+    incident_latitude: 35.35146
+    incident_type: Wildfire
+    incident_id: b7cf91b3-e441-46c7-8214-a2ce84a21a3d
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/28/branch-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-07-28'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Branch Fire
+    ModifiedOnDateTime: '2020-07-31T14:10Z'
+    ModifiedOnDateTimeEpoch: 1596204613000
     DailyAcres: 3022
     PercentContained: 90
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 IC
-    ICS209ReportDateTime: '2020-07-31T13:00Z'
-    ICS209ReportDateTimeEpoch: 1596200400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 900000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 138
-    FireDiscoveryDateTime: '2020-07-28T21:05Z'
-    FireDiscoveryDateTimeEpoch: 1595970308000
-    DispatchCenterID: CASLCC
-    LocalIncidentIdentifier: 009669
-    POOCounty: San Luis Obispo
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-31T13:00Z'
-    ModifiedOnDateTimeEpoch: 1596200400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
+    UniqueFireIdentifier: CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d
+    Link: 'https://www.fire.ca.gov/incidents/2020/7/28/branch-fire/'
+    Name: Branch Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#BranchFire'
     _CorrelationIds:
       - 2020-CASLU-009669
       - CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d
-    ModifiedOnDateTime_Raw: '2020-07-31T13:30Z'
-    ModifiedOnDateTimeEpoch_Raw: 1596202248000
-    Hashtag: '#BranchFire'
-    NFSAType: Large WF
     PerimDateTime: null
     PerimeterData:
       DateTime: null
       Acres: null
       _Provenance: null
-    unitId: CASLU
-    unitMention: San Luis Obispo Unit
+    unitId: b7cf91b3
+    unitMention: null
     Final_Fire_Name: Branch Fire
     _Update:
-      UpdateId: 'UPD-2020-07-31T13:00Z-PER-none-ID-2020-CASLU-009669-NAME-BRANCH-S-N'
-      Code: 90bf5e681cb751b4ae46ae55cd42f8459e5e07ed696ad9b9bdafdf768f12df2f
+      UpdateId: >-
+        UPD-2020-07-31T14:10Z-PER-none-ID-CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d-NAME-BranchFire-S-C
+      Code: adf646bf769ea3a9d4e99ed47f2df44f15221ce09f6ce854c492290dc17f6d14
