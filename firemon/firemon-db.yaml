@@ -120317,21 +120317,21 @@ Database:
       LocalIncidentIdentifier: '000207'
       POOCounty: Lincoln
       POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-07-31T23:12Z'
-      ModifiedOnDateTimeEpoch: 1596237156000
-      ModifiedBySystem: wildcad
+      ModifiedOnDateTime: '2020-07-31T23:46Z'
+      ModifiedOnDateTimeEpoch: 1596239171000
+      ModifiedBySystem: wfdss
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2020-IDLNX-000207
-      ModifiedOnDateTime_Raw: '2020-07-31T23:12Z'
-      ModifiedOnDateTimeEpoch_Raw: 1596237156000
+      ModifiedOnDateTime_Raw: '2020-07-31T23:46Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596239171000
       Hashtag: '#DropsFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-31T23:20:29.205Z'
+          RetrievedOn: '2020-07-31T23:49:37.382Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -120364,16 +120364,16 @@ Database:
     LocalIncidentIdentifier: '000207'
     POOCounty: Lincoln
     POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-07-31T23:12Z'
-    ModifiedOnDateTimeEpoch: 1596237156000
-    ModifiedBySystem: wildcad
+    ModifiedOnDateTime: '2020-07-31T23:46Z'
+    ModifiedOnDateTimeEpoch: 1596239171000
+    ModifiedBySystem: wfdss
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2020-IDLNX-000207
-    ModifiedOnDateTime_Raw: '2020-07-31T23:12Z'
-    ModifiedOnDateTimeEpoch_Raw: 1596237156000
+    ModifiedOnDateTime_Raw: '2020-07-31T23:46Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596239171000
     Hashtag: '#DropsFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -120385,8 +120385,8 @@ Database:
     unitMention: Lincoln Co.
     Final_Fire_Name: Drops Fire
     _Update:
-      UpdateId: 'UPD-2020-07-31T23:12Z-PER-none-ID-2020-IDLNX-000207-NAME-Drops-S-N'
-      Code: a302ddb8e290bc84d44f76d9abc2d6f524cfdda71739c488b0c2d4a3bf062905
+      UpdateId: 'UPD-2020-07-31T23:46Z-PER-none-ID-2020-IDLNX-000207-NAME-Drops-S-N'
+      Code: a833a3da7da5752d383a873d70b916714fd4d52593f13624c599c8596367630a
   2020-OR711S-010221:
     Source_NFSA_Join:
       Lon: -122.71367666753129
@@ -120676,3 +120676,99 @@ Database:
     _Update:
       UpdateId: 'UPD-2020-07-31T22:56Z-PER-none-ID-2020-UTSCS-200425-NAME-Hollow-S-N'
       Code: 2558a10d86259cdd311623cc42abdacc28be14790468afff15eaf9c686c843cd
+  2020-AZASF-000689:
+    Source_NFSA_Join:
+      Lon: -111.01151210751595
+      Lat: 34.572076175610064
+      id: 168041
+      Name: Willow
+      Fire_Name: Willow
+      UniqueFireIdentifier: 2020-AZASF-000689
+      DailyAcres: 115
+      PercentContained: 30
+      FireMgmtComplexity: Type 4 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2020-07-31T23:00Z'
+      ICS209ReportDateTimeEpoch: 1596236400000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 10000
+      FireCause: Natural
+      TotalIncidentPersonnel: 31
+      FireDiscoveryDateTime: '2020-07-30T15:43Z'
+      FireDiscoveryDateTimeEpoch: 1596123829000
+      DispatchCenterID: AZSDC
+      LocalIncidentIdentifier: 000689
+      POOCounty: Coconino
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-07-31T23:00Z'
+      ModifiedOnDateTimeEpoch: 1596236400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: NonImsr
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-AZASF-000689
+      ModifiedOnDateTime_Raw: '2020-07-31T23:44Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596239046000
+      Hashtag: '#WillowFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-07-31T23:49:37.382Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -111.01151210751595
+    Lat: 34.572076175610064
+    id: 168041
+    Name: Willow
+    Fire_Name: Willow
+    UniqueFireIdentifier: 2020-AZASF-000689
+    DailyAcres: 115
+    PercentContained: 30
+    FireMgmtComplexity: Type 4 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2020-07-31T23:00Z'
+    ICS209ReportDateTimeEpoch: 1596236400000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 10000
+    FireCause: Natural
+    TotalIncidentPersonnel: 31
+    FireDiscoveryDateTime: '2020-07-30T15:43Z'
+    FireDiscoveryDateTimeEpoch: 1596123829000
+    DispatchCenterID: AZSDC
+    LocalIncidentIdentifier: 000689
+    POOCounty: Coconino
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-07-31T23:00Z'
+    ModifiedOnDateTimeEpoch: 1596236400000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: NonImsr
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-AZASF-000689
+    ModifiedOnDateTime_Raw: '2020-07-31T23:44Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596239046000
+    Hashtag: '#WillowFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: AZASF
+    unitMention: Apache-Sitgreaves NF
+    Final_Fire_Name: Willow Fire
+    _Update:
+      UpdateId: 'UPD-2020-07-31T23:00Z-PER-none-ID-2020-AZASF-000689-NAME-Willow-S-N'
+      Code: f5129b07f18d2afdbe715b7ca7a68a6fd571723adc0f6812e8f945144606620b
