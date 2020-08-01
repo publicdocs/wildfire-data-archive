@@ -119390,39 +119390,39 @@ Database:
       Name: East Beach Road
       Fire_Name: East Beach Road
       UniqueFireIdentifier: 2020-WAOLP-000112
-      DailyAcres: 19
-      PercentContained: 0
-      FireMgmtComplexity: Type 4 Incident
-      IncidentManagementOrganization: Type 4 IC
-      ICS209ReportDateTime: '2020-07-31T00:00Z'
-      ICS209ReportDateTimeEpoch: 1596153600000
-      ICS209ReportStatus: I
+      DailyAcres: 65
+      PercentContained: 5
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2020-08-01T02:00Z'
+      ICS209ReportDateTimeEpoch: 1596247200000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: 65000
+      EstimatedCostToDate: 573000
       FireCause: Unknown
-      TotalIncidentPersonnel: 71
+      TotalIncidentPersonnel: 205
       FireDiscoveryDateTime: '2020-07-29T23:00Z'
       FireDiscoveryDateTimeEpoch: 1596063600000
       DispatchCenterID: WAPSC
       LocalIncidentIdentifier: '000112'
       POOCounty: Clallam
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-07-31T00:00Z'
-      ModifiedOnDateTimeEpoch: 1596153600000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2020-08-01T02:00Z'
+      ModifiedOnDateTimeEpoch: 1596247200000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: NonImsr
       Source: NFSA
       _CorrelationIds:
         - 2020-WAOLP-000112
-      ModifiedOnDateTime_Raw: '2020-07-31T04:44Z'
-      ModifiedOnDateTimeEpoch_Raw: 1596170669000
+      ModifiedOnDateTime_Raw: '2020-08-01T02:26Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596248795000
       Hashtag: '#EastBeachRoadFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-07-31T10:38:15.274Z'
+          RetrievedOn: '2020-08-01T02:50:12.360Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -119437,34 +119437,34 @@ Database:
     Name: East Beach Road
     Fire_Name: East Beach Road
     UniqueFireIdentifier: 2020-WAOLP-000112
-    DailyAcres: 19
-    PercentContained: 0
-    FireMgmtComplexity: Type 4 Incident
-    IncidentManagementOrganization: Type 4 IC
-    ICS209ReportDateTime: '2020-07-31T00:00Z'
-    ICS209ReportDateTimeEpoch: 1596153600000
-    ICS209ReportStatus: I
+    DailyAcres: 65
+    PercentContained: 5
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2020-08-01T02:00Z'
+    ICS209ReportDateTimeEpoch: 1596247200000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: 65000
+    EstimatedCostToDate: 573000
     FireCause: Unknown
-    TotalIncidentPersonnel: 71
+    TotalIncidentPersonnel: 205
     FireDiscoveryDateTime: '2020-07-29T23:00Z'
     FireDiscoveryDateTimeEpoch: 1596063600000
     DispatchCenterID: WAPSC
     LocalIncidentIdentifier: '000112'
     POOCounty: Clallam
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-07-31T00:00Z'
-    ModifiedOnDateTimeEpoch: 1596153600000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2020-08-01T02:00Z'
+    ModifiedOnDateTimeEpoch: 1596247200000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: NonImsr
     Source: NFSA
     _CorrelationIds:
       - 2020-WAOLP-000112
-    ModifiedOnDateTime_Raw: '2020-07-31T04:44Z'
-    ModifiedOnDateTimeEpoch_Raw: 1596170669000
+    ModifiedOnDateTime_Raw: '2020-08-01T02:26Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596248795000
     Hashtag: '#EastBeachRoadFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -119477,8 +119477,8 @@ Database:
     Final_Fire_Name: East Beach Road Fire
     _Update:
       UpdateId: >-
-        UPD-2020-07-31T00:00Z-PER-none-ID-2020-WAOLP-000112-NAME-EastBeachRoad-S-N
-      Code: 6bf6e58ba84a6713484ae9969b743e21e5d20f516aa8191bd5a0ec6c823fcb58
+        UPD-2020-08-01T02:00Z-PER-none-ID-2020-WAOLP-000112-NAME-EastBeachRoad-S-N
+      Code: c4db2a83a956b50a28a0229227dd8a2f5a9be73afba60a1c3bda0ae4449b2644
   2020-WANES-001748:
     Source_NFSA_Join:
       Lon: -119.69261541757884
@@ -120971,3 +120971,99 @@ Database:
       UpdateId: >-
         UPD-2020-08-01T02:25Z-PER-none-ID-CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d-NAME-BranchFire-S-C
       Code: 3fbda0ee13a0420974226810a05dfb84a76fa2c54fa7d450844483a94c442fb6
+  2020-UTUWF-000615:
+    Source_NFSA_Join:
+      Lon: -110.93951213749378
+      Lat: 40.637383163397296
+      id: 168213
+      Name: Upper Provo
+      Fire_Name: Upper Provo
+      UniqueFireIdentifier: 2020-UTUWF-000615
+      DailyAcres: 378
+      PercentContained: null
+      FireMgmtComplexity: null
+      IncidentManagementOrganization: null
+      ICS209ReportDateTime: null
+      ICS209ReportDateTimeEpoch: null
+      ICS209ReportStatus: null
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: null
+      FireCause: Human
+      TotalIncidentPersonnel: null
+      FireDiscoveryDateTime: '2020-07-31T18:40Z'
+      FireDiscoveryDateTimeEpoch: 1596220800000
+      DispatchCenterID: UTNUC
+      LocalIncidentIdentifier: '000615'
+      POOCounty: Wasatch
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-08-01T02:41Z'
+      ModifiedOnDateTimeEpoch: 1596249710000
+      ModifiedBySystem: wildcad
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-UTUWF-000615
+      ModifiedOnDateTime_Raw: '2020-08-01T02:41Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596249710000
+      Hashtag: '#UpperProvoFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-08-01T02:50:12.360Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -110.93951213749378
+    Lat: 40.637383163397296
+    id: 168213
+    Name: Upper Provo
+    Fire_Name: Upper Provo
+    UniqueFireIdentifier: 2020-UTUWF-000615
+    DailyAcres: 378
+    PercentContained: null
+    FireMgmtComplexity: null
+    IncidentManagementOrganization: null
+    ICS209ReportDateTime: null
+    ICS209ReportDateTimeEpoch: null
+    ICS209ReportStatus: null
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: null
+    FireCause: Human
+    TotalIncidentPersonnel: null
+    FireDiscoveryDateTime: '2020-07-31T18:40Z'
+    FireDiscoveryDateTimeEpoch: 1596220800000
+    DispatchCenterID: UTNUC
+    LocalIncidentIdentifier: '000615'
+    POOCounty: Wasatch
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-08-01T02:41Z'
+    ModifiedOnDateTimeEpoch: 1596249710000
+    ModifiedBySystem: wildcad
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-UTUWF-000615
+    ModifiedOnDateTime_Raw: '2020-08-01T02:41Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596249710000
+    Hashtag: '#UpperProvoFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: UTUWF
+    unitMention: Uinta-Wasatch-Cache NF
+    Final_Fire_Name: Upper Provo Fire
+    _Update:
+      UpdateId: 'UPD-2020-08-01T02:41Z-PER-none-ID-2020-UTUWF-000615-NAME-UpperProvo-S-N'
+      Code: 58134d284f1ade4417a0d2c6af393e45d1d6c15f8856e601edcdede863b4e2d6
