@@ -121151,39 +121151,39 @@ Database:
       Name: Pine Gulch
       Fire_Name: Pine Gulch
       UniqueFireIdentifier: 2020-COGRD-000307
-      DailyAcres: 1005
-      PercentContained: null
-      FireMgmtComplexity: null
-      IncidentManagementOrganization: null
-      ICS209ReportDateTime: null
-      ICS209ReportDateTimeEpoch: null
-      ICS209ReportStatus: null
+      DailyAcres: 1500
+      PercentContained: 5
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2020-08-02T23:00Z'
+      ICS209ReportDateTimeEpoch: 1596409200000
+      ICS209ReportStatus: U
       IncidentTypeCategory: WF
       IncidentTypeKind: FI
-      EstimatedCostToDate: null
+      EstimatedCostToDate: 500000
       FireCause: Unknown
-      TotalIncidentPersonnel: null
+      TotalIncidentPersonnel: 95
       FireDiscoveryDateTime: '2020-07-31T23:16Z'
       FireDiscoveryDateTimeEpoch: 1596237360000
       DispatchCenterID: COGJC
       LocalIncidentIdentifier: '000307'
       POOCounty: Mesa
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-08-01T22:19Z'
-      ModifiedOnDateTimeEpoch: 1596320381000
-      ModifiedBySystem: wfdss
+      ModifiedOnDateTime: '2020-08-02T23:00Z'
+      ModifiedOnDateTimeEpoch: 1596409200000
+      ModifiedBySystem: ics209
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2020-COGRD-000307
-      ModifiedOnDateTime_Raw: '2020-08-01T22:19Z'
-      ModifiedOnDateTimeEpoch_Raw: 1596320381000
+      ModifiedOnDateTime_Raw: '2020-08-02T23:56Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596412585000
       Hashtag: '#PineGulchFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-08-01T22:30:21.464Z'
+          RetrievedOn: '2020-08-03T00:01:15.879Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -121198,34 +121198,34 @@ Database:
     Name: Pine Gulch
     Fire_Name: Pine Gulch
     UniqueFireIdentifier: 2020-COGRD-000307
-    DailyAcres: 1005
-    PercentContained: null
-    FireMgmtComplexity: null
-    IncidentManagementOrganization: null
-    ICS209ReportDateTime: null
-    ICS209ReportDateTimeEpoch: null
-    ICS209ReportStatus: null
+    DailyAcres: 1500
+    PercentContained: 5
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 3 Team
+    ICS209ReportDateTime: '2020-08-02T23:00Z'
+    ICS209ReportDateTimeEpoch: 1596409200000
+    ICS209ReportStatus: U
     IncidentTypeCategory: WF
     IncidentTypeKind: FI
-    EstimatedCostToDate: null
+    EstimatedCostToDate: 500000
     FireCause: Unknown
-    TotalIncidentPersonnel: null
+    TotalIncidentPersonnel: 95
     FireDiscoveryDateTime: '2020-07-31T23:16Z'
     FireDiscoveryDateTimeEpoch: 1596237360000
     DispatchCenterID: COGJC
     LocalIncidentIdentifier: '000307'
     POOCounty: Mesa
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-08-01T22:19Z'
-    ModifiedOnDateTimeEpoch: 1596320381000
-    ModifiedBySystem: wfdss
+    ModifiedOnDateTime: '2020-08-02T23:00Z'
+    ModifiedOnDateTimeEpoch: 1596409200000
+    ModifiedBySystem: ics209
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2020-COGRD-000307
-    ModifiedOnDateTime_Raw: '2020-08-01T22:19Z'
-    ModifiedOnDateTimeEpoch_Raw: 1596320381000
+    ModifiedOnDateTime_Raw: '2020-08-02T23:56Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596412585000
     Hashtag: '#PineGulchFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -121237,8 +121237,8 @@ Database:
     unitMention: Grand Junction Field Office
     Final_Fire_Name: Pine Gulch Fire
     _Update:
-      UpdateId: 'UPD-2020-08-01T22:19Z-PER-none-ID-2020-COGRD-000307-NAME-PineGulch-S-N'
-      Code: 4bd1c78806e46279399dbadc1613c1b59335a8054adf01b5ab9fd7e81ca86b9c
+      UpdateId: 'UPD-2020-08-02T23:00Z-PER-none-ID-2020-COGRD-000307-NAME-PineGulch-S-N'
+      Code: 83dc1244405c127e94be988c858bb97ac8ebc884b16e993e454a08fe905ea761
   2020-COMFX-000237:
     Source_NFSA_Join:
       Lon: -109.03621561241837
@@ -121855,166 +121855,6 @@ Database:
       Code: 95e7c68492d6d2c362896600abe10d7598d48b1797242590478b149da895deb3
     Damage:
       structuresDestroyed: 2
-  CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e:
-    Source_CALFIRE:
-      Lon: -120.86375
-      Lat: 40.420886
-      incident_name: Hog Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-08-02T13:58Z'
-      incident_date_last_updateEpoch: 1596376701000
-      incident_date_created: '2020-07-19T00:28Z'
-      incident_date_createdEpoch: 1595118498000
-      incident_administrative_unit: CAL FIRE  Lassen-Modoc
-      incident_administrative_unit_url: ''
-      incident_county: Lassen
-      incident_location: 'Hog Flat Reservoir, West of Susanville'
-      incident_acres_burned: 9564
-      incident_containment: 93
-      incident_control: ''
-      incident_cooperating_agencies: >-
-        Cooperating Agencies: Lassen National Forest, California Highway Patrol,
-        Lassen County Sheriff, CALTRANS, County of Lassen, EMSA CAL-MAT,
-        Susanville Police Department
-      incident_longitude: -120.86375
-      incident_latitude: 40.420886
-      incident_type: Wildfire
-      incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-07-18'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Hog Fire
-      ModifiedOnDateTime: '2020-08-02T13:58Z'
-      ModifiedOnDateTimeEpoch: 1596376701000
-      DailyAcres: 9564
-      PercentContained: 93
-      UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-      Name: Hog Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#HogFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-08-02T20:30:26.348Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    Source_NFSA_Join:
-      Lon: -120.87118710403796
-      Lat: 40.44336088504746
-      id: 165377
-      Name: HOG
-      Fire_Name: HOG
-      UniqueFireIdentifier: 2020-CALMU-003874
-      DailyAcres: 9564
-      PercentContained: 93
-      FireMgmtComplexity: Type 1 Incident
-      IncidentManagementOrganization: Type 3 IC
-      ICS209ReportDateTime: '2020-08-01T23:30Z'
-      ICS209ReportDateTimeEpoch: 1596324600000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 33244954.64
-      FireCause: Unknown
-      TotalIncidentPersonnel: 248
-      FireDiscoveryDateTime: '2020-07-18T22:22Z'
-      FireDiscoveryDateTimeEpoch: 1595110928000
-      DispatchCenterID: CASIFC
-      LocalIncidentIdentifier: 003874
-      POOCounty: Lassen
-      POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-08-01T23:30Z'
-      ModifiedOnDateTimeEpoch: 1596324600000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrType1
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CALMU-003874
-      ModifiedOnDateTime_Raw: '2020-08-01T23:34Z'
-      ModifiedOnDateTimeEpoch_Raw: 1596324872000
-      Hashtag: '#HogFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-08-02T20:30:26.346Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.86375
-    Lat: 40.420886
-    incident_name: Hog Fire
-    incident_is_final: 'False'
-    incident_date_last_update: '2020-08-02T13:58Z'
-    incident_date_last_updateEpoch: 1596376701000
-    incident_date_created: '2020-07-19T00:28Z'
-    incident_date_createdEpoch: 1595118498000
-    incident_administrative_unit: CAL FIRE  Lassen-Modoc
-    incident_administrative_unit_url: ''
-    incident_county: Lassen
-    incident_location: 'Hog Flat Reservoir, West of Susanville'
-    incident_acres_burned: 9564
-    incident_containment: 93
-    incident_control: ''
-    incident_cooperating_agencies: >-
-      Cooperating Agencies: Lassen National Forest, California Highway Patrol,
-      Lassen County Sheriff, CALTRANS, County of Lassen, EMSA CAL-MAT,
-      Susanville Police Department
-    incident_longitude: -120.86375
-    incident_latitude: 40.420886
-    incident_type: Wildfire
-    incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
-    incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-    incident_date_extinguished: ''
-    incident_dateonly_extinguished: ''
-    incident_dateonly_created: '2020-07-18'
-    is_active: 'Y'
-    calfire_incident: 'True'
-    notification_desired: 'False'
-    Fire_Name: Hog Fire
-    ModifiedOnDateTime: '2020-08-02T13:58Z'
-    ModifiedOnDateTimeEpoch: 1596376701000
-    DailyAcres: 9564
-    PercentContained: 93
-    UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
-    Name: Hog Fire
-    Source: CALFIRE
-    State: CA
-    Hashtag: '#HogFire'
-    _CorrelationIds:
-      - 2020-CALMU-003874
-      - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: fc0b7761
-    unitMention: null
-    Final_Fire_Name: Hog Fire
-    _Update:
-      UpdateId: >-
-        UPD-2020-08-02T13:58Z-PER-none-ID-CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e-NAME-HogFire-S-C
-      Code: 5f02fffd246ceaf349b447475e518bb8d38093b232e891b66aa255648516455a
   CALFIRE-b7cf91b3-e441-46c7-8214-a2ce84a21a3d:
     Source_CALFIRE:
       Lon: -120.00521
@@ -123064,7 +122904,7 @@ Database:
       Name: North
       Fire_Name: North
       UniqueFireIdentifier: 2020-NVCCD-030547
-      DailyAcres: 300
+      DailyAcres: 1500
       PercentContained: null
       FireMgmtComplexity: null
       IncidentManagementOrganization: null
@@ -123082,21 +122922,21 @@ Database:
       LocalIncidentIdentifier: '030547'
       POOCounty: Lassen
       POOLandownerKind: Federal
-      ModifiedOnDateTime: '2020-08-02T23:21Z'
-      ModifiedOnDateTimeEpoch: 1596410465000
+      ModifiedOnDateTime: '2020-08-02T23:50Z'
+      ModifiedOnDateTimeEpoch: 1596412211000
       ModifiedBySystem: wildcad
       popupinfo: null
       calc_symboltype: ImsrOther
       Source: NFSA
       _CorrelationIds:
         - 2020-NVCCD-030547
-      ModifiedOnDateTime_Raw: '2020-08-02T23:21Z'
-      ModifiedOnDateTimeEpoch_Raw: 1596410465000
+      ModifiedOnDateTime_Raw: '2020-08-02T23:50Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596412211000
       Hashtag: '#NorthFire'
       NFSAType: Large WF
       _Provenance:
         OriginalSource:
-          RetrievedOn: '2020-08-02T23:30:50.654Z'
+          RetrievedOn: '2020-08-03T00:01:15.879Z'
           Request:
             uri: 'https://maps.nwcg.gov/sa/publicData.json'
             qs: {}
@@ -123111,7 +122951,7 @@ Database:
     Name: North
     Fire_Name: North
     UniqueFireIdentifier: 2020-NVCCD-030547
-    DailyAcres: 300
+    DailyAcres: 1500
     PercentContained: null
     FireMgmtComplexity: null
     IncidentManagementOrganization: null
@@ -123129,16 +122969,16 @@ Database:
     LocalIncidentIdentifier: '030547'
     POOCounty: Lassen
     POOLandownerKind: Federal
-    ModifiedOnDateTime: '2020-08-02T23:21Z'
-    ModifiedOnDateTimeEpoch: 1596410465000
+    ModifiedOnDateTime: '2020-08-02T23:50Z'
+    ModifiedOnDateTimeEpoch: 1596412211000
     ModifiedBySystem: wildcad
     popupinfo: null
     calc_symboltype: ImsrOther
     Source: NFSA
     _CorrelationIds:
       - 2020-NVCCD-030547
-    ModifiedOnDateTime_Raw: '2020-08-02T23:21Z'
-    ModifiedOnDateTimeEpoch_Raw: 1596410465000
+    ModifiedOnDateTime_Raw: '2020-08-02T23:50Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596412211000
     Hashtag: '#NorthFire'
     NFSAType: Large WF
     PerimDateTime: null
@@ -123150,8 +122990,8 @@ Database:
     unitMention: Carson City District Office
     Final_Fire_Name: North Fire
     _Update:
-      UpdateId: 'UPD-2020-08-02T23:21Z-PER-none-ID-2020-NVCCD-030547-NAME-North-S-N'
-      Code: 6d69b6c434f75bd89753c5696c9d865ec13d7ddd880a2d702ec58f0fa9adc1a6
+      UpdateId: 'UPD-2020-08-02T23:50Z-PER-none-ID-2020-NVCCD-030547-NAME-North-S-N'
+      Code: d2427e739ecfaa766ffe1d434b2fd2e75f068911c39c94d98541b6e6da2ec218
   2020-TXTXS-200357:
     Source_NFSA_Join:
       Lon: -99.04889899717584
@@ -123355,3 +123195,251 @@ Database:
       UpdateId: >-
         UPD-2020-08-02T23:51Z-PER-none-ID-CALFIRE-91f3f77d-6b4a-47fb-bc79-a0250cded29a-NAME-NorthFire-S-C
       Code: d650b3c3ab7b6f427cd98995eb382876da5d7c992e955e481d5eb0bf7349ea84
+  2020-CALMU-003874:
+    Source_CALFIRE:
+      Lon: -120.86375
+      Lat: 40.420886
+      incident_name: Hog Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-08-02T13:58Z'
+      incident_date_last_updateEpoch: 1596376701000
+      incident_date_created: '2020-07-19T00:28Z'
+      incident_date_createdEpoch: 1595118498000
+      incident_administrative_unit: CAL FIRE  Lassen-Modoc
+      incident_administrative_unit_url: ''
+      incident_county: Lassen
+      incident_location: 'Hog Flat Reservoir, West of Susanville'
+      incident_acres_burned: 9564
+      incident_containment: 93
+      incident_control: ''
+      incident_cooperating_agencies: >-
+        Cooperating Agencies: Lassen National Forest, California Highway Patrol,
+        Lassen County Sheriff, CALTRANS, County of Lassen, EMSA CAL-MAT,
+        Susanville Police Department
+      incident_longitude: -120.86375
+      incident_latitude: 40.420886
+      incident_type: Wildfire
+      incident_id: fc0b7761-54a3-4275-a550-313d2b604f5e
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-07-18'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'False'
+      Fire_Name: Hog Fire
+      ModifiedOnDateTime: '2020-08-02T13:58Z'
+      ModifiedOnDateTimeEpoch: 1596376701000
+      DailyAcres: 9564
+      PercentContained: 93
+      UniqueFireIdentifier: CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+      Link: 'https://www.fire.ca.gov/incidents/2020/7/18/hog-fire/'
+      Name: Hog Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#HogFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-08-03T00:01:15.880Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+    Source_NFSA_Join:
+      Lon: -120.87118710403796
+      Lat: 40.44336088504746
+      id: 165377
+      Name: HOG
+      Fire_Name: HOG
+      UniqueFireIdentifier: 2020-CALMU-003874
+      DailyAcres: 9564
+      PercentContained: 94
+      FireMgmtComplexity: Type 1 Incident
+      IncidentManagementOrganization: Type 3 IC
+      ICS209ReportDateTime: '2020-08-02T23:45Z'
+      ICS209ReportDateTimeEpoch: 1596411900000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 33489909.29
+      FireCause: Unknown
+      TotalIncidentPersonnel: 248
+      FireDiscoveryDateTime: '2020-07-18T22:22Z'
+      FireDiscoveryDateTimeEpoch: 1595110928000
+      DispatchCenterID: CASIFC
+      LocalIncidentIdentifier: 003874
+      POOCounty: Lassen
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-08-02T23:45Z'
+      ModifiedOnDateTimeEpoch: 1596411900000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrType1
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CALMU-003874
+      ModifiedOnDateTime_Raw: '2020-08-02T23:53Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596412401000
+      Hashtag: '#HogFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-08-03T00:01:15.879Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.87118710403796
+    Lat: 40.44336088504746
+    id: 165377
+    Name: HOG
+    Fire_Name: HOG
+    UniqueFireIdentifier: 2020-CALMU-003874
+    DailyAcres: 9564
+    PercentContained: 94
+    FireMgmtComplexity: Type 1 Incident
+    IncidentManagementOrganization: Type 3 IC
+    ICS209ReportDateTime: '2020-08-02T23:45Z'
+    ICS209ReportDateTimeEpoch: 1596411900000
+    ICS209ReportStatus: U
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 33489909.29
+    FireCause: Unknown
+    TotalIncidentPersonnel: 248
+    FireDiscoveryDateTime: '2020-07-18T22:22Z'
+    FireDiscoveryDateTimeEpoch: 1595110928000
+    DispatchCenterID: CASIFC
+    LocalIncidentIdentifier: 003874
+    POOCounty: Lassen
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-08-02T23:45Z'
+    ModifiedOnDateTimeEpoch: 1596411900000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrType1
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-CALMU-003874
+      - CALFIRE-fc0b7761-54a3-4275-a550-313d2b604f5e
+    ModifiedOnDateTime_Raw: '2020-08-02T23:53Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596412401000
+    Hashtag: '#HogFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: CALMU
+    unitMention: Lassen-Modoc Unit
+    Final_Fire_Name: Hog Fire
+    _Update:
+      UpdateId: 'UPD-2020-08-02T23:45Z-PER-none-ID-2020-CALMU-003874-NAME-HOG-S-N'
+      Code: d8855ea862efe6a7e1b82f04dc5dcbabfa0d6b755ebe366beeb13f1a3ef807dc
+  2020-COLSD-000239:
+    Source_NFSA_Join:
+      Lon: -108.73351031112863
+      Lat: 40.8247187782762
+      id: 168464
+      Name: IRISH
+      Fire_Name: IRISH
+      UniqueFireIdentifier: 2020-COLSD-000239
+      DailyAcres: 100
+      PercentContained: 0
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 4 IC
+      ICS209ReportDateTime: '2020-08-02T23:00Z'
+      ICS209ReportDateTimeEpoch: 1596409200000
+      ICS209ReportStatus: I
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 0
+      FireCause: Natural
+      TotalIncidentPersonnel: 30
+      FireDiscoveryDateTime: '2020-08-01T22:02Z'
+      FireDiscoveryDateTimeEpoch: 1596319320000
+      DispatchCenterID: COCRC
+      LocalIncidentIdentifier: 000239
+      POOCounty: Moffat
+      POOLandownerKind: Federal
+      ModifiedOnDateTime: '2020-08-02T23:00Z'
+      ModifiedOnDateTimeEpoch: 1596409200000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-COLSD-000239
+      ModifiedOnDateTime_Raw: '2020-08-02T23:57Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596412663000
+      Hashtag: '#IrishFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-08-03T00:01:15.879Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -108.73351031112863
+    Lat: 40.8247187782762
+    id: 168464
+    Name: IRISH
+    Fire_Name: IRISH
+    UniqueFireIdentifier: 2020-COLSD-000239
+    DailyAcres: 100
+    PercentContained: 0
+    FireMgmtComplexity: Type 3 Incident
+    IncidentManagementOrganization: Type 4 IC
+    ICS209ReportDateTime: '2020-08-02T23:00Z'
+    ICS209ReportDateTimeEpoch: 1596409200000
+    ICS209ReportStatus: I
+    IncidentTypeCategory: WF
+    IncidentTypeKind: FI
+    EstimatedCostToDate: 0
+    FireCause: Natural
+    TotalIncidentPersonnel: 30
+    FireDiscoveryDateTime: '2020-08-01T22:02Z'
+    FireDiscoveryDateTimeEpoch: 1596319320000
+    DispatchCenterID: COCRC
+    LocalIncidentIdentifier: 000239
+    POOCounty: Moffat
+    POOLandownerKind: Federal
+    ModifiedOnDateTime: '2020-08-02T23:00Z'
+    ModifiedOnDateTimeEpoch: 1596409200000
+    ModifiedBySystem: ics209
+    popupinfo: null
+    calc_symboltype: ImsrOther
+    Source: NFSA
+    _CorrelationIds:
+      - 2020-COLSD-000239
+    ModifiedOnDateTime_Raw: '2020-08-02T23:57Z'
+    ModifiedOnDateTimeEpoch_Raw: 1596412663000
+    Hashtag: '#IrishFire'
+    NFSAType: Large WF
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: COLSD
+    unitMention: Little Snake Field Office
+    Final_Fire_Name: Irish Fire
+    _Update:
+      UpdateId: 'UPD-2020-08-02T23:00Z-PER-none-ID-2020-COLSD-000239-NAME-IRISH-S-N'
+      Code: 478aa9ab7e43f234df84b669c39c5587e20be1b3a9f24127140b35f9af949497
