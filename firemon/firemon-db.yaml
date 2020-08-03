@@ -123341,155 +123341,6 @@ Database:
       UpdateId: >-
         UPD-2020-08-03T00:38Z-PER-none-ID-2020-OR954S-000514-NAME-FirMountain-S-N
       Code: 5c711aca6c424ff1ae02afa67306814b08de67232d901367baa4203119acaf25
-  2020-CASLU-009866:
-    Source_CALFIRE:
-      Lon: -120.47346
-      Lat: 35.43128
-      incident_name: Pond Fire
-      incident_is_final: 'False'
-      incident_date_last_update: '2020-08-02T17:10Z'
-      incident_date_last_updateEpoch: 1596388230000
-      incident_date_created: '2020-08-02T01:44Z'
-      incident_date_createdEpoch: 1596332692000
-      incident_administrative_unit: CAL FIRE San Luis Obispo Unit
-      incident_administrative_unit_url: ''
-      incident_county: San Luis Obispo
-      incident_location: 'Kata Creek Road and Oak Creek Place, East of Santa Margarita'
-      incident_acres_burned: 1550
-      incident_containment: 10
-      incident_control: ''
-      incident_cooperating_agencies: ''
-      incident_longitude: -120.47346
-      incident_latitude: 35.43128
-      incident_type: Wildfire
-      incident_id: 5f88019a-39cf-43ff-921f-d5442e47f98d
-      incident_url: 'https://www.fire.ca.gov/incidents/2020/8/1/pond-fire/'
-      incident_date_extinguished: ''
-      incident_dateonly_extinguished: ''
-      incident_dateonly_created: '2020-08-01'
-      is_active: 'Y'
-      calfire_incident: 'True'
-      notification_desired: 'False'
-      Fire_Name: Pond Fire
-      ModifiedOnDateTime: '2020-08-02T17:10Z'
-      ModifiedOnDateTimeEpoch: 1596388230000
-      DailyAcres: 1550
-      PercentContained: 10
-      UniqueFireIdentifier: CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d
-      Link: 'https://www.fire.ca.gov/incidents/2020/8/1/pond-fire/'
-      Name: Pond Fire
-      Source: CALFIRE
-      State: CA
-      Hashtag: '#PondFire'
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-08-03T01:30:43.641Z'
-          Request:
-            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: false
-        Modified: true
-      _CorrelationIds:
-        - CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d
-    Source_NFSA_Join:
-      Lon: -120.45572526828552
-      Lat: 35.41633987697369
-      id: 168470
-      Name: POND
-      Fire_Name: POND
-      UniqueFireIdentifier: 2020-CASLU-009866
-      DailyAcres: 1700
-      PercentContained: 54
-      FireMgmtComplexity: Type 3 Incident
-      IncidentManagementOrganization: Type 3 Team
-      ICS209ReportDateTime: '2020-08-03T01:00Z'
-      ICS209ReportDateTimeEpoch: 1596416400000
-      ICS209ReportStatus: U
-      IncidentTypeCategory: WF
-      IncidentTypeKind: FI
-      EstimatedCostToDate: 1000000
-      FireCause: Unknown
-      TotalIncidentPersonnel: 448
-      FireDiscoveryDateTime: '2020-08-01T23:34Z'
-      FireDiscoveryDateTimeEpoch: 1596324881000
-      DispatchCenterID: CASLCC
-      LocalIncidentIdentifier: 009866
-      POOCounty: San Luis Obispo
-      POOLandownerKind: Private
-      ModifiedOnDateTime: '2020-08-03T01:00Z'
-      ModifiedOnDateTimeEpoch: 1596416400000
-      ModifiedBySystem: ics209
-      popupinfo: null
-      calc_symboltype: ImsrOther
-      Source: NFSA
-      _CorrelationIds:
-        - 2020-CASLU-009866
-      ModifiedOnDateTime_Raw: '2020-08-03T01:19Z'
-      ModifiedOnDateTimeEpoch_Raw: 1596417565000
-      Hashtag: '#PondFire'
-      NFSAType: Large WF
-      _Provenance:
-        OriginalSource:
-          RetrievedOn: '2020-08-03T01:30:43.639Z'
-          Request:
-            uri: 'https://maps.nwcg.gov/sa/publicData.json'
-            qs: {}
-            headers:
-              User-Agent: Request-Promise; Bot
-            timeout: 120000
-            json: true
-        Modified: true
-    Lon: -120.45572526828552
-    Lat: 35.41633987697369
-    id: 168470
-    Name: POND
-    Fire_Name: POND
-    UniqueFireIdentifier: 2020-CASLU-009866
-    DailyAcres: 1700
-    PercentContained: 54
-    FireMgmtComplexity: Type 3 Incident
-    IncidentManagementOrganization: Type 3 Team
-    ICS209ReportDateTime: '2020-08-03T01:00Z'
-    ICS209ReportDateTimeEpoch: 1596416400000
-    ICS209ReportStatus: U
-    IncidentTypeCategory: WF
-    IncidentTypeKind: FI
-    EstimatedCostToDate: 1000000
-    FireCause: Unknown
-    TotalIncidentPersonnel: 448
-    FireDiscoveryDateTime: '2020-08-01T23:34Z'
-    FireDiscoveryDateTimeEpoch: 1596324881000
-    DispatchCenterID: CASLCC
-    LocalIncidentIdentifier: 009866
-    POOCounty: San Luis Obispo
-    POOLandownerKind: Private
-    ModifiedOnDateTime: '2020-08-03T01:00Z'
-    ModifiedOnDateTimeEpoch: 1596416400000
-    ModifiedBySystem: ics209
-    popupinfo: null
-    calc_symboltype: ImsrOther
-    Source: NFSA
-    _CorrelationIds:
-      - 2020-CASLU-009866
-      - CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d
-    ModifiedOnDateTime_Raw: '2020-08-03T01:19Z'
-    ModifiedOnDateTimeEpoch_Raw: 1596417565000
-    Hashtag: '#PondFire'
-    NFSAType: Large WF
-    PerimDateTime: null
-    PerimeterData:
-      DateTime: null
-      Acres: null
-      _Provenance: null
-    unitId: CASLU
-    unitMention: San Luis Obispo Unit
-    Final_Fire_Name: Pond Fire
-    _Update:
-      UpdateId: 'UPD-2020-08-03T01:00Z-PER-none-ID-2020-CASLU-009866-NAME-POND-S-N'
-      Code: e23fe0daf22f51db506180505af6828120fd2e8517c1af351ed4829c8c1e46e6
   CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda:
     Source_CALFIRE:
       Lon: -120.923293
@@ -123644,3 +123495,161 @@ Database:
       UpdateId: >-
         UPD-2020-08-03T01:50Z-PER-none-ID-CALFIRE-9d4f56ae-b319-49b0-9a77-10088a2defda-NAME-GoldFire-S-C
       Code: ed8b4f7e11146ed089f15e4247eec5a68ec85e10a0b6b9712f1b4cb65514eb49
+  CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d:
+    Source_CALFIRE:
+      Lon: -120.47346
+      Lat: 35.43128
+      incident_name: Pond Fire
+      incident_is_final: 'False'
+      incident_date_last_update: '2020-08-03T02:08Z'
+      incident_date_last_updateEpoch: 1596420488000
+      incident_date_created: '2020-08-02T01:44Z'
+      incident_date_createdEpoch: 1596332692000
+      incident_administrative_unit: >-
+        Unified Command: CAL FIRE San Luis Obispo Unit and United States Forest
+        Service
+      incident_administrative_unit_url: ''
+      incident_county: San Luis Obispo
+      incident_location: 'Kata Creek Road and Oak Creek Place, East of Santa Margarita'
+      incident_acres_burned: 1700
+      incident_containment: 54
+      incident_control: ''
+      incident_cooperating_agencies: ''
+      incident_longitude: -120.47346
+      incident_latitude: 35.43128
+      incident_type: Wildfire
+      incident_id: 5f88019a-39cf-43ff-921f-d5442e47f98d
+      incident_url: 'https://www.fire.ca.gov/incidents/2020/8/1/pond-fire/'
+      incident_date_extinguished: ''
+      incident_dateonly_extinguished: ''
+      incident_dateonly_created: '2020-08-01'
+      is_active: 'Y'
+      calfire_incident: 'True'
+      notification_desired: 'True'
+      Fire_Name: Pond Fire
+      ModifiedOnDateTime: '2020-08-03T02:08Z'
+      ModifiedOnDateTimeEpoch: 1596420488000
+      DailyAcres: 1700
+      PercentContained: 54
+      UniqueFireIdentifier: CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d
+      Link: 'https://www.fire.ca.gov/incidents/2020/8/1/pond-fire/'
+      Name: Pond Fire
+      Source: CALFIRE
+      State: CA
+      Hashtag: '#PondFire'
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-08-03T02:08:13.198Z'
+          Request:
+            uri: 'https://www.fire.ca.gov/imapdata/mapdataactive.csv'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: false
+        Modified: true
+      _CorrelationIds:
+        - CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d
+    Source_NFSA_Join:
+      Lon: -120.45572526828552
+      Lat: 35.41633987697369
+      id: 168470
+      Name: POND
+      Fire_Name: POND
+      UniqueFireIdentifier: 2020-CASLU-009866
+      DailyAcres: 1700
+      PercentContained: 54
+      FireMgmtComplexity: Type 3 Incident
+      IncidentManagementOrganization: Type 3 Team
+      ICS209ReportDateTime: '2020-08-03T01:00Z'
+      ICS209ReportDateTimeEpoch: 1596416400000
+      ICS209ReportStatus: U
+      IncidentTypeCategory: WF
+      IncidentTypeKind: FI
+      EstimatedCostToDate: 1000000
+      FireCause: Unknown
+      TotalIncidentPersonnel: 448
+      FireDiscoveryDateTime: '2020-08-01T23:34Z'
+      FireDiscoveryDateTimeEpoch: 1596324881000
+      DispatchCenterID: CASLCC
+      LocalIncidentIdentifier: 009866
+      POOCounty: San Luis Obispo
+      POOLandownerKind: Private
+      ModifiedOnDateTime: '2020-08-03T01:00Z'
+      ModifiedOnDateTimeEpoch: 1596416400000
+      ModifiedBySystem: ics209
+      popupinfo: null
+      calc_symboltype: ImsrOther
+      Source: NFSA
+      _CorrelationIds:
+        - 2020-CASLU-009866
+      ModifiedOnDateTime_Raw: '2020-08-03T01:19Z'
+      ModifiedOnDateTimeEpoch_Raw: 1596417565000
+      Hashtag: '#PondFire'
+      NFSAType: Large WF
+      _Provenance:
+        OriginalSource:
+          RetrievedOn: '2020-08-03T02:08:13.195Z'
+          Request:
+            uri: 'https://maps.nwcg.gov/sa/publicData.json'
+            qs: {}
+            headers:
+              User-Agent: Request-Promise; Bot
+            timeout: 120000
+            json: true
+        Modified: true
+    Lon: -120.47346
+    Lat: 35.43128
+    incident_name: Pond Fire
+    incident_is_final: 'False'
+    incident_date_last_update: '2020-08-03T02:08Z'
+    incident_date_last_updateEpoch: 1596420488000
+    incident_date_created: '2020-08-02T01:44Z'
+    incident_date_createdEpoch: 1596332692000
+    incident_administrative_unit: >-
+      Unified Command: CAL FIRE San Luis Obispo Unit and United States Forest
+      Service
+    incident_administrative_unit_url: ''
+    incident_county: San Luis Obispo
+    incident_location: 'Kata Creek Road and Oak Creek Place, East of Santa Margarita'
+    incident_acres_burned: 1700
+    incident_containment: 54
+    incident_control: ''
+    incident_cooperating_agencies: ''
+    incident_longitude: -120.47346
+    incident_latitude: 35.43128
+    incident_type: Wildfire
+    incident_id: 5f88019a-39cf-43ff-921f-d5442e47f98d
+    incident_url: 'https://www.fire.ca.gov/incidents/2020/8/1/pond-fire/'
+    incident_date_extinguished: ''
+    incident_dateonly_extinguished: ''
+    incident_dateonly_created: '2020-08-01'
+    is_active: 'Y'
+    calfire_incident: 'True'
+    notification_desired: 'True'
+    Fire_Name: Pond Fire
+    ModifiedOnDateTime: '2020-08-03T02:08Z'
+    ModifiedOnDateTimeEpoch: 1596420488000
+    DailyAcres: 1700
+    PercentContained: 54
+    UniqueFireIdentifier: CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d
+    Link: 'https://www.fire.ca.gov/incidents/2020/8/1/pond-fire/'
+    Name: Pond Fire
+    Source: CALFIRE
+    State: CA
+    Hashtag: '#PondFire'
+    _CorrelationIds:
+      - 2020-CASLU-009866
+      - CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d
+    PerimDateTime: null
+    PerimeterData:
+      DateTime: null
+      Acres: null
+      _Provenance: null
+    unitId: 5f88019a
+    unitMention: null
+    Final_Fire_Name: Pond Fire
+    _Update:
+      UpdateId: >-
+        UPD-2020-08-03T02:08Z-PER-none-ID-CALFIRE-5f88019a-39cf-43ff-921f-d5442e47f98d-NAME-PondFire-S-C
+      Code: 393ec7e0959c63720e5ead0d1818befd8e5223fc835a24cb6d0a1c8fa94b296d
